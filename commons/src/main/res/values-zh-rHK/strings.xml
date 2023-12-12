@@ -356,7 +356,7 @@
 在成功启动之后，请将图标颜色设置为默认的橙色#F57C00。在最坏的情况下，您可能必须重新安装本应用。</string>
     <string name="share_colors_success">颜色更改成功。已添加名为“共享”的新主题，以后您可以使用它来更改所有应用的颜色。</string>
     <string name="shared_theme_note">注意尽管您已经使用 Pro 版本的应用，由于技术原因您仍然需要简单感谢。它用来负责颜色同步。</string>
-    <string name="purchase_thank_you">请购买 &lt;a href=https://play.google.com/store/apps/details\?id=com.simplemobiletools.thankyou&gt;简单感谢&lt;/a&gt; 以解锁此功能并支持开发。感谢！</string>
+    <string name="purchase_thank_you">请购买 &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;简单感谢&lt;/a&gt; 以解锁此功能并支持开发。感谢！</string>
     <!-- Themes -->
     <string name="light_theme">浅色主题</string>
     <string name="dark_theme">深色主题</string>
@@ -834,12 +834,12 @@
     <string name="donate_please">
         <![CDATA[
             哈囉，<br><br>
-            希望您喜歡這個應用程式。它不包含廣告，所以請購買<a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a> 以支持應用程式開發，這個對話框也不會再出現。<br><br>
+            希望您喜歡這個應用程式。它不包含廣告，所以請購買<a href="https://play.google.com/store/apps/details?id=org.fossify..thankyou">Simple Thank You</a> 以支持應用程式開發，這個對話框也不會再出現。<br><br>
             多謝！
         ]]>
     </string>
-    <string name="donate_new">你好，&lt;br&gt;&lt;br&gt;希望您喜欢这个应用程序。它不包含广告，我们也不收集您的数据，要支持它的开发， 请购买 &lt;a href=https://play.google.com/store/apps/details\?id=com.simplemobiletools.thankyou&gt;Simple Thank You&lt;/a&gt;. 您将解锁所有的应用功能，包括颜色自定义。&lt;br&gt;&lt;br&gt;谢谢你！</string>
-    <string name="donate_short">请购买 &lt;a href=https://play.google.com/store/apps/details\?id=com.simplemobiletools.thankyou&gt;Simple Thank You&lt;/a&gt; 支持我们，购买后还可解锁所有应用功能，包括允许定制颜色。</string>
+    <string name="donate_new">你好，&lt;br&gt;&lt;br&gt;希望您喜欢这个应用程序。它不包含广告，我们也不收集您的数据，要支持它的开发， 请购买 &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Simple Thank You&lt;/a&gt;. 您将解锁所有的应用功能，包括颜色自定义。&lt;br&gt;&lt;br&gt;谢谢你！</string>
+    <string name="donate_short">请购买 &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Simple Thank You&lt;/a&gt; 支持我们，购买后还可解锁所有应用功能，包括允许定制颜色。</string>
     <string name="purchase">购买</string>
     <string name="get_simple_phone">订购 Simple Phone</string>
     <string name="update_thank_you">请更新简单感谢到最新版本</string>
@@ -854,7 +854,7 @@
     <string name="thank_you">非常感谢</string>
     <string name="widget_locked_pro">小部件被锁定。
 \n请升级到专业版解锁。</string>
-    <string name="features_locked">此功能被锁，请购买 &lt;a href=https://play.google.com/store/apps/details\?id=com.simplemobiletools.thankyou&gt;Simple Thank You&lt;/a&gt; 解锁完整版应用。&lt;br&gt;&lt;br&gt;这是一次性付款，如果您不满意，我们可以退款给您。</string>
+    <string name="features_locked">此功能被锁，请购买 &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Simple Thank You&lt;/a&gt; 解锁完整版应用。&lt;br&gt;&lt;br&gt;这是一次性付款，如果您不满意，我们可以退款给您。</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">嘿，&lt;br&gt;&lt;br&gt;我们最近发布了一些新的应用：&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; 您可以点击标题或图标来下载。&lt;br&gt;&lt;br&gt; 谢谢</string>
     <string name="simple_app_launcher">简单应用启动器</string>
@@ -904,7 +904,7 @@
     <string name="faq_1_title_commons">为什么我在应用小部件列表里没有找到这个应用的小部件？</string>
     <string name="faq_1_text_commons">这很可能是因为您将应用程序移动到了SD卡。由于 Android 系统的限制，在这种情况下会隐藏应用程序的小部件。 唯一的解决方法是在系统设置中将应用程序移回内部存储。</string>
     <string name="faq_2_title_commons">我想支持您，但我不能捐赠金钱。 还有什么是我能够做的吗？</string>
-    <string name="faq_2_text_commons">是的，当然。 您可以传播有关应用程序的信息或提供良好的反馈和评分。 您还可以通过以新语言翻译应用程序，或仅更新一些现有翻译来提供帮助。 翻译指南位于 &lt;a href=https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;this website&lt;/a&gt;, 或者如果你有任何问题，欢迎发送邮件到 &lt;a href=mailto:hello@simplemobiletools.com&gt;hello@simplemobiletools.com&lt;/a&gt; 。</string>
+    <string name="faq_2_text_commons">是的，当然。 您可以传播有关应用程序的信息或提供良好的反馈和评分。 您还可以通过以新语言翻译应用程序，或仅更新一些现有翻译来提供帮助。 翻译指南位于 &lt;a href=https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;this website&lt;/a&gt;, 或者如果你有任何问题，欢迎发送邮件到 &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; 。</string>
     <string name="faq_3_title_commons">我该怎么恢复误删的文件？</string>
     <string name="faq_3_text_commons">不幸的是，您无法恢复。在确认对话框后文件将被立即删除，您并没有回收站用。</string>
     <string name="faq_4_title_commons">我不喜欢小部件的颜色，我可以修改吗？</string>
@@ -919,7 +919,7 @@
     <string name="faq_8_title_commons">为什么我需要升级到专业版？</string>
     <string name="faq_8_text_commons">由于您的应用程序版本不再更新，bug可能将永远得不到修复，也不会再添加任何新功能。 您可以在Google Play上花少量的钱来购买专业版。
          这是一次性付款，意味着您在购买之后就不再收费，即使您更换了新的设备。 如果您不喜欢Pro版本，可以在几个小时内将其卸载，之后您将自动收到退款。
-         如果您想要在此之后退款，请通过hello@simplemobiletools.com与我们联系。</string>
+         如果您想要在此之后退款，请通过hello@fossify.org与我们联系。</string>
     <string name="faq_9_title_commons">我如何一次性选择多个项目?</string>
     <string name="faq_9_text_commons">有多种方式可以做到。第一种是长按一个项目进入选择模式，然后轻轻点击其余项目来选择它们。第二种方式类似于在电脑上使用鼠标选择项目，
         长按一个项目进入选择模式，然后用您的手指向下滑过其它项目来实现选择。第三种选择多个项目的方式是长按一个项目，然后长按另一个从而选择它们之间全部的项目。如果您
@@ -931,7 +931,7 @@
     <string name="translation">翻译</string>
     <string name="development">开发</string>
     <string name="other_help">其他帮助</string>
-    <string name="contributors_label">此列表包含对 Simple Mobile Tools 套件中的任何应用程序有显著帮助的所有人，而不仅仅是这个应用程序。 翻译由志愿者处理，如果您也想提供帮助，请告诉我们。 翻译指南位于 &lt;a href=https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;this website&lt;/a&gt;，或者如果你有任何问题，欢迎发送电子邮件到 &lt;a href=mailto:hello@simplemobiletools.com&gt;hello@simplemobiletools.com&lt;/a&gt;。感谢所有贡献者和其他支持者！</string>
+    <string name="contributors_label">此列表包含对 Simple Mobile Tools 套件中的任何应用程序有显著帮助的所有人，而不仅仅是这个应用程序。 翻译由志愿者处理，如果您也想提供帮助，请告诉我们。 翻译指南位于 &lt;a href=https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;this website&lt;/a&gt;，或者如果你有任何问题，欢迎发送电子邮件到 &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt;。感谢所有贡献者和其他支持者！</string>
     <string name="translation_arabic">Arabic</string>
     <string name="translation_azerbaijani">Azerbaijani</string>
     <string name="translation_bengali">Bengali</string>
@@ -1070,8 +1070,8 @@
         <item quantity="other">Your trial expires in %d days.</item>
     </plurals>
     <!-- Google Play listing -->
-    <string name="deprecated_app">已弃用：该应用版本已不再维护，请在以下链接获取专业版 https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
-    <string name="pro_app_refund">别忘了如果您在2小时内卸载任何付费应用将会自动退款。如果您想在之后退款，只需通过 hello@simplemobiletools.com 联系我们即可。这样您就可以放心试用了 :)</string>
+    <string name="deprecated_app">已弃用：该应用版本已不再维护，请在以下链接获取专业版 https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
+    <string name="pro_app_refund">别忘了如果您在2小时内卸载任何付费应用将会自动退款。如果您想在之后退款，只需通过 hello@fossify.org 联系我们即可。这样您就可以放心试用了 :)</string>
     <!-- Description of our developer profile on Google Play, it can have max 140 characters -->
     <string name="developer_description">一组简单且开源的 Android 应用程序，可自定义小部件，并且没有广告和不必要的权限。</string>
 </resources>

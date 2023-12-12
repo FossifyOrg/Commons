@@ -356,7 +356,7 @@
         Setelah dijalankan, kembalikan warna default ikon #F57C00. Jika masih tidak bisa, anda mungkin harus memasang ulang aplikasi.</string>
     <string name="share_colors_success">Warna berhasil diperbarui. Tema baru dengan nama \'Saling Berbagi\' telah ditambahkan. Kedepannya, silakan gunakan untuk memperbarui semua warna aplikasi.</string>
     <string name="shared_theme_note">Dicatat bahwa meskipun Anda menggunakan versi aplikasi Pro, Anda masih membutuhkan Terima Kasih Simpel untuk alasan teknis. Itu menangani sinkronisasi warna.</string>
-    <string name="purchase_thank_you">Silakan beli &lt;a href=https://play.google.com/store/apps/details\?id=com.simplemobiletools.thankyou&gt;Terima Kasih Simpel&lt;/a&gt; untuk membuka fungsi ini dan mendukung pengembangan. Terima kasih!</string>
+    <string name="purchase_thank_you">Silakan beli &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Terima Kasih Simpel&lt;/a&gt; untuk membuka fungsi ini dan mendukung pengembangan. Terima kasih!</string>
     <!-- Themes -->
     <string name="light_theme">Terang</string>
     <string name="dark_theme">Gelap</string>
@@ -872,9 +872,9 @@
     <string name="additional_info">Info tambahan</string>
     <string name="app_version">Versi aplikasi: %s</string>
     <string name="device_os">OS perangkat: %s</string>
-    <string name="donate_please">Halo,&lt;br&gt;&lt;br&gt; semoga Anda menyukai aplikasi ini. Aplikasi ini sama sekali tidak berisi iklan, dukung pengembangan dengan membeli aplikasi &lt;a href=https://play.google.com/store/apps/details\?id=com.simplemobiletools.thankyou&gt;Terima Kasih Simpel&lt;/a&gt;, ini juga untuk mencegah dialog ini muncul kembali.&lt;br&gt;&lt;br&gt; Terima kasih!</string>
-    <string name="donate_new">Halo,&lt;br&gt;&lt;br&gt;semoga Anda menikmati aplikasi ini. Aplikasi ini tidak berisi iklan dan kami juga tidak mengumpulkan data Anda, mohon dukung pengembangannya dengan membeli &lt;a href=https://play.google.com/store/apps/details\?id=com.simplemobiletools.thankyou&gt;Terima Kasih Simpel&lt;/a&gt;. Anda juga akan memiliki semua fitur aplikasi termasuk kustomisasi warna.&lt;br&gt;&lt;br&gt;Terima kasih!</string>
-    <string name="donate_short">Silakan dukung kami dengan membeli &lt;a href=https://play.google.com/store/apps/details\?id=com.simplemobiletools.thankyou&gt;Terima Kasih Simpel&lt;/a&gt;, itu juga akan membuka fitur aplikasi termasuk kustomisasi warna.</string>
+    <string name="donate_please">Halo,&lt;br&gt;&lt;br&gt; semoga Anda menyukai aplikasi ini. Aplikasi ini sama sekali tidak berisi iklan, dukung pengembangan dengan membeli aplikasi &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Terima Kasih Simpel&lt;/a&gt;, ini juga untuk mencegah dialog ini muncul kembali.&lt;br&gt;&lt;br&gt; Terima kasih!</string>
+    <string name="donate_new">Halo,&lt;br&gt;&lt;br&gt;semoga Anda menikmati aplikasi ini. Aplikasi ini tidak berisi iklan dan kami juga tidak mengumpulkan data Anda, mohon dukung pengembangannya dengan membeli &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Terima Kasih Simpel&lt;/a&gt;. Anda juga akan memiliki semua fitur aplikasi termasuk kustomisasi warna.&lt;br&gt;&lt;br&gt;Terima kasih!</string>
+    <string name="donate_short">Silakan dukung kami dengan membeli &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Terima Kasih Simpel&lt;/a&gt;, itu juga akan membuka fitur aplikasi termasuk kustomisasi warna.</string>
     <string name="purchase">Beli</string>
     <string name="get_simple_phone">Dapatkan Ponsel Simpel</string>
     <string name="update_thank_you">Silakan perbarui Terima Kasih Simpel ke versi terbaru</string>
@@ -897,7 +897,7 @@
     <string name="thank_you">Terima kasih</string>
     <string name="widget_locked_pro">Widget terkunci.
 \nHarap tingkatkan ke versi Pro untuk membukanya.</string>
-    <string name="features_locked">Fitur ini terkunci, silakan beli &lt;a href=https://play.google.com/store/apps/details\?id=com.simplemobiletools.thankyou&gt;Terima Kasih Simpel&lt;/a&gt; untuk membuka kunci aplikasi lengkapnya. Ini adalah pembayaran satu kali saja dan jika Anda tidak akan puas, kami dapat mengembalikan uang Anda.</string>
+    <string name="features_locked">Fitur ini terkunci, silakan beli &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Terima Kasih Simpel&lt;/a&gt; untuk membuka kunci aplikasi lengkapnya. Ini adalah pembayaran satu kali saja dan jika Anda tidak akan puas, kami dapat mengembalikan uang Anda.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">
         <![CDATA[
@@ -958,7 +958,7 @@
     <string name="faq_1_text_commons">Kemungkinan besar karena anda memindahkan aplikasi ke kartu SD. Ada keterbatasan sistem Android yang akan menyembunyikan widget aplikasi
         karena hal tersebut. Satu-satunya solusi adalah memindahkannya kembali ke Penyimpanan Internal melalui pengaturan perangkat anda.</string>
     <string name="faq_2_title_commons">Saya ingin mendukung Anda, tetapi saya tidak bisa berdonasi. Adakah cara lain yang bisa saya lakukan?</string>
-    <string name="faq_2_text_commons">Ya, tentu saja. Anda dapat menyebarkan berita tentang aplikasi atau memberikan umpan balik dan penilaian yang baik. Anda juga dapat membantu dengan menerjemahkan aplikasi dalam bahasa baru, atau hanya memperbarui beberapa terjemahan yang sudah ada. Panduan untuk menerjemahkan ada di &lt;a href=https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;situs web ini&lt;/a&gt;, atau hubungi kami di &lt;a href=mailto:hello@simplemobiletools.com&gt;hello@simplemobiletools.com&lt;/a&gt; jika Anda memiliki pertanyaan.</string>
+    <string name="faq_2_text_commons">Ya, tentu saja. Anda dapat menyebarkan berita tentang aplikasi atau memberikan umpan balik dan penilaian yang baik. Anda juga dapat membantu dengan menerjemahkan aplikasi dalam bahasa baru, atau hanya memperbarui beberapa terjemahan yang sudah ada. Panduan untuk menerjemahkan ada di &lt;a href=https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;situs web ini&lt;/a&gt;, atau hubungi kami di &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; jika Anda memiliki pertanyaan.</string>
     <string name="faq_3_title_commons">Saya tidak sengaja menghapus berkas, bagaimana saya memulihkannya?</string>
     <string name="faq_3_text_commons">Sayangnya, Anda tidak bisa. File dihapus secara instan setelah dialog konfirmasi, tidak ada tempat sampah yang tersedia.</string>
     <string name="faq_4_title_commons">Saya tidak suka warna widget, bisakah saya mengubahnya?</string>
@@ -971,7 +971,7 @@
     <string name="faq_7_title_commons">Rekening bank saya telah berkurang, tetapi saya tidak bisa mengunduh aplikasi. Apa yang bisa saya lakukan?</string>
     <string name="faq_7_text_commons">Pembayaran sepenuhnya dikelola oleh Google, sistem mereka terkadang tidak bekerja sebagaimana mestinya. Cukup hapus cache apl Google Play dan mulai ulang perangkat anda, lalu ulangi mengunduh.</string>
     <string name="faq_8_title_commons">Mengapa saya harus meningkatkan ke versi Pro\?</string>
-    <string name="faq_8_text_commons">Karena versi aplikasi Anda tidak lagi diperbarui, kutu yang mungkin Anda temukan tidak akan pernah diperbaiki. Tidak akan ada fungsi baru yang ditambahkan. Anda dapat membeli versi Pro di Google Play dengan sejumlah uang yang sedikit. Ini adalah pembayaran satu kali, yang berarti bahwa setelah Anda membelinya, Anda tidak perlu membayar lagi, bahkan setelah mendapatkan perangkat baru. Jika Anda tidak menyukai versi Pro, Anda dapat menghapus instalannya dalam beberapa jam dan Anda akan secara otomatis mendapatkan uang Anda kembali. Jika Anda menginginkan pengembalian dana kapan saja nanti, cukup hubungi kami di hello@simplemobiletools.com dan Anda akan mendapatkannya.</string>
+    <string name="faq_8_text_commons">Karena versi aplikasi Anda tidak lagi diperbarui, kutu yang mungkin Anda temukan tidak akan pernah diperbaiki. Tidak akan ada fungsi baru yang ditambahkan. Anda dapat membeli versi Pro di Google Play dengan sejumlah uang yang sedikit. Ini adalah pembayaran satu kali, yang berarti bahwa setelah Anda membelinya, Anda tidak perlu membayar lagi, bahkan setelah mendapatkan perangkat baru. Jika Anda tidak menyukai versi Pro, Anda dapat menghapus instalannya dalam beberapa jam dan Anda akan secara otomatis mendapatkan uang Anda kembali. Jika Anda menginginkan pengembalian dana kapan saja nanti, cukup hubungi kami di hello@fossify.org dan Anda akan mendapatkannya.</string>
     <string name="faq_9_title_commons">Bagaimana saya bisa memilih beberapa item sekaligus\?</string>
     <string name="faq_9_text_commons">Ada beberapa cara untuk melakukan itu. Cara pertama adalah memulai mode pemilihan dengan menekan lama satu item, kemudian klik pendek pada item lain untuk memilihnya. Cara kedua mirip dengan memilih item pada PC dengan mouse, cukup mulai mode pemilihan dengan menekan lama satu item, kemudian dengan jari Anda masih di bawah seret ke item lain untuk memilih. Cara ketiga untuk memilih beberapa item adalah dengan menekan lama satu item, kemudian menekan lama item lainnya dan semua yang ada di antaranya akan dipilih. Jika Anda ingin memilih semua item, cukup tekan lama satu item, kemudian klik pada penghitung item yang dipilih di sudut kiri atas. Itu akan memilih atau membatalkan pemilihan semua item.</string>
     <string name="faq_10_title_commons">Saya telah membeli aplikasinya, tetapi saya tidak bisa mengunduhnya di perangkat lain.</string>
@@ -981,7 +981,7 @@
     <string name="translation">Terjemahan</string>
     <string name="development">Pengembangan</string>
     <string name="other_help">Other help</string>
-    <string name="contributors_label">Daftar ini berisi semua orang yang secara nyata membantu aplikasi apa pun dalam rangkaian Simple Mobile Tools, tidak hanya yang ini. Penerjemahan ditangani oleh sukarelawan, beri tahu kami jika Anda ingin membantu juga. Panduan untuk menerjemahkan ada di &lt;a href=https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;situs web ini&lt;/a&gt;, atau hubungi kami di &lt;a href=mailto:hello@simplemobiletools.com&gt;hello@simplemobiletools.com&lt;/a&gt; jika Anda memiliki pertanyaan. Terima kasih kepada semua kontributor dan pendukung lainnya!</string>
+    <string name="contributors_label">Daftar ini berisi semua orang yang secara nyata membantu aplikasi apa pun dalam rangkaian Simple Mobile Tools, tidak hanya yang ini. Penerjemahan ditangani oleh sukarelawan, beri tahu kami jika Anda ingin membantu juga. Panduan untuk menerjemahkan ada di &lt;a href=https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;situs web ini&lt;/a&gt;, atau hubungi kami di &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; jika Anda memiliki pertanyaan. Terima kasih kepada semua kontributor dan pendukung lainnya!</string>
     <string name="translation_arabic">Arabic</string>
     <string name="translation_azerbaijani">Azerbaijani</string>
     <string name="translation_bengali">Bengali</string>
@@ -1127,8 +1127,8 @@
         <item quantity="other">Your trial expires in %d days.</item>
     </plurals>
     <!-- Google Play listing -->
-    <string name="deprecated_app">TIDAK DIDUKUNG: Versi aplikasi ini tidak lagi dikembangkan, dapatkan versi Pro di https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
-    <string name="pro_app_refund">Jangan lupa, jika Anda mencopot aplikasi berbayar apa pun dalam waktu 2 jam, uang Anda akan otomatis dikembalikan. Jika Anda ingin pengembalian dilakukan lain waktu, cukup hubungi hello@simplemobiletools.com dan Anda akan mendapatkannya. Itu mempermudah Anda untuk mencobanya terlebih dahulu. :)</string>
+    <string name="deprecated_app">TIDAK DIDUKUNG: Versi aplikasi ini tidak lagi dikembangkan, dapatkan versi Pro di https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
+    <string name="pro_app_refund">Jangan lupa, jika Anda mencopot aplikasi berbayar apa pun dalam waktu 2 jam, uang Anda akan otomatis dikembalikan. Jika Anda ingin pengembalian dilakukan lain waktu, cukup hubungi hello@fossify.org dan Anda akan mendapatkannya. Itu mempermudah Anda untuk mencobanya terlebih dahulu. :)</string>
     <!-- Description of our developer profile on Google Play, it can have max 140 characters -->
     <string name="developer_description">Sekelompok aplikasi Android sumber terbuka sederhana dengan widget yang dapat disesuaikan, tanpa iklan dan perizinan yang tidak diperlukan.</string>
 </resources>

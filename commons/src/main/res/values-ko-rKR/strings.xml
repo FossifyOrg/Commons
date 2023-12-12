@@ -356,7 +356,7 @@
     <string name="shared_theme_note">Note that even though you are using the Pro app version, you still need Simple Thank You for technical reasons. It takes care of the color synchronization.</string>
     <string name="purchase_thank_you">
         <![CDATA[
-            이 기능을 이용하시려면 개발지원을 위해 <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a> 앱을 구매해주세요. 감사합니다!
+            이 기능을 이용하시려면 개발지원을 위해 <a href="https://play.google.com/store/apps/details?id=org.fossify..thankyou">Simple Thank You</a> 앱을 구매해주세요. 감사합니다!
         ]]>
     </string>
     <!-- Themes -->
@@ -837,13 +837,13 @@
             안녕하세요.<br>
             우리의 애플리케이션이 도움이 되길 바랍니다.<br>
             사용하고 계신 애플리케이션은 광고 및 인앱 결제가 없는 무료 애플리케이션으로 별도의 수익이 발생하지 않습니다.<br>
-            당신이 원하신다면 개발지원을 위해 <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a> 앱을 다운받아 지원 하실 수 있습니다.<br>
+            당신이 원하신다면 개발지원을 위해 <a href="https://play.google.com/store/apps/details?id=org.fossify..thankyou">Simple Thank You</a> 앱을 다운받아 지원 하실 수 있습니다.<br>
             \'Simple Thank You\' 앱이 설치되면 이 다이얼로그는 비 활성화 됩니다.<br>
             감사합니다.
         ]]>
     </string>
-    <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou&gt;Simple Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
-    <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou&gt;Simple Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
+    <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify..thankyou&gt;Simple Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
+    <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify..thankyou&gt;Simple Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
     <string name="purchase">구매</string>
     <string name="get_simple_phone">Get Simple Phone</string>
     <string name="update_thank_you">Simple Thank You를 최신 버전으로 업데이트 해 주세요.</string>
@@ -857,7 +857,7 @@
     <string name="rate_our_app">Rate our app please :)</string>
     <string name="thank_you">Thank you</string>
     <string name="widget_locked_pro">The widget is locked.\nPlease upgrade to the Pro version to unlock it.</string>
-    <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou&gt;Simple Thank You&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>
+    <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details?id=org.fossify..thankyou&gt;Simple Thank You&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">
         <![CDATA[
@@ -920,7 +920,7 @@
     <string name="faq_2_text_commons">
         <![CDATA[
             Yes, of course. You can spread the word about the apps or give good feedback and ratings. You can also help by translating the apps in a new language, or just update some existing translations.
-            The guide to translating is at <a href="https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file">this website</a>, or just contact us at <a href="mailto:hello@simplemobiletools.com">hello@simplemobiletools.com</a> if you have any questions.
+            The guide to translating is at <a href="https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file">this website</a>, or just contact us at <a href="mailto:hello@fossify.org">hello@fossify.org</a> if you have any questions.
         ]]>
     </string>
     <string name="faq_3_title_commons">실수로 일부 파일을 삭제했는데 어떻게 복구 할 수 있습니까?</string>
@@ -936,7 +936,7 @@
     <string name="faq_8_title_commons">Why should I upgrade to the Pro version?</string>
     <string name="faq_8_text_commons">As your app version is no longer updated, the bugs you have maybe spotted will never be fixed. There will also be no new functions added. You can purchase the Pro version on Google Play for a small sum of money.
         It is a one time payment, which means that once you purchase it, you will never have to pay again. Not even after getting a new device. If you won\'t like the Pro version, you can just uninstall it within a few hours and you will automatically get your money back.
-        If you want a refund anytime later, just contact us at hello@simplemobiletools.com and you will get it.</string>
+        If you want a refund anytime later, just contact us at hello@fossify.org and you will get it.</string>
     <string name="faq_9_title_commons">How can I select multiple items at once?</string>
     <string name="faq_9_text_commons">There are multiple ways of doing that. The first one is starting the selection mode by long pressing one item, then short clicking on others to select them. The second way is similar to selecting items on PCs with a mouse,
         just start the selection mode by long pressing one item, then with your finger still down drag it across other items for selecting. The third way of selecting multiple items is long pressing one item, then long pressing another one and everything in between gets selected. If you
@@ -951,7 +951,7 @@
     <string name="contributors_label">
         <![CDATA[
             This list contains everyone that noticeably helped any app within the Simple Mobile Tools suite, not only this one. Translations are handled by volunteers,
-            let us know if you want to help too. The guide to translating is at <a href="https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file">this website</a>, or just contact us at <a href="mailto:hello@simplemobiletools.com">hello@simplemobiletools.com</a> if you have any questions.
+            let us know if you want to help too. The guide to translating is at <a href="https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file">this website</a>, or just contact us at <a href="mailto:hello@fossify.org">hello@fossify.org</a> if you have any questions.
             Thanks to all contributors and other supporters!
         ]]>
     </string>
@@ -1093,8 +1093,8 @@
         <item quantity="other">Your trial expires in %d days.</item>
     </plurals>
     <!-- Google Play listing -->
-    <string name="deprecated_app">구버전 경고: 이 버전의 앱은 더이상 관리되지 않습니다. Pro 버전을 설치해 주세요: https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
-    <string name="pro_app_refund">플레이스토어에서 구매한 앱은 2시간 내에 삭제하면 자동으로 환불받을 수 있다는 사실을 항상 잊지 마시기 바랍니다. 만약 이후에 환불이 필요하시다면, hello@simplemobiletools.com 으로 연락 주시면 해결해 드리겠습니다. 이제 한번 써보는 것도 나쁘지 않겠죠 :)</string>
+    <string name="deprecated_app">구버전 경고: 이 버전의 앱은 더이상 관리되지 않습니다. Pro 버전을 설치해 주세요: https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
+    <string name="pro_app_refund">플레이스토어에서 구매한 앱은 2시간 내에 삭제하면 자동으로 환불받을 수 있다는 사실을 항상 잊지 마시기 바랍니다. 만약 이후에 환불이 필요하시다면, hello@fossify.org 으로 연락 주시면 해결해 드리겠습니다. 이제 한번 써보는 것도 나쁘지 않겠죠 :)</string>
     <!-- Description of our developer profile on Google Play, it can have max 140 characters -->
     <string name="developer_description">A group of simple, open source Android apps with customizable widgets, without ads and unnecessary permissions.</string>
 </resources>

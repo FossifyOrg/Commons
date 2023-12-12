@@ -42,7 +42,7 @@
             android:layout_below="@+id/recent_colors"
             android:gravity="center_horizontal">
 
-            <com.simplemobiletools.commons.views.ColorPickerSquare
+            <org.fossify.commons.views.ColorPickerSquare
                 android:id="@+id/color_picker_square"
                 android:layout_width="@dimen/colorpicker_size"
                 android:layout_height="@dimen/colorpicker_size"
@@ -80,7 +80,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/color_picker_top_holder">
 
-            <com.simplemobiletools.commons.views.MyTextView
+            <org.fossify.commons.views.MyTextView
                 android:id="@+id/color_picker_old_hex"
                 android:layout_width="@dimen/colorpicker_color_width"
                 android:layout_height="match_parent"
@@ -101,7 +101,7 @@
                 android:scaleType="centerInside"
                 android:src="@drawable/ic_arrow_right_vector" />
 
-            <com.simplemobiletools.commons.views.MyTextView
+            <org.fossify.commons.views.MyTextView
                 android:id="@+id/color_picker_new_hex_label"
                 android:layout_width="wrap_content"
                 android:layout_height="@dimen/colorpicker_items_height"
@@ -112,7 +112,7 @@
                 android:text="#"
                 android:textSize="@dimen/normal_text_size" />
 
-            <com.simplemobiletools.commons.views.MyEditText
+            <org.fossify.commons.views.MyEditText
                 android:id="@+id/color_picker_new_hex"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

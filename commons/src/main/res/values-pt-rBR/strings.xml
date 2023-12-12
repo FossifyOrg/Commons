@@ -366,7 +366,7 @@
     <string name="shared_theme_note">Embora você esteja usando a versão Pro do aplicativo, o Simple Thank You ainda é necessário para fins técnicos. Ele realiza a sincronização de cores.</string>
     <string name="purchase_thank_you">
         <![CDATA[
-            Por favor compre o <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Agradecimento Simple</a> para desbloquear esta função e apoiar o desenvolvimento. Obrigado!
+            Por favor compre o <a href="https://play.google.com/store/apps/details?id=org.fossify..thankyou">Agradecimento Simple</a> para desbloquear esta função e apoiar o desenvolvimento. Obrigado!
         ]]>
     </string>
     <!-- Themes -->
@@ -920,12 +920,12 @@
     <string name="donate_please">
         <![CDATA[
             Olá,<br><br>
-            Esperamos que esteja gostando do app. Ele não contém anúncios, então apoie o desenvolvimento adquirindo o <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a>, ele também impede este diálogo de aparecer novamente.<br><br>
+            Esperamos que esteja gostando do app. Ele não contém anúncios, então apoie o desenvolvimento adquirindo o <a href="https://play.google.com/store/apps/details?id=org.fossify..thankyou">Simple Thank You</a>, ele também impede este diálogo de aparecer novamente.<br><br>
             Obrigado!
         ]]>
     </string>
-    <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou&gt;Simple Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
-    <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou&gt;Simple Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
+    <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify..thankyou&gt;Simple Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
+    <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify..thankyou&gt;Simple Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
     <string name="purchase">Comprar</string>
     <string name="get_simple_phone">Ordem Telefones Simples</string>
     <string name="update_thank_you">Por favor, atualize o Simple Thank You para a versão mais recente</string>
@@ -939,7 +939,7 @@
     <string name="rate_our_app">Avalie nosso aplicativo :)</string>
     <string name="thank_you">Obrigado</string>
     <string name="widget_locked_pro">O widget está bloqueado.\nAtualize para a versão Pro para desbloqueá-lo.</string>
-    <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou&gt;Simple Thank You&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>
+    <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details?id=org.fossify..thankyou&gt;Simple Thank You&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">
         <![CDATA[
@@ -1000,7 +1000,7 @@
     <string name="faq_1_text_commons">O mais provável é que você tenha movido o aplicativo para um cartão SD. Existe uma limitação do sistema Android que oculta os widgets de aplicativos fornecidos neste caso.
         A única solução é mover o aplicativo de volta para o Armazenamento Interno por meio das configurações do seu dispositivo.</string>
     <string name="faq_2_title_commons">Eu gostaria de apoiá-los, mas não posso doar dinheiro. Há algo mais que eu possa fazer?</string>
-    <string name="faq_2_text_commons">Sim, é claro. Você pode divulgar os aplicativos ou dar um bom feedback e avaliações. Você também pode ajudar traduzindo os aplicativos em um novo idioma, ou simplesmente atualizar algumas traduções existentes. O guia de tradução está &lt;a href=https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;neste site&lt;/a&gt; ou apenas contate-nos em &lt;a href=mailto:hello@simplemobiletools.com&gt;hello@simplemobiletools.com&lt;/a&gt; se tiver alguma dúvida.</string>
+    <string name="faq_2_text_commons">Sim, é claro. Você pode divulgar os aplicativos ou dar um bom feedback e avaliações. Você também pode ajudar traduzindo os aplicativos em um novo idioma, ou simplesmente atualizar algumas traduções existentes. O guia de tradução está &lt;a href=https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;neste site&lt;/a&gt; ou apenas contate-nos em &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; se tiver alguma dúvida.</string>
     <string name="faq_3_title_commons">Eu exclui alguns arquivos por engano, como posso recuperá-los?</string>
     <string name="faq_3_text_commons">Infelizmente, você não pode. Os arquivos são apagados instantaneamente após a caixa de diálogo de confirmação, não há lixeira disponível.</string>
     <string name="faq_4_title_commons">Eu não gosto das cores do widget, posso mudá-las?</string>
@@ -1015,7 +1015,7 @@
     <string name="faq_8_title_commons">Por que eu deveria atualizar para a versão Pro?</string>
     <string name="faq_8_text_commons">Como a versão do seu aplicativo não é mais atualizada, os erros que você talvez tenha encontrado nunca serão corrigidos. Também não haverá novas funções adicionadas. Você pode comprar a versão Pro no Google Play por uma pequena quantia em dinheiro.
         É um pagamento único, o que significa que, uma vez que você o compre, nunca precisará pagar novamente. Nem mesmo depois de adquirir um novo dispositivo. Se você não gostar da versão Pro, basta desinstalá-la em algumas horas e você receberá seu dinheiro automaticamente.
-        Se você quiser um reembolso a qualquer momento depois, basta entrar em contato conosco pelo e-mail hello@simplemobiletools.com e você o receberá.</string>
+        Se você quiser um reembolso a qualquer momento depois, basta entrar em contato conosco pelo e-mail hello@fossify.org e você o receberá.</string>
     <string name="faq_9_title_commons">Como posso selecionar múltiplos itens de uma só vez?</string>
     <string name="faq_9_text_commons">Existem muitas formas de fazer isso. A primeira delas é acessar o modo de seleção, mantendo um item pressionado e clicando nos demais para selecioná-los. A segunda maneira é similar à seleção de itens com um mouse em um computador: basta acessar o modo de seleção, mantendo um item pressionado e arrastar seu dedo para selecionar os demais itens. A terceira forma de seleção múltipla é manter um item pressionado e, em seguida, pressionar outro para que todos os itens entre eles sejam selecionados. Caso deseje selecionar todos os itens, basta manter um deles pressionado e clicar na contagem de itens selecionados no canto superior esquerdo da tela. Essa ação selecionará ou removerá a seleção de todos os itens.</string>
     <string name="faq_10_title_commons">Comprei o aplicativo, mas não consigo realizar seu download em outro dispositivo.</string>
@@ -1025,7 +1025,7 @@
     <string name="translation">Tradução</string>
     <string name="development">Desenvolvimento</string>
     <string name="other_help">Other help</string>
-    <string name="contributors_label">Esta lista contém todas as pessoas que ajudaram notavelmente qualquer aplicativo dentro da suíte Simple Mobile Tools, não apenas este. As traduções são feitas por voluntários, avise-nos se você também quiser ajudar. O guia de tradução está &lt;a href=https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;neste site&lt;/a&gt; ou simplesmente contate-nos em &lt;a href=mailto:hello@simplemobiletools.com&gt;hello@simplemobiletools.com&lt;/a&gt; se tiver alguma dúvida. Obrigado a todos os colaboradores e outros apoiadores!</string>
+    <string name="contributors_label">Esta lista contém todas as pessoas que ajudaram notavelmente qualquer aplicativo dentro da suíte Simple Mobile Tools, não apenas este. As traduções são feitas por voluntários, avise-nos se você também quiser ajudar. O guia de tradução está &lt;a href=https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;neste site&lt;/a&gt; ou simplesmente contate-nos em &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; se tiver alguma dúvida. Obrigado a todos os colaboradores e outros apoiadores!</string>
     <string name="translation_arabic">Arabic</string>
     <string name="translation_azerbaijani">Azerbaijani</string>
     <string name="translation_bengali">Bengali</string>
@@ -1165,8 +1165,8 @@
         <item quantity="other">Seu teste acaba em %d dias.</item>
     </plurals>
     <!-- Google Play listing -->
-    <string name="deprecated_app">OBSOLETO: Esta versão do app não recebe mais atualizações. Por favor obtenha a versão Pro em https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
-    <string name="pro_app_refund">Não se esqueça de que se você desinstalar um aplicativo pago em menos de duas horas você receberá reembolsado(a) automaticamente. Se você precisar de um reembolso após isso, entre em contato conosco através hello@simplemobiletools.com. Isso torna tudo mais fácil se você quiser testar :)</string>
+    <string name="deprecated_app">OBSOLETO: Esta versão do app não recebe mais atualizações. Por favor obtenha a versão Pro em https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
+    <string name="pro_app_refund">Não se esqueça de que se você desinstalar um aplicativo pago em menos de duas horas você receberá reembolsado(a) automaticamente. Se você precisar de um reembolso após isso, entre em contato conosco através hello@fossify.org. Isso torna tudo mais fácil se você quiser testar :)</string>
     <!-- Description of our developer profile on Google Play, it can have max 140 characters -->
     <string name="developer_description">Um grupo de aplicativos simples, open source, para Android com widgets personalizados, sem anúncios nem permissões desnecessárias.</string>
 </resources>

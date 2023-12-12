@@ -360,7 +360,7 @@
     <string name="shared_theme_note">Observera att även om du använder Pro-appversionen behöver du fortfarande Simple Thank You av tekniska skäl. Den tar hand om färgsynkroniseringen.</string>
     <string name="purchase_thank_you">
         <![CDATA[
-            Köp <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a> för att låsa upp denna funktion och stödja utvecklingen. Tack!
+            Köp <a href="https://play.google.com/store/apps/details?id=org.fossify..thankyou">Simple Thank You</a> för att låsa upp denna funktion och stödja utvecklingen. Tack!
         ]]>
     </string>
     <!-- Themes -->
@@ -911,12 +911,12 @@
     <string name="donate_please">
         <![CDATA[
             Hej,<br><br>
-            jag hoppas att du gillar appen. Den innehåller ingen reklam. Stöd dess utveckling genom att köpa appen <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a>, som även hindrar den här dialogrutan från att visas igen.<br><br>
+            jag hoppas att du gillar appen. Den innehåller ingen reklam. Stöd dess utveckling genom att köpa appen <a href="https://play.google.com/store/apps/details?id=org.fossify..thankyou">Simple Thank You</a>, som även hindrar den här dialogrutan från att visas igen.<br><br>
             Tack!
         ]]>
     </string>
-    <string name="donate_new">Hejsvejs,&lt;br&gt;&lt;br&gt;hoppas du gillar appen. Den innehåller inga annonser och samlar inte in data om dig heller, vänligen stöd dess vidare utveckling genom att köpa &lt;a href=https://play.google.com/store/apps/details\?id=com.simplemobiletools.thankyou&gt;Simple Thank You&lt;/a&gt;. Du får ytterligare funktioner inklusive färganpassning.&lt;br&gt;&lt;br&gt;Tackar!</string>
-    <string name="donate_short">Vänligen, stöd oss genom att köpa &lt;a href=https://play.google.com/store/apps/details\?id=com.simplemobiletools.thankyou&gt;Simple Thank You&lt;/a&gt;. Det låser även upp ytterligare funktioner inklusive färganpassning.</string>
+    <string name="donate_new">Hejsvejs,&lt;br&gt;&lt;br&gt;hoppas du gillar appen. Den innehåller inga annonser och samlar inte in data om dig heller, vänligen stöd dess vidare utveckling genom att köpa &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Simple Thank You&lt;/a&gt;. Du får ytterligare funktioner inklusive färganpassning.&lt;br&gt;&lt;br&gt;Tackar!</string>
+    <string name="donate_short">Vänligen, stöd oss genom att köpa &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Simple Thank You&lt;/a&gt;. Det låser även upp ytterligare funktioner inklusive färganpassning.</string>
     <string name="purchase">Köp</string>
     <string name="get_simple_phone">Skaffa Simple Phone</string>
     <string name="update_thank_you">Uppdatera Simple Thank You till den senaste versionen</string>
@@ -938,7 +938,7 @@
     <string name="rate_our_app">Betygsätt vår app :)</string>
     <string name="thank_you">Tack</string>
     <string name="widget_locked_pro">Widgeten är låst.\nUppgradera till Pro-versionen för att låsa upp den.</string>
-    <string name="features_locked">Den här funktionen är låst, köp &lt;a href=https://play.google.com/store/apps/details\?id=com.simplemobiletools.thankyou&gt;Enkelt Tack&lt;/a&gt; för att du låser upp hela appen.&lt;br &gt;&lt;br&gt;Det är endast en engångsbetalning och om du inte blir nöjd kan vi återbetala dig.</string>
+    <string name="features_locked">Den här funktionen är låst, köp &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Enkelt Tack&lt;/a&gt; för att du låser upp hela appen.&lt;br &gt;&lt;br&gt;Det är endast en engångsbetalning och om du inte blir nöjd kan vi återbetala dig.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">
         <![CDATA[
@@ -994,7 +994,7 @@
     <string name="faq_1_title_commons">Hur kommer det sig att jag inte ser den här appwidgeten på listan över widgets\?</string>
     <string name="faq_1_text_commons">Det beror mest troligt på att du flyttade appen på ett SD-kort. Det finns en Android-systembegränsning som döljer de givna appwidgetarna i så fall. Den enda lösningen är att flytta appen tillbaka till den interna lagringen via dina enhetsinställningar.</string>
     <string name="faq_2_title_commons">Jag vill stödja dig, men jag kan inte donera pengar. Finns det något annat jag kan göra\?</string>
-    <string name="faq_2_text_commons">Ja självklart. Du kan sprida ordet om apparna eller ge bra feedback och betyg. Du kan också hjälpa till genom att översätta apparna till ett nytt språk, eller bara uppdatera några befintliga översättningar. Guiden för att översätta finns på &lt;a href=https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;denna webbplats&lt;/a&gt;, eller kontakta oss bara på &lt;a href=mailto:hello@simplemobiletools.com&gt;hello@simplemobiletools.com&lt;/a&gt; om du har några frågor.</string>
+    <string name="faq_2_text_commons">Ja självklart. Du kan sprida ordet om apparna eller ge bra feedback och betyg. Du kan också hjälpa till genom att översätta apparna till ett nytt språk, eller bara uppdatera några befintliga översättningar. Guiden för att översätta finns på &lt;a href=https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;denna webbplats&lt;/a&gt;, eller kontakta oss bara på &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; om du har några frågor.</string>
     <string name="faq_3_title_commons">Jag raderade några filer av misstag, hur kan jag återställa dem\?</string>
     <string name="faq_3_text_commons">Tyvärr kan du inte. Filer raderas direkt efter bekräftelsedialogrutan, det finns ingen papperskorg tillgänglig.</string>
     <string name="faq_4_title_commons">Jag gillar inte widgetfärgerna, kan jag ändra dem\?</string>
@@ -1006,7 +1006,7 @@
     <string name="faq_7_title_commons">Pengarna har dragits från mitt bankkonto, men jag kan inte ladda ner appen. Vad kan jag göra\?</string>
     <string name="faq_7_text_commons">Betalningar hanteras till fullo av Google, deras system har fel då och då. Rensa bara Google Play-appens cache och starta om enheten och försök sedan ladda ner den igen.</string>
     <string name="faq_8_title_commons">Varför ska jag uppgradera till Pro-versionen\?</string>
-    <string name="faq_8_text_commons">Eftersom din appversion inte längre är uppdaterad kommer de buggar du kanske har upptäckt aldrig att fixas. Det kommer inte heller att läggas till några nya funktioner. Du kan köpa Pro-versionen på Google Play för en liten summa pengar. Det är en engångsbetalning, vilket innebär att när du väl köpt den behöver du aldrig betala igen. Inte ens efter att ha skaffat en ny enhet. Om du inte gillar Pro-versionen kan du bara avinstallera den inom några timmar så får du automatiskt tillbaka dina pengar. Om du vill ha en återbetalning när som helst senare, kontakta oss bara på hello@simplemobiletools.com så får du det.</string>
+    <string name="faq_8_text_commons">Eftersom din appversion inte längre är uppdaterad kommer de buggar du kanske har upptäckt aldrig att fixas. Det kommer inte heller att läggas till några nya funktioner. Du kan köpa Pro-versionen på Google Play för en liten summa pengar. Det är en engångsbetalning, vilket innebär att när du väl köpt den behöver du aldrig betala igen. Inte ens efter att ha skaffat en ny enhet. Om du inte gillar Pro-versionen kan du bara avinstallera den inom några timmar så får du automatiskt tillbaka dina pengar. Om du vill ha en återbetalning när som helst senare, kontakta oss bara på hello@fossify.org så får du det.</string>
     <string name="faq_9_title_commons">Hur kan jag välja flera objekt samtidigt\?</string>
     <string name="faq_9_text_commons">Det finns flera sätt att göra det på. Den första är att starta valläget genom att trycka länge på ett objekt, sedan kortklicka på andra för att välja dem. Det andra sättet liknar att välja objekt på datorer med en mus, starta bara valläget genom att trycka länge på ett objekt, och sedan med fingret nedåt och dra det över andra objekt för att välja. Det tredje sättet att välja flera objekt är att länge trycka på ett objekt, sedan länge på ett annat och allt däremellan väljs. Om du vill markera alla objekt, tryck bara länge på ett objekt och klicka sedan på den valda objekträknaren i det övre vänstra hörnet. Det kommer att välja eller avmarkera allt.</string>
     <string name="faq_10_title_commons">Jag har köpt appen, men jag kan inte ladda ner den på en annan enhet.</string>
@@ -1016,7 +1016,7 @@
     <string name="translation">Översättning</string>
     <string name="development">Utveckling</string>
     <string name="other_help">Annan hjälp</string>
-    <string name="contributors_label">Den här listan innehåller alla som märkbart hjälpt någon app i Simple Mobile Tools-sviten, inte bara den här. Översättningar hanteras av volontärer, låt oss veta om du också vill hjälpa till. Guiden för att översätta finns på &lt;a href=https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;denna webbplats&lt;/a&gt;, eller kontakta oss bara på &lt;a href=mailto:hello@simplemobiletools.com&gt;hello@simplemobiletools.com&lt;/a&gt; om du har några frågor. Tack till alla bidragsgivare och andra supportrar!</string>
+    <string name="contributors_label">Den här listan innehåller alla som märkbart hjälpt någon app i Simple Mobile Tools-sviten, inte bara den här. Översättningar hanteras av volontärer, låt oss veta om du också vill hjälpa till. Guiden för att översätta finns på &lt;a href=https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;denna webbplats&lt;/a&gt;, eller kontakta oss bara på &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; om du har några frågor. Tack till alla bidragsgivare och andra supportrar!</string>
     <string name="translation_arabic">Arabiska</string>
     <string name="translation_azerbaijani">Azerbajdzjanska</string>
     <string name="translation_bengali">Bengali</string>
@@ -1162,8 +1162,8 @@
         <item quantity="other">Din prövotid tar slut om %d dagar.</item>
     </plurals>
     <!-- Google Play listing -->
-    <string name="deprecated_app">UTGÅNGEN: Denna version av appen underhålls inte längre, hämta Pro-versionen på https://play.google.com/store/apps/details\?id=com.simplemobiletools.xxx.pro</string>
-    <string name="pro_app_refund">Glöm inte att om du avinstallerar någon betalapp inom 2 timmar kommer du automatiskt att få en återbetalning. Om du vill ha en återbetalning när som helst senare, kontakta oss bara på hello@simplemobiletools.com så får du det. Det gör det enkelt att testa :)</string>
+    <string name="deprecated_app">UTGÅNGEN: Denna version av appen underhålls inte längre, hämta Pro-versionen på https://play.google.com/store/apps/details\?id=org.fossify..xxx.pro</string>
+    <string name="pro_app_refund">Glöm inte att om du avinstallerar någon betalapp inom 2 timmar kommer du automatiskt att få en återbetalning. Om du vill ha en återbetalning när som helst senare, kontakta oss bara på hello@fossify.org så får du det. Det gör det enkelt att testa :)</string>
     <!-- Description of our developer profile on Google Play, it can have max 140 characters -->
     <string name="developer_description">En mängd enkla, öppen källkod Android appar med anpassningsbara widgets, inga annonser eller onödiga behörigheter.</string>
 </resources>

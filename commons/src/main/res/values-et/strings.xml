@@ -363,7 +363,7 @@
     <string name="app_icon_color_warning">HOIATUS: Mõned käivitajad ei käsitse rakenduste ikoonide kohandamist korralikult. Kui ikoon kaob, proovi käivitada rakendus Google Play\'st või mõne muu olemasoleva vidina abil. Kui oled käivitanud rakenduse, seadista lihtsalt ikooni vaikimisi oranž toon #F57C00 tagasi. Halvemal juhul pead rakenduse võib-olla uuesti paigaldama.</string>
     <string name="share_colors_success">Värvide uuendamine õnnestus. Lisasime uue „Jagatud“ teema - edaspidisel värvide muutmisel palun kasuta seda.</string>
     <string name="shared_theme_note">Kuigi sa kasutad rakenduse Pro-versiooni, palun siiski tehnilistel põhjustel paigalda rakendus „Lihtne tänuavaldus“. Muu hulgas tema haldab värvide sünkroniseerimist kõikide meie rakenduste vahel.</string>
-    <string name="purchase_thank_you">Selle funktsionaalsuse kasutamiseks ja meie toetamiseks palun osta &lt;a href=https://play.google.com/store/apps/details\?id=com.simplemobiletools.thankyou&gt;Lihtne tänuavaldus&lt;/a&gt;. Tänud juba ette!</string>
+    <string name="purchase_thank_you">Selle funktsionaalsuse kasutamiseks ja meie toetamiseks palun osta &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Lihtne tänuavaldus&lt;/a&gt;. Tänud juba ette!</string>
     <!-- Themes -->
     <string name="light_theme">Hele</string>
     <string name="dark_theme">Tume</string>
@@ -911,9 +911,9 @@
     <string name="additional_info">Lisateave</string>
     <string name="app_version">Rakenduse versioon: %s</string>
     <string name="device_os">Seadme operatsioonisüsteem: %s</string>
-    <string name="donate_please">Tere,&lt;br&gt;&lt;br&gt; loodan, et sulle meie rakendus meeldib. See ei sisalda reklaame, palun toeta selle arendamist, ostes rakenduse &lt;a href=https://play.google.com/store/apps/details\?id=com.simplemobiletools.thankyou&gt;Lihtne tänuavaldus&lt;/a&gt; ja samaga väldid selle vaate uuesti kuvamist.&lt;br&gt;&lt;br&gt; Täname!</string>
-    <string name="donate_new">Tere,&lt;br&gt;&lt;br&gt; loodan, et sulle meie rakendus meeldib. See ei sisalda reklaame, palun toeta selle arendamist, ostes rakenduse &lt;a href=https://play.google.com/store/apps/details\?id=com.simplemobiletools.thankyou&gt;Lihtne tänuavaldus&lt;/a&gt;. Seejärel muutuvad kasutatavaks ka rakenduse lisafunktsionaalsused ja värvide kohandamine.&lt;br&gt;&lt;br&gt;Täname!</string>
-    <string name="donate_short">Palun toeta meid ostes rakenduse &lt;a href=https://play.google.com/store/apps/details\?id=com.simplemobiletools.thankyou&gt;Lihtne tänuavaldus&lt;/a&gt;. Muu hulgas avab see antud rakenduse kõik funktsionaalsused ja sealhulgas võimaldab kohandada liidese värve.</string>
+    <string name="donate_please">Tere,&lt;br&gt;&lt;br&gt; loodan, et sulle meie rakendus meeldib. See ei sisalda reklaame, palun toeta selle arendamist, ostes rakenduse &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Lihtne tänuavaldus&lt;/a&gt; ja samaga väldid selle vaate uuesti kuvamist.&lt;br&gt;&lt;br&gt; Täname!</string>
+    <string name="donate_new">Tere,&lt;br&gt;&lt;br&gt; loodan, et sulle meie rakendus meeldib. See ei sisalda reklaame, palun toeta selle arendamist, ostes rakenduse &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Lihtne tänuavaldus&lt;/a&gt;. Seejärel muutuvad kasutatavaks ka rakenduse lisafunktsionaalsused ja värvide kohandamine.&lt;br&gt;&lt;br&gt;Täname!</string>
+    <string name="donate_short">Palun toeta meid ostes rakenduse &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Lihtne tänuavaldus&lt;/a&gt;. Muu hulgas avab see antud rakenduse kõik funktsionaalsused ja sealhulgas võimaldab kohandada liidese värve.</string>
     <string name="purchase">Osta</string>
     <string name="get_simple_phone">Telli rakendus Lihtne telefon</string>
     <string name="update_thank_you">Palun uuenda raklendus Lihtne tänuavaldus viimase versioonini</string>
@@ -936,7 +936,7 @@
     <string name="thank_you">Suur tänu</string>
     <string name="widget_locked_pro">Rakendus on lukustatud.
 \nLukustuse eemaldamiseks palun uuenda ta Pro-versioonini.</string>
-    <string name="features_locked">See funktsionaalsus on lukus, palun osta rakendus &lt;a href=https://play.google.com/store/apps/details\?id=com.simplemobiletools.thankyou&gt;Lihtne tänuavaldus&lt;/a&gt; ning kogu rakendus on siis kasutatav.See on ainult ühekordne makse ja kui sa ei jää rahule, saame raha tagasi maksta.</string>
+    <string name="features_locked">See funktsionaalsus on lukus, palun osta rakendus &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Lihtne tänuavaldus&lt;/a&gt; ning kogu rakendus on siis kasutatav.See on ainult ühekordne makse ja kui sa ei jää rahule, saame raha tagasi maksta.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">Hei,&lt;br&gt;&lt;br&gt; tahtsime lihtsalt teada anda, et oleme teinud mõned uued rakendused :&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; Klõpsides ikooni või nimel saad sa neid alla laadida.&lt;br&gt;&lt;br&gt; Tänud</string>
     <string name="simple_app_launcher">Lihtne rakenduste käivitaja</string>
@@ -982,7 +982,7 @@
     <string name="faq_1_title_commons">Kuidas ma ei näe seda rakenduste vidinat kõikide vidinate loendis\?</string>
     <string name="faq_1_text_commons">Tõenäoliselt juhtus nii, et teisaldasid rakenduse SD-kaardile. On olemas Android-süsteemi piirang, mis sellisel juhul peidab antud rakenduse vidinad. Ainus lahendus on teisaldada rakendus tagasi sisemälusse kasutades nutiseadme seadistusi.</string>
     <string name="faq_2_title_commons">Ma tahan teid toetada, kuid ma ei saa raha annetada. Kas ma saan veel midagi teha\?</string>
-    <string name="faq_2_text_commons">Jah, muidugi. Sa saad rakendust teistele tutvustada või anda head tagasisidet ja hinnanguid. Samuti saad aidata ka rakenduste tõlkimisega uude keelde või lihtsalt mõne olemasoleva tõlke ajakohastamisega. Tõlkimise juhend asub &lt;a href=https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;siin lehel&lt;/a&gt; või küsimuste puhul lihtsalt võta meiega ühendust aadressil &lt;a href=mailto:hello@simplemobiletools.com&gt;hello@simplemobiletools.com&lt;/a&gt;.</string>
+    <string name="faq_2_text_commons">Jah, muidugi. Sa saad rakendust teistele tutvustada või anda head tagasisidet ja hinnanguid. Samuti saad aidata ka rakenduste tõlkimisega uude keelde või lihtsalt mõne olemasoleva tõlke ajakohastamisega. Tõlkimise juhend asub &lt;a href=https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;siin lehel&lt;/a&gt; või küsimuste puhul lihtsalt võta meiega ühendust aadressil &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt;.</string>
     <string name="faq_3_title_commons">Ma kustutasin kogemata mõned failid, kuidas saan neid taastada\?</string>
     <string name="faq_3_text_commons">Kahjuks ei saa. Failid kustutatakse koheselt pärast topeltkinnitust ning prügikasti ei ole kasutusel.</string>
     <string name="faq_4_title_commons">Mulle ei meeldi vidinate värvid, kas ma saan neid muuta\?</string>
@@ -994,7 +994,7 @@
     <string name="faq_7_title_commons">Raha on minu pangakontolt maha kantud, kuid ma ei saa rakendust alla laadida. Mida ma saan teha\?</string>
     <string name="faq_7_text_commons">Makseid teostab täielikult Google, nende süsteemis esineb aeg-ajalt tõrkeid. Lihtsalt tühjenda oma Google Play rakenduse vahemälu ja taaskäivita seade, seejärel proovi rakendust uuesti alla laadida.</string>
     <string name="faq_8_title_commons">Miks peaksin kasutusele võtma Pro-versiooni\?</string>
-    <string name="faq_8_text_commons">Kuna seda rakenduse versiooni enam ei uuendata, siis ei parandata kunagi sinu ja teiste kasutajate poolt avastatud vigu. Samuti ei lisata uusi funktsioone. Pro-versiooni saad osta Google Play\'st väikese summa eest. See on ühekordne makse, mis tähendab, et kui oled selle ostnud, ei pea sa selle rakenduse eest enam kunagi maksma. Isegi mitte pärast uue seadme soetamist. Kui Pro-versioon ei meeldi sulle, saad selle mõne tunni pärast lihtsalt eemaldada ja saad automaatselt oma raha tagasi. Kui soovid tagasimakset mingil ajal hiljem, võta meiega ühendust aadressil hello@simplemobiletools.com ja me korraldame makse vastavat sinu soovidele.</string>
+    <string name="faq_8_text_commons">Kuna seda rakenduse versiooni enam ei uuendata, siis ei parandata kunagi sinu ja teiste kasutajate poolt avastatud vigu. Samuti ei lisata uusi funktsioone. Pro-versiooni saad osta Google Play\'st väikese summa eest. See on ühekordne makse, mis tähendab, et kui oled selle ostnud, ei pea sa selle rakenduse eest enam kunagi maksma. Isegi mitte pärast uue seadme soetamist. Kui Pro-versioon ei meeldi sulle, saad selle mõne tunni pärast lihtsalt eemaldada ja saad automaatselt oma raha tagasi. Kui soovid tagasimakset mingil ajal hiljem, võta meiega ühendust aadressil hello@fossify.org ja me korraldame makse vastavat sinu soovidele.</string>
     <string name="faq_9_title_commons">Kuidas ma saan valida mitu objekti korraga\?</string>
     <string name="faq_9_text_commons">Selleks on mitu võimalust. Esimene neist on valikurežiimi käivitamine, vajutades pikalt ühe objektile ja seejärel teiste valimine lühikese vajutusega. Teine viis on sarnane arvutites kasutatavale sisu valimisele hiirega, lihtsalt alusta valimist vajutades pikalt ühele kirjel, seejärel lohista teiste kirjete valimiseks sõrmega üle nende. Kolmas viis mitme kirje valimiseks on ühe kirje pikalt vajutamine, seejärel teise kirje pikalt vajutamine ja kõik vahepealsed kirjed saavad ka valituks. Kui soovid valida kõik kirjed, vajuta pikalt ühte kirjet, seejärel klõpsa vasakus ülanurgas asuval valitud kirjete loenduril. See valib või tühistab kõikide kirjete valiku.</string>
     <string name="faq_10_title_commons">Ma olen rakenduse ostnud, kuid ma ei saa seda teise seadmesse alla laadida.</string>
@@ -1004,7 +1004,7 @@
     <string name="translation">Tõlked</string>
     <string name="development">Arendus</string>
     <string name="other_help">Muu abi</string>
-    <string name="contributors_label">Selles loendis on kõik, kes aitasid märgatavalt arendada või tõlkida mis tahes rakendust komplektis „Lihtsad nutitarvikud“. Tõlkimisega tegelevad vabatahtlikud, anna meile teada, kui soovid ka osaleda. Tõlkimise juhend asub &lt;a href=https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;meie Github\'i lehel&lt;/a&gt; või kui sul on küsimusi, siis võta meiega ühendust aadressil &lt;href=mailto:hello@simplemobiletools.com&gt;hello@simplemobiletools.com&lt;/a&gt;. Aitäh kõigile panustajatele ja teistele toetajatele!</string>
+    <string name="contributors_label">Selles loendis on kõik, kes aitasid märgatavalt arendada või tõlkida mis tahes rakendust komplektis „Lihtsad nutitarvikud“. Tõlkimisega tegelevad vabatahtlikud, anna meile teada, kui soovid ka osaleda. Tõlkimise juhend asub &lt;a href=https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;meie Github\'i lehel&lt;/a&gt; või kui sul on küsimusi, siis võta meiega ühendust aadressil &lt;href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt;. Aitäh kõigile panustajatele ja teistele toetajatele!</string>
     <string name="translation_arabic">araabia keel</string>
     <string name="translation_azerbaijani">aserbaidžaani keel</string>
     <string name="translation_bengali">Bengali</string>
@@ -1150,8 +1150,8 @@
         <item quantity="other">Selle rakenduse prooviperiood lõppeb %d päeva pärast.</item>
     </plurals>
     <!-- Google Play listing -->
-    <string name="deprecated_app">AEGUNUD: Selle rakenduse versiooni arendus on lõppenud, laadi PRO-versioon aadressilt https://play.google.com/store/apps/details\?id=com.simplemobiletools.xxx.pro</string>
-    <string name="pro_app_refund">Palun arvesta, et kui eemaldad tasulise rakenduse nutiseadmest 2 tunni jooksul, siis ostusumma tagastatakse automaatselt. Kui soovit tagastust hiljem, siis saada e-kiri hello@simplemobiletools.com aadressile ning korraldame tagastuse. Mõlemal juhul on sul võimalik meie tasulisi rakendusi testida :)</string>
+    <string name="deprecated_app">AEGUNUD: Selle rakenduse versiooni arendus on lõppenud, laadi PRO-versioon aadressilt https://play.google.com/store/apps/details\?id=org.fossify..xxx.pro</string>
+    <string name="pro_app_refund">Palun arvesta, et kui eemaldad tasulise rakenduse nutiseadmest 2 tunni jooksul, siis ostusumma tagastatakse automaatselt. Kui soovit tagastust hiljem, siis saada e-kiri hello@fossify.org aadressile ning korraldame tagastuse. Mõlemal juhul on sul võimalik meie tasulisi rakendusi testida :)</string>
     <!-- Description of our developer profile on Google Play, it can have max 140 characters -->
     <string name="developer_description">Arendame Androidi jaoks avatud lähtekoodil põhinevaid lihtsaid tarvikuid ja milles pole reklaame ega vajadust asjatute õiguste jaoks.</string>
 </resources>

@@ -363,7 +363,7 @@
     <string name="app_icon_color_warning">FIGYELMEZTETÉS: Néhány indító nem megfelelően kezeli az alkalmazásikon testreszabását. Ha az ikon eltűnik, próbálja meg elindítani az alkalmazást a Google Playen vagy egy modulon keresztül, ha elérhető. Miután elindult, állítsa vissza az alapértelmezett narancssárga (#F57C00) ikont. A legrosszabb esetben újra kellhet telepítenie az alkalmazást.</string>
     <string name="share_colors_success">A színek sikeresen frissültek. Hozzáadott egy új, „Közös” nevű témát, a jövőben ezt használja az összes alkalmazás színének frissítéséhez.</string>
     <string name="shared_theme_note">Bár a Pro alkalmazásverziót használja, műszaki okokból így is szükséges az Egyszerű köszönet alkalmazás telepítése, az gondoskodik ugyanis a színek szinkronizálásáról.</string>
-    <string name="purchase_thank_you">Kérjük, vásárolja meg az &lt;a href=https://play.google.com/store/apps/details\?id=com.simplemobiletools.thankyou&gt;Egyszerű köszönet&lt;/a&gt; alkalmazást a funkció feloldásához és a fejlesztés támogatásához. Köszönöm!</string>
+    <string name="purchase_thank_you">Kérjük, vásárolja meg az &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Egyszerű köszönet&lt;/a&gt; alkalmazást a funkció feloldásához és a fejlesztés támogatásához. Köszönöm!</string>
     <!-- Themes -->
     <string name="light_theme">Világos</string>
     <string name="dark_theme">Sötét</string>
@@ -910,9 +910,9 @@
     <string name="additional_info">Kiegészítő információ</string>
     <string name="app_version">Alkalmazásverzió: %s</string>
     <string name="device_os">Eszköz operációs rendszere: %s</string>
-    <string name="donate_please">Üdv,&lt;br&gt;&lt;br&gt; remélem tetszik az alkalmazás. Nem tartalmaz hirdetéseket. Kérjük támogassa a fejlesztést az &lt;a href=https://play.google.com/store/apps/details\?id=com.simplemobiletools.thankyou&gt;Egyszerű köszönet&lt;/a&gt; megvásárlásával. Utána ez a párbeszédablak sem jelenik meg újra.&lt;br&gt;&lt;br&gt; Köszönöm!</string>
-    <string name="donate_new">Üdv,&lt;br&gt;&lt;br&gt; remélem tetszik az alkalmazás. Nem tartalmaz hirdetéseket, és adatokat sem gyűjtünk. Kérjük támogassa a fejlesztést az &lt;a href=https://play.google.com/store/apps/details\?id=com.simplemobiletools.thankyou&gt;Egyszerű köszönet&lt;/a&gt; megvásárlásával. Utána feloldja az összes alkalmazásfunkciót, mint a színek testreszabása.&lt;br&gt;&lt;br&gt; Köszönöm!</string>
-    <string name="donate_short">Támogasson minket az &lt;a href=https://play.google.com/store/apps/details\?id=com.simplemobiletools.thankyou&gt;Egyszerű köszönet&lt;/a&gt; megvásárlásával. Ez feloldja az összes alkalmazásfunkciót, köztük a színek testreszabását is.</string>
+    <string name="donate_please">Üdv,&lt;br&gt;&lt;br&gt; remélem tetszik az alkalmazás. Nem tartalmaz hirdetéseket. Kérjük támogassa a fejlesztést az &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Egyszerű köszönet&lt;/a&gt; megvásárlásával. Utána ez a párbeszédablak sem jelenik meg újra.&lt;br&gt;&lt;br&gt; Köszönöm!</string>
+    <string name="donate_new">Üdv,&lt;br&gt;&lt;br&gt; remélem tetszik az alkalmazás. Nem tartalmaz hirdetéseket, és adatokat sem gyűjtünk. Kérjük támogassa a fejlesztést az &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Egyszerű köszönet&lt;/a&gt; megvásárlásával. Utána feloldja az összes alkalmazásfunkciót, mint a színek testreszabása.&lt;br&gt;&lt;br&gt; Köszönöm!</string>
+    <string name="donate_short">Támogasson minket az &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Egyszerű köszönet&lt;/a&gt; megvásárlásával. Ez feloldja az összes alkalmazásfunkciót, köztük a színek testreszabását is.</string>
     <string name="purchase">Vásárlás</string>
     <string name="get_simple_phone">Egyszerű telefon beszerzése</string>
     <string name="update_thank_you">Frissítse az Egyszerű köszönet alkalmazást a legújabb verzióra</string>
@@ -935,7 +935,7 @@
     <string name="thank_you">Köszönjük</string>
     <string name="widget_locked_pro">A modul zárolt.
 \nFrissítsen a Pro verzióra a feloldásához.</string>
-    <string name="features_locked">Ez a funkció zárolt, vásárolja meg az &lt;a href=https://play.google.com/store/apps/details\?id=com.simplemobiletools.thankyou&gt;Egyszerű köszönet&lt;/a&gt; alkalmazást a teljes alkalmazás feloldásához.&lt;br&gt;&lt;br&gt;Ez egy egyszeri fizetés, és ha nem lesz elégedett, akkor visszatérítjük az árát.</string>
+    <string name="features_locked">Ez a funkció zárolt, vásárolja meg az &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Egyszerű köszönet&lt;/a&gt; alkalmazást a teljes alkalmazás feloldásához.&lt;br&gt;&lt;br&gt;Ez egy egyszeri fizetés, és ha nem lesz elégedett, akkor visszatérítjük az árát.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">Üdv!&lt;br&gt;&lt;br&gt;Csak tájékoztatni szeretnénk, hogy megjelent néhány új alkalmazás:&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; A címeikre vagy ikonjaikra kattintva töltheti le őket.&lt;br&gt;&lt;br&gt; Köszönjük!</string>
     <string name="simple_app_launcher">Egyszerű alkalmazásindító</string>
@@ -981,7 +981,7 @@
     <string name="faq_1_title_commons">Miért nem látom az alkalmazás modulját a modulok között\?</string>
     <string name="faq_1_text_commons">Valószínűleg azért, mert áthelyezte az alkalmazást egy SD-kártyára. Van egy androidos rendszerkorlátozás, amely ebben az esetben elrejti az adott alkalmazás moduljait. Az egyetlen megoldás az alkalmazás visszahelyezése a belső tárolóra az eszköz beállításaiban.</string>
     <string name="faq_2_title_commons">Szeretném támogatni, de nem tudok pénzt adományozni. Van még valami, amit tehetek\?</string>
-    <string name="faq_2_text_commons">Természetesen. Segítsen az alkalmazások népszerűsítésében, vagy adjon jó visszajelzést és értékelést. Segíthet abban is, hogy lefordítja az alkalmazásokat egy új nyelve, vagy frissítse a meglévő fordításokat. A fordítási leírás &lt;a href=https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;ezen a weboldalon&lt;/a&gt; található, vagy lépjen velünk kapcsolatba a &lt;a href=mailto:hello@simplemobiletools.com&gt;hello@simplemobiletools.com&lt;/a&gt; címen, ha kérdése van.</string>
+    <string name="faq_2_text_commons">Természetesen. Segítsen az alkalmazások népszerűsítésében, vagy adjon jó visszajelzést és értékelést. Segíthet abban is, hogy lefordítja az alkalmazásokat egy új nyelve, vagy frissítse a meglévő fordításokat. A fordítási leírás &lt;a href=https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;ezen a weboldalon&lt;/a&gt; található, vagy lépjen velünk kapcsolatba a &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; címen, ha kérdése van.</string>
     <string name="faq_3_title_commons">Tévedésből töröltem néhány fájlt, hogyan tudom helyreállítani\?</string>
     <string name="faq_3_text_commons">Sajnos nem lehet. A fájlok azonnal törlődnek a megerősítő párbeszédablak után, ott nem érhető el Lomtár.</string>
     <string name="faq_4_title_commons">Nem tetszik a modul színe, meg tudom változtatni őket\?</string>
@@ -993,7 +993,7 @@
     <string name="faq_7_title_commons">A pénzt levonták a bankszámlámról, de mégsem tudom letölteni az alkalmazást. Mit tehetek\?</string>
     <string name="faq_7_text_commons">A fizetéseket teljesen a Google kezeli, és néha problémák vannak a rendszerükkel. Csak törölje a Google Play alkalmazása gyorsítótárát és indítsa újra az eszközé, majd próbálja újra letölteni.</string>
     <string name="faq_8_title_commons">Miért érdemes frissítenem a Pro verzióra\?</string>
-    <string name="faq_8_text_commons">Mivel ezt az alkalmazásverziót már nem frissítjük, az esetleges hibák sosem lesznek kijavítva, ahogy új funkciókat sem fog kapni az alkalmazás. A Pro verziót egy egyszeri kis összegért megvásárolhatja a Google Play áruházban. Az egyszeri fizetés azt jelenti, hogy ha egyszer megvette, soha többé nem kell fizetnie, még egy új eszközön sem. Ha nem tetszik a Pro verzió, a vásárlás után pár órán belül eltávolítva automatikusan visszakapja az árát. Ha később szeretne visszatérítést, csak írjon nekünk a hello@simplemobiletools.com címre, és meg fogja kapni.</string>
+    <string name="faq_8_text_commons">Mivel ezt az alkalmazásverziót már nem frissítjük, az esetleges hibák sosem lesznek kijavítva, ahogy új funkciókat sem fog kapni az alkalmazás. A Pro verziót egy egyszeri kis összegért megvásárolhatja a Google Play áruházban. Az egyszeri fizetés azt jelenti, hogy ha egyszer megvette, soha többé nem kell fizetnie, még egy új eszközön sem. Ha nem tetszik a Pro verzió, a vásárlás után pár órán belül eltávolítva automatikusan visszakapja az árát. Ha később szeretne visszatérítést, csak írjon nekünk a hello@fossify.org címre, és meg fogja kapni.</string>
     <string name="faq_9_title_commons">Hogyan tudok egyszerre több elemet kiválasztani\?</string>
     <string name="faq_9_text_commons">Több mód is van rá. Megnyomhatja hosszan az első elemet, majd röviden megérintheti a továbbiakat. Lehet az egérrel ellátott számítógépekhez hasonlóan egy elemet hosszan megnyomva megkezdeni a kijelölést, majd – az ujjat közben nem felengedve – húzással kijelölni a többit. Egy harmadik lehetőség hosszan megnyomni az első elemet, majd szintén hosszan megnyomni az utolsót: ez a kettő közötti összes elemet kijelöli. Ha minden elemet egyszerre ki akar jelölni, nyomja meg hosszan bármelyik elemet, majd érintse meg a bal felső sarokban lévő számlálót, ez minden elemet kijelöl, vagy minden elem kijelölését törli.</string>
     <string name="faq_10_title_commons">Megvásároltam az alkalmazást, de nem tudom letölteni egy másik eszközön.</string>
@@ -1003,7 +1003,7 @@
     <string name="translation">Fordítás</string>
     <string name="development">Fejlesztés</string>
     <string name="other_help">Egyéb segítség</string>
-    <string name="contributors_label">Ez a lista mindenkit tartalmaz, aki jelentősen segített a Simple Mobile Tools csomag bármely alkalmazásában, nem csak ebben a konkrét alkalmazásban. A fordítást önkéntesek végzik; lépjen kapcsolatba velünk, ha be szeretne segíteni. Elérhető egy &lt;a href=https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;rövid útmutató a fordítás menetéről&lt;/a&gt;, és ha további kérdése maradt, a &lt;a href=mailto:hello@simplemobiletools.com&gt;hello@simplemobiletools.com&lt;/a&gt; e-mail-címen léphet kapcsolatba velünk. Köszönet minden közreműködőnek és egyéb támogatónak!</string>
+    <string name="contributors_label">Ez a lista mindenkit tartalmaz, aki jelentősen segített a Simple Mobile Tools csomag bármely alkalmazásában, nem csak ebben a konkrét alkalmazásban. A fordítást önkéntesek végzik; lépjen kapcsolatba velünk, ha be szeretne segíteni. Elérhető egy &lt;a href=https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;rövid útmutató a fordítás menetéről&lt;/a&gt;, és ha további kérdése maradt, a &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; e-mail-címen léphet kapcsolatba velünk. Köszönet minden közreműködőnek és egyéb támogatónak!</string>
     <string name="translation_arabic">Arab</string>
     <string name="translation_azerbaijani">Azerbajdzsáni</string>
     <string name="translation_bengali">Bengáli</string>
@@ -1149,8 +1149,8 @@
         <item quantity="other">A próbaverzió %d nap múlva lejár.</item>
     </plurals>
     <!-- Google Play listing -->
-    <string name="deprecated_app">ELAVULT: Az alkalmazás ezen verziója már nem fog frissülni, töltse le a Pro verziót a https://play.google.com/store/apps/details\?id=com.simplemobiletools.xxx.pro címről</string>
-    <string name="pro_app_refund">Ne felejtse el, hogy ha 2 órán belül eltávolítja a fizetős alkalmazásunkat, akkor automatikusan visszatérítjük az árát. Ha később bármikor mégis visszatérítést szeretne, lépjen kapcsolatba velünk a hello@simplemobiletools.com címen, és visszakapja. Ez is megkönnyíti a kipróbálást :)</string>
+    <string name="deprecated_app">ELAVULT: Az alkalmazás ezen verziója már nem fog frissülni, töltse le a Pro verziót a https://play.google.com/store/apps/details\?id=org.fossify..xxx.pro címről</string>
+    <string name="pro_app_refund">Ne felejtse el, hogy ha 2 órán belül eltávolítja a fizetős alkalmazásunkat, akkor automatikusan visszatérítjük az árát. Ha később bármikor mégis visszatérítést szeretne, lépjen kapcsolatba velünk a hello@fossify.org címen, és visszakapja. Ez is megkönnyíti a kipróbálást :)</string>
     <!-- Description of our developer profile on Google Play, it can have max 140 characters -->
     <string name="developer_description">Egyszerű, nyílt forráskódú androidos alkalmazásgyűjtemény testreszabható modulokkal, hirdetések és felesleges engedélykérések nélkül.</string>
 </resources>

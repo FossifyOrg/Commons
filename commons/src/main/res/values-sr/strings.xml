@@ -373,7 +373,7 @@
     <string name="shared_theme_note">Имајте на уму да иако користите верзију апликације Про, и даље вам је потребна Једноставно хвала из техничких разлога. Брине о синхронизацији боја.</string>
     <string name="purchase_thank_you">
         <![CDATA[
-            Молимо вас пазарите <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a> да откључате ову функцију и подржите наш развој. Хвала вам!
+            Молимо вас пазарите <a href="https://play.google.com/store/apps/details?id=org.fossify..thankyou">Simple Thank You</a> да откључате ову функцију и подржите наш развој. Хвала вам!
         ]]>
     </string>
     <!-- Themes -->
@@ -939,7 +939,7 @@
     <string name="donate_please">
         <![CDATA[
             Поздрав,<br><br>
-            надамо се да уживате у апликацији. Она не садржи огласе, молимо вас да подржите њен развој куповином <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a> апликације, то ће такође спречити овај дијалог од поновног појављивања.<br><br>
+            надамо се да уживате у апликацији. Она не садржи огласе, молимо вас да подржите њен развој куповином <a href="https://play.google.com/store/apps/details?id=org.fossify..thankyou">Simple Thank You</a> апликације, то ће такође спречити овај дијалог од поновног појављивања.<br><br>
             Хвала вам!
         ]]>
     </string>
@@ -1190,7 +1190,7 @@
     </plurals>
     <!-- Google Play listing -->
     <string name="deprecated_app">ЗАСТАРЕЛО: Ова верзија апликације се више не одржава, набавите Про верзију на хттпс://плаи.гоогле.цом/сторе/аппс/детаилс\?ид=цом.симплемобилетоолс.ккк.про</string>
-    <string name="pro_app_refund">Не заборавите да ако деинсталирате било коју плаћену апликацију у року од 2 сата, новац ће вам аутоматски бити враћен. Ако желите повраћај новца било када касније, само нас контактирајте на hello@simplemobiletools.com и добићете га. То олакшава испробавање :)</string>
+    <string name="pro_app_refund">Не заборавите да ако деинсталирате било коју плаћену апликацију у року од 2 сата, новац ће вам аутоматски бити враћен. Ако желите повраћај новца било када касније, само нас контактирајте на hello@fossify.org и добићете га. То олакшава испробавање :)</string>
     <!-- Description of our developer profile on Google Play, it can have max 140 characters -->
     <string name="developer_description">Група једноставних Андроид апликација отвореног кода са прилагодљивим виџетима, без огласа и непотребних дозвола.</string>
 </resources>

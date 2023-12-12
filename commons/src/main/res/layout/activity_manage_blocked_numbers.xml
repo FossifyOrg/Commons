@@ -37,7 +37,7 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/ripple_background">
 
-                <com.simplemobiletools.commons.views.MyAppCompatCheckbox
+                <org.fossify.commons.views.MyAppCompatCheckbox
                     android:id="@+id/block_unknown"
                     style="@style/SettingsCheckboxStyle"
                     android:layout_width="match_parent"
@@ -53,7 +53,7 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/ripple_background">
 
-                <com.simplemobiletools.commons.views.MyAppCompatCheckbox
+                <org.fossify.commons.views.MyAppCompatCheckbox
                     android:id="@+id/block_hidden"
                     style="@style/SettingsCheckboxStyle"
                     android:layout_width="match_parent"
@@ -72,20 +72,20 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/block_options_list" />
 
-        <com.simplemobiletools.commons.views.MyRecyclerView
+        <org.fossify.commons.views.MyRecyclerView
             android:id="@+id/manage_blocked_numbers_list"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:clipToPadding="false"
             android:scrollbars="vertical"
-            app:layoutManager="com.simplemobiletools.commons.views.MyLinearLayoutManager"
+            app:layoutManager="org.fossify.commons.views.MyLinearLayoutManager"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/block_numbers_divider"
             tools:listitem="@layout/item_manage_blocked_number" />
 
-        <com.simplemobiletools.commons.views.MyTextView
+        <org.fossify.commons.views.MyTextView
             android:id="@+id/manage_blocked_numbers_placeholder"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -100,7 +100,7 @@
             android:visibility="gone"
             app:layout_constraintTop_toBottomOf="@+id/block_options_list" />
 
-        <com.simplemobiletools.commons.views.MyTextView
+        <org.fossify.commons.views.MyTextView
             android:id="@+id/manage_blocked_numbers_placeholder_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

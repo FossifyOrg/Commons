@@ -374,7 +374,7 @@
     <string name="app_icon_color_warning">OPOZORILO: Nekateri zaganjalniki ne znajo upravljati z ikono aplikacije, nastavljene po meri. Če ikona izgine, poskusite zagnati aplikacijo skozi Google Play ali kakšen drug pripomoček. Ko je aplikacija spet zagnana, nastavite nazaj privzeto oranžno ikono #F57C00. V najslabšem primeru bo potrebno aplikacijo ponovno namestiti.</string>
     <string name="share_colors_success">Barve so bile uspešno posodobljene. Nova tema \'Deljeno\' je bila dodana. V prihodnje za spreminjanje barv uporabljajte to.</string>
     <string name="shared_theme_note">Upoštevajte, da kljub uporabi Pro verzije, iz tehničnih razlogov še vedno potrebujete aplikacijo Preprosto hvala. Ta skrbi za sinhronizacijo barv.</string>
-    <string name="purchase_thank_you">Prosimo, kupite aplikacijo &lt;a href=https://play.google.com/store/apps/details\?id=com.simplemobiletools.thankyou&gt;Simple Thank You&lt;/a&gt;, da odklenete to funkcijo in podprete razvoj. Hvala!</string>
+    <string name="purchase_thank_you">Prosimo, kupite aplikacijo &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Simple Thank You&lt;/a&gt;, da odklenete to funkcijo in podprete razvoj. Hvala!</string>
     <!-- Themes -->
     <string name="light_theme">Svetlo</string>
     <string name="dark_theme">Temno</string>
@@ -985,12 +985,12 @@
     <string name="donate_please">
         <![CDATA[
             Podzravljeni,<br><br>
-            upamo, da vam je aplikacija všeč. Ne vsebuje oglasov, zato vas prosimo, da podprete razvoj z nakupom aplikacije <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a>. S tem bo tudi to sporočilo izginilo.<br><br>
+            upamo, da vam je aplikacija všeč. Ne vsebuje oglasov, zato vas prosimo, da podprete razvoj z nakupom aplikacije <a href="https://play.google.com/store/apps/details?id=org.fossify..thankyou">Simple Thank You</a>. S tem bo tudi to sporočilo izginilo.<br><br>
             Hvala!
         ]]>
     </string>
-    <string name="donate_new">Pozdravljeni, &lt;br&gt;&lt;br&gt;upam, da uživate v aplikaciji. Ne vsebuje nobenih oglasov in tudi ne zbiramo vaših podatkov, zato vas prosim, da podprete razvoj aplikacije z nakupom &lt;i&gt;&lt;a href=https://play.google.com/store/apps/details\?id=com.simplemobiletools.thankyou&gt;Preprosto hvala&lt;/a&gt;&lt;/i&gt;. Prav tako boste imeli odklenjene vse funkcije aplikacije, vključno s prilagajanjem barv. &lt;br&gt;&lt;br&gt;Hvala!</string>
-    <string name="donate_short">Prosimo, podprite nas z nakupom &lt;a href=https://play.google.com/store/apps/details\?id=com.simplemobiletools.thankyou&gt;Enostavno hvala&lt;/a&gt;. Odklenile se bodo tudi vse funkcije aplikacije, vključno s prilagajanjem barv.</string>
+    <string name="donate_new">Pozdravljeni, &lt;br&gt;&lt;br&gt;upam, da uživate v aplikaciji. Ne vsebuje nobenih oglasov in tudi ne zbiramo vaših podatkov, zato vas prosim, da podprete razvoj aplikacije z nakupom &lt;i&gt;&lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Preprosto hvala&lt;/a&gt;&lt;/i&gt;. Prav tako boste imeli odklenjene vse funkcije aplikacije, vključno s prilagajanjem barv. &lt;br&gt;&lt;br&gt;Hvala!</string>
+    <string name="donate_short">Prosimo, podprite nas z nakupom &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Enostavno hvala&lt;/a&gt;. Odklenile se bodo tudi vse funkcije aplikacije, vključno s prilagajanjem barv.</string>
     <string name="purchase">Kupi</string>
     <string name="get_simple_phone">Prenesi Enostaven telefon</string>
     <string name="update_thank_you">Prosimo nadgradite Simple Thank You na zadnjo verzijo</string>
@@ -1005,7 +1005,7 @@
     <string name="thank_you">Hvala</string>
     <string name="widget_locked_pro">Pripomoček je zaklenjen.
 \nZa odklepanje nadgradite na različico Pro.</string>
-    <string name="features_locked">Ta funkcija je zaklenjena, za odklepanje celotne aplikacije prosimo kupite &lt;a href=https://play.google.com/store/apps/details\?id=com.simplemobiletools.thankyou&gt;Enostavno hvala&lt;/a&gt;.&lt;br &lt;br&gt;Gre za enkratno plačilo in če ne boste zadovoljni, vam lahko vrnemo denar.</string>
+    <string name="features_locked">Ta funkcija je zaklenjena, za odklepanje celotne aplikacije prosimo kupite &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Enostavno hvala&lt;/a&gt;.&lt;br &lt;br&gt;Gre za enkratno plačilo in če ne boste zadovoljni, vam lahko vrnemo denar.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">
         <![CDATA[
@@ -1065,7 +1065,7 @@
     <string name="faq_1_title_commons">Zakaj aplikacije ne vidim na seznamu pripomočkov?</string>
     <string name="faq_1_text_commons">Najverjetneje zato, ker ste aplikacijo premaknili na SD kartico. Zaradi omejite sistema Android se pripomočki takih aplikacij ne prikažejo. Edina rešitev je, da aplikacijo premaknete nazaj na notranjo shrambo.</string>
     <string name="faq_2_title_commons">Želim vas podpirati, ampak ne morem donirati denarja. Lahko pomagam kako drugače?</string>
-    <string name="faq_2_text_commons">Seveda. Lahko širite informacije o aplikacijah ali man daste dobre povratne informacije in ocene. Lahko tudi pomagate prevesti aplikacije v nov jezik ali samo izboljšate obstoječe prevode. Vodič o prevajanju se nahaja na &lt;a href=https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;tej spletni strani&lt;/a&gt;, ali nas le kontaktirajte na &lt;a href=mailto:hello@simplemobiletools.com&gt;hello@simplemobiletools.com&lt;/a&gt; , če imate kakeršna koli vprašanja.</string>
+    <string name="faq_2_text_commons">Seveda. Lahko širite informacije o aplikacijah ali man daste dobre povratne informacije in ocene. Lahko tudi pomagate prevesti aplikacije v nov jezik ali samo izboljšate obstoječe prevode. Vodič o prevajanju se nahaja na &lt;a href=https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;tej spletni strani&lt;/a&gt;, ali nas le kontaktirajte na &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; , če imate kakeršna koli vprašanja.</string>
     <string name="faq_3_title_commons">Po pomoti sem izbrisal nekaj datotek. Jih lahko obnovim?</string>
     <string name="faq_3_text_commons">Na žalost, ne. Datoteke so izbrisane takoj po potrditvi in Koš ni na razpolago.</string>
     <string name="faq_4_title_commons">Barve pripomočkov mi niso všeč. Jih lahko spremenim?</string>
@@ -1078,7 +1078,7 @@
     <string name="faq_7_title_commons">Denar je bil odtegnjen z mojega bančnega računa, vendar aplikacije ne morem prenesti. Kaj lahko storim\?</string>
     <string name="faq_7_text_commons">Plačila v celoti obdeluje Google, njihov sistem pa se občasno zaplete. Počistite predpomnilnik aplikacije Google Play in znova zaženite napravo, nato pa poskusite znova prenesti aplikacijo.</string>
     <string name="faq_8_title_commons">Zakaj naj nadgradim na različico Pro\?</string>
-    <string name="faq_8_text_commons">Ker različica aplikacije ni več posodobljena, morebiti opažene napake ne bodo nikoli odpravljene. Prav tako ne bodo dodane nove funkcije. Za majhen znesek lahko Pro verzijo kupite v trgovini Google Play. Gre za enkratno plačilo, kar pomeni, da vam po nakupu ne bo treba nikoli več plačati. Tudi ko zamenjate napravo. Če vam Pro verzija ne bo všeč, jo lahko v nekaj urah preprosto odstranite in denar bo samodejno vrnjen. Če želite vračilo denarja kadar koli pozneje, nas preprosto kontaktirajte na hello@simplemobiletools.com in ga boste dobili.</string>
+    <string name="faq_8_text_commons">Ker različica aplikacije ni več posodobljena, morebiti opažene napake ne bodo nikoli odpravljene. Prav tako ne bodo dodane nove funkcije. Za majhen znesek lahko Pro verzijo kupite v trgovini Google Play. Gre za enkratno plačilo, kar pomeni, da vam po nakupu ne bo treba nikoli več plačati. Tudi ko zamenjate napravo. Če vam Pro verzija ne bo všeč, jo lahko v nekaj urah preprosto odstranite in denar bo samodejno vrnjen. Če želite vračilo denarja kadar koli pozneje, nas preprosto kontaktirajte na hello@fossify.org in ga boste dobili.</string>
     <string name="faq_9_title_commons">Kako lahko izberem več elementov hkrati\?</string>
     <string name="faq_9_text_commons">To lahko storite na več načinov. Prvi je, da začnete izbiro z dolgim pritiskom na en element, nato pa s kratkim klikom na druge elemente, da jih izberete. Drugi način je podoben izbiranju elementov na osebnih računalnikih z miško: način izbiranja zaženete tako, da dolgo pritisnete en element, nato pa ga s prstom še vedno vlečete navzdol čez druge elemente, da jih izberete. Tretji način izbiranja več elementov je, da dolgo pritisnete en element, nato dolgo pritisnete drugega in vse, kar je vmes, bo izbrano. Če želite izbrati vse elemente, preprosto dolgo pritisnite en element, nato pa kliknite na števec izbranih elementov v zgornjem levem kotu. Tako boste izbrali ali preklicali izbor vseh elementov.</string>
     <string name="faq_10_title_commons">Aplikacijo sem kupil, vendar je ne morem prenesti v drugo napravo.</string>
@@ -1088,7 +1088,7 @@
     <string name="translation">Prevajanje</string>
     <string name="development">Razvoj</string>
     <string name="other_help">Druga pomoč</string>
-    <string name="contributors_label">Ta seznam vsebuje vsakogar, ki je opazno pomagal katerikoli aplikaciji iz paketa Simple Mobile Tools, ne le tej. Za prevode skrbijo prostovoljci. Sporočite nam, če želite pomagati tudi vi. Vodnik za prevajanje je na naslovu&lt;a href=https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;this website&lt;/a&gt;, ali nas kontaktirajte na &lt;a href=mailto:hello@simplemobiletools.com&gt;hello@simplemobiletools.com&lt;/a&gt; če imate kakršna koli vprašanja. Hvala vsem sodelujočim in drugim podpornikom!</string>
+    <string name="contributors_label">Ta seznam vsebuje vsakogar, ki je opazno pomagal katerikoli aplikaciji iz paketa Simple Mobile Tools, ne le tej. Za prevode skrbijo prostovoljci. Sporočite nam, če želite pomagati tudi vi. Vodnik za prevajanje je na naslovu&lt;a href=https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;this website&lt;/a&gt;, ali nas kontaktirajte na &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; če imate kakršna koli vprašanja. Hvala vsem sodelujočim in drugim podpornikom!</string>
     <string name="translation_arabic">Arabic</string>
     <string name="translation_azerbaijani">Azerbaijani</string>
     <string name="translation_bengali">Bengali</string>
@@ -1236,8 +1236,8 @@
         <item quantity="other">Vaše poskusno obdobje poteče čez %d dni.</item>
     </plurals>
     <!-- Google Play listing -->
-    <string name="deprecated_app">ZASTARELO: Ta verzija aplikacije se ne vzdržuje več, pridobite si Pro verzijo na https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
-    <string name="pro_app_refund">Ne pozabite - če odstranite katerokoli plačljivo aplikacijo v dveh urah, dobite povrnjen avtomatično denar. Če želite povrnitev denarja po preteku tega časa, nas kontaktirajte na hello@simplemobiletools.com in poskrbeli bomo za to. Zaradi tega je preizkušanje aplikacije še bolj preprosto. :)</string>
+    <string name="deprecated_app">ZASTARELO: Ta verzija aplikacije se ne vzdržuje več, pridobite si Pro verzijo na https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
+    <string name="pro_app_refund">Ne pozabite - če odstranite katerokoli plačljivo aplikacijo v dveh urah, dobite povrnjen avtomatično denar. Če želite povrnitev denarja po preteku tega časa, nas kontaktirajte na hello@fossify.org in poskrbeli bomo za to. Zaradi tega je preizkušanje aplikacije še bolj preprosto. :)</string>
     <!-- Description of our developer profile on Google Play, it can have max 140 characters -->
     <string name="developer_description">Skupina preprostih odprtokodnih aplikacij za Android s prilagodljivimi pripomočki, brez oglasov in nepotrebnih dovoljenj.</string>
 </resources>

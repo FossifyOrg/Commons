@@ -361,7 +361,7 @@
     <string name="shared_theme_note">Kontuan hartu Pro bertsioa erabili arren, Simple Thank You izaten jarraitu behar duzula arrazoi teknikoak direla eta. Kolorearen sinkronizazioaz arduratzen da.</string>
     <string name="purchase_thank_you">
         <![CDATA[
-            Erosi <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a> funtzio hau desblokeatzeko eta garatzaileari laguntzeko. Eskerrik asko!
+            Erosi <a href="https://play.google.com/store/apps/details?id=org.fossify..thankyou">Simple Thank You</a> funtzio hau desblokeatzeko eta garatzaileari laguntzeko. Eskerrik asko!
         ]]>
     </string>
     <!-- Themes -->
@@ -910,9 +910,9 @@
     <string name="additional_info">Informazio gehigarria</string>
     <string name="app_version">Aplikazioaren bertsioa: %s</string>
     <string name="device_os">Gailuaren SE: %s</string>
-    <string name="donate_please">Kaixo,&lt;br&gt;&lt;br&gt; aplikazioaz gozatzea espero dugu. Ez dauka iragarkirik. Mesedez, lagundu bere garapena &lt;a href=https://play.google.com/store/apps/details\?id=com.simplemobiletools.thankyou&gt;Eskerrik asko&lt;/a&gt; aplikazioa erosiz. elkarrizketa-koadro hau berriro agertzea ere eragotziko du.&lt;br&gt;&lt;br&gt; Eskerrik asko!</string>
-    <string name="donate_new">Kaixo,&lt;br&gt;&lt;br&gt;aplikazioaz gozatzea espero duzu. Ez dauka iragarkirik eta ez ditugu zure datuak biltzen ari. Mesedez, lagundu haren garapena &lt;a href=https://play.google.com/store/apps/details\?id=com.simplemobiletools.thankyou&gt;Eskerrik asko erosiz. Zuk&lt;/a&gt;. Gainera, aplikazioaren eginbide guztiak desblokeatuta izango dituzu koloreen pertsonalizazioa barne.&lt;br&gt;&lt;br&gt;Eskerrik asko!</string>
-    <string name="donate_short">Lagundu iezaguzu &lt;a href=https://play.google.com/store/apps/details\?id=com.simplemobiletools.thankyou&gt;Eskerrik asko&lt;/a&gt; erosiz, aplikazioen eginbide guztiak ere desblokeatuko ditu koloreen pertsonalizazioa barne.</string>
+    <string name="donate_please">Kaixo,&lt;br&gt;&lt;br&gt; aplikazioaz gozatzea espero dugu. Ez dauka iragarkirik. Mesedez, lagundu bere garapena &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Eskerrik asko&lt;/a&gt; aplikazioa erosiz. elkarrizketa-koadro hau berriro agertzea ere eragotziko du.&lt;br&gt;&lt;br&gt; Eskerrik asko!</string>
+    <string name="donate_new">Kaixo,&lt;br&gt;&lt;br&gt;aplikazioaz gozatzea espero duzu. Ez dauka iragarkirik eta ez ditugu zure datuak biltzen ari. Mesedez, lagundu haren garapena &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Eskerrik asko erosiz. Zuk&lt;/a&gt;. Gainera, aplikazioaren eginbide guztiak desblokeatuta izango dituzu koloreen pertsonalizazioa barne.&lt;br&gt;&lt;br&gt;Eskerrik asko!</string>
+    <string name="donate_short">Lagundu iezaguzu &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Eskerrik asko&lt;/a&gt; erosiz, aplikazioen eginbide guztiak ere desblokeatuko ditu koloreen pertsonalizazioa barne.</string>
     <string name="purchase">Erosi</string>
     <string name="get_simple_phone">Eskuratu Telefono Sinplea</string>
     <string name="update_thank_you">Eguneratu Simple Thank You azken bertsiora</string>
@@ -926,7 +926,7 @@
     <string name="rate_our_app">Baloratu gure aplikazioa, mesedez :)</string>
     <string name="thank_you">Eskerrik asko</string>
     <string name="widget_locked_pro">Trepeta blokeatuta dago.\nEguneratu Pro bertsiora desblokeatzeko.</string>
-    <string name="features_locked">Eginbide hau blokeatuta dago. Erosi &lt;a href=https://play.google.com/store/apps/details\?id=com.simplemobiletools.thankyou&gt;Eskerrik asko&lt;/a&gt; aplikazio osoa desblokeatzeko.&lt;br &gt;&lt;br&gt;Ordainketa bakarra da eta asetzen ez bazara, itzuliko dizugu.</string>
+    <string name="features_locked">Eginbide hau blokeatuta dago. Erosi &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Eskerrik asko&lt;/a&gt; aplikazio osoa desblokeatzeko.&lt;br &gt;&lt;br&gt;Ordainketa bakarra da eta asetzen ez bazara, itzuliko dizugu.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">
         <![CDATA[
@@ -989,7 +989,7 @@
     <string name="faq_2_text_commons">
         <![CDATA[
             Yes, of course. You can spread the word about the apps or give good feedback and ratings. You can also help by translating the apps in a new language, or just update some existing translations.
-            The guide to translating is at <a href="https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file">this website</a>, or just contact us at <a href="mailto:hello@simplemobiletools.com">hello@simplemobiletools.com</a> if you have any questions.
+            The guide to translating is at <a href="https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file">this website</a>, or just contact us at <a href="mailto:hello@fossify.org">hello@fossify.org</a> if you have any questions.
         ]]>
     </string>
     <string name="faq_3_title_commons">I deleted some files by mistake, how can I recover them?</string>
@@ -1006,7 +1006,7 @@
     <string name="faq_8_title_commons">Why should I upgrade to the Pro version?</string>
     <string name="faq_8_text_commons">As your app version is no longer updated, the bugs you have maybe spotted will never be fixed. There will also be no new functions added. You can purchase the Pro version on Google Play for a small sum of money.
         It is a one time payment, which means that once you purchase it, you will never have to pay again. Not even after getting a new device. If you won\'t like the Pro version, you can just uninstall it within a few hours and you will automatically get your money back.
-        If you want a refund anytime later, just contact us at hello@simplemobiletools.com and you will get it.</string>
+        If you want a refund anytime later, just contact us at hello@fossify.org and you will get it.</string>
     <string name="faq_9_title_commons">How can I select multiple items at once?</string>
     <string name="faq_9_text_commons">There are multiple ways of doing that. The first one is starting the selection mode by long pressing one item, then short clicking on others to select them. The second way is similar to selecting items on PCs with a mouse,
         just start the selection mode by long pressing one item, then with your finger still down drag it across other items for selecting. The third way of selecting multiple items is long pressing one item, then long pressing another one and everything in between gets selected. If you
@@ -1021,7 +1021,7 @@
     <string name="contributors_label">
         <![CDATA[
             This list contains everyone that noticeably helped any app within the Simple Mobile Tools suite, not only this one. Translations are handled by volunteers,
-            let us know if you want to help too. The guide to translating is at <a href="https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file">this website</a>, or just contact us at <a href="mailto:hello@simplemobiletools.com">hello@simplemobiletools.com</a> if you have any questions.
+            let us know if you want to help too. The guide to translating is at <a href="https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file">this website</a>, or just contact us at <a href="mailto:hello@fossify.org">hello@fossify.org</a> if you have any questions.
             Thanks to all contributors and other supporters!
         ]]>
     </string>
@@ -1163,8 +1163,8 @@
         <item quantity="other">Your trial expires in %d days.</item>
     </plurals>
     <!-- Google Play listing -->
-    <string name="deprecated_app">DEPRECATED: This version of the app is no longer maintained, get the Pro version at https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
-    <string name="pro_app_refund">Don\'t forget that if you uninstall any paid app within 2 hours, you will automatically be refunded. If you want a refund anytime later, just contact us at hello@simplemobiletools.com and you will get it. That makes it easy to try it out :)</string>
+    <string name="deprecated_app">DEPRECATED: This version of the app is no longer maintained, get the Pro version at https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
+    <string name="pro_app_refund">Don\'t forget that if you uninstall any paid app within 2 hours, you will automatically be refunded. If you want a refund anytime later, just contact us at hello@fossify.org and you will get it. That makes it easy to try it out :)</string>
     <!-- Description of our developer profile on Google Play, it can have max 140 characters -->
     <string name="developer_description">A group of simple, open source Android apps with customizable widgets, without ads and unnecessary permissions.</string>
 </resources>
