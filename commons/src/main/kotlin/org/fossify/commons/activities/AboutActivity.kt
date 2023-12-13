@@ -271,7 +271,7 @@ class AboutActivity : ComponentActivity() {
     }
 
     private fun onFacebookClick() {
-        var link = "https://www.facebook.org.fossify."
+        var link = "https://www.facebook.com/fossify"
         try {
             packageManager.getPackageInfo("com.facebook.katana", 0)
             link = "fb://page/150270895341774"
