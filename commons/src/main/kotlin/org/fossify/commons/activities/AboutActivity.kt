@@ -270,26 +270,26 @@ class AboutActivity : ComponentActivity() {
     }
 
     private fun onGithubClick() {
-        launchViewIntent("https://github.com/SimpleMobileTools")
+        launchViewIntent("https://github.com/FossifyOrg")
     }
 
     private fun onRedditClick() {
-        launchViewIntent("https://www.reddit.com/r/SimpleMobileTools")
+        launchViewIntent("https://www.reddit.com/r/Fossify")
     }
 
 
     private fun onTelegramClick() {
-        launchViewIntent("https://t.me/SimpleMobileTools")
+        launchViewIntent("https://t.me/Fossify")
     }
 
 
     private fun onWebsiteClick() {
-        launchViewIntent("https://fossify.org/")
+        launchViewIntent("https://www.fossify.org/")
     }
 
     private fun onPrivacyPolicyClick() {
         val appId = baseConfig.appId.removeSuffix(".debug").removeSuffix(".pro").removePrefix("org.fossify.")
-        val url = "https://fossify.org/privacy/$appId.txt"
+        val url = "https://www.fossify.org/privacy/$appId.txt"
         launchViewIntent(url)
     }
 
