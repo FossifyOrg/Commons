@@ -863,7 +863,7 @@
     <string name="rate">Beoordelen</string>
     <string name="donate">Doneren</string>
     <string name="follow_us">Volg ons</string>
-    <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
+    <string name="copyright">v %1$s\nCopyright © Fossify %2$d</string>
     <string name="support">Ondersteuning</string>
     <string name="help_us">Help ons</string>
     <string name="social">Sociale media</string>
@@ -964,7 +964,7 @@
     <string name="faq_2_text_commons">
         <![CDATA[
             Maar natuurlijk! Vertel anderen over deze apps of geef feedback en beoordelingen. Ook het vertalen van de apps in een nieuwe taal of het bijwerken van bestaande vertalingen wordt gewaardeerd.
-            Een handleiding voor vertaling is te vinden op <a href="https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file">deze website</a>, of stuur een bericht naar <a href="mailto:hello@fossify.org">hello@fossify.org</a> voor hulp.
+            Een handleiding voor vertaling is te vinden op <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">deze website</a>, of stuur een bericht naar <a href="mailto:hello@fossify.org">hello@fossify.org</a> voor hulp.
         ]]>
     </string>
     <string name="faq_3_title_commons">Ik heb per ongeluk bestanden verwijderd, hoe kan ik deze herstellen?</string>
@@ -990,7 +990,7 @@
     <string name="translation">Vertaling</string>
     <string name="development">Ontwikkeling</string>
     <string name="other_help">Andere hulp</string>
-    <string name="contributors_label">Deze lijst bevat de namen van iedereen die aan een app binnen de Simple Mobile Tools suite heeft bijgedragen. Vertalingen worden gedaan door vrijwilligers, dus laat het ons weten als je ook wilt helpen. Lees de instructies &lt;a href=https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;op deze website&lt;/a&gt;, of stuur bij vragen een bericht naar &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt;. Bedankt voor alle bijdragen en andere ondersteuning!</string>
+    <string name="contributors_label">Deze lijst bevat de namen van iedereen die aan een app binnen de Fossify suite heeft bijgedragen. Vertalingen worden gedaan door vrijwilligers, dus laat het ons weten als je ook wilt helpen. Lees de instructies &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;op deze website&lt;/a&gt;, of stuur bij vragen een bericht naar &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt;. Bedankt voor alle bijdragen en andere ondersteuning!</string>
     <string name="translation_arabic">Arabisch</string>
     <string name="translation_azerbaijani">Azerbeidjaans</string>
     <string name="translation_bengali">Bengaals</string>

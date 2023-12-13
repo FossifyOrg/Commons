@@ -896,7 +896,7 @@
     <string name="rate">Betygsätt</string>
     <string name="donate">Donera</string>
     <string name="follow_us">Följ oss</string>
-    <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
+    <string name="copyright">v %1$s\nCopyright © Fossify %2$d</string>
     <string name="support">Support</string>
     <string name="help_us">Hjälp oss</string>
     <string name="social">Socialt</string>
@@ -994,7 +994,7 @@
     <string name="faq_1_title_commons">Hur kommer det sig att jag inte ser den här appwidgeten på listan över widgets\?</string>
     <string name="faq_1_text_commons">Det beror mest troligt på att du flyttade appen på ett SD-kort. Det finns en Android-systembegränsning som döljer de givna appwidgetarna i så fall. Den enda lösningen är att flytta appen tillbaka till den interna lagringen via dina enhetsinställningar.</string>
     <string name="faq_2_title_commons">Jag vill stödja dig, men jag kan inte donera pengar. Finns det något annat jag kan göra\?</string>
-    <string name="faq_2_text_commons">Ja självklart. Du kan sprida ordet om apparna eller ge bra feedback och betyg. Du kan också hjälpa till genom att översätta apparna till ett nytt språk, eller bara uppdatera några befintliga översättningar. Guiden för att översätta finns på &lt;a href=https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;denna webbplats&lt;/a&gt;, eller kontakta oss bara på &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; om du har några frågor.</string>
+    <string name="faq_2_text_commons">Ja självklart. Du kan sprida ordet om apparna eller ge bra feedback och betyg. Du kan också hjälpa till genom att översätta apparna till ett nytt språk, eller bara uppdatera några befintliga översättningar. Guiden för att översätta finns på &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;denna webbplats&lt;/a&gt;, eller kontakta oss bara på &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; om du har några frågor.</string>
     <string name="faq_3_title_commons">Jag raderade några filer av misstag, hur kan jag återställa dem\?</string>
     <string name="faq_3_text_commons">Tyvärr kan du inte. Filer raderas direkt efter bekräftelsedialogrutan, det finns ingen papperskorg tillgänglig.</string>
     <string name="faq_4_title_commons">Jag gillar inte widgetfärgerna, kan jag ändra dem\?</string>
@@ -1016,7 +1016,7 @@
     <string name="translation">Översättning</string>
     <string name="development">Utveckling</string>
     <string name="other_help">Annan hjälp</string>
-    <string name="contributors_label">Den här listan innehåller alla som märkbart hjälpt någon app i Simple Mobile Tools-sviten, inte bara den här. Översättningar hanteras av volontärer, låt oss veta om du också vill hjälpa till. Guiden för att översätta finns på &lt;a href=https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;denna webbplats&lt;/a&gt;, eller kontakta oss bara på &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; om du har några frågor. Tack till alla bidragsgivare och andra supportrar!</string>
+    <string name="contributors_label">Den här listan innehåller alla som märkbart hjälpt någon app i Fossify-sviten, inte bara den här. Översättningar hanteras av volontärer, låt oss veta om du också vill hjälpa till. Guiden för att översätta finns på &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;denna webbplats&lt;/a&gt;, eller kontakta oss bara på &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; om du har några frågor. Tack till alla bidragsgivare och andra supportrar!</string>
     <string name="translation_arabic">Arabiska</string>
     <string name="translation_azerbaijani">Azerbajdzjanska</string>
     <string name="translation_bengali">Bengali</string>

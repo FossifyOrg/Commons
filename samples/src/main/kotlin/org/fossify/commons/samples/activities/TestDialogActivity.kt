@@ -283,7 +283,7 @@ class TestDialogActivity : ComponentActivity() {
     @Composable
     private fun getCallConfirmationAlertDialogState() = rememberAlertDialogState().apply {
         DialogMember {
-            CallConfirmationAlertDialog(alertDialogState = this, callee = "Simple Mobile Tools") {}
+            CallConfirmationAlertDialog(alertDialogState = this, callee = "Fossify") {}
         }
     }
 

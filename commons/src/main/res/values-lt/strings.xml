@@ -891,7 +891,7 @@
     <string name="donate">Paaukoti</string>
     <string name="follow_us">Sekite mus</string>
     <string name="copyright">v %1$s
-\nAutorių teisės © Simple Mobile Tools %2$d</string>
+\nAutorių teisės © Fossify %2$d</string>
     <string name="support">Palaikymas</string>
     <string name="help_us">Padėkite mums</string>
     <string name="social">Socialiniai tinklai</string>
@@ -974,7 +974,7 @@
     <string name="faq_1_title_commons">Kodėl valdiklių sąraše nematau šios programėlės valdiklio\?</string>
     <string name="faq_1_text_commons">Greičiausiai, taip yra dėl to, kad perkėlėte programėlę į SD kortelę. Yra „Android“ sistemos apribojimas, kuris tokiu atveju paslepia nurodytos programėlės valdiklius. Vienintelis sprendimas yra per įrenginio nustatymus perkelti programėlę atgal į vidinę atmintį.</string>
     <string name="faq_2_title_commons">Aš noriu jus paremti, bet neturiu galimybės paaukoti pinigų. Ar yra kas nors, ką galiu padaryti\?</string>
-    <string name="faq_2_text_commons">Žinoma, yra. Galite skleisti žinią apie programėles arba teikti gerus atsiliepimus ir įvertinimus. Be to, galite padėti versdami programėles į naują kalbą arba atnaujindami esamus vertimus. Vertimo vadovą, galite rasti &lt;a href=https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;šioje svetainėje&lt;/a&gt; arba, tiesiog, jei turite klausimų, susisiekite su mumis el. paštu &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt;.</string>
+    <string name="faq_2_text_commons">Žinoma, yra. Galite skleisti žinią apie programėles arba teikti gerus atsiliepimus ir įvertinimus. Be to, galite padėti versdami programėles į naują kalbą arba atnaujindami esamus vertimus. Vertimo vadovą, galite rasti &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;šioje svetainėje&lt;/a&gt; arba, tiesiog, jei turite klausimų, susisiekite su mumis el. paštu &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt;.</string>
     <string name="faq_3_title_commons">Aš per klaidą ištryniau keletą failų, kaip galiu juos atkurti\?</string>
     <string name="faq_3_text_commons">Deja, to padaryti negalite. Failai yra ištrinami iš karto po patvirtinimo dialogo, o šiukšlinė yra neprieinama.</string>
     <string name="faq_4_title_commons">Man nepatinka valdiklio spalvos, kaip galiu jas pakeisti\?</string>
@@ -996,7 +996,7 @@
     <string name="translation">Vertimas</string>
     <string name="development">Plėtojimas</string>
     <string name="other_help">Kita pagalba</string>
-    <string name="contributors_label">Šiame sąraše yra žmonės, kurie daug prisidėjo prie visų „Simple Mobile Tools“ rinkinio programėlių, o ne vien tik prie šios. Programėles į kitas kalbas verčia savanoriai, tad praneškite mums, jei taip pat norite padėti. Vertimo vadovą rasite &lt;a href=https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;šioje svetainėje&lt;/a&gt; arba, jei turite klausimų, susisiekite su mumis el. paštu &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt;. Dėkojame visiems, kas prisidėjo ar kitaip mus palaikė!</string>
+    <string name="contributors_label">Šiame sąraše yra žmonės, kurie daug prisidėjo prie visų „Fossify“ rinkinio programėlių, o ne vien tik prie šios. Programėles į kitas kalbas verčia savanoriai, tad praneškite mums, jei taip pat norite padėti. Vertimo vadovą rasite &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;šioje svetainėje&lt;/a&gt; arba, jei turite klausimų, susisiekite su mumis el. paštu &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt;. Dėkojame visiems, kas prisidėjo ar kitaip mus palaikė!</string>
     <string name="translation_arabic">Arabų</string>
     <string name="translation_azerbaijani">Azerbaidžaniečių</string>
     <string name="translation_bengali">Bengalų</string>

@@ -904,7 +904,7 @@
     <string name="rate">Bewertung</string>
     <string name="donate">Spenden</string>
     <string name="follow_us">Folge uns</string>
-    <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
+    <string name="copyright">v %1$s\nCopyright © Fossify %2$d</string>
     <string name="support">Unterstützung</string>
     <string name="help_us">Hilf uns</string>
     <string name="social">Soziale Medien</string>
@@ -987,7 +987,7 @@
     <string name="faq_1_title_commons">Weshalb sehe ich das Widget dieser App nicht in der Liste der Widgets?</string>
     <string name="faq_1_text_commons">Wahrscheinlich, weil du die Anwendung auf die Speicherkarte verschoben hast. In diesem Fall werden durch eine Einschränkung von Android die Widgets dieser Anwendung ausgeblendet. Die einzige Lösung ist, die Anwendung über die Geräteeinstellungen wieder in den internen Speicher zu verschieben.</string>
     <string name="faq_2_title_commons">Ich will euch unterstützen, aber es ist mir nicht möglich, Geld zu spenden. Gibt es eine andere Möglichkeit\?</string>
-    <string name="faq_2_text_commons">Ja, natürlich. Du kannst die Anwendungen bekannt machen oder lobende Kommentare und Bewertungen abgeben. Du kannst auch bei der Übersetzung der Apps in eine neue Sprache helfen oder einfach schon bestehende Übersetzungen verbessern. Den Leitfaden zum Übersetzen findest du auf &lt;a href=https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;dieser Website&lt;/a&gt; oder kontaktiere uns einfach unter &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt;, wenn du Fragen hast.</string>
+    <string name="faq_2_text_commons">Ja, natürlich. Du kannst die Anwendungen bekannt machen oder lobende Kommentare und Bewertungen abgeben. Du kannst auch bei der Übersetzung der Apps in eine neue Sprache helfen oder einfach schon bestehende Übersetzungen verbessern. Den Leitfaden zum Übersetzen findest du auf &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;dieser Website&lt;/a&gt; oder kontaktiere uns einfach unter &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt;, wenn du Fragen hast.</string>
     <string name="faq_3_title_commons">Ich habe versehentlich einige Dateien gelöscht. Wie kann ich diese wiederherstellen?</string>
     <string name="faq_3_text_commons">Unglücklicherweise gar nicht. Dateien werden sofort nach dem Bestätigungsdialog gelöscht, da ein Papierkorb nicht vorhanden ist.</string>
     <string name="faq_4_title_commons">Ich mag die Farben des Widgets nicht. Kann ich sie ändern\?</string>
@@ -1010,7 +1010,7 @@
     <string name="translation">Übersetzung</string>
     <string name="development">Entwicklung</string>
     <string name="other_help">Other help</string>
-    <string name="contributors_label">Diese Liste enthält alle Personen, die bei der Entwicklung von Simple Mobile-Werkzeuge geholfen haben, nicht nur bei dieser Anwendung. Die Übersetzungen werden von Freiwilligen erledigt, lass es uns wissen, wenn auch du helfen willst. Die Anleitung zum Übersetzen findest du auf &lt;a href=https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;dieser Website&lt;/a&gt; oder kontaktiere uns einfach unter &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt;, wenn du Fragen hast. Vielen Dank allen Mitwirkenden und sonstigen Unterstützern!</string>
+    <string name="contributors_label">Diese Liste enthält alle Personen, die bei der Entwicklung von Simple Mobile-Werkzeuge geholfen haben, nicht nur bei dieser Anwendung. Die Übersetzungen werden von Freiwilligen erledigt, lass es uns wissen, wenn auch du helfen willst. Die Anleitung zum Übersetzen findest du auf &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;dieser Website&lt;/a&gt; oder kontaktiere uns einfach unter &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt;, wenn du Fragen hast. Vielen Dank allen Mitwirkenden und sonstigen Unterstützern!</string>
     <string name="translation_arabic">Arabisch</string>
     <string name="translation_azerbaijani">Aserbaidschanisch</string>
     <string name="translation_bengali">Bengali</string>

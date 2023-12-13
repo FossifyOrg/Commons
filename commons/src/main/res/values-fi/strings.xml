@@ -898,7 +898,7 @@
     <string name="rate">Arvostele</string>
     <string name="donate">Lahjoita</string>
     <string name="follow_us">Seuraa</string>
-    <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
+    <string name="copyright">v %1$s\nCopyright © Fossify %2$d</string>
     <string name="support">Tuki</string>
     <string name="help_us">Auta meitä</string>
     <string name="social">Sosiaalinen</string>
@@ -991,7 +991,7 @@
     <string name="faq_1_title_commons">Miksi en näe tämän sovelluksen pienoissovellusta pienoissovellusvalikossa?</string>
     <string name="faq_1_text_commons">Todennäköisesti asensit sovelluksen ulkoiselle muistikortille. Tässä tapauksessa ainoa vaihtoehto on uudelleenasentaa sovellus laitteen sisäiseen tallennustilaan.</string>
     <string name="faq_2_title_commons">Haluan tukea sinua, mutta minulla ei ole varaa lahjoittaa. Voinko auttaa jotenkin muuten?</string>
-    <string name="faq_2_text_commons">Kyllä, tottakai. Voit levittää sanaa sovelluksista tai antaa hyvää palautetta ja arvioita. Voit myös auttaa kääntämällä sovelluksia uudelle kielelle tai vain päivittää nykyisiä käännöksiä. Ohje käännöksiin löytyy &lt;a href=https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;tästä osoitteesta&lt;/a&gt;, tai ole vain yhteydessä sähköpostitse &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; jos sinulla on kysymyksiä.</string>
+    <string name="faq_2_text_commons">Kyllä, tottakai. Voit levittää sanaa sovelluksista tai antaa hyvää palautetta ja arvioita. Voit myös auttaa kääntämällä sovelluksia uudelle kielelle tai vain päivittää nykyisiä käännöksiä. Ohje käännöksiin löytyy &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;tästä osoitteesta&lt;/a&gt;, tai ole vain yhteydessä sähköpostitse &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; jos sinulla on kysymyksiä.</string>
     <string name="faq_3_title_commons">Poistin tiedostoja vahingossa, miten palautan ne?</string>
     <string name="faq_3_text_commons">Valitettavasti se ei ole mahdollista. Tiedostot poistetaan aina pysyvästi.</string>
     <string name="faq_4_title_commons">En pidä pienoissovelluksen väreistä, voinko vaihtaa ne?</string>
@@ -1016,7 +1016,7 @@
     <string name="translation">Käännös</string>
     <string name="development">Kehitys</string>
     <string name="other_help">Muu apu</string>
-    <string name="contributors_label">Tämä lista sisältää kaikki ne, jotka ovat merkittävästi auttaneet Simple Mobile Tools-sovelluskokoelman sovelluksissa. Vapaahtoiset tekevätk käännöksiä; ole yhteydessä, jos haluat myös auttaa. Ohje käännöksiin löytyy &lt;a href=https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;tästä osoitteesta&lt;/a&gt;, tai ole vain yhteydessä sähköpostitse &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; jos sinulla on kysymyksiä. Kiitos kaikille osallistujille ja tukijoille!</string>
+    <string name="contributors_label">Tämä lista sisältää kaikki ne, jotka ovat merkittävästi auttaneet Fossify-sovelluskokoelman sovelluksissa. Vapaahtoiset tekevätk käännöksiä; ole yhteydessä, jos haluat myös auttaa. Ohje käännöksiin löytyy &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;tästä osoitteesta&lt;/a&gt;, tai ole vain yhteydessä sähköpostitse &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; jos sinulla on kysymyksiä. Kiitos kaikille osallistujille ja tukijoille!</string>
     <string name="translation_arabic">Arabia</string>
     <string name="translation_azerbaijani">Azerbaidžan</string>
     <string name="translation_bengali">Bengali</string>

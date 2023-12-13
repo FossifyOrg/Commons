@@ -939,7 +939,7 @@
     <string name="donate">Поддержать разработчика</string>
     <string name="follow_us">Подписаться на нас</string>
     <string name="copyright">v%1$s
-\nАвторские права © Simple Mobile Tools %2$d</string>
+\nАвторские права © Fossify %2$d</string>
     <string name="support">Поддержка</string>
     <string name="help_us">Помочь нам</string>
     <string name="social">Сообщество</string>
@@ -1030,7 +1030,7 @@
     <string name="faq_2_text_commons">
         <![CDATA[
             Да, конечно. Вы можете рассказывать о наших приложениях или дать хорошие отзывы и оценки. Также вы можете помочь, переведя приложения на новый язык или обновив существующий перевод.
-            Руководство по переводу находится <a href="https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file">здесь</a>. Можно просто связаться с нами по электронной почте <a href="mailto:hello@fossify.org">hello@fossify.org</a>, если у вас есть какие-либо вопросы.
+            Руководство по переводу находится <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">здесь</a>. Можно просто связаться с нами по электронной почте <a href="mailto:hello@fossify.org">hello@fossify.org</a>, если у вас есть какие-либо вопросы.
         ]]>
     </string>
     <string name="faq_3_title_commons">Я по ошибке удалил некоторые файлы, как их восстановить?</string>
@@ -1059,8 +1059,8 @@
     <string name="other_help">Другая помощь</string>
     <string name="contributors_label">
         <![CDATA[
-            В данном списке перечислены все, кто заметно помог любому приложению из набора Simple Mobile Tools, а не только этому. Переводы выполняются волонтёрами,
-            дайте нам знать, если вы тоже хотите помочь. Руководство по переводу находится <a href="https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file">здесь</a>. Можно просто связаться с нами по электронной почте <a href="mailto:hello@fossify.org">hello@fossify.org</a>, если у вас есть какие-либо вопросы.
+            В данном списке перечислены все, кто заметно помог любому приложению из набора Fossify, а не только этому. Переводы выполняются волонтёрами,
+            дайте нам знать, если вы тоже хотите помочь. Руководство по переводу находится <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">здесь</a>. Можно просто связаться с нами по электронной почте <a href="mailto:hello@fossify.org">hello@fossify.org</a>, если у вас есть какие-либо вопросы.
             Спасибо всем участникам и другим помощникам!
         ]]>
     </string>

@@ -1040,7 +1040,7 @@
     <string name="rate">تقييم</string>
     <string name="donate">تبرع</string>
     <string name="follow_us">تابعنا</string>
-    <string name="copyright">v %1$s\nحقوق النشر © Simple Mobile Tools %2$d</string>
+    <string name="copyright">v %1$s\nحقوق النشر © Fossify %2$d</string>
     <string name="support">Support</string>
     <string name="help_us">Help us</string>
     <string name="social">Social</string>
@@ -1135,7 +1135,7 @@
     <string name="faq_1_title_commons">كيف لا أرى هذه التطبيقات في قائمة التطبيقات المصغّرة (الويدجت)؟</string>
     <string name="faq_1_text_commons">وهو على الأرجح لأنك قمت بنقل التطبيق على بطاقة الذاكرة (SD) هناك حد لنظام أندرويد يقوم باخفاء (الويدجت) للتطبيق المحدد           في هذه الحالة يتمثل الحل الوحيد في نقل التطبيق مرة أخرى إلى وحدة التخزين الداخلية من خلال إعدادات جهازك.</string>
     <string name="faq_2_title_commons">أريد ان أدعمكم لكن لا يمكنني التبرع بالمال هل هناك أي شيء آخر يمكنني فعله ؟</string>
-    <string name="faq_2_text_commons">نعم بالطبع. يمكنك نشر الكلمة حول التطبيقات أو تقديم ملاحظات وتقييمات جيدة. يمكنك أيضا المساعدة عن طريق ترجمة التطبيقات بلغة جديدة ، أو مجرد تحديث بعض الترجمات الموجودة. دليل الترجمة موجود على &lt;a href=https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt; هذا الموقع&lt;/a&gt;، أو فقط اتصل بنا على &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; إذا كان لديك أي أسئلة.</string>
+    <string name="faq_2_text_commons">نعم بالطبع. يمكنك نشر الكلمة حول التطبيقات أو تقديم ملاحظات وتقييمات جيدة. يمكنك أيضا المساعدة عن طريق ترجمة التطبيقات بلغة جديدة ، أو مجرد تحديث بعض الترجمات الموجودة. دليل الترجمة موجود على &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt; هذا الموقع&lt;/a&gt;، أو فقط اتصل بنا على &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; إذا كان لديك أي أسئلة.</string>
     <string name="faq_3_title_commons">قمت بحذف بعض الملفات عن طريق الخطأ، كيف يمكنني إسترجاعها؟</string>
     <string name="faq_3_text_commons">للأسف، لا يمكنك. يتم حذف الملفات فوراً بعد مربع حوار التأكيد، لا توجد سلة محذوفات متاحة.</string>
     <string name="faq_4_title_commons">أنا لا أحب ألوان (الويدجت)، هل يمكنني تغييرها؟</string>
@@ -1157,7 +1157,7 @@
     <string name="translation">الترجمة</string>
     <string name="development">التطوير</string>
     <string name="other_help">Other help</string>
-    <string name="contributors_label">تحتوي هذه القائمة على كل شخص ساعد بشكل ملحوظ أي تطبيق داخل مجموعة Simple Mobile Tools ، وليس هذا التطبيق فقط. يتم التعامل مع الترجمات من قبل متطوعين ، أخبرنا إذا كنت تريد المساعدة أيضا. دليل الترجمة موجود على &lt;a href=https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt; هذا الموقع&lt;/a&gt;، أو فقط اتصل بنا على &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; إذا كان لديك أي أسئلة. شكرا لجميع المساهمين والداعمين الآخرين!</string>
+    <string name="contributors_label">تحتوي هذه القائمة على كل شخص ساعد بشكل ملحوظ أي تطبيق داخل مجموعة Fossify ، وليس هذا التطبيق فقط. يتم التعامل مع الترجمات من قبل متطوعين ، أخبرنا إذا كنت تريد المساعدة أيضا. دليل الترجمة موجود على &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt; هذا الموقع&lt;/a&gt;، أو فقط اتصل بنا على &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; إذا كان لديك أي أسئلة. شكرا لجميع المساهمين والداعمين الآخرين!</string>
     <string name="translation_arabic">Arabic</string>
     <string name="translation_azerbaijani">Azerbaijani</string>
     <string name="translation_bengali">Bengali</string>

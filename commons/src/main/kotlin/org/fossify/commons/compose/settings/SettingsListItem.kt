@@ -153,7 +153,7 @@ private fun SettingsListItem(@PreviewParameter(BooleanPreviewParameterProvider::
     AppThemeSurface {
         SettingsListItem(
             click = {},
-            text = "Simple Mobile Tools",
+            text = "Fossify",
             icon = if (isImage) R.drawable.ic_telegram_vector else R.drawable.ic_dollar_vector,
             isImage = isImage
         )

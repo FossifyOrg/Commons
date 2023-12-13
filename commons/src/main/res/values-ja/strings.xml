@@ -847,7 +847,7 @@
     <string name="rate">評価する</string>
     <string name="donate">寄付</string>
     <string name="follow_us">フォローしてください</string>
-    <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
+    <string name="copyright">v %1$s\nCopyright © Fossify %2$d</string>
     <string name="support">サポート</string>
     <string name="help_us">ご協力のお願い</string>
     <string name="social">ソーシャル メディア</string>
@@ -932,7 +932,7 @@
     <string name="faq_1_title_commons">ウィジェットのリストにこのアプリが表示されないのはなぜですか？</string>
     <string name="faq_1_text_commons">おそらく、SDカード内にアプリが保存されているからです。その場合、Androidには特定のアプリウィジェットを非表示にするシステム制限があります。デバイスの設定から、アプリを内部ストレージへ移動してください。</string>
     <string name="faq_2_title_commons">支援をしたいけど、お金の寄付が出来ません。他に出来ることはありますか？</string>
-    <string name="faq_2_text_commons">はい、もちろんです。このアプリに関しての情報を広めたり、改善のためのフィードバックを送ったり、ストアでの評価を行ったり出来ます。また、アプリの未翻訳フレーズを翻訳したり、既存の翻訳を改善したりすることも出来ます。翻訳ガイドは &lt;a href=https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;こちらのWebサイト&lt;/a&gt; にあります。ご不明な点がございましたら、 &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; までお問い合わせください。</string>
+    <string name="faq_2_text_commons">はい、もちろんです。このアプリに関しての情報を広めたり、改善のためのフィードバックを送ったり、ストアでの評価を行ったり出来ます。また、アプリの未翻訳フレーズを翻訳したり、既存の翻訳を改善したりすることも出来ます。翻訳ガイドは &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;こちらのWebサイト&lt;/a&gt; にあります。ご不明な点がございましたら、 &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; までお問い合わせください。</string>
     <string name="faq_3_title_commons">間違えてファイルを削除してしまいました。どうすれば復元できますか？</string>
     <string name="faq_3_text_commons">残念ながら復元は出来ません。一度了承するとファイルは即座に削除され、ごみ箱も利用不可となります。</string>
     <string name="faq_4_title_commons">ウィジェットの色が好みじゃないです。変更出来ますか？</string>
@@ -956,7 +956,7 @@
     <string name="translation">翻訳</string>
     <string name="development">開発</string>
     <string name="other_help">Other help</string>
-    <string name="contributors_label">このリストには、このアプリだけでなく、Simple Mobile Tools スイート内の特定のアプリを著しく助けた人たちが含まれています。翻訳はボランティアによって行われています。翻訳を行いたい場合はお知らせください。翻訳ガイドは &lt;a href=https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;こちらのWebサイト&lt;/a&gt; にあります。ご不明な点がございましたら、 &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; までお問い合わせください。すべての貢献者ならびにすべてのサポーターに感謝いたします！</string>
+    <string name="contributors_label">このリストには、このアプリだけでなく、Fossify スイート内の特定のアプリを著しく助けた人たちが含まれています。翻訳はボランティアによって行われています。翻訳を行いたい場合はお知らせください。翻訳ガイドは &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;こちらのWebサイト&lt;/a&gt; にあります。ご不明な点がございましたら、 &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; までお問い合わせください。すべての貢献者ならびにすべてのサポーターに感謝いたします！</string>
     <string name="translation_arabic">Arabic</string>
     <string name="translation_azerbaijani">Azerbaijani</string>
     <string name="translation_bengali">Bengali</string>

@@ -959,7 +959,7 @@
     <string name="donate">Ахвяраваць</string>
     <string name="follow_us">Сачыце за намі</string>
     <string name="copyright">Версія %1$s
-\nАўтарскае права © Simple Mobile Tools %2$d</string>
+\nАўтарскае права © Fossify %2$d</string>
     <string name="support">Падтрымка</string>
     <string name="help_us">Дапамажы нам</string>
     <string name="social">Сацыяльны</string>
@@ -1041,7 +1041,7 @@
     <string name="faq_1_title_commons">Чаму я не бачу гэты віджэт праграм у спісе віджэтаў\?</string>
     <string name="faq_1_text_commons">Хутчэй за ўсё, гэта звязана з тым, што вы перамясцілі прыкладанне на SD-карту. У гэтым выпадку існуе сістэмнае абмежаванне Android, якое хавае дадзеныя фішкі прыкладання. Адзінае рашэнне-перамясціць прыкладанне назад ва ўнутранае сховішча праз налады вашага прылады.</string>
     <string name="faq_2_title_commons">Я хачу падтрымаць вас, але я не магу ахвяраваць грошы. Ці магу я яшчэ што-небудзь зрабіць\?</string>
-    <string name="faq_2_text_commons">Ды, вядома. Вы можаце распавесці аб прыкладаннях ці даць добрыя водгукі і ацэнкі. Вы таксама можаце дапамагчы, перавядучы прыкладання на новую мову ці проста абнавіўшы некаторыя існуючыя пераклады. Кіраўніцтва па перакладзе знаходзіцца на &lt;a href=https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;гэты сайт &lt;/a&gt;, або проста звяжыцеся з намі па адрасе &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; калі ў вас ёсць якія-небудзь пытанні.</string>
+    <string name="faq_2_text_commons">Ды, вядома. Вы можаце распавесці аб прыкладаннях ці даць добрыя водгукі і ацэнкі. Вы таксама можаце дапамагчы, перавядучы прыкладання на новую мову ці проста абнавіўшы некаторыя існуючыя пераклады. Кіраўніцтва па перакладзе знаходзіцца на &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;гэты сайт &lt;/a&gt;, або проста звяжыцеся з намі па адрасе &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; калі ў вас ёсць якія-небудзь пытанні.</string>
     <string name="faq_3_title_commons">Я памылкова выдаліў некаторыя файлы, як я магу іх аднавіць\?</string>
     <string name="faq_3_text_commons">На жаль, вы не можаце гэтага зрабіць. Файлы выдаляюцца імгненна пасля дыялогавага акна пацверджання, кошык для смецця недаступная.</string>
     <string name="faq_4_title_commons">Мне не падабаюцца колеры віджэтаў, ці магу я іх змяніць\?</string>
@@ -1063,7 +1063,7 @@
     <string name="translation">Пераклад</string>
     <string name="development">Распрацоўка</string>
     <string name="other_help">Іншая дапамога</string>
-    <string name="contributors_label">У гэтым спісе ёсць усе, хто прыкметна дапамог любому дадатку ў наборы Simple Mobile Tools, не толькі гэтаму. Tперакладам займаюцца валанцёры, дайце нам ведаць, калі вы таксама хочаце дапамагчы. Кіраўніцтва па перакладзе знаходзіцца на &lt;a href=https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt; гэты сайт&lt;/a&gt;, або проста звяжыцеся з намі па адрасе &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; калі ў вас ёсць якія-небудзь пытанні. Дзякуй усім удзельнікам і іншым прыхільнікам!</string>
+    <string name="contributors_label">У гэтым спісе ёсць усе, хто прыкметна дапамог любому дадатку ў наборы Fossify, не толькі гэтаму. Tперакладам займаюцца валанцёры, дайце нам ведаць, калі вы таксама хочаце дапамагчы. Кіраўніцтва па перакладзе знаходзіцца на &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt; гэты сайт&lt;/a&gt;, або проста звяжыцеся з намі па адрасе &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; калі ў вас ёсць якія-небудзь пытанні. Дзякуй усім удзельнікам і іншым прыхільнікам!</string>
     <string name="translation_arabic">Arabic</string>
     <string name="translation_azerbaijani">Azerbaijani</string>
     <string name="translation_bengali">Bengali</string>

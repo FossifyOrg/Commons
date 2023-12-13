@@ -964,7 +964,7 @@
     <string name="rate">Oceń</string>
     <string name="donate">Przekaż datek</string>
     <string name="follow_us">Śledź nas</string>
-    <string name="copyright">Wersja %1$s\n© Simple Mobile Tools %2$d</string>
+    <string name="copyright">Wersja %1$s\n© Fossify %2$d</string>
     <string name="support">Wsparcie</string>
     <string name="help_us">Pomóż nam</string>
     <string name="social">Portale społecznościowe</string>
@@ -1053,7 +1053,7 @@
     <string name="faq_2_text_commons">
         <![CDATA[
             Oczywiście. Możesz powiedzieć światu o naszych aplikacjach lub podzielić się opinią i oceną w Sklepie Google Play. Możesz też pomóc, tłumacząc aplikacje na nowy język lub po prostu zaktualizować istniejące tłumaczenia.
-            Instrukcja jak tłumaczyć znajduje się na <a href="https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file">tej stronie</a>, albo po prostu skontaktuj się z nami pod adresem <a href="mailto:hello@fossify.org">hello@fossify.org</a>, jeśli masz jakiekolwiek pytania.
+            Instrukcja jak tłumaczyć znajduje się na <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">tej stronie</a>, albo po prostu skontaktuj się z nami pod adresem <a href="mailto:hello@fossify.org">hello@fossify.org</a>, jeśli masz jakiekolwiek pytania.
         ]]>
     </string>
     <string name="faq_3_title_commons">Przypadkowo usunąłem kilka plików. Mogę je jakoś odzyskać?</string>
@@ -1079,8 +1079,8 @@
     <string name="other_help">Inna pomoc</string>
     <string name="contributors_label">
         <![CDATA[
-            Ta lista zawiera wszystkich, którzy zauważalnie pomogli przy którejkolwiek z prostych aplikacji od Simple Mobile Tools, nie tylko przy tej. Tłumaczeniami zajmują się wolontariusze;
-            daj nam znać, jeśli też chcesz pomóc. Instrukcja jak tłumaczyć znajduje się na <a href="https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file">tej stronie</a>, albo po prostu skontaktuj się z nami pod adresem <a href="mailto:hello@fossify.org">hello@fossify.org</a>, jeśli masz jakiekolwiek pytania.
+            Ta lista zawiera wszystkich, którzy zauważalnie pomogli przy którejkolwiek z prostych aplikacji od Fossify, nie tylko przy tej. Tłumaczeniami zajmują się wolontariusze;
+            daj nam znać, jeśli też chcesz pomóc. Instrukcja jak tłumaczyć znajduje się na <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">tej stronie</a>, albo po prostu skontaktuj się z nami pod adresem <a href="mailto:hello@fossify.org">hello@fossify.org</a>, jeśli masz jakiekolwiek pytania.
             Dziękuję wszystkim współtwórcom i innym wspierającym!
         ]]>
     </string>

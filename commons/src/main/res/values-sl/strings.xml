@@ -970,7 +970,7 @@
     <string name="rate">Ocenite</string>
     <string name="donate">Donirajte</string>
     <string name="follow_us">Sledite nam</string>
-    <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
+    <string name="copyright">v %1$s\nCopyright © Fossify %2$d</string>
     <string name="support">Support</string>
     <string name="help_us">Help us</string>
     <string name="social">Social</string>
@@ -1065,7 +1065,7 @@
     <string name="faq_1_title_commons">Zakaj aplikacije ne vidim na seznamu pripomočkov?</string>
     <string name="faq_1_text_commons">Najverjetneje zato, ker ste aplikacijo premaknili na SD kartico. Zaradi omejite sistema Android se pripomočki takih aplikacij ne prikažejo. Edina rešitev je, da aplikacijo premaknete nazaj na notranjo shrambo.</string>
     <string name="faq_2_title_commons">Želim vas podpirati, ampak ne morem donirati denarja. Lahko pomagam kako drugače?</string>
-    <string name="faq_2_text_commons">Seveda. Lahko širite informacije o aplikacijah ali man daste dobre povratne informacije in ocene. Lahko tudi pomagate prevesti aplikacije v nov jezik ali samo izboljšate obstoječe prevode. Vodič o prevajanju se nahaja na &lt;a href=https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;tej spletni strani&lt;/a&gt;, ali nas le kontaktirajte na &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; , če imate kakeršna koli vprašanja.</string>
+    <string name="faq_2_text_commons">Seveda. Lahko širite informacije o aplikacijah ali man daste dobre povratne informacije in ocene. Lahko tudi pomagate prevesti aplikacije v nov jezik ali samo izboljšate obstoječe prevode. Vodič o prevajanju se nahaja na &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;tej spletni strani&lt;/a&gt;, ali nas le kontaktirajte na &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; , če imate kakeršna koli vprašanja.</string>
     <string name="faq_3_title_commons">Po pomoti sem izbrisal nekaj datotek. Jih lahko obnovim?</string>
     <string name="faq_3_text_commons">Na žalost, ne. Datoteke so izbrisane takoj po potrditvi in Koš ni na razpolago.</string>
     <string name="faq_4_title_commons">Barve pripomočkov mi niso všeč. Jih lahko spremenim?</string>
@@ -1088,7 +1088,7 @@
     <string name="translation">Prevajanje</string>
     <string name="development">Razvoj</string>
     <string name="other_help">Druga pomoč</string>
-    <string name="contributors_label">Ta seznam vsebuje vsakogar, ki je opazno pomagal katerikoli aplikaciji iz paketa Simple Mobile Tools, ne le tej. Za prevode skrbijo prostovoljci. Sporočite nam, če želite pomagati tudi vi. Vodnik za prevajanje je na naslovu&lt;a href=https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;this website&lt;/a&gt;, ali nas kontaktirajte na &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; če imate kakršna koli vprašanja. Hvala vsem sodelujočim in drugim podpornikom!</string>
+    <string name="contributors_label">Ta seznam vsebuje vsakogar, ki je opazno pomagal katerikoli aplikaciji iz paketa Fossify, ne le tej. Za prevode skrbijo prostovoljci. Sporočite nam, če želite pomagati tudi vi. Vodnik za prevajanje je na naslovu&lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;this website&lt;/a&gt;, ali nas kontaktirajte na &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; če imate kakršna koli vprašanja. Hvala vsem sodelujočim in drugim podpornikom!</string>
     <string name="translation_arabic">Arabic</string>
     <string name="translation_azerbaijani">Azerbaijani</string>
     <string name="translation_bengali">Bengali</string>

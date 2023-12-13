@@ -859,7 +859,7 @@
     <string name="donate">捐赠</string>
     <string name="follow_us">关注我们</string>
     <string name="copyright">v %1$s
-\n版权所有 © Simple Mobile Tools %2$d</string>
+\n版权所有 © Fossify %2$d</string>
     <string name="support">支持</string>
     <string name="help_us">帮助我们</string>
     <string name="social">社交网络</string>
@@ -944,7 +944,7 @@
     <string name="faq_1_title_commons">为什么我在应用小部件列表里没有找到这个应用的小部件？</string>
     <string name="faq_1_text_commons">这很可能是因为您将应用程序移动到了SD卡。由于 Android 系统的限制，在这种情况下会隐藏应用程序的小部件。 唯一的解决方法是在系统设置中将应用程序移回内部存储。</string>
     <string name="faq_2_title_commons">我想支持您，但我不能捐赠金钱。 还有什么是我能够做的吗？</string>
-    <string name="faq_2_text_commons">是的，当然。 您可以传播有关应用程序的信息或提供良好的反馈和评分。 您还可以通过以新语言翻译应用程序，或仅更新一些现有翻译来提供帮助。 翻译指南位于 &lt;a href=https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;this website&lt;/a&gt;, 或者如果你有任何问题，欢迎发送邮件到 &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; 。</string>
+    <string name="faq_2_text_commons">是的，当然。 您可以传播有关应用程序的信息或提供良好的反馈和评分。 您还可以通过以新语言翻译应用程序，或仅更新一些现有翻译来提供帮助。 翻译指南位于 &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;this website&lt;/a&gt;, 或者如果你有任何问题，欢迎发送邮件到 &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; 。</string>
     <string name="faq_3_title_commons">我该怎么恢复误删的文件？</string>
     <string name="faq_3_text_commons">不幸的是，您无法恢复。在确认对话框后文件将被立即删除，您并没有回收站用。</string>
     <string name="faq_4_title_commons">我不喜欢小部件的颜色，我可以修改吗？</string>
@@ -971,7 +971,7 @@
     <string name="translation">翻译</string>
     <string name="development">开发</string>
     <string name="other_help">其他帮助</string>
-    <string name="contributors_label">此列表包含对 Simple Mobile Tools 套件中的任何应用程序有显著帮助的所有人，而不仅仅是这个应用程序。 翻译由志愿者处理，如果您也想提供帮助，请告诉我们。 翻译指南位于 &lt;a href=https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;this website&lt;/a&gt;，或者如果你有任何问题，欢迎发送电子邮件到 &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt;。感谢所有贡献者和其他支持者！</string>
+    <string name="contributors_label">此列表包含对 Fossify 套件中的任何应用程序有显著帮助的所有人，而不仅仅是这个应用程序。 翻译由志愿者处理，如果您也想提供帮助，请告诉我们。 翻译指南位于 &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;this website&lt;/a&gt;，或者如果你有任何问题，欢迎发送电子邮件到 &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt;。感谢所有贡献者和其他支持者！</string>
     <string name="translation_arabic">Arabic</string>
     <string name="translation_azerbaijani">Azerbaijani</string>
     <string name="translation_bengali">Bengali</string>

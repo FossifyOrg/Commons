@@ -889,7 +889,7 @@
     <string name="rate">Evaluează</string>
     <string name="donate">Donează</string>
     <string name="follow_us">Urmăriți-ne</string>
-    <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
+    <string name="copyright">v %1$s\nCopyright © Fossify %2$d</string>
     <string name="support">Support</string>
     <string name="help_us">Ajutaţi-ne</string>
     <string name="social">Social</string>
@@ -987,7 +987,7 @@
     <string name="faq_2_text_commons">
         <![CDATA[
             Da, bineînțeles. Puteți să răspândiți vestea despre aplicațiile Simple sau să oferiți feedback și evaluări bune pe magaziul Google Play. De asemenea, puteți ajuta prin traducerea aplicațiilor într-o limbă nouă sau doar prin actualizarea unor traduceri existente.
-            Ghidul de traducere se găsește la <a href="https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file">acest site</a>, sau pur și simplu contactați-ne la <a href="mailto:hello@fossify.org">hello@fossify.org</a> dacă aveți întrebări.
+            Ghidul de traducere se găsește la <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">acest site</a>, sau pur și simplu contactați-ne la <a href="mailto:hello@fossify.org">hello@fossify.org</a> dacă aveți întrebări.
         ]]>
     </string>
     <string name="faq_3_title_commons">Am șters niște fișiere din greșeală, cum pot să le recuperez?</string>
@@ -1016,7 +1016,7 @@
     <string name="translation">Traducere</string>
     <string name="development">Dezvoltare</string>
     <string name="other_help">Alte ajutoare</string>
-    <string name="contributors_label">Această listă conține pe toți cei care au ajutat în mod vizibil orice aplicație din suita Simple Mobile Tools, nu numai aceasta. Traducerile sunt efectuate de voluntari, anunțați-ne dacă doriți să ajutați și dumneavoastră. Ghidul de traducere este la &lt;a href=https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;this website&lt;/a&gt;, sau pur și simplu contactați-ne la &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; dacă aveți întrebări. Mulțumim tuturor contribuitorilor și celorlalți susținători!</string>
+    <string name="contributors_label">Această listă conține pe toți cei care au ajutat în mod vizibil orice aplicație din suita Fossify, nu numai aceasta. Traducerile sunt efectuate de voluntari, anunțați-ne dacă doriți să ajutați și dumneavoastră. Ghidul de traducere este la &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;this website&lt;/a&gt;, sau pur și simplu contactați-ne la &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; dacă aveți întrebări. Mulțumim tuturor contribuitorilor și celorlalți susținători!</string>
     <string name="translation_arabic">Arabică</string>
     <string name="translation_azerbaijani">Azeră</string>
     <string name="translation_bengali">Bengală</string>

@@ -895,7 +895,7 @@
     <string name="rate">Oyla</string>
     <string name="donate">Bağış yap</string>
     <string name="follow_us">Bizi takip edin</string>
-    <string name="copyright">v %1$s\nTelif hakkı © Simple Mobile Tools %2$d</string>
+    <string name="copyright">v %1$s\nTelif hakkı © Fossify %2$d</string>
     <string name="support">Destek</string>
     <string name="help_us">Bize yardım edin</string>
     <string name="social">Sosyal</string>
@@ -992,7 +992,7 @@
     <string name="faq_2_text_commons">
         <![CDATA[
             Evet tabi ki. Uygulamalar hakkında farkındalığı artırabilir veya iyi geri bildirim ve puanlar verebilirsiniz. Ayrıca, uygulamaları yeni bir dile çevirerek veya sadece mevcut çevirileri güncelleyerek de yardımcı olabilirsiniz.
-            Çeviri rehberi <a href="https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file">bu sayfadadır</a> veya herhangi bir sorunuz varsa <a href="mailto:hello@fossify.org">hello@fossify.org</a> adresinden bize ulaşın.
+            Çeviri rehberi <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">bu sayfadadır</a> veya herhangi bir sorunuz varsa <a href="mailto:hello@fossify.org">hello@fossify.org</a> adresinden bize ulaşın.
         ]]>
     </string>
     <string name="faq_3_title_commons">Bazı dosyaları yanlışlıkla sildim, onları nasıl kurtarabilirim?</string>
@@ -1018,8 +1018,8 @@
     <string name="other_help">Diğer yardımlar</string>
     <string name="contributors_label">
         <![CDATA[
-            Bu liste, yalnızca buna değil, Simple Mobile Tools paketindeki herhangi bir uygulamaya belirgin şekilde yardımcı olan herkesi içerir. Çeviriler gönüllüler tarafından yapılır,
-            siz de yardım etmek isterseniz bize bildirin. Çeviri rehberi <a href="https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file">bu sayfadadır</a> veya herhangi bir sorunuz varsa <a href="mailto:hello@fossify.org">hello@fossify.org</a> adresinden bize ulaşın.
+            Bu liste, yalnızca buna değil, Fossify paketindeki herhangi bir uygulamaya belirgin şekilde yardımcı olan herkesi içerir. Çeviriler gönüllüler tarafından yapılır,
+            siz de yardım etmek isterseniz bize bildirin. Çeviri rehberi <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">bu sayfadadır</a> veya herhangi bir sorunuz varsa <a href="mailto:hello@fossify.org">hello@fossify.org</a> adresinden bize ulaşın.
             Tüm katkıda bulunanlara ve diğer destekçilere teşekkürler!
         ]]>
     </string>

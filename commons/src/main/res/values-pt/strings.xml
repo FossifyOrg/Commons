@@ -926,7 +926,7 @@
     <string name="rate">Avaliar</string>
     <string name="donate">Donativos</string>
     <string name="follow_us">Siga-nos</string>
-    <string name="copyright">V %1$s\nCopyright © Simple Mobile Tools %2$d</string>
+    <string name="copyright">V %1$s\nCopyright © Fossify %2$d</string>
     <string name="support">Apoio</string>
     <string name="help_us">Ajude-nos</string>
     <string name="social">Redes sociais</string>
@@ -1005,7 +1005,7 @@
     <string name="faq_1_title_commons">Por que não vejo o widget desta aplicação na lista de widgets\?</string>
     <string name="faq_1_text_commons">O mais provável é que a aplicação tenha sido movida para o cartão SD. Existe uma limitação do sistema Android que oculta os widgets de aplicações quando assim é. A única solução é mover a aplicação de volta para o armazenamento interno através das definições do seu dispositivo.</string>
     <string name="faq_2_title_commons">Gostaria de vos apoiar mas não posso fazer um donativo em dinheiro. Há algo mais que eu possa fazer\?</string>
-    <string name="faq_2_text_commons">Claro que sim. Pode divulgar as nossas aplicações, deixar uma avaliação ou um comentário positivo. Pode também traduzir as aplicações noutro idioma ou atualizar as já existentes. Pode encontrar o guia no &lt;a href=https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;site&lt;/a&gt;, ou contactar-nos para&lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; se tiver alguma questão.</string>
+    <string name="faq_2_text_commons">Claro que sim. Pode divulgar as nossas aplicações, deixar uma avaliação ou um comentário positivo. Pode também traduzir as aplicações noutro idioma ou atualizar as já existentes. Pode encontrar o guia no &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;site&lt;/a&gt;, ou contactar-nos para&lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; se tiver alguma questão.</string>
     <string name="faq_3_title_commons">Apaguei alguns ficheiros por engano, como posso recuperá-los\?</string>
     <string name="faq_3_text_commons">Infelizmente, não pode. Os ficheiros são apagados instantaneamente após o diálogo de confirmação, não existe reciclagem disponível.</string>
     <string name="faq_4_title_commons">Não gosto das cores do widget, posso mudá-las\?</string>
@@ -1027,7 +1027,7 @@
     <string name="translation">Tradução</string>
     <string name="development">Desenvolvimento</string>
     <string name="other_help">Mais ajuda</string>
-    <string name="contributors_label">Esta lista menciona todos aqueles que, de alguma forma, ajudaram significativamente no desenvolvimento das Simple Mobile Tools e não apenas desta aplicação. As traduções estão a cargo de voluntários. Se quiser participar, encontra o guia no &lt;a href=https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;nosso site&lt;/a&gt; ou então, contacte-nos para &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; se tiver alguma questão. Obrigado a todos os que contribuiram e nos apoiaram!</string>
+    <string name="contributors_label">Esta lista menciona todos aqueles que, de alguma forma, ajudaram significativamente no desenvolvimento das Fossify e não apenas desta aplicação. As traduções estão a cargo de voluntários. Se quiser participar, encontra o guia no &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;nosso site&lt;/a&gt; ou então, contacte-nos para &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; se tiver alguma questão. Obrigado a todos os que contribuiram e nos apoiaram!</string>
     <string name="translation_arabic">Árabe</string>
     <string name="translation_azerbaijani">Azeri</string>
     <string name="translation_bengali">Bengalês</string>

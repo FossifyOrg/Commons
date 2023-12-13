@@ -855,7 +855,7 @@
     <string name="rate">Vurder</string>
     <string name="donate">Donér</string>
     <string name="follow_us">Følg os</string>
-    <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
+    <string name="copyright">v %1$s\nCopyright © Fossify %2$d</string>
     <string name="support">Support</string>
     <string name="help_us">Hjælp os</string>
     <string name="social">Social</string>
@@ -953,7 +953,7 @@
     <string name="faq_2_text_commons">
         <![CDATA[
             Ja, selvfølgelig. Du kan sprede budskabet om vores apps eller give god feedback og gode vurderinger. Du kan også hjælpe ved at oversætte apps til et nyt sprog eller blot opdatere nogle af de eksisterende oversættelser.
-            Vejledningen til oversættelse findes på <a href="https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file">dette websted</a>, eller mail til os på adressen <a href="mailto:hello@fossify.org">hello@fossify.org</a>, hvis du har spørgsmål.
+            Vejledningen til oversættelse findes på <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">dette websted</a>, eller mail til os på adressen <a href="mailto:hello@fossify.org">hello@fossify.org</a>, hvis du har spørgsmål.
         ]]>
     </string>
     <string name="faq_3_title_commons">Jeg fik slettet nogle filer ved en fejl, hvordan kan jeg gendanne dem?</string>
@@ -984,8 +984,8 @@
     <string name="other_help">Anden hjælp</string>
     <string name="contributors_label">
         <![CDATA[
-            Denne liste indeholder alle, der har hjulpet med en app i Simple Mobile Tools-pakken, ikke kun denne. Oversættelser håndteres af frivillige,
-            så lad os vide, hvis du også vil hjælpe. Vejledningen til oversættelse findes på <a href="https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file">denne hjemmeside</a>, eller send en mail til <a href="mailto:hello@fossify.org">hello@fossify.org</a>, hvis du har spørgsmål.
+            Denne liste indeholder alle, der har hjulpet med en app i Fossify-pakken, ikke kun denne. Oversættelser håndteres af frivillige,
+            så lad os vide, hvis du også vil hjælpe. Vejledningen til oversættelse findes på <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">denne hjemmeside</a>, eller send en mail til <a href="mailto:hello@fossify.org">hello@fossify.org</a>, hvis du har spørgsmål.
             Tak til alle bidragydere og andre støtter!
         ]]>
     </string>

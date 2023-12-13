@@ -139,7 +139,7 @@ private fun CallConfirmationAlertDialogPreview() {
     AppThemeSurface {
         CallConfirmationAlertDialog(
             alertDialogState = rememberAlertDialogState(),
-            callee = "Simple Mobile Tools"
+            callee = "Fossify"
         ) {}
     }
 }
