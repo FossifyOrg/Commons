@@ -80,7 +80,6 @@ class AboutActivity : ComponentActivity() {
                     socialSection = {
                         if (showExternalLinks) {
                             SocialSection(
-                                onFacebookClick = ::onFacebookClick,
                                 onGithubClick = ::onGithubClick,
                                 onRedditClick = ::onRedditClick,
                                 onTelegramClick = ::onTelegramClick
@@ -268,17 +267,6 @@ class AboutActivity : ComponentActivity() {
 
     private fun onDonateClick() {
         launchViewIntent(getString(R.string.donate_url))
-    }
-
-    private fun onFacebookClick() {
-        var link = "https://www.facebook.com/fossify"
-        try {
-            packageManager.getPackageInfo("com.facebook.katana", 0)
-            link = "fb://page/150270895341774"
-        } catch (ignored: Exception) {
-        }
-
-        launchViewIntent(link)
     }
 
     private fun onGithubClick() {

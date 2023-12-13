@@ -149,7 +149,6 @@ internal fun AboutSection(
 
 @Composable
 internal fun SocialSection(
-    onFacebookClick: () -> Unit,
     onGithubClick: () -> Unit,
     onRedditClick: () -> Unit,
     onTelegramClick: () -> Unit
@@ -157,11 +156,6 @@ internal fun SocialSection(
     SettingsGroup(title = {
         SettingsTitleTextComponent(text = stringResource(id = R.string.social), modifier = startingTitlePadding)
     }) {
-        SocialText(
-            click = onFacebookClick,
-            text = stringResource(id = R.string.facebook),
-            icon = R.drawable.ic_facebook_vector,
-        )
         SocialText(
             click = onGithubClick,
             text = stringResource(id = R.string.github),
@@ -234,7 +228,6 @@ private fun AboutScreenPreview() {
             },
             socialSection = {
                 SocialSection(
-                    onFacebookClick = {},
                     onGithubClick = {},
                     onRedditClick = {},
                     onTelegramClick = {}
