@@ -32,7 +32,7 @@ internal fun AboutScreen(
         helpUsSection()
         socialSection()
         otherSection()
-        SettingsListItem(text = stringResource(id = R.string.about_footer))
+//        SettingsListItem(text = stringResource(id = R.string.about_footer))
     }
 }
 
