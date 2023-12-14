@@ -7,8 +7,8 @@
     <application
         android:name="org.fossify.commons.samples.App"
         android:allowBackup="true"
-        android:icon="@mipmap/commons_launcher"
-        android:label="@string/smtco_app_name"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/commons_app_name"
         android:localeConfig="@xml/locale_config"
         android:requestLegacyExternalStorage="true"
         android:supportsRtl="true"

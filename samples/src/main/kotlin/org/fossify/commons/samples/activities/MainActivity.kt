@@ -6,8 +6,6 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
-import org.fossify.commons.samples.BuildConfig
-import org.fossify.commons.samples.R
 import org.fossify.commons.activities.CustomizationActivity
 import org.fossify.commons.activities.ManageBlockedNumbersActivity
 import org.fossify.commons.compose.alert_dialog.AlertDialogState
@@ -22,6 +20,8 @@ import org.fossify.commons.extensions.launchMoreAppsFromUsIntent
 import org.fossify.commons.extensions.launchViewIntent
 import org.fossify.commons.helpers.*
 import org.fossify.commons.models.FAQItem
+import org.fossify.commons.samples.BuildConfig
+import org.fossify.commons.samples.R
 import org.fossify.commons.samples.screens.MainScreen
 
 class MainActivity : ComponentActivity() {
@@ -112,7 +112,7 @@ class MainActivity : ComponentActivity() {
             faqItems.add(FAQItem(org.fossify.commons.R.string.faq_6_title_commons, org.fossify.commons.R.string.faq_6_text_commons))
         }
 
-        startAboutActivity(R.string.smtco_app_name, licenses, BuildConfig.VERSION_NAME, faqItems, true)
+        startAboutActivity(R.string.commons_app_name, licenses, BuildConfig.VERSION_NAME, faqItems, true)
     }
 
     private fun startAboutActivity(
@@ -133,11 +133,11 @@ class MainActivity : ComponentActivity() {
         }
     }
 
-    private fun getAppLauncherName() = getString(R.string.smtco_app_name)
+    private fun getAppLauncherName() = getString(R.string.commons_app_name)
 
     private fun getAppIconIDs(): ArrayList<Int> {
         val ids = ArrayList<Int>()
-        ids.add(R.mipmap.commons_launcher)
+        ids.add(R.mipmap.ic_launcher)
         return ids
     }
 }
