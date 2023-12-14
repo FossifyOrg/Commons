@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:padding="@dimen/activity_margin">
 
-    <com.simplemobiletools.commons.views.MyTextInputLayout
+    <org.fossify.commons.views.MyTextInputLayout
         android:id="@+id/rename_items_hint"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -22,9 +22,9 @@
             android:textCursorDrawable="@null"
             android:textSize="@dimen/normal_text_size" />
 
-    </com.simplemobiletools.commons.views.MyTextInputLayout>
+    </org.fossify.commons.views.MyTextInputLayout>
 
-    <com.simplemobiletools.commons.views.MyTextView
+    <org.fossify.commons.views.MyTextView
         android:id="@+id/rename_items_label"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

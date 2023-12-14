@@ -51,10 +51,10 @@ app-build-minimumSDK = "23"
 app-build-javaVersion = "VERSION_17"
 app-build-kotlinJVMTarget = "17"
 #versioning
-app-version-appId = "com.simplemobiletools.commons"
-app-version-groupId = "com.simplemobiletools.commons"
+app-version-appId = "org.fossify.commons"
+app-version-groupId = "org.fossify.commons"
 app-version-versionCode = "1"
-app-version-versionName = "5.34.26"
+app-version-versionName = "1.0.0"
 [libraries]
 #Android X
 androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "androidx-appcompat" }

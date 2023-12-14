@@ -368,7 +368,7 @@
     <string name="app_icon_color_warning">ĮSPĖJIMAS: Kai kurios paleidyklės tinkamai neapdoroja programėlės piktogramos tinkinimo. Jei piktograma išnyks, pabandykite, jei prieinama, paleisti programėlę per „Google Play“ ar per kokį nors valdiklį. Paleidę programėlę, atstatykite numatytąją oranžinę piktogramą #F57C00. Blogiausiu atveju, jums gali tekti įdiegti programėlę iš naujo.</string>
     <string name="share_colors_success">Spalvos sėkmingai atnaujintos. Buvo pridėtas naujas apipavidalinimas, pavadinimu, „Bendrinamas“, naudokite jį, visų programėlių spalvų atnaujinimui ateityje.</string>
     <string name="shared_theme_note">Turėkite omenyje, kad nors naudojate programėlės „Pro“ versiją, jums vis tiek, dėl techninių priežasčių, reikia turėti įdiegtą programėlę „Paprastas ačiū“. Ji pasirūpina spalvų sinchronizavimu.</string>
-    <string name="purchase_thank_you">Įsigykite programėlę &lt;a href=https://play.google.com/store/apps/details\?id=com.simplemobiletools.thankyou&gt;„Paprastas ačiū“&lt;/a&gt;, kad atrakintumėte šią funkciją ir palaikytumėte programėlių plėtojimą. Dėkojame!</string>
+    <string name="purchase_thank_you">Įsigykite programėlę &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;„Paprastas ačiū“&lt;/a&gt;, kad atrakintumėte šią funkciją ir palaikytumėte programėlių plėtojimą. Dėkojame!</string>
     <!-- Themes -->
     <string name="light_theme">Šviesus</string>
     <string name="dark_theme">Tamsus</string>
@@ -891,7 +891,7 @@
     <string name="donate">Paaukoti</string>
     <string name="follow_us">Sekite mus</string>
     <string name="copyright">v %1$s
-\nAutorių teisės © Simple Mobile Tools %2$d</string>
+\nAutorių teisės © Fossify %2$d</string>
     <string name="support">Palaikymas</string>
     <string name="help_us">Padėkite mums</string>
     <string name="social">Socialiniai tinklai</string>
@@ -903,9 +903,9 @@
     <string name="additional_info">Papildoma informacija</string>
     <string name="app_version">Programėlės versija: %s</string>
     <string name="device_os">Įrenginio OS: %s</string>
-    <string name="donate_please">Sveiki,&lt;br&gt;&lt;br&gt; tikimės, jog jums patinka naudotis programėle. Joje nėra jokių reklamų, tad, prašome, palaikykite jos plėtojimą įsigydami programėlę, pavadinimu &lt;a href=https://play.google.com/store/apps/details\?id=com.simplemobiletools.thankyou&gt;„Paprastas ačiū“&lt;/a&gt;. Jos dėka, šis dialogas daugiau nebebus rodomas.&lt;br&gt;&lt;br&gt; Dėkojame!</string>
-    <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou&gt;Simple Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
-    <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou&gt;Simple Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
+    <string name="donate_please">Sveiki,&lt;br&gt;&lt;br&gt; tikimės, jog jums patinka naudotis programėle. Joje nėra jokių reklamų, tad, prašome, palaikykite jos plėtojimą įsigydami programėlę, pavadinimu &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;„Paprastas ačiū“&lt;/a&gt;. Jos dėka, šis dialogas daugiau nebebus rodomas.&lt;br&gt;&lt;br&gt; Dėkojame!</string>
+    <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify..thankyou&gt;Simple Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
+    <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify..thankyou&gt;Simple Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
     <string name="purchase">Įsigyti</string>
     <string name="get_simple_phone">Get Simple Phone</string>
     <string name="update_thank_you">Atnaujinkite programėlę „Paprastas ačiū“ iki naujausios versijos</string>
@@ -928,7 +928,7 @@
     <string name="thank_you">Ačiū</string>
     <string name="widget_locked_pro">Valdiklis yra užrakintas.
 \nAtsinaujinkite į „Pro“ versiją, norėdami jį atrakinti.</string>
-    <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou&gt;Simple Thank You&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>
+    <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details?id=org.fossify..thankyou&gt;Simple Thank You&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">Sveiki,&lt;br&gt;&lt;br&gt; tiesiog, norime jums pranešti, kad neseniai buvo išleistos naujos programėlės:&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; Galite jas atsisiųsti, spusteldami ant jų pavadinimų ar piktogramų.&lt;br&gt;&lt;br&gt;Ačiū</string>
     <string name="simple_app_launcher">Paprasta programėlių paleidyklė</string>
@@ -974,7 +974,7 @@
     <string name="faq_1_title_commons">Kodėl valdiklių sąraše nematau šios programėlės valdiklio\?</string>
     <string name="faq_1_text_commons">Greičiausiai, taip yra dėl to, kad perkėlėte programėlę į SD kortelę. Yra „Android“ sistemos apribojimas, kuris tokiu atveju paslepia nurodytos programėlės valdiklius. Vienintelis sprendimas yra per įrenginio nustatymus perkelti programėlę atgal į vidinę atmintį.</string>
     <string name="faq_2_title_commons">Aš noriu jus paremti, bet neturiu galimybės paaukoti pinigų. Ar yra kas nors, ką galiu padaryti\?</string>
-    <string name="faq_2_text_commons">Žinoma, yra. Galite skleisti žinią apie programėles arba teikti gerus atsiliepimus ir įvertinimus. Be to, galite padėti versdami programėles į naują kalbą arba atnaujindami esamus vertimus. Vertimo vadovą, galite rasti &lt;a href=https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;šioje svetainėje&lt;/a&gt; arba, tiesiog, jei turite klausimų, susisiekite su mumis el. paštu &lt;a href=mailto:hello@simplemobiletools.com&gt;hello@simplemobiletools.com&lt;/a&gt;.</string>
+    <string name="faq_2_text_commons">Žinoma, yra. Galite skleisti žinią apie programėles arba teikti gerus atsiliepimus ir įvertinimus. Be to, galite padėti versdami programėles į naują kalbą arba atnaujindami esamus vertimus. Vertimo vadovą, galite rasti &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;šioje svetainėje&lt;/a&gt; arba, tiesiog, jei turite klausimų, susisiekite su mumis el. paštu &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt;.</string>
     <string name="faq_3_title_commons">Aš per klaidą ištryniau keletą failų, kaip galiu juos atkurti\?</string>
     <string name="faq_3_text_commons">Deja, to padaryti negalite. Failai yra ištrinami iš karto po patvirtinimo dialogo, o šiukšlinė yra neprieinama.</string>
     <string name="faq_4_title_commons">Man nepatinka valdiklio spalvos, kaip galiu jas pakeisti\?</string>
@@ -986,7 +986,7 @@
     <string name="faq_7_title_commons">Pinigai buvo nuskaičiuoti nuo mano banko sąskaitos, o aš vis tiek negaliu atsisiųsti programėlės. Ką daryti\?</string>
     <string name="faq_7_text_commons">Mokėjimus pilnai apdoroja „Google“, jų sistema laikas nuo laiko stringa. Tiesiog, išvalykite „Google Play“ programėlės podėlį ir paleiskite įrenginį iš naujo, o tuomet, bandykite atsisiųsti programėlę.</string>
     <string name="faq_8_title_commons">Kodėl turėčiau atsinaujinti į „Pro“ versiją\?</string>
-    <string name="faq_8_text_commons">Kadangi jūsų programėlės versija daugiau nebeatnaujinama, klaidos, kurias galbūt pastebėjote, nebebus ištaisomos. Be to, nebebus pridedamos jokios naujos funkcijos. Už nedidelę pinigų sumą, per „Google Play“ galite įsigyti „Pro“ versiją. Tai yra vienkartinis mokestis, kas reiškia, jog vieną kartą įsigiję, daugiau nebeturėsite mokėti dar kartą. Netgi, jei įsigysite naują įrenginį. Jeigu „Pro“ versija jums nepatiks, per kelias valandas galėsite ją pašalinti ir pinigai bus jums grąžinti automatiškai. Jei pinigus norėsite susigrąžinti vėliau, tiesiog, susisiekite su mumis el. paštu hello@simplemobiletools.com ir mes juos grąžinsime.</string>
+    <string name="faq_8_text_commons">Kadangi jūsų programėlės versija daugiau nebeatnaujinama, klaidos, kurias galbūt pastebėjote, nebebus ištaisomos. Be to, nebebus pridedamos jokios naujos funkcijos. Už nedidelę pinigų sumą, per „Google Play“ galite įsigyti „Pro“ versiją. Tai yra vienkartinis mokestis, kas reiškia, jog vieną kartą įsigiję, daugiau nebeturėsite mokėti dar kartą. Netgi, jei įsigysite naują įrenginį. Jeigu „Pro“ versija jums nepatiks, per kelias valandas galėsite ją pašalinti ir pinigai bus jums grąžinti automatiškai. Jei pinigus norėsite susigrąžinti vėliau, tiesiog, susisiekite su mumis el. paštu hello@fossify.org ir mes juos grąžinsime.</string>
     <string name="faq_9_title_commons">Kaip vienu metu galiu pažymėti kelis elementus\?</string>
     <string name="faq_9_text_commons">Yra keli būdai, kaip galima tą padaryti. Pirmas būdas, tai įjungti žymėjimo veikseną, paspaudus ir ilgai palaikius ant vieno elemento, o tuomet trumpai paspaudžiant ant kitų, norimų pažymėti, elementų. Antras būdas yra panašus į tą, kuris naudojamas kompiuteriuose žymint elementus pele. Tiesiog, įjunkite žymėjimo veikseną paspaudę ir ilgai palaikę ant vieno elemento, o tuomet neatleisdami piršto, tempkite jį žemyn per kitus elementus, kad juos pažymėtumėte. Trečias būdas, kaip pažymėti kelis elementus, yra paspausti ir ilgai palaikyti ant vieno elemento, tuomet paspausti ir ilgai palaikyti ant kito elemento, ir viskas, kas yra tarp šių dviejų elementų, bus pažymėta. Jei norite pažymėti visus elementus, paspauskite ir ilgai palaikykite ant vieno elemento, o tuomet viršutiniame kairiajame kampe spustelėkite ant pažymėtų elementų skaitiklio. Tai viską pažymės arba nuims žymėjimą nuo visų elementų.</string>
     <string name="faq_10_title_commons">Aš įsigijau programėlę, bet negaliu jos atsisiųsti kitame įrenginyje.</string>
@@ -996,7 +996,7 @@
     <string name="translation">Vertimas</string>
     <string name="development">Plėtojimas</string>
     <string name="other_help">Kita pagalba</string>
-    <string name="contributors_label">Šiame sąraše yra žmonės, kurie daug prisidėjo prie visų „Simple Mobile Tools“ rinkinio programėlių, o ne vien tik prie šios. Programėles į kitas kalbas verčia savanoriai, tad praneškite mums, jei taip pat norite padėti. Vertimo vadovą rasite &lt;a href=https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;šioje svetainėje&lt;/a&gt; arba, jei turite klausimų, susisiekite su mumis el. paštu &lt;a href=mailto:hello@simplemobiletools.com&gt;hello@simplemobiletools.com&lt;/a&gt;. Dėkojame visiems, kas prisidėjo ar kitaip mus palaikė!</string>
+    <string name="contributors_label">Šiame sąraše yra žmonės, kurie daug prisidėjo prie visų „Fossify“ rinkinio programėlių, o ne vien tik prie šios. Programėles į kitas kalbas verčia savanoriai, tad praneškite mums, jei taip pat norite padėti. Vertimo vadovą rasite &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;šioje svetainėje&lt;/a&gt; arba, jei turite klausimų, susisiekite su mumis el. paštu &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt;. Dėkojame visiems, kas prisidėjo ar kitaip mus palaikė!</string>
     <string name="translation_arabic">Arabų</string>
     <string name="translation_azerbaijani">Azerbaidžaniečių</string>
     <string name="translation_bengali">Bengalų</string>
@@ -1135,8 +1135,8 @@
         <item quantity="other">Your trial expires in %d days.</item>
     </plurals>
     <!-- Google Play listing -->
-    <string name="deprecated_app">PASENUSI: Ši programėlės versija daugiau nebeprižiūrima, gaukite „Pro“ versiją, adresu https://play.google.com/store/apps/details\?id=com.simplemobiletools.xxx.pro</string>
-    <string name="pro_app_refund">Nepamirškite, jog jeigu per 2 valandas pašalinsite bet kurią mokamą programėlę, jums automatiškai bus grąžinti pinigai. Jei norėsite susigrąžinti pinigus vėliau, susisiekite su mumis el. paštu hello@simplemobiletools.com ir juos atgausite. Tokiu būdu galite lengvai išbandyti programėlę :)</string>
+    <string name="deprecated_app">PASENUSI: Ši programėlės versija daugiau nebeprižiūrima, gaukite „Pro“ versiją, adresu https://play.google.com/store/apps/details\?id=org.fossify..xxx.pro</string>
+    <string name="pro_app_refund">Nepamirškite, jog jeigu per 2 valandas pašalinsite bet kurią mokamą programėlę, jums automatiškai bus grąžinti pinigai. Jei norėsite susigrąžinti pinigus vėliau, susisiekite su mumis el. paštu hello@fossify.org ir juos atgausite. Tokiu būdu galite lengvai išbandyti programėlę :)</string>
     <!-- Description of our developer profile on Google Play, it can have max 140 characters -->
     <string name="developer_description">Paprastų, atvirojo kodo „Android“ progamėlių rinkinys su tinkinamais valdikliais, be reklamų ir nereikalingų leidimų.</string>
 </resources>

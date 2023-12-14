@@ -362,7 +362,7 @@
     <string name="shared_theme_note">Σημειώστε ότι αν και χρησιμοποιείτε την έκδοση εφαρμογής Pro, εξακολουθείτε να χρειάζεστε το \"Απλά Σας Ευχαριστώ\" για τεχνικούς λόγους. Φροντίζει για το συγχρονισμό χρωμάτων.</string>
     <string name="purchase_thank_you">
         <![CDATA[
-            Παρακαλώ αγοράστε την <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Απλά Σας Ευχαριστώ</a> για να ξεκλειδώσετε αυτή τη λειτουργία για να υποστηρίξετε την ανάπτυξη. Ευχαριστώ!
+            Παρακαλώ αγοράστε την <a href="https://play.google.com/store/apps/details?id=org.fossify..thankyou">Απλά Σας Ευχαριστώ</a> για να ξεκλειδώσετε αυτή τη λειτουργία για να υποστηρίξετε την ανάπτυξη. Ευχαριστώ!
         ]]>
     </string>
     <!-- Themes -->
@@ -856,7 +856,7 @@
     <string name="rate">Βαθμολογία</string>
     <string name="donate">Δωρεά</string>
     <string name="follow_us">Ακολουθήστε μας</string>
-    <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
+    <string name="copyright">v %1$s\nCopyright © Fossify %2$d</string>
     <string name="support">Υποστήριξη</string>
     <string name="help_us">Βοηθήστε μας</string>
     <string name="social">Κοινωνικά</string>
@@ -871,12 +871,12 @@
     <string name="donate_please">
         <![CDATA[
             Γειά σας,<br><br>
-            Ελπίζω να απολαμβάνετε την εφαρμογή. Δεν περιέχει διαφημίσεις, παρακαλώ υποστηρίξτε την ανάπτυξή της με την αγορά στο <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Απλά Σας Ευχαριστούμε</a>, θα αποτρέψει επίσης την εμφάνιση αυτού του διαλόγου.<br><br>
+            Ελπίζω να απολαμβάνετε την εφαρμογή. Δεν περιέχει διαφημίσεις, παρακαλώ υποστηρίξτε την ανάπτυξή της με την αγορά στο <a href="https://play.google.com/store/apps/details?id=org.fossify..thankyou">Απλά Σας Ευχαριστούμε</a>, θα αποτρέψει επίσης την εμφάνιση αυτού του διαλόγου.<br><br>
             Ευχαριστούμε!
         ]]>
     </string>
-    <string name="donate_new">Γειά σας,&lt;br&gt;&lt;br&gt;ελπίζω να απολαμβάνετε την εφαρμογή. Δεν περιέχει διαφημίσεις και δεν συλλέγουμε τα δεδομένα σας, παρακαλούμε υποστηρίξτε την ανάπτυξή της με την αγορά της &lt;a href=https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou&gt;Απλά Σας Ευχαριστούμε&lt;/a&gt;. Επίσης, θα έχετε ξεκλειδώσει όλες τις λειτουργίες της και την προσαρμογή των χρωμάτων.&lt;br&gt;&lt;br&gt;Σας ευχαριστώ!</string>
-    <string name="donate_short">Υποστηρίξτε μας αγοράζοντας την &lt;a href=https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou&gt;Απλά Σας Ευχαριστούμε&lt;/a&gt; παρακαλώ, θα ξεκλειδώσει επίσης όλες τις λειτουργίες της εφαρμογής και την προσαρμογή χρωμάτων.</string>
+    <string name="donate_new">Γειά σας,&lt;br&gt;&lt;br&gt;ελπίζω να απολαμβάνετε την εφαρμογή. Δεν περιέχει διαφημίσεις και δεν συλλέγουμε τα δεδομένα σας, παρακαλούμε υποστηρίξτε την ανάπτυξή της με την αγορά της &lt;a href=https://play.google.com/store/apps/details?id=org.fossify..thankyou&gt;Απλά Σας Ευχαριστούμε&lt;/a&gt;. Επίσης, θα έχετε ξεκλειδώσει όλες τις λειτουργίες της και την προσαρμογή των χρωμάτων.&lt;br&gt;&lt;br&gt;Σας ευχαριστώ!</string>
+    <string name="donate_short">Υποστηρίξτε μας αγοράζοντας την &lt;a href=https://play.google.com/store/apps/details?id=org.fossify..thankyou&gt;Απλά Σας Ευχαριστούμε&lt;/a&gt; παρακαλώ, θα ξεκλειδώσει επίσης όλες τις λειτουργίες της εφαρμογής και την προσαρμογή χρωμάτων.</string>
     <string name="purchase">Αγορά</string>
     <string name="get_simple_phone">Αγορά Simple Phone</string>
     <string name="update_thank_you">Παρακαλώ ενημερώστε την Απλά Σας Ευχαριστούμε στην τελευταία έκδοση</string>
@@ -890,7 +890,7 @@
     <string name="rate_our_app">Βαθμολογήστε την εφαρμογή μας παρακαλώ :)</string>
     <string name="thank_you">Σας Ευχαριστούμε</string>
     <string name="widget_locked_pro">Το widget είναι κλειδωμένο.\nΠαρακαλώ αναβαθμίστε σε Pro έκδοση, για να το ξεκλειδώσετε.</string>
-    <string name="features_locked">Αυτή η λειτουργία είναι κλειδωμένη, παρακαλούμε αγοράστε &lt;a href=https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou&gt;Simple Thank You&lt;/a&gt; για το ξεκλείδωμα της πλήρους εφαρμογής.&lt;br&gt;&lt;br&gt;Είναι μια εφάπαξ πληρωμή μόνο και αν δεν είστε ικανοποιημένοι, μπορούμε να σας επιστρέψουμε τα χρήματα.</string>
+    <string name="features_locked">Αυτή η λειτουργία είναι κλειδωμένη, παρακαλούμε αγοράστε &lt;a href=https://play.google.com/store/apps/details?id=org.fossify..thankyou&gt;Simple Thank You&lt;/a&gt; για το ξεκλείδωμα της πλήρους εφαρμογής.&lt;br&gt;&lt;br&gt;Είναι μια εφάπαξ πληρωμή μόνο και αν δεν είστε ικανοποιημένοι, μπορούμε να σας επιστρέψουμε τα χρήματα.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">
         <![CDATA[
@@ -954,7 +954,7 @@
     <string name="faq_2_text_commons">
         <![CDATA[
             Ναι, φυσικά. Μπορείτε να διαδώσετε τις εφαρμογές ή να δώσετε καλά σχόλια και αξιολογήσεις. Μπορείτε επίσης να βοηθήσετε με τη μετάφραση των εφαρμογών σε μια νέα γλώσσα ή απλώς να ενημερώστε κάποιες υπάρχουσες μεταφράσεις..
-            Ο οδηγός μετάφρασης βρίσκεται στον <a href="https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file">ιστότοπο</a>, ή απλά επικοινωνήστε μαζί μας στο <a href="mailto:hello@simplemobiletools.com">hello@simplemobiletools.com</a> αν έχετε οποιεσδήποτε ερωτήσεις.
+            Ο οδηγός μετάφρασης βρίσκεται στον <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">ιστότοπο</a>, ή απλά επικοινωνήστε μαζί μας στο <a href="mailto:hello@fossify.org">hello@fossify.org</a> αν έχετε οποιεσδήποτε ερωτήσεις.
         ]]>
     </string>
     <string name="faq_3_title_commons">Διαγραφή κάποιων αρχείων κατά λάθος, πώς μπορώ να τα ανακτήσω;</string>
@@ -971,7 +971,7 @@
     <string name="faq_8_title_commons">Γιατί πρέπει να αναβαθμίσω σε έκδοση Pro;</string>
     <string name="faq_8_text_commons">Καθώς η έκδοση της εφαρμογής σας δεν ενημερώνεται πλέον, τα σφάλματα που εντοπίσατε ίσως δεν θα διορθωθούν ποτέ. Επίσης, δεν θα προστεθούν νέες λειτουργίες. Μπορείτε να αγοράσετε την έκδοση Pro στο Google Play με ένα μικρό χρηματικό ποσό.
         Πρόκειται για εφάπαξ πληρωμή, πράγμα που σημαίνει ότι μόλις την αγοράσετε, δεν θα χρειαστεί να την πληρώσετε ξανά. Ούτε καν μετά τη λήψη μιας νέας συσκευής. Εάν δεν σας αρέσει η έκδοση Pro, μπορείτε να την απεγκαταστήσετε μέσα σε λίγες ώρες και θα λάβετε αυτόματα τα χρήματά σας πίσω.
-        Αν θέλετε επιστροφή χρημάτων οποιαδήποτε στιγμή αργότερα, απλά επικοινωνήστε μαζί μας στη διεύθυνση hello@simplemobiletools.com και θα τα λάβετε.</string>
+        Αν θέλετε επιστροφή χρημάτων οποιαδήποτε στιγμή αργότερα, απλά επικοινωνήστε μαζί μας στη διεύθυνση hello@fossify.org και θα τα λάβετε.</string>
     <string name="faq_9_title_commons">Πώς μπορώ να επιλέξω πολλά στοιχεία ταυτόχρονα;</string>
     <string name="faq_9_text_commons">Υπάρχουν πολλοί τρόποι για να γίνει αυτό. Το πρώτο είναι η εκκίνηση της λειτουργίας επιλογής πατώντας παρατεταμένα ένα στοιχείο και κατόπιν κάνοντας σύντομο κλικ σε άλλα για να τα επιλέξετε. Ο δεύτερος τρόπος είναι παρόμοιος με την επιλογή στοιχείων σε υπολογιστές με ποντίκι.
         απλά ξεκινήστε τη λειτουργία επιλογής πατώντας παρατεταμένα ένα στοιχείο και, στη συνέχεια, κρατώντας πατημένο το δάχτυλό σας, σύρετέ το σε άλλα στοιχεία για επιλογή. Ο τρίτος τρόπος επιλογής πολλών στοιχείων είναι η μεγάλη διάρκεια πίεσης ενός στοιχείου και κατόπιν η μεγάλη διάρκεια πίεσης ενός άλλου και όλων των ενδιάμεσων γίνεται επιλεγμένη. Εάν
@@ -985,8 +985,8 @@
     <string name="other_help">Άλλη Βοήθεια</string>
     <string name="contributors_label">
         <![CDATA[
-            Αυτή η λίστα περιέχει όλους όσους βοήθησαν αισθητά οποιαδήποτε εφαρμογή της σουίτας Simple Mobile Tools, όχι μόνο αυτή. Οι μεταφράσεις γίνονται από εθελοντές,
-            πείτε μας αν θέλετε να βοηθήσετε κι εσείς. Ο οδηγός για τη μετάφραση βρίσκεται στον <a href="https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file">ιστότοπο</a>, ή επικοινωνήστε μαζί μας στο <a href="mailto:hello@simplemobiletools.com">hello@simplemobiletools.com</a> αν έχετε οποιεσδήποτε ερωτήσεις.
+            Αυτή η λίστα περιέχει όλους όσους βοήθησαν αισθητά οποιαδήποτε εφαρμογή της σουίτας Fossify, όχι μόνο αυτή. Οι μεταφράσεις γίνονται από εθελοντές,
+            πείτε μας αν θέλετε να βοηθήσετε κι εσείς. Ο οδηγός για τη μετάφραση βρίσκεται στον <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">ιστότοπο</a>, ή επικοινωνήστε μαζί μας στο <a href="mailto:hello@fossify.org">hello@fossify.org</a> αν έχετε οποιεσδήποτε ερωτήσεις.
             Ευχαριστούμε όλους τους συνεισφέροντες και υποστηρικτές!
         ]]>
     </string>
@@ -1128,8 +1128,8 @@
         <item quantity="other">Η δοκιμή σας λήγει σε %d ημέρες.</item>
     </plurals>
     <!-- Google Play listing -->
-    <string name="deprecated_app">ΚΑΤΑΡΓΗΣΗ: Αυτή η έκδοση της εφαρμογής δεν υποστηρίζεται πλέον, λάβετε την έκδοση Pro εδώ https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
-    <string name="pro_app_refund">Μην ξεχνάτε οτι αν απεγκατασταθεί εντός 2 ωρών, θα επιστραφούν αυτόματα τα χρήματα σας. Αν θέλετε επιστροφή χρημάτων οποιαδήποτε στιγμή αργότερα, απλά επικοινωνήστε μαζί μας στο hello@simplemobiletools.com και θα τα λάβετε. Αυτό το κάνει εύκολότερο για να την δοκιμάσετε :)</string>
+    <string name="deprecated_app">ΚΑΤΑΡΓΗΣΗ: Αυτή η έκδοση της εφαρμογής δεν υποστηρίζεται πλέον, λάβετε την έκδοση Pro εδώ https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
+    <string name="pro_app_refund">Μην ξεχνάτε οτι αν απεγκατασταθεί εντός 2 ωρών, θα επιστραφούν αυτόματα τα χρήματα σας. Αν θέλετε επιστροφή χρημάτων οποιαδήποτε στιγμή αργότερα, απλά επικοινωνήστε μαζί μας στο hello@fossify.org και θα τα λάβετε. Αυτό το κάνει εύκολότερο για να την δοκιμάσετε :)</string>
     <!-- Description of our developer profile on Google Play, it can have max 140 characters -->
     <string name="developer_description">Μια ομάδα Απλών εφαρμογών Android ανοιχτού κώδικα με προσαρμόσιμα γραφικά στοιχεία, χωρίς διαφημίσεις και περιττές Άδειες.</string>
 </resources>

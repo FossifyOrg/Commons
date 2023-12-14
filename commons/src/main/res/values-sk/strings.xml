@@ -367,7 +367,7 @@
     <string name="shared_theme_note">Pripomíname vám, že napriek tomu, že používate Pro verziu apky, stále potrebujete \"Jednoduché ďakujem\" z technických príčin. Ona má totižto na starosti synchronizáciu farieb.</string>
     <string name="purchase_thank_you">
         <![CDATA[
-            Prosím zakúpte si <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Jednoduché ďakujem</a> na odomknutie tejto funkcie a podporu vývoja. Vďaka!
+            Prosím zakúpte si <a href="https://play.google.com/store/apps/details?id=org.fossify..thankyou">Jednoduché ďakujem</a> na odomknutie tejto funkcie a podporu vývoja. Vďaka!
         ]]>
     </string>
     <!-- Themes -->
@@ -892,7 +892,7 @@
     <string name="rate">Ohodnotiť</string>
     <string name="donate">Podporiť</string>
     <string name="follow_us">Sledujte nás</string>
-    <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
+    <string name="copyright">v %1$s\nCopyright © Fossify %2$d</string>
     <string name="support">Podpora</string>
     <string name="help_us">Pomôžte nám</string>
     <string name="social">Sociálne siete</string>
@@ -907,12 +907,12 @@
     <string name="donate_please">
         <![CDATA[
             Zdravím,<br><br>
-            dúfam, že sa vám moja apka páči. Neobsahuje žiadne reklamy, podporte prosím jej vývoj zakúpením aplikácie <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Jednoduché ďakujem</a>. Zaručí to aj to, že tento dialóg už neuvidíte.<br><br>
+            dúfam, že sa vám moja apka páči. Neobsahuje žiadne reklamy, podporte prosím jej vývoj zakúpením aplikácie <a href="https://play.google.com/store/apps/details?id=org.fossify..thankyou">Jednoduché ďakujem</a>. Zaručí to aj to, že tento dialóg už neuvidíte.<br><br>
             Ďakujem!
         ]]>
     </string>
-    <string name="donate_new">Zdravím,&lt;br&gt;&lt;br&gt;dúfame, že sa vám naša apka páči. Neobsahuje žiadne reklamy a ani nezbiera vaše údaje, podporte prosíme jej vývoj zakúpením aplikácie &lt;a href=https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou&gt;Jednoduché ďakujem&lt;/a&gt;. Budete tým mať zároveň odomknuté všetky funkcie vrátane zmeny farieb.&lt;br&gt;&lt;br&gt;Ďakujeme!</string>
-    <string name="donate_short">Podporte nás prosím kúpou &lt;a href=https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou&gt;Jednoduchého Ďakujem&lt;/a&gt;, odomkne to zároveň všetky funkcie apky vrátane zmeny farieb.</string>
+    <string name="donate_new">Zdravím,&lt;br&gt;&lt;br&gt;dúfame, že sa vám naša apka páči. Neobsahuje žiadne reklamy a ani nezbiera vaše údaje, podporte prosíme jej vývoj zakúpením aplikácie &lt;a href=https://play.google.com/store/apps/details?id=org.fossify..thankyou&gt;Jednoduché ďakujem&lt;/a&gt;. Budete tým mať zároveň odomknuté všetky funkcie vrátane zmeny farieb.&lt;br&gt;&lt;br&gt;Ďakujeme!</string>
+    <string name="donate_short">Podporte nás prosím kúpou &lt;a href=https://play.google.com/store/apps/details?id=org.fossify..thankyou&gt;Jednoduchého Ďakujem&lt;/a&gt;, odomkne to zároveň všetky funkcie apky vrátane zmeny farieb.</string>
     <string name="purchase">Zakúpiť</string>
     <string name="get_simple_phone">Objednať Jednoduchý Telefón</string>
     <string name="update_thank_you">Prosím aktualizujte Jednoduché Ďakujem na najnovšiu verziu</string>
@@ -926,7 +926,7 @@
     <string name="rate_our_app">Ohodnoťte našu aplikáciu, prosím :)</string>
     <string name="thank_you">Ďakujeme</string>
     <string name="widget_locked_pro">Widget je uzamknutý.\nNa odomknutie prosím prejdite na Pro verziu.</string>
-    <string name="features_locked">Táto funkcia je uzamknutá, prosím kúpte &lt;a href=https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou&gt;Jednoduché ďakujem&lt;/a&gt; pre odomknutie celej apky.&lt;br&gt;&lt;br&gt;Ide o jednorazovú platbu a ak nebudete spokojný, peniaze vám vrátime.</string>
+    <string name="features_locked">Táto funkcia je uzamknutá, prosím kúpte &lt;a href=https://play.google.com/store/apps/details?id=org.fossify..thankyou&gt;Jednoduché ďakujem&lt;/a&gt; pre odomknutie celej apky.&lt;br&gt;&lt;br&gt;Ide o jednorazovú platbu a ak nebudete spokojný, peniaze vám vrátime.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">
         <![CDATA[
@@ -990,7 +990,7 @@
     <string name="faq_2_text_commons">
         <![CDATA[
             Áno, samozrejme. Môžete napr. šíriť apky medzi známymi, alebo nám poslať užitočnú odozvu a hodnotenia. Viete pomôcť aj preložením apiek do nových jazykov, alebo upraviť existujúce preklady.
-            Návod na prekladanie je na <a href="https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file">tejto webstránke</a>, alebo nám v prípade potreby napíšte na <a href="mailto:hello@simplemobiletools.com">hello@simplemobiletools.com</a>.
+            Návod na prekladanie je na <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">tejto webstránke</a>, alebo nám v prípade potreby napíšte na <a href="mailto:hello@fossify.org">hello@fossify.org</a>.
         ]]>
     </string>
     <string name="faq_3_title_commons">Náhodou som vymazal niektoré súbory, viem ich obnoviť?</string>
@@ -1007,7 +1007,7 @@
     <string name="faq_8_title_commons">Prečo by som si mal stiahnuť Pro verziu?</string>
     <string name="faq_8_text_commons">Keďže táto verzia aplikácie už nebude aktualizovaná, chyby, ktoré ste možno našli, nebudú nikdy opravené. Taktiež už nepribudnú žiadne nové funkcie. Pro verziu si viete kúpiť lacno na Google Play.
         Ide o jednorázovú platbu, čo znamená, že ak ju raz zaplatíte, už nikdy nebudete musieť platiť nič. Ani vtedy, ak si kúpite nové zariadenie. Ak sa vám Pro verzia nebude páčiť, môžete ju do pár hodín odinštalovať a peniaze vám budú automaticky vrátené.
-        Ak budete chcieť vrátiť apku kedykoľvek neskôr, stačí, ak nám napíšete na hello@simplemobiletools.com a peniaze vám vrátime.</string>
+        Ak budete chcieť vrátiť apku kedykoľvek neskôr, stačí, ak nám napíšete na hello@fossify.org a peniaze vám vrátime.</string>
     <string name="faq_9_title_commons">Akým spôsobom viem naraz označiť viacero položiek?</string>
     <string name="faq_9_text_commons">Existuje viacero spôsobov. Prvým je aktivovanie označovacieho módu dlhým podržaním jednej položky, následne viete označiť ďalšie krátkymi ťuknutiami. Druhý spôsob je podobný označovaniu položiek myšou na PC. Dlhým podržaním označte jednu položku a bez dvihnutia prsta
         ho potiahnite cez ďalšie položky, to ich označí. Tretím spôsobom je dlhé podržanie jednej položky, následne dlhé podržanie inej položky. Označí to všetko medzi týmito 2 položkami. Ak chcete označiť všetko, aktivujte označovací mód dlhým podržaním jednej položky,
@@ -1021,8 +1021,8 @@
     <string name="other_help">Iná pomoc</string>
     <string name="contributors_label">
         <![CDATA[
-            Tento zoznam obsahuje každého, kto citeľne pomohol ktorejkoľvek apke z celej sady Simple Mobile Tools, nie iba tejto apke. Preklady sú spracovávané dobrovoľníkmi,
-            dajte nám vedieť, ak chcete pomôcť tiež. Návod na prekladanie je na <a href="https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file">tejto webstránke</a>, alebo ak máte nejaké otázky, tak nám jednoducho napíšte na <a href="mailto:hello@simplemobiletools.com">hello@simplemobiletools.com</a>.
+            Tento zoznam obsahuje každého, kto citeľne pomohol ktorejkoľvek apke z celej sady Fossify, nie iba tejto apke. Preklady sú spracovávané dobrovoľníkmi,
+            dajte nám vedieť, ak chcete pomôcť tiež. Návod na prekladanie je na <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">tejto webstránke</a>, alebo ak máte nejaké otázky, tak nám jednoducho napíšte na <a href="mailto:hello@fossify.org">hello@fossify.org</a>.
             Ďakujeme všetkým prispievateľom a iným podporovateľom!
         ]]>
     </string>
@@ -1165,8 +1165,8 @@
         <item quantity="other">Vaša skúšobná doba uplynie o %d dní.</item>
     </plurals>
     <!-- Google Play listing -->
-    <string name="deprecated_app">ZASTARALÁ: Táto verzia aplikácie už nie je podporovaná. Stiahnite si Pro verziu na https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
-    <string name="pro_app_refund">Nezabudnite, že ak odinštalujete platenú verziu do 2 hodín, peniaze vám budú automaticky vrátené. Ak ich budete chcieť späť hocikedy neskôr, len nám dajte vedieť na hello@simplemobiletools.com. To vám zabezpečí jednoduchý spôsob na ich vyskúšanie :)</string>
+    <string name="deprecated_app">ZASTARALÁ: Táto verzia aplikácie už nie je podporovaná. Stiahnite si Pro verziu na https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
+    <string name="pro_app_refund">Nezabudnite, že ak odinštalujete platenú verziu do 2 hodín, peniaze vám budú automaticky vrátené. Ak ich budete chcieť späť hocikedy neskôr, len nám dajte vedieť na hello@fossify.org. To vám zabezpečí jednoduchý spôsob na ich vyskúšanie :)</string>
     <!-- Description of our developer profile on Google Play, it can have max 140 characters -->
     <string name="developer_description">Skupina jednoduchých, open source Android apiek s nastaviteľnými widgetmi, bez reklám a nepotrebných oprávnení.</string>
 </resources>

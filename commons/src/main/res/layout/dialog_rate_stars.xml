@@ -8,7 +8,7 @@
     android:paddingTop="@dimen/activity_margin"
     android:paddingRight="@dimen/activity_margin">
 
-    <com.simplemobiletools.commons.views.MyTextView
+    <org.fossify.commons.views.MyTextView
         android:id="@+id/rate_stars_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

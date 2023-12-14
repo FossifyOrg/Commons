@@ -38,7 +38,7 @@
                 android:paddingRight="@dimen/activity_margin"
                 android:paddingBottom="@dimen/bigger_margin">
 
-                <com.simplemobiletools.commons.views.MyTextView
+                <org.fossify.commons.views.MyTextView
                     android:id="@+id/customization_theme_label"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -48,7 +48,7 @@
                     android:paddingRight="@dimen/medium_margin"
                     android:text="@string/theme" />
 
-                <com.simplemobiletools.commons.views.MyTextView
+                <org.fossify.commons.views.MyTextView
                     android:id="@+id/customization_theme"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -68,7 +68,7 @@
                 android:background="?attr/selectableItemBackground"
                 android:padding="@dimen/activity_margin">
 
-                <com.simplemobiletools.commons.views.MyTextView
+                <org.fossify.commons.views.MyTextView
                     android:id="@+id/customization_text_color_label"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -96,7 +96,7 @@
                 android:background="?attr/selectableItemBackground"
                 android:padding="@dimen/activity_margin">
 
-                <com.simplemobiletools.commons.views.MyTextView
+                <org.fossify.commons.views.MyTextView
                     android:id="@+id/customization_background_color_label"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -124,7 +124,7 @@
                 android:background="?attr/selectableItemBackground"
                 android:padding="@dimen/activity_margin">
 
-                <com.simplemobiletools.commons.views.MyTextView
+                <org.fossify.commons.views.MyTextView
                     android:id="@+id/customization_primary_color_label"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -153,7 +153,7 @@
                 android:padding="@dimen/activity_margin"
                 android:visibility="gone">
 
-                <com.simplemobiletools.commons.views.MyTextView
+                <org.fossify.commons.views.MyTextView
                     android:id="@+id/customization_accent_color_label"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -181,7 +181,7 @@
                 android:background="?attr/selectableItemBackground"
                 android:padding="@dimen/activity_margin">
 
-                <com.simplemobiletools.commons.views.MyTextView
+                <org.fossify.commons.views.MyTextView
                     android:id="@+id/customization_app_icon_color_label"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

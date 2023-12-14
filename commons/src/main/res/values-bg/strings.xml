@@ -365,7 +365,7 @@
     <string name="app_icon_color_warning">ВНИМАНИЕ: Някои лаунчъри не се справят правилно с персонализирането на иконата на приложението. В случай, че иконата изчезне, опитайте да стартирате приложението чрез Google Play или някакво приспособление, ако има такова. След като е стартирано, поставете го обратно в оранжевия цвят по подразбиране на иконата #F57C00. Може да се наложи да преинсталирате приложението в най -лошия случай.</string>
     <string name="share_colors_success">Цветовете се актуализираха успешно. Добавена е нова тема, наречена \'Споделена\', моля, използвайте нея за актуализиране на всички цветове на приложението в бъдеще.</string>
     <string name="shared_theme_note">Обърнете внимание, че въпреки че използвате Про версията на приложението, все още се нуждаете от Обикновено Благодаря за технически причини. То се грижи за синхронизацията на цвета.</string>
-    <string name="purchase_thank_you">Моля, закупете &lt;a href=https://play.google.com/store/apps/details\?id=com.simplemobiletools.thankyou&gt;Обикновено Благодаря&lt;/a&gt; За да отключите тази функция и да подкрепите разработката. Благодаря!</string>
+    <string name="purchase_thank_you">Моля, закупете &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Обикновено Благодаря&lt;/a&gt; За да отключите тази функция и да подкрепите разработката. Благодаря!</string>
     <!-- Themes -->
     <string name="light_theme">Светло</string>
     <string name="dark_theme">Тъмно</string>
@@ -884,9 +884,9 @@
     <string name="additional_info">Допълнителна информация</string>
     <string name="app_version">Версия на приложението: %s</string>
     <string name="device_os">ОС на устройството: %s</string>
-    <string name="donate_please">Здравей,&lt;br&gt;&lt;br&gt; надявам се, че се наслаждаваш на приложението. То не съдържа реклами, моля, подкрепете разработката му, като закупите приложението &lt;a href=https://play.google.com/store/apps/details\?id=com.simplemobiletools.thankyou&gt;Обикновено Благодаря&lt;/a&gt;. То ще предотврати този диалог да се покаже отново.&lt;br&gt;&lt;br&gt; Благодаря!</string>
-    <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou&gt;Simple Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
-    <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou&gt;Simple Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
+    <string name="donate_please">Здравей,&lt;br&gt;&lt;br&gt; надявам се, че се наслаждаваш на приложението. То не съдържа реклами, моля, подкрепете разработката му, като закупите приложението &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Обикновено Благодаря&lt;/a&gt;. То ще предотврати този диалог да се покаже отново.&lt;br&gt;&lt;br&gt; Благодаря!</string>
+    <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify..thankyou&gt;Simple Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
+    <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify..thankyou&gt;Simple Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
     <string name="purchase">Купи</string>
     <string name="get_simple_phone">Поръчване на Обикновен Смартфон</string>
     <string name="update_thank_you">Моля, обноврте Обикновено Благодаря до последното издание</string>
@@ -909,7 +909,7 @@
     <string name="thank_you">Благодаря Ви</string>
     <string name="widget_locked_pro">Приспособлението е заключено.
 \nМоля, надстройте до Про версията, за да я отключите.</string>
-    <string name="features_locked">Тази функция е заключена, за да я отключите поръчайте &lt;a href=https://play.google.com/store/apps/details\?id=com.simplemobiletools.thankyou&gt;Simple Thank You&lt;/a&gt; за пълен достъп до функциите на приложението.&lt;br&gt;&lt;br&gt;Плащането е еднократно, а ако не останете доволни ще ви върнем парите.</string>
+    <string name="features_locked">Тази функция е заключена, за да я отключите поръчайте &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Simple Thank You&lt;/a&gt; за пълен достъп до функциите на приложението.&lt;br&gt;&lt;br&gt;Плащането е еднократно, а ако не останете доволни ще ви върнем парите.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">
         <![CDATA[
@@ -968,7 +968,7 @@
     <string name="faq_2_text_commons">
         <![CDATA[
             Yes, of course. You can spread the word about the apps or give good feedback and ratings. You can also help by translating the apps in a new language, or just update some existing translations.
-            The guide to translating is at <a href="https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file">this website</a>, or just contact us at <a href="mailto:hello@simplemobiletools.com">hello@simplemobiletools.com</a> if you have any questions.
+            The guide to translating is at <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">this website</a>, or just contact us at <a href="mailto:hello@fossify.org">hello@fossify.org</a> if you have any questions.
         ]]>
     </string>
     <string name="faq_3_title_commons">Изтрих някои файлове по погрешка, как мога да ги възстановя\?</string>
@@ -982,7 +982,7 @@
     <string name="faq_7_title_commons">Парите са приспаднати от банковата ми сметка, но не мога да изтегля приложението. Какво мога да направя\?</string>
     <string name="faq_7_text_commons">Плащанията се обработват изцяло от Google, системната им има гличове от време на време. Просто изчистете кеша на приложението Google Play и рестартирайте устройството си, след което отново го изтегляте.</string>
     <string name="faq_8_title_commons">Защо трябва да обновя до Про версията\?</string>
-    <string name="faq_8_text_commons">Тъй като версията на приложението ви вече не се актуализира, грешките, които сте забелязали, никога няма да бъдат поправени. Няма да се добавят и нови функции. Можете да закупите Pro версията в Google Play за малка сума пари. Това е еднократно плащане, което означава, че след като го закупите, никога няма да се налага да плащате отново. Дори и след получаване на ново устройство. Ако няма да ви хареса Pro версията, можете просто да я деинсталирате в рамките на няколко часа и автоматично ще си върнете парите. Ако искате възстановяване на сумата по -късно, просто се свържете с нас на hello@simplemobiletools.com и ще го получите.</string>
+    <string name="faq_8_text_commons">Тъй като версията на приложението ви вече не се актуализира, грешките, които сте забелязали, никога няма да бъдат поправени. Няма да се добавят и нови функции. Можете да закупите Pro версията в Google Play за малка сума пари. Това е еднократно плащане, което означава, че след като го закупите, никога няма да се налага да плащате отново. Дори и след получаване на ново устройство. Ако няма да ви хареса Pro версията, можете просто да я деинсталирате в рамките на няколко часа и автоматично ще си върнете парите. Ако искате възстановяване на сумата по -късно, просто се свържете с нас на hello@fossify.org и ще го получите.</string>
     <string name="faq_9_title_commons">Как мога да избера няколко елемента наведнъж\?</string>
     <string name="faq_9_text_commons">There are multiple ways of doing that. The first one is starting the selection mode by long pressing one item, then short clicking on others to select them. The second way is similar to selecting items on PCs with a mouse,
         just start the selection mode by long pressing one item, then with your finger still down drag it across other items for selecting. The third way of selecting multiple items is long pressing one item, then long pressing another one and everything in between gets selected. If you
@@ -996,8 +996,8 @@
     <string name="other_help">Друга помощ</string>
     <string name="contributors_label">
         <![CDATA[
-            This list contains everyone that noticeably helped any app within the Simple Mobile Tools suite, not only this one. Translations are handled by volunteers,
-            let us know if you want to help too. The guide to translating is at <a href="https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file">this website</a>, or just contact us at <a href="mailto:hello@simplemobiletools.com">hello@simplemobiletools.com</a> if you have any questions.
+            This list contains everyone that noticeably helped any app within the Fossify suite, not only this one. Translations are handled by volunteers,
+            let us know if you want to help too. The guide to translating is at <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">this website</a>, or just contact us at <a href="mailto:hello@fossify.org">hello@fossify.org</a> if you have any questions.
             Thanks to all contributors and other supporters!
         ]]>
     </string>
@@ -1139,8 +1139,8 @@
         <item quantity="other">Your trial expires in %d days.</item>
     </plurals>
     <!-- Google Play listing -->
-    <string name="deprecated_app">DEPRECATED: This version of the app is no longer maintained, get the Pro version at https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
-    <string name="pro_app_refund">Не забравяйте, че ако деинсталирате всяко платено приложение в рамките на 2 часа, автоматично ще бъде възстановена сумата. Ако искате възстановяване на сумата по всяко време по -късно, просто се свържете с нас на hello@simplemobiletools.com и ще го получите. Това улеснява изпробването :)</string>
+    <string name="deprecated_app">DEPRECATED: This version of the app is no longer maintained, get the Pro version at https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
+    <string name="pro_app_refund">Не забравяйте, че ако деинсталирате всяко платено приложение в рамките на 2 часа, автоматично ще бъде възстановена сумата. Ако искате възстановяване на сумата по всяко време по -късно, просто се свържете с нас на hello@fossify.org и ще го получите. Това улеснява изпробването :)</string>
     <!-- Description of our developer profile on Google Play, it can have max 140 characters -->
     <string name="developer_description">Група обикновени приложения с отворен код за Android с гъвкави приспособления, без реклами и ненужни разрешения.</string>
 </resources>

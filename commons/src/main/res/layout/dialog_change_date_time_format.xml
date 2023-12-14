@@ -20,7 +20,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/medium_margin">
 
-            <com.simplemobiletools.commons.views.MyCompatRadioButton
+            <org.fossify.commons.views.MyCompatRadioButton
                 android:id="@+id/change_date_time_dialog_radio_one"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -30,7 +30,7 @@
                 android:textAllCaps="true"
                 tools:text="dd.MM.yyyy" />
 
-            <com.simplemobiletools.commons.views.MyCompatRadioButton
+            <org.fossify.commons.views.MyCompatRadioButton
                 android:id="@+id/change_date_time_dialog_radio_two"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -39,7 +39,7 @@
                 android:textAllCaps="true"
                 tools:text="dd/MM/yyyy" />
 
-            <com.simplemobiletools.commons.views.MyCompatRadioButton
+            <org.fossify.commons.views.MyCompatRadioButton
                 android:id="@+id/change_date_time_dialog_radio_three"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -48,7 +48,7 @@
                 android:textAllCaps="true"
                 tools:text="MM/dd/yyyy" />
 
-            <com.simplemobiletools.commons.views.MyCompatRadioButton
+            <org.fossify.commons.views.MyCompatRadioButton
                 android:id="@+id/change_date_time_dialog_radio_eight"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -56,7 +56,7 @@
                 android:paddingBottom="@dimen/normal_margin"
                 tools:text="dd-MM-yyyy" />
 
-            <com.simplemobiletools.commons.views.MyCompatRadioButton
+            <org.fossify.commons.views.MyCompatRadioButton
                 android:id="@+id/change_date_time_dialog_radio_seven"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -64,7 +64,7 @@
                 android:paddingBottom="@dimen/normal_margin"
                 tools:text="MM-dd-yyyy" />
 
-            <com.simplemobiletools.commons.views.MyCompatRadioButton
+            <org.fossify.commons.views.MyCompatRadioButton
                 android:id="@+id/change_date_time_dialog_radio_four"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -73,7 +73,7 @@
                 android:textAllCaps="true"
                 tools:text="yyyy-MM-dd" />
 
-            <com.simplemobiletools.commons.views.MyCompatRadioButton
+            <org.fossify.commons.views.MyCompatRadioButton
                 android:id="@+id/change_date_time_dialog_radio_five"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -81,7 +81,7 @@
                 android:paddingBottom="@dimen/normal_margin"
                 tools:text="d MMMM yyyy" />
 
-            <com.simplemobiletools.commons.views.MyCompatRadioButton
+            <org.fossify.commons.views.MyCompatRadioButton
                 android:id="@+id/change_date_time_dialog_radio_six"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -95,7 +95,7 @@
             android:id="@+id/sorting_dialog_order_divider"
             layout="@layout/divider" />
 
-        <com.simplemobiletools.commons.views.MyAppCompatCheckbox
+        <org.fossify.commons.views.MyAppCompatCheckbox
             android:id="@+id/change_date_time_dialog_24_hour"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

@@ -11,7 +11,7 @@
     android:focusable="true"
     android:paddingBottom="@dimen/medium_margin">
 
-    <com.simplemobiletools.commons.views.MySquareImageView
+    <org.fossify.commons.views.MySquareImageView
         android:id="@+id/item_contact_image"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -27,7 +27,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintWidth_max="@dimen/contact_grid_item_max_size" />
 
-    <com.simplemobiletools.commons.views.MyTextView
+    <org.fossify.commons.views.MyTextView
         android:id="@+id/item_contact_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

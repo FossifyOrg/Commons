@@ -10,7 +10,7 @@
     android:paddingTop="@dimen/small_margin"
     android:paddingBottom="@dimen/small_margin">
 
-    <com.simplemobiletools.commons.views.MyTextView
+    <org.fossify.commons.views.MyTextView
         android:id="@+id/manage_blocked_number_title"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -23,7 +23,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.simplemobiletools.commons.views.MyTextView
+    <org.fossify.commons.views.MyTextView
         android:id="@+id/manage_blocked_number_subtitle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

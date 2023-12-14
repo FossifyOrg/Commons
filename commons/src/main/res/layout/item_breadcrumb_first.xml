@@ -4,7 +4,7 @@
     android:layout_height="wrap_content"
     android:layout_marginStart="@dimen/tiny_margin">
 
-    <com.simplemobiletools.commons.views.MyTextView
+    <org.fossify.commons.views.MyTextView
         android:id="@+id/breadcrumb_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

@@ -383,7 +383,7 @@
     <string name="shared_theme_note">لاحظ أنه على الرغم من أنك تستخدم إصدار تطبيق Pro ، إلا أنك لا تزال بحاجة إلى Simple Thank You لأسباب فنية. يعتني بمزامنة الألوان.</string>
     <string name="purchase_thank_you">
         <![CDATA[
-             يرجى شراء<a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Thank You</a> لفتح هذه الوظيفة ودعم التطوير. شكراً!
+             يرجى شراء<a href="https://play.google.com/store/apps/details?id=org.fossify..thankyou">Thank You</a> لفتح هذه الوظيفة ودعم التطوير. شكراً!
         ]]>
     </string>
     <!-- Themes -->
@@ -1040,7 +1040,7 @@
     <string name="rate">تقييم</string>
     <string name="donate">تبرع</string>
     <string name="follow_us">تابعنا</string>
-    <string name="copyright">v %1$s\nحقوق النشر © Simple Mobile Tools %2$d</string>
+    <string name="copyright">v %1$s\nحقوق النشر © Fossify %2$d</string>
     <string name="support">Support</string>
     <string name="help_us">Help us</string>
     <string name="social">Social</string>
@@ -1055,12 +1055,12 @@
     <string name="donate_please">
         <![CDATA[
  مرحباً,<br><br>
-            أتمني أن مستمتعاً بالتطبيق. الذي لا يحتوي على إعلانات ، يرجى دعم تطويره من خلال شراء تطبيق <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a>سيمنع هذا  مربع الحوار من الظهور مرة أخرى. <br><br>
+            أتمني أن مستمتعاً بالتطبيق. الذي لا يحتوي على إعلانات ، يرجى دعم تطويره من خلال شراء تطبيق <a href="https://play.google.com/store/apps/details?id=org.fossify..thankyou">Simple Thank You</a>سيمنع هذا  مربع الحوار من الظهور مرة أخرى. <br><br>
             شكرا!
         ]]>
     </string>
-    <string name="donate_new">مرحبا ، &lt;br&gt;&lt;br&gt;آمل أن تستمتع بالتطبيق. لا يحتوي على إعلانات ولا نجمع بياناتك أيضا ، يرجى دعم تطويره عن طريق شراء &lt;a href=https://play.google.com/store/apps/details\?id=com.simplemobiletools.thankyou&gt;Simple شكرا لك.&lt;/a&gt; سيكون لديك أيضا جميع ميزات التطبيق بما في ذلك تخصيص الألوان غير مقفلة. &lt;br&gt;&lt;br&gt;شكرًا لك!</string>
-    <string name="donate_short">ادعمنا عن طريق شراء &lt;a href = https://play.google.com/store/apps/details\?id=com.simplemobiletools.thankyou&gt;Simple شكرا لك&lt;/a&gt; من فضلك ، كما أنه سيفتح جميع ميزات التطبيق بما في ذلك تخصيص الألوان.</string>
+    <string name="donate_new">مرحبا ، &lt;br&gt;&lt;br&gt;آمل أن تستمتع بالتطبيق. لا يحتوي على إعلانات ولا نجمع بياناتك أيضا ، يرجى دعم تطويره عن طريق شراء &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Simple شكرا لك.&lt;/a&gt; سيكون لديك أيضا جميع ميزات التطبيق بما في ذلك تخصيص الألوان غير مقفلة. &lt;br&gt;&lt;br&gt;شكرًا لك!</string>
+    <string name="donate_short">ادعمنا عن طريق شراء &lt;a href = https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Simple شكرا لك&lt;/a&gt; من فضلك ، كما أنه سيفتح جميع ميزات التطبيق بما في ذلك تخصيص الألوان.</string>
     <string name="purchase">شراء</string>
     <string name="get_simple_phone">احصل على هاتف بسيط</string>
     <string name="update_thank_you">يرجى تحديث تطبيق (Simple Thank You) إلى أحدث إصدار</string>
@@ -1075,7 +1075,7 @@
     <string name="thank_you">شكراً جزيلاً</string>
     <string name="widget_locked_pro">الأداة مقفلة.
 \nيرجى الترقية إلى إصدار Pro لإلغاء قفله.</string>
-    <string name="features_locked">هذه الميزة مقفلة ، يرجى شراء &lt;a href = https://play.google.com/store/apps/details\?id=com.simplemobiletools.thankyou&gt;Simple شكرا لك&lt;/a&gt; على إلغاء قفل التطبيق الكامل ، &lt;br&gt;&lt;br&gt;إنها دفعة لمرة واحدة فقط وإذا لم تكن راضيا ، فيمكننا رد الأموال إليك.</string>
+    <string name="features_locked">هذه الميزة مقفلة ، يرجى شراء &lt;a href = https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Simple شكرا لك&lt;/a&gt; على إلغاء قفل التطبيق الكامل ، &lt;br&gt;&lt;br&gt;إنها دفعة لمرة واحدة فقط وإذا لم تكن راضيا ، فيمكننا رد الأموال إليك.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">
         <![CDATA[
@@ -1135,7 +1135,7 @@
     <string name="faq_1_title_commons">كيف لا أرى هذه التطبيقات في قائمة التطبيقات المصغّرة (الويدجت)؟</string>
     <string name="faq_1_text_commons">وهو على الأرجح لأنك قمت بنقل التطبيق على بطاقة الذاكرة (SD) هناك حد لنظام أندرويد يقوم باخفاء (الويدجت) للتطبيق المحدد           في هذه الحالة يتمثل الحل الوحيد في نقل التطبيق مرة أخرى إلى وحدة التخزين الداخلية من خلال إعدادات جهازك.</string>
     <string name="faq_2_title_commons">أريد ان أدعمكم لكن لا يمكنني التبرع بالمال هل هناك أي شيء آخر يمكنني فعله ؟</string>
-    <string name="faq_2_text_commons">نعم بالطبع. يمكنك نشر الكلمة حول التطبيقات أو تقديم ملاحظات وتقييمات جيدة. يمكنك أيضا المساعدة عن طريق ترجمة التطبيقات بلغة جديدة ، أو مجرد تحديث بعض الترجمات الموجودة. دليل الترجمة موجود على &lt;a href=https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt; هذا الموقع&lt;/a&gt;، أو فقط اتصل بنا على &lt;a href=mailto:hello@simplemobiletools.com&gt;hello@simplemobiletools.com&lt;/a&gt; إذا كان لديك أي أسئلة.</string>
+    <string name="faq_2_text_commons">نعم بالطبع. يمكنك نشر الكلمة حول التطبيقات أو تقديم ملاحظات وتقييمات جيدة. يمكنك أيضا المساعدة عن طريق ترجمة التطبيقات بلغة جديدة ، أو مجرد تحديث بعض الترجمات الموجودة. دليل الترجمة موجود على &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt; هذا الموقع&lt;/a&gt;، أو فقط اتصل بنا على &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; إذا كان لديك أي أسئلة.</string>
     <string name="faq_3_title_commons">قمت بحذف بعض الملفات عن طريق الخطأ، كيف يمكنني إسترجاعها؟</string>
     <string name="faq_3_text_commons">للأسف، لا يمكنك. يتم حذف الملفات فوراً بعد مربع حوار التأكيد، لا توجد سلة محذوفات متاحة.</string>
     <string name="faq_4_title_commons">أنا لا أحب ألوان (الويدجت)، هل يمكنني تغييرها؟</string>
@@ -1147,7 +1147,7 @@
     <string name="faq_7_title_commons">تم خصم المال من حسابي البنكي ، لكن لا يمكنني تنزيل التطبيق. ماذا يمكنني أن أفعل؟</string>
     <string name="faq_7_text_commons">تتم معالجة المدفوعات بالكامل بواسطة Google ، حيث يتسبب نظامها في خلل من وقت لآخر. فقط قم بمسح ذاكرة التخزين المؤقت للتطبيق في Google Play وإعد تشغيل جهازك ، ثم أعد محاولة تنزيله.</string>
     <string name="faq_8_title_commons">لماذا يجب عليا الترقية إلى الإصدار البرو (Pro)?</string>
-    <string name="faq_8_text_commons">نظراً لأن إصدار التطبيق الخاص بك لم يعد محدثاً ، فلن يتم إصلاح الأخطاء التي إكتشافها. كما لن تتم إضافة وظائف جديدة . يمكنك شراء الإصدار الـ Pro على Google Play مقابل مبلغ صغير من المال. إنها دفعة لمرة واحدة،مما يعني أنه بمجرد شرائه ، لن تضطر إلى الدفع مرة أخرى. ليس حتى بعد الحصول على جهاز جديد. إذا كنت لا تحب إصدار Pro ، يمكنك إلغاء تثبيته في غضون ساعات قليلة وستحصل على أموالك تلقائياً.إذا كنت تريد إسترداد الأموال في أي وقت لاحق ، فأتصل بنا على hello@simplemobiletools.com وستحصل عليه.</string>
+    <string name="faq_8_text_commons">نظراً لأن إصدار التطبيق الخاص بك لم يعد محدثاً ، فلن يتم إصلاح الأخطاء التي إكتشافها. كما لن تتم إضافة وظائف جديدة . يمكنك شراء الإصدار الـ Pro على Google Play مقابل مبلغ صغير من المال. إنها دفعة لمرة واحدة،مما يعني أنه بمجرد شرائه ، لن تضطر إلى الدفع مرة أخرى. ليس حتى بعد الحصول على جهاز جديد. إذا كنت لا تحب إصدار Pro ، يمكنك إلغاء تثبيته في غضون ساعات قليلة وستحصل على أموالك تلقائياً.إذا كنت تريد إسترداد الأموال في أي وقت لاحق ، فأتصل بنا على hello@fossify.org وستحصل عليه.</string>
     <string name="faq_9_title_commons">كيف يمكنني تحديد عناصر متعددة في وقت واحد؟</string>
     <string name="faq_9_text_commons">هناك طرق متعددة للقيام بذلك. الأول هو بدء وضع التحديد عن طريق الضغط لفترة طويلة على عنصر واحد ، ثم النقر باختصار على العناصر الأخرى لتحديدها. الطريقة الثانية مشابهة لاختيار العناصر على أجهزة الكمبيوتر باستخدام الماوس ، فقط ابدأ وضع التحديد بالضغط مطولاً على عنصر واحد ، ثم مع استمرار إصبعك في السحب لأسفل عبر العناصر الأخرى للاختيار. الطريقة الثالثة لاختيار عدة عناصر هي الضغط لفترة طويلة على عنصر واحد ، ثم الضغط لفترة طويلة على عنصر آخر ويتم تحديد كل شيء بينهما. إذا كنت ترغب في تحديد جميع العناصر ، فما عليك سوى الضغط لفترة طويلة على عنصر واحد ، ثم النقر فوق عداد العناصر المحدد في الزاوية اليسرى العليا. سيؤدي ذلك إلى تحديد أو إلغاء تحديد كل شيء.</string>
     <string name="faq_10_title_commons">لقد اشتريت التطبيق ، لكن لا يمكنني تنزيله على جهاز آخر.</string>
@@ -1157,7 +1157,7 @@
     <string name="translation">الترجمة</string>
     <string name="development">التطوير</string>
     <string name="other_help">Other help</string>
-    <string name="contributors_label">تحتوي هذه القائمة على كل شخص ساعد بشكل ملحوظ أي تطبيق داخل مجموعة Simple Mobile Tools ، وليس هذا التطبيق فقط. يتم التعامل مع الترجمات من قبل متطوعين ، أخبرنا إذا كنت تريد المساعدة أيضا. دليل الترجمة موجود على &lt;a href=https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt; هذا الموقع&lt;/a&gt;، أو فقط اتصل بنا على &lt;a href=mailto:hello@simplemobiletools.com&gt;hello@simplemobiletools.com&lt;/a&gt; إذا كان لديك أي أسئلة. شكرا لجميع المساهمين والداعمين الآخرين!</string>
+    <string name="contributors_label">تحتوي هذه القائمة على كل شخص ساعد بشكل ملحوظ أي تطبيق داخل مجموعة Fossify ، وليس هذا التطبيق فقط. يتم التعامل مع الترجمات من قبل متطوعين ، أخبرنا إذا كنت تريد المساعدة أيضا. دليل الترجمة موجود على &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt; هذا الموقع&lt;/a&gt;، أو فقط اتصل بنا على &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; إذا كان لديك أي أسئلة. شكرا لجميع المساهمين والداعمين الآخرين!</string>
     <string name="translation_arabic">Arabic</string>
     <string name="translation_azerbaijani">Azerbaijani</string>
     <string name="translation_bengali">Bengali</string>
@@ -1307,8 +1307,8 @@
         <item quantity="other">تنتهي صلاحية الإصدار التجريبي في اليوم %d.</item>
     </plurals>
     <!-- Google Play listing -->
-    <string name="deprecated_app">لم يعد يجري العمل عليه: لم يعد هذا الإصدار من التطبيق يجري العمل عليه، قم بالحصول على الإصدار الـ Pro على https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
-    <string name="pro_app_refund">لا تنسى أنه إذا قمت بإلغاء تثبيت أي تطبيق مدفوع في غضون ساعتين ، فسيتم إسترداد أموالك تلقائياً. إذا كنت تريد إسترداد الأموال في أي وقت لاحق ، فأتصل بنا على hello@simplemobiletools.com وستحصل عليه. هذا يجعل من السهل تجربته :)</string>
+    <string name="deprecated_app">لم يعد يجري العمل عليه: لم يعد هذا الإصدار من التطبيق يجري العمل عليه، قم بالحصول على الإصدار الـ Pro على https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
+    <string name="pro_app_refund">لا تنسى أنه إذا قمت بإلغاء تثبيت أي تطبيق مدفوع في غضون ساعتين ، فسيتم إسترداد أموالك تلقائياً. إذا كنت تريد إسترداد الأموال في أي وقت لاحق ، فأتصل بنا على hello@fossify.org وستحصل عليه. هذا يجعل من السهل تجربته :)</string>
     <!-- Description of our developer profile on Google Play, it can have max 140 characters -->
     <string name="developer_description">مجموعة بسيطة، من تطبيقات أندرويد المفتوحة المصدر ذات الودجات القابلة للتخصيص، بدون إعلانات أو أذونات غير ضرورية.</string>
 </resources>

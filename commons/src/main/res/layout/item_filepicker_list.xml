@@ -27,7 +27,7 @@
         android:layout_toEndOf="@+id/list_item_icon"
         android:padding="@dimen/small_margin">
 
-        <com.simplemobiletools.commons.views.MyTextView
+        <org.fossify.commons.views.MyTextView
             android:id="@+id/list_item_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -36,7 +36,7 @@
             android:textSize="@dimen/bigger_text_size"
             tools:text="Directory" />
 
-        <com.simplemobiletools.commons.views.MyTextView
+        <org.fossify.commons.views.MyTextView
             android:id="@+id/list_item_details"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
