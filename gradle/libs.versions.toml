@@ -54,7 +54,7 @@ app-build-kotlinJVMTarget = "17"
 app-version-appId = "org.fossify.commons"
 app-version-groupId = "org.fossify.commons"
 app-version-versionCode = "1"
-app-version-versionName = "5.34.26"
+app-version-versionName = "1.0.0"
 [libraries]
 #Android X
 androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "androidx-appcompat" }
