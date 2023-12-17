@@ -366,8 +366,6 @@
     <string name="cannot_be_undone">Tej akcji nie można cofnąć.</string>
     <string name="save_before_closing">Masz niezapisane zmiany. Czy zapisać je przed wyjściem?</string>
     <string name="apply_to_all_apps">Zastosuj kolory we wszystkich Prostych aplikacjach</string>
-    <string name="app_icon_color_warning">UWAGA: Niektóre launchery nie obsługują prawidłowo zmiany ikon aplikacji. Jeśli ona zniknie, uruchom aplikację przez Sklep Google Play lub przez widżet, jeśli jest dostępny.
-        Po uruchomieniu aplikacji ustaw domyślny kolor ikony (#F57C00). W najgorszym przypadku konieczne może być przeinstalowanie aplikacji.</string>
     <string name="share_colors_success">Kolory zostały zmienione. Dodano nowy motyw o nazwie „wspólny” — użyj go do aktualizacji kolorystyki we wszystkich Prostych aplikacjach w przyszłości.</string>
     <string name="shared_theme_note">Pamiętaj, że nawet jeśli używasz wersji Pro aplikacji, nadal potrzebujesz aplikacji „Proste podziękowanie” z powodów technicznych. Zajmuje się ona synchronizacją kolorów.</string>
     <string name="purchase_thank_you">Aby odblokować tę funkcję (i przy okazji wesprzeć rozwój niniejszej aplikacji), kup aplikację &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Proste podziękowanie&lt;/a&gt;. Dzięki!</string>
@@ -1063,7 +1061,6 @@
     <string name="faq_5_title_commons">Czy mogę jakoś odzyskać usunięte pliki?</string>
     <string name="faq_5_text_commons">Jeśli faktycznie zostały usunięte, to już nie możesz. Jednakże domyślnie jest włączony kosz, dzięki czemu pliki zostaną przeniesione do niego zamiast zostać usunięte.</string>
     <string name="faq_6_title_commons">Z launchera zniknęła ikona aplikacji. Co mogę zrobić?</string>
-    <string name="faq_6_text_commons">Niektóre launchery nie obsługują prawidłowo zmiany ikon aplikacji. Uruchom aplikację przez Sklep Google Play lub przez widżet, jeśli jest dostępny. Po uruchomieniu aplikacji ustaw domyślny kolor ikony (#F57C00). W najgorszym przypadku konieczne może być przeinstalowanie aplikacji.</string>
     <string name="faq_7_title_commons">Pieniądze zostały odjęte z mojego konta bankowego, ale nie mogę pobrać aplikacji. Co mogę zrobić?</string>
     <string name="faq_7_text_commons">Płatności są w pełni obsługiwane przez Google, ich system szwankuje od czasu do czasu. Wystarczy wyczyścić pamięć podręczną aplikacji Google Play i zrestartować urządzenie, a następnie ponowić próbę pobrania.</string>
     <string name="faq_8_title_commons">Dlaczego powinienem uaktualnić do wersji Pro?</string>

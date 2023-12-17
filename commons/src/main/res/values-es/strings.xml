@@ -361,8 +361,6 @@
     <string name="cannot_be_undone">Esta acción no se puede deshacer.</string>
     <string name="save_before_closing">Tiene cambios sin aplicar. ¿Guardar antes de salir?</string>
     <string name="apply_to_all_apps">Aplicar colores a todas las aplicaciones Simple Apps</string>
-    <string name="app_icon_color_warning">ADVERTENCIA: Algunos launchers no manejan correctamente la personalización del icono de la aplicación. En caso de que el icono desaparezca, intente iniciar la aplicación a través de Google Play o algún widget, si está disponible.
-        Una vez iniciado, simplemente vuelva a establecer el ícono naranja predeterminado #F57C00. Es posible que tengas que volver a instalar la aplicación en el peor de los casos.</string>
     <string name="share_colors_success">Colores actualizados correctamente. Se ha añadido un nuevo tema llamado \'Compartido\', por favor utilicelo para actualizar los colores de todas las aplicaciones en el futuro.</string>
     <string name="shared_theme_note">Tenga en cuenta que aunque esté utilizando la versión de la aplicación Pro, aún necesita Simple Gracias por razones técnicas. Se encarga de la sincronización del color.</string>
     <string name="purchase_thank_you">
@@ -1043,8 +1041,6 @@
     <string name="faq_5_title_commons">¿Puedo de alguna manera restaurar archivos borrados?</string>
     <string name="faq_5_text_commons">Si realmente fueron eliminados, no puedes. Sin embargo, hay una Papelera de Reciclaje activada por defecto, esta hará que los archivos sólo sean movidos a la papelera en lugar de eliminarlos.</string>
     <string name="faq_6_title_commons">El icono del launcher de aplicaciones desapareció. ¿Qué puedo hacer?</string>
-    <string name="faq_6_text_commons">Esto se debe a que el launcher no admite correctamente la personalización de iconos. Intenta lanzar la aplicación a través de Google Play o algún widget, si está disponible.
-        Una vez iniciado, simplemente vuelva a establecer el ícono naranja predeterminado #F57C00. Es posible que tenga que volver a instalar la aplicación en el peor de los casos.</string>
     <string name="faq_7_title_commons">El dinero se ha deducido de mi cuenta bancaria, pero no puedo descargar la aplicación. ¿Qué puedo hacer?</string>
     <string name="faq_7_text_commons">Los pagos son manejados completamente por Google, su sistema falla de vez en cuando. Simplemente borre el caché de su aplicación Google Play y reinicie su dispositivo, luego intente descargarlo nuevamente.</string>
     <string name="faq_8_title_commons">¿Por qué debería actualizar a la versión Pro?</string>

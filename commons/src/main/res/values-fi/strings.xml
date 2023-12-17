@@ -355,8 +355,6 @@
     <string name="cannot_be_undone">Toimintoa ei ole mahdollista kumota.</string>
     <string name="save_before_closing">Sinulla on tallentamattomia muutoksia. Tallennetaanko ennen sulkemista?</string>
     <string name="apply_to_all_apps">Käytä värejä kaikissa Simple App -sovelluksissa</string>
-    <string name="app_icon_color_warning">VAROITUS: Jotkin käynnistinohjelmat eivät käsittele kuvakkeen mukauttamista oikein. Jos kuvake häviää, käynnistä sovellus Google Playn tai jonkin pienoissovelluksen kautta, jos mahdollista.
-        Käynnistyksen jälkeen palauta kuvakkeen oranssi oletusväri #F57C00. Pahimmillaan saatat joutua asentamaan sovelluksen uudelleen.</string>
     <string name="share_colors_success">Värit päivitetty. Uusi teema nimeltä \'Jaettu\' käytä sitä jatkossa muokataksesi värejä kaikissa sovelluksissa.</string>
     <string name="shared_theme_note">Huomioi, että vaikka käytössäsi on sovelluksen Pro-versio, Simple Thank You tarvitaan teknisistä syistä mm. värien synkronointiin.</string>
     <string name="purchase_thank_you">
@@ -999,8 +997,6 @@
     <string name="faq_5_title_commons">Voinko jotenkin palauttaa poistetut tiedostot?</string>
     <string name="faq_5_text_commons">Jos ne todella on poistettu, et voi palauttaa niitä. Oletuksena poistetut tiedostot siirretään roskakoriin, joten varmista, onko tiedostot roskakorissa.</string>
     <string name="faq_6_title_commons">Sovelluksen kuvake hävisi. Mitä voin tehdä?</string>
-    <string name="faq_6_text_commons">Tämä johtuu siitä, että käynnistimesi ei tue kuvakkeiden mukauttamista oikein. Yritä käynnistää sovellus Google Playn tai jonkun pienoissovelluksen kautta, jos mahdollista.
-        Käynnistyksen jälkeen palauta kuvakkeen oranssi oletusväri #F57C00. Pahimmillaan saatat joutua asentamaan sovelluksen uudelleen.</string>
     <string name="faq_7_title_commons">Tiliäni on veloitettu, mutta en voi ladata sovellusta. Mitä voin tehdä\?</string>
     <string name="faq_7_text_commons">Google hoitaa maksut täysin, ajoittain heidän järjestelmässä on häiriöitä. Tyhjennä Google Play-sovelluksen välimuisti, käynnistä laitteesi uudelleen ja yritä latausta uudelleen.</string>
     <string name="faq_8_title_commons">Miksi päivittäisin Pro-versioon?</string>

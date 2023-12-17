@@ -355,7 +355,6 @@
     <string name="cannot_be_undone">Denna åtgärd kan inte ångras.</string>
     <string name="save_before_closing">Du har ändringar som inte är sparade. Spara innan du lämnar?</string>
     <string name="apply_to_all_apps">Använd färgerna i alla Simple-appar</string>
-    <string name="app_icon_color_warning">VARNING: Vissa launchers hanterar inte anpassning av appikoner korrekt. Om ikonen försvinner, försök att starta appen via Google Play eller någon widget, om tillgänglig. När den väl har lanserats, ställ bara tillbaka den orange standardikonen #F57C00. Du kanske måste installera om appen i värsta fall.</string>
     <string name="share_colors_success">Färgerna har uppdaterats. Ett nytt Tema som heter \'Delat\' har lagts till, använd det för att uppdatera alla apparnas färger i framtiden.</string>
     <string name="shared_theme_note">Observera att även om du använder Pro-appversionen behöver du fortfarande Simple Thank You av tekniska skäl. Den tar hand om färgsynkroniseringen.</string>
     <string name="purchase_thank_you">
@@ -1002,7 +1001,6 @@
     <string name="faq_5_title_commons">Kan jag på något sätt återställa raderade filer\?</string>
     <string name="faq_5_text_commons">Om de verkligen raderades kan du inte. Men det finns en papperskorg aktiverad som standard, det kommer att göra att filerna bara flyttas till papperskorgen istället för att radera dem.</string>
     <string name="faq_6_title_commons">Appstartikonen försvann. Vad kan jag göra\?</string>
-    <string name="faq_6_text_commons">Det orsakas av att din launcher inte stöder ikonanpassning på rätt sätt. Testa att starta appen via Google Play eller någon widget, om tillgänglig. När den väl har lanserats, ställ bara tillbaka den orange standardikonen #F57C00. Du kanske måste installera om appen i värsta fall.</string>
     <string name="faq_7_title_commons">Pengarna har dragits från mitt bankkonto, men jag kan inte ladda ner appen. Vad kan jag göra\?</string>
     <string name="faq_7_text_commons">Betalningar hanteras till fullo av Google, deras system har fel då och då. Rensa bara Google Play-appens cache och starta om enheten och försök sedan ladda ner den igen.</string>
     <string name="faq_8_title_commons">Varför ska jag uppgradera till Pro-versionen\?</string>

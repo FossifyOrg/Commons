@@ -359,7 +359,6 @@
     <string name="cannot_be_undone">This action cannot be undone.</string>
     <string name="save_before_closing">Aveți modificări nesalvate. Salvați înainte de a ieși?</string>
     <string name="apply_to_all_apps">Aplicaţi culorile pentru toate aplicaţiile Simple Apps</string>
-    <string name="app_icon_color_warning">AVERTISMENT: Unele lansatoare nu gestionează corect personalizarea pictogramelor aplicațiilor. În cazul în care pictograma va dispărea, încercați să lansați aplicația prin Google Play sau prin intermediul unui widget, dacă este posibil. Odată lansată, pur şi simplu setaţi din nou culoarea pictogramei portocalie #F57C00. În cel mai rău caz s-ar putea să fie nevoie să reinstalaţi aplicatia.</string>
     <string name="share_colors_success">Culorile au fost actualizate cu succes. A fost adăugată o nouă temă numită \'Partajată\', vă rugăm să o folosiți pentru actualizarea tuturor culorilor aplicației în viitor.</string>
     <string name="shared_theme_note">Rețineți că, chiar dacă utilizați versiunea Pro a aplicației, aveți nevoie de Simple Thank You din motive tehnice. Acesta se ocupă de sincronizarea culorilor.</string>
     <string name="purchase_thank_you">
@@ -997,8 +996,6 @@
     <string name="faq_5_title_commons">Pot să restaurez cumva fișierele șterse?</string>
     <string name="faq_5_text_commons">Dacă au fost șterse cu adevărat, nu se poate. Cu toate acestea, există un coș de reciclare activat în mod implicit, care va face ca fișierele să fie mutate în coșul de reciclare în loc să fie șterse.</string>
     <string name="faq_6_title_commons">Pictograma lansatorului de aplicații a dispărut. Ce pot să fac?</string>
-    <string name="faq_6_text_commons">Acest lucru este cauzat de faptul că lansatorul nu acceptă în mod corespunzător personalizarea pictogramelor. Încercați să lansați aplicația prin Google Play sau prin intermediul unui widget, dacă este disponibil.
-        Odată lansat, trebuie doar să setați înapoi culoarea pictogramei la valoarea implicită portocaliu #F57C00. În cel mai rău caz, s-ar putea să trebuiască să reinstalați aplicația.</string>
     <string name="faq_7_title_commons">Banii au fost decontați din contul meu bancar, dar nu pot descărca aplicația. Ce pot face?</string>
     <string name="faq_7_text_commons">Plățile sunt gestionate în totalitate de Google, dar sistemul lor are probleme din când în când. Pur și simplu ștergeți memoria cache a aplicației Google Play și reporniți dispozitivul, apoi încercați din nou să o descărcați.</string>
     <string name="faq_8_title_commons">De ce ar trebui să trec la versiunea Pro?</string>

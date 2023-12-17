@@ -368,7 +368,6 @@
     <string name="cannot_be_undone">Cette action ne peut pas être annulée.</string>
     <string name="save_before_closing">Certaines modifications ne sont pas enregistrées. Voulez-vous les enregistrer avant de quitter \?</string>
     <string name="apply_to_all_apps">Appliquer les couleurs à l\'ensemble de la suite d\'applications \"simple\"</string>
-    <string name="app_icon_color_warning">AVERTISSEMENT : certains lanceurs ne gèrent pas correctement la personnalisation des icônes des applications. Au cas où l\'icône disparaîtrait, essayez de lancer l\'application via Google Play ou d\'un quelconque widget, si disponible. Une fois lancée, paramétrez simplement l\'icône orange par défaut avec la valeur RGB suivante : #F57C00. Dans le pire des cas, vous devrez peut-être réinstaller l\'application.</string>
     <string name="share_colors_success">Actualisation des couleurs réussie. Un nouveau thème nommé \"Partagé\" a été ajouté. Veuillez utiliser dorénavant ce thème pour actualiser les couleurs de toutes les applications.</string>
     <string name="shared_theme_note">Veuillez noter que même si vous utilisez la version \"Pro\" de l\'application, pour des raisons techniques, vous aurez toujours besoin de l\'application \"Merci simple\", puisqu\'elle gère la synchronisation des couleurs.</string>
     <string name="purchase_thank_you">Veuillez acheter l\'application &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;\"Merci simple\"&lt;/a&gt; pour déverrouiller cette fonctionnalité et soutenir son développement. Merci !</string>
@@ -1030,7 +1029,6 @@
     <string name="faq_5_title_commons">Puis-je restaurer d’une manière ou d’une autre des fichiers supprimés \?</string>
     <string name="faq_5_text_commons">S\'ils ont vraiment été supprimés, vous ne le pouvez pas. Cependant, une corbeille étant activée par défaut, les fichiers seront simplement déplacés dans la corbeille au lieu d\'être supprimés.</string>
     <string name="faq_6_title_commons">L\'icône du lanceur d\'applications a disparu. Que puis-je faire \?</string>
-    <string name="faq_6_text_commons">Votre lanceur ne prend pas correctement en charge la personnalisation des icônes. Essayez de lancer l\'application via \"Google Play\" ou par le biais d\'un widget, le cas échéant. Une fois l\'application lancée, il vous suffira de redéfinir l\'icône orange par défaut avec la valeur de couleur RGB suivante : #F57C00. Dans le pire des cas, vous devrez peut-être réinstaller l\'application.</string>
     <string name="faq_7_title_commons">L\'argent a bien été débité de mon compte bancaire, mais je ne peux pas télécharger l\'application. Que puis-je faire \?</string>
     <string name="faq_7_text_commons">Les paiements sont entièrement gérés par Google. Leur système informatique peut parfois se heurter à quelques problèmes. Effacez simplement le cache de votre application \"Google Play\". Ensuite, redémarrez votre appareil. Enfin, téléchargez de nouveau l\'application.</string>
     <string name="faq_8_title_commons">Pourquoi devrais-je passer à la version \"Pro\" \?</string>

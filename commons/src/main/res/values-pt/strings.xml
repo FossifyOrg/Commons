@@ -360,7 +360,6 @@
     <string name="cannot_be_undone">Esta ação não pode ser revertida.</string>
     <string name="save_before_closing">Existem alterações não guardadas. Pretende guardar antes de sair\?</string>
     <string name="apply_to_all_apps">Aplicar cores a todas as aplicações Simple</string>
-    <string name="app_icon_color_warning">AVISO: alguns launchers não gerem correctamente a personalização dos ícones. Se o ícone desaparecer, tente iniciar a aplicação através da Google Play ou do widget. Depois de iniciar a aplicação, reverta para a cor original (#F57C00). Em último caso, poderá ser necessário reinstalar a aplicação.</string>
     <string name="share_colors_success">Cores atualizadas com sucesso. Foi criado o novo tema \'Partilhado\', que pode utilizar para atualizar as cores de todas as aplicações Simple.</string>
     <string name="shared_theme_note">Tenha em atenção que, mesmo que esteja a utilizar a versão Pro, tem que instalar a aplicação Simple Thank You por motivos técnicos. Esta aplicação controla a sincronização de cores.</string>
     <string name="purchase_thank_you">
@@ -1013,7 +1012,6 @@
     <string name="faq_5_title_commons">Existe alguma forma de restaurar os ficheiros apagados\?</string>
     <string name="faq_5_text_commons">Se tiverem sido de facto apagados, não. Por definição, os ficheiros são movidos para a reciclagem e não apagados. Se, no entanto, a reciclagem tiver sido desativada, os ficheiros serão apagados permanentemente.</string>
     <string name="faq_6_title_commons">O ícone da aplicação desapareceu. O que posso fazer\?</string>
-    <string name="faq_6_text_commons">Isso deve ter ocorrido porque o seu \"launcher\" não suporta a personalização de ícones corretamente. Se possível, tente abrir a aplicação através da Google Play ou de um widget. Uma vez aberta, defina a cor do ícone para o valor padrão (#F57C00). Em último caso, pode ser necessário reinstalar a aplicação.</string>
     <string name="faq_7_title_commons">O dinheiro foi retirado da minha conta bancária, mas não consigo descarregar a aplicação. O que posso fazer\?</string>
     <string name="faq_7_text_commons">Os pagamentos são totalmente geridos pela Google, o sistema deles falha de vez em quanto. Limpe a cache da aplicação Google Play, reinicie o dispositivo e tente descarregá-la novamente.</string>
     <string name="faq_8_title_commons">Porque devo atualizar para a versão Pro\?</string>

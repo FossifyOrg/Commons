@@ -360,7 +360,6 @@
     <string name="cannot_be_undone">Seda tegevust ei saa tagasi pöörata.</string>
     <string name="save_before_closing">Sul on salvestamata muudatusi. Kas salvestame enne väljumist\?</string>
     <string name="apply_to_all_apps">Kasuta samu värvi kõikides Lihtsate tarvikute rakendsustes</string>
-    <string name="app_icon_color_warning">HOIATUS: Mõned käivitajad ei käsitse rakenduste ikoonide kohandamist korralikult. Kui ikoon kaob, proovi käivitada rakendus Google Play\'st või mõne muu olemasoleva vidina abil. Kui oled käivitanud rakenduse, seadista lihtsalt ikooni vaikimisi oranž toon #F57C00 tagasi. Halvemal juhul pead rakenduse võib-olla uuesti paigaldama.</string>
     <string name="share_colors_success">Värvide uuendamine õnnestus. Lisasime uue „Jagatud“ teema - edaspidisel värvide muutmisel palun kasuta seda.</string>
     <string name="shared_theme_note">Kuigi sa kasutad rakenduse Pro-versiooni, palun siiski tehnilistel põhjustel paigalda rakendus „Lihtne tänuavaldus“. Muu hulgas tema haldab värvide sünkroniseerimist kõikide meie rakenduste vahel.</string>
     <string name="purchase_thank_you">Selle funktsionaalsuse kasutamiseks ja meie toetamiseks palun osta &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Lihtne tänuavaldus&lt;/a&gt;. Tänud juba ette!</string>
@@ -990,7 +989,6 @@
     <string name="faq_5_title_commons">Kas ma mingil viisil saan kustutatud faile taastada\?</string>
     <string name="faq_5_text_commons">Kui need on tõesti kustutatud, ei saa sa seda teha. Siiski on vaikimisi kasutusel prügikast ning kustutatud failid esialgu teisaldatakse sinna.</string>
     <string name="faq_6_title_commons">Rakenduse käivitaja ikoon kadus. Mida ma saan teha\?</string>
-    <string name="faq_6_text_commons">Selle põhjuseks on asjaolu, et see käivitaja ei toeta ikoonide kohandamist korralikult. Proovi käivitada rakendus Google Play või mõne sarnase saadaoleva vidina abil. Peale käivitamist, seadista lihtsalt tagasi ikooni vaikimisi oranž toon #F57C00. Halvemal juhul pead rakenduse võib-olla uuesti paigaldama.</string>
     <string name="faq_7_title_commons">Raha on minu pangakontolt maha kantud, kuid ma ei saa rakendust alla laadida. Mida ma saan teha\?</string>
     <string name="faq_7_text_commons">Makseid teostab täielikult Google, nende süsteemis esineb aeg-ajalt tõrkeid. Lihtsalt tühjenda oma Google Play rakenduse vahemälu ja taaskäivita seade, seejärel proovi rakendust uuesti alla laadida.</string>
     <string name="faq_8_title_commons">Miks peaksin kasutusele võtma Pro-versiooni\?</string>

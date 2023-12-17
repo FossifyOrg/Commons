@@ -368,8 +368,6 @@
     <string name="cannot_be_undone">Ovo je nepovratna radnja.</string>
     <string name="save_before_closing">Imate ne spremljene promjene. Želite li spremiti prije izlaska?</string>
     <string name="apply_to_all_apps">Primjeni boje na sve Jednostavne Aplikacije</string>
-    <string name="app_icon_color_warning">UPOZORENJE: neki pokretači ne rukuju ispravno s prilagodbama ikona aplikacija. Ako ikona nestane, pokušajte pokrenuti aplikaciju iz trgovine Google Play ili widgeta, ako je dostupna.
-         Nakon pokretanja, zadanu ikonu postavite na narančastu #F57C00. Možda će biti potrebno ponovno instalirati aplikaciju ako to ne radi.</string>
     <string name="share_colors_success">Uspješno ažurirane boje. Nova tema pod nazivom \'Shared\' je dodana, molimo koristite ju za ažuriranje svih boja u aplikaciji u budućnosti.</string>
     <string name="shared_theme_note">Imajte na umu da iako koristite Pro verziju aplikacije, još uvijek trebate Jednostavno hvala iz tehničkih razloga. Brine se za sinkronizaciju boja.</string>
     <string name="purchase_thank_you">
@@ -1038,8 +1036,6 @@
     <string name="faq_5_title_commons">Mogu li nekako vratiti izbrisane datoteke?</string>
     <string name="faq_5_text_commons">Ako su stvarno izbrisane, ne možete. Međutim, postoji koš za smeće koji je standardno aktiviran. Na taj se način datoteke samo premještaju u koš umjesto da se izbrišu.</string>
     <string name="faq_6_title_commons">Ikona pokretača aplikacija je nestala. Što mogu učiniti?</string>
-    <string name="faq_6_text_commons">Uzrok je to što pokretač ne podržava ispravnu prilagodbu ikone. Pokušajte pokrenuti aplikaciju putem Google Playa ili nekog widgeta, ako je dostupan.
-        Nakon pokretanja, zadanu ikonu postavite na narančastu #F57C00. Možda će biti potrebno ponovno instalirati aplikaciju ako to ne radi.</string>
     <string name="faq_7_title_commons">The money has been deducted from my bank account, but I cannot download the app. What can I do\?</string>
     <string name="faq_7_text_commons">Payments are fully handled by Google, their system glitches from time to time. Just clear your Google Play app cache and restart your device, then retry downloading it.</string>
     <string name="faq_8_title_commons">Why should I upgrade to the Pro version\?</string>
