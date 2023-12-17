@@ -359,7 +359,7 @@
     <string name="shared_theme_note">Bemærk at selv om du bruger appens Pro-version, skal du af tekniske årsager stadig have Simple Thank You. Den tager sig af farvesynkronisering.</string>
     <string name="purchase_thank_you">
         <![CDATA[
-            Køb <a href="https://play.google.com/store/apps/details?id=org.fossify..thankyou">Simple Thank You</a> for at låse denne funktion op og understøtte appens udvikling. Tak!
+            Køb <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Simple Thank You</a> for at låse denne funktion op og understøtte appens udvikling. Tak!
         ]]>
     </string>
     <!-- Themes -->
@@ -868,12 +868,12 @@
     <string name="donate_please">
         <![CDATA[
             Hej<br><br>
-            Håber du kan lide denne app. Den indeholder ingen reklamer, så vær sød at købe appen <a href="https://play.google.com/store/apps/details?id=org.fossify..thankyou">Simple Thank You</a>, som også vil forhindre at denne besked vises igen.<br><br>
+            Håber du kan lide denne app. Den indeholder ingen reklamer, så vær sød at købe appen <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Simple Thank You</a>, som også vil forhindre at denne besked vises igen.<br><br>
             På forhånd tak!
         ]]>
     </string>
-    <string name="donate_new">Hej,&lt;br&gt;&lt;br&gt;Jeg håber, at du nyder appen. Den indeholder ingen reklamer, og vi indsamler heller ikke dine data, men du kan støtte dens udvikling ved at købe &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Simple Thank You&lt;/a&gt;. Du vil også få alle app-funktioner og farvetilpasning låst op.&lt;br&gt;&lt;br&gt;Tak!</string>
-    <string name="donate_short">Støt os ved at købe &lt;a href=https://play.google.com/store/apps/details?id=org.fossify..thankyou&gt;Simple Thank You&lt;/a&gt;, det vil også låse alle app-funktioner op, herunder farvetilpasning.</string>
+    <string name="donate_new">Hej,&lt;br&gt;&lt;br&gt;Jeg håber, at du nyder appen. Den indeholder ingen reklamer, og vi indsamler heller ikke dine data, men du kan støtte dens udvikling ved at købe &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt;. Du vil også få alle app-funktioner og farvetilpasning låst op.&lt;br&gt;&lt;br&gt;Tak!</string>
+    <string name="donate_short">Støt os ved at købe &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt;, det vil også låse alle app-funktioner op, herunder farvetilpasning.</string>
     <string name="purchase">Køb</string>
     <string name="get_simple_phone">Få Simple Phone</string>
     <string name="update_thank_you">Opdater venligst Simple Thank You til den seneste version</string>
@@ -888,7 +888,7 @@
     <string name="thank_you">Tak skal du have</string>
     <string name="widget_locked_pro">Widget\'en er låst.
 \nOpgrader til Pro-versionen for at låse den op.</string>
-    <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details?id=org.fossify..thankyou&gt;Simple Thank You&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>
+    <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">
         <![CDATA[

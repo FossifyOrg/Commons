@@ -368,7 +368,7 @@
     <string name="apply_to_all_apps">Zastosuj kolory we wszystkich Prostych aplikacjach</string>
     <string name="share_colors_success">Kolory zostały zmienione. Dodano nowy motyw o nazwie „wspólny” — użyj go do aktualizacji kolorystyki we wszystkich Prostych aplikacjach w przyszłości.</string>
     <string name="shared_theme_note">Pamiętaj, że nawet jeśli używasz wersji Pro aplikacji, nadal potrzebujesz aplikacji „Proste podziękowanie” z powodów technicznych. Zajmuje się ona synchronizacją kolorów.</string>
-    <string name="purchase_thank_you">Aby odblokować tę funkcję (i przy okazji wesprzeć rozwój niniejszej aplikacji), kup aplikację &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Proste podziękowanie&lt;/a&gt;. Dzięki!</string>
+    <string name="purchase_thank_you">Aby odblokować tę funkcję (i przy okazji wesprzeć rozwój niniejszej aplikacji), kup aplikację &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Proste podziękowanie&lt;/a&gt;. Dzięki!</string>
     <!-- Themes -->
     <string name="light_theme">Jasny</string>
     <string name="dark_theme">Ciemny</string>
@@ -974,9 +974,9 @@
     <string name="additional_info">Dodatkowe informacje</string>
     <string name="app_version">Wersja aplikacji: %s</string>
     <string name="device_os">System: %s</string>
-    <string name="donate_please">Witaj,&lt;br&gt;&lt;br&gt; Mamy nadzieję, że aplikacja przypadła Ci do gustu. Jak można zauważyć, nie zawiera reklam, prosimy więc o wsparcie jej rozwoju przez zakup specjalnej aplikacji &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Proste podziękowanie&lt;/a&gt;, co poskutkuje również wyłączeniem tego komunikatu.&lt;br&gt;&lt;br&gt; Dziękujemy!</string>
-    <string name="donate_new">Witaj,&lt;br&gt;&lt;br&gt;Mamy nadzieję, że aplikacja przypadła Ci do gustu. Nie zawiera reklam oraz nie zbieramy Twoich danych, dlatego wesprzyj jej rozwój, kupując &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Proste podziękowanie&lt;/a&gt;. Będziesz także mieć odblokowane wszystkie funkcje aplikacji, w tym dostosowywanie kolorów.&lt;br&gt;&lt;br&gt;Dziękujemy!</string>
-    <string name="donate_short">Wesprzyj nas, kupując &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Proste podziękowanie&lt;/a&gt;, co również odblokuje wszystkie funkcje aplikacji, w tym dostosowywanie kolorów.</string>
+    <string name="donate_please">Witaj,&lt;br&gt;&lt;br&gt; Mamy nadzieję, że aplikacja przypadła Ci do gustu. Jak można zauważyć, nie zawiera reklam, prosimy więc o wsparcie jej rozwoju przez zakup specjalnej aplikacji &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Proste podziękowanie&lt;/a&gt;, co poskutkuje również wyłączeniem tego komunikatu.&lt;br&gt;&lt;br&gt; Dziękujemy!</string>
+    <string name="donate_new">Witaj,&lt;br&gt;&lt;br&gt;Mamy nadzieję, że aplikacja przypadła Ci do gustu. Nie zawiera reklam oraz nie zbieramy Twoich danych, dlatego wesprzyj jej rozwój, kupując &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Proste podziękowanie&lt;/a&gt;. Będziesz także mieć odblokowane wszystkie funkcje aplikacji, w tym dostosowywanie kolorów.&lt;br&gt;&lt;br&gt;Dziękujemy!</string>
+    <string name="donate_short">Wesprzyj nas, kupując &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Proste podziękowanie&lt;/a&gt;, co również odblokuje wszystkie funkcje aplikacji, w tym dostosowywanie kolorów.</string>
     <string name="purchase">Kup</string>
     <string name="get_simple_phone">Zamów urządzenie Prosty Telefon</string>
     <string name="update_thank_you">Zaktualizuj aplikację Proste podziękowanie do najnowszej wersji</string>
@@ -998,7 +998,7 @@
     <string name="rate_our_app">Oceń naszą aplikację :)</string>
     <string name="thank_you">Dziękujemy</string>
     <string name="widget_locked_pro">Widżet jest zablokowany.\nUaktualnij do wersji Pro, aby go odblokować.</string>
-    <string name="features_locked">Ta funkcja jest zablokowana. Kup &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Proste podziękowanie&lt;/a&gt;, aby odblokować pełną wersję aplikacji.&lt;br&gt;&lt;br&gt;Jest to płatność jednorazowa, a jeśli nie będziesz zadowolony(-a), możemy Ci zwrócić pieniądze.</string>
+    <string name="features_locked">Ta funkcja jest zablokowana. Kup &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Proste podziękowanie&lt;/a&gt;, aby odblokować pełną wersję aplikacji.&lt;br&gt;&lt;br&gt;Jest to płatność jednorazowa, a jeśli nie będziesz zadowolony(-a), możemy Ci zwrócić pieniądze.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">Cześć!&lt;br&gt;&lt;br&gt; Dajemy Ci znać, że ostatnio zostało wydanych kilka nowych aplikacji:&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; Możesz je pobrać, naciskając ich nazwy lub ikony.&lt;br&gt;&lt;br&gt; Dzięki!</string>
     <string name="simple_app_launcher">Prosty launcher aplikacji</string>

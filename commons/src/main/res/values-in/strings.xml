@@ -354,7 +354,7 @@
     <string name="apply_to_all_apps">Terapkan warna ke semua Aplikasi Simpel</string>
     <string name="share_colors_success">Warna berhasil diperbarui. Tema baru dengan nama \'Saling Berbagi\' telah ditambahkan. Kedepannya, silakan gunakan untuk memperbarui semua warna aplikasi.</string>
     <string name="shared_theme_note">Dicatat bahwa meskipun Anda menggunakan versi aplikasi Pro, Anda masih membutuhkan Terima Kasih Simpel untuk alasan teknis. Itu menangani sinkronisasi warna.</string>
-    <string name="purchase_thank_you">Silakan beli &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Terima Kasih Simpel&lt;/a&gt; untuk membuka fungsi ini dan mendukung pengembangan. Terima kasih!</string>
+    <string name="purchase_thank_you">Silakan beli &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Terima Kasih Simpel&lt;/a&gt; untuk membuka fungsi ini dan mendukung pengembangan. Terima kasih!</string>
     <!-- Themes -->
     <string name="light_theme">Terang</string>
     <string name="dark_theme">Gelap</string>
@@ -870,9 +870,9 @@
     <string name="additional_info">Info tambahan</string>
     <string name="app_version">Versi aplikasi: %s</string>
     <string name="device_os">OS perangkat: %s</string>
-    <string name="donate_please">Halo,&lt;br&gt;&lt;br&gt; semoga Anda menyukai aplikasi ini. Aplikasi ini sama sekali tidak berisi iklan, dukung pengembangan dengan membeli aplikasi &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Terima Kasih Simpel&lt;/a&gt;, ini juga untuk mencegah dialog ini muncul kembali.&lt;br&gt;&lt;br&gt; Terima kasih!</string>
-    <string name="donate_new">Halo,&lt;br&gt;&lt;br&gt;semoga Anda menikmati aplikasi ini. Aplikasi ini tidak berisi iklan dan kami juga tidak mengumpulkan data Anda, mohon dukung pengembangannya dengan membeli &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Terima Kasih Simpel&lt;/a&gt;. Anda juga akan memiliki semua fitur aplikasi termasuk kustomisasi warna.&lt;br&gt;&lt;br&gt;Terima kasih!</string>
-    <string name="donate_short">Silakan dukung kami dengan membeli &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Terima Kasih Simpel&lt;/a&gt;, itu juga akan membuka fitur aplikasi termasuk kustomisasi warna.</string>
+    <string name="donate_please">Halo,&lt;br&gt;&lt;br&gt; semoga Anda menyukai aplikasi ini. Aplikasi ini sama sekali tidak berisi iklan, dukung pengembangan dengan membeli aplikasi &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Terima Kasih Simpel&lt;/a&gt;, ini juga untuk mencegah dialog ini muncul kembali.&lt;br&gt;&lt;br&gt; Terima kasih!</string>
+    <string name="donate_new">Halo,&lt;br&gt;&lt;br&gt;semoga Anda menikmati aplikasi ini. Aplikasi ini tidak berisi iklan dan kami juga tidak mengumpulkan data Anda, mohon dukung pengembangannya dengan membeli &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Terima Kasih Simpel&lt;/a&gt;. Anda juga akan memiliki semua fitur aplikasi termasuk kustomisasi warna.&lt;br&gt;&lt;br&gt;Terima kasih!</string>
+    <string name="donate_short">Silakan dukung kami dengan membeli &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Terima Kasih Simpel&lt;/a&gt;, itu juga akan membuka fitur aplikasi termasuk kustomisasi warna.</string>
     <string name="purchase">Beli</string>
     <string name="get_simple_phone">Dapatkan Ponsel Simpel</string>
     <string name="update_thank_you">Silakan perbarui Terima Kasih Simpel ke versi terbaru</string>
@@ -895,7 +895,7 @@
     <string name="thank_you">Terima kasih</string>
     <string name="widget_locked_pro">Widget terkunci.
 \nHarap tingkatkan ke versi Pro untuk membukanya.</string>
-    <string name="features_locked">Fitur ini terkunci, silakan beli &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Terima Kasih Simpel&lt;/a&gt; untuk membuka kunci aplikasi lengkapnya. Ini adalah pembayaran satu kali saja dan jika Anda tidak akan puas, kami dapat mengembalikan uang Anda.</string>
+    <string name="features_locked">Fitur ini terkunci, silakan beli &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Terima Kasih Simpel&lt;/a&gt; untuk membuka kunci aplikasi lengkapnya. Ini adalah pembayaran satu kali saja dan jika Anda tidak akan puas, kami dapat mengembalikan uang Anda.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">
         <![CDATA[

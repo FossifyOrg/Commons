@@ -365,7 +365,7 @@
     <string name="shared_theme_note">Nota che sebbene tu stia usando la versione Pro, ti serve comunque Ringraziamento Semplice per motivi tecnici. Si occupa della sincronizzazione del colore.</string>
     <string name="purchase_thank_you">
         <![CDATA[
-            Acquista <a href="https://play.google.com/store/apps/details?id=org.fossify..thankyou">Semplice Ringraziamento</a> per sbloccare questa funzione e supportare lo sviluppo. Grazie!
+            Acquista <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Semplice Ringraziamento</a> per sbloccare questa funzione e supportare lo sviluppo. Grazie!
         ]]>
     </string>
     <!-- Themes -->
@@ -947,12 +947,12 @@
     <string name="donate_please">
         <![CDATA[
             Ciao,<br><br>
-            spero che tu sia contento dell\'app. Non contiene pubblicità, supporta lo sviluppo acquistando l\'app <a href="https://play.google.com/store/apps/details?id=org.fossify..thankyou">Semplice Ringraziamento</a>. Inoltre questa finestra non verrà più mostrata.<br><br>
+            spero che tu sia contento dell\'app. Non contiene pubblicità, supporta lo sviluppo acquistando l\'app <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Semplice Ringraziamento</a>. Inoltre questa finestra non verrà più mostrata.<br><br>
             Grazie!
         ]]>
     </string>
-    <string name="donate_new">Ciao,&lt;br&gt;&lt;br&gt;spero che l\'app ti piaccia. Non contiene pubblicità e non stiamo raccogliendo i tuoi dati, per favore sostieni il suo sviluppo acquistando &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Ringraziamento Semplice &lt;/a&gt;. Avrai anche tutte le funzioni dell\'app, compresa la personalizzazione dei colori, sbloccate.&lt;br&gt;&lt;br&gt;Grazie!</string>
-    <string name="donate_short">Per favore sostienici acquistando &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Ringraziamento Semplice &lt;/a&gt;, che sbloccherà anche tutte le funzioni dell\'app, compresa la personalizzazione dei colori.</string>
+    <string name="donate_new">Ciao,&lt;br&gt;&lt;br&gt;spero che l\'app ti piaccia. Non contiene pubblicità e non stiamo raccogliendo i tuoi dati, per favore sostieni il suo sviluppo acquistando &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Ringraziamento Semplice &lt;/a&gt;. Avrai anche tutte le funzioni dell\'app, compresa la personalizzazione dei colori, sbloccate.&lt;br&gt;&lt;br&gt;Grazie!</string>
+    <string name="donate_short">Per favore sostienici acquistando &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Ringraziamento Semplice &lt;/a&gt;, che sbloccherà anche tutte le funzioni dell\'app, compresa la personalizzazione dei colori.</string>
     <string name="purchase">Acquista</string>
     <string name="get_simple_phone">Scarica Telefono Semplice</string>
     <string name="update_thank_you">Aggiorna Semplice Ringraziamento all\'ultima versione</string>
@@ -967,7 +967,7 @@
     <string name="thank_you">Grazie</string>
     <string name="widget_locked_pro">Il widget è bloccato.
 \nSi prega di aggiornare alla versione Pro per sbloccarlo.</string>
-    <string name="features_locked">Questa funzionalità è bloccata, si prega di comprare &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Semplice Ringraziamento&lt;/a&gt; per sbloccare l\'app completa.&lt;br&gt;&lt;br&gt;È solo un pagamento una tantum e se non sarai soddisfatto, possiamo rimborsarti.</string>
+    <string name="features_locked">Questa funzionalità è bloccata, si prega di comprare &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Semplice Ringraziamento&lt;/a&gt; per sbloccare l\'app completa.&lt;br&gt;&lt;br&gt;È solo un pagamento una tantum e se non sarai soddisfatto, possiamo rimborsarti.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">
         <![CDATA[

@@ -359,7 +359,7 @@
     <string name="shared_theme_note">Chú ý rằng mặc dù bạn đang dùng phiên bản Pro, bạn vẫn cần Simple Cám ơn vì lý do kỹ thuật. Nó đảm nhiệm việc đồng bộ hóa màu sắc.</string>
     <string name="purchase_thank_you">
         <![CDATA[
-            Làm ơn hãy mua ứng dụng <a href="https://play.google.com/store/apps/details?id=org.fossify..thankyou">Simple Thank You</a> để mở khóa tính năng này và hỗ trợ nhà phát triển. Cảm ơn!
+            Làm ơn hãy mua ứng dụng <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Simple Thank You</a> để mở khóa tính năng này và hỗ trợ nhà phát triển. Cảm ơn!
         ]]>
     </string>
     <!-- Themes -->
@@ -896,12 +896,12 @@
     <string name="donate_please">
         <![CDATA[
             Xin chào,<br><br>
-            hy vọng bạn đang thưởng thức ứng dụng. Nó không chứa quảng cáo, vui lòng hỗ trợ sự nhà phát triển bằng cách mua ứng dụng<a href="https://play.google.com/store/apps/details?id=org.fossify..thankyou">Simple Thank You</a>  nó cũng sẽ ngăn hộp thoại này hiển thị lại.<br><br>
+            hy vọng bạn đang thưởng thức ứng dụng. Nó không chứa quảng cáo, vui lòng hỗ trợ sự nhà phát triển bằng cách mua ứng dụng<a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Simple Thank You</a>  nó cũng sẽ ngăn hộp thoại này hiển thị lại.<br><br>
             Thank you!
         ]]>
     </string>
-    <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify..thankyou&gt;Simple Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
-    <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify..thankyou&gt;Simple Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
+    <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
+    <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
     <string name="purchase">Mua hàng</string>
     <string name="get_simple_phone">Get Simple Phone</string>
     <string name="update_thank_you">Vui lòng cập nhật Simple Thank You lên phiên bản mới nhất</string>
@@ -915,7 +915,7 @@
     <string name="rate_our_app">Rate our app please :)</string>
     <string name="thank_you">Thank you</string>
     <string name="widget_locked_pro">The widget is locked.\nPlease upgrade to the Pro version to unlock it.</string>
-    <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details?id=org.fossify..thankyou&gt;Simple Thank You&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>
+    <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">
         <![CDATA[

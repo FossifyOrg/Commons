@@ -355,7 +355,7 @@
     <string name="shared_theme_note">Pro版のアプリを使用していても、技術的な理由によりSimple Thank Youが必要であることにご留意下さい。色の同期を処理します。</string>
     <string name="purchase_thank_you">
         <![CDATA[
-            この機能のロックを解除して開発者をサポートするには、<a href="https://play.google.com/store/apps/details?id=org.fossify..thankyou">Simple Thank You</a> アプリを購入してください。
+            この機能のロックを解除して開発者をサポートするには、<a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Simple Thank You</a> アプリを購入してください。
         ]]>
     </string>
     <!-- Themes -->
@@ -861,12 +861,12 @@
     <string name="donate_please">
         <![CDATA[
             こんにちは<br><br>
-            アプリを楽しんでいただけているでしょうか。広告無しを続けるため、<a href="https://play.google.com/store/apps/details?id=org.fossify..thankyou">Simple Thank You</a>アプリを購入し開発の力になってください。購入されれば、この表示も二度と出ません。 <br><br>
+            アプリを楽しんでいただけているでしょうか。広告無しを続けるため、<a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Simple Thank You</a>アプリを購入し開発の力になってください。購入されれば、この表示も二度と出ません。 <br><br>
             ありがとうございます！
         ]]>
     </string>
-    <string name="donate_new">こんにちは、&lt;br&gt;&lt;br&gt; アプリを楽しんでいただけているでしょうか。広告無しでプライバシーを尊重するアプリを続けるため、&lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Simple Thank You&lt;/a&gt;アプリを購入し開発の力になってください。購入されれば、色のカスタマイズを含むすべてのアプリ機能のロック解除も行えます。 &lt;br&gt;&lt;br&gt; ありがとうございます！</string>
-    <string name="donate_short">&lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Simple Thank You&lt;/a&gt;アプリを購入し開発の力になってください。購入されれば、色のカスタマイズを含むすべてのアプリ機能のロック解除も行えます。</string>
+    <string name="donate_new">こんにちは、&lt;br&gt;&lt;br&gt; アプリを楽しんでいただけているでしょうか。広告無しでプライバシーを尊重するアプリを続けるため、&lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt;アプリを購入し開発の力になってください。購入されれば、色のカスタマイズを含むすべてのアプリ機能のロック解除も行えます。 &lt;br&gt;&lt;br&gt; ありがとうございます！</string>
+    <string name="donate_short">&lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt;アプリを購入し開発の力になってください。購入されれば、色のカスタマイズを含むすべてのアプリ機能のロック解除も行えます。</string>
     <string name="purchase">購入する</string>
     <string name="get_simple_phone">Get Simple Phone</string>
     <string name="update_thank_you">\"Simple Thank You\" アプリを最新版に更新してください</string>
@@ -881,7 +881,7 @@
     <string name="thank_you">ありがとうございます</string>
     <string name="widget_locked_pro">ウィジェットはロックされています。
 \nロックを解除するには、Pro版にアップグレードしてください。</string>
-    <string name="features_locked">この機能はロックされています。ロックを解除するには、 &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Simple Thank You&lt;/a&gt; を購入する必要があります。&lt;br&gt;&lt;br&gt;お支払いは1回のみで、ご満足いただけない場合はご返金いたします。</string>
+    <string name="features_locked">この機能はロックされています。ロックを解除するには、 &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt; を購入する必要があります。&lt;br&gt;&lt;br&gt;お支払いは1回のみで、ご満足いただけない場合はご返金いたします。</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">こんにちは、&lt;br&gt;&lt;br&gt; 最近、新しいアプリをいくつかリリースしたのでお知らせします:&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; アイコンかタイトルをタップするだけでダウンロードできます。&lt;br&gt;&lt;br&gt; ありがとうございます</string>
     <string name="simple_app_launcher">Simple App ランチャー</string>

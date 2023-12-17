@@ -358,7 +358,7 @@
     <string name="shared_theme_note">Pro uygulama sürümünü kullanıyor olsanız bile, teknik nedenlerden dolayı yine de Basit Teşekkürler\'e ihtiyacınız olduğunu unutmayın. Renk eşzamanlamasını o yapar.</string>
     <string name="purchase_thank_you">
         <![CDATA[
-            Bu işlevin kilidini açmak ve geliştirmeyi desteklemek için lütfen <a href="https://play.google.com/store/apps/details?id=org.fossify..thankyou">Basit Teşekkürler</a>\'i satın alın. Teşekkürler!
+            Bu işlevin kilidini açmak ve geliştirmeyi desteklemek için lütfen <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Basit Teşekkürler</a>\'i satın alın. Teşekkürler!
         ]]>
     </string>
     <!-- Themes -->
@@ -909,12 +909,12 @@
     <string name="donate_please">
         <![CDATA[
             Merhaba,<br><br>
-            umarım uygulamadan memnunsunuzdur. Hiçbir reklam içermiyor, bu yüzden lütfen <a href="https://play.google.com/store/apps/details?id=org.fossify..thankyou">Basit Teşekkürler</a> uygulamasını satın alarak geliştirmeyi destekleyip, bu pencerenin tekrar görünmesini de önleyin.<br><br>
+            umarım uygulamadan memnunsunuzdur. Hiçbir reklam içermiyor, bu yüzden lütfen <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Basit Teşekkürler</a> uygulamasını satın alarak geliştirmeyi destekleyip, bu pencerenin tekrar görünmesini de önleyin.<br><br>
             Teşekkürler!
         ]]>
     </string>
-    <string name="donate_new">Merhaba,&lt;br&gt;&lt;br&gt; umarım uygulamadan memnunsunuzdur. Hiçbir reklam içermiyor ve verilerinizi de toplamıyoruz, lütfen &lt;href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Basit Teşekkürler&lt;/a&gt; uygulamasını satın alarak geliştirmeyi destekleyin. Ayrıca renk özelleştirme dahil tüm uygulama özelliklerinin kilidi açılacaktır.&lt;br&gt;&lt;br&gt; Teşekkürler!</string>
-    <string name="donate_short">Lütfen &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Basit Teşekkürler&lt;/a&gt; uygulamasını satın alarak bizi destekleyin, ayrıca renk özelleştirme dahil tüm uygulama özelliklerinin kilidi açılacaktır.</string>
+    <string name="donate_new">Merhaba,&lt;br&gt;&lt;br&gt; umarım uygulamadan memnunsunuzdur. Hiçbir reklam içermiyor ve verilerinizi de toplamıyoruz, lütfen &lt;href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Basit Teşekkürler&lt;/a&gt; uygulamasını satın alarak geliştirmeyi destekleyin. Ayrıca renk özelleştirme dahil tüm uygulama özelliklerinin kilidi açılacaktır.&lt;br&gt;&lt;br&gt; Teşekkürler!</string>
+    <string name="donate_short">Lütfen &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Basit Teşekkürler&lt;/a&gt; uygulamasını satın alarak bizi destekleyin, ayrıca renk özelleştirme dahil tüm uygulama özelliklerinin kilidi açılacaktır.</string>
     <string name="purchase">Satın al</string>
     <string name="get_simple_phone">Basit Telefon Sipariş Edin</string>
     <string name="update_thank_you">Lütfen Basit Teşekkürler\'i son sürüme güncelleyin</string>
@@ -928,7 +928,7 @@
     <string name="rate_our_app">Lütfen uygulamamızı oylayın :)</string>
     <string name="thank_you">Teşekkürler</string>
     <string name="widget_locked_pro">Widget kilitli.\nKilidi açmak için lütfen Pro sürümüne yükseltin.</string>
-    <string name="features_locked">Bu özellik kilitlidir, lütfen tam uygulamanın kilidini açmak için &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Basit Teşekkürler&lt;/a&gt; uygulamasını satın alın.&lt;br&gt;&lt;br&gt;Bu yalnızca tek seferlik bir ödemedir ve memnun kalmazsanız geri ödeme yapabiliriz.</string>
+    <string name="features_locked">Bu özellik kilitlidir, lütfen tam uygulamanın kilidini açmak için &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Basit Teşekkürler&lt;/a&gt; uygulamasını satın alın.&lt;br&gt;&lt;br&gt;Bu yalnızca tek seferlik bir ödemedir ve memnun kalmazsanız geri ödeme yapabiliriz.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">
         <![CDATA[

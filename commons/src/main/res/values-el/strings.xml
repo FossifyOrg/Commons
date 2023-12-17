@@ -360,7 +360,7 @@
     <string name="shared_theme_note">Σημειώστε ότι αν και χρησιμοποιείτε την έκδοση εφαρμογής Pro, εξακολουθείτε να χρειάζεστε το \"Απλά Σας Ευχαριστώ\" για τεχνικούς λόγους. Φροντίζει για το συγχρονισμό χρωμάτων.</string>
     <string name="purchase_thank_you">
         <![CDATA[
-            Παρακαλώ αγοράστε την <a href="https://play.google.com/store/apps/details?id=org.fossify..thankyou">Απλά Σας Ευχαριστώ</a> για να ξεκλειδώσετε αυτή τη λειτουργία για να υποστηρίξετε την ανάπτυξη. Ευχαριστώ!
+            Παρακαλώ αγοράστε την <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Απλά Σας Ευχαριστώ</a> για να ξεκλειδώσετε αυτή τη λειτουργία για να υποστηρίξετε την ανάπτυξη. Ευχαριστώ!
         ]]>
     </string>
     <!-- Themes -->
@@ -869,12 +869,12 @@
     <string name="donate_please">
         <![CDATA[
             Γειά σας,<br><br>
-            Ελπίζω να απολαμβάνετε την εφαρμογή. Δεν περιέχει διαφημίσεις, παρακαλώ υποστηρίξτε την ανάπτυξή της με την αγορά στο <a href="https://play.google.com/store/apps/details?id=org.fossify..thankyou">Απλά Σας Ευχαριστούμε</a>, θα αποτρέψει επίσης την εμφάνιση αυτού του διαλόγου.<br><br>
+            Ελπίζω να απολαμβάνετε την εφαρμογή. Δεν περιέχει διαφημίσεις, παρακαλώ υποστηρίξτε την ανάπτυξή της με την αγορά στο <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Απλά Σας Ευχαριστούμε</a>, θα αποτρέψει επίσης την εμφάνιση αυτού του διαλόγου.<br><br>
             Ευχαριστούμε!
         ]]>
     </string>
-    <string name="donate_new">Γειά σας,&lt;br&gt;&lt;br&gt;ελπίζω να απολαμβάνετε την εφαρμογή. Δεν περιέχει διαφημίσεις και δεν συλλέγουμε τα δεδομένα σας, παρακαλούμε υποστηρίξτε την ανάπτυξή της με την αγορά της &lt;a href=https://play.google.com/store/apps/details?id=org.fossify..thankyou&gt;Απλά Σας Ευχαριστούμε&lt;/a&gt;. Επίσης, θα έχετε ξεκλειδώσει όλες τις λειτουργίες της και την προσαρμογή των χρωμάτων.&lt;br&gt;&lt;br&gt;Σας ευχαριστώ!</string>
-    <string name="donate_short">Υποστηρίξτε μας αγοράζοντας την &lt;a href=https://play.google.com/store/apps/details?id=org.fossify..thankyou&gt;Απλά Σας Ευχαριστούμε&lt;/a&gt; παρακαλώ, θα ξεκλειδώσει επίσης όλες τις λειτουργίες της εφαρμογής και την προσαρμογή χρωμάτων.</string>
+    <string name="donate_new">Γειά σας,&lt;br&gt;&lt;br&gt;ελπίζω να απολαμβάνετε την εφαρμογή. Δεν περιέχει διαφημίσεις και δεν συλλέγουμε τα δεδομένα σας, παρακαλούμε υποστηρίξτε την ανάπτυξή της με την αγορά της &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Απλά Σας Ευχαριστούμε&lt;/a&gt;. Επίσης, θα έχετε ξεκλειδώσει όλες τις λειτουργίες της και την προσαρμογή των χρωμάτων.&lt;br&gt;&lt;br&gt;Σας ευχαριστώ!</string>
+    <string name="donate_short">Υποστηρίξτε μας αγοράζοντας την &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Απλά Σας Ευχαριστούμε&lt;/a&gt; παρακαλώ, θα ξεκλειδώσει επίσης όλες τις λειτουργίες της εφαρμογής και την προσαρμογή χρωμάτων.</string>
     <string name="purchase">Αγορά</string>
     <string name="get_simple_phone">Αγορά Simple Phone</string>
     <string name="update_thank_you">Παρακαλώ ενημερώστε την Απλά Σας Ευχαριστούμε στην τελευταία έκδοση</string>
@@ -888,7 +888,7 @@
     <string name="rate_our_app">Βαθμολογήστε την εφαρμογή μας παρακαλώ :)</string>
     <string name="thank_you">Σας Ευχαριστούμε</string>
     <string name="widget_locked_pro">Το widget είναι κλειδωμένο.\nΠαρακαλώ αναβαθμίστε σε Pro έκδοση, για να το ξεκλειδώσετε.</string>
-    <string name="features_locked">Αυτή η λειτουργία είναι κλειδωμένη, παρακαλούμε αγοράστε &lt;a href=https://play.google.com/store/apps/details?id=org.fossify..thankyou&gt;Simple Thank You&lt;/a&gt; για το ξεκλείδωμα της πλήρους εφαρμογής.&lt;br&gt;&lt;br&gt;Είναι μια εφάπαξ πληρωμή μόνο και αν δεν είστε ικανοποιημένοι, μπορούμε να σας επιστρέψουμε τα χρήματα.</string>
+    <string name="features_locked">Αυτή η λειτουργία είναι κλειδωμένη, παρακαλούμε αγοράστε &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt; για το ξεκλείδωμα της πλήρους εφαρμογής.&lt;br&gt;&lt;br&gt;Είναι μια εφάπαξ πληρωμή μόνο και αν δεν είστε ικανοποιημένοι, μπορούμε να σας επιστρέψουμε τα χρήματα.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">
         <![CDATA[

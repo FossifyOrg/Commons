@@ -370,7 +370,7 @@
     <string name="apply_to_all_apps">Appliquer les couleurs à l\'ensemble de la suite d\'applications \"simple\"</string>
     <string name="share_colors_success">Actualisation des couleurs réussie. Un nouveau thème nommé \"Partagé\" a été ajouté. Veuillez utiliser dorénavant ce thème pour actualiser les couleurs de toutes les applications.</string>
     <string name="shared_theme_note">Veuillez noter que même si vous utilisez la version \"Pro\" de l\'application, pour des raisons techniques, vous aurez toujours besoin de l\'application \"Merci simple\", puisqu\'elle gère la synchronisation des couleurs.</string>
-    <string name="purchase_thank_you">Veuillez acheter l\'application &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;\"Merci simple\"&lt;/a&gt; pour déverrouiller cette fonctionnalité et soutenir son développement. Merci !</string>
+    <string name="purchase_thank_you">Veuillez acheter l\'application &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;\"Merci simple\"&lt;/a&gt; pour déverrouiller cette fonctionnalité et soutenir son développement. Merci !</string>
     <!-- Themes -->
     <string name="light_theme">Clair</string>
     <string name="dark_theme">Sombre</string>
@@ -950,9 +950,9 @@
     <string name="additional_info">Informations supplémentaires</string>
     <string name="app_version">Version de l\'application : %s</string>
     <string name="device_os">Système d\'exploitation de l\'appareil : %s</string>
-    <string name="donate_please">Bonjour,&lt;br&gt;&lt;br&gt; Nous espérons que vous appréciez cette application. Elle ne contient aucune publicité, mais vous pouvez soutenir son développement en achetant l\'application &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;\"Merci simple\"&lt;/a&gt;. Cela empêchera également cette fenêtre de s\'afficher à l\'avenir.&lt;br&gt;&lt;br&gt; Merci !</string>
-    <string name="donate_new">Bonjour,&lt;br&gt;&lt;br&gt;Nous espérons que vous appréciez cette application. Elle ne contient aucune publicité et nous ne collectons pas vos données personnelles. Vous pouvez soutenir son développement en achetant l\'application &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;\"Merci simple\"&lt;/a&gt;. Vous obtiendrez toutes les fonctionnalités de l\'application, y compris le déblocage de la personnalisation des couleurs.&lt;br&gt;&lt;br&gt;Merci !</string>
-    <string name="donate_short">Soutenez-nous s\'il vous plaît en achetant l\'application &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;\"Merci simple\"&lt;/a&gt;. Vous obtiendrez toutes les fonctionnalités de l\'application, y compris le déblocage de la personnalisation des couleurs.</string>
+    <string name="donate_please">Bonjour,&lt;br&gt;&lt;br&gt; Nous espérons que vous appréciez cette application. Elle ne contient aucune publicité, mais vous pouvez soutenir son développement en achetant l\'application &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;\"Merci simple\"&lt;/a&gt;. Cela empêchera également cette fenêtre de s\'afficher à l\'avenir.&lt;br&gt;&lt;br&gt; Merci !</string>
+    <string name="donate_new">Bonjour,&lt;br&gt;&lt;br&gt;Nous espérons que vous appréciez cette application. Elle ne contient aucune publicité et nous ne collectons pas vos données personnelles. Vous pouvez soutenir son développement en achetant l\'application &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;\"Merci simple\"&lt;/a&gt;. Vous obtiendrez toutes les fonctionnalités de l\'application, y compris le déblocage de la personnalisation des couleurs.&lt;br&gt;&lt;br&gt;Merci !</string>
+    <string name="donate_short">Soutenez-nous s\'il vous plaît en achetant l\'application &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;\"Merci simple\"&lt;/a&gt;. Vous obtiendrez toutes les fonctionnalités de l\'application, y compris le déblocage de la personnalisation des couleurs.</string>
     <string name="purchase">Acheter</string>
     <string name="get_simple_phone">Commander un \"Smartphone simple\"</string>
     <string name="update_thank_you">Veuillez mettre à jour l\'application \"Merci simple\"</string>
@@ -975,7 +975,7 @@
     <string name="thank_you">Merci</string>
     <string name="widget_locked_pro">Le widget est verrouillé.
 \nVeuillez passer à la version \"Pro\" pour le déverrouiller.</string>
-    <string name="features_locked">Cette fonctionnalité est verrouillée. Veuillez acheter l\'application &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;\"Merci simple\"&lt;/a&gt; pour déverrouiller toutes les fonctionnalités.&lt;br&gt;&lt;br&gt;Il s\'agit d\'un paiement unique et nous vous rembourserons en cas d\'insatisfaction.</string>
+    <string name="features_locked">Cette fonctionnalité est verrouillée. Veuillez acheter l\'application &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;\"Merci simple\"&lt;/a&gt; pour déverrouiller toutes les fonctionnalités.&lt;br&gt;&lt;br&gt;Il s\'agit d\'un paiement unique et nous vous rembourserons en cas d\'insatisfaction.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">Bonjour,&lt;br&gt;&lt;br&gt; Nous vous informons que de nouvelles applications ont été publiées récemment :&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; Vous pouvez les télécharger en appuyant sur leurs titres ou icônes.&lt;br&gt;&lt;br&gt; Merci</string>
     <string name="simple_app_launcher">Lanceur d\'applications simple</string>

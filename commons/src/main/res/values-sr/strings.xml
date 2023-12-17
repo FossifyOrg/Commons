@@ -371,7 +371,7 @@
     <string name="shared_theme_note">Имајте на уму да иако користите верзију апликације Про, и даље вам је потребна Једноставно хвала из техничких разлога. Брине о синхронизацији боја.</string>
     <string name="purchase_thank_you">
         <![CDATA[
-            Молимо вас пазарите <a href="https://play.google.com/store/apps/details?id=org.fossify..thankyou">Simple Thank You</a> да откључате ову функцију и подржите наш развој. Хвала вам!
+            Молимо вас пазарите <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Simple Thank You</a> да откључате ову функцију и подржите наш развој. Хвала вам!
         ]]>
     </string>
     <!-- Themes -->
@@ -937,7 +937,7 @@
     <string name="donate_please">
         <![CDATA[
             Поздрав,<br><br>
-            надамо се да уживате у апликацији. Она не садржи огласе, молимо вас да подржите њен развој куповином <a href="https://play.google.com/store/apps/details?id=org.fossify..thankyou">Simple Thank You</a> апликације, то ће такође спречити овај дијалог од поновног појављивања.<br><br>
+            надамо се да уживате у апликацији. Она не садржи огласе, молимо вас да подржите њен развој куповином <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Simple Thank You</a> апликације, то ће такође спречити овај дијалог од поновног појављивања.<br><br>
             Хвала вам!
         ]]>
     </string>

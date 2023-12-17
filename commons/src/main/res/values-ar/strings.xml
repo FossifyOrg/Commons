@@ -382,7 +382,7 @@
     <string name="shared_theme_note">لاحظ أنه على الرغم من أنك تستخدم إصدار تطبيق Pro ، إلا أنك لا تزال بحاجة إلى Simple Thank You لأسباب فنية. يعتني بمزامنة الألوان.</string>
     <string name="purchase_thank_you">
         <![CDATA[
-             يرجى شراء<a href="https://play.google.com/store/apps/details?id=org.fossify..thankyou">Thank You</a> لفتح هذه الوظيفة ودعم التطوير. شكراً!
+             يرجى شراء<a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Thank You</a> لفتح هذه الوظيفة ودعم التطوير. شكراً!
         ]]>
     </string>
     <!-- Themes -->
@@ -1054,12 +1054,12 @@
     <string name="donate_please">
         <![CDATA[
  مرحباً,<br><br>
-            أتمني أن مستمتعاً بالتطبيق. الذي لا يحتوي على إعلانات ، يرجى دعم تطويره من خلال شراء تطبيق <a href="https://play.google.com/store/apps/details?id=org.fossify..thankyou">Simple Thank You</a>سيمنع هذا  مربع الحوار من الظهور مرة أخرى. <br><br>
+            أتمني أن مستمتعاً بالتطبيق. الذي لا يحتوي على إعلانات ، يرجى دعم تطويره من خلال شراء تطبيق <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Simple Thank You</a>سيمنع هذا  مربع الحوار من الظهور مرة أخرى. <br><br>
             شكرا!
         ]]>
     </string>
-    <string name="donate_new">مرحبا ، &lt;br&gt;&lt;br&gt;آمل أن تستمتع بالتطبيق. لا يحتوي على إعلانات ولا نجمع بياناتك أيضا ، يرجى دعم تطويره عن طريق شراء &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Simple شكرا لك.&lt;/a&gt; سيكون لديك أيضا جميع ميزات التطبيق بما في ذلك تخصيص الألوان غير مقفلة. &lt;br&gt;&lt;br&gt;شكرًا لك!</string>
-    <string name="donate_short">ادعمنا عن طريق شراء &lt;a href = https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Simple شكرا لك&lt;/a&gt; من فضلك ، كما أنه سيفتح جميع ميزات التطبيق بما في ذلك تخصيص الألوان.</string>
+    <string name="donate_new">مرحبا ، &lt;br&gt;&lt;br&gt;آمل أن تستمتع بالتطبيق. لا يحتوي على إعلانات ولا نجمع بياناتك أيضا ، يرجى دعم تطويره عن طريق شراء &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Simple شكرا لك.&lt;/a&gt; سيكون لديك أيضا جميع ميزات التطبيق بما في ذلك تخصيص الألوان غير مقفلة. &lt;br&gt;&lt;br&gt;شكرًا لك!</string>
+    <string name="donate_short">ادعمنا عن طريق شراء &lt;a href = https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Simple شكرا لك&lt;/a&gt; من فضلك ، كما أنه سيفتح جميع ميزات التطبيق بما في ذلك تخصيص الألوان.</string>
     <string name="purchase">شراء</string>
     <string name="get_simple_phone">احصل على هاتف بسيط</string>
     <string name="update_thank_you">يرجى تحديث تطبيق (Simple Thank You) إلى أحدث إصدار</string>
@@ -1074,7 +1074,7 @@
     <string name="thank_you">شكراً جزيلاً</string>
     <string name="widget_locked_pro">الأداة مقفلة.
 \nيرجى الترقية إلى إصدار Pro لإلغاء قفله.</string>
-    <string name="features_locked">هذه الميزة مقفلة ، يرجى شراء &lt;a href = https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Simple شكرا لك&lt;/a&gt; على إلغاء قفل التطبيق الكامل ، &lt;br&gt;&lt;br&gt;إنها دفعة لمرة واحدة فقط وإذا لم تكن راضيا ، فيمكننا رد الأموال إليك.</string>
+    <string name="features_locked">هذه الميزة مقفلة ، يرجى شراء &lt;a href = https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Simple شكرا لك&lt;/a&gt; على إلغاء قفل التطبيق الكامل ، &lt;br&gt;&lt;br&gt;إنها دفعة لمرة واحدة فقط وإذا لم تكن راضيا ، فيمكننا رد الأموال إليك.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">
         <![CDATA[

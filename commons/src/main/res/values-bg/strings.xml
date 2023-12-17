@@ -364,7 +364,7 @@
     <string name="apply_to_all_apps">Прилагане на цветове за всички Обикновени Приложения</string>
     <string name="share_colors_success">Цветовете се актуализираха успешно. Добавена е нова тема, наречена \'Споделена\', моля, използвайте нея за актуализиране на всички цветове на приложението в бъдеще.</string>
     <string name="shared_theme_note">Обърнете внимание, че въпреки че използвате Про версията на приложението, все още се нуждаете от Обикновено Благодаря за технически причини. То се грижи за синхронизацията на цвета.</string>
-    <string name="purchase_thank_you">Моля, закупете &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Обикновено Благодаря&lt;/a&gt; За да отключите тази функция и да подкрепите разработката. Благодаря!</string>
+    <string name="purchase_thank_you">Моля, закупете &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Обикновено Благодаря&lt;/a&gt; За да отключите тази функция и да подкрепите разработката. Благодаря!</string>
     <!-- Themes -->
     <string name="light_theme">Светло</string>
     <string name="dark_theme">Тъмно</string>
@@ -883,9 +883,9 @@
     <string name="additional_info">Допълнителна информация</string>
     <string name="app_version">Версия на приложението: %s</string>
     <string name="device_os">ОС на устройството: %s</string>
-    <string name="donate_please">Здравей,&lt;br&gt;&lt;br&gt; надявам се, че се наслаждаваш на приложението. То не съдържа реклами, моля, подкрепете разработката му, като закупите приложението &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Обикновено Благодаря&lt;/a&gt;. То ще предотврати този диалог да се покаже отново.&lt;br&gt;&lt;br&gt; Благодаря!</string>
-    <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify..thankyou&gt;Simple Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
-    <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify..thankyou&gt;Simple Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
+    <string name="donate_please">Здравей,&lt;br&gt;&lt;br&gt; надявам се, че се наслаждаваш на приложението. То не съдържа реклами, моля, подкрепете разработката му, като закупите приложението &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Обикновено Благодаря&lt;/a&gt;. То ще предотврати този диалог да се покаже отново.&lt;br&gt;&lt;br&gt; Благодаря!</string>
+    <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
+    <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
     <string name="purchase">Купи</string>
     <string name="get_simple_phone">Поръчване на Обикновен Смартфон</string>
     <string name="update_thank_you">Моля, обноврте Обикновено Благодаря до последното издание</string>
@@ -908,7 +908,7 @@
     <string name="thank_you">Благодаря Ви</string>
     <string name="widget_locked_pro">Приспособлението е заключено.
 \nМоля, надстройте до Про версията, за да я отключите.</string>
-    <string name="features_locked">Тази функция е заключена, за да я отключите поръчайте &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Simple Thank You&lt;/a&gt; за пълен достъп до функциите на приложението.&lt;br&gt;&lt;br&gt;Плащането е еднократно, а ако не останете доволни ще ви върнем парите.</string>
+    <string name="features_locked">Тази функция е заключена, за да я отключите поръчайте &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt; за пълен достъп до функциите на приложението.&lt;br&gt;&lt;br&gt;Плащането е еднократно, а ако не останете доволни ще ви върнем парите.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">
         <![CDATA[

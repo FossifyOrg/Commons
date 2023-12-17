@@ -372,7 +372,7 @@
     <string name="shared_theme_note">Imajte na umu da iako koristite Pro verziju aplikacije, još uvijek trebate Jednostavno hvala iz tehničkih razloga. Brine se za sinkronizaciju boja.</string>
     <string name="purchase_thank_you">
         <![CDATA[
-            Molimo kupite <a href="https://play.google.com/store/apps/details?id=org.fossify..thankyou">Simple Thank You</a> za otključavanje ove funkcije i podršku razvoju. Hvala!
+            Molimo kupite <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Simple Thank You</a> za otključavanje ove funkcije i podršku razvoju. Hvala!
         ]]>
     </string>
     <!-- Themes -->
@@ -953,12 +953,12 @@
     <string name="donate_please">
         <![CDATA[
             Pozdrav,<br><br>
-            nadam se da uživate u aplikaciji. Ne sadrži reklame, stoga nas podržite njen razvoj kupovinom <a href="https://play.google.com/store/apps/details?id=org.fossify..thankyou">Simple Thank You</a> aplikacije, što će spriječiti da se ovaj prozor ponovno pojavljuje.<br><br>
+            nadam se da uživate u aplikaciji. Ne sadrži reklame, stoga nas podržite njen razvoj kupovinom <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Simple Thank You</a> aplikacije, što će spriječiti da se ovaj prozor ponovno pojavljuje.<br><br>
             Hvala Vam!
         ]]>
     </string>
-    <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Simple Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
-    <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Simple Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
+    <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
+    <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
     <string name="purchase">Kupi</string>
     <string name="get_simple_phone">Nabavi „Jednostavni telefon”</string>
     <string name="update_thank_you">Ažurirajte „Jednostavno hvala” na najnoviju verziju</string>
@@ -981,7 +981,7 @@
     <string name="thank_you">Hvala</string>
     <string name="widget_locked_pro">Widget je zaključan.
 \nZa otključavanje widgeta nadogradi na Pro verziju.</string>
-    <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Simple Thank You&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>
+    <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">Hej,&lt;br&gt;&lt;br&gt; nedavno su objavljene nove aplikacije:&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; Možeš ih preuzeti pritiskom na njihove naslove ili ikone.&lt;br&gt;&lt;br&gt; Hvala</string>
     <string name="simple_app_launcher">Jednostavni pokretač aplikacija</string>
