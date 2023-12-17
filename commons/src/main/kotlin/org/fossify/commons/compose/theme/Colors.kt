@@ -2,8 +2,8 @@ package org.fossify.commons.compose.theme
 
 import androidx.compose.ui.graphics.Color
 
-val color_primary = Color(0xFFF57C00)
-val color_primary_dark = Color(0xFFD76D00)
+val color_primary = Color(0xFF106D20)
+val color_primary_dark = Color(0xFF106D20)
 val color_accent = color_primary
 
 val pressed_item_foreground = Color(0x08000000)
