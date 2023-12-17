@@ -360,10 +360,9 @@
     <string name="cannot_be_undone">Ez a művelet nem vonható vissza.</string>
     <string name="save_before_closing">Nem mentette a változtatásokat. Menti a kilépés előtt?</string>
     <string name="apply_to_all_apps">Színek alkalmazása az összes Simple Apps alkalmazásra</string>
-    <string name="app_icon_color_warning">FIGYELMEZTETÉS: Néhány indító nem megfelelően kezeli az alkalmazásikon testreszabását. Ha az ikon eltűnik, próbálja meg elindítani az alkalmazást a Google Playen vagy egy modulon keresztül, ha elérhető. Miután elindult, állítsa vissza az alapértelmezett narancssárga (#F57C00) ikont. A legrosszabb esetben újra kellhet telepítenie az alkalmazást.</string>
     <string name="share_colors_success">A színek sikeresen frissültek. Hozzáadott egy új, „Közös” nevű témát, a jövőben ezt használja az összes alkalmazás színének frissítéséhez.</string>
     <string name="shared_theme_note">Bár a Pro alkalmazásverziót használja, műszaki okokból így is szükséges az Egyszerű köszönet alkalmazás telepítése, az gondoskodik ugyanis a színek szinkronizálásáról.</string>
-    <string name="purchase_thank_you">Kérjük, vásárolja meg az &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Egyszerű köszönet&lt;/a&gt; alkalmazást a funkció feloldásához és a fejlesztés támogatásához. Köszönöm!</string>
+    <string name="purchase_thank_you">Kérjük, vásárolja meg az &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Egyszerű köszönet&lt;/a&gt; alkalmazást a funkció feloldásához és a fejlesztés támogatásához. Köszönöm!</string>
     <!-- Themes -->
     <string name="light_theme">Világos</string>
     <string name="dark_theme">Sötét</string>
@@ -910,9 +909,9 @@
     <string name="additional_info">Kiegészítő információ</string>
     <string name="app_version">Alkalmazásverzió: %s</string>
     <string name="device_os">Eszköz operációs rendszere: %s</string>
-    <string name="donate_please">Üdv,&lt;br&gt;&lt;br&gt; remélem tetszik az alkalmazás. Nem tartalmaz hirdetéseket. Kérjük támogassa a fejlesztést az &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Egyszerű köszönet&lt;/a&gt; megvásárlásával. Utána ez a párbeszédablak sem jelenik meg újra.&lt;br&gt;&lt;br&gt; Köszönöm!</string>
-    <string name="donate_new">Üdv,&lt;br&gt;&lt;br&gt; remélem tetszik az alkalmazás. Nem tartalmaz hirdetéseket, és adatokat sem gyűjtünk. Kérjük támogassa a fejlesztést az &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Egyszerű köszönet&lt;/a&gt; megvásárlásával. Utána feloldja az összes alkalmazásfunkciót, mint a színek testreszabása.&lt;br&gt;&lt;br&gt; Köszönöm!</string>
-    <string name="donate_short">Támogasson minket az &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Egyszerű köszönet&lt;/a&gt; megvásárlásával. Ez feloldja az összes alkalmazásfunkciót, köztük a színek testreszabását is.</string>
+    <string name="donate_please">Üdv,&lt;br&gt;&lt;br&gt; remélem tetszik az alkalmazás. Nem tartalmaz hirdetéseket. Kérjük támogassa a fejlesztést az &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Egyszerű köszönet&lt;/a&gt; megvásárlásával. Utána ez a párbeszédablak sem jelenik meg újra.&lt;br&gt;&lt;br&gt; Köszönöm!</string>
+    <string name="donate_new">Üdv,&lt;br&gt;&lt;br&gt; remélem tetszik az alkalmazás. Nem tartalmaz hirdetéseket, és adatokat sem gyűjtünk. Kérjük támogassa a fejlesztést az &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Egyszerű köszönet&lt;/a&gt; megvásárlásával. Utána feloldja az összes alkalmazásfunkciót, mint a színek testreszabása.&lt;br&gt;&lt;br&gt; Köszönöm!</string>
+    <string name="donate_short">Támogasson minket az &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Egyszerű köszönet&lt;/a&gt; megvásárlásával. Ez feloldja az összes alkalmazásfunkciót, köztük a színek testreszabását is.</string>
     <string name="purchase">Vásárlás</string>
     <string name="get_simple_phone">Egyszerű telefon beszerzése</string>
     <string name="update_thank_you">Frissítse az Egyszerű köszönet alkalmazást a legújabb verzióra</string>
@@ -935,7 +934,7 @@
     <string name="thank_you">Köszönjük</string>
     <string name="widget_locked_pro">A modul zárolt.
 \nFrissítsen a Pro verzióra a feloldásához.</string>
-    <string name="features_locked">Ez a funkció zárolt, vásárolja meg az &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Egyszerű köszönet&lt;/a&gt; alkalmazást a teljes alkalmazás feloldásához.&lt;br&gt;&lt;br&gt;Ez egy egyszeri fizetés, és ha nem lesz elégedett, akkor visszatérítjük az árát.</string>
+    <string name="features_locked">Ez a funkció zárolt, vásárolja meg az &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Egyszerű köszönet&lt;/a&gt; alkalmazást a teljes alkalmazás feloldásához.&lt;br&gt;&lt;br&gt;Ez egy egyszeri fizetés, és ha nem lesz elégedett, akkor visszatérítjük az árát.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">Üdv!&lt;br&gt;&lt;br&gt;Csak tájékoztatni szeretnénk, hogy megjelent néhány új alkalmazás:&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; A címeikre vagy ikonjaikra kattintva töltheti le őket.&lt;br&gt;&lt;br&gt; Köszönjük!</string>
     <string name="simple_app_launcher">Egyszerű alkalmazásindító</string>
@@ -989,7 +988,6 @@
     <string name="faq_5_title_commons">Helyre tudom állítani a törölt fájlokat\?</string>
     <string name="faq_5_text_commons">Ha valóban törölve lettek, akkor nem. Viszont alapértelmezetten be van kapcsolva a Lomtár, így a törölt fájlok egyszerűen a Lomtárba kerülnek ahelyett, hogy ténylegesen törlődnének.</string>
     <string name="faq_6_title_commons">Az alkalmazásindító ikon eltűnt. Mit tehetek?</string>
-    <string name="faq_6_text_commons">Ez azért van, mert az indító nem megfelelően kezeli az alkalmazásikon testreszabását. Próbálja meg elindítani az alkalmazást a Google Playen vagy egy modulon keresztül, ha elérhető. Miután elindult, állítsa vissza az alapértelmezett narancssárga (#F57C00) ikont. A legrosszabb esetben újra kellhet telepítenie az alkalmazást.</string>
     <string name="faq_7_title_commons">A pénzt levonták a bankszámlámról, de mégsem tudom letölteni az alkalmazást. Mit tehetek\?</string>
     <string name="faq_7_text_commons">A fizetéseket teljesen a Google kezeli, és néha problémák vannak a rendszerükkel. Csak törölje a Google Play alkalmazása gyorsítótárát és indítsa újra az eszközé, majd próbálja újra letölteni.</string>
     <string name="faq_8_title_commons">Miért érdemes frissítenem a Pro verzióra\?</string>

@@ -355,13 +355,11 @@
     <string name="cannot_be_undone">Toimintoa ei ole mahdollista kumota.</string>
     <string name="save_before_closing">Sinulla on tallentamattomia muutoksia. Tallennetaanko ennen sulkemista?</string>
     <string name="apply_to_all_apps">Käytä värejä kaikissa Simple App -sovelluksissa</string>
-    <string name="app_icon_color_warning">VAROITUS: Jotkin käynnistinohjelmat eivät käsittele kuvakkeen mukauttamista oikein. Jos kuvake häviää, käynnistä sovellus Google Playn tai jonkin pienoissovelluksen kautta, jos mahdollista.
-        Käynnistyksen jälkeen palauta kuvakkeen oranssi oletusväri #F57C00. Pahimmillaan saatat joutua asentamaan sovelluksen uudelleen.</string>
     <string name="share_colors_success">Värit päivitetty. Uusi teema nimeltä \'Jaettu\' käytä sitä jatkossa muokataksesi värejä kaikissa sovelluksissa.</string>
     <string name="shared_theme_note">Huomioi, että vaikka käytössäsi on sovelluksen Pro-versio, Simple Thank You tarvitaan teknisistä syistä mm. värien synkronointiin.</string>
     <string name="purchase_thank_you">
         <![CDATA[
-            Osta <a href="https://play.google.com/store/apps/details?id=org.fossify..thankyou">Simple Thank You</a> avataksesi ominaisuuden ja tukeaksesi kehitystä. Kiitos!
+            Osta <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Simple Thank You</a> avataksesi ominaisuuden ja tukeaksesi kehitystä. Kiitos!
         ]]>
     </string>
     <!-- Themes -->
@@ -913,12 +911,12 @@
     <string name="donate_please">
         <![CDATA[
             Hei,<br><br>
-            toivottavasti pidät sovelluksesta. Se ei sisällä mainoksia, tue sen kehitystä ostamalla <a href="https://play.google.com/store/apps/details?id=org.fossify..thankyou">Simple Thank You</a> sovellus, tämä myös estää tämän ilmoituksen jatkossa.<br><br>
+            toivottavasti pidät sovelluksesta. Se ei sisällä mainoksia, tue sen kehitystä ostamalla <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Simple Thank You</a> sovellus, tämä myös estää tämän ilmoituksen jatkossa.<br><br>
             Kiitos!
         ]]>
     </string>
-    <string name="donate_new">Hei,&lt;br&gt;&lt;br&gt;toivottavasti pidät sovelluksesta. Se ei sisällä mainoksia, emmekä edes kerää tietojasi. Tue kehitystä ostamalla &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Yksinkertainen kiitos&lt;/a&gt;. Saat lisäksi käyttöösi kaikki sovelluksen ominaisuudet, kuten värien mukautuksen.&lt;br&gt;&lt;br&gt;Kiitos!</string>
-    <string name="donate_short">Tue meitä ostamalla &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Yksinkertainen kiitos&lt;/a&gt;, jolla saat myös käyttöösi sovelluksen kaikki ominaisuudet, kuten värien mukautuksen.</string>
+    <string name="donate_new">Hei,&lt;br&gt;&lt;br&gt;toivottavasti pidät sovelluksesta. Se ei sisällä mainoksia, emmekä edes kerää tietojasi. Tue kehitystä ostamalla &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Yksinkertainen kiitos&lt;/a&gt;. Saat lisäksi käyttöösi kaikki sovelluksen ominaisuudet, kuten värien mukautuksen.&lt;br&gt;&lt;br&gt;Kiitos!</string>
+    <string name="donate_short">Tue meitä ostamalla &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Yksinkertainen kiitos&lt;/a&gt;, jolla saat myös käyttöösi sovelluksen kaikki ominaisuudet, kuten värien mukautuksen.</string>
     <string name="purchase">Osta</string>
     <string name="get_simple_phone">Hanki yksinkertainen puhelin</string>
     <string name="update_thank_you">Päivitä Yksinkertainen kiitos viimeisimpään versioon</string>
@@ -941,7 +939,7 @@
     <string name="thank_you">Kiitos</string>
     <string name="widget_locked_pro">Pienoissovellus on lukittu.
 \nOle hyvä ja päivitä Pro-versioon ottaaksesi sen käyttöön.</string>
-    <string name="features_locked">Tämä ominaisuus on lukittu. Osta &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Simple Kiitos&lt;/a&gt; koko sovelluksen lukituksen avaamisesta.&lt;br &lt;br&gt;Se on vain kertamaksu, ja jos et ole tyytyväinen, voimme hyvittää sinulle.</string>
+    <string name="features_locked">Tämä ominaisuus on lukittu. Osta &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Simple Kiitos&lt;/a&gt; koko sovelluksen lukituksen avaamisesta.&lt;br &lt;br&gt;Se on vain kertamaksu, ja jos et ole tyytyväinen, voimme hyvittää sinulle.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">Hei,&lt;br&gt;&lt;br&gt; halusin vain kertoa että uusi sovellus on julkaistu:&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; Voit ladata sen koskettamalla otsikkoa.&lt;br&gt;&lt;br&gt; Kiitos</string>
     <string name="simple_app_launcher">Yksinkertainen App Launcher</string>
@@ -999,8 +997,6 @@
     <string name="faq_5_title_commons">Voinko jotenkin palauttaa poistetut tiedostot?</string>
     <string name="faq_5_text_commons">Jos ne todella on poistettu, et voi palauttaa niitä. Oletuksena poistetut tiedostot siirretään roskakoriin, joten varmista, onko tiedostot roskakorissa.</string>
     <string name="faq_6_title_commons">Sovelluksen kuvake hävisi. Mitä voin tehdä?</string>
-    <string name="faq_6_text_commons">Tämä johtuu siitä, että käynnistimesi ei tue kuvakkeiden mukauttamista oikein. Yritä käynnistää sovellus Google Playn tai jonkun pienoissovelluksen kautta, jos mahdollista.
-        Käynnistyksen jälkeen palauta kuvakkeen oranssi oletusväri #F57C00. Pahimmillaan saatat joutua asentamaan sovelluksen uudelleen.</string>
     <string name="faq_7_title_commons">Tiliäni on veloitettu, mutta en voi ladata sovellusta. Mitä voin tehdä\?</string>
     <string name="faq_7_text_commons">Google hoitaa maksut täysin, ajoittain heidän järjestelmässä on häiriöitä. Tyhjennä Google Play-sovelluksen välimuisti, käynnistä laitteesi uudelleen ja yritä latausta uudelleen.</string>
     <string name="faq_8_title_commons">Miksi päivittäisin Pro-versioon?</string>

@@ -370,11 +370,9 @@
     <string name="cannot_be_undone">Это действие не может быть отменено.</string>
     <string name="save_before_closing">У вас есть несохранённые изменения. Сохранить перед выходом?</string>
     <string name="apply_to_all_apps">Применить цвета ко всем приложениям Simple</string>
-    <string name="app_icon_color_warning">ВНИМАНИЕ: некоторые рабочие столы неправильно обрабатывают изменение настроек значков приложений. Если значок исчезнет, попробуйте запустить приложение через Google Play или виджет, если он доступен.
-        После запуска просто установите оранжевый цвет значка по умолчанию #F57C00. В худшем случае вам придётся переустановить приложение.</string>
     <string name="share_colors_success">Цвета обновлены. Добавлена новая тема с названием \"Общая\", в дальнейшем используйте её для обновления цветов всех приложений.</string>
     <string name="shared_theme_note">Обратите внимание, что даже если вы используете версию Pro, вам всё равно требуется приложение \"Простое спасибо\" по техническим причинам, т.к. оно обеспечивает синхронизацию цветов.</string>
-    <string name="purchase_thank_you">Пожалуйста, купите &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Простое спасибо&lt;/a&gt;, чтобы разблокировать эту функцию и поддержать разработку. Спасибо!</string>
+    <string name="purchase_thank_you">Пожалуйста, купите &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Простое спасибо&lt;/a&gt;, чтобы разблокировать эту функцию и поддержать разработку. Спасибо!</string>
     <!-- Themes -->
     <string name="light_theme">Светлая</string>
     <string name="dark_theme">Тёмная</string>
@@ -951,9 +949,9 @@
     <string name="additional_info">Дополнительная информация</string>
     <string name="app_version">Версия приложения: %s</string>
     <string name="device_os">ОС устройства: %s</string>
-    <string name="donate_please">Привет,&lt;br&gt;&lt;br&gt; надеюсь, вам нравится приложение. Оно не содержит рекламы, поэтому, пожалуйста, поддержите разработку, купив приложение &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Простое спасибо&lt;/a&gt;. Покупка также предотвратит повторное появление данного диалогового окна.&lt;br&gt;&lt;br&gt; Спасибо!</string>
-    <string name="donate_new">Привет,&lt;br&gt;&lt;br&gt;надеюсь, вам нравится приложение. Оно не содержит рекламы и не собирает ваши персональные данные. Пожалуйста, поддержите его разработку, купив &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Простое спасибо&lt;/a&gt;. У вас также будут разблокированы все функции приложения, включая настройку цвета.&lt;br&gt;&lt;br&gt;Спасибо!</string>
-    <string name="donate_short">Поддержите нас покупкой &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Просто спасибо&lt;/a&gt;, которая также разблокирует все функции приложения, включая настройку цвета.</string>
+    <string name="donate_please">Привет,&lt;br&gt;&lt;br&gt; надеюсь, вам нравится приложение. Оно не содержит рекламы, поэтому, пожалуйста, поддержите разработку, купив приложение &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Простое спасибо&lt;/a&gt;. Покупка также предотвратит повторное появление данного диалогового окна.&lt;br&gt;&lt;br&gt; Спасибо!</string>
+    <string name="donate_new">Привет,&lt;br&gt;&lt;br&gt;надеюсь, вам нравится приложение. Оно не содержит рекламы и не собирает ваши персональные данные. Пожалуйста, поддержите его разработку, купив &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Простое спасибо&lt;/a&gt;. У вас также будут разблокированы все функции приложения, включая настройку цвета.&lt;br&gt;&lt;br&gt;Спасибо!</string>
+    <string name="donate_short">Поддержите нас покупкой &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Просто спасибо&lt;/a&gt;, которая также разблокирует все функции приложения, включая настройку цвета.</string>
     <string name="purchase">Купить</string>
     <string name="get_simple_phone">Получить \"Простой телефон\"</string>
     <string name="update_thank_you">Обновите \"Простое спасибо\" до последней версии</string>
@@ -967,7 +965,7 @@
     <string name="rate_our_app">Оцените приложение, пожалуйста :)</string>
     <string name="thank_you">Спасибо</string>
     <string name="widget_locked_pro">Виджет заблокирован.\nПерейдите на версию Pro, чтобы разблокировать его.</string>
-    <string name="features_locked">Эта функция заблокирована, пожалуйста, купите &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Простое спасибо&lt;/a&gt; для разблокировки всех возможностей приложения.&lt;br&gt;&lt;br&gt;Это разовый платёж, и если вы не будете удовлетворены, возможен возврат денег.</string>
+    <string name="features_locked">Эта функция заблокирована, пожалуйста, купите &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Простое спасибо&lt;/a&gt; для разблокировки всех возможностей приложения.&lt;br&gt;&lt;br&gt;Это разовый платёж, и если вы не будете удовлетворены, возможен возврат денег.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">
         <![CDATA[
@@ -1040,8 +1038,6 @@
     <string name="faq_5_title_commons">Могу я как-то восстановить удалённые файлы?</string>
     <string name="faq_5_text_commons">Если они были действительно были удалены, то не можете. Однако по умолчанию используется \"корзина\" и файлы перемещаются в неё вместо реального удаления.</string>
     <string name="faq_6_title_commons">Значок запуска приложения исчез. Что делать?</string>
-    <string name="faq_6_text_commons">Это вызвано тем, что ваш рабочий стол неправильно отображает значок приложения. Если значок исчезнет, попробуйте запустить приложение через Google Play или виджет, если он доступен.
-        После запуска просто установите оранжевый цвет значка по умолчанию #F57C00. В худшем случае вам придётся переустановить приложение.</string>
     <string name="faq_7_title_commons">Деньги были списаны с моего банковского счета, но я не могу загрузить приложение. Что можно сделать?</string>
     <string name="faq_7_text_commons">Платежи полностью обрабатываются Google, их система время от времени даёт сбои. Просто очистите кеш приложения Google Play и перезагрузите устройство, затем повторите попытку загрузки.</string>
     <string name="faq_8_title_commons">Почему следует перейти на версию Pro?</string>

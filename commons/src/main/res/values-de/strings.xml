@@ -361,13 +361,11 @@
     <string name="cannot_be_undone">Diese Aktion kann nicht rückgängig gemacht werden.</string>
     <string name="save_before_closing">Du hast ungespeicherte Änderungen. Speichern vor dem Beenden?</string>
     <string name="apply_to_all_apps">Farben bei allen schlichten Apps anwenden</string>
-    <string name="app_icon_color_warning">WARNUNG: Einige Launcher behandeln die Anpassung von App-Icons nicht richtig. Sollte das Icon verschwinden, versuche die App mit Google Play oder einem Widget (wenn verfügbar) zu starten.
-        Wenn die App gestartet ist, setze das Icon zurück auf das standardmäßige Orange #F57C00. Im schlimmsten Fall kann es passieren, dass du die App erneut installieren musst.</string>
     <string name="share_colors_success">Farben erfolgreich aktualisiert. Ein neues Thema \"Shared\" wurde hinzugefügt, bitte verwende dieses, um für alle Apps die Farben zu ändern.</string>
     <string name="shared_theme_note">Bitte beachten, dass trotz Verwendung der Pro-Version der App aus technischen Gründen immer noch Simple Thank You benötigt wird, damit die Farbsynchronisation funktioniert.</string>
     <string name="purchase_thank_you">
         <![CDATA[
-            Bitte kaufe <a href="https://play.google.com/store/apps/details?id=org.fossify..thankyou">Simple Thank You</a> um diese Funktion freizuschalten und die Entwicklung zu unterstützen. Danke!
+            Bitte kaufe <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Simple Thank You</a> um diese Funktion freizuschalten und die Entwicklung zu unterstützen. Danke!
         ]]>
     </string>
     <!-- Themes -->
@@ -916,9 +914,9 @@
     <string name="additional_info">Zusätzliche Infos</string>
     <string name="app_version">App-Version: %s</string>
     <string name="device_os">Betriebssystem: %s</string>
-    <string name="donate_please">Hallo!,&lt;br&gt;&lt;br&gt; Ich hoffe, diese Anwendung gefällt dir. Sie beinhaltet keine Werbung, daher unterstütze bitte die Entwicklung durch den Kauf der &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Simple Thank You&lt;/a&gt; App. Dadurch wird auch dieser Dialog künftig nicht mehr angezeigt.&lt;br&gt;&lt;br&gt; Vielen Dank!</string>
-    <string name="donate_new">Hallo,&lt;br&gt;&lt;br&gt;wir hoffen, dass dir die App gefällt. Sie enthält keine Werbung und wir sammeln auch nicht deine Daten. Bitte unterstütze die Entwicklung der App, indem du &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Einfaches Dankeschön&lt;/a&gt; kaufst. Du bekommst dann auch alle Funktionen der App, einschließlich der Farbanpassung, freigeschaltet.&lt;br&gt;&lt;br&gt;Dankeschön!</string>
-    <string name="donate_short">Unterstütze uns, indem du &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Einfaches Dankeschön&lt;/a&gt; kaufst. Damit werden auch alle Funktionen der App, einschließlich der Farbanpassung, freigeschaltet.</string>
+    <string name="donate_please">Hallo!,&lt;br&gt;&lt;br&gt; Ich hoffe, diese Anwendung gefällt dir. Sie beinhaltet keine Werbung, daher unterstütze bitte die Entwicklung durch den Kauf der &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt; App. Dadurch wird auch dieser Dialog künftig nicht mehr angezeigt.&lt;br&gt;&lt;br&gt; Vielen Dank!</string>
+    <string name="donate_new">Hallo,&lt;br&gt;&lt;br&gt;wir hoffen, dass dir die App gefällt. Sie enthält keine Werbung und wir sammeln auch nicht deine Daten. Bitte unterstütze die Entwicklung der App, indem du &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Einfaches Dankeschön&lt;/a&gt; kaufst. Du bekommst dann auch alle Funktionen der App, einschließlich der Farbanpassung, freigeschaltet.&lt;br&gt;&lt;br&gt;Dankeschön!</string>
+    <string name="donate_short">Unterstütze uns, indem du &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Einfaches Dankeschön&lt;/a&gt; kaufst. Damit werden auch alle Funktionen der App, einschließlich der Farbanpassung, freigeschaltet.</string>
     <string name="purchase">Kaufen</string>
     <string name="get_simple_phone">Simple Phone bestellen</string>
     <string name="update_thank_you">Bitte Simple Thank You auf die neueste Version aktualisieren</string>
@@ -941,7 +939,7 @@
     <string name="thank_you">Danke</string>
     <string name="widget_locked_pro">Das Widget ist gesperrt.
 \nBitte zur Pro-Version wechseln, um es freizuschalten.</string>
-    <string name="features_locked">Diese Funktion ist gesperrt; bitte kaufe &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Schlichtes Dankeschön&lt;/a&gt;, um die volle Anwendung freizuschalten.&lt;br&gt;&lt;br&gt;Es ist eine einmalige Zahlung und wenn du nicht zufrieden bist, können wir das Geld zurückerstatten.</string>
+    <string name="features_locked">Diese Funktion ist gesperrt; bitte kaufe &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Schlichtes Dankeschön&lt;/a&gt;, um die volle Anwendung freizuschalten.&lt;br&gt;&lt;br&gt;Es ist eine einmalige Zahlung und wenn du nicht zufrieden bist, können wir das Geld zurückerstatten.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">Hey,&lt;br&gt;&lt;br&gt; nur eine kleine Info zu einigen neu veröffentlichten Apps:&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; Du kannst sie durch Drücken auf den Namen herunterladen.&lt;br&gt;&lt;br&gt; Danke</string>
     <string name="simple_app_launcher">Einfacher App-Launcher</string>
@@ -996,7 +994,6 @@
     <string name="faq_5_text_commons">Wurden die Dateien endgültig gelöscht, sind sie verloren. Standardmäßig ist jedoch der Papierkorb aktiviert. Dateien werden dann in den Papierkorb verschoben anstatt gelöscht.
         Von dort können die Dateien wiederhergestellt werden.</string>
     <string name="faq_6_title_commons">Das App-Icon im Launcher ist verschwunden. Was kann ich tun?</string>
-    <string name="faq_6_text_commons">Das passiert, wenn dein Launcher das Anpassen von Anwendungssymbolen nicht richtig unterstützt. Versuche, die App über Google Play oder ein Widget (wenn verfügbar) zu starten. Wenn die App gestartet ist, setze das Icon zurück auf das standardmäßige Orange #F57C00. Im schlimmsten Fall kann es passieren, dass Du die App erneut installieren musst.</string>
     <string name="faq_7_title_commons">Der Betrag wurde von meinem Konto abgebucht, aber ich kann die App nicht herunterladen. Was kann ich machen?</string>
     <string name="faq_7_text_commons">Die Zahlungen werden durch Google gehandhabt. Dabei kommt es gelegentlich zu Verzögerungen. Leere den Cache der Google Play App, starte dein Gerät neu und versuche erneut, die App herunterzuladen.</string>
     <string name="faq_8_title_commons">Warum sollte ich auf die Pro-Version aufrüsten\?</string>

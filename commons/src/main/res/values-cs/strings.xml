@@ -368,10 +368,9 @@
     <string name="cannot_be_undone">Tuto akci nelze vrátit zpět.</string>
     <string name="save_before_closing">Máte neuložené změny. Chcete je před ukončením uložit\?</string>
     <string name="apply_to_all_apps">Použít barvy ve všech Jednoduchých aplikacích</string>
-    <string name="app_icon_color_warning">UPOZORNĚNÍ: Některé spouštěče nepodporují změnu ikony. V případě, že ikona aplikace zmizí, zkuste ji spustit skrze obchod Google Play, nebo některý widget, pokud je dostupný. Po spuštění aplikace zkuste nastavit původní oranžovou barvu ikony #F57C00. V nejhorším případě budete muset aplikaci přeinstalovat.</string>
     <string name="share_colors_success">Barvy úspěšně aktualizovány. Byl přidán nový motiv „Sdílený“, v budoucnu jej prosím použijte pro úpravu barev u všech Jednoduchých aplikací zároveň.</string>
     <string name="shared_theme_note">Všimněte si, že i když používáte „Pro“ verzi aplikace, z technických důvodů stále potřebujete Jednoduché děkuji. Postará se o synchronizaci barev.</string>
-    <string name="purchase_thank_you">Prosím, zakupte si &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Jednoduché děkuji&lt;/a&gt; pro odemknutí této funkce a pro podporu vývoje. Děkuji!</string>
+    <string name="purchase_thank_you">Prosím, zakupte si &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Jednoduché děkuji&lt;/a&gt; pro odemknutí této funkce a pro podporu vývoje. Děkuji!</string>
     <!-- Themes -->
     <string name="light_theme">Světlý</string>
     <string name="dark_theme">Tmavý</string>
@@ -947,9 +946,9 @@
     <string name="additional_info">Dodatečné informace</string>
     <string name="app_version">Verze aplikace: %s</string>
     <string name="device_os">Operační systém zařízení: %s</string>
-    <string name="donate_please">Dobrý den,&lt;br&gt;&lt;br&gt; doufáme, že se vám aplikace líbí. Neobsahuje žádné reklamy, podpořte prosím její vývoj zakoupením aplikace &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Simple Thank You&lt;/a&gt;, čímž také zabráníte opětovnému zobrazení tohoto dialogu.&lt;br&gt;&lt;br&gt; Děkujeme Vám!</string>
-    <string name="donate_new">Dobrý den,&lt;br&gt;&lt;br&gt;doufáme, že se vám aplikace líbí. Neobsahuje žádné reklamy a neshromažďuje vaše data, podpořte prosím její vývoj zakoupením aplikace &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Simple Thank You&lt;/a&gt;. Budete mít také odemčené všechny funkce aplikace včetně přizpůsobení barev.&lt;br&gt;&lt;br&gt;Děkujeme Vám!</string>
-    <string name="donate_short">Podpořte nás prosím zakoupením aplikace &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Simple Thank You&lt;/a&gt;, odemkne to také všechny funkce aplikace včetně přizpůsobení barev.</string>
+    <string name="donate_please">Dobrý den,&lt;br&gt;&lt;br&gt; doufáme, že se vám aplikace líbí. Neobsahuje žádné reklamy, podpořte prosím její vývoj zakoupením aplikace &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt;, čímž také zabráníte opětovnému zobrazení tohoto dialogu.&lt;br&gt;&lt;br&gt; Děkujeme Vám!</string>
+    <string name="donate_new">Dobrý den,&lt;br&gt;&lt;br&gt;doufáme, že se vám aplikace líbí. Neobsahuje žádné reklamy a neshromažďuje vaše data, podpořte prosím její vývoj zakoupením aplikace &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt;. Budete mít také odemčené všechny funkce aplikace včetně přizpůsobení barev.&lt;br&gt;&lt;br&gt;Děkujeme Vám!</string>
+    <string name="donate_short">Podpořte nás prosím zakoupením aplikace &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt;, odemkne to také všechny funkce aplikace včetně přizpůsobení barev.</string>
     <string name="purchase">Koupit</string>
     <string name="get_simple_phone">Získat Jednoduchý telefon</string>
     <string name="update_thank_you">Aktualizujte prosím Jednoduché děkuji na nejnovější verzi</string>
@@ -964,7 +963,7 @@
     <string name="thank_you">Děkujeme</string>
     <string name="widget_locked_pro">Widget je uzamčen.
 \nChcete-li jej odemknout, upgradujte na verzi Pro.</string>
-    <string name="features_locked">Tato funkce je uzamčena, pro odemknutí celé aplikace si prosím zakupte &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Simple Thank You&lt;/a&gt;.&lt;br &lt;br&gt;Jedná se pouze o jednorázovou platbu a pokud nebudete spokojeni, můžeme vám vrátit peníze.</string>
+    <string name="features_locked">Tato funkce je uzamčena, pro odemknutí celé aplikace si prosím zakupte &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt;.&lt;br &lt;br&gt;Jedná se pouze o jednorázovou platbu a pokud nebudete spokojeni, můžeme vám vrátit peníze.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">
         <![CDATA[
@@ -1033,8 +1032,6 @@
     <string name="faq_5_title_commons">Mohu nějakým způsobem obnovit smazané soubory?</string>
     <string name="faq_5_text_commons">Pokud byly skutečně smazány, nemůžete. Ve výchozím nastavení je však povolen koš, což způsobí pouze přesunutí souborů do koše namísto jejich vymazání.</string>
     <string name="faq_6_title_commons">Ikona aplikace zmizela z domovské obrazovky. Co s tím?</string>
-    <string name="faq_6_text_commons">Bude to způsobeno tím, že váš spouštěč nepodporuje úpravu ikon korektně. Zkuste aplikaci spustit skrze Obchod Play nebo nějaký widget, pokud je dostupný.
-        Po spuštění aplikace zkuste nastavit původní oranžovou barvu ikony #F57C00. V nejhorším případě budete muset aplikaci přeinstalovat.</string>
     <string name="faq_7_title_commons">Peníze mi byly z bankovního účtu odepsány, aplikaci však nemohu stáhnout. Co s tím?</string>
     <string name="faq_7_text_commons">Platby jsou plně spravovány Googlem, jejich systém však občas nefunguje tak jak by měl. Zkuste vymazat mezipaměť aplikace Obchod Play, restartujte zařízení a zkuste aplikaci stáhnout znovu.</string>
     <string name="faq_8_title_commons">Proč bych měl přejít na verzi Pro\?</string>

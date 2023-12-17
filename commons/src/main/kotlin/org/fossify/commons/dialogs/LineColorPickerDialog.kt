@@ -40,8 +40,8 @@ class LineColorPickerDialog(
     val appIconIDs: ArrayList<Int>? = null, val toolbar: MaterialToolbar? = null, val callback: (wasPositivePressed: Boolean, color: Int) -> Unit
 ) {
     private val PRIMARY_COLORS_COUNT = 19
-    private val DEFAULT_PRIMARY_COLOR_INDEX = 14
-    private val DEFAULT_SECONDARY_COLOR_INDEX = 6
+    private val DEFAULT_PRIMARY_COLOR_INDEX = 9
+    private val DEFAULT_SECONDARY_COLOR_INDEX = 8
     private val DEFAULT_COLOR_VALUE = activity.resources.getColor(R.color.color_primary)
 
     private var wasDimmedBackgroundRemoved = false
@@ -276,8 +276,8 @@ fun LineColorPickerAlertDialog(
 }
 
 private const val PRIMARY_COLORS_COUNT = 19
-private const val DEFAULT_PRIMARY_COLOR_INDEX = 14
-private const val DEFAULT_SECONDARY_COLOR_INDEX = 6
+private const val DEFAULT_PRIMARY_COLOR_INDEX = 9
+private const val DEFAULT_SECONDARY_COLOR_INDEX = 8
 
 private fun Context.getColorIndexes(color: Int, defaultColor: Int): Pair<Int, Int> {
     if (color == defaultColor) {

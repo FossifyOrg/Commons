@@ -371,10 +371,9 @@
     <string name="cannot_be_undone">To dejanje ni mogoče razveljaviti.</string>
     <string name="save_before_closing">Imate neshranjene spremembe. Jih želite shraniti pred izhodom?</string>
     <string name="apply_to_all_apps">Uveljavite barve za vse aplikacije iz serije Simple Apps</string>
-    <string name="app_icon_color_warning">OPOZORILO: Nekateri zaganjalniki ne znajo upravljati z ikono aplikacije, nastavljene po meri. Če ikona izgine, poskusite zagnati aplikacijo skozi Google Play ali kakšen drug pripomoček. Ko je aplikacija spet zagnana, nastavite nazaj privzeto oranžno ikono #F57C00. V najslabšem primeru bo potrebno aplikacijo ponovno namestiti.</string>
     <string name="share_colors_success">Barve so bile uspešno posodobljene. Nova tema \'Deljeno\' je bila dodana. V prihodnje za spreminjanje barv uporabljajte to.</string>
     <string name="shared_theme_note">Upoštevajte, da kljub uporabi Pro verzije, iz tehničnih razlogov še vedno potrebujete aplikacijo Preprosto hvala. Ta skrbi za sinhronizacijo barv.</string>
-    <string name="purchase_thank_you">Prosimo, kupite aplikacijo &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Simple Thank You&lt;/a&gt;, da odklenete to funkcijo in podprete razvoj. Hvala!</string>
+    <string name="purchase_thank_you">Prosimo, kupite aplikacijo &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt;, da odklenete to funkcijo in podprete razvoj. Hvala!</string>
     <!-- Themes -->
     <string name="light_theme">Svetlo</string>
     <string name="dark_theme">Temno</string>
@@ -985,12 +984,12 @@
     <string name="donate_please">
         <![CDATA[
             Podzravljeni,<br><br>
-            upamo, da vam je aplikacija všeč. Ne vsebuje oglasov, zato vas prosimo, da podprete razvoj z nakupom aplikacije <a href="https://play.google.com/store/apps/details?id=org.fossify..thankyou">Simple Thank You</a>. S tem bo tudi to sporočilo izginilo.<br><br>
+            upamo, da vam je aplikacija všeč. Ne vsebuje oglasov, zato vas prosimo, da podprete razvoj z nakupom aplikacije <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Simple Thank You</a>. S tem bo tudi to sporočilo izginilo.<br><br>
             Hvala!
         ]]>
     </string>
-    <string name="donate_new">Pozdravljeni, &lt;br&gt;&lt;br&gt;upam, da uživate v aplikaciji. Ne vsebuje nobenih oglasov in tudi ne zbiramo vaših podatkov, zato vas prosim, da podprete razvoj aplikacije z nakupom &lt;i&gt;&lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Preprosto hvala&lt;/a&gt;&lt;/i&gt;. Prav tako boste imeli odklenjene vse funkcije aplikacije, vključno s prilagajanjem barv. &lt;br&gt;&lt;br&gt;Hvala!</string>
-    <string name="donate_short">Prosimo, podprite nas z nakupom &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Enostavno hvala&lt;/a&gt;. Odklenile se bodo tudi vse funkcije aplikacije, vključno s prilagajanjem barv.</string>
+    <string name="donate_new">Pozdravljeni, &lt;br&gt;&lt;br&gt;upam, da uživate v aplikaciji. Ne vsebuje nobenih oglasov in tudi ne zbiramo vaših podatkov, zato vas prosim, da podprete razvoj aplikacije z nakupom &lt;i&gt;&lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Preprosto hvala&lt;/a&gt;&lt;/i&gt;. Prav tako boste imeli odklenjene vse funkcije aplikacije, vključno s prilagajanjem barv. &lt;br&gt;&lt;br&gt;Hvala!</string>
+    <string name="donate_short">Prosimo, podprite nas z nakupom &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Enostavno hvala&lt;/a&gt;. Odklenile se bodo tudi vse funkcije aplikacije, vključno s prilagajanjem barv.</string>
     <string name="purchase">Kupi</string>
     <string name="get_simple_phone">Prenesi Enostaven telefon</string>
     <string name="update_thank_you">Prosimo nadgradite Simple Thank You na zadnjo verzijo</string>
@@ -1005,7 +1004,7 @@
     <string name="thank_you">Hvala</string>
     <string name="widget_locked_pro">Pripomoček je zaklenjen.
 \nZa odklepanje nadgradite na različico Pro.</string>
-    <string name="features_locked">Ta funkcija je zaklenjena, za odklepanje celotne aplikacije prosimo kupite &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Enostavno hvala&lt;/a&gt;.&lt;br &lt;br&gt;Gre za enkratno plačilo in če ne boste zadovoljni, vam lahko vrnemo denar.</string>
+    <string name="features_locked">Ta funkcija je zaklenjena, za odklepanje celotne aplikacije prosimo kupite &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Enostavno hvala&lt;/a&gt;.&lt;br &lt;br&gt;Gre za enkratno plačilo in če ne boste zadovoljni, vam lahko vrnemo denar.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">
         <![CDATA[
@@ -1073,8 +1072,6 @@
     <string name="faq_5_title_commons">Lahko kako obnovim izbrisane datoteke?</string>
     <string name="faq_5_text_commons">Če so bile zares izbrisane, jih ne morete. Kakorkoli privzeto je omogočen Koš in povzroči, da se datoteke le premaknejo v Koš namesto dokončnega izbrisa.</string>
     <string name="faq_6_title_commons">Ikona v zaganjalniku je izginila. Kaj lahko naredim?</string>
-    <string name="faq_6_text_commons">Nekateri zaganjalniki ne prepoznajo posebej nastavljenih ikon. Poskusite zagnati aplikacijo preko Google Play ali kakega pripomočka, če je to mogoče.
-        Ko se bo aplikacija zagnala, nastavite nazaj originalno privzeto oranžno ikono #F57C00. V najslabšem primeru bo potrebno aplikacijo ponovno naložiti.</string>
     <string name="faq_7_title_commons">Denar je bil odtegnjen z mojega bančnega računa, vendar aplikacije ne morem prenesti. Kaj lahko storim\?</string>
     <string name="faq_7_text_commons">Plačila v celoti obdeluje Google, njihov sistem pa se občasno zaplete. Počistite predpomnilnik aplikacije Google Play in znova zaženite napravo, nato pa poskusite znova prenesti aplikacijo.</string>
     <string name="faq_8_title_commons">Zakaj naj nadgradim na različico Pro\?</string>

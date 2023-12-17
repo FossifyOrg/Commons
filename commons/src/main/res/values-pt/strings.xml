@@ -360,12 +360,11 @@
     <string name="cannot_be_undone">Esta ação não pode ser revertida.</string>
     <string name="save_before_closing">Existem alterações não guardadas. Pretende guardar antes de sair\?</string>
     <string name="apply_to_all_apps">Aplicar cores a todas as aplicações Simple</string>
-    <string name="app_icon_color_warning">AVISO: alguns launchers não gerem correctamente a personalização dos ícones. Se o ícone desaparecer, tente iniciar a aplicação através da Google Play ou do widget. Depois de iniciar a aplicação, reverta para a cor original (#F57C00). Em último caso, poderá ser necessário reinstalar a aplicação.</string>
     <string name="share_colors_success">Cores atualizadas com sucesso. Foi criado o novo tema \'Partilhado\', que pode utilizar para atualizar as cores de todas as aplicações Simple.</string>
     <string name="shared_theme_note">Tenha em atenção que, mesmo que esteja a utilizar a versão Pro, tem que instalar a aplicação Simple Thank You por motivos técnicos. Esta aplicação controla a sincronização de cores.</string>
     <string name="purchase_thank_you">
         <![CDATA[
-            Por favor compre a aplicação <a href="https://play.google.com/store/apps/details?id=org.fossify..thankyou">Simple Thank You</a> para desbloquear esta funcionalidade e ajudar no desenvolvimento. Obrigado!
+            Por favor compre a aplicação <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Simple Thank You</a> para desbloquear esta funcionalidade e ajudar no desenvolvimento. Obrigado!
         ]]>
     </string>
     <!-- Themes -->
@@ -938,9 +937,9 @@
     <string name="additional_info">Mais informações</string>
     <string name="app_version">Versão da aplicação: %s</string>
     <string name="device_os">SO do dispositivo: %s</string>
-    <string name="donate_please">Olá,&lt;br&gt;&lt;br&gt; esperamos que esteja a gostar desta aplicação. Se estiver interessado em ajudar ao seu desenvolvimento e dado que não contem anúncios, pode comprar a aplicação &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Simple Thank You&lt;/a&gt; o que também fará com que esta solicitação deixe de apareçer novamente.&lt;br&gt;&lt;br&gt; Obrigado!</string>
-    <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify..thankyou&gt;Simple Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
-    <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify..thankyou&gt;Simple Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
+    <string name="donate_please">Olá,&lt;br&gt;&lt;br&gt; esperamos que esteja a gostar desta aplicação. Se estiver interessado em ajudar ao seu desenvolvimento e dado que não contem anúncios, pode comprar a aplicação &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt; o que também fará com que esta solicitação deixe de apareçer novamente.&lt;br&gt;&lt;br&gt; Obrigado!</string>
+    <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
+    <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
     <string name="purchase">Comprar</string>
     <string name="get_simple_phone">Obter Simple Phone</string>
     <string name="update_thank_you">Deve atualizar a aplicação Simple Thank You para a versão mais recente</string>
@@ -955,7 +954,7 @@
     <string name="thank_you">Obrigado</string>
     <string name="widget_locked_pro">O widget está bloqueando. 
 \nAdquira a versão Pro para desbloquear.</string>
-    <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details?id=org.fossify..thankyou&gt;Simple Thank You&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>
+    <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">Olá.&lt;br&gt;&lt;br&gt; Temos novidades! Uma nova aplicação ficou disponível recentemente:&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; Pode descarregar a nova aplicação carregando no seu título ou ícone.&lt;br&gt;&lt;br&gt; Obrigado</string>
     <string name="simple_app_launcher">Simple App Launcher</string>
@@ -1013,7 +1012,6 @@
     <string name="faq_5_title_commons">Existe alguma forma de restaurar os ficheiros apagados\?</string>
     <string name="faq_5_text_commons">Se tiverem sido de facto apagados, não. Por definição, os ficheiros são movidos para a reciclagem e não apagados. Se, no entanto, a reciclagem tiver sido desativada, os ficheiros serão apagados permanentemente.</string>
     <string name="faq_6_title_commons">O ícone da aplicação desapareceu. O que posso fazer\?</string>
-    <string name="faq_6_text_commons">Isso deve ter ocorrido porque o seu \"launcher\" não suporta a personalização de ícones corretamente. Se possível, tente abrir a aplicação através da Google Play ou de um widget. Uma vez aberta, defina a cor do ícone para o valor padrão (#F57C00). Em último caso, pode ser necessário reinstalar a aplicação.</string>
     <string name="faq_7_title_commons">O dinheiro foi retirado da minha conta bancária, mas não consigo descarregar a aplicação. O que posso fazer\?</string>
     <string name="faq_7_text_commons">Os pagamentos são totalmente geridos pela Google, o sistema deles falha de vez em quanto. Limpe a cache da aplicação Google Play, reinicie o dispositivo e tente descarregá-la novamente.</string>
     <string name="faq_8_title_commons">Porque devo atualizar para a versão Pro\?</string>

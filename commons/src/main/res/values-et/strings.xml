@@ -360,10 +360,9 @@
     <string name="cannot_be_undone">Seda tegevust ei saa tagasi pöörata.</string>
     <string name="save_before_closing">Sul on salvestamata muudatusi. Kas salvestame enne väljumist\?</string>
     <string name="apply_to_all_apps">Kasuta samu värvi kõikides Lihtsate tarvikute rakendsustes</string>
-    <string name="app_icon_color_warning">HOIATUS: Mõned käivitajad ei käsitse rakenduste ikoonide kohandamist korralikult. Kui ikoon kaob, proovi käivitada rakendus Google Play\'st või mõne muu olemasoleva vidina abil. Kui oled käivitanud rakenduse, seadista lihtsalt ikooni vaikimisi oranž toon #F57C00 tagasi. Halvemal juhul pead rakenduse võib-olla uuesti paigaldama.</string>
     <string name="share_colors_success">Värvide uuendamine õnnestus. Lisasime uue „Jagatud“ teema - edaspidisel värvide muutmisel palun kasuta seda.</string>
     <string name="shared_theme_note">Kuigi sa kasutad rakenduse Pro-versiooni, palun siiski tehnilistel põhjustel paigalda rakendus „Lihtne tänuavaldus“. Muu hulgas tema haldab värvide sünkroniseerimist kõikide meie rakenduste vahel.</string>
-    <string name="purchase_thank_you">Selle funktsionaalsuse kasutamiseks ja meie toetamiseks palun osta &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Lihtne tänuavaldus&lt;/a&gt;. Tänud juba ette!</string>
+    <string name="purchase_thank_you">Selle funktsionaalsuse kasutamiseks ja meie toetamiseks palun osta &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Lihtne tänuavaldus&lt;/a&gt;. Tänud juba ette!</string>
     <!-- Themes -->
     <string name="light_theme">Hele</string>
     <string name="dark_theme">Tume</string>
@@ -911,9 +910,9 @@
     <string name="additional_info">Lisateave</string>
     <string name="app_version">Rakenduse versioon: %s</string>
     <string name="device_os">Seadme operatsioonisüsteem: %s</string>
-    <string name="donate_please">Tere,&lt;br&gt;&lt;br&gt; loodan, et sulle meie rakendus meeldib. See ei sisalda reklaame, palun toeta selle arendamist, ostes rakenduse &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Lihtne tänuavaldus&lt;/a&gt; ja samaga väldid selle vaate uuesti kuvamist.&lt;br&gt;&lt;br&gt; Täname!</string>
-    <string name="donate_new">Tere,&lt;br&gt;&lt;br&gt; loodan, et sulle meie rakendus meeldib. See ei sisalda reklaame, palun toeta selle arendamist, ostes rakenduse &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Lihtne tänuavaldus&lt;/a&gt;. Seejärel muutuvad kasutatavaks ka rakenduse lisafunktsionaalsused ja värvide kohandamine.&lt;br&gt;&lt;br&gt;Täname!</string>
-    <string name="donate_short">Palun toeta meid ostes rakenduse &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Lihtne tänuavaldus&lt;/a&gt;. Muu hulgas avab see antud rakenduse kõik funktsionaalsused ja sealhulgas võimaldab kohandada liidese värve.</string>
+    <string name="donate_please">Tere,&lt;br&gt;&lt;br&gt; loodan, et sulle meie rakendus meeldib. See ei sisalda reklaame, palun toeta selle arendamist, ostes rakenduse &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Lihtne tänuavaldus&lt;/a&gt; ja samaga väldid selle vaate uuesti kuvamist.&lt;br&gt;&lt;br&gt; Täname!</string>
+    <string name="donate_new">Tere,&lt;br&gt;&lt;br&gt; loodan, et sulle meie rakendus meeldib. See ei sisalda reklaame, palun toeta selle arendamist, ostes rakenduse &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Lihtne tänuavaldus&lt;/a&gt;. Seejärel muutuvad kasutatavaks ka rakenduse lisafunktsionaalsused ja värvide kohandamine.&lt;br&gt;&lt;br&gt;Täname!</string>
+    <string name="donate_short">Palun toeta meid ostes rakenduse &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Lihtne tänuavaldus&lt;/a&gt;. Muu hulgas avab see antud rakenduse kõik funktsionaalsused ja sealhulgas võimaldab kohandada liidese värve.</string>
     <string name="purchase">Osta</string>
     <string name="get_simple_phone">Telli rakendus Lihtne telefon</string>
     <string name="update_thank_you">Palun uuenda raklendus Lihtne tänuavaldus viimase versioonini</string>
@@ -936,7 +935,7 @@
     <string name="thank_you">Suur tänu</string>
     <string name="widget_locked_pro">Rakendus on lukustatud.
 \nLukustuse eemaldamiseks palun uuenda ta Pro-versioonini.</string>
-    <string name="features_locked">See funktsionaalsus on lukus, palun osta rakendus &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Lihtne tänuavaldus&lt;/a&gt; ning kogu rakendus on siis kasutatav.See on ainult ühekordne makse ja kui sa ei jää rahule, saame raha tagasi maksta.</string>
+    <string name="features_locked">See funktsionaalsus on lukus, palun osta rakendus &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Lihtne tänuavaldus&lt;/a&gt; ning kogu rakendus on siis kasutatav.See on ainult ühekordne makse ja kui sa ei jää rahule, saame raha tagasi maksta.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">Hei,&lt;br&gt;&lt;br&gt; tahtsime lihtsalt teada anda, et oleme teinud mõned uued rakendused :&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; Klõpsides ikooni või nimel saad sa neid alla laadida.&lt;br&gt;&lt;br&gt; Tänud</string>
     <string name="simple_app_launcher">Lihtne rakenduste käivitaja</string>
@@ -990,7 +989,6 @@
     <string name="faq_5_title_commons">Kas ma mingil viisil saan kustutatud faile taastada\?</string>
     <string name="faq_5_text_commons">Kui need on tõesti kustutatud, ei saa sa seda teha. Siiski on vaikimisi kasutusel prügikast ning kustutatud failid esialgu teisaldatakse sinna.</string>
     <string name="faq_6_title_commons">Rakenduse käivitaja ikoon kadus. Mida ma saan teha\?</string>
-    <string name="faq_6_text_commons">Selle põhjuseks on asjaolu, et see käivitaja ei toeta ikoonide kohandamist korralikult. Proovi käivitada rakendus Google Play või mõne sarnase saadaoleva vidina abil. Peale käivitamist, seadista lihtsalt tagasi ikooni vaikimisi oranž toon #F57C00. Halvemal juhul pead rakenduse võib-olla uuesti paigaldama.</string>
     <string name="faq_7_title_commons">Raha on minu pangakontolt maha kantud, kuid ma ei saa rakendust alla laadida. Mida ma saan teha\?</string>
     <string name="faq_7_text_commons">Makseid teostab täielikult Google, nende süsteemis esineb aeg-ajalt tõrkeid. Lihtsalt tühjenda oma Google Play rakenduse vahemälu ja taaskäivita seade, seejärel proovi rakendust uuesti alla laadida.</string>
     <string name="faq_8_title_commons">Miks peaksin kasutusele võtma Pro-versiooni\?</string>

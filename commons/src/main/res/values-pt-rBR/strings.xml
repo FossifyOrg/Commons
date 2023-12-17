@@ -360,13 +360,11 @@
     <string name="cannot_be_undone">Esta ação não pode ser revertida.</string>
     <string name="save_before_closing">Existem alterações não salvas. Salvar antes de sair?</string>
     <string name="apply_to_all_apps">Aplicar cores a todos os aplicativos Simple</string>
-    <string name="app_icon_color_warning">AVISO: Alguns lançadores não são capazes de lidar corretamente com a customização de ícones. Nestes casos, se o icone desaparecer tente abrir o aplicativo pelo Google Play, ou através de um widget, se disponível.
-        Ao entrar, simplesmente reverta a cor do ícone para o valor padrão (laranja #F57C00). No pior dos casos pode ser preciso reinstalar o aplicativo.</string>
     <string name="share_colors_success">Cores atualizadas com sucesso. Um novo tema chamado \'Compartilhado\' foi adicionado, use-o para atualizar as cores de todos os apps no futuro.</string>
     <string name="shared_theme_note">Embora você esteja usando a versão Pro do aplicativo, o Simple Thank You ainda é necessário para fins técnicos. Ele realiza a sincronização de cores.</string>
     <string name="purchase_thank_you">
         <![CDATA[
-            Por favor compre o <a href="https://play.google.com/store/apps/details?id=org.fossify..thankyou">Agradecimento Simple</a> para desbloquear esta função e apoiar o desenvolvimento. Obrigado!
+            Por favor compre o <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Agradecimento Simple</a> para desbloquear esta função e apoiar o desenvolvimento. Obrigado!
         ]]>
     </string>
     <!-- Themes -->
@@ -920,12 +918,12 @@
     <string name="donate_please">
         <![CDATA[
             Olá,<br><br>
-            Esperamos que esteja gostando do app. Ele não contém anúncios, então apoie o desenvolvimento adquirindo o <a href="https://play.google.com/store/apps/details?id=org.fossify..thankyou">Simple Thank You</a>, ele também impede este diálogo de aparecer novamente.<br><br>
+            Esperamos que esteja gostando do app. Ele não contém anúncios, então apoie o desenvolvimento adquirindo o <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Simple Thank You</a>, ele também impede este diálogo de aparecer novamente.<br><br>
             Obrigado!
         ]]>
     </string>
-    <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify..thankyou&gt;Simple Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
-    <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify..thankyou&gt;Simple Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
+    <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
+    <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
     <string name="purchase">Comprar</string>
     <string name="get_simple_phone">Ordem Telefones Simples</string>
     <string name="update_thank_you">Por favor, atualize o Simple Thank You para a versão mais recente</string>
@@ -939,7 +937,7 @@
     <string name="rate_our_app">Avalie nosso aplicativo :)</string>
     <string name="thank_you">Obrigado</string>
     <string name="widget_locked_pro">O widget está bloqueado.\nAtualize para a versão Pro para desbloqueá-lo.</string>
-    <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details?id=org.fossify..thankyou&gt;Simple Thank You&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>
+    <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">
         <![CDATA[
@@ -1008,8 +1006,6 @@
     <string name="faq_5_title_commons">Posso restaurar de alguma forma os arquivos apagados?</string>
     <string name="faq_5_text_commons">Por padrão os arquivos são movidos para a Lixeira. No entanto, se a Lixeira tiver sido desativada os arquivos serão removidos permanentemente.</string>
     <string name="faq_6_title_commons">O ícone do app desapareceu. O que posso fazer?</string>
-    <string name="faq_6_text_commons">Isso deve ter ocorrido porque o seu lançador de aplicativos não suporta corretamente a customização de ícones. Tente abrir o app pela loja do Google Play ou por um widget, se possível.
-    Uma vez aberto o app, configure a cor do ícone de volta para o valor padrão (laranja #F57C00). No pior dos casos pode ser preciso reinstalar o app.</string>
     <string name="faq_7_title_commons">O dinheiro foi deduzido da minha conta bancária, mas não consigo fazer o download do aplicativo. O que eu posso fazer?</string>
     <string name="faq_7_text_commons">Os pagamentos são totalmente gerenciados pelo Google, o sistema deles falha de vez em quanto. Apenas limpe o cache do aplicativo Google Play, reinicie o dispositivo e tente baixá-lo novamente.</string>
     <string name="faq_8_title_commons">Por que eu deveria atualizar para a versão Pro?</string>

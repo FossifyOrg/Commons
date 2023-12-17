@@ -361,13 +361,11 @@
     <string name="cannot_be_undone">Táto akcia sa nedá vrátiť späť.</string>
     <string name="save_before_closing">Máte neuložené zmeny. Chcete ich uložiť pred ukončením?</string>
     <string name="apply_to_all_apps">Použiť farby na všetky Jednoduché Aplikácie</string>
-    <string name="app_icon_color_warning">UPOZORNENIE: Niektoré spúšťače zariadení nepodporujú úpravu ikoniek. V prípade, že ikonka apky zmizne, ju skúste spustiť cez Google Play, alebo nejaký widget, ak je dostupný.
-        Ak je apka spustená, skúste nastaviť pôvodnú oranžovú farbu ikonky #F57C00. V najhoršom prípade budete musieť apku preinštalovať.</string>
     <string name="share_colors_success">Farby boli úspešne aktualizované. Bola pridaná nová \'Zdieľaná\' téma, prosím použite ju pri ďalšej úprave farieb.</string>
     <string name="shared_theme_note">Pripomíname vám, že napriek tomu, že používate Pro verziu apky, stále potrebujete \"Jednoduché ďakujem\" z technických príčin. Ona má totižto na starosti synchronizáciu farieb.</string>
     <string name="purchase_thank_you">
         <![CDATA[
-            Prosím zakúpte si <a href="https://play.google.com/store/apps/details?id=org.fossify..thankyou">Jednoduché ďakujem</a> na odomknutie tejto funkcie a podporu vývoja. Vďaka!
+            Prosím zakúpte si <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Jednoduché ďakujem</a> na odomknutie tejto funkcie a podporu vývoja. Vďaka!
         ]]>
     </string>
     <!-- Themes -->
@@ -907,12 +905,12 @@
     <string name="donate_please">
         <![CDATA[
             Zdravím,<br><br>
-            dúfam, že sa vám moja apka páči. Neobsahuje žiadne reklamy, podporte prosím jej vývoj zakúpením aplikácie <a href="https://play.google.com/store/apps/details?id=org.fossify..thankyou">Jednoduché ďakujem</a>. Zaručí to aj to, že tento dialóg už neuvidíte.<br><br>
+            dúfam, že sa vám moja apka páči. Neobsahuje žiadne reklamy, podporte prosím jej vývoj zakúpením aplikácie <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Jednoduché ďakujem</a>. Zaručí to aj to, že tento dialóg už neuvidíte.<br><br>
             Ďakujem!
         ]]>
     </string>
-    <string name="donate_new">Zdravím,&lt;br&gt;&lt;br&gt;dúfame, že sa vám naša apka páči. Neobsahuje žiadne reklamy a ani nezbiera vaše údaje, podporte prosíme jej vývoj zakúpením aplikácie &lt;a href=https://play.google.com/store/apps/details?id=org.fossify..thankyou&gt;Jednoduché ďakujem&lt;/a&gt;. Budete tým mať zároveň odomknuté všetky funkcie vrátane zmeny farieb.&lt;br&gt;&lt;br&gt;Ďakujeme!</string>
-    <string name="donate_short">Podporte nás prosím kúpou &lt;a href=https://play.google.com/store/apps/details?id=org.fossify..thankyou&gt;Jednoduchého Ďakujem&lt;/a&gt;, odomkne to zároveň všetky funkcie apky vrátane zmeny farieb.</string>
+    <string name="donate_new">Zdravím,&lt;br&gt;&lt;br&gt;dúfame, že sa vám naša apka páči. Neobsahuje žiadne reklamy a ani nezbiera vaše údaje, podporte prosíme jej vývoj zakúpením aplikácie &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Jednoduché ďakujem&lt;/a&gt;. Budete tým mať zároveň odomknuté všetky funkcie vrátane zmeny farieb.&lt;br&gt;&lt;br&gt;Ďakujeme!</string>
+    <string name="donate_short">Podporte nás prosím kúpou &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Jednoduchého Ďakujem&lt;/a&gt;, odomkne to zároveň všetky funkcie apky vrátane zmeny farieb.</string>
     <string name="purchase">Zakúpiť</string>
     <string name="get_simple_phone">Objednať Jednoduchý Telefón</string>
     <string name="update_thank_you">Prosím aktualizujte Jednoduché Ďakujem na najnovšiu verziu</string>
@@ -926,7 +924,7 @@
     <string name="rate_our_app">Ohodnoťte našu aplikáciu, prosím :)</string>
     <string name="thank_you">Ďakujeme</string>
     <string name="widget_locked_pro">Widget je uzamknutý.\nNa odomknutie prosím prejdite na Pro verziu.</string>
-    <string name="features_locked">Táto funkcia je uzamknutá, prosím kúpte &lt;a href=https://play.google.com/store/apps/details?id=org.fossify..thankyou&gt;Jednoduché ďakujem&lt;/a&gt; pre odomknutie celej apky.&lt;br&gt;&lt;br&gt;Ide o jednorazovú platbu a ak nebudete spokojný, peniaze vám vrátime.</string>
+    <string name="features_locked">Táto funkcia je uzamknutá, prosím kúpte &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Jednoduché ďakujem&lt;/a&gt; pre odomknutie celej apky.&lt;br&gt;&lt;br&gt;Ide o jednorazovú platbu a ak nebudete spokojný, peniaze vám vrátime.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">
         <![CDATA[
@@ -1000,8 +998,6 @@
     <string name="faq_5_title_commons">Viem nejakým spôsobom obnoviť vymazané súbory?</string>
     <string name="faq_5_text_commons">Ak boli dané súbory skutočne vymazané, tak nie. Štandardne je ale zapnutý Odpadkový kôš, vďaka ktorému sú doň súbory iba presunuté, nie hneď vymazané.</string>
     <string name="faq_6_title_commons">Spúšťacia ikonka apky zmizla. Čo mám spraviť?</string>
-    <string name="faq_6_text_commons">Bude to spôsobené tým, že váš spúšťač zariadenia nepodporuje úpravu ikoniek. Skúste apku spustiť cez Google Play, alebo nejaký widget, ak je dostupný.
-        Ak je apka spustená, skúste nastaviť pôvodnú oranžovú farbu ikonky #F57C00. V najhoršom prípade budete musieť apku preinštalovať.</string>
     <string name="faq_7_title_commons">Peniaze som mal stiahnuté z účtu, ale neviem stiahnuť aplikáciu. Čo s tým?</string>
     <string name="faq_7_text_commons">Platby sú plne spravované Googlom, ich systém z času na čas nefunguje. Skúste vymazať cache apky Google Play, reštartujte zariadenie a skúste apku opäť stiahnuť.</string>
     <string name="faq_8_title_commons">Prečo by som si mal stiahnuť Pro verziu?</string>

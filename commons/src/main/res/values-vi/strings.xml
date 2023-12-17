@@ -355,13 +355,11 @@
     <string name="cannot_be_undone">Hành động này không thể được hoàn tác.</string>
     <string name="save_before_closing">Bạn có các thay đổi chưa lưu. Lưu trước khi thoát?</string>
     <string name="apply_to_all_apps">Áp dụng màu sắc cho tất cả Simple Apps</string>
-    <string name="app_icon_color_warning">CẢNH BÁO: Một số trình khởi chạy không xử lý tùy chỉnh biểu tượng ứng dụng đúng cách. Trong trường hợp biểu tượng biến mất, hãy thử khởi chạy ứng dụng qua Google Play hoặc một số tiện ích, nếu có.
-         Sau khi khởi chạy, chỉ cần đặt lại biểu tượng màu cam mặc định #F57C00. Bạn có thể phải cài đặt lại ứng dụng trong trường hợp xấu nhất.</string>
     <string name="share_colors_success">Màu sắc được cập nhật thành công. Một chủ đề mới có tên \'Shared\' đã được thêm vào, vui lòng sử dụng chủ đề đó để cập nhật tất cả các màu của ứng dụng trong tương lai.</string>
     <string name="shared_theme_note">Chú ý rằng mặc dù bạn đang dùng phiên bản Pro, bạn vẫn cần Simple Cám ơn vì lý do kỹ thuật. Nó đảm nhiệm việc đồng bộ hóa màu sắc.</string>
     <string name="purchase_thank_you">
         <![CDATA[
-            Làm ơn hãy mua ứng dụng <a href="https://play.google.com/store/apps/details?id=org.fossify..thankyou">Simple Thank You</a> để mở khóa tính năng này và hỗ trợ nhà phát triển. Cảm ơn!
+            Làm ơn hãy mua ứng dụng <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Simple Thank You</a> để mở khóa tính năng này và hỗ trợ nhà phát triển. Cảm ơn!
         ]]>
     </string>
     <!-- Themes -->
@@ -898,12 +896,12 @@
     <string name="donate_please">
         <![CDATA[
             Xin chào,<br><br>
-            hy vọng bạn đang thưởng thức ứng dụng. Nó không chứa quảng cáo, vui lòng hỗ trợ sự nhà phát triển bằng cách mua ứng dụng<a href="https://play.google.com/store/apps/details?id=org.fossify..thankyou">Simple Thank You</a>  nó cũng sẽ ngăn hộp thoại này hiển thị lại.<br><br>
+            hy vọng bạn đang thưởng thức ứng dụng. Nó không chứa quảng cáo, vui lòng hỗ trợ sự nhà phát triển bằng cách mua ứng dụng<a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Simple Thank You</a>  nó cũng sẽ ngăn hộp thoại này hiển thị lại.<br><br>
             Thank you!
         ]]>
     </string>
-    <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify..thankyou&gt;Simple Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
-    <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify..thankyou&gt;Simple Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
+    <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
+    <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
     <string name="purchase">Mua hàng</string>
     <string name="get_simple_phone">Get Simple Phone</string>
     <string name="update_thank_you">Vui lòng cập nhật Simple Thank You lên phiên bản mới nhất</string>
@@ -917,7 +915,7 @@
     <string name="rate_our_app">Rate our app please :)</string>
     <string name="thank_you">Thank you</string>
     <string name="widget_locked_pro">The widget is locked.\nPlease upgrade to the Pro version to unlock it.</string>
-    <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details?id=org.fossify..thankyou&gt;Simple Thank You&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>
+    <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">
         <![CDATA[
@@ -991,8 +989,6 @@
     <string name="faq_5_title_commons">Tôi có thể khôi phục các tập tin bị xóa bằng cách nào đó không?</string>
     <string name="faq_5_text_commons">Nếu chúng thực sự bị xóa, bạn không thể. Tuy nhiên, có một Thùng rác được bật theo mặc định, nó sẽ khiến các tệp được di chuyển vào Thùng thay vì xóa chúng.</string>
     <string name="faq_6_title_commons">Biểu tượng khởi chạy ứng dụng này biến mất. Tôi có thể làm gì?</string>
-    <string name="faq_6_text_commons">Nguyên nhân là do trình khởi chạy của bạn không hỗ trợ tùy chỉnh biểu tượng đúng cách. Hãy thử khởi chạy ứng dụng thông qua Google Play hoặc một số tiện ích nếu có.
-        Sau khi khởi chạy, chỉ cần đặt lại biểu tượng màu cam mặc định #F57C00. Bạn có thể phải cài đặt lại ứng dụng trong trường hợp xấu nhất.</string>
     <string name="faq_7_title_commons">Tiền đã được khấu trừ từ tài khoản ngân hàng của tôi, nhưng tôi không thể tải xuống ứng dụng. Tôi có thể làm gì?</string>
     <string name="faq_7_text_commons">Thanh toán được xử lý hoàn toàn bởi Google, hệ thống của họ thỉnh thoảng bị trục trặc. Chỉ cần xóa bộ nhớ cache ứng dụng Google Play của bạn và khởi động lại thiết bị của bạn, sau đó thử tải xuống lại.</string>
     <string name="faq_8_title_commons">Tại sao tôi nên nâng cấp lên phiên bản Pro?</string>

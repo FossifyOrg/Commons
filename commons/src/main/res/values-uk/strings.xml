@@ -367,11 +367,9 @@
     <string name="cannot_be_undone">Цю дію неможливо скасувати.</string>
     <string name="save_before_closing">Ви маєте незбережені зміни. Зберегти перед виходом?</string>
     <string name="apply_to_all_apps">Застосувати кольори до усіх додатків Simple Apps</string>
-    <string name="app_icon_color_warning">УВАГА: Деякі лончери некоректно опрацьовують зміну піктограми додатків. Якщо піктограма додатка зникне, спробуйте запустити його через Google Play або віджет, якщо доступний.
-        Після запуску просто поверніть стандартний колір піктограми: #F57C00. У найгіршому випадку вам доведеться перевстановити додаток.</string>
     <string name="share_colors_success">Кольори успішно оновлено. Було додано нову тему під назвою \'Загальна\', використовуйте її для оновлення кольорів усіх додатків у майбутньому.</string>
     <string name="shared_theme_note">Зауважте, що хоча ви користуєтеся версією Pro додатка, вам необхідний додаток Просто Подяка з технічних причин. Він подбає про синхронізацію кольору.</string>
-    <string name="purchase_thank_you">Будь ласка, придбайте &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Просту Подяку&lt;/a&gt;, щоб розблокувати цю функцію і підтримати розробку. Дякую!</string>
+    <string name="purchase_thank_you">Будь ласка, придбайте &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Просту Подяку&lt;/a&gt;, щоб розблокувати цю функцію і підтримати розробку. Дякую!</string>
     <!-- Themes -->
     <string name="light_theme">Світла</string>
     <string name="dark_theme">Темна</string>
@@ -978,9 +976,9 @@
     <string name="additional_info">Додаткова інформація</string>
     <string name="app_version">Версія додатка: %s</string>
     <string name="device_os">ОС пристрою: %s</string>
-    <string name="donate_please">Привіт,&lt;br&gt;&lt;br&gt; сподіваюсь, вам подобається додаток. Він не містить реклами, будь ласка, підтримайте його розробку, придбавши додаток &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Проста Подяка&lt;/a&gt;. Покупка також відмінить повторне спливання цього повідомлення.&lt;br&gt;&lt;br&gt; Спасибі!</string>
-    <string name="donate_new">Вітаю,&lt;br&gt;&lt;br&gt;сподіваюся, вам подобається застосунок. Він не містить реклами, також ми не збираємо ваші дані. Будь ласка, підтримайте розвиток, придбавши &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Просту подяку&lt;/a&gt;. Таким чином ви розблокуєте всі можливості застосунку, зокрема налаштування кольорів.&lt;br&gt;&lt;br&gt;Дякуємо!</string>
-    <string name="donate_short">Підтримайте нас, придбавши &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Simple Thank You&lt;/a&gt; будь ласка, це також розблокує всі функції застосунку, включаючи налаштування кольорів.</string>
+    <string name="donate_please">Привіт,&lt;br&gt;&lt;br&gt; сподіваюсь, вам подобається додаток. Він не містить реклами, будь ласка, підтримайте його розробку, придбавши додаток &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Проста Подяка&lt;/a&gt;. Покупка також відмінить повторне спливання цього повідомлення.&lt;br&gt;&lt;br&gt; Спасибі!</string>
+    <string name="donate_new">Вітаю,&lt;br&gt;&lt;br&gt;сподіваюся, вам подобається застосунок. Він не містить реклами, також ми не збираємо ваші дані. Будь ласка, підтримайте розвиток, придбавши &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Просту подяку&lt;/a&gt;. Таким чином ви розблокуєте всі можливості застосунку, зокрема налаштування кольорів.&lt;br&gt;&lt;br&gt;Дякуємо!</string>
+    <string name="donate_short">Підтримайте нас, придбавши &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt; будь ласка, це також розблокує всі функції застосунку, включаючи налаштування кольорів.</string>
     <string name="purchase">Придбати</string>
     <string name="get_simple_phone">Замовити Простий Телефон</string>
     <string name="update_thank_you">Будь ласка, оновіть \"Просту Подяку\" до останньої версії</string>
@@ -995,7 +993,7 @@
     <string name="thank_you">Подяка</string>
     <string name="widget_locked_pro">Віджет заблоковано.
 \nБудь ласка, оновіть додаток до версії Pro, щоб розблокувати віджет.</string>
-    <string name="features_locked">Ця функція заблокована, будь ласка, придбайте &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify..thankyou&gt;Просту Подяку&lt;/a&gt;, щоб розблокувати весь застосунок.&lt;br&gt;&lt;br&gt;Це лише одноразовий платіж, якщо ви не будете задоволені, ми зможемо повернути вам гроші.</string>
+    <string name="features_locked">Ця функція заблокована, будь ласка, придбайте &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Просту Подяку&lt;/a&gt;, щоб розблокувати весь застосунок.&lt;br&gt;&lt;br&gt;Це лише одноразовий платіж, якщо ви не будете задоволені, ми зможемо повернути вам гроші.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">
         <![CDATA[
@@ -1064,8 +1062,6 @@
     <string name="faq_5_title_commons">Чи можу я якось відновити видалені файли?</string>
     <string name="faq_5_text_commons">На жаль, ні, якщо вони були дійсно видалені. Однак стандартно увімкнена функція Кошика, вона переміщає файли в Кошик замість їх видаляти.</string>
     <string name="faq_6_title_commons">Значок запуску додатка зник. Що робити?</string>
-    <string name="faq_6_text_commons">Це спричинено тим, що ваша програма запуску неправильно підтримує налаштування значків. Спробуйте запустити додаток через Google Play або віджет, якщо він доступний.
-        Після запуску встановіть типовий оранжевий колір значка #F57C00. У найгіршому випадку вам доведеться перевстановити додаток.</string>
     <string name="faq_7_title_commons">Гроші списано з мого банківського рахунку, проте я не можу завантажити додаток. Що мені робити?</string>
     <string name="faq_7_text_commons">Сплатою рахунків цілком керує Google, у їхній системі трапляються збої час від часу. Для початку очистіть кеш додатка Google Play та перезапустіть ваш пристрій, потім спробуйте завантажити його знову.</string>
     <string name="faq_8_title_commons">Чому мені слід перейти на версію Pro?</string>
