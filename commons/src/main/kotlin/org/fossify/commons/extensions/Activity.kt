@@ -68,7 +68,7 @@ fun Activity.appLaunched(appId: String) {
                 PackageManager.DONT_KILL_APP
             )
 
-            val orangeClassName = "${baseConfig.appId.removeSuffix(".debug")}.activities.SplashActivity.Orange"
+            val orangeClassName = "${baseConfig.appId.removeSuffix(".debug")}.activities.SplashActivity.Green"
             packageManager.setComponentEnabledSetting(
                 ComponentName(baseConfig.appId, orangeClassName),
                 PackageManager.COMPONENT_ENABLED_STATE_ENABLED,
