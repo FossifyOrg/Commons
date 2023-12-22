@@ -368,6 +368,8 @@
     <string name="cannot_be_undone">Ovo je nepovratna radnja.</string>
     <string name="save_before_closing">Imate ne spremljene promjene. Želite li spremiti prije izlaska?</string>
     <string name="apply_to_all_apps">Primjeni boje na sve Jednostavne Aplikacije</string>
+    <string name="app_icon_color_warning">Caution: Certain launchers may not handle app icon customization correctly. If the icon disappears, attempt launching the app through Google Play or a widget, if accessible.
+        After launching, restore the default green icon color #1B5E20. In extreme cases, reinstalling the app may be necessary.</string>
     <string name="share_colors_success">Uspješno ažurirane boje. Nova tema pod nazivom \'Shared\' je dodana, molimo koristite ju za ažuriranje svih boja u aplikaciji u budućnosti.</string>
     <string name="shared_theme_note">Imajte na umu da iako koristite Pro verziju aplikacije, još uvijek trebate Jednostavno hvala iz tehničkih razloga. Brine se za sinkronizaciju boja.</string>
     <string name="purchase_thank_you">
@@ -1036,6 +1038,8 @@
     <string name="faq_5_title_commons">Mogu li nekako vratiti izbrisane datoteke?</string>
     <string name="faq_5_text_commons">Ako su stvarno izbrisane, ne možete. Međutim, postoji koš za smeće koji je standardno aktiviran. Na taj se način datoteke samo premještaju u koš umjesto da se izbrišu.</string>
     <string name="faq_6_title_commons">Ikona pokretača aplikacija je nestala. Što mogu učiniti?</string>
+    <string name="faq_6_text_commons">This issue arises when your launcher does not fully support icon customization. Attempt launching the app through Google Play or a widget, if accessible.
+        After launching, restore the default green icon color #1B5E20. In extreme cases, reinstalling the app may be necessary.</string>
     <string name="faq_7_title_commons">Novac je već povučen sa mog računa, ali ne mogu skinuti aplikaciju. Šta da radim\?</string>
     <string name="faq_7_text_commons">Uplatama upravlja Google. Njihov sistem nekada ima problema. Očistite cache vaše Google Play aplikacije i ponovno pokrenite vaš uređaj i pokušajte ponovo.</string>
     <string name="faq_8_title_commons">Zašto bih trebao kupiti Pro verziju\?</string>

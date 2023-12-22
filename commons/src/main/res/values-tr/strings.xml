@@ -354,6 +354,8 @@
     <string name="cannot_be_undone">Bu eylem geri alınamaz.</string>
     <string name="save_before_closing">Kaydedilmemiş değişiklikleriniz var. Çıkmadan önce kaydedilsin mi?</string>
     <string name="apply_to_all_apps">Tüm Basit Uygulamalara renk uygula</string>
+    <string name="app_icon_color_warning">Caution: Certain launchers may not handle app icon customization correctly. If the icon disappears, attempt launching the app through Google Play or a widget, if accessible.
+        After launching, restore the default green icon color #1B5E20. In extreme cases, reinstalling the app may be necessary.</string>
     <string name="share_colors_success">"Renkler başarıyla güncellendi. 'Paylaşılan' adlı yeni bir Tema eklendi, lütfen gelecekte tüm uygulama renklerini güncellemek için onu kullanın."</string>
     <string name="shared_theme_note">Pro uygulama sürümünü kullanıyor olsanız bile, teknik nedenlerden dolayı yine de Basit Teşekkürler\'e ihtiyacınız olduğunu unutmayın. Renk eşzamanlamasını o yapar.</string>
     <string name="purchase_thank_you">
@@ -1001,6 +1003,8 @@
     <string name="faq_5_title_commons">Bir şekilde silinen dosyaları geri yükleyebilir miyim?</string>
     <string name="faq_5_text_commons">Gerçekten silinmişlerse, yapamazsınız. Ancak, öntanımlı olarak etkinleştirilmiş bir Geri Dönüşüm Kutusu vardır, dosyaların silinmek yerine depoya taşınmasına neden olur.</string>
     <string name="faq_6_title_commons">Uygulama başlatıcısı simgesi kayboldu. Ne yapabilirim?</string>
+    <string name="faq_6_text_commons">This issue arises when your launcher does not fully support icon customization. Attempt launching the app through Google Play or a widget, if accessible.
+        After launching, restore the default green icon color #1B5E20. In extreme cases, reinstalling the app may be necessary.</string>
     <string name="faq_7_title_commons">Para banka hesabımdan düşüldü, ancak uygulamayı indiremiyorum. Ne yapabilirim?</string>
     <string name="faq_7_text_commons">Ödemeler tamamen Google tarafından işlenir, zaman zaman sistemleri aksar. Sadece Google Play uygulama önbelleğinizi temizleyin ve aygıtınızı yeniden başlatın, ardından yeniden indirmeyi deneyin.</string>
     <string name="faq_8_title_commons">Neden Pro sürümüne yükseltmeliyim?</string>

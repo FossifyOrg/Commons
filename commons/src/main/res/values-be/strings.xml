@@ -370,6 +370,8 @@
     <string name="cannot_be_undone">Гэта дзеянне нельга адмяніць.</string>
     <string name="save_before_closing">У вас ёсць незахаваныя змены. Захаваць перад выхадам\?</string>
     <string name="apply_to_all_apps">Прымяніць колеры да ўсіх простых праграм</string>
+    <string name="app_icon_color_warning">Caution: Certain launchers may not handle app icon customization correctly. If the icon disappears, attempt launching the app through Google Play or a widget, if accessible.
+        After launching, restore the default green icon color #1B5E20. In extreme cases, reinstalling the app may be necessary.</string>
     <string name="share_colors_success">Колеры паспяхова абноўлены. Была дададзена новая тэма пад назвай \"Агульны доступ\", выкарыстоўвайце яе для абнаўлення ўсіх колераў праграм у будучыні.</string>
     <string name="shared_theme_note">Звярніце ўвагу, што нават калі вы карыстаецеся версіяй праграмы Pro, вам усё роўна патрэбны Simple Thank You па тэхнічных прычынах. Ён клапоціцца аб сінхранізацыі колеру.</string>
     <string name="purchase_thank_you">Купіце &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt;, каб разблакіраваць гэту функцыю і падтрымаць распрацоўку. Дзякуй!</string>
@@ -1048,6 +1050,8 @@
     <string name="faq_5_title_commons">Ці магу я неяк аднавіць выдаленыя файлы\?</string>
     <string name="faq_5_text_commons">Калі яны сапраўды былі выдалены, вы не можаце. Тым не менш, кошык уключаны па змаўчанні, гэта прывядзе да таго, што файлы проста перамяшчаюцца ў кошык, а не выдаляюцца.</string>
     <string name="faq_6_title_commons">Значок запуску прыкладання знік. Што я магу зрабіць\?</string>
+    <string name="faq_6_text_commons">This issue arises when your launcher does not fully support icon customization. Attempt launching the app through Google Play or a widget, if accessible.
+        After launching, restore the default green icon color #1B5E20. In extreme cases, reinstalling the app may be necessary.</string>
     <string name="faq_7_title_commons">Грошы былі зняты з майго банкаўскага рахунку, але я не магу спампаваць праграму. Што я магу зрабіць\?</string>
     <string name="faq_7_text_commons">Плацяжы цалкам апрацоўваюцца Google, у іх сістэме час ад часу даюцца збоі. Проста ачысціце кэш праграмы Google Play і перазапусціце прыладу, а затым паўтарыце спробу загрузкі.</string>
     <string name="faq_8_title_commons">Чаму я павінен перайсці на версію Pro\?</string>

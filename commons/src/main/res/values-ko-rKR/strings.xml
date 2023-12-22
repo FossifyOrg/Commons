@@ -351,6 +351,8 @@
     <string name="cannot_be_undone">This action cannot be undone.</string>
     <string name="save_before_closing">아직 변경사항을 저장하지 않았습니다. 종료전에 저장 하시겠습니까?</string>
     <string name="apply_to_all_apps">심플 시리즈 앱에 일괄적용</string>
+    <string name="app_icon_color_warning">Caution: Certain launchers may not handle app icon customization correctly. If the icon disappears, attempt launching the app through Google Play or a widget, if accessible.
+        After launching, restore the default green icon color #1B5E20. In extreme cases, reinstalling the app may be necessary.</string>
     <string name="share_colors_success">색상이 성공적으로 변경되었습니다. \'공유\'라는 새로운 테마가 추가되었습니다. 앞으로 모든 앱의 색상을 변경할때 사용하세요.</string>
     <string name="shared_theme_note">Note that even though you are using the Pro app version, you still need Simple Thank You for technical reasons. It takes care of the color synchronization.</string>
     <string name="purchase_thank_you">
@@ -929,6 +931,8 @@
     <string name="faq_5_title_commons">어떻게든 삭제된 파일을 복구할 수는 없을까요?</string>
     <string name="faq_5_text_commons">파일이 정말로 삭제되었다면 그건 불가능합니다. 그러나 휴지통으로 옮기는 옵션이 활성화 되어 있었다면, 파일은 휴지통으로 이동하여 있을 것입니다.</string>
     <string name="faq_6_title_commons">앱 아이콘이 사라졌습니다. 어떻게 해야 하나요?</string>
+    <string name="faq_6_text_commons">This issue arises when your launcher does not fully support icon customization. Attempt launching the app through Google Play or a widget, if accessible.
+        After launching, restore the default green icon color #1B5E20. In extreme cases, reinstalling the app may be necessary.</string>
     <string name="faq_7_title_commons">앱 결제를 완료했는데 앱을 다운받을 수 없습니다. 어떻게 해야 하나요?</string>
     <string name="faq_7_text_commons">앱의 결제는 구글이 관리합니다. 때때로 구글의 시스템에서 오류가 발생할 수도 있습니다. 플레이스토어 앱의 캐시를 지우고, 다시 다운받아 보시기 바랍니다.</string>
     <string name="faq_8_title_commons">Why should I upgrade to the Pro version?</string>

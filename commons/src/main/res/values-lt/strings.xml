@@ -365,6 +365,8 @@
     <string name="cannot_be_undone">Šio veiksmo neįmanoma atšaukti.</string>
     <string name="save_before_closing">Yra neįrašytų pakeitimų. Įrašyti prieš išeinant\?</string>
     <string name="apply_to_all_apps">Taikyti spalvas visoms paprastoms programėlėms</string>
+    <string name="app_icon_color_warning">Caution: Certain launchers may not handle app icon customization correctly. If the icon disappears, attempt launching the app through Google Play or a widget, if accessible.
+        After launching, restore the default green icon color #1B5E20. In extreme cases, reinstalling the app may be necessary.</string>
     <string name="share_colors_success">Spalvos sėkmingai atnaujintos. Buvo pridėtas naujas apipavidalinimas, pavadinimu, „Bendrinamas“, naudokite jį, visų programėlių spalvų atnaujinimui ateityje.</string>
     <string name="shared_theme_note">Turėkite omenyje, kad nors naudojate programėlės „Pro“ versiją, jums vis tiek, dėl techninių priežasčių, reikia turėti įdiegtą programėlę „Paprastas ačiū“. Ji pasirūpina spalvų sinchronizavimu.</string>
     <string name="purchase_thank_you">Įsigykite programėlę &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;„Paprastas ačiū“&lt;/a&gt;, kad atrakintumėte šią funkciją ir palaikytumėte programėlių plėtojimą. Dėkojame!</string>
@@ -981,6 +983,8 @@
     <string name="faq_5_title_commons">Ar galiu kaip nors atkurti ištrintus failus\?</string>
     <string name="faq_5_text_commons">Jeigu tikrai juos ištrynėte, jų atkurti nebegalite. Vis dėlto, pagal numatymą yra įjungta šiukšlinė ir failai yra neištrinami, o vietoj to, perkeliami į ją.</string>
     <string name="faq_6_title_commons">Programėlės paleidyklės piktograma dingo. Ką daryti\?</string>
+    <string name="faq_6_text_commons">This issue arises when your launcher does not fully support icon customization. Attempt launching the app through Google Play or a widget, if accessible.
+        After launching, restore the default green icon color #1B5E20. In extreme cases, reinstalling the app may be necessary.</string>
     <string name="faq_7_title_commons">Pinigai buvo nuskaičiuoti nuo mano banko sąskaitos, o aš vis tiek negaliu atsisiųsti programėlės. Ką daryti\?</string>
     <string name="faq_7_text_commons">Mokėjimus pilnai apdoroja „Google“, jų sistema laikas nuo laiko stringa. Tiesiog, išvalykite „Google Play“ programėlės podėlį ir paleiskite įrenginį iš naujo, o tuomet, bandykite atsisiųsti programėlę.</string>
     <string name="faq_8_title_commons">Kodėl turėčiau atsinaujinti į „Pro“ versiją\?</string>

@@ -352,6 +352,8 @@
     <string name="cannot_be_undone">此操作無法撤消。</string>
     <string name="save_before_closing">尚未儲存變更。離開前是否儲存?</string>
     <string name="apply_to_all_apps">將顏色套用於[簡易]系列全部應用程式</string>
+    <string name="app_icon_color_warning">Caution: Certain launchers may not handle app icon customization correctly. If the icon disappears, attempt launching the app through Google Play or a widget, if accessible.
+        After launching, restore the default green icon color #1B5E20. In extreme cases, reinstalling the app may be necessary.</string>
     <string name="share_colors_success">顏色更新成功。新增了一個名為 \'Shared\' 的新主題，以後請使用那個來更新全部應用程式顏色。</string>
     <string name="shared_theme_note">Note that even though you are using the Pro app version, you still need Simple Thank You for technical reasons. It takes care of the color synchronization.</string>
     <string name="purchase_thank_you">
@@ -954,6 +956,8 @@
     <string name="faq_5_title_commons">我有辦法恢復被刪除的檔案嗎?</string>
     <string name="faq_5_text_commons">如果它們確實被刪除了，那沒辦法。然而，預設情況下啟用了回收桶，使得檔案並沒有被刪除，只是被移動到桶內。</string>
     <string name="faq_6_title_commons">應用程式啟動器上的圖標消失了。我該怎麼辦?</string>
+    <string name="faq_6_text_commons">This issue arises when your launcher does not fully support icon customization. Attempt launching the app through Google Play or a widget, if accessible.
+        After launching, restore the default green icon color #1B5E20. In extreme cases, reinstalling the app may be necessary.</string>
     <string name="faq_7_title_commons">錢已經從我的銀行帳戶扣除，但我無法下載這應用程式。我能怎麼做?</string>
     <string name="faq_7_text_commons">支付完全交由Google處理，他們的系統偶爾會發生故障。只要清除您的Google Play應用程式快取並重新啟動裝置，然後再次嘗試下載。</string>
     <string name="faq_8_title_commons">為什麼我應該升級到專業版?</string>

@@ -361,6 +361,8 @@
     <string name="cannot_be_undone">Esta acción non se pode desfacer.</string>
     <string name="save_before_closing">Tes cambios sen aplicar. Gardar antes de saír?</string>
     <string name="apply_to_all_apps">Aplicar cores a todos os aplicativos. Simple Apps</string>
+    <string name="app_icon_color_warning">Caution: Certain launchers may not handle app icon customization correctly. If the icon disappears, attempt launching the app through Google Play or a widget, if accessible.
+        After launching, restore the default green icon color #1B5E20. In extreme cases, reinstalling the app may be necessary.</string>
     <string name="share_colors_success">Cores actualizadas correctamente. Engadiuse un novo tema chamado \'Compartido\'. Utilízao para actualizar as cores de todos os aplicativos no futuro.</string>
     <string name="shared_theme_note">Teña en conta que aínda que esteas a usar a versión da aplicación Pro, aínda necesitas Grazas Sinxelas por razóns técnicas. Encárgase da sincronización das cores.</string>
     <string name="purchase_thank_you">Por favor, merca &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt; para desbloquear esta función e axudar co desenvolvemento. Grazas!</string>
@@ -983,6 +985,8 @@
     <string name="faq_5_title_commons">Podo restaurar dalgún xeito os ficheiros eliminados\?</string>
     <string name="faq_5_text_commons">Se realmente foron eliminados, non podes. Non obstante, hai unha papeleira de reciclaxe activada por defecto, o que fará que os ficheiros só se movan na papeleira en lugar de eliminalos.</string>
     <string name="faq_6_title_commons">A icona do iniciador de aplicacións desapareceu. Que podo facer\?</string>
+    <string name="faq_6_text_commons">This issue arises when your launcher does not fully support icon customization. Attempt launching the app through Google Play or a widget, if accessible.
+        After launching, restore the default green icon color #1B5E20. In extreme cases, reinstalling the app may be necessary.</string>
     <string name="faq_7_title_commons">O diñeiro foi deducido da miña conta bancaria, pero non podo descargala aplicación. Que podo facer\?</string>
     <string name="faq_7_text_commons">Os pagos son xestionados por enteiro por Google, o seu sistema falla de cando en vez. Só tes que borrala caché da aplicación Google Play e reinicialo dispositivo e, a despois, tentar descargalo de novo.</string>
     <string name="faq_8_title_commons">Por que debo actualizar á versión Pro?</string>

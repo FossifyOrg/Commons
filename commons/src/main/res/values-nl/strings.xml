@@ -354,6 +354,8 @@
     <string name="cannot_be_undone">Deze bewerking kan niet ongedaan worden gemaakt.</string>
     <string name="save_before_closing">Er zijn niet opgeslagen wijzigingen. Opslaan voor het afsluiten\?</string>
     <string name="apply_to_all_apps">Kleuren toepassen op al onze apps</string>
+    <string name="app_icon_color_warning">Caution: Certain launchers may not handle app icon customization correctly. If the icon disappears, attempt launching the app through Google Play or a widget, if accessible.
+        After launching, restore the default green icon color #1B5E20. In extreme cases, reinstalling the app may be necessary.</string>
     <string name="share_colors_success">Kleuren gewijzigd. Gebruik het nieuwe thema \'Gedeeld\' om de kleuren voor al onze apps aan te passen.</string>
     <string name="shared_theme_note">Ook bij gebruik van de Pro-versie van deze app komt de app Eenvoudig Bedankje nog van pas, omdat het de synchronisatie van het gemeenschappelijk thema verzorgt.</string>
     <string name="purchase_thank_you">Om deze functie te gebruiken en om verdere ontwikkeling te ondersteunen graag &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Eenvoudig Bedankje&lt;/a&gt; aanschaffen. Alvast bedankt!</string>
@@ -973,6 +975,8 @@
     <string name="faq_5_title_commons">Kan ik verwijderde bestanden terugzetten\?</string>
     <string name="faq_5_text_commons">Niet als de bestanden daadwerkelijk zijn verwijderd. Bestanden kunnen worden teruggezet als de prullenbak is ingeschakeld (dat is standaard het geval, zie Instellingen).</string>
     <string name="faq_6_title_commons">Het icoon voor de app is verdwenen uit mijn launcher. Wat moet ik doen\?</string>
+    <string name="faq_6_text_commons">This issue arises when your launcher does not fully support icon customization. Attempt launching the app through Google Play or a widget, if accessible.
+        After launching, restore the default green icon color #1B5E20. In extreme cases, reinstalling the app may be necessary.</string>
     <string name="faq_7_title_commons">Het geld is afgeschreven van mijn rekening, maar ik kan de app nog niet downloaden. Wat moet ik doen?</string>
     <string name="faq_7_text_commons">Betalingen worden verwerkt door Google, maar dit systeem vertoont soms wat problemen. Leeg de cache van de Google Play Store app en start daarna het apparaat opnieuw. Probeer vervolgens nogmaals de app te downloaden.</string>
     <string name="faq_8_title_commons">Waarom zou ik upgraden naar de Pro-versie?</string>
