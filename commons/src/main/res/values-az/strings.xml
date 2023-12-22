@@ -78,15 +78,12 @@
     <string name="phone_storage_hidden">Telefon yaddaşı (digər tətbiqlərə görünmür)</string>
     <string name="audio">Audio</string>
     <string name="scanning">Scanning…</string>
-
     <!-- Events -->
     <string name="birthday">Ad günü</string>
     <string name="anniversary">İl dönümü</string>
-
     <!-- Emails -->
     <string name="home">Ev</string>
     <string name="work">İş</string>
-
     <!-- Phone numbers -->
     <string name="mobile">Mobil</string>
     <string name="main_number">Əsas</string>
@@ -94,7 +91,6 @@
     <string name="home_fax">Ev Faksı</string>
     <string name="pager">Zəng cihazı</string>
     <string name="no_phone_number_found">Heçbir telefon nömrəsi tapılmadı</string>
-
     <!-- View types -->
     <string name="change_view_type">Change view type</string>
     <string name="grid">Grid</string>
@@ -117,7 +113,6 @@
         <item quantity="one">%d row</item>
         <item quantity="other">%d rows</item>
     </plurals>
-
     <!-- Blocked numbers -->
     <string name="manage_blocked_numbers">Manage blocked numbers</string>
     <string name="not_blocking_anyone">You are not blocking anyone.</string>
@@ -142,13 +137,11 @@
     <string name="unblock_contact">Unblock contact</string>
     <string name="unblock_contact_success">Contact unblocked</string>
     <string name="unblock_contact_fail">Contact could not be unblocked</string>
-
     <!-- Favorites -->
     <string name="favorites">Sevimlilər</string>
     <string name="add_favorites">Sevimlilər əlavə et</string>
     <string name="add_to_favorites">Sevimlilərə əlavə et</string>
     <string name="remove_from_favorites">Sevimlilərdən sil</string>
-
     <!-- Search -->
     <string name="search">Axtar</string>
     <string name="search_in_placeholder">Search in %s</string>
@@ -171,13 +164,11 @@
     <string name="search_text">Search text</string>
     <string name="search_conversations">Search conversations</string>
     <string name="search_recordings">Search recordings</string>
-
     <!-- Filters -->
     <string name="filter">Filtr</string>
     <string name="filter_pro">Filtr (Pro)</string>
     <string name="no_items_found">Heçnə tapılmadı.</string>
     <string name="change_filter">Filtri dəyiş</string>
-
     <!-- Permissions -->
     <string name="no_storage_permissions">Yaddaş icazəsi tələb olunur</string>
     <string name="no_contacts_permission">Kontakt icazəsi tələb olunur</string>
@@ -197,7 +188,6 @@
     <string name="allow_location_permission">You must allow the app accessing your location, else it won\'t know it.</string>
     <string name="grant_permission">Grant Permission</string>
     <string name="permission_required">Permission Required</string>
-
     <!-- Renaming -->
     <string name="rename_file">Faylı yenidən adlandır</string>
     <string name="rename_folder">Qovluğu yenidən adlandır</string>
@@ -223,7 +213,6 @@
     <string name="filename_without_json">Filename (without .json)</string>
     <string name="filename_without_zip">Filename (without .zip)</string>
     <string name="cannot_hide_files">Starting from Android 11 you cannot hide files and folders like that anymore</string>
-
     <!-- Copy / Move -->
     <string name="copy">Kopyala</string>
     <string name="move">Yerini dəyiş</string>
@@ -254,7 +243,6 @@
     <string name="no_new_items">No new items have been found</string>
     <string name="no_space">The destination does not have enough space available.\nRequired %1$s, available %2$s</string>
     <string name="system_service_disabled">System service for selecting files and folders is unavailable</string>
-
     <!-- Create new -->
     <string name="create_new">Yeni yarat</string>
     <string name="folder">Qovluq</string>
@@ -264,7 +252,6 @@
     <string name="invalid_name">Ad etibarsız simvollar ehtiva edir</string>
     <string name="empty_name">Zəhmət olmasa adı daxil edin</string>
     <string name="unknown_error_occurred">Bilinməyən xəta baş verdi</string>
-
     <!-- File operation conflicts -->
     <string name="file_already_exists">\"%s\" faylı artıq mövcuddur</string>
     <string name="file_already_exists_overwrite">\"%s\" faylı artıq mövcuddur. Üzərinə yazılsın?</string>
@@ -280,7 +267,6 @@
     <string name="rename_in_sd_card_system_restriction">The system does not allow renaming in this folder</string>
     <string name="rename_internal_system_restriction">Cannot rename folders directly on internal storage, only subfolders</string>
     <string name="cannot_rename_folder">Cannot rename this folder</string>
-
     <!-- File picker -->
     <string name="select_folder">Qovluq seç</string>
     <string name="select_file">Fayl seç</string>
@@ -294,29 +280,24 @@
     <string name="confirm_selection">Seçimi təsdiqlə</string>
     <string name="loading">Loading…</string>
     <string name="access_storage_prompt">Please grant our app access to all your files, it might not work well without it.</string>
-
     <plurals name="items">
         <item quantity="one">%d fayl</item>
         <item quantity="other">%d fayl</item>
     </plurals>
-
     <!-- Are you sure you want to delete 5 items? -->
     <plurals name="delete_items">
         <item quantity="one">%d fayl</item>
         <item quantity="other">%d fayl</item>
     </plurals>
-
     <plurals name="deleting_items">
         <item quantity="one">%d silinir</item>
         <item quantity="other">%d silinir</item>
     </plurals>
-
     <!-- Are you sure you want to delete 5 contacts? -->
     <plurals name="delete_contacts">
         <item quantity="one">%d contact</item>
         <item quantity="other">%d contacts</item>
     </plurals>
-
     <!-- Storages -->
     <string name="select_storage">Yaddaş seç</string>
     <string name="storage">Storage</string>
@@ -329,7 +310,6 @@
     <string name="app_on_sd_card">Görünür tətbiqi SD karta yükləmisiniz, bu widgetlərin işləməsinin qarşısını alır. Siz widgetləri əlçatan widgetlər siyahısında belə görə bilməyəcəksiniz.
         Bu sistem məhdudiyyətidir, əgər vidjetlərin işləməsini istəyirsinizsə, tətbiqi daxili yaddaşa köçürməlisiniz.</string>
     <string name="wrong_folder_selected">Wrong folder selected, please select path \'%s\'</string>
-
     <!-- File properties -->
     <string name="properties">Xüsusiyyətlər</string>
     <string name="path">Yol</string>
@@ -353,7 +333,6 @@
     <string name="remove_exif">Remove EXIF</string>
     <string name="remove_exif_confirmation">Are you sure you want to remove EXIF values like GPS coordinates, camera model etc?</string>
     <string name="exif_removed">EXIF values removed successfully</string>
-
     <!-- Color customization -->
     <string name="background_color">Arxaplan rəngi</string>
     <string name="text_color">Yazı rəngi</string>
@@ -383,7 +362,6 @@
             Lütfən bağış edin <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Bu funksiyanı açdığınız və təkmilləşdirməni dəstəklədiyiniz üçün Sadə Təşəkkür</a>. Çox Sağolun!
         ]]>
     </string>
-
     <!-- Themes -->
     <string name="light_theme">İşıqlı</string>
     <string name="dark_theme">Qaranlıq</string>
@@ -396,11 +374,9 @@
     <string name="custom">Özəl</string>
     <string name="shared">Paylanmış</string>
     <string name="system_default">System default</string>
-
     <!-- What's new -->
     <string name="whats_new">Yeni nə var</string>
     <string name="whats_new_disclaimer">* burada yalnız böyük təzələmələr sıralanıb, həmişə əlavə yeniliklər də olur</string>
-
     <!-- Actionbar items -->
     <string name="delete">Sil</string>
     <string name="remove">Sil</string>
@@ -445,7 +421,6 @@
     <string name="hide_line_numbers">Hide line numbers</string>
     <string name="sleep_timer">Sleep timer</string>
     <string name="unblock">Unblock</string>
-
     <!-- Sorting -->
     <string name="sort_by">Sırala</string>
     <string name="name">Ad</string>
@@ -470,12 +445,13 @@
     <string name="use_custom_sorting">Use custom sorting</string>
     <string name="change_order">Change order</string>
     <string name="more_options">More options</string>
-
     <!-- Confirmation dialog -->
     <string name="proceed_with_deletion">Silmə prosesini təsdiqləyirsiniz?</string>
-    <string name="deletion_confirmation">%s faylı silmək istdəyinizə əminsiniz?</string>    <!-- Are you sure you want to delete 5 items? -->
+    <string name="deletion_confirmation">%s faylı silmək istdəyinizə əminsiniz?</string>
+    <!-- Are you sure you want to delete 5 items? -->
     <string name="deletion_confirmation_short">Delete %s?</string>
-    <string name="move_to_recycle_bin_confirmation">%s\'i zibil qutusuna atmaq istədiyinizə əminsiniz?</string>    <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
+    <string name="move_to_recycle_bin_confirmation">%s\'i zibil qutusuna atmaq istədiyinizə əminsiniz?</string>
+    <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
     <string name="are_you_sure_delete">Faylı silmək istədiyinizə əminsiniz?</string>
     <string name="are_you_sure_recycle_bin">Bu faylı zibil qutusuna atmaq istədiyinizə əminsiniz?</string>
     <string name="do_not_ask_again">Bu oturumda birdə soruşma</string>
@@ -483,12 +459,10 @@
     <string name="yes">Bəli</string>
     <string name="no">Xeyr</string>
     <string name="maybe">Maybe</string>
-
     <plurals name="delete_warning">
         <item quantity="one">WARNING: You are deleting %d folder</item>
         <item quantity="other">XƏBƏRDARLIQ: %d sayda qovluğu silirsiniz</item>
     </plurals>
-
     <!-- Password protection -->
     <string name="pin">PIN</string>
     <string name="enter_pin">PIN\'i daxil edin</string>
@@ -523,7 +497,6 @@
     <string name="empty_password_new">Please enter a password</string>
     <string name="empty_password">Please enter the password</string>
     <string name="invalid_password">Incorrect password</string>
-
     <!-- Times -->
     <string name="yesterday">Dünən</string>
     <string name="today">Bugün</string>
@@ -538,7 +511,6 @@
     <string name="minutes_letter">m</string>
     <string name="hours_letter">h</string>
     <string name="week_number_short">wk.</string>
-
     <plurals name="seconds">
         <item quantity="one">%d saniyə</item>
         <item quantity="other">%d saniyə</item>
@@ -567,7 +539,6 @@
         <item quantity="one">%d il</item>
         <item quantity="other">%d il</item>
     </plurals>
-
     <!-- For example: I will be there in 5 minutes -->
     <plurals name="in_seconds">
         <item quantity="one">%d saniyə</item>
@@ -597,7 +568,6 @@
         <item quantity="one">%d year</item>
         <item quantity="other">%d years</item>
     </plurals>
-
     <!-- For example: Event reminder: 3 minutes before -->
     <plurals name="seconds_before">
         <item quantity="one">%d saniyə əvvəl</item>
@@ -627,7 +597,6 @@
         <item quantity="one">%d year before</item>
         <item quantity="other">%d years before</item>
     </plurals>
-
     <!-- For example: Postpone reminder by 3 minutes -->
     <plurals name="by_seconds">
         <item quantity="one">%d saniyə</item>
@@ -657,7 +626,6 @@
         <item quantity="one">%d year</item>
         <item quantity="other">%d years</item>
     </plurals>
-
     <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
     <string name="alarm_goes_off_in">Zəng dayanana qədər qalan vaxt:\n%s</string>
     <string name="reminder_triggers_in">Xatırladıcının işləməsinə qalan vaxt:\n%s</string>
@@ -665,7 +633,6 @@
     <string name="alarm_warning">Xahiş olunur zəngə istinad etməzdən əvvəl işləyib işləmədiyini yoxlayın. Güc qoruma parametrləri onun işləməsində problem yarada bilər.</string>
     <string name="reminder_warning">Xahiş olunur xatırladıcılara istinad etməzdən əvvəl işləyib işləmədiyini yoxlayın. Güc qoruma parametrləri onların işləməsində problem yarada bilər.</string>
     <string name="notifications_disabled">Notifications of this application are disabled. Please go in your device settings for enabling them.</string>
-
     <!-- Alarms -->
     <string name="alarm">Zəng</string>
     <string name="snooze">Yuxu</string>
@@ -678,7 +645,6 @@
     <string name="no_sound">Səs yoxdur</string>
     <string name="during_day_at_hh_mm">During the day at hh:mm</string>
     <string name="during_day_at">During the day at %02d:%02d</string>
-
     <!-- Settings -->
     <string name="settings">Parametrlər</string>
     <string name="purchase_simple_thank_you">Sadə Təşəkkür\'ü Alın</string>
@@ -726,7 +692,6 @@
     <string name="start_name_with_surname">Ada soyaddan başla</string>
     <string name="clear_cache">Clear cache</string>
     <string name="show_call_confirmation_dialog">Zəngə başlamazdan əvvəl zəng təsdiq pəncərəsi göstər</string>
-
     <!-- Setting sections -->
     <string name="visibility">Görünürlük</string>
     <string name="security">Qoruma</string>
@@ -741,7 +706,6 @@
     <string name="main_screen">Main screen</string>
     <string name="thumbnails">Thumbnails</string>
     <string name="list_view">List view</string>
-
     <!-- Excluding -->
     <string name="exclude">Exclude</string>
     <string name="exclude_folder">Exclude folder</string>
@@ -752,7 +716,6 @@
     <string name="remove_all_description">Remove all folders from the list of excluded\? This will not delete the folders.</string>
     <string name="temporarily_show_excluded">Temporarily show excluded</string>
     <string name="stop_showing_excluded">Stop showing excluded</string>
-
     <!-- Default tab to open -->
     <string name="manage_shown_tabs">Göstərilən nişanları idarə et</string>
     <string name="default_tab_to_open">Tab to open at app start</string>
@@ -763,7 +726,6 @@
     <string name="last_used_tab">Last used one</string>
     <string name="files_tab">Files</string>
     <string name="recent_files_tab">Recent files</string>
-
     <!-- Recycle Bin -->
     <string name="restore_this_file">Bu faylı geri qaytar</string>
     <string name="restore_selected_files">Bu faylları geri qaytar</string>
@@ -777,12 +739,10 @@
     <string name="hide_the_recycle_bin">Hide the Recycle Bin</string>
     <string name="open_the_recycle_bin">Open the Recycle Bin</string>
     <string name="skip_the_recycle_bin">Skip the Recycle Bin, delete files directly</string>
-
     <plurals name="moving_items_into_bin">
         <item quantity="one">Moving %d item into the Recycle Bin</item>
         <item quantity="other">Moving %d items into the Recycle Bin</item>
     </plurals>
-
     <!-- Import / Export -->
     <string name="importing">Daxil edilir…</string>
     <string name="exporting">Çıxarılır…</string>
@@ -799,13 +759,11 @@
     <string name="enable_automatic_backups">Enable automatic backups</string>
     <string name="manage_automatic_backups">Manage automatic backups</string>
     <string name="date_time_pattern_info">You can use the following patterns to name your file automatically:\n\n%Y - year\n%M - month\n%D - day\n%h - hour\n%m - minute\n%s - second</string>
-
     <!-- OTG devices -->
     <string name="usb">USB</string>
     <string name="usb_detected">You seem to have an USB device attached to your device. To make sure its files appear properly, you need to grant additional permissions.</string>
     <string name="confirm_usb_storage_access_text">Xahiş edirik icazə vermək üçün sonrakı ekranda çıxan USB cihazın root qovluğunu seçin</string>
     <string name="wrong_root_selected_usb">Yanlış qovluq seçilib, xahiş olunur USB cihazın root qovluğunu seçin</string>
-
     <!-- Dates -->
     <string name="january">Yanvar</string>
     <string name="february">Fevral</string>
@@ -832,7 +790,6 @@
     <string name="october_short">Oct</string>
     <string name="november_short">Nov</string>
     <string name="december_short">Dec</string>
-
     <!-- in January -->
     <string name="in_january">Yanvarda</string>
     <string name="in_february">Fevralda</string>
@@ -846,7 +803,6 @@
     <string name="in_october">Oktyabrda</string>
     <string name="in_november">Noyabrda</string>
     <string name="in_december">Dekabrda</string>
-
     <string name="monday">Bazar Ertəsi</string>
     <string name="tuesday">Çərşənbə Axşamı</string>
     <string name="wednesday">Çərşənbə</string>
@@ -854,7 +810,6 @@
     <string name="friday">Cümə</string>
     <string name="saturday">Şənbə</string>
     <string name="sunday">Bazar</string>
-
     <string name="monday_letter">B.E</string>
     <string name="tuesday_letter">Ç.A</string>
     <string name="wednesday_letter">Ç</string>
@@ -862,7 +817,6 @@
     <string name="friday_letter">C</string>
     <string name="saturday_letter">Ş</string>
     <string name="sunday_letter">B</string>
-
     <string name="monday_short">Bzr.E</string>
     <string name="tuesday_short">Çrş.A</string>
     <string name="wednesday_short">Çrş</string>
@@ -870,7 +824,6 @@
     <string name="friday_short">Cü</string>
     <string name="saturday_short">Şnb</string>
     <string name="sunday_short">Bzr</string>
-
     <!-- Pro version -->
     <string name="upgrade_to_pro_long">Your app version will not be updated anymore. Please upgrade to the Pro version to receive new fixes and other improvements.</string>
     <string name="upgrade_to_pro_long_click">Your app version will not be updated anymore. Please upgrade to the Pro version to receive new fixes and other improvements by clicking here.</string>
@@ -885,7 +838,6 @@
     <string name="upgraded_from_free_calendar">Hello,\n\nseems like you just upgraded from the free version. If you want to migrate your locally stored events over, you have to do it manually by exporting them into an .ics file in the free app version and importing here through the top menu. \n\nOnce you are satisfied with your setup in the Pro version, you can uninstall the old free one as you won\'t need it anymore.\n\nThanks!</string>
     <string name="upgraded_from_free_contacts">Hello,\n\nseems like you just upgraded from the free version. If you had any contacts stored under \"%s\", you have to migrate them manually by exporting in a .vcf file from the free app version and importing here through the top menu.\n\nOnce you are satisfied with your setup in the Pro version, you can uninstall the old free one as you won\'t need it anymore.\n\nThanks!</string>
     <string name="upgraded_from_free_notes">Hello,\n\nseems like you just upgraded from the free version. If you want to migrate your notes over, you have to do it manually by exporting them into a file in the free app version and importing here through the top menu. \n\nOnce you are satisfied with your setup in the Pro version, you can uninstall the old free one as you won\'t need it anymore.\n\nThanks!</string>
-
     <!-- About -->
     <string name="about">Haqqında</string>
     <string name="website">Website</string>
@@ -909,7 +861,7 @@
     <string name="privacy_policy">Privacy policy</string>
     <string name="version_placeholder">Version %s</string>
     <string name="hello">Hello :)</string>
-    <string name="about_footer">Made with &#10084;&#65039; in Slovakia</string>
+    <string name="about_footer">Made with ❤️ in Slovakia</string>
     <string name="additional_info">Əlavə məlumat</string>
     <string name="app_version">Tətbiq versiyası: %s</string>
     <string name="device_os">Cihaz ƏS: %s</string>
@@ -936,7 +888,6 @@
     <string name="thank_you">Thank you</string>
     <string name="widget_locked_pro">The widget is locked.\nPlease upgrade to the Pro version to unlock it.</string>
     <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>
-
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">
         <![CDATA[
@@ -949,7 +900,6 @@
             Thanks
         ]]>
     </string>
-
     <string name="simple_app_launcher">Simple App Launcher</string>
     <string name="simple_calculator">Simple Calculator</string>
     <string name="simple_calendar">Simple Calendar</string>
@@ -968,7 +918,6 @@
     <string name="simple_sms_messenger">Simple SMS Messenger</string>
     <string name="simple_thank_you">Simple Thank You</string>
     <string name="simple_voice_recorder">Simple Voice Recorder</string>
-
     <string name="app_launcher_short">App Launcher</string>
     <string name="calculator_short">Kalkulyator</string>
     <string name="calendar_short">Təqvim</string>
@@ -987,13 +936,11 @@
     <string name="sms_messenger_short">SMS Messenger</string>
     <string name="thank_you_short">Təşəkkürlər</string>
     <string name="voice_recorder_short">Voice Recorder</string>
-
     <string name="sideloaded_app">
         <![CDATA[
             It looks like your app version is corrupt. Please download the original version <a href="%s">here</a>.
         ]]>
     </string>
-
     <!-- FAQ -->
     <string name="frequently_asked_questions">Tez-tez Soruşulan Suallar</string>
     <string name="before_asking_question">Xahiş olunur sual verməmişdən qabaq aşağıdakı bölməni oxuyun</string>
@@ -1026,7 +973,6 @@
         want to select all items, just long press one item, then click at the selected item counter at the top left corner. That will select or unselect all everything.</string>
     <string name="faq_10_title_commons">I have purchased the app, but I cannot download it on another device.</string>
     <string name="faq_10_text_commons">Try clearing your Google Play app cache and restarting your device. It is some Google Play glitch, not really related to the app itself.</string>
-
     <!-- Contributors -->
     <string name="contributors">Contributors</string>
     <string name="translation">Translation</string>
@@ -1039,7 +985,6 @@
             Thanks to all contributors and other supporters!
         ]]>
     </string>
-
     <string name="translation_arabic">Arabic</string>
     <string name="translation_azerbaijani">Azerbaijani</string>
     <string name="translation_bengali">Bengali</string>
@@ -1085,7 +1030,6 @@
     <string name="translation_chinese_hk">Chinese (Hong Kong)</string>
     <string name="translation_chinese_cn">Chinese (Simplified)</string>
     <string name="translation_chinese_tw">Chinese (Traditional)</string>
-
     <!-- Pro comparison (shown in the deprecated free apps) -->
     <string name="why_upgrade">Get the Pro version now!</string>
     <string name="why_upgrade_basic_version">Basic</string>
@@ -1096,7 +1040,6 @@
     <string name="why_upgrade_footer_one_time_payment">One time payment</string>
     <string name="why_upgrade_improved_design">Improved design</string>
     <string name="why_upgrade_many_other_improvements">Many other improvements</string>
-
     <!-- Gallery Pro -->
     <string name="why_upgrade_advanced_photo_editor">Advanced photo editor</string>
     <string name="why_upgrade_advanced_photo_video_editor">Advanced photo &amp; video editor</string>
@@ -1104,13 +1047,11 @@
     <string name="why_upgrade_batch_renaming">Advanced batch file renaming</string>
     <string name="why_upgrade_folder_locking">Individual folder locking</string>
     <string name="why_upgrade_printing_support">Printing support</string>
-
     <!-- Calendar Pro -->
     <string name="why_upgrade_time_zone_support">Time zone support</string>
     <string name="why_upgrade_attendees_emails">Attendees and email reminders</string>
     <string name="why_upgrade_easy_event_importing">Easy event importing</string>
     <string name="why_upgrade_new_widgets">New widgets</string>
-
     <!-- Contacts Pro -->
     <string name="why_upgrade_duplicate_contact_merging">Improved duplicate contact merging</string>
     <string name="why_upgrade_font_size_customization">Font size customization</string>
@@ -1118,23 +1059,19 @@
     <string name="why_upgrade_customizable_contact_ringtones">Customizable contact ringtones</string>
     <string name="why_upgrade_contact_filtering">Contact filtering</string>
     <string name="why_upgrade_contact_private_contacts">Privately stored contacts</string>
-
     <!-- Notes Pro -->
     <string name="why_upgrade_checklists">Checklists</string>
     <string name="why_upgrade_different_note_per_widget">Different note and colors per widget</string>
     <string name="why_upgrade_note_locking">Note locking</string>
-
     <!-- File Manager Pro -->
     <string name="why_upgrade_date_and_time_format">Date and time format customization</string>
     <string name="why_upgrade_shortcuts">Home screen shortcuts</string>
     <string name="why_upgrade_file_compression">File compression support</string>
     <string name="why_upgrade_recents_tab">Tab with recent files</string>
-
     <!-- Draw Pro -->
     <string name="why_upgrade_background_color_customization">Background color customization</string>
     <string name="why_upgrade_file_importing">File importing support</string>
     <string name="why_upgrade_zooming">Zooming</string>
-
     <!-- License -->
     <string name="notice">Bu tətbiq həyatımı asanlaşdırmaq üçün aşağıdakı üçüncü partiya tətbiq kitabxanalarından istifadə edir. Təşəkkürlər.</string>
     <string name="third_party_licences">Üçüncü partiya lisenziyaları</string>
@@ -1178,18 +1115,18 @@
     <string name="trial_expires_soon">Your trial expires soon.</string>
     <string name="unlock_for_one_final_day">Unlock the app for one final day</string>
     <string name="welcome_to_app_name">Welcome to %s!</string>
-    <string name="trial_start_description">Thank you for using our app. You can use this unlocked version for &lt;font color=\'#FFFFFF\'>%d days&lt;/font>. Once the trial ends, please consider upgrading to the Pro version. It has a huge amount of new features, modern design, no ads and many other improvements.
+    <string name="trial_start_description">Thank you for using our app. You can use this unlocked version for &lt;font color=\'#FFFFFF\'&gt;%d days&lt;/font&gt;. Once the trial ends, please consider upgrading to the Pro version. It has a huge amount of new features, modern design, no ads and many other improvements.
         \n\nYou just have to pay for it once in a lifetime and if you won\'t be satisfied, you can uninstall it and get a refund.\n\nHope you\'ll like it :)</string>
     <string name="trial_end_description">Please upgrade to the Pro version to enjoy the app to the fullest.\n\nYou just have to pay for it once in a lifetime and if you won\'t be satisfied, you can uninstall it and get a refund.\n\nSee you there :)</string>
     <plurals name="trial_expires_days">
         <item quantity="one">Your trial expires in %d day.</item>
         <item quantity="other">Your trial expires in %d days.</item>
     </plurals>
-
     <!-- Google Play listing -->
     <string name="deprecated_app">DEPRECATED: This version of the app is no longer maintained, get the Pro version at https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">Don\'t forget that if you uninstall any paid app within 2 hours, you will automatically be refunded. If you want a refund anytime later, just contact us at hello@fossify.org and you will get it. That makes it easy to try it out :)</string>
-
     <!-- Description of our developer profile on Google Play, it can have max 140 characters -->
     <string name="developer_description">A group of simple, open source Android apps with customizable widgets, without ads and unnecessary permissions.</string>
+    <string name="faq_6_text_commons">This issue arises when your launcher does not fully support icon customization. Attempt launching the app through Google Play or a widget, if accessible. After launching, restore the default green icon color #1B5E20. In extreme cases, reinstalling the app may be necessary.</string>
+    <string name="app_icon_color_warning">Caution: Certain launchers may not handle app icon customization correctly. If the icon disappears, attempt launching the app through Google Play or a widget, if accessible. After launching, restore the default green icon color #1B5E20. In extreme cases, reinstalling the app may be necessary.</string>
 </resources>
