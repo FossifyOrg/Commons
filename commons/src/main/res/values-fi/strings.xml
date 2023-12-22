@@ -1029,4 +1029,6 @@
     <string name="translation_gujarati"></string>
     <string name="format_phone_numbers"></string>
     <string name="update_thank_you"></string>
+    <string name="app_icon_color_warning"></string>
+    <string name="faq_6_text_commons"></string>
 </resources>
