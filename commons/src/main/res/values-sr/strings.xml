@@ -1074,4 +1074,6 @@
     <string name="welcome_to_app_name"></string>
     <string name="trial_start_description"></string>
     <string name="trial_end_description"></string>
+    <string name="app_icon_color_warning"></string>
+    <string name="faq_6_text_commons"></string>
 </resources>
