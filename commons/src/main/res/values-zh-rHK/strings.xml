@@ -990,4 +990,6 @@
     <string name="translation_lithuanian"></string>
     <string name="translation_japanese"></string>
     <string name="translation_korean"></string>
+    <string name="faq_6_text_commons"></string>
+    <string name="app_icon_color_warning"></string>
 </resources>
