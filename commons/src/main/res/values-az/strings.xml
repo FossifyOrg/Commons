@@ -1027,4 +1027,6 @@
         <item quantity="one"></item>
         <item quantity="other"></item>
     </plurals>
+    <string name="faq_6_text_commons"></string>
+    <string name="app_icon_color_warning"></string>
 </resources>
