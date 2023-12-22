@@ -1021,4 +1021,6 @@
     <string name="faq_4_text_commons"></string>
     <string name="faq_10_text_commons"></string>
     <string name="translation_japanese"></string>
+    <string name="app_icon_color_warning"></string>
+    <string name="faq_6_text_commons"></string>
 </resources>
