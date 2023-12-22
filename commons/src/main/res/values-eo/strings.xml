@@ -1021,4 +1021,6 @@
     <string name="gson_title"></string>
     <string name="indicator_fast_scroll_title"></string>
     <string name="trial_start_description"></string>
+    <string name="app_icon_color_warning"></string>
+    <string name="faq_6_text_commons"></string>
 </resources>
