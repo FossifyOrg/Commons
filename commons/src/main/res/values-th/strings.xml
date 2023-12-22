@@ -984,4 +984,6 @@
     <string name="thank_you_short"></string>
     <string name="privacy_policy"></string>
     <string name="translation_hungarian"></string>
+    <string name="app_icon_color_warning"></string>
+    <string name="faq_6_text_commons"></string>
 </resources>
