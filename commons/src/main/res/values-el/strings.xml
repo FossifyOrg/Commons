@@ -78,7 +78,6 @@
     <string name="phone_storage_hidden">Ο Αποθηκευτικός χώρος του τηλεφώνου (δεν είναι ορατός από άλλες εφαρμογές)</string>
     <string name="audio">Ήχος</string>
     <string name="scanning">Σάρωση…</string>
-
     <!-- Events -->
     <string name="birthday">Γενέθλια</string>
     <string name="anniversary">Επέτειος</string>
@@ -1116,7 +1115,7 @@
     <string name="trial_expires_soon">Η Δοκιμή σας λήγει σύντομα.</string>
     <string name="unlock_for_one_final_day">Ξεκλειδώστε την εφαρμογή για μια τελευταία ημέρα</string>
     <string name="welcome_to_app_name">Καλώς ήρθατε σε %s!</string>
-    <string name="trial_start_description">Σας ευχαριστούμε που χρησιμοποιείτε την εφαρμογή μας. Μπορείτε να χρησιμοποιήσετε αυτή την ξεκλείδωτη έκδοση για &lt;font color=\'#FFFFFF\'>%d ημέρες&lt;/font>. Μετά το τέλος της δοκιμής, παρακαλούμε εξετάστε το ενδεχόμενο αναβάθμισης στην έκδοση Pro. Διαθέτει μεγάλο αριθμό νέων χαρακτηριστικών, μοντέρνο σχεδιασμό, χωρίς διαφημίσεις και πολλές άλλες βελτιώσεις.
+    <string name="trial_start_description">Σας ευχαριστούμε που χρησιμοποιείτε την εφαρμογή μας. Μπορείτε να χρησιμοποιήσετε αυτή την ξεκλείδωτη έκδοση για &lt;font color=\'#FFFFFF\'&gt;%d ημέρες&lt;/font&gt;. Μετά το τέλος της δοκιμής, παρακαλούμε εξετάστε το ενδεχόμενο αναβάθμισης στην έκδοση Pro. Διαθέτει μεγάλο αριθμό νέων χαρακτηριστικών, μοντέρνο σχεδιασμό, χωρίς διαφημίσεις και πολλές άλλες βελτιώσεις.
         \n\nΑπλά πρέπει να πληρώσετε για αυτό μια φορά στη ζωή σας και αν δεν είστε ικανοποιημένοι, μπορείτε να την απεγκαταστήσετε και να λάβετε επιστροφή χρημάτων.\n\nΕλπίζω να σας αρέσει. :)</string>
     <string name="trial_end_description">Παρακαλούμε αναβαθμίστε στην έκδοση Pro για να απολαύσετε την εφαρμογή στο έπακρο.\n\nΠρέπει να πληρώσετε μόνο μια φορά στη ζωή σας και αν δεν είστε ικανοποιημένοι, μπορείτε να την απεγκαταστήσετε και να λάβετε επιστροφή χρημάτων.\n\nΤα λέμε εκεί. :)</string>
     <plurals name="trial_expires_days">
@@ -1128,4 +1127,6 @@
     <string name="pro_app_refund">Μην ξεχνάτε οτι αν απεγκατασταθεί εντός 2 ωρών, θα επιστραφούν αυτόματα τα χρήματα σας. Αν θέλετε επιστροφή χρημάτων οποιαδήποτε στιγμή αργότερα, απλά επικοινωνήστε μαζί μας στο hello@fossify.org και θα τα λάβετε. Αυτό το κάνει εύκολότερο για να την δοκιμάσετε :)</string>
     <!-- Description of our developer profile on Google Play, it can have max 140 characters -->
     <string name="developer_description">Μια ομάδα Απλών εφαρμογών Android ανοιχτού κώδικα με προσαρμόσιμα γραφικά στοιχεία, χωρίς διαφημίσεις και περιττές Άδειες.</string>
+    <string name="faq_6_text_commons">This issue arises when your launcher does not fully support icon customization. Attempt launching the app through Google Play or a widget, if accessible. After launching, restore the default green icon color #1B5E20. In extreme cases, reinstalling the app may be necessary.</string>
+    <string name="app_icon_color_warning">Caution: Certain launchers may not handle app icon customization correctly. If the icon disappears, attempt launching the app through Google Play or a widget, if accessible. After launching, restore the default green icon color #1B5E20. In extreme cases, reinstalling the app may be necessary.</string>
 </resources>
