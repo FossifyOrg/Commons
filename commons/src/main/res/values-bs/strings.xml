@@ -1064,4 +1064,6 @@
     <string name="translation_chuvash"></string>
     <string name="translation_esperanto"></string>
     <string name="trial_start_description"></string>
+    <string name="app_icon_color_warning"></string>
+    <string name="faq_6_text_commons"></string>
 </resources>
