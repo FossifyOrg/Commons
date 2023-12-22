@@ -1072,4 +1072,6 @@
     <string name="contributors_label"></string>
     <string name="translation_basque"></string>
     <string name="translation_welsh"></string>
+    <string name="faq_6_text_commons"></string>
+    <string name="app_icon_color_warning"></string>
 </resources>
