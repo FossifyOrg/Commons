@@ -1204,4 +1204,6 @@
     <string name="pro_app_refund">Не забывайце, што калі вы выдаліце любую платную праграму на працягу 2 гадзін, вам аўтаматычна вернуць грошы. Калі вы хочаце вярнуць грошы ў любы час пазней, проста звяжыцеся з намі па адрасе hello@fossify.org, і вы атрымаеце іх. Гэта дазваляе лёгка паспрабаваць :)</string>
     <!-- Description of our developer profile on Google Play, it can have max 140 characters -->
     <string name="developer_description">Група простых праграм для Android з адкрытым зыходным кодам і віджэтамі, якія можна наладзіць, без рэкламы і непатрэбных дазволаў.</string>
+    <string name="faq_6_text_commons">This issue arises when your launcher does not fully support icon customization. Attempt launching the app through Google Play or a widget, if accessible. After launching, restore the default green icon color #1B5E20. In extreme cases, reinstalling the app may be necessary.</string>
+    <string name="app_icon_color_warning">Caution: Certain launchers may not handle app icon customization correctly. If the icon disappears, attempt launching the app through Google Play or a widget, if accessible. After launching, restore the default green icon color #1B5E20. In extreme cases, reinstalling the app may be necessary.</string>
 </resources>
