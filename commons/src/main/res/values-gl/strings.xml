@@ -1029,4 +1029,6 @@
     <string name="donate_short"></string>
     <string name="all_fossify_apps"></string>
     <string name="contributors_label"></string>
+    <string name="app_icon_color_warning"></string>
+    <string name="faq_6_text_commons"></string>
 </resources>
