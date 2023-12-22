@@ -1044,4 +1044,6 @@
     <string name="platforms"></string>
     <string name="why_upgrade_pro_version"></string>
     <string name="unlock_for_one_final_day"></string>
+    <string name="app_icon_color_warning"></string>
+    <string name="faq_6_text_commons"></string>
 </resources>
