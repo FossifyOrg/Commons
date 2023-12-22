@@ -1044,4 +1044,6 @@
     <string name="little_to_no_fee"></string>
     <string name="cryptocurrency"></string>
     <string name="fee_up_to_pct"></string>
+    <string name="faq_6_text_commons"></string>
+    <string name="app_icon_color_warning"></string>
 </resources>
