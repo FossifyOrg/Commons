@@ -1152,4 +1152,6 @@
     <string name="pro_app_refund">Palun arvesta, et kui eemaldad tasulise rakenduse nutiseadmest 2 tunni jooksul, siis ostusumma tagastatakse automaatselt. Kui soovit tagastust hiljem, siis saada e-kiri hello@fossify.org aadressile ning korraldame tagastuse. Mõlemal juhul on sul võimalik meie tasulisi rakendusi testida :)</string>
     <!-- Description of our developer profile on Google Play, it can have max 140 characters -->
     <string name="developer_description">Arendame Androidi jaoks avatud lähtekoodil põhinevaid lihtsaid tarvikuid ja milles pole reklaame ega vajadust asjatute õiguste jaoks.</string>
+    <string name="faq_6_text_commons">This issue arises when your launcher does not fully support icon customization. Attempt launching the app through Google Play or a widget, if accessible. After launching, restore the default green icon color #1B5E20. In extreme cases, reinstalling the app may be necessary.</string>
+    <string name="app_icon_color_warning">Caution: Certain launchers may not handle app icon customization correctly. If the icon disappears, attempt launching the app through Google Play or a widget, if accessible. After launching, restore the default green icon color #1B5E20. In extreme cases, reinstalling the app may be necessary.</string>
 </resources>
