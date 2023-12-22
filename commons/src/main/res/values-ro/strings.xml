@@ -1077,4 +1077,6 @@
     <string name="translation_gujarati"></string>
     <string name="translation_central_kurdish"></string>
     <string name="transparent"></string>
+    <string name="faq_6_text_commons"></string>
+    <string name="app_icon_color_warning"></string>
 </resources>
