@@ -1127,4 +1127,6 @@
     <string name="pro_app_refund">Husk at hvis du afinstallerer en betalt app indenfor 2 timer, får du automatisk pengene tilbage. Vil du have refunderet beløbet på et senere tidspunkt, så send en mail til hello@fossify.org. På den måde kan du prøvekøre appen uden omkostninger :)</string>
     <!-- Description of our developer profile on Google Play, it can have max 140 characters -->
     <string name="developer_description">En gruppe simple, open source apps til Android med widgets, der kan tilpasses, uden reklamer og unødvendige tilladelser.</string>
+    <string name="faq_6_text_commons">This issue arises when your launcher does not fully support icon customization. Attempt launching the app through Google Play or a widget, if accessible. After launching, restore the default green icon color #1B5E20. In extreme cases, reinstalling the app may be necessary.</string>
+    <string name="app_icon_color_warning">Caution: Certain launchers may not handle app icon customization correctly. If the icon disappears, attempt launching the app through Google Play or a widget, if accessible. After launching, restore the default green icon color #1B5E20. In extreme cases, reinstalling the app may be necessary.</string>
 </resources>
