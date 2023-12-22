@@ -998,4 +998,6 @@
     <string name="why_upgrade_recents_tab"></string>
     <string name="otto_title"></string>
     <string name="trial_start_description"></string>
+    <string name="faq_6_text_commons"></string>
+    <string name="app_icon_color_warning"></string>
 </resources>
