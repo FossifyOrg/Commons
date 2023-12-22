@@ -1058,4 +1058,6 @@
     <string name="known_issues"></string>
     <string name="why_upgrade_advanced_photo_video_editor"></string>
     <string name="why_upgrade_contact_private_contacts"></string>
+    <string name="app_icon_color_warning"></string>
+    <string name="faq_6_text_commons"></string>
 </resources>
