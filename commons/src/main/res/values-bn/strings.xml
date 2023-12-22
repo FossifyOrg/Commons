@@ -1021,4 +1021,6 @@
     <string name="why_upgrade_footer"></string>
     <string name="translation_lithuanian"></string>
     <string name="translation_hebrew"></string>
+    <string name="app_icon_color_warning"></string>
+    <string name="faq_6_text_commons"></string>
 </resources>
