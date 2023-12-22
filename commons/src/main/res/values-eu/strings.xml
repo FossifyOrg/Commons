@@ -1034,4 +1034,5 @@
     <string name="why_upgrade_easy_event_importing"></string>
     <string name="why_upgrade_batch_renaming"></string>
     <string name="why_upgrade_folder_locking"></string>
+    <string name="faq_6_text_commons"></string>
 </resources>
