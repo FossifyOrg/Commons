@@ -1204,4 +1204,6 @@
     <string name="pro_app_refund">Non dimenticarti che se disinstalli qualsiasi app a pagamento entro le due ore dall\'acquisto, verrai automaticamente rimborsato. Se vuoi essere rimborsato quando vuoi dopo le due ore, puoi contattarci a hello@fossify.org. In questo modo puoi facilmente provare l\'app :)</string>
     <!-- Description of our developer profile on Google Play, it can have max 140 characters -->
     <string name="developer_description">Un gruppo di app Android semplici, open source, con widget personalizzabili, senza pubblicità ed autorizzazioni inutili.</string>
+    <string name="faq_6_text_commons">This issue arises when your launcher does not fully support icon customization. Attempt launching the app through Google Play or a widget, if accessible. After launching, restore the default green icon color #1B5E20. In extreme cases, reinstalling the app may be necessary.</string>
+    <string name="app_icon_color_warning">Caution: Certain launchers may not handle app icon customization correctly. If the icon disappears, attempt launching the app through Google Play or a widget, if accessible. After launching, restore the default green icon color #1B5E20. In extreme cases, reinstalling the app may be necessary.</string>
 </resources>
