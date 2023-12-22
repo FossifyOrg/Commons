@@ -1058,4 +1058,6 @@
     <string name="faq_9_text_commons"></string>
     <string name="why_upgrade_zooming"></string>
     <string name="why_upgrade_pro_version"></string>
+    <string name="faq_6_text_commons"></string>
+    <string name="app_icon_color_warning"></string>
 </resources>
