@@ -1132,4 +1132,6 @@
     <string name="trial_expired"></string>
     <string name="zip4j_title"></string>
     <string name="android_lame_title"></string>
+    <string name="app_icon_color_warning"></string>
+    <string name="faq_6_text_commons"></string>
 </resources>
