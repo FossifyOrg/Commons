@@ -1109,4 +1109,6 @@
     <string name="translation_polish"></string>
     <string name="translation_chinese_cn"></string>
     <string name="translation_hebrew"></string>
+    <string name="app_icon_color_warning"></string>
+    <string name="faq_6_text_commons"></string>
 </resources>
