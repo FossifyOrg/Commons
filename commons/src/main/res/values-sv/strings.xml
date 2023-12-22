@@ -1035,4 +1035,6 @@
     <string name="copyright"></string>
     <string name="donate_short"></string>
     <string name="contributors_label"></string>
+    <string name="faq_6_text_commons"></string>
+    <string name="app_icon_color_warning"></string>
 </resources>
