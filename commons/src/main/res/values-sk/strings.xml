@@ -1081,4 +1081,6 @@
     <string name="donate_new"></string>
     <string name="translation_esperanto"></string>
     <string name="translation_gujarati"></string>
+    <string name="app_icon_color_warning"></string>
+    <string name="faq_6_text_commons"></string>
 </resources>
