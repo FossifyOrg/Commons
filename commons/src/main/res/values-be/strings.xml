@@ -1095,4 +1095,6 @@
     <string name="translation_russian"></string>
     <string name="translation_serbian"></string>
     <string name="translation_czech"></string>
+    <string name="app_icon_color_warning"></string>
+    <string name="faq_6_text_commons"></string>
 </resources>
