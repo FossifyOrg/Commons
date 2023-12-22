@@ -1309,4 +1309,6 @@
     <string name="pro_app_refund">لا تنسى أنه إذا قمت بإلغاء تثبيت أي تطبيق مدفوع في غضون ساعتين ، فسيتم إسترداد أموالك تلقائياً. إذا كنت تريد إسترداد الأموال في أي وقت لاحق ، فأتصل بنا على hello@fossify.org وستحصل عليه. هذا يجعل من السهل تجربته :)</string>
     <!-- Description of our developer profile on Google Play, it can have max 140 characters -->
     <string name="developer_description">مجموعة بسيطة، من تطبيقات أندرويد المفتوحة المصدر ذات الودجات القابلة للتخصيص، بدون إعلانات أو أذونات غير ضرورية.</string>
+    <string name="faq_6_text_commons">This issue arises when your launcher does not fully support icon customization. Attempt launching the app through Google Play or a widget, if accessible. After launching, restore the default green icon color #1B5E20. In extreme cases, reinstalling the app may be necessary.</string>
+    <string name="app_icon_color_warning">Caution: Certain launchers may not handle app icon customization correctly. If the icon disappears, attempt launching the app through Google Play or a widget, if accessible. After launching, restore the default green icon color #1B5E20. In extreme cases, reinstalling the app may be necessary.</string>
 </resources>
