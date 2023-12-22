@@ -1185,4 +1185,6 @@
     <string name="sms_mms_title"></string>
     <string name="audio_record_view_title"></string>
     <string name="deprecated_app"></string>
+    <string name="app_icon_color_warning"></string>
+    <string name="faq_6_text_commons"></string>
 </resources>
