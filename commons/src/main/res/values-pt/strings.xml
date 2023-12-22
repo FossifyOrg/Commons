@@ -1062,4 +1062,6 @@
     <string name="allow_notifications_incoming_messages"></string>
     <string name="donate_please"></string>
     <string name="features_locked"></string>
+    <string name="faq_6_text_commons"></string>
+    <string name="app_icon_color_warning"></string>
 </resources>
