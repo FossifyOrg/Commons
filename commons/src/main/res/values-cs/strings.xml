@@ -1007,7 +1007,12 @@
     <string name="faq_1_text_commons">Je velmi pravděpodobné, že jste aplikaci přesunuli na SD kartu. Jde o omezení systému Android, které v takovém případě skryje widget dané aplikace.
         Jediným řešením je přesunutí aplikace zpět do interního úložiště skrze nastavení vašeho zařízení.</string>
     <string name="faq_2_title_commons">Chtěl bych vás podpořit, ale nemohu peněžně. Mohu pomoci i jiným způsobem?</string>
-    <string name="faq_2_text_commons">Ano, samozřejmě. Můžete šířit informace o aplikacích nebo poskytnout dobrou zpětnou vazbu a hodnocení. Můžete také pomoci překladem aplikací do nového jazyka nebo jen aktualizovat některé stávající překlady. Průvodce překladem je na &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;této webové stránce&lt;/a&gt;. Pokud máte nějaké dotazy, kontaktujte nás na adrese &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt;.</string>
+    <string name="faq_2_text_commons">
+        <![CDATA[
+            Yes, of course. You can spread the word about the apps or give good feedback and ratings. You can also help by translating the apps in a new language, or just update some existing translations.
+            The guide to translating is at <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">this website</a>, or just contact us at <a href="mailto:hello@fossify.org">hello@fossify.org</a> if you have any questions.
+        ]]>
+    </string>
     <string name="faq_3_title_commons">Nechtěně jsem smazal některé soubory, jak je mohu obnovit?</string>
     <string name="faq_3_text_commons">Bohužel nemůžete. Soubory jsou smazány okamžitě po potvrzovacím dialogu, žádný koš není k dispozici.</string>
     <string name="faq_4_title_commons">Nelíbí se mi barvy widgetu, mohu je změnit?</string>
@@ -1032,7 +1037,13 @@
     <string name="translation">Překlad</string>
     <string name="development">Vývoj</string>
     <string name="other_help">Other help</string>
-    <string name="contributors_label">Tento seznam obsahuje všechny, kteří výrazně pomohli jakékoli aplikaci v rámci sady Fossify, nejen této. O překlady se starají dobrovolníci, dejte nám vědět, pokud chcete pomoci i Vy. Průvodce překladem je na &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;této webové stránce&lt;/a&gt;. Pokud máte nějaké dotazy, kontaktujte nás na adrese &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt;. Děkujeme všem přispěvatelům a dalším podporovatelům!</string>
+    <string name="contributors_label">
+        <![CDATA[
+            This list contains everyone that noticeably helped any app within the Fossify suite, not only this one. Translations are handled by volunteers,
+            let us know if you want to help too. The guide to translating is at <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">this website</a>, or just contact us at <a href="mailto:hello@fossify.org">hello@fossify.org</a> if you have any questions.
+            Thanks to all contributors and other supporters!
+        ]]>
+    </string>
     <string name="translation_arabic">Arabic</string>
     <string name="translation_azerbaijani">Azerbaijani</string>
     <string name="translation_bengali">Bengali</string>

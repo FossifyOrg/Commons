@@ -962,7 +962,12 @@
     <string name="faq_1_title_commons">Com és que no veig aquest giny a la llista de ginys\?</string>
     <string name="faq_1_text_commons">Probablement, perquè heu mogut l\'aplicació a una targeta SD. Hi ha una limitació del sistema d\'Android que oculta els ginys de l\'aplicació en aquest cas. L\'única solució és moure l\'aplicació a l\'emmagatzematge intern a través de la configuració del dispositiu.</string>
     <string name="faq_2_title_commons">Vull ajudar-vos, però no puc donar diners. Hi ha res més que pugui fer\?</string>
-    <string name="faq_2_text_commons">Sí, és clar. Podeu difondre les aplicacions o fer bones valoracions i comentaris. També podeu ajudar traduint les aplicacions a un idioma nou o simplement actualitzant algunes traduccions existents. La guia per traduir es troba en &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;aquest lloc web&lt;/a&gt;, o senzillament poseu-vos en contacte amb nosaltres a &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; si teniu cap pregunta.</string>
+    <string name="faq_2_text_commons">
+        <![CDATA[
+            Yes, of course. You can spread the word about the apps or give good feedback and ratings. You can also help by translating the apps in a new language, or just update some existing translations.
+            The guide to translating is at <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">this website</a>, or just contact us at <a href="mailto:hello@fossify.org">hello@fossify.org</a> if you have any questions.
+        ]]>
+    </string>
     <string name="faq_3_title_commons">He suprimit alguns fitxers per error, com els puc recuperar\?</string>
     <string name="faq_3_text_commons">Malauradament, no podeu fer-ho. Els fitxers se suprimeixen a l\'instant després del diàleg de confirmació, no hi ha cap paperera disponible.</string>
     <string name="faq_4_title_commons">No m\'agraden els colors del giny, puc canviar-los\?</string>
@@ -985,7 +990,13 @@
     <string name="translation">Traducció</string>
     <string name="development">Desenvolupament</string>
     <string name="other_help">Altra ajuda</string>
-    <string name="contributors_label">Aquesta llista conté tots els que van ajudar notablement a qualsevol aplicació de la suite Fossify, no només aquesta. Les traduccions són gestionades per voluntaris, fes-nos saber si vós també voleu ajudar. La guia per traduir es troba a &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;aquest lloc web&lt;/a&gt;, o simplement poseu-vos en contacte amb nosaltres a &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; si teniu qualsevol pregunta. Gràcies a tots els col·laboradors i altres patrocinadors!</string>
+    <string name="contributors_label">
+        <![CDATA[
+            This list contains everyone that noticeably helped any app within the Fossify suite, not only this one. Translations are handled by volunteers,
+            let us know if you want to help too. The guide to translating is at <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">this website</a>, or just contact us at <a href="mailto:hello@fossify.org">hello@fossify.org</a> if you have any questions.
+            Thanks to all contributors and other supporters!
+        ]]>
+    </string>
     <string name="translation_arabic">Àrab</string>
     <string name="translation_azerbaijani">Àzeri</string>
     <string name="translation_bengali">Bengalí</string>
