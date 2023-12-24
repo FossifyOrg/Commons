@@ -910,7 +910,13 @@
     <string name="additional_info">Informazio gehigarria</string>
     <string name="app_version">Aplikazioaren bertsioa: %s</string>
     <string name="device_os">Gailuaren SE: %s</string>
-    <string name="donate_please">Kaixo,&lt;br&gt;&lt;br&gt; aplikazioaz gozatzea espero dugu. Ez dauka iragarkirik. Mesedez, lagundu bere garapena &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Eskerrik asko&lt;/a&gt; aplikazioa erosiz. elkarrizketa-koadro hau berriro agertzea ere eragotziko du.&lt;br&gt;&lt;br&gt; Eskerrik asko!</string>
+    <string name="donate_please">
+        <![CDATA[
+            Hello,<br><br>
+            hope you are enjoying the app. It contains no ads, please support its development by purchasing the <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> app, it will also prevent this dialog from showing up again.<br><br>
+            Thank you!
+        ]]>
+    </string>
     <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
     <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
     <string name="purchase">Erosi</string>

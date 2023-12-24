@@ -876,7 +876,13 @@
     <string name="additional_info">Info tambahan</string>
     <string name="app_version">Versi aplikasi: %s</string>
     <string name="device_os">OS perangkat: %s</string>
-    <string name="donate_please">Halo,&lt;br&gt;&lt;br&gt; semoga Anda menyukai aplikasi ini. Aplikasi ini sama sekali tidak berisi iklan, dukung pengembangan dengan membeli aplikasi &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Terima Kasih Simpel&lt;/a&gt;, ini juga untuk mencegah dialog ini muncul kembali.&lt;br&gt;&lt;br&gt; Terima kasih!</string>
+    <string name="donate_please">
+        <![CDATA[
+            Hello,<br><br>
+            hope you are enjoying the app. It contains no ads, please support its development by purchasing the <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> app, it will also prevent this dialog from showing up again.<br><br>
+            Thank you!
+        ]]>
+    </string>
     <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
     <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
     <string name="purchase">Beli</string>

@@ -914,7 +914,13 @@
     <string name="additional_info">Informació addicional</string>
     <string name="app_version">Versió de l\'aplicació: %s</string>
     <string name="device_os">SO del dispositiu: %s</string>
-    <string name="donate_please">Hola,&lt;br&gt;&lt;br&gt; esperem que gaudiu de l\'aplicació. No conté cap anunci, així que si us plau, ajudeu el seu desenvolupament comprant l\'aplicació &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;, també evitarà que aquest diàleg es torni a mostrar.&lt;br&gt;&lt;br&gt; Gràcies!</string>
+    <string name="donate_please">
+        <![CDATA[
+            Hello,<br><br>
+            hope you are enjoying the app. It contains no ads, please support its development by purchasing the <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> app, it will also prevent this dialog from showing up again.<br><br>
+            Thank you!
+        ]]>
+    </string>
     <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
     <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
     <string name="purchase">Compra</string>
