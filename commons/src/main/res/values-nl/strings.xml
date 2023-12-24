@@ -353,12 +353,16 @@
     <string name="undo_changes_confirmation">Wijzigingen inderdaad ongedaan maken\?</string>
     <string name="cannot_be_undone">Deze bewerking kan niet ongedaan worden gemaakt.</string>
     <string name="save_before_closing">Er zijn niet opgeslagen wijzigingen. Opslaan voor het afsluiten\?</string>
-    <string name="apply_to_all_apps">Kleuren toepassen op al onze apps</string>
+    <string name="apply_to_all_apps">Apply colors to all Fossify Apps</string>
     <string name="app_icon_color_warning">Caution: Certain launchers may not handle app icon customization correctly. If the icon disappears, attempt launching the app through Google Play or a widget, if accessible.
         After launching, restore the default green icon color #1B5E20. In extreme cases, reinstalling the app may be necessary.</string>
     <string name="share_colors_success">Kleuren gewijzigd. Gebruik het nieuwe thema \'Gedeeld\' om de kleuren voor al onze apps aan te passen.</string>
-    <string name="shared_theme_note">Ook bij gebruik van de Pro-versie van deze app komt de app Eenvoudig Bedankje nog van pas, omdat het de synchronisatie van het gemeenschappelijk thema verzorgt.</string>
-    <string name="purchase_thank_you">Om deze functie te gebruiken en om verdere ontwikkeling te ondersteunen graag &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Eenvoudig Bedankje&lt;/a&gt; aanschaffen. Alvast bedankt!</string>
+    <string name="shared_theme_note">Note that even though you are using the Pro app version, you still need Fossify Thank You for technical reasons. It takes care of the color synchronization.</string>
+    <string name="purchase_thank_you">
+        <![CDATA[
+            Please purchase <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> to unlock this function and support the development. Thanks!
+        ]]>
+    </string>
     <!-- Themes -->
     <string name="light_theme">Licht</string>
     <string name="dark_theme">Donker</string>
@@ -645,7 +649,7 @@
     <string name="during_day_at">Overdag om %02d.%02du</string>
     <!-- Settings -->
     <string name="settings">Instellingen</string>
-    <string name="purchase_simple_thank_you">Eenvoudig Bedankje kopen</string>
+    <string name="purchase_simple_thank_you">Purchase Fossify Thank You</string>
     <string name="general_settings">Algemeen</string>
     <string name="color_customization">Kleuren aanpassen</string>
     <string name="improved_color_customization">Verbeterde aanpassing van kleuren</string>
@@ -883,11 +887,10 @@
             Dank u wel!
         ]]>
     </string>
-    <string name="donate_new">Hallo,&lt;br&gt;&lt;br&gt;Hopelijk gebruik je deze app met veel plezier. Het bevat geen advertenties en we verzamelen totaal geen gegevens. Je kunt de ontwikkeling ondersteunen door &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Eenvoudig Bedankje&lt;/a&gt; aan te schaffen. Hiermee ontgrendel je alle functies in onze apps en kun je de kleuren voor alle apps aanpassen.&lt;br&gt;&lt;br&gt;Dankjewel!</string>
-    <string name="donate_short">Ondersteun ons door de app &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Eenvoudig Bedankje&lt;/a&gt; aan te schaffen. Dit zal alle functionaliteit in de apps ontgrendelen.</string>
+    <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
+    <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
     <string name="purchase">Kopen</string>
-    <string name="get_simple_phone">Eenvoudige Telefoon downloaden</string>
-    <string name="update_thank_you">Update Eenvoudig Bedankje naar de nieuwste versie</string>
+    <string name="update_thank_you">Please update Fossify Thank You to the latest version</string>
     <string name="before_asking_question_read_faq">Controleer bij problemen eerst de instellingen van de app en neem de Veelgestelde vragen door. Misschien staat de oplossing daar.</string>
     <string name="before_rate_read_faq">Controleer eerst de app-instellingen en lees de veelgestelde vragen voordat u ons beoordeelt. Als er problemen zijn, staat de oplossing misschien daar.</string>
     <string name="make_sure_latest">Zorg er ook voor dat de laatste versie van de app is geïnstalleerd.</string>
@@ -906,7 +909,7 @@
     <string name="rate_our_app">Beoordeel onze app! :)</string>
     <string name="thank_you">Bedankt!</string>
     <string name="widget_locked_pro">De widget is vergrendeld.\nUpgrade naar de Pro-versie om te ontgrendelen.</string>
-    <string name="features_locked">Deze functie is vergrendeld. Overweeg het aanschaffen van &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Eenvoudig Bedankje&lt;/a&gt; om alle functies in deze app te kunnen gebruiken.&lt;br&gt;&lt;br&gt;Dit is een eenmalige aanschaf met een niet-goed-geld-teruggarantie.</string>
+    <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">
         <![CDATA[
@@ -919,24 +922,6 @@
             Bedankt!
         ]]>
     </string>
-    <string name="simple_app_launcher">Eenvoudige App Launcher</string>
-    <string name="simple_calculator">Eenvoudige Rekenmachine</string>
-    <string name="simple_calendar">Eenvoudige Agenda</string>
-    <string name="simple_camera">Eenvoudige Camera</string>
-    <string name="simple_clock">Eenvoudige Klok</string>
-    <string name="simple_contacts">Eenvoudig Adresboek</string>
-    <string name="simple_dialer">Eenvoudige Telefoon</string>
-    <string name="simple_draw">Eenvoudig Tekenen</string>
-    <string name="simple_file_manager">Eenvoudig Bestandsbeheer</string>
-    <string name="simple_flashlight">Eenvoudige Zaklamp</string>
-    <string name="simple_gallery">Eenvoudige Galerij</string>
-    <string name="simple_keyboard">Eenvoudig Toetsenbord</string>
-    <string name="simple_launcher">Eenvoudige Launcher</string>
-    <string name="simple_music_player">Eenvoudige Muziekspeler</string>
-    <string name="simple_notes">Eenvoudige Notities</string>
-    <string name="simple_sms_messenger">Eenvoudig Berichtenbeheer (SMS)</string>
-    <string name="simple_thank_you">Eenvoudig Bedankje</string>
-    <string name="simple_voice_recorder">Eenvoudige Voicerecorder</string>
     <string name="app_launcher_short">App-launcher</string>
     <string name="calculator_short">Rekenmachine</string>
     <string name="calendar_short">Agenda</string>
@@ -992,7 +977,13 @@
     <string name="translation">Vertaling</string>
     <string name="development">Ontwikkeling</string>
     <string name="other_help">Andere hulp</string>
-    <string name="contributors_label">Deze lijst bevat de namen van iedereen die aan een app binnen de Fossify suite heeft bijgedragen. Vertalingen worden gedaan door vrijwilligers, dus laat het ons weten als je ook wilt helpen. Lees de instructies &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;op deze website&lt;/a&gt;, of stuur bij vragen een bericht naar &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt;. Bedankt voor alle bijdragen en andere ondersteuning!</string>
+    <string name="contributors_label">
+        <![CDATA[
+            This list contains everyone that noticeably helped any app within the Fossify suite, not only this one. Translations are handled by volunteers,
+            let us know if you want to help too. The guide to translating is at <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">this website</a>, or just contact us at <a href="mailto:hello@fossify.org">hello@fossify.org</a> if you have any questions.
+            Thanks to all contributors and other supporters!
+        ]]>
+    </string>
     <string name="translation_arabic">Arabisch</string>
     <string name="translation_azerbaijani">Azerbeidjaans</string>
     <string name="translation_bengali">Bengaals</string>

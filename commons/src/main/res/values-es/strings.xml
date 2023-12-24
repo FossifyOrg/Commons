@@ -360,13 +360,13 @@
     <string name="undo_changes_confirmation">¿Seguro que quiere deshacer los cambios?</string>
     <string name="cannot_be_undone">Esta acción no se puede deshacer.</string>
     <string name="save_before_closing">Tiene cambios sin aplicar. ¿Guardar antes de salir?</string>
-    <string name="apply_to_all_apps">Aplicar colores a todas las aplicaciones Simple Apps</string>
+    <string name="apply_to_all_apps">Apply colors to all Fossify Apps</string>
     <string name="app_icon_color_warning">Precaución: Es posible que algunos lanzadores no gestionen correctamente la personalización de los iconos de las aplicaciones. Si el icono desaparece, intente iniciar la aplicación a través de Google Play o un widget, si es accesible. Una vez iniciada, restaura el icono verde #1B5E20 predeterminado. En casos extremos, puede ser necesario reinstalar la aplicación.</string>
     <string name="share_colors_success">Colores actualizados correctamente. Se ha añadido un nuevo tema llamado \'Compartido\', por favor utilicelo para actualizar los colores de todas las aplicaciones en el futuro.</string>
-    <string name="shared_theme_note">Tenga en cuenta que aunque esté utilizando la versión de la aplicación Pro, aún necesita Simple Gracias por razones técnicas. Se encarga de la sincronización del color.</string>
+    <string name="shared_theme_note">Note that even though you are using the Pro app version, you still need Fossify Thank You for technical reasons. It takes care of the color synchronization.</string>
     <string name="purchase_thank_you">
         <![CDATA[
-            Por favor compra <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Simple Gracias</a> para desbloquear esta función y ayudar al desarrollo. ¡Gracias!
+            Por favor compra <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> para desbloquear esta función y ayudar al desarrollo. ¡Gracias!
         ]]>
     </string>
     <!-- Themes -->
@@ -685,7 +685,7 @@
     <string name="during_day_at">Durante el día a las %02d:%02d</string>
     <!-- Settings -->
     <string name="settings">Ajustes</string>
-    <string name="purchase_simple_thank_you">Comprar Simple Gracias</string>
+    <string name="purchase_simple_thank_you">Purchase Fossify Thank You</string>
     <string name="general_settings">General</string>
     <string name="color_customization">Personalización del color</string>
     <string name="improved_color_customization">Personalización mejorada de los colores</string>
@@ -949,15 +949,14 @@
     <string name="donate_please">
         <![CDATA[
             Hola,<br><br>
-            Espero que estés disfrutando de la aplicación. No contiene anuncios, por lo que debe respaldar su desarrollo comprando la aplicación <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Simple Gracias</a>, también evitará que este diálogo vuelva a aparecer.<br><br>
+            Espero que estés disfrutando de la aplicación. No contiene anuncios, por lo que debe respaldar su desarrollo comprando la aplicación <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>, también evitará que este diálogo vuelva a aparecer.<br><br>
             ¡Gracias!
         ]]>
     </string>
-    <string name="donate_new">Hola,&lt;br&gt;&lt;br&gt;espero que estés disfrutando de la aplicación. No contiene anuncios y tampoco recopilamos sus datos. Apoye su desarrollo comprando &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Simple Gracias&lt;/a&gt;. También desbloqueará todas las funciones de la aplicación, incluida la personalización del color.&lt;br&gt;&lt;br&gt;¡Gracias!</string>
-    <string name="donate_short">Apóyenos comprando &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Simple Gracias&lt;/a&gt; por favor, también desbloqueará todas las funciones de la aplicación, incluido los colores.</string>
+    <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
+    <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
     <string name="purchase">Comprar</string>
-    <string name="get_simple_phone">Conseguir un teléfono sencillo</string>
-    <string name="update_thank_you">Por favor, actualice Simple Gracias a la última versión</string>
+    <string name="update_thank_you">Please update Fossify Thank You to the latest version</string>
     <string name="before_asking_question_read_faq">Antes de hacer una pregunta, lea las preguntas más frecuentes. Quizás la solución esté ahí.</string>
     <string name="before_rate_read_faq">Antes de calificarnos, verifique la configuración de la aplicación y lea primero las preguntas frecuentes. Si tiene algún problema, tal vez la solución esté ahí.</string>
     <string name="make_sure_latest">También asegúrese de estar utilizando la última versión de la aplicación.</string>
@@ -968,7 +967,7 @@
     <string name="rate_our_app">Califica nuestra aplicación por favor :)</string>
     <string name="thank_you">Gracias</string>
     <string name="widget_locked_pro">El widget está bloqueado.\nActualice a la versión Pro para desbloquearlo.</string>
-    <string name="features_locked">Esta función está bloqueada, compre &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Simple Gracias&lt;/a&gt; por desbloquear la aplicación completa.&lt;br &lt;br&gt;Es un pago único y si no está satisfecho, podemos reembolsarselo.</string>
+    <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">
         <![CDATA[
@@ -981,24 +980,6 @@
             Gracias
         ]]>
     </string>
-    <string name="simple_app_launcher">Lanzador de Aplicaciones Simple </string>
-    <string name="simple_calculator">Calculadora Simple</string>
-    <string name="simple_calendar">Calendario Simple</string>
-    <string name="simple_camera">Cámara Simple</string>
-    <string name="simple_clock">Reloj Simple</string>
-    <string name="simple_contacts">Contactos Simples</string>
-    <string name="simple_dialer">Marcador Simple</string>
-    <string name="simple_draw">Dibuja Simple</string>
-    <string name="simple_file_manager">Administrador Simple de Archivos</string>
-    <string name="simple_flashlight">Linterna Simple</string>
-    <string name="simple_gallery">Galería Simple</string>
-    <string name="simple_keyboard">Teclado Sencillo</string>
-    <string name="simple_launcher">Lanzador sencillo</string>
-    <string name="simple_music_player">Reproductor Simple de Música</string>
-    <string name="simple_notes">Notas Simples</string>
-    <string name="simple_sms_messenger">Mensajero SMS Simple</string>
-    <string name="simple_thank_you">Simple Gracias</string>
-    <string name="simple_voice_recorder">Grabadora de Voz Simple</string>
     <string name="app_launcher_short">Lanzador de aplicaciones</string>
     <string name="calculator_short">Calculadora</string>
     <string name="calendar_short">Calendario</string>

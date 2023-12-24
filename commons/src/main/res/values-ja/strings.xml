@@ -350,14 +350,14 @@
     <string name="undo_changes_confirmation">変更を元に戻してもよろしいですか？</string>
     <string name="cannot_be_undone">この操作は元に戻せません。</string>
     <string name="save_before_closing">保存していない変更があります。保存しますか？</string>
-    <string name="apply_to_all_apps">すべてのSimple Appsに色を適用する</string>
+    <string name="apply_to_all_apps">Apply colors to all Fossify Apps</string>
     <string name="app_icon_color_warning">Caution: Certain launchers may not handle app icon customization correctly. If the icon disappears, attempt launching the app through Google Play or a widget, if accessible.
         After launching, restore the default green icon color #1B5E20. In extreme cases, reinstalling the app may be necessary.</string>
     <string name="share_colors_success">色の更新に成功しました。新しいテーマ \'共有\' が追加されたので、今後はそちらから全てのアプリの色変更を行ってください。</string>
-    <string name="shared_theme_note">Pro版のアプリを使用していても、技術的な理由によりSimple Thank Youが必要であることにご留意下さい。色の同期を処理します。</string>
+    <string name="shared_theme_note">Note that even though you are using the Pro app version, you still need Fossify Thank You for technical reasons. It takes care of the color synchronization.</string>
     <string name="purchase_thank_you">
         <![CDATA[
-            この機能のロックを解除して開発者をサポートするには、<a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Simple Thank You</a> アプリを購入してください。
+            この機能のロックを解除して開発者をサポートするには、<a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> アプリを購入してください。
         ]]>
     </string>
     <!-- Themes -->
@@ -617,7 +617,7 @@
     <string name="during_day_at">日中 %02d:%02d</string>
     <!-- Settings -->
     <string name="settings">設定</string>
-    <string name="purchase_simple_thank_you">Simple Thank Youを購入</string>
+    <string name="purchase_simple_thank_you">Purchase Fossify Thank You</string>
     <string name="general_settings">全般</string>
     <string name="color_customization">カラーカスタマイズ</string>
     <string name="improved_color_customization">カラーカスタマイズの改善</string>
@@ -863,15 +863,14 @@
     <string name="donate_please">
         <![CDATA[
             こんにちは<br><br>
-            アプリを楽しんでいただけているでしょうか。広告無しを続けるため、<a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Simple Thank You</a>アプリを購入し開発の力になってください。購入されれば、この表示も二度と出ません。 <br><br>
+            アプリを楽しんでいただけているでしょうか。広告無しを続けるため、<a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>アプリを購入し開発の力になってください。購入されれば、この表示も二度と出ません。 <br><br>
             ありがとうございます！
         ]]>
     </string>
-    <string name="donate_new">こんにちは、&lt;br&gt;&lt;br&gt; アプリを楽しんでいただけているでしょうか。広告無しでプライバシーを尊重するアプリを続けるため、&lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt;アプリを購入し開発の力になってください。購入されれば、色のカスタマイズを含むすべてのアプリ機能のロック解除も行えます。 &lt;br&gt;&lt;br&gt; ありがとうございます！</string>
-    <string name="donate_short">&lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt;アプリを購入し開発の力になってください。購入されれば、色のカスタマイズを含むすべてのアプリ機能のロック解除も行えます。</string>
+    <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
+    <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
     <string name="purchase">購入する</string>
-    <string name="get_simple_phone">Get Simple Phone</string>
-    <string name="update_thank_you">\"Simple Thank You\" アプリを最新版に更新してください</string>
+    <string name="update_thank_you">Please update Fossify Thank You to the latest version</string>
     <string name="before_asking_question_read_faq">お問い合わせいただく前に、アプリの設定を確認し、よくある質問を見てください。答えが載っているかもしれません。</string>
     <string name="before_rate_read_faq">当社を評価していただく前に、アプリの設定を確認し、よくある質問を見てください。問題が発生しているなら、答えが見つかるかもしれません。</string>
     <string name="make_sure_latest">最新バージョンのアプリを利用しているかご確認ください。</string>
@@ -883,27 +882,9 @@
     <string name="thank_you">ありがとうございます</string>
     <string name="widget_locked_pro">ウィジェットはロックされています。
 \nロックを解除するには、Pro版にアップグレードしてください。</string>
-    <string name="features_locked">この機能はロックされています。ロックを解除するには、 &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt; を購入する必要があります。&lt;br&gt;&lt;br&gt;お支払いは1回のみで、ご満足いただけない場合はご返金いたします。</string>
+    <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">こんにちは、&lt;br&gt;&lt;br&gt; 最近、新しいアプリをいくつかリリースしたのでお知らせします:&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; アイコンかタイトルをタップするだけでダウンロードできます。&lt;br&gt;&lt;br&gt; ありがとうございます</string>
-    <string name="simple_app_launcher">Simple App ランチャー</string>
-    <string name="simple_calculator">Simple電卓</string>
-    <string name="simple_calendar">Simpleカレンダー</string>
-    <string name="simple_camera">Simpleカメラ</string>
-    <string name="simple_clock">Simple時計</string>
-    <string name="simple_contacts">Simpleコンタクト</string>
-    <string name="simple_dialer">Simpleダイヤラー</string>
-    <string name="simple_draw">Simpleお絵かき</string>
-    <string name="simple_file_manager">Simpleファイルマネージャー</string>
-    <string name="simple_flashlight">Simpleフラッシュライト</string>
-    <string name="simple_gallery">Simpleギャラリー</string>
-    <string name="simple_keyboard">シンプルキーボード</string>
-    <string name="simple_launcher">Simpleランチャー</string>
-    <string name="simple_music_player">Simple音楽プレーヤー</string>
-    <string name="simple_notes">Simpleメモ</string>
-    <string name="simple_sms_messenger">Simpleショートメール</string>
-    <string name="simple_thank_you">Simple Thank You</string>
-    <string name="simple_voice_recorder">Simpleボイスレコーダー</string>
     <string name="app_launcher_short">アプリランチャー</string>
     <string name="calculator_short">電卓</string>
     <string name="calendar_short">カレンダー</string>
@@ -933,7 +914,12 @@
     <string name="faq_1_title_commons">ウィジェットのリストにこのアプリが表示されないのはなぜですか？</string>
     <string name="faq_1_text_commons">おそらく、SDカード内にアプリが保存されているからです。その場合、Androidには特定のアプリウィジェットを非表示にするシステム制限があります。デバイスの設定から、アプリを内部ストレージへ移動してください。</string>
     <string name="faq_2_title_commons">支援をしたいけど、お金の寄付が出来ません。他に出来ることはありますか？</string>
-    <string name="faq_2_text_commons">はい、もちろんです。このアプリに関しての情報を広めたり、改善のためのフィードバックを送ったり、ストアでの評価を行ったり出来ます。また、アプリの未翻訳フレーズを翻訳したり、既存の翻訳を改善したりすることも出来ます。翻訳ガイドは &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;こちらのWebサイト&lt;/a&gt; にあります。ご不明な点がございましたら、 &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; までお問い合わせください。</string>
+    <string name="faq_2_text_commons">
+        <![CDATA[
+            Yes, of course. You can spread the word about the apps or give good feedback and ratings. You can also help by translating the apps in a new language, or just update some existing translations.
+            The guide to translating is at <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">this website</a>, or just contact us at <a href="mailto:hello@fossify.org">hello@fossify.org</a> if you have any questions.
+        ]]>
+    </string>
     <string name="faq_3_title_commons">間違えてファイルを削除してしまいました。どうすれば復元できますか？</string>
     <string name="faq_3_text_commons">残念ながら復元は出来ません。一度了承するとファイルは即座に削除され、ごみ箱も利用不可となります。</string>
     <string name="faq_4_title_commons">ウィジェットの色が好みじゃないです。変更出来ますか？</string>
@@ -958,7 +944,13 @@
     <string name="translation">翻訳</string>
     <string name="development">開発</string>
     <string name="other_help">Other help</string>
-    <string name="contributors_label">このリストには、このアプリだけでなく、Fossify スイート内の特定のアプリを著しく助けた人たちが含まれています。翻訳はボランティアによって行われています。翻訳を行いたい場合はお知らせください。翻訳ガイドは &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;こちらのWebサイト&lt;/a&gt; にあります。ご不明な点がございましたら、 &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; までお問い合わせください。すべての貢献者ならびにすべてのサポーターに感謝いたします！</string>
+    <string name="contributors_label">
+        <![CDATA[
+            This list contains everyone that noticeably helped any app within the Fossify suite, not only this one. Translations are handled by volunteers,
+            let us know if you want to help too. The guide to translating is at <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">this website</a>, or just contact us at <a href="mailto:hello@fossify.org">hello@fossify.org</a> if you have any questions.
+            Thanks to all contributors and other supporters!
+        ]]>
+    </string>
     <string name="translation_arabic">Arabic</string>
     <string name="translation_azerbaijani">Azerbaijani</string>
     <string name="translation_bengali">Bengali</string>

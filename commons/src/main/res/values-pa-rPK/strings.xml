@@ -359,12 +359,16 @@
     <string name="undo_changes_confirmation">Are you sure you want to undo your changes\?</string>
     <string name="cannot_be_undone">This action cannot be undone.</string>
     <string name="save_before_closing">ہݨے تسیں ساریاں تبدیلیاں نہیں سامبھیاں ہن۔ ہݨ کیہ بند کرن توں پہلاں سامبھیو؟</string>
-    <string name="apply_to_all_apps">ساریاں سادیاں ایپلیکیشناں نوں رنگ لگاؤ</string>
+    <string name="apply_to_all_apps">Apply colors to all Fossify Apps</string>
     <string name="app_icon_color_warning">Caution: Certain launchers may not handle app icon customization correctly. If the icon disappears, attempt launching the app through Google Play or a widget, if accessible.
         After launching, restore the default green icon color #1B5E20. In extreme cases, reinstalling the app may be necessary.</string>
     <string name="share_colors_success">Colors updated successfully. A new Theme called \'Shared\' has been added, please use that for updating all app colors in the future.</string>
-    <string name="shared_theme_note">Note that even though you are using the Pro app version, you still need Simple Thank You for technical reasons. It takes care of the color synchronization.</string>
-    <string name="purchase_thank_you">Please purchase &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt; to unlock this function and support the development. Thanks!</string>
+    <string name="shared_theme_note">Note that even though you are using the Pro app version, you still need Fossify Thank You for technical reasons. It takes care of the color synchronization.</string>
+    <string name="purchase_thank_you">
+        <![CDATA[
+            Please purchase <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> to unlock this function and support the development. Thanks!
+        ]]>
+    </string>
     <!-- Themes -->
     <string name="light_theme">روشنی</string>
     <string name="dark_theme">ہنیر</string>
@@ -648,7 +652,7 @@
     <string name="during_day_at">During the day at %02d:%02d</string>
     <!-- Settings -->
     <string name="settings">سیٹنگاں</string>
-    <string name="purchase_simple_thank_you">سادے شکریئے اَیپ کھریدیو</string>
+    <string name="purchase_simple_thank_you">Purchase Fossify Thank You</string>
     <string name="general_settings">عام</string>
     <string name="color_customization">رنگ چݨنا</string>
     <string name="improved_color_customization">Improved color customization</string>
@@ -866,12 +870,17 @@
     <string name="additional_info">ہور جاݨکاری</string>
     <string name="app_version">‫اَیپ ورژن:؜ ‏%s‬؜</string>
     <string name="device_os">‫ڈیوائیس اوپریٹنگ سِسٹم:؜ ‏%s‬؜</string>
-    <string name="donate_please">Hello,&lt;br&gt;&lt;br&gt; hope you are enjoying the app. It contains no ads, please support its development by purchasing the &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt; app, it will also prevent this dialog from showing up again.&lt;br&gt;&lt;br&gt; Thank you!</string>
-    <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
-    <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
+    <string name="donate_please">
+        <![CDATA[
+            Hello,<br><br>
+            hope you are enjoying the app. It contains no ads, please support its development by purchasing the <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> app, it will also prevent this dialog from showing up again.<br><br>
+            Thank you!
+        ]]>
+    </string>
+    <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
+    <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
     <string name="purchase">کھریدیو</string>
-    <string name="get_simple_phone">سادی فون ویچی جا رہا اے</string>
-    <string name="update_thank_you">Please update Simple Thank You to the latest version</string>
+    <string name="update_thank_you">Please update Fossify Thank You to the latest version</string>
     <string name="before_asking_question_read_faq">Before you ask a question, please check the app settings and read the Frequently Asked Questions first. Maybe the solution is there.</string>
     <string name="before_rate_read_faq">Before you rate us, please check the app settings and read the Frequently Asked Questions first. If you have any problems, maybe the solution is there.</string>
     <string name="make_sure_latest">Also make sure that you are using the latest app version.</string>
@@ -890,26 +899,8 @@
     <string name="rate_our_app">جے پسند اے، آپݨے من دی گل کریو</string>
     <string name="thank_you">مہربانی</string>
     <string name="widget_locked_pro">The widget is locked.\nPlease upgrade to the Pro version to unlock it.</string>
-    <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>
+    <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>
     <string name="new_app">Hey,&lt;br&gt;&lt;br&gt; just letting you know that some new apps have been released recently:&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; You can download them by pressing their titles or icons.&lt;br&gt;&lt;br&gt; Thanks</string>
-    <string name="simple_app_launcher">سادہ ایپلیکیشن شروع کرتا</string>
-    <string name="simple_calculator">سادہ کیلکولیٹر</string>
-    <string name="simple_calendar">سادہ کیلینڈر</string>
-    <string name="simple_camera">سادہ کیمرہ</string>
-    <string name="simple_clock">سادہ گڑی</string>
-    <string name="simple_contacts">سادے رابطے</string>
-    <string name="simple_dialer">سادی فون ڈائل</string>
-    <string name="simple_draw">سادہ اُلیکݨ</string>
-    <string name="simple_file_manager">سادیاں فائلاں</string>
-    <string name="simple_flashlight">سادہ ٹورچ</string>
-    <string name="simple_gallery">سادیاں تصویراں</string>
-    <string name="simple_keyboard">سادہ کیبورڈ</string>
-    <string name="simple_launcher">سادہ شروع والا</string>
-    <string name="simple_music_player">سادہ سنگیت</string>
-    <string name="simple_notes">سادے نوٹ</string>
-    <string name="simple_sms_messenger">سادے سنیہے</string>
-    <string name="simple_thank_you">سادے شکریئے</string>
-    <string name="simple_voice_recorder">سادہ ریکارڈ والا</string>
     <string name="app_launcher_short">ایپلیکیشن شروع کرتا</string>
     <string name="calculator_short">کیلکولیٹر</string>
     <string name="calendar_short">کیلنڈر</string>
@@ -935,7 +926,12 @@
     <string name="faq_1_title_commons">How come I don\'t see this apps widget on the list of widgets\?</string>
     <string name="faq_1_text_commons">It is most likely because you moved the app on an SD card. There is an Android system limitation which hides the given app widgets in that case. The only solution is to move the app back onto the Internal Storage via your device settings.</string>
     <string name="faq_2_title_commons">I want to support you, but I cannot donate money. Is there anything else I can do\?</string>
-    <string name="faq_2_text_commons">Yes, of course. You can spread the word about the apps or give good feedback and ratings. You can also help by translating the apps in a new language, or just update some existing translations. The guide to translating is at &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;this website&lt;/a&gt;, or just contact us at &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; if you have any questions.</string>
+    <string name="faq_2_text_commons">
+        <![CDATA[
+            Yes, of course. You can spread the word about the apps or give good feedback and ratings. You can also help by translating the apps in a new language, or just update some existing translations.
+            The guide to translating is at <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">this website</a>, or just contact us at <a href="mailto:hello@fossify.org">hello@fossify.org</a> if you have any questions.
+        ]]>
+    </string>
     <string name="faq_3_title_commons">I deleted some files by mistake, how can I recover them\?</string>
     <string name="faq_3_text_commons">Sadly, you cannot. Files are deleted instantly after the confirmation dialog, there is no trashbin available.</string>
     <string name="faq_4_title_commons">I don\'t like the widget colors, can I change them\?</string>
@@ -958,7 +954,13 @@
     <string name="translation">ترجمہ</string>
     <string name="development">ڈیویلپمنٹ</string>
     <string name="other_help">ہور مدد</string>
-    <string name="contributors_label">This list contains everyone that noticeably helped any app within the Fossify suite, not only this one. Translations are handled by volunteers, let us know if you want to help too. The guide to translating is at &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;this website&lt;/a&gt;, or just contact us at &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; if you have any questions. Thanks to all contributors and other supporters!</string>
+    <string name="contributors_label">
+        <![CDATA[
+            This list contains everyone that noticeably helped any app within the Fossify suite, not only this one. Translations are handled by volunteers,
+            let us know if you want to help too. The guide to translating is at <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">this website</a>, or just contact us at <a href="mailto:hello@fossify.org">hello@fossify.org</a> if you have any questions.
+            Thanks to all contributors and other supporters!
+        ]]>
+    </string>
     <string name="translation_arabic">عربی</string>
     <string name="translation_azerbaijani">ازیری</string>
     <string name="translation_bengali">بنگالی</string>

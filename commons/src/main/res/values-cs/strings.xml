@@ -367,12 +367,16 @@
     <string name="undo_changes_confirmation">Opravdu chcete vrátit změny?</string>
     <string name="cannot_be_undone">Tuto akci nelze vrátit zpět.</string>
     <string name="save_before_closing">Máte neuložené změny. Chcete je před ukončením uložit\?</string>
-    <string name="apply_to_all_apps">Použít barvy ve všech Jednoduchých aplikacích</string>
+    <string name="apply_to_all_apps">Apply colors to all Fossify Apps</string>
     <string name="app_icon_color_warning">Caution: Certain launchers may not handle app icon customization correctly. If the icon disappears, attempt launching the app through Google Play or a widget, if accessible.
         After launching, restore the default green icon color #1B5E20. In extreme cases, reinstalling the app may be necessary.</string>
     <string name="share_colors_success">Barvy úspěšně aktualizovány. Byl přidán nový motiv „Sdílený“, v budoucnu jej prosím použijte pro úpravu barev u všech Jednoduchých aplikací zároveň.</string>
-    <string name="shared_theme_note">Všimněte si, že i když používáte „Pro“ verzi aplikace, z technických důvodů stále potřebujete Jednoduché děkuji. Postará se o synchronizaci barev.</string>
-    <string name="purchase_thank_you">Prosím, zakupte si &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Jednoduché děkuji&lt;/a&gt; pro odemknutí této funkce a pro podporu vývoje. Děkuji!</string>
+    <string name="shared_theme_note">Note that even though you are using the Pro app version, you still need Fossify Thank You for technical reasons. It takes care of the color synchronization.</string>
+    <string name="purchase_thank_you">
+        <![CDATA[
+            Please purchase <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> to unlock this function and support the development. Thanks!
+        ]]>
+    </string>
     <!-- Themes -->
     <string name="light_theme">Světlý</string>
     <string name="dark_theme">Tmavý</string>
@@ -688,7 +692,7 @@
     <string name="during_day_at">Během dne ve %02d:%02d</string>
     <!-- Settings -->
     <string name="settings">Nastavení</string>
-    <string name="purchase_simple_thank_you">Zakoupit Jednoduché děkuji</string>
+    <string name="purchase_simple_thank_you">Purchase Fossify Thank You</string>
     <string name="general_settings">Obecné</string>
     <string name="color_customization">Přizpůsobení barev</string>
     <string name="improved_color_customization">Vylepšené přizpůsobení barev</string>
@@ -948,12 +952,17 @@
     <string name="additional_info">Dodatečné informace</string>
     <string name="app_version">Verze aplikace: %s</string>
     <string name="device_os">Operační systém zařízení: %s</string>
-    <string name="donate_please">Dobrý den,&lt;br&gt;&lt;br&gt; doufáme, že se vám aplikace líbí. Neobsahuje žádné reklamy, podpořte prosím její vývoj zakoupením aplikace &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt;, čímž také zabráníte opětovnému zobrazení tohoto dialogu.&lt;br&gt;&lt;br&gt; Děkujeme Vám!</string>
-    <string name="donate_new">Dobrý den,&lt;br&gt;&lt;br&gt;doufáme, že se vám aplikace líbí. Neobsahuje žádné reklamy a neshromažďuje vaše data, podpořte prosím její vývoj zakoupením aplikace &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt;. Budete mít také odemčené všechny funkce aplikace včetně přizpůsobení barev.&lt;br&gt;&lt;br&gt;Děkujeme Vám!</string>
-    <string name="donate_short">Podpořte nás prosím zakoupením aplikace &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt;, odemkne to také všechny funkce aplikace včetně přizpůsobení barev.</string>
+    <string name="donate_please">
+        <![CDATA[
+            Hello,<br><br>
+            hope you are enjoying the app. It contains no ads, please support its development by purchasing the <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> app, it will also prevent this dialog from showing up again.<br><br>
+            Thank you!
+        ]]>
+    </string>
+    <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
+    <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
     <string name="purchase">Koupit</string>
-    <string name="get_simple_phone">Získat Jednoduchý telefon</string>
-    <string name="update_thank_you">Aktualizujte prosím Jednoduché děkuji na nejnovější verzi</string>
+    <string name="update_thank_you">Please update Fossify Thank You to the latest version</string>
     <string name="before_asking_question_read_faq">Před položením otázky se prosím podívejte do nastavení aplikace a přečtěte si často kladené otázky. Možná v nich naleznete svou odpověď.</string>
     <string name="before_rate_read_faq">Před hodnocením se prosím podívejte do nastavení aplikace a přečtěte si často kladené otázky. Máte-li nějaké problémy, možná v nich naleznete řešení.</string>
     <string name="make_sure_latest">Také se ujistěte, že používáte nejnovější verzi aplikace.</string>
@@ -965,7 +974,7 @@
     <string name="thank_you">Děkujeme</string>
     <string name="widget_locked_pro">Widget je uzamčen.
 \nChcete-li jej odemknout, upgradujte na verzi Pro.</string>
-    <string name="features_locked">Tato funkce je uzamčena, pro odemknutí celé aplikace si prosím zakupte &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt;.&lt;br &lt;br&gt;Jedná se pouze o jednorázovou platbu a pokud nebudete spokojeni, můžeme vám vrátit peníze.</string>
+    <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">
         <![CDATA[
@@ -978,24 +987,6 @@
             Děkuji
         ]]>
     </string>
-    <string name="simple_app_launcher">Jednoduchý spouštěč aplikací</string>
-    <string name="simple_calculator">Jednoduchá kalkulačka</string>
-    <string name="simple_calendar">Jednoduchý kalendář</string>
-    <string name="simple_camera">Jednoduchý fotoaparát</string>
-    <string name="simple_clock">Jednoduché hodiny</string>
-    <string name="simple_contacts">Simple Contacts</string>
-    <string name="simple_dialer">Jednoduchý telefon</string>
-    <string name="simple_draw">Jednoduché kreslení</string>
-    <string name="simple_file_manager">Simple File Manager</string>
-    <string name="simple_flashlight">Jednoduchá svítilna</string>
-    <string name="simple_gallery">Jednoduchá galerie</string>
-    <string name="simple_keyboard">Jednoduchá klávesnice</string>
-    <string name="simple_launcher">Jednoduchý spouštěč</string>
-    <string name="simple_music_player">Jednoduchý hudební přehrávač</string>
-    <string name="simple_notes">Simple Notes</string>
-    <string name="simple_sms_messenger">Jednoduché SMS zprávy</string>
-    <string name="simple_thank_you">Jednoduché děkuji</string>
-    <string name="simple_voice_recorder">Jednoduchý hlasový záznamník</string>
     <string name="app_launcher_short">Spouštěč aplikací</string>
     <string name="calculator_short">Kalkulačka</string>
     <string name="calendar_short">Kalendář</string>
@@ -1026,7 +1017,12 @@
     <string name="faq_1_text_commons">Je velmi pravděpodobné, že jste aplikaci přesunuli na SD kartu. Jde o omezení systému Android, které v takovém případě skryje widget dané aplikace.
         Jediným řešením je přesunutí aplikace zpět do interního úložiště skrze nastavení vašeho zařízení.</string>
     <string name="faq_2_title_commons">Chtěl bych vás podpořit, ale nemohu peněžně. Mohu pomoci i jiným způsobem?</string>
-    <string name="faq_2_text_commons">Ano, samozřejmě. Můžete šířit informace o aplikacích nebo poskytnout dobrou zpětnou vazbu a hodnocení. Můžete také pomoci překladem aplikací do nového jazyka nebo jen aktualizovat některé stávající překlady. Průvodce překladem je na &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;této webové stránce&lt;/a&gt;. Pokud máte nějaké dotazy, kontaktujte nás na adrese &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt;.</string>
+    <string name="faq_2_text_commons">
+        <![CDATA[
+            Yes, of course. You can spread the word about the apps or give good feedback and ratings. You can also help by translating the apps in a new language, or just update some existing translations.
+            The guide to translating is at <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">this website</a>, or just contact us at <a href="mailto:hello@fossify.org">hello@fossify.org</a> if you have any questions.
+        ]]>
+    </string>
     <string name="faq_3_title_commons">Nechtěně jsem smazal některé soubory, jak je mohu obnovit?</string>
     <string name="faq_3_text_commons">Bohužel nemůžete. Soubory jsou smazány okamžitě po potvrzovacím dialogu, žádný koš není k dispozici.</string>
     <string name="faq_4_title_commons">Nelíbí se mi barvy widgetu, mohu je změnit?</string>
@@ -1051,7 +1047,13 @@
     <string name="translation">Překlad</string>
     <string name="development">Vývoj</string>
     <string name="other_help">Other help</string>
-    <string name="contributors_label">Tento seznam obsahuje všechny, kteří výrazně pomohli jakékoli aplikaci v rámci sady Fossify, nejen této. O překlady se starají dobrovolníci, dejte nám vědět, pokud chcete pomoci i Vy. Průvodce překladem je na &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;této webové stránce&lt;/a&gt;. Pokud máte nějaké dotazy, kontaktujte nás na adrese &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt;. Děkujeme všem přispěvatelům a dalším podporovatelům!</string>
+    <string name="contributors_label">
+        <![CDATA[
+            This list contains everyone that noticeably helped any app within the Fossify suite, not only this one. Translations are handled by volunteers,
+            let us know if you want to help too. The guide to translating is at <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">this website</a>, or just contact us at <a href="mailto:hello@fossify.org">hello@fossify.org</a> if you have any questions.
+            Thanks to all contributors and other supporters!
+        ]]>
+    </string>
     <string name="translation_arabic">Arabic</string>
     <string name="translation_azerbaijani">Azerbaijani</string>
     <string name="translation_bengali">Bengali</string>

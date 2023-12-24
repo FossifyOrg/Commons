@@ -353,11 +353,11 @@
     <string name="undo_changes_confirmation">Değişikliklerinizi geri almak istediğinizden emin misiniz?</string>
     <string name="cannot_be_undone">Bu eylem geri alınamaz.</string>
     <string name="save_before_closing">Kaydedilmemiş değişiklikleriniz var. Çıkmadan önce kaydedilsin mi?</string>
-    <string name="apply_to_all_apps">Tüm Basit Uygulamalara renk uygula</string>
+    <string name="apply_to_all_apps">Apply colors to all Fossify Apps</string>
     <string name="app_icon_color_warning">Caution: Certain launchers may not handle app icon customization correctly. If the icon disappears, attempt launching the app through Google Play or a widget, if accessible.
         After launching, restore the default green icon color #1B5E20. In extreme cases, reinstalling the app may be necessary.</string>
     <string name="share_colors_success">"Renkler başarıyla güncellendi. 'Paylaşılan' adlı yeni bir Tema eklendi, lütfen gelecekte tüm uygulama renklerini güncellemek için onu kullanın."</string>
-    <string name="shared_theme_note">Pro uygulama sürümünü kullanıyor olsanız bile, teknik nedenlerden dolayı yine de Basit Teşekkürler\'e ihtiyacınız olduğunu unutmayın. Renk eşzamanlamasını o yapar.</string>
+    <string name="shared_theme_note">Note that even though you are using the Pro app version, you still need Fossify Thank You for technical reasons. It takes care of the color synchronization.</string>
     <string name="purchase_thank_you">
         <![CDATA[
             Bu işlevin kilidini açmak ve geliştirmeyi desteklemek için lütfen <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Basit Teşekkürler</a>\'i satın alın. Teşekkürler!
@@ -649,7 +649,7 @@
     <string name="during_day_at">Gün boyunca %02d:%02d</string>
     <!-- Settings -->
     <string name="settings">Ayarlar</string>
-    <string name="purchase_simple_thank_you">Basit Teşekkürler\'i Satın Al</string>
+    <string name="purchase_simple_thank_you">Purchase Fossify Thank You</string>
     <string name="general_settings">Genel</string>
     <string name="color_customization">Renk özelleştirme</string>
     <string name="improved_color_customization">İyileştirilmiş renk özelleştirmesi</string>
@@ -896,7 +896,7 @@
     <string name="rate">Oyla</string>
     <string name="donate">Bağış yap</string>
     <string name="follow_us">Bizi takip edin</string>
-    <string name="copyright">v %1$s\nTelif hakkı © Fossify %2$d</string>
+    <string name="copyright">v %1$s\nCopyright © Fossify %2$d</string>
     <string name="support">Destek</string>
     <string name="help_us">Bize yardım edin</string>
     <string name="social">Sosyal</string>
@@ -915,11 +915,10 @@
             Teşekkürler!
         ]]>
     </string>
-    <string name="donate_new">Merhaba,&lt;br&gt;&lt;br&gt; umarım uygulamadan memnunsunuzdur. Hiçbir reklam içermiyor ve verilerinizi de toplamıyoruz, lütfen &lt;href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Basit Teşekkürler&lt;/a&gt; uygulamasını satın alarak geliştirmeyi destekleyin. Ayrıca renk özelleştirme dahil tüm uygulama özelliklerinin kilidi açılacaktır.&lt;br&gt;&lt;br&gt; Teşekkürler!</string>
-    <string name="donate_short">Lütfen &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Basit Teşekkürler&lt;/a&gt; uygulamasını satın alarak bizi destekleyin, ayrıca renk özelleştirme dahil tüm uygulama özelliklerinin kilidi açılacaktır.</string>
+    <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
+    <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
     <string name="purchase">Satın al</string>
-    <string name="get_simple_phone">Basit Telefon Sipariş Edin</string>
-    <string name="update_thank_you">Lütfen Basit Teşekkürler\'i son sürüme güncelleyin</string>
+    <string name="update_thank_you">Please update Fossify Thank You to the latest version</string>
     <string name="before_asking_question_read_faq">Bir soru sormadan önce, lütfen uygulama ayarlarını gözden geçirin ve önce Sık Sorulan Sorular bölümünü okuyun. Belki çözüm oradadır.</string>
     <string name="before_rate_read_faq">Bize puan vermeden önce lütfen uygulama ayarlarını gözden geçirin ve önce Sık Sorulan Sorular bölümünü okuyun. Herhangi bir sorunuz varsa, belki çözüm oradadır.</string>
     <string name="make_sure_latest">Ayrıca uygulamanın en son sürümünü kullandığınızdan emin olun.</string>
@@ -930,7 +929,7 @@
     <string name="rate_our_app">Lütfen uygulamamızı oylayın :)</string>
     <string name="thank_you">Teşekkürler</string>
     <string name="widget_locked_pro">Widget kilitli.\nKilidi açmak için lütfen Pro sürümüne yükseltin.</string>
-    <string name="features_locked">Bu özellik kilitlidir, lütfen tam uygulamanın kilidini açmak için &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Basit Teşekkürler&lt;/a&gt; uygulamasını satın alın.&lt;br&gt;&lt;br&gt;Bu yalnızca tek seferlik bir ödemedir ve memnun kalmazsanız geri ödeme yapabiliriz.</string>
+    <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">
         <![CDATA[
@@ -943,24 +942,6 @@
             Teşekkürler
         ]]>
     </string>
-    <string name="simple_app_launcher">Basit Uygulama Başlatıcı</string>
-    <string name="simple_calculator">Basit Hesap Makinesi</string>
-    <string name="simple_calendar">Basit Takvim</string>
-    <string name="simple_camera">Basit Kamera</string>
-    <string name="simple_clock">Basit Saat</string>
-    <string name="simple_contacts">Basit Kişiler</string>
-    <string name="simple_dialer">Basit Çevirici</string>
-    <string name="simple_draw">Basit Çizim</string>
-    <string name="simple_file_manager">Basit Dosya Yöneticisi</string>
-    <string name="simple_flashlight">Basit Fener</string>
-    <string name="simple_gallery">Basit Galeri</string>
-    <string name="simple_keyboard">Basit Klavye</string>
-    <string name="simple_launcher">Basit Başlatıcı</string>
-    <string name="simple_music_player">Basit Müzik Çalar</string>
-    <string name="simple_notes">Basit Notlar</string>
-    <string name="simple_sms_messenger">Basit SMS Messenger</string>
-    <string name="simple_thank_you">Basit Teşekkürler</string>
-    <string name="simple_voice_recorder">Basit Ses Kaydedici</string>
     <string name="app_launcher_short">Uygulama Başlatıcı</string>
     <string name="calculator_short">Hesap Makinesi</string>
     <string name="calendar_short">Takvim</string>

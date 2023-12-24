@@ -354,14 +354,14 @@
     <string name="undo_changes_confirmation">Haluatko varmasti perua muutokset?</string>
     <string name="cannot_be_undone">Toimintoa ei ole mahdollista kumota.</string>
     <string name="save_before_closing">Sinulla on tallentamattomia muutoksia. Tallennetaanko ennen sulkemista?</string>
-    <string name="apply_to_all_apps">Käytä värejä kaikissa Simple App -sovelluksissa</string>
+    <string name="apply_to_all_apps">Apply colors to all Fossify Apps</string>
     <string name="app_icon_color_warning">Caution: Certain launchers may not handle app icon customization correctly. If the icon disappears, attempt launching the app through Google Play or a widget, if accessible.
         After launching, restore the default green icon color #1B5E20. In extreme cases, reinstalling the app may be necessary.</string>
     <string name="share_colors_success">Värit päivitetty. Uusi teema nimeltä \'Jaettu\' käytä sitä jatkossa muokataksesi värejä kaikissa sovelluksissa.</string>
-    <string name="shared_theme_note">Huomioi, että vaikka käytössäsi on sovelluksen Pro-versio, Simple Thank You tarvitaan teknisistä syistä mm. värien synkronointiin.</string>
+    <string name="shared_theme_note">Note that even though you are using the Pro app version, you still need Fossify Thank You for technical reasons. It takes care of the color synchronization.</string>
     <string name="purchase_thank_you">
         <![CDATA[
-            Osta <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Simple Thank You</a> avataksesi ominaisuuden ja tukeaksesi kehitystä. Kiitos!
+            Osta <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> avataksesi ominaisuuden ja tukeaksesi kehitystä. Kiitos!
         ]]>
     </string>
     <!-- Themes -->
@@ -651,7 +651,7 @@
     <string name="during_day_at">Päivällä kello %02d:%02d</string>
     <!-- Settings -->
     <string name="settings">Asetukset</string>
-    <string name="purchase_simple_thank_you">Osta Simple Thank You</string>
+    <string name="purchase_simple_thank_you">Purchase Fossify Thank You</string>
     <string name="general_settings">Yleistä</string>
     <string name="color_customization">Värien mukautus</string>
     <string name="improved_color_customization">Parannettu värien mukautus</string>
@@ -913,15 +913,14 @@
     <string name="donate_please">
         <![CDATA[
             Hei,<br><br>
-            toivottavasti pidät sovelluksesta. Se ei sisällä mainoksia, tue sen kehitystä ostamalla <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Simple Thank You</a> sovellus, tämä myös estää tämän ilmoituksen jatkossa.<br><br>
+            toivottavasti pidät sovelluksesta. Se ei sisällä mainoksia, tue sen kehitystä ostamalla <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> sovellus, tämä myös estää tämän ilmoituksen jatkossa.<br><br>
             Kiitos!
         ]]>
     </string>
-    <string name="donate_new">Hei,&lt;br&gt;&lt;br&gt;toivottavasti pidät sovelluksesta. Se ei sisällä mainoksia, emmekä edes kerää tietojasi. Tue kehitystä ostamalla &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Yksinkertainen kiitos&lt;/a&gt;. Saat lisäksi käyttöösi kaikki sovelluksen ominaisuudet, kuten värien mukautuksen.&lt;br&gt;&lt;br&gt;Kiitos!</string>
-    <string name="donate_short">Tue meitä ostamalla &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Yksinkertainen kiitos&lt;/a&gt;, jolla saat myös käyttöösi sovelluksen kaikki ominaisuudet, kuten värien mukautuksen.</string>
+    <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
+    <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
     <string name="purchase">Osta</string>
-    <string name="get_simple_phone">Hanki yksinkertainen puhelin</string>
-    <string name="update_thank_you">Päivitä Yksinkertainen kiitos viimeisimpään versioon</string>
+    <string name="update_thank_you">Please update Fossify Thank You to the latest version</string>
     <string name="before_asking_question_read_faq">Ennen kysymyksen esittämistä varmista, löytyykö vastaus asetuksista tai usein kysytyistä kysymyksistä (Frequently Asked Questions).</string>
     <string name="before_rate_read_faq">Ennen kuin arvostelet sovelluksen ja sinulla on ongelmia sovelluksen kanssa, varmista, löytyykö ratkaisu asetuksista tai usein kysytyistä kysymyksistä (Frequently Asked Questions).</string>
     <string name="make_sure_latest">Varmista myös, että käytät viimeisintä versiota.</string>
@@ -941,27 +940,9 @@
     <string name="thank_you">Kiitos</string>
     <string name="widget_locked_pro">Pienoissovellus on lukittu.
 \nOle hyvä ja päivitä Pro-versioon ottaaksesi sen käyttöön.</string>
-    <string name="features_locked">Tämä ominaisuus on lukittu. Osta &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Simple Kiitos&lt;/a&gt; koko sovelluksen lukituksen avaamisesta.&lt;br &lt;br&gt;Se on vain kertamaksu, ja jos et ole tyytyväinen, voimme hyvittää sinulle.</string>
+    <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">Hei,&lt;br&gt;&lt;br&gt; halusin vain kertoa että uusi sovellus on julkaistu:&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; Voit ladata sen koskettamalla otsikkoa.&lt;br&gt;&lt;br&gt; Kiitos</string>
-    <string name="simple_app_launcher">Yksinkertainen App Launcher</string>
-    <string name="simple_calculator">Yksinkertainen laskin</string>
-    <string name="simple_calendar">Yksinkertainen kalenteri</string>
-    <string name="simple_camera">Yksinkertainen kamera</string>
-    <string name="simple_clock">Yksinkertainen kello</string>
-    <string name="simple_contacts">Yksinkertaiset yhteystiedot</string>
-    <string name="simple_dialer">Yksinkertainen valitsin</string>
-    <string name="simple_draw">Yksinkertainen arvonta</string>
-    <string name="simple_file_manager">Yksinkertainen tiedostonhallinta</string>
-    <string name="simple_flashlight">Yksinkertainen taskulamppu</string>
-    <string name="simple_gallery">Yksinkertainen galleria</string>
-    <string name="simple_keyboard">Yksinkertainen näppäimistö</string>
-    <string name="simple_launcher">Yksinkertainen käynnistin</string>
-    <string name="simple_music_player">Yksinkertainen musiikkisoitin</string>
-    <string name="simple_notes">Yksinkertaiset muistiinpanot</string>
-    <string name="simple_sms_messenger">Yksinkertaiset viestit</string>
-    <string name="simple_thank_you">Yksinkertainen kiitos</string>
-    <string name="simple_voice_recorder">Yksinkertainen ääninauhuri</string>
     <string name="app_launcher_short">Sovelluskäynnistin</string>
     <string name="calculator_short">Laskin</string>
     <string name="calendar_short">Kalenteri</string>
@@ -991,7 +972,12 @@
     <string name="faq_1_title_commons">Miksi en näe tämän sovelluksen pienoissovellusta pienoissovellusvalikossa?</string>
     <string name="faq_1_text_commons">Todennäköisesti asensit sovelluksen ulkoiselle muistikortille. Tässä tapauksessa ainoa vaihtoehto on uudelleenasentaa sovellus laitteen sisäiseen tallennustilaan.</string>
     <string name="faq_2_title_commons">Haluan tukea sinua, mutta minulla ei ole varaa lahjoittaa. Voinko auttaa jotenkin muuten?</string>
-    <string name="faq_2_text_commons">Kyllä, tottakai. Voit levittää sanaa sovelluksista tai antaa hyvää palautetta ja arvioita. Voit myös auttaa kääntämällä sovelluksia uudelle kielelle tai vain päivittää nykyisiä käännöksiä. Ohje käännöksiin löytyy &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;tästä osoitteesta&lt;/a&gt;, tai ole vain yhteydessä sähköpostitse &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; jos sinulla on kysymyksiä.</string>
+    <string name="faq_2_text_commons">
+        <![CDATA[
+            Yes, of course. You can spread the word about the apps or give good feedback and ratings. You can also help by translating the apps in a new language, or just update some existing translations.
+            The guide to translating is at <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">this website</a>, or just contact us at <a href="mailto:hello@fossify.org">hello@fossify.org</a> if you have any questions.
+        ]]>
+    </string>
     <string name="faq_3_title_commons">Poistin tiedostoja vahingossa, miten palautan ne?</string>
     <string name="faq_3_text_commons">Valitettavasti se ei ole mahdollista. Tiedostot poistetaan aina pysyvästi.</string>
     <string name="faq_4_title_commons">En pidä pienoissovelluksen väreistä, voinko vaihtaa ne?</string>
@@ -1016,7 +1002,13 @@
     <string name="translation">Käännös</string>
     <string name="development">Kehitys</string>
     <string name="other_help">Muu apu</string>
-    <string name="contributors_label">Tämä lista sisältää kaikki ne, jotka ovat merkittävästi auttaneet Fossify-sovelluskokoelman sovelluksissa. Vapaahtoiset tekevätk käännöksiä; ole yhteydessä, jos haluat myös auttaa. Ohje käännöksiin löytyy &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;tästä osoitteesta&lt;/a&gt;, tai ole vain yhteydessä sähköpostitse &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; jos sinulla on kysymyksiä. Kiitos kaikille osallistujille ja tukijoille!</string>
+    <string name="contributors_label">
+        <![CDATA[
+            This list contains everyone that noticeably helped any app within the Fossify suite, not only this one. Translations are handled by volunteers,
+            let us know if you want to help too. The guide to translating is at <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">this website</a>, or just contact us at <a href="mailto:hello@fossify.org">hello@fossify.org</a> if you have any questions.
+            Thanks to all contributors and other supporters!
+        ]]>
+    </string>
     <string name="translation_arabic">Arabia</string>
     <string name="translation_azerbaijani">Azerbaidžan</string>
     <string name="translation_bengali">Bengali</string>
