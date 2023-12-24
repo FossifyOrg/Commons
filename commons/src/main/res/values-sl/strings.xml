@@ -375,7 +375,7 @@
         After launching, restore the default green icon color #1B5E20. In extreme cases, reinstalling the app may be necessary.</string>
     <string name="share_colors_success">Barve so bile uspešno posodobljene. Nova tema \'Deljeno\' je bila dodana. V prihodnje za spreminjanje barv uporabljajte to.</string>
     <string name="shared_theme_note">Note that even though you are using the Pro app version, you still need Fossify Thank You for technical reasons. It takes care of the color synchronization.</string>
-    <string name="purchase_thank_you">Prosimo, kupite aplikacijo &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt;, da odklenete to funkcijo in podprete razvoj. Hvala!</string>
+    <string name="purchase_thank_you">Prosimo, kupite aplikacijo &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;, da odklenete to funkcijo in podprete razvoj. Hvala!</string>
     <!-- Themes -->
     <string name="light_theme">Svetlo</string>
     <string name="dark_theme">Temno</string>
@@ -986,7 +986,7 @@
     <string name="donate_please">
         <![CDATA[
             Podzravljeni,<br><br>
-            upamo, da vam je aplikacija všeč. Ne vsebuje oglasov, zato vas prosimo, da podprete razvoj z nakupom aplikacije <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Simple Thank You</a>. S tem bo tudi to sporočilo izginilo.<br><br>
+            upamo, da vam je aplikacija všeč. Ne vsebuje oglasov, zato vas prosimo, da podprete razvoj z nakupom aplikacije <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>. S tem bo tudi to sporočilo izginilo.<br><br>
             Hvala!
         ]]>
     </string>

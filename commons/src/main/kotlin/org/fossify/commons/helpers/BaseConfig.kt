@@ -235,7 +235,7 @@ open class BaseConfig(val context: Context) {
         get() = prefs.getBoolean(IS_USING_SHARED_THEME, false)
         set(isUsingSharedTheme) = prefs.edit().putBoolean(IS_USING_SHARED_THEME, isUsingSharedTheme).apply()
 
-    // used by Simple Thank You, stop using shared Shared Theme if it has been changed in it
+    // used by Fossify Thank You, stop using shared Shared Theme if it has been changed in it
     var shouldUseSharedTheme: Boolean
         get() = prefs.getBoolean(SHOULD_USE_SHARED_THEME, false)
         set(shouldUseSharedTheme) = prefs.edit().putBoolean(SHOULD_USE_SHARED_THEME, shouldUseSharedTheme).apply()

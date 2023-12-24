@@ -357,7 +357,7 @@
     <string name="shared_theme_note">Note that even though you are using the Pro app version, you still need Fossify Thank You for technical reasons. It takes care of the color synchronization.</string>
     <string name="purchase_thank_you">
         <![CDATA[
-            この機能のロックを解除して開発者をサポートするには、<a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Simple Thank You</a> アプリを購入してください。
+            この機能のロックを解除して開発者をサポートするには、<a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> アプリを購入してください。
         ]]>
     </string>
     <!-- Themes -->
@@ -863,7 +863,7 @@
     <string name="donate_please">
         <![CDATA[
             こんにちは<br><br>
-            アプリを楽しんでいただけているでしょうか。広告無しを続けるため、<a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Simple Thank You</a>アプリを購入し開発の力になってください。購入されれば、この表示も二度と出ません。 <br><br>
+            アプリを楽しんでいただけているでしょうか。広告無しを続けるため、<a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>アプリを購入し開発の力になってください。購入されれば、この表示も二度と出ません。 <br><br>
             ありがとうございます！
         ]]>
     </string>

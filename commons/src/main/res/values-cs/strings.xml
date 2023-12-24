@@ -948,7 +948,7 @@
     <string name="additional_info">Dodatečné informace</string>
     <string name="app_version">Verze aplikace: %s</string>
     <string name="device_os">Operační systém zařízení: %s</string>
-    <string name="donate_please">Dobrý den,&lt;br&gt;&lt;br&gt; doufáme, že se vám aplikace líbí. Neobsahuje žádné reklamy, podpořte prosím její vývoj zakoupením aplikace &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt;, čímž také zabráníte opětovnému zobrazení tohoto dialogu.&lt;br&gt;&lt;br&gt; Děkujeme Vám!</string>
+    <string name="donate_please">Dobrý den,&lt;br&gt;&lt;br&gt; doufáme, že se vám aplikace líbí. Neobsahuje žádné reklamy, podpořte prosím její vývoj zakoupením aplikace &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;, čímž také zabráníte opětovnému zobrazení tohoto dialogu.&lt;br&gt;&lt;br&gt; Děkujeme Vám!</string>
     <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
     <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
     <string name="purchase">Koupit</string>
