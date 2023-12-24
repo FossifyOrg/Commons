@@ -370,11 +370,11 @@
     <string name="undo_changes_confirmation">Res želite razveljaviti spremembe?</string>
     <string name="cannot_be_undone">To dejanje ni mogoče razveljaviti.</string>
     <string name="save_before_closing">Imate neshranjene spremembe. Jih želite shraniti pred izhodom?</string>
-    <string name="apply_to_all_apps">Uveljavite barve za vse aplikacije iz serije Simple Apps</string>
+    <string name="apply_to_all_apps">Apply colors to all Fossify Apps</string>
     <string name="app_icon_color_warning">Caution: Certain launchers may not handle app icon customization correctly. If the icon disappears, attempt launching the app through Google Play or a widget, if accessible.
         After launching, restore the default green icon color #1B5E20. In extreme cases, reinstalling the app may be necessary.</string>
     <string name="share_colors_success">Barve so bile uspešno posodobljene. Nova tema \'Deljeno\' je bila dodana. V prihodnje za spreminjanje barv uporabljajte to.</string>
-    <string name="shared_theme_note">Upoštevajte, da kljub uporabi Pro verzije, iz tehničnih razlogov še vedno potrebujete aplikacijo Preprosto hvala. Ta skrbi za sinhronizacijo barv.</string>
+    <string name="shared_theme_note">Note that even though you are using the Pro app version, you still need Fossify Thank You for technical reasons. It takes care of the color synchronization.</string>
     <string name="purchase_thank_you">Prosimo, kupite aplikacijo &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt;, da odklenete to funkcijo in podprete razvoj. Hvala!</string>
     <!-- Themes -->
     <string name="light_theme">Svetlo</string>
@@ -722,7 +722,7 @@
     <string name="during_day_at">Čez dan ob %02d:%02d</string>
     <!-- Settings -->
     <string name="settings">Nastavitve</string>
-    <string name="purchase_simple_thank_you">Kupite aplikacijo Simple Thank You</string>
+    <string name="purchase_simple_thank_you">Purchase Fossify Thank You</string>
     <string name="general_settings">General</string>
     <string name="color_customization">Prilagajanje barv</string>
     <string name="improved_color_customization">Izboljšana prilagoditev barv</string>
@@ -990,11 +990,10 @@
             Hvala!
         ]]>
     </string>
-    <string name="donate_new">Pozdravljeni, &lt;br&gt;&lt;br&gt;upam, da uživate v aplikaciji. Ne vsebuje nobenih oglasov in tudi ne zbiramo vaših podatkov, zato vas prosim, da podprete razvoj aplikacije z nakupom &lt;i&gt;&lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Preprosto hvala&lt;/a&gt;&lt;/i&gt;. Prav tako boste imeli odklenjene vse funkcije aplikacije, vključno s prilagajanjem barv. &lt;br&gt;&lt;br&gt;Hvala!</string>
-    <string name="donate_short">Prosimo, podprite nas z nakupom &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Enostavno hvala&lt;/a&gt;. Odklenile se bodo tudi vse funkcije aplikacije, vključno s prilagajanjem barv.</string>
+    <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
+    <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
     <string name="purchase">Kupi</string>
-    <string name="get_simple_phone">Prenesi Enostaven telefon</string>
-    <string name="update_thank_you">Prosimo nadgradite Simple Thank You na zadnjo verzijo</string>
+    <string name="update_thank_you">Please update Fossify Thank You to the latest version</string>
     <string name="before_asking_question_read_faq">Pred zastavljanjem vprašanje preverite nastavitve aplikacije in preberite pogosta vprašanja in odgovore. Morda je rešitev že tam.</string>
     <string name="before_rate_read_faq">Preden nas ocenite vas prosimo, da najprej preverite nastavitve aplikacije in preberete pogosto zastavljena vprašanja. Če imate težave, je rešitev morda tam.</string>
     <string name="make_sure_latest">Prepričajte se tudi, da uporabljate najnovejšo različico aplikacije.</string>
@@ -1006,7 +1005,7 @@
     <string name="thank_you">Hvala</string>
     <string name="widget_locked_pro">Pripomoček je zaklenjen.
 \nZa odklepanje nadgradite na različico Pro.</string>
-    <string name="features_locked">Ta funkcija je zaklenjena, za odklepanje celotne aplikacije prosimo kupite &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Enostavno hvala&lt;/a&gt;.&lt;br &lt;br&gt;Gre za enkratno plačilo in če ne boste zadovoljni, vam lahko vrnemo denar.</string>
+    <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">
         <![CDATA[
@@ -1019,24 +1018,24 @@
             Hvala
         ]]>
     </string>
-    <string name="simple_app_launcher">Enostaven zaganjalnik aplikacij</string>
-    <string name="simple_calculator">Enostaven kalkulator</string>
-    <string name="simple_calendar">Enostaven koledar</string>
-    <string name="simple_camera">Enostavna kamera</string>
-    <string name="simple_clock">Enostavna ura</string>
-    <string name="simple_contacts">Enostavni stiki</string>
-    <string name="simple_dialer">Enostaven telefon</string>
-    <string name="simple_draw">Enostavno risanje</string>
-    <string name="simple_file_manager">Enostaven upravitelj datotek</string>
-    <string name="simple_flashlight">Enostavna svetilka</string>
-    <string name="simple_gallery">Enostavna galerija</string>
-    <string name="simple_keyboard">Enostavna tipkovnica</string>
-    <string name="simple_launcher">Enostaven zaganjalnik</string>
-    <string name="simple_music_player">Enostaven predvajalnik glasbe</string>
-    <string name="simple_notes">Enostavne beležke</string>
-    <string name="simple_sms_messenger">Enostavna SMS sporočila</string>
-    <string name="simple_thank_you">Enostavno hvala</string>
-    <string name="simple_voice_recorder">Enostaven snemalnik zvoka</string>
+    <string name="simple_app_launcher">Fossify App Launcher</string>
+    <string name="simple_calculator">Fossify Calculator</string>
+    <string name="simple_calendar">Fossify Calendar</string>
+    <string name="simple_camera">Fossify Camera</string>
+    <string name="simple_clock">Fossify Clock</string>
+    <string name="simple_contacts">Fossify Contacts</string>
+    <string name="simple_dialer">Fossify Dialer</string>
+    <string name="simple_draw">Fossify Draw</string>
+    <string name="simple_file_manager">Fossify File Manager</string>
+    <string name="simple_flashlight">Fossify Flashlight</string>
+    <string name="simple_gallery">Fossify Gallery</string>
+    <string name="simple_keyboard">Fossify Keyboard</string>
+    <string name="simple_launcher">Fossify Launcher</string>
+    <string name="simple_music_player">Fossify Music Player</string>
+    <string name="simple_notes">Fossify Notes</string>
+    <string name="simple_sms_messenger">Fossify SMS Messenger</string>
+    <string name="simple_thank_you">Fossify Thank You</string>
+    <string name="simple_voice_recorder">Fossify Voice Recorder</string>
     <string name="app_launcher_short">Zaganjalnik aplikacij</string>
     <string name="calculator_short">Kalkulator</string>
     <string name="calendar_short">Koledar</string>

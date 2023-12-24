@@ -360,11 +360,11 @@
     <string name="undo_changes_confirmation">Seguro que queres desfacer os cambios?</string>
     <string name="cannot_be_undone">Esta acción non se pode desfacer.</string>
     <string name="save_before_closing">Tes cambios sen aplicar. Gardar antes de saír?</string>
-    <string name="apply_to_all_apps">Aplicar cores a todos os aplicativos. Simple Apps</string>
+    <string name="apply_to_all_apps">Apply colors to all Fossify Apps</string>
     <string name="app_icon_color_warning">Caution: Certain launchers may not handle app icon customization correctly. If the icon disappears, attempt launching the app through Google Play or a widget, if accessible.
         After launching, restore the default green icon color #1B5E20. In extreme cases, reinstalling the app may be necessary.</string>
     <string name="share_colors_success">Cores actualizadas correctamente. Engadiuse un novo tema chamado \'Compartido\'. Utilízao para actualizar as cores de todos os aplicativos no futuro.</string>
-    <string name="shared_theme_note">Teña en conta que aínda que esteas a usar a versión da aplicación Pro, aínda necesitas Grazas Sinxelas por razóns técnicas. Encárgase da sincronización das cores.</string>
+    <string name="shared_theme_note">Note that even though you are using the Pro app version, you still need Fossify Thank You for technical reasons. It takes care of the color synchronization.</string>
     <string name="purchase_thank_you">Por favor, merca &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt; para desbloquear esta función e axudar co desenvolvemento. Grazas!</string>
     <!-- Themes -->
     <string name="light_theme">Claro</string>
@@ -652,7 +652,7 @@
     <string name="during_day_at">Durante o día en %02d:%02d</string>
     <!-- Settings -->
     <string name="settings">Axustes</string>
-    <string name="purchase_simple_thank_you">Mercar Grazas sinxelas</string>
+    <string name="purchase_simple_thank_you">Purchase Fossify Thank You</string>
     <string name="general_settings">General</string>
     <string name="color_customization">Persoaliza a cor</string>
     <string name="improved_color_customization">Persoalización mellorada das cores</string>
@@ -905,11 +905,10 @@
     <string name="app_version">Versión do app: %s</string>
     <string name="device_os">SO do dispositivo: %s</string>
     <string name="donate_please">Ola,&lt;br&gt;&lt;br&gt; Espero que esteas disfrutando do aplicativo. Non contén anuncios, polo que che agradecemos que respaldes o seu desenvolvemento comprando o aplicativo &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Grazas sinxelas&lt;/a&gt;, e tamén evitará que este diálogo volva a aparecer.&lt;br&gt;&lt;br&gt; Grazas!</string>
-    <string name="donate_new">Ola,&lt;br&gt;&lt;br&gt;espero que che guste a aplicación. Non contén anuncios e tampouco estamos a recompilar os teus datos; apoia o seu desenvolvemento comprando &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Grazas Sinxelo&lt;/a&gt;. Tamén terás todas as funcións da aplicación desbloqueadas, incluída a personalización de cores.&lt;br&gt;&lt;br&gt;Grazas!</string>
-    <string name="donate_short">Apóyanos mercando &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Grazas simples&lt;/a&gt;, tamén desbloqueará todalas funcións da aplicación, incluída a cor personalizada.</string>
+    <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
+    <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
     <string name="purchase">Comprar</string>
-    <string name="get_simple_phone">Obter un teléfono sinxelo</string>
-    <string name="update_thank_you">Actualiza Grazas sinxelas á última versión</string>
+    <string name="update_thank_you">Please update Fossify Thank You to the latest version</string>
     <string name="before_asking_question_read_faq">Antes de que fagas unha pregunta, primeiro comproba os axustes do app e le as Preguntas Máis Frecuentes. Pode que a solución estea aí.</string>
     <string name="before_rate_read_faq">Antes de que nos puntúes, primeiro comproba os axustes do app e le as Preguntas Máis Frecuentes. Se tes algún problema, pode que a solución estea aí.</string>
     <string name="make_sure_latest">Asegúrate tamén de que esteas usando a última versión do app.</string>
@@ -921,7 +920,7 @@
     <string name="thank_you">Grazas</string>
     <string name="widget_locked_pro">O widget estopaze bloqueado. 
 \nActualiza á versión Pro para desbloquealo.</string>
-    <string name="features_locked">Esta función está bloqueada. Compra &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Grazas sinxelas&lt;/a&gt; por desbloquear a aplicación completa.&lt;br &gt;&lt;br&gt;É un pago único e se non estás satisfeito, devolvemosche o diñeiro.</string>
+    <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">
         <![CDATA[
@@ -934,24 +933,24 @@
             Grazas
         ]]>
     </string>
-    <string name="simple_app_launcher">Lanzador de aplicacións sinxelo</string>
-    <string name="simple_calculator">Calculadora sinxela</string>
-    <string name="simple_calendar">Almanaque sinxelo</string>
-    <string name="simple_camera">Cámara sinxela</string>
-    <string name="simple_clock">Reloxo sinxelo</string>
-    <string name="simple_contacts">Contactos sinxelos</string>
-    <string name="simple_dialer">Marcador sinxelo</string>
-    <string name="simple_draw">Debuxo sinxelo</string>
-    <string name="simple_file_manager">Xestor de ficheiros sinxelo</string>
-    <string name="simple_flashlight">Lanterna sinxela</string>
-    <string name="simple_gallery">Galería sinxela</string>
-    <string name="simple_keyboard">Teclado sinxelo</string>
-    <string name="simple_launcher">Lanzador sinxelo</string>
-    <string name="simple_music_player">Reproductor de música sinxelo</string>
-    <string name="simple_notes">Notas sinxelas</string>
-    <string name="simple_sms_messenger">Mensaxeiro de sms sinxelo</string>
-    <string name="simple_thank_you">Unicamente Grazas</string>
-    <string name="simple_voice_recorder">Gravadora da voz sinxela</string>
+    <string name="simple_app_launcher">Fossify App Launcher</string>
+    <string name="simple_calculator">Fossify Calculator</string>
+    <string name="simple_calendar">Fossify Calendar</string>
+    <string name="simple_camera">Fossify Camera</string>
+    <string name="simple_clock">Fossify Clock</string>
+    <string name="simple_contacts">Fossify Contacts</string>
+    <string name="simple_dialer">Fossify Dialer</string>
+    <string name="simple_draw">Fossify Draw</string>
+    <string name="simple_file_manager">Fossify File Manager</string>
+    <string name="simple_flashlight">Fossify Flashlight</string>
+    <string name="simple_gallery">Fossify Gallery</string>
+    <string name="simple_keyboard">Fossify Keyboard</string>
+    <string name="simple_launcher">Fossify Launcher</string>
+    <string name="simple_music_player">Fossify Music Player</string>
+    <string name="simple_notes">Fossify Notes</string>
+    <string name="simple_sms_messenger">Fossify SMS Messenger</string>
+    <string name="simple_thank_you">Fossify Thank You</string>
+    <string name="simple_voice_recorder">Fossify Voice Recorder</string>
     <string name="app_launcher_short">Lanzador de aplicacións</string>
     <string name="calculator_short">Calculadora</string>
     <string name="calendar_short">Almanaque</string>

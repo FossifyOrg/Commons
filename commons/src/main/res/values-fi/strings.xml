@@ -354,11 +354,11 @@
     <string name="undo_changes_confirmation">Haluatko varmasti perua muutokset?</string>
     <string name="cannot_be_undone">Toimintoa ei ole mahdollista kumota.</string>
     <string name="save_before_closing">Sinulla on tallentamattomia muutoksia. Tallennetaanko ennen sulkemista?</string>
-    <string name="apply_to_all_apps">Käytä värejä kaikissa Simple App -sovelluksissa</string>
+    <string name="apply_to_all_apps">Apply colors to all Fossify Apps</string>
     <string name="app_icon_color_warning">Caution: Certain launchers may not handle app icon customization correctly. If the icon disappears, attempt launching the app through Google Play or a widget, if accessible.
         After launching, restore the default green icon color #1B5E20. In extreme cases, reinstalling the app may be necessary.</string>
     <string name="share_colors_success">Värit päivitetty. Uusi teema nimeltä \'Jaettu\' käytä sitä jatkossa muokataksesi värejä kaikissa sovelluksissa.</string>
-    <string name="shared_theme_note">Huomioi, että vaikka käytössäsi on sovelluksen Pro-versio, Simple Thank You tarvitaan teknisistä syistä mm. värien synkronointiin.</string>
+    <string name="shared_theme_note">Note that even though you are using the Pro app version, you still need Fossify Thank You for technical reasons. It takes care of the color synchronization.</string>
     <string name="purchase_thank_you">
         <![CDATA[
             Osta <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Simple Thank You</a> avataksesi ominaisuuden ja tukeaksesi kehitystä. Kiitos!
@@ -651,7 +651,7 @@
     <string name="during_day_at">Päivällä kello %02d:%02d</string>
     <!-- Settings -->
     <string name="settings">Asetukset</string>
-    <string name="purchase_simple_thank_you">Osta Simple Thank You</string>
+    <string name="purchase_simple_thank_you">Purchase Fossify Thank You</string>
     <string name="general_settings">Yleistä</string>
     <string name="color_customization">Värien mukautus</string>
     <string name="improved_color_customization">Parannettu värien mukautus</string>
@@ -917,11 +917,10 @@
             Kiitos!
         ]]>
     </string>
-    <string name="donate_new">Hei,&lt;br&gt;&lt;br&gt;toivottavasti pidät sovelluksesta. Se ei sisällä mainoksia, emmekä edes kerää tietojasi. Tue kehitystä ostamalla &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Yksinkertainen kiitos&lt;/a&gt;. Saat lisäksi käyttöösi kaikki sovelluksen ominaisuudet, kuten värien mukautuksen.&lt;br&gt;&lt;br&gt;Kiitos!</string>
-    <string name="donate_short">Tue meitä ostamalla &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Yksinkertainen kiitos&lt;/a&gt;, jolla saat myös käyttöösi sovelluksen kaikki ominaisuudet, kuten värien mukautuksen.</string>
+    <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
+    <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
     <string name="purchase">Osta</string>
-    <string name="get_simple_phone">Hanki yksinkertainen puhelin</string>
-    <string name="update_thank_you">Päivitä Yksinkertainen kiitos viimeisimpään versioon</string>
+    <string name="update_thank_you">Please update Fossify Thank You to the latest version</string>
     <string name="before_asking_question_read_faq">Ennen kysymyksen esittämistä varmista, löytyykö vastaus asetuksista tai usein kysytyistä kysymyksistä (Frequently Asked Questions).</string>
     <string name="before_rate_read_faq">Ennen kuin arvostelet sovelluksen ja sinulla on ongelmia sovelluksen kanssa, varmista, löytyykö ratkaisu asetuksista tai usein kysytyistä kysymyksistä (Frequently Asked Questions).</string>
     <string name="make_sure_latest">Varmista myös, että käytät viimeisintä versiota.</string>
@@ -941,27 +940,27 @@
     <string name="thank_you">Kiitos</string>
     <string name="widget_locked_pro">Pienoissovellus on lukittu.
 \nOle hyvä ja päivitä Pro-versioon ottaaksesi sen käyttöön.</string>
-    <string name="features_locked">Tämä ominaisuus on lukittu. Osta &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Simple Kiitos&lt;/a&gt; koko sovelluksen lukituksen avaamisesta.&lt;br &lt;br&gt;Se on vain kertamaksu, ja jos et ole tyytyväinen, voimme hyvittää sinulle.</string>
+    <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">Hei,&lt;br&gt;&lt;br&gt; halusin vain kertoa että uusi sovellus on julkaistu:&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; Voit ladata sen koskettamalla otsikkoa.&lt;br&gt;&lt;br&gt; Kiitos</string>
-    <string name="simple_app_launcher">Yksinkertainen App Launcher</string>
-    <string name="simple_calculator">Yksinkertainen laskin</string>
-    <string name="simple_calendar">Yksinkertainen kalenteri</string>
-    <string name="simple_camera">Yksinkertainen kamera</string>
-    <string name="simple_clock">Yksinkertainen kello</string>
-    <string name="simple_contacts">Yksinkertaiset yhteystiedot</string>
-    <string name="simple_dialer">Yksinkertainen valitsin</string>
-    <string name="simple_draw">Yksinkertainen arvonta</string>
-    <string name="simple_file_manager">Yksinkertainen tiedostonhallinta</string>
-    <string name="simple_flashlight">Yksinkertainen taskulamppu</string>
-    <string name="simple_gallery">Yksinkertainen galleria</string>
-    <string name="simple_keyboard">Yksinkertainen näppäimistö</string>
-    <string name="simple_launcher">Yksinkertainen käynnistin</string>
-    <string name="simple_music_player">Yksinkertainen musiikkisoitin</string>
-    <string name="simple_notes">Yksinkertaiset muistiinpanot</string>
-    <string name="simple_sms_messenger">Yksinkertaiset viestit</string>
-    <string name="simple_thank_you">Yksinkertainen kiitos</string>
-    <string name="simple_voice_recorder">Yksinkertainen ääninauhuri</string>
+    <string name="simple_app_launcher">Fossify App Launcher</string>
+    <string name="simple_calculator">Fossify Calculator</string>
+    <string name="simple_calendar">Fossify Calendar</string>
+    <string name="simple_camera">Fossify Camera</string>
+    <string name="simple_clock">Fossify Clock</string>
+    <string name="simple_contacts">Fossify Contacts</string>
+    <string name="simple_dialer">Fossify Dialer</string>
+    <string name="simple_draw">Fossify Draw</string>
+    <string name="simple_file_manager">Fossify File Manager</string>
+    <string name="simple_flashlight">Fossify Flashlight</string>
+    <string name="simple_gallery">Fossify Gallery</string>
+    <string name="simple_keyboard">Fossify Keyboard</string>
+    <string name="simple_launcher">Fossify Launcher</string>
+    <string name="simple_music_player">Fossify Music Player</string>
+    <string name="simple_notes">Fossify Notes</string>
+    <string name="simple_sms_messenger">Fossify SMS Messenger</string>
+    <string name="simple_thank_you">Fossify Thank You</string>
+    <string name="simple_voice_recorder">Fossify Voice Recorder</string>
     <string name="app_launcher_short">Sovelluskäynnistin</string>
     <string name="calculator_short">Laskin</string>
     <string name="calendar_short">Kalenteri</string>

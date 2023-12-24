@@ -366,11 +366,11 @@
     <string name="undo_changes_confirmation">Ви впевнені, що хочете скасувати зміни?</string>
     <string name="cannot_be_undone">Цю дію неможливо скасувати.</string>
     <string name="save_before_closing">Ви маєте незбережені зміни. Зберегти перед виходом?</string>
-    <string name="apply_to_all_apps">Застосувати кольори до усіх додатків Simple Apps</string>
+    <string name="apply_to_all_apps">Apply colors to all Fossify Apps</string>
     <string name="app_icon_color_warning">Caution: Certain launchers may not handle app icon customization correctly. If the icon disappears, attempt launching the app through Google Play or a widget, if accessible.
         After launching, restore the default green icon color #1B5E20. In extreme cases, reinstalling the app may be necessary.</string>
     <string name="share_colors_success">Кольори успішно оновлено. Було додано нову тему під назвою \'Загальна\', використовуйте її для оновлення кольорів усіх додатків у майбутньому.</string>
-    <string name="shared_theme_note">Зауважте, що хоча ви користуєтеся версією Pro додатка, вам необхідний додаток Просто Подяка з технічних причин. Він подбає про синхронізацію кольору.</string>
+    <string name="shared_theme_note">Note that even though you are using the Pro app version, you still need Fossify Thank You for technical reasons. It takes care of the color synchronization.</string>
     <string name="purchase_thank_you">Будь ласка, придбайте &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Просту Подяку&lt;/a&gt;, щоб розблокувати цю функцію і підтримати розробку. Дякую!</string>
     <!-- Themes -->
     <string name="light_theme">Світла</string>
@@ -717,7 +717,7 @@
     <string name="during_day_at">Протягом дня о %02d:%02d</string>
     <!-- Settings -->
     <string name="settings">Налаштування</string>
-    <string name="purchase_simple_thank_you">Придбати \"Просту Подяку\"</string>
+    <string name="purchase_simple_thank_you">Purchase Fossify Thank You</string>
     <string name="general_settings">Загальні</string>
     <string name="color_customization">Налаштування кольору</string>
     <string name="improved_color_customization">Покращено налаштування кольору</string>
@@ -979,11 +979,10 @@
     <string name="app_version">Версія додатка: %s</string>
     <string name="device_os">ОС пристрою: %s</string>
     <string name="donate_please">Привіт,&lt;br&gt;&lt;br&gt; сподіваюсь, вам подобається додаток. Він не містить реклами, будь ласка, підтримайте його розробку, придбавши додаток &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Проста Подяка&lt;/a&gt;. Покупка також відмінить повторне спливання цього повідомлення.&lt;br&gt;&lt;br&gt; Спасибі!</string>
-    <string name="donate_new">Вітаю,&lt;br&gt;&lt;br&gt;сподіваюся, вам подобається застосунок. Він не містить реклами, також ми не збираємо ваші дані. Будь ласка, підтримайте розвиток, придбавши &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Просту подяку&lt;/a&gt;. Таким чином ви розблокуєте всі можливості застосунку, зокрема налаштування кольорів.&lt;br&gt;&lt;br&gt;Дякуємо!</string>
-    <string name="donate_short">Підтримайте нас, придбавши &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt; будь ласка, це також розблокує всі функції застосунку, включаючи налаштування кольорів.</string>
+    <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
+    <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
     <string name="purchase">Придбати</string>
-    <string name="get_simple_phone">Замовити Простий Телефон</string>
-    <string name="update_thank_you">Будь ласка, оновіть \"Просту Подяку\" до останньої версії</string>
+    <string name="update_thank_you">Please update Fossify Thank You to the latest version</string>
     <string name="before_asking_question_read_faq">Перш ніж запитувати, будь ласка, ознайомтесь із налаштуваннями додатка та прочитайте Часті Питання. Можливо, відповідь там.</string>
     <string name="before_rate_read_faq">Перш ніж ви оціните нас, будь ласка перегляньте налаштування додатка та прочитайте Часті Питання. Якщо у вас виникнуть проблеми, можливо там буде вирішення.</string>
     <string name="make_sure_latest">Також переконайтеся, що ви користуєтеся найновішою версією додатка.</string>
@@ -995,7 +994,7 @@
     <string name="thank_you">Подяка</string>
     <string name="widget_locked_pro">Віджет заблоковано.
 \nБудь ласка, оновіть додаток до версії Pro, щоб розблокувати віджет.</string>
-    <string name="features_locked">Ця функція заблокована, будь ласка, придбайте &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Просту Подяку&lt;/a&gt;, щоб розблокувати весь застосунок.&lt;br&gt;&lt;br&gt;Це лише одноразовий платіж, якщо ви не будете задоволені, ми зможемо повернути вам гроші.</string>
+    <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">
         <![CDATA[
@@ -1008,24 +1007,24 @@
             Спасибі
         ]]>
     </string>
-    <string name="simple_app_launcher">Простий Лаунчер</string>
-    <string name="simple_calculator">Простий Калькулятор</string>
-    <string name="simple_calendar">Простий Календар</string>
-    <string name="simple_camera">Проста Камера</string>
-    <string name="simple_clock">Простий Годинник</string>
-    <string name="simple_contacts">Прості контакти</string>
-    <string name="simple_dialer">Простий Телефон</string>
-    <string name="simple_draw">Просте Малювання</string>
-    <string name="simple_file_manager">Простий Файловий Менеджер</string>
-    <string name="simple_flashlight">Простий Ліхтарик</string>
-    <string name="simple_gallery">Проста Галерея</string>
-    <string name="simple_keyboard">Проста Клавіатура</string>
-    <string name="simple_launcher">Простий Лаунчер</string>
-    <string name="simple_music_player">Простий Музичний Програвач</string>
-    <string name="simple_notes">Прості Нотатки</string>
-    <string name="simple_sms_messenger">Прості SMS Повідомлення</string>
-    <string name="simple_thank_you">Проста Подяка</string>
-    <string name="simple_voice_recorder">Простий диктофон</string>
+    <string name="simple_app_launcher">Fossify App Launcher</string>
+    <string name="simple_calculator">Fossify Calculator</string>
+    <string name="simple_calendar">Fossify Calendar</string>
+    <string name="simple_camera">Fossify Camera</string>
+    <string name="simple_clock">Fossify Clock</string>
+    <string name="simple_contacts">Fossify Contacts</string>
+    <string name="simple_dialer">Fossify Dialer</string>
+    <string name="simple_draw">Fossify Draw</string>
+    <string name="simple_file_manager">Fossify File Manager</string>
+    <string name="simple_flashlight">Fossify Flashlight</string>
+    <string name="simple_gallery">Fossify Gallery</string>
+    <string name="simple_keyboard">Fossify Keyboard</string>
+    <string name="simple_launcher">Fossify Launcher</string>
+    <string name="simple_music_player">Fossify Music Player</string>
+    <string name="simple_notes">Fossify Notes</string>
+    <string name="simple_sms_messenger">Fossify SMS Messenger</string>
+    <string name="simple_thank_you">Fossify Thank You</string>
+    <string name="simple_voice_recorder">Fossify Voice Recorder</string>
     <string name="app_launcher_short">Лаунчер</string>
     <string name="calculator_short">Калькулятор</string>
     <string name="calendar_short">Календар</string>

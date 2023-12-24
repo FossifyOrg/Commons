@@ -364,11 +364,11 @@
     <string name="undo_changes_confirmation">Ar tikrai norite atšaukti pakeitimus\?</string>
     <string name="cannot_be_undone">Šio veiksmo neįmanoma atšaukti.</string>
     <string name="save_before_closing">Yra neįrašytų pakeitimų. Įrašyti prieš išeinant\?</string>
-    <string name="apply_to_all_apps">Taikyti spalvas visoms paprastoms programėlėms</string>
+    <string name="apply_to_all_apps">Apply colors to all Fossify Apps</string>
     <string name="app_icon_color_warning">Caution: Certain launchers may not handle app icon customization correctly. If the icon disappears, attempt launching the app through Google Play or a widget, if accessible.
         After launching, restore the default green icon color #1B5E20. In extreme cases, reinstalling the app may be necessary.</string>
     <string name="share_colors_success">Spalvos sėkmingai atnaujintos. Buvo pridėtas naujas apipavidalinimas, pavadinimu, „Bendrinamas“, naudokite jį, visų programėlių spalvų atnaujinimui ateityje.</string>
-    <string name="shared_theme_note">Turėkite omenyje, kad nors naudojate programėlės „Pro“ versiją, jums vis tiek, dėl techninių priežasčių, reikia turėti įdiegtą programėlę „Paprastas ačiū“. Ji pasirūpina spalvų sinchronizavimu.</string>
+    <string name="shared_theme_note">Note that even though you are using the Pro app version, you still need Fossify Thank You for technical reasons. It takes care of the color synchronization.</string>
     <string name="purchase_thank_you">Įsigykite programėlę &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;„Paprastas ačiū“&lt;/a&gt;, kad atrakintumėte šią funkciją ir palaikytumėte programėlių plėtojimą. Dėkojame!</string>
     <!-- Themes -->
     <string name="light_theme">Šviesus</string>
@@ -684,7 +684,7 @@
     <string name="during_day_at">Dienos metu ties %02d:%02d</string>
     <!-- Settings -->
     <string name="settings">Nustatymai</string>
-    <string name="purchase_simple_thank_you">Įsigyti „Paprastą ačiū“</string>
+    <string name="purchase_simple_thank_you">Purchase Fossify Thank You</string>
     <string name="general_settings">Bendri</string>
     <string name="color_customization">Spalvos tinkinimas</string>
     <string name="improved_color_customization">Improved color customization</string>
@@ -905,11 +905,10 @@
     <string name="app_version">Programėlės versija: %s</string>
     <string name="device_os">Įrenginio OS: %s</string>
     <string name="donate_please">Sveiki,&lt;br&gt;&lt;br&gt; tikimės, jog jums patinka naudotis programėle. Joje nėra jokių reklamų, tad, prašome, palaikykite jos plėtojimą įsigydami programėlę, pavadinimu &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;„Paprastas ačiū“&lt;/a&gt;. Jos dėka, šis dialogas daugiau nebebus rodomas.&lt;br&gt;&lt;br&gt; Dėkojame!</string>
-    <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
-    <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
+    <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
+    <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
     <string name="purchase">Įsigyti</string>
-    <string name="get_simple_phone">Get Simple Phone</string>
-    <string name="update_thank_you">Atnaujinkite programėlę „Paprastas ačiū“ iki naujausios versijos</string>
+    <string name="update_thank_you">Please update Fossify Thank You to the latest version</string>
     <string name="before_asking_question_read_faq">Prieš užduodami klausimą, pasižiūrėkite programėlės nustatymuose ir, iš pradžių, perskaitykite dažniausiai užduodamus klausimus. Galbūt, sprendimas yra aprašytas ten.</string>
     <string name="before_rate_read_faq">Prieš mus įvertindami, pasižiūrėkite programėlės nustatymuose ir, iš pradžių, perskaitykite dažniausiai užduodamus klausimus. Galbūt, sprendimas yra aprašytas ten.</string>
     <string name="make_sure_latest">Be to, įsitikinkite, kad naudojate naujausią programėlės versiją.</string>
@@ -929,27 +928,27 @@
     <string name="thank_you">Ačiū</string>
     <string name="widget_locked_pro">Valdiklis yra užrakintas.
 \nAtsinaujinkite į „Pro“ versiją, norėdami jį atrakinti.</string>
-    <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>
+    <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">Sveiki,&lt;br&gt;&lt;br&gt; tiesiog, norime jums pranešti, kad neseniai buvo išleistos naujos programėlės:&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; Galite jas atsisiųsti, spusteldami ant jų pavadinimų ar piktogramų.&lt;br&gt;&lt;br&gt;Ačiū</string>
-    <string name="simple_app_launcher">Paprasta programėlių paleidyklė</string>
-    <string name="simple_calculator">Paprastas skaičiuotuvas</string>
-    <string name="simple_calendar">Paprastas kalendorius</string>
-    <string name="simple_camera">Paprasta kamera</string>
-    <string name="simple_clock">Paprastas laikrodis</string>
-    <string name="simple_contacts">Paprasti adresatai</string>
-    <string name="simple_dialer">Paprastas rinkiklis</string>
-    <string name="simple_draw">Paprastas piešimas</string>
-    <string name="simple_file_manager">Paprasta failų tvarkytuvė</string>
-    <string name="simple_flashlight">Paprastas žibintuvėlis</string>
-    <string name="simple_gallery">Paprasta galerija</string>
-    <string name="simple_keyboard">Paprasta klaviatūra</string>
-    <string name="simple_launcher">Simple Launcher</string>
-    <string name="simple_music_player">Paprastas muzikos grotuvas</string>
-    <string name="simple_notes">Paprasti užrašai</string>
-    <string name="simple_sms_messenger">Paprastos SMS žinutės</string>
-    <string name="simple_thank_you">Paprastas ačiū</string>
-    <string name="simple_voice_recorder">Paprastas garso rašytuvas</string>
+    <string name="simple_app_launcher">Fossify App Launcher</string>
+    <string name="simple_calculator">Fossify Calculator</string>
+    <string name="simple_calendar">Fossify Calendar</string>
+    <string name="simple_camera">Fossify Camera</string>
+    <string name="simple_clock">Fossify Clock</string>
+    <string name="simple_contacts">Fossify Contacts</string>
+    <string name="simple_dialer">Fossify Dialer</string>
+    <string name="simple_draw">Fossify Draw</string>
+    <string name="simple_file_manager">Fossify File Manager</string>
+    <string name="simple_flashlight">Fossify Flashlight</string>
+    <string name="simple_gallery">Fossify Gallery</string>
+    <string name="simple_keyboard">Fossify Keyboard</string>
+    <string name="simple_launcher">Fossify Launcher</string>
+    <string name="simple_music_player">Fossify Music Player</string>
+    <string name="simple_notes">Fossify Notes</string>
+    <string name="simple_sms_messenger">Fossify SMS Messenger</string>
+    <string name="simple_thank_you">Fossify Thank You</string>
+    <string name="simple_voice_recorder">Fossify Voice Recorder</string>
     <string name="app_launcher_short">Programėlių paleidyklė</string>
     <string name="calculator_short">Skaičiuotuvas</string>
     <string name="calendar_short">Kalendorius</string>

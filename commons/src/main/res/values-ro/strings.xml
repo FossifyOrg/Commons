@@ -358,11 +358,11 @@
     <string name="undo_changes_confirmation">Sunteți sigur că vreţi să anulați modificările?</string>
     <string name="cannot_be_undone">This action cannot be undone.</string>
     <string name="save_before_closing">Aveți modificări nesalvate. Salvați înainte de a ieși?</string>
-    <string name="apply_to_all_apps">Aplicaţi culorile pentru toate aplicaţiile Simple Apps</string>
+    <string name="apply_to_all_apps">Apply colors to all Fossify Apps</string>
     <string name="app_icon_color_warning">Caution: Certain launchers may not handle app icon customization correctly. If the icon disappears, attempt launching the app through Google Play or a widget, if accessible.
         After launching, restore the default green icon color #1B5E20. In extreme cases, reinstalling the app may be necessary.</string>
     <string name="share_colors_success">Culorile au fost actualizate cu succes. A fost adăugată o nouă temă numită \'Partajată\', vă rugăm să o folosiți pentru actualizarea tuturor culorilor aplicației în viitor.</string>
-    <string name="shared_theme_note">Rețineți că, chiar dacă utilizați versiunea Pro a aplicației, aveți nevoie de Simple Thank You din motive tehnice. Acesta se ocupă de sincronizarea culorilor.</string>
+    <string name="shared_theme_note">Note that even though you are using the Pro app version, you still need Fossify Thank You for technical reasons. It takes care of the color synchronization.</string>
     <string name="purchase_thank_you">
         <![CDATA[
             Vă rugăm cumpăraţi <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Simple Thank You</a> pentru a debloca această funcţie şi pentru a sprijini dezvoltatorii. Vă mulţumim!
@@ -683,7 +683,7 @@
     <string name="during_day_at">În timpul zilei la %02d:%02d</string>
     <!-- Settings -->
     <string name="settings">Setări</string>
-    <string name="purchase_simple_thank_you">Cumpără Simple Thank You</string>
+    <string name="purchase_simple_thank_you">Purchase Fossify Thank You</string>
     <string name="general_settings">General</string>
     <string name="color_customization">Personalizarea culorilor</string>
     <string name="improved_color_customization">Improved color customization</string>
@@ -909,11 +909,10 @@
             Thank you!
         ]]>
     </string>
-    <string name="donate_new">Salut,&lt;br&gt;&lt;br&gt;sper că vă bucurați de aplicație. Nu conține reclame și nici nu vă colectăm datele, vă rugăm să susțineți dezvoltarea ei prin cumpărarea aplicației &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt;. De asemenea, veți avea deblocate toate funcțiile aplicației precum și personalizarea culorilor.&lt;br&gt;&lt;br&gt;Vă mulțumesc!</string>
-    <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
+    <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
+    <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
     <string name="purchase">Cumpără</string>
-    <string name="get_simple_phone">Get Simple Phone</string>
-    <string name="update_thank_you">Vă rugăm să actualizați Simple Thank You la cea mai recentă versiune</string>
+    <string name="update_thank_you">Please update Fossify Thank You to the latest version</string>
     <string name="before_asking_question_read_faq">Înainte de a pune o întrebare, vă rugăm să verificați setările aplicației și să citiți mai întâi Întrebările frecvente. Este posibil ca soluția să se afle acolo.</string>
     <string name="before_rate_read_faq">Înainte de a ne evalua, vă rugăm să verificați setările aplicației și să citiți mai întâi Întrebările frecvente. Dacă aveți probleme, este posibil ca soluția să se afle acolo.</string>
     <string name="make_sure_latest">De asemenea, asigurați-vă că utilizați cea mai recentă versiune a aplicației.</string>
@@ -924,7 +923,7 @@
     <string name="rate_our_app">Vă rugăm să ne evaluaţi aplicaţia :)</string>
     <string name="thank_you">Îţi mulţumesc</string>
     <string name="widget_locked_pro">Widgetul este blocat.\nVă rugăm să faceți upgrade la versiunea Pro pentru a debloca această funcţie.</string>
-    <string name="features_locked">Această funcție este blocată, vă rugăm să achiziționați &lt;a href=https://play.google.com/store/apps/details\?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt; pentru a debloca aplicația completă.&lt;br&gt;&lt;br&gt;Este o plată unică și dacă nu sunteți mulțumit, putem oferi rambursare.</string>
+    <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">
         <![CDATA[
@@ -937,24 +936,24 @@
             Îţi mulţumesc
         ]]>
     </string>
-    <string name="simple_app_launcher">Lansator de Aplicații Simplu</string>
-    <string name="simple_calculator">Calculator Simplu</string>
-    <string name="simple_calendar">Calendar Simplu</string>
-    <string name="simple_camera">Cameră Simplă</string>
-    <string name="simple_clock">Ceas Simplu</string>
-    <string name="simple_contacts">Contacte Simple</string>
-    <string name="simple_dialer">Telefon Simplu</string>
-    <string name="simple_draw">Desenează Simplu</string>
-    <string name="simple_file_manager">Manager de Fișiere Simplu</string>
-    <string name="simple_flashlight">Lanternă Simplă</string>
-    <string name="simple_gallery">Galerie Simplă</string>
-    <string name="simple_keyboard">Tastatură simplă</string>
-    <string name="simple_launcher">Simple Launcher</string>
-    <string name="simple_music_player">Player Muzical Simplu</string>
-    <string name="simple_notes">Note Simple</string>
-    <string name="simple_sms_messenger">SMS Messenger Simplu</string>
-    <string name="simple_thank_you">Mulțumesc Simplu</string>
-    <string name="simple_voice_recorder">Înregistrări Vocale Simple</string>
+    <string name="simple_app_launcher">Fossify App Launcher</string>
+    <string name="simple_calculator">Fossify Calculator</string>
+    <string name="simple_calendar">Fossify Calendar</string>
+    <string name="simple_camera">Fossify Camera</string>
+    <string name="simple_clock">Fossify Clock</string>
+    <string name="simple_contacts">Fossify Contacts</string>
+    <string name="simple_dialer">Fossify Dialer</string>
+    <string name="simple_draw">Fossify Draw</string>
+    <string name="simple_file_manager">Fossify File Manager</string>
+    <string name="simple_flashlight">Fossify Flashlight</string>
+    <string name="simple_gallery">Fossify Gallery</string>
+    <string name="simple_keyboard">Fossify Keyboard</string>
+    <string name="simple_launcher">Fossify Launcher</string>
+    <string name="simple_music_player">Fossify Music Player</string>
+    <string name="simple_notes">Fossify Notes</string>
+    <string name="simple_sms_messenger">Fossify SMS Messenger</string>
+    <string name="simple_thank_you">Fossify Thank You</string>
+    <string name="simple_voice_recorder">Fossify Voice Recorder</string>
     <string name="app_launcher_short">Lansator aplicaţii</string>
     <string name="calculator_short">Calculator</string>
     <string name="calendar_short">Calendar</string>
