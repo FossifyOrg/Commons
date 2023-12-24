@@ -901,24 +901,6 @@
             Thanks
         ]]>
     </string>
-    <string name="simple_app_launcher">Fossify App Launcher</string>
-    <string name="simple_calculator">Fossify Calculator</string>
-    <string name="simple_calendar">Fossify Calendar</string>
-    <string name="simple_camera">Fossify Camera</string>
-    <string name="simple_clock">Fossify Clock</string>
-    <string name="simple_contacts">Fossify Contacts</string>
-    <string name="simple_dialer">Fossify Dialer</string>
-    <string name="simple_draw">Fossify Draw</string>
-    <string name="simple_file_manager">Fossify File Manager</string>
-    <string name="simple_flashlight">Fossify Flashlight</string>
-    <string name="simple_gallery">Fossify Gallery</string>
-    <string name="simple_keyboard">Fossify Keyboard</string>
-    <string name="simple_launcher">Fossify Launcher</string>
-    <string name="simple_music_player">Fossify Music Player</string>
-    <string name="simple_notes">Fossify Notes</string>
-    <string name="simple_sms_messenger">Fossify SMS Messenger</string>
-    <string name="simple_thank_you">Fossify Thank You</string>
-    <string name="simple_voice_recorder">Fossify Voice Recorder</string>
     <string name="app_launcher_short">App Launcher</string>
     <string name="calculator_short">מחשבון</string>
     <string name="calendar_short">יומן</string>

@@ -943,24 +943,6 @@
     <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">Hey,&lt;br&gt;&lt;br&gt; nur eine kleine Info zu einigen neu veröffentlichten Apps:&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; Du kannst sie durch Drücken auf den Namen herunterladen.&lt;br&gt;&lt;br&gt; Danke</string>
-    <string name="simple_app_launcher">Fossify App Launcher</string>
-    <string name="simple_calculator">Fossify Calculator</string>
-    <string name="simple_calendar">Fossify Calendar</string>
-    <string name="simple_camera">Fossify Camera</string>
-    <string name="simple_clock">Fossify Clock</string>
-    <string name="simple_contacts">Fossify Contacts</string>
-    <string name="simple_dialer">Fossify Dialer</string>
-    <string name="simple_draw">Fossify Draw</string>
-    <string name="simple_file_manager">Fossify File Manager</string>
-    <string name="simple_flashlight">Fossify Flashlight</string>
-    <string name="simple_gallery">Fossify Gallery</string>
-    <string name="simple_keyboard">Fossify Keyboard</string>
-    <string name="simple_launcher">Fossify Launcher</string>
-    <string name="simple_music_player">Fossify Music Player</string>
-    <string name="simple_notes">Fossify Notes</string>
-    <string name="simple_sms_messenger">Fossify SMS Messenger</string>
-    <string name="simple_thank_you">Fossify Thank You</string>
-    <string name="simple_voice_recorder">Fossify Voice Recorder</string>
     <string name="app_launcher_short">App-Startprogramm</string>
     <string name="calculator_short">Rechner</string>
     <string name="calendar_short">Kalender</string>
