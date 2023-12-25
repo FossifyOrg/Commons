@@ -30,7 +30,7 @@ import org.fossify.commons.compose.theme.SimpleTheme
 import org.fossify.commons.extensions.fromHtml
 import org.fossify.commons.models.LanguageContributor
 
-private val startingPadding = Modifier.padding(start = 58.dp)
+private val startingPadding = Modifier.padding(start = 56.dp)
 
 @Composable
 internal fun ContributorsScreen(
@@ -43,7 +43,7 @@ internal fun ContributorsScreen(
             Text(
                 text = stringResource(id = R.string.contributors),
                 modifier = Modifier
-                    .padding(start = 28.dp)
+                    .padding(start = SimpleTheme.dimens.padding.extraLarge)
                     .fillMaxWidth(),
                 color = scrolledColor,
                 overflow = TextOverflow.Ellipsis,
@@ -119,7 +119,7 @@ private fun ContributorItem(
         leadingContent = {
             val imageSize = Modifier
                 .size(SimpleTheme.dimens.icon.medium)
-                .padding(SimpleTheme.dimens.padding.medium)
+                .padding(SimpleTheme.dimens.padding.small)
             Image(
                 modifier = imageSize,
                 painter = painterResource(id = languageContributor.iconId),

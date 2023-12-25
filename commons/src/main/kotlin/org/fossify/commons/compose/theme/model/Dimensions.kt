@@ -19,6 +19,7 @@ data class Dimensions(
 
     @Immutable
     data class IconSizes(
+        val extraSmall: Dp,
         val small: Dp,
         val medium: Dp,
         val large: Dp,
