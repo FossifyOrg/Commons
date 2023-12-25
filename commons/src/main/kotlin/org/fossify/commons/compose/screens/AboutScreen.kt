@@ -17,7 +17,7 @@ import org.fossify.commons.compose.settings.SettingsTitleTextComponent
 import org.fossify.commons.compose.theme.AppThemeSurface
 import org.fossify.commons.compose.theme.SimpleTheme
 
-private val startingTitlePadding = Modifier.padding(start = 60.dp)
+private val startingTitlePadding = Modifier.padding(start = 56.dp)
 
 @Composable
 internal fun AboutScreen(
