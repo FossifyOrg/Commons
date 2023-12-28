@@ -289,7 +289,7 @@ class AboutActivity : ComponentActivity() {
 
     private fun onPrivacyPolicyClick() {
         val appId = baseConfig.appId.removeSuffix(".debug").removeSuffix(".pro").removePrefix("org.fossify.")
-        val url = "https://www.fossify.org/privacy/$appId"
+        val url = "https://www.fossify.org/policy/$appId"
         launchViewIntent(url)
     }
 
