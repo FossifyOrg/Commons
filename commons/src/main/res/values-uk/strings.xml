@@ -46,7 +46,7 @@
     <string name="no_contacts_found">Контактів не знайдено</string>
     <string name="request_the_required_permissions">Запит на необхідні дозволи</string>
     <string name="no_access_to_contacts">Додаток не має доступу до контактів</string>
-    <string name="no_phone_call_permission">Додаток не має дозволу ініціювати телефонні дзвінки, будь ласка, надайте його в налаштуваннях пристрою</string>
+    <string name="no_phone_call_permission">Застосунок не має дозволу ініціювати телефонні дзвінки, будь ласка, надайте його в налаштуваннях пристрою</string>
     <string name="insert_text_here">Вставте текст сюди</string>
     <string name="call_person">Телефонувати %s</string>
     <string name="confirm_calling_person">Підтвердити виклик %s</string>
@@ -352,7 +352,7 @@
     <string name="accent_color_white">Колір акцента білої теми</string>
     <string name="accent_color_black_and_white">Колір акцента чорно-білої теми</string>
     <string name="foreground_color">Колір переднього плану</string>
-    <string name="app_icon_color">Колір піктограми додатка</string>
+    <string name="app_icon_color">Колір піктограми застосунка</string>
     <string name="bottom_navigation_bar_color">Колір нижньої навігаційної панелі</string>
     <string name="restore_defaults">Відновити стандартні параметри</string>
     <string name="use_default">Використовувати типово</string>
@@ -980,7 +980,7 @@
     <string name="hello">Привіт :)</string>
     <string name="about_footer">Зроблено з ❤️ у Словаччині</string>
     <string name="additional_info">Додаткова інформація</string>
-    <string name="app_version">Версія додатка: %s</string>
+    <string name="app_version">Версія застосунка: %s</string>
     <string name="device_os">ОС пристрою: %s</string>
     <string name="donate_please">
         <![CDATA[
