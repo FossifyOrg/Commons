@@ -360,7 +360,7 @@
     <string name="undo_changes_confirmation">Sollen wirklich alle Änderungen verworfen werden\?</string>
     <string name="cannot_be_undone">Diese Aktion kann nicht rückgängig gemacht werden.</string>
     <string name="save_before_closing">Du hast ungespeicherte Änderungen. Speichern vor dem Beenden?</string>
-    <string name="apply_to_all_apps">Apply colors to all Fossify Apps</string>
+    <string name="apply_to_all_apps">Farben auf alle Fossify-Apps anwenden</string>
     <string name="app_icon_color_warning">Caution: Certain launchers may not handle app icon customization correctly. If the icon disappears, attempt launching the app through Google Play or a widget, if accessible.
         After launching, restore the default green icon color #1B5E20. In extreme cases, reinstalling the app may be necessary.</string>
     <string name="share_colors_success">Farben erfolgreich aktualisiert. Ein neues Thema \"Shared\" wurde hinzugefügt, bitte verwende dieses, um für alle Apps die Farben zu ändern.</string>
@@ -966,7 +966,7 @@
     <string name="notes_short">Notizblock</string>
     <string name="sms_messenger_short">SMS-Messenger</string>
     <string name="thank_you_short">Dankeschön</string>
-    <string name="voice_recorder_short">Sprachaufzeichnungsprogramm</string>
+    <string name="voice_recorder_short">Diktiergerät</string>
     <string name="sideloaded_app">Deine App-Version scheint beschädigt zu sein. Bitte lade dir &lt;a href=%s&gt;hier&lt;/a&gt; die Originalversion herunter.</string>
     <!-- FAQ -->
     <string name="frequently_asked_questions">Häufig gestellte Fragen</string>
