@@ -523,7 +523,7 @@ fun getConflictResolution(resolutions: LinkedHashMap<String, Int>, path: String)
     }
 }
 
-val proPackages = arrayListOf("draw", "gallery", "filemanager", "contacts", "notes", "calendar")
+val proPackages = arrayListOf<String>()
 
 fun mydebug(message: String) = Log.e("DEBUG", message)
 
