@@ -508,8 +508,8 @@
     <string name="unlock_folder">Odemknout složku</string>
     <string name="lock_folder_notice">Tato ochrana funguje pouze v této aplikaci, nemá za cíl nahradit šifrování složky fungující napříč systémem.</string>
     <string name="enter_password">Enter password</string>
-    <string name="password">Password</string>
-    <string name="add_password">Add password</string>
+    <string name="password">Heslo</string>
+    <string name="add_password">Přidat heslo</string>
     <string name="empty_password_new">Zadejte prosím heslo</string>
     <string name="empty_password">Zadejte prosím heslo</string>
     <string name="invalid_password">Nesprávné heslo</string>
