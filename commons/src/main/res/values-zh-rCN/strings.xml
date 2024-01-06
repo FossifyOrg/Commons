@@ -350,7 +350,7 @@
     <string name="cannot_be_undone">此操作无法撤销。</string>
     <string name="save_before_closing">您尚未保存更改，是否保存？</string>
     <string name="apply_to_all_apps">将色彩应用到所有 Fossify 应用</string>
-    <string name="app_icon_color_warning">小心：特定启动器无法正确处理定制的应用图标。如图标消失，请尝试通过 Google Play 商店或小部件启动对应的应用。 启动后请还原默认的绿色图标色 #1B5E20。极端情形下，你可能有必要重装应用。</string>
+    <string name="app_icon_color_warning">小心：特定启动器无法正确处理定制的应用图标。如图标消失，请尝试通过 Google Play 商店或小部件启动对应的应用。 启动后请还原默认的绿色图标色 #106D1F。极端情形下，你可能有必要重装应用。</string>
     <string name="share_colors_success">颜色更改成功。已添加名为“共享”的新主题，以后您可以使用它来更改所有应用的颜色。</string>
     <string name="shared_theme_note">请注意，即便你在使用 Pro 版本，你仍要需要 Fossify Thank You 应用来同步颜色。</string>
     <string name="purchase_thank_you">请购买 &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; 解锁此功能并支持开发。谢谢！</string>
@@ -932,7 +932,7 @@
     <string name="faq_5_title_commons">我可以恢复已删除的文件吗？</string>
     <string name="faq_5_text_commons">如果您确实把它们删除了，那么您无法恢复。不过，默认情况下启用了回收站，所以文件可能被移动到回收站了而不是被删除了。</string>
     <string name="faq_6_title_commons">应用图标消失了。我该怎么办？</string>
-    <string name="faq_6_text_commons">当启动器不完全支持图标自定义时会发生这个问题。请尝试通过 Google Play 商店或小部件启动应用。启动后，请还原默认的绿色图标色 #1B5E20。极端情形下，你可能有必要重装应用。</string>
+    <string name="faq_6_text_commons">当启动器不完全支持图标自定义时会发生这个问题。请尝试通过 Google Play 商店或小部件启动应用。启动后，请还原默认的绿色图标色 #106D1F。极端情形下，你可能有必要重装应用。</string>
     <string name="faq_7_title_commons">我已付费，但我无法下载这个应用，我该怎么办？</string>
     <string name="faq_7_text_commons">支付完全是由Google处理的，他们的系统有时会发生故障。您可以在清除Google Play的应用数据之后，重启设备并再次尝试下载。</string>
     <string name="faq_8_title_commons">为什么我需要升级到专业版？</string>

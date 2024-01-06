@@ -357,7 +357,7 @@
     <string name="save_before_closing">Έχετε αλλαγές που δεν έχουν αποθηκευτεί. Αποθήκευση πριν από την έξοδο?</string>
     <string name="apply_to_all_apps">Apply colors to all Fossify Apps</string>
     <string name="app_icon_color_warning">Caution: Certain launchers may not handle app icon customization correctly. If the icon disappears, attempt launching the app through Google Play or a widget, if accessible.
-        After launching, restore the default green icon color #1B5E20. In extreme cases, reinstalling the app may be necessary.</string>
+        After launching, restore the default green icon color #106D1F. In extreme cases, reinstalling the app may be necessary.</string>
     <string name="share_colors_success">Τα χρώματα ενημερώθηκαν με επιτυχία. Ένα νέο θέμα που ονομάζεται  \"Κοινόχρηστο\" έχει προστεθεί, παρακαλούμε να χρησιμοποιήστε το για την ενημέρωση των χρωμάτων όλων των εφαρμ. στο μέλλον.</string>
     <string name="shared_theme_note">Note that even though you are using the Pro app version, you still need Fossify Thank You for technical reasons. It takes care of the color synchronization.</string>
     <string name="purchase_thank_you">
@@ -946,7 +946,7 @@
     <string name="faq_5_text_commons">Αν όντως διαγράφηκαν, δεν μπορείτε. Ωστόσο, υπάρχει ενεργοποιημένος από προεπιλογή ο Κάδος ανακύκλωσης, αυτό σημαίνει, οτι τα αρχεία μετακινούνται στον Κάδο αντί για διαγραφή.</string>
     <string name="faq_6_title_commons">Το εικονίδιο εκκίνησης εφαρμογών εξαφανίστηκε. Τι μπορώ να κάνω?</string>
     <string name="faq_6_text_commons">This issue arises when your launcher does not fully support icon customization. Attempt launching the app through Google Play or a widget, if accessible.
-        After launching, restore the default green icon color #1B5E20. In extreme cases, reinstalling the app may be necessary.</string>
+        After launching, restore the default green icon color #106D1F. In extreme cases, reinstalling the app may be necessary.</string>
     <string name="faq_7_title_commons">Τα χρήματα αφαιρέθηκαν από τον τραπεζικό μου λογαριασμό, αλλά δεν μπορώ να κατεβάσω την εφαρμογή. Τι μπορώ να κάνω?</string>
     <string name="faq_7_text_commons">Οι πληρωμές διαχειρίζονται πλήρως από την Google, το σύστημα της δυσλειτουργεί περιστασιακά. Απλώς καθαρίστε την προσωρινή μνήμη εφαρμογών του Google Play, επανεκκινήστε τη συσκευή σας, και προσπαθήστε ξανά να την κατεβάσετε.</string>
     <string name="faq_8_title_commons">Γιατί πρέπει να αναβαθμίσω σε έκδοση Pro;</string>
