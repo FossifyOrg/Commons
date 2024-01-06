@@ -76,7 +76,7 @@
     <string name="updating">Đang cập nhật…</string>
     <string name="phone_storage">Bộ nhớ điện thoại</string>
     <string name="phone_storage_hidden">Bộ nhớ điện thoại (không hiển thị bởi các ứng dụng khác)</string>
-    <string name="audio">Audio</string>
+    <string name="audio">Âm thanh</string>
     <string name="scanning">Đang quét…</string>
     <!-- Events -->
     <string name="birthday">Ngày sinh nhật</string>
