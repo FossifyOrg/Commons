@@ -343,33 +343,28 @@
     <string name="background_color">Hintergrundfarbe</string>
     <string name="text_color">Schriftfarbe</string>
     <string name="primary_color">Primäre Farbe</string>
-    <string name="accent_color_white">Akzentfarbe des weißen Themas</string>
+    <string name="accent_color_white">Akzentfarbe des weißen Farbschemas</string>
     <string name="accent_color_black_and_white">Akzentfarbe des Schwarz-Weiß-Farbschemas</string>
     <string name="foreground_color">Vordergrundfarbe</string>
-    <string name="app_icon_color">Farbe des Anwendungssymbols</string>
+    <string name="app_icon_color">Farbe des App-Symbols</string>
     <string name="bottom_navigation_bar_color">Farbe der unteren Navigationsleiste</string>
     <string name="restore_defaults">Vorgabe wiederherstellen</string>
     <string name="use_default">Standard verwenden</string>
     <string name="default_color">Vorgabe</string>
     <string name="change_color">Farbe ändern</string>
-    <string name="theme">Thema</string>
-    <string name="changing_color_description">Ändern einer Farbe setzt das Thema auf \"Benutzerdefiniert\"</string>
+    <string name="theme">Farbschema</string>
+    <string name="changing_color_description">Ändern einer Farbe setzt das Farbschema auf „Benutzerdefiniert“</string>
     <string name="save">Speichern</string>
     <string name="discard">Verwerfen</string>
     <string name="undo_changes">Änderungen verwerfen</string>
     <string name="undo_changes_confirmation">Sollen wirklich alle Änderungen verworfen werden\?</string>
     <string name="cannot_be_undone">Diese Aktion kann nicht rückgängig gemacht werden.</string>
     <string name="save_before_closing">Du hast ungespeicherte Änderungen. Speichern vor dem Beenden?</string>
-    <string name="apply_to_all_apps">Apply colors to all Fossify Apps</string>
-    <string name="app_icon_color_warning">Caution: Certain launchers may not handle app icon customization correctly. If the icon disappears, attempt launching the app through Google Play or a widget, if accessible.
-        After launching, restore the default green icon color #1B5E20. In extreme cases, reinstalling the app may be necessary.</string>
-    <string name="share_colors_success">Farben erfolgreich aktualisiert. Ein neues Thema \"Shared\" wurde hinzugefügt, bitte verwende dieses, um für alle Apps die Farben zu ändern.</string>
-    <string name="shared_theme_note">Note that even though you are using the Pro app version, you still need Fossify Thank You for technical reasons. It takes care of the color synchronization.</string>
-    <string name="purchase_thank_you">
-        <![CDATA[
-            Bitte kaufe <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> um diese Funktion freizuschalten und die Entwicklung zu unterstützen. Danke!
-        ]]>
-    </string>
+    <string name="apply_to_all_apps">Farben auf alle Fossify-Apps anwenden</string>
+    <string name="app_icon_color_warning">Achtung! Bestimmte Launcher können das Anpassen von App-Symbolen nicht richtig verarbeiten. Wenn das Symbol verschwindet, versuche, falls möglich, die App über Google Play oder ein Widget zu starten. Stelle nach dem Start die grüne Standard-Symbolfarbe #1B5E20 wieder her. In extremen Fällen kann es notwendig sein, die App neu zu installieren.</string>
+    <string name="share_colors_success">Farben erfolgreich aktualisiert. Ein neues Farbschema „Geteilt“ wurde hinzugefügt, bitte verwende dieses, um für alle Apps die Farben zu ändern.</string>
+    <string name="shared_theme_note">Beachte, dass du aus technischen Gründen immer noch Fossify Dankeschön benötigst, auch wenn du die Pro-App-Version verwendest. Es kümmert sich um die Farbsynchronisation.</string>
+    <string name="purchase_thank_you">Bitte kaufe &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Dankeschön&lt;/a&gt; um diese Funktion freizuschalten und die Entwicklung zu unterstützen. Danke!</string>
     <!-- Themes -->
     <string name="light_theme">Hell</string>
     <string name="dark_theme">Dunkel</string>
@@ -657,7 +652,7 @@
     <string name="during_day_at">Tagsüber am %02d:%02d</string>
     <!-- Settings -->
     <string name="settings">Einstellungen</string>
-    <string name="purchase_simple_thank_you">Purchase Fossify Thank You</string>
+    <string name="purchase_simple_thank_you">Fossify Dankeschön kaufen</string>
     <string name="general_settings">Allgemein</string>
     <string name="color_customization">Farbanpassung</string>
     <string name="improved_color_customization">Verbesserte Farbanpassung</string>
@@ -928,14 +923,14 @@
     <string name="purchase">Kaufen</string>
     <string name="update_thank_you">Please update Fossify Thank You to the latest version</string>
     <string name="before_asking_question_read_faq">Bevor du eine Frage stellst, überprüfe bitte die App-Einstellungen und lies dir die häufig gestellten Fragen (FAQ) durch. Vielleicht findest du dort eine Lösung.</string>
-    <string name="before_rate_read_faq">Bevor du eine Bewertung abgibst, schaue bitte in die Einstellungen der Anwendung und lies dir die häufig gestellten Fragen (FAQ) durch. Vielleicht findest du dort eine Lösung.</string>
+    <string name="before_rate_read_faq">Bevor du eine Bewertung abgibst, schaue bitte in die Einstellungen der App und lies dir die häufig gestellten Fragen (FAQ) durch. Vielleicht findest du dort eine Lösung.</string>
     <string name="make_sure_latest">Stelle bitte auch sicher, dass du die neuste Version der App benutzt.</string>
     <string name="make_sure_upgrade">Beachte bitte, dass diese App-Version nicht mehr weiterentwickelt wird. Hole dir die Pro-Version mit vielen Verbesserungen.</string>
     <string name="read_it">Bitte lesen</string>
     <string name="read_faq">Häufige gestellte Fragen</string>
     <string name="rate_us_prompt">Hallo,
 \n
-\nes sieht so aus, als würdest du diese Anwendung schon einige Zeit benutzen. Wir schätzen das sehr.
+\nes sieht so aus, als würdest du diese App schon einige Zeit benutzen. Wir schätzen das sehr.
 \n
 \nWenn wir dich um einen Gefallen bitten können, bewerte uns bitte auf Google Play. Das würde uns wirklich sehr helfen.
 \n
@@ -966,14 +961,14 @@
     <string name="notes_short">Notizblock</string>
     <string name="sms_messenger_short">SMS-Messenger</string>
     <string name="thank_you_short">Dankeschön</string>
-    <string name="voice_recorder_short">Sprachaufzeichnungsprogramm</string>
+    <string name="voice_recorder_short">Diktiergerät</string>
     <string name="sideloaded_app">Deine App-Version scheint beschädigt zu sein. Bitte lade dir &lt;a href=%s&gt;hier&lt;/a&gt; die Originalversion herunter.</string>
     <!-- FAQ -->
     <string name="frequently_asked_questions">Häufig gestellte Fragen</string>
     <string name="before_asking_question">Bevor du eine Frage stellst, lies bitte zuerst die</string>
     <string name="faq_1_title_commons">Weshalb sehe ich das Widget dieser App nicht in der Liste der Widgets?</string>
-    <string name="faq_1_text_commons">Wahrscheinlich, weil du die Anwendung auf die Speicherkarte verschoben hast. In diesem Fall werden durch eine Einschränkung von Android die Widgets dieser Anwendung ausgeblendet. Die einzige Lösung ist, die Anwendung über die Geräteeinstellungen wieder in den internen Speicher zu verschieben.</string>
-    <string name="faq_2_title_commons">Ich will euch unterstützen, aber es ist mir nicht möglich, Geld zu spenden. Gibt es eine andere Möglichkeit\?</string>
+    <string name="faq_1_text_commons">Wahrscheinlich, weil du die App auf die Speicherkarte verschoben hast. In diesem Fall werden durch eine Android-Systembeschränkung die Widgets dieser App ausgeblendet. Die einzige Lösung ist, die App über die Geräteeinstellungen wieder auf den internen Speicher zu verschieben.</string>
+    <string name="faq_2_title_commons">Ich möchte euch unterstützen, jedoch ist es mir nicht möglich, Geld zu spenden. Gibt es eine andere Möglichkeit?</string>
     <string name="faq_2_text_commons">
         <![CDATA[
             Yes, of course. You can spread the word about the apps or give good feedback and ratings. You can also help by translating the apps in a new language, or just update some existing translations.
@@ -987,13 +982,13 @@
     <string name="faq_5_title_commons">Kann ich gelöschte Dateien wiederherstellen?</string>
     <string name="faq_5_text_commons">Wurden die Dateien endgültig gelöscht, sind sie verloren. Standardmäßig ist jedoch der Papierkorb aktiviert. Dateien werden dann in den Papierkorb verschoben anstatt gelöscht.
         Von dort können die Dateien wiederhergestellt werden.</string>
-    <string name="faq_6_title_commons">Das App-Icon im Launcher ist verschwunden. Was kann ich tun?</string>
+    <string name="faq_6_title_commons">Das App-Symbol im Launcher ist verschwunden. Was kann ich tun?</string>
     <string name="faq_6_text_commons">This issue arises when your launcher does not fully support icon customization. Attempt launching the app through Google Play or a widget, if accessible.
         After launching, restore the default green icon color #1B5E20. In extreme cases, reinstalling the app may be necessary.</string>
     <string name="faq_7_title_commons">Der Betrag wurde von meinem Konto abgebucht, aber ich kann die App nicht herunterladen. Was kann ich machen?</string>
     <string name="faq_7_text_commons">Die Zahlungen werden durch Google gehandhabt. Dabei kommt es gelegentlich zu Verzögerungen. Leere den Cache der Google Play App, starte dein Gerät neu und versuche erneut, die App herunterzuladen.</string>
     <string name="faq_8_title_commons">Warum sollte ich auf die Pro-Version aufrüsten\?</string>
-    <string name="faq_8_text_commons">Deine Anwendung wird keine weiteren Aktualisierungen erhalten. Bekannte und später gefundene Fehler werden nicht beseitigt werden. Es werden auch keine neuen Funktionen mehr hinzugefügt werden. Du kannst die Pro-Version auf Google Play für einen kleinen Betrag kaufen. Dies ist eine Einmalzahlung. Auch nach einem Gerätewechsel kannst du weiter die Pro-Version nutzen, ohne erneute dafür bezahlen zu müssen. Sollte dir die Pro Version nicht gefallen, kannst du sie einfach innerhalb einiger Stunden deinstallieren und wirst Dein Geld automatisch zurückerhalten. Möchtest du zu einem späteren Zeitpunkt dein Geld erstattet bekommen, dann kontaktiere uns einfach unter hello@fossify.org, und du wirst es erhalten.</string>
+    <string name="faq_8_text_commons">Deine App wird keine weiteren Aktualisierungen erhalten. Bekannte und später gefundene Fehler werden nicht beseitigt werden. Es werden auch keine neuen Funktionen mehr hinzugefügt werden. Du kannst die Pro-Version auf Google Play für einen geringen Betrag kaufen. Dies ist eine Einmalzahlung. Auch nach einem Gerätewechsel kannst du weiter die Pro-Version nutzen, ohne erneute dafür bezahlen zu müssen. Sollte dir die Pro-Version nicht gefallen, kannst du sie einfach innerhalb einiger Stunden deinstallieren und wirst Dein Geld automatisch zurückerhalten. Möchtest du zu einem späteren Zeitpunkt dein Geld erstattet bekommen, dann kontaktiere uns einfach unter hello@fossify.org, und du wirst es erhalten.</string>
     <string name="faq_9_title_commons">Wie kann ich mehrere Elemente auf einmal auswählen?</string>
     <string name="faq_9_text_commons">Es gibt mehrere Möglichkeiten, dies zu tun. Die erste ist, den Auswahlmodus durch langes Drücken eines Elements zu starten und anschließend die anderen Elemente durch kurzes Antippen auszuwählen. Die zweite Möglichkeit ähnelt dem Auswählen von Elementen auf PCs mit einer Maus: Starte den Auswahlmodus durch langes Drücken eines Elements und streiche, ohne den Finger vom Display abzuheben, über die anderen Elemente, um sie auszuwählen. Die dritte Möglichkeit, mehrere Elemente auszuwählen, besteht darin, nacheinander zwei Elemente lange zu drücken und dadurch auch alles dazwischen auszuwählen. Wenn du alle Elemente auswählen möchtest, drücke einfach lange auf ein beliebiges Element und tippe dann auf den Zähler für ausgewählte Elemente in der oberen linken Ecke. Durch Antippen des Zählers wird alles aus- oder abgewählt.</string>
     <string name="faq_10_title_commons">Ich habe die App gekauft, kann sie aber nicht auf ein anderes Gerät herunterladen.</string>
@@ -1080,7 +1075,7 @@
     <!-- Contacts Pro -->
     <string name="why_upgrade_duplicate_contact_merging">Verbesserte Zusammenführung doppelter Kontakte</string>
     <string name="why_upgrade_font_size_customization">Anpassung der Schriftgröße</string>
-    <string name="why_upgrade_private_contact_sharing">Optionaler privater Kontaktaustausch innerhalb unserer Anwendungen</string>
+    <string name="why_upgrade_private_contact_sharing">Optionaler privater Kontaktaustausch innerhalb unserer Apps</string>
     <string name="why_upgrade_customizable_contact_ringtones">Anpassbare Kontaktklingeltöne</string>
     <string name="why_upgrade_contact_filtering">Kontaktfilterung</string>
     <string name="why_upgrade_contact_private_contacts">Privat gespeicherte Kontakte</string>
@@ -1098,7 +1093,7 @@
     <string name="why_upgrade_file_importing">Unterstützung für den Dateiimport</string>
     <string name="why_upgrade_zooming">Zoomen</string>
     <!-- License -->
-    <string name="notice">Diese Anwendung verwendet die folgenden Bibliotheken von Drittanbietern, um mir das Leben zu erleichtern. Vielen Dank dafür.</string>
+    <string name="notice">Diese App verwendet die folgenden Bibliotheken von Drittanbietern, um mir das Leben zu erleichtern. Vielen Dank dafür.</string>
     <string name="third_party_licences">Drittanbieterlizenzen</string>
     <string name="kotlin_title">Kotlin (Programmiersprache)</string>
     <string name="subsampling_title">Subsampling Scale Image View (Zoombare Bilder)</string>
