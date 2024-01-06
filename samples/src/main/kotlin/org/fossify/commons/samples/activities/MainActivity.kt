@@ -2,11 +2,10 @@ package org.fossify.commons.samples.activities
 
 import android.content.Intent
 import android.os.Bundle
-import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
-import org.fossify.commons.activities.CustomizationActivity
+import org.fossify.commons.activities.BaseSimpleActivity
 import org.fossify.commons.activities.ManageBlockedNumbersActivity
 import org.fossify.commons.compose.alert_dialog.AlertDialogState
 import org.fossify.commons.compose.alert_dialog.rememberAlertDialogState
@@ -15,6 +14,7 @@ import org.fossify.commons.compose.theme.AppThemeSurface
 import org.fossify.commons.dialogs.ConfirmationDialog
 import org.fossify.commons.dialogs.DonateAlertDialog
 import org.fossify.commons.dialogs.RateStarsAlertDialog
+import org.fossify.commons.extensions.appLaunched
 import org.fossify.commons.extensions.hideKeyboard
 import org.fossify.commons.extensions.launchMoreAppsFromUsIntent
 import org.fossify.commons.extensions.launchViewIntent
@@ -24,10 +24,10 @@ import org.fossify.commons.samples.BuildConfig
 import org.fossify.commons.samples.R
 import org.fossify.commons.samples.screens.MainScreen
 
-class MainActivity : ComponentActivity() {
+class MainActivity : BaseSimpleActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
+        appLaunched(BuildConfig.APPLICATION_ID)
         enableEdgeToEdgeSimple()
         setContent {
             AppThemeSurface {
@@ -90,14 +90,6 @@ class MainActivity : ComponentActivity() {
         }
     }
 
-    private fun startCustomizationActivity() {
-        Intent(applicationContext, CustomizationActivity::class.java).apply {
-            putExtra(APP_ICON_IDS, getAppIconIDs())
-            putExtra(APP_LAUNCHER_NAME, getAppLauncherName())
-            startActivity(this)
-        }
-    }
-
     private fun launchAbout() {
         val licenses = LICENSE_AUTOFITTEXTVIEW
 
@@ -133,11 +125,27 @@ class MainActivity : ComponentActivity() {
         }
     }
 
-    private fun getAppLauncherName() = getString(R.string.commons_app_name)
+    override fun getAppLauncherName() = getString(R.string.commons_app_name)
 
-    private fun getAppIconIDs(): ArrayList<Int> {
-        val ids = ArrayList<Int>()
-        ids.add(R.mipmap.ic_launcher)
-        return ids
-    }
+    override fun getAppIconIDs() = arrayListOf(
+        R.mipmap.ic_launcher_red,
+        R.mipmap.ic_launcher_pink,
+        R.mipmap.ic_launcher_purple,
+        R.mipmap.ic_launcher_deep_purple,
+        R.mipmap.ic_launcher_indigo,
+        R.mipmap.ic_launcher_blue,
+        R.mipmap.ic_launcher_light_blue,
+        R.mipmap.ic_launcher_cyan,
+        R.mipmap.ic_launcher_teal,
+        R.mipmap.ic_launcher,
+        R.mipmap.ic_launcher_light_green,
+        R.mipmap.ic_launcher_lime,
+        R.mipmap.ic_launcher_yellow,
+        R.mipmap.ic_launcher_amber,
+        R.mipmap.ic_launcher_orange,
+        R.mipmap.ic_launcher_deep_orange,
+        R.mipmap.ic_launcher_brown,
+        R.mipmap.ic_launcher_blue_grey,
+        R.mipmap.ic_launcher_grey_black
+    )
 }

@@ -163,6 +163,7 @@ fun Context.toggleAppIconColor(appId: String, colorIndex: Int, color: Int, enabl
             baseConfig.lastIconColor = color
         }
     } catch (e: Exception) {
+        showErrorToast(e)
     }
 }
 
