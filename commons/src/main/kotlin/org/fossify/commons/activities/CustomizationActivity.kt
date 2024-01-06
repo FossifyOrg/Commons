@@ -153,37 +153,52 @@ class CustomizationActivity : BaseSimpleActivity() {
             put(
                 THEME_LIGHT,
                 MyTheme(
-                    getString(R.string.light_theme),
-                    R.color.theme_light_text_color,
-                    R.color.theme_light_background_color,
-                    R.color.color_primary,
-                    R.color.color_primary
+                    label = getString(R.string.light_theme),
+                    textColorId = R.color.theme_light_text_color,
+                    backgroundColorId = R.color.theme_light_background_color,
+                    primaryColorId = R.color.color_primary,
+                    appIconColorId = R.color.color_primary
                 )
             )
             put(
                 THEME_DARK,
                 MyTheme(
-                    getString(R.string.dark_theme),
-                    R.color.theme_dark_text_color,
-                    R.color.theme_dark_background_color,
-                    R.color.color_primary,
-                    R.color.color_primary
+                    label = getString(R.string.dark_theme),
+                    textColorId = R.color.theme_dark_text_color,
+                    backgroundColorId = R.color.theme_dark_background_color,
+                    primaryColorId = R.color.color_primary,
+                    appIconColorId = R.color.color_primary
                 )
             )
             put(
                 THEME_DARK_RED,
                 MyTheme(
-                    getString(R.string.dark_red),
-                    R.color.theme_dark_text_color,
-                    R.color.theme_dark_background_color,
-                    R.color.theme_dark_red_primary_color,
-                    R.color.md_red_700
+                    label = getString(R.string.dark_red),
+                    textColorId = R.color.theme_dark_text_color,
+                    backgroundColorId = R.color.theme_dark_background_color,
+                    primaryColorId = R.color.theme_dark_red_primary_color,
+                    appIconColorId = R.color.md_red_700
                 )
             )
-            put(THEME_WHITE, MyTheme(getString(R.string.white), R.color.dark_grey, android.R.color.white, android.R.color.white, R.color.color_primary))
+            put(
+                THEME_WHITE,
+                MyTheme(
+                    label = getString(R.string.white),
+                    textColorId = R.color.dark_grey,
+                    backgroundColorId = android.R.color.white,
+                    primaryColorId = android.R.color.white,
+                    appIconColorId = R.color.color_primary
+                )
+            )
             put(
                 THEME_BLACK_WHITE,
-                MyTheme(getString(R.string.black_white), android.R.color.white, android.R.color.black, android.R.color.black, R.color.md_grey_black)
+                MyTheme(
+                    label = getString(R.string.black_white),
+                    textColorId = android.R.color.white,
+                    backgroundColorId = android.R.color.black,
+                    primaryColorId = android.R.color.black,
+                    appIconColorId = R.color.md_grey_black
+                )
             )
             put(THEME_CUSTOM, MyTheme(getString(R.string.custom), 0, 0, 0, 0))
 
