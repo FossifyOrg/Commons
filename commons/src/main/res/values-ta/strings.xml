@@ -488,7 +488,7 @@
     <string name="no_fingerprints_registered">You have no fingerprints registered, please add some in the Settings of your device</string>
     <string name="go_to_settings">அமைப்புகளுக்கு செல்</string>
     <string name="protection_setup_successfully">Password setup successfully. Please reinstall the app in case you forget it.</string>
-    <string name="fingerprint_setup_successfully">Protection setup successfully. Please reinstall the app in case of problems with reseting it.</string>
+    <string name="fingerprint_setup_successfully">Protection setup successfully. Please reinstall the app in case of problems with resetting it.</string>
     <string name="lock_folder">கோப்புறையை பூட்டு</string>
     <string name="lock_folder_pro">கோப்புறையை பூட்டு (Pro)</string>
     <string name="unlock_folder">கோப்புறையை பூட்டவிழ்</string>

@@ -488,7 +488,7 @@
     <string name="no_fingerprints_registered">אין טביעות אצבע רשומות. נא להוסיף בהגדרות המכשיר</string>
     <string name="go_to_settings">עבור להגדרות</string>
     <string name="protection_setup_successfully">סיסמה הוגדרה בהצלחה. נא להתקין שוב את האפליקציה במיקרה של איבוד הסיסמה.</string>
-    <string name="fingerprint_setup_successfully">Protection setup successfully. Please reinstall the app in case of problems with reseting it.</string>
+    <string name="fingerprint_setup_successfully">Protection setup successfully. Please reinstall the app in case of problems with resetting it.</string>
     <string name="lock_folder">נעל תיקייה</string>
     <string name="lock_folder_pro">נעל תיקייה (Pro)</string>
     <string name="unlock_folder">בטל נעילת תיקייה</string>
