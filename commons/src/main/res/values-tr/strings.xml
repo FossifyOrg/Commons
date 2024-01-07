@@ -80,7 +80,7 @@
     <string name="scanning">Taranıyor…</string>
     <!-- Events -->
     <string name="birthday">Doğum günü</string>
-    <string name="anniversary">Yıldönümü</string>
+    <string name="anniversary">Yıl dönümü</string>
     <!-- Emails -->
     <string name="home">Ev</string>
     <string name="work">İş</string>
@@ -353,16 +353,11 @@
     <string name="undo_changes_confirmation">Değişikliklerinizi geri almak istediğinizden emin misiniz?</string>
     <string name="cannot_be_undone">Bu eylem geri alınamaz.</string>
     <string name="save_before_closing">Kaydedilmemiş değişiklikleriniz var. Çıkmadan önce kaydedilsin mi?</string>
-    <string name="apply_to_all_apps">Apply colors to all Fossify Apps</string>
-    <string name="app_icon_color_warning">Caution: Certain launchers may not handle app icon customization correctly. If the icon disappears, attempt launching the app through Google Play or a widget, if accessible.
-        After launching, restore the default green icon color #106D1F. In extreme cases, reinstalling the app may be necessary.</string>
+    <string name="apply_to_all_apps">Renkleri tüm Fossify uygulamalarına uygula</string>
+    <string name="app_icon_color_warning">Dikkat: Bazı başlatıcılar uygulama simgesi özelleştirmesini doğru şekilde yapamayabilir. Simge kaybolursa, uygulamayı Google Play veya erişilebiliyorsa bir widget aracılığıyla başlatmayı deneyin. Başlattıktan sonra, öntanımlı #106D1F yeşil simge rengini geri yükleyin. Aşırı durumlarda, uygulamanın yeniden kurulması gerekebilir.</string>
     <string name="share_colors_success">"Renkler başarıyla güncellendi. 'Paylaşılan' adlı yeni bir Tema eklendi, lütfen gelecekte tüm uygulama renklerini güncellemek için onu kullanın."</string>
-    <string name="shared_theme_note">Note that even though you are using the Pro app version, you still need Fossify Thank You for technical reasons. It takes care of the color synchronization.</string>
-    <string name="purchase_thank_you">
-        <![CDATA[
-            Bu işlevin kilidini açmak ve geliştirmeyi desteklemek için lütfen <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Basit Teşekkürler</a>\'i satın alın. Teşekkürler!
-        ]]>
-    </string>
+    <string name="shared_theme_note">Pro uygulama sürümünü kullanıyor olsanız bile, teknik nedenlerden dolayı hala Fossify Teşekkürler\'e ihtiyacınız olduğunu unutmayın. Renk eşitlemesini o yapar.</string>
+    <string name="purchase_thank_you">Bu işlevin kilidini açmak ve geliştirmeyi desteklemek için lütfen &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Teşekkürler&lt;/a&gt;\'i satın alın. Teşekkürler!</string>
     <!-- Themes -->
     <string name="light_theme">Aydınlık</string>
     <string name="dark_theme">Karanlık</string>
@@ -493,9 +488,9 @@
     <string name="lock_folder_pro">Klasörü kilitle (Pro)</string>
     <string name="unlock_folder">Klasörün kilidini aç</string>
     <string name="lock_folder_notice">Bu koruma yalnızca bu uygulamada çalışır, gerçek bir sistem çapında klasör şifrelemesinin yerini almaz.</string>
-    <string name="enter_password">Enter password</string>
-    <string name="password">Password</string>
-    <string name="add_password">Add password</string>
+    <string name="enter_password">Parola gir</string>
+    <string name="password">Parola</string>
+    <string name="add_password">Parola ekle</string>
     <string name="empty_password_new">Lütfen bir parola girin</string>
     <string name="empty_password">Lütfen parolayı girin</string>
     <string name="invalid_password">Yanlış parola</string>
@@ -512,7 +507,7 @@
     <string name="seconds_letter">sn</string>
     <string name="minutes_letter">dk</string>
     <string name="hours_letter">sa</string>
-    <string name="week_number_short">wk.</string>
+    <string name="week_number_short">ha.</string>
     <plurals name="seconds">
         <item quantity="one">%d saniye</item>
         <item quantity="other">%d saniye</item>
@@ -649,7 +644,7 @@
     <string name="during_day_at">Gün boyunca %02d:%02d</string>
     <!-- Settings -->
     <string name="settings">Ayarlar</string>
-    <string name="purchase_simple_thank_you">Purchase Fossify Thank You</string>
+    <string name="purchase_simple_thank_you">Fossify Teşekkürler\'i Satın Al</string>
     <string name="general_settings">Genel</string>
     <string name="color_customization">Renk özelleştirme</string>
     <string name="improved_color_customization">İyileştirilmiş renk özelleştirmesi</string>
@@ -908,17 +903,11 @@
     <string name="additional_info">Ek bilgiler</string>
     <string name="app_version">Uygulama sürümü: %s</string>
     <string name="device_os">Aygıt İS: %s</string>
-    <string name="donate_please">
-        <![CDATA[
-            Merhaba,<br><br>
-            umarım uygulamadan memnunsunuzdur. Hiçbir reklam içermiyor, bu yüzden lütfen <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Basit Teşekkürler</a> uygulamasını satın alarak geliştirmeyi destekleyip, bu pencerenin tekrar görünmesini de önleyin.<br><br>
-            Teşekkürler!
-        ]]>
-    </string>
-    <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
-    <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
+    <string name="donate_please">Merhaba,&lt;br&gt;&lt;br&gt; umarım uygulamadan memnunsunuzdur. Hiçbir reklam içermiyor, bu yüzden lütfen &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Teşekkürler&lt;/a&gt; uygulamasını satın alarak geliştirmeyi destekleyip, bu pencerenin tekrar görünmesini de önleyin.&lt;br&gt;&lt;br&gt; Teşekkürler!</string>
+    <string name="donate_new">Merhaba,&lt;br&gt;&lt;br&gt; umarım uygulamadan memnunsunuzdur. Hiçbir reklam içermiyor ve verilerinizi de toplamıyoruz, lütfen &lt;href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Teşekkürler&lt;/a&gt; uygulamasını satın alarak geliştirmeyi destekleyin. Ayrıca renk özelleştirme dahil tüm uygulama özelliklerinin kilidi açılacaktır.&lt;br&gt;&lt;br&gt; Teşekkürler!</string>
+    <string name="donate_short">Lütfen &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Teşekkürler&lt;/a&gt; uygulamasını satın alarak bizi destekleyin, ayrıca renk özelleştirme dahil tüm uygulama özelliklerinin kilidi açılacaktır.</string>
     <string name="purchase">Satın al</string>
-    <string name="update_thank_you">Please update Fossify Thank You to the latest version</string>
+    <string name="update_thank_you">Lütfen Fossify Teşekkürler\'i son sürüme güncelleyin</string>
     <string name="before_asking_question_read_faq">Bir soru sormadan önce, lütfen uygulama ayarlarını gözden geçirin ve önce Sık Sorulan Sorular bölümünü okuyun. Belki çözüm oradadır.</string>
     <string name="before_rate_read_faq">Bize puan vermeden önce lütfen uygulama ayarlarını gözden geçirin ve önce Sık Sorulan Sorular bölümünü okuyun. Herhangi bir sorunuz varsa, belki çözüm oradadır.</string>
     <string name="make_sure_latest">Ayrıca uygulamanın en son sürümünü kullandığınızdan emin olun.</string>
@@ -929,7 +918,7 @@
     <string name="rate_our_app">Lütfen uygulamamızı oylayın :)</string>
     <string name="thank_you">Teşekkürler</string>
     <string name="widget_locked_pro">Widget kilitli.\nKilidi açmak için lütfen Pro sürümüne yükseltin.</string>
-    <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>
+    <string name="features_locked">Bu özellik kilitlidir, lütfen tam uygulamanın kilidini açmak için &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Teşekkürler&lt;/a&gt; uygulamasını satın alın.&lt;br&gt;&lt;br&gt;Bu yalnızca tek seferlik bir ödemedir ve memnun kalmazsanız geri ödeme yapabiliriz.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">
         <![CDATA[
@@ -957,7 +946,7 @@
     <string name="launcher_short">Başlatıcı</string>
     <string name="music_player_short">Müzik Çalar</string>
     <string name="notes_short">Notlar</string>
-    <string name="sms_messenger_short">SMS Messenger</string>
+    <string name="sms_messenger_short">SMS İletiler</string>
     <string name="thank_you_short">Teşekkürler</string>
     <string name="voice_recorder_short">Ses Kaydedici</string>
     <string name="sideloaded_app">
@@ -984,8 +973,7 @@
     <string name="faq_5_title_commons">Bir şekilde silinen dosyaları geri yükleyebilir miyim?</string>
     <string name="faq_5_text_commons">Gerçekten silinmişlerse, yapamazsınız. Ancak, öntanımlı olarak etkinleştirilmiş bir Geri Dönüşüm Kutusu vardır, dosyaların silinmek yerine depoya taşınmasına neden olur.</string>
     <string name="faq_6_title_commons">Uygulama başlatıcısı simgesi kayboldu. Ne yapabilirim?</string>
-    <string name="faq_6_text_commons">This issue arises when your launcher does not fully support icon customization. Attempt launching the app through Google Play or a widget, if accessible.
-        After launching, restore the default green icon color #106D1F. In extreme cases, reinstalling the app may be necessary.</string>
+    <string name="faq_6_text_commons">Bu sorun, başlatıcınız simge özelleştirmeyi tam olarak desteklemediğinde ortaya çıkar. Uygulamayı Google Play veya erişilebiliyorsa bir widget aracılığıyla başlatmayı deneyin. Başlattıktan sonra, öntanımlı #106D1F yeşil simge rengini geri yükleyin. Aşırı durumlarda, uygulamanın yeniden kurulması gerekebilir.</string>
     <string name="faq_7_title_commons">Para banka hesabımdan düşüldü, ancak uygulamayı indiremiyorum. Ne yapabilirim?</string>
     <string name="faq_7_text_commons">Ödemeler tamamen Google tarafından işlenir, zaman zaman sistemleri aksar. Sadece Google Play uygulama önbelleğinizi temizleyin ve aygıtınızı yeniden başlatın, ardından yeniden indirmeyi deneyin.</string>
     <string name="faq_8_title_commons">Neden Pro sürümüne yükseltmeliyim?</string>
