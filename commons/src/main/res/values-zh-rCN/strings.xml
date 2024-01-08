@@ -448,7 +448,7 @@
     <string name="no_fingerprints_registered">您还没有注册指纹，请先给您的设备添加一些指纹</string>
     <string name="go_to_settings">去设置</string>
     <string name="protection_setup_successfully">密码设置成功。如果您不慎遗忘了，请重新安装本应用。</string>
-    <string name="fingerprint_setup_successfully">指纹保护设置成功。如果出现问题，请重新安装本应用。</string>
+    <string name="fingerprint_setup_successfully">保护设置成功。如果重置它出现问题，请重新安装本应用。</string>
     <string name="lock_folder">锁定文件夹</string>
     <string name="lock_folder_pro">锁定文件夹 (Pro)</string>
     <string name="unlock_folder">解锁文件夹</string>
