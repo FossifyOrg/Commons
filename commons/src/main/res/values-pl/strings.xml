@@ -1141,4 +1141,22 @@
     <string name="deprecated_app">PRZESTARZAŁA: Ta wersja aplikacji nie jest już utrzymywana. Pobierz wersję Pro z https://play.google.com/store/apps/details\?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">Pamiętaj, że jeśli odinstalujesz którąkolwiek z płatnych aplikacji w ciągu 2 godzin, automatycznie otrzymasz zwrot pieniędzy. Jeśli chcesz zwrotu pieniędzy w dowolnym momencie później, wystarczy skontaktować się z nami na hello@fossify.org, a go otrzymasz. To sprawia, że aplikacje są łatwe do wypróbowania :)</string>
     <string name="developer_description">Zestaw prostych, otwartoźródłowych aplikacji na Androida z konfigurowalnymi widżetami, bez reklam i zbędnych uprawnień.</string>
+    <string name="alarm">Alarm</string>
+    <string name="translation_hindi">hindi</string>
+    <string name="ok">OK</string>
+    <string name="zero">Zero</string>
+    <string name="audio">Audio</string>
+    <string name="pager">Pager</string>
+    <string name="folder">Folder</string>
+    <string name="album">Album</string>
+    <string name="exif">EXIF</string>
+    <string name="pin">PIN</string>
+    <string name="seconds_letter">s</string>
+    <string name="minutes_letter">m</string>
+    <string name="hours_letter">h</string>
+    <string name="usb">USB</string>
+    <string name="march_short">mar</string>
+    <string name="saturday_letter">S</string>
+    <string name="launcher_short">Launcher</string>
+    <string name="why_upgrade_pro_version">Pro</string>
 </resources>
