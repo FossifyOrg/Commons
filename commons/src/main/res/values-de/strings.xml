@@ -303,7 +303,7 @@
     <string name="gps_coordinates">GPS-Koordinaten</string>
     <string name="altitude">Höhe</string>
     <string name="remove_exif">Exif-Daten entfernen</string>
-    <string name="remove_exif_confirmation">Sollen wirklich alle Exif-Daten, wie z. B. GPS-Koordinaten oder Kameramodell, entfernt werden?</string>
+    <string name="remove_exif_confirmation">Sollen wirklich alle Exif-Daten, wie z. B. GPS-Koordinaten oder Kameramodell, entfernt werden?</string>
     <string name="exif_removed">Exif-Daten erfolgreich entfernt</string>
     <string name="background_color">Hintergrundfarbe</string>
     <string name="text_color">Schriftfarbe</string>
@@ -792,15 +792,7 @@
     <string name="make_sure_upgrade">Beachte bitte, dass diese App-Version nicht mehr weiterentwickelt wird. Hole dir die Pro-Version mit vielen Verbesserungen.</string>
     <string name="read_it">Bitte lesen</string>
     <string name="read_faq">Häufige gestellte Fragen</string>
-    <string name="rate_us_prompt">Hallo,
-\n
-\nes sieht so aus, als würdest du diese App schon einige Zeit benutzen. Wir schätzen das sehr.
-\n
-\nWenn wir dich um einen Gefallen bitten können, bewerte uns bitte auf Google Play. Das würde uns wirklich sehr helfen.
-\n
-\nEgal wie du dich entscheidest, wirst du diese Nachricht nicht noch einmal bekommen.
-\n
-\nDanke!</string>
+    <string name="rate_us_prompt">Hallo, \n \nes sieht so aus, als würdest du diese App schon einige Zeit benutzen. Wir schätzen das sehr. \n \nWenn wir dich um einen Gefallen bitten können, bewerte uns bitte auf Google Play. Das würde uns wirklich sehr helfen. \n \nEgal wie du dich entscheidest, wirst du diese Nachricht nicht noch einmal bekommen. \n \nDanke!</string>
     <string name="rate_our_app">Bewerte bitte unsere App :)</string>
     <string name="thank_you">Danke</string>
     <string name="widget_locked_pro">Das Widget ist gesperrt. \nBitte zur Pro-Version wechseln, um es freizuschalten.</string>
@@ -1000,8 +992,7 @@
     <string name="saturday_letter">S</string>
     <string name="sunday_letter">S</string>
     <string name="website">Website</string>
-    <string name="copyright">v %1$s
-\nCopyright © Fossify %2$d</string>
+    <string name="copyright">v %1$s \nCopyright © Fossify %2$d</string>
     <string name="other_help">Sonstige Hilfe</string>
     <string name="translation_bengali">Bengalisch</string>
     <string name="update_thank_you">Bitte aktualisiere Fossify Thank You auf die neueste Version</string>
