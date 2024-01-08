@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="ok">Aceptar</string>
+    <string name="ok">De acuerdo</string>
     <string name="cancel">Cancelar</string>
     <string name="close">Cerrar</string>
     <string name="back">Atrás</string>
@@ -1094,4 +1094,49 @@
     <string name="deprecated_app">OBSOLETO: Esta versión de la aplicación ya no es mantenida, obtén la versión Pro en https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">No olvides que si desinstalas cualquier aplicación de paga dentro de un periodo de 2 horas, automáticamente recibirás un rembolso. Si quieres un rembolso en cualquier otro momento, solo contáctanos en hello@fossify.org y lo recibirás. Eso hace que sea fácil probarlo :)</string>
     <string name="developer_description">Un grupo de aplicaciones de Android simples y de código abierto con widgets personalizables, sin anuncios y permisos innecesarios.</string>
+    <string name="error">Error: %s</string>
+    <string name="exif">EXIF</string>
+    <string name="usb">USB</string>
+    <string name="translation_hindi">Hindi</string>
+    <string name="translation_tamil">Tamil</string>
+    <string name="why_upgrade_pro_version">Pro</string>
+    <string name="audio">Audio</string>
+    <string name="block_contact">Bloquear contacto</string>
+    <string name="genre">Género</string>
+    <string name="apply_to_all_apps">Aplicar los colores a todas las aplicaciones de Fossify</string>
+    <string name="shared_theme_note">Tenga en cuenta que aunque esté utilizando la versión Pro de la aplicación, sigue necesitando Gracias a Fossify por razones técnicas. Se encarga de la sincronización de colores.</string>
+    <string name="auto_theme">Automático</string>
+    <string name="deletion_confirmation_short">¿Borrar %s?</string>
+    <string name="no">No</string>
+    <string name="pin">PIN</string>
+    <string name="enter_password">Introduzca la contraseña</string>
+    <string name="password">Contraseña</string>
+    <string name="add_password">Añadir una contraseña</string>
+    <string name="seconds_letter">s</string>
+    <string name="minutes_letter">min</string>
+    <string name="hours_letter">h</string>
+    <string name="week_number_short">semana</string>
+    <string name="general_settings">General</string>
+    <string name="purchase_simple_thank_you">Comprar Fossify Thank You</string>
+    <string name="notification_sound">Sonido de la notificación</string>
+    <string name="widgets">Widgets</string>
+    <string name="january_short">En.</string>
+    <string name="february_short">Feb.</string>
+    <string name="march_short">Mar.</string>
+    <string name="april_short">Abr.</string>
+    <string name="may_short">May.</string>
+    <string name="june_short">Jun.</string>
+    <string name="july_short">Jul.</string>
+    <string name="august_short">Agto.</string>
+    <string name="october_short">Oct.</string>
+    <string name="november_short">Nov.</string>
+    <string name="december_short">Dic.</string>
+    <string name="saturday_letter">Dom.</string>
+    <string name="website">Página web</string>
+    <string name="social">Social</string>
+    <string name="donate_new">Hola,&lt;br&gt;&lt;br&gt;espero que estés disfrutando de la aplicación. No contiene anuncios y tampoco estamos recopilando tus datos, por favor apoya su desarrollo comprando &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. También tendrás desbloqueadas todas las funciones de la aplicación, incluida la personalización del color.&lt;br&gt;&lt;br&gt;¡Gracias!</string>
+    <string name="update_thank_you">Por favor, actualice Fossify Thank You a la última versión</string>
+    <string name="donate_short">Apóyanos comprando &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; por favor, también desbloqueará todas las características de la app incluyendo la personalización de colores.</string>
+    <string name="features_locked">Esta función está bloqueada, por favor compre &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; para desbloquear la aplicación completa.&lt;br&gt;&lt;br&gt;Es un pago único y si usted no está satisfecho, podemos reembolsarle.</string>
+    <string name="translation_bulgarian">Búlgaro</string>
 </resources>
