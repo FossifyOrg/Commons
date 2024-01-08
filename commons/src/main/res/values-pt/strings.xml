@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="ok">OK</string>
     <string name="cancel">Cancelar</string>
     <string name="close">Fechar</string>
     <string name="back">Recuar</string>
@@ -50,7 +49,6 @@
     <string name="insert_text_here">Introduza aqui o texto</string>
     <string name="call_person">Ligar a %s</string>
     <string name="confirm_calling_person">Confirmar ligação a %s</string>
-    <string name="zero">Zero</string>
     <string name="one">Um</string>
     <string name="two">Dois</string>
     <string name="three">Três</string>
@@ -76,22 +74,15 @@
     <string name="updating">A atualizar…</string>
     <string name="phone_storage">Armazenamento do telefone</string>
     <string name="phone_storage_hidden">Armazenamento do telefone (não visível por outras alicações)</string>
-    <string name="audio">Audio</string>
-    <string name="scanning">Scanning…</string>
-    <!-- Events -->
     <string name="birthday">Data de nascimento</string>
     <string name="anniversary">Aniversário</string>
-    <!-- Emails -->
     <string name="home">Pessoal</string>
     <string name="work">Profissional</string>
-    <!-- Phone numbers -->
     <string name="mobile">Telemóvel</string>
     <string name="main_number">Principal</string>
     <string name="work_fax">Fax profissional</string>
     <string name="home_fax">Fax pessoal</string>
-    <string name="pager">Pager</string>
     <string name="no_phone_number_found">Número de telefone não encontrado</string>
-    <!-- View types -->
     <string name="change_view_type">Mudar tipo de vista</string>
     <string name="grid">Grelha</string>
     <string name="grid_pro">Grelha (Pro)</string>
@@ -100,7 +91,6 @@
     <string name="increase_column_count">Aumentar número de colunas</string>
     <string name="reduce_column_count">Diminuir número de colunas</string>
     <string name="column_count">Número de colunas</string>
-    <string name="row_count">Row count</string>
     <string name="portrait_column_count">Número de colunas modo vertical</string>
     <string name="landscape_column_count">Número de colunas modo horizontal</string>
     <string name="change_cover_image">Alterar imagem do álbum</string>
@@ -110,11 +100,6 @@
         <item quantity="many">%d colunas</item>
         <item quantity="other">%d colunas</item>
     </plurals>
-    <plurals name="row_counts">
-        <item quantity="one">%d row</item>
-        <item quantity="other">%d rows</item>
-    </plurals>
-    <!-- Blocked numbers -->
     <string name="manage_blocked_numbers">Gerir números bloqueados</string>
     <string name="not_blocking_anyone">Não existem números bloqueados.</string>
     <string name="add_a_blocked_number">Adicionar um número a bloquear</string>
@@ -127,27 +112,16 @@
     <string name="set_as_default">Definir como padrão</string>
     <string name="block_confirmation">Tem a certeza de que pretende bloquear \"%s\"\?</string>
     <string name="block_not_stored_calls">Bloquear chamadas de números não existentes nos contactos</string>
-    <string name="block_hidden_calls">Block calls from hidden numbers</string>
     <string name="block_not_stored_messages">Bloquear mensagens de números não existentes nos contactos</string>
-    <string name="block_hidden_messages">Block messages from hidden numbers</string>
     <string name="add_blocked_number_helper_text">Introduza um número ou padrão (ex: *12345*, +1*8888) para bloquear todas as chamadas e mensagens de números que coincidam com o padrão.</string>
     <string name="must_make_default_caller_id_app">Não é possível bloquear números desconhecidos sem não conceder a permissão \"Caller ID\".</string>
-    <string name="block_contact">Block contact</string>
-    <string name="block_contact_success">Contact blocked</string>
-    <string name="block_contact_fail">Contact could not be blocked</string>
-    <string name="unblock_contact">Unblock contact</string>
-    <string name="unblock_contact_success">Contact unblocked</string>
-    <string name="unblock_contact_fail">Contact could not be unblocked</string>
-    <!-- Favorites -->
     <string name="favorites">Favoritos</string>
     <string name="add_favorites">Adicionar favoritos</string>
     <string name="add_to_favorites">Adicionar aos favoritos</string>
     <string name="remove_from_favorites">Remover dos favoritos</string>
-    <!-- Search -->
     <string name="search">Pesquisar</string>
     <string name="search_in_placeholder">Pesquisar em %s</string>
     <string name="type_2_characters">Introduza, pelo menos, 2 caracteres para iniciar a pesquisa.</string>
-    <string name="show_search">Show a search bar</string>
     <string name="search_contacts">Pesquisar contactos</string>
     <string name="search_favorites">Pesquisar favoritos</string>
     <string name="search_apps">Pesquisar aplicações</string>
@@ -165,31 +139,17 @@
     <string name="search_text">Pesquisar texto</string>
     <string name="search_conversations">Pesquisar conversas</string>
     <string name="search_recordings">Pesquisar gravações</string>
-    <!-- Filters -->
     <string name="filter">Filtrar</string>
     <string name="filter_pro">Filtrar (Pro)</string>
     <string name="no_items_found">Sem itens.</string>
     <string name="change_filter">Alterar filtro</string>
-    <!-- Permissions -->
     <string name="no_storage_permissions">Requer acesso ao armazenamento</string>
     <string name="no_contacts_permission">Requer acesso aos contactos</string>
     <string name="no_camera_permissions">Requer acesso à câmara</string>
     <string name="no_audio_permissions">Requer acesso ao áudio</string>
     <string name="no_permission">Sem permissão</string>
-    <string name="allow_notifications_reminders">You must allow the app displaying notifications, else it cannot show reminders.</string>
-    <string name="allow_full_screen_notifications_reminders">You must allow the app displaying full screen notifications, else you may miss some reminders.</string>
-    <string name="allow_notifications_files">You must allow the app displaying notifications, else it cannot show the progress bar.</string>
-    <string name="allow_notifications_music_player">You must allow the app displaying notifications, else it cannot play songs.</string>
-    <string name="allow_notifications_voice_recorder">You must allow the app displaying notifications, else it cannot record audio.</string>
-    <string name="allow_notifications_incoming_calls">You must allow the app displaying notifications, else it cannot show incoming calls.</string>
-    <string name="allow_full_screen_notifications_incoming_calls">You must allow the app displaying full screen notifications, else you may miss some incoming calls.</string>
-    <string name="allow_notifications_incoming_messages">You must allow the app displaying notifications, else it cannot show incoming messages.</string>
-    <string name="allow_alarm_scheduled_messages">You must allow the app accessing internal alarms, else it cannot send scheduled messages.</string>
-    <string name="allow_alarm_sleep_timer">You must allow the app accessing internal alarms, else it cannot turn off the application after sleep timer.</string>
-    <string name="allow_location_permission">You must allow the app accessing your location, else it won\'t know it.</string>
     <string name="grant_permission">Conceder permissão</string>
     <string name="permission_required">Permissão necessária</string>
-    <!-- Renaming -->
     <string name="rename_file">Renomear ficheiro</string>
     <string name="rename_folder">Renomear pasta</string>
     <string name="rename_file_error">Não foi possível renomear o ficheiro</string>
@@ -214,7 +174,6 @@
     <string name="filename_without_json">Nome do ficheiro (sem .json)</string>
     <string name="filename_without_zip">Nome do ficheiro (sem .zip)</string>
     <string name="cannot_hide_files">Em sistemas Android 11+, já não pode ocultar ficheiros e pastas desta forma</string>
-    <!-- Copy / Move -->
     <string name="copy">Copiar</string>
     <string name="move">Mover</string>
     <string name="copy_move">Copiar/Mover</string>
@@ -244,7 +203,6 @@
     <string name="no_new_items">Não foram encontrados novos itens</string>
     <string name="no_space">Não existe espaço livre suficiente no destino.\nPrecisa de %1$s e apenas existem %2$s</string>
     <string name="system_service_disabled">O serviço para selecionar ficheiros e pastas não está disponível</string>
-    <!-- Create new -->
     <string name="create_new">Criar</string>
     <string name="folder">Pasta</string>
     <string name="file">Ficheiro</string>
@@ -253,7 +211,6 @@
     <string name="invalid_name">O nome contém caracteres inválidos</string>
     <string name="empty_name">Introduza um nome</string>
     <string name="unknown_error_occurred">Ocorreu um erro desconhecido</string>
-    <!-- File operation conflicts -->
     <string name="file_already_exists">Já existe um ficheiro com o nome \"%s\"</string>
     <string name="file_already_exists_overwrite">Já existe um ficheiro com o nome \"%s\". Substituir?</string>
     <string name="folder_already_exists">Já existe uma pasta com o nome \"%s\"</string>
@@ -268,7 +225,6 @@
     <string name="rename_in_sd_card_system_restriction">O sistema não permite alterações de nome nesta pasta</string>
     <string name="rename_internal_system_restriction">Não é possível mudar diretamente o nome de pastas no armazenamento interno, apenas pode mudar o nome de subpastas</string>
     <string name="cannot_rename_folder">Não pode mudar o nome desta pasta</string>
-    <!-- File picker -->
     <string name="select_folder">Selecionar pasta</string>
     <string name="select_file">Selecionar ficheiro</string>
     <string name="confirm_storage_access_title">Confirmar acesso ao armazenamento externo</string>
@@ -286,7 +242,6 @@
         <item quantity="many">%d itens</item>
         <item quantity="other">%d itens</item>
     </plurals>
-    <!-- Are you sure you want to delete 5 items? -->
     <plurals name="delete_items">
         <item quantity="one">%d item</item>
         <item quantity="many">%d itens</item>
@@ -297,17 +252,14 @@
         <item quantity="many">A apagar %d itens</item>
         <item quantity="other">A apagar %d itens</item>
     </plurals>
-    <!-- Are you sure you want to delete 5 contacts? -->
     <plurals name="delete_contacts">
         <item quantity="one">%d contacto</item>
         <item quantity="many">%d contactos</item>
         <item quantity="other">%d contactos</item>
     </plurals>
-    <!-- Storages -->
     <string name="select_storage">Selecionar armazenamento</string>
     <string name="storage">Armazenamento</string>
     <string name="internal">Interno</string>
-    <string name="internal_storage">Internal Storage</string>
     <string name="sd_card">Cartão SD</string>
     <string name="root">Raiz</string>
     <string name="wrong_root_selected">Pasta inválida, por favor selecione a pasta raíz do cartão SD</string>
@@ -315,7 +267,6 @@
     <string name="app_on_sd_card">Parece que a aplicação está instalada no cartão SD, o que torna o widget indisponível. Nem sequer aparecerá na lista de widgets disponíveis.
         Esta é uma limitação do sistema e, se quiser usar widgets, tem que mover a aplicação para o armazenamento interno.</string>
     <string name="wrong_folder_selected">Selecionou a pasta errada, selecione o caminho \'%s\'</string>
-    <!-- File properties -->
     <string name="properties">Propriedades</string>
     <string name="path">Caminho</string>
     <string name="items_selected">Itens selecionados</string>
@@ -325,20 +276,16 @@
     <string name="duration">Duração</string>
     <string name="artist">Artista</string>
     <string name="album">Álbum</string>
-    <string name="genre">Genre</string>
     <string name="focal_length">Distância focal</string>
     <string name="exposure_time">Tempo de exposição</string>
     <string name="iso_speed">Velocidade ISO</string>
     <string name="f_number">Número F</string>
     <string name="camera">Câmara</string>
-    <string name="exif">EXIF</string>
     <string name="song_title">Título da faixa</string>
     <string name="gps_coordinates">Coordenadas GPS</string>
-    <string name="altitude">Altitude</string>
     <string name="remove_exif">Remover EXIF</string>
     <string name="remove_exif_confirmation">Tem a certeza de que pretende remover os dados EXIF tais como coordenadas GPS, modelo do equipamento....</string>
     <string name="exif_removed">Dados EXIF removidos com sucesso</string>
-    <!-- Color customization -->
     <string name="background_color">Cor de fundo</string>
     <string name="text_color">Cor do tipo de letra</string>
     <string name="primary_color">Cor primária</string>
@@ -359,17 +306,12 @@
     <string name="undo_changes_confirmation">Tem a certeza de que pretende desfazer as alterações\?</string>
     <string name="cannot_be_undone">Esta ação não pode ser revertida.</string>
     <string name="save_before_closing">Existem alterações não guardadas. Pretende guardar antes de sair\?</string>
-    <string name="apply_to_all_apps">Apply colors to all Fossify Apps</string>
-    <string name="app_icon_color_warning">Caution: Certain launchers may not handle app icon customization correctly. If the icon disappears, attempt launching the app through Google Play or a widget, if accessible.
-        After launching, restore the default green icon color #106D1F. In extreme cases, reinstalling the app may be necessary.</string>
     <string name="share_colors_success">Cores atualizadas com sucesso. Foi criado o novo tema \'Partilhado\', que pode utilizar para atualizar as cores de todas as aplicações Simple.</string>
-    <string name="shared_theme_note">Note that even though you are using the Pro app version, you still need Fossify Thank You for technical reasons. It takes care of the color synchronization.</string>
     <string name="purchase_thank_you">
         <![CDATA[
             Por favor compre a aplicação <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> para desbloquear esta funcionalidade e ajudar no desenvolvimento. Obrigado!
         ]]>
     </string>
-    <!-- Themes -->
     <string name="light_theme">Claro</string>
     <string name="dark_theme">Escuro</string>
     <string name="auto_theme">Automático</string>
@@ -381,10 +323,8 @@
     <string name="custom">Personalizado</string>
     <string name="shared">Partilhado</string>
     <string name="system_default">Sistema</string>
-    <!-- What's new -->
     <string name="whats_new">Novidades</string>
     <string name="whats_new_disclaimer">* apenas são listadas as alterações mais significativas. Contudo, existem sempre mais revisões do que as aqui referidas</string>
-    <!-- Actionbar items -->
     <string name="delete">Apagar</string>
     <string name="remove">Remover</string>
     <string name="rename">Mudar nome</string>
@@ -399,7 +339,6 @@
     <string name="unhide_folder">Mostrar pasta</string>
     <string name="temporarily_show_hidden">Mostrar ocultas temporariamente</string>
     <string name="stop_showing_hidden">Não mostrar multimédia oculta</string>
-    <string name="allow_access_more_media">Allow access to more media</string>
     <string name="maximum_share_reached">Não pode partilhar tantos itens em simultâneo</string>
     <string name="empty_and_disable_recycle_bin">Limpar e desativar reciclagem</string>
     <string name="undo">Desfazer</string>
@@ -424,18 +363,13 @@
     <string name="contact_details">Detalhes do contacto</string>
     <string name="add_contact">Adicionar contacto</string>
     <string name="wallpapers">Papel de parede</string>
-    <string name="show_line_numbers">Show line numbers</string>
-    <string name="hide_line_numbers">Hide line numbers</string>
     <string name="sleep_timer">Temporizador</string>
-    <string name="unblock">Unblock</string>
-    <!-- Sorting -->
     <string name="sort_by">Ordenar por</string>
     <string name="name">Nome</string>
     <string name="size">Tamanho</string>
     <string name="last_modified">Data de modificação</string>
     <string name="date_created">Data de criação</string>
     <string name="date_taken">Data de obtenção</string>
-    <string name="date_added">Date added</string>
     <string name="title">Título</string>
     <string name="filename">Nome do ficheiro</string>
     <string name="extension">Extensão</string>
@@ -451,14 +385,10 @@
     <string name="full_name">Nome completo</string>
     <string name="use_custom_sorting">Ordenação personalizada</string>
     <string name="change_order">Alterar ordem</string>
-    <string name="more_options">More options</string>
-    <!-- Confirmation dialog -->
     <string name="proceed_with_deletion">Tem a certeza de que pretende continuar\?</string>
     <string name="deletion_confirmation">Tem a certeza de que pretende apagar %s\?</string>
     <string name="deletion_confirmation_short">Apagar %s?</string>
-    <!-- Are you sure you want to delete 5 items? -->
     <string name="move_to_recycle_bin_confirmation">Tem a certeza de que pretende mover %s para a reciclagem\?</string>
-    <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
     <string name="are_you_sure_delete">Tem a certeza de que pretende apagar este item\?</string>
     <string name="are_you_sure_recycle_bin">Tem a certeza de que pretende mover este item para a reciclagem\?</string>
     <string name="do_not_ask_again">Não perguntar mais para esta sessão</string>
@@ -471,13 +401,9 @@
         <item quantity="many">AVISO: está prestes a apagar %d pastas</item>
         <item quantity="other">AVISO: está prestes a apagar %d pastas</item>
     </plurals>
-    <!-- Password protection -->
-    <string name="pin">PIN</string>
     <string name="enter_pin">Digite o PIN</string>
     <string name="please_enter_pin">Por favor digite o PIN</string>
     <string name="wrong_pin">PIN inválido</string>
-    <string name="pin_must_be_4_digits_long">PIN must be at least 4 digits long</string>
-    <string name="too_many_incorrect_attempts">Too many incorrect unlock attempts.\nTry again in %d seconds.</string>
     <string name="repeat_pin">Repita o PIN</string>
     <string name="pattern">Padrão</string>
     <string name="insert_pattern">Introduza o padrão</string>
@@ -499,13 +425,6 @@
     <string name="lock_folder_pro">Bloquear pasta (Pro)</string>
     <string name="unlock_folder">Desbloquear pasta</string>
     <string name="lock_folder_notice">A proteção aqui definida apenas funciona para esta aplicação e não protege o restante conteúdo do seu sistema.</string>
-    <string name="enter_password">Enter password</string>
-    <string name="password">Password</string>
-    <string name="add_password">Add password</string>
-    <string name="empty_password_new">Please enter a password</string>
-    <string name="empty_password">Please enter the password</string>
-    <string name="invalid_password">Incorrect password</string>
-    <!-- Times -->
     <string name="yesterday">Ontem</string>
     <string name="today">Hoje</string>
     <string name="tomorrow">Amanhã</string>
@@ -515,10 +434,6 @@
     <string name="minutes_raw">minutos</string>
     <string name="hours_raw">horas</string>
     <string name="days_raw">dias</string>
-    <string name="seconds_letter">s</string>
-    <string name="minutes_letter">m</string>
-    <string name="hours_letter">h</string>
-    <string name="week_number_short">wk.</string>
     <plurals name="seconds">
         <item quantity="one">%d segundo</item>
         <item quantity="many">%d segundos</item>
@@ -554,7 +469,6 @@
         <item quantity="many">%d anos</item>
         <item quantity="other">%d anos</item>
     </plurals>
-    <!-- For example: I will be there in 5 minutes -->
     <plurals name="in_seconds">
         <item quantity="one">%d segundo</item>
         <item quantity="many">%d segundos</item>
@@ -590,7 +504,6 @@
         <item quantity="many">%d anos</item>
         <item quantity="other">%d anos</item>
     </plurals>
-    <!-- For example: Event reminder: 3 minutes before -->
     <plurals name="seconds_before">
         <item quantity="one">%d segundo antes</item>
         <item quantity="many">%d segundos antes</item>
@@ -626,7 +539,6 @@
         <item quantity="many">%d anos antes</item>
         <item quantity="other">%d anos antes</item>
     </plurals>
-    <!-- For example: Postpone reminder by 3 minutes -->
     <plurals name="by_seconds">
         <item quantity="one">%d segundo</item>
         <item quantity="many">%d segundos</item>
@@ -662,16 +574,13 @@
         <item quantity="many">%d anos</item>
         <item quantity="other">%d anos</item>
     </plurals>
-    <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
     <string name="alarm_goes_off_in">O alarme está definido para daqui a:\n%s</string>
     <string name="reminder_triggers_in">O lembrete está definido para daqui a:\n%s</string>
     <string name="time_remaining">Tempo restante:\n%s</string>
     <string name="alarm_warning">Certifique-se de que o alarme está a funcionar correctamente antes de o utilizar. Pode ter um comportamento errático devido a restrições do sistema.</string>
     <string name="reminder_warning">Certifique-se de que o lembrete está a funcionar corretamente antes de o utilizar. Pode ter um comportamento errático devido a restrições do sistema.</string>
     <string name="notifications_disabled">As notificações desta aplicação estão desativadas. Aceda às definições do dispositivo para as poder ativar.</string>
-    <!-- Alarms -->
     <string name="alarm">Alarme</string>
-    <string name="snooze">Snooze</string>
     <string name="dismiss">Descartar</string>
     <string name="no_reminder">Sem lembrete</string>
     <string name="at_start">No início</string>
@@ -681,9 +590,7 @@
     <string name="no_sound">Sem som</string>
     <string name="during_day_at_hh_mm">Durante o dia às hh:mm</string>
     <string name="during_day_at">Durante o dia às %02d:%02d</string>
-    <!-- Settings -->
     <string name="settings">Definições</string>
-    <string name="purchase_simple_thank_you">Purchase Fossify Thank You</string>
     <string name="general_settings">Geral</string>
     <string name="color_customization">Personalização de cores</string>
     <string name="improved_color_customization">Personalização de cores melhorada</string>
@@ -692,7 +599,6 @@
     <string name="feature_locked">Bloqueada</string>
     <string name="customize_widget_colors">Personalizar cores do widget</string>
     <string name="customize_notifications">Personalizar notificações</string>
-    <string name="notification_sound">Notification sound</string>
     <string name="use_english_language">Utilizar aplicação em inglês</string>
     <string name="language">Idioma</string>
     <string name="show_hidden_items">Mostrar itens ocultos</string>
@@ -712,8 +618,6 @@
     <string name="use_24_hour_time_format">Utilizar formato 24 horas</string>
     <string name="change_date_and_time_format">Alterar formato da data/hora</string>
     <string name="sunday_first">Iniciar semana ao domingo</string>
-    <string name="start_week_on">Start week on</string>
-    <string name="widgets">Widgets</string>
     <string name="use_same_snooze">Usar sempre o mesmo intervalo para snooze</string>
     <string name="snooze_time">Intervalo para snooze</string>
     <string name="vibrate_on_button_press">Vibrar ao tocar nos botões</string>
@@ -728,7 +632,6 @@
     <string name="start_name_with_surname">Ordenar por apelido</string>
     <string name="clear_cache">Limpar cache</string>
     <string name="show_call_confirmation_dialog">Mostrar diálogo antes de efetuar uma chamada</string>
-    <!-- Setting sections -->
     <string name="visibility">Exibição</string>
     <string name="security">Segurança</string>
     <string name="scrolling">Deslocação</string>
@@ -742,7 +645,6 @@
     <string name="main_screen">Ecrã principal</string>
     <string name="thumbnails">Miniaturas</string>
     <string name="list_view">Ver em lista</string>
-    <!-- Excluding -->
     <string name="exclude">Exclusão</string>
     <string name="exclude_folder">Excluir pasta</string>
     <string name="excluded_folders">Pastas excluídas</string>
@@ -752,7 +654,6 @@
     <string name="remove_all_description">Remover todas as pastas da lista de exclusões\? Esta ação não apaga as pastas.</string>
     <string name="temporarily_show_excluded">Mostrar temporariamente itens excluídos</string>
     <string name="stop_showing_excluded">Parar de mostrar itens excluídos</string>
-    <!-- Default tab to open -->
     <string name="manage_shown_tabs">Separadores a mostrar</string>
     <string name="default_tab_to_open">Separador a mostrar ao iniciar</string>
     <string name="contacts_tab">Contactos</string>
@@ -762,7 +663,6 @@
     <string name="last_used_tab">Último utilizado</string>
     <string name="files_tab">Ficheiros</string>
     <string name="recent_files_tab">Ficheiros recentes</string>
-    <!-- Recycle Bin -->
     <string name="restore_this_file">Restaurar este ficheiro</string>
     <string name="restore_selected_files">Restaurar ficheiros selecionados</string>
     <string name="restore_all_files">Restaurar todos os ficheiros</string>
@@ -780,7 +680,6 @@
         <item quantity="many">A mover %d itens para a reciclagem</item>
         <item quantity="other">A mover %d itens para a reciclagem</item>
     </plurals>
-    <!-- Import / Export -->
     <string name="importing">A importar…</string>
     <string name="exporting">A exportar…</string>
     <string name="importing_successful">Importação efetuada</string>
@@ -792,7 +691,6 @@
     <string name="no_entries_for_importing">Não existem itens para importação</string>
     <string name="no_new_entries_for_importing">Não existem novos itens para importação</string>
     <string name="no_entries_for_exporting">Não existem itens para exportação</string>
-    <string name="backups">Backups</string>
     <string name="enable_automatic_backups">Ativar backups automáticos</string>
     <string name="manage_automatic_backups">Gerir backups automáticos</string>
     <string name="date_time_pattern_info">Pode utilizar os seguintes padrões para nomear automaticamente os seus ficheiros:
@@ -803,12 +701,9 @@
 \n%h - hora
 \n%m - minutos
 \n%s - segundos</string>
-    <!-- OTG devices -->
-    <string name="usb">USB</string>
     <string name="usb_detected">Não parece existir qualquer unidade USB conectada ao dispositivo. Para se certificar de que os ficheiro aparecem, deve conceder algumas permissões.</string>
     <string name="confirm_usb_storage_access_text">Escolha a pasta raíz da unidade USB no ecrã seguinte para conceder o acesso</string>
     <string name="wrong_root_selected_usb">Escolheu uma pasta inválida, deve selecionar a pasta raíz da unidade USB</string>
-    <!-- Dates -->
     <string name="january">janeiro</string>
     <string name="february">fevereiro</string>
     <string name="march">março</string>
@@ -821,10 +716,7 @@
     <string name="october">outubro</string>
     <string name="november">novembro</string>
     <string name="december">dezembro</string>
-    <!-- Short months -->
-    <string name="january_short">jan</string>
     <string name="february_short">fev</string>
-    <string name="march_short">mar</string>
     <string name="april_short">abr</string>
     <string name="may_short">mai</string>
     <string name="june_short">jun</string>
@@ -832,9 +724,7 @@
     <string name="august_short">ago</string>
     <string name="september_short">set</string>
     <string name="october_short">out</string>
-    <string name="november_short">nov</string>
     <string name="december_short">dez</string>
-    <!-- in January -->
     <string name="in_january">em janeiro</string>
     <string name="in_february">em fevereiro</string>
     <string name="in_march">em março</string>
@@ -855,11 +745,9 @@
     <string name="saturday">sábado</string>
     <string name="sunday">domingo</string>
     <string name="monday_letter">S</string>
-    <string name="tuesday_letter">T</string>
     <string name="wednesday_letter">Q</string>
     <string name="thursday_letter">Q</string>
     <string name="friday_letter">S</string>
-    <string name="saturday_letter">S</string>
     <string name="sunday_letter">D</string>
     <string name="monday_short">seg</string>
     <string name="tuesday_short">ter</string>
@@ -868,7 +756,6 @@
     <string name="friday_short">sex</string>
     <string name="saturday_short">sáb</string>
     <string name="sunday_short">dom</string>
-    <!-- Pro version -->
     <string name="upgrade_to_pro_long">Esta aplicação já não receberá atualizações. Adquira a versão Pro para receber correções e melhorias.</string>
     <string name="upgrade_to_pro_long_click">Esta aplicação já não receberá atualizações. Adquira a versão Pro para receber correções e melhorias ao cliquar aqui.</string>
     <string name="it_is_free">É gratuita até: %s. Se a descarregar até esta data, será sua para sempre.</string>
@@ -880,7 +767,6 @@
 \nParece que fez a atualização a partir da versão gratuita. Se a aplicação for do seu agrado, caso já tenha migrado os dados, pode desinstalar a versão antiga para evitar que a utilize sem querer.
 \n
 \nObrigado!</string>
-    <string name="upgraded_to_pro_gallery">Hello,\n\nseems like you already have the Pro app version too. Once you are happy with it and maybe migrated your settings and favorites over, you can uninstall this one to avoid launching it accidentally as you will not need it anymore.\n\nThanks!</string>
     <string name="upgraded_from_free">Olá,
 \n
 \nParece que fez a atualização a partir da versão gratuita. Se a aplicação for do seu agrado, caso já tenha migrado os dados, pode desinstalar a versão antiga para evitar que a utilize sem querer.
@@ -912,7 +798,6 @@
 \nSe a versão Pro for do seu agrado, caso já tenha migrado os dados, pode desinstalar a versão antiga para evitar que a utilize sem querer.
 \n
 \nObrigado!</string>
-    <!-- About -->
     <string name="about">Acerca</string>
     <string name="website">Site</string>
     <string name="website_label">Mais aplicações Simple e código-fonte em</string>
@@ -927,7 +812,6 @@
     <string name="rate">Avaliar</string>
     <string name="donate">Donativos</string>
     <string name="follow_us">Siga-nos</string>
-    <string name="copyright">v %1$s\nCopyright © Fossify %2$d</string>
     <string name="support">Apoio</string>
     <string name="help_us">Ajude-nos</string>
     <string name="social">Redes sociais</string>
@@ -939,21 +823,10 @@
     <string name="additional_info">Mais informações</string>
     <string name="app_version">Versão da aplicação: %s</string>
     <string name="device_os">SO do dispositivo: %s</string>
-    <string name="donate_please">
-        <![CDATA[
-            Hello,<br><br>
-            hope you are enjoying the app. It contains no ads, please support its development by purchasing the <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> app, it will also prevent this dialog from showing up again.<br><br>
-            Thank you!
-        ]]>
-    </string>
-    <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
-    <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
     <string name="purchase">Comprar</string>
-    <string name="update_thank_you">Please update Fossify Thank You to the latest version</string>
     <string name="before_asking_question_read_faq">Antes de colocar uma questão, verifique as FAQ. Pode ser que a solução esteja lá.</string>
     <string name="before_rate_read_faq">Antes de dar uma avaliação, analise as definições da aplicação e leia as FAQ. Pode ser que a solução para o seu problema esteja aí mesmo.</string>
     <string name="make_sure_latest">Certifique-se de que está a utilizar a versão mais recente.</string>
-    <string name="make_sure_upgrade">Also note that this app version is no longer being developed, get the Pro one for many improvements.</string>
     <string name="read_it">Ler</string>
     <string name="read_faq">Ler as FAQ</string>
     <string name="rate_us_prompt">Olá,\n\nparece que está a utilizar esta aplicação há algum tempo, o que nos deixa satisfeitos.\n\nGostaríamos de lhe pedir o favor de nos avaliar na Google Play. Isso iria ajudar-nos bastante.\n\nIndependentemente da sua escolha, esta mensagem não será mostrada novamente.\n\nObrigado!</string>
@@ -961,10 +834,7 @@
     <string name="thank_you">Obrigado</string>
     <string name="widget_locked_pro">O widget está bloqueando. 
 \nAdquira a versão Pro para desbloquear.</string>
-    <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>
-    <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">Olá.&lt;br&gt;&lt;br&gt; Temos novidades! Uma nova aplicação ficou disponível recentemente:&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; Pode descarregar a nova aplicação carregando no seu título ou ícone.&lt;br&gt;&lt;br&gt; Obrigado</string>
-    <string name="app_launcher_short">App Launcher</string>
     <string name="calculator_short">Calculadora</string>
     <string name="calendar_short">Calendário</string>
     <string name="camera_short">Câmara</string>
@@ -987,18 +857,11 @@
             Parece que a sua aplicação está danificada. Descarregue a versão original <a href="%s">aqui</a>.
         ]]>
     </string>
-    <!-- FAQ -->
     <string name="frequently_asked_questions">Perguntas frequentes (FAQ)</string>
     <string name="before_asking_question">Antes de colocar uma questão, leia as</string>
     <string name="faq_1_title_commons">Por que não vejo o widget desta aplicação na lista de widgets\?</string>
     <string name="faq_1_text_commons">O mais provável é que a aplicação tenha sido movida para o cartão SD. Existe uma limitação do sistema Android que oculta os widgets de aplicações quando assim é. A única solução é mover a aplicação de volta para o armazenamento interno através das definições do seu dispositivo.</string>
     <string name="faq_2_title_commons">Gostaria de vos apoiar mas não posso fazer um donativo em dinheiro. Há algo mais que eu possa fazer\?</string>
-    <string name="faq_2_text_commons">
-        <![CDATA[
-            Yes, of course. You can spread the word about the apps or give good feedback and ratings. You can also help by translating the apps in a new language, or just update some existing translations.
-            The guide to translating is at <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">this website</a>, or just contact us at <a href="mailto:hello@fossify.org">hello@fossify.org</a> if you have any questions.
-        ]]>
-    </string>
     <string name="faq_3_title_commons">Apaguei alguns ficheiros por engano, como posso recuperá-los\?</string>
     <string name="faq_3_text_commons">Infelizmente, não pode. Os ficheiros são apagados instantaneamente após o diálogo de confirmação, não existe reciclagem disponível.</string>
     <string name="faq_4_title_commons">Não gosto das cores do widget, posso mudá-las\?</string>
@@ -1006,8 +869,6 @@
     <string name="faq_5_title_commons">Existe alguma forma de restaurar os ficheiros apagados\?</string>
     <string name="faq_5_text_commons">Se tiverem sido de facto apagados, não. Por definição, os ficheiros são movidos para a reciclagem e não apagados. Se, no entanto, a reciclagem tiver sido desativada, os ficheiros serão apagados permanentemente.</string>
     <string name="faq_6_title_commons">O ícone da aplicação desapareceu. O que posso fazer\?</string>
-    <string name="faq_6_text_commons">This issue arises when your launcher does not fully support icon customization. Attempt launching the app through Google Play or a widget, if accessible.
-        After launching, restore the default green icon color #106D1F. In extreme cases, reinstalling the app may be necessary.</string>
     <string name="faq_7_title_commons">O dinheiro foi retirado da minha conta bancária, mas não consigo descarregar a aplicação. O que posso fazer\?</string>
     <string name="faq_7_text_commons">Os pagamentos são totalmente geridos pela Google, o sistema deles falha de vez em quanto. Limpe a cache da aplicação Google Play, reinicie o dispositivo e tente descarregá-la novamente.</string>
     <string name="faq_8_title_commons">Porque devo atualizar para a versão Pro\?</string>
@@ -1016,18 +877,10 @@
     <string name="faq_9_text_commons">Existem diversas formas de o fazer. A primeira forma de aceder à seleção é premir longamente um item e ir tocando nos outros para os selecionar. A segunda forma é similar à seleção de itens com um rato no computador: basta manter um item premido e arrastar o dedo para selecionar os restantes. A terceira forma, esta para seleção múltipla, é premir longamente um item e, em seguida, premir longamente também outro item para que todos os itens no intervalo entre eles fiquem selecionados. Caso pretenda selecionar todos os itens, basta manter um deles premido e clicar na contagem de itens selecionados no canto superior esquerdo, ação essa que selecionará ou removerá a seleção de todos os itens.</string>
     <string name="faq_10_title_commons">Comprei a aplicação mas não a consigo descarregar para outro dispositivo.</string>
     <string name="faq_10_text_commons">Experimente limpar a cache da Google Play e reiniciar seu dispositivo. Trata-se de uma falha da Google Play e não está relacionada com a aplicação em si.</string>
-    <!-- Contributors -->
     <string name="contributors">Colaboradores</string>
     <string name="translation">Tradução</string>
     <string name="development">Desenvolvimento</string>
     <string name="other_help">Mais ajuda</string>
-    <string name="contributors_label">
-        <![CDATA[
-            This list contains everyone that noticeably helped any app within the Fossify suite, not only this one. Translations are handled by volunteers,
-            let us know if you want to help too. The guide to translating is at <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">this website</a>, or just contact us at <a href="mailto:hello@fossify.org">hello@fossify.org</a> if you have any questions.
-            Thanks to all contributors and other supporters!
-        ]]>
-    </string>
     <string name="translation_arabic">Árabe</string>
     <string name="translation_azerbaijani">Azeri</string>
     <string name="translation_bengali">Bengalês</string>
@@ -1046,7 +899,6 @@
     <string name="translation_finnish">Finlandês</string>
     <string name="translation_french">Françês</string>
     <string name="translation_galician">Galego</string>
-    <string name="translation_hindi">Hindi</string>
     <string name="translation_croatian">Croata</string>
     <string name="translation_hungarian">Húngaro</string>
     <string name="translation_indonesian">Indonésio</string>
@@ -1066,56 +918,45 @@
     <string name="translation_slovenian">Esloveno</string>
     <string name="translation_serbian">Sérvio</string>
     <string name="translation_swedish">Sueco</string>
-    <string name="translation_tamil">Tamil</string>
     <string name="translation_turkish">Turco</string>
     <string name="translation_ukrainian">Ucraniano</string>
     <string name="translation_vietnamese">Vietnamita</string>
     <string name="translation_chinese_hk">Chinês (Hong Kong)</string>
     <string name="translation_chinese_cn">Chinês (Simplificado)</string>
     <string name="translation_chinese_tw">Chinês (Tradicional)</string>
-    <!-- Pro comparison (shown in the deprecated free apps) -->
     <string name="why_upgrade">Atualizar para a versão Pro agora!</string>
     <string name="why_upgrade_basic_version">Básico</string>
-    <string name="why_upgrade_pro_version">Pro</string>
     <string name="why_upgrade_no_ads">Sem anúncios</string>
     <string name="why_upgrade_no_internet_access">Sem acesso à internet</string>
     <string name="why_upgrade_footer">Garantia de reembolso a 100%</string>
     <string name="why_upgrade_footer_one_time_payment">Pagamento único</string>
     <string name="why_upgrade_improved_design">Design melhorado</string>
-    <string name="why_upgrade_many_other_improvements">Many other improvements</string>
-    <!-- Gallery Pro -->
     <string name="why_upgrade_advanced_photo_editor">Editor de fotos avançado</string>
     <string name="why_upgrade_advanced_photo_video_editor">Editor avançado de fotos e de vídeos</string>
     <string name="why_upgrade_heic_support">Suporte a ficheiros HEIC/HEIF</string>
     <string name="why_upgrade_batch_renaming">Mudar nome de ficheiros em lote</string>
     <string name="why_upgrade_folder_locking">Bloqueio individual de pastas</string>
     <string name="why_upgrade_printing_support">Suporte a impressão</string>
-    <!-- Calendar Pro -->
     <string name="why_upgrade_time_zone_support">Suporte a fuso-horário</string>
     <string name="why_upgrade_attendees_emails">Participantes e lembretes por e-mail</string>
     <string name="why_upgrade_easy_event_importing">Importação simplificada de eventos</string>
     <string name="why_upgrade_new_widgets">Novos widgets</string>
-    <!-- Contacts Pro -->
     <string name="why_upgrade_duplicate_contact_merging">Melhorias na triagem e combinação de contactos duplicados</string>
     <string name="why_upgrade_font_size_customization">Personalização do tipo de letra</string>
     <string name="why_upgrade_private_contact_sharing">Partilha opcional de contactos entre as aplicações Simple</string>
     <string name="why_upgrade_customizable_contact_ringtones">Personalização de sons por contacto</string>
     <string name="why_upgrade_contact_filtering">Filtro de contactos</string>
     <string name="why_upgrade_contact_private_contacts">Contactos guardados localmente</string>
-    <!-- Notes Pro -->
     <string name="why_upgrade_checklists">Listas de verificação</string>
     <string name="why_upgrade_different_note_per_widget">Notas e cores diferentes por widget</string>
     <string name="why_upgrade_note_locking">Bloqueio de notas</string>
-    <!-- File Manager Pro -->
     <string name="why_upgrade_date_and_time_format">Personalização do formato de data e de hora</string>
     <string name="why_upgrade_shortcuts">Atalhos no ecrã inicial</string>
     <string name="why_upgrade_file_compression">Suporte à compressão de ficheiros</string>
     <string name="why_upgrade_recents_tab">Separador com ficheiros recentes</string>
-    <!-- Draw Pro -->
     <string name="why_upgrade_background_color_customization">Personalização da cor de fundo</string>
     <string name="why_upgrade_file_importing">Suporte à importação de ficheiros</string>
     <string name="why_upgrade_zooming">Ampliação</string>
-    <!-- License -->
     <string name="notice">Esta aplicação usa as seguintes bibliotecas de terceiros para facilitar a minha vida. Obrigado.</string>
     <string name="third_party_licences">Licenças de terceiros</string>
     <string name="kotlin_title">Kotlin (linguagem de programação)</string>
@@ -1151,23 +992,11 @@
     <string name="pdf_viewer_title">Android PdfViewer (leitor de PDF)</string>
     <string name="m3u_parser_title">M3U Parser (gestão de ficheiros m3u)</string>
     <string name="android_lame_title">AndroidLame (codificador de mp3)</string>
-    <string name="zip4j_title">Zip4j (ZIP compression and decompression)</string>
-    <!-- Trial -->
     <string name="trial_expired">Versão de testes caducada</string>
     <string name="start_free_trial">Iniciar versão de teste</string>
     <string name="trial_expires_soon">A versão de teste está quase a caducar.</string>
-    <string name="unlock_for_one_final_day">Unlock the app for one final day</string>
     <string name="welcome_to_app_name">Bem-vindo a %s!</string>
-    <string name="trial_start_description">Thank you for using our app. You can use this unlocked version for &lt;font color=\'#FFFFFF\'&gt;%d days&lt;/font&gt;. Once the trial ends, please consider upgrading to the Pro version. It has a huge amount of new features, modern design, no ads and many other improvements.
-        \n\nYou just have to pay for it once in a lifetime and if you won\'t be satisfied, you can uninstall it and get a refund.\n\nHope you\'ll like it :)</string>
-    <string name="trial_end_description">Please upgrade to the Pro version to enjoy the app to the fullest.\n\nYou just have to pay for it once in a lifetime and if you won\'t be satisfied, you can uninstall it and get a refund.\n\nSee you there :)</string>
-    <plurals name="trial_expires_days">
-        <item quantity="one">Your trial expires in %d day.</item>
-        <item quantity="other">Your trial expires in %d days.</item>
-    </plurals>
-    <!-- Google Play listing -->
     <string name="deprecated_app">AVISO: Esta versão da aplicação já não está em desenvolvimento. Pode obter a versão Pro em https://play.google.com/store/apps/details\?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">Não se esqueça de desinstalar qualquer aplicação paga no prazo de 2 horas para ser reembolsado automaticamente. Para ser reembolsado posteriormente, contacte-nos para hello@fossify.org. Assim é mais fácil testar :)</string>
-    <!-- Description of our developer profile on Google Play, it can have max 140 characters -->
     <string name="developer_description">Uma gama de aplicações para Android, open source, com widgets personalizados, sem anúncios nem permissões desnecessárias.</string>
 </resources>

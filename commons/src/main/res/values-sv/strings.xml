@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="ok">OK</string>
     <string name="cancel">Avbryt</string>
     <string name="close">Stäng</string>
     <string name="back">Tillbaka</string>
@@ -78,20 +77,16 @@
     <string name="phone_storage_hidden">Telefonlagring (inte synligt för andra appar)</string>
     <string name="audio">Ljud</string>
     <string name="scanning">Skannar…</string>
-    <!-- Events -->
     <string name="birthday">Födelsedag</string>
     <string name="anniversary">Årsdag</string>
-    <!-- Emails -->
     <string name="home">Hem</string>
     <string name="work">Arbete</string>
-    <!-- Phone numbers -->
     <string name="mobile">Mobil</string>
     <string name="main_number">Primärt nummer</string>
     <string name="work_fax">Arbetsfax</string>
     <string name="home_fax">Hemfax</string>
     <string name="pager">Personsökare</string>
     <string name="no_phone_number_found">Inget telefonnummer hittades</string>
-    <!-- View types -->
     <string name="change_view_type">Ändra vy</string>
     <string name="grid">Rutnät</string>
     <string name="grid_pro">Rutnät (Pro)</string>
@@ -113,7 +108,6 @@
         <item quantity="one">%d rad</item>
         <item quantity="other">%d rader</item>
     </plurals>
-    <!-- Blocked numbers -->
     <string name="manage_blocked_numbers">Hantera blockerade nummer</string>
     <string name="not_blocking_anyone">Du blockerar inte någon.</string>
     <string name="add_a_blocked_number">Lägg till ett blockerat nummer</string>
@@ -137,12 +131,10 @@
     <string name="unblock_contact">Avblockera kontakt</string>
     <string name="unblock_contact_success">Kontakten har avblockerats</string>
     <string name="unblock_contact_fail">Det gick inte att avblockera kontakten</string>
-    <!-- Favorites -->
     <string name="favorites">Favoriter</string>
     <string name="add_favorites">Lägg till favoriter</string>
     <string name="add_to_favorites">Lägg till i favoriter</string>
     <string name="remove_from_favorites">Ta bort från favoriter</string>
-    <!-- Search -->
     <string name="search">Sök</string>
     <string name="search_in_placeholder">Sök i %s</string>
     <string name="type_2_characters">Skriv in minst två tecken för att starta sökningen.</string>
@@ -164,12 +156,10 @@
     <string name="search_text">Sök efter text</string>
     <string name="search_conversations">Sök efter konversationer</string>
     <string name="search_recordings">Sök efter inspelningar</string>
-    <!-- Filters -->
     <string name="filter">Filtrera</string>
     <string name="filter_pro">Filtrera (Pro)</string>
     <string name="no_items_found">Inga objekt hittades.</string>
     <string name="change_filter">Ändra filter</string>
-    <!-- Permissions -->
     <string name="no_storage_permissions">Lagringsbehörighet krävs</string>
     <string name="no_contacts_permission">Kontaktbehörighet krävs</string>
     <string name="no_camera_permissions">Kamerabehörighet krävs</string>
@@ -188,7 +178,6 @@
     <string name="allow_location_permission">Du måste tillåta att appen kommer åt din plats, annars känner den inte till det.</string>
     <string name="grant_permission">Tillåt Behörighet</string>
     <string name="permission_required">Behörighet Krävs</string>
-    <!-- Renaming -->
     <string name="rename_file">Byt namn på fil</string>
     <string name="rename_folder">Byt namn på mapp</string>
     <string name="rename_file_error">Det gick inte att byta namn på filen</string>
@@ -207,13 +196,11 @@
     <string name="append_filenames">Lägg till efter filnamnen</string>
     <string name="simple_renaming">Enkel namnändring</string>
     <string name="pattern_renaming">Mönster</string>
-    <string name="string_to_add">String to add</string>
     <string name="rename_date_time_pattern">%Y - år\n%M - månad\n%D - dag\n%h - timme\n%m - minut\n%s - sekund\n%i - number increasing from 1</string>
     <string name="filename_without_txt">Filnamn (utan .txt)</string>
     <string name="filename_without_json">Filnamn (utan .json)</string>
     <string name="filename_without_zip">Filnamn (utan .zip)</string>
     <string name="cannot_hide_files">Sedan Android 11 kan du inte dölja filer och mappar på det viset</string>
-    <!-- Copy / Move -->
     <string name="copy">Kopiera</string>
     <string name="move">Flytta</string>
     <string name="copy_move">Kopiera / Flytta</string>
@@ -244,7 +231,6 @@
     <string name="no_space">Otillräckligt med utrymme.
 \nBehövs %1$s, tillgängligt %2$s</string>
     <string name="system_service_disabled">Systemtjänst för att välja filer och mappar är inte tillgänglig</string>
-    <!-- Create new -->
     <string name="create_new">Skapa ny</string>
     <string name="folder">Mapp</string>
     <string name="file">Fil</string>
@@ -253,7 +239,6 @@
     <string name="invalid_name">Namnet innehåller ogiltiga tecken</string>
     <string name="empty_name">Ange ett namn</string>
     <string name="unknown_error_occurred">Ett okänt fel har uppstått</string>
-    <!-- File operation conflicts -->
     <string name="file_already_exists">Filen \"%s\" finns redan</string>
     <string name="file_already_exists_overwrite">Filen \"%s\" finns redan. Skriv över?</string>
     <string name="folder_already_exists">Mappen \"%s\" finns redan</string>
@@ -268,7 +253,6 @@
     <string name="rename_in_sd_card_system_restriction">Systemet tillåter inte namnändring i denna mapp</string>
     <string name="rename_internal_system_restriction">Kan inte ändra namn på mappar direkt på det interna lagringsutrymmet, endast undermappar</string>
     <string name="cannot_rename_folder">Går ej att ändra namn på denna mapp</string>
-    <!-- File picker -->
     <string name="select_folder">Välj mapp</string>
     <string name="select_file">Välj fil</string>
     <string name="confirm_storage_access_title">Bekräfta åtkomst till extern lagring</string>
@@ -285,7 +269,6 @@
         <item quantity="one">%d objekt</item>
         <item quantity="other">%d objekt</item>
     </plurals>
-    <!-- Are you sure you want to delete 5 items? -->
     <plurals name="delete_items">
         <item quantity="one">%d objekt</item>
         <item quantity="other">%d objekt</item>
@@ -294,12 +277,10 @@
         <item quantity="one">Tar bort %d objekt</item>
         <item quantity="other">Tar bort %d objekt</item>
     </plurals>
-    <!-- Are you sure you want to delete 5 contacts? -->
     <plurals name="delete_contacts">
         <item quantity="one">%d kontakt</item>
         <item quantity="other">%d kontakter</item>
     </plurals>
-    <!-- Storages -->
     <string name="select_storage">Välj lagringsplats</string>
     <string name="storage">Lagringsutrymme</string>
     <string name="internal">Internt</string>
@@ -310,7 +291,6 @@
     <string name="sd_card_usb_same">SD-kortets och USB-enhetens sökvägar kan inte vara samma</string>
     <string name="app_on_sd_card">Du verkar ha appen installerad på ett SD-kort, vilket gör appwidgetarna otillgängliga. Du kommer inte ens se dem på listan över tillgängliga widgets. Det är en systembegränsning, så om du vill använda widgetarna måste du flytta tillbaka appen till internminnet.</string>
     <string name="wrong_folder_selected">Fel mapp vald, vänligen välj sökväg \'%s\'</string>
-    <!-- File properties -->
     <string name="properties">Egenskaper</string>
     <string name="path">Sökväg</string>
     <string name="items_selected">Valda objekt</string>
@@ -318,22 +298,17 @@
     <string name="files_count">Antal filer</string>
     <string name="resolution">Upplösning</string>
     <string name="duration">Varaktighet</string>
-    <string name="artist">Artist</string>
-    <string name="album">Album</string>
-    <string name="genre">Genre</string>
     <string name="focal_length">Brännvidd</string>
     <string name="exposure_time">Exponeringstid</string>
     <string name="iso_speed">ISO-grader</string>
     <string name="f_number">F-nummer</string>
     <string name="camera">Kamera</string>
-    <string name="exif">EXIF</string>
     <string name="song_title">Låttitel</string>
     <string name="gps_coordinates">GPS-koordinater</string>
     <string name="altitude">Höjd över havet</string>
     <string name="remove_exif">Ta bort EXIF-data</string>
     <string name="remove_exif_confirmation">Är du säker på att du vill ta bort EXIF-data som GPS-koordinater, kameramodell med mera?</string>
     <string name="exif_removed">EXIF-datan har tagits bort</string>
-    <!-- Color customization -->
     <string name="background_color">Bakgrundsfärg</string>
     <string name="text_color">Textfärg</string>
     <string name="primary_color">Primär färg</string>
@@ -354,17 +329,12 @@
     <string name="undo_changes_confirmation">Är du säker på att du vill ångra dina ändringar?</string>
     <string name="cannot_be_undone">Denna åtgärd kan inte ångras.</string>
     <string name="save_before_closing">Du har ändringar som inte är sparade. Spara innan du lämnar?</string>
-    <string name="apply_to_all_apps">Apply colors to all Fossify Apps</string>
-    <string name="app_icon_color_warning">Caution: Certain launchers may not handle app icon customization correctly. If the icon disappears, attempt launching the app through Google Play or a widget, if accessible.
-        After launching, restore the default green icon color #106D1F. In extreme cases, reinstalling the app may be necessary.</string>
     <string name="share_colors_success">Färgerna har uppdaterats. Ett nytt Tema som heter \'Delat\' har lagts till, använd det för att uppdatera alla apparnas färger i framtiden.</string>
-    <string name="shared_theme_note">Note that even though you are using the Pro app version, you still need Fossify Thank You for technical reasons. It takes care of the color synchronization.</string>
     <string name="purchase_thank_you">
         <![CDATA[
             Köp <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> för att låsa upp denna funktion och stödja utvecklingen. Tack!
         ]]>
     </string>
-    <!-- Themes -->
     <string name="light_theme">Ljust</string>
     <string name="dark_theme">Mörkt</string>
     <string name="auto_theme">Automatiskt</string>
@@ -376,10 +346,8 @@
     <string name="custom">Anpassat</string>
     <string name="shared">Delat</string>
     <string name="system_default">Systemstandard</string>
-    <!-- What's new -->
     <string name="whats_new">Vad är nytt</string>
     <string name="whats_new_disclaimer">* bara de större uppdateringarna visas här, det görs också alltid några mindre förbättringar</string>
-    <!-- Actionbar items -->
     <string name="delete">Ta bort</string>
     <string name="remove">Ta bort</string>
     <string name="rename">Byt namn</string>
@@ -423,7 +391,6 @@
     <string name="hide_line_numbers">Dölj radnummer</string>
     <string name="sleep_timer">Insomningstimer</string>
     <string name="unblock">Avblockera</string>
-    <!-- Sorting -->
     <string name="sort_by">Sortera efter</string>
     <string name="name">Namn</string>
     <string name="size">Storlek</string>
@@ -447,13 +414,10 @@
     <string name="use_custom_sorting">Använd anpassad sortering</string>
     <string name="change_order">Ändra ordning</string>
     <string name="more_options">Fler alternativ</string>
-    <!-- Confirmation dialog -->
     <string name="proceed_with_deletion">Är du säker på att du vill fortsätta med borttagningen?</string>
     <string name="deletion_confirmation">Är du säker på att du vill ta bort %s?</string>
     <string name="deletion_confirmation_short">Vill du ta bort %s\?</string>
-    <!-- Are you sure you want to delete 5 items? -->
     <string name="move_to_recycle_bin_confirmation">Är du säker på att du vill flytta %s till papperskorgen\?</string>
-    <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
     <string name="are_you_sure_delete">Är du säker på att du vill ta bort det här objektet?</string>
     <string name="are_you_sure_recycle_bin">Är du säker på att du vill flytta det här objektet till papperskorgen\?</string>
     <string name="do_not_ask_again">Fråga inte igen i denna session</string>
@@ -465,7 +429,6 @@
         <item quantity="one">VARNING! Du håller på att ta bort %d mapp</item>
         <item quantity="other">VARNING! Du håller på att ta bort %d mappar</item>
     </plurals>
-    <!-- Password protection -->
     <string name="pin">PIN-kod</string>
     <string name="enter_pin">Ange PIN-kod</string>
     <string name="please_enter_pin">Ange en PIN-kod</string>
@@ -500,7 +463,6 @@
     <string name="empty_password_new">Ange ett lösenord</string>
     <string name="empty_password">Ange lösenordet</string>
     <string name="invalid_password">Fel lösenord</string>
-    <!-- Times -->
     <string name="yesterday">Igår</string>
     <string name="today">Idag</string>
     <string name="tomorrow">Imorgon</string>
@@ -510,9 +472,6 @@
     <string name="minutes_raw">minuter</string>
     <string name="hours_raw">timmar</string>
     <string name="days_raw">dagar</string>
-    <string name="seconds_letter">s</string>
-    <string name="minutes_letter">m</string>
-    <string name="hours_letter">h</string>
     <string name="week_number_short">v.</string>
     <plurals name="seconds">
         <item quantity="one">%d sekund</item>
@@ -542,7 +501,6 @@
         <item quantity="one">%d år</item>
         <item quantity="other">%d år</item>
     </plurals>
-    <!-- For example: I will be there in 5 minutes -->
     <plurals name="in_seconds">
         <item quantity="one">%d sekund</item>
         <item quantity="other">%d sekunder</item>
@@ -571,7 +529,6 @@
         <item quantity="one">%d år</item>
         <item quantity="other">%d år</item>
     </plurals>
-    <!-- For example: Event reminder: 3 minutes before -->
     <plurals name="seconds_before">
         <item quantity="one">%d sekund innan</item>
         <item quantity="other">%d sekunder innan</item>
@@ -600,7 +557,6 @@
         <item quantity="one">%d år innan</item>
         <item quantity="other">%d år innan</item>
     </plurals>
-    <!-- For example: Postpone reminder by 3 minutes -->
     <plurals name="by_seconds">
         <item quantity="one">%d sekund</item>
         <item quantity="other">%d sekunder</item>
@@ -629,15 +585,12 @@
         <item quantity="one">%d år</item>
         <item quantity="other">%d år</item>
     </plurals>
-    <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
     <string name="alarm_goes_off_in">Återstående tid tills alarmet ringer:\n%s</string>
     <string name="reminder_triggers_in">Återstående tid tills påminnelsen aktiveras:\n%s</string>
     <string name="time_remaining">Återstående tid:\n%s</string>
     <string name="alarm_warning">Kontrollera att alarmet fungerar som det ska innan du förlitar dig på det. Det kanske inte fungerar som det ska på grund av batterisparrelaterade systembegränsningar.</string>
     <string name="reminder_warning">Kontrollera att påminnelserna fungerar som de ska innan du förlitar dig på dem. De kanske inte fungerar som de ska på grund av batterisparrelaterade systembegränsningar.</string>
     <string name="notifications_disabled">Aviseringar för denna applikation är inaktiverade. Gå till dina enhetsinställningar för att aktivera dem.</string>
-    <!-- Alarms -->
-    <string name="alarm">Alarm</string>
     <string name="snooze">Snooza</string>
     <string name="dismiss">Stäng av</string>
     <string name="no_reminder">Ingen påminnelse</string>
@@ -648,9 +601,7 @@
     <string name="no_sound">Inget ljud</string>
     <string name="during_day_at_hh_mm">Under dagen klockan hh:mm</string>
     <string name="during_day_at">Under dagen klockan %02d:%02d</string>
-    <!-- Settings -->
     <string name="settings">Inställningar</string>
-    <string name="purchase_simple_thank_you">Purchase Fossify Thank You</string>
     <string name="general_settings">Allmänt</string>
     <string name="color_customization">Färganpassning</string>
     <string name="improved_color_customization">Förbättrad färganpassning</string>
@@ -695,7 +646,6 @@
     <string name="start_name_with_surname">Visa efternamn först</string>
     <string name="clear_cache">Rensa cacheminne</string>
     <string name="show_call_confirmation_dialog">Visa en bekräftelsedialogruta före uppringning</string>
-    <!-- Setting sections -->
     <string name="visibility">Synlighet</string>
     <string name="security">Säkerhet</string>
     <string name="scrolling">Rullning</string>
@@ -703,13 +653,11 @@
     <string name="recycle_bin">Papperskorgen</string>
     <string name="saving_label">Sparande</string>
     <string name="startup">Start</string>
-    <string name="text">Text</string>
     <string name="migrating">Migrering</string>
     <string name="quality">Kvalitet</string>
     <string name="main_screen">Huvudskärm</string>
     <string name="thumbnails">Miniatyrbilder</string>
     <string name="list_view">Listvy</string>
-    <!-- Excluding -->
     <string name="exclude">Uteslut</string>
     <string name="exclude_folder">Uteslut mapp</string>
     <string name="excluded_folders">Uteslutna mappar</string>
@@ -719,7 +667,6 @@
     <string name="remove_all_description">Vill du ta bort alla mappar från uteslutningslistan\? Detta raderar inte mapparna.</string>
     <string name="temporarily_show_excluded">Visa uteslutna mappar tillfälligt</string>
     <string name="stop_showing_excluded">Sluta visa uteslutna mappar</string>
-    <!-- Default tab to open -->
     <string name="manage_shown_tabs">Välj vilka flikar som ska visas</string>
     <string name="default_tab_to_open">Flik som öppnas när appen startas</string>
     <string name="contacts_tab">Kontakter</string>
@@ -729,7 +676,6 @@
     <string name="last_used_tab">Den senast använda</string>
     <string name="files_tab">Filer</string>
     <string name="recent_files_tab">Senaste filer</string>
-    <!-- Recycle Bin -->
     <string name="restore_this_file">Återställ filen</string>
     <string name="restore_selected_files">Återställ valda filer</string>
     <string name="restore_all_files">Återställ alla filer</string>
@@ -746,7 +692,6 @@
         <item quantity="one">Flyttar %d objekt till papperskorgen</item>
         <item quantity="other">Flyttar %d objekt till papperskorgen</item>
     </plurals>
-    <!-- Import / Export -->
     <string name="importing">Importerar…</string>
     <string name="exporting">Exporterar…</string>
     <string name="importing_successful">Importen lyckades</string>
@@ -769,38 +714,17 @@
 \n%h - timme
 \n%m - minut
 \n%s - sekund</string>
-    <!-- OTG devices -->
-    <string name="usb">USB</string>
     <string name="usb_detected">Du verkar ha en USB-enhet ansluten till din enhet. För att se till att dess filer visas korrekt måste du ge ytterligare behörigheter.</string>
     <string name="confirm_usb_storage_access_text">Välj rotmappen på USB-enheten på nästa skärm, för att ge åtkomst</string>
     <string name="wrong_root_selected_usb">Du har valt fel mapp, välj rotmappen på din USB-enhet</string>
-    <!-- Dates -->
     <string name="january">Januari</string>
     <string name="february">Februari</string>
     <string name="march">Mars</string>
-    <string name="april">April</string>
     <string name="may">Maj</string>
     <string name="june">Juni</string>
     <string name="july">Juli</string>
     <string name="august">Augusti</string>
-    <string name="september">September</string>
     <string name="october">Oktober</string>
-    <string name="november">November</string>
-    <string name="december">December</string>
-    <!-- Short months -->
-    <string name="january_short">Jan</string>
-    <string name="february_short">Feb</string>
-    <string name="march_short">Mar</string>
-    <string name="april_short">Apr</string>
-    <string name="may_short">May</string>
-    <string name="june_short">June</string>
-    <string name="july_short">July</string>
-    <string name="august_short">Aug</string>
-    <string name="september_short">Sept</string>
-    <string name="october_short">Oct</string>
-    <string name="november_short">Nov</string>
-    <string name="december_short">Dec</string>
-    <!-- in January -->
     <string name="in_january">i januari</string>
     <string name="in_february">i februari</string>
     <string name="in_march">i mars</string>
@@ -820,13 +744,8 @@
     <string name="friday">Fredag</string>
     <string name="saturday">Lördag</string>
     <string name="sunday">Söndag</string>
-    <string name="monday_letter">M</string>
-    <string name="tuesday_letter">T</string>
     <string name="wednesday_letter">O</string>
-    <string name="thursday_letter">T</string>
-    <string name="friday_letter">F</string>
     <string name="saturday_letter">L</string>
-    <string name="sunday_letter">S</string>
     <string name="monday_short">Mån</string>
     <string name="tuesday_short">Tis</string>
     <string name="wednesday_short">Ons</string>
@@ -834,7 +753,6 @@
     <string name="friday_short">Fre</string>
     <string name="saturday_short">Lör</string>
     <string name="sunday_short">Sön</string>
-    <!-- Pro version -->
     <string name="upgrade_to_pro_long">Din appversion kommer inte updateras mer. Vänligen upgradera till Pro-versionen för att ta del av förbättringar och bugfixar.</string>
     <string name="upgrade_to_pro_long_click">Din appversion kommer inte updateras mer. Vänligen upgradera till Pro-versionen för att ta del av förbättringar och bugfixar genom att klicka här.</string>
     <string name="it_is_free">Den är gratis fram till: %s. Om du hämtar den innan dess, kan du använda den kostnadsfritt för all framtid.</string>
@@ -882,7 +800,6 @@
 \nNär du är nöjd med din installation i Pro-versionen kan du avinstallera den gamla gratis eftersom du inte behöver den längre, det kommer också att förhindra att den här dialogrutan visas.
 \n
 \nTack!</string>
-    <!-- About -->
     <string name="about">Om</string>
     <string name="website">Webbplats</string>
     <string name="website_label">Du hittar källkoden på</string>
@@ -897,13 +814,10 @@
     <string name="rate">Betygsätt</string>
     <string name="donate">Donera</string>
     <string name="follow_us">Följ oss</string>
-    <string name="copyright">v %1$s\nCopyright © Fossify %2$d</string>
-    <string name="support">Support</string>
     <string name="help_us">Hjälp oss</string>
     <string name="social">Socialt</string>
     <string name="other">Övrigt</string>
     <string name="privacy_policy">Integritetspolicy</string>
-    <string name="version_placeholder">Version %s</string>
     <string name="hello">Hej :)</string>
     <string name="about_footer">Skapad med ❤️ i Slovakien</string>
     <string name="additional_info">Ytterligare information</string>
@@ -916,10 +830,7 @@
             Tack!
         ]]>
     </string>
-    <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
-    <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
     <string name="purchase">Köp</string>
-    <string name="update_thank_you">Please update Fossify Thank You to the latest version</string>
     <string name="before_asking_question_read_faq">Innan du frågar, vänligen kolla appens inställningar och läs FAQ:en först. Kanske finns lösningen där.</string>
     <string name="before_rate_read_faq">Innan du betygsätter oss, vänligen kolla appens inställningar och läs FAQ:en innan. Om du har några problem, kanske finns lösningen där.</string>
     <string name="make_sure_latest">Dubbelkolla så du har den senaste versionen av appen.</string>
@@ -938,8 +849,6 @@
     <string name="rate_our_app">Betygsätt vår app :)</string>
     <string name="thank_you">Tack</string>
     <string name="widget_locked_pro">Widgeten är låst.\nUppgradera till Pro-versionen för att låsa upp den.</string>
-    <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>
-    <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">
         <![CDATA[
             Hej,<br><br>
@@ -970,18 +879,11 @@
     <string name="thank_you_short">Tack</string>
     <string name="voice_recorder_short">Röstinspelare</string>
     <string name="sideloaded_app">Det verkar som om din appversion är korrupt. Ladda ner originalversionen &lt;a href=%s&gt;här&lt;/a&gt;.</string>
-    <!-- FAQ -->
     <string name="frequently_asked_questions">Frågor och svar</string>
     <string name="before_asking_question">Innan du ställer en fråga, läs först</string>
     <string name="faq_1_title_commons">Hur kommer det sig att jag inte ser den här appwidgeten på listan över widgets\?</string>
     <string name="faq_1_text_commons">Det beror mest troligt på att du flyttade appen på ett SD-kort. Det finns en Android-systembegränsning som döljer de givna appwidgetarna i så fall. Den enda lösningen är att flytta appen tillbaka till den interna lagringen via dina enhetsinställningar.</string>
     <string name="faq_2_title_commons">Jag vill stödja dig, men jag kan inte donera pengar. Finns det något annat jag kan göra\?</string>
-    <string name="faq_2_text_commons">
-        <![CDATA[
-            Yes, of course. You can spread the word about the apps or give good feedback and ratings. You can also help by translating the apps in a new language, or just update some existing translations.
-            The guide to translating is at <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">this website</a>, or just contact us at <a href="mailto:hello@fossify.org">hello@fossify.org</a> if you have any questions.
-        ]]>
-    </string>
     <string name="faq_3_title_commons">Jag raderade några filer av misstag, hur kan jag återställa dem\?</string>
     <string name="faq_3_text_commons">Tyvärr kan du inte. Filer raderas direkt efter bekräftelsedialogrutan, det finns ingen papperskorg tillgänglig.</string>
     <string name="faq_4_title_commons">Jag gillar inte widgetfärgerna, kan jag ändra dem\?</string>
@@ -989,8 +891,6 @@
     <string name="faq_5_title_commons">Kan jag på något sätt återställa raderade filer\?</string>
     <string name="faq_5_text_commons">Om de verkligen raderades kan du inte. Men det finns en papperskorg aktiverad som standard, det kommer att göra att filerna bara flyttas till papperskorgen istället för att radera dem.</string>
     <string name="faq_6_title_commons">Appstartikonen försvann. Vad kan jag göra\?</string>
-    <string name="faq_6_text_commons">This issue arises when your launcher does not fully support icon customization. Attempt launching the app through Google Play or a widget, if accessible.
-        After launching, restore the default green icon color #106D1F. In extreme cases, reinstalling the app may be necessary.</string>
     <string name="faq_7_title_commons">Pengarna har dragits från mitt bankkonto, men jag kan inte ladda ner appen. Vad kan jag göra\?</string>
     <string name="faq_7_text_commons">Betalningar hanteras till fullo av Google, deras system har fel då och då. Rensa bara Google Play-appens cache och starta om enheten och försök sedan ladda ner den igen.</string>
     <string name="faq_8_title_commons">Varför ska jag uppgradera till Pro-versionen\?</string>
@@ -999,23 +899,13 @@
     <string name="faq_9_text_commons">Det finns flera sätt att göra det på. Den första är att starta valläget genom att trycka länge på ett objekt, sedan kortklicka på andra för att välja dem. Det andra sättet liknar att välja objekt på datorer med en mus, starta bara valläget genom att trycka länge på ett objekt, och sedan med fingret nedåt och dra det över andra objekt för att välja. Det tredje sättet att välja flera objekt är att länge trycka på ett objekt, sedan länge på ett annat och allt däremellan väljs. Om du vill markera alla objekt, tryck bara länge på ett objekt och klicka sedan på den valda objekträknaren i det övre vänstra hörnet. Det kommer att välja eller avmarkera allt.</string>
     <string name="faq_10_title_commons">Jag har köpt appen, men jag kan inte ladda ner den på en annan enhet.</string>
     <string name="faq_10_text_commons">Testa att rensa Google Play-appens cacheminne och starta om enheten. Det är något Google Play-fel, inte riktigt relaterat till själva appen.</string>
-    <!-- Contributors -->
     <string name="contributors">Bidragsgivare</string>
     <string name="translation">Översättning</string>
     <string name="development">Utveckling</string>
     <string name="other_help">Annan hjälp</string>
-    <string name="contributors_label">
-        <![CDATA[
-            This list contains everyone that noticeably helped any app within the Fossify suite, not only this one. Translations are handled by volunteers,
-            let us know if you want to help too. The guide to translating is at <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">this website</a>, or just contact us at <a href="mailto:hello@fossify.org">hello@fossify.org</a> if you have any questions.
-            Thanks to all contributors and other supporters!
-        ]]>
-    </string>
     <string name="translation_arabic">Arabiska</string>
     <string name="translation_azerbaijani">Azerbajdzjanska</string>
-    <string name="translation_bengali">Bengali</string>
     <string name="translation_breton">Bretonska</string>
-    <string name="translation_bulgarian">Bulgarian</string>
     <string name="translation_catalan">Katalanska</string>
     <string name="translation_czech">Tjeckiska</string>
     <string name="translation_welsh">Walesiska</string>
@@ -1029,7 +919,6 @@
     <string name="translation_finnish">Finska</string>
     <string name="translation_french">Franska</string>
     <string name="translation_galician">Galiciska</string>
-    <string name="translation_hindi">Hindi</string>
     <string name="translation_croatian">Kroatiska</string>
     <string name="translation_hungarian">Ungerska</string>
     <string name="translation_indonesian">Indonesiska</string>
@@ -1038,7 +927,6 @@
     <string name="translation_japanese">Japanska</string>
     <string name="translation_korean">Koreanska</string>
     <string name="translation_lithuanian">Litauiska</string>
-    <string name="translation_nepali">Nepali</string>
     <string name="translation_norwegian">Norska</string>
     <string name="translation_dutch">Nederländska</string>
     <string name="translation_polish">Polska</string>
@@ -1049,56 +937,45 @@
     <string name="translation_slovenian">Slovenska</string>
     <string name="translation_serbian">Serbiska</string>
     <string name="translation_swedish">Svenska</string>
-    <string name="translation_tamil">Tamil</string>
     <string name="translation_turkish">Turkiska</string>
     <string name="translation_ukrainian">Ukrainska</string>
     <string name="translation_vietnamese">Vietnamesiska</string>
     <string name="translation_chinese_hk">Kinesiska (Hongkong)</string>
     <string name="translation_chinese_cn">Kinesiska (förenklad)</string>
     <string name="translation_chinese_tw">Kinesiska (traditionell)</string>
-    <!-- Pro comparison (shown in the deprecated free apps) -->
     <string name="why_upgrade">Skaffa Pro-versionen nu!</string>
     <string name="why_upgrade_basic_version">Enkel</string>
-    <string name="why_upgrade_pro_version">Pro</string>
     <string name="why_upgrade_no_ads">Ingen reklam</string>
     <string name="why_upgrade_no_internet_access">Ingen internetuppkoppling</string>
     <string name="why_upgrade_footer">100 % pengarna tillbaka-garanti</string>
     <string name="why_upgrade_footer_one_time_payment">Engångsbetalning</string>
     <string name="why_upgrade_improved_design">Förbättrad design</string>
     <string name="why_upgrade_many_other_improvements">Många andra förbättringar</string>
-    <!-- Gallery Pro -->
     <string name="why_upgrade_advanced_photo_editor">Avancerad fotoredigerare</string>
     <string name="why_upgrade_advanced_photo_video_editor">Avancerad foto- och videoredigerare</string>
     <string name="why_upgrade_heic_support">HEIC/HEIF filstöd</string>
     <string name="why_upgrade_batch_renaming">Avancerat mass-namnbyte</string>
     <string name="why_upgrade_folder_locking">Individuell mapplåsning</string>
     <string name="why_upgrade_printing_support">Utskriftsstöd</string>
-    <!-- Calendar Pro -->
     <string name="why_upgrade_time_zone_support">Stöd för tidszon</string>
     <string name="why_upgrade_attendees_emails">Deltagare och e-postpåminnelser</string>
     <string name="why_upgrade_easy_event_importing">Enkel händelseimport</string>
     <string name="why_upgrade_new_widgets">Nya widgetar</string>
-    <!-- Contacts Pro -->
     <string name="why_upgrade_duplicate_contact_merging">Förbättrad sammanslagning av dubbletter av kontakter</string>
     <string name="why_upgrade_font_size_customization">Anpassning av teckenstorlek</string>
     <string name="why_upgrade_private_contact_sharing">Valfri privat kontaktdelning i våra appar</string>
     <string name="why_upgrade_customizable_contact_ringtones">Anpassningsbara kontaktringsignaler</string>
     <string name="why_upgrade_contact_filtering">Kontaktfiltrering</string>
     <string name="why_upgrade_contact_private_contacts">Privat lagrade kontakter</string>
-    <!-- Notes Pro -->
     <string name="why_upgrade_checklists">Checklistor</string>
     <string name="why_upgrade_different_note_per_widget">Olika anteckningar och färger per widget</string>
     <string name="why_upgrade_note_locking">Anteckningslås</string>
-    <!-- File Manager Pro -->
     <string name="why_upgrade_date_and_time_format">Anpassning av datum- och tidsformat</string>
     <string name="why_upgrade_shortcuts">Genvägar på startskärmen</string>
     <string name="why_upgrade_file_compression">Stöd för filkomprimering</string>
-    <string name="why_upgrade_recents_tab">Tab with recent files</string>
-    <!-- Draw Pro -->
     <string name="why_upgrade_background_color_customization">Anpassning av bakgrundsfärg</string>
     <string name="why_upgrade_file_importing">Stöd för filimport</string>
     <string name="why_upgrade_zooming">Zoomning</string>
-    <!-- License -->
     <string name="notice">Denna app använder följande tredjepartsbibliotek för att göra mitt liv enklare. Tack.</string>
     <string name="third_party_licences">Tredjepartslicenser</string>
     <string name="kotlin_title">Kotlin (programmeringsspråk)</string>
@@ -1135,7 +1012,6 @@
     <string name="m3u_parser_title">M3U Parser (m3u spellista filhantering)</string>
     <string name="android_lame_title">Android Lame (mp3 encoder)</string>
     <string name="zip4j_title">Zip4j (ZIP-komprimering och dekompression)</string>
-    <!-- Trial -->
     <string name="trial_expired">Prövotiden har löpt ut</string>
     <string name="start_free_trial">Starta gratis prövotid</string>
     <string name="trial_expires_soon">Din prövotid tar snart slut.</string>
@@ -1155,9 +1031,7 @@
         <item quantity="one">Din prövotid tar slut om %d dag.</item>
         <item quantity="other">Din prövotid tar slut om %d dagar.</item>
     </plurals>
-    <!-- Google Play listing -->
     <string name="deprecated_app">UTGÅNGEN: Denna version av appen underhålls inte längre, hämta Pro-versionen på https://play.google.com/store/apps/details\?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">Glöm inte att om du avinstallerar någon betalapp inom 2 timmar kommer du automatiskt att få en återbetalning. Om du vill ha en återbetalning när som helst senare, kontakta oss bara på hello@fossify.org så får du det. Det gör det enkelt att testa :)</string>
-    <!-- Description of our developer profile on Google Play, it can have max 140 characters -->
     <string name="developer_description">En mängd enkla, öppen källkod Android appar med anpassningsbara widgets, inga annonser eller onödiga behörigheter.</string>
 </resources>

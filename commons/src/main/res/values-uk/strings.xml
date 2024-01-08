@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="ok">OK</string>
     <string name="cancel">Скасувати</string>
     <string name="close">Закрити</string>
     <string name="back">Назад</string>
@@ -78,20 +77,16 @@
     <string name="phone_storage_hidden">Пам\'ять пристрою (прихована від інших застосунків)</string>
     <string name="audio">Аудіо</string>
     <string name="scanning">Сканування…</string>
-    <!-- Events -->
     <string name="birthday">День народження</string>
     <string name="anniversary">Річниця</string>
-    <!-- Emails -->
     <string name="home">Домашній</string>
     <string name="work">Робочий</string>
-    <!-- Phone numbers -->
     <string name="mobile">Мобільний</string>
     <string name="main_number">Основний</string>
     <string name="work_fax">Робочий факс</string>
     <string name="home_fax">Домашній факс</string>
     <string name="pager">Пейджер</string>
     <string name="no_phone_number_found">Номер не знайдено</string>
-    <!-- View types -->
     <string name="change_view_type">Змінити тип перегляду</string>
     <string name="grid">Сітка</string>
     <string name="grid_pro">Сітка (Pro)</string>
@@ -117,7 +112,6 @@
         <item quantity="many">%d рядків</item>
         <item quantity="other">%d рядків</item>
     </plurals>
-    <!-- Blocked numbers -->
     <string name="manage_blocked_numbers">Керувати блокованими номерами</string>
     <string name="not_blocking_anyone">Немає блокованих номерів.</string>
     <string name="add_a_blocked_number">Додати номер до блокованих</string>
@@ -141,12 +135,10 @@
     <string name="unblock_contact">Розблокувати контакт</string>
     <string name="unblock_contact_success">Контакт розблоковано</string>
     <string name="unblock_contact_fail">Не вдалося розблокувати контакт</string>
-    <!-- Favorites -->
     <string name="favorites">Улюблене</string>
     <string name="add_favorites">Додати улюблене</string>
     <string name="add_to_favorites">Додати до улюбленого</string>
     <string name="remove_from_favorites">Видалити з улюбленого</string>
-    <!-- Search -->
     <string name="search">Пошук</string>
     <string name="search_in_placeholder">Пошук в %s</string>
     <string name="type_2_characters">Введіть принаймні 2 символи, щоб почати пошук.</string>
@@ -168,12 +160,10 @@
     <string name="search_text">Пошук тексту</string>
     <string name="search_conversations">Пошук розмов</string>
     <string name="search_recordings">Пошук записів</string>
-    <!-- Filters -->
     <string name="filter">Фільтр</string>
     <string name="filter_pro">Фільтр (Pro)</string>
     <string name="no_items_found">Нічого не знайдено.</string>
     <string name="change_filter">Змінити фільтр</string>
-    <!-- Permissions -->
     <string name="no_storage_permissions">Необхідний дозвіл на доступ до внутрішньої пам\'яті</string>
     <string name="no_contacts_permission">Необхідний дозвіл на доступ до контактів</string>
     <string name="no_camera_permissions">Необхідний дозвіл на доступ до камери</string>
@@ -192,7 +182,6 @@
     <string name="allow_location_permission">&gt;Ви повинні надати доступ застосунку до вашого місцезнаходження, інакше вона не зможе показувати вхідні повідомлення.</string>
     <string name="grant_permission">Надати дозвіл</string>
     <string name="permission_required">Потрібен дозвіл</string>
-    <!-- Renaming -->
     <string name="rename_file">Перейменувати файл</string>
     <string name="rename_folder">Перейменувати теку</string>
     <string name="rename_file_error">Не вдалося перейментувати файл</string>
@@ -217,7 +206,6 @@
     <string name="filename_without_json">Ім\'я файлу (без .json)</string>
     <string name="filename_without_zip">Ім\'я файлу (без .zip)</string>
     <string name="cannot_hide_files">Починаючи з Android 11, ви більше не можете приховувати такі файли та теки</string>
-    <!-- Copy / Move -->
     <string name="copy">Копіювати</string>
     <string name="move">Перемістити</string>
     <string name="copy_move">Копіювати / Перемістити</string>
@@ -247,7 +235,6 @@
     <string name="no_new_items">Не знайдено нових елементів</string>
     <string name="no_space">Місце призначення не має достатньо вільного місця.\nНеобхідно %1$s, доступно %2$s</string>
     <string name="system_service_disabled">Системна служба для вибору файлів і тек недоступна</string>
-    <!-- Create new -->
     <string name="create_new">Створити новий</string>
     <string name="folder">Теку</string>
     <string name="file">Файл</string>
@@ -256,7 +243,6 @@
     <string name="invalid_name">Ім\'я містить недопустимі символи</string>
     <string name="empty_name">Введіть ім\'я</string>
     <string name="unknown_error_occurred">Сталася невідома помилка</string>
-    <!-- File operation conflicts -->
     <string name="file_already_exists">Файл \"%s\" вже існує</string>
     <string name="file_already_exists_overwrite">Файл \"%s\" вже існує. Перезаписати?</string>
     <string name="folder_already_exists">Тека \"%s\" вже існує</string>
@@ -271,7 +257,6 @@
     <string name="rename_in_sd_card_system_restriction">Система не дозволяє перейменовувати в цій теці</string>
     <string name="rename_internal_system_restriction">Не можна перейменувати теки безпосередньо у внутрішній пам\'яті, лише у вкладених теках</string>
     <string name="cannot_rename_folder">Не вдається перейменувати цю теку</string>
-    <!-- File picker -->
     <string name="select_folder">Обрати теку</string>
     <string name="select_file">Обрати файл</string>
     <string name="confirm_storage_access_title">Підтвердити дозвіл на доступ до зовнішньої пам\'яті</string>
@@ -290,7 +275,6 @@
         <item quantity="many">%d елементів</item>
         <item quantity="other">%d елементів</item>
     </plurals>
-    <!-- Are you sure you want to delete 5 items? -->
     <plurals name="delete_items">
         <item quantity="one">%d елемент</item>
         <item quantity="few">%d елемента</item>
@@ -303,14 +287,12 @@
         <item quantity="many">Видалення %d елементів</item>
         <item quantity="other">Видалення %d елементів</item>
     </plurals>
-    <!-- Are you sure you want to delete 5 contacts? -->
     <plurals name="delete_contacts">
         <item quantity="one">%d контакт</item>
         <item quantity="few">%d контакти</item>
         <item quantity="many">%d контактів</item>
         <item quantity="other">%d контактів</item>
     </plurals>
-    <!-- Storages -->
     <string name="select_storage">Обрати пам\'ять</string>
     <string name="storage">Сховище</string>
     <string name="internal">Внутрішня</string>
@@ -322,7 +304,6 @@
     <string name="app_on_sd_card">Схоже, ви встановили додаток на SD-карту, що робить віджети додатка недоступними. Ви навіть не побачите їх у списку доступних віджетів.
         Це обмеження системи, тож якщо ви хочете використовувати віджети, вам треба перемістити додаток до внутрішньої пам\'яті.</string>
     <string name="wrong_folder_selected">Вибрано неправильну теку, будь ласка, виберіть \'%s\'</string>
-    <!-- File properties -->
     <string name="properties">Властивості</string>
     <string name="path">Шлях</string>
     <string name="items_selected">Обрані елементи</string>
@@ -338,14 +319,12 @@
     <string name="iso_speed">Світлочутливість за ISO</string>
     <string name="f_number">Діафрагмове число</string>
     <string name="camera">Камера</string>
-    <string name="exif">EXIF</string>
     <string name="song_title">Назва пісні</string>
     <string name="gps_coordinates">GPS координати</string>
     <string name="altitude">Висота над рівнем моря</string>
     <string name="remove_exif">Видалити EXIF</string>
     <string name="remove_exif_confirmation">Ви впевнені, що хочете видалити значення EXIF, як-от координати GPS, модель камери тощо\?</string>
     <string name="exif_removed">Значення EXIF успішно видалено</string>
-    <!-- Color customization -->
     <string name="background_color">Колір фону</string>
     <string name="text_color">Колір тексту</string>
     <string name="primary_color">Первинний колір</string>
@@ -366,17 +345,7 @@
     <string name="undo_changes_confirmation">Ви впевнені, що хочете скасувати зміни?</string>
     <string name="cannot_be_undone">Цю дію неможливо скасувати.</string>
     <string name="save_before_closing">Ви маєте незбережені зміни. Зберегти перед виходом?</string>
-    <string name="apply_to_all_apps">Apply colors to all Fossify Apps</string>
-    <string name="app_icon_color_warning">Caution: Certain launchers may not handle app icon customization correctly. If the icon disappears, attempt launching the app through Google Play or a widget, if accessible.
-        After launching, restore the default green icon color #106D1F. In extreme cases, reinstalling the app may be necessary.</string>
     <string name="share_colors_success">Кольори успішно оновлено. Було додано нову тему під назвою \'Загальна\', використовуйте її для оновлення кольорів усіх додатків у майбутньому.</string>
-    <string name="shared_theme_note">Note that even though you are using the Pro app version, you still need Fossify Thank You for technical reasons. It takes care of the color synchronization.</string>
-    <string name="purchase_thank_you">
-        <![CDATA[
-            Please purchase <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> to unlock this function and support the development. Thanks!
-        ]]>
-    </string>
-    <!-- Themes -->
     <string name="light_theme">Світла</string>
     <string name="dark_theme">Темна</string>
     <string name="auto_theme">Автоматично</string>
@@ -388,10 +357,8 @@
     <string name="custom">Користувацька</string>
     <string name="shared">Загальна</string>
     <string name="system_default">Системна</string>
-    <!-- What's new -->
     <string name="whats_new">Що нового</string>
     <string name="whats_new_disclaimer">* тут перераховані тільки великі оновлення, але завжди є менші покращення</string>
-    <!-- Actionbar items -->
     <string name="delete">Видалити</string>
     <string name="remove">Перемістити</string>
     <string name="rename">Перейменувати</string>
@@ -435,7 +402,6 @@
     <string name="hide_line_numbers">Приховати номер рядка</string>
     <string name="sleep_timer">Таймер сну</string>
     <string name="unblock">Розблокувати</string>
-    <!-- Sorting -->
     <string name="sort_by">Сортувати за</string>
     <string name="name">Ім\'я</string>
     <string name="size">Розмір</string>
@@ -459,13 +425,10 @@
     <string name="use_custom_sorting">Сортувати власноруч</string>
     <string name="change_order">Змінити порядок</string>
     <string name="more_options">Більше опцій</string>
-    <!-- Confirmation dialog -->
     <string name="proceed_with_deletion">Ви впевнені, що хочете продовжити видалення?</string>
     <string name="deletion_confirmation">Ви впевнені, що хочете видалити %s?</string>
     <string name="deletion_confirmation_short">Видалити %s?</string>
-    <!-- Are you sure you want to delete 5 items? -->
     <string name="move_to_recycle_bin_confirmation">Ви впевнені, що хочете перемістити %s у Кошик?</string>
-    <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
     <string name="are_you_sure_delete">Ви впевнені, що хочете видалити цей елемент?</string>
     <string name="are_you_sure_recycle_bin">Ви впевнені, що хочете перемістити цей елемент у Кошик?</string>
     <string name="do_not_ask_again">Більше не питати у цій сесії</string>
@@ -479,8 +442,6 @@
         <item quantity="many">УВАГА: Ви видаляєте %d тек</item>
         <item quantity="other">УВАГА: Ви видаляєте %d тек</item>
     </plurals>
-    <!-- Password protection -->
-    <string name="pin">PIN</string>
     <string name="enter_pin">Введіть PIN</string>
     <string name="please_enter_pin">Будь ласка, введіть PIN</string>
     <string name="wrong_pin">Невірний PIN</string>
@@ -514,7 +475,6 @@
     <string name="empty_password_new">Будь ласка, введіть пароль</string>
     <string name="empty_password">Будь ласка, введіть пароль</string>
     <string name="invalid_password">Неправильний пароль</string>
-    <!-- Times -->
     <string name="yesterday">Вчора</string>
     <string name="today">Сьогодні</string>
     <string name="tomorrow">Завтра</string>
@@ -527,7 +487,6 @@
     <string name="seconds_letter">с</string>
     <string name="minutes_letter">х</string>
     <string name="hours_letter">г</string>
-    <string name="week_number_short">wk.</string>
     <plurals name="seconds">
         <item quantity="one">%d секунда</item>
         <item quantity="few">%d секунди</item>
@@ -570,7 +529,6 @@
         <item quantity="many">%d років</item>
         <item quantity="other">%d років</item>
     </plurals>
-    <!-- For example: I will be there in 5 minutes -->
     <plurals name="in_seconds">
         <item quantity="one">%d секунду</item>
         <item quantity="few">%d секунди</item>
@@ -613,7 +571,6 @@
         <item quantity="many">%d років</item>
         <item quantity="other">%d років</item>
     </plurals>
-    <!-- For example: Event reminder: 3 minutes before -->
     <plurals name="seconds_before">
         <item quantity="one">за %d секунду</item>
         <item quantity="few">за %d секунди</item>
@@ -656,7 +613,6 @@
         <item quantity="many">за %d років</item>
         <item quantity="other">за %d років</item>
     </plurals>
-    <!-- For example: Postpone reminder by 3 minutes -->
     <plurals name="by_seconds">
         <item quantity="one">%d секунду</item>
         <item quantity="few">%d секунди</item>
@@ -699,7 +655,6 @@
         <item quantity="many">%d років</item>
         <item quantity="other">%d років</item>
     </plurals>
-    <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
     <string name="alarm_goes_off_in">Сигнал будильника зазвучить через:\n%s</string>
     <string name="reminder_triggers_in">Час до того, як спрацює нагадування:\n%s</string>
     <string name="time_remaining">Час, що залишився:
@@ -707,7 +662,6 @@
     <string name="alarm_warning">Переконайтеся, що будильник працює коректно, перед тим, як на нього покладатися. Він може не спрацювати через системні обмеження, пов\'язані з економією заряду батареї.</string>
     <string name="reminder_warning">Переконайтеся, що нагадування працюють коректно, перед тим, як на них покладатися. Вони можуть не спрацювати через системні обмеження, пов\'язані з економією заряду батареї.</string>
     <string name="notifications_disabled">Сповіщення від цього додатка заборонені. Перейдіть до Налаштувань пристрою, щоб їх увімкнути.</string>
-    <!-- Alarms -->
     <string name="alarm">Будильник</string>
     <string name="snooze">Відкласти</string>
     <string name="dismiss">Відхилити</string>
@@ -719,9 +673,7 @@
     <string name="no_sound">Без звуку</string>
     <string name="during_day_at_hh_mm">Протягом дня о гг:хх</string>
     <string name="during_day_at">Протягом дня о %02d:%02d</string>
-    <!-- Settings -->
     <string name="settings">Налаштування</string>
-    <string name="purchase_simple_thank_you">Purchase Fossify Thank You</string>
     <string name="general_settings">Загальні</string>
     <string name="color_customization">Налаштування кольору</string>
     <string name="improved_color_customization">Покращено налаштування кольору</string>
@@ -766,7 +718,6 @@
     <string name="start_name_with_surname">Показувати спочатку прізвище</string>
     <string name="clear_cache">Очистити кеш</string>
     <string name="show_call_confirmation_dialog">Показувати діалог підтвердження виклику</string>
-    <!-- Setting sections -->
     <string name="visibility">Відображення</string>
     <string name="security">Безпека</string>
     <string name="scrolling">Прокручування</string>
@@ -780,7 +731,6 @@
     <string name="main_screen">Головний екран</string>
     <string name="thumbnails">Мініатюри</string>
     <string name="list_view">Перегляд списка</string>
-    <!-- Excluding -->
     <string name="exclude">Виключити</string>
     <string name="exclude_folder">Виключити папку</string>
     <string name="excluded_folders">Виключені теки</string>
@@ -790,7 +740,6 @@
     <string name="remove_all_description">Видалити всі теки зі списку виключених\? Це не видалить теки з пристрою.</string>
     <string name="temporarily_show_excluded">Тимчасово показати вилучені</string>
     <string name="stop_showing_excluded">Припинити показ вилучених</string>
-    <!-- Default tab to open -->
     <string name="manage_shown_tabs">Керування вкладками, що відображаються</string>
     <string name="default_tab_to_open">Вкладка, що відкривається при запуску додатка</string>
     <string name="contacts_tab">Контакти</string>
@@ -800,7 +749,6 @@
     <string name="last_used_tab">Останнє використане</string>
     <string name="files_tab">Файли</string>
     <string name="recent_files_tab">Нещодавні файли</string>
-    <!-- Recycle Bin -->
     <string name="restore_this_file">Відновити цей файл</string>
     <string name="restore_selected_files">Відновити обрані файли</string>
     <string name="restore_all_files">Відновити всі файли</string>
@@ -819,7 +767,6 @@
         <item quantity="many">Переміщення %d елементів у Кошик</item>
         <item quantity="other">Переміщення %d елементів у Кошик</item>
     </plurals>
-    <!-- Import / Export -->
     <string name="importing">Триває імпортування…</string>
     <string name="exporting">Триває експортування…</string>
     <string name="importing_successful">Імпортування успішно завершено</string>
@@ -842,12 +789,9 @@
 \n%h - година
 \n%m - хвилина
 \n%s - секунда</string>
-    <!-- OTG devices -->
-    <string name="usb">USB</string>
     <string name="usb_detected">Здається, до вашого пристрою приєднано USB-пристрій. Для коректного відображення його файлів вам необхідно надати додаткові дозволи.</string>
     <string name="confirm_usb_storage_access_text">Будь ласка, оберіть кореневу теку USB-пристрою далі, щоб надати доступ</string>
     <string name="wrong_root_selected_usb">Обрано невірну теку, будь ласка, оберіть кореневу теку вашого USB-пристрою</string>
-    <!-- Dates -->
     <string name="january">Січень</string>
     <string name="february">Лютий</string>
     <string name="march">Березень</string>
@@ -860,7 +804,6 @@
     <string name="october">Жовтень</string>
     <string name="november">Листопад</string>
     <string name="december">Грудень</string>
-    <!-- Short months -->
     <string name="january_short">січ.</string>
     <string name="february_short">лют.</string>
     <string name="march_short">бер.</string>
@@ -873,7 +816,6 @@
     <string name="october_short">жовт.</string>
     <string name="november_short">лист.</string>
     <string name="december_short">груд.</string>
-    <!-- in January -->
     <string name="in_january">у Січні</string>
     <string name="in_february">у Лютому</string>
     <string name="in_march">у Березні</string>
@@ -907,7 +849,6 @@
     <string name="friday_short">Пят</string>
     <string name="saturday_short">Суб</string>
     <string name="sunday_short">Нед</string>
-    <!-- Pro version -->
     <string name="upgrade_to_pro_long">Ця версія додатку більше не буде оновлюватися. Please upgrade to the Pro version to receive new fixes and other improvements.</string>
     <string name="upgrade_to_pro_long_click">Ця версія додатку більше не буде оновлюватися. Please upgrade to the Pro version to receive new fixes and other improvements by clicking here.</string>
     <string name="it_is_free">Це безкоштовно до: %s. Якщо ви завантажите додаток до вказаної дати, ви отримаєте його безкоштовно назавжди.</string>
@@ -955,7 +896,6 @@
 \nКоли ви будете задоволені налаштуваннями Pro-версії, ви можете видалити стару безплатну версію, оскільки вона вам більше не знадобиться, а також запобігти появі цього діалогового вікна.
 \n
 \nДякуємо!</string>
-    <!-- About -->
     <string name="about">Про додаток</string>
     <string name="website">Веб-сайт</string>
     <string name="website_label">Вихідний код знайдете за адресою</string>
@@ -970,7 +910,6 @@
     <string name="rate">Оцінити</string>
     <string name="donate">Підтримати розробника</string>
     <string name="follow_us">Підписатися на нас</string>
-    <string name="copyright">v %1$s\nCopyright © Fossify %2$d</string>
     <string name="support">Підтримка</string>
     <string name="help_us">Допоможіть нам</string>
     <string name="social">Соціальні мережі</string>
@@ -982,17 +921,7 @@
     <string name="additional_info">Додаткова інформація</string>
     <string name="app_version">Версія застосунка: %s</string>
     <string name="device_os">ОС пристрою: %s</string>
-    <string name="donate_please">
-        <![CDATA[
-            Hello,<br><br>
-            hope you are enjoying the app. It contains no ads, please support its development by purchasing the <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> app, it will also prevent this dialog from showing up again.<br><br>
-            Thank you!
-        ]]>
-    </string>
-    <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
-    <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
     <string name="purchase">Придбати</string>
-    <string name="update_thank_you">Please update Fossify Thank You to the latest version</string>
     <string name="before_asking_question_read_faq">Перш ніж запитувати, будь ласка, ознайомтесь із налаштуваннями додатка та прочитайте Часті Питання. Можливо, відповідь там.</string>
     <string name="before_rate_read_faq">Перш ніж ви оціните нас, будь ласка перегляньте налаштування додатка та прочитайте Часті Питання. Якщо у вас виникнуть проблеми, можливо там буде вирішення.</string>
     <string name="make_sure_latest">Також переконайтеся, що ви користуєтеся найновішою версією додатка.</string>
@@ -1004,8 +933,6 @@
     <string name="thank_you">Подяка</string>
     <string name="widget_locked_pro">Віджет заблоковано.
 \nБудь ласка, оновіть додаток до версії Pro, щоб розблокувати віджет.</string>
-    <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>
-    <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">
         <![CDATA[
             Привіт,<br><br>
@@ -1040,19 +967,12 @@
             Схоже, що ваша версія додатка пошкоджена. Будь ласка, завантажте оригінальну версію <a href="%s">тут</a>.
         ]]>
     </string>
-    <!-- FAQ -->
     <string name="frequently_asked_questions">Часті питання - ЧаПи</string>
     <string name="before_asking_question">Перш ніж запитувати, будь ласка, прочитайте</string>
     <string name="faq_1_title_commons">Чому я не бачу віджета цього додатка у списку віджетів?</string>
     <string name="faq_1_text_commons">Найімовірніше тому, що ви перемістили додаток на SD карту. В системі Android існує обмеження, що приховує віджети додатка
         в цьому випадку. Єдине рішення - перемістити додаток назад у Внутрішню Пам\'ять з допомогою налаштувань вашого пристрою.</string>
     <string name="faq_2_title_commons">Я хочу вас підтримати, але я не можу пожертвувати гроші. Чи є ще щось, що я можу зробити?</string>
-    <string name="faq_2_text_commons">
-        <![CDATA[
-            Yes, of course. You can spread the word about the apps or give good feedback and ratings. You can also help by translating the apps in a new language, or just update some existing translations.
-            The guide to translating is at <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">this website</a>, or just contact us at <a href="mailto:hello@fossify.org">hello@fossify.org</a> if you have any questions.
-        ]]>
-    </string>
     <string name="faq_3_title_commons">Я випадково видалив деякі файли, як я можу їх відновити?</string>
     <string name="faq_3_text_commons">На жаль, ви не можете. Файли видаляються негайно після діалогу-підтвердження, функції типу \"Кошик\" не передбачено.</string>
     <string name="faq_4_title_commons">Мені не подобаються кольори віджета, чи можу я їх змінити?</string>
@@ -1060,8 +980,6 @@
     <string name="faq_5_title_commons">Чи можу я якось відновити видалені файли?</string>
     <string name="faq_5_text_commons">На жаль, ні, якщо вони були дійсно видалені. Однак стандартно увімкнена функція Кошика, вона переміщає файли в Кошик замість їх видаляти.</string>
     <string name="faq_6_title_commons">Значок запуску додатка зник. Що робити?</string>
-    <string name="faq_6_text_commons">This issue arises when your launcher does not fully support icon customization. Attempt launching the app through Google Play or a widget, if accessible.
-        After launching, restore the default green icon color #106D1F. In extreme cases, reinstalling the app may be necessary.</string>
     <string name="faq_7_title_commons">Гроші списано з мого банківського рахунку, проте я не можу завантажити додаток. Що мені робити?</string>
     <string name="faq_7_text_commons">Сплатою рахунків цілком керує Google, у їхній системі трапляються збої час від часу. Для початку очистіть кеш додатка Google Play та перезапустіть ваш пристрій, потім спробуйте завантажити його знову.</string>
     <string name="faq_8_title_commons">Чому мені слід перейти на версію Pro?</string>
@@ -1074,18 +992,10 @@
         хочете виділити всі елементи, тривалим натисненням виділіть один елемент, потім натисніть на лічильник елементів у верхньому лівому куті. Ця дія виділить або відмінить виділення всіх елементів.</string>
     <string name="faq_10_title_commons">Я придбав додаток, проте не можу завантажити його на іншому пристроєві.</string>
     <string name="faq_10_text_commons">Спробуйте очистити кеш вашого додатка Google Play і перезапустіть ваш пристрій. Це помилка в роботі Google Play, що насправді не пов\'язана з самим додатком.</string>
-    <!-- Contributors -->
     <string name="contributors">Помічники</string>
     <string name="translation">Переклад</string>
     <string name="development">Розробка</string>
     <string name="other_help">Інша допомога</string>
-    <string name="contributors_label">
-        <![CDATA[
-            This list contains everyone that noticeably helped any app within the Fossify suite, not only this one. Translations are handled by volunteers,
-            let us know if you want to help too. The guide to translating is at <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">this website</a>, or just contact us at <a href="mailto:hello@fossify.org">hello@fossify.org</a> if you have any questions.
-            Thanks to all contributors and other supporters!
-        ]]>
-    </string>
     <string name="translation_arabic">Арабська</string>
     <string name="translation_azerbaijani">Азербайджанська</string>
     <string name="translation_bengali">Бенгальська</string>
@@ -1131,49 +1041,40 @@
     <string name="translation_chinese_hk">Китайська (Гонконг)</string>
     <string name="translation_chinese_cn">Китайська (Спрощена)</string>
     <string name="translation_chinese_tw">Китайська (Традиційна)</string>
-    <!-- Pro comparison (shown in the deprecated free apps) -->
     <string name="why_upgrade">Отримайте Pro-версію просто зараз!</string>
     <string name="why_upgrade_basic_version">Базова</string>
-    <string name="why_upgrade_pro_version">Pro</string>
     <string name="why_upgrade_no_ads">Жодної реклами</string>
     <string name="why_upgrade_no_internet_access">Без доступу до Інтернету</string>
     <string name="why_upgrade_footer">100% гарантія повернення коштів</string>
     <string name="why_upgrade_footer_one_time_payment">Одноразовий платіж</string>
     <string name="why_upgrade_improved_design">Покращений дизайн</string>
     <string name="why_upgrade_many_other_improvements">Багато інших поліпшень</string>
-    <!-- Gallery Pro -->
     <string name="why_upgrade_advanced_photo_editor">Удосконалений редактор світлин</string>
     <string name="why_upgrade_advanced_photo_video_editor">Розширений редактор фото &amp; відео</string>
     <string name="why_upgrade_heic_support">Підтримка файлів HEIC/HEIF</string>
     <string name="why_upgrade_batch_renaming">Удосконалене перейменування пакетних файлів</string>
     <string name="why_upgrade_folder_locking">Індивідуальне блокування тек</string>
     <string name="why_upgrade_printing_support">Підтримка друку</string>
-    <!-- Calendar Pro -->
     <string name="why_upgrade_time_zone_support">Підтримка часових поясів</string>
     <string name="why_upgrade_attendees_emails">Відвідувачі та нагадування електронною поштою</string>
     <string name="why_upgrade_easy_event_importing">Зручний імпорт подій</string>
     <string name="why_upgrade_new_widgets">Нові віджети</string>
-    <!-- Contacts Pro -->
     <string name="why_upgrade_duplicate_contact_merging">Удосконалена функція злиття контактів</string>
     <string name="why_upgrade_font_size_customization">Налаштування розміру шрифту</string>
     <string name="why_upgrade_private_contact_sharing">Додатковий обмін конфіденційними контактами в наших додатках</string>
     <string name="why_upgrade_customizable_contact_ringtones">Налаштування мелодій виклику для контакту</string>
     <string name="why_upgrade_contact_filtering">Фільтрування контактів</string>
     <string name="why_upgrade_contact_private_contacts">Приватно збережені контакти</string>
-    <!-- Notes Pro -->
     <string name="why_upgrade_checklists">Контрольні списки</string>
     <string name="why_upgrade_different_note_per_widget">Різні замітки та кольори для кожного віджета</string>
     <string name="why_upgrade_note_locking">Блокування нотаток</string>
-    <!-- File Manager Pro -->
     <string name="why_upgrade_date_and_time_format">Налаштування формату дати та часу</string>
     <string name="why_upgrade_shortcuts">Ярлики на головному екрані</string>
     <string name="why_upgrade_file_compression">Підтримка стиснення файлів</string>
     <string name="why_upgrade_recents_tab">Вкладка з нещодавніми файлами</string>
-    <!-- Draw Pro -->
     <string name="why_upgrade_background_color_customization">Налаштування кольору фону</string>
     <string name="why_upgrade_file_importing">Підтримка імпорту файлів</string>
     <string name="why_upgrade_zooming">Масштабування</string>
-    <!-- License -->
     <string name="notice">Цей додаток створено з використанням наступних бібліотек сторонніх розробників, що полегшує мою працю. Дякую.</string>
     <string name="third_party_licences">Ліцензії третіх сторін</string>
     <string name="kotlin_title">Kotlin (мова програмування)</string>
@@ -1210,7 +1111,6 @@
     <string name="m3u_parser_title">M3U Парсер (обробка m3u-файлів списків відтворення)</string>
     <string name="android_lame_title">AndroidLame (кодувальник mp3)</string>
     <string name="zip4j_title">Zip4j (стиснення та розпакування ZIP)</string>
-    <!-- Trial -->
     <string name="trial_expired">Термін пробного періоду закінчився</string>
     <string name="start_free_trial">Почати безкоштовну пробну версію</string>
     <string name="trial_expires_soon">Термін дії вашої пробної версії скоро закінчиться.</string>
@@ -1232,9 +1132,7 @@
         <item quantity="many">Термін дії пробного періоду закінчується через %d днів.</item>
         <item quantity="other">Термін дії пробного періоду закінчується через %d днів.</item>
     </plurals>
-    <!-- Google Play listing -->
     <string name="deprecated_app">Застаріла: Ця версія додатка більше не підтримується, встановіть версію Pro за адресою https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">Пам\'ятайте: якщо ви видалите будь-який платний додаток протягом 2 годин, вам буде автоматично повернена сума покупки. Якщо ви захочете повернути гроші пізніше, сконтактуйте з нами за адресою hello@fossify.org, і ви їх отримаєте. Таким чином ви можете легко спробувати додаток :)</string>
-    <!-- Description of our developer profile on Google Play, it can have max 140 characters -->
     <string name="developer_description">Група простих Android-додатків з відкритим вихідним кодом, настроювальними віджетами, без реклами та непотрібних дозволів.</string>
 </resources>

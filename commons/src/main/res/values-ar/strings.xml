@@ -50,8 +50,6 @@
     <string name="insert_text_here">إدراج النص هنا</string>
     <string name="call_person">اتصال بـ%s</string>
     <string name="confirm_calling_person">تأكيد الاتصال بـ %s</string>
-    <string name="zero">Zero</string>
-    <string name="one">One</string>
     <string name="two">اثنان</string>
     <string name="three">ثلاثة</string>
     <string name="four">أربعة</string>
@@ -76,22 +74,17 @@
     <string name="updating">تحديث…</string>
     <string name="phone_storage">ذاكرة الهاتف</string>
     <string name="phone_storage_hidden">ذاكرة الهاتف (غير مرئية من قبل التطبيقات الأخرى)</string>
-    <string name="audio">Audio</string>
     <string name="scanning">يفحص…</string>
-    <!-- Events -->
     <string name="birthday">تاريخ الميلاد</string>
     <string name="anniversary">مناسبة</string>
-    <!-- Emails -->
     <string name="home">المنزل</string>
     <string name="work">العمل</string>
-    <!-- Phone numbers -->
     <string name="mobile">جوال</string>
     <string name="main_number">رئيسي</string>
     <string name="work_fax">فاكس العمل</string>
     <string name="home_fax">فاكس المنزل</string>
     <string name="pager">بايجر</string>
     <string name="no_phone_number_found">لم يتم العثور على رقم هاتف</string>
-    <!-- View types -->
     <string name="change_view_type">تغيير نوع العرض</string>
     <string name="grid">الشبكة</string>
     <string name="grid_pro">الشبكة (Pro)</string>
@@ -121,7 +114,6 @@
         <item quantity="many">صفوف %d</item>
         <item quantity="other">صفوف %d</item>
     </plurals>
-    <!-- Blocked numbers -->
     <string name="manage_blocked_numbers">إدارة الأرقام المحظورة</string>
     <string name="not_blocking_anyone">لم تحظر أي شخص.</string>
     <string name="add_a_blocked_number">إضافة رقم محظور</string>
@@ -139,18 +131,15 @@
     <string name="block_hidden_messages">حظر الرسائل من الأرقام المخفية</string>
     <string name="add_blocked_number_helper_text">أدخل رقما أو نمطا (على سبيل المثال، *12345*، +1*8888) لحظر جميع المكالمات والرسائل من الأرقام المطابقة للنمط.</string>
     <string name="must_make_default_caller_id_app">لا يمكن حظر الأرقام غير المعروفة دون إذن معرف المتصل.</string>
-    <string name="block_contact">Block contact</string>
     <string name="block_contact_success">تم حظر جهة الاتصال</string>
     <string name="block_contact_fail">لا يمكن حظر جهة الاتصال</string>
     <string name="unblock_contact">إلغاء حظر جهة الاتصال</string>
     <string name="unblock_contact_success">تم إلغاء حظر جهة الاتصال</string>
     <string name="unblock_contact_fail">لا يمكن إلغاء حظر جهة الاتصال</string>
-    <!-- Favorites -->
     <string name="favorites">المفضلة</string>
     <string name="add_favorites">إضافة مفضلة</string>
     <string name="add_to_favorites">إضافة إلى المفضلة</string>
     <string name="remove_from_favorites">إزالة من المفضلة</string>
-    <!-- Search -->
     <string name="search">بحث</string>
     <string name="search_in_placeholder">البحث في %s</string>
     <string name="type_2_characters">أكتب ما لا يقل عن حرفين لبدء البحث.</string>
@@ -172,12 +161,10 @@
     <string name="search_text">نص البحث</string>
     <string name="search_conversations">البحث في المحادثات</string>
     <string name="search_recordings">البحث في التسجيلات</string>
-    <!-- Filters -->
     <string name="filter">فلتر</string>
     <string name="filter_pro">فلتر (Pro)</string>
     <string name="no_items_found">لا توجد عناصر.</string>
     <string name="change_filter">تغيير الفلتر</string>
-    <!-- Permissions -->
     <string name="no_storage_permissions">مطلوب إذن التخزين</string>
     <string name="no_contacts_permission">مطلوب إذن جهات الإتصال</string>
     <string name="no_camera_permissions">مطلوب إذن الكاميرا</string>
@@ -196,7 +183,6 @@
     <string name="allow_location_permission">يجب أن تسمح للتطبيق بالوصول إلى موقعك ، وإلا فلن يعرفه.</string>
     <string name="grant_permission">منح الإذن</string>
     <string name="permission_required">الإذن مطلوب</string>
-    <!-- Renaming -->
     <string name="rename_file">إعادة تسمية الملف</string>
     <string name="rename_folder">إعادة تسمية المجلد</string>
     <string name="rename_file_error">يتعذر إعادة تسمية الملف</string>
@@ -221,7 +207,6 @@
     <string name="filename_without_json">اسم الملف (بدون .json)</string>
     <string name="filename_without_zip">اسم الملف (بدون .zip)</string>
     <string name="cannot_hide_files">بدءا من Android 11 ، لا يمكنك إخفاء الملفات والمجلدات من هذا القبيل بعد الآن</string>
-    <!-- Copy / Move -->
     <string name="copy">نسخ</string>
     <string name="move">نقل</string>
     <string name="copy_move">نسخ / نقل</string>
@@ -251,7 +236,6 @@
     <string name="no_new_items">لا توجد عناصر جديدة</string>
     <string name="no_space">لا تحتوي الوجهة على مساحة كافية متوفرة .\n مطلوب %1$s، المتوفر %2$s</string>
     <string name="system_service_disabled">خدمة النظام لتحديد الملفات والمجلدات غير متوفرة</string>
-    <!-- Create new -->
     <string name="create_new">إنشاء جديد</string>
     <string name="folder">مجلد</string>
     <string name="file">ملف</string>
@@ -260,7 +244,6 @@
     <string name="invalid_name">يحتوي الإسم علي أحرف غير صالحة</string>
     <string name="empty_name">يرجى إدخال إسم</string>
     <string name="unknown_error_occurred">حدث خطأ غير معروف</string>
-    <!-- File operation conflicts -->
     <string name="file_already_exists">الملف \"%s\" موجود بالفعل</string>
     <string name="file_already_exists_overwrite">الملف \"%s\" موجود بالفعل. هل تريد إستبداله ؟</string>
     <string name="folder_already_exists">المجلد \"%s\" موجود بالفعل</string>
@@ -275,7 +258,6 @@
     <string name="rename_in_sd_card_system_restriction">لا يسمح النظام بإعادة التسمية في هذا المجلد</string>
     <string name="rename_internal_system_restriction">لا يمكن إعادة تسمية المجلدات مباشرة على وحدة التخزين الداخلية ، فقط المجلدات الفرعية</string>
     <string name="cannot_rename_folder">لا يمكن إعادة تسمية هذا المجلد</string>
-    <!-- File picker -->
     <string name="select_folder">تحديد مجلد</string>
     <string name="select_file">تحديد ملف</string>
     <string name="confirm_storage_access_title">تأكيد الوصول إلى وحدة التخزين الخارجية</string>
@@ -296,7 +278,6 @@
         <item quantity="many">%d عناصر</item>
         <item quantity="other">%d عنصر</item>
     </plurals>
-    <!-- Are you sure you want to delete 5 items? -->
     <plurals name="delete_items">
         <item quantity="zero">%d مادة</item>
         <item quantity="one">%d مادة</item>
@@ -313,7 +294,6 @@
         <item quantity="many">حذف %d المواد</item>
         <item quantity="other">حذف %d المواد</item>
     </plurals>
-    <!-- Are you sure you want to delete 5 contacts? -->
     <plurals name="delete_contacts">
         <item quantity="zero">%d جهة الاتصال</item>
         <item quantity="one">%d جهة الاتصال</item>
@@ -322,7 +302,6 @@
         <item quantity="many">%d جهة الاتصال</item>
         <item quantity="other">%d جهة الاتصال</item>
     </plurals>
-    <!-- Storages -->
     <string name="select_storage">حدد وحدة التخزين</string>
     <string name="storage">التخزين</string>
     <string name="internal">وحدة التخزين الداخلية</string>
@@ -333,7 +312,6 @@
     <string name="sd_card_usb_same">لا يمكن أن تكون مسارات بطاقة الذاكرة (SD) و جهاز الـ (USB) متماثلة</string>
     <string name="app_on_sd_card">يبدو أن التطبيق مثبت على بطاقة الذاكرة (SD) ، مما يجعل تطبيقات (الويدجت) غير متاحة. ولن تراها حتى على قائمة (الويدجت) المتاحة. إنها أحد قيود النظام ، لذلك إذا كنت تريد استخدام (تطبيقات الويدجت) ، فيجب عليك نقل التطبيق مرة أخرى إلى وحدة التخزين الداخلية.</string>
     <string name="wrong_folder_selected">تم تحديد مجلد خاطئ ، يرجى تحديد المسار \"%s\"</string>
-    <!-- File properties -->
     <string name="properties">الخصائص</string>
     <string name="path">المسار</string>
     <string name="items_selected">العناصر المحددة</string>
@@ -343,7 +321,6 @@
     <string name="duration">المدة</string>
     <string name="artist">الفنان</string>
     <string name="album">الألبوم</string>
-    <string name="genre">Genre</string>
     <string name="focal_length">البعد البؤري</string>
     <string name="exposure_time">زمن التعرض للضوء</string>
     <string name="iso_speed">سرعة الـ (ISO)</string>
@@ -356,7 +333,6 @@
     <string name="remove_exif">إزالة EXIF</string>
     <string name="remove_exif_confirmation">هل أنت متأكد من أنك تريد إزالة قيم EXIF مثل إحداثيات GPS وطراز الكاميرا وما إلى ذلك؟</string>
     <string name="exif_removed">تمت إزالة قيم EXIF بنجاح</string>
-    <!-- Color customization -->
     <string name="background_color">لون الخلفية</string>
     <string name="text_color">لون النص</string>
     <string name="primary_color">اللون الأساسي</string>
@@ -377,32 +353,22 @@
     <string name="undo_changes_confirmation">هل تريد بالتاكيد التراجع عن التغييرات التي أجريتها ؟</string>
     <string name="cannot_be_undone">لا يمكن التراجع عن هذا الإجراء.</string>
     <string name="save_before_closing">لديك تغييرات غير محفوظة. هل تريد الحفظ قبل الخروج ؟</string>
-    <string name="apply_to_all_apps">Apply colors to all Fossify Apps</string>
-    <string name="app_icon_color_warning">Caution: Certain launchers may not handle app icon customization correctly. If the icon disappears, attempt launching the app through Google Play or a widget, if accessible.
-        After launching, restore the default green icon color #106D1F. In extreme cases, reinstalling the app may be necessary.</string>
     <string name="share_colors_success">تم تحديث الألوان بنجاح. تمت إضافة سمة جديدة تسمى \'المشتركة\'، يرجى إستخدام ذلك لتحديث جميع ألوان التطبيق في المستقبل.</string>
-    <string name="shared_theme_note">Note that even though you are using the Pro app version, you still need Fossify Thank You for technical reasons. It takes care of the color synchronization.</string>
     <string name="purchase_thank_you">
         <![CDATA[
              يرجى شراء<a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Thank You</a> لفتح هذه الوظيفة ودعم التطوير. شكراً!
         ]]>
     </string>
-    <!-- Themes -->
     <string name="light_theme">فاتح</string>
     <string name="dark_theme">داكن</string>
-    <string name="auto_theme">Auto</string>
     <string name="auto_light_dark_theme">ضوء تلقائي / داكن</string>
     <string name="solarized">شمسي</string>
     <string name="dark_red">أحمر داكن</string>
-    <string name="white">White</string>
     <string name="black_white">أبيض وأسود</string>
     <string name="custom">مخصص</string>
     <string name="shared">المشتركة</string>
-    <string name="system_default">System default</string>
-    <!-- What's new -->
     <string name="whats_new">ما الجديد</string>
     <string name="whats_new_disclaimer">* التحديثات الأكبر حجماً هي المدرجة هنا، دائماً توجد بعض التحسينات الأصغر أيضا</string>
-    <!-- Actionbar items -->
     <string name="delete">حذف</string>
     <string name="remove">إزالة</string>
     <string name="rename">إعادة تسمية</string>
@@ -427,26 +393,18 @@
     <string name="shortcut">اختصار</string>
     <string name="create_shortcut">إنشاء أختصار</string>
     <string name="create_shortcut_pro">إنشاء أختصار (Pro)</string>
-    <string name="add_number_to_contact">Add number to contact</string>
-    <string name="view_contact_details">View contact details</string>
     <string name="call_from_sim_1">الاتصال من بطاقة SIM 1</string>
     <string name="call_from_sim_2">الاتصال من بطاقة SIM 2</string>
     <string name="toggle_filename">تبديل رؤية إسم الملف</string>
     <string name="move_to_top">الانتقال إلى الأعلى</string>
     <string name="move_to_bottom">الانتقال إلى الأسفل</string>
-    <string name="pin_item">Pin item</string>
     <string name="unpin_item">إزالة تثبيت العنصر</string>
-    <string name="send_sms">Send SMS</string>
-    <string name="send_email">Send email</string>
     <string name="call">اتصال</string>
-    <string name="contact_details">Contact details</string>
-    <string name="add_contact">Add contact</string>
     <string name="wallpapers">خلفيات</string>
     <string name="show_line_numbers">إظهار خطوط الأرقام</string>
     <string name="hide_line_numbers">إظهار خطوط الأرقام</string>
     <string name="sleep_timer">مؤقت النوم</string>
     <string name="unblock">إلغاء الحظر</string>
-    <!-- Sorting -->
     <string name="sort_by">فرز حسب</string>
     <string name="name">الإسم</string>
     <string name="size">الحجم</string>
@@ -466,17 +424,12 @@
     <string name="first_name">الاسم</string>
     <string name="middle_name">اسم الأب</string>
     <string name="surname">الشهرة</string>
-    <string name="full_name">Full name</string>
     <string name="use_custom_sorting">استخدم الفرز المخصص</string>
     <string name="change_order">تغيير الترتيب</string>
     <string name="more_options">المزيد من الخيارات</string>
-    <!-- Confirmation dialog -->
     <string name="proceed_with_deletion">هل تريد بالتأكيد متابعة عملية الحذف ؟</string>
     <string name="deletion_confirmation">هل تريد بالتأكيد حذف%s ؟</string>
-    <string name="deletion_confirmation_short">Delete %s?</string>
-    <!-- Are you sure you want to delete 5 items? -->
     <string name="move_to_recycle_bin_confirmation">هل تريد بالتأكيد نقل %s إلى "سلة المحذوفات" ؟</string>
-    <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
     <string name="are_you_sure_delete">هل تريد بالتأكيد حذف هذا العنصر ؟</string>
     <string name="are_you_sure_recycle_bin">هل تريد بالتأكيد نقل هذا العنصر إلى "سلة المحذوفات" ؟</string>
     <string name="do_not_ask_again">لا تسأل مره أخرى في هذه الدورة</string>
@@ -492,7 +445,6 @@
         <item quantity="many">تحذير: أنت تحذف %d مجلد</item>
         <item quantity="other">تحذير: أنت تحذف %d مجلد</item>
     </plurals>
-    <!-- Password protection -->
     <string name="pin">رمز الـ PIN</string>
     <string name="enter_pin">ادخل رمز الـ PIN</string>
     <string name="please_enter_pin">يرجى إدخال رمز الـ PIN</string>
@@ -521,13 +473,9 @@
     <string name="lock_folder_pro">قفل المجلد (Pro)</string>
     <string name="unlock_folder">فتح المجلد</string>
     <string name="lock_folder_notice">تعمل هذه الحماية فقط في هذا التطبيق، ومن المفترض ألا تحل محل تشفير المجلد الحقيقي علي مستوي النظام.</string>
-    <string name="enter_password">Enter password</string>
-    <string name="password">Password</string>
-    <string name="add_password">Add password</string>
     <string name="empty_password_new">الرجاء إدخال كلمة المرور</string>
     <string name="empty_password">الرجاء إدخال كلمة المرور</string>
     <string name="invalid_password">كلمة المرور غير صحيحة</string>
-    <!-- Times -->
     <string name="yesterday">أمس</string>
     <string name="today">اليوم</string>
     <string name="tomorrow">غداً</string>
@@ -537,10 +485,6 @@
     <string name="minutes_raw">دقائق</string>
     <string name="hours_raw">ساعات</string>
     <string name="days_raw">أيام</string>
-    <string name="seconds_letter">s</string>
-    <string name="minutes_letter">m</string>
-    <string name="hours_letter">h</string>
-    <string name="week_number_short">wk.</string>
     <plurals name="seconds">
         <item quantity="zero">%d ثانية</item>
         <item quantity="one">%d ثانية</item>
@@ -597,7 +541,6 @@
         <item quantity="many">%d سنوات</item>
         <item quantity="other">%d سنة</item>
     </plurals>
-    <!-- For example: I will be there in 5 minutes -->
     <plurals name="in_seconds">
         <item quantity="zero">%d ثانية</item>
         <item quantity="one">%d ثانية</item>
@@ -654,7 +597,6 @@
         <item quantity="many">%d سنين</item>
         <item quantity="other">%d سنة</item>
     </plurals>
-    <!-- For example: Event reminder: 3 minutes before -->
     <plurals name="seconds_before">
         <item quantity="zero">%d ثانية قبل</item>
         <item quantity="one">%d ثانية قبل</item>
@@ -711,7 +653,6 @@
         <item quantity="many">%d قبل سنوات</item>
         <item quantity="other">%d قبل اعوام</item>
     </plurals>
-    <!-- For example: Postpone reminder by 3 minutes -->
     <plurals name="by_seconds">
         <item quantity="zero">%d ثانية</item>
         <item quantity="one">%d ثانية</item>
@@ -768,7 +709,6 @@
         <item quantity="many">%d سنة</item>
         <item quantity="other">%d سنة</item>
     </plurals>
-    <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
     <string name="alarm_goes_off_in">الوقت المتبقي حتي ينطفئ المنبه:\n%s</string>
     <string name="reminder_triggers_in">الوقت المتبقي حتي يتم تشغيل التذكير:\n%s</string>
     <string name="time_remaining">الوقت المتبقي:
@@ -776,7 +716,6 @@
     <string name="alarm_warning">يرجى التأكد من أن المنبه يعمل بشكل صحيح قبل الإعتماد عليه. قد يسيء التصرف بسبب قيود النظام المتعلقة بتوفير البطارية.</string>
     <string name="reminder_warning">يرجى التأكد من أن التذكيرات تعمل بشكل صحيح قبل الإعتماد عليها قد يسيء التصرف بسبب قيود النظام المتعلقة بتوفير البطارية.</string>
     <string name="notifications_disabled">تم تعطيل إشعارات هذا التطبيق. يرجى الإنتقال إلى إعدادات جهازك لتمكينها.</string>
-    <!-- Alarms -->
     <string name="alarm">المنبه</string>
     <string name="snooze">الغفوة</string>
     <string name="dismiss">رفض</string>
@@ -788,9 +727,7 @@
     <string name="no_sound">لا يوجد صوت</string>
     <string name="during_day_at_hh_mm">خلال النهار في hh: mm</string>
     <string name="during_day_at">خلال النهار في %02d: %02d</string>
-    <!-- Settings -->
     <string name="settings">الإعدادات</string>
-    <string name="purchase_simple_thank_you">Purchase Fossify Thank You</string>
     <string name="general_settings">عام</string>
     <string name="color_customization">تخصيص الألوان</string>
     <string name="improved_color_customization">تحسين تكييف الألوان</string>
@@ -799,7 +736,6 @@
     <string name="feature_locked">مقفل</string>
     <string name="customize_widget_colors">تخصيص ألوان الويدجت</string>
     <string name="customize_notifications">تخصيص اﻹشعارات</string>
-    <string name="notification_sound">Notification sound</string>
     <string name="use_english_language">استخدام اللغة الإنجليزية</string>
     <string name="language">اللغة</string>
     <string name="show_hidden_items">إظهار العناصر المخفية</string>
@@ -835,7 +771,6 @@
     <string name="start_name_with_surname">الاسم يبدأ بالشهرة</string>
     <string name="clear_cache">مسح ذاكرة التخزين المؤقت</string>
     <string name="show_call_confirmation_dialog">إظهار مربع حوار تأكيد الاتصال قبل بدء مكالمة</string>
-    <!-- Setting sections -->
     <string name="visibility">الرؤية</string>
     <string name="security">الأمان</string>
     <string name="scrolling">التمرير</string>
@@ -848,8 +783,6 @@
     <string name="quality">الجودة</string>
     <string name="main_screen">الصفحة الرئيسيّة</string>
     <string name="thumbnails">الصور المصغّرة</string>
-    <string name="list_view">List view</string>
-    <!-- Excluding -->
     <string name="exclude">استبعاد</string>
     <string name="exclude_folder">استبعد المجلد</string>
     <string name="excluded_folders">المجلدات المستبعدة</string>
@@ -859,7 +792,6 @@
     <string name="remove_all_description">هل تريد إزالة كافة المجلدات من قائمة المجلدات المستبعدة؟ لن يؤدي هذا إلى حذف المجلدات.</string>
     <string name="temporarily_show_excluded">إظهار الملفات المستبعدة مؤقتًا</string>
     <string name="stop_showing_excluded">إيقاف عرض الملفات المستبعدة</string>
-    <!-- Default tab to open -->
     <string name="manage_shown_tabs">إدارة التابات المعروضة</string>
     <string name="default_tab_to_open">اختر ما يُفتح عند بدء التطبيق</string>
     <string name="contacts_tab">جهات الاتصال</string>
@@ -867,9 +799,6 @@
     <string name="call_history_tab">سجل المكالمات</string>
     <string name="groups_tab">المجموعات</string>
     <string name="last_used_tab">آخر استخدام</string>
-    <string name="files_tab">Files</string>
-    <string name="recent_files_tab">Recent files</string>
-    <!-- Recycle Bin -->
     <string name="restore_this_file">إستعادة هذا الملف</string>
     <string name="restore_selected_files">إستعادة الملفات المحددة</string>
     <string name="restore_all_files">إستعادة كل الملفات</string>
@@ -890,7 +819,6 @@
         <item quantity="many">نقل عناصر %d إلى سلة المحذوفات</item>
         <item quantity="other">نقل عنصر %d إلى سلة المحذوفات</item>
     </plurals>
-    <!-- Import / Export -->
     <string name="importing">جارٍ الإستيراد…</string>
     <string name="exporting">جارٍ التصدير…</string>
     <string name="importing_successful">تم الإستيراد بنجاح</string>
@@ -913,12 +841,10 @@
 \n%h - ساعة
 \n%m - دقيقة
 \n%s - الثانية</string>
-    <!-- OTG devices -->
     <string name="usb">الـ USB</string>
     <string name="usb_detected">يبدو أن لديك جهاز USB متصل بجهازك. للتأكد من ظهور ملفاته بشكل صحيح ، تحتاج إلى منح أذونات إضافية.</string>
     <string name="confirm_usb_storage_access_text">يرجى إختيار المجلد العلوي لجهاز الـ USB على الشاشة التالية ، لمنح صلاحيات الوصول</string>
     <string name="wrong_root_selected_usb">تم تحديد مجلد خاطئ، يرجى تحديد المجلد الأصلي لجهاز الـ USB الخاص بك</string>
-    <!-- Dates -->
     <string name="january">يناير</string>
     <string name="february">فبراير</string>
     <string name="march">مارس</string>
@@ -931,20 +857,7 @@
     <string name="october">أكتوبر</string>
     <string name="november">نوفمبر</string>
     <string name="december">ديسمبر</string>
-    <!-- Short months -->
-    <string name="january_short">Jan</string>
-    <string name="february_short">Feb</string>
-    <string name="march_short">Mar</string>
-    <string name="april_short">Apr</string>
-    <string name="may_short">May</string>
-    <string name="june_short">June</string>
-    <string name="july_short">July</string>
-    <string name="august_short">Aug</string>
     <string name="september_short">سبتمبر</string>
-    <string name="october_short">Oct</string>
-    <string name="november_short">Nov</string>
-    <string name="december_short">Dec</string>
-    <!-- in January -->
     <string name="in_january">في يناير</string>
     <string name="in_february">في فبراير</string>
     <string name="in_march">في مارس</string>
@@ -978,7 +891,6 @@
     <string name="friday_short">جمعة</string>
     <string name="saturday_short">سبت</string>
     <string name="sunday_short">حد</string>
-    <!-- Pro version -->
     <string name="upgrade_to_pro_long">لن يتم تحديث إصدار التطبيق الخاص بك بعد الآن. يرجى الترقية إلى الإصدار (Pro) لتلقي الإصلاحات الجديدة وغيرها من التحسينات.</string>
     <string name="upgrade_to_pro_long_click">لن يتم تحديث إصدار التطبيق الخاص بك بعد الآن. يرجى الترقية إلى الإصدار (Pro) لتلقي الإصلاحات الجديدة وغيرها من التحسينات من خلال النقر هنا.</string>
     <string name="it_is_free">إنه مجاني حتى: %s. إذا قمت بتنزيله حتى ذلك الحين، سوف تتمكن من استخدامه مجاناً إلى الأبد.</string>
@@ -1026,9 +938,7 @@
 \nبمجرد أن تشعر بالرضا عن الإعداد الخاص بك في الإصدار Pro ، يمكنك إلغاء تثبيت الإصدار المجاني القديم لأنك لن تحتاج إليه بعد الآن ، كما أنه سيمنع ظهور مربع الحوار هذا.
 \n
 \nشكرا!</string>
-    <!-- About -->
     <string name="about">حول</string>
-    <string name="website">Website</string>
     <string name="website_label">للحصول علي أكواد المصدر، تفضل بزيارة</string>
     <string name="email_label">أرسل ملاحظاتك أو اقتراحاتك إلى</string>
     <string name="upgrade_to_pro">االترقية إلى الإصدار البرو (Pro)</string>
@@ -1041,13 +951,7 @@
     <string name="rate">تقييم</string>
     <string name="donate">تبرع</string>
     <string name="follow_us">تابعنا</string>
-    <string name="copyright">v %1$s\nCopyright © Fossify %2$d</string>
-    <string name="support">Support</string>
-    <string name="help_us">Help us</string>
-    <string name="social">Social</string>
-    <string name="other">Other</string>
     <string name="privacy_policy">سياسة الخصوصية</string>
-    <string name="version_placeholder">Version %s</string>
     <string name="hello">مرحبًا :)</string>
     <string name="about_footer">صنع بـ ❤️ في سلوفاكيا</string>
     <string name="additional_info">معلومات إضافية</string>
@@ -1060,10 +964,7 @@
             شكرا!
         ]]>
     </string>
-    <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
-    <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
     <string name="purchase">شراء</string>
-    <string name="update_thank_you">Please update Fossify Thank You to the latest version</string>
     <string name="before_asking_question_read_faq">قبل ان تسأل سؤالاً ، يرجى التحقق من إعدادات التطبيق وقراءة الأسئلة المتداولة أولاً. ربما يكون الحل موجوداً.</string>
     <string name="before_rate_read_faq">قبل أن تقيمنا ، يرجى التحقق من إعدادات التطبيق وقراءة الأسئلة الشائعة أولاً. إذا كان لديك أي مشاكل ، فربما يكون الحل موجوداً.</string>
     <string name="make_sure_latest">تأكد أيضاً من أنك تستخدم أحدث إصدار من التطبيق.</string>
@@ -1075,8 +976,6 @@
     <string name="thank_you">شكراً جزيلاً</string>
     <string name="widget_locked_pro">الأداة مقفلة.
 \nيرجى الترقية إلى إصدار Pro لإلغاء قفله.</string>
-    <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>
-    <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">
         <![CDATA[
             مهلاً,<br><br>
@@ -1111,18 +1010,11 @@
 يبدو أن إصدار التطبيق تالف. يرجى تنزيل الإصدار الأصلي<a href="%s">من هنا</a>.
         ]]>
     </string>
-    <!-- FAQ -->
     <string name="frequently_asked_questions">الأسئلة المتداولة</string>
     <string name="before_asking_question">قبل أن تسأل سؤالاً ، يرجى قراءة أولاً</string>
     <string name="faq_1_title_commons">كيف لا أرى هذه التطبيقات في قائمة التطبيقات المصغّرة (الويدجت)؟</string>
     <string name="faq_1_text_commons">وهو على الأرجح لأنك قمت بنقل التطبيق على بطاقة الذاكرة (SD) هناك حد لنظام أندرويد يقوم باخفاء (الويدجت) للتطبيق المحدد           في هذه الحالة يتمثل الحل الوحيد في نقل التطبيق مرة أخرى إلى وحدة التخزين الداخلية من خلال إعدادات جهازك.</string>
     <string name="faq_2_title_commons">أريد ان أدعمكم لكن لا يمكنني التبرع بالمال هل هناك أي شيء آخر يمكنني فعله ؟</string>
-    <string name="faq_2_text_commons">
-        <![CDATA[
-            Yes, of course. You can spread the word about the apps or give good feedback and ratings. You can also help by translating the apps in a new language, or just update some existing translations.
-            The guide to translating is at <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">this website</a>, or just contact us at <a href="mailto:hello@fossify.org">hello@fossify.org</a> if you have any questions.
-        ]]>
-    </string>
     <string name="faq_3_title_commons">قمت بحذف بعض الملفات عن طريق الخطأ، كيف يمكنني إسترجاعها؟</string>
     <string name="faq_3_text_commons">للأسف، لا يمكنك. يتم حذف الملفات فوراً بعد مربع حوار التأكيد، لا توجد سلة محذوفات متاحة.</string>
     <string name="faq_4_title_commons">أنا لا أحب ألوان (الويدجت)، هل يمكنني تغييرها؟</string>
@@ -1130,8 +1022,6 @@
     <string name="faq_5_title_commons">هل يمكنني بطريقة ما إسترجاع الملفات المحذوفة؟</string>
     <string name="faq_5_text_commons">إذا تم حذفها بالفعل ، لا يمكنك ذلك. ومع ذلك ، يتم تمكين "سلة المحذوفات" إفتراضياً ، مما يؤدي إلى نقل الملفات في "سلة المحذوفات" بدلاً من حذفها.</string>
     <string name="faq_6_title_commons">أختفت أيقونة مشغل التطبيق. ماذا يمكنني أن أفعل؟</string>
-    <string name="faq_6_text_commons">This issue arises when your launcher does not fully support icon customization. Attempt launching the app through Google Play or a widget, if accessible.
-        After launching, restore the default green icon color #106D1F. In extreme cases, reinstalling the app may be necessary.</string>
     <string name="faq_7_title_commons">تم خصم المال من حسابي البنكي ، لكن لا يمكنني تنزيل التطبيق. ماذا يمكنني أن أفعل؟</string>
     <string name="faq_7_text_commons">تتم معالجة المدفوعات بالكامل بواسطة Google ، حيث يتسبب نظامها في خلل من وقت لآخر. فقط قم بمسح ذاكرة التخزين المؤقت للتطبيق في Google Play وإعد تشغيل جهازك ، ثم أعد محاولة تنزيله.</string>
     <string name="faq_8_title_commons">لماذا يجب عليا الترقية إلى الإصدار البرو (Pro)?</string>
@@ -1140,106 +1030,41 @@
     <string name="faq_9_text_commons">هناك طرق متعددة للقيام بذلك. الأول هو بدء وضع التحديد عن طريق الضغط لفترة طويلة على عنصر واحد ، ثم النقر باختصار على العناصر الأخرى لتحديدها. الطريقة الثانية مشابهة لاختيار العناصر على أجهزة الكمبيوتر باستخدام الماوس ، فقط ابدأ وضع التحديد بالضغط مطولاً على عنصر واحد ، ثم مع استمرار إصبعك في السحب لأسفل عبر العناصر الأخرى للاختيار. الطريقة الثالثة لاختيار عدة عناصر هي الضغط لفترة طويلة على عنصر واحد ، ثم الضغط لفترة طويلة على عنصر آخر ويتم تحديد كل شيء بينهما. إذا كنت ترغب في تحديد جميع العناصر ، فما عليك سوى الضغط لفترة طويلة على عنصر واحد ، ثم النقر فوق عداد العناصر المحدد في الزاوية اليسرى العليا. سيؤدي ذلك إلى تحديد أو إلغاء تحديد كل شيء.</string>
     <string name="faq_10_title_commons">لقد اشتريت التطبيق ، لكن لا يمكنني تنزيله على جهاز آخر.</string>
     <string name="faq_10_text_commons">جرب محو ذاكرة التخزين المؤقت لتطبيق Google Play وإعادة تشغيل جهازك. إنه خلل في Google Play ، لا يرتبط حقا بالتطبيق نفسه.</string>
-    <!-- Contributors -->
     <string name="contributors">المساهمون</string>
     <string name="translation">الترجمة</string>
     <string name="development">التطوير</string>
-    <string name="other_help">Other help</string>
-    <string name="contributors_label">
-        <![CDATA[
-            This list contains everyone that noticeably helped any app within the Fossify suite, not only this one. Translations are handled by volunteers,
-            let us know if you want to help too. The guide to translating is at <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">this website</a>, or just contact us at <a href="mailto:hello@fossify.org">hello@fossify.org</a> if you have any questions.
-            Thanks to all contributors and other supporters!
-        ]]>
-    </string>
-    <string name="translation_arabic">Arabic</string>
-    <string name="translation_azerbaijani">Azerbaijani</string>
-    <string name="translation_bengali">Bengali</string>
-    <string name="translation_breton">Breton</string>
-    <string name="translation_bulgarian">Bulgarian</string>
-    <string name="translation_catalan">Catalan</string>
-    <string name="translation_czech">Czech</string>
-    <string name="translation_welsh">Welsh</string>
-    <string name="translation_danish">Danish</string>
-    <string name="translation_english">English</string>
-    <string name="translation_german">German</string>
-    <string name="translation_greek">Greek</string>
-    <string name="translation_spanish">Spanish</string>
-    <string name="translation_basque">Basque</string>
-    <string name="translation_persian">Persian</string>
-    <string name="translation_finnish">Finnish</string>
-    <string name="translation_french">French</string>
-    <string name="translation_galician">Galician</string>
-    <string name="translation_hindi">Hindi</string>
-    <string name="translation_croatian">Croatian</string>
-    <string name="translation_hungarian">Hungarian</string>
-    <string name="translation_indonesian">Indonesian</string>
-    <string name="translation_italian">Italian</string>
-    <string name="translation_hebrew">Hebrew</string>
-    <string name="translation_japanese">Japanese</string>
-    <string name="translation_korean">Korean</string>
-    <string name="translation_lithuanian">Lithuanian</string>
-    <string name="translation_nepali">Nepali</string>
-    <string name="translation_norwegian">Norwegian</string>
-    <string name="translation_dutch">Dutch</string>
-    <string name="translation_polish">Polish</string>
-    <string name="translation_portuguese">Portuguese</string>
-    <string name="translation_romanian">Romanian</string>
-    <string name="translation_russian">Russian</string>
-    <string name="translation_slovak">Slovak</string>
-    <string name="translation_slovenian">Slovenian</string>
-    <string name="translation_serbian">Serbian</string>
-    <string name="translation_swedish">Swedish</string>
-    <string name="translation_tamil">Tamil</string>
-    <string name="translation_turkish">Turkish</string>
-    <string name="translation_ukrainian">Ukrainian</string>
-    <string name="translation_vietnamese">Vietnamese</string>
-    <string name="translation_chinese_hk">Chinese (Hong Kong)</string>
-    <string name="translation_chinese_cn">Chinese (Simplified)</string>
-    <string name="translation_chinese_tw">Chinese (Traditional)</string>
-    <!-- Pro comparison (shown in the deprecated free apps) -->
     <string name="why_upgrade">احصل على الإصدار المحترف الآن!</string>
     <string name="why_upgrade_basic_version">أساسي</string>
-    <string name="why_upgrade_pro_version">Pro</string>
     <string name="why_upgrade_no_ads">لا إعلانات</string>
     <string name="why_upgrade_no_internet_access">لا يوجد اتصال بالإنترنت</string>
     <string name="why_upgrade_footer">ضمان استرداد الأموال بنسبة 100٪</string>
     <string name="why_upgrade_footer_one_time_payment">دفعة لمرة واحدة</string>
     <string name="why_upgrade_improved_design">تصميم مطور</string>
     <string name="why_upgrade_many_other_improvements">تحسينات أخرى كثيرة</string>
-    <!-- Gallery Pro -->
     <string name="why_upgrade_advanced_photo_editor">محرر متقدم للصور</string>
     <string name="why_upgrade_advanced_photo_video_editor">محرر صور وفيديو متقدم</string>
     <string name="why_upgrade_heic_support">دعم ملف HEIC / HEIF</string>
     <string name="why_upgrade_batch_renaming">إعادة تسمية ملف الدفعة المتقدمة</string>
     <string name="why_upgrade_folder_locking">تأمين المجلد الفردي</string>
     <string name="why_upgrade_printing_support">دعم الطباعة</string>
-    <!-- Calendar Pro -->
     <string name="why_upgrade_time_zone_support">دعم المنطقة الزمنية</string>
     <string name="why_upgrade_attendees_emails">الحضور وتذكيرات البريد الإلكتروني</string>
     <string name="why_upgrade_easy_event_importing">استيراد سهل للأحداث</string>
     <string name="why_upgrade_new_widgets">عناصر واجهة مستخدم جديدة</string>
-    <!-- Contacts Pro -->
     <string name="why_upgrade_duplicate_contact_merging">تحسين دمج جهات الاتصال المكررة</string>
     <string name="why_upgrade_font_size_customization">تخصيص حجم الخط</string>
     <string name="why_upgrade_private_contact_sharing">مشاركة جهات الاتصال الخاصة الاختيارية داخل تطبيقاتنا</string>
     <string name="why_upgrade_customizable_contact_ringtones">نغمات رنين جهات اتصال قابلة للتخصيص</string>
     <string name="why_upgrade_contact_filtering">تصفية جهات الاتصال</string>
     <string name="why_upgrade_contact_private_contacts">جهات الاتصال المخزنة بشكل خاص</string>
-    <!-- Notes Pro -->
     <string name="why_upgrade_checklists">القوائم</string>
     <string name="why_upgrade_different_note_per_widget">ملاحظة وألوان مختلفة لكل عنصر واجهة مستخدم</string>
     <string name="why_upgrade_note_locking">قفل الملاحظات</string>
-    <!-- File Manager Pro -->
     <string name="why_upgrade_date_and_time_format">تخصيص تنسيق التاريخ والوقت</string>
     <string name="why_upgrade_shortcuts">اختصارات الشاشة الرئيسية</string>
-    <string name="why_upgrade_file_compression">File compression support</string>
-    <string name="why_upgrade_recents_tab">Tab with recent files</string>
-    <!-- Draw Pro -->
     <string name="why_upgrade_background_color_customization">تخصيص لون الخلفية</string>
     <string name="why_upgrade_file_importing">دعم استيراد الملفات</string>
     <string name="why_upgrade_zooming">التكبير</string>
-    <!-- License -->
     <string name="notice">يستخدم هذا التطبيق مكتبات الجهات الخارجية التالية لتسهيل حياتي.شكراً.</string>
     <string name="third_party_licences">تراخيص الجهات الخارجية</string>
     <string name="kotlin_title">كوتلن(لغة البرمجة)</string>
@@ -1276,7 +1101,6 @@
     <string name="m3u_parser_title">محلل M3U (معالجة ملف قائمة التشغيل m3u)</string>
     <string name="android_lame_title">AndroidLame (برنامج ترميز mp3)</string>
     <string name="zip4j_title">Zip4j (ضغط ZIP وإلغاء الضغط)</string>
-    <!-- Trial -->
     <string name="trial_expired">انتهت صلاحية الإصدار التجريبي</string>
     <string name="start_free_trial">بدء الإصدار التجريبي المجاني</string>
     <string name="trial_expires_soon">تنتهي صلاحية الإصدار التجريبي قريبا.</string>
@@ -1300,9 +1124,7 @@
         <item quantity="many">تنتهي صلاحية الإصدار التجريبي في %d ايام.</item>
         <item quantity="other">تنتهي صلاحية الإصدار التجريبي في اليوم %d.</item>
     </plurals>
-    <!-- Google Play listing -->
     <string name="deprecated_app">لم يعد يجري العمل عليه: لم يعد هذا الإصدار من التطبيق يجري العمل عليه، قم بالحصول على الإصدار الـ Pro على https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">لا تنسى أنه إذا قمت بإلغاء تثبيت أي تطبيق مدفوع في غضون ساعتين ، فسيتم إسترداد أموالك تلقائياً. إذا كنت تريد إسترداد الأموال في أي وقت لاحق ، فأتصل بنا على hello@fossify.org وستحصل عليه. هذا يجعل من السهل تجربته :)</string>
-    <!-- Description of our developer profile on Google Play, it can have max 140 characters -->
     <string name="developer_description">مجموعة بسيطة، من تطبيقات أندرويد المفتوحة المصدر ذات الودجات القابلة للتخصيص، بدون إعلانات أو أذونات غير ضرورية.</string>
 </resources>

@@ -77,22 +77,17 @@
     <string name="updating">Обновяване…</string>
     <string name="phone_storage">Памет на устройството</string>
     <string name="phone_storage_hidden">Памет на устройството (без достъп от други приложения)</string>
-    <string name="audio">Audio</string>
     <string name="scanning">Сканиране…</string>
-    <!-- Events -->
     <string name="birthday">Рожден ден</string>
     <string name="anniversary">Годишнина</string>
-    <!-- Emails -->
     <string name="home">Начало</string>
     <string name="work">Работа</string>
-    <!-- Phone numbers -->
     <string name="mobile">Мобилен</string>
     <string name="main_number">Основен</string>
     <string name="work_fax">Работен факс</string>
     <string name="home_fax">Домашен факс</string>
     <string name="pager">Пейджър</string>
     <string name="no_phone_number_found">Не е намерен телефонен номер</string>
-    <!-- View types -->
     <string name="change_view_type">Промяна на изгледа</string>
     <string name="grid">Решетка</string>
     <string name="grid_pro">Решетка (Про)</string>
@@ -114,7 +109,6 @@
         <item quantity="one">%d ред</item>
         <item quantity="other">%d реда</item>
     </plurals>
-    <!-- Blocked numbers -->
     <string name="manage_blocked_numbers">Управление на блокирани номера</string>
     <string name="not_blocking_anyone">Не блокирате никого.</string>
     <string name="add_a_blocked_number">Добавяне на блокиран номер</string>
@@ -132,18 +126,10 @@
     <string name="block_hidden_messages">Блокиране на съобщения от скрити номера</string>
     <string name="add_blocked_number_helper_text">Въведете номер или шаблон (напр. *12345*, +1*8888), за да блокирате всички обаждания и съобщения от номера, съответстващи на шаблона.</string>
     <string name="must_make_default_caller_id_app">Не можете да блокирате непознати номера без разрешение за идентификация на обаждащия се.</string>
-    <string name="block_contact">Block contact</string>
-    <string name="block_contact_success">Contact blocked</string>
-    <string name="block_contact_fail">Contact could not be blocked</string>
-    <string name="unblock_contact">Unblock contact</string>
-    <string name="unblock_contact_success">Contact unblocked</string>
-    <string name="unblock_contact_fail">Contact could not be unblocked</string>
-    <!-- Favorites -->
     <string name="favorites">Любими</string>
     <string name="add_favorites">Добави любими</string>
     <string name="add_to_favorites">Добави към любимите</string>
     <string name="remove_from_favorites">Премахни от любимите</string>
-    <!-- Search -->
     <string name="search">Търсене</string>
     <string name="search_in_placeholder">Търси в %s</string>
     <string name="type_2_characters">Въведете поне 2 символа, за да започнете търсенето.</string>
@@ -165,12 +151,10 @@
     <string name="search_text">Търсене на текст</string>
     <string name="search_conversations">Търсене на разговори</string>
     <string name="search_recordings">Търсене на записи</string>
-    <!-- Filters -->
     <string name="filter">Филтър</string>
     <string name="filter_pro">Филтър (Про)</string>
     <string name="no_items_found">Няма намерени елементи.</string>
     <string name="change_filter">Промяна на филтър</string>
-    <!-- Permissions -->
     <string name="no_storage_permissions">Необходимо е разрешение за съхранение</string>
     <string name="no_contacts_permission">Необходимо е разрешение за контакти</string>
     <string name="no_camera_permissions">Необходимо е разрешение за камера</string>
@@ -185,11 +169,9 @@
     <string name="allow_full_screen_notifications_incoming_calls">Трябва да разрешите на приложението да показва известия на цял екран, в противен случай може да пропуснете някои входящи повиквания.</string>
     <string name="allow_notifications_incoming_messages">Трябва да разрешите на приложението да показва известия, в противен случай то не може да показва входящи съобщения.</string>
     <string name="allow_alarm_scheduled_messages">Трябва да разрешите на приложението достъп до вътрешни аларми, в противен случай то не може да изпраща планирани съобщения.</string>
-    <string name="allow_alarm_sleep_timer">You must allow the app accessing internal alarms, else it cannot turn off the application after sleep timer.</string>
     <string name="allow_location_permission">Трябва да разрешите на приложението достъп до вашето местоположение, в противен случай то няма да го знае.</string>
     <string name="grant_permission">Предоставяне на разрешение</string>
     <string name="permission_required">Изисква се разрешение</string>
-    <!-- Renaming -->
     <string name="rename_file">Преименуване на файл</string>
     <string name="rename_folder">Преименуване на папка</string>
     <string name="rename_file_error">Файлът не може да бъде преименуван</string>
@@ -220,7 +202,6 @@
     <string name="filename_without_json">Име на файл (без .json)</string>
     <string name="filename_without_zip">Име на файл (без .zip)</string>
     <string name="cannot_hide_files">От Android 11 нататък вече не можете да скривате файлове и папки по този начин</string>
-    <!-- Copy / Move -->
     <string name="copy">Копиране</string>
     <string name="move">Преместване</string>
     <string name="copy_move">Копиране / Преместване</string>
@@ -251,7 +232,6 @@
     <string name="no_space">Дестинацията няма достатъчно свободно място.
 \nНеобходимо %1$s, налично %2$s</string>
     <string name="system_service_disabled">Системната услуга за избор на файлове и папки не е налична</string>
-    <!-- Create new -->
     <string name="create_new">Създаване на нов</string>
     <string name="folder">Папка</string>
     <string name="file">Файл</string>
@@ -260,7 +240,6 @@
     <string name="invalid_name">Името съдържа непозволени знаци</string>
     <string name="empty_name">Моля, въведете име</string>
     <string name="unknown_error_occurred">Възникна неизвестна грешка</string>
-    <!-- File operation conflicts -->
     <string name="file_already_exists">Файл \"%s\" вече съществува</string>
     <string name="file_already_exists_overwrite">Файл \"%s\" вече съществува. Презаписване\?</string>
     <string name="folder_already_exists">Папка \"%s\" вече съществува</string>
@@ -275,7 +254,6 @@
     <string name="rename_in_sd_card_system_restriction">Системата не позволява преименуване в тази папка</string>
     <string name="rename_internal_system_restriction">Не може да се преименуват папки директно на вътрешно хранилище, само подпапки</string>
     <string name="cannot_rename_folder">Папката не може да бъде преименувана</string>
-    <!-- File picker -->
     <string name="select_folder">Избор на папка</string>
     <string name="select_file">Избор на файл</string>
     <string name="confirm_storage_access_title">Потвърдете достъпа до външно хранилище</string>
@@ -292,7 +270,6 @@
         <item quantity="one">%d елемент</item>
         <item quantity="other">%d елемента</item>
     </plurals>
-    <!-- Are you sure you want to delete 5 items? -->
     <plurals name="delete_items">
         <item quantity="one">%d елемент</item>
         <item quantity="other">%d елемента</item>
@@ -301,23 +278,19 @@
         <item quantity="one">Изтриване %d елемент</item>
         <item quantity="other">Изтриване %d елемента</item>
     </plurals>
-    <!-- Are you sure you want to delete 5 contacts? -->
     <plurals name="delete_contacts">
         <item quantity="one">%d контакт</item>
         <item quantity="other">%d контакта</item>
     </plurals>
-    <!-- Storages -->
     <string name="select_storage">Изберете хранилище</string>
     <string name="storage">Хранилище</string>
     <string name="internal">Вътрешно</string>
-    <string name="internal_storage">Internal Storage</string>
     <string name="sd_card">SD Карта</string>
     <string name="root">Ядро</string>
     <string name="wrong_root_selected">Избрана грешна папка, моля, изберете началната папка на вашата SD карта</string>
     <string name="sd_card_usb_same">Пътищата до SD картата и USB устройството не могат да бъдат еднакви</string>
     <string name="app_on_sd_card">Изглежда, че приложението е инсталирано на SD карта, което прави приспособленията за приложението недостъпни. Даже няма да ги видите в списъка на наличните приспособления. Това е ограничение на системата, така че ако искате да използвате приспособленията, трябва да преместите приложението обратно във вътрешното хранилище.</string>
     <string name="wrong_folder_selected">Избрана грешна папка, моля, изберете път \'%s\'</string>
-    <!-- File properties -->
     <string name="properties">Свойства</string>
     <string name="path">Път</string>
     <string name="items_selected">Избрани елементи</string>
@@ -327,20 +300,17 @@
     <string name="duration">Продължителност</string>
     <string name="artist">Артист</string>
     <string name="album">Албум</string>
-    <string name="genre">Genre</string>
     <string name="focal_length">Фокусно разстояние</string>
     <string name="exposure_time">Ереме на експозиция</string>
     <string name="iso_speed">ISO скорост</string>
     <string name="f_number">F-число</string>
     <string name="camera">Камера</string>
-    <string name="exif">EXIF</string>
     <string name="song_title">Заглавие на песен</string>
     <string name="gps_coordinates">Координати на GPS</string>
     <string name="altitude">Надморска височина</string>
     <string name="remove_exif">Премахване на EXIF</string>
     <string name="remove_exif_confirmation">Сигурни ли сте, че искате да премахнете EXIF стойностите като GPS координати, модел на камерата и т.н.\?</string>
     <string name="exif_removed">EXIF стойностите са остранени успешно</string>
-    <!-- Color customization -->
     <string name="background_color">Фонов цвят</string>
     <string name="text_color">Цвят на текст</string>
     <string name="primary_color">Основен цвят</string>
@@ -361,17 +331,7 @@
     <string name="undo_changes_confirmation">Сигурни ли сте, че искате да отмените промените\?</string>
     <string name="cannot_be_undone">Това действие не може да бъде отменено.</string>
     <string name="save_before_closing">Има незапазени промени. Запазване преди изход\?</string>
-    <string name="apply_to_all_apps">Apply colors to all Fossify Apps</string>
-    <string name="app_icon_color_warning">Caution: Certain launchers may not handle app icon customization correctly. If the icon disappears, attempt launching the app through Google Play or a widget, if accessible.
-        After launching, restore the default green icon color #106D1F. In extreme cases, reinstalling the app may be necessary.</string>
     <string name="share_colors_success">Цветовете се актуализираха успешно. Добавена е нова тема, наречена \'Споделена\', моля, използвайте нея за актуализиране на всички цветове на приложението в бъдеще.</string>
-    <string name="shared_theme_note">Note that even though you are using the Pro app version, you still need Fossify Thank You for technical reasons. It takes care of the color synchronization.</string>
-    <string name="purchase_thank_you">
-        <![CDATA[
-            Please purchase <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> to unlock this function and support the development. Thanks!
-        ]]>
-    </string>
-    <!-- Themes -->
     <string name="light_theme">Светло</string>
     <string name="dark_theme">Тъмно</string>
     <string name="auto_theme">Автоматичен</string>
@@ -383,10 +343,8 @@
     <string name="custom">Персонализиран</string>
     <string name="shared">Споделен</string>
     <string name="system_default">По подразбиране на Системата</string>
-    <!-- What's new -->
     <string name="whats_new">Какво ново</string>
     <string name="whats_new_disclaimer">* Тук са изброени само по-големите актуализации, винаги има и някои по -малки подобрения</string>
-    <!-- Actionbar items -->
     <string name="delete">Изтрий</string>
     <string name="remove">Премахни</string>
     <string name="rename">Преименувай</string>
@@ -401,7 +359,6 @@
     <string name="unhide_folder">Покажи папка</string>
     <string name="temporarily_show_hidden">Временно покажи скритото</string>
     <string name="stop_showing_hidden">Спри показвато на скритата медия</string>
-    <string name="allow_access_more_media">Allow access to more media</string>
     <string name="maximum_share_reached">Не може да се сподели това много съдържание наведнъж</string>
     <string name="empty_and_disable_recycle_bin">Изпразни и деактивирай кошчето</string>
     <string name="undo">Отмени</string>
@@ -423,14 +380,8 @@
     <string name="send_sms">Изпрати SMS</string>
     <string name="send_email">Изпрати емейл</string>
     <string name="call">Повикване</string>
-    <string name="contact_details">Contact details</string>
-    <string name="add_contact">Add contact</string>
     <string name="wallpapers">Тапети</string>
-    <string name="show_line_numbers">Show line numbers</string>
-    <string name="hide_line_numbers">Hide line numbers</string>
     <string name="sleep_timer">Таймер за заспиване</string>
-    <string name="unblock">Unblock</string>
-    <!-- Sorting -->
     <string name="sort_by">Сортиране по</string>
     <string name="name">Име</string>
     <string name="size">Размер</string>
@@ -453,14 +404,9 @@
     <string name="full_name">Цяло име</string>
     <string name="use_custom_sorting">Използвай персонализирано сортиране</string>
     <string name="change_order">Промяна на подредбата</string>
-    <string name="more_options">More options</string>
-    <!-- Confirmation dialog -->
     <string name="proceed_with_deletion">Сигурни ли си, че искаш да продължиш с изтриването\?</string>
     <string name="deletion_confirmation">Сигурен ли си, че искаш да изтриеш %s\?</string>
-    <string name="deletion_confirmation_short">Delete %s?</string>
-    <!-- Are you sure you want to delete 5 items? -->
     <string name="move_to_recycle_bin_confirmation">Сигурен ли си, че искаш да преместиш %s в кошчето\?</string>
-    <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
     <string name="are_you_sure_delete">Сигурен ли си, че искаш да изтриеш този елемент\?</string>
     <string name="are_you_sure_recycle_bin">Сигурен ли си, че искаш да преместиш този елемент в кошчето\?</string>
     <string name="do_not_ask_again">Не питай отново в тази сесия</string>
@@ -472,13 +418,10 @@
         <item quantity="one">ВНИМАНИЕ: Изтриване на %d папка</item>
         <item quantity="other">ВНИМАНИЕ: Изтриване на %d папки</item>
     </plurals>
-    <!-- Password protection -->
     <string name="pin">ПИН</string>
     <string name="enter_pin">Въведи ПИН</string>
     <string name="please_enter_pin">Моля, въведете ПИН</string>
     <string name="wrong_pin">Грешен ПИН</string>
-    <string name="pin_must_be_4_digits_long">PIN must be at least 4 digits long</string>
-    <string name="too_many_incorrect_attempts">Too many incorrect unlock attempts.\nTry again in %d seconds.</string>
     <string name="repeat_pin">Повтори ПИН</string>
     <string name="pattern">Шаблон</string>
     <string name="insert_pattern">Въведи шаблон</string>
@@ -500,13 +443,9 @@
     <string name="lock_folder_pro">Заключи папка (Про)</string>
     <string name="unlock_folder">Отключи папка</string>
     <string name="lock_folder_notice">Тази защита работи само в това приложение, не е предвидена да замества реално систено криптиране на папките в цялата система.</string>
-    <string name="enter_password">Enter password</string>
-    <string name="password">Password</string>
-    <string name="add_password">Add password</string>
     <string name="empty_password_new">Моля, въведете парола</string>
     <string name="empty_password">Моля, въведете паролата</string>
     <string name="invalid_password">Грешна парола</string>
-    <!-- Times -->
     <string name="yesterday">Вчера</string>
     <string name="today">Днес</string>
     <string name="tomorrow">Утре</string>
@@ -519,7 +458,6 @@
     <string name="seconds_letter">с</string>
     <string name="minutes_letter">м</string>
     <string name="hours_letter">ч</string>
-    <string name="week_number_short">wk.</string>
     <plurals name="seconds">
         <item quantity="one">%d секунда</item>
         <item quantity="other">%d секунди</item>
@@ -548,7 +486,6 @@
         <item quantity="one">%d година</item>
         <item quantity="other">%d години</item>
     </plurals>
-    <!-- For example: I will be there in 5 minutes -->
     <plurals name="in_seconds">
         <item quantity="one">%d секунда</item>
         <item quantity="other">%d секунди</item>
@@ -577,7 +514,6 @@
         <item quantity="one">%d година</item>
         <item quantity="other">%d години</item>
     </plurals>
-    <!-- For example: Event reminder: 3 minutes before -->
     <plurals name="seconds_before">
         <item quantity="one">%d секунда преди</item>
         <item quantity="other">%d секунди преди</item>
@@ -606,7 +542,6 @@
         <item quantity="one">%d година преди</item>
         <item quantity="other">%d години преди</item>
     </plurals>
-    <!-- For example: Postpone reminder by 3 minutes -->
     <plurals name="by_seconds">
         <item quantity="one">%d секунда</item>
         <item quantity="other">%d секунди</item>
@@ -635,7 +570,6 @@
         <item quantity="one">%d година</item>
         <item quantity="other">%d години</item>
     </plurals>
-    <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
     <string name="alarm_goes_off_in">Останалото време, докато алармата спре:
 \n%s</string>
     <string name="reminder_triggers_in">Време остава до задействане на напомнянето:
@@ -645,7 +579,6 @@
     <string name="alarm_warning">Моля, уверете се, че алармата работи правилно, преди да разчитате на нея. Тя може да се държи неправилно поради системните ограничения, свързани с спестяването на батерията.</string>
     <string name="reminder_warning">Моля, уверете се, че напомнянията работят правилно, преди да разчитате на тях. Проверете настройките на батерията и известието на вашето устройство, ако няма нищо блокиращо напомнянията или убиване на приложението на заден план.</string>
     <string name="notifications_disabled">Известията на това приложение са деактивирани. Моля, влезте в настройките на вашето устройство, за да ги активирате.</string>
-    <!-- Alarms -->
     <string name="alarm">Аларма</string>
     <string name="snooze">Отлагане</string>
     <string name="dismiss">Отхвърляне</string>
@@ -657,18 +590,14 @@
     <string name="no_sound">Без звук</string>
     <string name="during_day_at_hh_mm">През деня в чч:мм</string>
     <string name="during_day_at">През деня в %02d:%02d</string>
-    <!-- Settings -->
     <string name="settings">Настройки</string>
-    <string name="purchase_simple_thank_you">Purchase Fossify Thank You</string>
     <string name="general_settings">Общ</string>
     <string name="color_customization">Персонализиране на цвета</string>
-    <string name="improved_color_customization">Improved color customization</string>
     <string name="customize_colors">Персонализирай цветовете</string>
     <string name="customize_colors_locked">Персонализирай цветовете (Заключено)</string>
     <string name="feature_locked">Заключено</string>
     <string name="customize_widget_colors">Персонализирайте цветовете на приспособлението</string>
     <string name="customize_notifications">Персонализирай известията</string>
-    <string name="notification_sound">Notification sound</string>
     <string name="use_english_language">Използвай английски език</string>
     <string name="language">Език</string>
     <string name="show_hidden_items">Покажи скритите елементи</string>
@@ -704,7 +633,6 @@
     <string name="start_name_with_surname">Започнете името с фамилията</string>
     <string name="clear_cache">Изтрий кеш-памет</string>
     <string name="show_call_confirmation_dialog">Показване на диалогов прозорец за потвърждение на повикване преди започване на повикване</string>
-    <!-- Setting sections -->
     <string name="visibility">Видимост</string>
     <string name="security">Сигурност</string>
     <string name="scrolling">Превъртане</string>
@@ -718,7 +646,6 @@
     <string name="main_screen">Начален екран</string>
     <string name="thumbnails">Миниатюри</string>
     <string name="list_view">Изглед на списък</string>
-    <!-- Excluding -->
     <string name="exclude">Изключение</string>
     <string name="exclude_folder">Изключване на папка</string>
     <string name="excluded_folders">Изключени папки</string>
@@ -728,7 +655,6 @@
     <string name="remove_all_description">Премахване на всички папки от списъка с изключените\? Това няма да изтрие папките.</string>
     <string name="temporarily_show_excluded">Временно показване на изключени</string>
     <string name="stop_showing_excluded">Стоп показване на изключени</string>
-    <!-- Default tab to open -->
     <string name="manage_shown_tabs">Управление на показаните раздели</string>
     <string name="default_tab_to_open">Раздел за отваряне при стартиране на приложението</string>
     <string name="contacts_tab">Контакти</string>
@@ -738,7 +664,6 @@
     <string name="last_used_tab">Последно използван</string>
     <string name="files_tab">Файлове</string>
     <string name="recent_files_tab">Последни файлове</string>
-    <!-- Recycle Bin -->
     <string name="restore_this_file">Възстанови този файл</string>
     <string name="restore_selected_files">Възстанови избраните файлове</string>
     <string name="restore_all_files">Възстанови всички файлове</string>
@@ -755,7 +680,6 @@
         <item quantity="one">Преместване на %d елемент в Kошчето</item>
         <item quantity="other">Преместване на %d елементa в Kошчето</item>
     </plurals>
-    <!-- Import / Export -->
     <string name="importing">Импортиране…</string>
     <string name="exporting">Експортиране…</string>
     <string name="importing_successful">Успешно импортиране</string>
@@ -778,12 +702,9 @@
 \n%h - час
 \n%m - минута
 \n%s - секунда</string>
-    <!-- OTG devices -->
-    <string name="usb">USB</string>
     <string name="usb_detected">Изглежда имате USB устройство, прикачено към вашето устройство. За да сте сигурни, че неговите файлове се появяват правилно, трябва да предоставите допълнителни разрешения.</string>
     <string name="confirm_usb_storage_access_text">Моля, изберете най-горната папка от USB устройството на следващия екран, за да предоставите достъп</string>
     <string name="wrong_root_selected_usb">Избрана грешна папка, моля, изберете началната папка на вашето USB устройство</string>
-    <!-- Dates -->
     <string name="january">Януари</string>
     <string name="february">Февруари</string>
     <string name="march">Март</string>
@@ -796,7 +717,6 @@
     <string name="october">Октомври</string>
     <string name="november">Ноември</string>
     <string name="december">Декември</string>
-    <!-- Short months -->
     <string name="january_short">Ян</string>
     <string name="february_short">Февр</string>
     <string name="march_short">Март</string>
@@ -809,7 +729,6 @@
     <string name="october_short">Окт</string>
     <string name="november_short">Ноем</string>
     <string name="december_short">Дек</string>
-    <!-- in January -->
     <string name="in_january">през Януари</string>
     <string name="in_february">през Февруари</string>
     <string name="in_march">през Март</string>
@@ -843,25 +762,17 @@
     <string name="friday_short">Пт</string>
     <string name="saturday_short">Сб</string>
     <string name="sunday_short">Нд</string>
-    <!-- Pro version -->
     <string name="upgrade_to_pro_long">Версията на приложението ви вече няма да се актуализира. Моля, надстройте до Pro версията, за да получите нови поправки и други подобрения.</string>
     <string name="upgrade_to_pro_long_click">Версията на приложението ви вече няма да се актуализира. Моля, надстройте до Pro версията, за да получите нови корекции и други подобрения, като кликнете тук.</string>
     <string name="it_is_free">Той е безплатен до: %s. Ако го изтеглите дотогава, ще можете да го използвате безплатно завинаги.</string>
     <string name="more_info">Подробности</string>
     <string name="upgrade">Обновяване</string>
     <string name="upgrade_calendar">Трябва да мигрирате локално съхранените събития ръчно чрез експортиране в .ics файл, след което да импортирате. Можете да намерите и двата бутона за експортиране/импортиране в главното меню.</string>
-    <string name="upgraded_from_free_gallery">Hello,\n\nseems like you just upgraded from the free version. Once you are happy with this one and maybe migrated your settings and favorites over, you can uninstall the old free one to avoid launching it accidentally as you will not need it anymore.\n\nThanks!</string>
     <string name="upgraded_to_pro_gallery">Здравейте,
 \n
 \nизглежда, че вече имате и Pro версията на приложението. След като сте доволни от него и мигрирате вашите настройки и любими, можете да го деинсталирате, за да избегнете случайното му стартиране, тъй като вече няма да ви трябва.
 \n
 \nБлагодаря!</string>
-    <string name="upgraded_from_free">Hello,\n\nseems like you just upgraded from the free version. Once you are happy with this one and maybe migrated your data over, you can uninstall the old free one to avoid launching it accidentally as you will not need it anymore.\n\nThanks!</string>
-    <string name="upgraded_to_pro">Hello,\n\nseems like you already have the Pro app version too. Once you are happy with it and maybe migrated your data over, you can uninstall this one to avoid launching it accidentally as you will not need it anymore.\n\nThanks!</string>
-    <string name="upgraded_from_free_calendar">Hello,\n\nseems like you just upgraded from the free version. If you want to migrate your locally stored events over, you have to do it manually by exporting them into an .ics file in the free app version and importing here through the top menu. \n\nOnce you are satisfied with your setup in the Pro version, you can uninstall the old free one as you won\'t need it anymore.\n\nThanks!</string>
-    <string name="upgraded_from_free_contacts">Hello,\n\nseems like you just upgraded from the free version. If you had any contacts stored under \"%s\", you have to migrate them manually by exporting in a .vcf file from the free app version and importing here through the top menu.\n\nOnce you are satisfied with your setup in the Pro version, you can uninstall the old free one as you won\'t need it anymore.\n\nThanks!</string>
-    <string name="upgraded_from_free_notes">Hello,\n\nseems like you just upgraded from the free version. If you want to migrate your notes over, you have to do it manually by exporting them into a file in the free app version and importing here through the top menu. \n\nOnce you are satisfied with your setup in the Pro version, you can uninstall the old free one as you won\'t need it anymore.\n\nThanks!</string>
-    <!-- About -->
     <string name="about">Относно</string>
     <string name="website">Уеб Страница</string>
     <string name="website_label">За програмения код посетете</string>
@@ -883,23 +794,12 @@
     <string name="social">Социални</string>
     <string name="other">Други</string>
     <string name="privacy_policy">Политика за поверителност</string>
-    <string name="version_placeholder">Version %s</string>
     <string name="hello">Здравейте :)</string>
     <string name="about_footer">Направено с ❤️ в Словакия</string>
     <string name="additional_info">Допълнителна информация</string>
     <string name="app_version">Версия на приложението: %s</string>
     <string name="device_os">ОС на устройството: %s</string>
-    <string name="donate_please">
-        <![CDATA[
-            Hello,<br><br>
-            hope you are enjoying the app. It contains no ads, please support its development by purchasing the <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> app, it will also prevent this dialog from showing up again.<br><br>
-            Thank you!
-        ]]>
-    </string>
-    <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
-    <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
     <string name="purchase">Купи</string>
-    <string name="update_thank_you">Please update Fossify Thank You to the latest version</string>
     <string name="before_asking_question_read_faq">Преди да зададете въпрос, моля, проверете настройките на приложението и първо прочетете често задаваните въпроси. Може би решението може да бъде намерено там.</string>
     <string name="before_rate_read_faq">Преди да ни оцените, моля, проверете настройките на приложението и първо прочетете често задаваните въпроси. Ако имате някакви проблеми, може би решението може да бъде намерено там.</string>
     <string name="make_sure_latest">Също така се уверете, че използвате най-новата версия на приложението.</string>
@@ -919,19 +819,6 @@
     <string name="thank_you">Благодаря Ви</string>
     <string name="widget_locked_pro">Приспособлението е заключено.
 \nМоля, надстройте до Про версията, за да я отключите.</string>
-    <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>
-    <!-- New app (do not translate anything on the 4th line) -->
-    <string name="new_app">
-        <![CDATA[
-            Hey,<br><br>
-            just letting you know that some new apps have been released recently:<br><br>
-            <a href="%1$s">%2$s</a><br><br>
-            <a href="%3$s">%4$s</a><br><br>
-            <a href="%5$s">%6$s</a><br><br>
-            You can download them by pressing their titles or icons.<br><br>
-            Thanks
-        ]]>
-    </string>
     <string name="app_launcher_short">Начален Екран</string>
     <string name="calculator_short">Калкулатор</string>
     <string name="calendar_short">Календар</string>
@@ -951,18 +838,11 @@
     <string name="thank_you_short">Благодаря</string>
     <string name="voice_recorder_short">Диктофон</string>
     <string name="sideloaded_app">Изглежда, че версията на приложението ви е повредена. Моля, изтеглете оригиналната версия &lt;a href=%s&gt;тук&lt;/a&gt;.</string>
-    <!-- FAQ -->
     <string name="frequently_asked_questions">Често задавани въпроси</string>
     <string name="before_asking_question">Преди да зададете въпрос, моля, първо прочетете</string>
     <string name="faq_1_title_commons">Как така не виждам това приспособление за приложения в списъка с приспособления\?</string>
     <string name="faq_1_text_commons">Най -вероятно е, защото сте преместили приложението на SD картата. В този случай има ограничение на Android системата, което крие дадените приспособления за приложенията. Единственото решение е да преместите приложението обратно във вътрешното хранилище чрез настройките на вашето устройство.</string>
     <string name="faq_2_title_commons">Искам да Ви подкрепя, но не мога да даря пари. Има ли нещо друго, което мога да направя\?</string>
-    <string name="faq_2_text_commons">
-        <![CDATA[
-            Yes, of course. You can spread the word about the apps or give good feedback and ratings. You can also help by translating the apps in a new language, or just update some existing translations.
-            The guide to translating is at <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">this website</a>, or just contact us at <a href="mailto:hello@fossify.org">hello@fossify.org</a> if you have any questions.
-        ]]>
-    </string>
     <string name="faq_3_title_commons">Изтрих някои файлове по погрешка, как мога да ги възстановя\?</string>
     <string name="faq_3_text_commons">За съжаление не можете. Файловете се изтриват незабавно след диалоговия прозорец за потвърждение, няма наличено копие в кошчето.</string>
     <string name="faq_4_title_commons">Не харесвам цветовете на приспособленията, мога ли да ги променя\?</string>
@@ -970,35 +850,21 @@
     <string name="faq_5_title_commons">Мога ли по някакъв начин да възстановя изтритите файлове\?</string>
     <string name="faq_5_text_commons">Ако те наистина са изтрити, не можете. Въпреки това, по подразбиране има активирано кошче, то ще доведе до това, че файловете просто се преместват в кошчето, вместо да бъдат изтрити.</string>
     <string name="faq_6_title_commons">Иконата за стартиране на приложението изчезна. Какво мога да направя\?</string>
-    <string name="faq_6_text_commons">This issue arises when your launcher does not fully support icon customization. Attempt launching the app through Google Play or a widget, if accessible.
-        After launching, restore the default green icon color #106D1F. In extreme cases, reinstalling the app may be necessary.</string>
     <string name="faq_7_title_commons">Парите са приспаднати от банковата ми сметка, но не мога да изтегля приложението. Какво мога да направя\?</string>
     <string name="faq_7_text_commons">Плащанията се обработват изцяло от Google, системната им има гличове от време на време. Просто изчистете кеша на приложението Google Play и рестартирайте устройството си, след което отново го изтегляте.</string>
     <string name="faq_8_title_commons">Защо трябва да обновя до Про версията\?</string>
     <string name="faq_8_text_commons">Тъй като версията на приложението ви вече не се актуализира, грешките, които сте забелязали, никога няма да бъдат поправени. Няма да се добавят и нови функции. Можете да закупите Pro версията в Google Play за малка сума пари. Това е еднократно плащане, което означава, че след като го закупите, никога няма да се налага да плащате отново. Дори и след получаване на ново устройство. Ако няма да ви хареса Pro версията, можете просто да я деинсталирате в рамките на няколко часа и автоматично ще си върнете парите. Ако искате възстановяване на сумата по -късно, просто се свържете с нас на hello@fossify.org и ще го получите.</string>
     <string name="faq_9_title_commons">Как мога да избера няколко елемента наведнъж\?</string>
-    <string name="faq_9_text_commons">There are multiple ways of doing that. The first one is starting the selection mode by long pressing one item, then short clicking on others to select them. The second way is similar to selecting items on PCs with a mouse,
-        just start the selection mode by long pressing one item, then with your finger still down drag it across other items for selecting. The third way of selecting multiple items is long pressing one item, then long pressing another one and everything in between gets selected. If you
-        want to select all items, just long press one item, then click at the selected item counter at the top left corner. That will select or unselect all everything.</string>
     <string name="faq_10_title_commons">Закупих приложението, но не мога да го изтегля на друго устройство.</string>
     <string name="faq_10_text_commons">Опитай да изчистиш кеша на Google Play приложението и да рестартираш устройството. Това е някакъв проблем с Google Play, който всъщност не е свързан със самото приложение.</string>
-    <!-- Contributors -->
     <string name="contributors">Доброволци</string>
     <string name="translation">Превод</string>
     <string name="development">Разработка</string>
     <string name="other_help">Друга помощ</string>
-    <string name="contributors_label">
-        <![CDATA[
-            This list contains everyone that noticeably helped any app within the Fossify suite, not only this one. Translations are handled by volunteers,
-            let us know if you want to help too. The guide to translating is at <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">this website</a>, or just contact us at <a href="mailto:hello@fossify.org">hello@fossify.org</a> if you have any questions.
-            Thanks to all contributors and other supporters!
-        ]]>
-    </string>
     <string name="translation_arabic">Арабски</string>
     <string name="translation_azerbaijani">Азербайджански</string>
     <string name="translation_bengali">Бенгалски</string>
     <string name="translation_breton">Бретански</string>
-    <string name="translation_bulgarian">Bulgarian</string>
     <string name="translation_catalan">Каталонски</string>
     <string name="translation_czech">Чешки</string>
     <string name="translation_welsh">Уелски</string>
@@ -1039,7 +905,6 @@
     <string name="translation_chinese_hk">Китайски (Хонконг)</string>
     <string name="translation_chinese_cn">Китайски (Опростен)</string>
     <string name="translation_chinese_tw">Китайски (Традиционен)</string>
-    <!-- Pro comparison (shown in the deprecated free apps) -->
     <string name="why_upgrade">Вземете Про версията сега!</string>
     <string name="why_upgrade_basic_version">Основен</string>
     <string name="why_upgrade_pro_version">Про</string>
@@ -1048,92 +913,27 @@
     <string name="why_upgrade_footer">100% гаранция за връщане на парите</string>
     <string name="why_upgrade_footer_one_time_payment">Еднократно плащане</string>
     <string name="why_upgrade_improved_design">Подобрен дизайн</string>
-    <string name="why_upgrade_many_other_improvements">Many other improvements</string>
-    <!-- Gallery Pro -->
     <string name="why_upgrade_advanced_photo_editor">Редактор на снимки за напреднали</string>
-    <string name="why_upgrade_advanced_photo_video_editor">Advanced photo &amp; video editor</string>
     <string name="why_upgrade_heic_support">Поддръжка на HEIC/HEIF файлове</string>
     <string name="why_upgrade_batch_renaming">Групово преименуване на файлове за напреднали</string>
     <string name="why_upgrade_folder_locking">Индивидуално заключване на папките</string>
     <string name="why_upgrade_printing_support">Поддръжка за печат</string>
-    <!-- Calendar Pro -->
     <string name="why_upgrade_time_zone_support">Поддръжка на часовати зони</string>
     <string name="why_upgrade_attendees_emails">Участници и напомняния по имейл</string>
     <string name="why_upgrade_easy_event_importing">Лесно импортиране на събития</string>
     <string name="why_upgrade_new_widgets">Нови приспособления</string>
-    <!-- Contacts Pro -->
     <string name="why_upgrade_duplicate_contact_merging">Подобрено сливане на дублирани контакти</string>
     <string name="why_upgrade_font_size_customization">Персонализиране на размера на шрифта</string>
-    <string name="why_upgrade_private_contact_sharing">Optional private contact sharing within our apps</string>
     <string name="why_upgrade_customizable_contact_ringtones">Персонализирани мелодии за контакт</string>
     <string name="why_upgrade_contact_filtering">Филтриране на контактите</string>
-    <string name="why_upgrade_contact_private_contacts">Privately stored contacts</string>
-    <!-- Notes Pro -->
-    <string name="why_upgrade_checklists">Checklists</string>
     <string name="why_upgrade_different_note_per_widget">Различна бележка и цветове за всяко приспособление</string>
-    <string name="why_upgrade_note_locking">Note locking</string>
-    <!-- File Manager Pro -->
-    <string name="why_upgrade_date_and_time_format">Date and time format customization</string>
-    <string name="why_upgrade_shortcuts">Home screen shortcuts</string>
     <string name="why_upgrade_file_compression">Поддръжка за компресиране на файлове</string>
     <string name="why_upgrade_recents_tab">Раздел със скорошни файлове</string>
-    <!-- Draw Pro -->
-    <string name="why_upgrade_background_color_customization">Background color customization</string>
     <string name="why_upgrade_file_importing">Поддръжка за импортиране на файлове</string>
     <string name="why_upgrade_zooming">Мащабиране</string>
-    <!-- License -->
     <string name="notice">Това приложение използва следните библиотеки от трети страни, за да улесни живота ми. Благодаря.</string>
     <string name="third_party_licences">Лицензи на трети страни</string>
-    <string name="kotlin_title">Kotlin (programming language)</string>
-    <string name="subsampling_title">Subsampling Scale Image View (zoomable imageviews)</string>
-    <string name="glide_title">Glide (image loading and caching)</string>
-    <string name="picasso_title">Picasso (image loading and caching)</string>
-    <string name="cropper_title">Android Image Cropper (image crop and rotate)</string>
-    <string name="rtl_viewpager_title">RtlViewPager (right to left swiping)</string>
-    <string name="joda_title">Joda-Time (Java date replacement)</string>
-    <string name="stetho_title">Stetho (debugging databases)</string>
-    <string name="otto_title">Otto (event bus)</string>
-    <string name="photoview_title">PhotoView (zoomable GIFs)</string>
-    <string name="pattern_title">PatternLockView (pattern protection)</string>
-    <string name="reprint_title">Reprint (fingerprint protection)</string>
-    <string name="gif_drawable_title">Gif Drawable (loading GIFs)</string>
-    <string name="autofittextview_title">AutoFitTextView (resizing text)</string>
-    <string name="robolectric_title">Robolectric (testing framework)</string>
-    <string name="espresso_title">Espresso (testing helper)</string>
-    <string name="gson_title">Gson (JSON parser)</string>
-    <string name="leak_canary_title">Leak Canary (memory leak detector)</string>
-    <string name="number_picker_title">Number Picker (customizable number picker)</string>
-    <string name="exoplayer_title">ExoPlayer (video player)</string>
-    <string name="panorama_view_title">VR Panorama View (displaying panoramas)</string>
-    <string name="sanselan_title">Apache Sanselan (reading image metadata)</string>
-    <string name="filters_title">Android Photo Filters (image filters)</string>
-    <string name="gesture_views_title">Gesture Views (zoomable images)</string>
-    <string name="indicator_fast_scroll_title">Indicator Fast Scroll (letters on scrollbar)</string>
-    <string name="event_bus_title">Event Bus (communication within the app)</string>
-    <string name="audio_record_view_title">Audio Record View (audio visualization)</string>
-    <string name="sms_mms_title">SMS MMS (SMS and MMS handling)</string>
-    <string name="apng_title">APNG Android (animated WebP support)</string>
-    <string name="pdf_view_pager_title">PDFViewPager (PDF viewer)</string>
-    <string name="pdf_viewer_title">Android PdfViewer (PDF viewer)</string>
-    <string name="m3u_parser_title">M3U Parser (m3u playlist file handling)</string>
-    <string name="android_lame_title">AndroidLame (mp3 encoder)</string>
-    <string name="zip4j_title">Zip4j (ZIP compression and decompression)</string>
-    <!-- Trial -->
-    <string name="trial_expired">Trial expired</string>
-    <string name="start_free_trial">Start free trial</string>
-    <string name="trial_expires_soon">Your trial expires soon.</string>
-    <string name="unlock_for_one_final_day">Unlock the app for one final day</string>
     <string name="welcome_to_app_name">Добре дошли в %s!</string>
-    <string name="trial_start_description">Thank you for using our app. You can use this unlocked version for &lt;font color=\'#FFFFFF\'&gt;%d days&lt;/font&gt;. Once the trial ends, please consider upgrading to the Pro version. It has a huge amount of new features, modern design, no ads and many other improvements.
-        \n\nYou just have to pay for it once in a lifetime and if you won\'t be satisfied, you can uninstall it and get a refund.\n\nHope you\'ll like it :)</string>
-    <string name="trial_end_description">Please upgrade to the Pro version to enjoy the app to the fullest.\n\nYou just have to pay for it once in a lifetime and if you won\'t be satisfied, you can uninstall it and get a refund.\n\nSee you there :)</string>
-    <plurals name="trial_expires_days">
-        <item quantity="one">Your trial expires in %d day.</item>
-        <item quantity="other">Your trial expires in %d days.</item>
-    </plurals>
-    <!-- Google Play listing -->
-    <string name="deprecated_app">DEPRECATED: This version of the app is no longer maintained, get the Pro version at https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">Не забравяйте, че ако деинсталирате всяко платено приложение в рамките на 2 часа, автоматично ще бъде възстановена сумата. Ако искате възстановяване на сумата по всяко време по -късно, просто се свържете с нас на hello@fossify.org и ще го получите. Това улеснява изпробването :)</string>
-    <!-- Description of our developer profile on Google Play, it can have max 140 characters -->
     <string name="developer_description">Група обикновени приложения с отворен код за Android с гъвкави приспособления, без реклами и ненужни разрешения.</string>
 </resources>

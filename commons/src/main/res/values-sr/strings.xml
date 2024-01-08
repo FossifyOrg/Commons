@@ -2,7 +2,6 @@
 <resources>
     <string name="ok">Одобри</string>
     <string name="cancel">Поништи</string>
-    <string name="close">Close</string>
     <string name="back">Назад</string>
     <string name="nothing">Ништа</string>
     <string name="later">Касније</string>
@@ -11,7 +10,6 @@
     <string name="invalid_file_format">Нетачан формат датотеке</string>
     <string name="out_of_memory_error">Недовољно меморије - грешка</string>
     <string name="an_error_occurred">Дошло је до грешке: %s</string>
-    <string name="error">Error: %s</string>
     <string name="open_with">Отвори са</string>
     <string name="edit_with">Измени са</string>
     <string name="edit">Уредити</string>
@@ -37,19 +35,16 @@
     <string name="select_a_different_color">Изабери другу боју</string>
     <string name="download">Преузимање</string>
     <string name="notification">Обавештење</string>
-    <string name="notifications">Notifications</string>
     <string name="email">Е-пошта</string>
     <string name="previous">Претходна</string>
     <string name="playpause">Пусти / Пауза</string>
     <string name="next">Следећи</string>
-    <string name="number">Number</string>
     <string name="no_contacts_found">Није пронађен ниједан контакт</string>
     <string name="request_the_required_permissions">Затражите потребне дозволе</string>
     <string name="no_access_to_contacts">Апликација није могла да приступи вашим контактима</string>
     <string name="no_phone_call_permission">Апликација нема дозволу за иницирање телефонских позива, одобрите је у подешавањима уређаја</string>
     <string name="insert_text_here">Уметните текст овде</string>
     <string name="call_person">Позив %s</string>
-    <string name="confirm_calling_person">Confirm calling %s</string>
     <string name="zero">Нула</string>
     <string name="one">Једно</string>
     <string name="two">Два</string>
@@ -76,22 +71,16 @@
     <string name="updating">Ажурирање…</string>
     <string name="phone_storage">Меморија телефона</string>
     <string name="phone_storage_hidden">Складиште телефона (није видљиво другим апликацијама)</string>
-    <string name="audio">Audio</string>
-    <string name="scanning">Scanning…</string>
-    <!-- Events -->
     <string name="birthday">Рођендан</string>
     <string name="anniversary">Годишњица</string>
-    <!-- Emails -->
     <string name="home">Кућа</string>
     <string name="work">Рад</string>
-    <!-- Phone numbers -->
     <string name="mobile">Мобилни</string>
     <string name="main_number">Главни</string>
     <string name="work_fax">Радни факс</string>
     <string name="home_fax">Кућни факс</string>
     <string name="pager">Позивник</string>
     <string name="no_phone_number_found">Број телефона није пронађен</string>
-    <!-- View types -->
     <string name="change_view_type">Промени тип прегледа</string>
     <string name="grid">Мрежа</string>
     <string name="grid_pro">Мрежа (Pro)</string>
@@ -100,7 +89,6 @@
     <string name="increase_column_count">Повећај број колона</string>
     <string name="reduce_column_count">Смањи број колона</string>
     <string name="column_count">Број колона</string>
-    <string name="row_count">Row count</string>
     <string name="portrait_column_count">Портретни број колона</string>
     <string name="landscape_column_count">Пејзажни број колона</string>
     <string name="change_cover_image">Промени насловну слику</string>
@@ -115,7 +103,6 @@
         <item quantity="few">%d реда</item>
         <item quantity="other">%d редова</item>
     </plurals>
-    <!-- Blocked numbers -->
     <string name="manage_blocked_numbers">Управљајте блокираним бројевима</string>
     <string name="not_blocking_anyone">Не блокирате никога.</string>
     <string name="add_a_blocked_number">Додајте блокирани број</string>
@@ -125,7 +112,6 @@
     <string name="export_blocked_numbers">Извезите блокиране бројеве</string>
     <string name="import_blocked_numbers">Увезите блокиране бројеве</string>
     <string name="must_make_default_dialer">Морате да подесите ову апликацију као подразумевану апликацију за бирање бројева да бисте користили блокиране бројеве.</string>
-    <string name="set_as_default">Set as default</string>
     <string name="block_confirmation">Да ли сте сигурни да желите да блокирате \"%s\"\?</string>
     <string name="block_not_stored_calls">Блокирајте позиве из несачуваних контаката</string>
     <string name="block_hidden_calls">Блокирај позиве са скривених бројева</string>
@@ -133,64 +119,22 @@
     <string name="block_hidden_messages">Блокирај поруке са скривених бројева</string>
     <string name="add_blocked_number_helper_text">Унесите број или образац (нпр. *12345*, +1*8888) да бисте блокирали све позиве и поруке са бројева који одговарају шаблону.</string>
     <string name="must_make_default_caller_id_app">Не могу блокирати непознате бројеве без дозволе ИД позиваоца.</string>
-    <string name="block_contact">Block contact</string>
     <string name="block_contact_success">Контакт је блокиран</string>
-    <string name="block_contact_fail">Contact could not be blocked</string>
-    <string name="unblock_contact">Unblock contact</string>
-    <string name="unblock_contact_success">Contact unblocked</string>
-    <string name="unblock_contact_fail">Contact could not be unblocked</string>
-    <!-- Favorites -->
     <string name="favorites">Омиљено</string>
     <string name="add_favorites">Додај омиљене</string>
     <string name="add_to_favorites">Додај у омиљене</string>
     <string name="remove_from_favorites">Уклони из омиљених</string>
-    <!-- Search -->
     <string name="search">Претрага</string>
-    <string name="search_in_placeholder">Search in %s</string>
     <string name="type_2_characters">Укуцај најмање 2 карактера да стартујеш претрагу.</string>
-    <string name="show_search">Show a search bar</string>
-    <string name="search_contacts">Search contacts</string>
-    <string name="search_favorites">Search favorites</string>
-    <string name="search_apps">Search apps</string>
-    <string name="search_events">Search events</string>
-    <string name="search_groups">Search groups</string>
-    <string name="search_history">Search history</string>
-    <string name="search_calls">Search calls</string>
-    <string name="search_files">Search files</string>
-    <string name="search_folders">Search folders</string>
-    <string name="search_files_and_folders">Search files and folders</string>
-    <string name="search_playlists">Search playlists</string>
-    <string name="search_artists">Search artists</string>
-    <string name="search_albums">Search albums</string>
-    <string name="search_tracks">Search tracks</string>
-    <string name="search_text">Search text</string>
-    <string name="search_conversations">Search conversations</string>
-    <string name="search_recordings">Search recordings</string>
-    <!-- Filters -->
     <string name="filter">Филтер</string>
     <string name="filter_pro">Филтер (Pro)</string>
     <string name="no_items_found">Нема резултата.</string>
     <string name="change_filter">Промени филтер</string>
-    <!-- Permissions -->
     <string name="no_storage_permissions">Неопходна је дозвола за складиштење</string>
     <string name="no_contacts_permission">Неопходна је дозвола за контакте</string>
     <string name="no_camera_permissions">Неопходна је дозвола за камеру</string>
     <string name="no_audio_permissions">Неопходна је дозвола за аудио</string>
     <string name="no_permission">Нема дозволу</string>
-    <string name="allow_notifications_reminders">You must allow the app displaying notifications, else it cannot show reminders.</string>
-    <string name="allow_full_screen_notifications_reminders">You must allow the app displaying full screen notifications, else you may miss some reminders.</string>
-    <string name="allow_notifications_files">You must allow the app displaying notifications, else it cannot show the progress bar.</string>
-    <string name="allow_notifications_music_player">You must allow the app displaying notifications, else it cannot play songs.</string>
-    <string name="allow_notifications_voice_recorder">You must allow the app displaying notifications, else it cannot record audio.</string>
-    <string name="allow_notifications_incoming_calls">You must allow the app displaying notifications, else it cannot show incoming calls.</string>
-    <string name="allow_full_screen_notifications_incoming_calls">You must allow the app displaying full screen notifications, else you may miss some incoming calls.</string>
-    <string name="allow_notifications_incoming_messages">You must allow the app displaying notifications, else it cannot show incoming messages.</string>
-    <string name="allow_alarm_scheduled_messages">You must allow the app accessing internal alarms, else it cannot send scheduled messages.</string>
-    <string name="allow_alarm_sleep_timer">You must allow the app accessing internal alarms, else it cannot turn off the application after sleep timer.</string>
-    <string name="allow_location_permission">You must allow the app accessing your location, else it won\'t know it.</string>
-    <string name="grant_permission">Grant Permission</string>
-    <string name="permission_required">Permission Required</string>
-    <!-- Renaming -->
     <string name="rename_file">Преименуј датотеку</string>
     <string name="rename_folder">Преименуј фасциклу</string>
     <string name="rename_file_error">Не могу да преименујем датотеку</string>
@@ -221,7 +165,6 @@
     <string name="filename_without_json">Име датотеке (без .јсон)</string>
     <string name="filename_without_zip">Име датотеке (без .зип-а)</string>
     <string name="cannot_hide_files">Почевши од Андроида 11 више не можете сакрити датотеке и фасцикле</string>
-    <!-- Copy / Move -->
     <string name="copy">Копирај</string>
     <string name="move">Премести</string>
     <string name="copy_move">Копирај / Премести</string>
@@ -252,7 +195,6 @@
     <string name="no_space">Одредиште нема довољно слободног простора.
 \nПотребан %1$s, доступан %2$s</string>
     <string name="system_service_disabled">Системска услуга за избор датотека и фасцикли је недоступна</string>
-    <!-- Create new -->
     <string name="create_new">Направи ново</string>
     <string name="folder">Фасцикла</string>
     <string name="file">Датотека</string>
@@ -261,7 +203,6 @@
     <string name="invalid_name">Име садржи недозвољене карактере</string>
     <string name="empty_name">Унесите име</string>
     <string name="unknown_error_occurred">Дошло је до грешке</string>
-    <!-- File operation conflicts -->
     <string name="file_already_exists">Датотека \"%s\" већ постоји</string>
     <string name="file_already_exists_overwrite">Датотека \"%s\" већ постоји. Препиши је?</string>
     <string name="folder_already_exists">Фасцикла \"%s\" већ постоји</string>
@@ -276,7 +217,6 @@
     <string name="rename_in_sd_card_system_restriction">Sustav ne dopušta preimenovanje u ovoj mapi</string>
     <string name="rename_internal_system_restriction">Nije moguće preimenovati mape izravno u internoj pohrani, samo podmape</string>
     <string name="cannot_rename_folder">Nije moguće preimenovati ovu mapu</string>
-    <!-- File picker -->
     <string name="select_folder">Изабери фасциклу</string>
     <string name="select_file">Изабери датотеку</string>
     <string name="confirm_storage_access_title">Потврди приступ спољашњој меморији</string>
@@ -294,7 +234,6 @@
         <item quantity="few">%d ставки</item>
         <item quantity="other">%d ставкe</item>
     </plurals>
-    <!-- Are you sure you want to delete 5 items? -->
     <plurals name="delete_items">
         <item quantity="one">%d ставка</item>
         <item quantity="few">%d ставки</item>
@@ -305,24 +244,20 @@
         <item quantity="few">Бришем %d ставки</item>
         <item quantity="other">Бришем %d ставки</item>
     </plurals>
-    <!-- Are you sure you want to delete 5 contacts? -->
     <plurals name="delete_contacts">
         <item quantity="one">%d контакт</item>
         <item quantity="few">%d контактa</item>
         <item quantity="other">%d контакти</item>
     </plurals>
-    <!-- Storages -->
     <string name="select_storage">Изабери складиште</string>
     <string name="storage">Складиште</string>
     <string name="internal">Унутрашња</string>
-    <string name="internal_storage">Internal Storage</string>
     <string name="sd_card">СД картица</string>
     <string name="root">Почетно</string>
     <string name="wrong_root_selected">Изабрана је погрешна фасцикла, молим вас изаберите почетну фасциклу на СД картици</string>
     <string name="sd_card_usb_same">Стазе СД картице и УСБ уређаја не могу бити исте</string>
     <string name="app_on_sd_card">Апликација је већ инсталирана на СД картици, зато су виџети недоступни. То је ограничење система, и ако желите да користите виџете морате да преместите апликацију назад у унутрашње складиште.</string>
     <string name="wrong_folder_selected">Изабран је погрешан фолдер, изаберите путању \'%s\'</string>
-    <!-- File properties -->
     <string name="properties">Својства</string>
     <string name="path">Стаѕа</string>
     <string name="items_selected">Ставки селектовано</string>
@@ -332,20 +267,16 @@
     <string name="duration">Дужина</string>
     <string name="artist">Уметник</string>
     <string name="album">Албум</string>
-    <string name="genre">Genre</string>
     <string name="focal_length">Фокусна дужина</string>
     <string name="exposure_time">Време експозиције</string>
     <string name="iso_speed">ISO брзина</string>
     <string name="f_number">Ф-број</string>
     <string name="camera">Камера</string>
-    <string name="exif">EXIF</string>
     <string name="song_title">Име песме</string>
     <string name="gps_coordinates">ГПС координате</string>
-    <string name="altitude">Altitude</string>
     <string name="remove_exif">Уклоните ЕКСИФ</string>
     <string name="remove_exif_confirmation">Да ли сте сигурни да желите уклонити ЕКСИФ вредности као што су ГПС координате, модел камере итд\?</string>
     <string name="exif_removed">ЕКСИФ вредности су успешно уклоњене</string>
-    <!-- Color customization -->
     <string name="background_color">Боја позадине</string>
     <string name="text_color">Боја текста</string>
     <string name="primary_color">Главна боја</string>
@@ -366,32 +297,22 @@
     <string name="undo_changes_confirmation">Да ли желите да поништите измене?</string>
     <string name="cannot_be_undone">Ова радња се не може опозвати.</string>
     <string name="save_before_closing">Имате несачуване измене. Сачувај пре изласка?</string>
-    <string name="apply_to_all_apps">Apply colors to all Fossify Apps</string>
-    <string name="app_icon_color_warning">Caution: Certain launchers may not handle app icon customization correctly. If the icon disappears, attempt launching the app through Google Play or a widget, if accessible.
-        After launching, restore the default green icon color #106D1F. In extreme cases, reinstalling the app may be necessary.</string>
     <string name="share_colors_success">Боје су ажуриране успешно. Нова тема под именом \'Shared\' је додата, молимо вас да је користите за ажурирање свих боја у будућности.</string>
-    <string name="shared_theme_note">Note that even though you are using the Pro app version, you still need Fossify Thank You for technical reasons. It takes care of the color synchronization.</string>
     <string name="purchase_thank_you">
         <![CDATA[
             Молимо вас пазарите <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> да откључате ову функцију и подржите наш развој. Хвала вам!
         ]]>
     </string>
-    <!-- Themes -->
     <string name="light_theme">Светла</string>
     <string name="dark_theme">Тамна</string>
-    <string name="auto_theme">Auto</string>
     <string name="auto_light_dark_theme">Ауто светло / тамно</string>
     <string name="solarized">Осветљена</string>
     <string name="dark_red">Тамно црвена</string>
-    <string name="white">White</string>
     <string name="black_white">Црно &amp; Бела</string>
     <string name="custom">Прилагођена</string>
     <string name="shared">Дељена</string>
-    <string name="system_default">System default</string>
-    <!-- What's new -->
     <string name="whats_new">Шта је ново</string>
     <string name="whats_new_disclaimer">* овде су изслистана само већа ажурирања, увек постоје и нека мања унапређења</string>
-    <!-- Actionbar items -->
     <string name="delete">Обриши</string>
     <string name="remove">Уклони</string>
     <string name="rename">Преименуј</string>
@@ -406,7 +327,6 @@
     <string name="unhide_folder">Прикажи фасциклу</string>
     <string name="temporarily_show_hidden">Привремено прикажи скривено</string>
     <string name="stop_showing_hidden">Прекини са приказивањем скривених медија</string>
-    <string name="allow_access_more_media">Allow access to more media</string>
     <string name="maximum_share_reached">Не можете поделити оволико садржаја одједном</string>
     <string name="empty_and_disable_recycle_bin">Испразни и онемогући канту за отпатке</string>
     <string name="undo">Поништи измене</string>
@@ -417,32 +337,21 @@
     <string name="create_shortcut">Направити пречицу</string>
     <string name="create_shortcut_pro">Направите пречицу (Про)</string>
     <string name="add_number_to_contact">Додајте број контакту</string>
-    <string name="view_contact_details">View contact details</string>
     <string name="call_from_sim_1">Позив са СИМ 1</string>
     <string name="call_from_sim_2">Позив са СИМ 2</string>
     <string name="toggle_filename">Измени видљивост датотеке</string>
     <string name="move_to_top">Помери се на врх</string>
     <string name="move_to_bottom">Пређите на дно</string>
-    <string name="pin_item">Pin item</string>
     <string name="unpin_item">Откачите ставку</string>
-    <string name="send_sms">Send SMS</string>
-    <string name="send_email">Send email</string>
     <string name="call">Позив</string>
-    <string name="contact_details">Contact details</string>
-    <string name="add_contact">Add contact</string>
     <string name="wallpapers">Позадине</string>
-    <string name="show_line_numbers">Show line numbers</string>
-    <string name="hide_line_numbers">Hide line numbers</string>
     <string name="sleep_timer">Мерач спавања</string>
-    <string name="unblock">Unblock</string>
-    <!-- Sorting -->
     <string name="sort_by">Сортирај према</string>
     <string name="name">Име</string>
     <string name="size">Величина</string>
     <string name="last_modified">Задњи пут измењено</string>
     <string name="date_created">Датум креирања</string>
     <string name="date_taken">Датум настанка</string>
-    <string name="date_added">Date added</string>
     <string name="title">Наслов</string>
     <string name="filename">Име фајла</string>
     <string name="extension">Тип фајла</string>
@@ -453,19 +362,13 @@
     <string name="use_for_this_folder">Користи само за ову фасциклу</string>
     <string name="sort_numeric_parts">Сортирај нумеричке делове по стварној вредности</string>
     <string name="first_name">Име</string>
-    <string name="middle_name">Middle name</string>
     <string name="surname">Презиме</string>
     <string name="full_name">Пуно име</string>
     <string name="use_custom_sorting">Користите прилагођено сортирање</string>
     <string name="change_order">Промени редослед</string>
-    <string name="more_options">More options</string>
-    <!-- Confirmation dialog -->
     <string name="proceed_with_deletion">Да ли сте сигурни да желите да наставите са брисањем?</string>
     <string name="deletion_confirmation">Да ли сте сигурни да желите обришете %s?</string>
-    <string name="deletion_confirmation_short">Delete %s?</string>
-    <!-- Are you sure you want to delete 5 items? -->
     <string name="move_to_recycle_bin_confirmation">Да ли сте сигурни да желите да преместите %s у канту за отпатке?</string>
-    <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
     <string name="are_you_sure_delete">Да ли сте сигурни да желите да обришете ову ставку?</string>
     <string name="are_you_sure_recycle_bin">Да ли сте сигурни да желите да преместите ову ставку у канту за отпатке?</string>
     <string name="do_not_ask_again">Не питај више у овој сеанси</string>
@@ -478,13 +381,10 @@
         <item quantity="few">УПОЗОРЕЊЕ: Бришете %d фасцикли</item>
         <item quantity="other">УПОЗОРЕЊЕ: Бришете %d фасциклe</item>
     </plurals>
-    <!-- Password protection -->
     <string name="pin">ПИН</string>
     <string name="enter_pin">Унесите ПИН</string>
     <string name="please_enter_pin">Молимо вас унесите ПИН</string>
     <string name="wrong_pin">Погрешан ПИН</string>
-    <string name="pin_must_be_4_digits_long">PIN must be at least 4 digits long</string>
-    <string name="too_many_incorrect_attempts">Too many incorrect unlock attempts.\nTry again in %d seconds.</string>
     <string name="repeat_pin">Поновите ПИН</string>
     <string name="pattern">Шаблон</string>
     <string name="insert_pattern">Унесите шаблон</string>
@@ -512,7 +412,6 @@
     <string name="empty_password_new">Молимо унесите шифру</string>
     <string name="empty_password">Молимо унесите шифру</string>
     <string name="invalid_password">Погрешна шифра</string>
-    <!-- Times -->
     <string name="yesterday">Јуче</string>
     <string name="today">Данас</string>
     <string name="tomorrow">Сутра</string>
@@ -522,10 +421,6 @@
     <string name="minutes_raw">минуте</string>
     <string name="hours_raw">сати</string>
     <string name="days_raw">дани</string>
-    <string name="seconds_letter">s</string>
-    <string name="minutes_letter">m</string>
-    <string name="hours_letter">h</string>
-    <string name="week_number_short">wk.</string>
     <plurals name="seconds">
         <item quantity="one">%d секунда</item>
         <item quantity="few">%d секунди</item>
@@ -561,7 +456,6 @@
         <item quantity="few">%d година</item>
         <item quantity="other">%d годинe</item>
     </plurals>
-    <!-- For example: I will be there in 5 minutes -->
     <plurals name="in_seconds">
         <item quantity="one">%d секунда</item>
         <item quantity="few">%d секунди</item>
@@ -597,7 +491,6 @@
         <item quantity="few">%d година</item>
         <item quantity="other">%d годинe</item>
     </plurals>
-    <!-- For example: Event reminder: 3 minutes before -->
     <plurals name="seconds_before">
         <item quantity="one">%d секунд пре тога</item>
         <item quantity="few">%d секунди пре тога</item>
@@ -633,7 +526,6 @@
         <item quantity="few">%d година пре тога</item>
         <item quantity="other">%d годинe пре тога</item>
     </plurals>
-    <!-- For example: Postpone reminder by 3 minutes -->
     <plurals name="by_seconds">
         <item quantity="one">%d секунда</item>
         <item quantity="few">%d секунди</item>
@@ -669,7 +561,6 @@
         <item quantity="few">%d година</item>
         <item quantity="other">%d годинe</item>
     </plurals>
-    <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
     <string name="alarm_goes_off_in">Преостало време до активације аларма:\n%s</string>
     <string name="reminder_triggers_in">Преостало време до активације подсетника:\n%s</string>
     <string name="time_remaining">Преостало време:
@@ -677,7 +568,6 @@
     <string name="alarm_warning">Проверите да ли аларм ради како треба пре него што кренете да се ослањате на њега. Дешава се да не ради како треба због ограничења у систему која се односе на уштеду батерије.</string>
     <string name="reminder_warning">Уверите се да подсетник ради како треба пре него што кренете да се ослањате на њега. Дешава се да не ради како треба због ограничења у систему која се односе на уштеду батерије.</string>
     <string name="notifications_disabled">Обавештења ове апликације су онемогућена. У подешавањима уређаја их можете укључити.</string>
-    <!-- Alarms -->
     <string name="alarm">Аларм</string>
     <string name="snooze">Успавај</string>
     <string name="dismiss">Вољно</string>
@@ -689,18 +579,13 @@
     <string name="no_sound">Без звука</string>
     <string name="during_day_at_hh_mm">Током дана у cc:мм</string>
     <string name="during_day_at">Током дана у %02d:%02d</string>
-    <!-- Settings -->
     <string name="settings">Подешавања</string>
-    <string name="purchase_simple_thank_you">Purchase Fossify Thank You</string>
-    <string name="general_settings">General</string>
     <string name="color_customization">Прилагођавање боја</string>
-    <string name="improved_color_customization">Improved color customization</string>
     <string name="customize_colors">Прилагодите боје</string>
     <string name="customize_colors_locked">Прилагодите боје (Locked)</string>
     <string name="feature_locked">Закључано</string>
     <string name="customize_widget_colors">Прилагодите боје виџета</string>
     <string name="customize_notifications">Прилагодите обавештења</string>
-    <string name="notification_sound">Notification sound</string>
     <string name="use_english_language">Користи енглески језик</string>
     <string name="language">Језик</string>
     <string name="show_hidden_items">Прикажи скривене ставке</string>
@@ -720,7 +605,6 @@
     <string name="use_24_hour_time_format">Користи 24-часовни формат за време</string>
     <string name="change_date_and_time_format">Измени формат за датум и време</string>
     <string name="sunday_first">Старт седмице у недељу</string>
-    <string name="start_week_on">Start week on</string>
     <string name="widgets">Виџети</string>
     <string name="use_same_snooze">Увек користи исто време за успављивање</string>
     <string name="snooze_time">Време успављивања</string>
@@ -736,7 +620,6 @@
     <string name="start_name_with_surname">Почните име са презименом</string>
     <string name="clear_cache">Обриши кеш меморију</string>
     <string name="show_call_confirmation_dialog">Прикажите дијалог за потврду позива пре него започнете позив</string>
-    <!-- Setting sections -->
     <string name="visibility">Видљивост</string>
     <string name="security">Безбедност</string>
     <string name="scrolling">Скроловање</string>
@@ -749,8 +632,6 @@
     <string name="quality">Квалитет</string>
     <string name="main_screen">Главни екран</string>
     <string name="thumbnails">Сличице</string>
-    <string name="list_view">List view</string>
-    <!-- Excluding -->
     <string name="exclude">Изузми</string>
     <string name="exclude_folder">Изузми мапу</string>
     <string name="excluded_folders">Изузете фасцикле</string>
@@ -760,17 +641,12 @@
     <string name="remove_all_description">Уклони све фасцикле са листе изузетих\? Ово неће обрисати фасцикле.</string>
     <string name="temporarily_show_excluded">Привремено је искључена емисија</string>
     <string name="stop_showing_excluded">Престани да се приказује искључено</string>
-    <!-- Default tab to open -->
     <string name="manage_shown_tabs">Управљајте приказаним картицама</string>
     <string name="default_tab_to_open">Таб за отварање при покретању апликације</string>
-    <string name="contacts_tab">Contacts</string>
     <string name="favorites_tab">Фаворити</string>
     <string name="call_history_tab">Позив историја</string>
     <string name="groups_tab">Групе</string>
     <string name="last_used_tab">Последњи коришћени</string>
-    <string name="files_tab">Files</string>
-    <string name="recent_files_tab">Recent files</string>
-    <!-- Recycle Bin -->
     <string name="restore_this_file">Поврати овај фајл</string>
     <string name="restore_selected_files">Поврати изабране датотеке</string>
     <string name="restore_all_files">Поврати све датотеке</string>
@@ -781,14 +657,11 @@
     <string name="moving_recycle_bin_items_disabled">Премештање ставки из канте за отпатке је онемогућено, употребите повраћај датотека</string>
     <string name="show_the_recycle_bin">Прикажи канту за отпатке</string>
     <string name="hide_the_recycle_bin">Сакриј канту за отпатке</string>
-    <string name="open_the_recycle_bin">Open the Recycle Bin</string>
-    <string name="skip_the_recycle_bin">Skip the Recycle Bin, delete files directly</string>
     <plurals name="moving_items_into_bin">
         <item quantity="one">Премештам %d ставку у канту за отпатке</item>
         <item quantity="few">Премештам %d ставки у канту за отпатке</item>
         <item quantity="other">Премештам %d ставкe у канту за отпатке</item>
     </plurals>
-    <!-- Import / Export -->
     <string name="importing">Увозим…</string>
     <string name="exporting">Извозим…</string>
     <string name="importing_successful">Увоз успешан</string>
@@ -800,16 +673,10 @@
     <string name="no_entries_for_importing">Нема ставки за увоз</string>
     <string name="no_new_entries_for_importing">Нису пронађени нови уноси за увоз</string>
     <string name="no_entries_for_exporting">Нема ставки за извоз</string>
-    <string name="backups">Backups</string>
-    <string name="enable_automatic_backups">Enable automatic backups</string>
-    <string name="manage_automatic_backups">Manage automatic backups</string>
-    <string name="date_time_pattern_info">You can use the following patterns to name your file automatically:\n\n%Y - year\n%M - month\n%D - day\n%h - hour\n%m - minute\n%s - second</string>
-    <!-- OTG devices -->
     <string name="usb">УСБ</string>
     <string name="usb_detected">УСБ уреđај је прикаčен на уреđај. Доделите додатне дозволе да би се датотеке приказивале исправно.</string>
     <string name="confirm_usb_storage_access_text">Изаберите почетну фасциклу УСБ уређаја на следећем екрану, да доделите приступ</string>
     <string name="wrong_root_selected_usb">Изабрана је погрешна фасцикла, изаберите почетну фасциклу УСБ уређаја</string>
-    <!-- Dates -->
     <string name="january">Јануар</string>
     <string name="february">Фебруар</string>
     <string name="march">Март</string>
@@ -822,20 +689,6 @@
     <string name="october">Октобар</string>
     <string name="november">Новембар</string>
     <string name="december">Децембар</string>
-    <!-- Short months -->
-    <string name="january_short">Jan</string>
-    <string name="february_short">Feb</string>
-    <string name="march_short">Mar</string>
-    <string name="april_short">Apr</string>
-    <string name="may_short">May</string>
-    <string name="june_short">June</string>
-    <string name="july_short">July</string>
-    <string name="august_short">Aug</string>
-    <string name="september_short">Sept</string>
-    <string name="october_short">Oct</string>
-    <string name="november_short">Nov</string>
-    <string name="december_short">Dec</string>
-    <!-- in January -->
     <string name="in_january">у јануару</string>
     <string name="in_february">у фебруару</string>
     <string name="in_march">у марту</string>
@@ -869,7 +722,6 @@
     <string name="friday_short">Пет</string>
     <string name="saturday_short">Суб</string>
     <string name="sunday_short">Нед</string>
-    <!-- Pro version -->
     <string name="upgrade_to_pro_long">Верзија ваше апликације се више неће ажурирати. Надоградите на Про верзију да бисте добили нове исправке и друга побољшања.</string>
     <string name="upgrade_to_pro_long_click">Верзија ваше апликације се више неће ажурирати. Надоградите на Про верзију да бисте добили нове поправке и друга побољшања кликом овде.</string>
     <string name="it_is_free">Бесплатна је до: %s. Ако је преузмете до тада, моћи ћете да је користите бесплатно заувек.</string>
@@ -881,13 +733,11 @@
 \nизгледа да сте управо надоградили са бесплатне верзије. Када будете задовољни са овим и можда преместите своја подешавања и омиљено, можете да деинсталирате стари бесплатни да бисте избегли да га случајно покренете јер вам више неће требати, а такође ће спречити да се овај дијалог прикаже.
 \n
 \nХвала!</string>
-    <string name="upgraded_to_pro_gallery">Hello,\n\nseems like you already have the Pro app version too. Once you are happy with it and maybe migrated your settings and favorites over, you can uninstall this one to avoid launching it accidentally as you will not need it anymore.\n\nThanks!</string>
     <string name="upgraded_from_free">Здраво,
 \n
 \nизгледа да сте управо надоградили са бесплатне верзије. Када будете задовољни са овим и можда преместите своје податке, можете деинсталирати стари бесплатни да бисте избегли његово случајно покретање јер вам више неће требати, а такође ће спречити да се овај дијалог прикаже.
 \n
 \nХвала!</string>
-    <string name="upgraded_to_pro">Hello,\n\nseems like you already have the Pro app version too. Once you are happy with it and maybe migrated your data over, you can uninstall this one to avoid launching it accidentally as you will not need it anymore.\n\nThanks!</string>
     <string name="upgraded_from_free_calendar">Здраво,
 \n
 \nизгледа да сте управо надоградили са бесплатне верзије. Ако желите да мигрирате своје локално ускладиштене догађаје, морате то да урадите ручно тако што ћете их извести у .ics фајл у бесплатној верзији апликације и увести овде кроз горњи мени.
@@ -909,9 +759,7 @@
 \nКада будете задовољни својим подешавањем у Про верзији, можете деинсталирати стари бесплатни јер вам више неће требати, а такође ће спречити да се овај дијалог прикаже.
 \n
 \nХвала!</string>
-    <!-- About -->
     <string name="about">О апликацији</string>
-    <string name="website">Website</string>
     <string name="website_label">За изворни код посаетите</string>
     <string name="email_label">Пошаљите ваше повратне информације или сугестије на</string>
     <string name="upgrade_to_pro">Унапредите у професионалну верзију</string>
@@ -921,16 +769,9 @@
     <string name="share_text">Посетите %1$s на %2$s</string>
     <string name="invite_via">Позовите преко</string>
     <string name="rate_us">Оцените нас</string>
-    <string name="rate">Rate</string>
     <string name="donate">Донирај</string>
     <string name="follow_us">Запратите нас</string>
-    <string name="copyright">v %1$s\nCopyright © Fossify %2$d</string>
-    <string name="support">Support</string>
-    <string name="help_us">Help us</string>
-    <string name="social">Social</string>
-    <string name="other">Other</string>
     <string name="privacy_policy">Правила о приватности</string>
-    <string name="version_placeholder">Version %s</string>
     <string name="hello">Здраво :)</string>
     <string name="about_footer">Произведено са ❤️ у Словачкој</string>
     <string name="additional_info">Додатне информације</string>
@@ -943,10 +784,7 @@
             Хвала вам!
         ]]>
     </string>
-    <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
-    <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
     <string name="purchase">Купите</string>
-    <string name="update_thank_you">Please update Fossify Thank You to the latest version</string>
     <string name="before_asking_question_read_faq">Пре постављања питања проверите подешавања апликације и прочитајте најчешће постављана питања. Можда су решења већ ту.</string>
     <string name="before_rate_read_faq">Пре него што нас оцените, проверите подешавања апликације и прво прочитајте Често постављана питања. Ако имате било каквих проблема, можда је решење ту.</string>
     <string name="make_sure_latest">Такође се уверите да користите најновију верзију апликације.</string>
@@ -966,8 +804,6 @@
     <string name="thank_you">Хвала вам</string>
     <string name="widget_locked_pro">Виџет је закључан.
 \nНадоградите на Про верзију да бисте је откључали.</string>
-    <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>
-    <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">
         <![CDATA[
             Поздрав,<br><br>
@@ -993,7 +829,6 @@
     <string name="keyboard_short">Тастатура</string>
     <string name="launcher_short">Иницијатор</string>
     <string name="music_player_short">Музички плејер</string>
-    <string name="notes_short">Notes</string>
     <string name="sms_messenger_short">СМС Мессенгер</string>
     <string name="thank_you_short">Хвала вам</string>
     <string name="voice_recorder_short">Диктафон</string>
@@ -1002,18 +837,11 @@
             Изгледа да је верзија ваше апликације у квару. Молимо вас преузмите оригиналну верзију <a href="%s">овде</a>.
         ]]>
     </string>
-    <!-- FAQ -->
     <string name="frequently_asked_questions">Најчешће постављена питања</string>
     <string name="before_asking_question">Пре него поставите питање, прво прочитајте</string>
     <string name="faq_1_title_commons">Зашто не видим виџете ове апликације у листи виџета?</string>
     <string name="faq_1_text_commons">Највероватније јер сте преместили апликацију на СД картицу. Постоји ограничење Андроид система које скрива виџете у том случају. Једино решење је да вратите апликацију у интерно складиште преко подешавања уређаја.</string>
     <string name="faq_2_title_commons">Желим да вам дам подршку, али не могу да донирам новац. Да ли могу да учиним нешто друго?</string>
-    <string name="faq_2_text_commons">
-        <![CDATA[
-            Yes, of course. You can spread the word about the apps or give good feedback and ratings. You can also help by translating the apps in a new language, or just update some existing translations.
-            The guide to translating is at <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">this website</a>, or just contact us at <a href="mailto:hello@fossify.org">hello@fossify.org</a> if you have any questions.
-        ]]>
-    </string>
     <string name="faq_3_title_commons">Обрисао сам неке датотеке грешком, како их могу повратити?</string>
     <string name="faq_3_text_commons">Нажалост не можете. Датотеке се бришу одмах након дијалога за потврду, не постоји канта за отпатке.</string>
     <string name="faq_4_title_commons">Не свиђају ми се боје виџета, да ли могу да их променим?</string>
@@ -1021,8 +849,6 @@
     <string name="faq_5_title_commons">Да ли могу да повратим обрисане фајлове?</string>
     <string name="faq_5_text_commons">Ако су заиста избрисани, не можете. Међутим, постоји подразумевано омогућена корпа за отпатке, то ће проузроковати да се датотеке једноставно преместе у корпу уместо да их се бришу.</string>
     <string name="faq_6_title_commons">Икона покретача апликација је нестала. Шта да урадим?</string>
-    <string name="faq_6_text_commons">This issue arises when your launcher does not fully support icon customization. Attempt launching the app through Google Play or a widget, if accessible.
-        After launching, restore the default green icon color #106D1F. In extreme cases, reinstalling the app may be necessary.</string>
     <string name="faq_7_title_commons">Новац је скинут са мог банковног рачуна, али не могу да преузмем апликацију. Шта могу да урадим\?</string>
     <string name="faq_7_text_commons">Плаћања у потпуности обавља Гоогле, њихов систем повремено квари. Само обришите кеш апликације Гоогле Плаи и поново покрените уређај, а затим покушајте поново да га преузмете.</string>
     <string name="faq_8_title_commons">Зашто да надоградим на Про верзију\?</string>
@@ -1031,106 +857,43 @@
     <string name="faq_9_text_commons">Постоји више начина да се то уради. Први је покретање режима селекције дугим притиском на једну ставку, а затим кратким кликом на друге да бисте их изабрали. Други начин је сличан одабиру ставки на рачунарима помоћу миша, само покрените режим селекције дугим притиском на једну ставку, а затим је прстом и даље доле превуците преко других ставки да бисте изабрали. Трећи начин одабира више ставки је дуго притискање једне ставке, затим дуго притискање друге и све између се бира. Ако желите да изаберете све ставке, само дуго притисните једну ставку, а затим кликните на бројач изабраних ставки у горњем левом углу. То ће све изабрати или поништити избор.</string>
     <string name="faq_10_title_commons">Купио сам апликацију, али не могу да је преузмем на другом уређају.</string>
     <string name="faq_10_text_commons">Покушајте да обришете кеш апликације Гоогле Плаи и поново покренете уређај. То је нека грешка у Гоогле Плаи-у, која није баш повезана са самом апликацијом.</string>
-    <!-- Contributors -->
     <string name="contributors">Сарадници</string>
     <string name="translation">Превод</string>
     <string name="development">Развој</string>
     <string name="other_help">Друга помоћ</string>
-    <string name="contributors_label">
-        <![CDATA[
-            This list contains everyone that noticeably helped any app within the Fossify suite, not only this one. Translations are handled by volunteers,
-            let us know if you want to help too. The guide to translating is at <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">this website</a>, or just contact us at <a href="mailto:hello@fossify.org">hello@fossify.org</a> if you have any questions.
-            Thanks to all contributors and other supporters!
-        ]]>
-    </string>
-    <string name="translation_arabic">Arabic</string>
-    <string name="translation_azerbaijani">Azerbaijani</string>
-    <string name="translation_bengali">Bengali</string>
-    <string name="translation_breton">Breton</string>
-    <string name="translation_bulgarian">Bulgarian</string>
-    <string name="translation_catalan">Catalan</string>
-    <string name="translation_czech">Czech</string>
-    <string name="translation_welsh">Welsh</string>
-    <string name="translation_danish">Danish</string>
-    <string name="translation_english">English</string>
-    <string name="translation_german">German</string>
-    <string name="translation_greek">Greek</string>
-    <string name="translation_spanish">Spanish</string>
-    <string name="translation_basque">Basque</string>
-    <string name="translation_persian">Persian</string>
-    <string name="translation_finnish">Finnish</string>
-    <string name="translation_french">French</string>
-    <string name="translation_galician">Galician</string>
-    <string name="translation_hindi">Hindi</string>
-    <string name="translation_croatian">Croatian</string>
-    <string name="translation_hungarian">Hungarian</string>
-    <string name="translation_indonesian">Indonesian</string>
-    <string name="translation_italian">Italian</string>
-    <string name="translation_hebrew">Hebrew</string>
-    <string name="translation_japanese">Japanese</string>
-    <string name="translation_korean">Korean</string>
-    <string name="translation_lithuanian">Lithuanian</string>
-    <string name="translation_nepali">Nepali</string>
-    <string name="translation_norwegian">Norwegian</string>
-    <string name="translation_dutch">Dutch</string>
-    <string name="translation_polish">Polish</string>
-    <string name="translation_portuguese">Portuguese</string>
-    <string name="translation_romanian">Romanian</string>
-    <string name="translation_russian">Russian</string>
-    <string name="translation_slovak">Slovak</string>
-    <string name="translation_slovenian">Slovenian</string>
-    <string name="translation_serbian">Serbian</string>
-    <string name="translation_swedish">Swedish</string>
-    <string name="translation_tamil">Tamil</string>
-    <string name="translation_turkish">Turkish</string>
-    <string name="translation_ukrainian">Ukrainian</string>
-    <string name="translation_vietnamese">Vietnamese</string>
-    <string name="translation_chinese_hk">Chinese (Hong Kong)</string>
-    <string name="translation_chinese_cn">Chinese (Simplified)</string>
-    <string name="translation_chinese_tw">Chinese (Traditional)</string>
-    <!-- Pro comparison (shown in the deprecated free apps) -->
     <string name="why_upgrade">Преузмите Про верзију одмах!</string>
     <string name="why_upgrade_basic_version">Основно</string>
-    <string name="why_upgrade_pro_version">Pro</string>
     <string name="why_upgrade_no_ads">Нема реклама</string>
     <string name="why_upgrade_no_internet_access">Нема приступа интернету</string>
     <string name="why_upgrade_footer">100% гаранција поврата новца</string>
     <string name="why_upgrade_footer_one_time_payment">Једанпут се плаћа</string>
     <string name="why_upgrade_improved_design">Побољшан дизајн</string>
-    <string name="why_upgrade_many_other_improvements">Many other improvements</string>
-    <!-- Gallery Pro -->
     <string name="why_upgrade_advanced_photo_editor">Напредни уређивач фотографија</string>
     <string name="why_upgrade_advanced_photo_video_editor">Напредни уређивач фотографија и видео записа</string>
     <string name="why_upgrade_heic_support">Подршка за ХЕИЦ/ХЕИФ фајлове</string>
     <string name="why_upgrade_batch_renaming">Напредно преименовање батцх датотеке</string>
     <string name="why_upgrade_folder_locking">Индивидуално закључавање фолдера</string>
     <string name="why_upgrade_printing_support">Подршка за штампање</string>
-    <!-- Calendar Pro -->
     <string name="why_upgrade_time_zone_support">Подршка за временску зону</string>
     <string name="why_upgrade_attendees_emails">Учесници и подсетници путем е-поште</string>
     <string name="why_upgrade_easy_event_importing">Једноставан увоз догађаја</string>
     <string name="why_upgrade_new_widgets">Нови виџети</string>
-    <!-- Contacts Pro -->
     <string name="why_upgrade_duplicate_contact_merging">Побољшано спајање дупликата контаката</string>
     <string name="why_upgrade_font_size_customization">Прилагођавање величине фонта</string>
     <string name="why_upgrade_private_contact_sharing">Опционо дељење приватних контаката у оквиру наших апликација</string>
     <string name="why_upgrade_customizable_contact_ringtones">Прилагодљиве мелодије звона за контакте</string>
     <string name="why_upgrade_contact_filtering">Филтрирање контаката</string>
     <string name="why_upgrade_contact_private_contacts">Приватно сачувани контакти</string>
-    <!-- Notes Pro -->
     <string name="why_upgrade_checklists">Контролне листе</string>
     <string name="why_upgrade_different_note_per_widget">Различите белешке и боје по виџету</string>
     <string name="why_upgrade_note_locking">Напомена закључавање</string>
-    <!-- File Manager Pro -->
     <string name="why_upgrade_date_and_time_format">Прилагођавање формата датума и времена</string>
     <string name="why_upgrade_shortcuts">Пречице на почетном екрану</string>
     <string name="why_upgrade_file_compression">Подршка за компресију датотека</string>
     <string name="why_upgrade_recents_tab">Картица са недавним датотекама</string>
-    <!-- Draw Pro -->
     <string name="why_upgrade_background_color_customization">Прилагођавање боје позадине</string>
     <string name="why_upgrade_file_importing">Подршка за увоз датотека</string>
     <string name="why_upgrade_zooming">Зумирање</string>
-    <!-- License -->
     <string name="notice">Ова апликација користи следеће библиотеке које припадају трећим лицима, како би учинили наш живот лакшим. Хвала вам.</string>
     <string name="third_party_licences">Лиценце трећих лица</string>
     <string name="kotlin_title">Kotlin (програмски језик)</string>
@@ -1167,22 +930,7 @@
     <string name="m3u_parser_title">М3У Парсер (руковање датотекама листе песама м3у)</string>
     <string name="android_lame_title">АндроидЛаме (мп3 кодер)</string>
     <string name="zip4j_title">Zip4j (ЗИП компресија и декомпресија)</string>
-    <!-- Trial -->
-    <string name="trial_expired">Trial expired</string>
-    <string name="start_free_trial">Start free trial</string>
-    <string name="trial_expires_soon">Your trial expires soon.</string>
-    <string name="unlock_for_one_final_day">Unlock the app for one final day</string>
-    <string name="welcome_to_app_name">Welcome to %s!</string>
-    <string name="trial_start_description">Thank you for using our app. You can use this unlocked version for &lt;font color=\'#FFFFFF\'&gt;%d days&lt;/font&gt;. Once the trial ends, please consider upgrading to the Pro version. It has a huge amount of new features, modern design, no ads and many other improvements.
-        \n\nYou just have to pay for it once in a lifetime and if you won\'t be satisfied, you can uninstall it and get a refund.\n\nHope you\'ll like it :)</string>
-    <string name="trial_end_description">Please upgrade to the Pro version to enjoy the app to the fullest.\n\nYou just have to pay for it once in a lifetime and if you won\'t be satisfied, you can uninstall it and get a refund.\n\nSee you there :)</string>
-    <plurals name="trial_expires_days">
-        <item quantity="one">Your trial expires in %d day.</item>
-        <item quantity="other">Your trial expires in %d days.</item>
-    </plurals>
-    <!-- Google Play listing -->
     <string name="deprecated_app">ЗАСТАРЕЛО: Ова верзија апликације се више не одржава, набавите Про верзију на хттпс://плаи.гоогле.цом/сторе/аппс/детаилс\?ид=цом.симплемобилетоолс.ккк.про</string>
     <string name="pro_app_refund">Не заборавите да ако деинсталирате било коју плаћену апликацију у року од 2 сата, новац ће вам аутоматски бити враћен. Ако желите повраћај новца било када касније, само нас контактирајте на hello@fossify.org и добићете га. То олакшава испробавање :)</string>
-    <!-- Description of our developer profile on Google Play, it can have max 140 characters -->
     <string name="developer_description">Група једноставних Андроид апликација отвореног кода са прилагодљивим виџетима, без огласа и непотребних дозвола.</string>
 </resources>

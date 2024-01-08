@@ -78,20 +78,16 @@
     <string name="phone_storage_hidden">手机空间 (其他程序不可见)</string>
     <string name="audio">音频</string>
     <string name="scanning">扫描中…</string>
-    <!-- Events -->
     <string name="birthday">生日</string>
     <string name="anniversary">纪念日</string>
-    <!-- Emails -->
     <string name="home">家庭</string>
     <string name="work">工作</string>
-    <!-- Phone numbers -->
     <string name="mobile">手机</string>
     <string name="main_number">主用</string>
     <string name="work_fax">工作传真</string>
     <string name="home_fax">家庭传真</string>
     <string name="pager">呼叫器</string>
     <string name="no_phone_number_found">未发现电话号码</string>
-    <!-- View types -->
     <string name="change_view_type">更改视图类型</string>
     <string name="grid">网格</string>
     <string name="grid_pro">网格 (Pro)</string>
@@ -111,7 +107,6 @@
     <plurals name="row_counts">
         <item quantity="other">%d 行</item>
     </plurals>
-    <!-- Blocked numbers -->
     <string name="manage_blocked_numbers">管理黑名单</string>
     <string name="not_blocking_anyone">你没有拦截任何人。</string>
     <string name="add_a_blocked_number">添加黑名单号码</string>
@@ -129,18 +124,15 @@
     <string name="block_hidden_messages">拦截来自隐藏号码的短信</string>
     <string name="add_blocked_number_helper_text">输入号码或模式（例如 *12345*、+1*8888）以阻止来自匹配模式的号码的所有来电和消息。</string>
     <string name="must_make_default_caller_id_app">要拦截未知号码，你必须将应用设为默认的来电显示和骚扰电话屏蔽应用。</string>
-    <string name="block_contact">Block contact</string>
     <string name="block_contact_success">已封禁联系人</string>
     <string name="block_contact_fail">无法封禁联系人</string>
     <string name="unblock_contact">取消封禁联系人</string>
     <string name="unblock_contact_success">已取消封禁联系人</string>
     <string name="unblock_contact_fail">无法取消封禁联系人</string>
-    <!-- Favorites -->
     <string name="favorites">收藏</string>
     <string name="add_favorites">添加收藏</string>
     <string name="add_to_favorites">添加到收藏</string>
     <string name="remove_from_favorites">从收藏中移除</string>
-    <!-- Search -->
     <string name="search">搜索</string>
     <string name="search_in_placeholder">在 %s 中搜索</string>
     <string name="type_2_characters">请输入至少两个字符来开始搜索。</string>
@@ -162,12 +154,10 @@
     <string name="search_text">搜索文本</string>
     <string name="search_conversations">搜索对话</string>
     <string name="search_recordings">搜索录音</string>
-    <!-- Filters -->
     <string name="filter">过滤</string>
     <string name="filter_pro">过滤 (Pro)</string>
     <string name="no_items_found">找不到任何项目。</string>
     <string name="change_filter">更改过滤器</string>
-    <!-- Permissions -->
     <string name="no_storage_permissions">请授予存储权限</string>
     <string name="no_contacts_permission">请授予通讯录权限</string>
     <string name="no_camera_permissions">请授予相机权限</string>
@@ -186,7 +176,6 @@
     <string name="allow_location_permission">你必须允许应用访问你的位置，否则它不知道位置。</string>
     <string name="grant_permission">授予权限</string>
     <string name="permission_required">权限是必需的</string>
-    <!-- Renaming -->
     <string name="rename_file">重命名文件</string>
     <string name="rename_folder">重命名文件夹</string>
     <string name="rename_file_error">无法重命名文件</string>
@@ -211,7 +200,6 @@
     <string name="filename_without_json">文件名（不带 .json）</string>
     <string name="filename_without_zip">文件名（不带 .zip）</string>
     <string name="cannot_hide_files">从 Android 11 开始，你再也不能像这样隐藏文件和文件夹了</string>
-    <!-- Copy / Move -->
     <string name="copy">复制</string>
     <string name="move">移动</string>
     <string name="copy_move">复制／移动</string>
@@ -241,7 +229,6 @@
     <string name="no_new_items">没有找到新的项目</string>
     <string name="no_space">目标位置没有足够的可用空间。\n需要 %1$s，可用 %2$s</string>
     <string name="system_service_disabled">选择文件和文件夹的系统服务不可用</string>
-    <!-- Create new -->
     <string name="create_new">新建</string>
     <string name="folder">文件夹</string>
     <string name="file">文件</string>
@@ -250,7 +237,6 @@
     <string name="invalid_name">名称包含无效字符</string>
     <string name="empty_name">请输入名称</string>
     <string name="unknown_error_occurred">未知错误</string>
-    <!-- File operation conflicts -->
     <string name="file_already_exists">文件 \"%s\" 已存在</string>
     <string name="file_already_exists_overwrite">文件 \"%s\" 已存在。是否覆盖？</string>
     <string name="folder_already_exists">文件夹 \"%s\" 已存在</string>
@@ -265,7 +251,6 @@
     <string name="rename_in_sd_card_system_restriction">系统不允许在此文件夹内重命名</string>
     <string name="rename_internal_system_restriction">不能在内部存储上直接重命名文件夹，只能重命名子文件夹</string>
     <string name="cannot_rename_folder">无法重命名此文件夹</string>
-    <!-- File picker -->
     <string name="select_folder">选择文件夹</string>
     <string name="select_file">选择文件</string>
     <string name="confirm_storage_access_title">确认外部存储器访问权限</string>
@@ -281,19 +266,16 @@
     <plurals name="items">
         <item quantity="other">%d 个项目</item>
     </plurals>
-    <!-- Are you sure you want to delete 5 items? -->
     <plurals name="delete_items">
         <item quantity="other">%d 个项目</item>
     </plurals>
     <plurals name="deleting_items">
         <item quantity="other">正在删除 %d 个项目</item>
     </plurals>
-    <!-- Are you sure you want to delete 5 contacts? -->
     <plurals name="delete_contacts">
         <item quantity="one">%d 联系人</item>
         <item quantity="other">%d 联系人</item>
     </plurals>
-    <!-- Storages -->
     <string name="select_storage">选择存储器</string>
     <string name="storage">存储</string>
     <string name="internal">内部存储器</string>
@@ -305,7 +287,6 @@
     <string name="app_on_sd_card">您似乎已将应用程序安装在 SD 卡上，这使得应用的小部件不可用。您将无法在小部件列表里看到它们。
         这是一个系统限制，所以如果您想要使用这些小部件，您必须将应用移回内部存储器。</string>
     <string name="wrong_folder_selected">选中了错误的文件夹，请选择路径 \'%s\'</string>
-    <!-- File properties -->
     <string name="properties">属性</string>
     <string name="path">路径</string>
     <string name="items_selected">已选择项目</string>
@@ -321,14 +302,12 @@
     <string name="iso_speed">ISO 速度</string>
     <string name="f_number">光圈</string>
     <string name="camera">相机</string>
-    <string name="exif">EXIF</string>
     <string name="song_title">歌曲标题</string>
     <string name="gps_coordinates">GPS 坐标</string>
     <string name="altitude">海拔高度</string>
     <string name="remove_exif">删除 EXIF</string>
     <string name="remove_exif_confirmation">你确定你想删除 EXIF 值，如 GPS 坐标，相机型号等\?</string>
     <string name="exif_removed">成功删除了 EXIF 值</string>
-    <!-- Color customization -->
     <string name="background_color">背景色</string>
     <string name="text_color">文本颜色</string>
     <string name="primary_color">主体色</string>
@@ -354,7 +333,6 @@
     <string name="share_colors_success">颜色更改成功。已添加名为“共享”的新主题，以后您可以使用它来更改所有应用的颜色。</string>
     <string name="shared_theme_note">请注意，即便你在使用 Pro 版本，你仍要需要 Fossify Thank You 应用来同步颜色。</string>
     <string name="purchase_thank_you">请购买 &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; 解锁此功能并支持开发。谢谢！</string>
-    <!-- Themes -->
     <string name="light_theme">浅色主题</string>
     <string name="dark_theme">深色主题</string>
     <string name="auto_theme">自动</string>
@@ -366,10 +344,8 @@
     <string name="custom">自定义</string>
     <string name="shared">共享</string>
     <string name="system_default">系统默认</string>
-    <!-- What's new -->
     <string name="whats_new">更新日志</string>
     <string name="whats_new_disclaimer">* 此处仅列举了重大更新，更多修正可在使用中体验</string>
-    <!-- Actionbar items -->
     <string name="delete">删除</string>
     <string name="remove">移除</string>
     <string name="rename">重命名</string>
@@ -413,7 +389,6 @@
     <string name="hide_line_numbers">隐藏行编号</string>
     <string name="sleep_timer">睡眠定时器</string>
     <string name="unblock">取消封禁</string>
-    <!-- Sorting -->
     <string name="sort_by">排序方式</string>
     <string name="name">名称</string>
     <string name="size">大小</string>
@@ -437,13 +412,9 @@
     <string name="use_custom_sorting">使用自定义排序</string>
     <string name="change_order">更改排序</string>
     <string name="more_options">更多选项</string>
-    <!-- Confirmation dialog -->
     <string name="proceed_with_deletion">是否执行此删除操作？</string>
     <string name="deletion_confirmation">您确定要删除 %s？</string>
-    <string name="deletion_confirmation_short">Delete %s?</string>
-    <!-- Are you sure you want to delete 5 items? -->
     <string name="move_to_recycle_bin_confirmation">您确定要移动 %s到回收站？</string>
-    <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
     <string name="are_you_sure_delete">您确定要删除此项目吗？</string>
     <string name="are_you_sure_recycle_bin">您确定要移动此项目到回收站吗？</string>
     <string name="do_not_ask_again">重启前不再提醒</string>
@@ -454,7 +425,6 @@
     <plurals name="delete_warning">
         <item quantity="other">警告: 您正在删除 %d 目录</item>
     </plurals>
-    <!-- Password protection -->
     <string name="pin">密码</string>
     <string name="enter_pin">输入密码</string>
     <string name="please_enter_pin">请输入密码</string>
@@ -489,7 +459,6 @@
     <string name="empty_password_new">请输入密码</string>
     <string name="empty_password">请输入密码</string>
     <string name="invalid_password">密码不正确</string>
-    <!-- Times -->
     <string name="yesterday">昨天</string>
     <string name="today">今天</string>
     <string name="tomorrow">明天</string>
@@ -499,10 +468,6 @@
     <string name="minutes_raw">分钟</string>
     <string name="hours_raw">小时</string>
     <string name="days_raw">天</string>
-    <string name="seconds_letter">s</string>
-    <string name="minutes_letter">m</string>
-    <string name="hours_letter">h</string>
-    <string name="week_number_short">wk.</string>
     <plurals name="seconds">
         <item quantity="other">%d 秒</item>
     </plurals>
@@ -524,7 +489,6 @@
     <plurals name="years">
         <item quantity="other">%d 年</item>
     </plurals>
-    <!-- For example: I will be there in 5 minutes -->
     <plurals name="in_seconds">
         <item quantity="other">%d 秒</item>
     </plurals>
@@ -546,7 +510,6 @@
     <plurals name="in_years">
         <item quantity="other">%d 年</item>
     </plurals>
-    <!-- For example: Event reminder: 3 minutes before -->
     <plurals name="seconds_before">
         <item quantity="other">%d 秒前</item>
     </plurals>
@@ -568,7 +531,6 @@
     <plurals name="years_before">
         <item quantity="other">%d 年前</item>
     </plurals>
-    <!-- For example: Postpone reminder by 3 minutes -->
     <plurals name="by_seconds">
         <item quantity="other">%d 秒</item>
     </plurals>
@@ -590,14 +552,12 @@
     <plurals name="by_years">
         <item quantity="other">%d 年</item>
     </plurals>
-    <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
     <string name="alarm_goes_off_in">距闹钟响起还有：\n%s</string>
     <string name="reminder_triggers_in">距提醒触发还有：\n%s</string>
     <string name="time_remaining">剩余时间：\n%s</string>
     <string name="alarm_warning">在依赖它之前，请确保闹钟能够正常工作。由于系统与节电有关的限制，它有时可能会失灵。</string>
     <string name="reminder_warning">在依赖它们之前，请确保提醒能够正常工作。由于系统与节电有关的限制，它们有时可能会失灵。</string>
     <string name="notifications_disabled">此应用程序的通知已被禁用。请在您的设备设置中启用它们。</string>
-    <!-- Alarms -->
     <string name="alarm">闹钟</string>
     <string name="snooze">贪睡</string>
     <string name="dismiss">关闭</string>
@@ -609,7 +569,6 @@
     <string name="no_sound">无铃声</string>
     <string name="during_day_at_hh_mm">在日间的 小时:分钟 内</string>
     <string name="during_day_at">在日间的 %02d:%02d 内</string>
-    <!-- Settings -->
     <string name="settings">设置</string>
     <string name="purchase_simple_thank_you">购买 Fossify Thank You</string>
     <string name="general_settings">通用</string>
@@ -620,7 +579,6 @@
     <string name="feature_locked">已锁定</string>
     <string name="customize_widget_colors">自定义小部件颜色</string>
     <string name="customize_notifications">自定义通知</string>
-    <string name="notification_sound">Notification sound</string>
     <string name="use_english_language">强制使用英语语言</string>
     <string name="language">语言</string>
     <string name="show_hidden_items">显示隐藏的项目</string>
@@ -656,7 +614,6 @@
     <string name="start_name_with_surname">姓氏在前</string>
     <string name="clear_cache">清除缓存</string>
     <string name="show_call_confirmation_dialog">开始通话前显示通话确认框</string>
-    <!-- Setting sections -->
     <string name="visibility">可见度</string>
     <string name="security">安全</string>
     <string name="scrolling">滚动</string>
@@ -670,7 +627,6 @@
     <string name="main_screen">主屏幕</string>
     <string name="thumbnails">缩略图</string>
     <string name="list_view">列表视图</string>
-    <!-- Excluding -->
     <string name="exclude">排除</string>
     <string name="exclude_folder">排除文件夹</string>
     <string name="excluded_folders">排除的文件夹</string>
@@ -680,7 +636,6 @@
     <string name="remove_all_description">是否移除排除列表中的所有项目？此操作不会删除文件夹本身。</string>
     <string name="temporarily_show_excluded">临时显示已排除的</string>
     <string name="stop_showing_excluded">停止显示已排除的</string>
-    <!-- Default tab to open -->
     <string name="manage_shown_tabs">管理显示的页面</string>
     <string name="default_tab_to_open">应用启动时打开的页面</string>
     <string name="contacts_tab">联系人</string>
@@ -690,7 +645,6 @@
     <string name="last_used_tab">上次使用的</string>
     <string name="files_tab">文件</string>
     <string name="recent_files_tab">最近的文件</string>
-    <!-- Recycle Bin -->
     <string name="restore_this_file">恢复此文件</string>
     <string name="restore_selected_files">恢复选中的文件</string>
     <string name="restore_all_files">恢复所有文件</string>
@@ -706,7 +660,6 @@
     <plurals name="moving_items_into_bin">
         <item quantity="other">正在移动 %d 个项目到回收站</item>
     </plurals>
-    <!-- Import / Export -->
     <string name="importing">正在导入…</string>
     <string name="exporting">正在导出…</string>
     <string name="importing_successful">导入成功</string>
@@ -729,12 +682,9 @@
 \n%h - 小时
 \n%m - 分钟
 \n%s - 秒</string>
-    <!-- OTG devices -->
-    <string name="usb">USB</string>
     <string name="usb_detected">检测到有 USB 设备连接到您的设备。您需要授予额外的权限以确保文件能够正确显示。</string>
     <string name="confirm_usb_storage_access_text">请在下一界面选择 USB 设备的根文件夹以授予访问权限</string>
     <string name="wrong_root_selected_usb">选择错误，请正确选择 USB 设备的根文件夹</string>
-    <!-- Dates -->
     <string name="january">一月</string>
     <string name="february">二月</string>
     <string name="march">三月</string>
@@ -747,20 +697,7 @@
     <string name="october">十月</string>
     <string name="november">十一月</string>
     <string name="december">十二月</string>
-    <!-- Short months -->
-    <string name="january_short">Jan</string>
-    <string name="february_short">Feb</string>
-    <string name="march_short">Mar</string>
-    <string name="april_short">Apr</string>
-    <string name="may_short">May</string>
-    <string name="june_short">June</string>
-    <string name="july_short">July</string>
-    <string name="august_short">Aug</string>
     <string name="september_short">九月</string>
-    <string name="october_short">Oct</string>
-    <string name="november_short">Nov</string>
-    <string name="december_short">Dec</string>
-    <!-- in January -->
     <string name="in_january">一月</string>
     <string name="in_february">二月</string>
     <string name="in_march">三月</string>
@@ -794,7 +731,6 @@
     <string name="friday_short">周五</string>
     <string name="saturday_short">周六</string>
     <string name="sunday_short">周日</string>
-    <!-- Pro version -->
     <string name="upgrade_to_pro_long">您的应用版本将不会再收到更新。请升级到专业版以获取最新的程序修复和改进。</string>
     <string name="upgrade_to_pro_long_click">您的应用版本不会再收到更新。请点击此处升级到专业版以获取最新的程序修复和改进。</string>
     <string name="it_is_free">免费期限至: %s。如果在此之后下载，您可以永久免费使用。</string>
@@ -842,7 +778,6 @@
 \n如果你对专业版设置感到满意，你就可以卸载旧的免费版，因你不再需要它。它也会阻止该对话框再次出现。
 \n
 \n谢谢！</string>
-    <!-- About -->
     <string name="about">关于</string>
     <string name="website">网站</string>
     <string name="website_label">应用源码</string>
@@ -893,7 +828,6 @@
     <string name="widget_locked_pro">小部件被锁定。
 \n请升级到专业版解锁。</string>
     <string name="features_locked">此功被锁定，请购买 &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;获取全功能应用。&lt;br&gt;&lt;br&gt;购买是一次性的，而且如果您不满意，我们还可以把钱退还。</string>
-    <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">嘿，&lt;br&gt;&lt;br&gt;我们最近发布了一些新的应用：&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; 您可以点击标题或图标来下载。&lt;br&gt;&lt;br&gt; 谢谢</string>
     <string name="app_launcher_short">应用启动器</string>
     <string name="calculator_short">计算器</string>
@@ -918,7 +852,6 @@
             您的应用版本已损坏。 请<a href="%s">在此</a>下载原版应用。
         ]]>
     </string>
-    <!-- FAQ -->
     <string name="frequently_asked_questions">常见问题</string>
     <string name="before_asking_question">在提问之前，请先阅读</string>
     <string name="faq_1_title_commons">为什么我在应用小部件列表里没有找到这个应用的小部件？</string>
@@ -945,58 +878,11 @@
         想要选择所有的项目，只需长安一个项目，然后点击在左上角的项目计数器。这样将会选择或者取消选择全部项目。</string>
     <string name="faq_10_title_commons">我已经购买了这个应用，但我无法在另外的设备下载它。</string>
     <string name="faq_10_text_commons">尝试清除您 Google Play 应用缓存并重启您的设备。这是某些 Google Play 的小问题，并非应用程序本身的问题。</string>
-    <!-- Contributors -->
     <string name="contributors">贡献者</string>
     <string name="translation">翻译</string>
     <string name="development">开发</string>
     <string name="other_help">其他帮助</string>
     <string name="contributors_label">此列表包含对 Fossify 套件中的任何应用程序有显著帮助的所有人，而不仅仅是这个应用。 翻译由志愿者处理，如果您也想提供帮助，请告诉我们。 翻译指南位于 &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;this website&lt;/a&gt;，或者如果你有任何问题，欢迎发送电子邮件到 &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt;。感谢所有贡献者和其他支持者！</string>
-    <string name="translation_arabic">Arabic</string>
-    <string name="translation_azerbaijani">Azerbaijani</string>
-    <string name="translation_bengali">Bengali</string>
-    <string name="translation_breton">Breton</string>
-    <string name="translation_bulgarian">Bulgarian</string>
-    <string name="translation_catalan">Catalan</string>
-    <string name="translation_czech">Czech</string>
-    <string name="translation_welsh">Welsh</string>
-    <string name="translation_danish">Danish</string>
-    <string name="translation_english">English</string>
-    <string name="translation_german">German</string>
-    <string name="translation_greek">Greek</string>
-    <string name="translation_spanish">Spanish</string>
-    <string name="translation_basque">Basque</string>
-    <string name="translation_persian">Persian</string>
-    <string name="translation_finnish">Finnish</string>
-    <string name="translation_french">French</string>
-    <string name="translation_galician">Galician</string>
-    <string name="translation_hindi">Hindi</string>
-    <string name="translation_croatian">Croatian</string>
-    <string name="translation_hungarian">Hungarian</string>
-    <string name="translation_indonesian">Indonesian</string>
-    <string name="translation_italian">Italian</string>
-    <string name="translation_hebrew">Hebrew</string>
-    <string name="translation_japanese">Japanese</string>
-    <string name="translation_korean">Korean</string>
-    <string name="translation_lithuanian">Lithuanian</string>
-    <string name="translation_nepali">Nepali</string>
-    <string name="translation_norwegian">Norwegian</string>
-    <string name="translation_dutch">Dutch</string>
-    <string name="translation_polish">Polish</string>
-    <string name="translation_portuguese">Portuguese</string>
-    <string name="translation_romanian">Romanian</string>
-    <string name="translation_russian">Russian</string>
-    <string name="translation_slovak">Slovak</string>
-    <string name="translation_slovenian">Slovenian</string>
-    <string name="translation_serbian">Serbian</string>
-    <string name="translation_swedish">Swedish</string>
-    <string name="translation_tamil">Tamil</string>
-    <string name="translation_turkish">Turkish</string>
-    <string name="translation_ukrainian">Ukrainian</string>
-    <string name="translation_vietnamese">Vietnamese</string>
-    <string name="translation_chinese_hk">Chinese (Hong Kong)</string>
-    <string name="translation_chinese_cn">Chinese (Simplified)</string>
-    <string name="translation_chinese_tw">Chinese (Traditional)</string>
-    <!-- Pro comparison (shown in the deprecated free apps) -->
     <string name="why_upgrade">立即获取专业版！</string>
     <string name="why_upgrade_basic_version">基础版</string>
     <string name="why_upgrade_pro_version">专业版</string>
@@ -1006,39 +892,32 @@
     <string name="why_upgrade_footer_one_time_payment">一次性付款</string>
     <string name="why_upgrade_improved_design">改进的设计</string>
     <string name="why_upgrade_many_other_improvements">许多其他改进</string>
-    <!-- Gallery Pro -->
     <string name="why_upgrade_advanced_photo_editor">高级照片编辑器</string>
     <string name="why_upgrade_advanced_photo_video_editor">高级照片和视频编辑器</string>
     <string name="why_upgrade_heic_support">支持 HEIC/HEIF 文件</string>
     <string name="why_upgrade_batch_renaming">高级批量文件重命名</string>
     <string name="why_upgrade_folder_locking">单独文件夹锁定</string>
     <string name="why_upgrade_printing_support">支持打印</string>
-    <!-- Calendar Pro -->
     <string name="why_upgrade_time_zone_support">支持时区</string>
     <string name="why_upgrade_attendees_emails">出席人和电邮提醒</string>
     <string name="why_upgrade_easy_event_importing">轻松导入事件</string>
     <string name="why_upgrade_new_widgets">新的小部件</string>
-    <!-- Contacts Pro -->
     <string name="why_upgrade_duplicate_contact_merging">改进了重复联系人合并功能</string>
     <string name="why_upgrade_font_size_customization">定制字体大小</string>
     <string name="why_upgrade_private_contact_sharing">应用内可选的私密联系人共享</string>
     <string name="why_upgrade_customizable_contact_ringtones">可自定义的联系人铃声</string>
     <string name="why_upgrade_contact_filtering">联系人过滤</string>
     <string name="why_upgrade_contact_private_contacts">私密地保存联系人</string>
-    <!-- Notes Pro -->
     <string name="why_upgrade_checklists">清单</string>
     <string name="why_upgrade_different_note_per_widget">每个小部件不同的注释和颜色</string>
     <string name="why_upgrade_note_locking">锁定笔记</string>
-    <!-- File Manager Pro -->
     <string name="why_upgrade_date_and_time_format">自定义日期和时间格式</string>
     <string name="why_upgrade_shortcuts">主屏幕快捷方式</string>
     <string name="why_upgrade_file_compression">文件压缩支持</string>
     <string name="why_upgrade_recents_tab">包含最近文件的标签页</string>
-    <!-- Draw Pro -->
     <string name="why_upgrade_background_color_customization">自定义背景色</string>
     <string name="why_upgrade_file_importing">支持文件导入</string>
     <string name="why_upgrade_zooming">缩放</string>
-    <!-- License -->
     <string name="notice">此应用使用了以下三方库。致谢。</string>
     <string name="third_party_licences">第三方许可证</string>
     <string name="kotlin_title">Kotlin (编程语言)</string>
@@ -1075,7 +954,6 @@
     <string name="m3u_parser_title">M3U 解析器 (m3u 播放列表文件处理)</string>
     <string name="android_lame_title">AndroidLame (mp3 编码器)</string>
     <string name="zip4j_title">Zip4j（ZIP 压缩和解压缩）</string>
-    <!-- Trial -->
     <string name="trial_expired">试用期已过</string>
     <string name="start_free_trial">开始免费试用</string>
     <string name="trial_expires_soon">你的试用期即将结束。</string>
@@ -1094,9 +972,7 @@
     <plurals name="trial_expires_days">
         <item quantity="other">你的试用 %d 天后到期。</item>
     </plurals>
-    <!-- Google Play listing -->
     <string name="deprecated_app">已弃用：该应用版本已不再维护，请在以下链接获取专业版 https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">别忘了如果您在2小时内卸载任何付费应用将会自动退款。如果您想在之后退款，只需通过 hello@fossify.org 联系我们即可。这样您就可以放心试用了 :)</string>
-    <!-- Description of our developer profile on Google Play, it can have max 140 characters -->
     <string name="developer_description">一组简单且开源的 Android 应用程序，可自定义小部件，并且没有广告和不必要的权限。</string>
 </resources>
