@@ -11,7 +11,6 @@
     <string name="invalid_file_format">El format del fitxer no és vàlid</string>
     <string name="out_of_memory_error">Error de memòria exhaurida</string>
     <string name="an_error_occurred">S\'ha produït un error: %s</string>
-    <string name="error">Error: %s</string>
     <string name="open_with">Obre amb</string>
     <string name="edit_with">Edita amb</string>
     <string name="edit">Edita</string>
@@ -28,11 +27,9 @@
     <string name="always">Sempre</string>
     <string name="never">Mai</string>
     <string name="details">Detalls</string>
-    <string name="notes">Notes</string>
     <string name="deleting_folder">S\'està suprimint la carpeta «%s»</string>
     <string name="none">Cap</string>
     <string name="label">Etiqueta</string>
-    <string name="transparent">Transparent</string>
     <string name="transparent_color">Color transparent</string>
     <string name="select_a_different_color">Seleccioneu un color diferent</string>
     <string name="download">Baixa</string>
@@ -50,7 +47,6 @@
     <string name="insert_text_here">Introdueix el text aquí</string>
     <string name="call_person">Truca a %s</string>
     <string name="confirm_calling_person">Confirmeu la trucada a %s</string>
-    <string name="zero">Zero</string>
     <string name="one">U</string>
     <string name="two">Dos</string>
     <string name="three">Tres</string>
@@ -76,22 +72,17 @@
     <string name="updating">S\'està actualitzant…</string>
     <string name="phone_storage">Emmagatzematge del telèfon</string>
     <string name="phone_storage_hidden">Emmagatzematge del telèfon (no visible per altres aplicacions)</string>
-    <string name="audio">Audio</string>
     <string name="scanning">S\'està explorant…</string>
-    <!-- Events -->
     <string name="birthday">Data de naixement</string>
     <string name="anniversary">Aniversari</string>
-    <!-- Emails -->
     <string name="home">Llar</string>
     <string name="work">Feina</string>
-    <!-- Phone numbers -->
     <string name="mobile">Mòbil</string>
     <string name="main_number">Principal</string>
     <string name="work_fax">Fax de la feina</string>
     <string name="home_fax">Fax de la llar</string>
     <string name="pager">Cercapersones</string>
     <string name="no_phone_number_found">No s\'ha trobat cap número de telèfon</string>
-    <!-- View types -->
     <string name="change_view_type">Canvia el tipus de vista</string>
     <string name="grid">Quadrícula</string>
     <string name="grid_pro">Quadrícula (Pro)</string>
@@ -113,7 +104,6 @@
         <item quantity="one">%d fila</item>
         <item quantity="other">%d files</item>
     </plurals>
-    <!-- Blocked numbers -->
     <string name="manage_blocked_numbers">Gestió dels números bloquejats</string>
     <string name="not_blocking_anyone">No esteu bloquejant a ningú.</string>
     <string name="add_a_blocked_number">Afegeix un número bloquejat</string>
@@ -131,18 +121,15 @@
     <string name="block_hidden_messages">Bloqueja els missatges des de números ocults</string>
     <string name="add_blocked_number_helper_text">Introduïu un número o un patró (per exemple, *12345*, +1*8888) per bloquejar totes les trucades i missatges dels números que coincideixin amb el patró.</string>
     <string name="must_make_default_caller_id_app">No es poden bloquejar números desconeguts sense el permís d\'identificació de trucades.</string>
-    <string name="block_contact">Block contact</string>
     <string name="block_contact_success">Contacte bloquejat</string>
     <string name="block_contact_fail">No s\'ha pogut bloquejar el contacte</string>
     <string name="unblock_contact">Desbloqueja el contacte</string>
     <string name="unblock_contact_success">Contacte desbloquejat</string>
     <string name="unblock_contact_fail">No s\'ha pogut desbloquejar el contacte</string>
-    <!-- Favorites -->
     <string name="favorites">Preferits</string>
     <string name="add_favorites">Afegeix preferits</string>
     <string name="add_to_favorites">Afegeix als preferits</string>
     <string name="remove_from_favorites">Elimina dels preferits</string>
-    <!-- Search -->
     <string name="search">Cerca</string>
     <string name="search_in_placeholder">Cerca a %s</string>
     <string name="type_2_characters">Escriviu com a mínim 2 caràcters per iniciar la cerca.</string>
@@ -164,12 +151,10 @@
     <string name="search_text">Cerca text</string>
     <string name="search_conversations">Cerca converses</string>
     <string name="search_recordings">Cerca enregistraments</string>
-    <!-- Filters -->
     <string name="filter">Filtre</string>
     <string name="filter_pro">Filtre (Pro)</string>
     <string name="no_items_found">No s\'ha trobat cap element.</string>
     <string name="change_filter">Canvia el filtre</string>
-    <!-- Permissions -->
     <string name="no_storage_permissions">Es requereix permís d\'accés a l\'emmagatzematge</string>
     <string name="no_contacts_permission">Es requereix permís d\'accés als contactes</string>
     <string name="no_camera_permissions">Es requereix permís d\'accés a la càmera</string>
@@ -188,7 +173,6 @@
     <string name="allow_location_permission">Cal permetre que l\'aplicació accedeixi a la vostra ubicació, en cas contrari no la sabrà.</string>
     <string name="grant_permission">Atorga el permís</string>
     <string name="permission_required">Es requereix permís</string>
-    <!-- Renaming -->
     <string name="rename_file">Canvia el nom del fitxer</string>
     <string name="rename_folder">Canvia el nom de la carpeta</string>
     <string name="rename_file_error">No s\'ha pogut canviar el nom del fitxer</string>
@@ -219,7 +203,6 @@
     <string name="filename_without_json">Nom del fitxer (sense .json)</string>
     <string name="filename_without_zip">Nom del fitxer (sense .zip)</string>
     <string name="cannot_hide_files">A partir d\'Android 11 ja no podeu ocultar fitxers ni carpetes com aquests</string>
-    <!-- Copy / Move -->
     <string name="copy">Copia</string>
     <string name="move">Mou</string>
     <string name="copy_move">Copia / Mou</string>
@@ -249,7 +232,6 @@
     <string name="no_new_items">No s\'ha trobat cap element nou</string>
     <string name="no_space">La destinació no té prou espai disponible.\nNecessari %1$s, disponible %2$s</string>
     <string name="system_service_disabled">El servei del sistema per seleccionar fitxers i carpetes no està disponible</string>
-    <!-- Create new -->
     <string name="create_new">Crea nou</string>
     <string name="folder">Carpeta</string>
     <string name="file">Fitxer</string>
@@ -258,7 +240,6 @@
     <string name="invalid_name">El nom conté caràcters no vàlids</string>
     <string name="empty_name">Introduïu un nom</string>
     <string name="unknown_error_occurred">S\'ha produït un error desconegut</string>
-    <!-- File operation conflicts -->
     <string name="file_already_exists">El fitxer «%s» ja existeix</string>
     <string name="file_already_exists_overwrite">El fitxer «%s» ja existeix. Cal sobreescriure\'l\?</string>
     <string name="folder_already_exists">La carpeta «%s» ja existeix</string>
@@ -273,7 +254,6 @@
     <string name="rename_in_sd_card_system_restriction">El sistema no permet canviar el nom en aquesta carpeta</string>
     <string name="rename_internal_system_restriction">No es poden canviar els noms de les carpetes directament a l\'emmagatzematge intern, només les subcarpetes</string>
     <string name="cannot_rename_folder">No s\'ha pogut canviar el nom d\'aquesta carpeta</string>
-    <!-- File picker -->
     <string name="select_folder">Selecciona una carpeta</string>
     <string name="select_file">Seleccioneu un fitxer</string>
     <string name="confirm_storage_access_title">Confirmació d\'accés a l\'emmagatzematge extern</string>
@@ -290,7 +270,6 @@
         <item quantity="one">%d element</item>
         <item quantity="other">%d elements</item>
     </plurals>
-    <!-- Are you sure you want to delete 5 items? -->
     <plurals name="delete_items">
         <item quantity="one">%d element</item>
         <item quantity="other">%d elements</item>
@@ -299,12 +278,10 @@
         <item quantity="one">S\'està suprimint %d element</item>
         <item quantity="other">S\'estan suprimint %d elements</item>
     </plurals>
-    <!-- Are you sure you want to delete 5 contacts? -->
     <plurals name="delete_contacts">
         <item quantity="one">%d contacte</item>
         <item quantity="other">%d contactes</item>
     </plurals>
-    <!-- Storages -->
     <string name="select_storage">Seleccioneu l\'emmagatzematge</string>
     <string name="storage">Emmagatzematge</string>
     <string name="internal">Intern</string>
@@ -315,7 +292,6 @@
     <string name="sd_card_usb_same">Els camins de la targeta SD i del dispositiu USB no poden ser els mateixos</string>
     <string name="app_on_sd_card">Sembla que l\'aplicació està instal·lada en una targeta SD, això fa que els ginys de l\'aplicació no estiguin disponibles. No els veureu a la llista de ginys disponibles. És una limitació del sistema, de manera que si voleu utilitzar els ginys, cal tornar a moure l\'aplicació a l\'emmagatzematge intern.</string>
     <string name="wrong_folder_selected">S\'ha seleccionat una carpeta incorrecta, seleccioneu el camí «%s»</string>
-    <!-- File properties -->
     <string name="properties">Propietats</string>
     <string name="path">Camí</string>
     <string name="items_selected">Elements seleccionats</string>
@@ -325,20 +301,17 @@
     <string name="duration">Durada</string>
     <string name="artist">Artista</string>
     <string name="album">Àlbum</string>
-    <string name="genre">Genre</string>
     <string name="focal_length">Distància focal</string>
     <string name="exposure_time">Temps d\'exposició</string>
     <string name="iso_speed">Velocitat ISO</string>
     <string name="f_number">Nombre f</string>
     <string name="camera">Càmera</string>
-    <string name="exif">EXIF</string>
     <string name="song_title">Títol de la cançó</string>
     <string name="gps_coordinates">Coordenades GPS</string>
     <string name="altitude">Altitud</string>
     <string name="remove_exif">Elimina l\'EXIF</string>
     <string name="remove_exif_confirmation">Segur que voleu eliminar els valors de l\'EXIF com les coordenades GPS, el model de càmera, etc.\?</string>
     <string name="exif_removed">Els valors de l\'EXIF s\'han eliminat correctament</string>
-    <!-- Color customization -->
     <string name="background_color">Color de fons</string>
     <string name="text_color">Color del text</string>
     <string name="primary_color">Color primari</string>
@@ -359,17 +332,7 @@
     <string name="undo_changes_confirmation">Segur que voleu desfer els canvis\?</string>
     <string name="cannot_be_undone">Aquesta acció no es pot desfer.</string>
     <string name="save_before_closing">Hi ha canvis no desats. Els voleu desar abans de sortir\?</string>
-    <string name="apply_to_all_apps">Apply colors to all Fossify Apps</string>
-    <string name="app_icon_color_warning">Caution: Certain launchers may not handle app icon customization correctly. If the icon disappears, attempt launching the app through Google Play or a widget, if accessible.
-        After launching, restore the default green icon color #106D1F. In extreme cases, reinstalling the app may be necessary.</string>
     <string name="share_colors_success">Colors actualitzats correctament. S\'ha afegit un tema nou anomenat «Compartit». Feu-lo servir per actualitzar tots els colors de l\'aplicació en el futur.</string>
-    <string name="shared_theme_note">Note that even though you are using the Pro app version, you still need Fossify Thank You for technical reasons. It takes care of the color synchronization.</string>
-    <string name="purchase_thank_you">
-        <![CDATA[
-            Please purchase <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> to unlock this function and support the development. Thanks!
-        ]]>
-    </string>
-    <!-- Themes -->
     <string name="light_theme">Clar</string>
     <string name="dark_theme">Fosc</string>
     <string name="auto_theme">Automàtic</string>
@@ -381,10 +344,8 @@
     <string name="custom">Personalitzat</string>
     <string name="shared">Compartit</string>
     <string name="system_default">Predeterminat del sistema</string>
-    <!-- What's new -->
     <string name="whats_new">Què hi ha de nou</string>
     <string name="whats_new_disclaimer">* Aquí només s\'enumeren les actualitzacions més importants. Sempre hi ha també millores petites</string>
-    <!-- Actionbar items -->
     <string name="delete">Suprimeix</string>
     <string name="remove">Elimina</string>
     <string name="rename">Canvia el nom</string>
@@ -428,7 +389,6 @@
     <string name="hide_line_numbers">Oculta els números de línia</string>
     <string name="sleep_timer">Temporitzador per adormir-se</string>
     <string name="unblock">Desbloqueja</string>
-    <!-- Sorting -->
     <string name="sort_by">Ordena per</string>
     <string name="name">Nom</string>
     <string name="size">Mida</string>
@@ -452,26 +412,19 @@
     <string name="use_custom_sorting">Utilitza l\'ordenació personalitzada</string>
     <string name="change_order">Canvia l\'ordre</string>
     <string name="more_options">Més opcions</string>
-    <!-- Confirmation dialog -->
     <string name="proceed_with_deletion">Segur que voleu continuar amb la supressió\?</string>
     <string name="deletion_confirmation">Segur que voleu suprimir %s\?</string>
-    <string name="deletion_confirmation_short">Delete %s?</string>
-    <!-- Are you sure you want to delete 5 items? -->
     <string name="move_to_recycle_bin_confirmation">Segur que voleu moure %s a la paperera\?</string>
-    <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
     <string name="are_you_sure_delete">Segur que voleu suprimir aquest element\?</string>
     <string name="are_you_sure_recycle_bin">Segur que voleu moure aquest element a la paperera\?</string>
     <string name="do_not_ask_again">No tornis a preguntar-ho en aquesta sessió</string>
     <string name="do_not_show_again">No ho tornis a mostrar</string>
     <string name="yes">Sí</string>
-    <string name="no">No</string>
     <string name="maybe">Potser</string>
     <plurals name="delete_warning">
         <item quantity="one">ADVERTÈNCIA: Se suprimirà %d carpeta</item>
         <item quantity="other">ADVERTÈNCIA: Se suprimiran %d carpetes</item>
     </plurals>
-    <!-- Password protection -->
-    <string name="pin">PIN</string>
     <string name="enter_pin">Introduïu el PIN</string>
     <string name="please_enter_pin">Introduïu un PIN</string>
     <string name="wrong_pin">PIN incorrecte</string>
@@ -499,13 +452,9 @@
     <string name="lock_folder_pro">Bloqueja la carpeta (Pro)</string>
     <string name="unlock_folder">Desbloqueja la carpeta</string>
     <string name="lock_folder_notice">Aquesta protecció només funciona en aquesta aplicació. No substituirà un xifratge real de carpetes de tot el sistema.</string>
-    <string name="enter_password">Enter password</string>
-    <string name="password">Password</string>
-    <string name="add_password">Add password</string>
     <string name="empty_password_new">Introduïu una contrasenya</string>
     <string name="empty_password">Introduïu la contrasenya</string>
     <string name="invalid_password">Contrasenya incorrecta</string>
-    <!-- Times -->
     <string name="yesterday">Ahir</string>
     <string name="today">Avui</string>
     <string name="tomorrow">Demà</string>
@@ -515,10 +464,6 @@
     <string name="minutes_raw">minuts</string>
     <string name="hours_raw">hores</string>
     <string name="days_raw">dies</string>
-    <string name="seconds_letter">s</string>
-    <string name="minutes_letter">m</string>
-    <string name="hours_letter">h</string>
-    <string name="week_number_short">wk.</string>
     <plurals name="seconds">
         <item quantity="one">%d segon</item>
         <item quantity="other">%d segons</item>
@@ -547,7 +492,6 @@
         <item quantity="one">%d any</item>
         <item quantity="other">%d anys</item>
     </plurals>
-    <!-- For example: I will be there in 5 minutes -->
     <plurals name="in_seconds">
         <item quantity="one">%d segon</item>
         <item quantity="other">%d segons</item>
@@ -576,7 +520,6 @@
         <item quantity="one">%d any</item>
         <item quantity="other">%d anys</item>
     </plurals>
-    <!-- For example: Event reminder: 3 minutes before -->
     <plurals name="seconds_before">
         <item quantity="one">%d segon abans</item>
         <item quantity="other">%d segons abans</item>
@@ -605,7 +548,6 @@
         <item quantity="one">%d any abans</item>
         <item quantity="other">%d anys abans</item>
     </plurals>
-    <!-- For example: Postpone reminder by 3 minutes -->
     <plurals name="by_seconds">
         <item quantity="one">%d segon</item>
         <item quantity="other">%d segons</item>
@@ -634,14 +576,12 @@
         <item quantity="one">%d any</item>
         <item quantity="other">%d anys</item>
     </plurals>
-    <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
     <string name="alarm_goes_off_in">Temps restant fins que soni l\'alarma: \n%s</string>
     <string name="reminder_triggers_in">Temps restant fins que s\'activi el recordatori:\n%s</string>
     <string name="time_remaining">Temps restant:\n%s</string>
     <string name="alarm_warning">Assegureu-vos que l\'alarma funcioni correctament abans de confiar-hi. Pot comportar-se malament per les restriccions del sistema relacionades amb l\'estalvi de bateria.</string>
     <string name="reminder_warning">Assegureu-vos que els recordatoris funcionin correctament abans de confiar-hi. Comproveu la configuració de la bateria i de les notificacions, que no hi hagi res que bloquegi els recordatoris o que mati l\'aplicació en el segon pla.</string>
     <string name="notifications_disabled">Les notificacions d\'aquesta aplicació estan desactivades. Aneu a la configuració del dispositiu per activar-les.</string>
-    <!-- Alarms -->
     <string name="alarm">Alarma</string>
     <string name="snooze">Ajorna</string>
     <string name="dismiss">Descarta</string>
@@ -653,10 +593,7 @@
     <string name="no_sound">Sense so</string>
     <string name="during_day_at_hh_mm">Durant el dia a les hh:mm</string>
     <string name="during_day_at">Durant el dia a les %02d:%02d</string>
-    <!-- Settings -->
     <string name="settings">Configuració</string>
-    <string name="purchase_simple_thank_you">Purchase Fossify Thank You</string>
-    <string name="general_settings">General</string>
     <string name="color_customization">Personalització del color</string>
     <string name="improved_color_customization">Personalització del color millorada</string>
     <string name="customize_colors">Personalitza els colors</string>
@@ -664,7 +601,6 @@
     <string name="feature_locked">Bloquejat</string>
     <string name="customize_widget_colors">Personalitza els colors dels ginys</string>
     <string name="customize_notifications">Personalitza les notificacions</string>
-    <string name="notification_sound">Notification sound</string>
     <string name="use_english_language">Utilitza l\'idioma anglès</string>
     <string name="language">Idioma</string>
     <string name="show_hidden_items">Mostra els elements ocults</string>
@@ -700,7 +636,6 @@
     <string name="start_name_with_surname">Comença el nom amb el cognom</string>
     <string name="clear_cache">Neteja la memòria cau</string>
     <string name="show_call_confirmation_dialog">Mostra un diàleg de confirmació de trucada abans d\'iniciar una trucada</string>
-    <!-- Setting sections -->
     <string name="visibility">Visibilitat</string>
     <string name="security">Seguretat</string>
     <string name="scrolling">Desplaçament</string>
@@ -708,13 +643,11 @@
     <string name="recycle_bin">Paperera de reciclatge</string>
     <string name="saving_label">Desament</string>
     <string name="startup">Inici</string>
-    <string name="text">Text</string>
     <string name="migrating">Migració</string>
     <string name="quality">Qualitat</string>
     <string name="main_screen">Pantalla principal</string>
     <string name="thumbnails">Miniatures</string>
     <string name="list_view">Vista de llista</string>
-    <!-- Excluding -->
     <string name="exclude">Exclou</string>
     <string name="exclude_folder">Exclou la carpeta</string>
     <string name="excluded_folders">Carpetes excloses</string>
@@ -724,7 +657,6 @@
     <string name="remove_all_description">Elimino totes les carpetes de la llista d\'excloses\? Això no eliminarà les carpetes.</string>
     <string name="temporarily_show_excluded">Mostra temporalment les excloses</string>
     <string name="stop_showing_excluded">Deixa de mostrar les excloses</string>
-    <!-- Default tab to open -->
     <string name="manage_shown_tabs">Gestiona les pestanyes mostrades</string>
     <string name="default_tab_to_open">Pestanya a obrir en iniciar l\'aplicació</string>
     <string name="contacts_tab">Contactes</string>
@@ -734,7 +666,6 @@
     <string name="last_used_tab">Darrer utilitzat</string>
     <string name="files_tab">Fitxers</string>
     <string name="recent_files_tab">Fitxers recents</string>
-    <!-- Recycle Bin -->
     <string name="restore_this_file">Restaura aquest fitxer</string>
     <string name="restore_selected_files">Restaura els fitxers seleccionats</string>
     <string name="restore_all_files">Restaura tots els fitxers</string>
@@ -751,7 +682,6 @@
         <item quantity="one">S\'està movent %d element a la paperera de reciclatge</item>
         <item quantity="other">S\'estan movent %d elements a la paperera de reciclatge</item>
     </plurals>
-    <!-- Import / Export -->
     <string name="importing">S\'està important…</string>
     <string name="exporting">S\'està exportant…</string>
     <string name="importing_successful">Importació correcta</string>
@@ -774,12 +704,9 @@
 \n%h - hora
 \n%m - minut
 \n%s - segon</string>
-    <!-- OTG devices -->
-    <string name="usb">USB</string>
     <string name="usb_detected">Sembla que hi ha un dispositiu USB connectat al vostre dispositiu. Per assegurar que els fitxers apareguin adequadament, cal atorgar permisos addicionals.</string>
     <string name="confirm_usb_storage_access_text">Seleccioneu la carpeta arrel del dispositiu USB a la pantalla següent per atorgar l\'accés</string>
     <string name="wrong_root_selected_usb">S\'ha seleccionat una carpeta incorrecta, seleccioneu la carpeta principal del dispositiu USB</string>
-    <!-- Dates -->
     <string name="january">Gener</string>
     <string name="february">Febrer</string>
     <string name="march">Març</string>
@@ -792,7 +719,6 @@
     <string name="october">Octubre</string>
     <string name="november">Novembre</string>
     <string name="december">Desembre</string>
-    <!-- Short months -->
     <string name="january_short">gen.</string>
     <string name="february_short">febr.</string>
     <string name="march_short">març</string>
@@ -805,7 +731,6 @@
     <string name="october_short">oct.</string>
     <string name="november_short">nov.</string>
     <string name="december_short">des.</string>
-    <!-- in January -->
     <string name="in_january">de gener</string>
     <string name="in_february">de febrer</string>
     <string name="in_march">de març</string>
@@ -839,7 +764,6 @@
     <string name="friday_short">dv.</string>
     <string name="saturday_short">ds.</string>
     <string name="sunday_short">dg.</string>
-    <!-- Pro version -->
     <string name="upgrade_to_pro_long">La versió de l\'aplicació ja no s\'actualitzarà més. Actualitzeu a la versió Pro per rebre correccions noves i altres millores.</string>
     <string name="upgrade_to_pro_long_click">La versió de l\'aplicació ja no s\'actualitzarà més. Actualitzeu a la versió Pro per rebre solucions noves i altres millores fent clic aquí.</string>
     <string name="it_is_free">És gratuïta fins a: %s. Si la baixeu fins aleshores, podreu utilitzar-la de franc per sempre.</string>
@@ -887,7 +811,6 @@
 \nQuan estigueu satisfet amb la vostra configuració de la versió Pro, podeu desinstal·lar l\'antiga gratuïta perquè ja no la necessitareu. També evitarà que es mostri aquest diàleg.
 \n
 \nGràcies!</string>
-    <!-- About -->
     <string name="about">Quant a</string>
     <string name="website">Lloc web</string>
     <string name="website_label">Per al codi font visiteu</string>
@@ -902,10 +825,8 @@
     <string name="rate">Valora</string>
     <string name="donate">Donació</string>
     <string name="follow_us">Seguiu-nos</string>
-    <string name="copyright">v %1$s\nCopyright © Fossify %2$d</string>
     <string name="support">Assistència</string>
     <string name="help_us">Ajudeu-nos</string>
-    <string name="social">Social</string>
     <string name="other">Altres</string>
     <string name="privacy_policy">Política de privadesa</string>
     <string name="version_placeholder">Versió %s</string>
@@ -914,17 +835,7 @@
     <string name="additional_info">Informació addicional</string>
     <string name="app_version">Versió de l\'aplicació: %s</string>
     <string name="device_os">SO del dispositiu: %s</string>
-    <string name="donate_please">
-        <![CDATA[
-            Hello,<br><br>
-            hope you are enjoying the app. It contains no ads, please support its development by purchasing the <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> app, it will also prevent this dialog from showing up again.<br><br>
-            Thank you!
-        ]]>
-    </string>
-    <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
-    <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
     <string name="purchase">Compra</string>
-    <string name="update_thank_you">Please update Fossify Thank You to the latest version</string>
     <string name="before_asking_question_read_faq">Abans de fer una pregunta, reviseu la configuració de l\'aplicació i llegiu les preguntes més freqüents. Potser hi és la solució.</string>
     <string name="before_rate_read_faq">Abans de fer una valoració, reviseu la configuració de l\'aplicació i llegiu les preguntes més freqüents. Si teniu problemes, potser hi és la solució.</string>
     <string name="make_sure_latest">Assegureu-vos també que utilitzeu la versió més recent de l\'aplicació.</string>
@@ -944,8 +855,6 @@
     <string name="thank_you">Gràcies</string>
     <string name="widget_locked_pro">El giny està bloquejat.
 \nActualitzeu a la versió Pro per desbloquejar-lo.</string>
-    <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>
-    <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">Hola,&lt;br&gt;&lt;br&gt; només informar-vos que recentment s\'ha publicat una aplicació nova:&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; Podeu baixar-la prement el títol.&lt;br&gt;&lt;br&gt; Gràcies</string>
     <string name="app_launcher_short">Llançador d\'aplicacions</string>
     <string name="calculator_short">Calculadora</string>
@@ -961,23 +870,15 @@
     <string name="keyboard_short">Teclat</string>
     <string name="launcher_short">Llançador</string>
     <string name="music_player_short">Reproductor de música</string>
-    <string name="notes_short">Notes</string>
     <string name="sms_messenger_short">Missatges SMS</string>
     <string name="thank_you_short">Gràcies</string>
     <string name="voice_recorder_short">Enregistrador de veu</string>
     <string name="sideloaded_app">Sembla que aquesta versió de l\'aplicació està malmesa. Baixeu la versió original &lt;a href=%s&gt;aquí&lt;/a&gt;.</string>
-    <!-- FAQ -->
     <string name="frequently_asked_questions">Preguntes més freqüents</string>
     <string name="before_asking_question">Abans de fer una pregunta, primer llegiu les</string>
     <string name="faq_1_title_commons">Com és que no veig aquest giny a la llista de ginys\?</string>
     <string name="faq_1_text_commons">Probablement, perquè heu mogut l\'aplicació a una targeta SD. Hi ha una limitació del sistema d\'Android que oculta els ginys de l\'aplicació en aquest cas. L\'única solució és moure l\'aplicació a l\'emmagatzematge intern a través de la configuració del dispositiu.</string>
     <string name="faq_2_title_commons">Vull ajudar-vos, però no puc donar diners. Hi ha res més que pugui fer\?</string>
-    <string name="faq_2_text_commons">
-        <![CDATA[
-            Yes, of course. You can spread the word about the apps or give good feedback and ratings. You can also help by translating the apps in a new language, or just update some existing translations.
-            The guide to translating is at <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">this website</a>, or just contact us at <a href="mailto:hello@fossify.org">hello@fossify.org</a> if you have any questions.
-        ]]>
-    </string>
     <string name="faq_3_title_commons">He suprimit alguns fitxers per error, com els puc recuperar\?</string>
     <string name="faq_3_text_commons">Malauradament, no podeu fer-ho. Els fitxers se suprimeixen a l\'instant després del diàleg de confirmació, no hi ha cap paperera disponible.</string>
     <string name="faq_4_title_commons">No m\'agraden els colors del giny, puc canviar-los\?</string>
@@ -985,8 +886,6 @@
     <string name="faq_5_title_commons">Puc restaurar d\'alguna manera els fitxers suprimits\?</string>
     <string name="faq_5_text_commons">Si es van suprimir totalment, no ho podeu fer. Tanmateix, hi ha una paperera de reciclatge activada de manera predeterminada que farà que els fitxers es moguin allà en lloc de suprimir-los.</string>
     <string name="faq_6_title_commons">Ha desaparegut la icona del menú d\'aplicacions. Què puc fer?</string>
-    <string name="faq_6_text_commons">This issue arises when your launcher does not fully support icon customization. Attempt launching the app through Google Play or a widget, if accessible.
-        After launching, restore the default green icon color #106D1F. In extreme cases, reinstalling the app may be necessary.</string>
     <string name="faq_7_title_commons">Els diners s\'han descomptat del meu compte bancari, però no puc baixar l\'aplicació. Què puc fer\?</string>
     <string name="faq_7_text_commons">Google gestiona completament els pagaments, i alguns cops això genera problemes en el seu sistema. Només cal que netegeu la memòria cau de l\'aplicació Google Play i reinicieu el dispositiu, després torneu a intentar baixar-la.</string>
     <string name="faq_8_title_commons">Per què he d\'actualitzar a la versió Pro?</string>
@@ -995,18 +894,10 @@
     <string name="faq_9_text_commons">Hi ha diverses maneres de fer-ho. La primera és iniciar el mode de selecció prement prolongadament un element i, a continuació, fer clic breu sobre els altres per seleccionar-los. La segona forma és similar a la selecció d\'elements en els ordinadors amb un ratolí, només cal que inicieu el mode de selecció prement prolongadament un element i, tot seguit, arrossegueu-lo amb el dit cap a altres elements per seleccionar-los. La tercera manera de seleccionar diversos elements consisteix a prémer prolongadament un element, després prémer prolongadament un altre i se seleccionarà tot el que hi ha entre els dos. Si voleu seleccionar tots els elements; només cal que premeu prolongadament un element i, a continuació, feu clic al comptador d\'elements seleccionats a l\'extrem superior esquerre. Això seleccionarà o anul·larà la selecció de tot.</string>
     <string name="faq_10_title_commons">He comprat l\'aplicació, però no la puc baixar en cap altre dispositiu.</string>
     <string name="faq_10_text_commons">Proveu de netejar la memòria cau de l\'aplicació Google Play i reinicieu el dispositiu. Es tracta d\'un problema de Google Play, que no està realment relacionat amb l\'aplicació en si.</string>
-    <!-- Contributors -->
     <string name="contributors">Col·laboradors</string>
     <string name="translation">Traducció</string>
     <string name="development">Desenvolupament</string>
     <string name="other_help">Altra ajuda</string>
-    <string name="contributors_label">
-        <![CDATA[
-            This list contains everyone that noticeably helped any app within the Fossify suite, not only this one. Translations are handled by volunteers,
-            let us know if you want to help too. The guide to translating is at <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">this website</a>, or just contact us at <a href="mailto:hello@fossify.org">hello@fossify.org</a> if you have any questions.
-            Thanks to all contributors and other supporters!
-        ]]>
-    </string>
     <string name="translation_arabic">Àrab</string>
     <string name="translation_azerbaijani">Àzeri</string>
     <string name="translation_bengali">Bengalí</string>
@@ -1025,7 +916,6 @@
     <string name="translation_finnish">Finès</string>
     <string name="translation_french">Francès</string>
     <string name="translation_galician">Gallec</string>
-    <string name="translation_hindi">Hindi</string>
     <string name="translation_croatian">Croat</string>
     <string name="translation_hungarian">Hongarès</string>
     <string name="translation_indonesian">Indonesi</string>
@@ -1052,49 +942,40 @@
     <string name="translation_chinese_hk">Xinès (Hong Kong)</string>
     <string name="translation_chinese_cn">Xinès (simplificat)</string>
     <string name="translation_chinese_tw">Xinès (tradicional)</string>
-    <!-- Pro comparison (shown in the deprecated free apps) -->
     <string name="why_upgrade">Aconseguiu ara la versió Pro!</string>
     <string name="why_upgrade_basic_version">Bàsica</string>
-    <string name="why_upgrade_pro_version">Pro</string>
     <string name="why_upgrade_no_ads">Sense anuncis</string>
     <string name="why_upgrade_no_internet_access">Sense accés a Internet</string>
     <string name="why_upgrade_footer">Garantia de devolució de diners 100%</string>
     <string name="why_upgrade_footer_one_time_payment">Pagament únic</string>
     <string name="why_upgrade_improved_design">Disseny millorat</string>
     <string name="why_upgrade_many_other_improvements">Moltes altres millores</string>
-    <!-- Gallery Pro -->
     <string name="why_upgrade_advanced_photo_editor">Editor de fotos avançat</string>
     <string name="why_upgrade_advanced_photo_video_editor">Editor avançat de fotos i vídeos</string>
     <string name="why_upgrade_heic_support">Implementació de fitxers HEIC/HEIF</string>
     <string name="why_upgrade_batch_renaming">Canvi de nom de fitxers per lots avançat</string>
     <string name="why_upgrade_folder_locking">Bloqueig de carpetes individuals</string>
     <string name="why_upgrade_printing_support">Implementació de la impressió</string>
-    <!-- Calendar Pro -->
     <string name="why_upgrade_time_zone_support">Implementació de zones horàries</string>
     <string name="why_upgrade_attendees_emails">Assistents i recordatoris per correu electrònic</string>
     <string name="why_upgrade_easy_event_importing">Importació fàcil d\'esdeveniments</string>
     <string name="why_upgrade_new_widgets">Ginys nous</string>
-    <!-- Contacts Pro -->
     <string name="why_upgrade_duplicate_contact_merging">S\'ha millorat la combinació de contactes duplicats</string>
     <string name="why_upgrade_font_size_customization">Personalització de la mida de la lletra</string>
     <string name="why_upgrade_private_contact_sharing">Compartició opcional de contactes privats a les nostres aplicacions</string>
     <string name="why_upgrade_customizable_contact_ringtones">Tons de contacte personalitzables</string>
     <string name="why_upgrade_contact_filtering">Filtratge de contactes</string>
     <string name="why_upgrade_contact_private_contacts">Contactes desats de forma privada</string>
-    <!-- Notes Pro -->
     <string name="why_upgrade_checklists">Llistes de comprovació</string>
     <string name="why_upgrade_different_note_per_widget">Notes i colors diferents per giny</string>
     <string name="why_upgrade_note_locking">Bloqueig de notes</string>
-    <!-- File Manager Pro -->
     <string name="why_upgrade_date_and_time_format">Personalització del format de data i hora</string>
     <string name="why_upgrade_shortcuts">Dreceres de pantalla inicial</string>
     <string name="why_upgrade_file_compression">Implementació de compressió de fitxers</string>
     <string name="why_upgrade_recents_tab">Pestanya amb els fitxers recents</string>
-    <!-- Draw Pro -->
     <string name="why_upgrade_background_color_customization">Personalització del color de fons</string>
     <string name="why_upgrade_file_importing">Implementació de la importació de fitxers</string>
     <string name="why_upgrade_zooming">Zoom</string>
-    <!-- License -->
     <string name="notice">Aquesta aplicació fa servir les biblioteques següents de tercers que ens faciliten la feina. Gràcies.</string>
     <string name="third_party_licences">Llicències de tercers</string>
     <string name="kotlin_title">Kotlin (llenguatge de programació)</string>
@@ -1131,7 +1012,6 @@
     <string name="m3u_parser_title">Analitzador M3U (gestió de fitxers «m3u» de llistes de reproducció)</string>
     <string name="android_lame_title">AndroidLame (codificador «mp3»)</string>
     <string name="zip4j_title">Zip4j (compressió i descompressió ZIP)</string>
-    <!-- Trial -->
     <string name="trial_expired">La prova ha caducat</string>
     <string name="start_free_trial">Comença la prova gratuïta</string>
     <string name="trial_expires_soon">Aquesta versió de prova caduca aviat.</string>
@@ -1151,9 +1031,7 @@
         <item quantity="one">Aquesta versió de prova caduca d\'aquí a %d dia.</item>
         <item quantity="other">Aquesta versió de prova caduca d\'aquí a %d dies.</item>
     </plurals>
-    <!-- Google Play listing -->
     <string name="deprecated_app">OBSOLETA: Aquesta versió de l\'aplicació ja no es manté, obteniu la versió Pro a https://play.google.com/store/apps/details\?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">No oblideu que si desinstal·leu qualsevol aplicació de pagament en un termini de 2 hores, el càrrec es retornarà automàticament. Si voleu un reemborsament més tard, poseu-vos en contacte amb nosaltres a hello@fossify.org i el rebreu. Això fa que sigui fàcil provar-ho :)</string>
-    <!-- Description of our developer profile on Google Play, it can have max 140 characters -->
     <string name="developer_description">Un grup d\'aplicacions Android simples i de codi obert amb ginys personalitzables, sense anuncis ni permisos innecessaris.</string>
 </resources>

@@ -6,11 +6,9 @@
     <string name="edit_with">Modificar con</string>
     <string name="file_saved">File salvate con successo</string>
     <string name="save_as">Salvar como</string>
-    <string name="ok">OK</string>
     <string name="copy_number_to_clipboard">Copiar numero al area de transferentia</string>
     <string name="open_with">Aperir con</string>
     <string name="cancel">Cancellar</string>
-    <string name="error">Error: %s</string>
     <string name="invalid_file_format">Formato de file non valide</string>
     <string name="no_browser_found">Nulle navigator trovate</string>
     <string name="later">Depost</string>
