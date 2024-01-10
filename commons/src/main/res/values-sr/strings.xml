@@ -916,7 +916,6 @@
     <string name="leak_canary_title">Leak Canary (детектор за цурење меморије)</string>
     <string name="number_picker_title">Number Picker (прилагодљиви изабирач бројева)</string>
     <string name="exoplayer_title">ExoPlayer (видео плејер)</string>
-    <string name="panorama_view_title">VR Panorama View (постављање панорама)</string>
     <string name="sanselan_title">Apache Sanselan (исчитавање мета података слика)</string>
     <string name="filters_title">Android Photo Filters (филтери за слике)</string>
     <string name="gesture_views_title">Gesture Views (зумирање слика)</string>

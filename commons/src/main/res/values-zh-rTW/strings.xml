@@ -663,7 +663,6 @@
     <string name="leak_canary_title">Leak Canary（記憶體洩露偵測器）</string>
     <string name="number_picker_title">Number Picker（可自訂的號碼挑選器）</string>
     <string name="exoplayer_title">ExoPlayer（影片播放器）</string>
-    <string name="panorama_view_title">VR Panorama View（顯示全景）</string>
     <string name="sanselan_title">Apache Sanselan（讀取圖片詮釋資料）</string>
     <string name="filters_title">Android Photo Filters（圖片過濾器）</string>
     <string name="gesture_views_title">Gesture Views (可縮放的圖片)</string>

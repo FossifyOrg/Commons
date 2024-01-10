@@ -978,7 +978,6 @@
     <string name="leak_canary_title">Leak Canary (дэтэктар уцечкі памяці)</string>
     <string name="number_picker_title">Number Picker (наладжвальны выбар нумара)</string>
     <string name="exoplayer_title">ExoPlayer (відэаплэер)</string>
-    <string name="panorama_view_title">VR Panorama View(паказ панарам)</string>
     <string name="sanselan_title">Apache Sanselan (чытанне метаданых выявы)</string>
     <string name="filters_title">Android Photo Filters (фільтры малюнкаў)</string>
     <string name="gesture_views_title">Gesture Views(маштабаваныя малюнкі)</string>

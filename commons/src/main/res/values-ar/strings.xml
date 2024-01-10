@@ -1087,7 +1087,6 @@
     <string name="leak_canary_title">كاشف تسرب الذاكرة</string>
     <string name="number_picker_title">إختيار الأرقام القابل للتخصيص</string>
     <string name="exoplayer_title">مشغل الفيديو (Exo)</string>
-    <string name="panorama_view_title">عرض بانوراما VR (عرض البانورامات)</string>
     <string name="sanselan_title">أباتشي سانسيلان (قراءة البيانات الوصفية للصور)</string>
     <string name="filters_title">فلاتر الصور</string>
     <string name="gesture_views_title">الصور القابلة للتكبير</string>

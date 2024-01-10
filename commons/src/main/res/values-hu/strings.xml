@@ -1004,7 +1004,6 @@
     <string name="leak_canary_title">Leak Canary (memóriaszivárgás-észlelő)</string>
     <string name="number_picker_title">Number Picker (testreszabható számválasztó)</string>
     <string name="exoplayer_title">ExoPlayer (videólejátszó)</string>
-    <string name="panorama_view_title">VR Panorama View (panorámakép megjelenítése)</string>
     <string name="sanselan_title">Apache Sanselan (kép metaadatainak kiolvasása)</string>
     <string name="filters_title">Android Photo Filters (képszűrők)</string>
     <string name="gesture_views_title">Gesture Views (nagyítható képek)</string>

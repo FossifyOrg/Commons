@@ -989,7 +989,6 @@
     <string name="leak_canary_title">Leak Canary (detekce úniků paměti)</string>
     <string name="number_picker_title">Number Picker (upravitelné vybírání čísel)</string>
     <string name="exoplayer_title">ExoPlayer (video přehrávač)</string>
-    <string name="panorama_view_title">VR Panorama View (zobrazování panorámat)</string>
     <string name="sanselan_title">Apache Sanselan (čtení metadat obrázku)</string>
     <string name="filters_title">Android Photo Filters (filtry obrázků)</string>
     <string name="gesture_views_title">Gesture Views (zoomovatelné obrázky)</string>

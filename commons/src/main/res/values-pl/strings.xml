@@ -1103,7 +1103,6 @@
     <string name="leak_canary_title">Leak Canary (wykrywanie wycieków pamięci)</string>
     <string name="number_picker_title">Number Picker (konfigurowalny selektor liczb)</string>
     <string name="exoplayer_title">ExoPlayer (odtwarzacz wideo)</string>
-    <string name="panorama_view_title">VR Panorama View (wyświetlanie panoram)</string>
     <string name="sanselan_title">Apache Sanselan (odczytywanie metadanych obrazów)</string>
     <string name="filters_title">Android Photo Filters (filtry obrazów)</string>
     <string name="gesture_views_title">Gesture Views (przybliżanie obrazów)</string>

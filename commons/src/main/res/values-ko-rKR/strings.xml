@@ -596,7 +596,6 @@
     <string name="leak_canary_title">Leak Canary (메모리 누수 감지기)</string>
     <string name="number_picker_title">Number Picker (편집가능 숫자 선택기)</string>
     <string name="exoplayer_title">ExoPlayer (영상 재생기)</string>
-    <string name="panorama_view_title">VR Panorama View (파노라마 뷰어)</string>
     <string name="sanselan_title">Apache Sanselan (이미지 메타데이터 읽기)</string>
     <string name="filters_title">Android Photo Filters (이미지 필터)</string>
     <string name="gesture_views_title">Gesture Views (확대 가능한 이미지)</string>

@@ -695,7 +695,6 @@
     <string name="leak_canary_title">Leak Canary (bộ phát hiện rò rỉ bộ nhớ)</string>
     <string name="number_picker_title">Bộ chọn số (bộ chọn số tùy chỉnh)</string>
     <string name="exoplayer_title">ExoPlayer (trình phát video)</string>
-    <string name="panorama_view_title">Chế độ xem toàn cảnh VR (hiển thị ảnh toàn cảnh)</string>
     <string name="sanselan_title">Apache Sanselan (đọc siêu dữ liệu hình ảnh)</string>
     <string name="filters_title">Bộ lọc ảnh Android (bộ lọc hình ảnh)</string>
     <string name="gesture_views_title">Chế độ xem cử chỉ (hình ảnh có thể phóng to)</string>

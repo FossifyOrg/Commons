@@ -999,7 +999,6 @@
     <string name="leak_canary_title">Leak Canary (muistivuotojen havaitseminen)</string>
     <string name="number_picker_title">Number Picker (mukautettava numeronvalitsin)</string>
     <string name="exoplayer_title">ExoPlayer (videosoitin)</string>
-    <string name="panorama_view_title">VR Panorama View (panoraamakuvien näyttö)</string>
     <string name="sanselan_title">Apache Sanselan (kuvien metadatan luku)</string>
     <string name="filters_title">Android Photo Filters (kuvasuodattimet)</string>
     <string name="gesture_views_title">Gesture Views (zoomattavat kuvat)</string>

@@ -849,7 +849,6 @@
     <string name="leak_canary_title">Leak Canary (pendeteksi kebocoran memori)</string>
     <string name="number_picker_title">Pemilih Angka (pemetik angka yang dapat disesuaikan)</string>
     <string name="exoplayer_title">ExoPlayer (pemutar video)</string>
-    <string name="panorama_view_title">Tampilan Panorama VR (menampilkan panorama)</string>
     <string name="sanselan_title">Apache Sanselan (membaca metadata gambar)</string>
     <string name="filters_title">Filter Foto Android (filter gambar)</string>
     <string name="gesture_views_title">Tampilan Gestur (gambar yang dapat diperbesar)</string>

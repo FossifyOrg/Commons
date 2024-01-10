@@ -890,7 +890,6 @@
     <string name="leak_canary_title">Leak Canary (atminties nutekėjimo detektorius)</string>
     <string name="number_picker_title">Number Picker (tinkinamas skaitmenų parinkiklis)</string>
     <string name="exoplayer_title">ExoPlayer (vaizdo grotuvas)</string>
-    <string name="panorama_view_title">VR Panorama View (panoramų atvaizdavimas)</string>
     <string name="sanselan_title">Apache Sanselan (atvaizdų metaduomenų skaitymas)</string>
     <string name="filters_title">Android Photo Filters (atvaizdų filtrai)</string>
     <string name="gesture_views_title">Gesture Views (keičiamo dydžio atvaizdai)</string>

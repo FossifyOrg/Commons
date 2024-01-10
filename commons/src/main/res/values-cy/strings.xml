@@ -735,7 +735,6 @@
     <string name="leak_canary_title">Leak Canary (synhwyrydd cof yn gollwng)</string>
     <string name="number_picker_title">Number Picker (dewisydd rhifau addasedig)</string>
     <string name="exoplayer_title">ExoPlayer (chwaraeydd fideo)</string>
-    <string name="panorama_view_title">VR Panorama View (dangos panoramas)</string>
     <string name="sanselan_title">Apache Sanselan (darllen metadata delweddau)</string>
     <string name="filters_title">Android Photo Filters (hidlyddion delweddau)</string>
     <string name="gesture_views_title">Gesture Views (delweddau chwyddadwy)</string>

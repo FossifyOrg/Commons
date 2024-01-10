@@ -998,7 +998,6 @@
     <string name="leak_canary_title">Leak Canary (minnesläckagedetektor)</string>
     <string name="number_picker_title">Number Picker (anpassningsbar talväljare)</string>
     <string name="exoplayer_title">ExoPlayer (video spelare)</string>
-    <string name="panorama_view_title">VR Panorama View (visar panoramabilder)</string>
     <string name="sanselan_title">Apache Sanselan (läser bildmetadata)</string>
     <string name="filters_title">Android Photo Filter (bildfilter)</string>
     <string name="gesture_views_title">Gestvyer (zoombara bilder)</string>

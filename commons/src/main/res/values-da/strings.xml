@@ -948,7 +948,6 @@
     <string name="leak_canary_title">Leak Canary (detektering af pladsmangel)</string>
     <string name="number_picker_title">Nummervælger (nummervælger, der kan tilpasses)</string>
     <string name="exoplayer_title">ExoPlayer (videoafspiller)</string>
-    <string name="panorama_view_title">VR Panorama View (viser panoramaer)</string>
     <string name="sanselan_title">Apache Sanselan (læsning af billedmetadata)</string>
     <string name="filters_title">Android-fotofiltre (billedfiltre)</string>
     <string name="gesture_views_title">Gesture Views (billeder, der kan zoomes)</string>
