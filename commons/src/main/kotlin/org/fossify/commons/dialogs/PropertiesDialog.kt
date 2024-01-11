@@ -171,7 +171,7 @@ class PropertiesDialog : BasePropertiesDialog {
                 return
             }
 
-            if (mActivity.baseConfig.appId.removeSuffix(".debug") == "org.fossify.filemanager.pro") {
+            if (mActivity.baseConfig.appId.removeSuffix(".debug") == "org.fossify.filemanager") {
                 addProperty(R.string.md5, "…", R.id.properties_md5)
                 ensureBackgroundThread {
                     val md5 = if (mActivity.isRestrictedSAFOnlyRoot(path)) {

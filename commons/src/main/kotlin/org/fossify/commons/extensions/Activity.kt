@@ -548,8 +548,8 @@ fun BaseSimpleActivity.launchCallIntent(recipient: String, handle: PhoneAccountH
             }
 
             if (isDefaultDialer()) {
-                val packageName = if (baseConfig.appId.contains(".debug", true)) "org.fossify.dialer.debug" else "org.fossify.dialer"
-                val className = "org.fossify.dialer.activities.DialerActivity"
+                val packageName = if (baseConfig.appId.contains(".debug", true)) "org.fossify.phone.debug" else "org.fossify.phone"
+                val className = "org.fossify.phone.activities.DialerActivity"
                 setClassName(packageName, className)
             }
 

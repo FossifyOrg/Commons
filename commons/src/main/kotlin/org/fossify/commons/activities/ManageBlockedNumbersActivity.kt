@@ -68,7 +68,7 @@ class ManageBlockedNumbersActivity : BaseSimpleActivity() {
             val isBlockingHiddenNumbers by config.isBlockingHiddenNumbers.collectAsStateWithLifecycle(initialValue = config.blockHiddenNumbers)
             val isBlockingUnknownNumbers by config.isBlockingUnknownNumbers.collectAsStateWithLifecycle(initialValue = config.blockUnknownNumbers)
             val isDialer = remember {
-                config.appId.startsWith("org.fossify.dialer")
+                config.appId.startsWith("org.fossify.phone")
             }
             val isDefaultDialer: Boolean = onEventValue {
                 context.isDefaultDialer()
@@ -219,7 +219,7 @@ class ManageBlockedNumbersActivity : BaseSimpleActivity() {
     }
 
     private fun maybeSetDefaultCallerIdApp() {
-        if (isQPlus() && baseConfig.appId.startsWith("org.fossify.dialer")) {
+        if (isQPlus() && baseConfig.appId.startsWith("org.fossify.phone")) {
             setDefaultCallerIdApp()
         }
     }
