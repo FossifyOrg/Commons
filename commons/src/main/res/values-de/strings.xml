@@ -335,7 +335,7 @@
     <string name="apply_to_all_apps">Farben auf alle Fossify-Apps anwenden</string>
     <string name="app_icon_color_warning">Achtung! Bestimmte Launcher können das Anpassen von App-Symbolen nicht richtig verarbeiten. Wenn das Symbol verschwindet, versuche, falls möglich, die App über Google Play oder ein Widget zu starten. Stelle nach dem Start die grüne Standard-Symbolfarbe #106D1F wieder her. In extremen Fällen kann es notwendig sein, die App neu zu installieren.</string>
     <string name="share_colors_success">Farben erfolgreich aktualisiert. Ein neues Farbschema „Geteilt“ wurde hinzugefügt, bitte verwende dieses, um für alle Apps die Farben zu ändern.</string>
-    <string name="shared_theme_note">Beachte, dass du aus technischen Gründen immer noch Fossify Dankeschön benötigst, auch wenn du die Pro-App-Version verwendest. Es kümmert sich um die Farbsynchronisation.</string>
+    <string name="shared_theme_note">Beachte, dass du aus technischen Gründen immer noch Fossify Thank You benötigst, auch wenn du die Pro-App-Version verwendest. Es kümmert sich um die Farbsynchronisation.</string>
     <string name="purchase_thank_you">Bitte kaufe &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Dankeschön&lt;/a&gt; um diese Funktion freizuschalten und die Entwicklung zu unterstützen. Danke!</string>
     <string name="light_theme">Hell</string>
     <string name="dark_theme">Dunkel</string>
@@ -606,7 +606,7 @@
     <string name="during_day_at_hh_mm">Tagsüber um hh:mm</string>
     <string name="during_day_at">Tagsüber am %02d:%02d</string>
     <string name="settings">Einstellungen</string>
-    <string name="purchase_simple_thank_you">Fossify Dankeschön kaufen</string>
+    <string name="purchase_simple_thank_you">Fossify Thank You kaufen</string>
     <string name="general_settings">Allgemein</string>
     <string name="color_customization">Farbanpassung</string>
     <string name="improved_color_customization">Verbesserte Farbanpassung</string>
@@ -1064,7 +1064,7 @@
 \nCopyright © Fossify %2$d</string>
     <string name="other_help">Sonstige Hilfe</string>
     <string name="translation_bengali">Bengalisch</string>
-    <string name="update_thank_you">Bitte aktualisiere Fossify Dankeschön auf die neueste Version</string>
+    <string name="update_thank_you">Bitte aktualisiere Fossify Thank You auf die neueste Version</string>
     <string name="translation_bulgarian">Bulgarisch</string>
     <string name="translation_english">Englisch</string>
     <string name="translation_hindi">Hindi</string>
