@@ -85,8 +85,6 @@ internal fun ManageBlockedNumbersScreen(
     onEdit: (BlockedNumber) -> Unit,
     onCopy: (BlockedNumber) -> Unit,
 ) {
-    val dimens = SimpleTheme.dimens
-    val startingPadding = remember { Modifier.padding(horizontal = dimens.padding.small) }
     val selectedIds: MutableState<Set<Long>> = rememberSaveable { mutableStateOf(emptySet()) }
     val hapticFeedback = LocalHapticFeedback.current
     val isInActionMode by remember { derivedStateOf { selectedIds.value.isNotEmpty() } }
@@ -145,13 +143,13 @@ internal fun ManageBlockedNumbersScreen(
                     label = if (isDialer) stringResource(id = R.string.block_not_stored_calls) else stringResource(id = R.string.block_not_stored_messages),
                     initialValue = isBlockUnknownSelected,
                     onChange = onBlockUnknownSelectedChange,
-                    modifier = startingPadding.then(Modifier.topAppBarPaddings()),
+                    modifier = Modifier.topAppBarPaddings(),
                 )
                 SettingsCheckBoxComponent(
                     label = if (isDialer) stringResource(id = R.string.block_hidden_calls) else stringResource(id = R.string.block_hidden_messages),
                     initialValue = isHiddenSelected,
                     onChange = onHiddenSelectedChange,
-                    modifier = startingPadding.then(Modifier.topAppBarPaddings()),
+                    modifier = Modifier.topAppBarPaddings(),
                 )
                 SettingsHorizontalDivider(modifier = Modifier.topAppBarPaddings())
             }
