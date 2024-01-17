@@ -65,6 +65,7 @@ fun Context.updateTextColors(viewGroup: ViewGroup) {
             is MyAppCompatSpinner -> it.setColors(textColor, accentColor, backgroundColor)
             is MyCompatRadioButton -> it.setColors(textColor, accentColor, backgroundColor)
             is MyAppCompatCheckbox -> it.setColors(textColor, accentColor, backgroundColor)
+            is MyMaterialSwitch -> it.setColors(textColor, accentColor, backgroundColor)
             is MyEditText -> it.setColors(textColor, accentColor, backgroundColor)
             is MyAutoCompleteTextView -> it.setColors(textColor, accentColor, backgroundColor)
             is MyFloatingActionButton -> it.setColors(textColor, accentColor, backgroundColor)
