@@ -111,15 +111,15 @@ fun Activity.getThemeId(color: Int = baseConfig.primaryColor, showTransparentTop
             -16750244 -> R.style.AppTheme_Teal_800_core
             -16757440 -> R.style.AppTheme_Teal_900_core
 
-            -3610935 -> R.style.AppTheme_Green_100_core
-            -5908825 -> R.style.AppTheme_Green_200_core
-            -8271996 -> R.style.AppTheme_Green_300_core
-            -10044566 -> R.style.AppTheme_Green_400_core
-            -11751600 -> R.style.AppTheme_Green_500_core
-            -12345273 -> R.style.AppTheme_Green_600_core
-            -13070788 -> R.style.AppTheme_Green_700_core
-            -13730510 -> R.style.AppTheme_Green_800_core
-            -14983648 -> R.style.AppTheme_Green_900_core
+            -2691126 -> R.style.AppTheme_Green_100_core
+            -4528984 -> R.style.AppTheme_Green_200_core
+            -6366844 -> R.style.AppTheme_Green_300_core
+            -7810712 -> R.style.AppTheme_Green_400_core
+            -9254834 -> R.style.AppTheme_Green_500_core
+            -10176442 -> R.style.AppTheme_Green_600_core
+            -11492293 -> R.style.AppTheme_Green_700_core
+            -12808398 -> R.style.AppTheme_Green_800_core
+            -15700705 -> R.style.AppTheme_Green_900_core
 
             -2298424 -> R.style.AppTheme_Light_Green_100_core
             -3808859 -> R.style.AppTheme_Light_Green_200_core
@@ -211,7 +211,7 @@ fun Activity.getThemeId(color: Int = baseConfig.primaryColor, showTransparentTop
             -12434878 -> R.style.AppTheme_Grey_800_core
             -16777216 -> R.style.AppTheme_Grey_900_core
 
-            else -> R.style.AppTheme_Orange_700_core
+            else -> R.style.AppTheme_Green_700_core
         }
     }
 
@@ -307,15 +307,15 @@ fun Activity.getThemeId(color: Int = baseConfig.primaryColor, showTransparentTop
             -16750244 -> R.style.AppTheme_Teal_800
             -16757440 -> R.style.AppTheme_Teal_900
 
-            -3610935 -> R.style.AppTheme_Green_100
-            -5908825 -> R.style.AppTheme_Green_200
-            -8271996 -> R.style.AppTheme_Green_300
-            -10044566 -> R.style.AppTheme_Green_400
-            -11751600 -> R.style.AppTheme_Green_500
-            -12345273 -> R.style.AppTheme_Green_600
-            -13070788 -> R.style.AppTheme_Green_700
-            -13730510 -> R.style.AppTheme_Green_800
-            -14983648 -> R.style.AppTheme_Green_900
+            -2691126 -> R.style.AppTheme_Green_100
+            -4528984 -> R.style.AppTheme_Green_200
+            -6366844 -> R.style.AppTheme_Green_300
+            -7810712 -> R.style.AppTheme_Green_400
+            -9254834 -> R.style.AppTheme_Green_500
+            -10176442 -> R.style.AppTheme_Green_600
+            -11492293 -> R.style.AppTheme_Green_700
+            -12808398 -> R.style.AppTheme_Green_800
+            -15700705 -> R.style.AppTheme_Green_900
 
             -2298424 -> R.style.AppTheme_Light_Green_100
             -3808859 -> R.style.AppTheme_Light_Green_200
@@ -407,7 +407,7 @@ fun Activity.getThemeId(color: Int = baseConfig.primaryColor, showTransparentTop
             -12434878 -> R.style.AppTheme_Grey_800
             -16777216 -> R.style.AppTheme_Grey_900
 
-            else -> R.style.AppTheme_Orange_700
+            else -> R.style.AppTheme_Green_700
         }
     }
 }
