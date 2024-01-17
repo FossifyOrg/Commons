@@ -12,4 +12,6 @@
     <string name="invalid_file_format">Formato de file non valide</string>
     <string name="no_browser_found">Nulle navigator trovate</string>
     <string name="later">Depost</string>
+    <string name="ok">OK</string>
+    <string name="error">Error: %s</string>
 </resources>
