@@ -20,7 +20,7 @@
     <color name="theme_light_text_color">@color/md_grey_800_dark</color>
     <color name="theme_light_background_color">@color/md_grey_white</color>
     <color name="theme_dark_text_color">@color/md_grey_200</color>
-    <color name="theme_dark_background_color">#222222</color>
+    <color name="theme_dark_background_color">#161616</color>
     <color name="theme_solarized_background_color">@color/md_indigo_900_dark</color>
     <color name="theme_solarized_text_color">@color/md_amber_700</color>
     <color name="theme_solarized_primary_color">@color/md_indigo_900</color>
@@ -203,15 +203,15 @@
     <color name="md_deep_purple_800_dark">#371F7F</color>
     <color name="md_deep_purple_900_dark">#251470</color>
 
-    <color name="md_green_100">#D6EFCA</color>
-    <color name="md_green_200">#BAE4A8</color>
-    <color name="md_green_300">#9ED984</color>
-    <color name="md_green_400">#88D168</color>
-    <color name="md_green_500">#72C84E</color>
-    <color name="md_green_600">#64B846</color>
-    <color name="md_green_700">#50A43B</color>
-    <color name="md_green_800">#3C8F32</color>
-    <color name="md_green_900">#106D1F</color>
+    <color name="md_green_100">#FFD6EFCA</color>
+    <color name="md_green_200">#FFBAE4A8</color>
+    <color name="md_green_300">#FF9ED984</color>
+    <color name="md_green_400">#FF88D168</color>
+    <color name="md_green_500">#FF72C84E</color>
+    <color name="md_green_600">#FF64B846</color>
+    <color name="md_green_700">#FF50A43B</color>
+    <color name="md_green_800">#FF3C8F32</color>
+    <color name="md_green_900">#FF106D1F</color>
 
     <color name="md_green_100_dark">#ACDAAE</color>
     <color name="md_green_200_dark">#89CA8D</color>
