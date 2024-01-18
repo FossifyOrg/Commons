@@ -626,11 +626,11 @@
     <string name="extra_large">Sehr groß</string>
     <string name="password_protect_hidden_items">Versteckte Elemente mit Muster/PIN schützen</string>
     <string name="password_protect_whole_app">Gesamte App mit Passwort schützen</string>
-    <string name="password_protect_file_deletion">Mit Passwort vor Dateilöschung und -verschiebung schützen</string>
-    <string name="keep_last_modified">Altes Änderungsdatum bei Dateioperationen behalten</string>
+    <string name="password_protect_file_deletion">Mit Passwort vor Löschen und Verschieben schützen</string>
+    <string name="keep_last_modified">Altes Änderungsdatum bei Dateioperationen beibehalten</string>
     <string name="show_info_bubble">Beim Scrollen mit dem Scrollbalken Infofenster anzeigen</string>
     <string name="prevent_phone_from_sleeping">Verhindern, dass das Gerät in den Ruhemodus wechselt, solange die App im Vordergrund läuft</string>
-    <string name="skip_delete_confirmation">Keinen Löschen-bestätigen-Dialog anzeigen</string>
+    <string name="skip_delete_confirmation">Beim Löschen keinen Bestätigungsdialog anzeigen</string>
     <string name="enable_pull_to_refresh">„Auffrischen“ durch Ziehen von der oberen Kante aktivieren</string>
     <string name="use_24_hour_time_format">24-Stunden-Zählung verwenden</string>
     <string name="change_date_and_time_format">Datums- und Zeitformat ändern</string>
@@ -677,7 +677,7 @@
     <string name="favorites_tab">Favoriten</string>
     <string name="call_history_tab">Anrufliste</string>
     <string name="groups_tab">Gruppen</string>
-    <string name="last_used_tab">Zuletzt verwendeter Tab</string>
+    <string name="last_used_tab">Zuletzt verwendet</string>
     <string name="files_tab">Dateien</string>
     <string name="recent_files_tab">Letzte Dateien</string>
     <string name="restore_this_file">Diese Datei wiederherstellen</string>
@@ -999,7 +999,7 @@
     <string name="filters_title">Android Photo Filters (Bilder filtern)</string>
     <string name="gesture_views_title">Gesture Views (Zoombare Bilder)</string>
     <string name="indicator_fast_scroll_title">Indicator Fast Scroll (Buchstaben auf dem Scrollbalken)</string>
-    <string name="event_bus_title">Event Bus (Kommunikation innerhalb der App)</string>
+    <string name="event_bus_title">Eventbus (Kommunikation innerhalb der App)</string>
     <string name="audio_record_view_title">Audio Record View (Audiovisualisierung)</string>
     <string name="sms_mms_title">SMS MMS (SMS- und MMS-Handhabung)</string>
     <string name="apng_title">APNG Android (animierte WebP-Unterstützung)</string>
