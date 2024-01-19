@@ -278,9 +278,9 @@
         <item quantity="other">%d éléments</item>
     </plurals>
     <plurals name="deleting_items">
-        <item quantity="one">Suppression d\'un élément en cours</item>
-        <item quantity="many">Suppression de %d éléments en cours</item>
-        <item quantity="other">Suppression de %d éléments en cours</item>
+        <item quantity="one">Suppression %d élément</item>
+        <item quantity="many">Suppression de %d éléments</item>
+        <item quantity="other">Suppression de %d éléments</item>
     </plurals>
     <plurals name="delete_contacts">
         <item quantity="one">%d contact</item>
