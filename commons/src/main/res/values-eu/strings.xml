@@ -367,7 +367,7 @@
     <string name="shortcut">Lasterbidea</string>
     <string name="create_shortcut">Sortu lasterbidea</string>
     <string name="create_shortcut_pro">Sortu lasterbidea (Pro)</string>
-    <string name="add_number_to_contact">Gehitu zenbakia kontaktura</string>
+    <string name="add_number_to_contact">Gehitu zenbakia kontaktuari</string>
     <string name="view_contact_details">Ikusi kontaktuaren xehetasunak</string>
     <string name="call_from_sim_1">Deitu 1. SIMetik</string>
     <string name="call_from_sim_2">Deitu 2. SIMetik</string>
@@ -889,4 +889,5 @@
     <string name="event_bus_title">Event Bus (komunikazioa aplikazioaren barruan)</string>
     <string name="audio_record_view_title">Audio Record View (audio-bistaratzea)</string>
     <string name="sms_mms_title">SMS MMS (SMSen eta MMSen kudeaketa)</string>
+    <string name="audio">Audio</string>
 </resources>

@@ -626,11 +626,11 @@
     <string name="extra_large">Sehr groß</string>
     <string name="password_protect_hidden_items">Versteckte Elemente mit Muster/PIN schützen</string>
     <string name="password_protect_whole_app">Gesamte App mit Passwort schützen</string>
-    <string name="password_protect_file_deletion">Mit Passwort vor Dateilöschung und -verschiebung schützen</string>
-    <string name="keep_last_modified">Altes Änderungsdatum bei Dateioperationen behalten</string>
+    <string name="password_protect_file_deletion">Mit Passwort vor Löschen und Verschieben schützen</string>
+    <string name="keep_last_modified">Altes Änderungsdatum bei Dateioperationen beibehalten</string>
     <string name="show_info_bubble">Beim Scrollen mit dem Scrollbalken Infofenster anzeigen</string>
     <string name="prevent_phone_from_sleeping">Verhindern, dass das Gerät in den Ruhemodus wechselt, solange die App im Vordergrund läuft</string>
-    <string name="skip_delete_confirmation">Keinen Löschen-bestätigen-Dialog anzeigen</string>
+    <string name="skip_delete_confirmation">Beim Löschen keinen Bestätigungsdialog anzeigen</string>
     <string name="enable_pull_to_refresh">„Auffrischen“ durch Ziehen von der oberen Kante aktivieren</string>
     <string name="use_24_hour_time_format">24-Stunden-Zählung verwenden</string>
     <string name="change_date_and_time_format">Datums- und Zeitformat ändern</string>
@@ -677,7 +677,7 @@
     <string name="favorites_tab">Favoriten</string>
     <string name="call_history_tab">Anrufliste</string>
     <string name="groups_tab">Gruppen</string>
-    <string name="last_used_tab">Zuletzt verwendeter Tab</string>
+    <string name="last_used_tab">Zuletzt verwendet</string>
     <string name="files_tab">Dateien</string>
     <string name="recent_files_tab">Letzte Dateien</string>
     <string name="restore_this_file">Diese Datei wiederherstellen</string>
@@ -999,7 +999,7 @@
     <string name="filters_title">Android Photo Filters (Bilder filtern)</string>
     <string name="gesture_views_title">Gesture Views (Zoombare Bilder)</string>
     <string name="indicator_fast_scroll_title">Indicator Fast Scroll (Buchstaben auf dem Scrollbalken)</string>
-    <string name="event_bus_title">Event Bus (Kommunikation innerhalb der App)</string>
+    <string name="event_bus_title">Eventbus (Kommunikation innerhalb der App)</string>
     <string name="audio_record_view_title">Audio Record View (Audiovisualisierung)</string>
     <string name="sms_mms_title">SMS MMS (SMS- und MMS-Handhabung)</string>
     <string name="apng_title">APNG Android (animierte WebP-Unterstützung)</string>
@@ -1070,4 +1070,11 @@
     <string name="translation_hindi">Hindi</string>
     <string name="why_upgrade_pro_version">Pro</string>
     <string name="otto_title">Otto (Eventbus)</string>
+    <string name="donate_short">Unterstütze uns bitte durch den Kauf von &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;, dies wird auch alle App-Funktionen einschließlich der Farbanpassung freischalten.</string>
+    <string name="donate_new">Hallo,&lt;br&gt;&lt;br&gt; ich hoffe, die App gefällt dir. Sie enthält keine Werbung und wir sammeln auch nicht deine Daten, bitte unterstütze die Entwicklung durch den Kauf von &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. Außerdem werden alle Funktionen der App, einschließlich der Farbanpassung, freigeschaltet. &lt;br&gt;&lt;br&gt; Vielen Dank!</string>
+    <string name="faq_2_text_commons">Ja, natürlich. Du kannst die Apps bekannt machen oder gutes Feedback und Bewertungen abgeben. Du kannst auch helfen, indem du die Apps in eine neue Sprache übersetzt oder einfach einige bestehende Übersetzungen aktualisierst. Die Anleitung zum Übersetzen findest du auf &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;dieser Website&lt;/a&gt;, oder kontaktiere uns einfach unter &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt;, wenn du Fragen hast.</string>
+    <string name="donate_please">Hallo,&lt;br&gt;&lt;br&gt; ich hoffe, die App gefällt dir. Sie enthält keine Werbung, daher unterstütze bitte die Entwicklung durch den Kauf der App &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt;. Dadurch wird auch dieser Dialog künftig nicht mehr angezeigt.&lt;br&gt;&lt;br&gt; Vielen Dank!</string>
+    <string name="features_locked">Diese Funktion ist gesperrt, bitte kaufe &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; um die App komplett freizuschalten. Dies ist eine einmalige Zahlung und wenn du nicht zufrieden bist, wird dir dein Geld zurückerstattet.</string>
+    <string name="faq_6_text_commons">Dieses Problem tritt auf, wenn dein Launcher das Anpassen der Symbole nicht vollständig unterstützt. Versuche, die App über Google Play oder ein Widget zu starten, falls dies möglich ist. Stelle nach dem Start die standardmäßige grüne Symbolfarbe #106D1F wieder her. In extremen Fällen kann eine Neuinstallation der App erforderlich sein.</string>
+    <string name="contributors_label">Diese Liste enthält alle, die bei einer App innerhalb der Fossify-Suite merklich mitgeholfen haben, nicht nur bei dieser. Die Übersetzungen werden von Freiwilligen erledigt. Sag uns Bescheid, wenn auch du helfen willst. Die Anleitung zum Übersetzen findest du auf &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;dieser Website&lt;/a&gt;, oder kontaktiere uns einfach unter &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt;, wenn du Fragen hast. Vielen Dank an alle Mitwirkenden und sonstigen Unterstützer!</string>
 </resources>
