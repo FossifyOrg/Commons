@@ -1077,4 +1077,43 @@
     <string name="deprecated_app">ATTENTION : cette version de l\'application n\'est plus maintenue à jour. Veuillez vous procurer la version \"Pro\" à l\'adresse web suivante : https://play.google.com/store/apps/details\?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">N\'oubliez pas que si vous désinstallez une application payante dans les deux heures qui suivent son achat, le remboursement sera automatique. À tout moment, si vous souhaitez un remboursement, contactez-nous à l\'adresse électronique suivante : hello@fossify.org et vous l\'obtiendrez dans les plus brefs délais. Cela facilite l\'essai de nos applications :)</string>
     <string name="developer_description">Une suite d\'applications Android simples, à code source ouvert, comprenant des widgets personnalisables, sans publicités ni permissions inutiles.</string>
+    <string name="contributors_label">Cette liste contient toutes les personnes qui ont sensiblement aidé n\'importe quelle application de la suite Fossify, pas seulement celle-ci. Les traductions sont assurées par des bénévoles, faites-nous savoir si vous souhaitez également aider. Le guide de traduction se trouve sur &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;ce site Web&lt;/a&gt;, ou contactez-nous simplement à &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; si vous avez des questions. Merci à tous les contributeurs et autres supporters !</string>
+    <string name="notes">Notes</string>
+    <string name="transparent">Transparent</string>
+    <string name="notification">Notification</string>
+    <string name="notifications">Notifications</string>
+    <string name="six">Six</string>
+    <string name="audio">Audio</string>
+    <string name="mobile">Mobile</string>
+    <string name="source">Source</string>
+    <string name="destination">Destination</string>
+    <string name="album">Album</string>
+    <string name="genre">Genre</string>
+    <string name="exif">EXIF</string>
+    <string name="altitude">Altitude</string>
+    <string name="apply_to_all_apps">Appliquer les couleurs à toutes les applications Fossify</string>
+    <string name="shared_theme_note">Notez que même si vous utilisez la version Pro de l\'application, vous avez toujours besoin de Fossify Thank You pour des raisons techniques. Il s\'occupe de la synchronisation des couleurs.</string>
+    <string name="extension">Extension</string>
+    <string name="minutes_raw">minutes</string>
+    <string name="seconds_letter">s</string>
+    <string name="hours_letter">h</string>
+    <string name="purchase_simple_thank_you">Acheter Fossify Thank You</string>
+    <string name="widgets">Widgets</string>
+    <string name="contacts_tab">Contacts</string>
+    <string name="usb">USB</string>
+    <string name="saturday_letter">S</string>
+    <string name="version_placeholder">Version %s</string>
+    <string name="donate_new">Bonjour,&lt;br&gt;&lt;br&gt;j\'espère que vous appréciez l\'application. Il ne contient aucune publicité et nous ne collectons pas non plus vos données. Veuillez soutenir son développement en achetant &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Merci Vous&lt;/a&gt;. Vous disposerez également de toutes les fonctionnalités de l\'application, y compris la personnalisation des couleurs, débloquées.&lt;br&gt;&lt;br&gt;Merci !</string>
+    <string name="donate_short">Soutenez-nous en achetant &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; s\'il vous plaît, il débloquera également toutes les fonctionnalités de l\'application, y compris la personnalisation des couleurs.</string>
+    <string name="features_locked">Cette fonctionnalité est verrouillée. Veuillez acheter &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Merci&lt;/a&gt; pour avoir déverrouillé l\'application complète.&lt;br &gt;&lt;br&gt;Il s\'agit d\'un paiement unique et si vous n\'êtes pas satisfait, nous pouvons vous rembourser.</string>
+    <string name="contacts_short">Contacts</string>
+    <string name="notes_short">Notes</string>
+    <string name="faq_6_text_commons">Ce problème survient lorsque votre lanceur ne prend pas totalement en charge la personnalisation des icônes. Essayez de lancer l\'application via Google Play ou un widget, s\'il est accessible. Après le lancement, rétablissez la couleur verte par défaut de l\'icône #106D1F. Dans les cas extrêmes, il peut être nécessaire de réinstaller l\'application.</string>
+    <string name="translation_bengali">Bengali</string>
+    <string name="translation_breton">Breton</string>
+    <string name="translation_hindi">Hindi</string>
+    <string name="faq_2_text_commons">Oui bien sûr. Vous pouvez faire connaître les applications ou donner de bons commentaires et notes. Vous pouvez également nous aider en traduisant les applications dans une nouvelle langue ou simplement en mettant à jour certaines traductions existantes. Le guide de traduction se trouve sur &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;ce site Web&lt;/a&gt;, ou contactez-nous simplement à &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; si vous avez des questions.</string>
+    <string name="translation_catalan">Catalan</string>
+    <string name="translation_basque">Basque</string>
+    <string name="translation_tamil">Tamil</string>
 </resources>
