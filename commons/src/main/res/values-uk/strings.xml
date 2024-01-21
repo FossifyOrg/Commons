@@ -1076,8 +1076,7 @@
     <string name="shared_theme_note">Зауважте, що навіть якщо ви використовуєте Pro версію застосунку, вам все ще потрібен Fossify Thank You з технічних причин. Саме він забезпечує синхронізацію кольорів.</string>
     <string name="week_number_short">тиж.</string>
     <string name="usb">USB</string>
-    <string name="copyright">v %1$s
-\nCopyright © Fossify %2$d</string>
+    <string name="copyright">v %1$s \nCopyright © Fossify %2$d</string>
     <string name="donate_new">Вітаємо,&lt;br&gt;&lt;br&gt;сподіваємось, вам подобається цей застосунок. Він не містить реклами та не збирає ваших даних, будь ласка, підтримайте його розробку, придбавши застосунок &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. Також вам будуть доступні всі функції, включно з налаштуванням кольорів.&lt;br&gt;&lt;br&gt;Дякуємо!</string>
     <string name="update_thank_you">Будь ласка, оновіть Fossify Thank You до останньої версії</string>
     <string name="features_locked">Ця функція заблокована, придбайте &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;, щоб розблокувати повну версію застосунку.&lt;br&gt;&lt;br&gt;Це одноразовий платіж, і якщо ви будете не задоволені, ми можемо повернути вам гроші.</string>
