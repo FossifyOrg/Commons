@@ -239,7 +239,7 @@
     <string name="could_not_create_file">Невозможно создать файл \"%s\"</string>
     <string name="no_new_items">Ничего не найдено</string>
     <string name="no_space">По выбранному пути недостаточно свободного места.
-\nНеобходимо %1$s, доступно %2$s</string>
+\nНеобходимо %1$s, доступно %2$s.</string>
     <string name="system_service_disabled">Системная служба для выбора файлов и папок недоступна</string>
     <string name="create_new">Создать</string>
     <string name="folder">Папка</string>
@@ -764,7 +764,7 @@
 \n%s — секунда</string>
     <string name="usb_detected">К устройству подключён USB-накопитель, необходимо убедиться, что файлы на нём отображаются правильно. Для этого необходимо предоставить дополнительные разрешения.</string>
     <string name="confirm_usb_storage_access_text">Выберите корневую папку USB-накопителя на следующем экране, чтобы предоставить к нему доступ</string>
-    <string name="wrong_root_selected_usb">Выбрана неправильная папка. Выберите корневую папку USB-накопителя</string>
+    <string name="wrong_root_selected_usb">Выбрана неправильная папка. Выберите корневую папку USB-накопителя.</string>
     <string name="january">Январь</string>
     <string name="february">Февраль</string>
     <string name="march">Март</string>
