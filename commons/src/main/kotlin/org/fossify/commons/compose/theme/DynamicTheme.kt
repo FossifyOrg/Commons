@@ -136,15 +136,15 @@ fun getTheme(context: Context, materialYouTheme: Theme.SystemDefaultMaterialYou)
                 -16750244 -> md_teal_800
                 -16757440 -> md_teal_900
 
-                -3610935 -> md_green_100
-                -5908825 -> md_green_200
-                -8271996 -> md_green_300
-                -10044566 -> md_green_400
-                -11751600 -> md_green_500
-                -12345273 -> md_green_600
-                -13070788 -> md_green_700
-                -13730510 -> md_green_800
-                -14983648 -> md_green_900
+                -2691126 -> md_green_100
+                -4528984 -> md_green_200
+                -6366844 -> md_green_300
+                -7810712  -> md_green_400
+                -9254834  -> md_green_500
+                -10176442 -> md_green_600
+                -11492293 -> md_green_700
+                -12808398 -> md_green_800
+                -15700705 -> md_green_900
 
                 -2298424 -> md_light_green_100
                 -3808859 -> md_light_green_200
@@ -236,7 +236,7 @@ fun getTheme(context: Context, materialYouTheme: Theme.SystemDefaultMaterialYou)
                 -12434878 -> md_grey_800
                 -16777216 -> md_grey_black_dark
 
-                else -> md_orange_700
+                else -> md_green_900
             }
             Theme.Custom(
                 primaryColorInt = customPrimaryColor.toArgb(),
