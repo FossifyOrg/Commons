@@ -449,7 +449,7 @@
     <string name="no_fingerprints_registered">Sul ei ole ühtegi sõrmejälge salvestatud, palun lisa need nutiseadme seadistustes</string>
     <string name="go_to_settings">Ava seadistused</string>
     <string name="protection_setup_successfully">Salasõna seadistamine õnnestus. Juhul, kui unustad salasõna, siis paigalda rakendus uuesti.</string>
-    <string name="fingerprint_setup_successfully">Turvamise seadistamine õnnestus. Juhul, kui tema lähtestamisel tekib vigu, siis paigalda rakendus uuesti.</string>
+    <string name="fingerprint_setup_successfully">Turvamise seadistamine õnnestus. Juhul, kui selle lähtestamisel tekib vigu, siis palun paigalda rakendus uuesti.</string>
     <string name="lock_folder">Lukusta kaust</string>
     <string name="lock_folder_pro">Lukusta kaust (Pro)</string>
     <string name="unlock_folder">Eemalda kausta lukustus</string>
@@ -1010,4 +1010,69 @@
     <string name="deprecated_app">AEGUNUD: Selle rakenduse versiooni arendus on lõppenud, laadi PRO-versioon aadressilt https://play.google.com/store/apps/details\?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">Palun arvesta, et kui eemaldad tasulise rakenduse nutiseadmest 2 tunni jooksul, siis ostusumma tagastatakse automaatselt. Kui soovit tagastust hiljem, siis saada e-kiri hello@fossify.org aadressile ning korraldame tagastuse. Mõlemal juhul on sul võimalik meie tasulisi rakendusi testida :)</string>
     <string name="developer_description">Arendame Androidi jaoks avatud lähtekoodil põhinevaid lihtsaid tarvikuid ja milles pole reklaame ega vajadust asjatute õiguste jaoks.</string>
+    <string name="exif">EXIF</string>
+    <string name="minutes_letter">m</string>
+    <string name="hours_letter">t</string>
+    <string name="friday_letter">R</string>
+    <string name="donate_new">Tere,&lt;br&gt;&lt;br&gt; loodame, et sulle meie rakendus meeldib. See ei sisalda reklaame, palun toeta selle arendamist, ostes rakenduse &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Suur Tänu&lt;/a&gt;. Seejärel muutuvad kasutatavaks ka rakenduse lisafunktsionaalsused ja värvide kohandamine.&lt;br&gt;&lt;br&gt;Aitäh!</string>
+    <string name="update_thank_you">Palun uuenda rakendus Fossify Suur Tänu viimase versioonini</string>
+    <string name="contributors_label">Selles loendis on kõik, kes aitasid märgatavalt arendada või tõlkida mis tahes rakendust komplektis „Fossify nutitarvikud“. Tõlkimisega tegelevad vabatahtlikud, anna meile teada, kui soovid ka osaleda. Tõlkimise juhend asub &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;meie Github\'i lehel&lt;/a&gt; või kui sul on küsimusi, siis võta meiega ühendust aadressil &lt;href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt;. Aitäh kõigile panustajatele ja teistele toetajatele!</string>
+    <string name="app_icon_color_warning">Hoiatus: Mõned käivitajad ei käsitse rakenduste ikoonide kohandamist korralikult. Kui ikoon kaob, proovi käivitada rakendus Google Play\'st või mõne muu olemasoleva vidina abil. Kui oled käivitanud rakenduse, seadista lihtsalt ikooni vaikimisi roheline toon #106D1F tagasi. Halvemal juhul pead rakenduse võib-olla uuesti paigaldama.</string>
+    <string name="faq_6_text_commons">Selle põhjuseks on asjaolu, et see käivitaja ei toeta ikoonide kohandamist korralikult. Proovi käivitada rakendus Google Play või mõne sarnase saadaoleva vidina abil. Peale käivitamist, seadista lihtsalt tagasi ikooni vaikimisi roheline toon #106D1F. Halvemal juhul pead rakenduse võib-olla uuesti paigaldama.</string>
+    <string name="audio">Audio</string>
+    <string name="purchase_simple_thank_you">Palun osta Fossify Suur Tänu</string>
+    <string name="march_short">Mär</string>
+    <string name="april_short">Apr</string>
+    <string name="july_short">Juuli</string>
+    <string name="august_short">Aug</string>
+    <string name="september_short">Sept</string>
+    <string name="october_short">Okt</string>
+    <string name="tuesday_short">Teisip</string>
+    <string name="wednesday_short">Kolmap</string>
+    <string name="thursday_short">Neljap</string>
+    <string name="friday_short">Reede</string>
+    <string name="saturday_short">Laup</string>
+    <string name="donate_short">Palun toeta meid ostes rakenduse &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Suur Tänu&lt;/a&gt;. Muu hulgas avab see antud rakenduse kõik funktsionaalsused ja sealhulgas võimaldab kohandada liidese värve.</string>
+    <string name="features_locked">See funktsionaalsus on lukus, palun osta rakendus &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Suur Tänu&lt;/a&gt; ning kogu see rakendus on siis kasutatav. See on ainult ühekordne makse ja kui sa ei jää rahule, saame raha tagasi maksta.</string>
+    <string name="translation_english">inglise keel</string>
+    <string name="translation_bengali">bengali keel</string>
+    <string name="translation_hindi">hindi keel</string>
+    <string name="translation_nepali">nepali keel</string>
+    <string name="translation_serbian">serbia keel</string>
+    <string name="translation_tamil">tamili keel</string>
+    <string name="number">Number</string>
+    <string name="block_contact">Blokeeri kontakt</string>
+    <string name="album">Album</string>
+    <string name="genre">Žanr</string>
+    <string name="f_number">F-number</string>
+    <string name="apply_to_all_apps">Kasuta neid värve kõikides Fossify rakendustes</string>
+    <string name="shared_theme_note">Palun arvesta, et kuigi kasutad selle rakenduse Pro-versiooni, siis tehnilistel põhjustel palun paigalda ka rakendus Fossify Suur tänu. See tagab, et värvid on sünkroonis üle kõikide Fossify rakenduste.</string>
+    <string name="purchase_thank_you">Selle funktsionaalsuse kasutamiseks ja meie arendustöö toetamiseks palun osta &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Suur Tänu&lt;/a&gt;. Aitäh juba ette!</string>
+    <string name="deletion_confirmation_short">Kas kustutame %s?</string>
+    <string name="pin">PIN</string>
+    <string name="enter_password">Sisesta salasõna</string>
+    <string name="password">Salasõna</string>
+    <string name="add_password">Lisa salasõna</string>
+    <string name="seconds_letter">s</string>
+    <string name="week_number_short">nd.</string>
+    <string name="notification_sound">Teavituse heli</string>
+    <string name="usb">USB</string>
+    <string name="november">November</string>
+    <string name="january_short">Jan</string>
+    <string name="february_short">Veebr</string>
+    <string name="may_short">Mai</string>
+    <string name="june_short">Juuni</string>
+    <string name="november_short">Nov</string>
+    <string name="december_short">Dets</string>
+    <string name="monday_letter">E</string>
+    <string name="tuesday_letter">T</string>
+    <string name="wednesday_letter">K</string>
+    <string name="thursday_letter">N</string>
+    <string name="saturday_letter">L</string>
+    <string name="sunday_letter">P</string>
+    <string name="monday_short">Esmasp</string>
+    <string name="sunday_short">Pühap</string>
+    <string name="donate_please">Tere,&lt;br&gt;&lt;br&gt; loodame, et sulle meie rakendus meeldib. See ei sisalda reklaame, palun toeta selle arendamist, ostes rakenduse &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Suur Tänu&lt;/a&gt; ja samaga väldid selle vaate uuesti kuvamist.&lt;br&gt;&lt;br&gt; Täname!</string>
+    <string name="faq_2_text_commons">Jah, muidugi. Sa saad rakendust teistele tutvustada või jagada head tagasisidet ja hinnanguid. Samuti saad aidata ka rakenduste tõlkimisega uude keelde või lihtsalt mõne olemasoleva tõlke ajakohastamisega. Tõlkimise juhend asub &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;siin lehel&lt;/a&gt; või küsimuste puhul lihtsalt võta meiega ühendust aadressil &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt;.</string>
+    <string name="why_upgrade_pro_version">Pro</string>
 </resources>

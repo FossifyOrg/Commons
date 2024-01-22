@@ -239,7 +239,7 @@
     <string name="could_not_create_file">Невозможно создать файл \"%s\"</string>
     <string name="no_new_items">Ничего не найдено</string>
     <string name="no_space">По выбранному пути недостаточно свободного места.
-\nНеобходимо %1$s, доступно %2$s</string>
+\nНеобходимо %1$s, доступно %2$s.</string>
     <string name="system_service_disabled">Системная служба для выбора файлов и папок недоступна</string>
     <string name="create_new">Создать</string>
     <string name="folder">Папка</string>
@@ -764,7 +764,7 @@
 \n%s — секунда</string>
     <string name="usb_detected">К устройству подключён USB-накопитель, необходимо убедиться, что файлы на нём отображаются правильно. Для этого необходимо предоставить дополнительные разрешения.</string>
     <string name="confirm_usb_storage_access_text">Выберите корневую папку USB-накопителя на следующем экране, чтобы предоставить к нему доступ</string>
-    <string name="wrong_root_selected_usb">Выбрана неправильная папка. Выберите корневую папку USB-накопителя</string>
+    <string name="wrong_root_selected_usb">Выбрана неправильная папка. Выберите корневую папку USB-накопителя.</string>
     <string name="january">Январь</string>
     <string name="february">Февраль</string>
     <string name="march">Март</string>
@@ -1118,4 +1118,20 @@
     <string name="deprecated_app">УСТАРЕВШЕЕ: данная версия приложения больше не поддерживается, переходите на версию Pro https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">Не забывайте, что если вы удалите любое платное приложение в течение 2 часов, вам будет автоматически возвращена сумма покупки. Если вы захотите вернуть деньги позднее, просто свяжитесь с нами по адресу hello@fossify.org и вы их получите. Так что можно легко опробовать это приложение :)</string>
     <string name="developer_description">Группа простых приложений для Android с открытым исходным кодом с настраиваемыми виджетами без рекламы и ненужных разрешений.</string>
+    <string name="donate_new">Привет,&lt;br&gt;&lt;br&gt;надеюсь, вам нравится приложение. Оно не содержит рекламы, и мы не собираем ваши данные, пожалуйста, поддержите его развитие, купив &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. Вы также получите все функции приложения, включая кастомизацию цвета.&lt;br&gt;&lt;br&gt;Спасибо!</string>
+    <string name="update_thank_you">Пожалуйста, обновите до последней версии Fossify Thank You</string>
+    <string name="purchase_thank_you">Пожалуйста, купите &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Спасибо&lt;/a&gt;, чтобы разблокировать эту функцию и поддержать развитие. Спасибо!</string>
+    <string name="shared_theme_note">Обратите внимание, что даже если вы используете Pro-версию приложения, по техническим причинам вам всё ещё необходимо приложение Fossify Thank You. Оно обеспечивает синхронизацию цветов.</string>
+    <string name="features_locked">Это платная функция, пожалуйста, купите &lt;href=https:/play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;, чтобы разблокировать все функции приложения.&lt;bг&gt;&lt;br&gt;Это разовая оплата, и, если вы не останетесь довольны, мы можем вернуть вам деньги.</string>
+    <string name="ok">ОК</string>
+    <string name="block_contact">Заблокировать контакт</string>
+    <string name="exif">EXIF</string>
+    <string name="apply_to_all_apps">Применить цвета ко всем приложениям Fossify</string>
+    <string name="purchase_simple_thank_you">Купить Fossify Thank You</string>
+    <string name="usb">USB</string>
+    <string name="donate_please">Привет,&lt;br&gt;&lt;br&gt; надеюсь, вам нравится приложение. Оно не содержит рекламы, пожалуйста, поддержите его развитие, купив приложение &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;, а также после покупки это сообщение больше не будет показываться.&lt;br&gt;&lt;br&gt; Спасибо!</string>
+    <string name="donate_short">Пожалуйста, поддержите нас покупкой &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;, а также это разблокирует все функции приложения, включая выбор цвета.</string>
+    <string name="why_upgrade_pro_version">Pro</string>
+    <string name="faq_6_text_commons">Эта проблема возникает, когда лаунчер не полностью поддерживает пользовательские иконки. Попробуйте запустить приложение через Google Play или через виджет, если он доступен. После запуска, восстановите стандартный зеленый цвет иконки #106D1F. В крайних случаях может потребоваться переустановка приложения.</string>
+    <string name="app_icon_color_warning">Внимание: некоторые лаунчеры не смогут правильно отобразить пользовательскую иконку приложения. Если значок исчезает, попробуйте запустить приложение через Google Play или через его виджет, если это возможно. После запуска, восстановите стандартный зелёный цвет иконки #106D1F. В крайних случаях может потребоваться переустановка приложения.</string>
 </resources>
