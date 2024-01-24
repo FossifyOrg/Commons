@@ -17,8 +17,8 @@
 - After:
 
 #### Fixes the following issue(s)
-<!-- Prefix issues with "Fixes" so that GitHub closes them when the PR is merged (note that each "Fixes #" should be in its own item). Also add any other relevant links. -->
-- Fixes #
+<!-- Prefix issues with "Fixes FossifyOrg/AppRepo" so that GitHub closes them when this PR is merged (note that each "Fixes #" should be in its own item). For Commons, it should always be in a format like "Fixes FossifyOrg/AppRepo#123" -->
+- Fixes FossifyOrg/
 
 #### Relies on the following changes
 <!-- Delete this if it doesn't apply to your PR. -->
