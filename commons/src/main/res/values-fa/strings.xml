@@ -487,4 +487,20 @@
     <string name="why_upgrade_pro_version">حرفه‌ای</string>
     <string name="why_upgrade_no_ads">بدونه تبلیغات</string>
     <string name="why_upgrade_no_internet_access">بدونه دسترسی به اینترنت</string>
+    <string name="home">خانه</string>
+    <string name="work">کار</string>
+    <string name="mobile">تلفن همراه</string>
+    <string name="work_fax">فکس محل کار</string>
+    <string name="home_fax">فکس خانه</string>
+    <string name="landscape_column_count">تعداد ستون در حالت افقی</string>
+    <string name="portrait_column_count">تعداد ستون در حالت عمودی</string>
+    <string name="no_phone_number_found">شماره تلفنی پیدا نشد</string>
+    <plurals name="column_counts">
+        <item quantity="one">%d ستون</item>
+        <item quantity="other">%d ستون</item>
+    </plurals>
+    <string name="column_count">تعداد ستون</string>
+    <string name="kotlin_title">کاتلین (زبان برنامه‌نویسی)</string>
+    <string name="language">زبان</string>
+    <string name="temporarily_show_excluded">نمایش موقت رسانه‌های مستثنا شده</string>
 </resources>
