@@ -503,4 +503,7 @@
     <string name="kotlin_title">کاتلین (زبان برنامه‌نویسی)</string>
     <string name="language">زبان</string>
     <string name="temporarily_show_excluded">نمایش موقت رسانه‌های مستثنا شده</string>
+    <string name="updating">در حال به روز رسانی …</string>
+    <string name="phone_storage">حافظه دستگاه</string>
+    <string name="phone_storage_hidden">حافظه دستگاه (برای دیگر برنامه ها نمایان نیست)</string>
 </resources>
