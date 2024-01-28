@@ -176,8 +176,8 @@
     <string name="allow_alarm_scheduled_messages">Du måste ge appen åtkomst till interna larm, annars kan den inte skicka schemalagda meddelanden.</string>
     <string name="allow_alarm_sleep_timer">Du måste tillåta att appen kommer åt interna larm, annars kan den inte stänga av applikationen efter insomningstimern.</string>
     <string name="allow_location_permission">Du måste tillåta att appen kommer åt din plats, annars känner den inte till det.</string>
-    <string name="grant_permission">Tillåt Behörighet</string>
-    <string name="permission_required">Behörighet Krävs</string>
+    <string name="grant_permission">Bevilja behörighet</string>
+    <string name="permission_required">Behörighet krävs</string>
     <string name="rename_file">Byt namn på fil</string>
     <string name="rename_folder">Byt namn på mapp</string>
     <string name="rename_file_error">Det gick inte att byta namn på filen</string>
@@ -1033,4 +1033,12 @@
     <string name="deprecated_app">UTGÅNGEN: Denna version av appen underhålls inte längre, hämta Pro-versionen på https://play.google.com/store/apps/details\?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">Glöm inte att om du avinstallerar någon betalapp inom 2 timmar kommer du automatiskt att få en återbetalning. Om du vill ha en återbetalning när som helst senare, kontakta oss bara på hello@fossify.org så får du det. Det gör det enkelt att testa :)</string>
     <string name="developer_description">En mängd enkla, öppen källkod Android appar med anpassningsbara widgets, inga annonser eller onödiga behörigheter.</string>
+    <string name="purchase_simple_thank_you">Köp Fossify Thank You</string>
+    <string name="translation_bengali">Bengali</string>
+    <string name="translation_bulgarian">Bulgariska</string>
+    <string name="translation_tamil">Tamil</string>
+    <string name="update_thank_you">Uppdatera Fossify Thank You till den senaste versionen</string>
+    <string name="translation_hindi">Hindi</string>
+    <string name="translation_nepali">Nepali</string>
+    <string name="why_upgrade_pro_version">Pro</string>
 </resources>
