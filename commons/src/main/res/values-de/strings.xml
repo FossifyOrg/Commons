@@ -307,11 +307,11 @@
     <string name="f_number">Blendenzahl</string>
     <string name="camera">Kamera</string>
     <string name="song_title">Liedtitel</string>
-    <string name="gps_coordinates">GPS Koordinaten</string>
+    <string name="gps_coordinates">GPS-Koordinaten</string>
     <string name="altitude">Höhe</string>
-    <string name="remove_exif">EXIF Daten entfernen</string>
-    <string name="remove_exif_confirmation">Sollen wirklich alle EXIF-Daten, wie z. B. GPS Koordinaten oder Kameramodell, entfernt werden\?</string>
-    <string name="exif_removed">EXIF Daten erfolgreich entfernt</string>
+    <string name="remove_exif">Exif-Daten entfernen</string>
+    <string name="remove_exif_confirmation">Sollen wirklich alle Exif-Daten, wie z. B. GPS-Koordinaten oder Kameramodell, entfernt werden?</string>
+    <string name="exif_removed">Exif-Daten erfolgreich entfernt</string>
     <string name="background_color">Hintergrundfarbe</string>
     <string name="text_color">Schriftfarbe</string>
     <string name="primary_color">Primäre Farbe</string>
@@ -1049,7 +1049,7 @@
     <string name="filter_pro">Filter (Pro)</string>
     <string name="album">Album</string>
     <string name="genre">Genre</string>
-    <string name="exif">EXIF</string>
+    <string name="exif">Exif</string>
     <string name="auto_theme">Auto</string>
     <string name="name">Name</string>
     <string name="widgets">Widgets</string>

@@ -574,8 +574,8 @@
     <string name="reminder_triggers_in">Oroigarria azaltzeko geratzen den denbora:\n%s</string>
     <string name="time_remaining">Falta den denbora:
 \n%s</string>
-    <string name="alarm_warning">Mesedez, ziurtatu alarma ondo dabilela. Arazoak egon daitezke bateria aurreztearekin zerikusia duten sistemaren murrizketak direla-eta.</string>
-    <string name="reminder_warning">Mesedez, ziurtatu oroigarria ondo dabilela. Arazoak egon daitezke bateria aurreztearekin zerikusia duten sistemaren murrizketak direla-eta.</string>
+    <string name="alarm_warning">Ziurtatu alarma ondo dabilela. Arazoak egon daitezke bateria aurreztearekin zerikusia duten sistemaren murrizketak direla-eta.</string>
+    <string name="reminder_warning">Ziurtatu oroigarria ondo dabilela. Arazoak egon daitezke bateria aurreztearekin zerikusia duten sistemaren murrizketak direla-eta.</string>
     <string name="notifications_disabled">Aplikazio honen jakinarazpenak desgaituta daude. Gailuko ezarpenetan gaitu ditzakezu.</string>
     <string name="alarm">Alarma</string>
     <string name="snooze">Atzeratu</string>
@@ -890,4 +890,29 @@
     <string name="audio_record_view_title">Audio Record View (audio-bistaratzea)</string>
     <string name="sms_mms_title">SMS MMS (SMSen eta MMSen kudeaketa)</string>
     <string name="audio">Audio</string>
+    <string name="send_email">Bidali posta elektronikoa</string>
+    <string name="add_contact">Gehitu kontaktua</string>
+    <string name="genre">Generoa</string>
+    <string name="app_icon_color_warning">Kontuz: baliteke abiarazle batzuek aplikazioaren ikonoen pertsonalizazioa behar bezala ez kudeatzea. Ikonoa desagertzen bada, saiatu aplikazioa abiarazten Google Play edo widget baten bidez, eskuragarri badago. Abiarazi ondoren, lehenetsi #106D1F ikono berdearen kolore lehenetsia. Muturreko kasuetan, baliteke aplikazioa berriro instalatzea beharrezkoa izatea.</string>
+    <string name="error">Errorea: %s</string>
+    <string name="notifications">Jakinarazpenak</string>
+    <string name="zero">Zero</string>
+    <string name="one">Bat</string>
+    <string name="block_contact">Blokeatu kontaktua</string>
+    <string name="exif">EXIF</string>
+    <string name="apply_to_all_apps">Aplikatu koloreak Fossify aplikazio guztietan</string>
+    <string name="shared_theme_note">Kontuan izan aplikazioaren Pro bertsioa erabiltzen ari zaren arren, Fossify-ri Eskerrak behar duzula arrazoi teknikoengatik. Koloreen sinkronizazioaz arduratzen da.</string>
+    <string name="auto_theme">Automatikoa</string>
+    <string name="system_default">Sistema lehenetsia</string>
+    <string name="pin_item">Ainguratu elementua</string>
+    <string name="send_sms">Bidali SMS</string>
+    <string name="contact_details">Kontaktuaren xehetasunak</string>
+    <string name="deletion_confirmation_short">%s ezabatu?</string>
+    <string name="enter_password">Sartu pasahitza</string>
+    <string name="password">Pasahitza</string>
+    <string name="add_password">Gehitu pasahitza</string>
+    <string name="seconds_letter">s</string>
+    <string name="minutes_letter">m</string>
+    <string name="hours_letter">ordu</string>
+    <string name="week_number_short">aste</string>
 </resources>
