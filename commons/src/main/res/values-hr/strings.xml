@@ -319,7 +319,7 @@
     <string name="cannot_be_undone">Ovo je nepovratna radnja.</string>
     <string name="save_before_closing">Imaš nespremljene promjene. Želiš li ih spremiti prije izlaska?</string>
     <string name="share_colors_success">Uspješno ažurirane boje. Nova tema pod nazivom \'Shared\' je dodana, molimo koristite ju za ažuriranje svih boja u aplikaciji u budućnosti.</string>
-    <string name="purchase_thank_you">Za otključavanje ove funkcije te za podršku razvoju aplikacija kupi &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify hvala&lt;/a&gt;. Hvala!</string>
+    <string name="purchase_thank_you">Za otključavanje ove funkcije te za podršku razvoja kupi aplikaciju &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify hvala&lt;/a&gt;. Hvala!</string>
     <string name="light_theme">Svijetla</string>
     <string name="dark_theme">Tamna</string>
     <string name="auto_theme">Automatski</string>
@@ -1109,4 +1109,13 @@
     <string name="sms_messenger_short">SMS Messenger</string>
     <string name="faq_7_text_commons">Plaćanjima u potpunosti upravlja Google. Njihov sustav povremeno ima kvarove. Jednostavno izbrišite predmemoriju aplikacije Google Play i ponovo pokrenite uređaj. Nakon toga pokušajte ponovo preuzeti aplikaciju.</string>
     <string name="faq_10_title_commons">Kupio/la sam aplikaciju, ali je ne mogu preuzeti na drugom uređaju.</string>
+    <string name="app_icon_color_warning">Oprez: Određeni pokretači možda neće ispravno rukovati prilagodbom ikone aplikacije. Ako ikona nestane, pokušaj pokrenuti aplikaciju putem Google Playa ili widgeta. Nakon pokretanja obnovi standardnu zelenu boju ikone #106D1F. U ekstremnim slučajevima može biti potrebno ponovo instalirati aplikaciju.</string>
+    <string name="shared_theme_note">Imaj na umu da iako koristiš Pro verziju aplikacije, još uvijek trebaš Fossify hvala iz tehničkih razloga. Potrebna je za sinkronizaciju boja.</string>
+    <string name="faq_10_text_commons">Pokušaj izbrisati predmemoriju aplikacije Google Play i ponovo pokrenuti uređaj. To je neka greška Google Playa, koja nije povezana sa samom aplikacijom.</string>
+    <string name="trial_start_description">Hvala što koristiš našu aplikaciju. Ovu otključanu verziju možeš koristiti <font color="#FFFFFF">%d dana</font>. Nakon što probno razdoblje završi, razmisli o nadogradnji na Pro verziju. Ona sadrži velik broj funkcija, moderan dizajn, bez oglasa i mnoga druga poboljšanja.
+\n
+\nMoraš je platiti samo jednom. Ako nisi zadovoljan/na, možeš je deinstalirati i dobiti povrat novca.
+\n
+\nNadamo se da će ti se svidjeti :)</string>
+    <string name="donate_short">Podrži nas kupnjom aplikacije &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify hvala&lt;/a&gt;. Time će se otključati sve funkcije aplikacije uključujući prilagođavanje boja.</string>
 </resources>
