@@ -850,13 +850,7 @@
     <string name="additional_info">Dodatne informacije</string>
     <string name="app_version">Verzija aplikacije: %s</string>
     <string name="device_os">OS uređaja: %s</string>
-    <string name="donate_please">
-        <![CDATA[
-            Pozdrav,<br><br>
-            nadam se da uživate u aplikaciji. Ne sadrži reklame, stoga nas podržite njen razvoj kupovinom <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> aplikacije, što će spriječiti da se ovaj prozor ponovno pojavljuje.<br><br>
-            Hvala Vam!
-        ]]>
-    </string>
+    <string name="donate_please">Zdravo,&lt;br&gt;&lt;br&gt; nadamo se da uživate u aplikaciji. Ne sadrži oglase. Podržite njen razvoj kupnjom aplikacije &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify hvala&lt;/a&gt;, što će spriječiti da se ovaj prozor ponovno pojavljuje.&lt;br&gt;&lt;br&gt; Hvala!</string>
     <string name="purchase">Kupi</string>
     <string name="before_asking_question_read_faq">Prije nego što postaviš pitanje, provjeri postavke aplikacije i najprije pročitaj stranicu „Često postavljena pitanja”. Rješenje možda već postoji.</string>
     <string name="before_rate_read_faq">Prije nego što nas ocijeniš, provjeri postavke aplikacije i najprije pročitaj stranicu „Često postavljena pitanja”. Ako imaš bilo koji problem, rješenje možda već postoji.</string>
@@ -1118,4 +1112,8 @@
 \n
 \nNadamo se da će ti se svidjeti :)</string>
     <string name="donate_short">Podrži nas kupnjom aplikacije &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify hvala&lt;/a&gt;. Time će se otključati sve funkcije aplikacije uključujući prilagođavanje boja.</string>
+    <string name="donate_new">Zdravo,&lt;br&gt;&lt;br&gt; nadamo se da uživate u aplikaciji. Ne sadrži oglase i ne prikupljamo vaše podatke. Podržite njen razvoj kupnjom &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify hvala&lt;/a&gt;. Time dobivate pristup svim funkcijama aplikacije uključujući prilagođavanje boja.&lt;br&gt;&lt;br&gt;Hvala!</string>
+    <string name="faq_2_text_commons">Da naravno. Možete širiti vijest o aplikacijama ili slati povratne informacije i ocjene. Također možete pomoći prevođenjem aplikacija na novi jezik ili aktualizirati postojeće prijevode. Vodič za prevođenje nalazi se na &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;ovoj web stranici&lt;/a&gt; ili nas kontaktirajte na &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; ako imate pitanja.</string>
+    <string name="contributors_label">Ovaj popis sadrži sve osobe koje su značajno pomogli bilo kojoj aplikaciji unutar paketa Fossify, ne samo ovoj. Prijevode obavljaju volonteri, javite nam ako i vi želite pomoći. Vodič za prevođenje nalazi se na &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;ovoj web stranici&lt;/a&gt; ili nas kontaktirajte na &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; ako imate pitanja. Hvala svim suradnicima i ostalim podržavateljima!</string>
+    <string name="features_locked">Ova je funkcija zaključana. Kupite &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify hvala&lt;/a&gt; za otključavanje cijele aplikacije.&lt;br&gt;&lt;br&gt;Radi se o jednokratnom plaćanju. Ako niste zadovoljni, možemo vam vratiti novac.</string>
 </resources>
