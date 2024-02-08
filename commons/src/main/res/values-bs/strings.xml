@@ -1079,4 +1079,8 @@
     <string name="deprecated_app">ZASTARJELO: Ova verzija aplikacije se više ne održava. Nabavi Pro verziju na https://play.google.com/store/apps/details\?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">Ako deinstaliraš bilo koju plaćenu aplikaciju u roku od 2 sata automatski ćeš dobiti povrat novca. Ako kasnije želiš povrat novca, jednostavno nas kontaktiraj na hello@fossify.org. To olakšava isprobavanje :)</string>
     <string name="developer_description">Skup jednostavnih Android aplikacija otvorenog koda s prilagodljivim widgetima, bez oglasa i nepotrebnih dozvola.</string>
+    <string name="filter">Filter</string>
+    <string name="filter_pro">Filter (Pro)</string>
+    <string name="root">Početak</string>
+    <string name="internal_storage">Interno skladište</string>
 </resources>
