@@ -365,7 +365,7 @@
     <string name="empty_and_disable_recycle_bin">रीसायकल बिन को खाली करें और अक्षम करें</string>
     <string name="redo">पुनः करें</string>
     <string name="print_pro">प्रिंट (Pro)</string>
-    <string name="filename">फ़ाइल का नाम</string>
+    <string name="filename">फाइलनाम</string>
     <string name="date_added">दिनांक जोड़ा गया</string>
     <string name="date_created">बनाया गया दिनांक</string>
     <string name="date_taken">दिनांक लिया गया</string>
@@ -625,7 +625,7 @@
     <string name="view_contact_details">संपर्क विवरण देखें</string>
     <string name="call_from_sim_1">SIM 1 से कॉल करें</string>
     <string name="call_from_sim_2">SIM 2 से कॉल करें</string>
-    <string name="toggle_filename">फ़ाइल नाम दृश्यता टॉगल करें</string>
+    <string name="toggle_filename">फाइल नाम दृश्यता टॉगल करें</string>
     <string name="move_to_top">शीर्ष पर ले जाएँ</string>
     <string name="move_to_bottom">नीचे की ओर ले जाएँ</string>
     <string name="pin_item">आइटम पिन करें</string>
