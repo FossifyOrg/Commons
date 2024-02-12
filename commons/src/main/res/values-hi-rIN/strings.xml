@@ -55,9 +55,9 @@
     <string name="why_upgrade_different_note_per_widget">प्रति विजेट अलग-अलग नोट और रंग</string>
     <string name="why_upgrade_date_and_time_format">दिनांक और समय प्रारूप अनुकूलन</string>
     <string name="why_upgrade_shortcuts">होम स्क्रीन शॉर्टकट</string>
-    <string name="why_upgrade_file_compression">फ़ाइल संपीड़न समर्थन</string>
+    <string name="why_upgrade_file_compression">फाइल संपीड़न समर्थन</string>
     <string name="why_upgrade_background_color_customization">पृष्ठभूमि रंग अनुकूलन</string>
-    <string name="why_upgrade_file_importing">फ़ाइल आयात समर्थन</string>
+    <string name="why_upgrade_file_importing">फाइल आयात समर्थन</string>
     <string name="notice">यह ऐप मेरे जीवन को आसान बनाने के लिए निम्नलिखित तृतीय पक्ष लाइब्रेरी का उपयोग करता है। धन्यवाद।</string>
     <string name="third_party_licences">तृतीय पक्ष लाइसेंस</string>
     <string name="joda_title">Joda-Time (जावा दिनांक प्रतिस्थापन)</string>
@@ -413,7 +413,7 @@
     <string name="days_raw">दिनों</string>
     <string name="upgraded_from_free_calendar">नमस्ते,
 \n
-\nऐसा लगता है जैसे आपने अभी मुफ़्त वर्शन से अपग्रेड किया है। यदि आप अपने स्थानीय रूप से संग्रहीत ईवेंट को माइग्रेट करना चाहते हैं, तो आपको उन्हें निःशुल्क ऐप वर्शन में एक .ics फ़ाइल में निर्यात करके और शीर्ष मेनू के माध्यम से यहां आयात करके मैन्युअल रूप से करना होगा।
+\nऐसा लगता है जैसे आपने अभी मुफ़्त वर्शन से अपग्रेड किया है। यदि आप अपने स्थानीय रूप से संग्रहीत ईवेंट को माइग्रेट करना चाहते हैं, तो आपको उन्हें निःशुल्क ऐप वर्शन में एक .ics फाइल में निर्यात करके और शीर्ष मेनू के माध्यम से यहां आयात करके मैन्युअल रूप से करना होगा।
 \n
 \nएक बार जब आप प्रो वर्शन में अपने सेटअप से संतुष्ट हो जाते हैं, तो आप पुराने Pro को अनइंस्टॉल कर सकते हैं क्योंकि अब आपको इसकी आवश्यकता नहीं होगी, यह इस डायलॉग को दिखने से भी रोक देगा।
 \n
@@ -430,18 +430,18 @@
     <string name="system_sounds">सिस्टम ध्वनियाँ</string>
     <string name="upgraded_from_free_contacts">नमस्ते,
 \n
-\nऐसा लगता है जैसे आपने अभी मुफ़्त वर्शन से अपग्रेड किया है। यदि आपके पास \"%s\" के अंतर्गत कोई संपर्क संग्रहीत है, तो आपको उन्हें मुफ़्त ऐप वर्शन से .vcf फ़ाइल में निर्यात करके और शीर्ष मेनू के माध्यम से यहां आयात करके मैन्युअल रूप से माइग्रेट करना होगा।
+\nऐसा लगता है जैसे आपने अभी मुफ़्त वर्शन से अपग्रेड किया है। यदि आपके पास \"%s\" के अंतर्गत कोई संपर्क संग्रहीत है, तो आपको उन्हें मुफ़्त ऐप वर्शन से .vcf फाइल में निर्यात करके और शीर्ष मेनू के माध्यम से यहां आयात करके मैन्युअल रूप से माइग्रेट करना होगा।
 \n
 \nएक बार जब आप Pro वर्शन में अपने सेटअप से संतुष्ट हो जाते हैं, तो आप पुराने फ्री को अनइंस्टॉल कर सकते हैं क्योंकि अब आपको इसकी आवश्यकता नहीं होगी, यह इस डायलॉग को दिखने से भी रोक देगा।
 \n
 \nधन्यवाद!</string>
     <string name="settings">सेटिंग्स</string>
-    <string name="keep_last_modified">फ़ाइल संचालन में पुराना अंतिम-संशोधित मान रखें</string>
+    <string name="keep_last_modified">फाइल संचालन में पुराना अंतिम-संशोधित मान रखें</string>
     <string name="prevent_phone_from_sleeping">जब ऐप अग्रभूमि में हो तो फ़ोन को निष्क्रिय होने से रोकें</string>
     <string name="change_date_and_time_format">दिनांक और समय प्रारूप बदलें</string>
-    <string name="restore_this_file">इस फ़ाइल को पुनर्स्थापित करें</string>
+    <string name="restore_this_file">इस फाइल को पुनर्स्थापित करें</string>
     <string name="recycle_bin_emptied">रीसायकल बिन सफलतापूर्वक खाली कर दिया गया है</string>
-    <string name="files_restored_successfully">फ़ाइलें सफलतापूर्वक पुनर्स्थापित कर दी गई हैं</string>
+    <string name="files_restored_successfully">फाइलें सफलतापूर्वक पुनर्स्थापित कर दी गई हैं</string>
     <string name="show_the_recycle_bin">रीसायकल बिन दिखाएँ</string>
     <plurals name="moving_items_into_bin">
         <item quantity="one">%d आइटम को रीसायकल बिन में ले जाना</item>
@@ -469,7 +469,7 @@
     <string name="social">सामाजिक</string>
     <string name="upgraded_from_free_notes">नमस्ते,
 \n
-\nऐसा लगता है जैसे आपने अभी मुफ़्त वर्शन से अपग्रेड किया है। यदि आप अपने नोट्स को स्थानांतरित करना चाहते हैं, तो आपको उन्हें मुफ्त ऐप वर्शन में एक फ़ाइल में निर्यात करके और शीर्ष मेनू के माध्यम से यहां आयात करके मैन्युअल रूप से करना होगा।
+\nऐसा लगता है जैसे आपने अभी मुफ़्त वर्शन से अपग्रेड किया है। यदि आप अपने नोट्स को स्थानांतरित करना चाहते हैं, तो आपको उन्हें मुफ्त ऐप वर्शन में एक फाइल में निर्यात करके और शीर्ष मेनू के माध्यम से यहां आयात करके मैन्युअल रूप से करना होगा।
 \n
 \nएक बार जब आप Pro वर्शन में अपने सेटअप से संतुष्ट हो जाते हैं, तो आप पुराने फ्री को अनइंस्टॉल कर सकते हैं क्योंकि अब आपको इसकी आवश्यकता नहीं होगी, यह इस डायलॉग को दिखने से भी रोक देगा।
 \n
@@ -486,7 +486,7 @@
     <string name="keyboard_short">कीबोर्ड</string>
     <string name="sideloaded_app">ऐसा लगता है कि आपका ऐप वर्शन दूषित है। कृपया मूल वर्शन &lt;a href=%s&gt;यहां&lt;/a&gt; से डाउनलोड करें।</string>
     <string name="faq_2_text_commons">हाँ बिल्कुल। आप ऐप्स के बारे में प्रचार कर सकते हैं या अच्छी प्रतिक्रिया और रेटिंग दे सकते हैं। आप ऐप्स को नई भाषा में अनुवाद करके या बस कुछ मौजूदा अनुवादों को अपडेट करके भी सहायता कर सकते हैं। अनुवाद करने की मार्गदर्शिका &lt;a href=https://github.com/FossifyOrg/general-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;इस वेबसाइट&lt;/a&gt; पर है, या यदि आपके कोई प्रश्न हैं तो बस &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; पर हमसे संपर्क करें।</string>
-    <string name="faq_3_title_commons">मैंने गलती से कुछ फ़ाइलें हटा दी हैं, मैं उन्हें कैसे पुनर्प्राप्त कर सकता हूं?</string>
+    <string name="faq_3_title_commons">मैंने गलती से कुछ फाइलें हटा दी हैं, मैं उन्हें कैसे पुनर्प्राप्त कर सकता हूं?</string>
     <string name="faq_4_text_commons">हां, जैसे ही आप किसी विजेट को अपनी होम स्क्रीन पर खींचते हैं तो एक विजेट कॉन्फ़िगरेशन स्क्रीन दिखाई देती है। आपको निचले बाएँ कोने पर रंगीन वर्ग दिखाई देंगे, नया रंग चुनने के लिए बस उन्हें दबाएँ। आप अल्फा को समायोजित करने के लिए स्लाइडर का भी उपयोग कर सकते हैं।</string>
     <string name="why_upgrade_contact_private_contacts">निजी तौर पर संग्रहीत संपर्क</string>
     <string name="glide_title">Glide (छवि लोडिंग और कैशिंग)</string>
@@ -539,7 +539,7 @@
     <string name="upgrade_to_pro">Pro में अपग्रेड</string>
     <string name="why_upgrade_improved_design">बेहतर डिज़ाइन</string>
     <string name="why_upgrade_advanced_photo_video_editor">उन्नत फोटो एवं वीडियो संपादक</string>
-    <string name="why_upgrade_recents_tab">हाल की फ़ाइलों वाला टैब</string>
+    <string name="why_upgrade_recents_tab">हाल की फाइलों वाला टैब</string>
     <string name="picasso_title">Picasso (छवि लोडिंग और कैशिंग)</string>
     <string name="cropper_title">Android Image Cropper (छवि क्रॉप करें और घुमाएं)</string>
     <string name="rtl_viewpager_title">RtlViewPager (दाएँ से बाएँ स्वाइप करना)</string>
@@ -800,7 +800,7 @@
     <string name="extra_large">ज्यादा बड़ा</string>
     <string name="password_protect_hidden_items">पासवर्ड छुपी हुई वस्तु की दृश्यता को सुरक्षित रखता है</string>
     <string name="password_protect_whole_app">पासवर्ड पूरे एप्लिकेशन की सुरक्षा करता है</string>
-    <string name="password_protect_file_deletion">पासवर्ड फ़ाइल को हटाने और स्थानांतरित करने की सुरक्षा करता है</string>
+    <string name="password_protect_file_deletion">पासवर्ड फाइल को हटाने और स्थानांतरित करने की सुरक्षा करता है</string>
     <string name="show_info_bubble">स्क्रॉलबार खींचकर स्क्रॉलिंग आइटम पर एक सूचना बुलबुला दिखाएं</string>
     <string name="skip_delete_confirmation">डिलीट पुष्टिकरण संवाद को हमेशा छोड़ें</string>
     <string name="enable_pull_to_refresh">ऊपर से पुल-टू-रीफ्रेश सक्षम करें</string>
@@ -824,7 +824,7 @@
     <string name="visibility">दृश्यता</string>
     <string name="security">सुरक्षा</string>
     <string name="scrolling">स्क्रॉल</string>
-    <string name="file_operations">फ़ाइल संचालन</string>
+    <string name="file_operations">फाइल संचालन</string>
     <string name="recycle_bin">रीसायकल बिन</string>
     <string name="saving_label">सहेजा जा रहा है</string>
     <string name="startup">स्टार्टअप</string>
@@ -848,16 +848,16 @@
     <string name="call_history_tab">कॉल इतिहास</string>
     <string name="groups_tab">समूह</string>
     <string name="last_used_tab">आखिरी बार इस्तेमाल किया गया</string>
-    <string name="files_tab">फ़ाइलें</string>
-    <string name="recent_files_tab">हाल की फ़ाइलें</string>
-    <string name="restore_selected_files">चयनित फ़ाइलें पुनर्स्थापित करें</string>
-    <string name="restore_all_files">सभी फ़ाइलें पुनर्स्थापित करें</string>
-    <string name="empty_recycle_bin_confirmation">क्या आप वाकई रीसायकल बिन खाली करना चाहते हैं? फ़ाइलें स्थायी रूप से खो जाएँगी।</string>
+    <string name="files_tab">फाइलें</string>
+    <string name="recent_files_tab">हाल की फाइलें</string>
+    <string name="restore_selected_files">चयनित फाइलें पुनर्स्थापित करें</string>
+    <string name="restore_all_files">सभी फाइलें पुनर्स्थापित करें</string>
+    <string name="empty_recycle_bin_confirmation">क्या आप वाकई रीसायकल बिन खाली करना चाहते हैं? फाइलें स्थायी रूप से खो जाएँगी।</string>
     <string name="recycle_bin_empty">रीसायकल बिन खाली है</string>
     <string name="moving_recycle_bin_items_disabled">रीसायकल बिन आइटमों को स्थानांतरित करना अक्षम है, कृपया पुनर्स्थापना का उपयोग करें</string>
     <string name="hide_the_recycle_bin">रीसायकल बिन छुपाएं</string>
     <string name="open_the_recycle_bin">रीसायकल बिन खोलें</string>
-    <string name="skip_the_recycle_bin">रीसायकल बिन छोड़ें, फ़ाइलें सीधे हटाएं</string>
+    <string name="skip_the_recycle_bin">रीसायकल बिन छोड़ें, फाइलें सीधे हटाएं</string>
     <string name="importing">आयात किया जा रहा है…</string>
     <string name="exporting">निर्यात हो रहा है…</string>
     <string name="importing_successful">आयात सफल</string>
@@ -871,8 +871,8 @@
     <string name="enable_automatic_backups">स्वचालित बैकअप सक्षम करें</string>
     <string name="manage_automatic_backups">स्वचालित बैकअप प्रबंधित करें</string>
     <string name="usb">USB</string>
-    <string name="usb_detected">ऐसा लगता है कि आपके डिवाइस से एक USB डिवाइस जुड़ा हुआ है। यह सुनिश्चित करने के लिए कि इसकी फ़ाइलें ठीक से दिखाई दें, आपको अतिरिक्त अनुमतियाँ देने की आवश्यकता है।</string>
-    <string name="date_time_pattern_info">आप अपनी फ़ाइल को स्वचालित रूप से नाम देने के लिए निम्नलिखित पैटर्न का उपयोग कर सकते हैं:
+    <string name="usb_detected">ऐसा लगता है कि आपके डिवाइस से एक USB डिवाइस जुड़ा हुआ है। यह सुनिश्चित करने के लिए कि इसकी फाइलें ठीक से दिखाई दें, आपको अतिरिक्त अनुमतियाँ देने की आवश्यकता है।</string>
+    <string name="date_time_pattern_info">आप अपनी फाइल को स्वचालित रूप से नाम देने के लिए निम्नलिखित पैटर्न का उपयोग कर सकते हैं:
 \n
 \n%Y - वर्ष
 \n%M - महीना
@@ -966,9 +966,9 @@
     <string name="frequently_asked_questions">अक्सर पूछे जाने वाले प्रश्नों</string>
     <string name="faq_1_title_commons">मुझे विजेट की सूची में यह ऐप्स विजेट कैसे नहीं दिख रहा?</string>
     <string name="faq_2_title_commons">मैं आपका समर्थन करना चाहता हूं, लेकिन मैं पैसे दान नहीं कर सकता। क्या मुझे कुछ और करना है?</string>
-    <string name="faq_3_text_commons">अफसोस की बात है, आप नहीं कर सकते. पुष्टिकरण संवाद के बाद फ़ाइलें तुरंत हटा दी जाती हैं, कोई ट्रैशबिन उपलब्ध नहीं है।</string>
+    <string name="faq_3_text_commons">अफसोस की बात है, आप नहीं कर सकते. पुष्टिकरण संवाद के बाद फाइलें तुरंत हटा दी जाती हैं, कोई ट्रैशबिन उपलब्ध नहीं है।</string>
     <string name="faq_4_title_commons">मुझे विजेट के रंग पसंद नहीं हैं, क्या मैं उन्हें बदल सकता हूँ?</string>
-    <string name="faq_5_text_commons">यदि वे वास्तव में हटा दिए गए थे, तो आप नहीं कर सकते। हालाँकि, डिफ़ॉल्ट रूप से एक रीसायकल बिन सक्षम है, इससे फ़ाइलें हटाने के बजाय बस बिन में चली जाएंगी।</string>
+    <string name="faq_5_text_commons">यदि वे वास्तव में हटा दिए गए थे, तो आप नहीं कर सकते। हालाँकि, डिफ़ॉल्ट रूप से एक रीसायकल बिन सक्षम है, इससे फाइलें हटाने के बजाय बस बिन में चली जाएंगी।</string>
     <string name="faq_6_title_commons">ऐप लॉन्चर आइकन गायब हो गया. मैं क्या कर सकता हूँ?</string>
     <string name="faq_7_text_commons">भुगतान पूरी तरह से Google द्वारा नियंत्रित किया जाता है, समय-समय पर उनका सिस्टम गड़बड़ हो जाता है। बस अपना Google Play ऐप कैशे साफ़ करें और अपने डिवाइस को पुनरारंभ करें, फिर इसे डाउनलोड करने का पुनः प्रयास करें।</string>
     <string name="faq_7_title_commons">मेरे बैंक खाते से पैसे काट लिए गए हैं, लेकिन मैं ऐप डाउनलोड नहीं कर सकता। मैं क्या कर सकता हूँ?</string>
@@ -1024,7 +1024,7 @@
     <string name="sms_mms_title">SMS MMS (SMS और MMS हैंडलिंग)</string>
     <string name="apng_title">APNG Android (एनिमेटेड WebP समर्थन)</string>
     <string name="pdf_viewer_title">Android PdfViewer (PDF व्यूअर)</string>
-    <string name="m3u_parser_title">M3U Parser (m3u प्लेलिस्ट फ़ाइल हैंडलिंग)</string>
+    <string name="m3u_parser_title">M3U Parser (m3u प्लेलिस्ट फाइल हैंडलिंग)</string>
     <string name="start_free_trial">निशुल्क आजमाइश शुरु करें</string>
     <string name="welcome_to_app_name">%s में आपका स्वागत है!</string>
     <plurals name="trial_expires_days">
@@ -1047,7 +1047,7 @@
 \nधन्यवाद!</string>
     <string name="rate_our_app">कृपया हमारे ऐप को रेटिंग दें :)</string>
     <string name="thank_you">धन्यवाद</string>
-    <string name="file_manager_short">फ़ाइल मैनेजर</string>
+    <string name="file_manager_short">फाइल मैनेजर</string>
     <string name="launcher_short">लांचर</string>
     <string name="music_player_short">म्यूजिक प्लेयर</string>
     <string name="notes_short">नोट्स</string>
@@ -1055,7 +1055,7 @@
     <string name="thank_you_short">धन्यवाद</string>
     <string name="faq_6_text_commons">यह समस्या तब उत्पन्न होती है जब आपका लॉन्चर आइकन अनुकूलन का पूर्ण समर्थन नहीं करता है। यदि सुलभ हो तो Google Play या विजेट के माध्यम से ऐप लॉन्च करने का प्रयास करें। लॉन्च करने के बाद, डिफ़ॉल्ट हरा आइकन रंग #106D1F पुनर्स्थापित करें। चरम मामलों में, ऐप को पुनः इंस्टॉल करना आवश्यक हो सकता है।</string>
     <string name="before_asking_question">इससे पहले कि आप कोई प्रश्न पूछें, कृपया पहले पढ़ें</string>
-    <string name="faq_5_title_commons">क्या मैं किसी तरह हटाई गई फ़ाइलों को पुनर्स्थापित कर सकता हूँ?</string>
+    <string name="faq_5_title_commons">क्या मैं किसी तरह हटाई गई फाइलों को पुनर्स्थापित कर सकता हूँ?</string>
     <string name="faq_9_text_commons">ऐसा करने के कई तरीके हैं। पहला है एक आइटम को लंबे समय तक दबाकर चयन मोड शुरू करना, फिर दूसरों को चुनने के लिए उन पर छोटा क्लिक करना। दूसरा तरीका माउस के साथ PC पर आइटम का चयन करने के समान है, बस एक आइटम को लंबे समय तक दबाकर चयन मोड शुरू करें, फिर अपनी उंगली को नीचे की ओर रखते हुए इसे चयन के लिए अन्य आइटम पर खींचें। एकाधिक आइटम चुनने का तीसरा तरीका एक आइटम को लंबे समय तक दबाना है, फिर दूसरे को लंबे समय तक दबाना है और बीच में सब कुछ चयनित हो जाता है। यदि आप सभी आइटम का चयन करना चाहते हैं, तो बस एक आइटम को देर तक दबाएं, फिर ऊपरी बाएं कोने पर चयनित आइटम काउंटर पर क्लिक करें। वह सभी चीज़ों का चयन या चयन रद्द कर देगा।</string>
     <string name="translation_galician">गैलिशियन्</string>
     <string name="translation_hindi">हिंदी</string>
