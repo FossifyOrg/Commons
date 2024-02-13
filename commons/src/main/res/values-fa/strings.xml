@@ -514,4 +514,35 @@
     <string name="no_browser_found">برنامهٔ مرورگری پیدا نشد</string>
     <string name="call_person">تماس با %s</string>
     <string name="confirm_calling_person">تایید تماس با %s</string>
+    <string name="create_new_contact">ایجاد مخاطب جدید</string>
+    <string name="add_to_existing_contact">افزودن به مخاطب موجود</string>
+    <string name="record_video">ضبط ویدیو</string>
+    <string name="audio">صدا</string>
+    <string name="birthday">تاریخ تولد</string>
+    <string name="anniversary">سالگرد</string>
+    <string name="main_number">اصلی</string>
+    <plurals name="row_counts">
+        <item quantity="one">%d ردیف</item>
+        <item quantity="other">%d ردیف</item>
+    </plurals>
+    <string name="not_blocking_anyone">شما هیچ‌کس را مسدود نکرده‌اید.</string>
+    <string name="export_blocked_numbers">خروجی گرفتن از شماره‌های مسدود شده</string>
+    <string name="import_blocked_numbers">وارد کردن شماره‌های مسدود شده</string>
+    <string name="five">پنج</string>
+    <string name="six">شش</string>
+    <string name="seven">هفت</string>
+    <string name="eight">هشت</string>
+    <string name="nine">نه</string>
+    <string name="value">مقدار</string>
+    <string name="disclaimer">رفع مسئولیت</string>
+    <string name="choose_photo">انتخاب تصویر</string>
+    <string name="choose_video">انتخاب ویدیو</string>
+    <string name="choose_contact">انتخاب مخاطب</string>
+    <string name="choose_file">انتخاب پرونده</string>
+    <string name="record_audio">ضبط صدا</string>
+    <string name="zero">صفر</string>
+    <string name="one">یک</string>
+    <string name="two">دو</string>
+    <string name="three">سه</string>
+    <string name="four">چهار</string>
 </resources>
