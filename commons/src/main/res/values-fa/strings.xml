@@ -509,4 +509,9 @@
     <string name="search_groups">جستجو گروه ها</string>
     <string name="search_contacts">جستجوی مخاطبان</string>
     <string name="search_favorites">جستجو برگزیدگان</string>
+    <string name="error">خطا: %s</string>
+    <string name="edit">ویرایش</string>
+    <string name="no_browser_found">برنامهٔ مرورگری پیدا نشد</string>
+    <string name="call_person">تماس با %s</string>
+    <string name="confirm_calling_person">تایید تماس با %s</string>
 </resources>
