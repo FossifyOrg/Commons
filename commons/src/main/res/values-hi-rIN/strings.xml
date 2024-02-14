@@ -42,7 +42,7 @@
     <string name="why_upgrade_advanced_photo_editor">उन्नत फोटो एडिटर</string>
     <string name="why_upgrade_heic_support">HEIC/HEIF फाइल सपोर्ट</string>
     <string name="why_upgrade_batch_renaming">ढेरों फाइल एकसाथ रीनेम करें</string>
-    <string name="why_upgrade_folder_locking">व्यक्तिगत फ़ोल्डर लॉक करें</string>
+    <string name="why_upgrade_folder_locking">व्यक्तिगत फोल्डर लॉक करें</string>
     <string name="why_upgrade_printing_support">प्रिंटिंग सपोर्ट</string>
     <string name="why_upgrade_time_zone_support">टाइम जोन सपोर्ट </string>
     <string name="why_upgrade_attendees_emails">सहभागी और ईमेल रिमाइंडर</string>
@@ -55,9 +55,9 @@
     <string name="why_upgrade_different_note_per_widget">प्रति विजेट अलग-अलग नोट और रंग</string>
     <string name="why_upgrade_date_and_time_format">दिनांक और समय प्रारूप अनुकूलन</string>
     <string name="why_upgrade_shortcuts">होम स्क्रीन शॉर्टकट</string>
-    <string name="why_upgrade_file_compression">फ़ाइल संपीड़न समर्थन</string>
+    <string name="why_upgrade_file_compression">फाइल संपीड़न समर्थन</string>
     <string name="why_upgrade_background_color_customization">पृष्ठभूमि रंग अनुकूलन</string>
-    <string name="why_upgrade_file_importing">फ़ाइल आयात समर्थन</string>
+    <string name="why_upgrade_file_importing">फाइल आयात समर्थन</string>
     <string name="notice">यह ऐप मेरे जीवन को आसान बनाने के लिए निम्नलिखित तृतीय पक्ष लाइब्रेरी का उपयोग करता है। धन्यवाद।</string>
     <string name="third_party_licences">तृतीय पक्ष लाइसेंस</string>
     <string name="joda_title">Joda-Time (जावा दिनांक प्रतिस्थापन)</string>
@@ -104,12 +104,12 @@
     <string name="set_as_default">डिफाल्ट के रूप में सेट</string>
     <string name="type_2_characters">खोज शुरू करने के लिए कम से कम 2 अक्षर टाइप करें।</string>
     <string name="search_calls">कॉल खोजें</string>
-    <string name="search_files_and_folders">फ़ाइलें और फ़ोल्डर खोजें</string>
+    <string name="search_files_and_folders">फाइलें और फोल्डर्स खोजें</string>
     <string name="search_albums">एल्बम खोजें</string>
     <string name="block_hidden_messages">छुपे हुए नंबरों से आने वाले संदेशों को ब्लॉक करें</string>
     <string name="no_items_found">कोई आइटम नहीं मिला।</string>
     <string name="block_hidden_calls">छुपे हुए नंबरों से आने वाली कॉल को ब्लॉक करें</string>
-    <string name="change_filter">फ़िल्टर बदलें</string>
+    <string name="change_filter">फिल्टर बदलें</string>
     <string name="add_blocked_number_helper_text">पैटर्न से मेल खाने वाले नंबरों से सभी कॉल और संदेशों को ब्लॉक करने के लिए एक नंबर या एक पैटर्न दर्ज करें (जैसे *12345*, +1*8888)।</string>
     <string name="no_permission">कोई अनुमति नहीं</string>
     <string name="block_contact">संपर्क को ब्लॉक करें</string>
@@ -128,11 +128,11 @@
     <string name="allow_alarm_sleep_timer">आपको ऐप को आंतरिक अलार्म तक पहुंचने की अनुमति देनी होगी, अन्यथा यह स्लीप टाइमर के बाद एप्लिकेशन को बंद नहीं कर सकता है।</string>
     <string name="allow_location_permission">आपको ऐप को अपना स्थान एक्सेस करने की अनुमति देनी होगी, अन्यथा उसे इसका पता नहीं चलेगा।</string>
     <string name="grant_permission">अनुमति प्रदान करें</string>
-    <string name="rename_file_error">फ़ाइल का नाम नहीं बदला जा सका</string>
-    <string name="renaming_folder">फ़ोल्डर का नाम बदला जा रहा है</string>
-    <string name="rename_folder_error">फ़ोल्डर का नाम नहीं बदला जा सका</string>
-    <string name="rename_folder_empty">फ़ोल्डर का नाम खाली नहीं होना चाहिए</string>
-    <string name="rename_folder_exists">उस नाम का एक फ़ोल्डर पहले से मौजूद है</string>
+    <string name="rename_file_error">फाइल का नाम नहीं बदला जा सका</string>
+    <string name="renaming_folder">फोल्डर का नाम बदला जा रहा है</string>
+    <string name="rename_folder_error">फोल्डर का नाम नहीं बदला जा सका</string>
+    <string name="rename_folder_empty">फोल्डर का नाम खाली नहीं होना चाहिए</string>
+    <string name="rename_folder_exists">उस नाम का एक फोल्डर पहले से मौजूद है</string>
     <string name="rename_date_time_pattern">%Y - वर्ष
 \n%M - महीना
 \n%D - दिन
@@ -140,29 +140,29 @@
 \n%m - मिनट
 \n%s - दूसरा
 \n%i - संख्या 1 से बढ़ रही है</string>
-    <string name="cannot_hide_files">Android 11 से शुरू करके आप अब इस तरह की फ़ाइलें और फ़ोल्डर छिपा नहीं सकते</string>
+    <string name="cannot_hide_files">Android 11 से शुरू करके आप अब इस तरह की फाइलें और फोल्डर छिपा नहीं सकते</string>
     <string name="moving">स्थानांतरण…</string>
-    <string name="moving_success">फ़ाइलें सफलतापूर्वक स्थानांतरित हुईं</string>
-    <string name="moving_success_one">फ़ाइल सफलतापूर्वक स्थानांतरित हो गई</string>
-    <string name="copying_success_partial">कुछ फ़ाइलें कॉपी नहीं की जा सकीं</string>
+    <string name="moving_success">फाइलें सफलतापूर्वक स्थानांतरित हुईं</string>
+    <string name="moving_success_one">फाइल सफलतापूर्वक स्थानांतरित हो गई</string>
+    <string name="copying_success_partial">कुछ फाइलें कॉपी नहीं की जा सकीं</string>
     <string name="invalid_name">नाम में अमान्य वर्ण हैं</string>
     <string name="saving">सहेजा जा रहा है…</string>
-    <string name="could_not_create_file">%s फ़ाइल नहीं बनाई जा सकी</string>
-    <string name="system_service_disabled">फ़ाइलों और फ़ोल्डरों के चयन के लिए सिस्टम सेवा उपलब्ध नहीं है</string>
-    <string name="file">फ़ाइल</string>
-    <string name="folder_already_exists">फ़ोल्डर \"%s\" पहले से मौजूद है</string>
+    <string name="could_not_create_file">%s फाइल नहीं बनाई जा सकी</string>
+    <string name="system_service_disabled">फाइलों और फोल्डरों के चयन के लिए सिस्टम सेवा उपलब्ध नहीं है</string>
+    <string name="file">फाइल</string>
+    <string name="folder_already_exists">फोल्डर \"%s\" पहले से मौजूद है</string>
     <string name="append">\'_1\' के साथ जोड़ें</string>
-    <string name="rename_in_sd_card_system_restriction">सिस्टम इस फ़ोल्डर में नाम बदलने की अनुमति नहीं देता है</string>
-    <string name="system_folder_copy_restriction">सिस्टम इस फ़ोल्डर में प्रतिलिपि बनाने की अनुमति नहीं देता है, कृपया कोई अन्य फ़ोल्डर चुनें</string>
+    <string name="rename_in_sd_card_system_restriction">सिस्टम इस फोल्डर में नाम बदलने की अनुमति नहीं देता है</string>
+    <string name="system_folder_copy_restriction">सिस्टम इस फोल्डर में प्रतिलिपि बनाने की अनुमति नहीं देता है, कृपया कोई अन्य फोल्डर चुनें</string>
     <string name="confirm_storage_access_text_sd">यदि आपको SD कार्ड नहीं दिख रहा है, तो इसे आज़माएँ</string>
     <string name="take_photo">फोटो लो</string>
     <string name="search_events">ईवेंट खोजें</string>
     <string name="permission_required">अनुमति आवश्यक है</string>
-    <string name="rename_file">फ़ाइल का नाम बदलें</string>
-    <string name="rename_folder">फ़ोल्डर का नाम बदलें</string>
+    <string name="rename_file">फाइल का नाम बदलें</string>
+    <string name="rename_folder">फोल्डर का नाम बदलें</string>
     <string name="nothing">कुछ नहीं</string>
     <string name="save_as">इस रूप में सहेजें</string>
-    <string name="file_saved">फ़ाइल सफलतापूर्वक सहेजी गई</string>
+    <string name="file_saved">फाइल सफलतापूर्वक सहेजी गई</string>
     <string name="out_of_memory_error">स्मृति समाप्त होने की त्रुटि</string>
     <string name="an_error_occurred">एक त्रुटि उत्पन्न हुई: %s</string>
     <string name="open_with">से खोलें</string>
@@ -177,7 +177,7 @@
     <string name="never">कभी नहीं</string>
     <string name="details">ब्यौरे</string>
     <string name="notes">नोट्स</string>
-    <string name="deleting_folder">फ़ोल्डर \'%s\' को हटाया जा रहा है</string>
+    <string name="deleting_folder">फोल्डर \'%s\' को हटाया जा रहा है</string>
     <string name="none">कोई नहीं</string>
     <string name="label">लेबल</string>
     <string name="transparent">पारदर्शी</string>
@@ -225,7 +225,7 @@
     <string name="increase_column_count">कॉलम संख्या बढ़ाएँ</string>
     <string name="row_count">पंक्ति गिनती</string>
     <string name="landscape_column_count">लैंडस्केप कॉलम गिनती</string>
-    <string name="change_cover_image">कवर इमेज बदलें</string>
+    <string name="change_cover_image">कवर छवि बदलें</string>
     <plurals name="column_counts">
         <item quantity="one">%d कॉलम</item>
         <item quantity="other">%d कॉलम</item>
@@ -254,35 +254,35 @@
     <string name="show_search">एक खोज पट्टी दिखाएं</string>
     <string name="search_apps">ऐप्स खोजें</string>
     <string name="search_history">इतिहास खोजें</string>
-    <string name="search_files">फ़ाइलें खोजें</string>
-    <string name="search_folders">फ़ोल्डर खोजें</string>
+    <string name="search_files">फाइलें खोजें</string>
+    <string name="search_folders">फोल्डर्स खोजें</string>
     <string name="search_playlists">प्लेलिस्ट खोजें</string>
     <string name="search_artists">कलाकार खोजें</string>
     <string name="search_tracks">ट्रैक खोजें</string>
     <string name="search_text">टेक्स्ट खोजें</string>
     <string name="search_conversations">वार्तालाप खोजें</string>
     <string name="search_recordings">रिकॉर्डिंग खोजें</string>
-    <string name="filter">फ़िल्टर</string>
-    <string name="filter_pro">फ़िल्टर (Pro)</string>
+    <string name="filter">फिल्टर</string>
+    <string name="filter_pro">फिल्टर (Pro)</string>
     <string name="no_storage_permissions">स्टोरेज की अनुमति आवश्यक है</string>
     <string name="no_contacts_permission">संपर्क अनुमति आवश्यक है</string>
     <string name="no_camera_permissions">कैमरे की अनुमति आवश्यक है</string>
     <string name="no_audio_permissions">ऑडियो अनुमति आवश्यक है</string>
-    <string name="rename_folder_root">किसी स्टोरेज के रूट फ़ोल्डर का नाम नहीं बदला जा सकता</string>
-    <string name="rename_folder_ok">फ़ोल्डर का नाम सफलतापूर्वक बदला गया</string>
-    <string name="filename_cannot_be_empty">फ़ाइल नाम खाली नहीं हो सकता</string>
-    <string name="filename_invalid_characters">फ़ाइलनाम में अमान्य वर्ण हैं</string>
-    <string name="filename_invalid_characters_placeholder">फ़ाइलनाम \'%s\' में अमान्य वर्ण हैं</string>
+    <string name="rename_folder_root">किसी स्टोरेज के रूट फोल्डर का नाम नहीं बदला जा सकता</string>
+    <string name="rename_folder_ok">फोल्डर का नाम सफलतापूर्वक बदला गया</string>
+    <string name="filename_cannot_be_empty">फाइल नाम खाली नहीं हो सकता</string>
+    <string name="filename_invalid_characters">फाइलनाम में अमान्य वर्ण हैं</string>
+    <string name="filename_invalid_characters_placeholder">फाइलनाम \'%s\' में अमान्य वर्ण हैं</string>
     <string name="extension_cannot_be_empty">एक्सटेंशन खाली नहीं हो सकता</string>
-    <string name="source_file_doesnt_exist">स्रोत फ़ाइल %s मौजूद नहीं है</string>
-    <string name="prepend_filenames">फ़ाइल नाम पहले जोड़ें</string>
-    <string name="append_filenames">फ़ाइल नाम जोड़ें</string>
+    <string name="source_file_doesnt_exist">स्रोत फाइल %s मौजूद नहीं है</string>
+    <string name="prepend_filenames">फाइल नाम पहले जोड़ें</string>
+    <string name="append_filenames">फाइल नाम जोड़ें</string>
     <string name="simple_renaming">सरल नाम परिवर्तन</string>
     <string name="pattern_renaming">पैटर्न</string>
     <string name="string_to_add">जोड़ने हेतु स्ट्रिंग</string>
-    <string name="filename_without_txt">फ़ाइल नाम (.txt के बिना)</string>
-    <string name="filename_without_json">फ़ाइल नाम (.json के बिना)</string>
-    <string name="filename_without_zip">फ़ाइल नाम (बिना .zip)</string>
+    <string name="filename_without_txt">फाइल नाम (.txt के बिना)</string>
+    <string name="filename_without_json">फाइल नाम (.json के बिना)</string>
+    <string name="filename_without_zip">फाइलनाम (बिना .zip)</string>
     <string name="copy">कॉपी</string>
     <string name="move">स्थान परिवर्तन</string>
     <string name="copy_move">कॉपी करें/स्थानांतरित करें</string>
@@ -295,43 +295,43 @@
     <string name="invalid_destination">चयनित गंतव्य पर नहीं लिखा जा सका</string>
     <string name="please_select_destination">कृपया एक गंतव्य चुनें</string>
     <string name="source_and_destination_same">स्रोत और गंतव्य एक ही नहीं हो सकते</string>
-    <string name="copy_failed">फ़ाइलें कॉपी नहीं की जा सकीं</string>
+    <string name="copy_failed">फाइलें कॉपी नहीं की जा सकीं</string>
     <string name="copying">कॉपी किया जा रहा है…</string>
-    <string name="copying_success">फ़ाइलें सफलतापूर्वक कॉपी की गईं</string>
-    <string name="copying_success_one">फ़ाइल सफलतापूर्वक कॉपी की गई</string>
+    <string name="copying_success">फाइलें सफलतापूर्वक कॉपी की गईं</string>
+    <string name="copying_success_one">फाइल सफलतापूर्वक कॉपी की गई</string>
     <string name="copy_move_failed">एक त्रुटि पाई गई</string>
-    <string name="moving_success_partial">कुछ फ़ाइलें स्थानांतरित नहीं की जा सकीं</string>
-    <string name="no_files_selected">कोई फ़ाइल चयनित नहीं</string>
-    <string name="could_not_create_folder">फ़ोल्डर %s नहीं बनाया जा सका</string>
+    <string name="moving_success_partial">कुछ फाइलें स्थानांतरित नहीं की जा सकीं</string>
+    <string name="no_files_selected">कोई फाइलें चयनित नहीं</string>
+    <string name="could_not_create_folder">फोल्डर %s नहीं बनाया जा सका</string>
     <string name="no_new_items">कोई नया सामान नहीं मिला</string>
     <string name="no_space">गंतव्य पर पर्याप्त स्थान उपलब्ध नहीं है.
 \nआवश्यक %1$s, उपलब्ध %2$s</string>
     <string name="create_new">नया बनाएं</string>
-    <string name="folder">फ़ोल्डर</string>
-    <string name="create_new_folder">नया फ़ोल्डर बनाएं</string>
-    <string name="name_taken">उस नाम की एक फ़ाइल या फ़ोल्डर पहले से मौजूद है</string>
+    <string name="folder">फोल्डर</string>
+    <string name="create_new_folder">नया फोल्डर बनाएं</string>
+    <string name="name_taken">उस नाम की एक फाइल या फोल्डर पहले से मौजूद है</string>
     <string name="empty_name">कृपया एक नाम दर्ज करें</string>
     <string name="unknown_error_occurred">एक अज्ञात त्रुटि हुई</string>
-    <string name="file_already_exists">फ़ाइल \"%s\" पहले से मौजूद है</string>
-    <string name="file_already_exists_overwrite">फ़ाइल \"%s\" पहले से मौजूद है. अधिलेखित करें?</string>
+    <string name="file_already_exists">फाइल \"%s\" पहले से मौजूद है</string>
+    <string name="file_already_exists_overwrite">फाइल \"%s\" पहले से मौजूद है. अधिलेखित करें?</string>
     <string name="merge">मर्ज</string>
     <string name="keep_both">दोनों को रखें</string>
     <string name="overwrite">ओवरराइट</string>
     <string name="skip">छोड़ें</string>
     <string name="apply_to_all">सब पर लागू</string>
-    <string name="system_folder_restriction">सिस्टम इस फ़ोल्डर में संचालन की अनुमति नहीं देता है, कृपया कोई अन्य फ़ोल्डर चुनें</string>
-    <string name="rename_internal_system_restriction">इन्टर्नल स्टोरेज पर सीधे फ़ोल्डरों का नाम नहीं बदला जा सकता, केवल सबफ़ोल्डर्स का नाम बदला जा सकता है</string>
-    <string name="cannot_rename_folder">इस फ़ोल्डर का नाम नहीं बदला जा सकता</string>
-    <string name="select_folder">एक फ़ोल्डर चुनें</string>
-    <string name="select_file">एक फ़ाइल चुनें</string>
+    <string name="system_folder_restriction">सिस्टम इस फोल्डर में संचालन की अनुमति नहीं देता है, कृपया कोई अन्य फोल्डर चुनें</string>
+    <string name="rename_internal_system_restriction">इन्टर्नल स्टोरेज पर सीधे फोल्डरों का नाम नहीं बदला जा सकता, केवल सबफोल्डर्स का नाम बदला जा सकता है</string>
+    <string name="cannot_rename_folder">इस फोल्डर का नाम नहीं बदला जा सकता</string>
+    <string name="select_folder">एक फोल्डर चुनें</string>
+    <string name="select_file">एक फाइल चुनें</string>
     <string name="confirm_storage_access_title">इक्स्टर्नल स्टोरेज पहुंच की पुष्टि करें</string>
-    <string name="confirm_folder_access_title">फ़ोल्डर एक्सेस की पुष्टि करें</string>
-    <string name="confirm_storage_access_text">कृपया लिखने की पहुंच प्रदान करने के लिए अगली स्क्रीन पर SD कार्ड का शीर्ष फ़ोल्डर चुनें</string>
-    <string name="confirm_storage_access_android_text">कृपया नीचे \'इस फ़ोल्डर का उपयोग करें\' दबाकर ऐप को अगली स्क्रीन पर चयनित स्टोरेज तक पहुंचने की अनुमति दें।</string>
+    <string name="confirm_folder_access_title">फोल्डर एक्सेस की पुष्टि करें</string>
+    <string name="confirm_storage_access_text">कृपया लिखने की पहुंच प्रदान करने के लिए अगली स्क्रीन पर SD कार्ड का शीर्ष फोल्डर चुनें</string>
+    <string name="confirm_storage_access_android_text">कृपया नीचे \'इस फोल्डर का उपयोग करें\' दबाकर ऐप को अगली स्क्रीन पर चयनित स्टोरेज तक पहुंचने की अनुमति दें।</string>
     <string name="excluded">(छोड़ा गया)</string>
     <string name="thumbnails">थंबनेल</string>
-    <string name="confirm_storage_access_android_text_specific">कृपया नीचे \'<b>इस फ़ोल्डर का उपयोग करें</b>\' दबाकर अगली स्क्रीन पर \'<b>%s</b>\' तक पहुंचने की अनुमति दें।</string>
-    <string name="confirm_create_doc_for_new_folder_text">कृपया नया फ़ोल्डर बनाने के लिए अगली स्क्रीन के नीचे \'<b>सहेजें</b>\' दबाएँ।</string>
+    <string name="confirm_storage_access_android_text_specific">कृपया नीचे \'<b>इस फोल्डर का उपयोग करें</b>\' दबाकर अगली स्क्रीन पर \'<b>%s</b>\' तक पहुंचने की अनुमति दें।</string>
+    <string name="confirm_create_doc_for_new_folder_text">कृपया नया फोल्डर बनाने के लिए अगली स्क्रीन के नीचे \'<b>सहेजें</b>\' दबाएँ।</string>
     <string name="confirm_selection">चयन की पुष्टि करें</string>
     <string name="app_on_sd_card">ऐसा लगता है कि आपने ऐप को SD कार्ड पर इंस्टॉल कर लिया है, जिससे ऐप विजेट अनुपलब्ध हैं। आप उन्हें उपलब्ध विजेट की सूची में भी नहीं देखेंगे। यह एक सिस्टम सीमा है, इसलिए यदि आप विजेट का उपयोग करना चाहते हैं, तो आपको ऐप को आंतरिक स्टोरेज पर वापस ले जाना होगा।</string>
     <string name="faq_1_text_commons">इसकी सबसे अधिक संभावना इसलिए है क्योंकि आपने ऐप को SD कार्ड पर स्थानांतरित कर दिया है। एक Android सिस्टम सीमा है जो उस स्थिति में दिए गए ऐप विजेट को छुपा देती है। एकमात्र समाधान यह है कि ऐप को अपनी डिवाइस सेटिंग्स के माध्यम से आंतरिक स्टोरेज पर वापस ले जाएं।</string>
@@ -341,7 +341,7 @@
     <string name="f_number">F-नंबर</string>
     <string name="exif">EXIF</string>
     <string name="song_title">गीत शीर्षक</string>
-    <string name="accent_color_black_and_white">ब्लैक एंड व्हाइट थीम का एक्सेंट रंग</string>
+    <string name="accent_color_black_and_white">काली एंड सफ़ेद थीम का एक्सेंट रंग</string>
     <string name="restore_defaults">डिफॉल्ट्स का पुनःस्थापन</string>
     <string name="discard">खारिज</string>
     <string name="change_color">रंग बदलें</string>
@@ -357,15 +357,15 @@
     <string name="stop_showing_hidden">छुपे हुए मीडिया को दिखाना बंद करें</string>
     <string name="remove">हटाएँ</string>
     <string name="allow_access_more_media">अधिक मीडिया तक पहुंच की अनुमति दें</string>
-    <string name="hide_folder">फ़ोल्डर छिपाएँ</string>
-    <string name="unhide_folder">फ़ोल्डर को उजागर करें</string>
+    <string name="hide_folder">फोल्डर छिपाएँ</string>
+    <string name="unhide_folder">फोल्डर को उजागर करें</string>
     <string name="maximum_share_reached">आप एक साथ इतना सारा कंटेंट शेयर नहीं कर सकते</string>
     <string name="undo">पूर्ववत</string>
     <string name="print">प्रिंट</string>
     <string name="empty_and_disable_recycle_bin">रीसायकल बिन को खाली करें और अक्षम करें</string>
     <string name="redo">पुनः करें</string>
     <string name="print_pro">प्रिंट (Pro)</string>
-    <string name="filename">फ़ाइल का नाम</string>
+    <string name="filename">फाइलनाम</string>
     <string name="date_added">दिनांक जोड़ा गया</string>
     <string name="date_created">बनाया गया दिनांक</string>
     <string name="date_taken">दिनांक लिया गया</string>
@@ -375,7 +375,7 @@
     <string name="descending">अवरोही</string>
     <string name="sort_randomly">यादृच्छिक रूप से क्रमबद्ध करें</string>
     <string name="ascending">आरोही</string>
-    <string name="use_for_this_folder">केवल इस फ़ोल्डर के लिए उपयोग करें</string>
+    <string name="use_for_this_folder">केवल इस फोल्डर के लिए उपयोग करें</string>
     <string name="sort_numeric_parts">संख्यात्मक भागों को वास्तविक मान के आधार पर क्रमबद्ध करें</string>
     <string name="middle_name">मध्य नाम</string>
     <string name="first_name">पहला नाम</string>
@@ -400,7 +400,7 @@
     <string name="authentication_blocked">प्रमाणीकरण अवरुद्ध है, कृपया थोड़ी देर में पुनः प्रयास करें</string>
     <string name="protection_setup_successfully">पासवर्ड सेटअप सफलतापूर्वक. यदि आप ऐप भूल जाते हैं तो कृपया इसे पुनः इंस्टॉल करें।</string>
     <string name="fingerprint_setup_successfully">सुरक्षा सेटअप सफलतापूर्वक. कृपया ऐप को रीसेट करने में समस्या होने पर उसे दोबारा इंस्टॉल करें।</string>
-    <string name="lock_folder_notice">यह सुरक्षा केवल इस ऐप में काम करती है, इसे वास्तविक सिस्टमव्यापी फ़ोल्डर एन्क्रिप्शन को प्रतिस्थापित नहीं करना चाहिए।</string>
+    <string name="lock_folder_notice">यह सुरक्षा केवल इस ऐप में काम करती है, इसे वास्तविक सिस्टमव्यापी फोल्डर एन्क्रिप्शन को प्रतिस्थापित नहीं करना चाहिए।</string>
     <string name="add_password">पासवर्ड जोड़ें</string>
     <string name="empty_password">कृपया पासवर्ड दर्ज करें</string>
     <string name="empty_password_new">कृपया पासवर्ड दर्ज करें</string>
@@ -413,7 +413,7 @@
     <string name="days_raw">दिनों</string>
     <string name="upgraded_from_free_calendar">नमस्ते,
 \n
-\nऐसा लगता है जैसे आपने अभी मुफ़्त वर्शन से अपग्रेड किया है। यदि आप अपने स्थानीय रूप से संग्रहीत ईवेंट को माइग्रेट करना चाहते हैं, तो आपको उन्हें निःशुल्क ऐप वर्शन में एक .ics फ़ाइल में निर्यात करके और शीर्ष मेनू के माध्यम से यहां आयात करके मैन्युअल रूप से करना होगा।
+\nऐसा लगता है जैसे आपने अभी मुफ़्त वर्शन से अपग्रेड किया है। यदि आप अपने स्थानीय रूप से संग्रहीत ईवेंट को माइग्रेट करना चाहते हैं, तो आपको उन्हें निःशुल्क ऐप वर्शन में एक .ics फाइल में निर्यात करके और शीर्ष मेनू के माध्यम से यहां आयात करके मैन्युअल रूप से करना होगा।
 \n
 \nएक बार जब आप प्रो वर्शन में अपने सेटअप से संतुष्ट हो जाते हैं, तो आप पुराने Pro को अनइंस्टॉल कर सकते हैं क्योंकि अब आपको इसकी आवश्यकता नहीं होगी, यह इस डायलॉग को दिखने से भी रोक देगा।
 \n
@@ -430,18 +430,18 @@
     <string name="system_sounds">सिस्टम ध्वनियाँ</string>
     <string name="upgraded_from_free_contacts">नमस्ते,
 \n
-\nऐसा लगता है जैसे आपने अभी मुफ़्त वर्शन से अपग्रेड किया है। यदि आपके पास \"%s\" के अंतर्गत कोई संपर्क संग्रहीत है, तो आपको उन्हें मुफ़्त ऐप वर्शन से .vcf फ़ाइल में निर्यात करके और शीर्ष मेनू के माध्यम से यहां आयात करके मैन्युअल रूप से माइग्रेट करना होगा।
+\nऐसा लगता है जैसे आपने अभी मुफ़्त वर्शन से अपग्रेड किया है। यदि आपके पास \"%s\" के अंतर्गत कोई संपर्क संग्रहीत है, तो आपको उन्हें मुफ़्त ऐप वर्शन से .vcf फाइल में निर्यात करके और शीर्ष मेनू के माध्यम से यहां आयात करके मैन्युअल रूप से माइग्रेट करना होगा।
 \n
 \nएक बार जब आप Pro वर्शन में अपने सेटअप से संतुष्ट हो जाते हैं, तो आप पुराने फ्री को अनइंस्टॉल कर सकते हैं क्योंकि अब आपको इसकी आवश्यकता नहीं होगी, यह इस डायलॉग को दिखने से भी रोक देगा।
 \n
 \nधन्यवाद!</string>
     <string name="settings">सेटिंग्स</string>
-    <string name="keep_last_modified">फ़ाइल संचालन में पुराना अंतिम-संशोधित मान रखें</string>
+    <string name="keep_last_modified">फाइल संचालन में पुराना अंतिम-संशोधित मान रखें</string>
     <string name="prevent_phone_from_sleeping">जब ऐप अग्रभूमि में हो तो फ़ोन को निष्क्रिय होने से रोकें</string>
     <string name="change_date_and_time_format">दिनांक और समय प्रारूप बदलें</string>
-    <string name="restore_this_file">इस फ़ाइल को पुनर्स्थापित करें</string>
+    <string name="restore_this_file">इस फाइल को पुनर्स्थापित करें</string>
     <string name="recycle_bin_emptied">रीसायकल बिन सफलतापूर्वक खाली कर दिया गया है</string>
-    <string name="files_restored_successfully">फ़ाइलें सफलतापूर्वक पुनर्स्थापित कर दी गई हैं</string>
+    <string name="files_restored_successfully">फाइलें सफलतापूर्वक पुनर्स्थापित कर दी गई हैं</string>
     <string name="show_the_recycle_bin">रीसायकल बिन दिखाएँ</string>
     <plurals name="moving_items_into_bin">
         <item quantity="one">%d आइटम को रीसायकल बिन में ले जाना</item>
@@ -469,7 +469,7 @@
     <string name="social">सामाजिक</string>
     <string name="upgraded_from_free_notes">नमस्ते,
 \n
-\nऐसा लगता है जैसे आपने अभी मुफ़्त वर्शन से अपग्रेड किया है। यदि आप अपने नोट्स को स्थानांतरित करना चाहते हैं, तो आपको उन्हें मुफ्त ऐप वर्शन में एक फ़ाइल में निर्यात करके और शीर्ष मेनू के माध्यम से यहां आयात करके मैन्युअल रूप से करना होगा।
+\nऐसा लगता है जैसे आपने अभी मुफ़्त वर्शन से अपग्रेड किया है। यदि आप अपने नोट्स को स्थानांतरित करना चाहते हैं, तो आपको उन्हें मुफ्त ऐप वर्शन में एक फाइल में निर्यात करके और शीर्ष मेनू के माध्यम से यहां आयात करके मैन्युअल रूप से करना होगा।
 \n
 \nएक बार जब आप Pro वर्शन में अपने सेटअप से संतुष्ट हो जाते हैं, तो आप पुराने फ्री को अनइंस्टॉल कर सकते हैं क्योंकि अब आपको इसकी आवश्यकता नहीं होगी, यह इस डायलॉग को दिखने से भी रोक देगा।
 \n
@@ -486,10 +486,10 @@
     <string name="keyboard_short">कीबोर्ड</string>
     <string name="sideloaded_app">ऐसा लगता है कि आपका ऐप वर्शन दूषित है। कृपया मूल वर्शन &lt;a href=%s&gt;यहां&lt;/a&gt; से डाउनलोड करें।</string>
     <string name="faq_2_text_commons">हाँ बिल्कुल। आप ऐप्स के बारे में प्रचार कर सकते हैं या अच्छी प्रतिक्रिया और रेटिंग दे सकते हैं। आप ऐप्स को नई भाषा में अनुवाद करके या बस कुछ मौजूदा अनुवादों को अपडेट करके भी सहायता कर सकते हैं। अनुवाद करने की मार्गदर्शिका &lt;a href=https://github.com/FossifyOrg/general-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;इस वेबसाइट&lt;/a&gt; पर है, या यदि आपके कोई प्रश्न हैं तो बस &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; पर हमसे संपर्क करें।</string>
-    <string name="faq_3_title_commons">मैंने गलती से कुछ फ़ाइलें हटा दी हैं, मैं उन्हें कैसे पुनर्प्राप्त कर सकता हूं?</string>
+    <string name="faq_3_title_commons">मैंने गलती से कुछ फाइलें हटा दी हैं, मैं उन्हें कैसे पुनर्प्राप्त कर सकता हूं?</string>
     <string name="faq_4_text_commons">हां, जैसे ही आप किसी विजेट को अपनी होम स्क्रीन पर खींचते हैं तो एक विजेट कॉन्फ़िगरेशन स्क्रीन दिखाई देती है। आपको निचले बाएँ कोने पर रंगीन वर्ग दिखाई देंगे, नया रंग चुनने के लिए बस उन्हें दबाएँ। आप अल्फा को समायोजित करने के लिए स्लाइडर का भी उपयोग कर सकते हैं।</string>
     <string name="why_upgrade_contact_private_contacts">निजी तौर पर संग्रहीत संपर्क</string>
-    <string name="glide_title">Glide (इमेज लोडिंग और कैशिंग)</string>
+    <string name="glide_title">Glide (छवि लोडिंग और कैशिंग)</string>
     <string name="otto_title">Otto (इवेंट बस)</string>
     <string name="audio_record_view_title">Audio Record View (ऑडियो विज़ुअलाइज़ेशन)</string>
     <string name="indicator_fast_scroll_title">Indicator Fast Scroll (स्क्रॉलबार पर अक्षर)</string>
@@ -539,9 +539,9 @@
     <string name="upgrade_to_pro">Pro में अपग्रेड</string>
     <string name="why_upgrade_improved_design">बेहतर डिज़ाइन</string>
     <string name="why_upgrade_advanced_photo_video_editor">उन्नत फोटो एवं वीडियो संपादक</string>
-    <string name="why_upgrade_recents_tab">हाल की फ़ाइलों वाला टैब</string>
-    <string name="picasso_title">Picasso (इमेज लोडिंग और कैशिंग)</string>
-    <string name="cropper_title">Android इमेज क्रॉपर (इमेज क्रॉप करें और घुमाएं)</string>
+    <string name="why_upgrade_recents_tab">हाल की फाइलों वाला टैब</string>
+    <string name="picasso_title">Picasso (छवि लोडिंग और कैशिंग)</string>
+    <string name="cropper_title">Android Image Cropper (छवि क्रॉप करें और घुमाएं)</string>
     <string name="rtl_viewpager_title">RtlViewPager (दाएँ से बाएँ स्वाइप करना)</string>
     <string name="stetho_title">Stetho (डेटाबेस डिबगिंग)</string>
     <string name="photoview_title">PhotoView (ज़ूम करने योग्य GIFs)</string>
@@ -549,7 +549,7 @@
     <string name="android_lame_title">AndroidLame (mp3 एनकोडर)</string>
     <string name="zip4j_title">Zip4j (ZIP संपीड़न और विसंपीड़न)</string>
     <string name="loading">लोड हो रहा है…</string>
-    <string name="access_storage_prompt">कृपया हमारे ऐप को अपनी सभी फ़ाइलों तक पहुंच प्रदान करें, इसके बिना यह ठीक से काम नहीं कर पाएगा।</string>
+    <string name="access_storage_prompt">कृपया हमारे ऐप को अपनी सभी फाइलों तक पहुंच प्रदान करें, इसके बिना यह ठीक से काम नहीं कर पाएगा।</string>
     <plurals name="items">
         <item quantity="one">%d आइटम</item>
         <item quantity="other">%d आइटम</item>
@@ -572,11 +572,11 @@
     <string name="storage">स्टोरेज</string>
     <string name="sd_card">SD कार्ड</string>
     <string name="root">रूट</string>
-    <string name="wrong_root_selected">गलत फ़ोल्डर चयनित, कृपया अपने SD कार्ड का मुख्य फ़ोल्डर चुनें</string>
+    <string name="wrong_root_selected">गलत फोल्डर चयनित, कृपया अपने SD कार्ड का मुख्य फोल्डर चुनें</string>
     <string name="sd_card_usb_same">SD कार्ड और USB डिवाइस पथ समान नहीं हो सकते</string>
-    <string name="wrong_folder_selected">ग़लत फ़ोल्डर चयनित, कृपया पथ \'%s\' चुनें</string>
+    <string name="wrong_folder_selected">ग़लत फोल्डर चयनित, कृपया पथ \'%s\' चुनें</string>
     <string name="direct_children_count">प्रत्यक्ष बच्चों की गिनती</string>
-    <string name="files_count">कुल फ़ाइलें गिनती</string>
+    <string name="files_count">कुल फाइलें गिनती</string>
     <string name="resolution">रिज़ॉल्यूशन</string>
     <string name="duration">अवधि</string>
     <string name="artist">कलाकार</string>
@@ -598,10 +598,10 @@
     <string name="app_icon_color">ऐप आइकन का रंग</string>
     <string name="bottom_navigation_bar_color">नेविगेशन बार का रंग</string>
     <string name="share_colors_success">रंग सफलतापूर्वक अपडेट किए गए. \'शेयर्ड\' नामक एक नई थीम जोड़ी गई है, कृपया भविष्य में सभी ऐप रंगों को अपडेट करने के लिए इसका उपयोग करें।</string>
-    <string name="light_theme">हल्का</string>
-    <string name="dark_theme">गहरा</string>
+    <string name="light_theme">हल्की</string>
+    <string name="dark_theme">गहरी</string>
     <string name="auto_theme">ऑटो</string>
-    <string name="auto_light_dark_theme">ऑटो हल्का/गहरा</string>
+    <string name="auto_light_dark_theme">ऑटो हल्की / गहरी</string>
     <string name="solarized">सोलराइज़्ड</string>
     <string name="white">सफ़ेद</string>
     <string name="black_white">काला और सफेद</string>
@@ -625,7 +625,7 @@
     <string name="view_contact_details">संपर्क विवरण देखें</string>
     <string name="call_from_sim_1">SIM 1 से कॉल करें</string>
     <string name="call_from_sim_2">SIM 2 से कॉल करें</string>
-    <string name="toggle_filename">फ़ाइल नाम दृश्यता टॉगल करें</string>
+    <string name="toggle_filename">फाइल नाम दृश्यता टॉगल करें</string>
     <string name="move_to_top">शीर्ष पर ले जाएँ</string>
     <string name="move_to_bottom">नीचे की ओर ले जाएँ</string>
     <string name="pin_item">आइटम पिन करें</string>
@@ -651,8 +651,8 @@
     <string name="are_you_sure_delete">क्या आप सुनिश्चित रूप से इस आइटम को मिटाना चाहते हैं?</string>
     <string name="yes">हाँ</string>
     <plurals name="delete_warning">
-        <item quantity="one">चेतावनी: आप %d फ़ोल्डर हटा रहे हैं</item>
-        <item quantity="other">चेतावनी: आप %d फ़ोल्डर हटा रहे हैं</item>
+        <item quantity="one">चेतावनी: आप %d फोल्डर हटा रहे हैं</item>
+        <item quantity="other">चेतावनी: आप %d फोल्डर्स हटा रहे हैं</item>
     </plurals>
     <string name="no">नहीं</string>
     <string name="maybe">शायद</string>
@@ -667,9 +667,9 @@
     <string name="authenticate">प्रमाणित</string>
     <string name="no_fingerprints_registered">आपके पास कोई फ़िंगरप्रिंट पंजीकृत नहीं है, कृपया अपने डिवाइस की सेटिंग में कुछ जोड़ें</string>
     <string name="go_to_settings">सेटिंग्स पर जाएं</string>
-    <string name="lock_folder">फ़ोल्डर लॉक करें</string>
-    <string name="lock_folder_pro">फ़ोल्डर लॉक करें (Pro)</string>
-    <string name="unlock_folder">फ़ोल्डर अनलॉक करें</string>
+    <string name="lock_folder">फोल्डर लॉक करें</string>
+    <string name="lock_folder_pro">फोल्डर लॉक करें (Pro)</string>
+    <string name="unlock_folder">फोल्डर अनलॉक करें</string>
     <string name="enter_password">पासवर्ड दर्ज करें</string>
     <string name="password">पासवर्ड</string>
     <string name="invalid_password">गलत पासवर्ड</string>
@@ -800,7 +800,7 @@
     <string name="extra_large">ज्यादा बड़ा</string>
     <string name="password_protect_hidden_items">पासवर्ड छुपी हुई वस्तु की दृश्यता को सुरक्षित रखता है</string>
     <string name="password_protect_whole_app">पासवर्ड पूरे एप्लिकेशन की सुरक्षा करता है</string>
-    <string name="password_protect_file_deletion">पासवर्ड फ़ाइल को हटाने और स्थानांतरित करने की सुरक्षा करता है</string>
+    <string name="password_protect_file_deletion">पासवर्ड फाइल को हटाने और स्थानांतरित करने की सुरक्षा करता है</string>
     <string name="show_info_bubble">स्क्रॉलबार खींचकर स्क्रॉलिंग आइटम पर एक सूचना बुलबुला दिखाएं</string>
     <string name="skip_delete_confirmation">डिलीट पुष्टिकरण संवाद को हमेशा छोड़ें</string>
     <string name="enable_pull_to_refresh">ऊपर से पुल-टू-रीफ्रेश सक्षम करें</string>
@@ -824,7 +824,7 @@
     <string name="visibility">दृश्यता</string>
     <string name="security">सुरक्षा</string>
     <string name="scrolling">स्क्रॉल</string>
-    <string name="file_operations">फ़ाइल संचालन</string>
+    <string name="file_operations">फाइल संचालन</string>
     <string name="recycle_bin">रीसायकल बिन</string>
     <string name="saving_label">सहेजा जा रहा है</string>
     <string name="startup">स्टार्टअप</string>
@@ -834,13 +834,13 @@
     <string name="main_screen">मुख्य स्क्रीन</string>
     <string name="list_view">सूची दृश्य</string>
     <string name="exclude">बहिष्कृत</string>
-    <string name="exclude_folder">फ़ोल्डर बहिष्कृत करें</string>
-    <string name="excluded_folders">बहिष्कृत फ़ोल्डर</string>
-    <string name="manage_excluded_folders">बहिष्कृत फ़ोल्डर प्रबंधित करें</string>
+    <string name="exclude_folder">फोल्डर बहिष्कृत करें</string>
+    <string name="excluded_folders">बहिष्कृत फोल्डर्स</string>
+    <string name="manage_excluded_folders">बहिष्कृत फोल्डर्स प्रबंधित करें</string>
     <string name="remove_all">सभी हटाएं</string>
     <string name="temporarily_show_excluded">अस्थायी रूप से बाहर रखा गया दिखाएं</string>
     <string name="stop_showing_excluded">बहिष्कृत दिखाना बंद करें</string>
-    <string name="remove_all_description">बहिष्कृत सूची से सभी फ़ोल्डर हटाएं? इससे फ़ोल्डर्स डिलीट नहीं होंगे।</string>
+    <string name="remove_all_description">बहिष्कृत सूची से सभी फोल्डर्स हटाएं? इससे फोल्डर्स डिलीट नहीं होंगे।</string>
     <string name="manage_shown_tabs">दिखाए गए टैब प्रबंधित करें</string>
     <string name="default_tab_to_open">ऐप प्रारंभ होने पर टैब खोलें</string>
     <string name="contacts_tab">संपर्क</string>
@@ -848,16 +848,16 @@
     <string name="call_history_tab">कॉल इतिहास</string>
     <string name="groups_tab">समूह</string>
     <string name="last_used_tab">आखिरी बार इस्तेमाल किया गया</string>
-    <string name="files_tab">फ़ाइलें</string>
-    <string name="recent_files_tab">हाल की फ़ाइलें</string>
-    <string name="restore_selected_files">चयनित फ़ाइलें पुनर्स्थापित करें</string>
-    <string name="restore_all_files">सभी फ़ाइलें पुनर्स्थापित करें</string>
-    <string name="empty_recycle_bin_confirmation">क्या आप वाकई रीसायकल बिन खाली करना चाहते हैं? फ़ाइलें स्थायी रूप से खो जाएँगी।</string>
+    <string name="files_tab">फाइलें</string>
+    <string name="recent_files_tab">हाल की फाइलें</string>
+    <string name="restore_selected_files">चयनित फाइलें पुनर्स्थापित करें</string>
+    <string name="restore_all_files">सभी फाइलें पुनर्स्थापित करें</string>
+    <string name="empty_recycle_bin_confirmation">क्या आप वाकई रीसायकल बिन खाली करना चाहते हैं? फाइलें स्थायी रूप से खो जाएँगी।</string>
     <string name="recycle_bin_empty">रीसायकल बिन खाली है</string>
     <string name="moving_recycle_bin_items_disabled">रीसायकल बिन आइटमों को स्थानांतरित करना अक्षम है, कृपया पुनर्स्थापना का उपयोग करें</string>
     <string name="hide_the_recycle_bin">रीसायकल बिन छुपाएं</string>
     <string name="open_the_recycle_bin">रीसायकल बिन खोलें</string>
-    <string name="skip_the_recycle_bin">रीसायकल बिन छोड़ें, फ़ाइलें सीधे हटाएं</string>
+    <string name="skip_the_recycle_bin">रीसायकल बिन छोड़ें, फाइलें सीधे हटाएं</string>
     <string name="importing">आयात किया जा रहा है…</string>
     <string name="exporting">निर्यात हो रहा है…</string>
     <string name="importing_successful">आयात सफल</string>
@@ -871,8 +871,8 @@
     <string name="enable_automatic_backups">स्वचालित बैकअप सक्षम करें</string>
     <string name="manage_automatic_backups">स्वचालित बैकअप प्रबंधित करें</string>
     <string name="usb">USB</string>
-    <string name="usb_detected">ऐसा लगता है कि आपके डिवाइस से एक USB डिवाइस जुड़ा हुआ है। यह सुनिश्चित करने के लिए कि इसकी फ़ाइलें ठीक से दिखाई दें, आपको अतिरिक्त अनुमतियाँ देने की आवश्यकता है।</string>
-    <string name="date_time_pattern_info">आप अपनी फ़ाइल को स्वचालित रूप से नाम देने के लिए निम्नलिखित पैटर्न का उपयोग कर सकते हैं:
+    <string name="usb_detected">ऐसा लगता है कि आपके डिवाइस से एक USB डिवाइस जुड़ा हुआ है। यह सुनिश्चित करने के लिए कि इसकी फाइलें ठीक से दिखाई दें, आपको अतिरिक्त अनुमतियाँ देने की आवश्यकता है।</string>
+    <string name="date_time_pattern_info">आप अपनी फाइल को स्वचालित रूप से नाम देने के लिए निम्नलिखित पैटर्न का उपयोग कर सकते हैं:
 \n
 \n%Y - वर्ष
 \n%M - महीना
@@ -880,8 +880,8 @@
 \n%h - घंटा
 \n%m - मिनट
 \n%s - दूसरा</string>
-    <string name="confirm_usb_storage_access_text">पहुंच प्रदान करने के लिए कृपया अगली स्क्रीन पर USB डिवाइस का शीर्ष फ़ोल्डर चुनें</string>
-    <string name="wrong_root_selected_usb">गलत फ़ोल्डर चयनित, कृपया अपने USB डिवाइस का मुख्य फ़ोल्डर चुनें</string>
+    <string name="confirm_usb_storage_access_text">पहुंच प्रदान करने के लिए कृपया अगली स्क्रीन पर USB डिवाइस का शीर्ष फोल्डर चुनें</string>
+    <string name="wrong_root_selected_usb">गलत फोल्डर चयनित, कृपया अपने USB डिवाइस का मुख्य फोल्डर चुनें</string>
     <string name="february_short">फर</string>
     <string name="march_short">मार्च</string>
     <string name="april_short">अप्रै</string>
@@ -966,9 +966,9 @@
     <string name="frequently_asked_questions">अक्सर पूछे जाने वाले प्रश्नों</string>
     <string name="faq_1_title_commons">मुझे विजेट की सूची में यह ऐप्स विजेट कैसे नहीं दिख रहा?</string>
     <string name="faq_2_title_commons">मैं आपका समर्थन करना चाहता हूं, लेकिन मैं पैसे दान नहीं कर सकता। क्या मुझे कुछ और करना है?</string>
-    <string name="faq_3_text_commons">अफसोस की बात है, आप नहीं कर सकते. पुष्टिकरण संवाद के बाद फ़ाइलें तुरंत हटा दी जाती हैं, कोई ट्रैशबिन उपलब्ध नहीं है।</string>
+    <string name="faq_3_text_commons">अफसोस की बात है, आप नहीं कर सकते. पुष्टिकरण संवाद के बाद फाइलें तुरंत हटा दी जाती हैं, कोई ट्रैशबिन उपलब्ध नहीं है।</string>
     <string name="faq_4_title_commons">मुझे विजेट के रंग पसंद नहीं हैं, क्या मैं उन्हें बदल सकता हूँ?</string>
-    <string name="faq_5_text_commons">यदि वे वास्तव में हटा दिए गए थे, तो आप नहीं कर सकते। हालाँकि, डिफ़ॉल्ट रूप से एक रीसायकल बिन सक्षम है, इससे फ़ाइलें हटाने के बजाय बस बिन में चली जाएंगी।</string>
+    <string name="faq_5_text_commons">यदि वे वास्तव में हटा दिए गए थे, तो आप नहीं कर सकते। हालाँकि, डिफ़ॉल्ट रूप से एक रीसायकल बिन सक्षम है, इससे फाइलें हटाने के बजाय बस बिन में चली जाएंगी।</string>
     <string name="faq_6_title_commons">ऐप लॉन्चर आइकन गायब हो गया. मैं क्या कर सकता हूँ?</string>
     <string name="faq_7_text_commons">भुगतान पूरी तरह से Google द्वारा नियंत्रित किया जाता है, समय-समय पर उनका सिस्टम गड़बड़ हो जाता है। बस अपना Google Play ऐप कैशे साफ़ करें और अपने डिवाइस को पुनरारंभ करें, फिर इसे डाउनलोड करने का पुनः प्रयास करें।</string>
     <string name="faq_7_title_commons">मेरे बैंक खाते से पैसे काट लिए गए हैं, लेकिन मैं ऐप डाउनलोड नहीं कर सकता। मैं क्या कर सकता हूँ?</string>
@@ -1004,10 +1004,10 @@
     <string name="translation_chinese_cn">चीनी (सरलीकृत)</string>
     <string name="translation_chinese_tw">चीनी (पारंपरिक)</string>
     <string name="why_upgrade_customizable_contact_ringtones">अनुकूलन योग्य संपर्क रिंगटोन</string>
-    <string name="why_upgrade_contact_filtering">संपर्क फ़िल्टरिंग</string>
+    <string name="why_upgrade_contact_filtering">संपर्क फिल्टरिंग</string>
     <string name="why_upgrade_zooming">ज़ूम</string>
     <string name="kotlin_title">Kotlin (प्रोग्रामिंग भाषा)</string>
-    <string name="subsampling_title">सबसैंपलिंग स्केल इमेज दृश्य (ज़ूम करने योग्य इमेजदृश्य)</string>
+    <string name="subsampling_title">सबसैंपलिंग स्केल छवि दृश्य (ज़ूम करने योग्य इमेजदृश्य)</string>
     <string name="reprint_title">Reprint (फिंगरप्रिंट सुरक्षा)</string>
     <string name="gif_drawable_title">GIF Drawable (GIF लोड हो रहा है)</string>
     <string name="autofittextview_title">AutoFitTextView (टेक्स्ट का आकार बदलना)</string>
@@ -1017,14 +1017,14 @@
     <string name="leak_canary_title">Leak Canary (मेमोरी लीक डिटेक्टर)</string>
     <string name="number_picker_title">Number Picker (अनुकूलन योग्य नंबर पिकर)</string>
     <string name="exoplayer_title">ExoPlayer (वीडियो प्लेयर)</string>
-    <string name="filters_title">Android Photo Filters (इमेज फिल्टर)</string>
-    <string name="sanselan_title">Apache Sanselan (इमेज मेटाडेटा पढ़ना)</string>
-    <string name="gesture_views_title">Gesture Views (ज़ूम करने योग्य इमेज)</string>
+    <string name="filters_title">Android Photo Filters (छवि फिल्टर)</string>
+    <string name="sanselan_title">Apache Sanselan (छवि मेटाडेटा पढ़ना)</string>
+    <string name="gesture_views_title">Gesture Views (ज़ूम करने योग्य छवियां)</string>
     <string name="event_bus_title">Event Bus (ऐप के भीतर संचार)</string>
     <string name="sms_mms_title">SMS MMS (SMS और MMS हैंडलिंग)</string>
     <string name="apng_title">APNG Android (एनिमेटेड WebP समर्थन)</string>
     <string name="pdf_viewer_title">Android PdfViewer (PDF व्यूअर)</string>
-    <string name="m3u_parser_title">M3U Parser (m3u प्लेलिस्ट फ़ाइल हैंडलिंग)</string>
+    <string name="m3u_parser_title">M3U Parser (m3u प्लेलिस्ट फाइल हैंडलिंग)</string>
     <string name="start_free_trial">निशुल्क आजमाइश शुरु करें</string>
     <string name="welcome_to_app_name">%s में आपका स्वागत है!</string>
     <plurals name="trial_expires_days">
@@ -1047,7 +1047,7 @@
 \nधन्यवाद!</string>
     <string name="rate_our_app">कृपया हमारे ऐप को रेटिंग दें :)</string>
     <string name="thank_you">धन्यवाद</string>
-    <string name="file_manager_short">फ़ाइल मैनेजर</string>
+    <string name="file_manager_short">फाइल मैनेजर</string>
     <string name="launcher_short">लांचर</string>
     <string name="music_player_short">म्यूजिक प्लेयर</string>
     <string name="notes_short">नोट्स</string>
@@ -1055,7 +1055,7 @@
     <string name="thank_you_short">धन्यवाद</string>
     <string name="faq_6_text_commons">यह समस्या तब उत्पन्न होती है जब आपका लॉन्चर आइकन अनुकूलन का पूर्ण समर्थन नहीं करता है। यदि सुलभ हो तो Google Play या विजेट के माध्यम से ऐप लॉन्च करने का प्रयास करें। लॉन्च करने के बाद, डिफ़ॉल्ट हरा आइकन रंग #106D1F पुनर्स्थापित करें। चरम मामलों में, ऐप को पुनः इंस्टॉल करना आवश्यक हो सकता है।</string>
     <string name="before_asking_question">इससे पहले कि आप कोई प्रश्न पूछें, कृपया पहले पढ़ें</string>
-    <string name="faq_5_title_commons">क्या मैं किसी तरह हटाई गई फ़ाइलों को पुनर्स्थापित कर सकता हूँ?</string>
+    <string name="faq_5_title_commons">क्या मैं किसी तरह हटाई गई फाइलों को पुनर्स्थापित कर सकता हूँ?</string>
     <string name="faq_9_text_commons">ऐसा करने के कई तरीके हैं। पहला है एक आइटम को लंबे समय तक दबाकर चयन मोड शुरू करना, फिर दूसरों को चुनने के लिए उन पर छोटा क्लिक करना। दूसरा तरीका माउस के साथ PC पर आइटम का चयन करने के समान है, बस एक आइटम को लंबे समय तक दबाकर चयन मोड शुरू करें, फिर अपनी उंगली को नीचे की ओर रखते हुए इसे चयन के लिए अन्य आइटम पर खींचें। एकाधिक आइटम चुनने का तीसरा तरीका एक आइटम को लंबे समय तक दबाना है, फिर दूसरे को लंबे समय तक दबाना है और बीच में सब कुछ चयनित हो जाता है। यदि आप सभी आइटम का चयन करना चाहते हैं, तो बस एक आइटम को देर तक दबाएं, फिर ऊपरी बाएं कोने पर चयनित आइटम काउंटर पर क्लिक करें। वह सभी चीज़ों का चयन या चयन रद्द कर देगा।</string>
     <string name="translation_galician">गैलिशियन्</string>
     <string name="translation_hindi">हिंदी</string>
