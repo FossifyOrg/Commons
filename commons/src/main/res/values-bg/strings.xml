@@ -937,4 +937,9 @@
     <string name="pro_app_refund">Не забравяйте, че ако деинсталирате всяко платено приложение в рамките на 2 часа, автоматично ще бъде възстановена сумата. Ако искате възстановяване на сумата по всяко време по -късно, просто се свържете с нас на hello@fossify.org и ще го получите. Това улеснява изпробването :)</string>
     <string name="developer_description">Група обикновени приложения с отворен код за Android с гъвкави приспособления, без реклами и ненужни разрешения.</string>
     <string name="audio">Аудиофайлове</string>
+    <string name="genre">Жанр</string>
+    <string name="password">Парола</string>
+    <string name="usb">USB</string>
+    <string name="version_placeholder">Версия %s</string>
+    <string name="translation_bulgarian">Български</string>
 </resources>
