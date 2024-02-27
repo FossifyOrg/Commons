@@ -746,4 +746,6 @@
         <item quantity="many">Your trial expires in %d days.</item>
         <item quantity="other">Your trial expires in %d days.</item>
     </plurals>
+    <string name="excluded">(wedi\'i allgáu)</string>
+    <string name="edit">Golygu</string>
 </resources>
