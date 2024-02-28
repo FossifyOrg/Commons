@@ -99,4 +99,16 @@
     <string name="search_folders">Cercar dossieres</string>
     <string name="rename_file">Renominar le file</string>
     <string name="rename_folder">Renominar le dossier</string>
+    <string name="record_video">Registrar un video</string>
+    <string name="phone_storage">Immagazinage de telephono</string>
+    <string name="phone_storage_hidden">Immagazinage de telephono (non visibile per altere applicationes)</string>
+    <string name="birthday">Die natal</string>
+    <string name="anniversary">Anniversario</string>
+    <string name="home">Casa</string>
+    <string name="mobile">Mobile</string>
+    <string name="home_fax">Fax de casa</string>
+    <string name="change_view_type">Cambiar le typo de vista</string>
+    <string name="grid_pro">Grillia (Pro)</string>
+    <string name="record_audio">Registrar un audio</string>
+    <string name="no_phone_number_found">Necun numero de telephono esseva trovate</string>
 </resources>
