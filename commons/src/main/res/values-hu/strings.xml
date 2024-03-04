@@ -1039,4 +1039,10 @@
     <string name="deprecated_app">ELAVULT: Az alkalmazás ezen verziója már nem fog frissülni, töltse le a Pro verziót a https://play.google.com/store/apps/details\?id=org.fossify..xxx.pro címről</string>
     <string name="pro_app_refund">Ne felejtse el, hogy ha 2 órán belül eltávolítja a fizetős alkalmazásunkat, akkor automatikusan visszatérítjük az árát. Ha később bármikor mégis visszatérítést szeretne, lépjen kapcsolatba velünk a hello@fossify.org címen, és visszakapja. Ez is megkönnyíti a kipróbálást :)</string>
     <string name="developer_description">Egyszerű, nyílt forráskódú androidos alkalmazásgyűjtemény testreszabható modulokkal, hirdetések és felesleges engedélykérések nélkül.</string>
+    <string name="album">Album</string>
+    <string name="genre">Műfaj</string>
+    <string name="exif">EXIF</string>
+    <string name="ok">Rendben</string>
+    <string name="audio">Hang</string>
+    <string name="apply_to_all_apps">Színek alkalmazása az összes Fossify alkalmazásra</string>
 </resources>
