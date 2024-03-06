@@ -862,8 +862,7 @@
 \nKöszönjük!</string>
     <string name="rate_our_app">Értékelje az alkalmazásunkat! :)</string>
     <string name="thank_you">Köszönjük</string>
-    <string name="widget_locked_pro">A modul zárolva van.
-\nFrissítsen a Pro verzióra a feloldásához.</string>
+    <string name="widget_locked_pro">A modul zárolva van. \nFrissítsen a Pro verzióra a feloldásához.</string>
     <string name="new_app">Üdv!&lt;br&gt;&lt;br&gt;Csak tájékoztatni szeretnénk, hogy megjelent néhány új alkalmazás:&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; A címeikre vagy ikonjaikra kattintva töltheti le őket.&lt;br&gt;&lt;br&gt; Köszönjük!</string>
     <string name="app_launcher_short">Alkalmazásindító</string>
     <string name="calculator_short">Számológép</string>
@@ -1058,8 +1057,7 @@
     <string name="usb">USB</string>
     <string name="november">november</string>
     <string name="december">december</string>
-    <string name="copyright">v %1$s
-\nCopyright © Fossify %2$d</string>
+    <string name="copyright">v %1$s \nCopyright © Fossify %2$d</string>
     <string name="donate_please">Üdv!&lt;br&gt;&lt;br&gt; Remélem élvezi az alkalmazást. Nem tartalmaz reklámokat, így arra kérjük, támogassa a fejlesztést a &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Köszönet&lt;/a&gt; alkalmazás megvásárlásával, ekkor ezt a párbeszédablakot sem fogja többet látni.&lt;br&gt;&lt;br&gt; Köszönjük!</string>
     <string name="donate_short">Támogasson minket a &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Köszönet&lt;/a&gt; alkalmazás megvásárlásával, ez feloldja az összes alkalmazásfunkciót is, köztük a színek testreszabását.</string>
     <string name="update_thank_you">Frissítse a Fossify Köszönet alkalmazást a legfrissebb verzióra</string>
