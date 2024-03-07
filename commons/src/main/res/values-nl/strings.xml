@@ -987,4 +987,33 @@
     <string name="donate_short">Ondersteun ons door de app &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Bedankje&lt;/a&gt; aan te schaffen. Dit zal alle functionaliteit in de apps ontgrendelen.</string>
     <string name="update_thank_you">Update Fossify Bedankje naar de nieuwste versie</string>
     <string name="app_icon_color_warning">Let op: Sommige launchers verwerken het aanpassen van het icoon mogelijk niet goed. Als het icoon verdwijnt, probeer dan de app te starten via Google Play, F-Droid of een widget. Herstel na het starten de groene standaardkleur #106D1F. In extreme gevallen kan het zijn dat de app opnieuw geïnstalleerd moet worden.</string>
+    <string name="copyright">v %1$s
+\nCopyright © Fossify %2$d</string>
+    <string name="seconds_letter">s</string>
+    <string name="minutes_letter">m</string>
+    <string name="week_number_short">wk.</string>
+    <string name="alarm">Alarm</string>
+    <string name="widgets">Widgets</string>
+    <string name="usb">USB</string>
+    <string name="april">April</string>
+    <string name="september">September</string>
+    <string name="november">November</string>
+    <string name="december">December</string>
+    <string name="january_short">Jan</string>
+    <string name="february_short">Feb</string>
+    <string name="march_short">Maa</string>
+    <string name="april_short">Apr</string>
+    <string name="august_short">Aug</string>
+    <string name="november_short">Nov</string>
+    <string name="september_short">Sep</string>
+    <string name="december_short">Dec</string>
+    <string name="in_april">in April</string>
+    <string name="in_september">in September</string>
+    <string name="in_november">in November</string>
+    <string name="in_december">in December</string>
+    <string name="monday_letter">M</string>
+    <string name="wednesday_letter">W</string>
+    <string name="website">Website</string>
+    <string name="camera_short">Camera</string>
+    <string name="why_upgrade_pro_version">Pro</string>
 </resources>

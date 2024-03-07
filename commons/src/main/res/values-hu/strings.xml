@@ -862,7 +862,7 @@
 \nKöszönjük!</string>
     <string name="rate_our_app">Értékelje az alkalmazásunkat! :)</string>
     <string name="thank_you">Köszönjük</string>
-    <string name="widget_locked_pro">A modul zárolt.
+    <string name="widget_locked_pro">A modul zárolva van.
 \nFrissítsen a Pro verzióra a feloldásához.</string>
     <string name="new_app">Üdv!&lt;br&gt;&lt;br&gt;Csak tájékoztatni szeretnénk, hogy megjelent néhány új alkalmazás:&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; A címeikre vagy ikonjaikra kattintva töltheti le őket.&lt;br&gt;&lt;br&gt; Köszönjük!</string>
     <string name="app_launcher_short">Alkalmazásindító</string>
@@ -1039,4 +1039,40 @@
     <string name="deprecated_app">ELAVULT: Az alkalmazás ezen verziója már nem fog frissülni, töltse le a Pro verziót a https://play.google.com/store/apps/details\?id=org.fossify..xxx.pro címről</string>
     <string name="pro_app_refund">Ne felejtse el, hogy ha 2 órán belül eltávolítja a fizetős alkalmazásunkat, akkor automatikusan visszatérítjük az árát. Ha később bármikor mégis visszatérítést szeretne, lépjen kapcsolatba velünk a hello@fossify.org címen, és visszakapja. Ez is megkönnyíti a kipróbálást :)</string>
     <string name="developer_description">Egyszerű, nyílt forráskódú androidos alkalmazásgyűjtemény testreszabható modulokkal, hirdetések és felesleges engedélykérések nélkül.</string>
+    <string name="album">Album</string>
+    <string name="genre">Műfaj</string>
+    <string name="exif">EXIF</string>
+    <string name="ok">Rendben</string>
+    <string name="audio">Hang</string>
+    <string name="apply_to_all_apps">Színek alkalmazása az összes Fossify alkalmazásra</string>
+    <string name="deletion_confirmation_short">Törli: %s?</string>
+    <string name="purchase_simple_thank_you">Fossify Köszönet megvásárlása</string>
+    <string name="notification_sound">Értesítési hang</string>
+    <string name="donate_new">Üdv!&lt;br&gt;&lt;br&gt; Remélem élvezi az alkalmazást. Nem tartalmaz reklámokat és adatokat sem gyűjtünk, így arra kérjük, támogassa a fejlesztést a &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Köszönet&lt;/a&gt; alkalmazás megvásárlásával. Ez feloldja az összes alkalmazásfunkciót is, köztük a színek testreszabását.&lt;br&gt;&lt;br&gt; Köszönjük!</string>
+    <string name="contributors_label">A lista mindenkit tartalmaz, aki észrevehető mértékben segített a Fossify csomag bármelyik alkalmazásában, nem csak ebben. A fordításokat önkéntesek kezelik, tudassa velünk, ha Ön is segítene. A fordítási útmutató &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;ezen a webhelyen&lt;/a&gt; található, de ha kérdése van, akkor a &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; címen is felteheti. Köszönjük az összes közreműködőnknek és támogatónknak!</string>
+    <string name="faq_2_text_commons">Igen, természetesen. Népszerűsítheti az alkalmazásokat, adhat visszajelzést róluk és értékelheti őket. Le is fordíthatja az alkalmazásokat a saját nyelvére, vagy frissítheti a meglévő fordításokat. A fordítási útmutató megtalálható &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;ezen a webhelyen&lt;/a&gt;, vagy ha kérdése van, akkor írjon nekünk a &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; címre.</string>
+    <string name="app_icon_color_warning">Figyelem: egyes indítók lehet, hogy nem helyesen kezelik az ikonok testreszábását. Ha az ikon eltűnik, próbálja a Google Playen vagy egy modulon keresztül elindítani, ha elérhető. Indítás után állítsa vissza az alapértelmezett zöld (#106D1F) ikonszínt. Extrém esetekben az alkalmazás újratelepítése is szükséges lehet.</string>
+    <string name="shared_theme_note">Vegye figyelembe, hogy bár a Pro alkalmazásverziót használja, műszaki okokból továbbra is szükséges lesz a Fossify Köszönet alkalmazásra. Az végzi a színek szinkronizálását.</string>
+    <string name="purchase_thank_you">Vásárolja meg a &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Köszönet&lt;/a&gt; alkalmazást a funkció feloldásához, és a fejlesztés támogatásához. Köszönjük!</string>
+    <string name="system_default">Rendszer alapértelmezése</string>
+    <string name="enter_password">Adja meg a jelszót</string>
+    <string name="password">Jelszó</string>
+    <string name="add_password">Jelszó hozzáadása</string>
+    <string name="week_number_short">h</string>
+    <string name="usb">USB</string>
+    <string name="november">november</string>
+    <string name="december">december</string>
+    <string name="copyright">v %1$s
+\nCopyright © Fossify %2$d</string>
+    <string name="donate_please">Üdv!&lt;br&gt;&lt;br&gt; Remélem élvezi az alkalmazást. Nem tartalmaz reklámokat, így arra kérjük, támogassa a fejlesztést a &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Köszönet&lt;/a&gt; alkalmazás megvásárlásával, ekkor ezt a párbeszédablakot sem fogja többet látni.&lt;br&gt;&lt;br&gt; Köszönjük!</string>
+    <string name="donate_short">Támogasson minket a &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Köszönet&lt;/a&gt; alkalmazás megvásárlásával, ez feloldja az összes alkalmazásfunkciót is, köztük a színek testreszabását.</string>
+    <string name="update_thank_you">Frissítse a Fossify Köszönet alkalmazást a legfrissebb verzióra</string>
+    <string name="features_locked">Ez a funkció zárolva van, vásárolja meg a &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Köszönet&lt;/a&gt; alkalmazást a teljes verzió feloldásához.&lt;br&gt;&lt;br&gt;Ez egy egyszeri fizetés, és ha nem elégedett, akkor visszafizetjük az árát.</string>
+    <string name="translation_breton">Breton</string>
+    <string name="translation_bulgarian">Bolgár</string>
+    <string name="translation_english">Angol</string>
+    <string name="translation_hindi">Hindi</string>
+    <string name="translation_tamil">Tamil</string>
+    <string name="why_upgrade_pro_version">Pro</string>
+    <string name="faq_6_text_commons">Ez a probléma akkor merül fel, ha az indító nem teljesen támogatja az ikonok testreszabását. Próbálja a Google Playen vagy egy modulon keresztül elindítani, ha az elérhető. Indítás után állítsa vissza az alapértelmezett zöld (#106D1F) ikonszínt. Extrém esetekben az alkalmazás újratelepítése lehet szükséges.</string>
 </resources>
