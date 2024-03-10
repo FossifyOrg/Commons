@@ -879,4 +879,9 @@
     <string name="deprecated_app">TIDAK DIDUKUNG: Versi aplikasi ini tidak lagi dikembangkan, dapatkan versi Pro di https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">Jangan lupa, jika Anda mencopot aplikasi berbayar apa pun dalam waktu 2 jam, uang Anda akan otomatis dikembalikan. Jika Anda ingin pengembalian dilakukan lain waktu, cukup hubungi hello@fossify.org dan Anda akan mendapatkannya. Itu mempermudah Anda untuk mencobanya terlebih dahulu. :)</string>
     <string name="developer_description">Sekelompok aplikasi Android sumber terbuka sederhana dengan widget yang dapat disesuaikan, tanpa iklan dan perizinan yang tidak diperlukan.</string>
+    <string name="email">Surel</string>
+    <string name="error">Kesalahan: %s</string>
+    <string name="label">Label</string>
+    <string name="notifications">Notifikasi</string>
+    <string name="scanning">Memindai…</string>
 </resources>
