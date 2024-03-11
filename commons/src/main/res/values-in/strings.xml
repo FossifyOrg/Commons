@@ -884,4 +884,19 @@
     <string name="label">Label</string>
     <string name="notifications">Notifikasi</string>
     <string name="scanning">Memindai…</string>
+    <string name="show_search">Tampilkan kotak pencarian</string>
+    <plurals name="column_counts">
+        <item quantity="other">%d kolom</item>
+    </plurals>
+    <plurals name="row_counts">
+        <item quantity="other">%d baris</item>
+    </plurals>
+    <string name="block_hidden_calls">Blokir panggilan dari nomor tersembunyi</string>
+    <string name="block_hidden_messages">Blokir pesan dari nomor tersembunyi</string>
+    <string name="block_contact">Blokir kontak</string>
+    <string name="block_contact_success">Kontak diblokir</string>
+    <string name="block_contact_fail">Kontak tidak dapat diblokir</string>
+    <string name="unblock_contact">Batalkan blokir kontak</string>
+    <string name="unblock_contact_success">Kontak batal diblokir</string>
+    <string name="unblock_contact_fail">Tidak dapat membuka blokir kontak</string>
 </resources>
