@@ -139,7 +139,7 @@
     <string name="search_contacts">Kontakte durchsuchen</string>
     <string name="search_favorites">Favoriten durchsuchen</string>
     <string name="search_apps">Apps durchsuchen</string>
-    <string name="search_events">Ereignisse durchsuchen</string>
+    <string name="search_events">Termine durchsuchen</string>
     <string name="search_groups">Gruppen durchsuchen</string>
     <string name="search_history">Verlauf durchsuchen</string>
     <string name="search_calls">Anrufe durchsuchen</string>
@@ -956,7 +956,7 @@
     <string name="why_upgrade_printing_support">Druckunterstützung</string>
     <string name="why_upgrade_time_zone_support">Zeitzonen-Unterstützung</string>
     <string name="why_upgrade_attendees_emails">Teilnehmer und E-Mail-Erinnerungen</string>
-    <string name="why_upgrade_easy_event_importing">Einfaches Importieren von Ereignissen</string>
+    <string name="why_upgrade_easy_event_importing">Einfaches Importieren von Terminen</string>
     <string name="why_upgrade_new_widgets">Neue Widgets</string>
     <string name="why_upgrade_duplicate_contact_merging">Verbesserte Zusammenführung doppelter Kontakte</string>
     <string name="why_upgrade_font_size_customization">Anpassung der Schriftgröße</string>

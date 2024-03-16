@@ -137,4 +137,14 @@
     <string name="cannot_rename_folder">Non poteva renominar iste dossier</string>
     <string name="select_file">Selige un file</string>
     <string name="language">Lingua</string>
+    <string name="zero">Zero</string>
+    <string name="one">Un</string>
+    <string name="two">Duo</string>
+    <string name="three">Tres</string>
+    <string name="four">Quatro</string>
+    <string name="five">Cinque</string>
+    <string name="six">Sex</string>
+    <string name="seven">Septe</string>
+    <string name="eight">Octo</string>
+    <string name="scanning">Scannante…</string>
 </resources>
