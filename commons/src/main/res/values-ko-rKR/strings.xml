@@ -2,12 +2,12 @@
 <resources>
     <string name="ok">확인</string>
     <string name="cancel">취소</string>
-    <string name="later">나중</string>
+    <string name="later">나중에</string>
     <string name="save_as">다른 이름으로 저장</string>
     <string name="file_saved">파일저장 성공</string>
     <string name="invalid_file_format">잘못된 파일 형식</string>
     <string name="out_of_memory_error">메모리 부족 오류</string>
-    <string name="an_error_occurred">에러발생: %s</string>
+    <string name="an_error_occurred">다음 오류가 발생하였습니다: %s</string>
     <string name="open_with">다른 앱으로 열기</string>
     <string name="edit_with">편집 앱으로 열기</string>
     <string name="no_app_found">연결 가능한 앱 없음</string>
@@ -601,4 +601,9 @@
     <string name="gesture_views_title">Gesture Views (확대 가능한 이미지)</string>
     <string name="deprecated_app">구버전 경고: 이 버전의 앱은 더이상 관리되지 않습니다. Pro 버전을 설치해 주세요: https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">플레이스토어에서 구매한 앱은 2시간 내에 삭제하면 자동으로 환불받을 수 있다는 사실을 항상 잊지 마시기 바랍니다. 만약 이후에 환불이 필요하시다면, hello@fossify.org 으로 연락 주시면 해결해 드리겠습니다. 이제 한번 써보는 것도 나쁘지 않겠죠 :)</string>
+    <string name="error">오류: %s</string>
+    <string name="edit">편집</string>
+    <string name="close">닫기</string>
+    <string name="back">뒤로가기</string>
+    <string name="nothing">없음</string>
 </resources>

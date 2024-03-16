@@ -54,6 +54,11 @@ class RenamePatternTab(context: Context, attrs: AttributeSet) : RelativeLayout(c
             return
         }
 
+        if (!newNameRaw.isAValidFilename()) {
+            activity?.toast(R.string.invalid_name)
+            return
+        }
+
         val validPaths = paths.filter { activity?.getDoesFilePathExist(it) == true }
         val firstPath = validPaths.firstOrNull()
         val sdFilePath = validPaths.firstOrNull { activity?.isPathOnSD(it) == true } ?: firstPath
@@ -180,7 +185,7 @@ class RenamePatternTab(context: Context, attrs: AttributeSet) : RelativeLayout(c
         paths: List<String>,
         useMediaFileExtension: Boolean,
         android30Format: Android30RenameFormat,
-        callback: (success: Boolean) -> Unit
+        callback: (success: Boolean) -> Unit,
     ) {
         val fileDirItems = paths.map { File(it).toFileDirItem(context) }
         val uriPairs = context.getUrisPathsFromFileDirItems(fileDirItems)

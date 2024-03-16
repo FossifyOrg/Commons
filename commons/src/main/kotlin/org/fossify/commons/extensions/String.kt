@@ -71,11 +71,12 @@ fun String.getFirstParentPath(context: Context, level: Int): String {
 }
 
 fun String.isAValidFilename(): Boolean {
-    val ILLEGAL_CHARACTERS = charArrayOf('/', '\n', '\r', '\t', '\u0000', '`', '?', '*', '\\', '<', '>', '|', '\"', ':')
-    ILLEGAL_CHARACTERS.forEach {
-        if (contains(it))
-            return false
-    }
+    charArrayOf('/', '\n', '\r', '\t', '\u0000', '`', '?', '*', '\\', '<', '>', '|', '\"', ':')
+        .forEach {
+            if (contains(it))
+                return false
+        }
+
     return true
 }
 

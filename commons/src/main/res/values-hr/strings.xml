@@ -2,7 +2,7 @@
 <resources>
     <string name="ok">U redu</string>
     <string name="cancel">Poništi</string>
-    <string name="back">Nazad</string>
+    <string name="back">Natrag</string>
     <string name="nothing">Ništa</string>
     <string name="later">Kasnije</string>
     <string name="save_as">Spremi kao</string>
@@ -92,8 +92,8 @@
     <string name="increase_column_count">Povećaj broj stupaca</string>
     <string name="reduce_column_count">Smanji broj stupaca</string>
     <string name="column_count">Broj stupaca</string>
-    <string name="portrait_column_count">Broj stupaca portreta</string>
-    <string name="landscape_column_count">Broj vodoravnih stupaca</string>
+    <string name="portrait_column_count">Broj uspravnih stupaca</string>
+    <string name="landscape_column_count">Broj položenih stupaca</string>
     <string name="change_cover_image">Promjeni naslovnu sliku</string>
     <string name="select_photo">Odaberi sliku</string>
     <plurals name="column_counts">
@@ -101,21 +101,21 @@
         <item quantity="few">%d stupca</item>
         <item quantity="other">%d stupaca</item>
     </plurals>
-    <string name="manage_blocked_numbers">Upravljanje blokiranim brojevima</string>
-    <string name="not_blocking_anyone">Ne blokirate nikoga.</string>
+    <string name="manage_blocked_numbers">Upravljaj blokiranim brojevima</string>
+    <string name="not_blocking_anyone">Ne blokiraš nikoga.</string>
     <string name="add_a_blocked_number">Dodaj blokirani broj</string>
     <string name="block_number">Blokiraj broj</string>
     <string name="block_numbers">Blokiraj brojeve</string>
     <string name="blocked_numbers">Blokirani brojevi</string>
     <string name="export_blocked_numbers">Izvoz blokiranih brojeva</string>
     <string name="import_blocked_numbers">Uvoz blokiranih brojeva</string>
-    <string name="must_make_default_dialer">Za korištenje blokiranih brojeva, ovu aplikaciju moraš postaviti kao zadanu za biranje brojeva.</string>
-    <string name="set_as_default">Postavi na zadano</string>
+    <string name="must_make_default_dialer">Za korištenje blokiranih brojeva, ovu aplikaciju moraš postaviti kao standardnu aplikaciju za biranje brojeva.</string>
+    <string name="set_as_default">Postavi kao standard</string>
     <string name="block_confirmation">Stvarno želiš blokirati „%s”\?</string>
-    <string name="block_not_stored_calls">Blokiraj pozive nepohranjenih kontakata</string>
-    <string name="block_not_stored_messages">Blokiraj poruke nepohranjenih kontakata</string>
+    <string name="block_not_stored_calls">Blokiraj pozive od nespremljenih kontakata</string>
+    <string name="block_not_stored_messages">Blokiraj poruke od nespremljenih kontakata</string>
     <string name="add_blocked_number_helper_text">Upiši broj ili uzorak (npr. *12345*, +1*8888) za blokiranje svih poziva i poruka od brojeva koji odgovaraju uzorku.</string>
-    <string name="must_make_default_caller_id_app">Blokiranje nepoznatih brojeva nije moguće bez dozvole ID-a pozivatelja.</string>
+    <string name="must_make_default_caller_id_app">Nije moguće blokirati nepoznate brojeve bez dozvole ID-a pozivatelja.</string>
     <string name="favorites">Favoriti</string>
     <string name="add_favorites">Dodaj favorite</string>
     <string name="add_to_favorites">Dodaj u favorite</string>
@@ -133,8 +133,8 @@
     <string name="search_files">Pretraži datoteke</string>
     <string name="search_folders">Pretraži mape</string>
     <string name="search_files_and_folders">Pretraži datoteke i mape</string>
-    <string name="search_playlists">Pretraži playliste</string>
-    <string name="search_artists">Pretraži izvođače</string>
+    <string name="search_playlists">Pretraži popise pjesama</string>
+    <string name="search_artists">Traži izvođače</string>
     <string name="search_albums">Pretraži albume</string>
     <string name="search_tracks">Pretraži pjesme</string>
     <string name="search_text">Pretraži tekst</string>
@@ -186,7 +186,7 @@
     <string name="filename_without_txt">Naziv datoteke (bez .txt)</string>
     <string name="filename_without_json">Naziv datoteke (bez .json)</string>
     <string name="filename_without_zip">Naziv datoteke (bez .zip)</string>
-    <string name="cannot_hide_files">Počevši od Androida 11, više ne možete sakriti datoteke i mape na taj način</string>
+    <string name="cannot_hide_files">Počevši od Androida 11, više ne možetš sakriti datoteke i mape na taj način</string>
     <string name="copy">Kopiraj</string>
     <string name="move">Premjesti</string>
     <string name="copy_move">Kopiraj/Premjesti</string>
@@ -243,14 +243,14 @@
     <string name="select_file">Odaberi datoteku</string>
     <string name="confirm_storage_access_title">Potvrdi pristup vanjskoj memoriji</string>
     <string name="confirm_folder_access_title">Potvrdi pristup mapi</string>
-    <string name="confirm_storage_access_text">Odaberite root mapu SD kartice na sljedećem prozoru da biste omogućili upisivanje</string>
-    <string name="confirm_storage_access_text_sd">Ukoliko ne vidite SD karticu, probajte ovo</string>
-    <string name="confirm_storage_access_android_text">Dopustite aplikaciji pristup odabranoj pohrani na sljedećem zaslonu pritiskom na \'Koristi ovu mapu\' na dnu.</string>
-    <string name="confirm_storage_access_android_text_specific">Dopustite pristup \'<b>%s</b>\' na sljedećem ekranu pritiskom na \'<b>Koristi ovu mapu</b>\' na dnu.</string>
-    <string name="confirm_create_doc_for_new_folder_text">Molimo pritisnite \'<b>Spremi</b>\' na dnu sljedećeg zaslona za izradu nove mape.</string>
+    <string name="confirm_storage_access_text">Za dozvoljavanje pisanja odaberi početnu mapu SD kartice na sljedećem ekranu</string>
+    <string name="confirm_storage_access_text_sd">Ako ne vidiš SD karticu, probaj ovo</string>
+    <string name="confirm_storage_access_android_text">Dopusti aplikaciji pristup odabranoj memoriji na sljedećem ekranu pritiskom na „Koristi ovu mapu” na dnu ekrana.</string>
+    <string name="confirm_storage_access_android_text_specific">Dopusti pristup memoriji „<b>%s</b>” na sljedećem ekranu pritiskom na „<b>Koristi ovu mapu</b>” na dnu ekrana.</string>
+    <string name="confirm_create_doc_for_new_folder_text">Za stvaranje nove mape pritisni „<b>Spremi</b>” na dnu sljedećeg ekrana.</string>
     <string name="confirm_selection">Potvrdi odabir</string>
     <string name="loading">Učitavanje …</string>
-    <string name="access_storage_prompt">Dozvoli našoj aplikaciji pristup svim tvojim datotekama. Bez toga aplikacija možda neće dobro funkcionirati.</string>
+    <string name="access_storage_prompt">Dozvoli našoj aplikaciji pristup svim tvojim datotekama. Bez toga aplikacija možda neće dobro raditi.</string>
     <plurals name="items">
         <item quantity="one">%d stavka</item>
         <item quantity="few">%d stavke</item>
@@ -271,15 +271,15 @@
         <item quantity="few">%d kontakta</item>
         <item quantity="other">%d kontakta</item>
     </plurals>
-    <string name="select_storage">Odaberite prostor za pohranu</string>
-    <string name="storage">Skladištenje</string>
-    <string name="internal">Unutranji prostor za pohranu</string>
+    <string name="select_storage">Odaberi spremište</string>
+    <string name="storage">Spremište</string>
+    <string name="internal">Interno</string>
     <string name="sd_card">SD kartica</string>
-    <string name="wrong_root_selected">Odabrana je pogrešana mapa, molimo odaberite root mapu Vaše SD kartice</string>
-    <string name="sd_card_usb_same">Putanje SD kartice i USB uređaja ne mogu biti isti</string>
+    <string name="wrong_root_selected">Odabrana je pogrešana mapa. Odaberi glavnu mapu tvoje SD kartice</string>
+    <string name="sd_card_usb_same">Putanje SD kartice i USB uređaja ne mogu biti iste</string>
     <string name="app_on_sd_card">Čini se da je aplikacija instalirana na SD karticu, što čini widgete aplikacije nedostupnim. Nećete ih čak ni vidjeti na popisu dostupnih widgeta.
         To je ograničenje sustava, pa ako želite upotrebljavati widgete, morate vratiti aplikaciju na unutarnju pohranu..</string>
-    <string name="wrong_folder_selected">Odabrana pogrešna mapa, odaberite stazu \'%s\'</string>
+    <string name="wrong_folder_selected">Odabrana je pogrešna mapa. Odaberi putanju „%s”</string>
     <string name="properties">Svojstva</string>
     <string name="path">Putanja</string>
     <string name="items_selected">Odabrane stavke</string>
@@ -287,7 +287,7 @@
     <string name="files_count">Ukupni zbroj stavki</string>
     <string name="resolution">Rezolucija</string>
     <string name="duration">Trajanje</string>
-    <string name="artist">Umjetnik</string>
+    <string name="artist">Izvođač</string>
     <string name="focal_length">Žarišna duljina</string>
     <string name="exposure_time">Vrijeme izloženosti</string>
     <string name="iso_speed">ISO brzina</string>
@@ -297,7 +297,7 @@
     <string name="gps_coordinates">GPS koordinate</string>
     <string name="altitude">Nadmorska visina</string>
     <string name="remove_exif">Ukloni EXIF</string>
-    <string name="remove_exif_confirmation">Jeste li sigurni da želite ukloniti EXIF vrijednosti kao što su GPS koordinate, model kamere itd.\?</string>
+    <string name="remove_exif_confirmation">Stvarno želiš ukloniti EXIF vrijednosti kao što su GPS koordinate, model kamere itd.?</string>
     <string name="exif_removed">EXIF vrijednosti uspješno uklonjene</string>
     <string name="background_color">Boja pozadine</string>
     <string name="text_color">Boja teksta</string>
@@ -307,23 +307,19 @@
     <string name="foreground_color">Boja pozadine</string>
     <string name="app_icon_color">Boja ikone aplikacije</string>
     <string name="bottom_navigation_bar_color">Boja donje navigacijske trake</string>
-    <string name="restore_defaults">Vrati zadano</string>
-    <string name="use_default">Koristi zadano</string>
+    <string name="restore_defaults">Vrati standardne vrijednosti</string>
+    <string name="use_default">Koristi standardne vrijednosti</string>
     <string name="change_color">Promijeni boju</string>
     <string name="theme">Tema</string>
     <string name="changing_color_description">Promijenom boje, prelazi se na Prilagođenu temu</string>
     <string name="save">Spremi</string>
     <string name="discard">Odbaci</string>
     <string name="undo_changes">Poništi promjene</string>
-    <string name="undo_changes_confirmation">Jeste li sigurni da želite poništiti Vaše promjene?</string>
+    <string name="undo_changes_confirmation">Stvarno želitš poništiti tvoje promjene?</string>
     <string name="cannot_be_undone">Ovo je nepovratna radnja.</string>
-    <string name="save_before_closing">Imate ne spremljene promjene. Želite li spremiti prije izlaska?</string>
+    <string name="save_before_closing">Imaš nespremljene promjene. Želiš li ih spremiti prije izlaska?</string>
     <string name="share_colors_success">Uspješno ažurirane boje. Nova tema pod nazivom \'Shared\' je dodana, molimo koristite ju za ažuriranje svih boja u aplikaciji u budućnosti.</string>
-    <string name="purchase_thank_you">
-        <![CDATA[
-            Molimo kupite <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> za otključavanje ove funkcije i podršku razvoju. Hvala!
-        ]]>
-    </string>
+    <string name="purchase_thank_you">Za otključavanje ove funkcije te za podršku razvoja kupi aplikaciju &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify hvala&lt;/a&gt;. Hvala!</string>
     <string name="light_theme">Svijetla</string>
     <string name="dark_theme">Tamna</string>
     <string name="auto_theme">Automatski</string>
@@ -432,7 +428,7 @@
     <string name="no_fingerprints_registered">Nemate registiranih otisaka prstiju, molimo dodajte ih u postavkama Vašeg uređaja</string>
     <string name="go_to_settings">Idi u Postavke</string>
     <string name="protection_setup_successfully">Uspješno postavljanje lozinke. Molimo reinstalirajte aplikaciju u slučaju da je zaboravite.</string>
-    <string name="fingerprint_setup_successfully">Uspješno postavljanje zaštite. Molimo reinstalirajte aplikaciju u slučaju problema s resetiranjem.</string>
+    <string name="fingerprint_setup_successfully">Uspješno postavljanje zaštite. Instaliraj aplikaciju ponovo u slučaju problema s resetiranjem.</string>
     <string name="lock_folder">Zaključaj mapu</string>
     <string name="lock_folder_pro">Zaključaj mapu (Pro)</string>
     <string name="unlock_folder">Otključaj mapu</string>
@@ -639,7 +635,7 @@
     <string name="enable_pull_to_refresh">Aktiviraj aktualiziranje povlačenjem odozgo</string>
     <string name="use_24_hour_time_format">Koristite 24-satni format</string>
     <string name="change_date_and_time_format">Promijeni formate datuma i vremena</string>
-    <string name="sunday_first">Početak tjedna u nedjelju</string>
+    <string name="sunday_first">Početak tjedna je nedjelja</string>
     <string name="widgets">Widgeti</string>
     <string name="use_same_snooze">Uvijek koristi isto vrijeme odgode</string>
     <string name="snooze_time">Vrijeme odgode</string>
@@ -678,7 +674,7 @@
     <string name="temporarily_show_excluded">Privremeno prikaži isključene</string>
     <string name="stop_showing_excluded">Prekini prikazivanje isključenih</string>
     <string name="manage_shown_tabs">Upravljaj prikazanim karticama</string>
-    <string name="default_tab_to_open">Kartica koja se otvara nakon pokretanja programa</string>
+    <string name="default_tab_to_open">Kartica koja se otvara nakon pokretanja aplikacije</string>
     <string name="contacts_tab">Kontakti</string>
     <string name="favorites_tab">Favoriti</string>
     <string name="call_history_tab">Povijest poziva</string>
@@ -854,13 +850,7 @@
     <string name="additional_info">Dodatne informacije</string>
     <string name="app_version">Verzija aplikacije: %s</string>
     <string name="device_os">OS uređaja: %s</string>
-    <string name="donate_please">
-        <![CDATA[
-            Pozdrav,<br><br>
-            nadam se da uživate u aplikaciji. Ne sadrži reklame, stoga nas podržite njen razvoj kupovinom <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> aplikacije, što će spriječiti da se ovaj prozor ponovno pojavljuje.<br><br>
-            Hvala Vam!
-        ]]>
-    </string>
+    <string name="donate_please">Zdravo,&lt;br&gt;&lt;br&gt; nadamo se da uživate u aplikaciji. Ne sadrži oglase. Podržite njen razvoj kupnjom aplikacije &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify hvala&lt;/a&gt;, što će spriječiti da se ovaj prozor ponovno pojavljuje.&lt;br&gt;&lt;br&gt; Hvala!</string>
     <string name="purchase">Kupi</string>
     <string name="before_asking_question_read_faq">Prije nego što postaviš pitanje, provjeri postavke aplikacije i najprije pročitaj stranicu „Često postavljena pitanja”. Rješenje možda već postoji.</string>
     <string name="before_rate_read_faq">Prije nego što nas ocijeniš, provjeri postavke aplikacije i najprije pročitaj stranicu „Često postavljena pitanja”. Ako imaš bilo koji problem, rješenje možda već postoji.</string>
@@ -911,12 +901,12 @@
     <string name="faq_4_title_commons">Ne sviđa mi se boja widgeta, mogu li ih promijeniti?</string>
     <string name="faq_4_text_commons">Da, kada povlačite widget na početnom zaslonu, pojavit će se zaslon za konfiguraciju widgeta. U donjem lijevom kutu vidjet ćete obojene kvadrate, samo ih pritisnite da biste odabrali novu boju. Možete koristiti i klizač za podešavanje alphe.</string>
     <string name="faq_5_title_commons">Mogu li nekako vratiti izbrisane datoteke?</string>
-    <string name="faq_5_text_commons">Ako su stvarno izbrisane, ne možete. Međutim, postoji koš za smeće koji je standardno aktiviran. Na taj se način datoteke samo premještaju u koš umjesto da se izbrišu.</string>
+    <string name="faq_5_text_commons">Ako su stvarno izbrisane, ne možeš. Međutim, postoji koš za smeće koji je standardno aktiviran. Na taj se način datoteke samo premještaju u koš umjesto da se izbrišu.</string>
     <string name="faq_6_title_commons">Ikona pokretača aplikacija je nestala. Što mogu učiniti?</string>
-    <string name="faq_7_title_commons">The money has been deducted from my bank account, but I cannot download the app. What can I do\?</string>
-    <string name="faq_8_title_commons">Why should I upgrade to the Pro version\?</string>
-    <string name="faq_8_text_commons">As your app version is no longer updated, the bugs you have maybe spotted will never be fixed. There will also be no new functions added. You can purchase the Pro version on Google Play for a small sum of money. It is a one time payment, which means that once you purchase it, you will never have to pay again. Not even after getting a new device. If you won\'t like the Pro version, you can just uninstall it within a few hours and you will automatically get your money back. If you want a refund anytime later, just contact us at hello@fossify.org and you will get it.</string>
-    <string name="faq_9_title_commons">How can I select multiple items at once\?</string>
+    <string name="faq_7_title_commons">Novac je skinut s mog bankovnog računa, ali ne mogu preuzeti aplikaciju. Što mogu učiniti?</string>
+    <string name="faq_8_title_commons">Zašto nadograditi na Pro verziju?</string>
+    <string name="faq_8_text_commons">Budući da se vaša verzija aplikacije više nije ažurira, greške koje ste možda uočili nikada neće biti ispravljene. Također se neće dodati nove funkcije. Pro verziju možete kupiti na Google Playu za malu svotu novca. Radi se o jednokratnom plaćanju, što znači da kada je jednom kupite, više nikada nećete morati ponovo platiti. Čak ni nakon nabave novog uređaja. Ako vam se Pro verzija ne sviđa, možete je jednostavno deinstalirati u roku od nekoliko sati i automatski ćete dobiti povrat novca. Ako želite povrat novca bilo kada kasnije, kontaktirajte nas na hello@fossify.org i mi ćemo vam vratiti novac.</string>
+    <string name="faq_9_title_commons">Kako mogu odabrati više stavki odjednom?</string>
     <string name="faq_9_text_commons">There are multiple ways of doing that. The first one is starting the selection mode by long pressing one item, then short clicking on others to select them. The second way is similar to selecting items on PCs with a mouse, just start the selection mode by long pressing one item, then with your finger still down drag it across other items for selecting. The third way of selecting multiple items is long pressing one item, then long pressing another one and everything in between gets selected. If you want to select all items, just long press one item, then click at the selected item counter at the top left corner. That will select or unselect all everything.</string>
     <string name="contributors">Doprinositelji</string>
     <string name="translation">Prijevod</string>
@@ -1031,7 +1021,7 @@
     <string name="apng_title">APNG Android (podrška za animirani WebP)</string>
     <string name="pdf_view_pager_title">PDFViewPager (čitač PDF-ova)</string>
     <string name="pdf_viewer_title">Android PdfViewer (čitač PDF-ova)</string>
-    <string name="m3u_parser_title">M3U Parser (rukovanje datotekama m3u playlista)</string>
+    <string name="m3u_parser_title">M3U Parser (rukovanje m3u datotekama popisa pjesama)</string>
     <string name="android_lame_title">AndroidLame (mp3 koder)</string>
     <string name="zip4j_title">Zip4j (ZIP kompresija i dekompresija)</string>
     <string name="trial_expired">Probni rok je istekao</string>
@@ -1052,4 +1042,78 @@
     <string name="deprecated_app">ZASTARJELO: Ova verzija aplikacije se više ne održava. Nabavi Pro verziju na https://play.google.com/store/apps/details\?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">Ako deinstaliraš bilo koju plaćenu aplikaciju u roku od 2 sata automatski ćeš dobiti povrat novca. Ako kasnije želiš povrat novca, jednostavno nas kontaktiraj na hello@fossify.org. To olakšava isprobavanje :)</string>
     <string name="developer_description">Skup jednostavnih Android aplikacija otvorenog koda s prilagodljivim widgetima, bez oglasa i nepotrebnih dozvola.</string>
+    <string name="show_line_numbers">Prikaži brojeve redaka</string>
+    <string name="hide_line_numbers">Sakrij brojeve redaka</string>
+    <string name="unblock">Deblokiraj</string>
+    <string name="saturday_letter">S</string>
+    <string name="why_upgrade_pro_version">Pro</string>
+    <string name="why_upgrade_many_other_improvements">Mnoga druga poboljšanja</string>
+    <string name="faq_6_text_commons">Ovaj problem nastaje kada tvoj pokretač ne podržava u potpunosti prilagođavanje ikona. Pokušaj pokrenuti aplikaciju putem Google Playa ili widgeta, ako je dostupan. Nakon pokretanja vrati standardnu zelenu boju ikone #106D1F. U ekstremnim slučajevima može biti potrebno ponovo instalirati aplikaciju.</string>
+    <string name="date_added">Datum dodavanja</string>
+    <string name="pin_must_be_4_digits_long">PIN mora imati najmanje 4 znamenke</string>
+    <string name="purchase_simple_thank_you">Kupi Fossify hvala</string>
+    <string name="close">Zatvori</string>
+    <string name="error">Greška: %s</string>
+    <string name="audio">Audio</string>
+    <string name="scanning">Pretraživanje …</string>
+    <string name="pager">Pager</string>
+    <string name="row_count">Broj redaka</string>
+    <plurals name="row_counts">
+        <item quantity="one">%d redak</item>
+        <item quantity="few">%d retka</item>
+        <item quantity="other">%d redaka</item>
+    </plurals>
+    <string name="block_hidden_calls">Blokiraj pozive sa skrivenim brojevima</string>
+    <string name="block_contact">Blokiraj kontakt</string>
+    <string name="block_contact_success">Kontakt je blokiran</string>
+    <string name="block_contact_fail">Nije bilo moguće blokirati kontakt</string>
+    <string name="unblock_contact">Deblokiraj kontakt</string>
+    <string name="block_hidden_messages">Blokiraj poruke sa skrivenim brojevima</string>
+    <string name="unblock_contact_success">Kontakt je deblokiran</string>
+    <string name="unblock_contact_fail">Nije bilo moguće deblokirati kontakt</string>
+    <string name="show_search">Prikaži traku pretrage</string>
+    <string name="allow_full_screen_notifications_reminders">Aplikaciji moraš dozvoliti cjeloekranski prikaz obavijesti, inače ćeš možda propustiti neke podsjetnike.</string>
+    <string name="allow_full_screen_notifications_incoming_calls">Aplikaciji moraš dozvoliti cjeloekranski prikaz obavijesti, inače ćeš možda propustiti neke pozive.</string>
+    <string name="allow_alarm_scheduled_messages">Aplikaciji moraš dozvoliti pristup internim alarmima, inače neće moći slati zakazane poruke.</string>
+    <string name="allow_alarm_sleep_timer">Aplikaciji moraš dozvoliti pristup internim alarmima, inače neće moći isključiti aplikaciju nakon odbrojavanja do spavanja.</string>
+    <string name="allow_location_permission">Aplikaciji moraš dozvoliti pristup tvojoj lokaciji, inače je neće poznati.</string>
+    <string name="internal_storage">Interno spremište</string>
+    <string name="root">Glavni direktorij</string>
+    <string name="album">Album</string>
+    <string name="genre">Žanr</string>
+    <string name="exif">EXIF</string>
+    <string name="default_color">Standardna boja</string>
+    <string name="apply_to_all_apps">Primijeni boje na sve Fossify aplikacije</string>
+    <string name="allow_access_more_media">Dozvoli pristup daljnjim medijima</string>
+    <string name="more_options">Više opcija</string>
+    <string name="pin">PIN</string>
+    <string name="too_many_incorrect_attempts">Previše netočnih pokušaja otključavanja.
+\nPokušaj ponovo za %d sekunde.</string>
+    <string name="seconds_letter">s</string>
+    <string name="hours_letter">h</string>
+    <string name="alarm">Alarm</string>
+    <string name="start_week_on">Početak tjedna je</string>
+    <string name="files_tab">Datoteke</string>
+    <string name="recent_files_tab">Nedavne datoteke</string>
+    <string name="usb">USB</string>
+    <string name="copyright">v %1$s
+\nAutorska prava © Fossify %2$d</string>
+    <string name="update_thank_you">Ažuriraj aplikaciju Fossify hvala na najnoviju verziju</string>
+    <string name="exoplayer_title">ExoPlayer (video player)</string>
+    <string name="sms_messenger_short">SMS Messenger</string>
+    <string name="faq_7_text_commons">Plaćanjima u potpunosti upravlja Google. Njihov sustav povremeno ima kvarove. Jednostavno izbrišite predmemoriju aplikacije Google Play i ponovo pokrenite uređaj. Nakon toga pokušajte ponovo preuzeti aplikaciju.</string>
+    <string name="faq_10_title_commons">Kupio/la sam aplikaciju, ali je ne mogu preuzeti na drugom uređaju.</string>
+    <string name="app_icon_color_warning">Oprez: Određeni pokretači možda neće ispravno rukovati prilagodbom ikone aplikacije. Ako ikona nestane, pokušaj pokrenuti aplikaciju putem Google Playa ili widgeta. Nakon pokretanja obnovi standardnu zelenu boju ikone #106D1F. U ekstremnim slučajevima može biti potrebno ponovo instalirati aplikaciju.</string>
+    <string name="shared_theme_note">Imaj na umu da iako koristiš Pro verziju aplikacije, još uvijek trebaš Fossify hvala iz tehničkih razloga. Potrebna je za sinkronizaciju boja.</string>
+    <string name="faq_10_text_commons">Pokušaj izbrisati predmemoriju aplikacije Google Play i ponovo pokrenuti uređaj. To je neka greška Google Playa, koja nije povezana sa samom aplikacijom.</string>
+    <string name="trial_start_description">Hvala što koristiš našu aplikaciju. Ovu otključanu verziju možeš koristiti <font color="#FFFFFF">%d dana</font>. Nakon što probno razdoblje završi, razmisli o nadogradnji na Pro verziju. Ona sadrži velik broj funkcija, moderan dizajn, bez oglasa i mnoga druga poboljšanja.
+\n
+\nMoraš je platiti samo jednom. Ako nisi zadovoljan/na, možeš je deinstalirati i dobiti povrat novca.
+\n
+\nNadamo se da će ti se svidjeti :)</string>
+    <string name="donate_short">Podrži nas kupnjom aplikacije &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify hvala&lt;/a&gt;. Time će se otključati sve funkcije aplikacije uključujući prilagođavanje boja.</string>
+    <string name="donate_new">Zdravo,&lt;br&gt;&lt;br&gt; nadamo se da uživate u aplikaciji. Ne sadrži oglase i ne prikupljamo vaše podatke. Podržite njen razvoj kupnjom &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify hvala&lt;/a&gt;. Time dobivate pristup svim funkcijama aplikacije uključujući prilagođavanje boja.&lt;br&gt;&lt;br&gt;Hvala!</string>
+    <string name="faq_2_text_commons">Da naravno. Možete širiti vijest o aplikacijama ili slati povratne informacije i ocjene. Također možete pomoći prevođenjem aplikacija na novi jezik ili aktualizirati postojeće prijevode. Vodič za prevođenje nalazi se na &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;ovoj web stranici&lt;/a&gt; ili nas kontaktirajte na &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; ako imate pitanja.</string>
+    <string name="contributors_label">Ovaj popis sadrži sve osobe koje su značajno pomogli bilo kojoj aplikaciji unutar paketa Fossify, ne samo ovoj. Prijevode obavljaju volonteri, javite nam ako i vi želite pomoći. Vodič za prevođenje nalazi se na &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;ovoj web stranici&lt;/a&gt; ili nas kontaktirajte na &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; ako imate pitanja. Hvala svim suradnicima i ostalim podržavateljima!</string>
+    <string name="features_locked">Ova je funkcija zaključana. Kupite &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify hvala&lt;/a&gt; za otključavanje cijele aplikacije.&lt;br&gt;&lt;br&gt;Radi se o jednokratnom plaćanju. Ako niste zadovoljni, možemo vam vratiti novac.</string>
 </resources>

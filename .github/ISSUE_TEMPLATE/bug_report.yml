@@ -14,7 +14,7 @@ body:
     attributes:
       label: "Checklist"
       options:
-        - label: "I can reproduce the bug with the latest version given [here](https://github.com/FossifyOrg/Commons/releases/latest)."
+        - label: "I can reproduce the bug with the latest version."
           required: true
         - label: "I made sure that there are **no existing issues** - [open](https://github.com/FossifyOrg/Commons/issues) or [closed](https://github.com/FossifyOrg/Commons/issues?q=is%3Aissue+is%3Aclosed) - to which I could contribute my information."
           required: true
