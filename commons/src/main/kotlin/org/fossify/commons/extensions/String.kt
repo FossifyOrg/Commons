@@ -211,6 +211,7 @@ fun String.highlightTextPart(textToHighlight: String, color: Int, highlightAll: 
     return spannableString
 }
 
+// TODO: Use KMP search algorithm
 fun String.searchMatches(textToHighlight: String): ArrayList<Int> {
     val indexes = arrayListOf<Int>()
     var indexOf = indexOf(textToHighlight, 0, true)
