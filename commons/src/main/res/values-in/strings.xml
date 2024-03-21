@@ -319,7 +319,7 @@
     <string name="stop_showing_hidden">Berhenti tampilkan media tersembunyi</string>
     <string name="maximum_share_reached">Anda tidak bisa membagikan konten sebanyak ini sekaligus</string>
     <string name="empty_and_disable_recycle_bin">Kosongkan dan nonaktifkan Keranjang Sampah</string>
-    <string name="undo">Urungkan</string>
+    <string name="undo">Batalkan</string>
     <string name="redo">Ulangi</string>
     <string name="print">Cetak</string>
     <string name="print_pro">Cetak (Pro)</string>
