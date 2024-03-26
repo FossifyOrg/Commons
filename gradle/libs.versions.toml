@@ -28,8 +28,8 @@ recyclerviewFastscroller = "5a95285b1f"
 rtlViewpager = "940f12724f"
 #Compose
 composeActivity = "1.8.2"
-compose = "1.6.3"
-composeCompiler = "1.5.10"
+compose = "1.6.4"
+composeCompiler = "1.5.11"
 composeMaterial3 = "1.2.1"
 #Glide
 glide = "4.16.0"
@@ -43,7 +43,7 @@ gson = "2.10.1"
 #jodaTime
 jodaTime = "2.12.5"
 #Gradle
-gradlePlugins-agp = "8.3.0"
+gradlePlugins-agp = "8.3.1"
 #build
 app-build-compileSDKVersion = "34"
 app-build-targetSDK = "34"
