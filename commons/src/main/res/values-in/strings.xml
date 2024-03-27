@@ -319,7 +319,7 @@
     <string name="stop_showing_hidden">Berhenti tampilkan media tersembunyi</string>
     <string name="maximum_share_reached">Anda tidak bisa membagikan konten sebanyak ini sekaligus</string>
     <string name="empty_and_disable_recycle_bin">Kosongkan dan nonaktifkan Keranjang Sampah</string>
-    <string name="undo">Urungkan</string>
+    <string name="undo">Batalkan</string>
     <string name="redo">Ulangi</string>
     <string name="print">Cetak</string>
     <string name="print_pro">Cetak (Pro)</string>
@@ -899,4 +899,5 @@
     <string name="unblock_contact">Batalkan blokir kontak</string>
     <string name="unblock_contact_success">Kontak batal diblokir</string>
     <string name="unblock_contact_fail">Tidak dapat membuka blokir kontak</string>
+    <string name="audio">Audio</string>
 </resources>
