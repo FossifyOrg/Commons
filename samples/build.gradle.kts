@@ -3,14 +3,16 @@ plugins {
     alias(libs.plugins.kotlinAndroid)
 }
 android {
+    namespace = "org.fossify.commons.samples"
+
     compileSdk = libs.versions.app.build.compileSDKVersion.get().toInt()
 
     defaultConfig {
-        applicationId = libs.versions.app.version.appId.get()
+        applicationId = "org.fossify.commons.samples"
         minSdk = libs.versions.app.build.minimumSDK.get().toInt()
         targetSdk = libs.versions.app.build.targetSDK.get().toInt()
-        versionName = libs.versions.app.version.versionName.get()
-        versionCode = libs.versions.app.version.versionCode.get().toInt()
+        versionCode = 1
+        versionName = "1.0.0"
         vectorDrawables.useSupportLibrary = true
     }
 
@@ -62,7 +64,6 @@ android {
     sourceSets {
         getByName("main").java.srcDirs("src/main/kotlin")
     }
-    namespace = "org.fossify.commons.samples"
 
     lint {
         disable.add("Instantiatable")
