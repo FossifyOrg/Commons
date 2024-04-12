@@ -80,7 +80,7 @@
     <string name="main_number">Principal</string>
     <string name="work_fax">Fax Comercial</string>
     <string name="home_fax">Fax Residencial</string>
-    <string name="no_phone_number_found">Nenhum número de telefone foi encontrado</string>
+    <string name="no_phone_number_found">Nenhum número de celular foi encontrado</string>
     <string name="change_view_type">Alterar modo de visualização</string>
     <string name="grid">Grade</string>
     <string name="grid_pro">Grade (Pro)</string>
@@ -933,7 +933,7 @@
     <string name="developer_description">Um grupo de aplicativos simples, open source, para Android com widgets personalizados, sem anúncios nem permissões desnecessárias.</string>
     <string name="audio">Áudio</string>
     <string name="start_week_on">Início da semana</string>
-    <string name="ok">Ok</string>
+    <string name="ok">OK</string>
     <string name="close">Fechar</string>
     <string name="error">Erro: %s</string>
     <string name="zero">Zero</string>
