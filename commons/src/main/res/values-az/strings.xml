@@ -468,4 +468,6 @@
     <string name="kotlin_title">Kotlin (proqramlaşdırma dili)</string>
     <string name="subsampling_title">Subsampling Scale Image View (yaxınlaşdırılan şəkillər)</string>
     <string name="glide_title">Glide (şəkil açma və keşləmə)</string>
+    <string name="search_groups">Qrupları axtar</string>
+    <string name="add_number_to_contact">Kontakta nömrə əlavə et</string>
 </resources>
