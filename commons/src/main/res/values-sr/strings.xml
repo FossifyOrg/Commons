@@ -12,7 +12,7 @@
     <string name="an_error_occurred">Дошло је до грешке: %s</string>
     <string name="open_with">Отвори са</string>
     <string name="edit_with">Измени са</string>
-    <string name="edit">Уредити</string>
+    <string name="edit">Уреди</string>
     <string name="no_app_found">Није пронађена одговарајућа апликација</string>
     <string name="no_browser_found">Није пронађен ниједан претраживач</string>
     <string name="no_email_client_found">Није пронађен ниједан клијент е-поште</string>

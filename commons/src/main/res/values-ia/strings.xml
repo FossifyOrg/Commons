@@ -147,4 +147,27 @@
     <string name="seven">Septe</string>
     <string name="eight">Octo</string>
     <string name="scanning">Scannante…</string>
+    <string name="no_app_found">Necun application valide trovate</string>
+    <string name="notes">Notas</string>
+    <string name="request_the_required_permissions">Demanda le permissiones requirite</string>
+    <string name="nine">Novem</string>
+    <string name="artist">Artista</string>
+    <string name="album">Album</string>
+    <string name="genre">Genere</string>
+    <string name="dismiss">Dimitter</string>
+    <string name="follow_us">Seque nos</string>
+    <string name="copyright">v %1$s
+\nCopyright © Fossify %2$d</string>
+    <string name="clock_short">Horologio</string>
+    <string name="contacts_short">Contactos</string>
+    <string name="file_manager_short">Gestor de files</string>
+    <string name="flashlight_short">Lanterna</string>
+    <string name="gallery_short">Galeria</string>
+    <string name="music_player_short">Reproductor de musica</string>
+    <string name="thank_you_short">Gratias</string>
+    <string name="voice_recorder_short">Registrator de voce</string>
+    <string name="keyboard_short">Claviero</string>
+    <string name="launcher_short">Lanceator</string>
+    <string name="notes_short">Notas</string>
+    <string name="frequently_asked_questions">Folio a questiones</string>
 </resources>
