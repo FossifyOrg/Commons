@@ -46,12 +46,12 @@
     <string name="pager">Peiriant galw</string>
     <string name="no_phone_number_found">Ni chanfuwyd rif ffôn</string>
     <plurals name="column_counts">
-        <item quantity="zero">%d column</item>
-        <item quantity="one">%d columns</item>
-        <item quantity="two">%d columns</item>
-        <item quantity="few">%d columns</item>
-        <item quantity="many">%d columns</item>
-        <item quantity="other">%d columns</item>
+        <item quantity="zero">%d colofnau</item>
+        <item quantity="one">%d colofn</item>
+        <item quantity="two">%d colofn</item>
+        <item quantity="few">%d colofn</item>
+        <item quantity="many">%d colofn</item>
+        <item quantity="other">%d colofn</item>
     </plurals>
     <plurals name="row_counts">
         <item quantity="zero">%d row</item>
@@ -598,12 +598,12 @@
     <string name="show_the_recycle_bin">Dangos y Bin Ailgylchu</string>
     <string name="hide_the_recycle_bin">Cuddio\'r Bin Ailgylchu</string>
     <plurals name="moving_items_into_bin">
-        <item quantity="zero">Moving %d item into the Recycle Bin</item>
-        <item quantity="one">Moving %d items into the Recycle Bin</item>
-        <item quantity="two">Moving %d items into the Recycle Bin</item>
-        <item quantity="few">Moving %d items into the Recycle Bin</item>
-        <item quantity="many">Moving %d items into the Recycle Bin</item>
-        <item quantity="other">Moving %d items into the Recycle Bin</item>
+        <item quantity="zero">Yn symud %d eitemau yn y Bin Ailgylchu</item>
+        <item quantity="one">Yn symud %d eitem yn y Bin Ailgylchu</item>
+        <item quantity="two">Yn symud %d eitem yn y Bin Ailgylchu</item>
+        <item quantity="few">Yn symud %d eitem yn y Bin Ailgylchu</item>
+        <item quantity="many">Yn symud %d eitem yn y Bin Ailgylchu</item>
+        <item quantity="other">Yn symud %d eitem yn y Bin Ailgylchu</item>
     </plurals>
     <string name="importing">Yn mewnforio…</string>
     <string name="exporting">Yn allforio…</string>
@@ -748,4 +748,12 @@
     </plurals>
     <string name="excluded">(wedi\'i allgáu)</string>
     <string name="edit">Golygu</string>
+    <string name="change_view_type">Newid math o olwg</string>
+    <string name="increase_column_count">Mwyhau nifer o golofnau</string>
+    <string name="reduce_column_count">Lleihau nifer o golofnau</string>
+    <string name="column_count">Nifer o golofnau</string>
+    <string name="portrait_column_count">Nifer o golofnau yn y modd darlun</string>
+    <string name="landscape_column_count">Nifer o golofnau yn y modd tirlun</string>
+    <string name="skip_the_recycle_bin">Neidio\'r Bin Ailgylchu, dileu\'r ffeiliau yn uniongyrchol</string>
+    <string name="open_the_recycle_bin">Agor y Bin Ailgylchu</string>
 </resources>
