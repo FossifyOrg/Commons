@@ -22,8 +22,7 @@
     <string name="copy_to_clipboard">复制到剪贴板</string>
     <string name="copy_number_to_clipboard">复制号码到剪贴板</string>
     <string name="value_copied_to_clipboard">数值已复制到剪贴板</string>
-    <string name="value_copied_to_clipboard_show">数值已复制到剪贴板：
-\n%s</string>
+    <string name="value_copied_to_clipboard_show">数值已复制到剪贴板： \n%s</string>
     <string name="dial_number">拨打电话号码</string>
     <string name="unknown">未知</string>
     <string name="always">总是</string>
@@ -196,13 +195,7 @@
     <string name="simple_renaming">简单重命名</string>
     <string name="pattern_renaming">格式</string>
     <string name="string_to_add">要添加的字符串</string>
-    <string name="rename_date_time_pattern">%Y - 年
-\n%M - 月
-\n%D - 日
-\n%h - 时
-\n%m - 分
-\n%s - 秒
-\n%i - 数字从 1 起计</string>
+    <string name="rename_date_time_pattern">%Y - 年 \n%M - 月 \n%D - 日 \n%h - 时 \n%m - 分 \n%s - 秒 \n%i - 数字从 1 起计</string>
     <string name="filename_without_txt">文件名 (不含 .txt)</string>
     <string name="filename_without_json">文件名 (不含 .json)</string>
     <string name="filename_without_zip">文件名 (不含 .zip)</string>
@@ -234,8 +227,7 @@
     <string name="could_not_create_folder">创建文件夹 %s 失败</string>
     <string name="could_not_create_file">创建文件 %s 失败</string>
     <string name="no_new_items">没有找到新的项目</string>
-    <string name="no_space">目标没有足够的可用空间。
-\n需要 %1$s，可用 %2$s</string>
+    <string name="no_space">目标没有足够的可用空间。 \n需要 %1$s，可用 %2$s</string>
     <string name="system_service_disabled">选择文件和文件夹的系统服务不可用</string>
     <string name="create_new">新建</string>
     <string name="folder">文件夹</string>
@@ -436,8 +428,7 @@
     <string name="please_enter_pin">请输入 PIN 码</string>
     <string name="wrong_pin">PIN 码错误</string>
     <string name="pin_must_be_4_digits_long">PIN 码至少需要 4 个数字</string>
-    <string name="too_many_incorrect_attempts">解锁失败次数已达上限。
-\n请在 %d 秒后重试。</string>
+    <string name="too_many_incorrect_attempts">解锁失败次数已达上限。 \n请在 %d 秒后重试。</string>
     <string name="repeat_pin">请再输入一次 PIN 码</string>
     <string name="pattern">图案</string>
     <string name="insert_pattern">绘制解锁图案</string>
@@ -558,10 +549,8 @@
     <plurals name="by_years">
         <item quantity="other">%d 年</item>
     </plurals>
-    <string name="alarm_goes_off_in">闹钟响起倒计时：
-\n%s</string>
-    <string name="reminder_triggers_in">提醒触发倒计时：
-\n%s</string>
+    <string name="alarm_goes_off_in">闹钟响起倒计时： \n%s</string>
+    <string name="reminder_triggers_in">提醒触发倒计时： \n%s</string>
     <string name="time_remaining">剩余时间：\n%s</string>
     <string name="alarm_warning">请在使用闹钟之前确保它能够正常工作。由于系统的省电功能的影响，闹钟有时会失灵。</string>
     <string name="reminder_warning">请在使用提醒之前确保它能够正常工作。请检查本设备的电池和通知设置，确保没有任何选项会屏蔽通知，并避免相关应用在后台被系统清理。</string>
@@ -682,14 +671,7 @@
     <string name="backups">备份</string>
     <string name="enable_automatic_backups">启用自动备份</string>
     <string name="manage_automatic_backups">管理自动备份</string>
-    <string name="date_time_pattern_info">你可以使用下列模式自动命名你的文件：
-\n
-\n%Y - 年
-\n%M - 月
-\n%D - 天
-\n%h - 小时
-\n%m - 分钟
-\n%s - 秒</string>
+    <string name="date_time_pattern_info">你可以使用下列模式自动命名你的文件： \n \n%Y - 年 \n%M - 月 \n%D - 天 \n%h - 小时 \n%m - 分钟 \n%s - 秒</string>
     <string name="usb_detected">检测到有 USB 设备连接到本设备。您需要授予额外的权限以确保文件能够正确显示。</string>
     <string name="confirm_usb_storage_access_text">请在下一个画面选择 USB 设备的根文件夹以授予访问权限</string>
     <string name="wrong_root_selected_usb">选择了错误的文件夹，请选择该 USB 设备的根文件夹</string>
@@ -745,47 +727,13 @@
     <string name="more_info">更多信息</string>
     <string name="upgrade">升级</string>
     <string name="upgrade_calendar">您必须通过导出/导入 .ics 文件来自行迁移本地存储的事件。您可以在主屏幕的菜单中找到导出/导入选项。</string>
-    <string name="upgraded_from_free_gallery">您好，
-\n
-\n本应用已从免费版升级为专业版。如果你对专业版感到满意，并且已经完成了设置和收藏项目的迁移，你将无需再次使用免费版。为了避免不慎启动免费版应用，或者造成本对话框反复出现，您可以卸载之前安装的免费版应用。
-\n
-\n感谢您的支持！</string>
-    <string name="upgraded_to_pro_gallery">您好，
-\n
-\n本应用已从免费版升级为专业版。如果你对专业版感到满意，并且已经完成了设置和收藏项目的迁移，你将无需再次使用免费版。为了避免不慎启动免费版应用，您可以卸载之前安装的免费版应用。
-\n
-\n感谢您的支持！</string>
-    <string name="upgraded_from_free">您好，
-\n
-\n本应用已从免费版升级为专业版。如果你对专业版感到满意，并且已经完成了数据的迁移，你将无需再次使用免费版。为了避免不慎启动免费版应用，或者造成本对话框反复出现，您可以卸载之前安装的免费版应用。
-\n
-\n感谢您的支持！</string>
-    <string name="upgraded_to_pro">您好，
-\n
-\n本应用已从免费版升级为专业版。如果你对专业版感到满意，并且已经完成了数据的迁移，你将无需再次使用免费版。为了避免不慎启动免费版应用，您可以卸载之前安装的免费版应用。
-\n
-\n感谢您的支持！</string>
-    <string name="upgraded_from_free_calendar">您好，
-\n
-\n本应用已从免费版升级为专业版。如果您想将免费版在本地存储的事件迁移到专业版，请在免费版中将事件手动导出为 .ics 文件，然后在专业版的顶部菜单中导入它们。
-\n
-\n如果你对专业版感到满意，你将无需再次使用免费版。为了避免不慎启动免费版应用，或者造成本对话框反复出现，您可以卸载之前安装的免费版应用。
-\n
-\n感谢您的支持！</string>
-    <string name="upgraded_from_free_contacts">您好，
-\n
-\n本应用已从免费版升级为专业版。如果您在“%s”中存储了联系人，请在免费版中将联系人手动导出为 .vcf 文件，然后在专业版的顶部菜单中导入它们。
-\n
-\n如果你对专业版感到满意，你将无需再次使用免费版。为了避免不慎启动免费版应用，或者造成本对话框反复出现，您可以卸载之前安装的免费版应用。
-\n
-\n感谢您的支持！</string>
-    <string name="upgraded_from_free_notes">您好，
-\n
-\n本应用已从免费版升级为专业版。如果您想要将免费版的笔记迁移到专业版，请在免费版中将笔记手动导出为文件，然后在专业版的顶部菜单中导入它们。
-\n
-\n如果你对专业版感到满意，你将无需再次使用免费版。为了避免不慎启动免费版应用，或者造成本对话框反复出现，您可以卸载之前安装的免费版应用。
-\n
-\n感谢您的支持！</string>
+    <string name="upgraded_from_free_gallery">您好， \n \n本应用已从免费版升级为专业版。如果你对专业版感到满意，并且已经完成了设置和收藏项目的迁移，你将无需再次使用免费版。为了避免不慎启动免费版应用，或者造成本对话框反复出现，您可以卸载之前安装的免费版应用。 \n \n感谢您的支持！</string>
+    <string name="upgraded_to_pro_gallery">您好， \n \n本应用已从免费版升级为专业版。如果你对专业版感到满意，并且已经完成了设置和收藏项目的迁移，你将无需再次使用免费版。为了避免不慎启动免费版应用，您可以卸载之前安装的免费版应用。 \n \n感谢您的支持！</string>
+    <string name="upgraded_from_free">您好， \n \n本应用已从免费版升级为专业版。如果你对专业版感到满意，并且已经完成了数据的迁移，你将无需再次使用免费版。为了避免不慎启动免费版应用，或者造成本对话框反复出现，您可以卸载之前安装的免费版应用。 \n \n感谢您的支持！</string>
+    <string name="upgraded_to_pro">您好， \n \n本应用已从免费版升级为专业版。如果你对专业版感到满意，并且已经完成了数据的迁移，你将无需再次使用免费版。为了避免不慎启动免费版应用，您可以卸载之前安装的免费版应用。 \n \n感谢您的支持！</string>
+    <string name="upgraded_from_free_calendar">您好， \n \n本应用已从免费版升级为专业版。如果您想将免费版在本地存储的事件迁移到专业版，请在免费版中将事件手动导出为 .ics 文件，然后在专业版的顶部菜单中导入它们。 \n \n如果你对专业版感到满意，你将无需再次使用免费版。为了避免不慎启动免费版应用，或者造成本对话框反复出现，您可以卸载之前安装的免费版应用。 \n \n感谢您的支持！</string>
+    <string name="upgraded_from_free_contacts">您好， \n \n本应用已从免费版升级为专业版。如果您在“%s”中存储了联系人，请在免费版中将联系人手动导出为 .vcf 文件，然后在专业版的顶部菜单中导入它们。 \n \n如果你对专业版感到满意，你将无需再次使用免费版。为了避免不慎启动免费版应用，或者造成本对话框反复出现，您可以卸载之前安装的免费版应用。 \n \n感谢您的支持！</string>
+    <string name="upgraded_from_free_notes">您好， \n \n本应用已从免费版升级为专业版。如果您想要将免费版的笔记迁移到专业版，请在免费版中将笔记手动导出为文件，然后在专业版的顶部菜单中导入它们。 \n \n如果你对专业版感到满意，你将无需再次使用免费版。为了避免不慎启动免费版应用，或者造成本对话框反复出现，您可以卸载之前安装的免费版应用。 \n \n感谢您的支持！</string>
     <string name="about">关于</string>
     <string name="website">网站</string>
     <string name="website_label">源代码仓库</string>
@@ -823,15 +771,7 @@
     <string name="make_sure_upgrade">请注意：作者已经不再开发本应用的免费版。请购买专业版以获取新的改进。</string>
     <string name="read_it">阅读</string>
     <string name="read_faq">阅读常见问题</string>
-    <string name="rate_us_prompt">您好，
-\n
-\n您已经使用本应用一段时间了，非常感谢您的选择。
-\n
-\n如果您有时间并且乐意的话，请在Google Play上为我们评分。这对我们很有帮助。
-\n
-\n无论您是否评分，本消息将不再显示。
-\n
-\n非常感谢！</string>
+    <string name="rate_us_prompt">您好， \n \n您已经使用本应用一段时间了，非常感谢您的选择。 \n \n如果您有时间并且乐意的话，请在Google Play上为我们评分。这对我们很有帮助。 \n \n无论您是否评分，本消息将不再显示。 \n \n非常感谢！</string>
     <string name="rate_our_app">请为本应用评分 :)</string>
     <string name="thank_you">非常感谢</string>
     <string name="widget_locked_pro">微件已被锁定。\n请升级到专业版解锁。</string>
@@ -959,11 +899,7 @@
     <string name="unlock_for_one_final_day">继续最后一天的试用</string>
     <string name="welcome_to_app_name">欢迎使用 %s！</string>
     <string name="trial_start_description">感谢您使用我们开发的应用。您可以免费试用此解锁版应用 <font color="#FFFFFF">%d 天</font>。试用期结束后请考虑升级到专业版。专业版有大量新功能，更现代化的设计，无广告，以及大量其他改进。 \n \n您只需为专业版付款一次即可终生使用。如果您不满意，可以随时卸载并得到退款。 \n \n祝您使用愉快 :)</string>
-    <string name="trial_end_description">请升级到专业版以享受本应用的全部功能。
-\n
-\n您只需为专业版付款一次即可终生使用。如果您不满意，可以随时卸载并获得退款。
-\n
-\n祝您使用愉快 :)</string>
+    <string name="trial_end_description">请升级到专业版以享受本应用的全部功能。 \n \n您只需为专业版付款一次即可终生使用。如果您不满意，可以随时卸载并获得退款。 \n \n祝您使用愉快 :)</string>
     <plurals name="trial_expires_days">
         <item quantity="other">试用期将在 %d 天后结束。</item>
     </plurals>
