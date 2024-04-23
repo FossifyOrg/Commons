@@ -756,4 +756,17 @@
     <string name="clear_cache">清除快取</string>
     <string name="privacy_policy">隱私政策</string>
     <string name="translation_chinese_hk">正體中文（香港）</string>
+    <string name="block_confirmation">您確定要封鎖「%s」嗎？</string>
+    <string name="block_not_stored_calls">封鎖未儲存聯絡人的來電</string>
+    <string name="block_hidden_calls">封鎖隱藏號碼的來電</string>
+    <string name="block_not_stored_messages">封鎖未儲存聯絡人的簡訊</string>
+    <string name="unblock_contact_success">聯絡人已解除封鎖</string>
+    <string name="unblock_contact_fail">聯絡人無法解除封鎖</string>
+    <string name="block_contact">封鎖聯絡人</string>
+    <string name="block_hidden_messages">封鎖隱藏號碼的簡訊</string>
+    <string name="add_blocked_number_helper_text">請輸入一個號碼或模式（例如 *12345*、+1*8888）以封鎖所有與此模式匹配的來電和簡訊。</string>
+    <string name="must_make_default_caller_id_app">未獲得來電者識別權限，無法封鎖不明號碼。</string>
+    <string name="block_contact_success">聯絡人已被封鎖</string>
+    <string name="block_contact_fail">聯絡人無法被封鎖</string>
+    <string name="unblock_contact">解除封鎖聯絡人</string>
 </resources>
