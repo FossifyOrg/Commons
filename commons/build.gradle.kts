@@ -7,7 +7,12 @@ plugins {
     `maven-publish`
 }
 
+group = "org.fossify"
+version = "1.0.0"
+
 android {
+    namespace = "org.fossify.commons"
+
     compileSdk = libs.versions.app.build.compileSDKVersion.get().toInt()
 
     defaultConfig {
@@ -59,14 +64,10 @@ android {
     sourceSets {
         getByName("main").java.srcDirs("src/main/kotlin")
     }
-    namespace = libs.versions.app.version.groupId.get()
 }
 
 publishing.publications {
     create<MavenPublication>("release") {
-        groupId = libs.versions.app.version.groupId.get()
-        artifactId = name
-        version = libs.versions.app.version.versionName.get()
         afterEvaluate {
             from(components["release"])
         }
