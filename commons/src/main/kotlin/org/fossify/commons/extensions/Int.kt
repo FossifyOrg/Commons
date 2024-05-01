@@ -54,17 +54,26 @@ fun Int.formatSize(): String {
     return "${DecimalFormat("#,##0.#").format(this / Math.pow(1024.0, digitGroups.toDouble()))} ${units[digitGroups]}"
 }
 
-@Deprecated("Broken due to the Year 2038 problem. Use Long.formatDate() instead (but note that it uses milliseconds, not seconds).", ReplaceWith("(this * 1000L).formatDate(context, dateFormat, timeFormat)"))
+@Deprecated(
+    message = "Broken due to the Year 2038 problem. Use Long.formatDate() instead (but note that it uses milliseconds, not seconds).",
+    replaceWith = ReplaceWith("(this * 1000L).formatDate(context, dateFormat, timeFormat)")
+)
 fun Int.formatDate(context: Context, dateFormat: String? = null, timeFormat: String? = null): String {
     return (this * 1000L).formatDate(context, dateFormat, timeFormat)
 }
 
-@Deprecated("Broken due to the Year 2038 problem. Use Long.formatDateOrTime() instead (but note that it uses milliseconds, not seconds).", ReplaceWith("(this * 1000L).formatDateOrTime(context, hideTimeAtOtherDays, showYearEvenIfCurrent)"))
+@Deprecated(
+    message = "Broken due to the Year 2038 problem. Use Long.formatDateOrTime() instead (but note that it uses milliseconds, not seconds).",
+    replaceWith = ReplaceWith("(this * 1000L).formatDateOrTime(context, hideTimeAtOtherDays, showYearEvenIfCurrent)")
+)
 fun Int.formatDateOrTime(context: Context, hideTimeAtOtherDays: Boolean, showYearEvenIfCurrent: Boolean): String {
     return (this * 1000L).formatDateOrTime(context, hideTimeAtOtherDays, showYearEvenIfCurrent)
 }
 
-@Deprecated("Broken due to the Year 2038 problem. Use Long.isThisYear() instead (but note that it uses milliseconds, not seconds).", ReplaceWith("(this * 1000L).isThisYear()"))
+@Deprecated(
+    message = "Broken due to the Year 2038 problem. Use Long.isThisYear() instead (but note that it uses milliseconds, not seconds).",
+    replaceWith = ReplaceWith("(this * 1000L).isThisYear()")
+)
 fun Int.isThisYear(): Boolean {
     return (this * 1000L).isThisYear()
 }
