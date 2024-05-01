@@ -27,20 +27,30 @@ fun Long.formatDate(context: Context, dateFormat: String? = null, timeFormat: St
     return DateFormat.format("$useDateFormat, $useTimeFormat", cal).toString()
 }
 
-// if the given date is today, we show only the time. Else we show the date and optionally the time too
-fun Long.formatDateOrTime(context: Context, hideTimeAtOtherDays: Boolean, showYearEvenIfCurrent: Boolean): String {
+fun Long.formatTime(context: Context): String {
+    val cal = Calendar.getInstance(Locale.ENGLISH)
+    cal.timeInMillis = this
+    return DateFormat.format(context.getTimeFormat(), cal).toString()
+}
+
+fun Long.formatDateOrTime(
+    context: Context,
+    hideTimeOnOtherDays: Boolean,
+    showCurrentYear: Boolean,
+    hideTodaysDate: Boolean = true,
+): String {
     val cal = Calendar.getInstance(Locale.ENGLISH)
     cal.timeInMillis = this
 
-    return if (DateUtils.isToday(this)) {
+    return if (hideTodaysDate && DateUtils.isToday(this)) {
         DateFormat.format(context.getTimeFormat(), cal).toString()
     } else {
         var format = context.baseConfig.dateFormat
-        if (!showYearEvenIfCurrent && isThisYear()) {
+        if (!showCurrentYear && isThisYear()) {
             format = format.replace("y", "").trim().trim('-').trim('.').trim('/')
         }
 
-        if (!hideTimeAtOtherDays) {
+        if (!hideTimeOnOtherDays) {
             format += ", ${context.getTimeFormat()}"
         }
 
