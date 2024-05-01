@@ -932,4 +932,15 @@
     <string name="copyright">v %1$s
 \nCopyright © Fossify %2$d</string>
     <string name="notification_sound">Jakinarazpen soinua</string>
+    <string name="pager">Bilagailua</string>
+    <string name="purchase_simple_thank_you">Erosi Fossify Thank You</string>
+    <string name="update_thank_you">Eguneratu Fossify Eskerrik Asko azken bertsiora</string>
+    <string name="support">Laguntza</string>
+    <string name="help_us">Lagundu iezaguzu</string>
+    <string name="social">Soziala</string>
+    <string name="other">Beste bat</string>
+    <string name="version_placeholder">%s bertsioa</string>
+    <string name="donate_new">Kaixo,&lt;br&gt;&lt;br&gt;aplikazioaz gozatzea espero duzu. Ez dauka iragarkirik eta ez ditugu zure datuak biltzen ari. Mesedez, lagundu haren garapena &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Eskerrik asko erosiz. Zuk&lt;/a&gt;. Gainera, aplikazioaren eginbide guztiak desblokeatuta izango dituzu koloreen pertsonalizazioa barne.&lt;br&gt;&lt;br&gt;Eskerrik asko!</string>
+    <string name="donate_please">Kaixo,&lt;br&gt;&lt;br&gt; aplikazioaz gozatzea espero dugu. Ez dauka iragarkirik. Mesedez, lagundu bere garapena &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Eskerrik Asko&lt;/a&gt; aplikazioa erosiz. elkarrizketa-koadro hau berriro agertzea ere eragotziko du.&lt;br&gt;&lt;br&gt; Eskerrik asko!</string>
+    <string name="donate_short">Lagundu iezaguzu &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Eskerrik asko&lt;/a&gt; erosiz, aplikazioen eginbide guztiak ere desblokeatuko ditu kolorea barne. pertsonalizazioa.</string>
 </resources>

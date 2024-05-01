@@ -279,6 +279,15 @@ fun String.getNameLetter() = normalizeString().toCharArray().getOrNull(0)?.toStr
 
 fun String.normalizePhoneNumber() = PhoneNumberUtils.normalizeNumber(this)
 
+fun String.formatPhoneNumber(minimumLength: Int = 4): String {
+    val country = Locale.getDefault().country
+    return if (this.length >= minimumLength) {
+        PhoneNumberUtils.formatNumber(this, country).toString()
+    } else {
+        this
+    }
+}
+
 fun String.highlightTextFromNumbers(textToHighlight: String, primaryColor: Int): SpannableString {
     val spannableString = SpannableString(this)
     val digits = PhoneNumberUtils.convertKeypadLettersToDigits(this)

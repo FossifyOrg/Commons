@@ -56,3 +56,9 @@ fun Long.isThisYear(): Boolean {
 
     return (thenYear == time.year)
 }
+
+fun Long.toDayCode(format: String = "ddMMyy"): String {
+    val cal = Calendar.getInstance(Locale.ENGLISH)
+    cal.timeInMillis = this
+    return DateFormat.format(format, cal).toString()
+}
