@@ -44,7 +44,7 @@
     <string name="no_contacts_found">Keine Kontakte gefunden</string>
     <string name="request_the_required_permissions">Benötigte Berechtigungen anfordern</string>
     <string name="no_access_to_contacts">Die App konnte nicht auf deine Kontakte zugreifen</string>
-    <string name="no_phone_call_permission">Die App hat nicht die Berechtigung, Telefonanrufe zu tätigen, bitte gewähre sie in den Geräteeinstellungen</string>
+    <string name="no_phone_call_permission">Die App hat nicht die Berechtigung, Telefonanrufe zu tätigen, bitte erteile sie in den Geräteeinstellungen</string>
     <string name="insert_text_here">Text hier einfügen</string>
     <string name="call_person">%s anrufen</string>
     <string name="confirm_calling_person">Anruf bestätigen %s</string>
@@ -258,7 +258,7 @@
     <string name="select_file">Datei auswählen</string>
     <string name="confirm_storage_access_title">Bitte Zugriff auf externen Speicher bestätigen</string>
     <string name="confirm_folder_access_title">Ordnerzugriff bestätigen</string>
-    <string name="confirm_storage_access_text">Bitte am nächsten Bildschirm das Hauptverzeichnis der SD-Karte auswählen, um Schreibzugriff zu erlauben</string>
+    <string name="confirm_storage_access_text">Bitte am nächsten Bildschirm das Hauptverzeichnis der SD-Karte auswählen, um Schreibzugriff zu gewähren</string>
     <string name="confirm_storage_access_text_sd">Wenn die SD-Karte nicht angezeigt wird, Folgendes versuchen</string>
     <string name="confirm_storage_access_android_text">Bitte am unteren Rand des nächsten Bildschirms der App durch Drücken auf „Diesen Ordner verwenden“ den Zugriff auf den ausgewählten Speicher gewähren.</string>
     <string name="confirm_storage_access_android_text_specific">Bitte auf dem nächsten Bildschirm durch Drücken auf „<b>Diesen Ordner verwenden</b>“ am unteren Bildschirmrand den Zugriff auf „<b>%s</b>“ gewähren.</string>
@@ -718,7 +718,7 @@
 \n%h – Stunde
 \n%m – Minute
 \n%s – Sekunde</string>
-    <string name="usb_detected">Es sieht so aus, als hättest du ein USB-Gerät an dein Gerät angeschlossen. Du musst zusätzliche Berechtigungen gewähren, damit die Dateien korrekt angezeigt werden.</string>
+    <string name="usb_detected">Es sieht so aus, als hättest du ein USB-Gerät an dein Gerät angeschlossen. Du musst zusätzliche Berechtigungen erteilen, damit die Dateien korrekt angezeigt werden.</string>
     <string name="confirm_usb_storage_access_text">Bitte das Hauptverzeichnis des USB-Geräts auf der folgenden Seite wählen, um Zugriff zu gewähren</string>
     <string name="wrong_root_selected_usb">Falscher Ordner gewählt, bitte das Hauptverzeichnis des USB-Geräts wählen</string>
     <string name="january">Januar</string>
