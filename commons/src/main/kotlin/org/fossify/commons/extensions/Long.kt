@@ -23,3 +23,9 @@ fun Long.formatDate(context: Context, dateFormat: String? = null, timeFormat: St
     cal.timeInMillis = this
     return DateFormat.format("$useDateFormat, $useTimeFormat", cal).toString()
 }
+
+fun Long.toDayCode(format: String = "ddMMyy"): String {
+    val cal = Calendar.getInstance(Locale.ENGLISH)
+    cal.timeInMillis = this
+    return DateFormat.format(format, cal).toString()
+}
