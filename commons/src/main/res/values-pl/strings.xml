@@ -1158,4 +1158,7 @@
     <string name="saturday_letter">S</string>
     <string name="launcher_short">Launcher</string>
     <string name="why_upgrade_pro_version">Pro</string>
+    <string name="translation_esperanto">esperanto</string>
+    <string name="translation_chuvash">czuwaski</string>
+    <string name="translation_gujarati">gudźarati</string>
 </resources>
