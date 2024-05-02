@@ -1020,4 +1020,11 @@
     <string name="features_locked">Deze functie is vergrendeld. Overweeg het aanschaffen van &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Bedankje&lt;/a&gt; om alle functies in deze app te kunnen gebruiken.&lt;br&gt;&lt;br&gt;Dit is een eenmalige aanschaf met een niet-goed-geld-teruggarantie.</string>
     <string name="launcher_short">Launcher</string>
     <string name="faq_6_text_commons">Dit probleem doet zich voor wanneer je launcher het aanpassen van pictogrammen niet volledig ondersteunt. Probeer de app te starten via Google Play of een widget, indien mogelijk. Herstel na het starten de standaard groene icoonkleur #106D1F. In extreme gevallen kan het nodig zijn om de app opnieuw te installeren.</string>
+    <string name="translation_esperanto">Esperanto</string>
+    <string name="translation_chuvash">Chuvash</string>
+    <string name="translation_hindi">Hindi</string>
+    <string name="translation_tamil">Tamil</string>
+    <string name="translation_gujarati">Gujarati</string>
+    <string name="use_english_language">Use English language</string>
+    <string name="translation_welsh">Welsh</string>
 </resources>
