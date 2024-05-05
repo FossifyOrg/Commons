@@ -15,6 +15,7 @@
         <item name="colorControlHighlight">@color/activated_item_foreground</item>
         <item name="bottomSheetDialogTheme">@style/BottomSheetDialogTheme</item>
         <item name="android:actionModeCloseDrawable">@drawable/ic_arrow_left_vector</item>
+        <item name="actionModeStyle">@style/AppCompat.ActionMode</item>
         <item name="android:forceDarkAllowed">false</item>
         <item name="windowActionModeOverlay">true</item>    <!-- replace casual top menu with contextual menu after long pressing an item -->
         <item name="android:actionOverflowButtonStyle">@style/ActionMenuOverflowIcon</item>
@@ -49,7 +50,7 @@
         <item name="actionOverflowMenuStyle">@style/TopPopupMenuYou</item>
         <item name="actionBarPopupTheme">@style/TopPopupMenuTextYou</item>
         <item name="actionBarStyle">@style/AppTheme.ActionBar</item>
-        <item name="actionModeStyle">@style/AppTheme.ActionMode</item>
+        <item name="actionModeStyle">@style/AppTheme.ActionModeYou</item>
         <item name="bottomSheetDialogTheme">@style/AppTheme.Material3.BottomSheetDialogTheme</item>
         <item name="android:forceDarkAllowed">false</item>
         <item name="materialAlertDialogTheme">@style/ThemeOverlay.App.MaterialAlertDialog</item>
@@ -77,7 +78,7 @@
         <item name="actionBarPopupTheme">@style/TopPopupMenuTextYou</item>
         <item name="actionBarStyle">@style/AppTheme.ActionBar</item>
         <item name="bottomSheetDialogTheme">@style/AppTheme.Material3.BottomSheetDialogTheme</item>
-        <item name="actionModeStyle">@style/AppTheme.ActionMode</item>
+        <item name="actionModeStyle">@style/AppTheme.ActionModeYou</item>
         <item name="materialAlertDialogTheme">@style/ThemeOverlay.App.MaterialAlertDialog</item>
         <item name="windowActionModeOverlay">true</item>
         <item name="android:actionOverflowButtonStyle">@style/ActionMenuOverflowIcon</item>
@@ -132,7 +133,7 @@
     </style>
 
     <!-- contextual action mode -->
-    <style name="AppTheme.ActionMode" parent="@style/Widget.AppCompat.ActionMode">
+    <style name="AppTheme.ActionModeYou" parent="@style/Widget.Material3.ActionMode">
         <item name="android:outlineProvider">none</item>
         <item name="background">@color/you_contextual_status_bar_color</item>
         <item name="actionOverflowButtonStyle">@style/TopPopupMenuYou</item>
@@ -302,10 +303,9 @@
         <item name="android:gravity">center_horizontal</item>
     </style>
 
-    <style name="Base.Widget.AppCompat.ActionMode" parent="">
+    <style name="AppCompat.ActionMode" parent="@style/Widget.Material3.ActionMode">
         <item name="background">@drawable/actionmenu_background</item>
         <item name="backgroundSplit">?attr/actionModeSplitBackground</item>
-        <item name="height">?attr/actionBarSize</item>
         <item name="titleTextStyle">@style/TextAppearance.AppCompat.Widget.ActionMode.Title</item>
         <item name="subtitleTextStyle">@style/TextAppearance.AppCompat.Widget.ActionMode.Subtitle</item>
         <item name="closeItemLayout">@layout/abc_action_mode_close_item_material</item>

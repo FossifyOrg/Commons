@@ -1,6 +1,7 @@
 package org.fossify.commons.activities
 
 import android.animation.ArgbEvaluator
+import android.animation.ObjectAnimator
 import android.animation.ValueAnimator
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -33,6 +34,7 @@ import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import androidx.coordinatorlayout.widget.CoordinatorLayout
+import androidx.core.animation.doOnEnd
 import androidx.core.app.ActivityCompat
 import androidx.core.util.Pair
 import androidx.core.view.ScrollingView
@@ -186,6 +188,19 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
             window.decorView.systemUiVisibility = window.decorView.systemUiVisibility.addBit(View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR)
         } else {
             window.decorView.systemUiVisibility = window.decorView.systemUiVisibility.removeBit(View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR)
+        }
+    }
+
+    fun animateStatusBarColor(colorTo: Int, colorFrom: Int = window.statusBarColor, duration: Long = 300L) {
+        with(ObjectAnimator.ofInt(colorFrom, colorTo)) {
+            setEvaluator(ArgbEvaluator())
+            setDuration(duration)
+            addUpdateListener {
+                window.statusBarColor = it.animatedValue.toInt()
+            }
+
+            doOnEnd { updateStatusbarColor(window.statusBarColor) }
+            start()
         }
     }
 
@@ -349,7 +364,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
         toolbar: Toolbar,
         toolbarNavigationIcon: NavigationIcon = NavigationIcon.None,
         statusBarColor: Int = getRequiredStatusBarColor(),
-        searchMenuItem: MenuItem? = null
+        searchMenuItem: MenuItem? = null,
     ) {
         val contrastColor = statusBarColor.getContrastColor()
         if (toolbarNavigationIcon != NavigationIcon.None) {
@@ -859,7 +874,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
 
     fun copyMoveFilesTo(
         fileDirItems: ArrayList<FileDirItem>, source: String, destination: String, isCopyOperation: Boolean, copyPhotoVideoOnly: Boolean,
-        copyHidden: Boolean, callback: (destinationPath: String) -> Unit
+        copyHidden: Boolean, callback: (destinationPath: String) -> Unit,
     ) {
         if (source == destination) {
             toast(R.string.source_and_destination_same)
@@ -980,7 +995,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
         destinationPath: String,
         isCopyOperation: Boolean,
         copyPhotoVideoOnly: Boolean,
-        copyHidden: Boolean
+        copyHidden: Boolean,
     ) {
         val availableSpace = destinationPath.getAvailableStorageB()
         val sumToCopy = files.sumByLong { it.getProperSize(applicationContext, copyHidden) }
@@ -1004,7 +1019,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
 
     fun checkConflicts(
         files: ArrayList<FileDirItem>, destinationPath: String, index: Int, conflictResolutions: LinkedHashMap<String, Int>,
-        callback: (resolutions: LinkedHashMap<String, Int>) -> Unit
+        callback: (resolutions: LinkedHashMap<String, Int>) -> Unit,
     ) {
         if (index == files.size) {
             callback(conflictResolutions)
