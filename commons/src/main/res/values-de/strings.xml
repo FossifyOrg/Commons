@@ -1077,4 +1077,7 @@
     <string name="features_locked">Diese Funktion ist gesperrt, bitte kaufe &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; um die App komplett freizuschalten. Dies ist eine einmalige Zahlung und wenn du nicht zufrieden bist, wird dir dein Geld zurückerstattet.</string>
     <string name="faq_6_text_commons">Dieses Problem tritt auf, wenn dein Launcher das Anpassen der Symbole nicht vollständig unterstützt. Versuche, die App über Google Play oder ein Widget zu starten, falls dies möglich ist. Stelle nach dem Start die standardmäßige grüne Symbolfarbe #106D1F wieder her. In extremen Fällen kann eine Neuinstallation der App erforderlich sein.</string>
     <string name="contributors_label">Diese Liste enthält alle, die bei einer App innerhalb der Fossify-Suite merklich mitgeholfen haben, nicht nur bei dieser. Die Übersetzungen werden von Freiwilligen erledigt. Sag uns Bescheid, wenn auch du helfen willst. Die Anleitung zum Übersetzen findest du auf &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;dieser Website&lt;/a&gt;, oder kontaktiere uns einfach unter &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt;, wenn du Fragen hast. Vielen Dank an alle Mitwirkenden und sonstigen Unterstützer!</string>
+    <string name="translation_esperanto">Esperanto</string>
+    <string name="translation_chuvash">Tschuwaschisch</string>
+    <string name="translation_gujarati">Gujarati</string>
 </resources>
