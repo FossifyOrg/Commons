@@ -1141,4 +1141,10 @@
     <string name="translation_chuvash">Chuvash</string>
     <string name="translation_esperanto">Esperanto</string>
     <string name="translation_gujarati">Gujarati</string>
+    <string name="donate_to_fossify">Donar a Fossify</string>
+    <string name="platforms">Plataformas</string>
+    <string name="little_to_no_fee">Poca o ninguna comisión</string>
+    <string name="fee_up_to_pct">Hasta %1$d%% de comisión</string>
+    <string name="cryptocurrency">Criptomonedas</string>
+    <string name="format_phone_numbers">Formato de los números de teléfono</string>
 </resources>
