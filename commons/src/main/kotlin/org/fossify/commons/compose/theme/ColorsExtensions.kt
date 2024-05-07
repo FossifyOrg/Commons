@@ -11,10 +11,10 @@ val disabledTextColor @Composable get() = if (isInDarkThemeOrSurfaceIsNotLitWell
 @get:ReadOnlyComposable
 val textSubTitleColor
     @Composable get() = if (isInDarkThemeOrSurfaceIsNotLitWell()) {
-        Color.White.copy(0.5f)
+        Color.White.copy(0.6f)
     } else {
         Color.Black.copy(
-            0.5f,
+            0.6f,
         )
     }
 
