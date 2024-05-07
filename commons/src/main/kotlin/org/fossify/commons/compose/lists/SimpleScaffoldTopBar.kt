@@ -175,13 +175,13 @@ fun SimpleBackIcon(iconColor: Color?) {
     if (iconColor == null) {
         Icon(
             imageVector = Icons.AutoMirrored.Filled.ArrowBack, contentDescription = stringResource(id = R.string.back),
-            modifier = Modifier.padding(SimpleTheme.dimens.padding.small)
+            modifier = Modifier.padding(SimpleTheme.dimens.padding.medium)
         )
     } else {
         Icon(
             imageVector = Icons.AutoMirrored.Filled.ArrowBack, contentDescription = stringResource(id = R.string.back),
             tint = iconColor,
-            modifier = Modifier.padding(SimpleTheme.dimens.padding.small)
+            modifier = Modifier.padding(SimpleTheme.dimens.padding.medium)
         )
     }
 }
