@@ -110,7 +110,7 @@ class AboutActivity : ComponentActivity() {
     @Composable
     private fun showWebsiteAndFullVersion(
         resources: Resources,
-        showExternalLinks: Boolean
+        showExternalLinks: Boolean,
     ): Pair<Boolean, String> {
         val showWebsite = remember { resources.getBoolean(R.bool.show_donate_in_about) && !showExternalLinks }
         var version = intent.getStringExtra(APP_VERSION_NAME) ?: ""
@@ -170,7 +170,7 @@ class AboutActivity : ComponentActivity() {
         }
 
     private fun onEmailClick(
-        showConfirmationAdvancedDialog: () -> Unit
+        showConfirmationAdvancedDialog: () -> Unit,
     ) {
         if (intent.getBooleanExtra(SHOW_FAQ_BEFORE_MAIL, false) && !baseConfig.wasBeforeAskingShown) {
             baseConfig.wasBeforeAskingShown = true
@@ -228,7 +228,7 @@ class AboutActivity : ComponentActivity() {
 
     private fun onRateUsClick(
         showConfirmationAdvancedDialog: () -> Unit,
-        showRateStarsDialog: () -> Unit
+        showRateStarsDialog: () -> Unit,
     ) {
         if (baseConfig.wasBeforeRateShown) {
             launchRateUsPrompt(showRateStarsDialog)
@@ -239,7 +239,7 @@ class AboutActivity : ComponentActivity() {
     }
 
     private fun launchRateUsPrompt(
-        showRateStarsDialog: () -> Unit
+        showRateStarsDialog: () -> Unit,
     ) {
         if (baseConfig.wasAppRated) {
             redirectToRateUs()
@@ -266,7 +266,7 @@ class AboutActivity : ComponentActivity() {
 
 
     private fun onDonateClick() {
-        launchViewIntent(getString(R.string.donate_url))
+        startActivity(Intent(applicationContext, DonationActivity::class.java))
     }
 
     private fun onGithubClick() {

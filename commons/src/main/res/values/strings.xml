@@ -975,6 +975,13 @@
         ]]>
     </string>
 
+    <!-- Donations -->
+    <string name="donate_to_fossify">Donate to Fossify</string>
+    <string name="platforms">Platforms</string>
+    <string name="little_to_no_fee">Little to no fee</string>
+    <string name="fee_up_to_pct">Up to %1$d%% fee</string>
+    <string name="cryptocurrency">Cryptocurrency</string>
+
     <!-- FAQ -->
     <string name="frequently_asked_questions">Frequently asked questions</string>
     <string name="before_asking_question">Before you ask a question, please first read the</string>

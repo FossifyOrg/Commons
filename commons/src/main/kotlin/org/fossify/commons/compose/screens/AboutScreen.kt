@@ -63,8 +63,8 @@ internal fun HelpUsSection(
         if (showDonate) {
             TwoLinerTextItem(
                 click = onDonateClick,
-                text = stringResource(id = R.string.donate),
-                icon = R.drawable.ic_dollar_vector
+                text = stringResource(id = R.string.donate_to_fossify),
+                icon = R.drawable.ic_donate_vector
             )
         }
         SettingsHorizontalDivider()
@@ -126,7 +126,7 @@ internal fun OtherSection(
 internal fun AboutSection(
     setupFAQ: Boolean,
     onFAQClick: () -> Unit,
-    onEmailClick: () -> Unit
+    onEmailClick: () -> Unit,
 ) {
     SettingsGroup(title = {
         SettingsTitleTextComponent(text = stringResource(id = R.string.support), modifier = startingTitlePadding)
@@ -151,7 +151,7 @@ internal fun AboutSection(
 internal fun SocialSection(
     onGithubClick: () -> Unit,
     onRedditClick: () -> Unit,
-    onTelegramClick: () -> Unit
+    onTelegramClick: () -> Unit,
 ) {
     SettingsGroup(title = {
         SettingsTitleTextComponent(text = stringResource(id = R.string.social), modifier = startingTitlePadding)
@@ -181,7 +181,7 @@ internal fun SocialText(
     text: String,
     icon: Int,
     tint: Color? = null,
-    click: () -> Unit
+    click: () -> Unit,
 ) {
     SettingsListItem(
         click = click,
