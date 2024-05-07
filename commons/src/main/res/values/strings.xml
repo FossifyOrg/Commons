@@ -728,6 +728,7 @@
     <string name="start_name_with_surname">Start name with surname</string>
     <string name="clear_cache">Clear cache</string>
     <string name="show_call_confirmation_dialog">Show a call confirmation dialog before initiating a call</string>
+    <string name="format_phone_numbers">Format phone numbers</string>
 
     <!-- Setting sections -->
     <string name="visibility">Visibility</string>
