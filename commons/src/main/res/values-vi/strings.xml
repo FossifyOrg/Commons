@@ -98,9 +98,9 @@
     <string name="import_blocked_numbers">Nhập số bị chặn</string>
     <string name="must_make_default_dialer">Bạn cần phải đặt ứng dụng này thành ứng dụng quay số mặc định để có thể chặn số điện thoại.</string>
     <string name="block_confirmation">Bạn có chắc là muốn chặn \"%s\"\?</string>
-    <string name="block_not_stored_calls">Chặn cuộc gọi từ liên hệ không có trong danh bạ lưu trữ</string>
+    <string name="block_unknown_calls">Chặn cuộc gọi từ liên hệ không có trong danh bạ lưu trữ</string>
     <string name="block_hidden_calls">Chặn cuộc gọi từ số ẩn</string>
-    <string name="block_not_stored_messages">Chặn tin nhắn từ số không có trong danh bạ lưu trữ</string>
+    <string name="block_unknown_messages">Chặn tin nhắn từ số không có trong danh bạ lưu trữ</string>
     <string name="block_hidden_messages">Chặn tin nhắn từ số ẩn</string>
     <string name="add_blocked_number_helper_text">Nhập một số hoặc mẫu (vd: *12345*, +1*8888) để chặn tất cả các cuộc gọi và tin nhắn từ các số khớp với mẫu.</string>
     <string name="must_make_default_caller_id_app">Không thể chặn số chưa biết mà không có quyền ID người gọi.</string>

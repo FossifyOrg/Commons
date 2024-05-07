@@ -114,9 +114,9 @@
     <string name="must_make_default_dialer">Blokeatutako zenbakiak erabiltzeko aplikazio honek markatzaile-aplikazio lehenetsia izan behar du.</string>
     <string name="set_as_default">Ezarri lehenetsi gisa</string>
     <string name="block_confirmation">Ziur zaude \"%s\" blokeatu nahi duzula?</string>
-    <string name="block_not_stored_calls">Blokeatu gorde gabeko kontaktuen deiak</string>
+    <string name="block_unknown_calls">Blokeatu gorde gabeko kontaktuen deiak</string>
     <string name="block_hidden_calls">Blokeatu ezkutuko zenbakietako deiak</string>
-    <string name="block_not_stored_messages">Blokeatu gorde gabeko kontaktuen mezuak</string>
+    <string name="block_unknown_messages">Blokeatu gorde gabeko kontaktuen mezuak</string>
     <string name="block_hidden_messages">Blokeatu ezkutuko zenbakien mezuak</string>
     <string name="add_blocked_number_helper_text">Sartu zenbaki bat edo eredu bat (adibidez, *12345*, +1*8888) ereduarekin bat datozen zenbakietatik dei eta mezu guztiak blokeatzeko.</string>
     <string name="must_make_default_caller_id_app">Ezin dira blokeatu zenbaki ezezagunak deitzailearen identifikadorearen baimenik gabe.</string>

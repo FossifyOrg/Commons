@@ -240,8 +240,8 @@
     <string name="blocked_numbers">ब्लॉक किए गए नंबर</string>
     <string name="export_blocked_numbers">ब्लॉक किए गए नंबर निर्यात करें</string>
     <string name="block_confirmation">क्या आप वाकई \"%s\" को ब्लॉक करना चाहते हैं?</string>
-    <string name="block_not_stored_calls">संग्रहित न किए गए संपर्कों से आने वाली कॉल को ब्लॉक करें</string>
-    <string name="block_not_stored_messages">संग्रहित न किए गए संपर्कों के संदेशों को ब्लॉक करें</string>
+    <string name="block_unknown_calls">संग्रहित न किए गए संपर्कों से आने वाली कॉल को ब्लॉक करें</string>
+    <string name="block_unknown_messages">संग्रहित न किए गए संपर्कों के संदेशों को ब्लॉक करें</string>
     <string name="must_make_default_caller_id_app">कॉलर ID की अनुमति के बिना अज्ञात नंबरों को ब्लॉक नहीं किया जा सकता।</string>
     <string name="block_contact_success">संपर्क अवरुद्ध कर दिया गया</string>
     <string name="unblock_contact_fail">संपर्क अनब्लॉक नहीं किया जा सका</string>

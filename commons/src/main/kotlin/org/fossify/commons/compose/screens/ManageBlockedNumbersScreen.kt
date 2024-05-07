@@ -97,12 +97,14 @@ internal fun ManageBlockedNumbersScreen(
 
     SimpleScaffold(
         darkStatusBarIcons = !isInActionMode,
-        customTopBar = { scrolledColor: Color,
-                         navigationInteractionSource: MutableInteractionSource,
-                         scrollBehavior: TopAppBarScrollBehavior,
-                         statusBarColor: Int,
-                         colorTransitionFraction: Float,
-                         contrastColor: Color ->
+        customTopBar = {
+                scrolledColor: Color,
+                navigationInteractionSource: MutableInteractionSource,
+                scrollBehavior: TopAppBarScrollBehavior,
+                statusBarColor: Int,
+                colorTransitionFraction: Float,
+                contrastColor: Color,
+            ->
 
             Column {
                 Crossfade(targetState = isInActionMode, label = "toolbar-anim", animationSpec = tween(easing = FastOutLinearInEasing)) { actionMode ->
@@ -140,7 +142,7 @@ internal fun ManageBlockedNumbersScreen(
                 }
 
                 SettingsCheckBoxComponent(
-                    label = if (isDialer) stringResource(id = R.string.block_not_stored_calls) else stringResource(id = R.string.block_not_stored_messages),
+                    label = if (isDialer) stringResource(id = R.string.block_unknown_calls) else stringResource(id = R.string.block_unknown_messages),
                     initialValue = isBlockUnknownSelected,
                     onChange = onBlockUnknownSelectedChange,
                     modifier = Modifier.topAppBarPaddings(),
@@ -280,7 +282,7 @@ private fun updateSelectedIndices(
     blockedNumbers: ImmutableList<BlockedNumber>,
     bNumber1: BlockedNumber,
     bNumber2: BlockedNumber,
-    selectedIds: MutableState<Set<Long>>
+    selectedIds: MutableState<Set<Long>>,
 ) {
     val indices = listOf(blockedNumbers.indexOf(bNumber1), blockedNumbers.indexOf(bNumber2))
     selectedIds.value += blockedNumbers
@@ -292,7 +294,7 @@ private fun longPressSelectableValue(
     lastClickedValue: Pair<Long, BlockedNumber?>,
     blockedNumber: BlockedNumber,
     triggerReset: Long,
-    select: (BlockedNumber, BlockedNumber) -> Unit
+    select: (BlockedNumber, BlockedNumber) -> Unit,
 ): Pair<Pair<Long, BlockedNumber?>, Long> {
     var lastClickedValueTemp = lastClickedValue
     var triggerResetTemp = triggerReset
@@ -315,7 +317,7 @@ private fun BlockedNumber(
     blockedNumber: BlockedNumber,
     onDelete: (Set<Long>) -> Unit,
     onCopy: (BlockedNumber) -> Unit,
-    isSelected: Boolean
+    isSelected: Boolean,
 ) {
     val hasContactName = blockedNumber.contactName != null
     val contactNameContent = remember {
@@ -360,7 +362,7 @@ private fun BlockedNumber(
 
 @Composable
 private fun blockedNumberListItemColors(
-    isSelected: Boolean
+    isSelected: Boolean,
 ) = ListItemDefaults.colors(
     containerColor = if (isSelected) {
         if (LocalTheme.current is Theme.SystemDefaultMaterialYou) {
@@ -498,7 +500,7 @@ private fun BlockedNumberActionMenu(
     selectedIdsCount: Int,
     onDelete: () -> Unit,
     onCopy: () -> Unit,
-    iconColor: Color? = null
+    iconColor: Color? = null,
 ) {
     val actionMenus = remember(selectedIdsCount) {
         val delete =
@@ -540,13 +542,13 @@ private fun NonActionModeToolbar(
     contrastColor: Color,
     onAdd: () -> Unit,
     onImportBlockedNumbers: () -> Unit,
-    onExportBlockedNumbers: () -> Unit
+    onExportBlockedNumbers: () -> Unit,
 ) {
     SimpleScaffoldTopBar(
         title = { scrolledTextColor ->
             Text(
                 text = stringResource(id = R.string.manage_blocked_numbers),
-                modifier = Modifier.padding(start = SimpleTheme.dimens.padding.extraLarge),
+                modifier = Modifier.padding(start = SimpleTheme.dimens.padding.medium),
                 maxLines = 1,
                 overflow = TextOverflow.Ellipsis,
                 color = scrolledTextColor
@@ -562,7 +564,7 @@ private fun NonActionModeToolbar(
         actions = {
             val actionMenus = remember {
                 listOf(
-                    ActionItem(R.string.add_a_blocked_number, icon = Icons.Filled.Add, doAction = onAdd),
+                    ActionItem(R.string.add_a_blocked_number, icon = Icons.Filled.Add, doAction = onAdd, overflowMode = OverflowMode.ALWAYS_OVERFLOW),
                     ActionItem(R.string.import_blocked_numbers, doAction = onImportBlockedNumbers, overflowMode = OverflowMode.ALWAYS_OVERFLOW),
                     ActionItem(R.string.export_blocked_numbers, doAction = onExportBlockedNumbers, overflowMode = OverflowMode.ALWAYS_OVERFLOW),
                 ).toImmutableList()
@@ -574,7 +576,7 @@ private fun NonActionModeToolbar(
 }
 
 private fun LazyListScope.emptyBlockedNumbers(
-    addABlockedNumber: () -> Unit
+    addABlockedNumber: () -> Unit,
 ) {
     item {
         Text(
@@ -612,7 +614,7 @@ private fun LazyListScope.emptyBlockedNumbers(
 }
 
 private fun LazyListScope.noPermissionToBlock(
-    setAsDefault: () -> Unit
+    setAsDefault: () -> Unit,
 ) {
     item {
         Text(
