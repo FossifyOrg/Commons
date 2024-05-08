@@ -962,7 +962,7 @@
     <string name="welcome_to_app_name">欢迎使用 %s！</string>
     <string name="trial_start_description">感谢您使用我们开发的应用。您可以免费试用此解锁版应用 <font color="#FFFFFF">%d 天</font>。试用期结束后请考虑升级到专业版。专业版有大量新功能，更现代化的设计，无广告，以及大量其他改进。
 \n
-\n您只需为专业版付款一次即可终生使用。如果您不满意，可以随时卸载并得到退款。 
+\n您只需为专业版付款一次即可终生使用。如果您不满意，可以随时卸载并得到退款。
 \n
 \n祝您使用愉快 :)</string>
     <string name="trial_end_description">请升级到专业版以享受本应用的全部功能。
@@ -1043,4 +1043,11 @@
     <string name="translation_czech">捷克语</string>
     <string name="translation_chuvash">楚瓦什语</string>
     <string name="translation_esperanto">世界语</string>
+    <string name="little_to_no_fee">很少或没有费用</string>
+    <string name="fee_up_to_pct">最高 %1$d%% 的费用</string>
+    <string name="cryptocurrency">加密货币</string>
+    <string name="translation_gujarati">古吉拉特语</string>
+    <string name="format_phone_numbers">调整电话号码格式</string>
+    <string name="platforms">平台</string>
+    <string name="donate_to_fossify">捐赠 Fossify</string>
 </resources>
