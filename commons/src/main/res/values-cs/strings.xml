@@ -902,7 +902,7 @@
     <string name="music_player_short">Hudební přehrávač</string>
     <string name="notes_short">Poznámky</string>
     <string name="sms_messenger_short">SMS zprávy</string>
-    <string name="thank_you_short">Děkuji</string>
+    <string name="thank_you_short">Děkujeme</string>
     <string name="voice_recorder_short">Hlasový záznamník</string>
     <string name="sideloaded_app">
         <![CDATA[
@@ -1123,4 +1123,13 @@
     <string name="translation_chinese_hk">Čínština (Hong Kong)</string>
     <string name="translation_chinese_cn">Čínština (zjednodušená)</string>
     <string name="translation_chinese_tw">Čínština (tradiční)</string>
+    <string name="translation_chuvash">Čuvaština</string>
+    <string name="translation_esperanto">Esperanto</string>
+    <string name="translation_gujarati">Gudžarátština</string>
+    <string name="format_phone_numbers">Formátovat telefonní čísla</string>
+    <string name="donate_to_fossify">Přispět projektu Fossify</string>
+    <string name="platforms">Platformy</string>
+    <string name="fee_up_to_pct">Poplatek až %1$d%%</string>
+    <string name="cryptocurrency">Kryptoměna</string>
+    <string name="little_to_no_fee">Malý nebo žádný poplatek</string>
 </resources>
