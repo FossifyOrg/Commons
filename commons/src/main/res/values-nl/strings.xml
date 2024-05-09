@@ -12,7 +12,7 @@
     <string name="error">Fout: %s</string>
     <string name="open_with">Openen met</string>
     <string name="edit_with">Bewerken met</string>
-    <string name="edit">Bewerk</string>
+    <string name="edit">Bewerken</string>
     <string name="no_app_found">Geen geldige app gevonden</string>
     <string name="no_browser_found">Geen browser gevonden</string>
     <string name="no_email_client_found">Geen e-mailapp gevonden</string>
