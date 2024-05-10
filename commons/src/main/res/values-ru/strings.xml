@@ -1135,4 +1135,12 @@
     <string name="why_upgrade_pro_version">Pro</string>
     <string name="faq_6_text_commons">Эта проблема возникает, когда лаунчер не полностью поддерживает пользовательские иконки. Попробуйте запустить приложение через Google Play или через виджет, если он доступен. После запуска, восстановите стандартный зеленый цвет иконки #106D1F. В крайних случаях может потребоваться переустановка приложения.</string>
     <string name="app_icon_color_warning">Внимание: некоторые лаунчеры не смогут правильно отобразить пользовательскую иконку приложения. Если значок исчезает, попробуйте запустить приложение через Google Play или через его виджет, если это возможно. После запуска, восстановите стандартный зелёный цвет иконки #106D1F. В крайних случаях может потребоваться переустановка приложения.</string>
+    <string name="translation_esperanto">Эсперанто</string>
+    <string name="donate_to_fossify">Пожертвовать Fossify</string>
+    <string name="format_phone_numbers">Форматировать номера телефонов</string>
+    <string name="translation_gujarati">Гуджарати</string>
+    <string name="platforms">Платформы</string>
+    <string name="little_to_no_fee">Практически без комиссии</string>
+    <string name="fee_up_to_pct">Комиссия до %1$d%%</string>
+    <string name="cryptocurrency">Криптовалюта</string>
 </resources>
