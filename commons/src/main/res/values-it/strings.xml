@@ -1118,4 +1118,13 @@
     <string name="translation_bulgarian">Bulgaro</string>
     <string name="translation_tamil">Tamil</string>
     <string name="why_upgrade_pro_version">Pro</string>
+    <string name="translation_esperanto">Esperanto</string>
+    <string name="translation_chuvash">Ciuvascio</string>
+    <string name="translation_gujarati">Gujarati</string>
+    <string name="format_phone_numbers">Formatta i numeri di telefono</string>
+    <string name="donate_to_fossify">Dona a Fossify</string>
+    <string name="platforms">Piattaforme</string>
+    <string name="fee_up_to_pct">Fino al %1$d%% di tasse</string>
+    <string name="cryptocurrency">Cryptovalute</string>
+    <string name="little_to_no_fee">Costi minimi o nulli</string>
 </resources>
