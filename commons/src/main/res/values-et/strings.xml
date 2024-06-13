@@ -1075,4 +1075,13 @@
     <string name="donate_please">Tere,&lt;br&gt;&lt;br&gt; loodame, et sulle meie rakendus meeldib. See ei sisalda reklaame, palun toeta selle arendamist, ostes rakenduse &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Suur Tänu&lt;/a&gt; ja samaga väldid selle vaate uuesti kuvamist.&lt;br&gt;&lt;br&gt; Täname!</string>
     <string name="faq_2_text_commons">Jah, muidugi. Sa saad rakendust teistele tutvustada või jagada head tagasisidet ja hinnanguid. Samuti saad aidata ka rakenduste tõlkimisega uude keelde või lihtsalt mõne olemasoleva tõlke ajakohastamisega. Tõlkimise juhend asub &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;siin lehel&lt;/a&gt; või küsimuste puhul lihtsalt võta meiega ühendust aadressil &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt;.</string>
     <string name="why_upgrade_pro_version">Pro</string>
+    <string name="translation_esperanto">esperanto</string>
+    <string name="translation_chuvash">tšuvašši</string>
+    <string name="translation_gujarati">gudžarati</string>
+    <string name="donate_to_fossify">Toeta Fossify projektide arendust</string>
+    <string name="platforms">Platvormid</string>
+    <string name="format_phone_numbers">Vorminda telefoninumbreid</string>
+    <string name="little_to_no_fee">Praktiliselt tasuta</string>
+    <string name="fee_up_to_pct">Kuni %1$d-protsendise tasu eest</string>
+    <string name="cryptocurrency">Krüptovääringud</string>
 </resources>

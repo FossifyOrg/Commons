@@ -677,7 +677,7 @@
     <string name="import_settings">Importer des paramètres</string>
     <string name="settings_exported_successfully">Exportation des paramètres réussie</string>
     <string name="settings_imported_successfully">Importation des paramètres réussie</string>
-    <string name="start_name_with_surname">Positionner le prénom avant le nom de famille</string>
+    <string name="start_name_with_surname">Afficher le nom de famille en premier</string>
     <string name="clear_cache">Vider le cache</string>
     <string name="show_call_confirmation_dialog">Afficher une fenêtre de confirmation d\'appel avant de lancer un appel</string>
     <string name="visibility">Visibilité</string>
@@ -1116,4 +1116,9 @@
     <string name="translation_catalan">Catalan</string>
     <string name="translation_basque">Basque</string>
     <string name="translation_tamil">Tamil</string>
+    <string name="donate_to_fossify">Faire un don à Fossify</string>
+    <string name="format_phone_numbers">Format des numéros de téléphone</string>
+    <string name="platforms">Plates-formes</string>
+    <string name="cryptocurrency">Crypto-monnaie</string>
+    <string name="little_to_no_fee">Peu ou pas de frais</string>
 </resources>

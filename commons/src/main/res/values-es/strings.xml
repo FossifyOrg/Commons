@@ -1138,4 +1138,13 @@
     <string name="donate_short">Apóyanos comprando &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; por favor, también desbloqueará todas las características de la app incluyendo la personalización de colores.</string>
     <string name="features_locked">Esta función está bloqueada, por favor compre &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; para desbloquear la aplicación completa.&lt;br&gt;&lt;br&gt;Es un pago único y si usted no está satisfecho, podemos reembolsarle.</string>
     <string name="translation_bulgarian">Búlgaro</string>
+    <string name="translation_chuvash">Chuvasio</string>
+    <string name="translation_gujarati">Guyaratí</string>
+    <string name="translation_esperanto">Esperanto</string>
+    <string name="donate_to_fossify">Apoya a Fossify</string>
+    <string name="format_phone_numbers">Formatear números de teléfono</string>
+    <string name="platforms">Plataformas</string>
+    <string name="little_to_no_fee">Pequeña comisión</string>
+    <string name="fee_up_to_pct">Hasta %1$d%% de comisión</string>
+    <string name="cryptocurrency">Criptomoneda</string>
 </resources>

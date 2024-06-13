@@ -1158,4 +1158,13 @@
     <string name="saturday_letter">S</string>
     <string name="launcher_short">Launcher</string>
     <string name="why_upgrade_pro_version">Pro</string>
+    <string name="translation_esperanto">esperanto</string>
+    <string name="translation_chuvash">czuwaski</string>
+    <string name="translation_gujarati">gudźarati</string>
+    <string name="format_phone_numbers">Formatuj numery telefonów</string>
+    <string name="donate_to_fossify">Wesprzyj Fossify</string>
+    <string name="platforms">Platformy</string>
+    <string name="little_to_no_fee">Niewielka prowizja</string>
+    <string name="fee_up_to_pct">Do %1$d%% prowizji</string>
+    <string name="cryptocurrency">Kryptowaluta</string>
 </resources>
