@@ -210,18 +210,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
     }
 
     fun updateNavigationBarColor(color: Int) {
-        window.navigationBarColor = color
-        updateNavigationBarButtons(color)
-    }
-
-    fun updateNavigationBarButtons(color: Int) {
-        if (isOreoPlus()) {
-            if (color.getContrastColor() == DARK_GREY) {
-                window.decorView.systemUiVisibility = window.decorView.systemUiVisibility.addBit(View.SYSTEM_UI_FLAG_LIGHT_NAVIGATION_BAR)
-            } else {
-                window.decorView.systemUiVisibility = window.decorView.systemUiVisibility.removeBit(View.SYSTEM_UI_FLAG_LIGHT_NAVIGATION_BAR)
-            }
-        }
+        window.updateNavigationBarBackgroundColor(color)
     }
 
     // use translucent navigation bar, set the background color to action and status bars
