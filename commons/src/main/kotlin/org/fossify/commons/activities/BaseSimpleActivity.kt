@@ -210,7 +210,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
     }
 
     fun updateNavigationBarColor(color: Int) {
-        window.updateNavigationBarBackgroundColor(color)
+        window.updateNavigationBarColors(color)
     }
 
     // use translucent navigation bar, set the background color to action and status bars
