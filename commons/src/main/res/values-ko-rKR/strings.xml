@@ -120,9 +120,9 @@
     <string name="invalid_name">이름에 사용 할 수 없는 문자가 있습니다</string>
     <string name="empty_name">이름이 입력되지 않았습니다</string>
     <string name="unknown_error_occurred">알 수 없는 에러가 발생하였습니다</string>
-    <string name="file_already_exists">\"%s\" 파일이 이미 존재합니다</string>
+    <string name="file_already_exists">s 파일이 이미 존재합니다</string>
     <string name="file_already_exists_overwrite">s 파일이 이미 존재합니다. 덮어쓰시겠습니까?</string>
-    <string name="folder_already_exists">\"%s\" 폴더가 이미 존재합니다</string>
+    <string name="folder_already_exists">s 폴더가 이미 존재합니다</string>
     <string name="merge">합치기</string>
     <string name="keep_both">둘 다 유지</string>
     <string name="overwrite">덮어쓰기</string>
@@ -615,7 +615,7 @@
     <string name="manage_blocked_numbers">차단 번호 관리</string>
     <string name="blocked_numbers">차단 번호</string>
     <string name="block_number">전화번호 차단</string>
-    <string name="block_confirmation">\"%s\"를 차단하시겠습니까?</string>
+    <string name="block_confirmation">s 차단하시겠습니까?</string>
     <string name="set_as_default">기본 앱으로 설정</string>
     <string name="block_hidden_calls">발신번호표시제한 전화 차단</string>
     <string name="block_hidden_messages">발신번호표시제한 메시지 차단</string>
@@ -724,8 +724,7 @@
     <string name="date_created">생성일</string>
     <string name="add_password">비밀번호 추가</string>
     <string name="open_the_recycle_bin">휴지통 열기</string>
-    <string name="too_many_incorrect_attempts">잘못된 잠금 해제 시도가 너무 많습니다.
-\n%d초 후에 다시 시도하세요.</string>
+    <string name="too_many_incorrect_attempts">잘못된 잠금 해제 시도가 너무 많습니다. \n%d초 후에 다시 시도하세요.</string>
     <string name="empty_password_new">비밀번호를 입력해주세요</string>
     <string name="empty_password">비밀번호를 입력해주세요</string>
     <string name="invalid_password">잘못된 비밀번호입니다</string>
@@ -988,4 +987,6 @@
     <string name="translation_persian"></string>
     <string name="translation_indonesian"></string>
     <string name="other_help"></string>
+    <string name="seconds_letter"></string>
+    <string name="minutes_letter"></string>
 </resources>
