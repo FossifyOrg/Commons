@@ -645,8 +645,6 @@
     <string name="pin">PIN 번호</string>
     <string name="authenticate">인증</string>
     <string name="enter_password">비밀번호 입력</string>
-    <string name="minutes_letter"></string>
-    <string name="seconds_letter"></string>
     <string name="every_day">매일</string>
     <string name="clear_cache">캐시 지우기</string>
     <string name="contacts_tab">연락처</string>
