@@ -1111,4 +1111,13 @@
     <string name="notes_short">Notes</string>
     <string name="translation_hindi">Hindi</string>
     <string name="why_upgrade_pro_version">Pro</string>
+    <string name="translation_chuvash">Txuvaix</string>
+    <string name="translation_esperanto">Esperanto</string>
+    <string name="translation_gujarati">Gujarati</string>
+    <string name="format_phone_numbers">Format de números de telèfon</string>
+    <string name="platforms">Plataformes</string>
+    <string name="donate_to_fossify">Donació a Fossify</string>
+    <string name="little_to_no_fee">Molt poc o de franc</string>
+    <string name="fee_up_to_pct">Una tarifa de fins a %1$d%%</string>
+    <string name="cryptocurrency">Criptomoneda</string>
 </resources>
