@@ -943,4 +943,9 @@
     <string name="donate_new">Kaixo,&lt;br&gt;&lt;br&gt;aplikazioaz gozatzea espero duzu. Ez dauka iragarkirik eta ez ditugu zure datuak biltzen ari. Mesedez, lagundu haren garapena &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Eskerrik asko erosiz. Zuk&lt;/a&gt;. Gainera, aplikazioaren eginbide guztiak desblokeatuta izango dituzu koloreen pertsonalizazioa barne.&lt;br&gt;&lt;br&gt;Eskerrik asko!</string>
     <string name="donate_please">Kaixo,&lt;br&gt;&lt;br&gt; aplikazioaz gozatzea espero dugu. Ez dauka iragarkirik. Mesedez, lagundu bere garapena &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Eskerrik Asko&lt;/a&gt; aplikazioa erosiz. elkarrizketa-koadro hau berriro agertzea ere eragotziko du.&lt;br&gt;&lt;br&gt; Eskerrik asko!</string>
     <string name="donate_short">Lagundu iezaguzu &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Eskerrik asko&lt;/a&gt; erosiz, aplikazioen eginbide guztiak ere desblokeatuko ditu kolorea barne. pertsonalizazioa.</string>
+    <string name="format_phone_numbers">Eman formatu telefono-zenbakiei</string>
+    <string name="features_locked">Eginbide hau blokeatuta dago. Erosi &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Eskerrik asko&lt;/a&gt; aplikazio osoa desblokeatzeko.&lt;br &gt;&lt;br&gt;Ordainketa bakarra da eta asetzen ez bazara, itzuliko dizugu.</string>
+    <string name="platforms">Plataformak</string>
+    <string name="donate_to_fossify">Dohaintza egin Fossify-ri</string>
+    <string name="little_to_no_fee">Kuota txikia</string>
 </resources>
