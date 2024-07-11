@@ -75,7 +75,7 @@
     <string name="record_video">拍片</string>
     <string name="updating">正在更新…</string>
     <string name="phone_storage">手機容量</string>
-    <string name="phone_storage_hidden">手機容量 (其他程式不可見)</string>
+    <string name="phone_storage_hidden">手機儲存空間（其他應用程式無法檢視）</string>
     <string name="audio">音訊</string>
     <string name="birthday">生日</string>
     <string name="anniversary">紀念日</string>
