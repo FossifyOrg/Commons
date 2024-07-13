@@ -71,8 +71,8 @@
     <string name="record_audio">Optag audio</string>
     <string name="record_video">Optag video</string>
     <string name="updating">Opdaterer…</string>
-    <string name="phone_storage">Telefon lager</string>
-    <string name="phone_storage_hidden">Telefon lager (ikke synlig for andre apps)</string>
+    <string name="phone_storage">Telefonlager</string>
+    <string name="phone_storage_hidden">Telefonlager (ikke synligt for andre apps)</string>
     <string name="scanning">Scanner…</string>
     <string name="birthday">Fødselsdag</string>
     <string name="anniversary">Årsdag</string>
@@ -974,4 +974,5 @@
     <string name="pro_app_refund">Husk at hvis du afinstallerer en betalt app indenfor 2 timer, får du automatisk pengene tilbage. Vil du have refunderet beløbet på et senere tidspunkt, så send en mail til hello@fossify.org. På den måde kan du prøvekøre appen uden omkostninger :)</string>
     <string name="developer_description">En gruppe simple, open source apps til Android med widgets, der kan tilpasses, uden reklamer og unødvendige tilladelser.</string>
     <string name="ok">OK</string>
+    <string name="format_phone_numbers">Formatér telefonnumre</string>
 </resources>
