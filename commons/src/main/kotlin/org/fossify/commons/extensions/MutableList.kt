@@ -8,11 +8,11 @@ fun <T> MutableList<T>.swap(index1: Int, index2: Int) {
 }
 
 fun <T> MutableList<T>.move(currentIndex: Int, newIndex: Int) {
+    require(currentIndex in indices) { "currentIndex is out of bounds" }
+    require(newIndex in indices) { "newIndex is out of bounds" }
     if (currentIndex == newIndex) return
-    val itemToMove = removeAt(currentIndex)
-    if (currentIndex > newIndex) {
-        add(newIndex, itemToMove)
-    } else {
-        add(newIndex - 1, itemToMove)
-    }
+
+    val itemToMove = this[currentIndex]
+    removeAt(currentIndex)
+    add(newIndex, itemToMove)
 }
