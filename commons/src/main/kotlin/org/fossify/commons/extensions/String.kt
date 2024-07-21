@@ -282,7 +282,7 @@ fun String.normalizePhoneNumber() = PhoneNumberUtils.normalizeNumber(this)
 fun String.formatPhoneNumber(minimumLength: Int = 4): String {
     val country = Locale.getDefault().country
     return if (this.length >= minimumLength) {
-        PhoneNumberUtils.formatNumber(this, country).toString()
+        PhoneNumberUtils.formatNumber(this, country)?.toString() ?: this
     } else {
         this
     }
