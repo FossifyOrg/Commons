@@ -8,6 +8,7 @@ fun <T> MutableList<T>.swap(index1: Int, index2: Int) {
 }
 
 fun <T> MutableList<T>.move(currentIndex: Int, newIndex: Int) {
+    if (currentIndex == newIndex) return
     val itemToMove = removeAt(currentIndex)
     if (currentIndex > newIndex) {
         add(newIndex, itemToMove)
