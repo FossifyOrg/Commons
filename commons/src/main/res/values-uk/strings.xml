@@ -705,7 +705,7 @@
     <string name="widgets">Віджети</string>
     <string name="use_same_snooze">Завжди використовувати однаковий час відкладання</string>
     <string name="snooze_time">Час відкладання</string>
-    <string name="vibrate_on_button_press">Вібрація при натисканні на кнопки</string>
+    <string name="vibrate_on_button_press">Вібрувати при натисканні кнопки</string>
     <string name="move_items_into_recycle_bin">Переміщати елементи у Кошик замість видаляти</string>
     <string name="recycle_bin_cleaning_interval">Інтервал очищення Кошика</string>
     <string name="empty_recycle_bin">Очистити Кошик</string>
