@@ -1029,4 +1029,9 @@
     <string name="fee_up_to_pct">Kosten tot %1$d%%</string>
     <string name="translation_hindi">Hindi</string>
     <string name="translation_welsh">Welsh</string>
+    <string name="translation_esperanto">Esperanto</string>
+    <string name="translation_chuvash">Tsjoevasjisch</string>
+    <string name="translation_gujarati">Gujarati</string>
+    <string name="use_english_language">Gebruik Engelse taal</string>
+    <string name="gson_title">Gson (JSON-parser)</string>
 </resources>
