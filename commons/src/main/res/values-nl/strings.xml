@@ -1032,6 +1032,6 @@
     <string name="translation_esperanto">Esperanto</string>
     <string name="translation_chuvash">Tsjoevasjisch</string>
     <string name="translation_gujarati">Gujarati</string>
-    <string name="use_english_language">Gebruik Engelse taal</string>
+    <string name="use_english_language">Use English language</string>
     <string name="gson_title">Gson (JSON-parser)</string>
 </resources>
