@@ -340,7 +340,7 @@
     <string name="default_color">По умолчанию</string>
     <string name="change_color">Изменить цвет</string>
     <string name="theme">Тема</string>
-    <string name="changing_color_description">Изменение цвета приведет к переключению на пользовательскую тему</string>
+    <string name="changing_color_description">Изменение цвета приведёт к переключению на пользовательскую тему</string>
     <string name="save">Сохранить</string>
     <string name="discard">Нет</string>
     <string name="undo_changes">Отменить изменения</string>
@@ -764,7 +764,7 @@
 \n%s — секунда</string>
     <string name="usb_detected">К устройству подключён USB-накопитель, необходимо убедиться, что файлы на нём отображаются правильно. Для этого необходимо предоставить дополнительные разрешения.</string>
     <string name="confirm_usb_storage_access_text">Выберите корневую папку USB-накопителя на следующем экране, чтобы предоставить к нему доступ</string>
-    <string name="wrong_root_selected_usb">Выбрана неправильная папка. Выберите корневую папку USB-накопителя</string>
+    <string name="wrong_root_selected_usb">Выбрана неправильная папка. Выберите корневую папку USB-накопителя.</string>
     <string name="january">Январь</string>
     <string name="february">Февраль</string>
     <string name="march">Март</string>
@@ -930,7 +930,7 @@
     <string name="gallery_short">Галерея</string>
     <string name="keyboard_short">Клавиатура</string>
     <string name="launcher_short">Лаунчер</string>
-    <string name="music_player_short">Музыкальный плеер</string>
+    <string name="music_player_short">Проигрыватель музыки</string>
     <string name="notes_short">Заметки</string>
     <string name="sms_messenger_short">Сообщения</string>
     <string name="thank_you_short">Спасибо</string>
@@ -1022,8 +1022,8 @@
     <string name="why_upgrade_footer_one_time_payment">Разовый платёж</string>
     <string name="why_upgrade_improved_design">Улучшенный дизайн</string>
     <string name="why_upgrade_many_other_improvements">Множество других улучшений</string>
-    <string name="why_upgrade_advanced_photo_editor">Продвинутый фоторедактор</string>
-    <string name="why_upgrade_advanced_photo_video_editor">Продвинутый фото- и видеоредактор</string>
+    <string name="why_upgrade_advanced_photo_editor">Мощный фоторедактор</string>
+    <string name="why_upgrade_advanced_photo_video_editor">Расширенный редактор фото и видео</string>
     <string name="why_upgrade_heic_support">Поддержка файлов HEIC/HEIF</string>
     <string name="why_upgrade_batch_renaming">Пакетное переименование файлов</string>
     <string name="why_upgrade_folder_locking">Индивидуальная блокировка папок</string>
@@ -1069,7 +1069,7 @@
     <string name="gson_title">Gson (анализатор JSON)</string>
     <string name="leak_canary_title">Leak Canary (детектор утечек памяти)</string>
     <string name="number_picker_title">Number Picker (настраиваемый ввод чисел)</string>
-    <string name="exoplayer_title">ExoPlayer (видеоплеер)</string>
+    <string name="exoplayer_title">ExoPlayer (видеопроигрыватель)</string>
     <string name="sanselan_title">Apache Sanselan (чтение метаданных изображений)</string>
     <string name="filters_title">Android Photo Filters (фильтры изображений)</string>
     <string name="gesture_views_title">Gesture Views (масштабирование изображений)</string>
@@ -1080,7 +1080,7 @@
     <string name="apng_title">APNG Android (отображение анимации WebP)</string>
     <string name="pdf_view_pager_title">PDFViewPager (просмотр PDF)</string>
     <string name="pdf_viewer_title">Android PdfViewer (просмотр PDF)</string>
-    <string name="m3u_parser_title">M3U Parser (обработка файлов плейлистов m3u)</string>
+    <string name="m3u_parser_title">M3U Parser (обработка файлов списков воспроизведения m3u)</string>
     <string name="android_lame_title">AndroidLame (кодировщик в mp3)</string>
     <string name="zip4j_title">Zip4j (работа с форматом ZIP)</string>
     <string name="trial_expired">Пробный период истёк</string>
