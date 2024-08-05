@@ -93,7 +93,7 @@
     <string name="uneven_grid">Неровная сетка</string>
     <string name="list">Список</string>
     <string name="increase_column_count">Добавить столбец</string>
-    <string name="reduce_column_count">Убрать столбец</string>
+    <string name="reduce_column_count">Удалить столбец</string>
     <string name="column_count">Количество столбцов</string>
     <string name="row_count">Количество строк</string>
     <string name="portrait_column_count">Количество столбцов в портретной ориентации</string>
