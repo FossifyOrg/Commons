@@ -408,7 +408,7 @@
     <string name="size">Размер</string>
     <string name="last_modified">Дата изменения</string>
     <string name="date_created">Дата создания</string>
-    <string name="date_taken">Дата съемки</string>
+    <string name="date_taken">Дата съёмки</string>
     <string name="date_added">Дата добавления</string>
     <string name="title">Название</string>
     <string name="filename">Имя файла</string>
@@ -633,7 +633,7 @@
     <string name="reminder_triggers_in">Время до срабатывания напоминания:\n%s</string>
     <string name="time_remaining">Оставшееся время:\n%s</string>
     <string name="alarm_warning">Убедитесь, что будильник работает правильно, прежде чем полагаться на него. Он может не работать должным образом из-за системных ограничений, связанных с экономией аккумулятора.</string>
-    <string name="reminder_warning">Убедитесь, что напоминания работают правильно, прежде чем полагаться на них. Проверьте аккумулятор устройства и настройки уведомлений на предмет блокировки напоминаний или закрытия приложения в фоновом режиме.</string>
+    <string name="reminder_warning">Убедитесь, что напоминания работают правильно, прежде чем полагаться на них. Проверьте настройки аккумулятора устройства и уведомлений на предмет блокировки напоминаний или закрытия приложения в фоновом режиме.</string>
     <string name="notifications_disabled">Уведомления этого приложения отключены. Перейдите в настройки устройства и включите их.</string>
     <string name="alarm">Будильник</string>
     <string name="snooze">Отложить</string>
