@@ -1021,8 +1021,7 @@
     <string name="allow_access_more_media">Dozvoli pristup daljnjim medijima</string>
     <string name="more_options">Više opcija</string>
     <string name="pin">PIN</string>
-    <string name="too_many_incorrect_attempts">Previše netočnih pokušaja otključavanja.
-\nPokušaj ponovo za %d sekunde.</string>
+    <string name="too_many_incorrect_attempts">Previše netočnih pokušaja otključavanja. \nPokušaj ponovo za %d sekunde.</string>
     <string name="seconds_letter">s</string>
     <string name="hours_letter">h</string>
     <string name="alarm">Alarm</string>
@@ -1030,8 +1029,7 @@
     <string name="files_tab">Datoteke</string>
     <string name="recent_files_tab">Nedavne datoteke</string>
     <string name="usb">USB</string>
-    <string name="copyright">v %1$s
-\nAutorska prava © Fossify %2$d</string>
+    <string name="copyright">v %1$s \nAutorska prava © Fossify %2$d</string>
     <string name="update_thank_you">Ažuriraj aplikaciju Fossify hvala na najnoviju verziju</string>
     <string name="exoplayer_title">ExoPlayer (video player)</string>
     <string name="sms_messenger_short">SMS Messenger</string>
@@ -1061,4 +1059,5 @@
     <string name="all_fossify_apps"></string>
     <string name="theme_and_colors"></string>
     <string name="known_issues"></string>
+    <string name="faq_9_text_commons"></string>
 </resources>
