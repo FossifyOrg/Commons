@@ -907,7 +907,6 @@
     <string name="faq_8_title_commons">Zašto nadograditi na Pro verziju?</string>
     <string name="faq_8_text_commons">Budući da se vaša verzija aplikacije više nije ažurira, greške koje ste možda uočili nikada neće biti ispravljene. Također se neće dodati nove funkcije. Pro verziju možete kupiti na Google Playu za malu svotu novca. Radi se o jednokratnom plaćanju, što znači da kada je jednom kupite, više nikada nećete morati ponovo platiti. Čak ni nakon nabave novog uređaja. Ako vam se Pro verzija ne sviđa, možete je jednostavno deinstalirati u roku od nekoliko sati i automatski ćete dobiti povrat novca. Ako želite povrat novca bilo kada kasnije, kontaktirajte nas na hello@fossify.org i mi ćemo vam vratiti novac.</string>
     <string name="faq_9_title_commons">Kako mogu odabrati više stavki odjednom?</string>
-    <string name="faq_9_text_commons"></string>
     <string name="contributors">Doprinositelji</string>
     <string name="translation">Prijevod</string>
     <string name="development">Razvoj</string>
