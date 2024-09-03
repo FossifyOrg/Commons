@@ -1147,4 +1147,6 @@
     <string name="little_to_no_fee">Pequeña comisión</string>
     <string name="fee_up_to_pct">Hasta %1$d%% de comisión</string>
     <string name="cryptocurrency">Criptomoneda</string>
+    <string name="translation_belarusian">Bielorruso</string>
+    <string name="translation_central_kurdish">Kurdo sorani</string>
 </resources>
