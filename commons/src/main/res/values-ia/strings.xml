@@ -17,8 +17,7 @@
     <string name="set_as">Definir como</string>
     <string name="unknown">Discognoscite</string>
     <string name="value_copied_to_clipboard">Valor copiate al area de transferentia</string>
-    <string name="value_copied_to_clipboard_show">Valor copiate al area de transferentia:
-\n%s</string>
+    <string name="value_copied_to_clipboard_show">Valor copiate al area de transferentia: \n%s</string>
     <string name="always">Sempre</string>
     <string name="never">Nunquam</string>
     <string name="label">Etiquetta</string>
@@ -156,8 +155,7 @@
     <string name="genre">Genere</string>
     <string name="dismiss">Dimitter</string>
     <string name="follow_us">Seque nos</string>
-    <string name="copyright">v %1$s
-\nCopyright © Fossify %2$d</string>
+    <string name="copyright">v %1$s \nCopyright © Fossify %2$d</string>
     <string name="clock_short">Horologio</string>
     <string name="contacts_short">Contactos</string>
     <string name="file_manager_short">Gestor de files</string>
