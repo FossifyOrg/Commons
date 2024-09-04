@@ -1034,4 +1034,6 @@
     <string name="translation_gujarati">Gujarati</string>
     <string name="use_english_language">Use English language</string>
     <string name="gson_title">Gson (JSON-parser)</string>
+    <string name="translation_belarusian">Wit-Russisch</string>
+    <string name="translation_central_kurdish">Centraal Koerdisch</string>
 </resources>
