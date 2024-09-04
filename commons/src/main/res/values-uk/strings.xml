@@ -1154,4 +1154,6 @@
     <string name="translation_esperanto">Есперанто</string>
     <string name="translation_gujarati">Гуджарат</string>
     <string name="format_phone_numbers">Форматувати телефонні номери</string>
+    <string name="translation_belarusian">Білоруський</string>
+    <string name="translation_central_kurdish">Центрально курдський</string>
 </resources>
