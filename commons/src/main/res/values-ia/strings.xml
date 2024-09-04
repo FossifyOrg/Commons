@@ -170,4 +170,5 @@
     <string name="launcher_short">Lanceator</string>
     <string name="notes_short">Notas</string>
     <string name="frequently_asked_questions">Folio a questiones</string>
+    <string name="welcome_to_app_name">Benvenite a %s!</string>
 </resources>
