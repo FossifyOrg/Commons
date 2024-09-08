@@ -4,11 +4,10 @@ import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.LocalIndication
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Check
 import androidx.compose.material.ripple.LocalRippleTheme
-import androidx.compose.material3.Checkbox
-import androidx.compose.material3.CheckboxColors
-import androidx.compose.material3.CheckboxDefaults
-import androidx.compose.material3.Text
+import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.ui.Alignment
@@ -26,17 +25,15 @@ import org.fossify.commons.compose.theme.preferenceLabelColor
 import org.fossify.commons.compose.theme.preferenceValueColor
 
 @Composable
-fun SettingsCheckBoxComponent(
+fun SettingsSwitchComponent(
     modifier: Modifier = Modifier,
     label: String,
     value: String? = null,
     initialValue: Boolean = false,
     isPreferenceEnabled: Boolean = true,
+    showCheckmark: Boolean = false,
     onChange: ((Boolean) -> Unit)? = null,
-    checkboxColors: CheckboxColors = CheckboxDefaults.colors(
-        checkedColor = SimpleTheme.colorScheme.primary,
-        checkmarkColor = SimpleTheme.colorScheme.surface,
-    )
+    switchColors: SwitchColors = SwitchDefaults.colors()
 ) {
     val interactionSource = rememberMutableInteractionSource()
     val indication = LocalIndication.current
@@ -75,12 +72,22 @@ fun SettingsCheckBoxComponent(
             }
         }
         CompositionLocalProvider(LocalRippleTheme provides NoRippleTheme) {
-            Checkbox(
+            Switch(
                 checked = initialValue,
                 onCheckedChange = { onChange?.invoke(it) },
+                thumbContent = if (showCheckmark && initialValue) {
+                    {
+                        Icon(
+                            modifier = Modifier.size(SwitchDefaults.IconSize),
+                            imageVector = Icons.Default.Check,
+                            contentDescription = null,
+                            tint = SimpleTheme.colorScheme.primary
+                        )
+                    }
+                } else null,
                 enabled = isPreferenceEnabled,
-                colors = checkboxColors,
-                interactionSource = interactionSource
+                colors = switchColors,
+                interactionSource = interactionSource,
             )
         }
     }
@@ -88,9 +95,9 @@ fun SettingsCheckBoxComponent(
 
 @MyDevices
 @Composable
-private fun SettingsCheckBoxComponentPreview(@PreviewParameter(BooleanPreviewParameterProvider::class) isChecked: Boolean) {
+private fun SettingsSwitchComponentPreview(@PreviewParameter(BooleanPreviewParameterProvider::class) isChecked: Boolean) {
     AppThemeSurface {
-        SettingsCheckBoxComponent(
+        SettingsSwitchComponent(
             label = "Some label",
             value = "Some value",
             initialValue = isChecked
