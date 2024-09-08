@@ -52,8 +52,8 @@ import org.fossify.commons.compose.lists.*
 import org.fossify.commons.compose.menus.ActionItem
 import org.fossify.commons.compose.menus.ActionMenu
 import org.fossify.commons.compose.menus.OverflowMode
-import org.fossify.commons.compose.settings.SettingsCheckBoxComponent
 import org.fossify.commons.compose.settings.SettingsHorizontalDivider
+import org.fossify.commons.compose.settings.SettingsSwitchComponent
 import org.fossify.commons.compose.system_ui_controller.rememberSystemUiController
 import org.fossify.commons.compose.theme.*
 import org.fossify.commons.compose.theme.model.Theme
@@ -141,13 +141,13 @@ internal fun ManageBlockedNumbersScreen(
                     }
                 }
 
-                SettingsCheckBoxComponent(
+                SettingsSwitchComponent(
                     label = if (isDialer) stringResource(id = R.string.block_unknown_calls) else stringResource(id = R.string.block_unknown_messages),
                     initialValue = isBlockUnknownSelected,
                     onChange = onBlockUnknownSelectedChange,
                     modifier = Modifier.topAppBarPaddings(),
                 )
-                SettingsCheckBoxComponent(
+                SettingsSwitchComponent(
                     label = if (isDialer) stringResource(id = R.string.block_hidden_calls) else stringResource(id = R.string.block_hidden_messages),
                     initialValue = isHiddenSelected,
                     onChange = onHiddenSelectedChange,
