@@ -769,4 +769,5 @@
     <string name="block_contact_success">聯絡人已被封鎖</string>
     <string name="block_contact_fail">聯絡人無法被封鎖</string>
     <string name="unblock_contact">解除封鎖聯絡人</string>
+    <string name="format_phone_numbers">設定電話號碼格式</string>
 </resources>
