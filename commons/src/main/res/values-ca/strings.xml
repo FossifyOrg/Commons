@@ -806,26 +806,10 @@
     <string name="more_info">Més informació</string>
     <string name="upgrade">Actualitza</string>
     <string name="upgrade_calendar">Cal migrar els esdeveniments emmagatzemats localment de manera manual mitjançant l\'exportació en un fitxer .ics, i després importar-los. Podeu trobar els dos botons d\'exportació/importació al menú de la pantalla principal.</string>
-    <string name="upgraded_from_free_gallery">Hola,
-\n
-\nsembla que acabeu d\'actualitzar a partir de la versió gratuïta. Un cop estigueu satisfet amb aquesta i potser haureu migrat la vostra configuració i els favorits, podeu desinstal·lar l\'antiga gratuïta per a evitar que l\'inicieu accidentalment, ja que no la necessitareu. També evitarà que es mostri aquest diàleg.
-\n
-\nGràcies!</string>
-    <string name="upgraded_to_pro_gallery">Hola,
-\n
-\nsembla que ja teniu la versió Pro de l\'aplicació. Un cop estigueu satisfet amb ella i potser haureu migrat la vostra configuració i els favorits, podeu desinstal·lar-la per a evitar que la inicieu accidentalment, ja que no la necessitareu.
-\n
-\nGràcies!</string>
-    <string name="upgraded_from_free">Hola
-\n
-\nsembla que acabeu d\'actualitzar a partir de la versió gratuïta. Un cop estigueu satisfet amb aquesta i potser haureu migrat les vostres dades, podeu desinstal·lar l\'antiga gratuïta per a evitar llançar-la accidentalment, ja que ja no la necessitareu més. També evitarà que es mostri aquest diàleg.
-\n
-\nGràcies!</string>
-    <string name="upgraded_to_pro">Hola,
-\n
-\nsembla que ja teniu també la versió Pro de l\'aplicació. Un cop estigueu satisfet amb ella i potser haureu migrat les dades, podeu desinstal·lar-la per a evitar que l\'inicieu accidentalment, ja que ja no la necessitareu.
-\n
-\nGràcies!</string>
+    <string name="upgraded_from_free_gallery">Hola, \n \nsembla que acabeu d\'actualitzar a partir de la versió gratuïta. Un cop estigueu satisfet amb aquesta i potser haureu migrat la vostra configuració i els favorits, podeu desinstal·lar l\'antiga gratuïta per a evitar que l\'inicieu accidentalment, ja que no la necessitareu. També evitarà que es mostri aquest diàleg. \n \nGràcies!</string>
+    <string name="upgraded_to_pro_gallery">Hola, \n \nsembla que ja teniu la versió Pro de l\'aplicació. Un cop estigueu satisfet amb ella i potser haureu migrat la vostra configuració i els favorits, podeu desinstal·lar-la per a evitar que la inicieu accidentalment, ja que no la necessitareu. \n \nGràcies!</string>
+    <string name="upgraded_from_free">Hola \n \nsembla que acabeu d\'actualitzar a partir de la versió gratuïta. Un cop estigueu satisfet amb aquesta i potser haureu migrat les vostres dades, podeu desinstal·lar l\'antiga gratuïta per a evitar llançar-la accidentalment, ja que ja no la necessitareu més. També evitarà que es mostri aquest diàleg. \n \nGràcies!</string>
+    <string name="upgraded_to_pro">Hola, \n \nsembla que ja teniu també la versió Pro de l\'aplicació. Un cop estigueu satisfet amb ella i potser haureu migrat les dades, podeu desinstal·lar-la per a evitar que l\'inicieu accidentalment, ja que ja no la necessitareu. \n \nGràcies!</string>
     <string name="upgraded_from_free_calendar">Hola,
 \n
 \nsembla que acabeu d\'actualitzar a partir de la versió gratuïta. Si voleu migrar els esdeveniments emmagatzemats localment, heu de fer-ho manualment exportant-los a un fitxer .ics en la versió gratuïta de l\'aplicació i important-los aquí a través del menú superior.
@@ -889,8 +873,7 @@
 \nGràcies!</string>
     <string name="rate_our_app">Valoreu la nostra aplicació, si us plau :)</string>
     <string name="thank_you">Gràcies</string>
-    <string name="widget_locked_pro">El giny està bloquejat.
-\nActualitzeu a la versió Pro per a desbloquejar-lo.</string>
+    <string name="widget_locked_pro">El giny està bloquejat. \nActualitzeu a la versió Pro per a desbloquejar-lo.</string>
     <string name="new_app">Hola,&lt;br&gt;&lt;br&gt; només informar-vos que recentment s\'ha publicat una aplicació nova:&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; Podeu baixar-la prement el títol.&lt;br&gt;&lt;br&gt; Gràcies</string>
     <string name="app_launcher_short">Llançador d\'aplicacions</string>
     <string name="calculator_short">Calculadora</string>
@@ -1053,11 +1036,7 @@
     <string name="unlock_for_one_final_day">Desbloqueja l\'aplicació durant un últim dia</string>
     <string name="welcome_to_app_name">Us donem la benvinguda a %s!</string>
     <string name="trial_start_description">Gràcies per utilitzar la nostra aplicació. Podeu utilitzar aquesta versió desbloquejada durant <font color="#FFFFFF">%d dies</font>. Un cop finalitzi la prova, considereu l\'actualització a la versió Pro. Té una gran quantitat de funcions noves, un disseny modern, sense anuncis i moltes altres millores. \n \nNomés l\'heu de pagar una vegada a la vida i si no esteu satisfet, podeu desinstal·lar-la i obtenir un reemborsament. \n \nEspero que us agradi :)</string>
-    <string name="trial_end_description">Si us plau, actualitzeu a la versió Pro per a gaudir de l\'aplicació al màxim.
-\n
-\nNomés l\'heu de pagar una vegada a la vida i si no esteu satisfet, podeu desinstal·lar-la i obtenir un reemborsament.
-\n
-\nEns veiem allà :)</string>
+    <string name="trial_end_description">Si us plau, actualitzeu a la versió Pro per a gaudir de l\'aplicació al màxim. \n \nNomés l\'heu de pagar una vegada a la vida i si no esteu satisfet, podeu desinstal·lar-la i obtenir un reemborsament. \n \nEns veiem allà :)</string>
     <plurals name="trial_expires_days">
         <item quantity="one">Aquesta versió de prova caduca d\'aquí a %d dia.</item>
         <item quantity="many">Aquesta versió de prova caduca d\'aquí a %d dies.</item>
@@ -1092,8 +1071,7 @@
     <string name="general_settings">General</string>
     <string name="notification_sound">So de notificació</string>
     <string name="text">Text</string>
-    <string name="copyright">v %1$s
-\nCopyright © Fossify %2$d</string>
+    <string name="copyright">v %1$s \nCopyright © Fossify %2$d</string>
     <string name="social">Social</string>
     <string name="donate_short">Ajudeu-nos comprant la &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;, també desbloquejarà totes les funcions de l\'aplicació incloent-hi la personalització del color.</string>
     <string name="app_icon_color_warning">Atenció: És possible que alguns llançadors no manegin correctament la personalització de la icona de l\'aplicació. Si la icona desapareix, intenteu llançar l\'aplicació a través de Google Play o d\'un giny, si és accessible. Després del llançament, restaureu el color predeterminat de la icona verda #106D1F. En casos extrems, pot ser necessària la reinstal·lació de l\'aplicació.</string>
