@@ -20,12 +20,12 @@ class SecurityDialog(
     private val callback: (hash: String, type: Int, success: Boolean) -> Unit
 ) : HashListener {
     private var dialog: AlertDialog? = null
-    private val view = DialogSecurityBinding.inflate(LayoutInflater.from(activity), null, false)
+    private val binding = DialogSecurityBinding.inflate(LayoutInflater.from(activity), null, false)
     private var tabsAdapter: PasswordTypesAdapter
     private var viewPager: MyDialogViewPager
 
     init {
-        view.apply {
+        binding.apply {
             viewPager = dialogTabViewPager
             viewPager.offscreenPageLimit = 2
             tabsAdapter = PasswordTypesAdapter(
@@ -81,7 +81,7 @@ class SecurityDialog(
             .setOnCancelListener { onCancelFail() }
             .setNegativeButton(R.string.cancel) { _, _ -> onCancelFail() }
             .apply {
-                activity.setupDialogStuff(view.root, this) { alertDialog ->
+                activity.setupDialogStuff(binding.root, this) { alertDialog ->
                     dialog = alertDialog
                 }
             }
