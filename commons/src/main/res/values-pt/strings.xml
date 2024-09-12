@@ -1072,4 +1072,5 @@
         <item quantity="many">O período de testes caduca dentro de %d dias.</item>
         <item quantity="other">O período de testes caduca dentro de %d dias.</item>
     </plurals>
+    <string name="format_phone_numbers">Formatar números de telefone</string>
 </resources>
