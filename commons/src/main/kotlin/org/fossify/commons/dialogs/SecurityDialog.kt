@@ -34,7 +34,7 @@ class SecurityDialog(
                 hashListener = this@SecurityDialog,
                 scrollView = dialogScrollview,
                 biometricPromptHost = AuthPromptHost(activity as FragmentActivity),
-                showBiometricIdTab = shouldShowBiometricIdTab(),
+                showBiometricIdTab = activity.isBiometricAuthSupported(),
                 showBiometricAuthentication = showTabIndex == PROTECTION_FINGERPRINT && isRPlus()
             )
             viewPager.adapter = tabsAdapter
@@ -49,7 +49,7 @@ class SecurityDialog(
             if (showTabIndex == SHOW_ALL_TABS) {
                 val textColor = root.context.getProperTextColor()
 
-                if (shouldShowBiometricIdTab()) {
+                if (activity.isBiometricAuthSupported()) {
                     val tabTitle = if (isRPlus()) R.string.biometrics else R.string.fingerprint
                     dialogTabLayout.addTab(dialogTabLayout.newTab().setText(tabTitle), PROTECTION_FINGERPRINT)
                 }
@@ -105,14 +105,6 @@ class SecurityDialog(
     private fun updateTabVisibility() {
         for (i in 0..2) {
             tabsAdapter.isTabVisible(i, viewPager.currentItem == i)
-        }
-    }
-
-    private fun shouldShowBiometricIdTab(): Boolean {
-        return if (isRPlus()) {
-            activity.isBiometricIdAvailable()
-        } else {
-            activity.isFingerPrintSensorAvailable()
         }
     }
 }

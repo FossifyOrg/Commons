@@ -62,6 +62,10 @@
             android:exported="false"
             android:label="@string/donate_to_fossify" />
 
+        <activity
+            android:name=".activities.AppLockActivity"
+            android:exported="false" />
+
         <receiver
             android:name=".receivers.SharedThemeReceiver"
             android:enabled="true"

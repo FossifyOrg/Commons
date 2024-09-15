@@ -170,6 +170,14 @@ open class BaseConfig(val context: Context) {
         get() = prefs.getInt(APP_PROTECTION_TYPE, PROTECTION_PATTERN)
         set(appProtectionType) = prefs.edit().putInt(APP_PROTECTION_TYPE, appProtectionType).apply()
 
+    var lastUnlockTimestampMs: Long
+        get() = prefs.getLong(LAST_UNLOCK_TIMESTAMP_MS, 0L)
+        set(value) = prefs.edit().putLong(LAST_UNLOCK_TIMESTAMP_MS, value).apply()
+
+    var unlockTimeoutDurationMs: Long
+        get() = prefs.getLong(UNLOCK_TIMEOUT_DURATION_MS, DEFAULT_UNLOCK_TIMEOUT_DURATION)
+        set(value) = prefs.edit().putLong(UNLOCK_TIMEOUT_DURATION_MS, value).apply()
+
     // file delete and move protection
     var isDeletePasswordProtectionOn: Boolean
         get() = prefs.getBoolean(DELETE_PASSWORD_PROTECTION, false)

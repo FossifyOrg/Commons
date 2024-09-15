@@ -82,8 +82,8 @@ dependencies {
     implementation(libs.androidx.swiperefreshlayout)
     implementation(libs.androidx.exifinterface)
     implementation(libs.androidx.biometric.ktx)
+    implementation(libs.androidx.lifecycle.process)
     implementation(libs.ez.vcard)
-
 
     implementation(libs.bundles.lifecycle)
     implementation(libs.bundles.compose)

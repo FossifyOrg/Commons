@@ -144,6 +144,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
         }
 
         updateNavigationBarColor(navBarColor)
+        maybeLaunchAppUnlockActivity(requestCode = REQUEST_APP_UNLOCK)
     }
 
     override fun onDestroy() {
@@ -182,13 +183,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
     }
 
     fun updateStatusbarColor(color: Int) {
-        window.statusBarColor = color
-
-        if (color.getContrastColor() == DARK_GREY) {
-            window.decorView.systemUiVisibility = window.decorView.systemUiVisibility.addBit(View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR)
-        } else {
-            window.decorView.systemUiVisibility = window.decorView.systemUiVisibility.removeBit(View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR)
-        }
+        window.updateStatusBarColors(color)
     }
 
     fun animateStatusBarColor(colorTo: Int, colorFrom: Int = window.statusBarColor, duration: Long = 300L) {

@@ -2,18 +2,23 @@ package org.fossify.commons.views
 
 import android.annotation.SuppressLint
 import android.content.Context
+import android.content.res.ColorStateList
 import android.os.Handler
 import android.util.AttributeSet
 import android.view.MotionEvent
 import android.widget.TextView
 import androidx.biometric.auth.AuthPromptHost
 import androidx.core.os.postDelayed
+import androidx.core.widget.TextViewCompat
 import com.andrognito.patternlockview.PatternLockView
 import com.andrognito.patternlockview.listener.PatternLockViewListener
 import com.andrognito.patternlockview.utils.PatternLockUtils
 import org.fossify.commons.R
 import org.fossify.commons.databinding.TabPatternBinding
-import org.fossify.commons.extensions.*
+import org.fossify.commons.extensions.getProperPrimaryColor
+import org.fossify.commons.extensions.getProperTextColor
+import org.fossify.commons.extensions.performHapticFeedback
+import org.fossify.commons.extensions.updateTextColors
 import org.fossify.commons.helpers.PROTECTION_PATTERN
 import org.fossify.commons.interfaces.BaseSecurityTab
 import org.fossify.commons.interfaces.HashListener
@@ -59,14 +64,14 @@ class PatternTab(context: Context, attrs: AttributeSet) : BaseSecurityTab(contex
             override fun onProgress(progressPattern: MutableList<PatternLockView.Dot>?) {}
         })
 
-        binding.patternLockIcon.applyColorFilter(textColor)
+        TextViewCompat.setCompoundDrawableTintList(binding.patternLockTitle, ColorStateList.valueOf(textColor))
         maybeShowCountdown()
     }
 
     override fun initTab(
         requiredHash: String,
         listener: HashListener,
-        scrollView: MyScrollView,
+        scrollView: MyScrollView?,
         biometricPromptHost: AuthPromptHost,
         showBiometricAuthentication: Boolean
     ) {

@@ -1,7 +1,6 @@
 package org.fossify.commons.activities
 
 import android.os.Bundle
-import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.runtime.remember
 import kotlinx.collections.immutable.toImmutableList
@@ -11,7 +10,7 @@ import org.fossify.commons.compose.theme.AppThemeSurface
 import org.fossify.commons.helpers.APP_FAQ
 import org.fossify.commons.models.FAQItem
 
-class FAQActivity : ComponentActivity() {
+class FAQActivity : BaseComposeActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdgeSimple()

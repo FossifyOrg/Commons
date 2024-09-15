@@ -195,10 +195,13 @@ const val AUTO_BACKUP_FILENAME = "auto_backup_filename"
 const val LAST_AUTO_BACKUP_TIME = "last_auto_backup_time"
 const val PASSWORD_RETRY_COUNT = "password_retry_count"
 const val PASSWORD_COUNTDOWN_START_MS = "password_count_down_start_ms"
+const val LAST_UNLOCK_TIMESTAMP_MS = "last_unlock_timestamp_ms"
+const val UNLOCK_TIMEOUT_DURATION_MS = "unlock_timeout_duration_ms"
 
 const val MAX_PASSWORD_RETRY_COUNT = 3
 const val DEFAULT_PASSWORD_COUNTDOWN = 5
 const val MINIMUM_PIN_LENGTH = 4
+const val DEFAULT_UNLOCK_TIMEOUT_DURATION = 30000L
 
 // contact grid view constants
 const val CONTACTS_GRID_MAX_COLUMNS_COUNT = 10
@@ -268,6 +271,7 @@ const val SELECT_EXPORT_SETTINGS_FILE_INTENT = 1006
 const val REQUEST_CODE_SET_DEFAULT_DIALER = 1007
 const val CREATE_DOCUMENT_SDK_30 = 1008
 const val REQUEST_CODE_SET_DEFAULT_CALLER_ID = 1010
+const val REQUEST_APP_UNLOCK = 1012
 
 // sorting
 const val SORT_ORDER = "sort_order"
@@ -293,7 +297,6 @@ const val SORT_BY_CUSTOM = 131072
 const val SORT_BY_DATE_CREATED = 262144
 
 // security
-const val WAS_PROTECTION_HANDLED = "was_protection_handled"
 const val PROTECTION_NONE = -1
 const val PROTECTION_PATTERN = 0
 const val PROTECTION_PIN = 1

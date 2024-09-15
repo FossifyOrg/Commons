@@ -1643,3 +1643,13 @@ fun Activity.onApplyWindowInsets(callback: (WindowInsetsCompat) -> Unit) {
         insets
     }
 }
+
+fun Activity.overrideActivityTransition(enterAnim: Int, exitAnim: Int, exiting: Boolean = false) {
+    if (isUpsideDownCakePlus()) {
+        val overrideType = if (exiting) Activity.OVERRIDE_TRANSITION_CLOSE else Activity.OVERRIDE_TRANSITION_OPEN
+        overrideActivityTransition(overrideType, enterAnim, exitAnim)
+    } else {
+        @Suppress("DEPRECATION")
+        overridePendingTransition(enterAnim, exitAnim)
+    }
+}
