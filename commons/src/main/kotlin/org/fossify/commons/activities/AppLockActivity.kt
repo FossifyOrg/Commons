@@ -45,8 +45,8 @@ class AppLockActivity : AppCompatActivity(), HashListener {
 
         binding.viewPager.apply {
             this.adapter = adapter
-            currentItem = baseConfig.appProtectionType
             isUserInputEnabled = false
+            setCurrentItem(baseConfig.appProtectionType, false)
             onGlobalLayout {
                 for (i in 0..2) {
                     adapter.isTabVisible(i, binding.viewPager.currentItem == i)
