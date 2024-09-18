@@ -7,6 +7,8 @@ import org.fossify.commons.extensions.checkUseEnglish
 
 open class FossifyApp : Application() {
 
+    open val isAppLockFeatureAvailable = false
+
     override fun onCreate() {
         super.onCreate()
         checkUseEnglish()
@@ -14,6 +16,8 @@ open class FossifyApp : Application() {
     }
 
     private fun setupAppLockManager() {
-        ProcessLifecycleOwner.get().lifecycle.addObserver(appLockManager)
+        if (isAppLockFeatureAvailable) {
+            ProcessLifecycleOwner.get().lifecycle.addObserver(appLockManager)
+        }
     }
 }
