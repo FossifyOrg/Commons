@@ -41,6 +41,9 @@ import org.fossify.commons.databinding.DialogTitleBinding
 import org.fossify.commons.dialogs.*
 import org.fossify.commons.dialogs.WritePermissionDialog.WritePermissionDialogMode
 import org.fossify.commons.helpers.*
+import org.fossify.commons.helpers.MyContentProvider.COL_LAST_UPDATED_TS
+import org.fossify.commons.helpers.MyContentProvider.GLOBAL_CONFIG_UPDATED
+import org.fossify.commons.helpers.MyContentProvider.MY_CONTENT_URI
 import org.fossify.commons.models.*
 import org.fossify.commons.views.MyTextView
 import java.io.*
@@ -1399,12 +1402,15 @@ fun Activity.handleLockedFolderOpening(path: String, callback: (success: Boolean
     }
 }
 
-fun Activity.updateSharedTheme(sharedTheme: SharedTheme) {
-    try {
-        val contentValues = MyContentProvider.fillThemeContentValues(sharedTheme)
-        applicationContext.contentResolver.update(MyContentProvider.MY_CONTENT_URI, contentValues, null, null)
-    } catch (e: Exception) {
-        showErrorToast(e)
+fun Activity.updateGlobalConfig(contentValues: ContentValues) {
+    ensureBackgroundThread {
+        try {
+            contentValues.put(COL_LAST_UPDATED_TS, System.currentTimeMillis() / 1000)
+            applicationContext.contentResolver.update(MY_CONTENT_URI, contentValues, null, null)
+            sendBroadcast(Intent(GLOBAL_CONFIG_UPDATED))
+        } catch (e: Exception) {
+            showErrorToast(e)
+        }
     }
 }
 
@@ -1482,7 +1488,7 @@ fun Activity.setupDialogStuff(
 
             val bgDrawable = when {
                 isBlackAndWhiteTheme() -> resources.getDrawable(R.drawable.black_dialog_background, theme)
-                baseConfig.isUsingSystemTheme -> resources.getDrawable(R.drawable.dialog_you_background, theme)
+                isDynamicTheme() -> resources.getDrawable(R.drawable.dialog_you_background, theme)
                 else -> resources.getColoredDrawableWithColor(R.drawable.dialog_bg, baseConfig.backgroundColor)
             }
 
@@ -1492,7 +1498,7 @@ fun Activity.setupDialogStuff(
     }
 }
 
-fun Activity.getAlertDialogBuilder() = if (baseConfig.isUsingSystemTheme) {
+fun Activity.getAlertDialogBuilder() = if (isDynamicTheme()) {
     MaterialAlertDialogBuilder(this)
 } else {
     AlertDialog.Builder(this)

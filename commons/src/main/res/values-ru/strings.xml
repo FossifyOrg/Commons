@@ -346,7 +346,7 @@
     <string name="undo_changes_confirmation">Отменить изменения?</string>
     <string name="cannot_be_undone">Это действие не может быть отменено.</string>
     <string name="save_before_closing">Есть несохранённые изменения. Сохранить перед выходом?</string>
-    <string name="share_colors_success">Цвета обновлены. Добавлена новая тема с названием \"Общая\", в дальнейшем используйте её для обновления цветов всех приложений.</string>
+    <string name="global_theme_success">Цвета обновлены. Добавлена новая тема с названием \"Общая\", в дальнейшем используйте её для обновления цветов всех приложений.</string>
     <string name="light_theme">Светлая</string>
     <string name="dark_theme">Тёмная</string>
     <string name="auto_theme">Автовыбор</string>

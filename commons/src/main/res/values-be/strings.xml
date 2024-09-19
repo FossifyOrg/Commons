@@ -325,7 +325,7 @@
     <string name="undo_changes_confirmation">Вы ўпэўнены, што хочаце адмяніць зробленыя змены\?</string>
     <string name="cannot_be_undone">Гэта дзеянне нельга адмяніць.</string>
     <string name="save_before_closing">У вас ёсць незахаваныя змены. Захаваць перад выхадам\?</string>
-    <string name="share_colors_success">Колеры паспяхова абноўлены. Была дададзена новая тэма пад назвай \"Агульны доступ\", выкарыстоўвайце яе для абнаўлення ўсіх колераў праграм у будучыні.</string>
+    <string name="global_theme_success">Колеры паспяхова абноўлены. Была дададзена новая тэма пад назвай \"Агульны доступ\", выкарыстоўвайце яе для абнаўлення ўсіх колераў праграм у будучыні.</string>
     <string name="light_theme">Светлая</string>
     <string name="dark_theme">Цёмная</string>
     <string name="auto_theme">Аўто</string>

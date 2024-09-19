@@ -331,7 +331,7 @@
     <string name="undo_changes_confirmation">Сигурни ли сте, че искате да отмените промените\?</string>
     <string name="cannot_be_undone">Това действие не може да бъде отменено.</string>
     <string name="save_before_closing">Има незапазени промени. Запазване преди изход\?</string>
-    <string name="share_colors_success">Цветовете се актуализираха успешно. Добавена е нова тема, наречена \'Споделена\', моля, използвайте нея за актуализиране на всички цветове на приложението в бъдеще.</string>
+    <string name="global_theme_success">Цветовете се актуализираха успешно. Добавена е нова тема, наречена \'Споделена\', моля, използвайте нея за актуализиране на всички цветове на приложението в бъдеще.</string>
     <string name="light_theme">Светло</string>
     <string name="dark_theme">Тъмно</string>
     <string name="auto_theme">Автоматичен</string>

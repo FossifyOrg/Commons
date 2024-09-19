@@ -235,35 +235,18 @@ open class BaseConfig(val context: Context) {
 
     val wasUseEnglishToggledFlow = ::wasUseEnglishToggled.asFlowNonNull()
 
-    var wasSharedThemeEverActivated: Boolean
-        get() = prefs.getBoolean(WAS_SHARED_THEME_EVER_ACTIVATED, false)
-        set(wasSharedThemeEverActivated) = prefs.edit().putBoolean(WAS_SHARED_THEME_EVER_ACTIVATED, wasSharedThemeEverActivated).apply()
+    var isGlobalThemeEnabled: Boolean
+        get() = prefs.getBoolean(IS_GLOBAL_THEME_ENABLED, false)
+        set(isGlobalThemeEnabled) = prefs.edit().putBoolean(IS_GLOBAL_THEME_ENABLED, isGlobalThemeEnabled).apply()
 
-    var isUsingSharedTheme: Boolean
-        get() = prefs.getBoolean(IS_USING_SHARED_THEME, false)
-        set(isUsingSharedTheme) = prefs.edit().putBoolean(IS_USING_SHARED_THEME, isUsingSharedTheme).apply()
-
-    // used by Fossify Thank You, stop using shared Shared Theme if it has been changed in it
-    var shouldUseSharedTheme: Boolean
-        get() = prefs.getBoolean(SHOULD_USE_SHARED_THEME, false)
-        set(shouldUseSharedTheme) = prefs.edit().putBoolean(SHOULD_USE_SHARED_THEME, shouldUseSharedTheme).apply()
-
-    var isUsingAutoTheme: Boolean
-        get() = prefs.getBoolean(IS_USING_AUTO_THEME, false)
-        set(isUsingAutoTheme) = prefs.edit().putBoolean(IS_USING_AUTO_THEME, isUsingAutoTheme).apply()
-
-    var isUsingSystemTheme: Boolean
-        get() = prefs.getBoolean(IS_USING_SYSTEM_THEME, isSPlus())
-        set(isUsingSystemTheme) = prefs.edit().putBoolean(IS_USING_SYSTEM_THEME, isUsingSystemTheme).apply()
+    var isSystemThemeEnabled: Boolean
+        get() = prefs.getBoolean(IS_SYSTEM_THEME_ENABLED, isSPlus())
+        set(isSystemThemeEnabled) = prefs.edit().putBoolean(IS_SYSTEM_THEME_ENABLED, isSystemThemeEnabled).apply()
 
     var wasCustomThemeSwitchDescriptionShown: Boolean
         get() = prefs.getBoolean(WAS_CUSTOM_THEME_SWITCH_DESCRIPTION_SHOWN, false)
         set(wasCustomThemeSwitchDescriptionShown) = prefs.edit().putBoolean(WAS_CUSTOM_THEME_SWITCH_DESCRIPTION_SHOWN, wasCustomThemeSwitchDescriptionShown)
             .apply()
-
-    var wasSharedThemeForced: Boolean
-        get() = prefs.getBoolean(WAS_SHARED_THEME_FORCED, false)
-        set(wasSharedThemeForced) = prefs.edit().putBoolean(WAS_SHARED_THEME_FORCED, wasSharedThemeForced).apply()
 
     var showInfoBubble: Boolean
         get() = prefs.getBoolean(SHOW_INFO_BUBBLE, true)
@@ -621,6 +604,13 @@ open class BaseConfig(val context: Context) {
     var passwordCountdownStartMs: Long
         get() = prefs.getLong(PASSWORD_COUNTDOWN_START_MS, 0L)
         set(passwordCountdownStartMs) = prefs.edit().putLong(PASSWORD_COUNTDOWN_START_MS, passwordCountdownStartMs).apply()
+
+    // Accessibility
+    var showCheckmarksOnSwitches: Boolean
+        get() = prefs.getBoolean(SHOW_CHECKMARKS_ON_SWITCHES, false)
+        set(showCheckmarksOnSwitches) = prefs.edit().putBoolean(SHOW_CHECKMARKS_ON_SWITCHES, showCheckmarksOnSwitches).apply()
+
+    var showCheckmarksOnSwitchesFlow = ::showCheckmarksOnSwitches.asFlowNonNull()
 
     protected fun <T> KProperty0<T>.asFlow(emitOnCollect: Boolean = false): Flow<T?> =
         prefs.run { sharedPreferencesCallback(sendOnCollect = emitOnCollect) { this@asFlow.get() } }

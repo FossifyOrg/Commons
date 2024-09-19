@@ -344,7 +344,7 @@
     <string name="undo_changes_confirmation">Ви впевнені, що хочете скасувати зміни?</string>
     <string name="cannot_be_undone">Цю дію неможливо скасувати.</string>
     <string name="save_before_closing">Ви маєте незбережені зміни. Зберегти перед виходом?</string>
-    <string name="share_colors_success">Кольори успішно оновлено. Було додано нову тему під назвою «Загальна», використовуйте її для оновлення кольорів усіх застосунків у майбутньому.</string>
+    <string name="global_theme_success">Кольори успішно оновлено. Було додано нову тему під назвою «Загальна», використовуйте її для оновлення кольорів усіх застосунків у майбутньому.</string>
     <string name="light_theme">Світла</string>
     <string name="dark_theme">Темна</string>
     <string name="auto_theme">Автоматично</string>

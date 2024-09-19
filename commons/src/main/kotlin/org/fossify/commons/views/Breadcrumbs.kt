@@ -166,7 +166,7 @@ class Breadcrumbs(context: Context, attrs: AttributeSet) : HorizontalScrollView(
 
     private fun addBreadcrumb(item: FileDirItem, index: Int, addPrefix: Boolean) {
         if (itemsLayout.childCount == 0) {
-            val firstItemBgColor = if (isShownInDialog && context.baseConfig.isUsingSystemTheme) {
+            val firstItemBgColor = if (isShownInDialog && context.isDynamicTheme()) {
                 resources.getColor(R.color.you_dialog_background_color, context.theme)
             } else {
                 context.getProperBackgroundColor()
