@@ -689,6 +689,7 @@
     <string name="improved_color_customization">Improved color customization</string>
     <string name="customize_colors">Customize colors</string>
     <string name="customize_colors_locked">Customize colors (Locked)</string>
+    <string name="theme_and_colors">Theme and colors</string>
     <string name="feature_locked">Locked</string>
     <string name="customize_widget_colors">Customize widget colors</string>
     <string name="customize_notifications">Customize notifications</string>

@@ -80,6 +80,7 @@ class CustomizationActivity : BaseSimpleActivity() {
         showOrHideThankYouFeatures()
         originalAppIconColor = baseConfig.appIconColor
         updateLabelColors()
+        updateHeaderColors()
     }
 
     override fun onResume() {
@@ -271,6 +272,7 @@ class CustomizationActivity : BaseSimpleActivity() {
         hasUnsavedChanges = true
         refreshMenuItems()
         updateLabelColors(getCurrentTextColor())
+        updateHeaderColors(getCurrentAccentOrPrimaryColor())
         updateBackgroundColor(getCurrentBackgroundColor())
         updateActionbarColor(getCurrentTopBarColor())
         updateAutoThemeFields()
@@ -405,6 +407,7 @@ class CustomizationActivity : BaseSimpleActivity() {
         updateActionbarColor()
         refreshMenuItems()
         updateLabelColors(getCurrentTextColor())
+        updateHeaderColors(getCurrentAccentOrPrimaryColor())
         updateApplyToAllColors()
     }
 
@@ -470,6 +473,7 @@ class CustomizationActivity : BaseSimpleActivity() {
         curPrimaryColor = color
         updateActionbarColor(color)
         updateApplyToAllColors()
+        updateHeaderColors(color)
     }
 
     private fun handleAccentColorLayout() {
@@ -545,6 +549,7 @@ class CustomizationActivity : BaseSimpleActivity() {
                     curAccentColor = color
                     colorChanged()
                     updateApplyToAllColors()
+                    updateHeaderColors(curAccentColor)
                     updateActionbarColor(getCurrentTopBarColor())
                     updateTopBarColors(binding.customizationToolbar, getCurrentTopBarColor())
                 }
@@ -601,12 +606,16 @@ class CustomizationActivity : BaseSimpleActivity() {
         }
     }
 
+    private fun updateHeaderColors(primaryColor: Int = getProperPrimaryColor()) {
+        arrayListOf(binding.settingsThemeAndColorsLabel, binding.settingsAllFossifyAppsLabel).forEach {
+            it.setTextColor(primaryColor)
+        }
+    }
+
     private fun updateApplyToAllColors() {
-        val properAccentColor = if (isCurrentWhiteTheme() || isCurrentBlackAndWhiteTheme()) curAccentColor else getCurrentPrimaryColor()
-        binding.settingsAllFossifyAppsLabel.setTextColor(properAccentColor)
         binding.applyToAll.setColors(
             textColor = getCurrentTextColor(),
-            accentColor = properAccentColor,
+            accentColor = getCurrentAccentOrPrimaryColor(),
             backgroundColor = getCurrentBackgroundColor()
         )
     }
@@ -632,6 +641,11 @@ class CustomizationActivity : BaseSimpleActivity() {
         else -> curPrimaryColor
     }
 
+    private fun getCurrentAccentOrPrimaryColor() = when {
+        isCurrentWhiteTheme() || isCurrentBlackAndWhiteTheme() -> curAccentColor
+        else -> getCurrentPrimaryColor()
+    }
+
     private fun getMaterialYouString() = getString(R.string.system_default)
 
     private fun showOrHideThankYouFeatures() {
@@ -639,6 +653,7 @@ class CustomizationActivity : BaseSimpleActivity() {
         binding.applyToAllHolder.beVisibleIf(showThankYouFeatures)
         binding.applyToAllDivider.root.beVisibleIf(showThankYouFeatures)
         binding.settingsAllFossifyAppsLabel.beVisibleIf(showThankYouFeatures)
+        binding.settingsThemeAndColorsLabel.beVisibleIf(showThankYouFeatures)
         binding.applyToAll.isChecked = baseConfig.isGlobalThemeEnabled
         updateApplyToAllColors()
     }

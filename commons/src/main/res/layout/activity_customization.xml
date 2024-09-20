@@ -29,6 +29,13 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+            <TextView
+                android:id="@+id/settings_theme_and_colors_label"
+                style="@style/SettingsSectionLabelStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/theme_and_colors" />
+
             <RelativeLayout
                 android:id="@+id/customization_theme_holder"
                 style="@style/SettingsHolderTextViewStyle"
