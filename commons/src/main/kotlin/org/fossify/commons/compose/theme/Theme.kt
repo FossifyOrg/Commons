@@ -1,7 +1,6 @@
 package org.fossify.commons.compose.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
-import androidx.compose.material.ripple.LocalRippleTheme
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.graphics.Color
@@ -91,7 +90,7 @@ internal fun Theme(
         shapes = Shapes,
         content = {
             CompositionLocalProvider(
-                LocalRippleTheme provides DynamicThemeRipple,
+                LocalRippleConfiguration provides dynamicRippleConfiguration(),
                 LocalTheme provides theme,
                 LocalDimensions provides dimensions
             ) {

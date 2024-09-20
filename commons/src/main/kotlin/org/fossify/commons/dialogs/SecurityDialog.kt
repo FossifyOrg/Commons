@@ -54,7 +54,7 @@ class SecurityDialog(
                     dialogTabLayout.addTab(dialogTabLayout.newTab().setText(tabTitle), PROTECTION_FINGERPRINT)
                 }
 
-                if (activity.baseConfig.isUsingSystemTheme) {
+                if (activity.isDynamicTheme()) {
                     dialogTabLayout.setBackgroundColor(activity.resources.getColor(R.color.you_dialog_background_color))
                 } else {
                     dialogTabLayout.setBackgroundColor(root.context.getProperBackgroundColor())

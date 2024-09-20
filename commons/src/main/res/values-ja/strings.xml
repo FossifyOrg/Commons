@@ -295,7 +295,7 @@
     <string name="undo_changes_confirmation">変更を元に戻してもよろしいですか？</string>
     <string name="cannot_be_undone">この操作は元に戻せません。</string>
     <string name="save_before_closing">保存していない変更があります。保存しますか？</string>
-    <string name="share_colors_success">色の更新に成功しました。新しいテーマ \'共有\' が追加されたので、今後はそちらから全てのアプリの色変更を行ってください。</string>
+    <string name="global_theme_success">色の更新に成功しました。新しいテーマ \'共有\' が追加されたので、今後はそちらから全てのアプリの色変更を行ってください。</string>
     <string name="purchase_thank_you">
         <![CDATA[
             この機能のロックを解除して開発者をサポートするには、<a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> アプリを購入してください。

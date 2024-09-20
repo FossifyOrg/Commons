@@ -7,6 +7,7 @@ import androidx.appcompat.content.res.AppCompatResources
 import com.google.android.material.materialswitch.MaterialSwitch
 import org.fossify.commons.R
 import org.fossify.commons.extensions.adjustAlpha
+import org.fossify.commons.extensions.baseConfig
 import org.fossify.commons.extensions.getContrastColor
 
 class MyMaterialSwitch : MaterialSwitch {
@@ -15,6 +16,10 @@ class MyMaterialSwitch : MaterialSwitch {
     constructor(context: Context, attrs: AttributeSet) : super(context, attrs)
 
     constructor(context: Context, attrs: AttributeSet, defStyle: Int) : super(context, attrs, defStyle)
+
+    init {
+        setShowCheckmark(context.baseConfig.showCheckmarksOnSwitches)
+    }
 
     fun setShowCheckmark(showCheckmark: Boolean) {
         if (showCheckmark) {

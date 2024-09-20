@@ -333,7 +333,7 @@
     <string name="save_before_closing">Kaydedilmemiş değişiklikleriniz var. Çıkmadan önce kaydedilsin mi?</string>
     <string name="apply_to_all_apps">Renkleri tüm Fossify uygulamalarına uygula</string>
     <string name="app_icon_color_warning">Dikkat: Bazı başlatıcılar uygulama simgesi özelleştirmesini doğru şekilde yapamayabilir. Simge kaybolursa, uygulamayı Google Play veya erişilebiliyorsa bir widget aracılığıyla başlatmayı deneyin. Başlattıktan sonra, öntanımlı #106D1F yeşil simge rengini geri yükleyin. Aşırı durumlarda, uygulamanın yeniden kurulması gerekebilir.</string>
-    <string name="share_colors_success">"Renkler başarıyla güncellendi. 'Paylaşılan' adlı yeni bir Tema eklendi, lütfen gelecekte tüm uygulama renklerini güncellemek için onu kullanın."</string>
+    <string name="global_theme_success">"Renkler başarıyla güncellendi. 'Paylaşılan' adlı yeni bir Tema eklendi, lütfen gelecekte tüm uygulama renklerini güncellemek için onu kullanın."</string>
     <string name="shared_theme_note">Pro uygulama sürümünü kullanıyor olsanız bile, teknik nedenlerden dolayı hala Fossify Teşekkürler\'e ihtiyacınız olduğunu unutmayın. Renk eşitlemesini o yapar.</string>
     <string name="purchase_thank_you">Bu işlevin kilidini açmak ve geliştirmeyi desteklemek için lütfen &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Teşekkürler&lt;/a&gt;\'i satın alın. Teşekkürler!</string>
     <string name="light_theme">Aydınlık</string>

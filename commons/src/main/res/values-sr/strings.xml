@@ -297,7 +297,7 @@
     <string name="undo_changes_confirmation">Да ли желите да поништите измене?</string>
     <string name="cannot_be_undone">Ова радња се не може опозвати.</string>
     <string name="save_before_closing">Имате несачуване измене. Сачувај пре изласка?</string>
-    <string name="share_colors_success">Боје су ажуриране успешно. Нова тема под именом \'Shared\' је додата, молимо вас да је користите за ажурирање свих боја у будућности.</string>
+    <string name="global_theme_success">Боје су ажуриране успешно. Нова тема под именом \'Shared\' је додата, молимо вас да је користите за ажурирање свих боја у будућности.</string>
     <string name="purchase_thank_you">
         <![CDATA[
             Молимо вас пазарите <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> да откључате ову функцију и подржите наш развој. Хвала вам!

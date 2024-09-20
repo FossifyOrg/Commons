@@ -292,7 +292,7 @@
     <string name="undo_changes_confirmation">Ar tikrai norite atšaukti pakeitimus\?</string>
     <string name="cannot_be_undone">Šio veiksmo neįmanoma atšaukti.</string>
     <string name="save_before_closing">Yra neįrašytų pakeitimų. Įrašyti prieš išeinant\?</string>
-    <string name="share_colors_success">Spalvos sėkmingai atnaujintos. Buvo pridėtas naujas apipavidalinimas, pavadinimu, „Bendrinamas“, naudokite jį, visų programėlių spalvų atnaujinimui ateityje.</string>
+    <string name="global_theme_success">Spalvos sėkmingai atnaujintos. Buvo pridėtas naujas apipavidalinimas, pavadinimu, „Bendrinamas“, naudokite jį, visų programėlių spalvų atnaujinimui ateityje.</string>
     <string name="light_theme">Šviesus</string>
     <string name="dark_theme">Tamsus</string>
     <string name="auto_theme">Automatinis</string>

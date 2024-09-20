@@ -114,26 +114,13 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
         super.onResume()
         if (useDynamicTheme) {
             setTheme(getThemeId(showTransparentTop = showTransparentTop))
-
-            val backgroundColor = if (baseConfig.isUsingSystemTheme) {
-                resources.getColor(R.color.you_background_color, theme)
-            } else {
-                baseConfig.backgroundColor
-            }
-
-            updateBackgroundColor(backgroundColor)
+            updateBackgroundColor(getProperBackgroundColor())
         }
 
         if (showTransparentTop) {
             window.statusBarColor = Color.TRANSPARENT
         } else if (!isMaterialActivity) {
-            val color = if (baseConfig.isUsingSystemTheme) {
-                resources.getColor(R.color.you_status_bar_color)
-            } else {
-                getProperStatusBarColor()
-            }
-
-            updateActionbarColor(color)
+            updateActionbarColor(getProperStatusBarColor())
         }
 
         updateRecentsAppIcon()

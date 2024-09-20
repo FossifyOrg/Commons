@@ -4,11 +4,7 @@ import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.LocalIndication
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
-import androidx.compose.material.ripple.LocalRippleTheme
-import androidx.compose.material3.Checkbox
-import androidx.compose.material3.CheckboxColors
-import androidx.compose.material3.CheckboxDefaults
-import androidx.compose.material3.Text
+import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.ui.Alignment
@@ -18,7 +14,6 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import org.fossify.commons.compose.extensions.BooleanPreviewParameterProvider
 import org.fossify.commons.compose.extensions.MyDevices
-import org.fossify.commons.compose.extensions.NoRippleTheme
 import org.fossify.commons.compose.extensions.rememberMutableInteractionSource
 import org.fossify.commons.compose.theme.AppThemeSurface
 import org.fossify.commons.compose.theme.SimpleTheme
@@ -74,7 +69,7 @@ fun SettingsCheckBoxComponent(
                 )
             }
         }
-        CompositionLocalProvider(LocalRippleTheme provides NoRippleTheme) {
+        CompositionLocalProvider(LocalRippleConfiguration provides null) {
             Checkbox(
                 checked = initialValue,
                 onCheckedChange = { onChange?.invoke(it) },
