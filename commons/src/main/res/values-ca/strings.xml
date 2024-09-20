@@ -338,7 +338,7 @@
     <string name="undo_changes_confirmation">Segur que voleu desfer els canvis\?</string>
     <string name="cannot_be_undone">Aquesta acció no es pot desfer.</string>
     <string name="save_before_closing">Hi ha canvis no desats. Els voleu desar abans de sortir\?</string>
-    <string name="share_colors_success">Colors actualitzats correctament. S\'ha afegit un tema nou anomenat «Compartit». Feu-lo servir per a actualitzar tots els colors de l\'aplicació en el futur.</string>
+    <string name="global_theme_success">Colors actualitzats correctament. S\'ha afegit un tema nou anomenat «Compartit». Feu-lo servir per a actualitzar tots els colors de l\'aplicació en el futur.</string>
     <string name="light_theme">Clar</string>
     <string name="dark_theme">Fosc</string>
     <string name="auto_theme">Automàtic</string>

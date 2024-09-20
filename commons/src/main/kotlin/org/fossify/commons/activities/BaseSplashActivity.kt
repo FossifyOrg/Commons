@@ -22,37 +22,16 @@ abstract class BaseSplashActivity : AppCompatActivity() {
             return
         }
 
-        baseConfig.apply {
-            if (isUsingAutoTheme) {
-                val isUsingSystemDarkTheme = isUsingSystemDarkTheme()
-                isUsingSharedTheme = false
-                textColor = resources.getColor(if (isUsingSystemDarkTheme) R.color.theme_dark_text_color else R.color.theme_light_text_color)
-                backgroundColor = resources.getColor(if (isUsingSystemDarkTheme) R.color.theme_dark_background_color else R.color.theme_light_background_color)
-            }
-        }
-
-        if (!baseConfig.isUsingAutoTheme && !baseConfig.isUsingSystemTheme && isThankYouInstalled()) {
-            getSharedTheme {
-                if (it != null) {
-                    baseConfig.apply {
-                        wasSharedThemeForced = true
-                        isUsingSharedTheme = true
-                        wasSharedThemeEverActivated = true
-
-                        textColor = it.textColor
-                        backgroundColor = it.backgroundColor
-                        primaryColor = it.primaryColor
-                        accentColor = it.accentColor
-                    }
-
-                    if (baseConfig.appIconColor != it.appIconColor) {
-                        baseConfig.appIconColor = it.appIconColor
-                        checkAppIconColor()
-                    }
+        syncGlobalConfig {
+            baseConfig.apply {
+                if (isAutoTheme()) {
+                    val isUsingSystemDarkTheme = isSystemInDarkMode()
+                    textColor = resources.getColor(if (isUsingSystemDarkTheme) R.color.theme_dark_text_color else R.color.theme_light_text_color)
+                    backgroundColor =
+                        resources.getColor(if (isUsingSystemDarkTheme) R.color.theme_dark_background_color else R.color.theme_light_background_color)
                 }
-                initActivity()
             }
-        } else {
+
             initActivity()
         }
     }

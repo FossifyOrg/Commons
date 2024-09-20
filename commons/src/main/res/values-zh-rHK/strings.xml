@@ -279,7 +279,7 @@
     <string name="undo_changes_confirmation">是否撤销您的更改？</string>
     <string name="cannot_be_undone">此操作無法撤消。</string>
     <string name="save_before_closing">您尚未保存更改，是否保存？</string>
-    <string name="share_colors_success">颜色更改成功。已添加名为“共享”的新主题，以后您可以使用它来更改所有应用的颜色。</string>
+    <string name="global_theme_success">颜色更改成功。已添加名为“共享”的新主题，以后您可以使用它来更改所有应用的颜色。</string>
     <string name="light_theme">浅色主题</string>
     <string name="dark_theme">深色主题</string>
     <string name="auto_theme">自动</string>

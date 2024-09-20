@@ -314,7 +314,7 @@
     <string name="undo_changes_confirmation">Wijzigingen inderdaad ongedaan maken\?</string>
     <string name="cannot_be_undone">Deze bewerking kan niet ongedaan worden gemaakt.</string>
     <string name="save_before_closing">Er zijn niet opgeslagen wijzigingen. Opslaan voor het afsluiten\?</string>
-    <string name="share_colors_success">Kleuren gewijzigd. Gebruik het nieuwe thema \'Gedeeld\' om de kleuren voor al onze apps aan te passen.</string>
+    <string name="global_theme_success">Kleuren gewijzigd. Gebruik het nieuwe thema \'Gedeeld\' om de kleuren voor al onze apps aan te passen.</string>
     <string name="light_theme">Licht</string>
     <string name="dark_theme">Donker</string>
     <string name="auto_theme">Automatisch</string>

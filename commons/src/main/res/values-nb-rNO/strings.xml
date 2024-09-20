@@ -184,7 +184,7 @@
     <string name="undo_changes_confirmation">Er du sikker på at du vil angre dine endringer?</string>
     <string name="cannot_be_undone">Denne handlingen kan ikke angres.</string>
     <string name="save_before_closing">Du har endringer som ikke er lagret. Lagre før du avslutter?</string>
-    <string name="share_colors_success">Fargene er vellykket oppdatert. Et nytt tema kalt \'Delt\' er lagt til, bruk det for å oppdatere alle appenes farger i fremtiden.</string>
+    <string name="global_theme_success">Fargene er vellykket oppdatert. Et nytt tema kalt \'Delt\' er lagt til, bruk det for å oppdatere alle appenes farger i fremtiden.</string>
     <string name="light_theme">Lyst</string>
     <string name="dark_theme">Mørkt</string>
     <string name="auto_theme">Automatisk</string>
