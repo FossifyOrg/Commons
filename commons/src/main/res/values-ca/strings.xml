@@ -1120,4 +1120,6 @@
     <string name="little_to_no_fee">Molt poc o de franc</string>
     <string name="fee_up_to_pct">Una tarifa de fins a %1$d%%</string>
     <string name="cryptocurrency">Criptomoneda</string>
+    <string name="translation_belarusian">Belarús</string>
+    <string name="translation_central_kurdish">Kurd central</string>
 </resources>

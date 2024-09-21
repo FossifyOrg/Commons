@@ -1127,4 +1127,6 @@
     <string name="fee_up_to_pct">Fino al %1$d%% di tasse</string>
     <string name="cryptocurrency">Cryptovalute</string>
     <string name="little_to_no_fee">Costi minimi o nulli</string>
+    <string name="translation_belarusian">Bielorusso</string>
+    <string name="translation_central_kurdish">Curdo centrale</string>
 </resources>

@@ -1130,4 +1130,6 @@
     <string name="little_to_no_fee">Практически без комиссии</string>
     <string name="fee_up_to_pct">Комиссия до %1$d%%</string>
     <string name="cryptocurrency">Криптовалюта</string>
+    <string name="translation_belarusian">Белорусский</string>
+    <string name="translation_central_kurdish">Центральнокурдский</string>
 </resources>

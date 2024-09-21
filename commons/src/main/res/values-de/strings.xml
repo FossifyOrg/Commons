@@ -1086,4 +1086,6 @@
     <string name="cryptocurrency">Kryptowährung</string>
     <string name="donate_to_fossify">An Fossify spenden</string>
     <string name="little_to_no_fee">Geringes bis kein Entgelt</string>
+    <string name="translation_belarusian">Belarusisch</string>
+    <string name="translation_central_kurdish">Zentralkurdisch</string>
 </resources>

@@ -1084,4 +1084,6 @@
     <string name="little_to_no_fee">Praktiliselt tasuta</string>
     <string name="fee_up_to_pct">Kuni %1$d-protsendise tasu eest</string>
     <string name="cryptocurrency">Krüptovääringud</string>
+    <string name="translation_belarusian">valgevene keel</string>
+    <string name="translation_central_kurdish">sorani keel</string>
 </resources>
