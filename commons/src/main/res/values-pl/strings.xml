@@ -342,7 +342,7 @@
     <string name="apply_to_all_apps">Zastosuj kolory we wszystkich aplikacjach Fossify</string>
     <string name="app_icon_color_warning">Uwaga: Pewne launchery mogą nie obsługiwać prawidłowo zmiany ikon aplikacji. Jeśli ikona zniknie, spróbuj uruchomić aplikację przez Google Play lub przez widżet, jeśli jest dostępny.
         Po uruchomieniu przywróć domyślny zielony kolor ikony (#106D1F). W wyjątkowych przypadkach konieczne może okazać się przeinstalowanie aplikacji.</string>
-    <string name="global_theme_success">Kolory zostały zmienione. Dodano nowy motyw o nazwie „wspólny” — użyj go do aktualizacji kolorystyki we wszystkich Prostych aplikacjach w przyszłości.</string>
+    <string name="global_theme_success">Obecny motyw został zastosowany do wszystkich aplikacji Fossify. Wszelkie przyszłe zmiany tego motywu będą synchronizowane automatycznie.</string>
     <string name="shared_theme_note">Pamiętaj, że nawet jeśli używasz wersji Pro aplikacji, nadal potrzebujesz aplikacji „Fossify Thank You” z powodów technicznych. Zajmuje się ona synchronizacją kolorów.</string>
     <string name="purchase_thank_you">Aby odblokować tę funkcję (i przy okazji wesprzeć rozwój niniejszej aplikacji), kup aplikację &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. Dzięki!</string>
     <string name="light_theme">Jasny</string>
@@ -1169,4 +1169,6 @@
     <string name="cryptocurrency">Kryptowaluta</string>
     <string name="translation_belarusian">białoruski</string>
     <string name="translation_central_kurdish">środkowokurdyjski</string>
+    <string name="all_fossify_apps">Wszystkie aplikacje Fossify</string>
+    <string name="theme_and_colors">Motyw i kolory</string>
 </resources>
