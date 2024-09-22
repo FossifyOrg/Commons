@@ -1134,4 +1134,6 @@
     <string name="little_to_no_fee">Malý nebo žádný poplatek</string>
     <string name="translation_belarusian">Běloruština</string>
     <string name="translation_central_kurdish">Centrální kurdština</string>
+    <string name="theme_and_colors">Motiv a barvy</string>
+    <string name="all_fossify_apps">Všechny aplikace Fossify</string>
 </resources>
