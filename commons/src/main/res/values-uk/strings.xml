@@ -841,13 +841,13 @@
     <string name="friday_letter">П</string>
     <string name="saturday_letter">С</string>
     <string name="sunday_letter">Н</string>
-    <string name="monday_short">Пон</string>
-    <string name="tuesday_short">Вів</string>
-    <string name="wednesday_short">Сер</string>
-    <string name="thursday_short">Чет</string>
-    <string name="friday_short">Пят</string>
-    <string name="saturday_short">Суб</string>
-    <string name="sunday_short">Нед</string>
+    <string name="monday_short">Пн</string>
+    <string name="tuesday_short">Вт</string>
+    <string name="wednesday_short">Ср</string>
+    <string name="thursday_short">Чт</string>
+    <string name="friday_short">Пт</string>
+    <string name="saturday_short">Сб</string>
+    <string name="sunday_short">Нд</string>
     <string name="upgrade_to_pro_long">Ця версія застосунку більше не буде оновлюватися. Оновіться до версії Pro, щоб отримати нові виправлення та інші вдосконалення.</string>
     <string name="upgrade_to_pro_long_click">Ця версія застосунку більше не буде оновлюватися. Оновіть до версії Pro, щоб отримати нові виправлення та інші вдосконалення, натиснувши тут.</string>
     <string name="it_is_free">Це безплатно до: %s. Якщо ви завантажите застосунок до вказаної дати, ви отримаєте його безплатно назавжди.</string>
@@ -1105,10 +1105,11 @@
     <string name="trial_expires_soon">Термін дії вашої пробної версії скоро закінчиться.</string>
     <string name="unlock_for_one_final_day">Розблокуйте застосунок на один останній день</string>
     <string name="welcome_to_app_name">Ласкаво просимо до %s!</string>
-    <string name="trial_start_description">Дякуємо за використання нашого застосунку. Ви можете використовувати цю розблоковану версію протягом <font color="#FFFFFF">%d днів</font>. Після завершення пробного періоду подумайте про оновлення до версії Pro. Він має величезну кількість нових функцій, сучасний дизайн, відсутність реклами та багато інших покращень. 
-\n 
-\nВи просто повинні заплатити за це один раз у житті, і якщо ви не будете задоволені, ви можете видалити його та отримати відшкодування. 
-\n 
+    <string name="trial_start_description">Дякуємо за використання нашого застосунку. Ви можете використовувати цю розблоковану версію протягом <font color="#FFFFFF">%d днів</font>. Після завершення пробного періоду подумайте про оновлення до версії Pro. Він має величезну кількість нових функцій, сучасний дизайн, відсутність реклами та багато інших покращень.
+\n
+\nВи просто повинні заплатити за це один раз у житті, і якщо ви не будете задоволені, ви можете видалити його та отримати відшкодування.
+\n
+\n
 \nСподіваюся, вам сподобається :)</string>
     <string name="trial_end_description">Перейдіть на версію Pro, щоб насолоджуватися застосунком у повному обсязі.
 \n
@@ -1156,4 +1157,6 @@
     <string name="format_phone_numbers">Форматувати телефонні номери</string>
     <string name="translation_belarusian">Білоруський</string>
     <string name="translation_central_kurdish">Центрально курдський</string>
+    <string name="theme_and_colors">Тема та кольори</string>
+    <string name="all_fossify_apps">Всі застосунки Fossify</string>
 </resources>
