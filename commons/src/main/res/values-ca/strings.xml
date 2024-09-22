@@ -1122,4 +1122,6 @@
     <string name="cryptocurrency">Criptomoneda</string>
     <string name="translation_belarusian">Belarús</string>
     <string name="translation_central_kurdish">Kurd central</string>
+    <string name="theme_and_colors">Tema i colors</string>
+    <string name="all_fossify_apps">Totes les aplicacions Fossify</string>
 </resources>
