@@ -307,14 +307,14 @@
     <string name="default_color">Standaard</string>
     <string name="change_color">Kleur wijzigen</string>
     <string name="theme">Thema</string>
-    <string name="changing_color_description">Als een kleur wordt gewijzigd, zal het Aangepaste thema worden gebruikt</string>
+    <string name="changing_color_description">Als een kleur wordt gewijzigd, zal het thema Aangepast worden gebruikt</string>
     <string name="save">Opslaan</string>
     <string name="discard">Negeren</string>
     <string name="undo_changes">Wijzigingen ongedaan maken</string>
     <string name="undo_changes_confirmation">Wijzigingen inderdaad ongedaan maken\?</string>
     <string name="cannot_be_undone">Deze bewerking kan niet ongedaan worden gemaakt.</string>
     <string name="save_before_closing">Er zijn niet opgeslagen wijzigingen. Opslaan voor het afsluiten\?</string>
-    <string name="global_theme_success">Kleuren gewijzigd. Gebruik het nieuwe thema \'Gedeeld\' om de kleuren voor al onze apps aan te passen.</string>
+    <string name="global_theme_success">Het huidige thema is toegepast op alle Fossify apps. Toekomstige aanpassingen zullen automatisch worden doorgevoerd in alle apps.</string>
     <string name="light_theme">Licht</string>
     <string name="dark_theme">Donker</string>
     <string name="auto_theme">Automatisch</string>
@@ -1036,4 +1036,6 @@
     <string name="gson_title">Gson (JSON-parser)</string>
     <string name="translation_belarusian">Wit-Russisch</string>
     <string name="translation_central_kurdish">Centraal Koerdisch</string>
+    <string name="all_fossify_apps">Alle Fossify apps</string>
+    <string name="theme_and_colors">Thema en kleuren</string>
 </resources>
