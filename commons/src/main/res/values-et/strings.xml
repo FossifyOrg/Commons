@@ -1086,4 +1086,6 @@
     <string name="cryptocurrency">Krüptovääringud</string>
     <string name="translation_belarusian">valgevene keel</string>
     <string name="translation_central_kurdish">sorani keel</string>
+    <string name="theme_and_colors">Välimus ja värvid</string>
+    <string name="all_fossify_apps">Kõik Fossify rakendused</string>
 </resources>
