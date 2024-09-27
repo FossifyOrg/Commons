@@ -208,7 +208,7 @@
     <string name="undo_changes_confirmation">確定要恢復變更嗎?</string>
     <string name="cannot_be_undone">此操作無法撤消。</string>
     <string name="save_before_closing">尚未儲存變更。離開前是否儲存?</string>
-    <string name="global_theme_success">顏色更新成功。新增了一個名為 \'Shared\' 的新主題，以後請使用那個來更新全部應用程式顏色。</string>
+    <string name="global_theme_success">色彩更新成功。新增了一個名為 \'Shared\' 的新主題，以後請使用那個來更新全部應用程式顏色。</string>
     <string name="purchase_thank_you">
         <![CDATA[
             請購買 <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> 來解鎖此功能及支持開發者。謝謝!
@@ -610,7 +610,7 @@
     <string name="calculator_short">計算機</string>
     <string name="calendar_short">行事曆</string>
     <string name="camera_short">相機</string>
-    <string name="clock_short">簡易時鐘</string>
+    <string name="clock_short">時鐘</string>
     <string name="contacts_short">通訊錄</string>
     <string name="draw_short">繪圖</string>
     <string name="file_manager_short">檔案管理器</string>
@@ -770,4 +770,6 @@
     <string name="block_contact_fail">聯絡人無法被封鎖</string>
     <string name="unblock_contact">解除封鎖聯絡人</string>
     <string name="format_phone_numbers">設定電話號碼格式</string>
+    <string name="theme_and_colors">主題與色彩</string>
+    <string name="all_fossify_apps">所有 Fossify 應用程式</string>
 </resources>

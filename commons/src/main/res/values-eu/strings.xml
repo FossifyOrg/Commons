@@ -958,4 +958,6 @@
     <string name="faq_5_text_commons">Benetan ezabatu badira, ezin duzu. Hala ere, lehenespenez Birziklapen Zaborrontzia gaituta dago, fitxategiak zakarrontzira eramango ditu ezabatu beharrean.</string>
     <string name="faq_4_text_commons">Bai, trepeta bat hasierako pantailan arrastatzean trepeten konfigurazio pantaila bat agertzen da. Koloretako karratuak ikusiko dituzu beheko ezkerreko izkinan, sakatu besterik ez duzu kolore berri bat hautatzeko. Gradua erabil dezakezu alfa doitzeko ere.</string>
     <string name="faq_5_title_commons">Leheneratu al ditzaket nolabait ezabatutako fitxategiak?</string>
+    <string name="theme_and_colors">Itxura eta koloreak</string>
+    <string name="all_fossify_apps">Fossifyren aplikazio guztiak</string>
 </resources>

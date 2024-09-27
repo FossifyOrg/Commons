@@ -746,7 +746,7 @@
         <item quantity="many">Your trial expires in %d days.</item>
         <item quantity="other">Your trial expires in %d days.</item>
     </plurals>
-    <string name="excluded">(wedi\'i allgáu)</string>
+    <string name="excluded">(wedi\'i eithrio)</string>
     <string name="edit">Golygu</string>
     <string name="change_view_type">Newid math o olwg</string>
     <string name="increase_column_count">Mwyhau nifer o golofnau</string>

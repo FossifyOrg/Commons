@@ -1052,4 +1052,6 @@
     <string name="cryptocurrency">加密货币</string>
     <string name="translation_belarusian">白俄罗斯语</string>
     <string name="translation_central_kurdish">中库尔德语</string>
+    <string name="all_fossify_apps">全部 Fossify 应用</string>
+    <string name="theme_and_colors">主题和颜色</string>
 </resources>
