@@ -4,6 +4,7 @@ plugins {
     alias(libs.plugins.ksp)
     alias(libs.plugins.kotlinSerialization)
     alias(libs.plugins.parcelize)
+    alias(libs.plugins.detekt)
     `maven-publish`
 }
 
@@ -61,6 +62,14 @@ android {
         )
     }
 
+    lint {
+        checkReleaseBuilds = false
+        abortOnError = false
+        abortOnError = true
+        warningsAsErrors = true
+        baseline = file("lint-baseline.xml")
+    }
+
     sourceSets {
         getByName("main").java.srcDirs("src/main/kotlin")
     }
@@ -74,6 +83,10 @@ publishing.publications {
     }
 }
 
+detekt {
+    baseline = file("detekt-baseline.xml")
+}
+
 dependencies {
     implementation(libs.kotlinx.serialization.json)
     api(libs.kotlin.immutable.collections)
@@ -82,8 +95,8 @@ dependencies {
     implementation(libs.androidx.swiperefreshlayout)
     implementation(libs.androidx.exifinterface)
     implementation(libs.androidx.biometric.ktx)
+    implementation(libs.androidx.lifecycle.process)
     implementation(libs.ez.vcard)
-
 
     implementation(libs.bundles.lifecycle)
     implementation(libs.bundles.compose)

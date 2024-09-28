@@ -315,7 +315,7 @@
     <string name="undo_changes_confirmation">Res želite razveljaviti spremembe?</string>
     <string name="cannot_be_undone">To dejanje ni mogoče razveljaviti.</string>
     <string name="save_before_closing">Imate neshranjene spremembe. Jih želite shraniti pred izhodom?</string>
-    <string name="share_colors_success">Barve so bile uspešno posodobljene. Nova tema \'Deljeno\' je bila dodana. V prihodnje za spreminjanje barv uporabljajte to.</string>
+    <string name="global_theme_success">Barve so bile uspešno posodobljene. Nova tema \'Deljeno\' je bila dodana. V prihodnje za spreminjanje barv uporabljajte to.</string>
     <string name="light_theme">Svetlo</string>
     <string name="dark_theme">Temno</string>
     <string name="auto_theme">Samodejno</string>

@@ -338,7 +338,7 @@
     <string name="undo_changes_confirmation">Segur que voleu desfer els canvis\?</string>
     <string name="cannot_be_undone">Aquesta acció no es pot desfer.</string>
     <string name="save_before_closing">Hi ha canvis no desats. Els voleu desar abans de sortir\?</string>
-    <string name="share_colors_success">Colors actualitzats correctament. S\'ha afegit un tema nou anomenat «Compartit». Feu-lo servir per a actualitzar tots els colors de l\'aplicació en el futur.</string>
+    <string name="global_theme_success">Colors actualitzats correctament. S\'ha afegit un tema nou anomenat «Compartit». Feu-lo servir per a actualitzar tots els colors de l\'aplicació en el futur.</string>
     <string name="light_theme">Clar</string>
     <string name="dark_theme">Fosc</string>
     <string name="auto_theme">Automàtic</string>
@@ -1120,4 +1120,8 @@
     <string name="little_to_no_fee">Molt poc o de franc</string>
     <string name="fee_up_to_pct">Una tarifa de fins a %1$d%%</string>
     <string name="cryptocurrency">Criptomoneda</string>
+    <string name="translation_belarusian">Belarús</string>
+    <string name="translation_central_kurdish">Kurd central</string>
+    <string name="theme_and_colors">Tema i colors</string>
+    <string name="all_fossify_apps">Totes les aplicacions Fossify</string>
 </resources>

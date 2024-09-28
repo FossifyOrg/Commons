@@ -333,7 +333,7 @@
     <string name="undo_changes_confirmation">Kas oled kindel, et soovid oma muudatusi tühistada\?</string>
     <string name="cannot_be_undone">Seda tegevust ei saa tagasi pöörata.</string>
     <string name="save_before_closing">Sul on salvestamata muudatusi. Kas salvestame enne väljumist\?</string>
-    <string name="share_colors_success">Värvide uuendamine õnnestus. Lisasime uue „Jagatud“ teema - edaspidisel värvide muutmisel palun kasuta seda.</string>
+    <string name="global_theme_success">Värvide uuendamine õnnestus. Lisasime uue „Jagatud“ teema - edaspidisel värvide muutmisel palun kasuta seda.</string>
     <string name="light_theme">Hele</string>
     <string name="dark_theme">Tume</string>
     <string name="auto_theme">Automaatne teema</string>
@@ -1084,4 +1084,8 @@
     <string name="little_to_no_fee">Praktiliselt tasuta</string>
     <string name="fee_up_to_pct">Kuni %1$d-protsendise tasu eest</string>
     <string name="cryptocurrency">Krüptovääringud</string>
+    <string name="translation_belarusian">valgevene keel</string>
+    <string name="translation_central_kurdish">sorani keel</string>
+    <string name="theme_and_colors">Välimus ja värvid</string>
+    <string name="all_fossify_apps">Kõik Fossify rakendused</string>
 </resources>

@@ -6,7 +6,6 @@ import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
-import androidx.compose.material.ripple.rememberRipple
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -160,7 +159,7 @@ fun SimpleNavigationIcon(
             .padding(start = SimpleTheme.dimens.padding.medium)
             .clip(RoundedCornerShape(50))
             .clickable(
-                navigationIconInteractionSource, rememberRipple(
+                navigationIconInteractionSource, ripple(
                     color = SimpleTheme.colorScheme.onSurface,
                     bounded = true
                 )

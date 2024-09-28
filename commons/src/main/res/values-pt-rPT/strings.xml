@@ -2,12 +2,15 @@
 <resources>
     <string name="edit">Editar</string>
     <string name="excluded">(excluída)</string>
-    <string name="search_groups">Procurar grupos</string>
+    <string name="search_groups">Pesquisar grupos</string>
     <string name="phone_storage">Armazenamento do telefone</string>
-    <string name="phone_storage_hidden">Armazenamento do telefone (Não visível para outras aplicações)</string>
+    <string name="phone_storage_hidden">Armazenamento do telefone (não visível por outras alicações)</string>
     <string name="audio">Áudio</string>
     <string name="updating">A atualizar…</string>
-    <string name="search_contacts">Procurar contactos</string>
-    <string name="search_favorites">Procurar favoritos</string>
+    <string name="search_contacts">Pesquisar contactos</string>
+    <string name="search_favorites">Pesquisar favoritos</string>
     <string name="add_number_to_contact">Adicionar número a um contacto</string>
+    <string name="format_phone_numbers">Formatar números de telefone</string>
+    <string name="thumbnails">Miniaturas</string>
+    <string name="vibrate_on_button_press">Vibrar ao tocar nos botões</string>
 </resources>

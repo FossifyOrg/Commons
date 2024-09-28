@@ -1,7 +1,6 @@
 package org.fossify.commons.activities
 
 import android.os.Bundle
-import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.runtime.derivedStateOf
 import androidx.compose.runtime.getValue
@@ -15,7 +14,7 @@ import org.fossify.commons.extensions.launchViewIntent
 import org.fossify.commons.helpers.*
 import org.fossify.commons.models.License
 
-class LicenseActivity : ComponentActivity() {
+class LicenseActivity : BaseComposeActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdgeSimple()

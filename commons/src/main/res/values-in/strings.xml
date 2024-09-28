@@ -292,7 +292,7 @@
     <string name="undo_changes_confirmation">Apakah anda yakin ingin mengurungkan perubahan?</string>
     <string name="cannot_be_undone">Tindakan ini tidak dapat diurungkan.</string>
     <string name="save_before_closing">Perubahan anda belum disimpan. Simpan sebelum keluar?</string>
-    <string name="share_colors_success">Warna berhasil diperbarui. Tema baru dengan nama \'Saling Berbagi\' telah ditambahkan. Kedepannya, silakan gunakan untuk memperbarui semua warna aplikasi.</string>
+    <string name="global_theme_success">Warna berhasil diperbarui. Tema baru dengan nama \'Saling Berbagi\' telah ditambahkan. Kedepannya, silakan gunakan untuk memperbarui semua warna aplikasi.</string>
     <string name="light_theme">Terang</string>
     <string name="dark_theme">Gelap</string>
     <string name="auto_light_dark_theme">Terang / gelap otomatis</string>

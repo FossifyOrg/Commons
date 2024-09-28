@@ -333,7 +333,7 @@
     <string name="undo_changes_confirmation">Opravdu chcete vrátit změny?</string>
     <string name="cannot_be_undone">Tuto akci nelze vrátit zpět.</string>
     <string name="save_before_closing">Máte neuložené změny. Chcete je před ukončením uložit\?</string>
-    <string name="share_colors_success">Barvy úspěšně aktualizovány. Byl přidán nový motiv „Sdílený“, v budoucnu jej prosím použijte pro úpravu barev u všech Jednoduchých aplikací zároveň.</string>
+    <string name="global_theme_success">Barvy úspěšně aktualizovány. Byl přidán nový motiv „Sdílený“, v budoucnu jej prosím použijte pro úpravu barev u všech Jednoduchých aplikací zároveň.</string>
     <string name="light_theme">Světlý</string>
     <string name="dark_theme">Tmavý</string>
     <string name="auto_theme">Automaticky</string>
@@ -1132,4 +1132,8 @@
     <string name="fee_up_to_pct">Poplatek až %1$d%%</string>
     <string name="cryptocurrency">Kryptoměna</string>
     <string name="little_to_no_fee">Malý nebo žádný poplatek</string>
+    <string name="translation_belarusian">Běloruština</string>
+    <string name="translation_central_kurdish">Centrální kurdština</string>
+    <string name="theme_and_colors">Motiv a barvy</string>
+    <string name="all_fossify_apps">Všechny aplikace Fossify</string>
 </resources>

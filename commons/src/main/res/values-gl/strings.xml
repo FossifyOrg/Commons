@@ -307,7 +307,7 @@
     <string name="undo_changes_confirmation">Seguro que queres desfacer os cambios?</string>
     <string name="cannot_be_undone">Esta acción non se pode desfacer.</string>
     <string name="save_before_closing">Tes cambios sen aplicar. Gardar antes de saír?</string>
-    <string name="share_colors_success">Cores actualizadas correctamente. Engadiuse un novo tema chamado \'Compartido\'. Utilízao para actualizar as cores de todos os aplicativos no futuro.</string>
+    <string name="global_theme_success">Cores actualizadas correctamente. Engadiuse un novo tema chamado \'Compartido\'. Utilízao para actualizar as cores de todos os aplicativos no futuro.</string>
     <string name="light_theme">Claro</string>
     <string name="dark_theme">Escuro</string>
     <string name="auto_light_dark_theme">Auto claro/escuro</string>

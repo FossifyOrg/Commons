@@ -3,6 +3,7 @@ package org.fossify.commons.extensions
 import android.Manifest
 import android.annotation.TargetApi
 import android.app.Activity
+import android.app.Application
 import android.app.NotificationManager
 import android.app.role.RoleManager
 import android.content.*
@@ -57,6 +58,9 @@ val Context.isRTLLayout: Boolean get() = resources.configuration.layoutDirection
 
 val Context.areSystemAnimationsEnabled: Boolean get() = Settings.Global.getFloat(contentResolver, Settings.Global.ANIMATOR_DURATION_SCALE, 0f) > 0f
 
+val Context.appLockManager
+    get() = AppLockManager.getInstance(applicationContext as Application)
+
 fun Context.toast(id: Int, length: Int = Toast.LENGTH_SHORT) {
     toast(getString(id), length)
 }
@@ -102,6 +106,14 @@ fun Context.isFingerPrintSensorAvailable() = Reprint.isHardwarePresent()
 fun Context.isBiometricIdAvailable(): Boolean = when (BiometricManager.from(this).canAuthenticate(BiometricManager.Authenticators.BIOMETRIC_WEAK)) {
     BiometricManager.BIOMETRIC_SUCCESS, BiometricManager.BIOMETRIC_STATUS_UNKNOWN -> true
     else -> false
+}
+
+fun Context.isBiometricAuthSupported(): Boolean {
+    return if (isRPlus()) {
+        isBiometricIdAvailable()
+    } else {
+        isFingerPrintSensorAvailable()
+    }
 }
 
 fun Context.getLatestMediaId(uri: Uri = Files.getContentUri("external")): Long {

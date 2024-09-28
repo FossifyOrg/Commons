@@ -1,9 +1,9 @@
 package org.fossify.commons.samples
 
-import android.app.Application
 import com.github.ajalt.reprint.core.Reprint
+import org.fossify.commons.FossifyApp
 
-class App : Application() {
+class App : FossifyApp() {
     override fun onCreate() {
         super.onCreate()
         Reprint.initialize(this)

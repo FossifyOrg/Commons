@@ -112,12 +112,8 @@ const val PROTECTED_FOLDER_TYPE = "protected_folder_type_"
 const val KEEP_LAST_MODIFIED = "keep_last_modified"
 const val USE_ENGLISH = "use_english"
 const val WAS_USE_ENGLISH_TOGGLED = "was_use_english_toggled"
-const val WAS_SHARED_THEME_EVER_ACTIVATED = "was_shared_theme_ever_activated"
-const val IS_USING_SHARED_THEME = "is_using_shared_theme"
-const val IS_USING_AUTO_THEME = "is_using_auto_theme"
-const val IS_USING_SYSTEM_THEME = "is_using_system_theme"
-const val SHOULD_USE_SHARED_THEME = "should_use_shared_theme"
-const val WAS_SHARED_THEME_FORCED = "was_shared_theme_forced"
+const val IS_GLOBAL_THEME_ENABLED = "is_global_theme_enabled"
+const val IS_SYSTEM_THEME_ENABLED = "is_using_system_theme"
 const val WAS_CUSTOM_THEME_SWITCH_DESCRIPTION_SHOWN = "was_custom_theme_switch_description_shown"
 const val SHOW_INFO_BUBBLE = "show_info_bubble"
 const val LAST_CONFLICT_RESOLUTION = "last_conflict_resolution"
@@ -195,10 +191,14 @@ const val AUTO_BACKUP_FILENAME = "auto_backup_filename"
 const val LAST_AUTO_BACKUP_TIME = "last_auto_backup_time"
 const val PASSWORD_RETRY_COUNT = "password_retry_count"
 const val PASSWORD_COUNTDOWN_START_MS = "password_count_down_start_ms"
+const val LAST_UNLOCK_TIMESTAMP_MS = "last_unlock_timestamp_ms"
+const val UNLOCK_TIMEOUT_DURATION_MS = "unlock_timeout_duration_ms"
+const val SHOW_CHECKMARKS_ON_SWITCHES = "show_checkmarks_on_switches"
 
 const val MAX_PASSWORD_RETRY_COUNT = 3
 const val DEFAULT_PASSWORD_COUNTDOWN = 5
 const val MINIMUM_PIN_LENGTH = 4
+const val DEFAULT_UNLOCK_TIMEOUT_DURATION = 30000L
 
 // contact grid view constants
 const val CONTACTS_GRID_MAX_COLUMNS_COUNT = 10
@@ -268,6 +268,7 @@ const val SELECT_EXPORT_SETTINGS_FILE_INTENT = 1006
 const val REQUEST_CODE_SET_DEFAULT_DIALER = 1007
 const val CREATE_DOCUMENT_SDK_30 = 1008
 const val REQUEST_CODE_SET_DEFAULT_CALLER_ID = 1010
+const val REQUEST_APP_UNLOCK = 1012
 
 // sorting
 const val SORT_ORDER = "sort_order"
@@ -293,7 +294,6 @@ const val SORT_BY_CUSTOM = 131072
 const val SORT_BY_DATE_CREATED = 262144
 
 // security
-const val WAS_PROTECTION_HANDLED = "was_protection_handled"
 const val PROTECTION_NONE = -1
 const val PROTECTION_PATTERN = 0
 const val PROTECTION_PIN = 1

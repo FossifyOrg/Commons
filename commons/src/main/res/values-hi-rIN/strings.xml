@@ -597,7 +597,7 @@
     <string name="foreground_color">अग्रभूमि रंग</string>
     <string name="app_icon_color">ऐप आइकन का रंग</string>
     <string name="bottom_navigation_bar_color">नेविगेशन बार का रंग</string>
-    <string name="share_colors_success">रंग सफलतापूर्वक अपडेट किए गए। \'शेयर्ड\' नामक एक नई थीम जोड़ी गई है, कृपया भविष्य में सभी ऐप रंगों को अपडेट करने के लिए इसका उपयोग करें।</string>
+    <string name="global_theme_success">रंग सफलतापूर्वक अपडेट किए गए। \'शेयर्ड\' नामक एक नई थीम जोड़ी गई है, कृपया भविष्य में सभी ऐप रंगों को अपडेट करने के लिए इसका उपयोग करें।</string>
     <string name="light_theme">हल्की</string>
     <string name="dark_theme">गहरी</string>
     <string name="auto_theme">स्वतः</string>

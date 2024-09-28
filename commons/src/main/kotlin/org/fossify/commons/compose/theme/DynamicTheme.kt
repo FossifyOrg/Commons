@@ -5,9 +5,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.toArgb
 import org.fossify.commons.compose.extensions.config
 import org.fossify.commons.compose.theme.model.Theme
-import org.fossify.commons.extensions.getProperTextColor
-import org.fossify.commons.extensions.isBlackAndWhiteTheme
-import org.fossify.commons.extensions.isWhiteTheme
+import org.fossify.commons.extensions.*
 
 fun getTheme(context: Context, materialYouTheme: Theme.SystemDefaultMaterialYou): Theme {
     val baseConfig = context.config
@@ -15,8 +13,7 @@ fun getTheme(context: Context, materialYouTheme: Theme.SystemDefaultMaterialYou)
     val isSystemInDarkTheme = context.isDarkMode()
     val accentColor = baseConfig.accentColor
 
-
-    val backgroundColorTheme = if (baseConfig.isUsingSystemTheme || baseConfig.isUsingAutoTheme) {
+    val backgroundColorTheme = if (context.isDynamicTheme() || context.isAutoTheme()) {
         if (isSystemInDarkTheme) theme_dark_background_color else Color.White
     } else {
         Color(baseConfig.backgroundColor)
@@ -27,7 +24,7 @@ fun getTheme(context: Context, materialYouTheme: Theme.SystemDefaultMaterialYou)
     val textColor = context.getProperTextColor()
 
     val theme = when {
-        baseConfig.isUsingSystemTheme -> materialYouTheme
+        context.isDynamicTheme() -> materialYouTheme
         context.isBlackAndWhiteTheme() -> Theme.BlackAndWhite(
             accentColor = accentColor,
             primaryColorInt = primaryColorInt,
@@ -139,8 +136,8 @@ fun getTheme(context: Context, materialYouTheme: Theme.SystemDefaultMaterialYou)
                 -2691126 -> md_green_100
                 -4528984 -> md_green_200
                 -6366844 -> md_green_300
-                -7810712  -> md_green_400
-                -9254834  -> md_green_500
+                -7810712 -> md_green_400
+                -9254834 -> md_green_500
                 -10176442 -> md_green_600
                 -11492293 -> md_green_700
                 -12808398 -> md_green_800

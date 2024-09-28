@@ -306,7 +306,7 @@
     <string name="undo_changes_confirmation">Tem a certeza de que pretende desfazer as alterações\?</string>
     <string name="cannot_be_undone">Esta ação não pode ser revertida.</string>
     <string name="save_before_closing">Existem alterações não guardadas. Pretende guardar antes de sair\?</string>
-    <string name="share_colors_success">Cores atualizadas com sucesso. Foi criado o novo tema \'Partilhado\', que pode utilizar para atualizar as cores de todas as aplicações Simple.</string>
+    <string name="global_theme_success">Cores atualizadas com sucesso. Foi criado o novo tema \'Partilhado\', que pode utilizar para atualizar as cores de todas as aplicações Simple.</string>
     <string name="purchase_thank_you">
         <![CDATA[
             Por favor compre a aplicação <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> para desbloquear esta funcionalidade e ajudar no desenvolvimento. Obrigado!
@@ -1072,4 +1072,5 @@
         <item quantity="many">O período de testes caduca dentro de %d dias.</item>
         <item quantity="other">O período de testes caduca dentro de %d dias.</item>
     </plurals>
+    <string name="format_phone_numbers">Formatar números de telefone</string>
 </resources>

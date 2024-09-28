@@ -291,7 +291,7 @@
     <string name="undo_changes_confirmation">Bạn có chắc chắn muốn hoàn tác các thay đổi của mình?</string>
     <string name="cannot_be_undone">Hành động này không thể được hoàn tác.</string>
     <string name="save_before_closing">Bạn có các thay đổi chưa lưu. Lưu trước khi thoát?</string>
-    <string name="share_colors_success">Màu sắc được cập nhật thành công. Một chủ đề mới có tên \'Shared\' đã được thêm vào, vui lòng sử dụng chủ đề đó để cập nhật tất cả các màu của ứng dụng trong tương lai.</string>
+    <string name="global_theme_success">Màu sắc được cập nhật thành công. Một chủ đề mới có tên \'Shared\' đã được thêm vào, vui lòng sử dụng chủ đề đó để cập nhật tất cả các màu của ứng dụng trong tương lai.</string>
     <string name="purchase_thank_you">
         <![CDATA[
             Làm ơn hãy mua ứng dụng <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> để mở khóa tính năng này và hỗ trợ nhà phát triển. Cảm ơn!

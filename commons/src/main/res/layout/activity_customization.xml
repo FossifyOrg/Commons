@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/customization_coordinator"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -22,20 +23,26 @@
         android:fillViewport="true"
         android:scrollbars="none">
 
-        <RelativeLayout
+        <LinearLayout
             android:id="@+id/customization_holder"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/settings_theme_and_colors_label"
+                style="@style/SettingsSectionLabelStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/theme_and_colors" />
 
             <RelativeLayout
                 android:id="@+id/customization_theme_holder"
+                style="@style/SettingsHolderTextViewStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/medium_margin"
-                android:background="?attr/selectableItemBackground"
-                android:paddingLeft="@dimen/activity_margin"
                 android:paddingTop="@dimen/bigger_margin"
-                android:paddingRight="@dimen/activity_margin"
                 android:paddingBottom="@dimen/bigger_margin">
 
                 <org.fossify.commons.views.MyTextView
@@ -44,9 +51,8 @@
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
                     android:layout_toStartOf="@+id/customization_theme"
-                    android:paddingLeft="@dimen/medium_margin"
-                    android:paddingRight="@dimen/medium_margin"
-                    android:text="@string/theme" />
+                    android:text="@string/theme"
+                    android:textSize="@dimen/normal_text_size" />
 
                 <org.fossify.commons.views.MyTextView
                     android:id="@+id/customization_theme"
@@ -55,27 +61,25 @@
                     android:layout_alignParentEnd="true"
                     android:layout_marginEnd="@dimen/medium_margin"
                     android:background="@null"
-                    android:clickable="false" />
+                    android:clickable="false"
+                    android:textSize="@dimen/normal_text_size"
+                    tools:text="@string/system_default" />
 
             </RelativeLayout>
 
             <RelativeLayout
                 android:id="@+id/customization_text_color_holder"
+                style="@style/SettingsHolderTextViewStyle"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/customization_theme_holder"
-                android:layout_marginTop="@dimen/medium_margin"
-                android:background="?attr/selectableItemBackground"
-                android:padding="@dimen/activity_margin">
+                android:layout_height="wrap_content">
 
                 <org.fossify.commons.views.MyTextView
                     android:id="@+id/customization_text_color_label"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:paddingLeft="@dimen/medium_margin"
-                    android:paddingRight="@dimen/medium_margin"
-                    android:text="@string/text_color" />
+                    android:text="@string/text_color"
+                    android:textSize="@dimen/normal_text_size" />
 
                 <ImageView
                     android:id="@+id/customization_text_color"
@@ -83,27 +87,25 @@
                     android:layout_height="@dimen/color_sample_size"
                     android:layout_alignParentEnd="true"
                     android:layout_marginEnd="@dimen/medium_margin"
-                    android:clickable="false" />
+                    android:clickable="false"
+                    android:importantForAccessibility="no"
+                    tools:src="@drawable/circle_background" />
 
             </RelativeLayout>
 
             <RelativeLayout
                 android:id="@+id/customization_background_color_holder"
+                style="@style/SettingsHolderTextViewStyle"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/customization_text_color_holder"
-                android:layout_marginTop="@dimen/medium_margin"
-                android:background="?attr/selectableItemBackground"
-                android:padding="@dimen/activity_margin">
+                android:layout_height="wrap_content">
 
                 <org.fossify.commons.views.MyTextView
                     android:id="@+id/customization_background_color_label"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:paddingLeft="@dimen/medium_margin"
-                    android:paddingRight="@dimen/medium_margin"
-                    android:text="@string/background_color" />
+                    android:text="@string/background_color"
+                    android:textSize="@dimen/normal_text_size" />
 
                 <ImageView
                     android:id="@+id/customization_background_color"
@@ -111,27 +113,25 @@
                     android:layout_height="@dimen/color_sample_size"
                     android:layout_alignParentEnd="true"
                     android:layout_marginEnd="@dimen/medium_margin"
-                    android:clickable="false" />
+                    android:clickable="false"
+                    android:importantForAccessibility="no"
+                    tools:src="@drawable/circle_background" />
 
             </RelativeLayout>
 
             <RelativeLayout
                 android:id="@+id/customization_primary_color_holder"
+                style="@style/SettingsHolderTextViewStyle"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/customization_background_color_holder"
-                android:layout_marginTop="@dimen/medium_margin"
-                android:background="?attr/selectableItemBackground"
-                android:padding="@dimen/activity_margin">
+                android:layout_height="wrap_content">
 
                 <org.fossify.commons.views.MyTextView
                     android:id="@+id/customization_primary_color_label"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:paddingLeft="@dimen/medium_margin"
-                    android:paddingRight="@dimen/medium_margin"
-                    android:text="@string/primary_color" />
+                    android:text="@string/primary_color"
+                    android:textSize="@dimen/normal_text_size" />
 
                 <ImageView
                     android:id="@+id/customization_primary_color"
@@ -139,28 +139,27 @@
                     android:layout_height="@dimen/color_sample_size"
                     android:layout_alignParentEnd="true"
                     android:layout_marginEnd="@dimen/medium_margin"
-                    android:clickable="false" />
+                    android:clickable="false"
+                    android:importantForAccessibility="no"
+                    tools:src="@drawable/circle_background" />
 
             </RelativeLayout>
 
             <RelativeLayout
                 android:id="@+id/customization_accent_color_holder"
+                style="@style/SettingsHolderTextViewStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/customization_primary_color_holder"
-                android:layout_marginTop="@dimen/medium_margin"
-                android:background="?attr/selectableItemBackground"
-                android:padding="@dimen/activity_margin"
-                android:visibility="gone">
+                android:visibility="gone"
+                tools:visibility="visible">
 
                 <org.fossify.commons.views.MyTextView
                     android:id="@+id/customization_accent_color_label"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:paddingLeft="@dimen/medium_margin"
-                    android:paddingRight="@dimen/medium_margin"
-                    android:text="@string/accent_color_white" />
+                    android:text="@string/accent_color_white"
+                    android:textSize="@dimen/normal_text_size" />
 
                 <ImageView
                     android:id="@+id/customization_accent_color"
@@ -168,27 +167,25 @@
                     android:layout_height="@dimen/color_sample_size"
                     android:layout_alignParentEnd="true"
                     android:layout_marginEnd="@dimen/medium_margin"
-                    android:clickable="false" />
+                    android:clickable="false"
+                    android:importantForAccessibility="no"
+                    tools:src="@drawable/circle_background" />
 
             </RelativeLayout>
 
             <RelativeLayout
                 android:id="@+id/customization_app_icon_color_holder"
+                style="@style/SettingsHolderTextViewStyle"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/customization_accent_color_holder"
-                android:layout_marginTop="@dimen/medium_margin"
-                android:background="?attr/selectableItemBackground"
-                android:padding="@dimen/activity_margin">
+                android:layout_height="wrap_content">
 
                 <org.fossify.commons.views.MyTextView
                     android:id="@+id/customization_app_icon_color_label"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:paddingLeft="@dimen/medium_margin"
-                    android:paddingRight="@dimen/medium_margin"
-                    android:text="@string/app_icon_color" />
+                    android:text="@string/app_icon_color"
+                    android:textSize="@dimen/normal_text_size" />
 
                 <ImageView
                     android:id="@+id/customization_app_icon_color"
@@ -196,27 +193,40 @@
                     android:layout_height="@dimen/color_sample_size"
                     android:layout_alignParentEnd="true"
                     android:layout_marginEnd="@dimen/medium_margin"
-                    android:clickable="false" />
+                    android:clickable="false"
+                    android:importantForAccessibility="no"
+                    tools:src="@drawable/circle_background" />
 
             </RelativeLayout>
 
+            <include
+                android:id="@+id/apply_to_all_divider"
+                layout="@layout/divider" />
+
+            <TextView
+                android:id="@+id/settings_all_fossify_apps_label"
+                style="@style/SettingsSectionLabelStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/all_fossify_apps" />
+
             <RelativeLayout
                 android:id="@+id/apply_to_all_holder"
-                android:layout_width="wrap_content"
+                style="@style/SettingsHolderSwitchStyle"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/customization_app_icon_color_holder"
-                android:layout_centerHorizontal="true"
-                android:layout_margin="@dimen/big_margin"
-                android:visibility="gone">
+                android:visibility="gone"
+                tools:visibility="visible">
 
-                <android.widget.TextView
+                <org.fossify.commons.views.MyMaterialSwitch
                     android:id="@+id/apply_to_all"
-                    style="@style/ColoredButtonStyle"
-                    android:layout_width="wrap_content"
+                    style="@style/SettingsSwitchStyle"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/apply_to_all_apps" />
 
             </RelativeLayout>
-        </RelativeLayout>
+
+        </LinearLayout>
     </androidx.core.widget.NestedScrollView>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
