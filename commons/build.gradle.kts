@@ -4,6 +4,7 @@ plugins {
     alias(libs.plugins.ksp)
     alias(libs.plugins.kotlinSerialization)
     alias(libs.plugins.parcelize)
+    alias(libs.plugins.detekt)
     `maven-publish`
 }
 
@@ -61,6 +62,14 @@ android {
         )
     }
 
+    lint {
+        checkReleaseBuilds = false
+        abortOnError = false
+        abortOnError = true
+        warningsAsErrors = true
+        baseline = file("lint-baseline.xml")
+    }
+
     sourceSets {
         getByName("main").java.srcDirs("src/main/kotlin")
     }
@@ -72,6 +81,10 @@ publishing.publications {
             from(components["release"])
         }
     }
+}
+
+detekt {
+    baseline = file("detekt-baseline.xml")
 }
 
 dependencies {

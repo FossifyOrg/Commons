@@ -5,6 +5,8 @@ kotlin-immutable-collections = "0.3.6"
 #KSP
 kotlinxSerializationJson = "1.6.3"
 ksp = "1.9.25-1.0.20"
+#Detekt
+detekt = "1.23.3"
 #Androidx
 androidx-customView = "1.2.0-alpha02"
 androidx-customViewPooling = "1.0.0"
@@ -135,3 +137,4 @@ library = { id = "com.android.library", version.ref = "gradlePlugins-agp" }
 kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 kotlinSerialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
 parcelize = { id = "org.jetbrains.kotlin.plugin.parcelize", version.ref = "kotlin" }
+detekt = { id = "io.gitlab.arturbosch.detekt", version.ref = "detekt" }
