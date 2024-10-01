@@ -209,7 +209,7 @@
     <string name="unknown_error_occurred">不明なエラーが発生しました</string>
     <string name="file_already_exists">ファイル \"%s\" は既に存在しています</string>
     <string name="file_already_exists_overwrite">ファイル \"%s\" は既に存在しています。上書きしますか？</string>
-    <string name="folder_already_exists">フォルダ \"%s\" は既に存在しています</string>
+    <string name="folder_already_exists">フォルダ s は既に存在しています</string>
     <string name="merge">統合</string>
     <string name="keep_both">両方保持する</string>
     <string name="overwrite">上書き</string>
@@ -580,7 +580,7 @@
     <string name="excluded">(除外)</string>
     <string name="manage_excluded_folders">除外フォルダの管理</string>
     <string name="remove_all">すべて解除</string>
-    <string name="remove_all_description">除外するフォルダの登録をすべて解除しますか\? フォルダ自体は削除されません。</string>
+    <string name="remove_all_description">除外するフォルダの登録をすべて解除しますか? フォルダ自体は削除されません。</string>
     <string name="temporarily_show_excluded">除外項目を一時的に表示</string>
     <string name="stop_showing_excluded">除外項目の表示を中止</string>
     <string name="manage_shown_tabs">表示するタブを管理</string>
@@ -683,37 +683,11 @@
     <string name="more_info">詳細を確認</string>
     <string name="upgrade">アップグレード</string>
     <string name="upgrade_calendar">ローカルに保存されたイベントは、手動で.icsファイルにエクスポートしてインポートする必要があります。インポート/エクスポートボタンはメイン画面のメニューにあります。</string>
-    <string name="upgraded_from_free">こんにちは。
-\n
-\n無料版からアップグレードされたようですね。データの移行やセットアップが完了したら、誤って起動しないように、無料版のアプリをアンインストールしてください。
-\n
-\nありがとうございます！</string>
-    <string name="upgraded_to_pro">こんにちは。
-\n
-\nすでにPro版のアプリをお持ちのようですね。データの移行が完了したら、誤って起動しないように、こちらのアプリをアンインストールしてください。
-\n
-\nありがとうございます！</string>
-    <string name="upgraded_from_free_calendar">こんにちは。
-\n
-\n無料版からアップグレードされたようですね。ローカルに保存された予定を移行したい場合は、手動で予定を移行する必要があります。無料版のアプリのトップメニューから.icsファイルにエクスポートした後に、Pro版のアプリのトップメニューから.icsファイルをインポートしてください。
-\n
-\n予定の移行やセットアップが完了したら、不要になった無料版のアプリをアンインストールして構いません。アンインストールしたら、このダイアログは表示されなくなります。
-\n
-\nありがとうございます！</string>
-    <string name="upgraded_from_free_contacts">こんにちは。
-\n
-\n無料版からアップグレードされたようですね。「%s」以下に保存されている連絡先がある場合は、手動で連絡先を移行する必要があります。無料版のアプリのトップメニューから.vcfファイルにエクスポートした後に、Pro版のアプリのトップメニューから.vcfファイルをインポートしてください。
-\n
-\n連絡先の移行やセットアップが完了したら、不要になった無料版のアプリをアンインストールして構いません。アンインストールしたら、このダイアログは表示されなくなります。
-\n
-\nありがとうございます！</string>
-    <string name="upgraded_from_free_notes">こんにちは。
-\n
-\n無料版からアップグレードされたようですね。メモを移行したい場合は、手動でメモを移行する必要があります。無料版のアプリのトップメニューからメモをエクスポートした後に、Pro版のアプリのトップメニューからメモをインポートしてください。
-\n
-\nメモの移行やセットアップが完了したら、不要になった無料版のアプリをアンインストールして構いません。アンインストールしたら、このダイアログは表示されなくなります。
-\n
-\nありがとうございます！</string>
+    <string name="upgraded_from_free">こんにちは。 \n \n無料版からアップグレードされたようですね。データの移行やセットアップが完了したら、誤って起動しないように、無料版のアプリをアンインストールしてください。 \n \nありがとうございます！</string>
+    <string name="upgraded_to_pro">こんにちは。 \n \nすでにPro版のアプリをお持ちのようですね。データの移行が完了したら、誤って起動しないように、こちらのアプリをアンインストールしてください。 \n \nありがとうございます！</string>
+    <string name="upgraded_from_free_calendar">こんにちは。 \n \n無料版からアップグレードされたようですね。ローカルに保存された予定を移行したい場合は、手動で予定を移行する必要があります。無料版のアプリのトップメニューから.icsファイルにエクスポートした後に、Pro版のアプリのトップメニューから.icsファイルをインポートしてください。 \n \n予定の移行やセットアップが完了したら、不要になった無料版のアプリをアンインストールして構いません。アンインストールしたら、このダイアログは表示されなくなります。 \n \nありがとうございます！</string>
+    <string name="upgraded_from_free_contacts">こんにちは。 \n \n無料版からアップグレードされたようですね。「%s」以下に保存されている連絡先がある場合は、手動で連絡先を移行する必要があります。無料版のアプリのトップメニューから.vcfファイルにエクスポートした後に、Pro版のアプリのトップメニューから.vcfファイルをインポートしてください。 \n \n連絡先の移行やセットアップが完了したら、不要になった無料版のアプリをアンインストールして構いません。アンインストールしたら、このダイアログは表示されなくなります。 \n \nありがとうございます！</string>
+    <string name="upgraded_from_free_notes">こんにちは。 \n \n無料版からアップグレードされたようですね。メモを移行したい場合は、手動でメモを移行する必要があります。無料版のアプリのトップメニューからメモをエクスポートした後に、Pro版のアプリのトップメニューからメモをインポートしてください。 \n \nメモの移行やセットアップが完了したら、不要になった無料版のアプリをアンインストールして構いません。アンインストールしたら、このダイアログは表示されなくなります。 \n \nありがとうございます！</string>
     <string name="about">このアプリについて</string>
     <string name="website">Webサイト</string>
     <string name="website_label">ソースコードはこちら</string>
@@ -744,15 +718,7 @@
     <string name="make_sure_upgrade">また、このアプリのバージョンは開発されていないことにご注意ください。Pro版を入手すると、多くの改善が得られます。</string>
     <string name="read_it">見る</string>
     <string name="read_faq">FAQ</string>
-    <string name="rate_us_prompt">こんにちは。
-\n
-\nこのアプリをしばらくご利用いただいているようで、感謝いたします。
-\n
-\nひとつお願いがあるのですが、Google Playで評価してもらえるでしょうか。ご協力をお願いします。
-\n
-\n評価をしてもしなくても、このメッセージは二度と表示されません。
-\n
-\nよろしくお願いします！</string>
+    <string name="rate_us_prompt">こんにちは。 \n \nこのアプリをしばらくご利用いただいているようで、感謝いたします。 \n \nひとつお願いがあるのですが、Google Playで評価してもらえるでしょうか。ご協力をお願いします。 \n \n評価をしてもしなくても、このメッセージは二度と表示されません。 \n \nよろしくお願いします！</string>
     <string name="rate_our_app">是非、アプリを評価してください :)</string>
     <string name="thank_you">ありがとうございます</string>
     <string name="widget_locked_pro">ウィジェットはロックされています。
@@ -923,8 +889,7 @@
     <string name="hours_letter">時間</string>
     <string name="theme_and_colors">テーマと色</string>
     <string name="skip_the_recycle_bin">ごみ箱に入れずに直接ファイルを削除</string>
-    <string name="copyright">v %1$s
-\nCopyright © Fossify %2$d</string>
+    <string name="copyright">v %1$s \nCopyright © Fossify %2$d</string>
     <string name="all_fossify_apps">Fossifyの全アプリ</string>
     <string name="thank_you_short">ありがとうございます</string>
     <string name="cryptocurrency">暗号通貨</string>
@@ -1013,28 +978,12 @@
     <string name="translation_nepali">ネパール語</string>
     <string name="why_upgrade_many_other_improvements">その他多くの改善</string>
     <string name="faq_2_text_commons">はい、もちろんです。アプリについて広めたり、良いフィードバックと評価を行ったり、または翻訳に参加したりしていただけます。翻訳のガイドは&lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;このウェブサイト&lt;/a&gt;にあります。質問があれば、&lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt;までご連絡ください。</string>
-    <string name="date_time_pattern_info">以下の変数を使ってファイルの名前を自動的に設定できます。
-\n
-\n%Y - 年
-\n%M - 月
-\n%D - 日
-\n%h - 時
-\n%m - 分
-\n%s - 秒</string>
-    <string name="upgraded_from_free_gallery">こんにちは。
-\n
-\n無料版からアップグレードされたようですね。データやお気に入りの移行が完了したら、誤って起動しないように、無料版のアプリをアンインストールしてください。アンインストールしたら、このダイアログは表示されなくなります。
-\n
-\nありがとうございます！</string>
+    <string name="date_time_pattern_info">以下の変数を使ってファイルの名前を自動的に設定できます。 \n \n%Y - 年 \n%M - 月 \n%D - 日 \n%h - 時 \n%m - 分 \n%s - 秒</string>
+    <string name="upgraded_from_free_gallery">こんにちは。 \n \n無料版からアップグレードされたようですね。データやお気に入りの移行が完了したら、誤って起動しないように、無料版のアプリをアンインストールしてください。アンインストールしたら、このダイアログは表示されなくなります。 \n \nありがとうございます！</string>
     <string name="features_locked">この機能はロックされています。&lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;の購入でロックを解除できます。&lt;br&gt;&lt;br&gt;これは1回きりの支払いで、もし満足できなかった場合は、返金にも対応します。</string>
     <string name="faq_6_text_commons">この問題は、使用しているランチャーがアイコンのカスタマイズを完全にサポートしていない場合に生じます。Google Play、または、利用可能な場合はウィジェットからアプリを起動してみてください。開始したら、既定の緑のアイコンの色 #106D1F を復元してください。ごくまれに、アプリの再インストールが必要になる場合があります。</string>
-    <string name="too_many_incorrect_attempts">間違ったロック解除の試行回数が多すぎます。
-\n%d秒後に再度試してください。</string>
-    <string name="upgraded_to_pro_gallery">こんにちは。
-\n
-\nすでにPro版のアプリをお持ちのようですね。データやお気に入りの移行が完了したら、誤って起動しないように、こちらのアプリをアンインストールしてください。
-\n
-\nありがとうございます！</string>
+    <string name="too_many_incorrect_attempts">間違ったロック解除の試行回数が多すぎます。 \n%d秒後に再度試してください。</string>
+    <string name="upgraded_to_pro_gallery">こんにちは。 \n \nすでにPro版のアプリをお持ちのようですね。データやお気に入りの移行が完了したら、誤って起動しないように、こちらのアプリをアンインストールしてください。 \n \nありがとうございます！</string>
     <string name="version_placeholder">バージョン %s</string>
     <string name="donate_new">こんにちは。&lt;br&gt;&lt;br&gt;アプリの使い勝手はいかがでしょうか。アプリには広告は含まれておらず、ユーザーのデータの収集も行っていません。よろしければ&lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;を購入して、アプリの開発を支援してください。アプリには、全アプリで色のカスタマイズを有効にするなどの機能もあります。&lt;br&gt;&lt;br&gt;よろしくお願いします！</string>
     <string name="donate_short">&lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;を購入して私たちを援助してください。アプリには、全アプリで色をカスタマイズするなどの機能もあります。</string>
