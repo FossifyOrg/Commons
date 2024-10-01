@@ -42,7 +42,6 @@ import org.fossify.commons.dialogs.*
 import org.fossify.commons.dialogs.WritePermissionDialog.WritePermissionDialogMode
 import org.fossify.commons.helpers.*
 import org.fossify.commons.helpers.MyContentProvider.COL_LAST_UPDATED_TS
-import org.fossify.commons.helpers.MyContentProvider.GLOBAL_CONFIG_UPDATED
 import org.fossify.commons.helpers.MyContentProvider.MY_CONTENT_URI
 import org.fossify.commons.models.*
 import org.fossify.commons.views.MyTextView
@@ -1407,7 +1406,6 @@ fun Activity.updateGlobalConfig(contentValues: ContentValues) {
         try {
             contentValues.put(COL_LAST_UPDATED_TS, System.currentTimeMillis() / 1000)
             applicationContext.contentResolver.update(MY_CONTENT_URI, contentValues, null, null)
-            sendBroadcast(Intent(GLOBAL_CONFIG_UPDATED))
         } catch (e: Exception) {
             showErrorToast(e)
         }
