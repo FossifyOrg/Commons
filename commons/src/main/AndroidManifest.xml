@@ -67,5 +67,14 @@
         <activity
             android:name=".activities.AppLockActivity"
             android:exported="false" />
+
+        <receiver
+            android:name=".receivers.FossifyBroadcastReceiver"
+            android:exported="true"
+            tools:ignore="ExportedReceiver">
+            <intent-filter>
+                <action android:name="org.fossify.android.GLOBAL_CONFIG_UPDATED" />
+            </intent-filter>
+        </receiver>
     </application>
 </manifest>

@@ -6,7 +6,7 @@ object MyContentProvider {
     private const val AUTHORITY = "org.fossify.android.provider"
     val MY_CONTENT_URI: Uri = Uri.parse("content://$AUTHORITY/settings")
 
-    const val GLOBAL_CONFIG_UPDATED = "org.fossify.android.GLOBAL_CONFIG_UPDATED"
+    const val ACTION_GLOBAL_CONFIG_UPDATED = "org.fossify.android.GLOBAL_CONFIG_UPDATED"
 
     const val COL_ID = "_id"    // used in Fossify Thank You
     const val COL_THEME_TYPE = "theme_type"
