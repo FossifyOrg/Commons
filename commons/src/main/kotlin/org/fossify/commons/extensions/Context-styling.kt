@@ -4,13 +4,16 @@ import android.annotation.SuppressLint
 import android.content.ComponentName
 import android.content.Context
 import android.content.pm.PackageManager
+import android.content.pm.PackageManager.PERMISSION_GRANTED
 import android.content.res.Configuration
 import android.graphics.Color
 import android.view.ViewGroup
+import androidx.core.content.ContextCompat
 import androidx.loader.content.CursorLoader
 import org.fossify.commons.R
 import org.fossify.commons.helpers.*
 import org.fossify.commons.helpers.MyContentProvider.GLOBAL_THEME_SYSTEM
+import org.fossify.commons.helpers.MyContentProvider.PERMISSION_WRITE_GLOBAL_SETTINGS
 import org.fossify.commons.models.GlobalConfig
 import org.fossify.commons.models.isGlobalThemingEnabled
 import org.fossify.commons.views.*
@@ -113,7 +116,7 @@ fun Context.getPopupMenuTheme(): Int {
 }
 
 fun Context.syncGlobalConfig(callback: (() -> Unit)? = null) {
-    if (isThankYouInstalled()) {
+    if (isThankYouInstalled() && ContextCompat.checkSelfPermission(this, PERMISSION_WRITE_GLOBAL_SETTINGS) == PERMISSION_GRANTED) {
         withGlobalConfig {
             if (it != null) {
                 baseConfig.apply {
