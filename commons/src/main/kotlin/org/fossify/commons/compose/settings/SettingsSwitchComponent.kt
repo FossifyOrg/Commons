@@ -29,7 +29,7 @@ fun SettingsSwitchComponent(
     value: String? = null,
     initialValue: Boolean = false,
     isPreferenceEnabled: Boolean = true,
-    showCheckmark: Boolean = false,
+    showCheckmark: Boolean,
     onChange: ((Boolean) -> Unit)? = null,
     switchColors: SwitchColors = SwitchDefaults.colors()
 ) {
@@ -98,7 +98,8 @@ private fun SettingsSwitchComponentPreview(@PreviewParameter(BooleanPreviewParam
         SettingsSwitchComponent(
             label = "Some label",
             value = "Some value",
-            initialValue = isChecked
+            initialValue = isChecked,
+            showCheckmark = false
         )
     }
 }

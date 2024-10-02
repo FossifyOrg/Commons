@@ -77,6 +77,7 @@ internal fun ManageBlockedNumbersScreen(
     isDialer: Boolean,
     hasGivenPermissionToBlock: Boolean,
     isBlockUnknownSelected: Boolean,
+    showCheckmarksOnSwitches: Boolean,
     onBlockUnknownSelectedChange: (Boolean) -> Unit,
     isHiddenSelected: Boolean,
     onHiddenSelectedChange: (Boolean) -> Unit,
@@ -146,12 +147,14 @@ internal fun ManageBlockedNumbersScreen(
                     initialValue = isBlockUnknownSelected,
                     onChange = onBlockUnknownSelectedChange,
                     modifier = Modifier.topAppBarPaddings(),
+                    showCheckmark = showCheckmarksOnSwitches
                 )
                 SettingsSwitchComponent(
                     label = if (isDialer) stringResource(id = R.string.block_hidden_calls) else stringResource(id = R.string.block_hidden_messages),
                     initialValue = isHiddenSelected,
                     onChange = onHiddenSelectedChange,
                     modifier = Modifier.topAppBarPaddings(),
+                    showCheckmark = showCheckmarksOnSwitches
                 )
                 SettingsHorizontalDivider(modifier = Modifier.topAppBarPaddings())
             }
@@ -664,6 +667,7 @@ private fun ManageBlockedNumbersScreenPreview(@PreviewParameter(BooleanPreviewPa
             isDialer = isDialer,
             hasGivenPermissionToBlock = !isDialer,
             isBlockUnknownSelected = false,
+            showCheckmarksOnSwitches = false,
             onBlockUnknownSelectedChange = {},
             isHiddenSelected = false,
             onHiddenSelectedChange = {},

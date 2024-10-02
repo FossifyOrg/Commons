@@ -67,6 +67,7 @@ class ManageBlockedNumbersActivity : BaseSimpleActivity() {
             }
             val isBlockingHiddenNumbers by config.isBlockingHiddenNumbers.collectAsStateWithLifecycle(initialValue = config.blockHiddenNumbers)
             val isBlockingUnknownNumbers by config.isBlockingUnknownNumbers.collectAsStateWithLifecycle(initialValue = config.blockUnknownNumbers)
+            val showCheckmarksOnSwitches by config.showCheckmarksOnSwitchesFlow.collectAsStateWithLifecycle(initialValue = config.showCheckmarksOnSwitches)
             val isDialer = remember {
                 config.appId.startsWith("org.fossify.phone")
             }
@@ -105,6 +106,7 @@ class ManageBlockedNumbersActivity : BaseSimpleActivity() {
                     isDialer = isDialer,
                     hasGivenPermissionToBlock = isDefaultDialer,
                     isBlockUnknownSelected = isBlockingUnknownNumbers,
+                    showCheckmarksOnSwitches = showCheckmarksOnSwitches,
                     onBlockUnknownSelectedChange = { isChecked ->
                         config.blockUnknownNumbers = isChecked
                         onCheckedSetCallerIdAsDefault(isChecked)
