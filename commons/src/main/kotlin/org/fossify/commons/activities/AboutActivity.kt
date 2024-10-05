@@ -3,7 +3,6 @@ package org.fossify.commons.activities
 import android.content.ActivityNotFoundException
 import android.content.Intent
 import android.content.Intent.*
-import android.content.res.Resources
 import android.os.Build
 import android.os.Bundle
 import android.os.Handler
@@ -12,6 +11,7 @@ import androidx.activity.compose.setContent
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.stringResource
 import androidx.core.net.toUri
 import org.fossify.commons.R
 import org.fossify.commons.compose.alert_dialog.rememberAlertDialogState
@@ -86,7 +86,8 @@ class AboutActivity : BaseComposeActivity() {
                         }
                     }
                 ) {
-                    val (showWebsite, fullVersion) = showWebsiteAndFullVersion(resources, showExternalLinks)
+                    val (versionName, packageName) = getPackageInfo()
+                    val showWebsite = remember { resources.getBoolean(R.bool.show_donate_in_about) && !showExternalLinks }
                     OtherSection(
                         showMoreApps = showGoogleRelations,
                         onMoreAppsClick = ::launchMoreAppsFromUsIntent,
@@ -95,7 +96,8 @@ class AboutActivity : BaseComposeActivity() {
                         showPrivacyPolicy = showExternalLinks,
                         onPrivacyPolicyClick = ::onPrivacyPolicyClick,
                         onLicenseClick = ::onLicenseClick,
-                        version = fullVersion,
+                        versionName = versionName,
+                        packageName = packageName,
                         onVersionClick = ::onVersionClick
                     )
                 }
@@ -107,17 +109,15 @@ class AboutActivity : BaseComposeActivity() {
     private fun rememberFAQ() = remember { !(intent.getSerializableExtra(APP_FAQ) as? ArrayList<FAQItem>).isNullOrEmpty() }
 
     @Composable
-    private fun showWebsiteAndFullVersion(
-        resources: Resources,
-        showExternalLinks: Boolean,
-    ): Pair<Boolean, String> {
-        val showWebsite = remember { resources.getBoolean(R.bool.show_donate_in_about) && !showExternalLinks }
-        var version = intent.getStringExtra(APP_VERSION_NAME) ?: ""
+    private fun getPackageInfo(): Pair<String, String> {
+        var versionName = intent.getStringExtra(APP_VERSION_NAME) ?: ""
+        val packageName = intent.getStringExtra(APP_PACKAGE_NAME) ?: ""
         if (baseConfig.appId.removeSuffix(".debug").endsWith(".pro")) {
-            version += " ${getString(R.string.pro)}"
+            versionName += " ${getString(R.string.pro)}"
         }
-        val fullVersion = remember { String.format(getString(R.string.version_placeholder, version)) }
-        return Pair(showWebsite, fullVersion)
+
+        val fullVersion = stringResource(R.string.version_placeholder, versionName)
+        return Pair(fullVersion, packageName)
     }
 
     @Composable

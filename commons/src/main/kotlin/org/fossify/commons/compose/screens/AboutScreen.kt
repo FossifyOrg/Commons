@@ -80,7 +80,8 @@ internal fun OtherSection(
     showPrivacyPolicy: Boolean,
     onPrivacyPolicyClick: () -> Unit,
     onLicenseClick: () -> Unit,
-    version: String,
+    versionName: String,
+    packageName: String,
     onVersionClick: () -> Unit,
 ) {
     SettingsGroup(title = {
@@ -112,10 +113,14 @@ internal fun OtherSection(
             text = stringResource(id = R.string.third_party_licences),
             icon = R.drawable.ic_article_vector
         )
-        TwoLinerTextItem(
+        SettingsListItem(
+            tint = SimpleTheme.colorScheme.onSurface,
             click = onVersionClick,
-            text = version,
-            icon = R.drawable.ic_info_vector
+            text = versionName,
+            description = packageName,
+            icon = R.drawable.ic_info_vector,
+            maxLines = 2,
+            overflow = TextOverflow.Ellipsis
         )
         SettingsHorizontalDivider()
     }
@@ -242,7 +247,8 @@ private fun AboutScreenPreview() {
                 showPrivacyPolicy = true,
                 onPrivacyPolicyClick = {},
                 onLicenseClick = {},
-                version = "5.0.4",
+                versionName = "5.0.4",
+                packageName = "org.fossify.commons.samples",
                 onVersionClick = {}
             )
         }

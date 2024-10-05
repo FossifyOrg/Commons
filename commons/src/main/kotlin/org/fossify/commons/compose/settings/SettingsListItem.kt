@@ -23,11 +23,13 @@ import org.fossify.commons.compose.extensions.BooleanPreviewParameterProvider
 import org.fossify.commons.compose.extensions.MyDevices
 import org.fossify.commons.compose.theme.AppThemeSurface
 import org.fossify.commons.compose.theme.SimpleTheme
+import org.fossify.commons.compose.theme.textSubTitleColor
 
 @Composable
 fun SettingsListItem(
     modifier: Modifier = Modifier,
     text: String,
+    description: String? = null,
     fontSize: TextUnit = TextUnit.Unspecified,
     maxLines: Int = Int.MAX_VALUE,
     overflow: TextOverflow = TextOverflow.Clip,
@@ -83,6 +85,9 @@ fun SettingsListItem(
                     modifier = imageSize,
                 )
             }
+        },
+        supportingContent = description?.let {
+            { Text(text = description, color = textSubTitleColor) }
         },
         modifier = Modifier
             .fillMaxWidth()
