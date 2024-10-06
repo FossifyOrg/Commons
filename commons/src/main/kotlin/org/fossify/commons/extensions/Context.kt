@@ -8,6 +8,7 @@ import android.app.NotificationManager
 import android.app.role.RoleManager
 import android.content.*
 import android.content.pm.PackageManager
+import android.content.pm.PackageManager.PERMISSION_GRANTED
 import android.content.pm.ShortcutManager
 import android.content.res.Configuration
 import android.database.Cursor
@@ -45,6 +46,7 @@ import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import org.fossify.commons.R
 import org.fossify.commons.helpers.*
+import org.fossify.commons.helpers.MyContentProvider.PERMISSION_WRITE_GLOBAL_SETTINGS
 import org.fossify.commons.models.AlarmSound
 import org.fossify.commons.models.BlockedNumber
 import java.io.File
@@ -488,6 +490,10 @@ fun Context.getUriMimeType(path: String, newUri: Uri): String {
 }
 
 fun Context.isThankYouInstalled() = isPackageInstalled("org.fossify.thankyou")
+
+fun Context.canAccessGlobalConfig(): Boolean {
+    return isThankYouInstalled() && ContextCompat.checkSelfPermission(this, PERMISSION_WRITE_GLOBAL_SETTINGS) == PERMISSION_GRANTED
+}
 
 fun Context.isOrWasThankYouInstalled(): Boolean {
     return when {

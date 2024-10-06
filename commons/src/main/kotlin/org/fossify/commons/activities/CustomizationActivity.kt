@@ -63,7 +63,7 @@ class CustomizationActivity : BaseSimpleActivity() {
         updateMaterialActivityViews(binding.customizationCoordinator, binding.customizationHolder, useTransparentNavigation = true, useTopSearchMenu = false)
 
         initColorVariables()
-        if (isThankYouInstalled()) {
+        if (canAccessGlobalConfig()) {
             withGlobalConfig {
                 globalConfig = it
                 baseConfig.isGlobalThemeEnabled = it.isGlobalThemingEnabled()
@@ -649,7 +649,7 @@ class CustomizationActivity : BaseSimpleActivity() {
     private fun getMaterialYouString() = getString(R.string.system_default)
 
     private fun showOrHideThankYouFeatures() {
-        val showThankYouFeatures = isThankYouInstalled()
+        val showThankYouFeatures = canAccessGlobalConfig()
         binding.applyToAllHolder.beVisibleIf(showThankYouFeatures)
         binding.applyToAllDivider.root.beVisibleIf(showThankYouFeatures)
         binding.settingsAllFossifyAppsLabel.beVisibleIf(showThankYouFeatures)
