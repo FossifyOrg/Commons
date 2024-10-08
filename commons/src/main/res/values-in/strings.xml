@@ -913,7 +913,7 @@
     <string name="september_short">Sep</string>
     <string name="october_short">Okt</string>
     <string name="november_short">Nov</string>
-    <string name="donate_new">Halo,&lt;br&gt;&lt;br&gt;semoga Anda menikmati aplikasinya. Aplikasi ini tidak ada iklan dan kami tidak mengumpulkan data Anda, silakan mendukung pengembangannya dengan membeli aplikasi &lt;a href=\"https://play.google.com/store/apps/details?id=org.fossify.thankyou\"&gt;Terima Kasih Fossify&lt;/a&gt;. Anda juga akan mendapatkan semua fitur aplikasi termasuk kustomisasi warna.&lt;br&gt;&lt;br&gt;Terima kasih!</string>
+    <string name="donate_new">Halo,&lt;br&gt;&lt;br&gt;semoga Anda menikmati aplikasinya. Aplikasi ini tidak ada iklan dan kami tidak mengumpulkan data Anda, silakan mendukung pengembangannya dengan membeli aplikasi &lt;a href=ttps://play.google.com/store/apps/details?id=org.fossify.thankyouTerima Kasih Fossify&lt;/a&gt;. Anda juga akan mendapatkan semua fitur aplikasi termasuk kustomisasi warna.&lt;br&gt;&lt;br&gt;Terima kasih!</string>
     <string name="faq_2_text_commons">Ya, tentu saja. Anda dapat membagikan tentang aplikasi ini atau memberikan masukan dan ulasan yang baik. Anda juga dapat membantu dengan menerjemahkan aplikasi dalam bahasa baru, atau hanya memperbarui beberapa terjemahan yang sudah ada. Panduan penerjemahannya ada di <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">situs web ini</a>, atau hubungi kami di <a href="mailto:hello@fossify.org">hello@fossify.org</a> jika Anda memiliki pertanyaan.</string>
     <string name="december_short">Des</string>
     <string name="platforms">Platform</string>
@@ -964,8 +964,7 @@
     <string name="deletion_confirmation_short">Hapus %s?</string>
     <string name="pin">PIN</string>
     <string name="pin_must_be_4_digits_long">PIN setidaknya harus 4 digit</string>
-    <string name="too_many_incorrect_attempts">Terlalu banyak percobaan pembukaan salah.
-\nCoba lagi dalam %d detik.</string>
+    <string name="too_many_incorrect_attempts">Terlalu banyak percobaan pembukaan salah. \nCoba lagi dalam %d detik.</string>
     <string name="empty_password_new">Silakan masukkan kata sandi</string>
     <string name="enter_password">Masukkan kata sandi</string>
     <string name="password">Kata sandi</string>
@@ -986,8 +985,7 @@
     <string name="april">April</string>
     <string name="september">September</string>
     <string name="website">Situs web</string>
-    <string name="copyright">v %1$s
-\nHak cipta © Fossify %2$d</string>
+    <string name="copyright">v %1$s \nHak cipta © Fossify %2$d</string>
     <string name="support">Dukungan</string>
     <string name="help_us">Bantu kami</string>
     <string name="social">Sosial</string>
@@ -1029,7 +1027,7 @@
     <string name="july_short">Jul</string>
     <string name="saturday_letter">S</string>
     <string name="donate_short">Silakan mendukung kami dengan membeli <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Terima Kasih Fossify</a>, ini juga akan membuka semua fitur aplikasi termasuk kustomisasi warna.</string>
-    <string name="features_locked">Fitur ini terkunci, silakan beli &lt;a href=\"https://play.google.com/store/apps/details?id=org.fossify.thankyou\"&gt;Terima Kasih Fossify&lt;/a&gt; untuk membuka aplikasi lengkap.&lt;br&gt;&lt;br&gt;Ini merupakan pembayaran satu kali dan jika Anda masih belum puas, kami dapat mengembalikan dana Anda.</string>
+    <string name="features_locked">Fitur ini terkunci, silakan beli &lt;a href=ttps://play.google.com/store/apps/details?id=org.fossify.thankyouTerima Kasih Fossify&lt;/a&gt; untuk membuka aplikasi lengkap.&lt;br&gt;&lt;br&gt;Ini merupakan pembayaran satu kali dan jika Anda masih belum puas, kami dapat mengembalikan dana Anda.</string>
     <string name="notes_short">Catatan</string>
     <string name="donate_to_fossify">Berdonasi ke Fossify</string>
     <string name="little_to_no_fee">Biaya kecil sampai tidak ada</string>
@@ -1053,7 +1051,7 @@
     <string name="translation_ukrainian">Ukraina</string>
     <string name="translation_chinese_tw">Cina (Tradisional)</string>
     <string name="why_upgrade_pro_version">Pro</string>
-    <string name="donate_please">Halo,&lt;br&gt;&lt;br&gt; semoga Anda menikmati aplikasinya. Aplikasi ini tidak ada iklan, silakan mendukung pengembangannya dengan membeli aplikasi &lt;a href=\"https://play.google.com/store/apps/details?id=org.fossify.thankyou\"&gt;Terima Kasih Fossify&lt;/a&gt;, ini juga akan mencegah dialog ini muncul lagi.&lt;br&gt;&lt;br&gt; Terima kasih!</string>
+    <string name="donate_please">Halo,&lt;br&gt;&lt;br&gt; semoga Anda menikmati aplikasinya. Aplikasi ini tidak ada iklan, silakan mendukung pengembangannya dengan membeli aplikasi &lt;a href=ttps://play.google.com/store/apps/details?id=org.fossify.thankyouTerima Kasih Fossify&lt;/a&gt;, ini juga akan mencegah dialog ini muncul lagi.&lt;br&gt;&lt;br&gt; Terima kasih!</string>
     <string name="translation_belarusian">Belarusia</string>
     <string name="translation_central_kurdish">Kurdi Tengah</string>
     <string name="theme_and_colors">Tema dan warna</string>
