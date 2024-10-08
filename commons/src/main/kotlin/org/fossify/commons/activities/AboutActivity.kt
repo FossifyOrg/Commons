@@ -44,6 +44,7 @@ class AboutActivity : BaseComposeActivity() {
             val resources = context.resources
             AppThemeSurface {
                 val showGoogleRelations = remember { !resources.getBoolean(R.bool.hide_google_relations) }
+                val showGithubRelations = showGithubRelations()
                 val showDonationLinks = remember { resources.getBoolean(R.bool.show_donate_in_about) }
                 val onEmailClickAlertDialogState = getOnEmailClickAlertDialogState()
                 val rateStarsAlertDialogState = getRateStarsAlertDialogState()
@@ -62,17 +63,16 @@ class AboutActivity : BaseComposeActivity() {
                             onContributorsClick = ::onContributorsClick,
                             showDonate = showDonationLinks,
                             onDonateClick = ::onDonateClick,
-                            showInvite = showGoogleRelations,
+                            showInvite = showGoogleRelations || showGithubRelations,
                             showRateUs = showGoogleRelations
                         )
                     },
                     aboutSection = {
                         val setupFAQ = showFAQ()
-                        val setupKnownIssues = showKnownIssues()
-                        if (setupFAQ || setupKnownIssues) {
+                        if (setupFAQ || showGithubRelations) {
                             AboutSection(
                                 setupFAQ = setupFAQ,
-                                setupKnownIssues = setupKnownIssues,
+                                setupKnownIssues = showGithubRelations,
                                 onFAQClick = ::launchFAQActivity,
                                 onKnownIssuesClick = ::launchIssueTracker,
                                 onEmailClick = {
@@ -104,12 +104,16 @@ class AboutActivity : BaseComposeActivity() {
         }
     }
 
+    private fun getGithubUrl(): String {
+        return "https://github.com/FossifyOrg/${intent.getStringExtra(APP_REPOSITORY_NAME)}"
+    }
+
     @Composable
     private fun showFAQ() =
         remember { !(intent.getSerializableExtra(APP_FAQ) as? ArrayList<FAQItem>).isNullOrEmpty() }
 
     @Composable
-    private fun showKnownIssues() =
+    private fun showGithubRelations() =
         remember { !intent.getStringExtra(APP_REPOSITORY_NAME).isNullOrEmpty() }
 
     @Composable
@@ -202,9 +206,8 @@ class AboutActivity : BaseComposeActivity() {
     }
 
     private fun launchIssueTracker() {
-        val repository = intent.getStringExtra(APP_REPOSITORY_NAME)
         launchViewIntent(
-            "https://github.com/FossifyOrg/$repository/issues?q=is:open+is:issue+label:bug"
+            "${getGithubUrl()}/issues?q=is:open+is:issue+label:bug"
         )
     }
 
@@ -267,7 +270,12 @@ class AboutActivity : BaseComposeActivity() {
     }
 
     private fun onInviteClick() {
-        val text = String.format(getString(R.string.share_text), appName, getStoreUrl())
+        val storeUrl = when {
+            resources.getBoolean(R.bool.hide_google_relations) -> getGithubUrl()
+            else -> getStoreUrl()
+        }
+
+        val text = String.format(getString(R.string.share_text), appName, storeUrl)
         Intent().apply {
             action = ACTION_SEND
             putExtra(EXTRA_SUBJECT, appName)
