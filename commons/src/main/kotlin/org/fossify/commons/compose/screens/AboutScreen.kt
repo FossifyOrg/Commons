@@ -55,7 +55,7 @@ internal fun HelpUsSection(
         if (showRateUs) {
             TwoLinerTextItem(
                 text = stringResource(id = R.string.rate_us),
-                icon = R.drawable.ic_star_vector,
+                icon = R.drawable.ic_star_outline_vector,
                 click = onRateUsClick
             )
         }
@@ -63,7 +63,7 @@ internal fun HelpUsSection(
         if (showInvite) {
             TwoLinerTextItem(
                 text = stringResource(id = R.string.invite_friends),
-                icon = R.drawable.ic_add_person_vector,
+                icon = R.drawable.ic_share_outline_vector,
                 click = onInviteClick
             )
         }
@@ -71,14 +71,14 @@ internal fun HelpUsSection(
         TwoLinerTextItem(
             click = onContributorsClick,
             text = stringResource(id = R.string.contributors),
-            icon = R.drawable.ic_face_vector
+            icon = R.drawable.ic_groups_outline_vector
         )
 
         if (showDonate) {
             TwoLinerTextItem(
                 click = onDonateClick,
                 text = stringResource(id = R.string.donate_to_fossify),
-                icon = R.drawable.ic_donate_vector
+                icon = R.drawable.ic_donate_outline_vector
             )
         }
 
@@ -106,26 +106,26 @@ internal fun OtherSection(
             TwoLinerTextItem(
                 click = onMoreAppsClick,
                 text = stringResource(id = R.string.more_apps_from_us),
-                icon = R.drawable.ic_heart_vector
+                icon = R.drawable.ic_apps_vector
             )
         }
 
         TwoLinerTextItem(
             click = onPrivacyPolicyClick,
             text = stringResource(id = R.string.privacy_policy),
-            icon = R.drawable.ic_unhide_vector
+            icon = R.drawable.ic_policy_outline_vector
         )
         TwoLinerTextItem(
             click = onLicenseClick,
             text = stringResource(id = R.string.third_party_licences),
-            icon = R.drawable.ic_article_vector
+            icon = R.drawable.ic_article_outline_vector
         )
         SettingsListItem(
             tint = SimpleTheme.colorScheme.onSurface,
             click = onVersionClick,
             text = versionName,
             description = packageName,
-            icon = R.drawable.ic_info_vector,
+            icon = R.drawable.ic_info_outline_vector,
             maxLines = 2,
             overflow = TextOverflow.Ellipsis
         )
@@ -152,7 +152,7 @@ internal fun AboutSection(
             TwoLinerTextItem(
                 click = onFAQClick,
                 text = stringResource(id = R.string.frequently_asked_questions),
-                icon = R.drawable.ic_question_mark_vector
+                icon = R.drawable.ic_help_outline_vector
             )
         }
 
@@ -160,14 +160,14 @@ internal fun AboutSection(
             TwoLinerTextItem(
                 click = onKnownIssuesClick,
                 text = stringResource(R.string.known_issues),
-                icon = R.drawable.ic_bug_report_vector
+                icon = R.drawable.ic_bug_report_outline_vector
             )
         }
 
         TwoLinerTextItem(
             click = onEmailClick,
             text = stringResource(id = R.string.my_email),
-            icon = R.drawable.ic_mail_vector
+            icon = R.drawable.ic_contact_support_outline_vector
         )
         SettingsHorizontalDivider()
     }
