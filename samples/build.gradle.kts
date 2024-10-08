@@ -52,6 +52,12 @@ android {
         }
     }
 
+    flavorDimensions.add("variants")
+    productFlavors {
+        register("foss")
+        register("prepaid")
+    }
+
     compileOptions {
         val currentJavaVersionFromLibs = JavaVersion.valueOf(libs.versions.app.build.javaVersion.get())
         sourceCompatibility = currentJavaVersionFromLibs
