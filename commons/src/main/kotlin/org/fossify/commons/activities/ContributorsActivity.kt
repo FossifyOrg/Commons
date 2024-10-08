@@ -19,12 +19,8 @@ class ContributorsActivity : BaseComposeActivity() {
                 val contributors = remember {
                     languageContributors()
                 }
-                val showContributorsLabel = remember {
-                    !resources.getBoolean(R.bool.hide_all_external_links)
-                }
                 ContributorsScreen(
                     goBack = ::finish,
-                    showContributorsLabel = showContributorsLabel,
                     contributors = contributors,
                 )
             }

@@ -616,6 +616,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
         licenseMask: Long,
         versionName: String,
         packageName: String,
+        repositoryName: String,
         faqItems: ArrayList<FAQItem>,
         showFAQBeforeMail: Boolean
     ) {
@@ -624,6 +625,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
             putExtra(APP_ICON_IDS, getAppIconIDs())
             putExtra(APP_LAUNCHER_NAME, getAppLauncherName())
             putExtra(APP_NAME, getString(appNameId))
+            putExtra(APP_REPOSITORY_NAME, repositoryName)
             putExtra(APP_LICENSES, licenseMask)
             putExtra(APP_VERSION_NAME, versionName)
             putExtra(APP_PACKAGE_NAME, packageName)

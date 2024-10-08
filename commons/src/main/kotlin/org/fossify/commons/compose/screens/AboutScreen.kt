@@ -47,19 +47,33 @@ internal fun HelpUsSection(
     onDonateClick: () -> Unit,
 ) {
     SettingsGroup(title = {
-        SettingsTitleTextComponent(text = stringResource(id = R.string.help_us), modifier = startingTitlePadding)
+        SettingsTitleTextComponent(
+            text = stringResource(id = R.string.help_us),
+            modifier = startingTitlePadding
+        )
     }) {
         if (showRateUs) {
-            TwoLinerTextItem(text = stringResource(id = R.string.rate_us), icon = R.drawable.ic_star_vector, click = onRateUsClick)
+            TwoLinerTextItem(
+                text = stringResource(id = R.string.rate_us),
+                icon = R.drawable.ic_star_vector,
+                click = onRateUsClick
+            )
         }
+
         if (showInvite) {
-            TwoLinerTextItem(text = stringResource(id = R.string.invite_friends), icon = R.drawable.ic_add_person_vector, click = onInviteClick)
+            TwoLinerTextItem(
+                text = stringResource(id = R.string.invite_friends),
+                icon = R.drawable.ic_add_person_vector,
+                click = onInviteClick
+            )
         }
+
         TwoLinerTextItem(
             click = onContributorsClick,
             text = stringResource(id = R.string.contributors),
             icon = R.drawable.ic_face_vector
         )
+
         if (showDonate) {
             TwoLinerTextItem(
                 click = onDonateClick,
@@ -67,6 +81,7 @@ internal fun HelpUsSection(
                 icon = R.drawable.ic_donate_vector
             )
         }
+
         SettingsHorizontalDivider()
     }
 }
@@ -75,9 +90,6 @@ internal fun HelpUsSection(
 internal fun OtherSection(
     showMoreApps: Boolean,
     onMoreAppsClick: () -> Unit,
-    onWebsiteClick: () -> Unit,
-    showWebsite: Boolean,
-    showPrivacyPolicy: Boolean,
     onPrivacyPolicyClick: () -> Unit,
     onLicenseClick: () -> Unit,
     versionName: String,
@@ -85,7 +97,10 @@ internal fun OtherSection(
     onVersionClick: () -> Unit,
 ) {
     SettingsGroup(title = {
-        SettingsTitleTextComponent(text = stringResource(id = R.string.other), modifier = startingTitlePadding)
+        SettingsTitleTextComponent(
+            text = stringResource(id = R.string.other),
+            modifier = startingTitlePadding
+        )
     }) {
         if (showMoreApps) {
             TwoLinerTextItem(
@@ -94,20 +109,12 @@ internal fun OtherSection(
                 icon = R.drawable.ic_heart_vector
             )
         }
-        if (showWebsite) {
-            TwoLinerTextItem(
-                click = onWebsiteClick,
-                text = stringResource(id = R.string.website),
-                icon = R.drawable.ic_link_vector
-            )
-        }
-        if (showPrivacyPolicy) {
-            TwoLinerTextItem(
-                click = onPrivacyPolicyClick,
-                text = stringResource(id = R.string.privacy_policy),
-                icon = R.drawable.ic_unhide_vector
-            )
-        }
+
+        TwoLinerTextItem(
+            click = onPrivacyPolicyClick,
+            text = stringResource(id = R.string.privacy_policy),
+            icon = R.drawable.ic_unhide_vector
+        )
         TwoLinerTextItem(
             click = onLicenseClick,
             text = stringResource(id = R.string.third_party_licences),
@@ -130,11 +137,16 @@ internal fun OtherSection(
 @Composable
 internal fun AboutSection(
     setupFAQ: Boolean,
+    setupKnownIssues: Boolean,
     onFAQClick: () -> Unit,
+    onKnownIssuesClick: () -> Unit,
     onEmailClick: () -> Unit,
 ) {
     SettingsGroup(title = {
-        SettingsTitleTextComponent(text = stringResource(id = R.string.support), modifier = startingTitlePadding)
+        SettingsTitleTextComponent(
+            text = stringResource(id = R.string.support),
+            modifier = startingTitlePadding
+        )
     }) {
         if (setupFAQ) {
             TwoLinerTextItem(
@@ -143,6 +155,15 @@ internal fun AboutSection(
                 icon = R.drawable.ic_question_mark_vector
             )
         }
+
+        if (setupKnownIssues) {
+            TwoLinerTextItem(
+                click = onKnownIssuesClick,
+                text = stringResource(R.string.known_issues),
+                icon = R.drawable.ic_bug_report_vector
+            )
+        }
+
         TwoLinerTextItem(
             click = onEmailClick,
             text = stringResource(id = R.string.my_email),
@@ -159,7 +180,10 @@ internal fun SocialSection(
     onTelegramClick: () -> Unit,
 ) {
     SettingsGroup(title = {
-        SettingsTitleTextComponent(text = stringResource(id = R.string.social), modifier = startingTitlePadding)
+        SettingsTitleTextComponent(
+            text = stringResource(id = R.string.social),
+            modifier = startingTitlePadding
+        )
     }) {
         SocialText(
             click = onGithubClick,
@@ -229,7 +253,12 @@ private fun AboutScreenPreview() {
                 )
             },
             aboutSection = {
-                AboutSection(setupFAQ = true, onFAQClick = {}, onEmailClick = {})
+                AboutSection(
+                    setupFAQ = true,
+                    setupKnownIssues = true,
+                    onFAQClick = {},
+                    onKnownIssuesClick = {},
+                    onEmailClick = {})
             },
             socialSection = {
                 SocialSection(
@@ -242,9 +271,6 @@ private fun AboutScreenPreview() {
             OtherSection(
                 showMoreApps = true,
                 onMoreAppsClick = {},
-                onWebsiteClick = {},
-                showWebsite = true,
-                showPrivacyPolicy = true,
                 onPrivacyPolicyClick = {},
                 onLicenseClick = {},
                 versionName = "5.0.4",

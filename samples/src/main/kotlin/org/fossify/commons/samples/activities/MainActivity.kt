@@ -25,6 +25,11 @@ import org.fossify.commons.samples.R
 import org.fossify.commons.samples.screens.MainScreen
 
 class MainActivity : BaseSimpleActivity() {
+
+    companion object {
+        private const val REPOSITORY_NAME = "General-Discussion"
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         appLaunched(BuildConfig.APPLICATION_ID)
@@ -108,6 +113,7 @@ class MainActivity : BaseSimpleActivity() {
             appNameId = R.string.commons_app_name,
             licenseMask = licenses,
             versionName = BuildConfig.VERSION_NAME,
+            repositoryName = REPOSITORY_NAME,
             faqItems = faqItems,
             showFAQBeforeMail = true
         )
@@ -117,6 +123,7 @@ class MainActivity : BaseSimpleActivity() {
         appNameId: Int,
         licenseMask: Long,
         versionName: String,
+        repositoryName: String,
         faqItems: ArrayList<FAQItem>,
         showFAQBeforeMail: Boolean,
         getAppIconIDs: ArrayList<Int> = getAppIconIDs(),
@@ -130,6 +137,7 @@ class MainActivity : BaseSimpleActivity() {
             putExtra(APP_LICENSES, licenseMask)
             putExtra(APP_VERSION_NAME, versionName)
             putExtra(APP_PACKAGE_NAME, packageName)
+            putExtra(APP_REPOSITORY_NAME, repositoryName)
             putExtra(APP_FAQ, faqItems)
             putExtra(SHOW_FAQ_BEFORE_MAIL, showFAQBeforeMail)
             startActivity(this)

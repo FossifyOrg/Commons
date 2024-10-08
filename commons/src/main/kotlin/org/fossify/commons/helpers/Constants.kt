@@ -21,6 +21,7 @@ const val APP_LICENSES = "app_licenses"
 const val APP_FAQ = "app_faq"
 const val APP_VERSION_NAME = "app_version_name"
 const val APP_PACKAGE_NAME = "app_package_name"
+const val APP_REPOSITORY_NAME = "app_repo_name"
 const val APP_ICON_IDS = "app_icon_ids"
 const val APP_ID = "app_id"
 const val APP_LAUNCHER_NAME = "app_launcher_name"
@@ -42,7 +43,8 @@ const val KEY_PHONE = "phone"
 const val KEY_MAILTO = "mailto"
 const val CONTACT_ID = "contact_id"
 const val IS_PRIVATE = "is_private"
-const val SMT_PRIVATE = "smt_private"   // used at the contact source of local contacts hidden from other apps
+const val SMT_PRIVATE =
+    "smt_private" // used at the contact source of local contacts hidden from other apps
 const val FIRST_GROUP_ID = 10000L
 const val MD5 = "MD5"
 const val SHORT_ANIMATION_DURATION = 150L
@@ -273,7 +275,8 @@ const val REQUEST_APP_UNLOCK = 1012
 
 // sorting
 const val SORT_ORDER = "sort_order"
-const val SORT_FOLDER_PREFIX = "sort_folder_"       // storing folder specific values at using "Use for this folder only"
+const val SORT_FOLDER_PREFIX =
+    "sort_folder_"       // storing folder specific values at using "Use for this folder only"
 const val SORT_BY_NAME = 1
 const val SORT_BY_DATE_MODIFIED = 2
 const val SORT_BY_SIZE = 4
@@ -354,7 +357,8 @@ const val THURSDAY_BIT = 8
 const val FRIDAY_BIT = 16
 const val SATURDAY_BIT = 32
 const val SUNDAY_BIT = 64
-const val EVERY_DAY_BIT = MONDAY_BIT or TUESDAY_BIT or WEDNESDAY_BIT or THURSDAY_BIT or FRIDAY_BIT or SATURDAY_BIT or SUNDAY_BIT
+const val EVERY_DAY_BIT =
+    MONDAY_BIT or TUESDAY_BIT or WEDNESDAY_BIT or THURSDAY_BIT or FRIDAY_BIT or SATURDAY_BIT or SUNDAY_BIT
 const val WEEK_DAYS_BIT = MONDAY_BIT or TUESDAY_BIT or WEDNESDAY_BIT or THURSDAY_BIT or FRIDAY_BIT
 const val WEEKENDS_BIT = SATURDAY_BIT or SUNDAY_BIT
 
@@ -372,12 +376,64 @@ const val TAB_FILES = 16
 const val TAB_RECENT_FILES = 32
 const val TAB_STORAGE_ANALYSIS = 64
 
-val photoExtensions: Array<String> get() = arrayOf(".jpg", ".png", ".jpeg", ".bmp", ".webp", ".heic", ".heif", ".apng", ".avif", ".jxl")
-val videoExtensions: Array<String> get() = arrayOf(".mp4", ".mkv", ".webm", ".avi", ".3gp", ".mov", ".m4v", ".3gpp")
-val audioExtensions: Array<String> get() = arrayOf(".mp3", ".wav", ".wma", ".ogg", ".m4a", ".opus", ".flac", ".aac", ".m4b")
-val rawExtensions: Array<String> get() = arrayOf(".dng", ".orf", ".nef", ".arw", ".rw2", ".cr2", ".cr3")
+val photoExtensions: Array<String>
+    get() = arrayOf(
+        ".jpg",
+        ".png",
+        ".jpeg",
+        ".bmp",
+        ".webp",
+        ".heic",
+        ".heif",
+        ".apng",
+        ".avif",
+        ".jxl"
+    )
 
-val extensionsSupportingEXIF: Array<String> get() = arrayOf(".jpg", ".jpeg", ".png", ".webp", ".dng")
+val videoExtensions: Array<String>
+    get() = arrayOf(
+        ".mp4",
+        ".mkv",
+        ".webm",
+        ".avi",
+        ".3gp",
+        ".mov",
+        ".m4v",
+        ".3gpp"
+    )
+
+val audioExtensions: Array<String>
+    get() = arrayOf(
+        ".mp3",
+        ".wav",
+        ".wma",
+        ".ogg",
+        ".m4a",
+        ".opus",
+        ".flac",
+        ".aac",
+        ".m4b"
+    )
+
+val rawExtensions: Array<String>
+    get() = arrayOf(
+        ".dng",
+        ".orf",
+        ".nef",
+        ".arw",
+        ".rw2",
+        ".cr2",
+        ".cr3"
+    )
+
+val extensionsSupportingEXIF: Array<String>
+    get() = arrayOf(
+        ".jpg",
+        ".jpeg",
+        ".png",
+        ".webp",
+        ".dng"
+    )
 
 const val DATE_FORMAT_ONE = "dd.MM.yyyy"
 const val DATE_FORMAT_TWO = "dd/MM/yyyy"
@@ -659,4 +715,8 @@ fun getEmptyLocalContact() = LocalContact(
     null
 )
 
-fun getProperText(text: String, shouldNormalize: Boolean) = if (shouldNormalize) text.normalizeString() else text
+fun getProperText(text: String, shouldNormalize: Boolean) =
+    when {
+        shouldNormalize -> text.normalizeString()
+        else -> text
+    }

@@ -895,6 +895,7 @@
     <string name="website">Website</string>
     <string name="website_label">For the source codes visit</string>
     <string name="email_label">Send your feedback or suggestions to</string>
+    <string name="known_issues">Known issues</string>
     <string name="upgrade_to_pro">Upgrade to Pro</string>
     <string name="more_apps">More apps</string>
     <string name="more_apps_from_us">More apps from us</string>

@@ -35,7 +35,6 @@ private val startingPadding = Modifier.padding(start = 56.dp)
 @Composable
 internal fun ContributorsScreen(
     goBack: () -> Unit,
-    showContributorsLabel: Boolean,
     contributors: ImmutableList<LanguageContributor>
 ) {
     SimpleLazyListScaffold(
@@ -81,24 +80,23 @@ internal fun ContributorsScreen(
                 languageContributor = it
             )
         }
-        if (showContributorsLabel) {
-            item {
-                SettingsListItem(
-                    icon = R.drawable.ic_heart_vector,
-                    text = {
-                        val source = stringResource(id = R.string.contributors_label)
-                        LinkifyTextComponent {
-                            source.fromHtml()
-                        }
-                    },
-                    tint = SimpleTheme.colorScheme.onSurface
-                )
-            }
-            item {
-                Spacer(modifier = Modifier.padding(bottom = SimpleTheme.dimens.padding.medium))
-            }
+
+        item {
+            SettingsListItem(
+                icon = R.drawable.ic_heart_vector,
+                text = {
+                    val source = stringResource(id = R.string.contributors_label)
+                    LinkifyTextComponent {
+                        source.fromHtml()
+                    }
+                },
+                tint = SimpleTheme.colorScheme.onSurface
+            )
         }
 
+        item {
+            Spacer(modifier = Modifier.padding(bottom = SimpleTheme.dimens.padding.medium))
+        }
     }
 }
 
@@ -151,7 +149,6 @@ private fun ContributorsScreenPreview() {
                 LanguageContributor(R.drawable.ic_flag_bengali_vector, R.string.translation_bengali, R.string.translators_bengali),
                 LanguageContributor(R.drawable.ic_flag_catalan_vector, R.string.translation_catalan, R.string.translators_catalan),
             ).toImmutableList(),
-            showContributorsLabel = true,
         )
     }
 }
