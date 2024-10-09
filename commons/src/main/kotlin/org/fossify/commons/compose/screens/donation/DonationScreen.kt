@@ -66,13 +66,13 @@ fun DonationPlatforms(
     }) {
         options.forEach {
             DonationListItem(
-                name = it.name,
+                name = stringResource(it.nameRes),
                 description = if (it.fee == 0) {
                     stringResource(id = R.string.little_to_no_fee)
                 } else {
                     stringResource(R.string.fee_up_to_pct, it.fee)
                 },
-                icon = it.icon,
+                icon = it.iconRes,
                 onClick = { openWebsite(it.link) },
                 onCopyClick = { copyToClipboard(it.link) },
             )
@@ -94,9 +94,9 @@ fun DonationCryptos(
     }) {
         options.forEach {
             DonationListItem(
-                name = it.name,
+                name = stringResource(it.nameRes),
                 description = it.address,
-                icon = it.icon,
+                icon = it.iconRes,
                 onClick = { copyToClipboard(it.address) },
                 onCopyClick = { copyToClipboard(it.address) },
             )

@@ -39,6 +39,17 @@
     <string name="github">GitHub</string>
     <string name="viber">Viber</string>
 
+    <!-- Donation options -->
+    <string name="github_sponsors">GitHub Sponsors</string>
+    <string name="liberapay">Liberapay</string>
+    <string name="opencollective">Open Collective</string>
+    <string name="patreon">Patreon</string>
+    <string name="paypal">PayPal</string>
+    <string name="bitcoin_btc">Bitcoin (BTC)</string>
+    <string name="ethereum_eth">Ethereum (ETH)</string>
+    <string name="monero_xmr">Monero (XMR)</string>
+    <string name="tron_trx">Tron (TRX)</string>
+
     <!-- Contributors -->
     <string name="contributors_developers">Aga-C, AlbertoPellitteri, Alfavio, connyduck, correia55, dagkalis, DaPa, ForgottenUmbrella, KryptKode, naveensingh, qwertyfinger</string>
     <string name="contributors_other_help"></string>
