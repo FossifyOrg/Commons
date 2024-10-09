@@ -460,10 +460,10 @@
         <item quantity="other">%d minggu sebelumnya</item>
     </plurals>
     <plurals name="months_before">
-        <item quantity="other">%d months before</item>
+        <item quantity="other">%d bulan sebelumnya</item>
     </plurals>
     <plurals name="years_before">
-        <item quantity="other">%d years before</item>
+        <item quantity="other">%d tahun sebelumnya</item>
     </plurals>
     <plurals name="by_seconds">
         <item quantity="other">%d detik</item>
@@ -914,7 +914,7 @@
     <string name="exif">EXIF</string>
     <string name="default_color">Bawaan</string>
     <string name="august_short">Agu</string>
-    <string name="september_short">Sept</string>
+    <string name="september_short">Sep</string>
     <string name="october_short">Okt</string>
     <string name="november_short">Nov</string>
     <string name="donate_new">Halo,&lt;br&gt;&lt;br&gt;semoga Anda menikmati aplikasinya. Aplikasi ini tidak ada iklan dan kami tidak mengumpulkan data Anda, silakan mendukung pengembangannya dengan membeli aplikasi &lt;a href=\"https://play.google.com/store/apps/details?id=org.fossify.thankyou\"&gt;Terima Kasih Fossify&lt;/a&gt;. Anda juga akan mendapatkan semua fitur aplikasi termasuk kustomisasi warna.&lt;br&gt;&lt;br&gt;Terima kasih!</string>
