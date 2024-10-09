@@ -30,7 +30,7 @@ import org.fossify.commons.compose.theme.SimpleTheme
 import org.fossify.commons.extensions.fromHtml
 import org.fossify.commons.models.LanguageContributor
 
-private val startingPadding = Modifier.padding(start = 56.dp)
+private val titleStartPadding = Modifier.padding(start = 40.dp)
 
 @Composable
 internal fun ContributorsScreen(
@@ -41,9 +41,7 @@ internal fun ContributorsScreen(
         title = { scrolledColor ->
             Text(
                 text = stringResource(id = R.string.contributors),
-                modifier = Modifier
-                    .padding(start = SimpleTheme.dimens.padding.extraLarge)
-                    .fillMaxWidth(),
+                modifier = Modifier.fillMaxWidth(),
                 color = scrolledColor,
                 overflow = TextOverflow.Ellipsis,
                 maxLines = 1
@@ -53,7 +51,10 @@ internal fun ContributorsScreen(
     ) {
         item {
             SettingsGroupTitle {
-                SettingsTitleTextComponent(text = stringResource(id = R.string.development), modifier = startingPadding)
+                SettingsTitleTextComponent(
+                    text = stringResource(id = R.string.development),
+                    modifier = titleStartPadding
+                )
             }
         }
         item {
@@ -72,7 +73,10 @@ internal fun ContributorsScreen(
         }
         item {
             SettingsGroupTitle {
-                SettingsTitleTextComponent(text = stringResource(id = R.string.translation), modifier = startingPadding)
+                SettingsTitleTextComponent(
+                    text = stringResource(id = R.string.translation),
+                    modifier = titleStartPadding
+                )
             }
         }
         items(contributors, key = { it.contributorsId.plus(it.iconId).plus(it.labelId) }) {
@@ -115,9 +119,7 @@ private fun ContributorItem(
             )
         },
         leadingContent = {
-            val imageSize = Modifier
-                .size(SimpleTheme.dimens.icon.medium)
-                .padding(SimpleTheme.dimens.padding.small)
+            val imageSize = Modifier.size(SimpleTheme.dimens.icon.extraSmall)
             Image(
                 modifier = imageSize,
                 painter = painterResource(id = languageContributor.iconId),

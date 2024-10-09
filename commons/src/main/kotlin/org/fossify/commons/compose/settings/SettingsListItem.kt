@@ -5,7 +5,6 @@ import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.material3.Icon
 import androidx.compose.material3.ListItem
@@ -52,8 +51,7 @@ fun SettingsListItem(
         },
         leadingContent = {
             val imageSize = Modifier
-                .size(SimpleTheme.dimens.icon.medium)
-                .padding(SimpleTheme.dimens.padding.small)
+                .size(SimpleTheme.dimens.icon.extraSmall)
             when {
                 icon != null && isImage && tint != null -> Image(
                     modifier = imageSize,
@@ -110,9 +108,7 @@ fun SettingsListItem(
             text()
         },
         leadingContent = {
-            val imageSize = Modifier
-                .size(SimpleTheme.dimens.icon.medium)
-                .padding(SimpleTheme.dimens.padding.medium)
+            val imageSize = Modifier.size(SimpleTheme.dimens.icon.extraSmall)
             when {
                 icon != null && isImage && tint != null -> Image(
                     modifier = imageSize,
@@ -154,7 +150,7 @@ fun SettingsListItem(
 
 @MyDevices
 @Composable
-private fun SettingsListItem(@PreviewParameter(BooleanPreviewParameterProvider::class) isImage: Boolean) {
+private fun PreviewSettingsListItem(@PreviewParameter(BooleanPreviewParameterProvider::class) isImage: Boolean) {
     AppThemeSurface {
         SettingsListItem(
             click = {},

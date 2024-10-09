@@ -10,7 +10,6 @@ import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.PreviewParameter
-import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import org.fossify.commons.compose.extensions.BooleanPreviewParameterProvider
 import org.fossify.commons.compose.extensions.MyDevices
@@ -45,7 +44,10 @@ fun SettingsCheckBoxComponent(
                 interactionSource = interactionSource,
                 indication = indication
             )
-            .padding(horizontal = 20.dp, vertical = 6.dp),
+            .padding(
+                horizontal = SimpleTheme.dimens.padding.extraLarge,
+                vertical = SimpleTheme.dimens.padding.medium
+            ),
     ) {
         Column(
             modifier = Modifier.weight(1f),

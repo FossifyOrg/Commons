@@ -1,9 +1,9 @@
 package org.fossify.commons.compose.settings
 
 import androidx.compose.foundation.layout.*
-import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.ProvideTextStyle
-import androidx.compose.material3.Text
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.rounded.Settings
+import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -49,16 +49,19 @@ fun SettingsGroupTitle(
 private fun SettingsGroupPreview() {
     MaterialTheme {
         SettingsGroup(
-            title = { Text(text = "Title") }
+            title = { Text(text = "Title", modifier = Modifier.padding(start = 40.dp)) }
         ) {
-            Box(
-                modifier = Modifier
-                    .height(64.dp)
-                    .fillMaxWidth(),
-                contentAlignment = Alignment.Center,
-            ) {
-                Text(text = "Settings group")
-            }
+            ListItem(
+                leadingContent = {
+                    Icon(
+                        imageVector = Icons.Rounded.Settings,
+                        contentDescription = null
+                    )
+                },
+                headlineContent = {
+                    Text(text = "Settings group")
+                }
+            )
         }
     }
 }

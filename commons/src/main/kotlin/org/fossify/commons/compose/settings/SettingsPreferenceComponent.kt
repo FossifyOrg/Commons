@@ -11,11 +11,11 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import org.fossify.commons.R
 import org.fossify.commons.compose.extensions.MyDevices
 import org.fossify.commons.compose.theme.AppThemeSurface
+import org.fossify.commons.compose.theme.SimpleTheme
 import org.fossify.commons.compose.theme.preferenceLabelColor
 import org.fossify.commons.compose.theme.preferenceValueColor
 
@@ -38,7 +38,10 @@ fun SettingsPreferenceComponent(
                 onClick = { doOnPreferenceClick?.invoke() },
                 onLongClick = { doOnPreferenceLongClick?.invoke() },
             )
-            .padding(20.dp)
+            .padding(
+                horizontal = SimpleTheme.dimens.padding.extraLarge,
+                vertical = SimpleTheme.dimens.padding.medium
+            )
             .then(modifier),
         verticalArrangement = Arrangement.Center
     ) {

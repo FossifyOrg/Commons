@@ -1,4 +1,4 @@
-package org.fossify.commons.compose.screens.donation
+package org.fossify.commons.compose.screens
 
 import androidx.annotation.DrawableRes
 import androidx.compose.foundation.Image
@@ -28,6 +28,9 @@ import org.fossify.commons.compose.settings.SettingsTitleTextComponent
 import org.fossify.commons.compose.theme.Shapes
 import org.fossify.commons.compose.theme.SimpleTheme
 import org.fossify.commons.compose.theme.textSubTitleColor
+import org.fossify.commons.models.Donation
+
+private val titleStartPadding = Modifier.padding(start = 48.dp)
 
 @Composable
 fun DonationScreen(
@@ -62,8 +65,7 @@ fun DonationPlatforms(
     SettingsGroup(title = {
         SettingsTitleTextComponent(
             text = stringResource(id = R.string.platforms),
-            modifier = Modifier
-                .padding(start = 56.dp)
+            modifier = titleStartPadding
         )
     }) {
         options.forEach {
@@ -90,8 +92,7 @@ fun DonationCryptos(
     SettingsGroup(title = {
         SettingsTitleTextComponent(
             text = stringResource(id = R.string.cryptocurrency),
-            modifier = Modifier
-                .padding(start = 56.dp)
+            modifier = titleStartPadding
         )
     }) {
         options.forEach {
@@ -127,7 +128,7 @@ fun DonationListItem(
         leadingContent = {
             Image(
                 modifier = Modifier
-                    .size(SimpleTheme.dimens.icon.medium),
+                    .size(SimpleTheme.dimens.icon.small),
                 painter = painterResource(id = icon),
                 contentDescription = name,
             )

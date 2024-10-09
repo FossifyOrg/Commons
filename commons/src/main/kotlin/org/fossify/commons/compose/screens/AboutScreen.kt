@@ -17,7 +17,7 @@ import org.fossify.commons.compose.settings.SettingsTitleTextComponent
 import org.fossify.commons.compose.theme.AppThemeSurface
 import org.fossify.commons.compose.theme.SimpleTheme
 
-private val startingTitlePadding = Modifier.padding(start = 56.dp)
+private val titleStartPadding = Modifier.padding(start = 40.dp)
 
 @Composable
 internal fun AboutScreen(
@@ -49,7 +49,7 @@ internal fun HelpUsSection(
     SettingsGroup(title = {
         SettingsTitleTextComponent(
             text = stringResource(id = R.string.help_us),
-            modifier = startingTitlePadding
+            modifier = titleStartPadding
         )
     }) {
         if (showRateUs) {
@@ -99,7 +99,7 @@ internal fun OtherSection(
     SettingsGroup(title = {
         SettingsTitleTextComponent(
             text = stringResource(id = R.string.other),
-            modifier = startingTitlePadding
+            modifier = titleStartPadding
         )
     }) {
         if (showMoreApps) {
@@ -145,7 +145,7 @@ internal fun AboutSection(
     SettingsGroup(title = {
         SettingsTitleTextComponent(
             text = stringResource(id = R.string.support),
-            modifier = startingTitlePadding
+            modifier = titleStartPadding
         )
     }) {
         if (setupFAQ) {
@@ -182,7 +182,7 @@ internal fun SocialSection(
     SettingsGroup(title = {
         SettingsTitleTextComponent(
             text = stringResource(id = R.string.social),
-            modifier = startingTitlePadding
+            modifier = titleStartPadding
         )
     }) {
         SocialText(
