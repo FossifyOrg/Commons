@@ -2,20 +2,17 @@ package org.fossify.commons.compose.settings
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.combinedClickable
-import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.padding
+import androidx.compose.material3.ListItem
+import androidx.compose.material3.ListItemDefaults
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.unit.sp
 import org.fossify.commons.R
 import org.fossify.commons.compose.extensions.MyDevices
 import org.fossify.commons.compose.theme.AppThemeSurface
-import org.fossify.commons.compose.theme.SimpleTheme
 import org.fossify.commons.compose.theme.preferenceLabelColor
 import org.fossify.commons.compose.theme.preferenceValueColor
 
@@ -30,7 +27,7 @@ fun SettingsPreferenceComponent(
     preferenceValueColor: Color = preferenceValueColor(isEnabled = isPreferenceEnabled),
     preferenceLabelColor: Color = preferenceLabelColor(isEnabled = isPreferenceEnabled)
 ) {
-    Column(
+    ListItem(
         modifier = Modifier
             .fillMaxWidth()
             .combinedClickable(
@@ -38,29 +35,26 @@ fun SettingsPreferenceComponent(
                 onClick = { doOnPreferenceClick?.invoke() },
                 onLongClick = { doOnPreferenceLongClick?.invoke() },
             )
-            .padding(
-                horizontal = SimpleTheme.dimens.padding.extraLarge,
-                vertical = SimpleTheme.dimens.padding.medium
-            )
             .then(modifier),
-        verticalArrangement = Arrangement.Center
-    ) {
-        Text(
-            text = label,
-            modifier = Modifier.fillMaxWidth(),
-            color = preferenceLabelColor,
-            fontSize = 14.sp
-        )
-        AnimatedVisibility(visible = !value.isNullOrBlank()) {
+        headlineContent = {
             Text(
-                text = value.toString(),
-                modifier = Modifier
-                    .fillMaxWidth(),
-                color = preferenceValueColor,
-                fontSize = 14.sp
+                text = label,
+                modifier = Modifier.fillMaxWidth(),
             )
-        }
-    }
+        },
+        supportingContent = {
+            AnimatedVisibility(visible = !value.isNullOrBlank()) {
+                Text(
+                    text = value.toString(),
+                    modifier = Modifier.fillMaxWidth(),
+                )
+            }
+        },
+        colors = ListItemDefaults.colors(
+            headlineColor = preferenceLabelColor,
+            supportingColor = preferenceValueColor
+        )
+    )
 }
 
 @MyDevices
