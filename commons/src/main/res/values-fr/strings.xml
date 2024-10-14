@@ -1121,4 +1121,5 @@
     <string name="platforms">Plates-formes</string>
     <string name="cryptocurrency">Crypto-monnaie</string>
     <string name="little_to_no_fee">Peu ou pas de frais</string>
+    <string name="known_issues">Problèmes connus</string>
 </resources>
