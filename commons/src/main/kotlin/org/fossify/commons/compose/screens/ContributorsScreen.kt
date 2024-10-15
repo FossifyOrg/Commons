@@ -146,10 +146,26 @@ private fun ContributorsScreenPreview() {
         ContributorsScreen(
             goBack = {},
             contributors = listOf(
-                LanguageContributor(R.drawable.ic_flag_arabic_vector, R.string.translation_arabic, R.string.translators_arabic),
-                LanguageContributor(R.drawable.ic_flag_azerbaijani_vector, R.string.translation_azerbaijani, R.string.translators_azerbaijani),
-                LanguageContributor(R.drawable.ic_flag_bengali_vector, R.string.translation_bengali, R.string.translators_bengali),
-                LanguageContributor(R.drawable.ic_flag_catalan_vector, R.string.translation_catalan, R.string.translators_catalan),
+                LanguageContributor(
+                    iconId = R.drawable.ic_flag_arabic_vector,
+                    labelId = R.string.translation_arabic,
+                    contributorsId = R.string.translators_arabic
+                ),
+                LanguageContributor(
+                    iconId = R.drawable.ic_flag_azerbaijani_vector,
+                    labelId = R.string.translation_azerbaijani,
+                    contributorsId = R.string.translators_azerbaijani
+                ),
+                LanguageContributor(
+                    iconId = R.drawable.ic_flag_bengali_vector,
+                    labelId = R.string.translation_bengali,
+                    contributorsId = R.string.translators_bengali
+                ),
+                LanguageContributor(
+                    iconId = R.drawable.ic_flag_catalan_vector,
+                    labelId = R.string.translation_catalan,
+                    contributorsId = R.string.translators_catalan
+                ),
             ).toImmutableList(),
         )
     }
