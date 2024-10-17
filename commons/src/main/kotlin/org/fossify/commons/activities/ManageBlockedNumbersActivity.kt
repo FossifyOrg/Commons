@@ -52,6 +52,8 @@ class ManageBlockedNumbersActivity : BaseSimpleActivity() {
 
     override fun getAppLauncherName() = intent.getStringExtra(APP_LAUNCHER_NAME) ?: ""
 
+    override fun getRepositoryName() = null
+
     private val manageBlockedNumbersViewModel by viewModels<ManageBlockedNumbersViewModel>()
 
     override fun onCreate(savedInstanceState: Bundle?) {

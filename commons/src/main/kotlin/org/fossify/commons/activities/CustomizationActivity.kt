@@ -51,6 +51,8 @@ class CustomizationActivity : BaseSimpleActivity() {
 
     override fun getAppLauncherName() = intent.getStringExtra(APP_LAUNCHER_NAME) ?: ""
 
+    override fun getRepositoryName() = null
+
     private val binding by viewBinding(ActivityCustomizationBinding::inflate)
 
     override fun onCreate(savedInstanceState: Bundle?) {

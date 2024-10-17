@@ -93,6 +93,8 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
 
     abstract fun getAppLauncherName(): String
 
+    abstract fun getRepositoryName(): String?
+
     override fun onCreate(savedInstanceState: Bundle?) {
         if (useDynamicTheme) {
             setTheme(getThemeId(showTransparentTop = showTransparentTop))
@@ -615,7 +617,6 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
         appNameId: Int,
         licenseMask: Long,
         versionName: String,
-        repositoryName: String,
         faqItems: ArrayList<FAQItem>,
         showFAQBeforeMail: Boolean
     ) {
@@ -624,7 +625,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
             putExtra(APP_ICON_IDS, getAppIconIDs())
             putExtra(APP_LAUNCHER_NAME, getAppLauncherName())
             putExtra(APP_NAME, getString(appNameId))
-            putExtra(APP_REPOSITORY_NAME, repositoryName)
+            putExtra(APP_REPOSITORY_NAME, getRepositoryName())
             putExtra(APP_LICENSES, licenseMask)
             putExtra(APP_VERSION_NAME, versionName)
             putExtra(APP_PACKAGE_NAME, baseConfig.appId)
