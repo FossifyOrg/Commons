@@ -467,7 +467,7 @@ fun Context.getMyContactsCursor(favoritesOnly: Boolean, withPhoneNumbersOnly: Bo
 }
 
 fun Context.getCurrentFormattedDateTime(): String {
-    val simpleDateFormat = SimpleDateFormat("yyyy_MM_dd_HH_mm_ss", Locale.getDefault())
+    val simpleDateFormat = SimpleDateFormat("yyyyMMdd_HHmmss", Locale.getDefault())
     return simpleDateFormat.format(Date(System.currentTimeMillis()))
 }
 
