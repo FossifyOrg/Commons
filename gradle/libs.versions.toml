@@ -29,8 +29,8 @@ recyclerviewFastscroller = "5a95285b1f"
 #rtlViewpager
 rtlViewpager = "940f12724f"
 #Compose
-composeActivity = "1.9.2"
-compose = "1.7.2"
+composeActivity = "1.9.3"
+compose = "1.7.4"
 composeCompiler = "1.5.15"
 composeMaterial3 = "1.3.0"
 #Glide
