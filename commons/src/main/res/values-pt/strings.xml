@@ -73,7 +73,7 @@
     <string name="record_video">Gravar vídeo</string>
     <string name="updating">A atualizar…</string>
     <string name="phone_storage">Armazenamento do telefone</string>
-    <string name="phone_storage_hidden">Armazenamento do telefone (não visível por outras alicações)</string>
+    <string name="phone_storage_hidden">Armazenamento do telefone (não visível por outras aplicações)</string>
     <string name="birthday">Data de nascimento</string>
     <string name="anniversary">Aniversário</string>
     <string name="home">Pessoal</string>
@@ -1073,4 +1073,16 @@
         <item quantity="other">O período de testes caduca dentro de %d dias.</item>
     </plurals>
     <string name="format_phone_numbers">Formatar números de telefone</string>
+    <string name="translation_belarusian">Bielorrusso</string>
+    <string name="translation_esperanto">Esperanto</string>
+    <string name="translation_gujarati">Gujarati</string>
+    <string name="donate_to_fossify">Doar a Fossify</string>
+    <string name="platforms">Plataformas</string>
+    <string name="little_to_no_fee">Fees pequenos</string>
+    <string name="fee_up_to_pct">Até %1$d%% de fee</string>
+    <string name="cryptocurrency">Criptomoeda</string>
+    <string name="all_fossify_apps">Todas as aplicações Fossify</string>
+    <string name="theme_and_colors">Tema e cores</string>
+    <string name="known_issues">Erros conhecidos</string>
+    <string name="translation_central_kurdish">Curdo central</string>
 </resources>
