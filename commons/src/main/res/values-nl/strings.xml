@@ -955,7 +955,7 @@
     </plurals>
     <string name="deprecated_app">VEROUDERD: Deze versie van de app wordt niet meer onderhouden. De Pro-versie is te vinden op https://play.google.com/store/apps/details\?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">Bij het verwijderen van de app binnen 2 uur na aanschaf wordt het aankoopbedrag automatisch teruggestort. Wilt u op een later tijdstip een terugbetaling, neem dan contact op via hello@fossify.org en het wordt geregeld. Zodoende blijft het gemakkelijk om de app uit te proberen :)</string>
-    <string name="developer_description">Een verzameling eenvoudige open-source Android-apps met widgets, zonder advertenties of onnodige rechten.</string>
+    <string name="developer_description">Een verzameling eenvoudige opensource Android-apps met widgets, zonder advertenties of onnodige rechten.</string>
     <string name="ok">OK</string>
     <string name="later">Later</string>
     <string name="details">Details</string>
