@@ -103,7 +103,7 @@
     <string name="import_blocked_numbers">Impor nomor terblokir</string>
     <string name="must_make_default_dialer">Untuk menggunakan fitur pemblokir nomor, setel aplikasi ini sebagai aplikasi telepon terpilih.</string>
     <string name="set_as_default">Tetapkan sebagai aplikasi terpilih</string>
-    <string name="block_confirmation">Anda yakin ingin memblokir \"%s\"?</string>
+    <string name="block_confirmation">Anda yakin ingin memblokir s?</string>
     <string name="block_unknown_calls">Blokir panggilan dari kontak yang tak disimpan</string>
     <string name="block_unknown_messages">Blokir pesan dari nomor yang tidak disimpan</string>
     <string name="add_blocked_number_helper_text">Masukkan nomor atau pola (mis. *12345*, +62*8888) untuk memblokir semua panggilan dan pesan dari nomor yang sesuai dengan pola ini.</string>
