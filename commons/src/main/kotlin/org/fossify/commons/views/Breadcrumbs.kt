@@ -8,9 +8,12 @@ import android.view.LayoutInflater
 import android.view.View
 import android.widget.HorizontalScrollView
 import android.widget.LinearLayout
+import androidx.core.content.ContextCompat
+import androidx.core.view.updatePadding
 import androidx.core.widget.TextViewCompat
 import org.fossify.commons.R
 import org.fossify.commons.databinding.ItemBreadcrumbBinding
+import org.fossify.commons.extensions.applyColorFilter
 import org.fossify.commons.extensions.getBasePath
 import org.fossify.commons.extensions.getProperPrimaryColor
 import org.fossify.commons.extensions.getProperTextColor
@@ -120,32 +123,36 @@ class Breadcrumbs(context: Context, attrs: AttributeSet) : HorizontalScrollView(
     }
 
     private fun addBreadcrumb(item: FileDirItem, index: Int, isLast: Boolean) {
-            ItemBreadcrumbBinding.inflate(inflater, itemsLayout, false).apply {
-                breadcrumbText.isActivated = isLast
+        ItemBreadcrumbBinding.inflate(inflater, itemsLayout, false).apply {
+            breadcrumbText.isActivated = isLast
 
-                breadcrumbText.text = item.name
-                breadcrumbText.setTextColor(textColorStateList)
-                breadcrumbText.setTextSize(TypedValue.COMPLEX_UNIT_PX, fontSize)
-                breadcrumbText.text
+            breadcrumbText.text = item.name
+            breadcrumbText.setTextColor(textColorStateList)
+            breadcrumbText.setTextSize(TypedValue.COMPLEX_UNIT_PX, fontSize)
 
-                itemsLayout.addView(root)
-                if (index > 0) {
-                    TextViewCompat.setCompoundDrawablesRelativeWithIntrinsicBounds(breadcrumbText, R.drawable.ic_chevron_right_vector, 0, 0, 0)
-                    TextViewCompat.setCompoundDrawableTintList(breadcrumbText, textColorStateList)
-                }
+            itemsLayout.addView(root)
+            if (index > 0) {
+                TextViewCompat.setCompoundDrawablesRelativeWithIntrinsicBounds(breadcrumbText, R.drawable.ic_chevron_right_vector, 0, 0, 0)
+                TextViewCompat.setCompoundDrawableTintList(breadcrumbText, textColorStateList)
+            } else {
+                breadcrumbText.background = ContextCompat.getDrawable(context, R.drawable.button_background)
+                breadcrumbText.background.applyColorFilter(textColor)
+                val horizontalPadding = context.resources.getDimensionPixelSize(R.dimen.normal_margin)
+                breadcrumbText.updatePadding(left = horizontalPadding, right = horizontalPadding)
+            }
 
-                breadcrumbText.setOnClickListener { v ->
-                    if (itemsLayout.getChildAt(index) != null && itemsLayout.getChildAt(index) == v) {
-                        if ((v.tag as? FileDirItem)?.path?.trimEnd('/') == lastPath.trimEnd('/')) {
-                            scrollToSelectedItem()
-                        } else {
-                            listener?.breadcrumbClicked(index)
-                        }
+            breadcrumbText.setOnClickListener { v ->
+                if (itemsLayout.getChildAt(index) != null && itemsLayout.getChildAt(index) == v) {
+                    if ((v.tag as? FileDirItem)?.path?.trimEnd('/') == lastPath.trimEnd('/')) {
+                        scrollToSelectedItem()
+                    } else {
+                        listener?.breadcrumbClicked(index)
                     }
                 }
-
-                root.tag = item
             }
+
+            root.tag = item
+        }
     }
 
     fun updateColor(color: Int) {
