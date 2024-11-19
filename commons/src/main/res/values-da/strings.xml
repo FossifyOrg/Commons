@@ -71,8 +71,8 @@
     <string name="record_audio">Optag audio</string>
     <string name="record_video">Optag video</string>
     <string name="updating">Opdaterer…</string>
-    <string name="phone_storage">Telefon lager</string>
-    <string name="phone_storage_hidden">Telefon lager (ikke synlig for andre apps)</string>
+    <string name="phone_storage">Telefonlager</string>
+    <string name="phone_storage_hidden">Telefonlager (ikke synligt for andre apps)</string>
     <string name="scanning">Scanner…</string>
     <string name="birthday">Fødselsdag</string>
     <string name="anniversary">Årsdag</string>
@@ -116,9 +116,9 @@
     <string name="must_make_default_dialer">Du skal gøre denne app til standardopkaldsappen for at gøre brug af blokerede numre.</string>
     <string name="set_as_default">Gør til standard</string>
     <string name="block_confirmation">Er du sikker på at du vil blokere \"%s\"?</string>
-    <string name="block_not_stored_calls">Bloker opkald fra ukendte</string>
+    <string name="block_unknown_calls">Bloker opkald fra ukendte</string>
     <string name="block_hidden_calls">Bloker opkald fra skjulte numre</string>
-    <string name="block_not_stored_messages">Bloker beskeder fra ukendte</string>
+    <string name="block_unknown_messages">Bloker beskeder fra ukendte</string>
     <string name="block_hidden_messages">Bloker beskeder fra skjulte numre</string>
     <string name="add_blocked_number_helper_text">Angiv et nummer eller et mønster (fx *12345*, +1*8888) for at blokere alle opkald og beskeder fra numre, der matcher mønsteret.</string>
     <string name="must_make_default_caller_id_app">Kan ikke blokere ukendte numre uden tilladelse fra den, der ringer op.</string>
@@ -322,7 +322,7 @@
     <string name="undo_changes_confirmation">Er du sikker på at du vil fortryde ændringerne?</string>
     <string name="cannot_be_undone">Handlingen kan ikke fortrydes.</string>
     <string name="save_before_closing">Du har ændringer der ikke er gemt. Vil du gemme dem?</string>
-    <string name="share_colors_success">Farverne er ændret. Et nyt udseende kaldet \"Tilpasset\" er tilføjet, brug det ved opdatering af alle app-farver fremover.</string>
+    <string name="global_theme_success">Farverne er ændret. Et nyt udseende kaldet \"Tilpasset\" er tilføjet, brug det ved opdatering af alle app-farver fremover.</string>
     <string name="purchase_thank_you">
         <![CDATA[
             Køb <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> for at låse denne funktion op og understøtte appens udvikling. Tak!
@@ -974,4 +974,5 @@
     <string name="pro_app_refund">Husk at hvis du afinstallerer en betalt app indenfor 2 timer, får du automatisk pengene tilbage. Vil du have refunderet beløbet på et senere tidspunkt, så send en mail til hello@fossify.org. På den måde kan du prøvekøre appen uden omkostninger :)</string>
     <string name="developer_description">En gruppe simple, open source apps til Android med widgets, der kan tilpasses, uden reklamer og unødvendige tilladelser.</string>
     <string name="ok">OK</string>
+    <string name="format_phone_numbers">Formatér telefonnumre</string>
 </resources>

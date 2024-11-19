@@ -10,7 +10,7 @@
     <dimen name="big_margin">24dp</dimen>
     <dimen name="section_margin">32dp</dimen>
     <dimen name="label_start_margin">72dp</dimen>
-    <dimen name="settings_label_start_margin">22dp</dimen>
+    <dimen name="settings_label_start_margin">16dp</dimen>
     <dimen name="min_radio_checkbox_height">44dp</dimen>
 
     <dimen name="material_dialog_corner_radius">28dp</dimen>
@@ -61,6 +61,9 @@
     <dimen name="cab_item_min_width">85dp</dimen>
     <dimen name="popup_menu_elevation">4dp</dimen>
     <dimen name="divider_height">2px</dimen>
-    
+
     <dimen name="contact_grid_item_max_size">100dp</dimen>
+
+    <dimen name="app_lock_view_max_size">350dp</dimen>
+    <dimen name="app_lock_view_min_size">250dp</dimen>
 </resources>

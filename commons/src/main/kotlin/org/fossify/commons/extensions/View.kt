@@ -44,16 +44,16 @@ fun View.isGone() = visibility == View.GONE
 
 fun View.performHapticFeedback() = performHapticFeedback(HapticFeedbackConstants.VIRTUAL_KEY, HapticFeedbackConstants.FLAG_IGNORE_GLOBAL_SETTING)
 
-fun View.fadeIn() {
-    animate().alpha(1f).setDuration(SHORT_ANIMATION_DURATION).withStartAction { beVisible() }.start()
+fun View.fadeIn(duration: Long = SHORT_ANIMATION_DURATION) {
+    animate().alpha(1f).setDuration(duration).withStartAction { beVisible() }.start()
 }
 
-fun View.fadeOut() {
-    animate().alpha(0f).setDuration(SHORT_ANIMATION_DURATION).withEndAction { beGone() }.start()
+fun View.fadeOut(duration: Long = SHORT_ANIMATION_DURATION) {
+    animate().alpha(0f).setDuration(duration).withEndAction { beGone() }.start()
 }
 
 fun View.setupViewBackground(context: Context) {
-    background = if (context.baseConfig.isUsingSystemTheme) {
+    background = if (context.isDynamicTheme()) {
         resources.getDrawable(R.drawable.selector_clickable_you)
     } else {
         resources.getDrawable(R.drawable.selector_clickable)

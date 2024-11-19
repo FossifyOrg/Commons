@@ -17,7 +17,7 @@ import org.fossify.commons.compose.settings.SettingsTitleTextComponent
 import org.fossify.commons.compose.theme.AppThemeSurface
 import org.fossify.commons.compose.theme.SimpleTheme
 
-private val startingTitlePadding = Modifier.padding(start = 56.dp)
+private val titleStartPadding = Modifier.padding(start = 40.dp)
 
 @Composable
 internal fun AboutScreen(
@@ -47,26 +47,41 @@ internal fun HelpUsSection(
     onDonateClick: () -> Unit,
 ) {
     SettingsGroup(title = {
-        SettingsTitleTextComponent(text = stringResource(id = R.string.help_us), modifier = startingTitlePadding)
+        SettingsTitleTextComponent(
+            text = stringResource(id = R.string.help_us),
+            modifier = titleStartPadding
+        )
     }) {
         if (showRateUs) {
-            TwoLinerTextItem(text = stringResource(id = R.string.rate_us), icon = R.drawable.ic_star_vector, click = onRateUsClick)
+            TwoLinerTextItem(
+                text = stringResource(id = R.string.rate_us),
+                icon = R.drawable.ic_star_outline_vector,
+                click = onRateUsClick
+            )
         }
+
         if (showInvite) {
-            TwoLinerTextItem(text = stringResource(id = R.string.invite_friends), icon = R.drawable.ic_add_person_vector, click = onInviteClick)
+            TwoLinerTextItem(
+                text = stringResource(id = R.string.invite_friends),
+                icon = R.drawable.ic_share_outline_vector,
+                click = onInviteClick
+            )
         }
+
         TwoLinerTextItem(
             click = onContributorsClick,
             text = stringResource(id = R.string.contributors),
-            icon = R.drawable.ic_face_vector
+            icon = R.drawable.ic_groups_outline_vector
         )
+
         if (showDonate) {
             TwoLinerTextItem(
                 click = onDonateClick,
-                text = stringResource(id = R.string.donate),
-                icon = R.drawable.ic_dollar_vector
+                text = stringResource(id = R.string.donate_to_fossify),
+                icon = R.drawable.ic_donate_outline_vector
             )
         }
+
         SettingsHorizontalDivider()
     }
 }
@@ -75,47 +90,44 @@ internal fun HelpUsSection(
 internal fun OtherSection(
     showMoreApps: Boolean,
     onMoreAppsClick: () -> Unit,
-    onWebsiteClick: () -> Unit,
-    showWebsite: Boolean,
-    showPrivacyPolicy: Boolean,
     onPrivacyPolicyClick: () -> Unit,
     onLicenseClick: () -> Unit,
-    version: String,
+    versionName: String,
+    packageName: String,
     onVersionClick: () -> Unit,
 ) {
     SettingsGroup(title = {
-        SettingsTitleTextComponent(text = stringResource(id = R.string.other), modifier = startingTitlePadding)
+        SettingsTitleTextComponent(
+            text = stringResource(id = R.string.other),
+            modifier = titleStartPadding
+        )
     }) {
         if (showMoreApps) {
             TwoLinerTextItem(
                 click = onMoreAppsClick,
                 text = stringResource(id = R.string.more_apps_from_us),
-                icon = R.drawable.ic_heart_vector
+                icon = R.drawable.ic_apps_vector
             )
         }
-        if (showWebsite) {
-            TwoLinerTextItem(
-                click = onWebsiteClick,
-                text = stringResource(id = R.string.website),
-                icon = R.drawable.ic_link_vector
-            )
-        }
-        if (showPrivacyPolicy) {
-            TwoLinerTextItem(
-                click = onPrivacyPolicyClick,
-                text = stringResource(id = R.string.privacy_policy),
-                icon = R.drawable.ic_unhide_vector
-            )
-        }
+
+        TwoLinerTextItem(
+            click = onPrivacyPolicyClick,
+            text = stringResource(id = R.string.privacy_policy),
+            icon = R.drawable.ic_policy_outline_vector
+        )
         TwoLinerTextItem(
             click = onLicenseClick,
             text = stringResource(id = R.string.third_party_licences),
-            icon = R.drawable.ic_article_vector
+            icon = R.drawable.ic_article_outline_vector
         )
-        TwoLinerTextItem(
+        SettingsListItem(
+            tint = SimpleTheme.colorScheme.onSurface,
             click = onVersionClick,
-            text = version,
-            icon = R.drawable.ic_info_vector
+            text = versionName,
+            description = packageName,
+            icon = R.drawable.ic_info_outline_vector,
+            maxLines = 2,
+            overflow = TextOverflow.Ellipsis
         )
         SettingsHorizontalDivider()
     }
@@ -125,23 +137,37 @@ internal fun OtherSection(
 @Composable
 internal fun AboutSection(
     setupFAQ: Boolean,
+    setupKnownIssues: Boolean,
     onFAQClick: () -> Unit,
-    onEmailClick: () -> Unit
+    onKnownIssuesClick: () -> Unit,
+    onEmailClick: () -> Unit,
 ) {
     SettingsGroup(title = {
-        SettingsTitleTextComponent(text = stringResource(id = R.string.support), modifier = startingTitlePadding)
+        SettingsTitleTextComponent(
+            text = stringResource(id = R.string.support),
+            modifier = titleStartPadding
+        )
     }) {
         if (setupFAQ) {
             TwoLinerTextItem(
                 click = onFAQClick,
                 text = stringResource(id = R.string.frequently_asked_questions),
-                icon = R.drawable.ic_question_mark_vector
+                icon = R.drawable.ic_help_outline_vector
             )
         }
+
+        if (setupKnownIssues) {
+            TwoLinerTextItem(
+                click = onKnownIssuesClick,
+                text = stringResource(R.string.known_issues),
+                icon = R.drawable.ic_bug_report_outline_vector
+            )
+        }
+
         TwoLinerTextItem(
             click = onEmailClick,
             text = stringResource(id = R.string.my_email),
-            icon = R.drawable.ic_mail_vector
+            icon = R.drawable.ic_contact_support_outline_vector
         )
         SettingsHorizontalDivider()
     }
@@ -151,10 +177,13 @@ internal fun AboutSection(
 internal fun SocialSection(
     onGithubClick: () -> Unit,
     onRedditClick: () -> Unit,
-    onTelegramClick: () -> Unit
+    onTelegramClick: () -> Unit,
 ) {
     SettingsGroup(title = {
-        SettingsTitleTextComponent(text = stringResource(id = R.string.social), modifier = startingTitlePadding)
+        SettingsTitleTextComponent(
+            text = stringResource(id = R.string.social),
+            modifier = titleStartPadding
+        )
     }) {
         SocialText(
             click = onGithubClick,
@@ -181,7 +210,7 @@ internal fun SocialText(
     text: String,
     icon: Int,
     tint: Color? = null,
-    click: () -> Unit
+    click: () -> Unit,
 ) {
     SettingsListItem(
         click = click,
@@ -224,7 +253,12 @@ private fun AboutScreenPreview() {
                 )
             },
             aboutSection = {
-                AboutSection(setupFAQ = true, onFAQClick = {}, onEmailClick = {})
+                AboutSection(
+                    setupFAQ = true,
+                    setupKnownIssues = true,
+                    onFAQClick = {},
+                    onKnownIssuesClick = {},
+                    onEmailClick = {})
             },
             socialSection = {
                 SocialSection(
@@ -237,12 +271,10 @@ private fun AboutScreenPreview() {
             OtherSection(
                 showMoreApps = true,
                 onMoreAppsClick = {},
-                onWebsiteClick = {},
-                showWebsite = true,
-                showPrivacyPolicy = true,
                 onPrivacyPolicyClick = {},
                 onLicenseClick = {},
-                version = "5.0.4",
+                versionName = "5.0.4",
+                packageName = "org.fossify.commons.samples",
                 onVersionClick = {}
             )
         }

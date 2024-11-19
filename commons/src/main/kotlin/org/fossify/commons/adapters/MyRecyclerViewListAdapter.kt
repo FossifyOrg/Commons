@@ -1,6 +1,5 @@
 package org.fossify.commons.adapters
 
-import android.graphics.Color
 import android.view.*
 import android.widget.ImageView
 import android.widget.TextView
@@ -24,7 +23,7 @@ abstract class MyRecyclerViewListAdapter<T>(
     val recyclerView: MyRecyclerView,
     diffUtil: DiffUtil.ItemCallback<T>,
     val itemClick: (T) -> Unit,
-    val onRefresh: () -> Unit = {}
+    val onRefresh: () -> Unit = {},
 ) : ListAdapter<T, MyRecyclerViewListAdapter<T>.ViewHolder>(diffUtil) {
     protected val baseConfig = activity.baseConfig
     protected val resources = activity.resources!!
@@ -63,6 +62,8 @@ abstract class MyRecyclerViewListAdapter<T>(
 
     init {
         actModeCallback = object : MyActionModeCallback() {
+            private var savedStatusBarColor = activity.getProperStatusBarColor()
+
             override fun onActionItemClicked(mode: ActionMode, item: MenuItem): Boolean {
                 actionItemPressed(item.itemId)
                 return true
@@ -87,17 +88,24 @@ abstract class MyRecyclerViewListAdapter<T>(
                 }
 
                 activity.menuInflater.inflate(getActionMenuId(), menu)
-                val bgColor = if (baseConfig.isUsingSystemTheme) {
+                val bgColor = if (activity.isDynamicTheme()) {
                     ResourcesCompat.getColor(resources, R.color.you_contextual_status_bar_color, activity.theme)
                 } else {
-                    Color.BLACK
+                    resources.getColor(R.color.dark_grey, activity.theme)
                 }
+
+                savedStatusBarColor = activity.window.statusBarColor
+                activity.animateStatusBarColor(
+                    colorTo = bgColor,
+                    colorFrom = savedStatusBarColor,
+                    duration = 300L
+                )
 
                 actBarTextView!!.setTextColor(bgColor.getContrastColor())
                 activity.updateMenuItemColors(menu, baseColor = bgColor)
                 onActionModeCreated()
 
-                if (baseConfig.isUsingSystemTheme) {
+                if (activity.isDynamicTheme()) {
                     actBarTextView?.onGlobalLayout {
                         val backArrow = activity.findViewById<ImageView>(androidx.appcompat.R.id.action_mode_close_button)
                         backArrow?.applyColorFilter(bgColor.getContrastColor())
@@ -119,6 +127,13 @@ abstract class MyRecyclerViewListAdapter<T>(
                         toggleItemSelection(false, position, false)
                     }
                 }
+
+                activity.animateStatusBarColor(
+                    colorTo = savedStatusBarColor,
+                    colorFrom = activity.window.statusBarColor,
+                    duration = 400L
+                )
+
                 updateTitle()
                 selectedKeys.clear()
                 actBarTextView?.text = ""

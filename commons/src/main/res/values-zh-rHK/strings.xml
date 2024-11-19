@@ -75,7 +75,7 @@
     <string name="record_video">拍片</string>
     <string name="updating">正在更新…</string>
     <string name="phone_storage">手機容量</string>
-    <string name="phone_storage_hidden">手機容量 (其他程式不可見)</string>
+    <string name="phone_storage_hidden">手機儲存空間（其他應用程式無法檢視）</string>
     <string name="audio">音訊</string>
     <string name="birthday">生日</string>
     <string name="anniversary">紀念日</string>
@@ -110,8 +110,8 @@
     <string name="must_make_default_dialer">您必须将这应用程序设为默认的拨号程序来使用黑名单。</string>
     <string name="set_as_default">设为默认</string>
     <string name="block_confirmation">您确定要将 \"%s\" 添加到黑名单吗？</string>
-    <string name="block_not_stored_calls">拦截来自未存储联系人的通话</string>
-    <string name="block_not_stored_messages">拦截来自未存储联系人的消息</string>
+    <string name="block_unknown_calls">拦截来自未存储联系人的通话</string>
+    <string name="block_unknown_messages">拦截来自未存储联系人的消息</string>
     <string name="add_blocked_number_helper_text">输入号码或模式（例如 *12345*、+1*8888）以阻止来自匹配模式的号码的所有来电和消息。</string>
     <string name="must_make_default_caller_id_app">要拦截未知号码，你必须将应用设为默认的来电显示和骚扰电话屏蔽应用。</string>
     <string name="favorites">收藏</string>
@@ -279,7 +279,7 @@
     <string name="undo_changes_confirmation">是否撤销您的更改？</string>
     <string name="cannot_be_undone">此操作無法撤消。</string>
     <string name="save_before_closing">您尚未保存更改，是否保存？</string>
-    <string name="share_colors_success">颜色更改成功。已添加名为“共享”的新主题，以后您可以使用它来更改所有应用的颜色。</string>
+    <string name="global_theme_success">颜色更改成功。已添加名为“共享”的新主题，以后您可以使用它来更改所有应用的颜色。</string>
     <string name="light_theme">浅色主题</string>
     <string name="dark_theme">深色主题</string>
     <string name="auto_theme">自动</string>

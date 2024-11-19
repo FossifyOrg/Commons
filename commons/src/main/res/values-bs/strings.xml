@@ -122,9 +122,9 @@
     <string name="must_make_default_dialer">Za korištenje blokiranih brojeva, ovu aplikaciju moraš postaviti kao zadanu za biranje brojeva.</string>
     <string name="set_as_default">Postavi na zadano</string>
     <string name="block_confirmation">Stvarno želiš blokirati „%s”\?</string>
-    <string name="block_not_stored_calls">Blokiraj pozive nepohranjenih kontakata</string>
+    <string name="block_unknown_calls">Blokiraj pozive nepohranjenih kontakata</string>
     <string name="block_hidden_calls">Blokiraj pozive od sakrivenih brojeva</string>
-    <string name="block_not_stored_messages">Blokiraj poruke nepohranjenih kontakata</string>
+    <string name="block_unknown_messages">Blokiraj poruke nepohranjenih kontakata</string>
     <string name="block_hidden_messages">Blokiraj poruke od sakrivenih brojeva</string>
     <string name="add_blocked_number_helper_text">Upiši broj ili uzorak (npr. *12345*, +1*8888) za blokiranje svih poziva i poruka od brojeva koji odgovaraju uzorku.</string>
     <string name="must_make_default_caller_id_app">Blokiranje nepoznatih brojeva nije moguće bez dozvole ID-a pozivatelja.</string>
@@ -340,7 +340,7 @@
     <string name="undo_changes_confirmation">Jeste li sigurni da želite poništiti Vaše promjene?</string>
     <string name="cannot_be_undone">Ovo je nepovratna radnja.</string>
     <string name="save_before_closing">Imate ne spremljene promjene. Želite li spremiti prije izlaska?</string>
-    <string name="share_colors_success">Uspješno ažurirane boje. Nova tema pod nazivom \'Shared\' je dodana, molimo koristite ju za ažuriranje svih boja u aplikaciji u budućnosti.</string>
+    <string name="global_theme_success">Uspješno ažurirane boje. Nova tema pod nazivom \'Shared\' je dodana, molimo koristite ju za ažuriranje svih boja u aplikaciji u budućnosti.</string>
     <string name="purchase_thank_you">
         <![CDATA[
             Molimo kupite <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> za otključavanje ove funkcije i podršku razvoju. Hvala!

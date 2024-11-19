@@ -6,13 +6,9 @@ import android.graphics.Color
 import android.media.ExifInterface
 import android.os.Handler
 import android.os.Looper
-import android.text.format.DateFormat
-import android.text.format.DateUtils
-import android.text.format.Time
 import androidx.core.os.postDelayed
 import org.fossify.commons.helpers.DARK_GREY
 import java.text.DecimalFormat
-import java.util.Calendar
 import java.util.Locale
 import java.util.Random
 
@@ -58,43 +54,28 @@ fun Int.formatSize(): String {
     return "${DecimalFormat("#,##0.#").format(this / Math.pow(1024.0, digitGroups.toDouble()))} ${units[digitGroups]}"
 }
 
+@Deprecated(
+    message = "Broken due to the Year 2038 problem. Use Long.formatDate() instead (but note that it uses milliseconds, not seconds).",
+    replaceWith = ReplaceWith("(this * 1000L).formatDate(context, dateFormat, timeFormat)")
+)
 fun Int.formatDate(context: Context, dateFormat: String? = null, timeFormat: String? = null): String {
-    val useDateFormat = dateFormat ?: context.baseConfig.dateFormat
-    val useTimeFormat = timeFormat ?: context.getTimeFormat()
-    val cal = Calendar.getInstance(Locale.ENGLISH)
-    cal.timeInMillis = this * 1000L
-    return DateFormat.format("$useDateFormat, $useTimeFormat", cal).toString()
+    return (this * 1000L).formatDate(context, dateFormat, timeFormat)
 }
 
-// if the given date is today, we show only the time. Else we show the date and optionally the time too
+@Deprecated(
+    message = "Broken due to the Year 2038 problem. Use Long.formatDateOrTime() instead (but note that it uses milliseconds, not seconds).",
+    replaceWith = ReplaceWith("(this * 1000L).formatDateOrTime(context, hideTimeAtOtherDays, showYearEvenIfCurrent)")
+)
 fun Int.formatDateOrTime(context: Context, hideTimeAtOtherDays: Boolean, showYearEvenIfCurrent: Boolean): String {
-    val cal = Calendar.getInstance(Locale.ENGLISH)
-    cal.timeInMillis = this * 1000L
-
-    return if (DateUtils.isToday(this * 1000L)) {
-        DateFormat.format(context.getTimeFormat(), cal).toString()
-    } else {
-        var format = context.baseConfig.dateFormat
-        if (!showYearEvenIfCurrent && isThisYear()) {
-            format = format.replace("y", "").trim().trim('-').trim('.').trim('/')
-        }
-
-        if (!hideTimeAtOtherDays) {
-            format += ", ${context.getTimeFormat()}"
-        }
-
-        DateFormat.format(format, cal).toString()
-    }
+    return (this * 1000L).formatDateOrTime(context, hideTimeAtOtherDays, showYearEvenIfCurrent)
 }
 
+@Deprecated(
+    message = "Broken due to the Year 2038 problem. Use Long.isThisYear() instead (but note that it uses milliseconds, not seconds).",
+    replaceWith = ReplaceWith("(this * 1000L).isThisYear()")
+)
 fun Int.isThisYear(): Boolean {
-    val time = Time()
-    time.set(this * 1000L)
-
-    val thenYear = time.year
-    time.set(System.currentTimeMillis())
-
-    return (thenYear == time.year)
+    return (this * 1000L).isThisYear()
 }
 
 fun Int.addBitIf(add: Boolean, bit: Int) =

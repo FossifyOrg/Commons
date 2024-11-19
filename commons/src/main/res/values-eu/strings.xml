@@ -114,9 +114,9 @@
     <string name="must_make_default_dialer">Blokeatutako zenbakiak erabiltzeko aplikazio honek markatzaile-aplikazio lehenetsia izan behar du.</string>
     <string name="set_as_default">Ezarri lehenetsi gisa</string>
     <string name="block_confirmation">Ziur zaude \"%s\" blokeatu nahi duzula?</string>
-    <string name="block_not_stored_calls">Blokeatu gorde gabeko kontaktuen deiak</string>
+    <string name="block_unknown_calls">Blokeatu gorde gabeko kontaktuen deiak</string>
     <string name="block_hidden_calls">Blokeatu ezkutuko zenbakietako deiak</string>
-    <string name="block_not_stored_messages">Blokeatu gorde gabeko kontaktuen mezuak</string>
+    <string name="block_unknown_messages">Blokeatu gorde gabeko kontaktuen mezuak</string>
     <string name="block_hidden_messages">Blokeatu ezkutuko zenbakien mezuak</string>
     <string name="add_blocked_number_helper_text">Sartu zenbaki bat edo eredu bat (adibidez, *12345*, +1*8888) ereduarekin bat datozen zenbakietatik dei eta mezu guztiak blokeatzeko.</string>
     <string name="must_make_default_caller_id_app">Ezin dira blokeatu zenbaki ezezagunak deitzailearen identifikadorearen baimenik gabe.</string>
@@ -326,7 +326,7 @@
     <string name="undo_changes_confirmation">Ziur zaude aldaketak desegin nahi dituzula?</string>
     <string name="cannot_be_undone">Ekintza hau ezin da desegin.</string>
     <string name="save_before_closing">Gorde gabeko aldaketak dituzu. Gorde atera baino lehen?</string>
-    <string name="share_colors_success">Koloreak ondo eguneratu dira. \'Shared\' deituriko gai berria gehitu da, erabili hori aplikazio guztien koloreak eguneratzeko etorkizunean.</string>
+    <string name="global_theme_success">Koloreak ondo eguneratu dira. \'Shared\' deituriko gai berria gehitu da, erabili hori aplikazio guztien koloreak eguneratzeko etorkizunean.</string>
     <string name="purchase_thank_you">
         <![CDATA[
             Erosi <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> funtzio hau desblokeatzeko eta garatzaileari laguntzeko. Eskerrik asko!
@@ -441,7 +441,7 @@
     <string name="no_fingerprints_registered">Ez duzu hatz-markarik erregistratu, gehitu batzuk zeure gailuko ezarpenetan</string>
     <string name="go_to_settings">Joan ezarpenetara</string>
     <string name="protection_setup_successfully">Pasahitza ondo ezarri da. Berrinstalatu aplikazioa ahazten baduzu.</string>
-    <string name="fingerprint_setup_successfully">Protekzioa ondo ezarri da. Berrinstalatu aplikazioa berrezartzean arazorik baduzu.</string>
+    <string name="fingerprint_setup_successfully">Babesa ondo ezarri da. Berrinstalatu aplikazioa berrezartzean arazorik baduzu.</string>
     <string name="lock_folder">Blokeatu karpeta</string>
     <string name="lock_folder_pro">Blokeatu karpeta (Pro)</string>
     <string name="unlock_folder">Deblokeatu karpeta</string>
@@ -943,4 +943,22 @@
     <string name="donate_new">Kaixo,&lt;br&gt;&lt;br&gt;aplikazioaz gozatzea espero duzu. Ez dauka iragarkirik eta ez ditugu zure datuak biltzen ari. Mesedez, lagundu haren garapena &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Eskerrik asko erosiz. Zuk&lt;/a&gt;. Gainera, aplikazioaren eginbide guztiak desblokeatuta izango dituzu koloreen pertsonalizazioa barne.&lt;br&gt;&lt;br&gt;Eskerrik asko!</string>
     <string name="donate_please">Kaixo,&lt;br&gt;&lt;br&gt; aplikazioaz gozatzea espero dugu. Ez dauka iragarkirik. Mesedez, lagundu bere garapena &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Eskerrik Asko&lt;/a&gt; aplikazioa erosiz. elkarrizketa-koadro hau berriro agertzea ere eragotziko du.&lt;br&gt;&lt;br&gt; Eskerrik asko!</string>
     <string name="donate_short">Lagundu iezaguzu &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Eskerrik asko&lt;/a&gt; erosiz, aplikazioen eginbide guztiak ere desblokeatuko ditu kolorea barne. pertsonalizazioa.</string>
+    <string name="format_phone_numbers">Eman formatu telefono-zenbakiei</string>
+    <string name="features_locked">Eginbide hau blokeatuta dago. Erosi &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Eskerrik asko&lt;/a&gt; aplikazio osoa desblokeatzeko.&lt;br &gt;&lt;br&gt;Ordainketa bakarra da eta asetzen ez bazara, itzuliko dizugu.</string>
+    <string name="platforms">Plataformak</string>
+    <string name="donate_to_fossify">Dohaintza egin Fossify-ri</string>
+    <string name="little_to_no_fee">Kuota txikia</string>
+    <string name="faq_3_title_commons">Fitxategi batzuk errorez ezabatu ditut, nola berreskura ditzaket?</string>
+    <string name="fee_up_to_pct">Gehienez %%1$d kuota</string>
+    <string name="cryptocurrency">Criptomoneta</string>
+    <string name="faq_2_text_commons">Bai, noski. Aplikazioen berri zabal dezakezu edo iritzi eta balorazio onak eman. Aplikazioak hizkuntza berri batera itzultzen ere lagundu dezakezu edo lehendik dauden itzulpen batzuk eguneratu besterik ez duzu egin. Itzultzeko gida &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;webgune honetan&lt;/a&gt; helbidean dago, edo Galderarik baduzu, jarri gurekin harremanetan &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; helbidera.</string>
+    <string name="faq_4_title_commons">Ez zaizkit widgetaren koloreak gustatzen, aldatu ditzaket?</string>
+    <string name="faq_3_text_commons">Ezin duzu. Fitxategiak baieztapen leihoaren ostean ezabatzen dira, ez dago zakarrontzirik.</string>
+    <string name="faq_6_title_commons">Aplikazioa abiarazteko ikonoa desagertu egin da. Zer egin dezaket?</string>
+    <string name="faq_5_text_commons">Benetan ezabatu badira, ezin duzu. Hala ere, lehenespenez Birziklapen Zaborrontzia gaituta dago, fitxategiak zakarrontzira eramango ditu ezabatu beharrean.</string>
+    <string name="faq_4_text_commons">Bai, trepeta bat hasierako pantailan arrastatzean trepeten konfigurazio pantaila bat agertzen da. Koloretako karratuak ikusiko dituzu beheko ezkerreko izkinan, sakatu besterik ez duzu kolore berri bat hautatzeko. Gradua erabil dezakezu alfa doitzeko ere.</string>
+    <string name="faq_5_title_commons">Leheneratu al ditzaket nolabait ezabatutako fitxategiak?</string>
+    <string name="theme_and_colors">Itxura eta koloreak</string>
+    <string name="all_fossify_apps">Fossifyren aplikazio guztiak</string>
+    <string name="known_issues">Errore ezagunak</string>
 </resources>

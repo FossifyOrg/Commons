@@ -4,10 +4,16 @@ plugins {
     alias(libs.plugins.ksp)
     alias(libs.plugins.kotlinSerialization)
     alias(libs.plugins.parcelize)
+    alias(libs.plugins.detekt)
     `maven-publish`
 }
 
+group = "org.fossify"
+version = "1.0.0"
+
 android {
+    namespace = "org.fossify.commons"
+
     compileSdk = libs.versions.app.build.compileSDKVersion.get().toInt()
 
     defaultConfig {
@@ -39,7 +45,7 @@ android {
     }
 
     compileOptions {
-        val currentJavaVersionFromLibs = JavaVersion.valueOf(libs.versions.app.build.javaVersion.get().toString())
+        val currentJavaVersionFromLibs = JavaVersion.valueOf(libs.versions.app.build.javaVersion.get())
         sourceCompatibility = currentJavaVersionFromLibs
         targetCompatibility = currentJavaVersionFromLibs
     }
@@ -56,21 +62,29 @@ android {
         )
     }
 
+    lint {
+        checkReleaseBuilds = false
+        abortOnError = false
+        abortOnError = true
+        warningsAsErrors = true
+        baseline = file("lint-baseline.xml")
+    }
+
     sourceSets {
         getByName("main").java.srcDirs("src/main/kotlin")
     }
-    namespace = libs.versions.app.version.groupId.get()
 }
 
 publishing.publications {
     create<MavenPublication>("release") {
-        groupId = libs.versions.app.version.groupId.get()
-        artifactId = name
-        version = libs.versions.app.version.versionName.get()
         afterEvaluate {
             from(components["release"])
         }
     }
+}
+
+detekt {
+    baseline = file("detekt-baseline.xml")
 }
 
 dependencies {
@@ -81,8 +95,8 @@ dependencies {
     implementation(libs.androidx.swiperefreshlayout)
     implementation(libs.androidx.exifinterface)
     implementation(libs.androidx.biometric.ktx)
+    implementation(libs.androidx.lifecycle.process)
     implementation(libs.ez.vcard)
-
 
     implementation(libs.bundles.lifecycle)
     implementation(libs.bundles.compose)

@@ -3,10 +3,12 @@ package org.fossify.commons.extensions
 import android.Manifest
 import android.annotation.TargetApi
 import android.app.Activity
+import android.app.Application
 import android.app.NotificationManager
 import android.app.role.RoleManager
 import android.content.*
 import android.content.pm.PackageManager
+import android.content.pm.PackageManager.PERMISSION_GRANTED
 import android.content.pm.ShortcutManager
 import android.content.res.Configuration
 import android.database.Cursor
@@ -44,6 +46,7 @@ import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import org.fossify.commons.R
 import org.fossify.commons.helpers.*
+import org.fossify.commons.helpers.MyContentProvider.PERMISSION_WRITE_GLOBAL_SETTINGS
 import org.fossify.commons.models.AlarmSound
 import org.fossify.commons.models.BlockedNumber
 import java.io.File
@@ -56,6 +59,9 @@ fun Context.getSharedPrefs() = getSharedPreferences(PREFS_KEY, Context.MODE_PRIV
 val Context.isRTLLayout: Boolean get() = resources.configuration.layoutDirection == View.LAYOUT_DIRECTION_RTL
 
 val Context.areSystemAnimationsEnabled: Boolean get() = Settings.Global.getFloat(contentResolver, Settings.Global.ANIMATOR_DURATION_SCALE, 0f) > 0f
+
+val Context.appLockManager
+    get() = AppLockManager.getInstance(applicationContext as Application)
 
 fun Context.toast(id: Int, length: Int = Toast.LENGTH_SHORT) {
     toast(getString(id), length)
@@ -102,6 +108,14 @@ fun Context.isFingerPrintSensorAvailable() = Reprint.isHardwarePresent()
 fun Context.isBiometricIdAvailable(): Boolean = when (BiometricManager.from(this).canAuthenticate(BiometricManager.Authenticators.BIOMETRIC_WEAK)) {
     BiometricManager.BIOMETRIC_SUCCESS, BiometricManager.BIOMETRIC_STATUS_UNKNOWN -> true
     else -> false
+}
+
+fun Context.isBiometricAuthSupported(): Boolean {
+    return if (isRPlus()) {
+        isBiometricIdAvailable()
+    } else {
+        isFingerPrintSensorAvailable()
+    }
 }
 
 fun Context.getLatestMediaId(uri: Uri = Files.getContentUri("external")): Long {
@@ -453,7 +467,7 @@ fun Context.getMyContactsCursor(favoritesOnly: Boolean, withPhoneNumbersOnly: Bo
 }
 
 fun Context.getCurrentFormattedDateTime(): String {
-    val simpleDateFormat = SimpleDateFormat("yyyy_MM_dd_HH_mm_ss", Locale.getDefault())
+    val simpleDateFormat = SimpleDateFormat("yyyyMMdd_HHmmss", Locale.getDefault())
     return simpleDateFormat.format(Date(System.currentTimeMillis()))
 }
 
@@ -476,6 +490,10 @@ fun Context.getUriMimeType(path: String, newUri: Uri): String {
 }
 
 fun Context.isThankYouInstalled() = isPackageInstalled("org.fossify.thankyou")
+
+fun Context.canAccessGlobalConfig(): Boolean {
+    return isThankYouInstalled() && ContextCompat.checkSelfPermission(this, PERMISSION_WRITE_GLOBAL_SETTINGS) == PERMISSION_GRANTED
+}
 
 fun Context.isOrWasThankYouInstalled(): Boolean {
     return when {

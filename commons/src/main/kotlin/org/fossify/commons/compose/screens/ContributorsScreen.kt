@@ -30,21 +30,18 @@ import org.fossify.commons.compose.theme.SimpleTheme
 import org.fossify.commons.extensions.fromHtml
 import org.fossify.commons.models.LanguageContributor
 
-private val startingPadding = Modifier.padding(start = 56.dp)
+private val titleStartPadding = Modifier.padding(start = 40.dp)
 
 @Composable
 internal fun ContributorsScreen(
     goBack: () -> Unit,
-    showContributorsLabel: Boolean,
     contributors: ImmutableList<LanguageContributor>
 ) {
     SimpleLazyListScaffold(
         title = { scrolledColor ->
             Text(
                 text = stringResource(id = R.string.contributors),
-                modifier = Modifier
-                    .padding(start = SimpleTheme.dimens.padding.extraLarge)
-                    .fillMaxWidth(),
+                modifier = Modifier.fillMaxWidth(),
                 color = scrolledColor,
                 overflow = TextOverflow.Ellipsis,
                 maxLines = 1
@@ -54,7 +51,10 @@ internal fun ContributorsScreen(
     ) {
         item {
             SettingsGroupTitle {
-                SettingsTitleTextComponent(text = stringResource(id = R.string.development), modifier = startingPadding)
+                SettingsTitleTextComponent(
+                    text = stringResource(id = R.string.development),
+                    modifier = titleStartPadding
+                )
             }
         }
         item {
@@ -73,7 +73,10 @@ internal fun ContributorsScreen(
         }
         item {
             SettingsGroupTitle {
-                SettingsTitleTextComponent(text = stringResource(id = R.string.translation), modifier = startingPadding)
+                SettingsTitleTextComponent(
+                    text = stringResource(id = R.string.translation),
+                    modifier = titleStartPadding
+                )
             }
         }
         items(contributors, key = { it.contributorsId.plus(it.iconId).plus(it.labelId) }) {
@@ -81,24 +84,23 @@ internal fun ContributorsScreen(
                 languageContributor = it
             )
         }
-        if (showContributorsLabel) {
-            item {
-                SettingsListItem(
-                    icon = R.drawable.ic_heart_vector,
-                    text = {
-                        val source = stringResource(id = R.string.contributors_label)
-                        LinkifyTextComponent {
-                            source.fromHtml()
-                        }
-                    },
-                    tint = SimpleTheme.colorScheme.onSurface
-                )
-            }
-            item {
-                Spacer(modifier = Modifier.padding(bottom = SimpleTheme.dimens.padding.medium))
-            }
+
+        item {
+            SettingsListItem(
+                icon = R.drawable.ic_heart_vector,
+                text = {
+                    val source = stringResource(id = R.string.contributors_label)
+                    LinkifyTextComponent {
+                        source.fromHtml()
+                    }
+                },
+                tint = SimpleTheme.colorScheme.onSurface
+            )
         }
 
+        item {
+            Spacer(modifier = Modifier.padding(bottom = SimpleTheme.dimens.padding.medium))
+        }
     }
 }
 
@@ -117,9 +119,7 @@ private fun ContributorItem(
             )
         },
         leadingContent = {
-            val imageSize = Modifier
-                .size(SimpleTheme.dimens.icon.medium)
-                .padding(SimpleTheme.dimens.padding.small)
+            val imageSize = Modifier.size(SimpleTheme.dimens.icon.extraSmall)
             Image(
                 modifier = imageSize,
                 painter = painterResource(id = languageContributor.iconId),
@@ -146,12 +146,27 @@ private fun ContributorsScreenPreview() {
         ContributorsScreen(
             goBack = {},
             contributors = listOf(
-                LanguageContributor(R.drawable.ic_flag_arabic_vector, R.string.translation_arabic, R.string.translators_arabic),
-                LanguageContributor(R.drawable.ic_flag_azerbaijani_vector, R.string.translation_azerbaijani, R.string.translators_azerbaijani),
-                LanguageContributor(R.drawable.ic_flag_bengali_vector, R.string.translation_bengali, R.string.translators_bengali),
-                LanguageContributor(R.drawable.ic_flag_catalan_vector, R.string.translation_catalan, R.string.translators_catalan),
+                LanguageContributor(
+                    iconId = R.drawable.ic_flag_arabic_vector,
+                    labelId = R.string.translation_arabic,
+                    contributorsId = R.string.translators_arabic
+                ),
+                LanguageContributor(
+                    iconId = R.drawable.ic_flag_azerbaijani_vector,
+                    labelId = R.string.translation_azerbaijani,
+                    contributorsId = R.string.translators_azerbaijani
+                ),
+                LanguageContributor(
+                    iconId = R.drawable.ic_flag_bengali_vector,
+                    labelId = R.string.translation_bengali,
+                    contributorsId = R.string.translators_bengali
+                ),
+                LanguageContributor(
+                    iconId = R.drawable.ic_flag_catalan_vector,
+                    labelId = R.string.translation_catalan,
+                    contributorsId = R.string.translators_catalan
+                ),
             ).toImmutableList(),
-            showContributorsLabel = true,
         )
     }
 }

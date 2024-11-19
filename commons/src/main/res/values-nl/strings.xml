@@ -113,9 +113,9 @@
     <string name="must_make_default_dialer">Maak van deze app de standaard telefoon-app om nummers te kunnen blokkeren.</string>
     <string name="set_as_default">Als standaard instellen</string>
     <string name="block_confirmation">Nummer \"%s\" echt blokkeren\?</string>
-    <string name="block_not_stored_calls">Oproepen van niet-opgeslagen contacten blokkeren</string>
+    <string name="block_unknown_calls">Oproepen van niet-opgeslagen contacten blokkeren</string>
     <string name="block_hidden_calls">Oproepen van verborgen nummers blokkeren</string>
-    <string name="block_not_stored_messages">Berichten van niet-opgeslagen contacten blokkeren</string>
+    <string name="block_unknown_messages">Berichten van niet-opgeslagen contacten blokkeren</string>
     <string name="block_hidden_messages">Berichten van verborgen nummers blokkeren</string>
     <string name="add_blocked_number_helper_text">Voer een nummer of patroon in (bijv. *12345*, +31*8888) om alle oproepen en berichten te blokkeren van nummers die overeenkomen met het patroon.</string>
     <string name="must_make_default_caller_id_app">Kan onbekende nummers niet blokkeren zonder toegang tot beller-ID\'s.</string>
@@ -307,14 +307,14 @@
     <string name="default_color">Standaard</string>
     <string name="change_color">Kleur wijzigen</string>
     <string name="theme">Thema</string>
-    <string name="changing_color_description">Als een kleur wordt gewijzigd, zal het Aangepaste thema worden gebruikt</string>
+    <string name="changing_color_description">Als een kleur wordt gewijzigd, zal het thema Aangepast worden gebruikt</string>
     <string name="save">Opslaan</string>
     <string name="discard">Negeren</string>
     <string name="undo_changes">Wijzigingen ongedaan maken</string>
     <string name="undo_changes_confirmation">Wijzigingen inderdaad ongedaan maken\?</string>
     <string name="cannot_be_undone">Deze bewerking kan niet ongedaan worden gemaakt.</string>
     <string name="save_before_closing">Er zijn niet opgeslagen wijzigingen. Opslaan voor het afsluiten\?</string>
-    <string name="share_colors_success">Kleuren gewijzigd. Gebruik het nieuwe thema \'Gedeeld\' om de kleuren voor al onze apps aan te passen.</string>
+    <string name="global_theme_success">Het huidige thema is toegepast op alle Fossify apps. Toekomstige aanpassingen zullen automatisch worden doorgevoerd in alle apps.</string>
     <string name="light_theme">Licht</string>
     <string name="dark_theme">Donker</string>
     <string name="auto_theme">Automatisch</string>
@@ -1020,4 +1020,23 @@
     <string name="features_locked">Deze functie is vergrendeld. Overweeg het aanschaffen van &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Bedankje&lt;/a&gt; om alle functies in deze app te kunnen gebruiken.&lt;br&gt;&lt;br&gt;Dit is een eenmalige aanschaf met een niet-goed-geld-teruggarantie.</string>
     <string name="launcher_short">Launcher</string>
     <string name="faq_6_text_commons">Dit probleem doet zich voor wanneer je launcher het aanpassen van pictogrammen niet volledig ondersteunt. Probeer de app te starten via Google Play of een widget, indien mogelijk. Herstel na het starten de standaard groene icoonkleur #106D1F. In extreme gevallen kan het nodig zijn om de app opnieuw te installeren.</string>
+    <string name="translation_tamil">Tamil</string>
+    <string name="format_phone_numbers">Telefoonnummers automatisch opmaken</string>
+    <string name="little_to_no_fee">Weinig tot geen kosten</string>
+    <string name="platforms">Platformen</string>
+    <string name="donate_to_fossify">Doneer aan Fossify</string>
+    <string name="cryptocurrency">Cryptocurrency</string>
+    <string name="fee_up_to_pct">Kosten tot %1$d%%</string>
+    <string name="translation_hindi">Hindi</string>
+    <string name="translation_welsh">Welsh</string>
+    <string name="translation_esperanto">Esperanto</string>
+    <string name="translation_chuvash">Tsjoevasjisch</string>
+    <string name="translation_gujarati">Gujarati</string>
+    <string name="use_english_language">Use English language</string>
+    <string name="gson_title">Gson (JSON-parser)</string>
+    <string name="translation_belarusian">Wit-Russisch</string>
+    <string name="translation_central_kurdish">Centraal Koerdisch</string>
+    <string name="all_fossify_apps">Alle Fossify apps</string>
+    <string name="theme_and_colors">Thema en kleuren</string>
+    <string name="known_issues">Bekende problemen</string>
 </resources>

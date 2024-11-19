@@ -74,7 +74,7 @@
     <string name="record_video">Snimi video</string>
     <string name="updating">Aktualiziranje …</string>
     <string name="phone_storage">Spremište na mobitelu</string>
-    <string name="phone_storage_hidden">Spremište na mobitelu (nije vidljivo za druge aplikacije)</string>
+    <string name="phone_storage_hidden">Memorija mobitela (nije vidljiva za druge aplikacije)</string>
     <string name="birthday">Rođendan</string>
     <string name="anniversary">Obljetnica</string>
     <string name="home">Kućni</string>
@@ -112,8 +112,8 @@
     <string name="must_make_default_dialer">Za korištenje blokiranih brojeva, ovu aplikaciju moraš postaviti kao standardnu aplikaciju za biranje brojeva.</string>
     <string name="set_as_default">Postavi kao standard</string>
     <string name="block_confirmation">Stvarno želiš blokirati „%s”\?</string>
-    <string name="block_not_stored_calls">Blokiraj pozive od nespremljenih kontakata</string>
-    <string name="block_not_stored_messages">Blokiraj poruke od nespremljenih kontakata</string>
+    <string name="block_unknown_calls">Blokiraj pozive od nespremljenih kontakata</string>
+    <string name="block_unknown_messages">Blokiraj poruke od nespremljenih kontakata</string>
     <string name="add_blocked_number_helper_text">Upiši broj ili uzorak (npr. *12345*, +1*8888) za blokiranje svih poziva i poruka od brojeva koji odgovaraju uzorku.</string>
     <string name="must_make_default_caller_id_app">Nije moguće blokirati nepoznate brojeve bez dozvole ID-a pozivatelja.</string>
     <string name="favorites">Favoriti</string>
@@ -318,7 +318,7 @@
     <string name="undo_changes_confirmation">Stvarno želitš poništiti tvoje promjene?</string>
     <string name="cannot_be_undone">Ovo je nepovratna radnja.</string>
     <string name="save_before_closing">Imaš nespremljene promjene. Želiš li ih spremiti prije izlaska?</string>
-    <string name="share_colors_success">Uspješno ažurirane boje. Nova tema pod nazivom \'Shared\' je dodana, molimo koristite ju za ažuriranje svih boja u aplikaciji u budućnosti.</string>
+    <string name="global_theme_success">Uspješno ažurirane boje. Nova tema pod nazivom \'Shared\' je dodana, molimo koristite ju za ažuriranje svih boja u aplikaciji u budućnosti.</string>
     <string name="purchase_thank_you">Za otključavanje ove funkcije te za podršku razvoja kupi aplikaciju &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify hvala&lt;/a&gt;. Hvala!</string>
     <string name="light_theme">Svijetla</string>
     <string name="dark_theme">Tamna</string>
@@ -907,7 +907,6 @@
     <string name="faq_8_title_commons">Zašto nadograditi na Pro verziju?</string>
     <string name="faq_8_text_commons">Budući da se vaša verzija aplikacije više nije ažurira, greške koje ste možda uočili nikada neće biti ispravljene. Također se neće dodati nove funkcije. Pro verziju možete kupiti na Google Playu za malu svotu novca. Radi se o jednokratnom plaćanju, što znači da kada je jednom kupite, više nikada nećete morati ponovo platiti. Čak ni nakon nabave novog uređaja. Ako vam se Pro verzija ne sviđa, možete je jednostavno deinstalirati u roku od nekoliko sati i automatski ćete dobiti povrat novca. Ako želite povrat novca bilo kada kasnije, kontaktirajte nas na hello@fossify.org i mi ćemo vam vratiti novac.</string>
     <string name="faq_9_title_commons">Kako mogu odabrati više stavki odjednom?</string>
-    <string name="faq_9_text_commons">There are multiple ways of doing that. The first one is starting the selection mode by long pressing one item, then short clicking on others to select them. The second way is similar to selecting items on PCs with a mouse, just start the selection mode by long pressing one item, then with your finger still down drag it across other items for selecting. The third way of selecting multiple items is long pressing one item, then long pressing another one and everything in between gets selected. If you want to select all items, just long press one item, then click at the selected item counter at the top left corner. That will select or unselect all everything.</string>
     <string name="contributors">Doprinositelji</string>
     <string name="translation">Prijevod</string>
     <string name="development">Razvoj</string>
@@ -1116,4 +1115,13 @@
     <string name="faq_2_text_commons">Da naravno. Možete širiti vijest o aplikacijama ili slati povratne informacije i ocjene. Također možete pomoći prevođenjem aplikacija na novi jezik ili aktualizirati postojeće prijevode. Vodič za prevođenje nalazi se na &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;ovoj web stranici&lt;/a&gt; ili nas kontaktirajte na &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; ako imate pitanja.</string>
     <string name="contributors_label">Ovaj popis sadrži sve osobe koje su značajno pomogli bilo kojoj aplikaciji unutar paketa Fossify, ne samo ovoj. Prijevode obavljaju volonteri, javite nam ako i vi želite pomoći. Vodič za prevođenje nalazi se na &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;ovoj web stranici&lt;/a&gt; ili nas kontaktirajte na &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; ako imate pitanja. Hvala svim suradnicima i ostalim podržavateljima!</string>
     <string name="features_locked">Ova je funkcija zaključana. Kupite &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify hvala&lt;/a&gt; za otključavanje cijele aplikacije.&lt;br&gt;&lt;br&gt;Radi se o jednokratnom plaćanju. Ako niste zadovoljni, možemo vam vratiti novac.</string>
+    <string name="translation_chuvash">Čuvaški</string>
+    <string name="translation_esperanto">Esperanto</string>
+    <string name="translation_gujarati">Gudžaratski</string>
+    <string name="little_to_no_fee">Malo do bez naknade</string>
+    <string name="donate_to_fossify">Doniraj projektu Fossify</string>
+    <string name="fee_up_to_pct">Do %1$d% % naknade</string>
+    <string name="platforms">Platforme</string>
+    <string name="format_phone_numbers">Formatiraj telefonske brojeve</string>
+    <string name="cryptocurrency">Kriptovaluta</string>
 </resources>

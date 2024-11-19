@@ -125,9 +125,9 @@
     <string name="must_make_default_dialer">عليك أن تجعل هذا التطبيق المتصل الافتراضي للاستفادة من الأرقام المحظورة.</string>
     <string name="set_as_default">ضبط الى الافتراضي</string>
     <string name="block_confirmation">هل تريد بالتأكيد حظر \"%s\"؟</string>
-    <string name="block_not_stored_calls">حظر المكالمات من جهات الاتصال غير المخزنة</string>
+    <string name="block_unknown_calls">حظر المكالمات من جهات الاتصال غير المخزنة</string>
     <string name="block_hidden_calls">حظر المكالمات من الأرقام المخفية</string>
-    <string name="block_not_stored_messages">حظر الرسائل من جهات الاتصال غير المخزنة</string>
+    <string name="block_unknown_messages">حظر الرسائل من جهات الاتصال غير المخزنة</string>
     <string name="block_hidden_messages">حظر الرسائل من الأرقام المخفية</string>
     <string name="add_blocked_number_helper_text">أدخل رقما أو نمطا (على سبيل المثال، *12345*، +1*8888) لحظر جميع المكالمات والرسائل من الأرقام المطابقة للنمط.</string>
     <string name="must_make_default_caller_id_app">لا يمكن حظر الأرقام غير المعروفة دون إذن معرف المتصل.</string>
@@ -353,7 +353,7 @@
     <string name="undo_changes_confirmation">هل تريد بالتاكيد التراجع عن التغييرات التي أجريتها ؟</string>
     <string name="cannot_be_undone">لا يمكن التراجع عن هذا الإجراء.</string>
     <string name="save_before_closing">لديك تغييرات غير محفوظة. هل تريد الحفظ قبل الخروج ؟</string>
-    <string name="share_colors_success">تم تحديث الألوان بنجاح. تمت إضافة سمة جديدة تسمى \'المشتركة\'، يرجى إستخدام ذلك لتحديث جميع ألوان التطبيق في المستقبل.</string>
+    <string name="global_theme_success">تم تحديث الألوان بنجاح. تمت إضافة سمة جديدة تسمى \'المشتركة\'، يرجى إستخدام ذلك لتحديث جميع ألوان التطبيق في المستقبل.</string>
     <string name="purchase_thank_you">
         <![CDATA[
              يرجى شراء<a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Thank You</a> لفتح هذه الوظيفة ودعم التطوير. شكراً!

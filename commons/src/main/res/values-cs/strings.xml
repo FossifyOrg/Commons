@@ -120,9 +120,9 @@
     <string name="must_make_default_dialer">Pro použití blokování čísel musíte nastavit tuto aplikaci jako výchozí pro správu hovorů.</string>
     <string name="set_as_default">Nastavit jako výchozí</string>
     <string name="block_confirmation">Jste si jistí, že chcete zablokovat „%s“\?</string>
-    <string name="block_not_stored_calls">Blokovat volání z neznámých čísel</string>
+    <string name="block_unknown_calls">Blokovat volání z neznámých čísel</string>
     <string name="block_hidden_calls">Blokovat volání ze skrytých čísel</string>
-    <string name="block_not_stored_messages">Blokovat zprávy z neznámých čísel</string>
+    <string name="block_unknown_messages">Blokovat zprávy z neznámých čísel</string>
     <string name="block_hidden_messages">Blokovat zprávy ze skrytých čísel</string>
     <string name="add_blocked_number_helper_text">Zadáním čísla nebo vzoru (např. *12345*, +1*8888) zablokujete všechny hovory a zprávy z čísel odpovídajících vzoru.</string>
     <string name="must_make_default_caller_id_app">Nelze blokovat neznámá čísla bez povolení ID volajícího.</string>
@@ -333,7 +333,7 @@
     <string name="undo_changes_confirmation">Opravdu chcete vrátit změny?</string>
     <string name="cannot_be_undone">Tuto akci nelze vrátit zpět.</string>
     <string name="save_before_closing">Máte neuložené změny. Chcete je před ukončením uložit\?</string>
-    <string name="share_colors_success">Barvy úspěšně aktualizovány. Byl přidán nový motiv „Sdílený“, v budoucnu jej prosím použijte pro úpravu barev u všech Jednoduchých aplikací zároveň.</string>
+    <string name="global_theme_success">Barvy úspěšně aktualizovány. Byl přidán nový motiv „Sdílený“, v budoucnu jej prosím použijte pro úpravu barev u všech Jednoduchých aplikací zároveň.</string>
     <string name="light_theme">Světlý</string>
     <string name="dark_theme">Tmavý</string>
     <string name="auto_theme">Automaticky</string>
@@ -902,7 +902,7 @@
     <string name="music_player_short">Hudební přehrávač</string>
     <string name="notes_short">Poznámky</string>
     <string name="sms_messenger_short">SMS zprávy</string>
-    <string name="thank_you_short">Děkuji</string>
+    <string name="thank_you_short">Děkujeme</string>
     <string name="voice_recorder_short">Hlasový záznamník</string>
     <string name="sideloaded_app">
         <![CDATA[
@@ -1123,4 +1123,18 @@
     <string name="translation_chinese_hk">Čínština (Hong Kong)</string>
     <string name="translation_chinese_cn">Čínština (zjednodušená)</string>
     <string name="translation_chinese_tw">Čínština (tradiční)</string>
+    <string name="translation_chuvash">Čuvaština</string>
+    <string name="translation_esperanto">Esperanto</string>
+    <string name="translation_gujarati">Gudžarátština</string>
+    <string name="format_phone_numbers">Formátovat telefonní čísla</string>
+    <string name="donate_to_fossify">Přispět projektu Fossify</string>
+    <string name="platforms">Platformy</string>
+    <string name="fee_up_to_pct">Poplatek až %1$d%%</string>
+    <string name="cryptocurrency">Kryptoměna</string>
+    <string name="little_to_no_fee">Malý nebo žádný poplatek</string>
+    <string name="translation_belarusian">Běloruština</string>
+    <string name="translation_central_kurdish">Centrální kurdština</string>
+    <string name="theme_and_colors">Motiv a barvy</string>
+    <string name="all_fossify_apps">Všechny aplikace Fossify</string>
+    <string name="known_issues">Známé problémy</string>
 </resources>

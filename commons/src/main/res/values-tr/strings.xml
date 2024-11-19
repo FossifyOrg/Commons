@@ -119,9 +119,9 @@
     <string name="must_make_default_dialer">Engellenen numaraları kullanmak için bu uygulamayı öntanımlı çevirici uygulaması yapmalısınız.</string>
     <string name="set_as_default">Öntanımlı olarak ayarla</string>
     <string name="block_confirmation">\"%s\" gerçekten engellensin mi?</string>
-    <string name="block_not_stored_calls">Kayıtlı olmayan kişilerden gelen aramaları engelle</string>
+    <string name="block_unknown_calls">Kayıtlı olmayan kişilerden gelen aramaları engelle</string>
     <string name="block_hidden_calls">Gizli numaralardan gelen aramaları engelle</string>
-    <string name="block_not_stored_messages">Kayıtlı olmayan kişilerden gelen mesajları engelle</string>
+    <string name="block_unknown_messages">Kayıtlı olmayan kişilerden gelen mesajları engelle</string>
     <string name="block_hidden_messages">Gizli numaralardan gelen mesajları engelle</string>
     <string name="add_blocked_number_helper_text">Eşleşen numaralardan gelen tüm aramaları ve mesajları engellemek için bir numara veya desen (örn. *12345*, +1*8888) girin.</string>
     <string name="must_make_default_caller_id_app">Arayan kimliği izni olmadan bilinmeyen numaralar engellenemiyor.</string>
@@ -333,7 +333,7 @@
     <string name="save_before_closing">Kaydedilmemiş değişiklikleriniz var. Çıkmadan önce kaydedilsin mi?</string>
     <string name="apply_to_all_apps">Renkleri tüm Fossify uygulamalarına uygula</string>
     <string name="app_icon_color_warning">Dikkat: Bazı başlatıcılar uygulama simgesi özelleştirmesini doğru şekilde yapamayabilir. Simge kaybolursa, uygulamayı Google Play veya erişilebiliyorsa bir widget aracılığıyla başlatmayı deneyin. Başlattıktan sonra, öntanımlı #106D1F yeşil simge rengini geri yükleyin. Aşırı durumlarda, uygulamanın yeniden kurulması gerekebilir.</string>
-    <string name="share_colors_success">"Renkler başarıyla güncellendi. 'Paylaşılan' adlı yeni bir Tema eklendi, lütfen gelecekte tüm uygulama renklerini güncellemek için onu kullanın."</string>
+    <string name="global_theme_success">"Renkler başarıyla güncellendi. 'Paylaşılan' adlı yeni bir Tema eklendi, lütfen gelecekte tüm uygulama renklerini güncellemek için onu kullanın."</string>
     <string name="shared_theme_note">Pro uygulama sürümünü kullanıyor olsanız bile, teknik nedenlerden dolayı hala Fossify Teşekkürler\'e ihtiyacınız olduğunu unutmayın. Renk eşitlemesini o yapar.</string>
     <string name="purchase_thank_you">Bu işlevin kilidini açmak ve geliştirmeyi desteklemek için lütfen &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Teşekkürler&lt;/a&gt;\'i satın alın. Teşekkürler!</string>
     <string name="light_theme">Aydınlık</string>
@@ -1084,4 +1084,18 @@
     <string name="copyright">v %1$s
 \nTelif hakkı © Fossify %2$d</string>
     <string name="alarm">Alarm</string>
+    <string name="translation_esperanto">Esperanto</string>
+    <string name="translation_chuvash">Çuvaşça</string>
+    <string name="format_phone_numbers">Telefon numaralarını biçimlendir</string>
+    <string name="donate_to_fossify">Fossify\'a bağış yap</string>
+    <string name="platforms">Platformlar</string>
+    <string name="little_to_no_fee">Çok az veya hiç ücret yok</string>
+    <string name="fee_up_to_pct">%%%1$d\'ye kadar ücret</string>
+    <string name="cryptocurrency">Kripto para</string>
+    <string name="translation_gujarati">Guceratça</string>
+    <string name="translation_belarusian">Belarusça</string>
+    <string name="translation_central_kurdish">Orta Kürtçe</string>
+    <string name="all_fossify_apps">Tüm Fossify uygulamaları</string>
+    <string name="theme_and_colors">Tema ve renkler</string>
+    <string name="known_issues">Bilinen sorunlar</string>
 </resources>

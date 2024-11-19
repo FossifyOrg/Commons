@@ -14,6 +14,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.TextRange
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.input.TextFieldValue
+import androidx.compose.ui.text.input.VisualTransformation
 import org.fossify.commons.R
 import org.fossify.commons.compose.alert_dialog.*
 import org.fossify.commons.compose.extensions.MyDevices
@@ -87,7 +88,8 @@ fun AddOrEditBlockedNumberAlertDialog(
                 label = {
                     Text(text = stringResource(id = R.string.number))
                 },
-                keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Phone)
+                keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Password),
+                visualTransformation = VisualTransformation.None
             )
         },
         tonalElevation = dialogElevation

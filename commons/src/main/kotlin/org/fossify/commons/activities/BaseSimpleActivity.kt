@@ -1,6 +1,7 @@
 package org.fossify.commons.activities
 
 import android.animation.ArgbEvaluator
+import android.animation.ObjectAnimator
 import android.animation.ValueAnimator
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -33,6 +34,7 @@ import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import androidx.coordinatorlayout.widget.CoordinatorLayout
+import androidx.core.animation.doOnEnd
 import androidx.core.app.ActivityCompat
 import androidx.core.util.Pair
 import androidx.core.view.ScrollingView
@@ -91,6 +93,8 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
 
     abstract fun getAppLauncherName(): String
 
+    abstract fun getRepositoryName(): String?
+
     override fun onCreate(savedInstanceState: Bundle?) {
         if (useDynamicTheme) {
             setTheme(getThemeId(showTransparentTop = showTransparentTop))
@@ -112,26 +116,13 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
         super.onResume()
         if (useDynamicTheme) {
             setTheme(getThemeId(showTransparentTop = showTransparentTop))
-
-            val backgroundColor = if (baseConfig.isUsingSystemTheme) {
-                resources.getColor(R.color.you_background_color, theme)
-            } else {
-                baseConfig.backgroundColor
-            }
-
-            updateBackgroundColor(backgroundColor)
+            updateBackgroundColor(getProperBackgroundColor())
         }
 
         if (showTransparentTop) {
             window.statusBarColor = Color.TRANSPARENT
         } else if (!isMaterialActivity) {
-            val color = if (baseConfig.isUsingSystemTheme) {
-                resources.getColor(R.color.you_status_bar_color)
-            } else {
-                getProperStatusBarColor()
-            }
-
-            updateActionbarColor(color)
+            updateActionbarColor(getProperStatusBarColor())
         }
 
         updateRecentsAppIcon()
@@ -142,6 +133,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
         }
 
         updateNavigationBarColor(navBarColor)
+        maybeLaunchAppUnlockActivity(requestCode = REQUEST_APP_UNLOCK)
     }
 
     override fun onDestroy() {
@@ -180,12 +172,19 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
     }
 
     fun updateStatusbarColor(color: Int) {
-        window.statusBarColor = color
+        window.updateStatusBarColors(color)
+    }
 
-        if (color.getContrastColor() == DARK_GREY) {
-            window.decorView.systemUiVisibility = window.decorView.systemUiVisibility.addBit(View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR)
-        } else {
-            window.decorView.systemUiVisibility = window.decorView.systemUiVisibility.removeBit(View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR)
+    fun animateStatusBarColor(colorTo: Int, colorFrom: Int = window.statusBarColor, duration: Long = 300L) {
+        with(ObjectAnimator.ofInt(colorFrom, colorTo)) {
+            setEvaluator(ArgbEvaluator())
+            setDuration(duration)
+            addUpdateListener {
+                window.statusBarColor = it.animatedValue.toInt()
+            }
+
+            doOnEnd { updateStatusbarColor(window.statusBarColor) }
+            start()
         }
     }
 
@@ -195,18 +194,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
     }
 
     fun updateNavigationBarColor(color: Int) {
-        window.navigationBarColor = color
-        updateNavigationBarButtons(color)
-    }
-
-    fun updateNavigationBarButtons(color: Int) {
-        if (isOreoPlus()) {
-            if (color.getContrastColor() == DARK_GREY) {
-                window.decorView.systemUiVisibility = window.decorView.systemUiVisibility.addBit(View.SYSTEM_UI_FLAG_LIGHT_NAVIGATION_BAR)
-            } else {
-                window.decorView.systemUiVisibility = window.decorView.systemUiVisibility.removeBit(View.SYSTEM_UI_FLAG_LIGHT_NAVIGATION_BAR)
-            }
-        }
+        window.updateNavigationBarColors(color)
     }
 
     // use translucent navigation bar, set the background color to action and status bars
@@ -349,7 +337,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
         toolbar: Toolbar,
         toolbarNavigationIcon: NavigationIcon = NavigationIcon.None,
         statusBarColor: Int = getRequiredStatusBarColor(),
-        searchMenuItem: MenuItem? = null
+        searchMenuItem: MenuItem? = null,
     ) {
         val contrastColor = statusBarColor.getContrastColor()
         if (toolbarNavigationIcon != NavigationIcon.None) {
@@ -625,14 +613,22 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
         }
     }
 
-    fun startAboutActivity(appNameId: Int, licenseMask: Long, versionName: String, faqItems: ArrayList<FAQItem>, showFAQBeforeMail: Boolean) {
+    fun startAboutActivity(
+        appNameId: Int,
+        licenseMask: Long,
+        versionName: String,
+        faqItems: ArrayList<FAQItem>,
+        showFAQBeforeMail: Boolean
+    ) {
         hideKeyboard()
         Intent(applicationContext, AboutActivity::class.java).apply {
             putExtra(APP_ICON_IDS, getAppIconIDs())
             putExtra(APP_LAUNCHER_NAME, getAppLauncherName())
             putExtra(APP_NAME, getString(appNameId))
+            putExtra(APP_REPOSITORY_NAME, getRepositoryName())
             putExtra(APP_LICENSES, licenseMask)
             putExtra(APP_VERSION_NAME, versionName)
+            putExtra(APP_PACKAGE_NAME, baseConfig.appId)
             putExtra(APP_FAQ, faqItems)
             putExtra(SHOW_FAQ_BEFORE_MAIL, showFAQBeforeMail)
             startActivity(this)
@@ -859,7 +855,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
 
     fun copyMoveFilesTo(
         fileDirItems: ArrayList<FileDirItem>, source: String, destination: String, isCopyOperation: Boolean, copyPhotoVideoOnly: Boolean,
-        copyHidden: Boolean, callback: (destinationPath: String) -> Unit
+        copyHidden: Boolean, callback: (destinationPath: String) -> Unit,
     ) {
         if (source == destination) {
             toast(R.string.source_and_destination_same)
@@ -980,7 +976,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
         destinationPath: String,
         isCopyOperation: Boolean,
         copyPhotoVideoOnly: Boolean,
-        copyHidden: Boolean
+        copyHidden: Boolean,
     ) {
         val availableSpace = destinationPath.getAvailableStorageB()
         val sumToCopy = files.sumByLong { it.getProperSize(applicationContext, copyHidden) }
@@ -1004,7 +1000,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
 
     fun checkConflicts(
         files: ArrayList<FileDirItem>, destinationPath: String, index: Int, conflictResolutions: LinkedHashMap<String, Int>,
-        callback: (resolutions: LinkedHashMap<String, Int>) -> Unit
+        callback: (resolutions: LinkedHashMap<String, Int>) -> Unit,
     ) {
         if (index == files.size) {
             callback(conflictResolutions)

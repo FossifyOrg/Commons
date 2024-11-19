@@ -4,6 +4,9 @@
         <shape android:shape="rectangle">
             <solid android:color="@color/md_grey_white" />
             <corners android:radius="8dp" />
+            <padding
+                android:bottom="8dp"
+                android:top="8dp" />
         </shape>
     </item>
 </layer-list>

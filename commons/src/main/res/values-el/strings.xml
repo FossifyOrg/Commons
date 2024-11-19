@@ -117,9 +117,9 @@
     <string name="must_make_default_dialer">Θα πρέπει να οριστεί προεπιλεγμένη εφαρμογή για χρήση αποκλεισμένων αριθμών.</string>
     <string name="set_as_default">Ορισμός ως προεπιλογής</string>
     <string name="block_confirmation">Σίγουρα να αποκλειστεί ο \"%s\"?</string>
-    <string name="block_not_stored_calls">Αποκλεισμός κλήσεων από μη αποθηκευμένες επαφές</string>
+    <string name="block_unknown_calls">Αποκλεισμός κλήσεων από μη αποθηκευμένες επαφές</string>
     <string name="block_hidden_calls">Αποκλεισμός κλήσεων από κρυφούς αριθμούς</string>
-    <string name="block_not_stored_messages">Αποκλεισμός μηνυμάτων από μη αποθηκευμένες επαφές</string>
+    <string name="block_unknown_messages">Αποκλεισμός μηνυμάτων από μη αποθηκευμένες επαφές</string>
     <string name="block_hidden_messages">Αποκλεισμός μηνυμάτων από κρυφούς αριθμούς</string>
     <string name="add_blocked_number_helper_text">Εισάγετε έναν αριθμό ή ένα μοτίβο (π.χ. *12345*, +1*8888) για να μπλοκάρετε όλες τις κλήσεις και τα μηνύματα από αριθμούς που αντιστοιχούν στο μοτίβο.</string>
     <string name="must_make_default_caller_id_app">Αδύνατη η φραγή αγνώστων αριθμών χωρίς άδεια ID κλήσεων.</string>
@@ -330,7 +330,7 @@
     <string name="undo_changes_confirmation">Είστε βέβαιοι ότι θέλετε να αναιρέσετε τις αλλαγές σας?</string>
     <string name="cannot_be_undone">Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.</string>
     <string name="save_before_closing">Έχετε αλλαγές που δεν έχουν αποθηκευτεί. Αποθήκευση πριν από την έξοδο?</string>
-    <string name="share_colors_success">Τα χρώματα ενημερώθηκαν με επιτυχία. Ένα νέο θέμα που ονομάζεται  \"Κοινόχρηστο\" έχει προστεθεί, παρακαλούμε να χρησιμοποιήστε το για την ενημέρωση των χρωμάτων όλων των εφαρμ. στο μέλλον.</string>
+    <string name="global_theme_success">Τα χρώματα ενημερώθηκαν με επιτυχία. Ένα νέο θέμα που ονομάζεται  \"Κοινόχρηστο\" έχει προστεθεί, παρακαλούμε να χρησιμοποιήστε το για την ενημέρωση των χρωμάτων όλων των εφαρμ. στο μέλλον.</string>
     <string name="purchase_thank_you">
         <![CDATA[
             Παρακαλώ αγοράστε την <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Απλά Σας Ευχαριστώ</a> για να ξεκλειδώσετε αυτή τη λειτουργία για να υποστηρίξετε την ανάπτυξη. Ευχαριστώ!

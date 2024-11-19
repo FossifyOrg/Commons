@@ -117,9 +117,9 @@
     <string name="must_make_default_dialer">È necessario impostare quest\'app come predefinita per utilizzare i numeri bloccati.</string>
     <string name="set_as_default">Imposta come predefinita</string>
     <string name="block_confirmation">Sei sicuro/a di volere bloccare «%s»\?</string>
-    <string name="block_not_stored_calls">Blocca le chiamate dai contatti non memorizzati</string>
+    <string name="block_unknown_calls">Blocca le chiamate dai contatti non memorizzati</string>
     <string name="block_hidden_calls">Blocca le chiamate da numeri nascosti</string>
-    <string name="block_not_stored_messages">Blocca i messaggi dei contatti non memorizzati</string>
+    <string name="block_unknown_messages">Blocca i messaggi dei contatti non memorizzati</string>
     <string name="block_hidden_messages">Blocca i messaggi provenienti da numeri nascosti</string>
     <string name="add_blocked_number_helper_text">Inserisci un numero o un modello (ad esempio *12345*, +1*8888) per bloccare tutte le chiamate e i messaggi provenienti da numeri corrispondenti al modello.</string>
     <string name="must_make_default_caller_id_app">Impossibile bloccare i numeri sconosciuti senza l\'autorizzazione dell\'ID chiamante.</string>
@@ -332,7 +332,7 @@
     <string name="save_before_closing">Ci sono modifiche non salvate. Salvare prima di uscire?</string>
     <string name="apply_to_all_apps">Applica i colori a tutte le app di Fossify</string>
     <string name="app_icon_color_warning">Attenzione: alcuni launcher potrebbero non gestire correttamente la personalizzazione dell\'icona dell\'app. Se l\'icona scompare, prova ad avviare l\'applicazione tramite Google Play o un widget, se accessibile. Dopo l\'avvio, ripristina il colore predefinito dell\'icona verde #106D1F. In casi estremi, potrebbe essere necessario reinstallare l\'applicazione.</string>
-    <string name="share_colors_success">Colori aggiornati correttamente. È stato aggiunto un nuovo tema chiamato \'Condiviso\', usare questo per aggiornare tutti i colori dell\'app in futuro.</string>
+    <string name="global_theme_success">Colori aggiornati correttamente. È stato aggiunto un nuovo tema chiamato \'Condiviso\', usare questo per aggiornare tutti i colori dell\'app in futuro.</string>
     <string name="shared_theme_note">Nota che anche se usi la versione Pro dell\'app, per motivi tecnici è necessario Grazie Fossify. Si occupa della sincronizzazione dei colori.</string>
     <string name="purchase_thank_you">Acquista &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Grazie Fossify&lt;/a&gt; per sbloccare questa funzione e supportare lo sviluppo. Grazie!</string>
     <string name="light_theme">Chiaro</string>
@@ -1118,4 +1118,18 @@
     <string name="translation_bulgarian">Bulgaro</string>
     <string name="translation_tamil">Tamil</string>
     <string name="why_upgrade_pro_version">Pro</string>
+    <string name="translation_esperanto">Esperanto</string>
+    <string name="translation_chuvash">Ciuvascio</string>
+    <string name="translation_gujarati">Gujarati</string>
+    <string name="format_phone_numbers">Formatta i numeri di telefono</string>
+    <string name="donate_to_fossify">Dona a Fossify</string>
+    <string name="platforms">Piattaforme</string>
+    <string name="fee_up_to_pct">Fino al %1$d%% di tasse</string>
+    <string name="cryptocurrency">Cryptovalute</string>
+    <string name="little_to_no_fee">Costi minimi o nulli</string>
+    <string name="translation_belarusian">Bielorusso</string>
+    <string name="translation_central_kurdish">Curdo centrale</string>
+    <string name="theme_and_colors">Tema e colori</string>
+    <string name="all_fossify_apps">Tutte le app Fossify</string>
+    <string name="known_issues">Problemi noti</string>
 </resources>

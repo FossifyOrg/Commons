@@ -3,16 +3,15 @@ package org.fossify.commons.activities
 import android.content.ActivityNotFoundException
 import android.content.Intent
 import android.content.Intent.*
-import android.content.res.Resources
 import android.os.Build
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
-import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.stringResource
 import androidx.core.net.toUri
 import org.fossify.commons.R
 import org.fossify.commons.compose.alert_dialog.rememberAlertDialogState
@@ -26,7 +25,7 @@ import org.fossify.commons.extensions.*
 import org.fossify.commons.helpers.*
 import org.fossify.commons.models.FAQItem
 
-class AboutActivity : ComponentActivity() {
+class AboutActivity : BaseComposeActivity() {
     private val appName get() = intent.getStringExtra(APP_NAME) ?: ""
 
     private var firstVersionClickTS = 0L
@@ -44,16 +43,15 @@ class AboutActivity : ComponentActivity() {
             val context = LocalContext.current
             val resources = context.resources
             AppThemeSurface {
-                val showExternalLinks = remember { !resources.getBoolean(R.bool.hide_all_external_links) }
                 val showGoogleRelations = remember { !resources.getBoolean(R.bool.hide_google_relations) }
+                val showGithubRelations = showGithubRelations()
+                val showDonationLinks = remember { resources.getBoolean(R.bool.show_donate_in_about) }
                 val onEmailClickAlertDialogState = getOnEmailClickAlertDialogState()
                 val rateStarsAlertDialogState = getRateStarsAlertDialogState()
                 val onRateUsClickAlertDialogState = getOnRateUsClickAlertDialogState(rateStarsAlertDialogState::show)
                 AboutScreen(
                     goBack = ::finish,
                     helpUsSection = {
-                        val showHelpUsSection =
-                            remember { showGoogleRelations || !showExternalLinks }
                         HelpUsSection(
                             onRateUsClick = {
                                 onRateUsClick(
@@ -63,40 +61,42 @@ class AboutActivity : ComponentActivity() {
                             },
                             onInviteClick = ::onInviteClick,
                             onContributorsClick = ::onContributorsClick,
-                            showDonate = resources.getBoolean(R.bool.show_donate_in_about) && showExternalLinks,
+                            showDonate = showDonationLinks,
                             onDonateClick = ::onDonateClick,
-                            showInvite = showHelpUsSection,
-                            showRateUs = showHelpUsSection
+                            showInvite = showGoogleRelations || showGithubRelations,
+                            showRateUs = showGoogleRelations
                         )
                     },
                     aboutSection = {
-                        val setupFAQ = rememberFAQ()
-                        if (!showExternalLinks || setupFAQ) {
-                            AboutSection(setupFAQ = setupFAQ, onFAQClick = ::launchFAQActivity, onEmailClick = {
-                                onEmailClick(onEmailClickAlertDialogState::show)
-                            })
+                        val setupFAQ = showFAQ()
+                        if (setupFAQ || showGithubRelations) {
+                            AboutSection(
+                                setupFAQ = setupFAQ,
+                                setupKnownIssues = showGithubRelations,
+                                onFAQClick = ::launchFAQActivity,
+                                onKnownIssuesClick = ::launchIssueTracker,
+                                onEmailClick = {
+                                    onEmailClick(onEmailClickAlertDialogState::show)
+                                }
+                            )
                         }
                     },
                     socialSection = {
-                        if (showExternalLinks) {
-                            SocialSection(
-                                onGithubClick = ::onGithubClick,
-                                onRedditClick = ::onRedditClick,
-                                onTelegramClick = ::onTelegramClick
-                            )
-                        }
+                        SocialSection(
+                            onGithubClick = ::onGithubClick,
+                            onRedditClick = ::onRedditClick,
+                            onTelegramClick = ::onTelegramClick
+                        )
                     }
                 ) {
-                    val (showWebsite, fullVersion) = showWebsiteAndFullVersion(resources, showExternalLinks)
+                    val (versionName, packageName) = getPackageInfo()
                     OtherSection(
                         showMoreApps = showGoogleRelations,
                         onMoreAppsClick = ::launchMoreAppsFromUsIntent,
-                        showWebsite = showWebsite,
-                        onWebsiteClick = ::onWebsiteClick,
-                        showPrivacyPolicy = showExternalLinks,
                         onPrivacyPolicyClick = ::onPrivacyPolicyClick,
                         onLicenseClick = ::onLicenseClick,
-                        version = fullVersion,
+                        versionName = versionName,
+                        packageName = packageName,
                         onVersionClick = ::onVersionClick
                     )
                 }
@@ -104,28 +104,38 @@ class AboutActivity : ComponentActivity() {
         }
     }
 
-    @Composable
-    private fun rememberFAQ() = remember { !(intent.getSerializableExtra(APP_FAQ) as? ArrayList<FAQItem>).isNullOrEmpty() }
+    private fun getGithubUrl(): String {
+        return "https://github.com/FossifyOrg/${intent.getStringExtra(APP_REPOSITORY_NAME)}"
+    }
 
     @Composable
-    private fun showWebsiteAndFullVersion(
-        resources: Resources,
-        showExternalLinks: Boolean
-    ): Pair<Boolean, String> {
-        val showWebsite = remember { resources.getBoolean(R.bool.show_donate_in_about) && !showExternalLinks }
-        var version = intent.getStringExtra(APP_VERSION_NAME) ?: ""
+    private fun showFAQ() =
+        remember { !(intent.getSerializableExtra(APP_FAQ) as? ArrayList<FAQItem>).isNullOrEmpty() }
+
+    @Composable
+    private fun showGithubRelations() =
+        remember { !intent.getStringExtra(APP_REPOSITORY_NAME).isNullOrEmpty() }
+
+    @Composable
+    private fun getPackageInfo(): Pair<String, String> {
+        var versionName = remember { intent.getStringExtra(APP_VERSION_NAME) ?: "" }
+        val packageName = remember { intent.getStringExtra(APP_PACKAGE_NAME) ?: "" }
         if (baseConfig.appId.removeSuffix(".debug").endsWith(".pro")) {
-            version += " ${getString(R.string.pro)}"
+            versionName += " ${getString(R.string.pro)}"
         }
-        val fullVersion = remember { String.format(getString(R.string.version_placeholder, version)) }
-        return Pair(showWebsite, fullVersion)
+
+        val fullVersion = stringResource(R.string.version_placeholder, versionName)
+        return Pair(fullVersion, packageName)
     }
 
     @Composable
     private fun getRateStarsAlertDialogState() =
         rememberAlertDialogState().apply {
             DialogMember {
-                RateStarsAlertDialog(alertDialogState = this, onRating = ::rateStarsRedirectAndThankYou)
+                RateStarsAlertDialog(
+                    alertDialogState = this,
+                    onRating = ::rateStarsRedirectAndThankYou
+                )
             }
         }
 
@@ -170,9 +180,11 @@ class AboutActivity : ComponentActivity() {
         }
 
     private fun onEmailClick(
-        showConfirmationAdvancedDialog: () -> Unit
+        showConfirmationAdvancedDialog: () -> Unit,
     ) {
-        if (intent.getBooleanExtra(SHOW_FAQ_BEFORE_MAIL, false) && !baseConfig.wasBeforeAskingShown) {
+        if (intent.getBooleanExtra(SHOW_FAQ_BEFORE_MAIL, false)
+            && !baseConfig.wasBeforeAskingShown
+        ) {
             baseConfig.wasBeforeAskingShown = true
             showConfirmationAdvancedDialog()
         } else {
@@ -183,16 +195,25 @@ class AboutActivity : ComponentActivity() {
     private fun launchFAQActivity() {
         val faqItems = intent.getSerializableExtra(APP_FAQ) as ArrayList<FAQItem>
         Intent(applicationContext, FAQActivity::class.java).apply {
-            putExtra(APP_ICON_IDS, intent.getIntegerArrayListExtra(APP_ICON_IDS) ?: ArrayList<String>())
+            putExtra(
+                APP_ICON_IDS,
+                intent.getIntegerArrayListExtra(APP_ICON_IDS) ?: ArrayList<String>()
+            )
             putExtra(APP_LAUNCHER_NAME, intent.getStringExtra(APP_LAUNCHER_NAME) ?: "")
             putExtra(APP_FAQ, faqItems)
             startActivity(this)
         }
     }
 
+    private fun launchIssueTracker() {
+        launchViewIntent(
+            "${getGithubUrl()}/issues?q=is:open+is:issue+label:bug"
+        )
+    }
+
     private fun launchEmailIntent() {
-        val appVersion = String.format(getString(R.string.app_version, intent.getStringExtra(APP_VERSION_NAME)))
-        val deviceOS = String.format(getString(R.string.device_os), Build.VERSION.RELEASE)
+        val appVersion = getString(R.string.app_version, intent.getStringExtra(APP_VERSION_NAME))
+        val deviceOS = getString(R.string.device_os, Build.VERSION.RELEASE)
         val newline = "\n"
         val separator = "------------------------------"
         val body = "$appVersion$newline$deviceOS$newline$separator$newline$newline"
@@ -228,7 +249,7 @@ class AboutActivity : ComponentActivity() {
 
     private fun onRateUsClick(
         showConfirmationAdvancedDialog: () -> Unit,
-        showRateStarsDialog: () -> Unit
+        showRateStarsDialog: () -> Unit,
     ) {
         if (baseConfig.wasBeforeRateShown) {
             launchRateUsPrompt(showRateStarsDialog)
@@ -239,7 +260,7 @@ class AboutActivity : ComponentActivity() {
     }
 
     private fun launchRateUsPrompt(
-        showRateStarsDialog: () -> Unit
+        showRateStarsDialog: () -> Unit,
     ) {
         if (baseConfig.wasAppRated) {
             redirectToRateUs()
@@ -249,7 +270,12 @@ class AboutActivity : ComponentActivity() {
     }
 
     private fun onInviteClick() {
-        val text = String.format(getString(R.string.share_text), appName, getStoreUrl())
+        val storeUrl = when {
+            resources.getBoolean(R.bool.hide_google_relations) -> getGithubUrl()
+            else -> getStoreUrl()
+        }
+
+        val text = String.format(getString(R.string.share_text), appName, storeUrl)
         Intent().apply {
             action = ACTION_SEND
             putExtra(EXTRA_SUBJECT, appName)
@@ -264,9 +290,8 @@ class AboutActivity : ComponentActivity() {
         startActivity(intent)
     }
 
-
     private fun onDonateClick() {
-        launchViewIntent(getString(R.string.donate_url))
+        startActivity(Intent(applicationContext, DonationActivity::class.java))
     }
 
     private fun onGithubClick() {
@@ -282,20 +307,19 @@ class AboutActivity : ComponentActivity() {
         launchViewIntent("https://t.me/Fossify")
     }
 
-
-    private fun onWebsiteClick() {
-        launchViewIntent("https://www.fossify.org/")
-    }
-
     private fun onPrivacyPolicyClick() {
-        val appId = baseConfig.appId.removeSuffix(".debug").removeSuffix(".pro").removePrefix("org.fossify.")
+        val appId = baseConfig.appId.removeSuffix(".debug").removeSuffix(".pro")
+            .removePrefix("org.fossify.")
         val url = "https://www.fossify.org/policy/$appId"
         launchViewIntent(url)
     }
 
     private fun onLicenseClick() {
         Intent(applicationContext, LicenseActivity::class.java).apply {
-            putExtra(APP_ICON_IDS, intent.getIntegerArrayListExtra(APP_ICON_IDS) ?: ArrayList<String>())
+            putExtra(
+                APP_ICON_IDS,
+                intent.getIntegerArrayListExtra(APP_ICON_IDS) ?: ArrayList<String>()
+            )
             putExtra(APP_LAUNCHER_NAME, intent.getStringExtra(APP_LAUNCHER_NAME) ?: "")
             putExtra(APP_LICENSES, intent.getLongExtra(APP_LICENSES, 0))
             startActivity(this)

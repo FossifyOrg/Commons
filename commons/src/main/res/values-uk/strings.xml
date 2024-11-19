@@ -122,10 +122,10 @@
     <string name="import_blocked_numbers">Імпортувати заблоковані номери</string>
     <string name="must_make_default_dialer">Щоб використовувати функцію блокування номерів, вам необхідно встановити цей застосунок як стандартний для роботи з контактами.</string>
     <string name="set_as_default">Встановити застосунок як типовий</string>
-    <string name="block_confirmation">Ви впевнені що хочете заблокувати \"%s\"?</string>
-    <string name="block_not_stored_calls">Блокувати дзвінки від не збережених контактів</string>
+    <string name="block_confirmation">Ви впевнені що хочете заблокувати «%s»?</string>
+    <string name="block_unknown_calls">Блокувати дзвінки від не збережених контактів</string>
     <string name="block_hidden_calls">Блокувати дзвінки з прихованих номерів</string>
-    <string name="block_not_stored_messages">Блокувати повідомлення від не збережених контактів</string>
+    <string name="block_unknown_messages">Блокувати повідомлення від не збережених контактів</string>
     <string name="block_hidden_messages">Блокувати повідомлення з прихованих номерів</string>
     <string name="add_blocked_number_helper_text">Введіть номер або шаблон (наприклад, *12345*, +1*8888), щоб заблокувати всі дзвінки та повідомлення з номерів, що відповідають шаблону.</string>
     <string name="must_make_default_caller_id_app">Неможливо заблокувати невідомі номери без дозволу ідентифікатора абонента.</string>
@@ -243,9 +243,9 @@
     <string name="invalid_name">Ім\'я містить недопустимі символи</string>
     <string name="empty_name">Введіть ім\'я</string>
     <string name="unknown_error_occurred">Сталася невідома помилка</string>
-    <string name="file_already_exists">Файл \"%s\" вже існує</string>
-    <string name="file_already_exists_overwrite">Файл \"%s\" вже існує. Перезаписати?</string>
-    <string name="folder_already_exists">Тека \"%s\" вже існує</string>
+    <string name="file_already_exists">Файл «%s» вже існує</string>
+    <string name="file_already_exists_overwrite">Файл «%s» вже існує. Перезаписати?</string>
+    <string name="folder_already_exists">Тека «%s» вже існує</string>
     <string name="merge">Об\'єднати</string>
     <string name="keep_both">Зберегти обидва</string>
     <string name="overwrite">Перезаписати</string>
@@ -344,7 +344,7 @@
     <string name="undo_changes_confirmation">Ви впевнені, що хочете скасувати зміни?</string>
     <string name="cannot_be_undone">Цю дію неможливо скасувати.</string>
     <string name="save_before_closing">Ви маєте незбережені зміни. Зберегти перед виходом?</string>
-    <string name="share_colors_success">Кольори успішно оновлено. Було додано нову тему під назвою «Загальна», використовуйте її для оновлення кольорів усіх застосунків у майбутньому.</string>
+    <string name="global_theme_success">Кольори успішно оновлено. Було додано нову тему під назвою «Загальна», використовуйте її для оновлення кольорів усіх застосунків у майбутньому.</string>
     <string name="light_theme">Світла</string>
     <string name="dark_theme">Темна</string>
     <string name="auto_theme">Автоматично</string>
@@ -705,7 +705,7 @@
     <string name="widgets">Віджети</string>
     <string name="use_same_snooze">Завжди використовувати однаковий час відкладання</string>
     <string name="snooze_time">Час відкладання</string>
-    <string name="vibrate_on_button_press">Вібрація при натисканні на кнопки</string>
+    <string name="vibrate_on_button_press">Вібрувати при натисканні кнопки</string>
     <string name="move_items_into_recycle_bin">Переміщати елементи у Кошик замість видаляти</string>
     <string name="recycle_bin_cleaning_interval">Інтервал очищення Кошика</string>
     <string name="empty_recycle_bin">Очистити Кошик</string>
@@ -841,13 +841,13 @@
     <string name="friday_letter">П</string>
     <string name="saturday_letter">С</string>
     <string name="sunday_letter">Н</string>
-    <string name="monday_short">Пон</string>
-    <string name="tuesday_short">Вів</string>
-    <string name="wednesday_short">Сер</string>
-    <string name="thursday_short">Чет</string>
-    <string name="friday_short">Пят</string>
-    <string name="saturday_short">Суб</string>
-    <string name="sunday_short">Нед</string>
+    <string name="monday_short">Пн</string>
+    <string name="tuesday_short">Вт</string>
+    <string name="wednesday_short">Ср</string>
+    <string name="thursday_short">Чт</string>
+    <string name="friday_short">Пт</string>
+    <string name="saturday_short">Сб</string>
+    <string name="sunday_short">Нд</string>
     <string name="upgrade_to_pro_long">Ця версія застосунку більше не буде оновлюватися. Оновіться до версії Pro, щоб отримати нові виправлення та інші вдосконалення.</string>
     <string name="upgrade_to_pro_long_click">Ця версія застосунку більше не буде оновлюватися. Оновіть до версії Pro, щоб отримати нові виправлення та інші вдосконалення, натиснувши тут.</string>
     <string name="it_is_free">Це безплатно до: %s. Якщо ви завантажите застосунок до вказаної дати, ви отримаєте його безплатно назавжди.</string>
@@ -883,7 +883,7 @@
 \nДякуємо!</string>
     <string name="upgraded_from_free_contacts">Привіт,
 \n
-\nсхоже, ви щойно оновили безплатну версію. Якщо у вас були контакти, збережені за адресою \"%s\", вам потрібно перенести їх вручну, експортувавши у .vcf-файл з безплатної версії застосунку та імпортувавши сюди через верхнє меню.
+\nсхоже, ви щойно оновили безплатну версію. Якщо у вас були контакти, збережені за адресою «%s», вам потрібно перенести їх вручну, експортувавши у .vcf-файл з безплатної версії застосунку та імпортувавши сюди через верхнє меню.
 \n
 \nПісля того, як ви будете задоволені налаштуваннями Pro-версії, ви можете видалити стару безплатну версію, оскільки вона вам більше не знадобиться, а також запобігти появі цього діалогового вікна.
 \n
@@ -966,7 +966,7 @@
     <string name="faq_1_text_commons">Найімовірніше тому, що ви перемістили застосунок на SD карту. В системі Android існує обмеження, що приховує віджети застосунку в цьому випадку. Єдине рішення - перемістити його назад у внутрішню пам\'ять за допомогою налаштувань вашого пристрою.</string>
     <string name="faq_2_title_commons">Я хочу вас підтримати, але я не можу пожертвувати гроші. Чи є ще щось, що я можу зробити?</string>
     <string name="faq_3_title_commons">Я випадково видалив деякі файли, як я можу їх відновити?</string>
-    <string name="faq_3_text_commons">На жаль, ви не можете. Файли видаляються негайно після діалогу-підтвердження, функції типу \"Кошик\" не передбачено.</string>
+    <string name="faq_3_text_commons">На жаль, ви не можете. Файли видаляються негайно після діалогу-підтвердження, функції типу «Кошик» не передбачено.</string>
     <string name="faq_4_title_commons">Мені не подобаються кольори віджета, чи можу я їх змінити?</string>
     <string name="faq_4_text_commons">Так, коли ви перетягуєте віджет на головний екран, з\'являється панель його налаштувань. Ви побачите кольорові квадрати в нижньому лівому куті, просто натисніть їх, щоб обрати новий колір. Ви також можете використати ковзну панель, щоб налаштувати ступінь прозорості.</string>
     <string name="faq_5_title_commons">Чи можу я якось відновити видалені файли?</string>
@@ -1109,6 +1109,7 @@
 \n
 \nВи просто повинні заплатити за це один раз у житті, і якщо ви не будете задоволені, ви можете видалити його та отримати відшкодування.
 \n
+\n
 \nСподіваюся, вам сподобається :)</string>
     <string name="trial_end_description">Перейдіть на версію Pro, щоб насолоджуватися застосунком у повному обсязі.
 \n
@@ -1145,4 +1146,18 @@
     <string name="features_locked">Ця функція заблокована, придбайте &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;, щоб розблокувати повну версію застосунку.&lt;br&gt;&lt;br&gt;Це одноразовий платіж, і якщо ви будете не задоволені, ми можемо повернути вам гроші.</string>
     <string name="faq_6_text_commons">Ця проблема виникає, коли ваш лаунчер не повністю підтримує персоналізацію значків. Спробуйте запустити застосунок через Google Play або віджет, якщо він доступний. Після запуску, відновіть стандартний зелений колір значка #106D1F. В окремих випадках може знадобитись перевстановлення застосунку.</string>
     <string name="app_icon_color_warning">Увага: деякі лаунчери можуть неправильно обробляти налаштування кольору значка застосунку. Якщо вона зникне, спробуйте запустити застосунок через Google Play або віджет, якщо він доступний. Після запуску відновіть стандартний зелений колір #106D1F. В окремих випадках може знадобитись перевстановлення застосунку.</string>
+    <string name="translation_chuvash">Чуваська</string>
+    <string name="donate_to_fossify">Пожертвувати Fossify</string>
+    <string name="platforms">Платформи</string>
+    <string name="little_to_no_fee">Невелика комісія</string>
+    <string name="fee_up_to_pct">До %1$d%% комісії</string>
+    <string name="cryptocurrency">Криптовалюта</string>
+    <string name="translation_esperanto">Есперанто</string>
+    <string name="translation_gujarati">Гуджарат</string>
+    <string name="format_phone_numbers">Форматувати телефонні номери</string>
+    <string name="translation_belarusian">Білоруський</string>
+    <string name="translation_central_kurdish">Центрально курдський</string>
+    <string name="theme_and_colors">Тема та кольори</string>
+    <string name="all_fossify_apps">Всі застосунки Fossify</string>
+    <string name="known_issues">Відомі проблеми</string>
 </resources>

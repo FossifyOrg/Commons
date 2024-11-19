@@ -3,7 +3,10 @@
     <item>
         <shape android:shape="rectangle">
             <solid android:color="@color/you_dialog_background_color" />
-            <corners android:radius="@dimen/activity_margin" />
+            <corners android:radius="@dimen/normal_margin" />
+            <padding
+                android:bottom="8dp"
+                android:top="8dp" />
         </shape>
     </item>
 </layer-list>

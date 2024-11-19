@@ -112,8 +112,8 @@
     <string name="must_make_default_dialer">Če želite uporabljati blokirane številke, je potrebno to aplikacijo nastaviti kot privzeto aplikacijo za klicanje.</string>
     <string name="set_as_default">Nastavi kot privzeto</string>
     <string name="block_confirmation">Ste prepričani, da želite blokirati \"%s\"\?</string>
-    <string name="block_not_stored_calls">Blokiranje klicev iz neohranjenih stikov</string>
-    <string name="block_not_stored_messages">Blokiranje sporočil iz neohranjenih stikov</string>
+    <string name="block_unknown_calls">Blokiranje klicev iz neohranjenih stikov</string>
+    <string name="block_unknown_messages">Blokiranje sporočil iz neohranjenih stikov</string>
     <string name="add_blocked_number_helper_text">Vnesite številko ali vzorec (npr. *12345*, +1*8888), da se blokirajo vsi klici in sporočila iz številk, ki ustrezajo vzorcu.</string>
     <string name="must_make_default_caller_id_app">Neznanih številk ni mogoče blokirati brez dovoljenja za ID klicalca.</string>
     <string name="favorites">Priljubljeno</string>
@@ -315,7 +315,7 @@
     <string name="undo_changes_confirmation">Res želite razveljaviti spremembe?</string>
     <string name="cannot_be_undone">To dejanje ni mogoče razveljaviti.</string>
     <string name="save_before_closing">Imate neshranjene spremembe. Jih želite shraniti pred izhodom?</string>
-    <string name="share_colors_success">Barve so bile uspešno posodobljene. Nova tema \'Deljeno\' je bila dodana. V prihodnje za spreminjanje barv uporabljajte to.</string>
+    <string name="global_theme_success">Barve so bile uspešno posodobljene. Nova tema \'Deljeno\' je bila dodana. V prihodnje za spreminjanje barv uporabljajte to.</string>
     <string name="light_theme">Svetlo</string>
     <string name="dark_theme">Temno</string>
     <string name="auto_theme">Samodejno</string>

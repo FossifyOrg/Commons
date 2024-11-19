@@ -44,7 +44,7 @@
     <string name="no_contacts_found">Keine Kontakte gefunden</string>
     <string name="request_the_required_permissions">Benötigte Berechtigungen anfordern</string>
     <string name="no_access_to_contacts">Die App konnte nicht auf deine Kontakte zugreifen</string>
-    <string name="no_phone_call_permission">Die App hat nicht die Berechtigung, Telefonanrufe zu tätigen, bitte gewähre sie in den Geräteeinstellungen</string>
+    <string name="no_phone_call_permission">Die App hat nicht die Berechtigung, Telefonanrufe zu tätigen, bitte erteile sie in den Geräteeinstellungen</string>
     <string name="insert_text_here">Text hier einfügen</string>
     <string name="call_person">%s anrufen</string>
     <string name="confirm_calling_person">Anruf bestätigen %s</string>
@@ -116,9 +116,9 @@
     <string name="must_make_default_dialer">Du musst diese App als Standardtelefonie-App einstellen, um Nummern blockieren zu können.</string>
     <string name="set_as_default">Als Standard auswählen</string>
     <string name="block_confirmation">„%s“ wirklich blockieren\?</string>
-    <string name="block_not_stored_calls">Anrufe von nicht gespeicherten Kontakten blockieren</string>
+    <string name="block_unknown_calls">Anrufe von nicht gespeicherten Kontakten blockieren</string>
     <string name="block_hidden_calls">Anrufe von unterdrückten Nummern blockieren</string>
-    <string name="block_not_stored_messages">Nachrichten von nicht gespeicherten Kontakten blockieren</string>
+    <string name="block_unknown_messages">Nachrichten von nicht gespeicherten Kontakten blockieren</string>
     <string name="block_hidden_messages">Nachrichten von unterdrückten Nummern blockieren</string>
     <string name="add_blocked_number_helper_text">Gib eine Nummer oder ein Muster (z. B. *12345*, +1*8888) ein, um alle Anrufe und Nachrichten von Nummern zu blockieren, die dem Muster entsprechen.</string>
     <string name="must_make_default_caller_id_app">Unbekannte Nummern können ohne Anrufer-ID-Berechtigung nicht blockiert werden.</string>
@@ -258,7 +258,7 @@
     <string name="select_file">Datei auswählen</string>
     <string name="confirm_storage_access_title">Bitte Zugriff auf externen Speicher bestätigen</string>
     <string name="confirm_folder_access_title">Ordnerzugriff bestätigen</string>
-    <string name="confirm_storage_access_text">Bitte am nächsten Bildschirm das Hauptverzeichnis der SD-Karte auswählen, um Schreibzugriff zu erlauben</string>
+    <string name="confirm_storage_access_text">Bitte am nächsten Bildschirm das Hauptverzeichnis der SD-Karte auswählen, um Schreibzugriff zu gewähren</string>
     <string name="confirm_storage_access_text_sd">Wenn die SD-Karte nicht angezeigt wird, Folgendes versuchen</string>
     <string name="confirm_storage_access_android_text">Bitte am unteren Rand des nächsten Bildschirms der App durch Drücken auf „Diesen Ordner verwenden“ den Zugriff auf den ausgewählten Speicher gewähren.</string>
     <string name="confirm_storage_access_android_text_specific">Bitte auf dem nächsten Bildschirm durch Drücken auf „<b>Diesen Ordner verwenden</b>“ am unteren Bildschirmrand den Zugriff auf „<b>%s</b>“ gewähren.</string>
@@ -334,7 +334,7 @@
     <string name="save_before_closing">Du hast ungespeicherte Änderungen. Speichern vor dem Beenden?</string>
     <string name="apply_to_all_apps">Farben auf alle Fossify-Apps anwenden</string>
     <string name="app_icon_color_warning">Achtung! Bestimmte Launcher können das Anpassen von App-Symbolen nicht richtig verarbeiten. Wenn das Symbol verschwindet, versuche, falls möglich, die App über Google Play oder ein Widget zu starten. Stelle nach dem Start die grüne Standard-Symbolfarbe #106D1F wieder her. In extremen Fällen kann es notwendig sein, die App neu zu installieren.</string>
-    <string name="share_colors_success">Farben erfolgreich aktualisiert. Ein neues Farbschema „Geteilt“ wurde hinzugefügt, bitte verwende dieses, um für alle Apps die Farben zu ändern.</string>
+    <string name="global_theme_success">Das aktuelle Farbschema wurde erfolgreich auf alle Fossify-Apps angewendet. Alle zukünftigen Änderungen an diesem Farbschema werden automatisch synchronisiert.</string>
     <string name="shared_theme_note">Beachte, dass du aus technischen Gründen immer noch Fossify Thank You benötigst, auch wenn du die Pro-App-Version verwendest. Es kümmert sich um die Farbsynchronisation.</string>
     <string name="purchase_thank_you">Bitte kaufe &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Dankeschön&lt;/a&gt; um diese Funktion freizuschalten und die Entwicklung zu unterstützen. Danke!</string>
     <string name="light_theme">Hell</string>
@@ -611,7 +611,7 @@
     <string name="color_customization">Farbanpassung</string>
     <string name="improved_color_customization">Verbesserte Farbanpassung</string>
     <string name="customize_colors">Farben anpassen</string>
-    <string name="customize_colors_locked">Farben anpassen (Locked)</string>
+    <string name="customize_colors_locked">Farben anpassen (Gesperrt)</string>
     <string name="feature_locked">Gesperrt</string>
     <string name="customize_widget_colors">Widget-Farben anpassen</string>
     <string name="customize_notifications">Benachrichtigungen anpassen</string>
@@ -718,7 +718,7 @@
 \n%h – Stunde
 \n%m – Minute
 \n%s – Sekunde</string>
-    <string name="usb_detected">Es sieht so aus, als hättest du ein USB-Gerät an dein Gerät angeschlossen. Du musst zusätzliche Berechtigungen gewähren, damit die Dateien korrekt angezeigt werden.</string>
+    <string name="usb_detected">Es sieht so aus, als hättest du ein USB-Gerät an dein Gerät angeschlossen. Du musst zusätzliche Berechtigungen erteilen, damit die Dateien korrekt angezeigt werden.</string>
     <string name="confirm_usb_storage_access_text">Bitte das Hauptverzeichnis des USB-Geräts auf der folgenden Seite wählen, um Zugriff zu gewähren</string>
     <string name="wrong_root_selected_usb">Falscher Ordner gewählt, bitte das Hauptverzeichnis des USB-Geräts wählen</string>
     <string name="january">Januar</string>
@@ -1077,4 +1077,18 @@
     <string name="features_locked">Diese Funktion ist gesperrt, bitte kaufe &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; um die App komplett freizuschalten. Dies ist eine einmalige Zahlung und wenn du nicht zufrieden bist, wird dir dein Geld zurückerstattet.</string>
     <string name="faq_6_text_commons">Dieses Problem tritt auf, wenn dein Launcher das Anpassen der Symbole nicht vollständig unterstützt. Versuche, die App über Google Play oder ein Widget zu starten, falls dies möglich ist. Stelle nach dem Start die standardmäßige grüne Symbolfarbe #106D1F wieder her. In extremen Fällen kann eine Neuinstallation der App erforderlich sein.</string>
     <string name="contributors_label">Diese Liste enthält alle, die bei einer App innerhalb der Fossify-Suite merklich mitgeholfen haben, nicht nur bei dieser. Die Übersetzungen werden von Freiwilligen erledigt. Sag uns Bescheid, wenn auch du helfen willst. Die Anleitung zum Übersetzen findest du auf &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;dieser Website&lt;/a&gt;, oder kontaktiere uns einfach unter &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt;, wenn du Fragen hast. Vielen Dank an alle Mitwirkenden und sonstigen Unterstützer!</string>
+    <string name="translation_esperanto">Esperanto</string>
+    <string name="translation_chuvash">Tschuwaschisch</string>
+    <string name="translation_gujarati">Gujarati</string>
+    <string name="format_phone_numbers">Telefonnummern formatieren</string>
+    <string name="platforms">Plattformen</string>
+    <string name="fee_up_to_pct">Bis zu %1$d%% Entgelt</string>
+    <string name="cryptocurrency">Kryptowährung</string>
+    <string name="donate_to_fossify">An Fossify spenden</string>
+    <string name="little_to_no_fee">Geringes bis kein Entgelt</string>
+    <string name="translation_belarusian">Belarusisch</string>
+    <string name="translation_central_kurdish">Zentralkurdisch</string>
+    <string name="theme_and_colors">Farbschema und Farben</string>
+    <string name="all_fossify_apps">Alle Fossify-Apps</string>
+    <string name="known_issues">Bekannte Probleme</string>
 </resources>

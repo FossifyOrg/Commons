@@ -28,6 +28,8 @@
         android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY"
         tools:node="remove" />
 
+    <uses-permission android:name="org.fossify.android.permission.WRITE_GLOBAL_SETTINGS" />
+
     <application android:supportsRtl="true">
         <activity
             android:name="org.fossify.commons.activities.ContributorsActivity"
@@ -57,13 +59,21 @@
             android:exported="false"
             android:label="@string/manage_blocked_numbers" />
 
+        <activity
+            android:name=".activities.DonationActivity"
+            android:exported="false"
+            android:label="@string/donate_to_fossify" />
+
+        <activity
+            android:name=".activities.AppLockActivity"
+            android:exported="false" />
+
         <receiver
-            android:name=".receivers.SharedThemeReceiver"
-            android:enabled="true"
-            android:exported="true">
+            android:name=".receivers.FossifyBroadcastReceiver"
+            android:exported="true"
+            tools:ignore="ExportedReceiver">
             <intent-filter>
-                <action android:name="org.fossify.commons.SHARED_THEME_ACTIVATED" />
-                <action android:name="org.fossify.commons.SHARED_THEME_UPDATED" />
+                <action android:name="org.fossify.android.GLOBAL_CONFIG_UPDATED" />
             </intent-filter>
         </receiver>
     </application>

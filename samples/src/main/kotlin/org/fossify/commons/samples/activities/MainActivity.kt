@@ -15,16 +15,16 @@ import org.fossify.commons.dialogs.ConfirmationDialog
 import org.fossify.commons.dialogs.DonateAlertDialog
 import org.fossify.commons.dialogs.RateStarsAlertDialog
 import org.fossify.commons.extensions.appLaunched
-import org.fossify.commons.extensions.hideKeyboard
 import org.fossify.commons.extensions.launchMoreAppsFromUsIntent
 import org.fossify.commons.extensions.launchViewIntent
-import org.fossify.commons.helpers.*
+import org.fossify.commons.helpers.LICENSE_AUTOFITTEXTVIEW
 import org.fossify.commons.models.FAQItem
 import org.fossify.commons.samples.BuildConfig
 import org.fossify.commons.samples.R
 import org.fossify.commons.samples.screens.MainScreen
 
 class MainActivity : BaseSimpleActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         appLaunched(BuildConfig.APPLICATION_ID)
@@ -104,25 +104,13 @@ class MainActivity : BaseSimpleActivity() {
             faqItems.add(FAQItem(org.fossify.commons.R.string.faq_6_title_commons, org.fossify.commons.R.string.faq_6_text_commons))
         }
 
-        startAboutActivity(R.string.commons_app_name, licenses, BuildConfig.VERSION_NAME, faqItems, true)
-    }
-
-    private fun startAboutActivity(
-        appNameId: Int, licenseMask: Long, versionName: String, faqItems: ArrayList<FAQItem>, showFAQBeforeMail: Boolean,
-        getAppIconIDs: ArrayList<Int> = getAppIconIDs(),
-        getAppLauncherName: String = getAppLauncherName()
-    ) {
-        hideKeyboard()
-        Intent(applicationContext, org.fossify.commons.activities.AboutActivity::class.java).apply {
-            putExtra(APP_ICON_IDS, getAppIconIDs)
-            putExtra(APP_LAUNCHER_NAME, getAppLauncherName)
-            putExtra(APP_NAME, getString(appNameId))
-            putExtra(APP_LICENSES, licenseMask)
-            putExtra(APP_VERSION_NAME, versionName)
-            putExtra(APP_FAQ, faqItems)
-            putExtra(SHOW_FAQ_BEFORE_MAIL, showFAQBeforeMail)
-            startActivity(this)
-        }
+        startAboutActivity(
+            appNameId = R.string.commons_app_name,
+            licenseMask = licenses,
+            versionName = BuildConfig.VERSION_NAME,
+            faqItems = faqItems,
+            showFAQBeforeMail = true,
+        )
     }
 
     override fun getAppLauncherName() = getString(R.string.commons_app_name)
@@ -148,4 +136,6 @@ class MainActivity : BaseSimpleActivity() {
         R.mipmap.ic_launcher_blue_grey,
         R.mipmap.ic_launcher_grey_black
     )
+
+    override fun getRepositoryName() = "General-Discussion"
 }

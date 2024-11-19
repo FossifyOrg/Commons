@@ -120,9 +120,9 @@
     <string name="must_make_default_dialer">Tienes que hacer esta aplicación la aplicación de marcación por defecto para hacer uso de los números bloqueados.</string>
     <string name="set_as_default">Establecer por defecto</string>
     <string name="block_confirmation">¿Estás seguro de que quieres bloquear a \"%s\"?</string>
-    <string name="block_not_stored_calls">Bloquear llamadas de contactos no guardados</string>
+    <string name="block_unknown_calls">Bloquear llamadas de contactos no guardados</string>
     <string name="block_hidden_calls">Bloquear las llamadas de números ocultos</string>
-    <string name="block_not_stored_messages">Bloquear los mensajes de los contactos no guardados</string>
+    <string name="block_unknown_messages">Bloquear los mensajes de los contactos no guardados</string>
     <string name="block_hidden_messages">Bloquear los mensajes de números ocultos</string>
     <string name="add_blocked_number_helper_text">Ingrese un número o un patrón (por ejemplo, *12345*, +1*8888) para bloquear todas las llamadas y mensajes de números que coincidan con el patrón.</string>
     <string name="must_make_default_caller_id_app">No se pueden bloquear los números desconocidos sin el permiso del identificador de llamadas.</string>
@@ -337,7 +337,7 @@
     <string name="cannot_be_undone">Esta acción no se puede deshacer.</string>
     <string name="save_before_closing">Tiene cambios sin aplicar. ¿Guardar antes de salir?</string>
     <string name="app_icon_color_warning">Precaución: Es posible que algunos lanzadores no gestionen correctamente la personalización de los iconos de las aplicaciones. Si el icono desaparece, intente iniciar la aplicación a través de Google Play o un widget, si es accesible. Una vez iniciada, restaura el icono verde #106D1F predeterminado. En casos extremos, puede ser necesario reinstalar la aplicación.</string>
-    <string name="share_colors_success">Colores actualizados correctamente. Se ha añadido un nuevo tema llamado \'Compartido\', por favor utilicelo para actualizar los colores de todas las aplicaciones en el futuro.</string>
+    <string name="global_theme_success">Colores actualizados correctamente. Se ha añadido un nuevo tema llamado \'Compartido\', por favor utilicelo para actualizar los colores de todas las aplicaciones en el futuro.</string>
     <string name="purchase_thank_you">
         <![CDATA[
             Por favor compra <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> para desbloquear esta función y ayudar al desarrollo. ¡Gracias!
@@ -1138,4 +1138,18 @@
     <string name="donate_short">Apóyanos comprando &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; por favor, también desbloqueará todas las características de la app incluyendo la personalización de colores.</string>
     <string name="features_locked">Esta función está bloqueada, por favor compre &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; para desbloquear la aplicación completa.&lt;br&gt;&lt;br&gt;Es un pago único y si usted no está satisfecho, podemos reembolsarle.</string>
     <string name="translation_bulgarian">Búlgaro</string>
+    <string name="translation_chuvash">Chuvasio</string>
+    <string name="translation_gujarati">Guyaratí</string>
+    <string name="translation_esperanto">Esperanto</string>
+    <string name="donate_to_fossify">Apoya a Fossify</string>
+    <string name="format_phone_numbers">Formatear números de teléfono</string>
+    <string name="platforms">Plataformas</string>
+    <string name="little_to_no_fee">Pequeña comisión</string>
+    <string name="fee_up_to_pct">Hasta %1$d%% de comisión</string>
+    <string name="cryptocurrency">Criptomoneda</string>
+    <string name="translation_belarusian">Bielorruso</string>
+    <string name="translation_central_kurdish">Kurdo sorani</string>
+    <string name="theme_and_colors">Tema y colores</string>
+    <string name="all_fossify_apps">Todas las aplicaciones de Fossify</string>
+    <string name="known_issues">Problemas conocidos</string>
 </resources>

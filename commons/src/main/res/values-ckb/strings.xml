@@ -1,2 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="an_error_occurred">هەڵەیەک ڕوویدا لە: %s</string>
+    <string name="ok">باشە</string>
+    <string name="cancel">پاشگەزبونەوە</string>
+    <string name="close">داخستن</string>
+    <string name="back">گەڕانەوە</string>
+    <string name="nothing">هیچ</string>
+    <string name="later">دواتر</string>
+    <string name="save_as">پاراستن وەک</string>
+    <string name="file_saved">فایلەکە بەسەرکەوتوویی پارێزرا</string>
+    <string name="invalid_file_format">جۆری فایل نادروستە</string>
+    <string name="out_of_memory_error">هەڵە هەیە لە بیرگەدا</string>
+    <string name="error">هەڵەی: %s</string>
+    <string name="open_with">کردنەوە وەک</string>
+    <string name="edit_with">دەستکاریکردن لەڕێی</string>
+    <string name="edit">دەستکاری</string>
+</resources>

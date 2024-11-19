@@ -57,10 +57,10 @@
     <string name="add_to_favorites">즐겨찾기에 추가</string>
     <string name="remove_from_favorites">즐겨찾기에서 제거</string>
     <string name="search">검색</string>
-    <string name="type_2_characters">최소 두 글자를 입력해 주세요</string>
+    <string name="type_2_characters">최소 두 글자를 입력해 주세요.</string>
     <string name="filter">필터</string>
     <string name="filter_pro">필터 (Pro)</string>
-    <string name="no_items_found">항목을 찾지 못함</string>
+    <string name="no_items_found">항목을 찾지 못함.</string>
     <string name="change_filter">필터 변경</string>
     <string name="no_storage_permissions">저장 권한이 필요함</string>
     <string name="no_contacts_permission">주소록 사용 권한이 필요함</string>
@@ -94,10 +94,10 @@
     <string name="source">원본</string>
     <string name="destination">대상</string>
     <string name="select_destination">대상 선택</string>
-    <string name="click_select_destination">대상을 선택하려면 여기를 탭하세요.</string>
+    <string name="click_select_destination">대상을 선택하려면 여기를 탭하세요</string>
     <string name="invalid_destination">대상경로에 생성 불가</string>
     <string name="please_select_destination">대상 경로를 선택하세요</string>
-    <string name="source_and_destination_same">대상과 원본이 같습니다.</string>
+    <string name="source_and_destination_same">대상과 원본이 같습니다</string>
     <string name="copy_failed">파일복사 실패</string>
     <string name="copying">복사중…</string>
     <string name="copying_success">파일복사 성공</string>
@@ -120,9 +120,9 @@
     <string name="invalid_name">이름에 사용 할 수 없는 문자가 있습니다</string>
     <string name="empty_name">이름이 입력되지 않았습니다</string>
     <string name="unknown_error_occurred">알 수 없는 에러가 발생하였습니다</string>
-    <string name="file_already_exists">\"%s\" 파일이 이미 존재합니다.</string>
+    <string name="file_already_exists">\"%s\" 파일이 이미 존재합니다</string>
     <string name="file_already_exists_overwrite">\"%s\" 파일이 이미 존재합니다. 덮어쓰시겠습니까?</string>
-    <string name="folder_already_exists">\"%s\" 폴더가 이미 존재합니다.</string>
+    <string name="folder_already_exists">\"%s\" 폴더가 이미 존재합니다</string>
     <string name="merge">합치기</string>
     <string name="keep_both">둘 다 유지</string>
     <string name="overwrite">덮어쓰기</string>
@@ -132,8 +132,8 @@
     <string name="select_folder">폴더 선택</string>
     <string name="select_file">파일 선택</string>
     <string name="confirm_storage_access_title">외장 메모리 접근 허용</string>
-    <string name="confirm_storage_access_text">쓰기 권한을 부여하려면 다음 화면에서 SD 카드의 루트 폴더를 선택하세요.</string>
-    <string name="confirm_storage_access_text_sd">SD 카드가 보이지 않으면 시도해보세요.</string>
+    <string name="confirm_storage_access_text">쓰기 권한을 부여하려면 다음 화면에서 SD 카드의 루트 폴더를 선택하세요</string>
+    <string name="confirm_storage_access_text_sd">SD 카드가 보이지 않으면 시도해보세요</string>
     <string name="confirm_selection">선택 확인</string>
     <plurals name="items">
         <item quantity="other">%d개 항목</item>
@@ -148,9 +148,9 @@
     <string name="internal">내장 메모리</string>
     <string name="sd_card">외장 메모리</string>
     <string name="root">루트</string>
-    <string name="wrong_root_selected">잘못된 폴더가 선택되었습니다. SD 카드의 루트 폴더를 선택하세요.</string>
-    <string name="sd_card_usb_same">SD카드와 USB 장치의 경로가 중복되었습니다.</string>
-    <string name="app_on_sd_card">시스템 제한으로 SD카드에 설치한 앱은 위젯을 사용할 수 없습니다. 위젯을 사용하시려면 내장 메모리에 앱을 옮겨 주시기 바랍니다</string>
+    <string name="wrong_root_selected">잘못된 폴더가 선택되었습니다. SD 카드의 루트 폴더를 선택하세요</string>
+    <string name="sd_card_usb_same">SD카드와 USB 장치의 경로가 중복되었습니다</string>
+    <string name="app_on_sd_card">시스템 제한으로 SD카드에 설치한 앱은 위젯을 사용할 수 없습니다. 위젯을 사용하시려면 내장 메모리에 앱을 옮겨 주시기 바랍니다.</string>
     <string name="properties">속성</string>
     <string name="path">경로</string>
     <string name="items_selected">선택한 항목 수</string>
@@ -178,13 +178,13 @@
     <string name="default_color">기본값</string>
     <string name="change_color">색상 변경</string>
     <string name="theme">테마</string>
-    <string name="changing_color_description">주요 색상(테마)을 변경하면 사용자 정의 테마로 전환됩니다.</string>
+    <string name="changing_color_description">주요 색상(테마)을 변경하면 사용자 정의 테마로 전환됩니다</string>
     <string name="save">저장</string>
     <string name="discard">취소</string>
     <string name="undo_changes">변경사항 되돌리기</string>
     <string name="undo_changes_confirmation">변경된 사항을 취소하시겠습니까?</string>
     <string name="save_before_closing">아직 변경사항을 저장하지 않았습니다. 종료전에 저장 하시겠습니까?</string>
-    <string name="share_colors_success">색상이 성공적으로 변경되었습니다. \'공유\'라는 새로운 테마가 추가되었습니다. 앞으로 모든 앱의 색상을 변경할때 사용하세요.</string>
+    <string name="global_theme_success">색상이 성공적으로 변경되었습니다. \'공유\'라는 새로운 테마가 추가되었습니다. 앞으로 모든 앱의 색상을 변경할때 사용하세요.</string>
     <string name="purchase_thank_you">
         <![CDATA[
             이 기능을 이용하시려면 개발지원을 위해 <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> 앱을 구매해주세요. 감사합니다!
@@ -193,7 +193,7 @@
     <string name="custom">사용자 정의</string>
     <string name="shared">공유</string>
     <string name="whats_new">새로운 기능</string>
-    <string name="whats_new_disclaimer">* 주요 업데이트만 여기에 표시됩니다. 작은 업데이트도 항상 진행되고 있습니다.</string>
+    <string name="whats_new_disclaimer">* 주요 업데이트만 여기에 표시됩니다. 작은 업데이트도 항상 진행되고 있습니다</string>
     <string name="delete">삭제</string>
     <string name="remove">제거</string>
     <string name="rename">이름 변경</string>
@@ -207,7 +207,7 @@
     <string name="unhide_folder">폴더숨김 해제</string>
     <string name="temporarily_show_hidden">숨김파일 임시보기</string>
     <string name="stop_showing_hidden">숨김파일 임시보기 해제</string>
-    <string name="maximum_share_reached">한 번에 공유 할 수 있는 항목 수를 초과하였습니다.</string>
+    <string name="maximum_share_reached">한 번에 공유 할 수 있는 항목 수를 초과하였습니다</string>
     <string name="empty_and_disable_recycle_bin">휴지통을 비우고 비활성화하기</string>
     <string name="undo">뒤로</string>
     <string name="redo">앞으로</string>
@@ -247,19 +247,19 @@
         <item quantity="other">경고 : %d개 폴더를 삭제합니다</item>
     </plurals>
     <string name="enter_pin">PIN 번호 입력</string>
-    <string name="please_enter_pin">PIN 번호를 입력하세요.</string>
-    <string name="wrong_pin">PIN 번호가 일치하지 않습니다.</string>
+    <string name="please_enter_pin">PIN 번호를 입력하세요</string>
+    <string name="wrong_pin">PIN 번호가 일치하지 않습니다</string>
     <string name="repeat_pin">PIN 번호 확인</string>
     <string name="pattern">패턴</string>
     <string name="insert_pattern">패턴 입력</string>
-    <string name="wrong_pattern">패턴이 잘못 입력되었습니다.</string>
+    <string name="wrong_pattern">패턴이 잘못 입력되었습니다</string>
     <string name="repeat_pattern">패턴 확인</string>
     <string name="fingerprint">지문</string>
     <string name="add_fingerprint">지문 추가</string>
-    <string name="place_finger">지문 센서에 손가락을 올려주세요.</string>
+    <string name="place_finger">지문 센서에 손가락을 올려주세요</string>
     <string name="authentication_failed">인증 실패</string>
-    <string name="authentication_blocked">인증이 차단 되었습니다. 잠시 후 다시 시도하십시오.</string>
-    <string name="no_fingerprints_registered">등록 된 지문이 없습니다. 기기의 설정에서 지문을 추가하십시오.</string>
+    <string name="authentication_blocked">인증이 차단 되었습니다. 잠시 후 다시 시도하십시오</string>
+    <string name="no_fingerprints_registered">등록 된 지문이 없습니다. 기기의 설정에서 지문을 추가하십시오</string>
     <string name="go_to_settings">설정으로 이동</string>
     <string name="protection_setup_successfully">암호 설정이 완료되었습니다. 암호를 기억하지 못하는 경우 앱을 다시 설치하시기 바랍니다.</string>
     <string name="fingerprint_setup_successfully">보안 설정이 성공적으로 완료되었습니다. 재설정 시 문제가 발생하면 앱을 다시 설치하시기 바랍니다.</string>
@@ -425,11 +425,11 @@
     <string name="restore_this_file">이 파일 복원하기</string>
     <string name="restore_selected_files">선택한 파일 복원하기</string>
     <string name="restore_all_files">모든 파일 복원하기</string>
-    <string name="recycle_bin_emptied">휴지통이 성공적으로 비워졌습니다.</string>
-    <string name="files_restored_successfully">파일이 성공적으로 복원되었습니다.</string>
+    <string name="recycle_bin_emptied">휴지통이 성공적으로 비워졌습니다</string>
+    <string name="files_restored_successfully">파일이 성공적으로 복원되었습니다</string>
     <string name="empty_recycle_bin_confirmation">휴지통을 비우시겠습니까? 비워진 파일은 복구할 수 없습니다.</string>
-    <string name="recycle_bin_empty">휴지통이 비어있습니다.</string>
-    <string name="moving_recycle_bin_items_disabled">휴지통 내의 파일은 복원하기 전까진 옮길 수 없습니다.</string>
+    <string name="recycle_bin_empty">휴지통이 비어있습니다</string>
+    <string name="moving_recycle_bin_items_disabled">휴지통 내의 파일은 복원하기 전까진 옮길 수 없습니다</string>
     <string name="show_the_recycle_bin">휴지통 보이기</string>
     <string name="hide_the_recycle_bin">휴지통 숨기기</string>
     <plurals name="moving_items_into_bin">
@@ -446,8 +446,8 @@
     <string name="no_entries_for_importing">가져올 항복을 찾을 수 없음</string>
     <string name="no_entries_for_exporting">내보낼 항목을 찾을 수 없음</string>
     <string name="usb_detected">기기에 USB장치가 연결되어 있습니다. USB의 파일을 표시하려면 추가 권한이 필요합니다.</string>
-    <string name="confirm_usb_storage_access_text">다음에 표시되는 화면에서 USB의 루트 폴더를 선택해 주시기 바랍니다.</string>
-    <string name="wrong_root_selected_usb">잘못된 폴더가 선택되었습니다. USB의 루트 폴더(가장 윗 폴더)를 선택해 주시기 바랍니다.</string>
+    <string name="confirm_usb_storage_access_text">다음에 표시되는 화면에서 USB의 루트 폴더를 선택해 주시기 바랍니다</string>
+    <string name="wrong_root_selected_usb">잘못된 폴더가 선택되었습니다. USB의 루트 폴더(가장 윗 폴더)를 선택해 주시기 바랍니다</string>
     <string name="january">1월</string>
     <string name="february">2월</string>
     <string name="march">3월</string>
@@ -508,31 +508,12 @@
     <string name="additional_info">추가 정보</string>
     <string name="app_version">앱 버전: %s</string>
     <string name="device_os">기기 OS: %s</string>
-    <string name="donate_please">
-        <![CDATA[
-            안녕하세요.<br>
-            우리의 애플리케이션이 도움이 되길 바랍니다.<br>
-            사용하고 계신 애플리케이션은 광고 및 인앱 결제가 없는 무료 애플리케이션으로 별도의 수익이 발생하지 않습니다.<br>
-            당신이 원하신다면 개발지원을 위해 <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> 앱을 다운받아 지원 하실 수 있습니다.<br>
-            \'Fossify Thank You\' 앱이 설치되면 이 다이얼로그는 비 활성화 됩니다.<br>
-            감사합니다.
-        ]]>
-    </string>
+    <string name="donate_please">안녕하세요.&lt;br&gt; 우리의 애플리케이션이 도움이 되길 바랍니다.&lt;br&gt; 사용하고 계신 애플리케이션은 광고 및 인앱 결제가 없는 무료 애플리케이션으로 별도의 수익이 발생하지 않습니다.&lt;br&gt; 당신이 원하신다면 개발지원을 위해 &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; 앱을 다운받아 지원 하실 수 있습니다.&lt;br&gt; \'Fossify Thank You\' 앱이 설치되면 이 다이얼로그는 비 활성화 됩니다.&lt;br&gt; 감사합니다!</string>
     <string name="purchase">구매</string>
     <string name="before_asking_question_read_faq">질문하기 전에 FAQ를 먼저 읽어 주세요. 해답이 있을지도 모릅니다.</string>
     <string name="read_it">읽어보기</string>
     <string name="rate_us_prompt">이 앱을 자주 사용하시는군요! 혹시 시간이 되신다면 구글 플레이스토어에서 평점을 부탁드립니다. 평점은 저희에게 많은 도움이 됩니다. 감사합니다! (이 메시지는 다시 표시되지 않습니다)</string>
-    <string name="new_app">
-        <![CDATA[
-            안녕하세요,<br><br>
-            저희의 새로운 앱이 출시되었습니다:<br><br>
-            <a href="%1$s">%2$s</a><br><br>
-            <a href="%3$s">%4$s</a><br><br>
-            <a href="%5$s">%6$s</a><br><br>
-            위 링크를 탭하여 받을 수 있습니다.<br><br>
-            감사합니다.
-        ]]>
-    </string>
+    <string name="new_app">안녕하세요,&lt;br&gt;&lt;br&gt; 저희의 새로운 앱이 출시되었습니다:&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; 위 링크를 탭하여 받을 수 있습니다.&lt;br&gt;&lt;br&gt; 감사합니다</string>
     <string name="sideloaded_app">
         <![CDATA[
             앱 버전이 유효하지 않습니다. 원본을 설치해 주세요. <a href="%s">here</a>.
@@ -606,4 +587,154 @@
     <string name="close">닫기</string>
     <string name="back">뒤로가기</string>
     <string name="nothing">없음</string>
+    <string name="no_browser_found">연결 가능한 브라우저 없음</string>
+    <string name="no_email_client_found">연결 가능한 이메일 없음</string>
+    <string name="copy_number_to_clipboard">클립보드에 숫자 저장</string>
+    <string name="dial_number">전화번</string>
+    <string name="no_contacts_found">연락처를 찾을 수 없음</string>
+    <string name="no_access_to_contacts">앱이 연락처에 엑세스할 수 없습니다</string>
+    <string name="insert_text_here">여기에 텍스트 입력</string>
+    <string name="zero">영</string>
+    <string name="one">일</string>
+    <string name="call_person">%s에게 전화 걸기</string>
+    <string name="two">이</string>
+    <string name="three">삼</string>
+    <string name="seven">칠</string>
+    <string name="eight">팔</string>
+    <string name="nine">구</string>
+    <string name="value_cannot_be_empty">값은 비워둘 수 없습니다</string>
+    <string name="app_corrupt">앱 손상</string>
+    <string name="choose_video">동영상 선택</string>
+    <string name="choose_contact">연락처 선택</string>
+    <string name="choose_file">파일 선택</string>
+    <string name="record_audio">음성 녹음</string>
+    <string name="phone_storage">휴대폰 저장공간</string>
+    <string name="audio">음성</string>
+    <string name="scanning">스캔중…</string>
+    <string name="phone_storage_hidden">휴대폰 저장공간 (다른 앱에서 확인 불가)</string>
+    <string name="main_number">대표</string>
+    <string name="column_count">열 개수</string>
+    <string name="row_count">행 개수</string>
+    <string name="not_blocking_anyone">아무도 차단하지 않았습니다.</string>
+    <string name="manage_blocked_numbers">차단 번호 관리</string>
+    <string name="blocked_numbers">차단 번호</string>
+    <string name="block_number">전화번호 차단</string>
+    <string name="block_confirmation">\"%s\"를 차단하시겠습니까?</string>
+    <string name="set_as_default">기본 앱으로 설정</string>
+    <string name="block_hidden_calls">발신번호표시제한 전화 차단</string>
+    <string name="block_hidden_messages">발신번호표시제한 메시지 차단</string>
+    <string name="block_contact">연락처 차단</string>
+    <string name="search_in_placeholder">%s에서 검색</string>
+    <string name="show_search">검색 바 보이기</string>
+    <string name="search_contacts">연락처 검색</string>
+    <string name="search_groups">그룹 검색</string>
+    <string name="search_favorites">즐겨찾기 검색</string>
+    <string name="search_apps">앱 검색</string>
+    <string name="search_files_and_folders">파일 및 폴더 검색</string>
+    <string name="loading">로딩중…</string>
+    <plurals name="delete_contacts">
+        <item quantity="other">%d개 연락처</item>
+    </plurals>
+    <string name="remove_exif">EXIF 제거</string>
+    <string name="apply_to_all_apps">모든 Fossify 앱에 색상 적용</string>
+    <string name="auto_light_dark_theme">자동 밝은/어두운 테마</string>
+    <string name="storage">저장공간</string>
+    <string name="shortcut">바로가기</string>
+    <string name="use_custom_sorting">사용자 지정 정렬</string>
+    <string name="change_order">순서 바꾸기</string>
+    <string name="pin">PIN 번호</string>
+    <string name="authenticate">인증</string>
+    <string name="enter_password">비밀번호 입력</string>
+    <string name="every_day">매일</string>
+    <string name="clear_cache">캐시 지우기</string>
+    <string name="contacts_tab">연락처</string>
+    <string name="favorites_tab">즐겨찾기</string>
+    <string name="call_history_tab">통화 기록</string>
+    <string name="groups_tab">그룹</string>
+    <string name="skip_the_recycle_bin">휴지통으로 이동하지 않고, 파일 바로 삭제</string>
+    <string name="no_permission">권한 없음</string>
+    <string name="exif_removed">EXIF 값 제거 성공</string>
+    <string name="light_theme">밝은 테마</string>
+    <string name="dark_theme">어두운 테마</string>
+    <string name="auto_theme">자동</string>
+    <string name="pin_must_be_4_digits_long">PIN 번호는 4자리 이상이어야 합니다</string>
+    <string name="biometrics">생체 인식</string>
+    <string name="copy_to_clipboard">클립보드에 복사</string>
+    <string name="request_the_required_permissions">필요한 권한 요청</string>
+    <string name="notifications">알림</string>
+    <string name="no_phone_call_permission">앱에 전화를 걸 수 있는 권한이 없으므로 기기 설정에서 권한을 부여하세요</string>
+    <string name="four">사</string>
+    <string name="five">오</string>
+    <string name="six">육</string>
+    <string name="value">값</string>
+    <string name="create_new_contact">새 연락처 생성</string>
+    <string name="add_to_existing_contact">기존 연락처에 추가</string>
+    <string name="record_video">동영상 녹화</string>
+    <string name="export_blocked_numbers">차단 번호 내보내기</string>
+    <string name="add_a_blocked_number">차단 번호 추가</string>
+    <string name="import_blocked_numbers">차단 번호 가져오기</string>
+    <plurals name="column_counts">
+        <item quantity="other">열 %d 개</item>
+    </plurals>
+    <plurals name="row_counts">
+        <item quantity="other">행 %d 개</item>
+    </plurals>
+    <string name="must_make_default_dialer">전화번호 차단 기능을 사용하려면 이 앱을 기본 전화 앱으로 설정해야 합니다.</string>
+    <string name="thumbnails">섬네일</string>
+    <string name="exclude_folder">폴더 제외하기</string>
+    <string name="files_tab">파일</string>
+    <string name="recent_files_tab">최근 파일</string>
+    <string name="backups">백업</string>
+    <string name="more_apps_from_us">더 많은 앱</string>
+    <string name="welcome_to_app_name">%s에 어서오세요!</string>
+    <string name="block_unknown_calls">모르는 번호의 전화 차단</string>
+    <string name="block_unknown_messages">모르는 번호 메시지 차단</string>
+    <string name="add_number_to_contact">연락처에 번호 추가</string>
+    <string name="unblock_contact">연락처 차단 해제</string>
+    <string name="search_conversations">대화 검색</string>
+    <string name="block_contact_success">차단된 연락처</string>
+    <string name="block_contact_fail">차단할 수 없는 연락처입니다</string>
+    <string name="search_files">파일 검색</string>
+    <string name="search_playlists">재생목록 검색</string>
+    <string name="search_text">텍스트 검색</string>
+    <string name="search_events">일정 검색</string>
+    <string name="search_calls">통화 검색</string>
+    <string name="search_folders">폴더 검색</string>
+    <string name="search_history">기록 검색</string>
+    <string name="search_artists">가수 검색</string>
+    <string name="search_albums">앨범 검색</string>
+    <string name="allow_notifications_reminders">앱 알림 표시를 허용하지 않으면 알림을 표시할 수 없습니다.</string>
+    <string name="search_tracks">트랙 검색</string>
+    <string name="search_recordings">녹음 검색</string>
+    <string name="allow_full_screen_notifications_reminders">앱에 전체 화면 알림 표시를 허용하지 않으면 일부 알림을 놓칠 수 있습니다.</string>
+    <string name="remove_exif_confirmation">GPS 좌표, 카메라 모델 등과 같은 EXIF 값을 제거하시겠습니까?</string>
+    <string name="app_icon_color_warning">주의: 특정 런처는 사용자 지정 앱 아이콘을 올바르게 처리하지 못할 수 있습니다. 만약 아이콘이 사라지면 Google Play 또는 위젯을 통해 앱을 실행해 보세요(액세스할 수 있는 경우). 앱 실행 후 기본 녹색 아이콘 색상인 #106D1F로 복원하세요. 극단적인 경우 앱을 다시 설치해야 할 수도 있습니다.</string>
+    <string name="system_default">시스템 기본값</string>
+    <string name="cannot_hide_files">안드로이드 11부터 더 이상 파일과 폴더를 숨길 수 없습니다</string>
+    <string name="copying_success_one">파일 복사 성공</string>
+    <string name="genre">장르</string>
+    <string name="moving_success_one">파일 이동 성공</string>
+    <string name="internal_storage">내부 저장공간</string>
+    <string name="view_contact_details">연락처 세부 항목 보기</string>
+    <string name="move_to_top">맨 위로 옮기기</string>
+    <string name="pin_item">고정하기</string>
+    <string name="unpin_item">고정 해제하기</string>
+    <string name="move_to_bottom">맨 아래로 옮기기</string>
+    <string name="send_sms">SMS 보내기</string>
+    <string name="send_email">이메일 보내기</string>
+    <string name="contact_details">연락처 세부 항목</string>
+    <string name="add_contact">연락처 추가</string>
+    <string name="wallpapers">배경화면</string>
+    <string name="date_created">생성일</string>
+    <string name="add_password">비밀번호 추가</string>
+    <string name="open_the_recycle_bin">휴지통 열기</string>
+    <string name="too_many_incorrect_attempts">잘못된 잠금 해제 시도가 너무 많습니다.
+\n%d초 후에 다시 시도하세요.</string>
+    <string name="empty_password_new">비밀번호를 입력해주세요</string>
+    <string name="empty_password">비밀번호를 입력해주세요</string>
+    <string name="invalid_password">잘못된 비밀번호입니다</string>
+    <string name="password">비밀번호</string>
+    <string name="manage_automatic_backups">자동 백업 관리</string>
+    <string name="enable_automatic_backups">자동 백업 활성화</string>
+    <string name="website">웹사이트</string>
 </resources>
