@@ -172,7 +172,7 @@
     <string name="upgraded_from_free">Dia duit\n\nis cosúil go ndearna tú uasghrádú díreach ón leagan saor in aisce. Nuair a bheidh tú sásta leis an gceann seo agus b\'fhéidir do chuid sonraí a aistriú, is féidir leat an seancheann saor in aisce a dhíshuiteáil chun é a sheoladh trí thimpiste mar ní bheidh sé de dhíth ort níos mó, cuirfidh sé cosc ar an dialóg seo a thaispeáint suas.\n\nGo raibh maith agat!</string>
     <string name="upgraded_to_pro">Dia duit\n\nis cosúil go bhfuil an leagan Pro app agat cheana féin freisin. Nuair a bheidh tú sásta leis agus b\'fhéidir do chuid sonraí a aistriú, is féidir leat an ceann seo a dhíshuiteáil chun é a sheoladh trí thimpiste mar ní bheidh sé de dhíth ort níos mó.\n\nGo raibh maith agat!</string>
     <string name="upgraded_from_free_calendar">Dia duit\n\nis cosúil go ndearna tú uasghrádú díreach ón leagan saor in aisce. Más mian leat do chuid imeachtaí a stóráiltear go háitiúil a aistriú, caithfidh tú é a dhéanamh de láimh trí iad a onnmhairiú isteach i gcomhad .ics sa leagan app saor in aisce agus a allmhairiú anseo tríd an roghchlár barr. \n\nNuair a bheidh tú sásta le do thus sa leagan Pro, is féidir leat an seancheann saor in aisce a dhíshuiteáil mar ní bheidh sé de dhíth ort níos mó, cuirfidh sé cosc ar an dialóg seo a thaispeáint.\n\nGo raibh maith agat!</string>
-    <string name="upgraded_from_free_contacts">Dia duit\n\nis cosúil go ndearna tú uasghrádú díreach ón leagan saor in aisce. Má bhí aon teagmhálacha stóráilte agat faoi \"%s\", caithfidh tú iad a aistriú de láimh trí chomhad .vcf a easpórtáil ón leagan feidhmchláir saor in aisce agus iad a iompórtáil anseo tríd an roghchlár barr.\n\nNuair a bheidh tú sásta le do thus sa leagan Pro, is féidir leat an seancheann saor in aisce a dhíshuiteáil mar ní bheidh sé de dhíth ort níos mó, cuirfidh sé cosc ar an dialóg seo a thaispeáint.\n\nGo raibh maith agat!</string>
+    <string name="upgraded_from_free_contacts">Dia duit\n\nis cosúil go ndearna tú uasghrádú díreach ón leagan saor in aisce. Má bhí aon teagmhálacha stóráilte agat faoi s caithfidh tú iad a aistriú de láimh trí chomhad .vcf a easpórtáil ón leagan feidhmchláir saor in aisce agus iad a iompórtáil anseo tríd an roghchlár barr.\n\nNuair a bheidh tú sásta le do thus sa leagan Pro, is féidir leat an seancheann saor in aisce a dhíshuiteáil mar ní bheidh sé de dhíth ort níos mó, cuirfidh sé cosc ar an dialóg seo a thaispeáint.\n\nGo raibh maith agat!</string>
     <string name="about">Maidir</string>
     <string name="website">Suíomh Gréasáin</string>
     <string name="upgraded_from_free_notes">Dia duit\n\nis cosúil go ndearna tú uasghrádú díreach ón leagan saor in aisce. Más mian leat do chuid nótaí a aistriú, caithfidh tú é a dhéanamh de láimh trí iad a onnmhairiú isteach i gcomhad sa leagan app saor in aisce agus a allmhairiú anseo tríd an roghchlár barr. \n\nNuair a bheidh tú sásta le do thus sa leagan Pro, is féidir leat an seancheann saor in aisce a dhíshuiteáil mar ní bheidh sé de dhíth ort níos mó, cuirfidh sé cosc ar an dialóg seo a thaispeáint.\n\nGo raibh maith agat!</string>
@@ -668,7 +668,7 @@
     <string name="import_blocked_numbers">Iompórtáil uimhreacha bactha</string>
     <string name="must_make_default_dialer">Caithfidh tú an feidhmchlár diailithe réamhshocraithe a dhéanamh den fheidhmchlár seo chun úsáid a bhaint as uimhreacha bactha.</string>
     <string name="set_as_default">Socraigh mar réamhshocrú</string>
-    <string name="block_confirmation">An bhfuil tú cinnte go bhfuil fonn ort \"%s\" a bhlocáil?</string>
+    <string name="block_confirmation">An bhfuil tú cinnte go bhfuil fonn ort s a bhlocáil?</string>
     <string name="block_unknown_calls">Cuir bac ar ghlaonna ó uimhreacha anaithnide</string>
     <string name="block_hidden_calls">Cuir bac ar ghlaonna ó uimhreacha folaithe</string>
     <string name="block_unknown_messages">Cuir bac ar theachtaireachtaí ó uimhreacha anaithnide</string>
@@ -779,9 +779,9 @@
     <string name="unknown_error_occurred">Tharla earráid anaithnid</string>
     <string name="name_taken">Tá comhad nó fillteán leis an ainm sin ann cheana</string>
     <string name="invalid_name">Tá carachtair neamhbhailí san ainm</string>
-    <string name="file_already_exists">Tá comhad \"%s\" ann cheana</string>
-    <string name="file_already_exists_overwrite">Tá comhad \"%s\" ann cheana. Forscríobh?</string>
-    <string name="folder_already_exists">Tá fillteán \"%s\" ann cheana</string>
+    <string name="file_already_exists">Tá comhad s ann cheana</string>
+    <string name="file_already_exists_overwrite">Tá comhad s ann cheana. Forscríobh?</string>
+    <string name="folder_already_exists">Tá fillteán s ann cheana</string>
     <string name="merge">Cumaisc</string>
     <string name="overwrite">Forscríobh</string>
     <string name="skip">Scipeáil</string>
