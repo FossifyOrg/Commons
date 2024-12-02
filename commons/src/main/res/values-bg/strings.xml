@@ -361,7 +361,7 @@
     <string name="create_shortcut">Създаване на пряк път</string>
     <string name="create_shortcut_pro">Създаване на пряк път (Про)</string>
     <string name="add_number_to_contact">Добави номера към контакт</string>
-    <string name="view_contact_details">Подробности за контакта</string>
+    <string name="view_contact_details">Преглед на контакта</string>
     <string name="call_from_sim_1">Обаждане от SIM 1</string>
     <string name="call_from_sim_2">Обаждане от SIM 2</string>
     <string name="toggle_filename">Превключване видимостта на името на файла</string>
@@ -665,7 +665,7 @@
     <string name="show_the_recycle_bin">Показване на кошчето</string>
     <string name="hide_the_recycle_bin">Скриване на кошчето</string>
     <string name="open_the_recycle_bin">Отваряне на кошчето</string>
-    <string name="skip_the_recycle_bin">Директно премахване на файла (без кошче)</string>
+    <string name="skip_the_recycle_bin">Директно премахване (без кошче)</string>
     <plurals name="moving_items_into_bin">
         <item quantity="one">Преместване на %d елемент в кошчето</item>
         <item quantity="other">Преместване на %d елемента в кошчето</item>
@@ -915,8 +915,8 @@
     <string name="notice">Приложението използва следните библиотеки от трети страни, за да улесни живота ми. Благодаря им.</string>
     <string name="third_party_licences">Лицензи на трети страни</string>
     <string name="welcome_to_app_name">Добре дошли при %s!</string>
-    <string name="pro_app_refund">Не забравяйте, че ако деинсталирате всяко платено приложение в рамките на 2 часа, автоматично ще бъде възстановена сумата. Ако искате възстановяване на сумата по всяко време по -късно, просто се свържете с нас на hello@fossify.org и ще го получите. Това улеснява изпробването :)</string>
-    <string name="developer_description">Група обикновени приложения с отворен код за Android с гъвкави приспособления, без реклами и ненужни разрешения.</string>
+    <string name="pro_app_refund">Не забравяйте, че ако премахнете някое платено приложение в рамките на 2 часа след плащането, сумата автоматично ще бъде възстановена. Ако желаете възстановяване на сумата след този период, просто се свържете с нас на hello@fossify.org и ще ви ги върнем. Така е по-лесно да изпробвате приложенията :)</string>
+    <string name="developer_description">Група обикновени приложения с отворен код за Андроид с гъвкави приспособления, без реклами и ненужни разрешения.</string>
     <string name="audio">Аудио</string>
     <string name="genre">Жанр</string>
     <string name="password">Парола</string>
@@ -1018,4 +1018,17 @@
     <string name="gson_title">Gson (разбор на JSON)</string>
     <string name="number_picker_title">Number Picker (контрол за въвеждане на числа)</string>
     <string name="audio_record_view_title">Audio Record View (визуализация на звуци)</string>
+    <string name="trial_start_description">Благодарим ви, че използвате нашето приложение. Можете да използвате тази отключена версия в продължение на <font color="#fff">%d дни</font>. След като пробният период изтече, помислете за надграждане до версия Про. Тя разполага с огромно количество нови възможности, модерен дизайн, без реклами и много други подобрения.\n\nЕдинствено трябва еднократно да платите и ако не останете доволни, можете да премахнете приложението и да получите обратно парите си.\n\nНадявам се, че ще ви хареса :)</string>
+    <string name="trial_end_description">Надградете до Про, за да се насладите на пълните възможности на приложението.\n\nЕдинствено трябва еднократно да платите и ако не останете доволни, можете да премахнете приложението и да получите обратно парите си.\n\nЩе се видим там :)</string>
+    <string name="deprecated_app">Изведено от употреба: това приложение вече не се поддържа, надградете до Про на https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
+    <string name="improved_color_customization">Подобрена настройка на цветовете</string>
+    <string name="app_icon_color_warning">Внимание: Някои начални екрани може да не изобразят правилно потребителските настройки на пиктограмите на приложенията. Ако пиктограмата изчезне, стартирате приложението от Google Play или, ако има, от приспособление. След това възстановете подразбирания зелен цвят на пиктограмата – #106D1F. В краен случаи може да се наложи преинсталиране на приложението.</string>
+    <string name="apply_to_all_apps">Прилагане на цветовете към всички приложения на Fossify</string>
+    <string name="shared_theme_note">Обърнете внимание, че въпреки че използвате Про, все още се нуждаете от Fossify Thank You по технически причини. То се грижи за синхронизирането на цветовете.</string>
+    <string name="purchase_thank_you">Поръчайте &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;, за да отключите тази възможност и да подкрепите разработката. Благодарим ви!</string>
+    <string name="purchase_simple_thank_you">Поръчайте Fossify Thank You</string>
+    <plurals name="trial_expires_days">
+        <item quantity="one">Пробният период изтича след %d ден.</item>
+        <item quantity="other">Пробният период изтича след %d дена.</item>
+    </plurals>
 </resources>
