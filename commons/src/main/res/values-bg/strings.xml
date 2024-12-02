@@ -197,7 +197,7 @@
     <string name="cannot_hide_files">От Android 11 нататък вече не можете да скривате файлове и папки по този начин</string>
     <string name="copy">Копиране</string>
     <string name="move">Преместване</string>
-    <string name="copy_move">Копиране / преместване</string>
+    <string name="copy_move">Копиране / преместване</string>
     <string name="copy_to">Копиране към…</string>
     <string name="move_to">Преместване към…</string>
     <string name="source">Изходна папка</string>
@@ -327,7 +327,7 @@
     <string name="light_theme">Светла</string>
     <string name="dark_theme">Тъмна</string>
     <string name="auto_theme">Автоматична</string>
-    <string name="auto_light_dark_theme">Автоматично светла / тъмна</string>
+    <string name="auto_light_dark_theme">Автоматично светла / тъмна</string>
     <string name="solarized">Слънчева</string>
     <string name="dark_red">Тъмно червена</string>
     <string name="white">Бяла</string>
@@ -765,7 +765,7 @@
     <string name="rate">Оценяване</string>
     <string name="donate">Дарения</string>
     <string name="follow_us">Последвайте ни</string>
-    <string name="copyright">v %1$s\nАвторски права © Fossify %2$d</string>
+    <string name="copyright">v %1$s\nАвторски права © Fossify %2$d</string>
     <string name="support">Поддръжка</string>
     <string name="help_us">Помогнете ни</string>
     <string name="social">Общност</string>
@@ -991,7 +991,7 @@
     <string name="donate_to_fossify">Даряване на Fossify</string>
     <string name="platforms">Платформи</string>
     <string name="little_to_no_fee">Почти без такси</string>
-    <string name="fee_up_to_pct">Такса до %1$d %%</string>
+    <string name="fee_up_to_pct">Такса до %1$d %%</string>
     <string name="why_upgrade_many_other_improvements">Много други подобрения</string>
     <string name="why_upgrade_private_contact_sharing">Допълнително споделяне на поверителни контакти между нашите приложения</string>
     <string name="why_upgrade_date_and_time_format">Настройка на формата на датата и часа</string>
@@ -1022,4 +1022,5 @@
     <string name="faq_9_text_commons">Има много начини да го направите. Първият е да стартирате режим на избор чрез задържане върху даден елемент, след което кратко докоснете други елементи, за да ги изберете. Вторият начин е подобен на избирането на елементи с мишка, просто стартирайте режима за избор чрез задържане върху даден елемент, след което без да вдигате пръста, го плъзнете върху другите елементи, които желаете да изберете. Третият начин за избор на множество елементи е задържане върху даден елемент, след това задържане върху друг и всички елементи между тях ще бъдат избрани. Ако искате да изберете всички елементи, просто задръжте даден елемент, след което докоснете брояча на избрани елементи в горния ляв ъгъл. По този начин ще изберете или откажете избора на всички елементи.</string>
     <string name="faq_6_text_commons">Такъв проблем може да възникне ако началният екран не може да покаже правилно потребителските настройки на пиктограмата на приложението. Ако пиктограмата изчезне, стартирате приложението от Google Play или, ако има, от приспособление. След това възстановете подразбирания зелен цвят на пиктограмата – #106D1F. В краен случаи може да се наложи преинсталиране на приложението.</string>
     <string name="translation_kabyle"></string>
+    <string name="format_phone_numbers"></string>
 </resources>
