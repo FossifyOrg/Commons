@@ -312,7 +312,7 @@
     <string name="app_icon_color">Цвят на пиктограмата на приложението</string>
     <string name="bottom_navigation_bar_color">Цвят на долната навигационна лента</string>
     <string name="restore_defaults">Нулиране на настройките</string>
-    <string name="use_default">Подразбирани настройки</string>
+    <string name="use_default">Използване на подразбираното</string>
     <string name="default_color">По подразбиране</string>
     <string name="change_color">Промяна на цвета</string>
     <string name="theme">Тема</string>
