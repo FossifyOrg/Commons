@@ -217,8 +217,8 @@
     <string name="invalid_name">Tên chứa các ký tự không hợp lệ</string>
     <string name="empty_name">Vui lòng nhập tên</string>
     <string name="unknown_error_occurred">Xảy ra lỗi không xác định</string>
-    <string name="file_already_exists">File \"%s\" đã tồn tại</string>
-    <string name="file_already_exists_overwrite">File \"%s\" đã tồn tại. Ghi đè?</string>
+    <string name="file_already_exists">File s đã tồn tại</string>
+    <string name="file_already_exists_overwrite">File s đã tồn tại. Ghi đè?</string>
     <string name="folder_already_exists">Thư mục s đã tồn tại</string>
     <string name="merge">Kết hợp</string>
     <string name="keep_both">Giữ cả hai</string>
