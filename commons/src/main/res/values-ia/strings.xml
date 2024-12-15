@@ -91,7 +91,7 @@
     <string name="grant_permission">Conceder permission</string>
     <string name="permission_required">Permission requirite</string>
     <string name="rename_file_error">Non poteva renominar le file</string>
-    <string name="block_confirmation">Esque tu es secur que tu vole blocar \"%s\"?</string>
+    <string name="block_confirmation">Esque tu es secur que tu vole blocar s?</string>
     <string name="must_make_default_caller_id_app">Non es possibile blocar numeros discognoscite sin le permission del identificator de appellos.</string>
     <string name="search_calls">Cercar appellos</string>
     <string name="search_files">Cercar files</string>
