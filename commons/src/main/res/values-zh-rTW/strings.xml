@@ -61,7 +61,7 @@
     <string name="change_cover_image">更換封面圖片</string>
     <string name="select_photo">選擇相片</string>
     <string name="manage_blocked_numbers">管理黑名單</string>
-    <string name="not_blocking_anyone">你沒有封鎖任何人</string>
+    <string name="not_blocking_anyone">您沒有封鎖任何人。</string>
     <string name="add_a_blocked_number">新增封鎖的電話號碼</string>
     <string name="block_number">封鎖電話號碼</string>
     <string name="block_numbers">封鎖電話號碼</string>
@@ -76,7 +76,7 @@
     <string name="type_2_characters">輸入兩個字以上來開始搜尋。</string>
     <string name="filter">篩選</string>
     <string name="filter_pro">篩選（專業版）</string>
-    <string name="no_items_found">未發現項目</string>
+    <string name="no_items_found">未發現相符的檔案。</string>
     <string name="change_filter">更改篩選條件</string>
     <string name="no_storage_permissions">儲存空間權限是必要的</string>
     <string name="no_contacts_permission">聯絡人權限是必要的</string>
@@ -772,4 +772,7 @@
     <string name="format_phone_numbers">設定電話號碼格式</string>
     <string name="theme_and_colors">主題與色彩</string>
     <string name="all_fossify_apps">所有 Fossify 應用程式</string>
+    <string name="authenticate">驗證</string>
+    <string name="biometrics">生物特徵</string>
+    <string name="open_biometric_dialog">開啟生物特徵驗證互動視窗</string>
 </resources>
