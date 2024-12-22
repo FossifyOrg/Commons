@@ -775,4 +775,6 @@
     <string name="authenticate">驗證</string>
     <string name="biometrics">生物特徵</string>
     <string name="open_biometric_dialog">開啟生物特徵驗證互動視窗</string>
+    <string name="search_artists">搜尋藝術家</string>
+    <string name="search_albums">搜尋專輯</string>
 </resources>
