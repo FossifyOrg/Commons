@@ -980,12 +980,4 @@
     <string name="update_thank_you">Fossify Thank Youを最新バージョンに更新してください</string>
     <string name="little_to_no_fee">ゼロまたはわずか</string>
     <string name="fee_up_to_pct">最大%1$d%%</string>
-    <string name="translation_breton"></string>
-    <string name="translation_chuvash"></string>
-    <string name="translation_gujarati"></string>
-    <string name="translation_kabyle"></string>
-    <string name="other_help"></string>
-    <string name="zip4j_title"></string>
-    <string name="known_issues"></string>
-    <string name="contributors_label"></string>
 </resources>

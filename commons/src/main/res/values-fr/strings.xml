@@ -1051,13 +1051,4 @@
     <string name="cryptocurrency">Crypto-monnaie</string>
     <string name="little_to_no_fee">Peu ou pas de frais</string>
     <string name="known_issues">Problèmes connus</string>
-    <string name="translation_belarusian"></string>
-    <string name="translation_central_kurdish"></string>
-    <string name="translation_chuvash"></string>
-    <string name="translation_gujarati"></string>
-    <string name="theme_and_colors"></string>
-    <string name="all_fossify_apps"></string>
-    <string name="translation_esperanto"></string>
-    <string name="translation_kabyle"></string>
-    <string name="fee_up_to_pct"></string>
 </resources>
