@@ -260,8 +260,8 @@
     <string name="confirm_storage_access_text">Wybierz folder główny karty pamięci na następnym ekranie, aby przyznać dostęp.</string>
     <string name="confirm_storage_access_text_sd">Jeśli nie widzisz karty pamięci, spróbuj tego:</string>
     <string name="confirm_storage_access_android_text">Zezwól na dostęp do wybranej pamięci na następnym ekranie, naciskając „Użyj tego folderu” na dole.</string>
-    <string name="confirm_storage_access_android_text_specific">Zezwól na dostęp do „&lt;b&gt;%s&lt;/b&gt;” na następnym ekranie, naciskając „&lt;b&gt;Użyj tego folderu&lt;/b&gt;” na dole.</string>
-    <string name="confirm_create_doc_for_new_folder_text">Naciśnij „&lt;b&gt;Zapisz&lt;/b&gt;” na dole następnego ekranu, aby utworzyć nowy folder.</string>
+    <string name="confirm_storage_access_android_text_specific">Zezwól na dostęp do „<b>%s</b>” na następnym ekranie, naciskając „<b>Użyj tego folderu</b>” na dole.</string>
+    <string name="confirm_create_doc_for_new_folder_text">Naciśnij „<b>Zapisz</b>” na dole następnego ekranu, aby utworzyć nowy folder.</string>
     <string name="confirm_selection">Potwierdź wybór</string>
     <string name="loading">Ładowanie…</string>
     <string name="access_storage_prompt">Przyznaj naszej aplikacji dostęp do wszystkich swoich plików. Bez niego może nie działać dobrze.</string>
@@ -317,7 +317,7 @@
     <string name="gps_coordinates">Współrzędne GPS</string>
     <string name="altitude">Wysokość</string>
     <string name="remove_exif">Usuń dane EXIF</string>
-    <string name="remove_exif_confirmation">Czy usunąć dane EXIF, takie jak współrzędne GPS, model aparatu itp.\?</string>
+    <string name="remove_exif_confirmation">Czy usunąć dane EXIF, takie jak współrzędne GPS, model aparatu itp.?</string>
     <string name="exif_removed">Dane EXIF zostały usunięte</string>
     <string name="background_color">Kolor tła</string>
     <string name="text_color">Kolor tekstu</string>
@@ -336,12 +336,11 @@
     <string name="save">Zapisz</string>
     <string name="discard">Odrzuć</string>
     <string name="undo_changes">Cofnij zmiany</string>
-    <string name="undo_changes_confirmation">Czy cofnąć zmiany\?</string>
+    <string name="undo_changes_confirmation">Czy cofnąć zmiany?</string>
     <string name="cannot_be_undone">Tej akcji nie można cofnąć.</string>
     <string name="save_before_closing">Masz niezapisane zmiany. Czy zapisać je przed wyjściem?</string>
     <string name="apply_to_all_apps">Zastosuj kolory we wszystkich aplikacjach Fossify</string>
-    <string name="app_icon_color_warning">Uwaga: Pewne launchery mogą nie obsługiwać prawidłowo zmiany ikon aplikacji. Jeśli ikona zniknie, spróbuj uruchomić aplikację przez Google Play lub przez widżet, jeśli jest dostępny.
-        Po uruchomieniu przywróć domyślny zielony kolor ikony (#106D1F). W wyjątkowych przypadkach konieczne może okazać się przeinstalowanie aplikacji.</string>
+    <string name="app_icon_color_warning">Uwaga: Pewne launchery mogą nie obsługiwać prawidłowo zmiany ikon aplikacji. Jeśli ikona zniknie, spróbuj uruchomić aplikację przez Google Play lub przez widżet, jeśli jest dostępny. Po uruchomieniu przywróć domyślny zielony kolor ikony (#106D1F). W wyjątkowych przypadkach konieczne może okazać się przeinstalowanie aplikacji.</string>
     <string name="global_theme_success">Obecny motyw został zastosowany do wszystkich aplikacji Fossify. Wszelkie przyszłe zmiany tego motywu będą synchronizowane automatycznie.</string>
     <string name="shared_theme_note">Pamiętaj, że nawet jeśli używasz wersji Pro aplikacji, nadal potrzebujesz aplikacji „Fossify Thank You” z powodów technicznych. Zajmuje się ona synchronizacją kolorów.</string>
     <string name="purchase_thank_you">Aby odblokować tę funkcję (i przy okazji wesprzeć rozwój niniejszej aplikacji), kup aplikację &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. Dzięki!</string>
@@ -424,12 +423,12 @@
     <string name="use_custom_sorting">Użyj własnego sortowania</string>
     <string name="change_order">Zmień kolejność</string>
     <string name="more_options">Więcej opcji</string>
-    <string name="proceed_with_deletion">Czy kontynuować usuwanie\?</string>
-    <string name="deletion_confirmation">Czy usunąć %s\?</string>
-    <string name="deletion_confirmation_short">Czy usunąć %s\?</string>
-    <string name="move_to_recycle_bin_confirmation">Czy przenieść %s do kosza\?</string>
-    <string name="are_you_sure_delete">Czy usunąć ten element\?</string>
-    <string name="are_you_sure_recycle_bin">Czy przenieść ten element do kosza\?</string>
+    <string name="proceed_with_deletion">Czy kontynuować usuwanie?</string>
+    <string name="deletion_confirmation">Czy usunąć %s?</string>
+    <string name="deletion_confirmation_short">Czy usunąć %s?</string>
+    <string name="move_to_recycle_bin_confirmation">Czy przenieść %s do kosza?</string>
+    <string name="are_you_sure_delete">Czy usunąć ten element?</string>
+    <string name="are_you_sure_recycle_bin">Czy przenieść ten element do kosza?</string>
     <string name="do_not_ask_again">Nie pytaj więcej w tej sesji</string>
     <string name="do_not_show_again">Nie pokazuj ponownie</string>
     <string name="yes">Tak</string>
@@ -445,8 +444,7 @@
     <string name="please_enter_pin">Wprowadź PIN</string>
     <string name="wrong_pin">Nieprawidłowy PIN</string>
     <string name="pin_must_be_4_digits_long">PIN musi mieć co najmniej 4 cyfry</string>
-    <string name="too_many_incorrect_attempts">Zbyt wiele błędnych prób odblokowania.
-\nSpróbuj ponownie za %d sek.</string>
+    <string name="too_many_incorrect_attempts">Zbyt wiele błędnych prób odblokowania. \nSpróbuj ponownie za %d sek.</string>
     <string name="repeat_pin">Wprowadź PIN ponownie</string>
     <string name="pattern">Wzór</string>
     <string name="insert_pattern">Wprowadź wzór</string>
@@ -733,7 +731,7 @@
     <string name="excluded">(wykluczone)</string>
     <string name="manage_excluded_folders">Zarządzaj wykluczonymi folderami</string>
     <string name="remove_all">Usuń wszystko</string>
-    <string name="remove_all_description">Czy usunąć wszystkie foldery z listy wykluczonych\? Nie spowoduje to fizycznego usunięcia folderów.</string>
+    <string name="remove_all_description">Czy usunąć wszystkie foldery z listy wykluczonych? Nie spowoduje to fizycznego usunięcia folderów.</string>
     <string name="temporarily_show_excluded">Tymczasowo pokaż wykluczone foldery</string>
     <string name="stop_showing_excluded">Przestań pokazywać wykluczone foldery</string>
     <string name="manage_shown_tabs">Zarządzaj pokazywanymi kartami</string>
@@ -750,7 +748,7 @@
     <string name="restore_all_files">Przywróć wszystkie pliki</string>
     <string name="recycle_bin_emptied">Kosz został opróżniony</string>
     <string name="files_restored_successfully">Pliki zostały przywrócone</string>
-    <string name="empty_recycle_bin_confirmation">Czy opróżnić kosz\? Pliki zostaną utracone bezpowrotnie.</string>
+    <string name="empty_recycle_bin_confirmation">Czy opróżnić kosz? Pliki zostaną utracone bezpowrotnie.</string>
     <string name="recycle_bin_empty">Kosz jest pusty</string>
     <string name="moving_recycle_bin_items_disabled">Przenoszenie elementów z kosza jest wyłączone, użyj przywracania</string>
     <string name="show_the_recycle_bin">Pokaż kosz</string>
@@ -777,14 +775,7 @@
     <string name="backups">Kopie zapasowe</string>
     <string name="enable_automatic_backups">Włącz automatyczne kopie zapasowe</string>
     <string name="manage_automatic_backups">Zarządzaj automatycznymi kopiami zapasowymi</string>
-    <string name="date_time_pattern_info">Możesz użyć następujących wzorców, aby automatycznie nazywać swój plik:
-\n
-\n%Y — rok
-\n%M — miesiąc
-\n%D — dzień
-\n%h — godzina
-\n%m — minuta
-\n%s — sekunda</string>
+    <string name="date_time_pattern_info">Możesz użyć następujących wzorców, aby automatycznie nazywać swój plik: \n \n%Y — rok \n%M — miesiąc \n%D — dzień \n%h — godzina \n%m — minuta \n%s — sekunda</string>
     <string name="usb_detected">Wygląda na to, że masz podpiętą pamięć USB. Aby mieć pewność, że pliki na niej będą poprawnie widoczne, przyznaj aplikacji dodatkowe uprawnienia.</string>
     <string name="confirm_usb_storage_access_text">Wybierz folder główny pamięci USB na następnym ekranie, aby przyznać dostęp.</string>
     <string name="wrong_root_selected_usb">Wybrano nieprawidłowy folder. Wybierz folder główny pamięci USB.</string>
@@ -849,47 +840,13 @@
     <string name="more_info">Więcej informacji</string>
     <string name="upgrade">Uaktualnij</string>
     <string name="upgrade_calendar">Musisz przenieść przechowywane lokalnie wydarzenia ręcznie przez wyeksportowanie ich do pliku .ics, a następnie ich zaimportowanie. Oba służące do tego przyciski znajdziesz w menu na ekranie głównym.</string>
-    <string name="upgraded_from_free_gallery">Witaj,
-\n
-\nWygląda na to, że właśnie uaktualniłeś(-aś) darmową aplikację do płatnej. Gdy będziesz z niej zadowolony(-a) i być może przeniesiesz swoje ustawienia i ulubione, możesz odinstalować starą darmową, aby uniknąć przypadkowego jej uruchomienia, ponieważ nie będziesz jej już potrzebować, i zapobiegnie to również wyświetlaniu tego komunikatu.
-\n
-\nDzięki!</string>
-    <string name="upgraded_to_pro_gallery">Witaj,
-\n
-\nWygląda na to, że masz już także wersję Pro aplikacji. Gdy będziesz z niej zadowolony(-a) i być może przeniesiesz swoje ustawienia i ulubione, możesz odinstalować tę, aby uniknąć przypadkowego uruchomienia, ponieważ nie będziesz jej już potrzebować.
-\n
-\nDzięki!</string>
-    <string name="upgraded_from_free">Witaj,
-\n
-\nWygląda na to, że właśnie uaktualniłeś(-aś) darmową aplikację do płatnej. Gdy będziesz z niej zadowolony(-a) i być może przeniesiesz swoje dane, możesz odinstalować starą darmową, aby uniknąć przypadkowego jej uruchomienia, ponieważ nie będziesz jej już potrzebować, i zapobiegnie to również wyświetlaniu tego komunikatu.
-\n
-\nDzięki!</string>
-    <string name="upgraded_to_pro">Witaj,
-\n
-\nWygląda na to, że masz już także wersję Pro aplikacji. Gdy będziesz z niej zadowolony(-a) i być może przeniesiesz swoje dane, możesz odinstalować tę, aby uniknąć przypadkowego uruchomienia, ponieważ nie będziesz jej już potrzebować.
-\n
-\nDzięki!</string>
-    <string name="upgraded_from_free_calendar">Witaj,
-\n
-\nWygląda na to, że właśnie uaktualniłeś(-aś) darmową aplikację do płatnej. Jeśli chcesz przenieść przechowywane lokalnie wydarzenia, musisz zrobić to ręcznie, eksportując je do pliku .ics w darmowej wersji aplikacji i importując tutaj przez górne menu.
-\n
-\nGdy będziesz zadowolony(-a) z konfiguracji w wersji Pro, możesz odinstalować starą darmową wersję, ponieważ nie będziesz jej już potrzebować i zapobiegnie to wyświetlaniu tego komunikatu.
-\n
-\nDzięki!</string>
-    <string name="upgraded_from_free_contacts">Witaj,
-\n
-\nWygląda na to, że właśnie uaktualniłeś(-aś) darmową aplikację do płatnej. Jeśli masz jakieś kontakty przechowywane w „%s”, musisz przenieść je ręcznie, eksportując do pliku .vcf w darmowej wersji aplikacji i importując tutaj przez górne menu.
-\n
-\nGdy będziesz zadowolony(-a) z konfiguracji w wersji Pro, możesz odinstalować starą darmową wersję, ponieważ nie będziesz jej już potrzebować i zapobiegnie to wyświetlaniu tego komunikatu.
-\n
-\nDzięki!</string>
-    <string name="upgraded_from_free_notes">Witaj,
-\n
-\nWygląda na to, że właśnie uaktualniłeś(-aś) darmową aplikację do płatnej. Jeśli chcesz przenieść swoje notatki, musisz zrobić to ręcznie, eksportując je do pliku w darmowej wersji aplikacji i importując tutaj przez górne menu.
-\n
-\nGdy będziesz zadowolony(-a) z konfiguracji w wersji Pro, możesz odinstalować starą darmową wersję, ponieważ nie będziesz jej już potrzebować i zapobiegnie to wyświetlaniu tego komunikatu.
-\n
-\nDzięki!</string>
+    <string name="upgraded_from_free_gallery">Witaj, \n \nWygląda na to, że właśnie uaktualniłeś(-aś) darmową aplikację do płatnej. Gdy będziesz z niej zadowolony(-a) i być może przeniesiesz swoje ustawienia i ulubione, możesz odinstalować starą darmową, aby uniknąć przypadkowego jej uruchomienia, ponieważ nie będziesz jej już potrzebować, i zapobiegnie to również wyświetlaniu tego komunikatu. \n \nDzięki!</string>
+    <string name="upgraded_to_pro_gallery">Witaj, \n \nWygląda na to, że masz już także wersję Pro aplikacji. Gdy będziesz z niej zadowolony(-a) i być może przeniesiesz swoje ustawienia i ulubione, możesz odinstalować tę, aby uniknąć przypadkowego uruchomienia, ponieważ nie będziesz jej już potrzebować. \n \nDzięki!</string>
+    <string name="upgraded_from_free">Witaj, \n \nWygląda na to, że właśnie uaktualniłeś(-aś) darmową aplikację do płatnej. Gdy będziesz z niej zadowolony(-a) i być może przeniesiesz swoje dane, możesz odinstalować starą darmową, aby uniknąć przypadkowego jej uruchomienia, ponieważ nie będziesz jej już potrzebować, i zapobiegnie to również wyświetlaniu tego komunikatu. \n \nDzięki!</string>
+    <string name="upgraded_to_pro">Witaj, \n \nWygląda na to, że masz już także wersję Pro aplikacji. Gdy będziesz z niej zadowolony(-a) i być może przeniesiesz swoje dane, możesz odinstalować tę, aby uniknąć przypadkowego uruchomienia, ponieważ nie będziesz jej już potrzebować. \n \nDzięki!</string>
+    <string name="upgraded_from_free_calendar">Witaj, \n \nWygląda na to, że właśnie uaktualniłeś(-aś) darmową aplikację do płatnej. Jeśli chcesz przenieść przechowywane lokalnie wydarzenia, musisz zrobić to ręcznie, eksportując je do pliku .ics w darmowej wersji aplikacji i importując tutaj przez górne menu. \n \nGdy będziesz zadowolony(-a) z konfiguracji w wersji Pro, możesz odinstalować starą darmową wersję, ponieważ nie będziesz jej już potrzebować i zapobiegnie to wyświetlaniu tego komunikatu. \n \nDzięki!</string>
+    <string name="upgraded_from_free_contacts">Witaj, \n \nWygląda na to, że właśnie uaktualniłeś(-aś) darmową aplikację do płatnej. Jeśli masz jakieś kontakty przechowywane w „%s”, musisz przenieść je ręcznie, eksportując do pliku .vcf w darmowej wersji aplikacji i importując tutaj przez górne menu. \n \nGdy będziesz zadowolony(-a) z konfiguracji w wersji Pro, możesz odinstalować starą darmową wersję, ponieważ nie będziesz jej już potrzebować i zapobiegnie to wyświetlaniu tego komunikatu. \n \nDzięki!</string>
+    <string name="upgraded_from_free_notes">Witaj, \n \nWygląda na to, że właśnie uaktualniłeś(-aś) darmową aplikację do płatnej. Jeśli chcesz przenieść swoje notatki, musisz zrobić to ręcznie, eksportując je do pliku w darmowej wersji aplikacji i importując tutaj przez górne menu. \n \nGdy będziesz zadowolony(-a) z konfiguracji w wersji Pro, możesz odinstalować starą darmową wersję, ponieważ nie będziesz jej już potrzebować i zapobiegnie to wyświetlaniu tego komunikatu. \n \nDzięki!</string>
     <string name="about">O aplikacji</string>
     <string name="website">Strona internetowa</string>
     <string name="website_label">Kod źródłowy można znaleźć na stronie</string>
@@ -928,15 +885,7 @@
     <string name="make_sure_upgrade">Pamiętaj również, że ta wersja aplikacji nie jest już rozwijana. Pobierz wersję Pro, aby uzyskać wiele ulepszeń.</string>
     <string name="read_it">Przeczytaj to</string>
     <string name="read_faq">Przeczytaj FAQ</string>
-    <string name="rate_us_prompt">Witaj!
-\n
-\nWygląda na to, że używasz tej aplikacji już od dłuższego czasu, i naprawdę to doceniamy.
-\n
-\nJeśli możemy poprosić Cię o przysługę, oceń nas w Google Play. To by nam naprawdę bardzo pomogło.
-\n
-\nBez względu na to, jak zdecydujesz, nie zobaczysz tego komunikatu ponownie.
-\n
-\nDzięki!</string>
+    <string name="rate_us_prompt">Witaj! \n \nWygląda na to, że używasz tej aplikacji już od dłuższego czasu, i naprawdę to doceniamy. \n \nJeśli możemy poprosić Cię o przysługę, oceń nas w Google Play. To by nam naprawdę bardzo pomogło. \n \nBez względu na to, jak zdecydujesz, nie zobaczysz tego komunikatu ponownie. \n \nDzięki!</string>
     <string name="rate_our_app">Oceń naszą aplikację :)</string>
     <string name="thank_you">Dziękujemy</string>
     <string name="widget_locked_pro">Widżet jest zablokowany.\nUaktualnij do wersji Pro, aby go odblokować.</string>
@@ -959,31 +908,26 @@
     <string name="sms_messenger_short">Wiadomości SMS</string>
     <string name="thank_you_short">Podziękowanie</string>
     <string name="voice_recorder_short">Rejestrator głosu</string>
-    <string name="sideloaded_app">
-        <![CDATA[
+    <string name="sideloaded_app"><![CDATA[
             Wygląda na to, że Twoja wersja aplikacji jest uszkodzona/zmodyfikowana. Pobierz <a href="%s">stąd</a> oryginalną wersję.
-        ]]>
-    </string>
+        ]]></string>
     <string name="frequently_asked_questions">Często zadawane pytania (FAQ)</string>
     <string name="before_asking_question">Zanim zadasz pytanie, przeczytaj najpierw</string>
-    <string name="faq_1_title_commons">Dlaczego nie widzę widżetu tej aplikacji na liście widżetów\?</string>
+    <string name="faq_1_title_commons">Dlaczego nie widzę widżetu tej aplikacji na liście widżetów?</string>
     <string name="faq_1_text_commons">Jest to najprawdopodobniej spowodowane przeniesieniem aplikacji na kartę pamięci. Istnieje ograniczenie systemu Android, które w takim przypadku ukrywa widżety danej aplikacji. Jedynym rozwiązaniem jest przeniesienie aplikacji z powrotem do pamięci wewnętrznej za pomocą ustawień urządzenia.</string>
     <string name="faq_2_title_commons">Chcę Was wesprzeć, ale nie mam jak wpłacić pieniędzy. Czy mogę zrobić coś innego?</string>
-    <string name="faq_2_text_commons">
-        <![CDATA[
+    <string name="faq_2_text_commons"><![CDATA[
             Oczywiście. Możesz powiedzieć światu o naszych aplikacjach lub podzielić się opinią i oceną w Sklepie Google Play. Możesz też pomóc, tłumacząc aplikacje na nowy język lub po prostu zaktualizować istniejące tłumaczenia.
             Instrukcja jak tłumaczyć znajduje się na <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">tej stronie</a>, albo po prostu skontaktuj się z nami pod adresem <a href="mailto:hello@fossify.org">hello@fossify.org</a>, jeśli masz jakiekolwiek pytania.
-        ]]>
-    </string>
+        ]]></string>
     <string name="faq_3_title_commons">Przypadkowo usunąłem kilka plików. Mogę je jakoś odzyskać?</string>
     <string name="faq_3_text_commons">Niestety, nie możesz. Pliki są usuwane natychmiast po potwierdzeniu w oknie dialogowym. System Android nie ma wbudowanego kosza.</string>
-    <string name="faq_4_title_commons">Nie podobają mi się kolory widżetów. Czy mogę je zmienić\?</string>
+    <string name="faq_4_title_commons">Nie podobają mi się kolory widżetów. Czy mogę je zmienić?</string>
     <string name="faq_4_text_commons">Tak. Po przeciągnięciu widżetu na ekran główny pojawia się okno jego konfiguracji. Zobaczysz na nim kolorowe kółka w lewym dolnym rogu, za pomocą których możesz wybrać nowe kolory. Możesz też użyć suwaka do ustawienia poziomu przezroczystości.</string>
     <string name="faq_5_title_commons">Czy mogę jakoś odzyskać usunięte pliki?</string>
     <string name="faq_5_text_commons">Jeśli faktycznie zostały usunięte, to już nie możesz. Jednakże domyślnie jest włączony kosz, dzięki czemu pliki zostaną przeniesione do niego zamiast zostać usunięte.</string>
     <string name="faq_6_title_commons">Z launchera zniknęła ikona aplikacji. Co mogę zrobić?</string>
-    <string name="faq_6_text_commons">Ten problem się pojawia, gdy Twój launcher nie obsługuje w pełni zmiany ikon aplikacji. Spróbuj uruchomić aplikację przez Google Play lub przez widżet, jeśli jest dostępny.
-        Po uruchomieniu przywróć domyślny zielony kolor ikony (#106D1F). W wyjątkowych przypadkach konieczne może okazać się przeinstalowanie aplikacji.</string>
+    <string name="faq_6_text_commons">Ten problem się pojawia, gdy Twój launcher nie obsługuje w pełni zmiany ikon aplikacji. Spróbuj uruchomić aplikację przez Google Play lub przez widżet, jeśli jest dostępny. Po uruchomieniu przywróć domyślny zielony kolor ikony (#106D1F). W wyjątkowych przypadkach konieczne może okazać się przeinstalowanie aplikacji.</string>
     <string name="faq_7_title_commons">Pieniądze zostały odjęte z mojego konta bankowego, ale nie mogę pobrać aplikacji. Co mogę zrobić?</string>
     <string name="faq_7_text_commons">Płatności są w pełni obsługiwane przez Google, ich system szwankuje od czasu do czasu. Wystarczy wyczyścić pamięć podręczną aplikacji Google Play i zrestartować urządzenie, a następnie ponowić próbę pobrania.</string>
     <string name="faq_8_title_commons">Dlaczego powinienem uaktualnić do wersji Pro?</string>
@@ -996,13 +940,11 @@
     <string name="translation">Tłumaczenie</string>
     <string name="development">Rozwój</string>
     <string name="other_help">Inna pomoc</string>
-    <string name="contributors_label">
-        <![CDATA[
+    <string name="contributors_label"><![CDATA[
             Ta lista zawiera wszystkich, którzy zauważalnie pomogli przy którejkolwiek z prostych aplikacji od Fossify, nie tylko przy tej. Tłumaczeniami zajmują się wolontariusze;
             daj nam znać, jeśli też chcesz pomóc. Instrukcja jak tłumaczyć znajduje się na <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">tej stronie</a>, albo po prostu skontaktuj się z nami pod adresem <a href="mailto:hello@fossify.org">hello@fossify.org</a>, jeśli masz jakiekolwiek pytania.
             Dziękuję wszystkim współtwórcom i innym wspierającym!
-        ]]>
-    </string>
+        ]]></string>
     <string name="translation_arabic">arabski</string>
     <string name="translation_azerbaijani">azerski</string>
     <string name="translation_bengali">bengalski</string>
@@ -1122,18 +1064,14 @@
     <string name="unlock_for_one_final_day">Odblokuj aplikację na jeszcze jeden dzień</string>
     <string name="welcome_to_app_name">Witaj w %s!</string>
     <string name="trial_start_description">Dziękujemy za korzystanie z naszej aplikacji. Możesz używać tej odblokowanej wersji przez <font color="#FFFFFF">%d dni</font>. Po zakończeniu okresu próbnego rozważ uaktualnienie do wersji Pro. Ma ona ogromną liczbę nowych funkcji, nowoczesny wygląd, brak reklam i wiele innych ulepszeń. \n \nWystarczy, że zapłacisz za nią tylko raz w życiu, a jeśli nie będziesz zadowolony(-a), możesz ją odinstalować i otrzymać zwrot pieniędzy. \n \nMamy nadzieję, że Ci się spodoba :)</string>
-    <string name="trial_end_description">Uaktualnij do wersji Pro, aby w pełni korzystać z aplikacji.
-\n
-\nWystarczy, że zapłacisz za nią tylko raz w życiu, a jeśli nie będziesz zadowolony(-a), możesz ją odinstalować i otrzymać zwrot pieniędzy.
-\n
-\nDo zobaczenia :)</string>
+    <string name="trial_end_description">Uaktualnij do wersji Pro, aby w pełni korzystać z aplikacji. \n \nWystarczy, że zapłacisz za nią tylko raz w życiu, a jeśli nie będziesz zadowolony(-a), możesz ją odinstalować i otrzymać zwrot pieniędzy. \n \nDo zobaczenia :)</string>
     <plurals name="trial_expires_days">
         <item quantity="one">Twój okres próbny wygasa za %d dzień.</item>
         <item quantity="few">Twój okres próbny wygasa za %d dni.</item>
         <item quantity="many">Twój okres próbny wygasa za %d dni.</item>
         <item quantity="other">Twój okres próbny wygasa za %d dni.</item>
     </plurals>
-    <string name="deprecated_app">PRZESTARZAŁA: Ta wersja aplikacji nie jest już utrzymywana. Pobierz wersję Pro z https://play.google.com/store/apps/details\?id=org.fossify..xxx.pro</string>
+    <string name="deprecated_app">PRZESTARZAŁA: Ta wersja aplikacji nie jest już utrzymywana. Pobierz wersję Pro z https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">Pamiętaj, że jeśli odinstalujesz którąkolwiek z płatnych aplikacji w ciągu 2 godzin, automatycznie otrzymasz zwrot pieniędzy. Jeśli chcesz zwrotu pieniędzy w dowolnym momencie później, wystarczy skontaktować się z nami na hello@fossify.org, a go otrzymasz. To sprawia, że aplikacje są łatwe do wypróbowania :)</string>
     <string name="developer_description">Zestaw prostych, otwartoźródłowych aplikacji na Androida z konfigurowalnymi widżetami, bez reklam i zbędnych uprawnień.</string>
     <string name="alarm">Alarm</string>
