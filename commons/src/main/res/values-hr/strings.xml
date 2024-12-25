@@ -20,8 +20,7 @@
     <string name="copy_to_clipboard">Kopiraj u međuspremnik</string>
     <string name="copy_number_to_clipboard">Kopiraj broj u međuspremnik</string>
     <string name="value_copied_to_clipboard">Vrijednost je kopirana u međuspremnik</string>
-    <string name="value_copied_to_clipboard_show">Vrijednost je kopirana u međuspremnik:
-\n%s</string>
+    <string name="value_copied_to_clipboard_show">Vrijednost je kopirana u međuspremnik: \n%s</string>
     <string name="dial_number">Nazovi broj</string>
     <string name="unknown">Nepoznato</string>
     <string name="always">Uvijek</string>
@@ -176,13 +175,7 @@
     <string name="simple_renaming">Jednostavno preimenovanje</string>
     <string name="pattern_renaming">Uzorak</string>
     <string name="string_to_add">Znakovni niz za dodavanje</string>
-    <string name="rename_date_time_pattern">%Y – godina
-\n%M – mjesec
-\n%D – dan
-\n%h – sat
-\n%m – minuta
-\n%s – sekunda
-\n%i – broj se povećava od 1</string>
+    <string name="rename_date_time_pattern">%Y – godina \n%M – mjesec \n%D – dan \n%h – sat \n%m – minuta \n%s – sekunda \n%i – broj se povećava od 1</string>
     <string name="filename_without_txt">Naziv datoteke (bez .txt)</string>
     <string name="filename_without_json">Naziv datoteke (bez .json)</string>
     <string name="filename_without_zip">Naziv datoteke (bez .zip)</string>
@@ -214,8 +207,7 @@
     <string name="could_not_create_folder">Nije moguće stvoriti mapu %s</string>
     <string name="could_not_create_file">Nije moguće stvoriti datoteku %s</string>
     <string name="no_new_items">Nisu pronađene nove stavke</string>
-    <string name="no_space">Odredište nema dovoljno slobodnog prostora.
-\nPotreban %1$s, dostupan %2$s</string>
+    <string name="no_space">Odredište nema dovoljno slobodnog prostora. \nPotreban %1$s, dostupan %2$s</string>
     <string name="system_service_disabled">Usluga sustava za odabir datoteka i mapa nije dostupna</string>
     <string name="create_new">Stvori novo</string>
     <string name="folder">Mapa</string>
@@ -225,9 +217,9 @@
     <string name="invalid_name">Naziv sadrži ne važeće znakove</string>
     <string name="empty_name">Upiši ime</string>
     <string name="unknown_error_occurred">Nepoznata greška se dogodila</string>
-    <string name="file_already_exists">Datoteka \"%s\" već postoji</string>
-    <string name="file_already_exists_overwrite">Datoteka \"%s\" već postoji. Presnimiti?</string>
-    <string name="folder_already_exists">Mapa \"%s\" već postoji</string>
+    <string name="file_already_exists">Datoteka s već postoji</string>
+    <string name="file_already_exists_overwrite">Datoteka s već postoji. Presnimiti?</string>
+    <string name="folder_already_exists">Mapa s već postoji</string>
     <string name="merge">Spoji</string>
     <string name="keep_both">Zadrži oboje</string>
     <string name="overwrite">Prepiši</string>
@@ -277,8 +269,7 @@
     <string name="sd_card">SD kartica</string>
     <string name="wrong_root_selected">Odabrana je pogrešana mapa. Odaberi glavnu mapu tvoje SD kartice</string>
     <string name="sd_card_usb_same">Putanje SD kartice i USB uređaja ne mogu biti iste</string>
-    <string name="app_on_sd_card">Čini se da je aplikacija instalirana na SD karticu, što čini widgete aplikacije nedostupnim. Nećete ih čak ni vidjeti na popisu dostupnih widgeta.
-        To je ograničenje sustava, pa ako želite upotrebljavati widgete, morate vratiti aplikaciju na unutarnju pohranu..</string>
+    <string name="app_on_sd_card">Čini se da je aplikacija instalirana na SD karticu, što čini widgete aplikacije nedostupnim. Nećete ih čak ni vidjeti na popisu dostupnih widgeta. To je ograničenje sustava, pa ako želite upotrebljavati widgete, morate vratiti aplikaciju na unutarnju pohranu..</string>
     <string name="wrong_folder_selected">Odabrana je pogrešna mapa. Odaberi putanju „%s”</string>
     <string name="properties">Svojstva</string>
     <string name="path">Putanja</string>
@@ -395,7 +386,7 @@
     <string name="change_order">Promijeni redoslijed</string>
     <string name="proceed_with_deletion">Jeste li sigurni da želite nastaviti s brisanjem?</string>
     <string name="deletion_confirmation">Jeste li sigurni da želite izbrisati %s?</string>
-    <string name="deletion_confirmation_short">Izbrisati %s\?</string>
+    <string name="deletion_confirmation_short">Izbrisati %s?</string>
     <string name="move_to_recycle_bin_confirmation">Jeste li sigurni da se želite premjestiti %s u koš za smeće?</string>
     <string name="are_you_sure_delete">Jeste li sigurni da želite izbrisati ovu stavku?</string>
     <string name="are_you_sure_recycle_bin">Jeste li sigurni da želite premjestiti ovu stavku u koš za smeće?</string>
@@ -592,8 +583,7 @@
     </plurals>
     <string name="alarm_goes_off_in">Preostalo vrijeme do pokretanja alarma:\n%s</string>
     <string name="reminder_triggers_in">Preostalo vrijeme do pokretanja podsjetnika:\n%s</string>
-    <string name="time_remaining">Preostalo vrijeme:
-\n%s</string>
+    <string name="time_remaining">Preostalo vrijeme: \n%s</string>
     <string name="alarm_warning">Provjeri ispravno funkcioniranje alarma. Mogao bi neispravno raditi zbog ograničenja sustava vezanih uz štednju baterije.</string>
     <string name="reminder_warning">Pazite da podsjetnici ispravno rade prije nego što se oslonite na njih. Moglo bi se dogoditi pogreška zbog ograničenja sustava vezanih uz štednju baterije.</string>
     <string name="notifications_disabled">Obavijesti ove aplikacije su deaktivirane. Aktiviraj ih u postavkama uređaja.</string>
@@ -670,7 +660,7 @@
     <string name="excluded">(isključene)</string>
     <string name="manage_excluded_folders">Upravljaj isključenim mapama</string>
     <string name="remove_all">Ukloni sve</string>
-    <string name="remove_all_description">Želiš li ukloniti sve mape s popisa isključenih\? Ovo neće izbrisati mape.</string>
+    <string name="remove_all_description">Želiš li ukloniti sve mape s popisa isključenih? Ovo neće izbrisati mape.</string>
     <string name="temporarily_show_excluded">Privremeno prikaži isključene</string>
     <string name="stop_showing_excluded">Prekini prikazivanje isključenih</string>
     <string name="manage_shown_tabs">Upravljaj prikazanim karticama</string>
@@ -711,14 +701,7 @@
     <string name="backups">Sigurnosne kopije</string>
     <string name="enable_automatic_backups">Aktiviraj automatsko spremanje sigurnosnih kopija</string>
     <string name="manage_automatic_backups">Upravljaj automatskim spremanjem sigurnosnih kopija</string>
-    <string name="date_time_pattern_info">Za automatsko imenovanje datoteke možeš koristiti sljedeće elemente:
-\n
-\n%Y – godina
-\n%M – mjesec
-\n%D – dan
-\n%h – sat
-\n%m – minuta
-\n%s – sekunda</string>
+    <string name="date_time_pattern_info">Za automatsko imenovanje datoteke možeš koristiti sljedeće elemente: \n \n%Y – godina \n%M – mjesec \n%D – dan \n%h – sat \n%m – minuta \n%s – sekunda</string>
     <string name="usb_detected">Čini se da na uređaj imate priključen USB uređaj. Da biste provjerili prikazuju li se datoteke ispravno, morate dodijeliti dodatna dopuštenja.</string>
     <string name="confirm_usb_storage_access_text">Molimo odaberite root mapu USB uređaja na sljedećem zaslonu, kako biste odobrili pristup</string>
     <string name="wrong_root_selected_usb">Odabrana je pogrešna mapa. Odaberite glavnu mapu USB uređaja</string>
@@ -784,47 +767,13 @@
     <string name="more_info">Više informacija</string>
     <string name="upgrade">Nadogradi</string>
     <string name="upgrade_calendar">Lokalno pohranjene događaje morate migrirati ručno putem izvoza u .ics datoteku, a zatim uvoza. Možete pronaći oba gumba za izvoz/uvoz na izborniku glavnog zaslona.</string>
-    <string name="upgraded_from_free_gallery">Zdravo,
-\n
-\nčini se da si upravo nadogradio/la besplatnu verziju aplikacije. Ako ti nadograđena verzija odgovara i ako preuzmeš svoje postavke i favorite, staru besplatnu aplikaciju možeš deinstalirati kako bi se izbjeglo slučajno pokretanje stare verzije jer ti više neće trebati. Time će se spriječiti prikazivanje ovog dijaloga.
-\n
-\nHvala!</string>
-    <string name="upgraded_to_pro_gallery">Zdravo,
-\n
-\nčini se da već imaš i Pro verziju aplikacije. Ako ti Pro verzija odgovara i ako preuzmeš svoje postavke i favorite, staru besplatnu aplikaciju možeš deinstalirati kako bi se izbjeglo slučajno pokretanje stare verzije jer ti više neće trebati.
-\n
-\nHvala!</string>
-    <string name="upgraded_from_free">Zdravo,
-\n
-\nčini se da si upravo nadogradio/la besplatnu verziju aplikacije. Ako ti nadograđena verzija odgovara i ako preuzmeš tvoje podatke, staru besplatnu aplikaciju možeš deinstalirati kako bi se izbjeglo slučajno pokretanje stare verzije jer ti više neće trebati. Time će se spriječiti prikazivanje ovog dijaloga.
-\n
-\nHvala!</string>
-    <string name="upgraded_to_pro">Zdravo,
-\n
-\nčini se da već imaš i Pro verziju aplikacije. Ako ti Pro verzija odgovara i ako preuzmeš tvoje podatke, ovu aplikaciju možeš deinstalirati kako bi se izbjeglo slučajno pokretanje te verzije jer ti više neće trebati.
-\n
-\nHvala!</string>
-    <string name="upgraded_from_free_calendar">Zdravo,
-\n
-\nčini se da si upravo nadogradio/la besplatnu verziju aplikacije. Ako želiš preuzeti tvoje lokalno spremljene događaje, to moraš učiniti ručno izvozom u .ics datoteku u besplatnoj verziji aplikacije i uvozom ovdje putem gornjeg izbornika.
-\n
-\nAko ti postava Pro verzije odgovara, staru besplatnu verziju možeš deinstalirati kako bi se izbjeglo slučajno pokretanje stare besplatne verzije jer ti više neće trebati. Time će se spriječiti prikazivanje ovog dijaloga.
-\n
-\nHvala!</string>
-    <string name="upgraded_from_free_contacts">Zdravo,
-\n
-\nčini se da si upravo nadogradio/la besplatnu verziju aplikacije. Tvoje spremljene kontakte u „%s” moraš preuzeti ručno izvozom u .vcf datoteku u besplatnoj verziji aplikacije i uvozom ovdje putem gornjeg izbornika.
-\n
-\nAko ti postava Pro verzije odgovara, staru besplatnu verziju možeš deinstalirati jer ti više neće trebati. Time će se spriječiti prikazivanje ovog dijaloga.
-\n
-\nHvala!</string>
-    <string name="upgraded_from_free_notes">Zdravo,
-\n
-\nčini se da si upravo nadogradio/la besplatnu verziju aplikacije. Ako želiš preuzeti tvoje lokalno spremljene bilješke, to moraš učiniti ručno izvozom u datoteku u besplatnoj verziji aplikacije i uvozom ovdje putem gornjeg izbornika.
-\n
-\nAko ti postava Pro verzije odgovara, staru besplatnu verziju možeš deinstalirati jer ti više neće trebati. Time će se spriječiti prikazivanje ovog dijaloga.
-\n
-\nHvala!</string>
+    <string name="upgraded_from_free_gallery">Zdravo, \n \nčini se da si upravo nadogradio/la besplatnu verziju aplikacije. Ako ti nadograđena verzija odgovara i ako preuzmeš svoje postavke i favorite, staru besplatnu aplikaciju možeš deinstalirati kako bi se izbjeglo slučajno pokretanje stare verzije jer ti više neće trebati. Time će se spriječiti prikazivanje ovog dijaloga. \n \nHvala!</string>
+    <string name="upgraded_to_pro_gallery">Zdravo, \n \nčini se da već imaš i Pro verziju aplikacije. Ako ti Pro verzija odgovara i ako preuzmeš svoje postavke i favorite, staru besplatnu aplikaciju možeš deinstalirati kako bi se izbjeglo slučajno pokretanje stare verzije jer ti više neće trebati. \n \nHvala!</string>
+    <string name="upgraded_from_free">Zdravo, \n \nčini se da si upravo nadogradio/la besplatnu verziju aplikacije. Ako ti nadograđena verzija odgovara i ako preuzmeš tvoje podatke, staru besplatnu aplikaciju možeš deinstalirati kako bi se izbjeglo slučajno pokretanje stare verzije jer ti više neće trebati. Time će se spriječiti prikazivanje ovog dijaloga. \n \nHvala!</string>
+    <string name="upgraded_to_pro">Zdravo, \n \nčini se da već imaš i Pro verziju aplikacije. Ako ti Pro verzija odgovara i ako preuzmeš tvoje podatke, ovu aplikaciju možeš deinstalirati kako bi se izbjeglo slučajno pokretanje te verzije jer ti više neće trebati. \n \nHvala!</string>
+    <string name="upgraded_from_free_calendar">Zdravo, \n \nčini se da si upravo nadogradio/la besplatnu verziju aplikacije. Ako želiš preuzeti tvoje lokalno spremljene događaje, to moraš učiniti ručno izvozom u .ics datoteku u besplatnoj verziji aplikacije i uvozom ovdje putem gornjeg izbornika. \n \nAko ti postava Pro verzije odgovara, staru besplatnu verziju možeš deinstalirati kako bi se izbjeglo slučajno pokretanje stare besplatne verzije jer ti više neće trebati. Time će se spriječiti prikazivanje ovog dijaloga. \n \nHvala!</string>
+    <string name="upgraded_from_free_contacts">Zdravo, \n \nčini se da si upravo nadogradio/la besplatnu verziju aplikacije. Tvoje spremljene kontakte u „%s” moraš preuzeti ručno izvozom u .vcf datoteku u besplatnoj verziji aplikacije i uvozom ovdje putem gornjeg izbornika. \n \nAko ti postava Pro verzije odgovara, staru besplatnu verziju možeš deinstalirati jer ti više neće trebati. Time će se spriječiti prikazivanje ovog dijaloga. \n \nHvala!</string>
+    <string name="upgraded_from_free_notes">Zdravo, \n \nčini se da si upravo nadogradio/la besplatnu verziju aplikacije. Ako želiš preuzeti tvoje lokalno spremljene bilješke, to moraš učiniti ručno izvozom u datoteku u besplatnoj verziji aplikacije i uvozom ovdje putem gornjeg izbornika. \n \nAko ti postava Pro verzije odgovara, staru besplatnu verziju možeš deinstalirati jer ti više neće trebati. Time će se spriječiti prikazivanje ovog dijaloga. \n \nHvala!</string>
     <string name="about">Informacije</string>
     <string name="website">Web stranica</string>
     <string name="website_label">Za izvorni kod posjeti</string>
@@ -858,19 +807,10 @@
     <string name="make_sure_upgrade">Također imaj na umu da se ova verzija aplikacije više ne razvija. Nabavi Pro verziju za mnoga poboljšanja.</string>
     <string name="read_it">Pročitajte</string>
     <string name="read_faq">Pročitaj ČPP</string>
-    <string name="rate_us_prompt">Zdravo,
-\n
-\nČini se da već duže vrijeme koristiš ovu aplikaciju i mi to jako cijenimo.
-\n
-\nMolimo te da nas ocijeniš nas na Google Playu. To bi nam stvarno puno pomoglo.
-\n
-\nKako god odlučiš, ovu poruku više nećeš vidjeti.
-\n
-\nHvala!</string>
+    <string name="rate_us_prompt">Zdravo, \n \nČini se da već duže vrijeme koristiš ovu aplikaciju i mi to jako cijenimo. \n \nMolimo te da nas ocijeniš nas na Google Playu. To bi nam stvarno puno pomoglo. \n \nKako god odlučiš, ovu poruku više nećeš vidjeti. \n \nHvala!</string>
     <string name="rate_our_app">Ocijeni našu aplikaciju :)</string>
     <string name="thank_you">Hvala</string>
-    <string name="widget_locked_pro">Widget je zaključan.
-\nZa otključavanje widgeta nadogradi na Pro verziju.</string>
+    <string name="widget_locked_pro">Widget je zaključan. \nZa otključavanje widgeta nadogradi na Pro verziju.</string>
     <string name="new_app">Hej,&lt;br&gt;&lt;br&gt; nedavno su objavljene nove aplikacije:&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; Možeš ih preuzeti pritiskom na njihove naslove ili ikone.&lt;br&gt;&lt;br&gt; Hvala</string>
     <string name="app_launcher_short">Pokretač aplikacija</string>
     <string name="calculator_short">Kalkulator</string>
@@ -892,11 +832,10 @@
     <string name="sideloaded_app">Čini se da je verzija aplikacije oštećena. Preuzmi izvornu verziju &lt;a href=%s&gt;ovdje&lt;/a&gt;.</string>
     <string name="frequently_asked_questions">Često postavljenja pitanja</string>
     <string name="before_asking_question">Prije postavljanja pitanja, najprije pročitaj</string>
-    <string name="faq_1_title_commons">Zašto ne vidim widgete ove aplikacije u popisu widgeta\?</string>
-    <string name="faq_1_text_commons">Najvjerojatnije zato jer ste premjestili aplikaciju na SD karticu. Postoji ograničenje Android sustava koje skriva dane widgete aplikacije u tom slučaju.
-        Jedino je rješenje vratiti aplikaciju na internu pohranu putem postavki uređaja.</string>
+    <string name="faq_1_title_commons">Zašto ne vidim widgete ove aplikacije u popisu widgeta?</string>
+    <string name="faq_1_text_commons">Najvjerojatnije zato jer ste premjestili aplikaciju na SD karticu. Postoji ograničenje Android sustava koje skriva dane widgete aplikacije u tom slučaju. Jedino je rješenje vratiti aplikaciju na internu pohranu putem postavki uređaja.</string>
     <string name="faq_2_title_commons">Želim Vam pomoći, ali ne mogu donirati novac. Ima li još nešto što mogu učiniti?</string>
-    <string name="faq_3_title_commons">Slučajno sam izbrisao/la neke datoteke. Kako ih mogu obnoviti\?</string>
+    <string name="faq_3_title_commons">Slučajno sam izbrisao/la neke datoteke. Kako ih mogu obnoviti?</string>
     <string name="faq_3_text_commons">Nažalost, ne možete. Datoteke se brišu odmah nakon dijaloškog okvira za potvrdu, nema dostupnog koša za smeće.</string>
     <string name="faq_4_title_commons">Ne sviđa mi se boja widgeta, mogu li ih promijeniti?</string>
     <string name="faq_4_text_commons">Da, kada povlačite widget na početnom zaslonu, pojavit će se zaslon za konfiguraciju widgeta. U donjem lijevom kutu vidjet ćete obojene kvadrate, samo ih pritisnite da biste odabrali novu boju. Možete koristiti i klizač za podešavanje alphe.</string>
@@ -1028,17 +967,13 @@
     <string name="trial_expires_soon">Tvoj probni rok uskoro isteče.</string>
     <string name="unlock_for_one_final_day">Otključaj aplikaciju za još jedan zadnji dan</string>
     <string name="welcome_to_app_name">Pozdrav u %s!</string>
-    <string name="trial_end_description">Nadogradi na Pro verziju za potpuni užitak.
-\n
-\nPlati samo jednom. Ako ti Pro verzija ne odgovara, deinstaliraj je i dobij povrat novca.
-\n
-\nVidimo se tamo :)</string>
+    <string name="trial_end_description">Nadogradi na Pro verziju za potpuni užitak. \n \nPlati samo jednom. Ako ti Pro verzija ne odgovara, deinstaliraj je i dobij povrat novca. \n \nVidimo se tamo :)</string>
     <plurals name="trial_expires_days">
         <item quantity="one">Tvoje probno razdoblje isteče za %d dan.</item>
         <item quantity="few">Tvoje probno razdoblje isteče za %d dana.</item>
         <item quantity="other">Tvoje probno razdoblje isteče za %d dana.</item>
     </plurals>
-    <string name="deprecated_app">ZASTARJELO: Ova verzija aplikacije se više ne održava. Nabavi Pro verziju na https://play.google.com/store/apps/details\?id=org.fossify..xxx.pro</string>
+    <string name="deprecated_app">ZASTARJELO: Ova verzija aplikacije se više ne održava. Nabavi Pro verziju na https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">Ako deinstaliraš bilo koju plaćenu aplikaciju u roku od 2 sata automatski ćeš dobiti povrat novca. Ako kasnije želiš povrat novca, jednostavno nas kontaktiraj na hello@fossify.org. To olakšava isprobavanje :)</string>
     <string name="developer_description">Skup jednostavnih Android aplikacija otvorenog koda s prilagodljivim widgetima, bez oglasa i nepotrebnih dozvola.</string>
     <string name="show_line_numbers">Prikaži brojeve redaka</string>
@@ -1120,4 +1055,10 @@
     <string name="platforms">Platforme</string>
     <string name="format_phone_numbers">Formatiraj telefonske brojeve</string>
     <string name="cryptocurrency">Kriptovaluta</string>
+    <string name="translation_belarusian"></string>
+    <string name="translation_central_kurdish"></string>
+    <string name="translation_kabyle"></string>
+    <string name="all_fossify_apps"></string>
+    <string name="theme_and_colors"></string>
+    <string name="known_issues"></string>
 </resources>
