@@ -119,7 +119,7 @@
     <string name="import_blocked_numbers">Importovat blokovaná čísla</string>
     <string name="must_make_default_dialer">Pro použití blokování čísel musíte nastavit tuto aplikaci jako výchozí pro správu hovorů.</string>
     <string name="set_as_default">Nastavit jako výchozí</string>
-    <string name="block_confirmation">Jste si jistí, že chcete zablokovat „%s“\?</string>
+    <string name="block_confirmation">Jste si jistí, že chcete zablokovat „%s“?</string>
     <string name="block_unknown_calls">Blokovat volání z neznámých čísel</string>
     <string name="block_hidden_calls">Blokovat volání ze skrytých čísel</string>
     <string name="block_unknown_messages">Blokovat zprávy z neznámých čísel</string>
@@ -241,7 +241,7 @@
     <string name="empty_name">Zadejte prosím název</string>
     <string name="unknown_error_occurred">Vyskytla se neznámá chyba</string>
     <string name="file_already_exists">Soubor „%s“ již existuje</string>
-    <string name="file_already_exists_overwrite">Soubor „%s“ již existuje. Přepsat\?</string>
+    <string name="file_already_exists_overwrite">Soubor „%s“ již existuje. Přepsat?</string>
     <string name="folder_already_exists">Složka „%s“ již existuje</string>
     <string name="merge">Sloučit</string>
     <string name="keep_both">Zachovat oba</string>
@@ -1007,11 +1007,7 @@
     <string name="trial_expires_soon">Vaše zkušební doba brzy vyprší.</string>
     <string name="unlock_for_one_final_day">Odemknout aplikaci na poslední jeden den</string>
     <string name="welcome_to_app_name">Vítejte v %s!</string>
-    <string name="trial_start_description">Děkujeme, že používáte naši aplikaci. Tuto odemčenou verzi můžete používat <font color="#FFFFFF">%d dnů</font>. Jakmile zkušební doba skončí, zvažte prosím upgrade na verzi Pro, která má obrovské množství nových funkcí, moderní vzhled, žádné reklamy a mnoho dalších vylepšení.
-\n
-\nStačí za ni jednou za život zaplatit a pokud nebudete spokojeni, můžete ji odinstalovat a peníze Vám budou vráceny.
-\n
-\nSnad se Vám bude líbit :)</string>
+    <string name="trial_start_description">Děkujeme, že používáte naši aplikaci. Tuto odemčenou verzi můžete používat <font color="#FFFFFF">%d dnů</font>. Jakmile zkušební doba skončí, zvažte prosím upgrade na verzi Pro, která má obrovské množství nových funkcí, moderní vzhled, žádné reklamy a mnoho dalších vylepšení. \n \nStačí za ni jednou za život zaplatit a pokud nebudete spokojeni, můžete ji odinstalovat a peníze Vám budou vráceny. \n \nSnad se Vám bude líbit :)</string>
     <string name="trial_end_description">Abyste si aplikaci užili naplno, přejděte prosím na verzi Pro.
 \n
 \nStačí za ni jednou za život zaplatit a pokud nebudete spokojeni, můžete ji odinstalovat a peníze Vám budou vráceny.
