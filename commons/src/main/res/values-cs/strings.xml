@@ -21,8 +21,7 @@
     <string name="copy_to_clipboard">Zkopírovat do schránky</string>
     <string name="copy_number_to_clipboard">Zkopírovat číslo do schránky</string>
     <string name="value_copied_to_clipboard">Hodnota byla zkopírována do schránky</string>
-    <string name="value_copied_to_clipboard_show">Hodnota byla zkopírována do schránky:
-\n%s</string>
+    <string name="value_copied_to_clipboard_show">Hodnota byla zkopírována do schránky: \n%s</string>
     <string name="dial_number">Vytočit číslo</string>
     <string name="unknown">Neznámé</string>
     <string name="always">Vždy</string>
@@ -45,8 +44,8 @@
     <string name="number">Číslo</string>
     <string name="no_contacts_found">Nenalezeny žádné kontakty</string>
     <string name="request_the_required_permissions">Vyžádat potřebná oprávnění</string>
-    <string name="no_access_to_contacts">Aplikace nemohla získat přístup k vašim kontaktům</string>
-    <string name="no_phone_call_permission">Aplikace nemá oprávnění pro zahájení telefonních hovorů. Prosím, poskytněte jej v nastavení zařízení</string>
+    <string name="no_access_to_contacts">Aplikace nemohla získat přístup k vašim kontaktům</string>
+    <string name="no_phone_call_permission">Aplikace nemá oprávnění pro zahájení telefonních hovorů. Prosím, poskytněte jej v nastavení zařízení</string>
     <string name="insert_text_here">Sem vložte text</string>
     <string name="call_person">Zavolat %s</string>
     <string name="confirm_calling_person">Potvrďte volání %s</string>
@@ -155,9 +154,9 @@
     <string name="filter_pro">Filtr (Pro)</string>
     <string name="no_items_found">Nenalezeny žádné položky.</string>
     <string name="change_filter">Změnit filtr</string>
-    <string name="no_storage_permissions">Je vyžadováno oprávnění pro přístup k úložišti</string>
+    <string name="no_storage_permissions">Je vyžadováno oprávnění pro přístup k úložišti</string>
     <string name="no_contacts_permission">Je vyžadováno oprávnění pro přístup ke kontaktům</string>
-    <string name="no_camera_permissions">Je vyžadováno oprávnění pro přístup k fotoaparátu</string>
+    <string name="no_camera_permissions">Je vyžadováno oprávnění pro přístup k fotoaparátu</string>
     <string name="no_audio_permissions">Je vyžadováno oprávnění pro přístup ke zvuku</string>
     <string name="no_permission">Žádné oprávnění</string>
     <string name="allow_notifications_reminders">Musíte aplikaci povolit zobrazování upozornění, jinak nemůže zobrazovat připomenutí.</string>
@@ -177,7 +176,7 @@
     <string name="rename_file_error">Nepodařilo se přejmenovat soubor</string>
     <string name="rename_folder_error">Nepodařilo se přejmenovat složku</string>
     <string name="rename_folder_empty">Název složky nesmí být prázdný</string>
-    <string name="rename_folder_exists">Složka s tímto názvem již existuje</string>
+    <string name="rename_folder_exists">Složka s tímto názvem již existuje</string>
     <string name="rename_folder_root">Nelze přejmenovat kořenovou složku úložiště</string>
     <string name="rename_folder_ok">Složka byla úspěšně přejmenována</string>
     <string name="renaming_folder">Přejmenování složky</string>
@@ -191,13 +190,7 @@
     <string name="simple_renaming">Jednoduché přejmenování</string>
     <string name="pattern_renaming">Vzor</string>
     <string name="string_to_add">Přidat řetězec</string>
-    <string name="rename_date_time_pattern">%Y – rok
-\n%M – měsíc
-\n%D – den
-\n%h – hodina
-\n%m – minuta
-\n%s – sekunda
-\n%i – číslo narůstající od 1</string>
+    <string name="rename_date_time_pattern">%Y – rok \n%M – měsíc \n%D – den \n%h – hodina \n%m – minuta \n%s – sekunda \n%i – číslo narůstající od 1</string>
     <string name="filename_without_txt">Název souboru (bez „.txt“)</string>
     <string name="filename_without_json">Název souboru (bez „.json“)</string>
     <string name="filename_without_zip">Název souboru (bez „.zip“)</string>
@@ -229,14 +222,13 @@
     <string name="could_not_create_folder">Nepodařilo se vytvořit složku %s</string>
     <string name="could_not_create_file">Nepodařilo se vytvořit soubor %s</string>
     <string name="no_new_items">Nenalezeny žádné nové položky</string>
-    <string name="no_space">V cílové složce není dostatek místa.
-\nJe potřeba %1$s, k dispozici %2$s</string>
-    <string name="system_service_disabled">Systémová služba pro výběr souborů a složek není k dispozici</string>
+    <string name="no_space">V cílové složce není dostatek místa. \nJe potřeba %1$s, k dispozici %2$s</string>
+    <string name="system_service_disabled">Systémová služba pro výběr souborů a složek není k dispozici</string>
     <string name="create_new">Vytvořit nový</string>
     <string name="folder">Složka</string>
     <string name="file">Soubor</string>
     <string name="create_new_folder">Vytvořit novou složku</string>
-    <string name="name_taken">Soubor nebo složka s tímto názvem již existuje</string>
+    <string name="name_taken">Soubor nebo složka s tímto názvem již existuje</string>
     <string name="invalid_name">Název obsahuje neplatné znaky</string>
     <string name="empty_name">Zadejte prosím název</string>
     <string name="unknown_error_occurred">Vyskytla se neznámá chyba</string>
@@ -247,20 +239,20 @@
     <string name="keep_both">Zachovat oba</string>
     <string name="overwrite">Přepsat</string>
     <string name="skip">Přeskočit</string>
-    <string name="append">Ponechat s „_1“</string>
+    <string name="append">Ponechat s „_1“</string>
     <string name="apply_to_all">Použít pro všechny</string>
-    <string name="system_folder_restriction">Systém neumožňuje operaci v této složce, vyberte prosím jinou</string>
+    <string name="system_folder_restriction">Systém neumožňuje operaci v této složce, vyberte prosím jinou</string>
     <string name="system_folder_copy_restriction">Systém neumožňuje kopírování do této složky, vyberte prosím jinou</string>
-    <string name="rename_in_sd_card_system_restriction">Systém neumožňuje přejmenování v této složce</string>
-    <string name="rename_internal_system_restriction">Nelze přejmenovat složky přímo na interním úložišti, pouze v podsložkách</string>
+    <string name="rename_in_sd_card_system_restriction">Systém neumožňuje přejmenování v této složce</string>
+    <string name="rename_internal_system_restriction">Nelze přejmenovat složky přímo na interním úložišti, pouze v podsložkách</string>
     <string name="cannot_rename_folder">Nelze přejmenovat tuto složku</string>
     <string name="select_folder">Zvolte složku</string>
     <string name="select_file">Zvolte soubor</string>
-    <string name="confirm_storage_access_title">Potvrďte přístup k externímu úložišti</string>
+    <string name="confirm_storage_access_title">Potvrďte přístup k externímu úložišti</string>
     <string name="confirm_folder_access_title">Potvrďte přístup ke složce</string>
-    <string name="confirm_storage_access_text">Pro poskytnutí oprávnění k zápisu na následující obrazovce zvolte kořenový adresář SD karty</string>
+    <string name="confirm_storage_access_text">Pro poskytnutí oprávnění k zápisu na následující obrazovce zvolte kořenový adresář SD karty</string>
     <string name="confirm_storage_access_text_sd">Pokud SD kartu nevidíte, vyzkoušejte následující</string>
-    <string name="confirm_storage_access_android_text">Povolte aplikaci přístup k vybranému úložišti stisknutím „Použít tuto složku“ na další obrazovce dole.</string>
+    <string name="confirm_storage_access_android_text">Povolte aplikaci přístup k vybranému úložišti stisknutím „Použít tuto složku“ na další obrazovce dole.</string>
     <string name="confirm_storage_access_android_text_specific">Povolte prosím přístup k \'<b>%s</b>\' stisknutím \'<b>Použít tuto složku</b>\' na další obrazovce dole.</string>
     <string name="confirm_create_doc_for_new_folder_text">Pro vytvoření nové složky stiskněte \'<b>Uložit</b>\' na další obrazovce dole.</string>
     <string name="confirm_selection">Potvrdit výběr</string>
@@ -291,8 +283,8 @@
     <string name="internal">Interní</string>
     <string name="sd_card">SD karta</string>
     <string name="wrong_root_selected">Zvolena nesprávná složka. Prosím, vyberte kořenový adresář SD karty</string>
-    <string name="sd_card_usb_same">Cesta k SD kartě a USB zařízení se nemohou shodovat</string>
-    <string name="app_on_sd_card">Zdá se, že máte aplikaci nainstalovanou na SD kartě, widgety proto nebudou dostupné. Neuvidíte je ani v seznamu dostupných widgetů. Jedná se o systémové omezení. Proto, pokud chcete widgety používat, musíte aplikaci přesunout zpět do interního úložiště.</string>
+    <string name="sd_card_usb_same">Cesta k SD kartě a USB zařízení se nemohou shodovat</string>
+    <string name="app_on_sd_card">Zdá se, že máte aplikaci nainstalovanou na SD kartě, widgety proto nebudou dostupné. Neuvidíte je ani v seznamu dostupných widgetů. Jedná se o systémové omezení. Proto, pokud chcete widgety používat, musíte aplikaci přesunout zpět do interního úložiště.</string>
     <string name="wrong_folder_selected">Vybrána nesprávná složka. Prosím, vyberte cestu „%s“</string>
     <string name="properties">Vlastnosti</string>
     <string name="path">Cesta</string>
@@ -311,7 +303,7 @@
     <string name="gps_coordinates">GPS souřadnice</string>
     <string name="altitude">Nadmořská výška</string>
     <string name="remove_exif">Odstranit EXIF</string>
-    <string name="remove_exif_confirmation">Jste si jisti, že chcete odstranit hodnoty EXIF, jako jsou souřadnice GPS, model fotoaparátu atd.\?</string>
+    <string name="remove_exif_confirmation">Jste si jisti, že chcete odstranit hodnoty EXIF, jako jsou souřadnice GPS, model fotoaparátu atd.?</string>
     <string name="exif_removed">EXIF hodnoty úspěšně odstraněny</string>
     <string name="background_color">Barva pozadí</string>
     <string name="text_color">Barva písma</string>
@@ -332,7 +324,7 @@
     <string name="undo_changes">Vrátit změny</string>
     <string name="undo_changes_confirmation">Opravdu chcete vrátit změny?</string>
     <string name="cannot_be_undone">Tuto akci nelze vrátit zpět.</string>
-    <string name="save_before_closing">Máte neuložené změny. Chcete je před ukončením uložit\?</string>
+    <string name="save_before_closing">Máte neuložené změny. Chcete je před ukončením uložit?</string>
     <string name="global_theme_success">Barvy úspěšně aktualizovány. Byl přidán nový motiv „Sdílený“, v budoucnu jej prosím použijte pro úpravu barev u všech Jednoduchých aplikací zároveň.</string>
     <string name="light_theme">Světlý</string>
     <string name="dark_theme">Tmavý</string>
@@ -409,10 +401,10 @@
     <string name="full_name">Celé jméno</string>
     <string name="use_custom_sorting">Použít vlastní třídění</string>
     <string name="change_order">Změnit pořadí</string>
-    <string name="proceed_with_deletion">Opravdu chcete pokračovat v mazání\?</string>
-    <string name="deletion_confirmation">Opravdu chcete smazat  %s?</string>
+    <string name="proceed_with_deletion">Opravdu chcete pokračovat v mazání?</string>
+    <string name="deletion_confirmation">Opravdu chcete smazat %s?</string>
     <string name="move_to_recycle_bin_confirmation">Opravdu chcete přesunout %s do koše?</string>
-    <string name="are_you_sure_delete">Opravdu chcete smazat tuto položku\?</string>
+    <string name="are_you_sure_delete">Opravdu chcete smazat tuto položku?</string>
     <string name="are_you_sure_recycle_bin">Opravdu chcete přesunout tuto položku do koše?</string>
     <string name="do_not_ask_again">V této relaci se již znovu neptat</string>
     <string name="do_not_show_again">Neukazovat znovu</string>
@@ -440,14 +432,14 @@
     <string name="authenticate">Ověřit</string>
     <string name="authentication_failed">Ověření selhalo</string>
     <string name="authentication_blocked">Ověření je blokováno, zkuste to prosím později</string>
-    <string name="no_fingerprints_registered">Nejsou registrovány žádné otisky prstu, prosím, přidejte nějaké v nastavení svého zařízení</string>
+    <string name="no_fingerprints_registered">Nejsou registrovány žádné otisky prstu, prosím, přidejte nějaké v nastavení svého zařízení</string>
     <string name="go_to_settings">Přejít do nastavení</string>
     <string name="protection_setup_successfully">Heslo bylo úspěšně nastaveno. Pokud jej zapomenete, přeinstalujte prosím aplikaci.</string>
     <string name="fingerprint_setup_successfully">Ochrana byla úspěšně nastavena. V případě problémů s jejím resetováním, prosím, přeinstalujte aplikaci.</string>
     <string name="lock_folder">Uzamknout složku</string>
     <string name="lock_folder_pro">Uzamknout složku (Pro)</string>
     <string name="unlock_folder">Odemknout složku</string>
-    <string name="lock_folder_notice">Tato ochrana funguje pouze v této aplikaci, nemá za cíl nahradit šifrování složky fungující napříč systémem.</string>
+    <string name="lock_folder_notice">Tato ochrana funguje pouze v této aplikaci, nemá za cíl nahradit šifrování složky fungující napříč systémem.</string>
     <string name="password">Heslo</string>
     <string name="add_password">Přidat heslo</string>
     <string name="empty_password_new">Zadejte prosím heslo</string>
@@ -604,8 +596,7 @@
     </plurals>
     <string name="alarm_goes_off_in">Zbývající čas do zvonění budíku:\n%s</string>
     <string name="reminder_triggers_in">Zbývající čas do zobrazení připomínky:\n%s</string>
-    <string name="time_remaining">Zbývající čas:
-\n%s</string>
+    <string name="time_remaining">Zbývající čas: \n%s</string>
     <string name="alarm_warning">Před spoléháním se na budík se prosím ujistěte, že funguje správně. Některá systémová omezení spojená se zvýšením výdrže baterie mohou způsobovat problémy.</string>
     <string name="reminder_warning">Před spoléháním se na připomínky se prosím ujistěte, že fungují správně. Zkontrolujte na svém zařízení nastavení baterie a oznamování, zda tam není nic blokujícího připomínky nebo ukončujícího aplikace běžící na pozadí.</string>
     <string name="notifications_disabled">Oznámení této aplikace jsou vypnuta. Pro jejich povolení prosím přejděte do nastavení svého zařízení.</string>
@@ -642,12 +633,12 @@
     <string name="password_protect_file_deletion">Chránit heslem mazání a přesouvání souborů</string>
     <string name="keep_last_modified">Zachovat původní čas poslední úpravy při souborových operacích</string>
     <string name="show_info_bubble">Zobrazit informační bublinu při prohlížení položek tažením posuvníku</string>
-    <string name="prevent_phone_from_sleeping">Zabránit uspání zařízení dokud je aplikace v popředí</string>
+    <string name="prevent_phone_from_sleeping">Zabránit uspání zařízení dokud je aplikace v popředí</string>
     <string name="skip_delete_confirmation">Vždy přeskočit potvrzení mazání souborů</string>
     <string name="enable_pull_to_refresh">Povolit obnovení seznamu tažením shora</string>
     <string name="use_24_hour_time_format">Použít 24-hodinový formát času</string>
     <string name="change_date_and_time_format">Změnit formát data a času</string>
-    <string name="sunday_first">Začátek týdne v neděli</string>
+    <string name="sunday_first">Začátek týdne v neděli</string>
     <string name="start_week_on">Začátek týdne</string>
     <string name="widgets">Widgety</string>
     <string name="use_same_snooze">Vždy použít stejný čas odložení</string>
@@ -682,7 +673,7 @@
     <string name="excluded">(vyloučené)</string>
     <string name="manage_excluded_folders">Spravovat vyloučené složky</string>
     <string name="remove_all">Odstranit všechny</string>
-    <string name="remove_all_description">Odstranit všechny složky ze seznamu vyloučených\? Tato operace neodstraní obsah složek.</string>
+    <string name="remove_all_description">Odstranit všechny složky ze seznamu vyloučených? Tato operace neodstraní obsah složek.</string>
     <string name="temporarily_show_excluded">Dočasně zobrazit vyloučené</string>
     <string name="stop_showing_excluded">Přestat zobrazovat vyloučené</string>
     <string name="manage_shown_tabs">Spravovat zobrazené karty</string>
@@ -725,14 +716,7 @@
     <string name="backups">Zálohy</string>
     <string name="enable_automatic_backups">Povolit automatické zálohování</string>
     <string name="manage_automatic_backups">Spravovat automatické zálohování</string>
-    <string name="date_time_pattern_info">K automatickému pojmenování souboru můžete použít následující vzory:
-\n
-\n%Y – rok
-\n%M – měsíc
-\n%D – den
-\n%h – hodiny
-\n%m – minuta
-\n%s – sekunda</string>
+    <string name="date_time_pattern_info">K automatickému pojmenování souboru můžete použít následující vzory: \n \n%Y – rok \n%M – měsíc \n%D – den \n%h – hodiny \n%m – minuta \n%s – sekunda</string>
     <string name="usb_detected">Zdá se, že ke svému zařízení máte připojeno USB zařízení. Pro správné zobrazení jeho souborů jsou potřeba další oprávnění.</string>
     <string name="confirm_usb_storage_access_text">Pro povolení přístupu prosím na následující obrazovce zvolte kořenový adresář USB zařízení</string>
     <string name="wrong_root_selected_usb">Zvolena nesprávná složka, vyberte prosím kořenový adresář USB zařízení</string>
@@ -798,47 +782,13 @@
     <string name="more_info">Více informací</string>
     <string name="upgrade">Stáhnout</string>
     <string name="upgrade_calendar">Lokálně uložené události musíte přenést ručně, exportováním do .ics souboru a následně je naimportovat. Tlačítka pro export/import najdete v nabídce na hlavní obrazovce.</string>
-    <string name="upgraded_from_free_gallery">Zdravím,
-\n
-\nzdá se, že jste právě upgradovali z bezplatné verze. Jakmile budete s touto verzí spokojeni a případně přenesete svá data, můžete starou bezplatnou verzi odinstalovat, protože ji již nebudete potřebovat a vyhnete se jejímu náhodnému spuštění. Také se již nebude zobrazovat tento dialog.
-\n
-\nDěkuji!</string>
-    <string name="upgraded_to_pro_gallery">Zdravím,
-\n
-\nzdá se, že již máte nainstalovanou také verzi Pro. Jakmile s ní budete spokojeni a případně přenesete svá data, můžete tuto bezplatnou verzi odinstalovat, protože ji již nebudete potřebovat a vyhnete se jejímu náhodnému spuštění.
-\n
-\nDěkuji!</string>
-    <string name="upgraded_from_free">Zdravím,
-\n
-\nzdá se, že jste právě upgradovali z bezplatné verze. Jakmile budete s touto verzí spokojeni a případně přenesete svá data, můžete starou bezplatnou verzi odinstalovat, protože ji již nebudete potřebovat a vyhnete se jejímu náhodnému spuštění. Také se již nebude zobrazovat tento dialog.
-\n
-\nDěkuji!</string>
-    <string name="upgraded_to_pro">Zdravím,
-\n
-\nzdá se, že již máte nainstalovanou také verzi Pro. Jakmile s ní budete spokojeni a případně přenesete svá data, můžete tuto bezplatnou verzi odinstalovat, protože ji již nebudete potřebovat a vyhnete se jejímu náhodnému spuštění.
-\n
-\nDěkuji!</string>
-    <string name="upgraded_from_free_calendar">Zdravím,
-\n
-\nzdá se, že jste právě upgradovali z bezplatné verze. Pokud chcete přenést své lokálně uložené události, musíte to udělat ručně tak, že je exportujete do souboru .ics v bezplatné verzi aplikace a importujete je sem přes horní nabídku.
-\n
-\nJakmile budete spokojeni se svým nastavením ve verzi Pro, můžete starou bezplatnou verzi odinstalovat, protože ji již nebudete potřebovat. Také se již nebude zobrazovat tento dialog.
-\n
-\nDěkuji!</string>
-    <string name="upgraded_from_free_contacts">Zdravím,
-\n
-\nzdá se, že jste právě upgradovali z bezplatné verze. Pokud jste měli nějaké kontakty uložené pod „%s“, musíte je přenést ručně tak, že je exportujete do souboru .vcf v bezplatné verzi aplikace a imporujete je sem přes horní nabídku.
-\n
-\nJakmile budete spokojeni se svým nastavením ve verzi Pro, můžete starou bezplatnou verzi odinstalovat, protože ji již nebudete potřebovat. Také se již nebude zobrazovat tento dialog.
-\n
-\nDěkuji!</string>
-    <string name="upgraded_from_free_notes">Zdravím,
-\n
-\nzdá se, že jste právě upgradovali z bezplatné verze. Chcete-li přenést své poznámky, musíte to udělat ručně tak, že je exportujete do souboru v bezplatné verzi aplikace a importujete je sem přes horní nabídku.
-\n
-\nJakmile budete spokojeni se svým nastavením ve verzi Pro, můžete starou bezplatnou verzi odinstalovat, protože ji již nebudete potřebovat. Také se již nebude zobrazovat tento dialog.
-\n
-\nDěkuji!</string>
+    <string name="upgraded_from_free_gallery">Zdravím, \n \nzdá se, že jste právě upgradovali z bezplatné verze. Jakmile budete s touto verzí spokojeni a případně přenesete svá data, můžete starou bezplatnou verzi odinstalovat, protože ji již nebudete potřebovat a vyhnete se jejímu náhodnému spuštění. Také se již nebude zobrazovat tento dialog. \n \nDěkuji!</string>
+    <string name="upgraded_to_pro_gallery">Zdravím, \n \nzdá se, že již máte nainstalovanou také verzi Pro. Jakmile s ní budete spokojeni a případně přenesete svá data, můžete tuto bezplatnou verzi odinstalovat, protože ji již nebudete potřebovat a vyhnete se jejímu náhodnému spuštění. \n \nDěkuji!</string>
+    <string name="upgraded_from_free">Zdravím, \n \nzdá se, že jste právě upgradovali z bezplatné verze. Jakmile budete s touto verzí spokojeni a případně přenesete svá data, můžete starou bezplatnou verzi odinstalovat, protože ji již nebudete potřebovat a vyhnete se jejímu náhodnému spuštění. Také se již nebude zobrazovat tento dialog. \n \nDěkuji!</string>
+    <string name="upgraded_to_pro">Zdravím, \n \nzdá se, že již máte nainstalovanou také verzi Pro. Jakmile s ní budete spokojeni a případně přenesete svá data, můžete tuto bezplatnou verzi odinstalovat, protože ji již nebudete potřebovat a vyhnete se jejímu náhodnému spuštění. \n \nDěkuji!</string>
+    <string name="upgraded_from_free_calendar">Zdravím, \n \nzdá se, že jste právě upgradovali z bezplatné verze. Pokud chcete přenést své lokálně uložené události, musíte to udělat ručně tak, že je exportujete do souboru .ics v bezplatné verzi aplikace a importujete je sem přes horní nabídku. \n \nJakmile budete spokojeni se svým nastavením ve verzi Pro, můžete starou bezplatnou verzi odinstalovat, protože ji již nebudete potřebovat. Také se již nebude zobrazovat tento dialog. \n \nDěkuji!</string>
+    <string name="upgraded_from_free_contacts">Zdravím, \n \nzdá se, že jste právě upgradovali z bezplatné verze. Pokud jste měli nějaké kontakty uložené pod „%s“, musíte je přenést ručně tak, že je exportujete do souboru .vcf v bezplatné verzi aplikace a imporujete je sem přes horní nabídku. \n \nJakmile budete spokojeni se svým nastavením ve verzi Pro, můžete starou bezplatnou verzi odinstalovat, protože ji již nebudete potřebovat. Také se již nebude zobrazovat tento dialog. \n \nDěkuji!</string>
+    <string name="upgraded_from_free_notes">Zdravím, \n \nzdá se, že jste právě upgradovali z bezplatné verze. Chcete-li přenést své poznámky, musíte to udělat ručně tak, že je exportujete do souboru v bezplatné verzi aplikace a importujete je sem přes horní nabídku. \n \nJakmile budete spokojeni se svým nastavením ve verzi Pro, můžete starou bezplatnou verzi odinstalovat, protože ji již nebudete potřebovat. Také se již nebude zobrazovat tento dialog. \n \nDěkuji!</string>
     <string name="about">O aplikaci</string>
     <string name="website_label">Pro zdrojové kódy navštivte</string>
     <string name="email_label">Zpětnou vazbu či návrhy zasílejte na</string>
@@ -873,10 +823,8 @@
     <string name="rate_us_prompt">Zdravím,\n\nzdá se, že již tuto aplikaci používáte nějaký čas a velmi si toho ceníme.\n\nMůžeme-li vás proto požádat o laskavost, ohodnoťte nás prosím na Google Play. Moc by nám to pomohlo.\n\nBez ohledu na to, jak se rozhodnete, tato zpráva se vám již nezobrazí.\n\nĎěkujeme!</string>
     <string name="rate_our_app">Ohodnoťte naši aplikaci, prosím :)</string>
     <string name="thank_you">Děkujeme</string>
-    <string name="widget_locked_pro">Widget je uzamčen.
-\nChcete-li jej odemknout, upgradujte na verzi Pro.</string>
-    <string name="new_app">
-        <![CDATA[
+    <string name="widget_locked_pro">Widget je uzamčen. \nChcete-li jej odemknout, upgradujte na verzi Pro.</string>
+    <string name="new_app"><![CDATA[
             Zdravím,<br><br>
             pouze bych vám chtěl oznámit, že byla nedávno uveřejněna nová aplikace:<br><br>
             <a href="%1$s">%2$s</a><br><br>
@@ -884,8 +832,7 @@
             <a href="%5$s">%6$s</a><br><br>
             Stáhnete ji klepnutím na název.<br><br>
             Děkuji
-        ]]>
-    </string>
+        ]]></string>
     <string name="app_launcher_short">Spouštěč aplikací</string>
     <string name="calculator_short">Kalkulačka</string>
     <string name="calendar_short">Kalendář</string>
@@ -904,16 +851,13 @@
     <string name="sms_messenger_short">SMS zprávy</string>
     <string name="thank_you_short">Děkujeme</string>
     <string name="voice_recorder_short">Hlasový záznamník</string>
-    <string name="sideloaded_app">
-        <![CDATA[
+    <string name="sideloaded_app"><![CDATA[
             Zdá se, že vaše verze aplikace je poškozená. Prosím stáhněte originální verzi <a href="%s">zde</a>.
-        ]]>
-    </string>
+        ]]></string>
     <string name="frequently_asked_questions">Často kladené otázky</string>
     <string name="before_asking_question">Před položením otázky si prosím prvně přečtěte</string>
     <string name="faq_1_title_commons">Proč nevidím widget této aplikace v přehledu widgetů?</string>
-    <string name="faq_1_text_commons">Je velmi pravděpodobné, že jste aplikaci přesunuli na SD kartu. Jde o omezení systému Android, které v takovém případě skryje widget dané aplikace.
-        Jediným řešením je přesunutí aplikace zpět do interního úložiště skrze nastavení vašeho zařízení.</string>
+    <string name="faq_1_text_commons">Je velmi pravděpodobné, že jste aplikaci přesunuli na SD kartu. Jde o omezení systému Android, které v takovém případě skryje widget dané aplikace. Jediným řešením je přesunutí aplikace zpět do interního úložiště skrze nastavení vašeho zařízení.</string>
     <string name="faq_2_title_commons">Chtěl bych vás podpořit, ale nemohu peněžně. Mohu pomoci i jiným způsobem?</string>
     <string name="faq_3_title_commons">Nechtěně jsem smazal některé soubory, jak je mohu obnovit?</string>
     <string name="faq_3_text_commons">Bohužel nemůžete. Soubory jsou smazány okamžitě po potvrzovacím dialogu, žádný koš není k dispozici.</string>
@@ -924,10 +868,8 @@
     <string name="faq_6_title_commons">Ikona aplikace zmizela z domovské obrazovky. Co s tím?</string>
     <string name="faq_7_title_commons">Peníze mi byly z bankovního účtu odepsány, aplikaci však nemohu stáhnout. Co s tím?</string>
     <string name="faq_7_text_commons">Platby jsou plně spravovány Googlem, jejich systém však občas nefunguje tak jak by měl. Zkuste vymazat mezipaměť aplikace Obchod Play, restartujte zařízení a zkuste aplikaci stáhnout znovu.</string>
-    <string name="faq_8_title_commons">Proč bych měl přejít na verzi Pro\?</string>
-    <string name="faq_8_text_commons">Tato verze aplikace již nebude aktualizována. Chyby, které jste možná objevili, proto nebudou nikdy opraveny. Také již nepřibudou žádné nové funkce. Pro verzi získáte za malý poplatek v Obchodě Google Play.
-        Jde o jednorázovou platbu, což znamená, že po zakoupení již nebudete muset nic platit znovu. Ani při koupi nového zařízení. Pokud se vám Pro verze nebude líbit, můžete ji do pár hodin odinstalovat a peníze vám budou automaticky vráceny.
-        Pokud budete chtít aplikaci vrátit kdykoliv později, stačí nám napsat na hello@fossify.org a peníze vám vrátíme.</string>
+    <string name="faq_8_title_commons">Proč bych měl přejít na verzi Pro?</string>
+    <string name="faq_8_text_commons">Tato verze aplikace již nebude aktualizována. Chyby, které jste možná objevili, proto nebudou nikdy opraveny. Také již nepřibudou žádné nové funkce. Pro verzi získáte za malý poplatek v Obchodě Google Play. Jde o jednorázovou platbu, což znamená, že po zakoupení již nebudete muset nic platit znovu. Ani při koupi nového zařízení. Pokud se vám Pro verze nebude líbit, můžete ji do pár hodin odinstalovat a peníze vám budou automaticky vráceny. Pokud budete chtít aplikaci vrátit kdykoliv později, stačí nám napsat na hello@fossify.org a peníze vám vrátíme.</string>
     <string name="faq_9_title_commons">Jak mohu vybrat více položek najednou?</string>
     <string name="faq_9_text_commons">Existuje několik způsobů, jak toho dosáhnout. První spouští režim výběru dlouhým stisknutím jedné položky a následným krátkým kliknutím na ostatní, abyste je vybrali. Druhý způsob je podobný výběru položek na PC pomocí myši, stačí spustit režim výběru dlouhým stisknutím jedné položky a potom ji prstem stále dolů přetahovat přes další položky pro výběr. Třetím způsobem výběru více položek je dlouhé stisknutí jedné položky, pak dlouhé stisknutí další a vybere se vše mezi nimi. Pokud chcete vybrat všechny položky, stačí dlouze stisknout jednu položku a poté kliknout na počítadlo vybraných položek v levém horním rohu. Tím se vybere nebo zruší výběr všeho.</string>
     <string name="faq_10_title_commons">Koupil jsem si aplikaci, ale nemohu ji stáhnout do jiného zařízení.</string>
@@ -1008,11 +950,7 @@
     <string name="unlock_for_one_final_day">Odemknout aplikaci na poslední jeden den</string>
     <string name="welcome_to_app_name">Vítejte v %s!</string>
     <string name="trial_start_description">Děkujeme, že používáte naši aplikaci. Tuto odemčenou verzi můžete používat <font color="#FFFFFF">%d dnů</font>. Jakmile zkušební doba skončí, zvažte prosím upgrade na verzi Pro, která má obrovské množství nových funkcí, moderní vzhled, žádné reklamy a mnoho dalších vylepšení. \n \nStačí za ni jednou za život zaplatit a pokud nebudete spokojeni, můžete ji odinstalovat a peníze Vám budou vráceny. \n \nSnad se Vám bude líbit :)</string>
-    <string name="trial_end_description">Abyste si aplikaci užili naplno, přejděte prosím na verzi Pro.
-\n
-\nStačí za ni jednou za život zaplatit a pokud nebudete spokojeni, můžete ji odinstalovat a peníze Vám budou vráceny.
-\n
-\nUvidíme se tam :)</string>
+    <string name="trial_end_description">Abyste si aplikaci užili naplno, přejděte prosím na verzi Pro. \n \nStačí za ni jednou za život zaplatit a pokud nebudete spokojeni, můžete ji odinstalovat a peníze Vám budou vráceny. \n \nUvidíme se tam :)</string>
     <plurals name="trial_expires_days">
         <item quantity="one">Vaše zkušební doba vyprší za %d den.</item>
         <item quantity="few">Vaše zkušební doba vyprší za %d dny.</item>
@@ -1131,4 +1069,5 @@
     <string name="theme_and_colors">Motiv a barvy</string>
     <string name="all_fossify_apps">Všechny aplikace Fossify</string>
     <string name="known_issues">Známé problémy</string>
+    <string name="translation_kabyle"></string>
 </resources>
