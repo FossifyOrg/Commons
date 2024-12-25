@@ -110,11 +110,11 @@
     <string name="import_blocked_numbers">Importar números bloqueados</string>
     <string name="must_make_default_dialer">Tem de tornar esta aplicação como marcador padrão para poder bloquear números.</string>
     <string name="set_as_default">Definir como padrão</string>
-    <string name="block_confirmation">Tem a certeza de que pretende bloquear \"%s\"\?</string>
+    <string name="block_confirmation">Tem a certeza de que pretende bloquear s?</string>
     <string name="block_unknown_calls">Bloquear chamadas de números não existentes nos contactos</string>
     <string name="block_unknown_messages">Bloquear mensagens de números não existentes nos contactos</string>
     <string name="add_blocked_number_helper_text">Introduza um número ou padrão (ex: *12345*, +1*8888) para bloquear todas as chamadas e mensagens de números que coincidam com o padrão.</string>
-    <string name="must_make_default_caller_id_app">Não é possível bloquear números desconhecidos sem não conceder a permissão \"Caller ID\".</string>
+    <string name="must_make_default_caller_id_app">Não é possível bloquear números desconhecidos sem não conceder a permissão aller ID</string>
     <string name="favorites">Favoritos</string>
     <string name="add_favorites">Adicionar favoritos</string>
     <string name="add_to_favorites">Adicionar aos favoritos</string>
@@ -211,9 +211,9 @@
     <string name="invalid_name">O nome contém caracteres inválidos</string>
     <string name="empty_name">Introduza um nome</string>
     <string name="unknown_error_occurred">Ocorreu um erro desconhecido</string>
-    <string name="file_already_exists">Já existe um ficheiro com o nome \"%s\"</string>
-    <string name="file_already_exists_overwrite">Já existe um ficheiro com o nome \"%s\". Substituir?</string>
-    <string name="folder_already_exists">Já existe uma pasta com o nome \"%s\"</string>
+    <string name="file_already_exists">Já existe um ficheiro com o nome s\\</string>
+    <string name="file_already_exists_overwrite">Já existe um ficheiro com o nome s Substituir?</string>
+    <string name="folder_already_exists">Já existe uma pasta com o nome s\\</string>
     <string name="merge">Combinar</string>
     <string name="keep_both">Manter ambos</string>
     <string name="overwrite">Substituir</string>
@@ -264,8 +264,7 @@
     <string name="root">Raiz</string>
     <string name="wrong_root_selected">Pasta inválida, por favor selecione a pasta raíz do cartão SD</string>
     <string name="sd_card_usb_same">Não pode utilizar o mesmo caminho para o cartão SD e para a unidade USB</string>
-    <string name="app_on_sd_card">Parece que a aplicação está instalada no cartão SD, o que torna o widget indisponível. Nem sequer aparecerá na lista de widgets disponíveis.
-        Esta é uma limitação do sistema e, se quiser usar widgets, tem que mover a aplicação para o armazenamento interno.</string>
+    <string name="app_on_sd_card">Parece que a aplicação está instalada no cartão SD, o que torna o widget indisponível. Nem sequer aparecerá na lista de widgets disponíveis. Esta é uma limitação do sistema e, se quiser usar widgets, tem que mover a aplicação para o armazenamento interno.</string>
     <string name="wrong_folder_selected">Selecionou a pasta errada, selecione o caminho \'%s\'</string>
     <string name="properties">Propriedades</string>
     <string name="path">Caminho</string>
@@ -303,15 +302,13 @@
     <string name="save">Guardar</string>
     <string name="discard">Descartar</string>
     <string name="undo_changes">Desfazer alterações</string>
-    <string name="undo_changes_confirmation">Tem a certeza de que pretende desfazer as alterações\?</string>
+    <string name="undo_changes_confirmation">Tem a certeza de que pretende desfazer as alterações?</string>
     <string name="cannot_be_undone">Esta ação não pode ser revertida.</string>
-    <string name="save_before_closing">Existem alterações não guardadas. Pretende guardar antes de sair\?</string>
+    <string name="save_before_closing">Existem alterações não guardadas. Pretende guardar antes de sair?</string>
     <string name="global_theme_success">Cores atualizadas com sucesso. Foi criado o novo tema \'Partilhado\', que pode utilizar para atualizar as cores de todas as aplicações Simple.</string>
-    <string name="purchase_thank_you">
-        <![CDATA[
+    <string name="purchase_thank_you"><![CDATA[
             Por favor compre a aplicação <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> para desbloquear esta funcionalidade e ajudar no desenvolvimento. Obrigado!
-        ]]>
-    </string>
+        ]]></string>
     <string name="light_theme">Claro</string>
     <string name="dark_theme">Escuro</string>
     <string name="auto_theme">Automático</string>
@@ -385,12 +382,12 @@
     <string name="full_name">Nome completo</string>
     <string name="use_custom_sorting">Ordenação personalizada</string>
     <string name="change_order">Alterar ordem</string>
-    <string name="proceed_with_deletion">Tem a certeza de que pretende continuar\?</string>
-    <string name="deletion_confirmation">Tem a certeza de que pretende apagar %s\?</string>
+    <string name="proceed_with_deletion">Tem a certeza de que pretende continuar?</string>
+    <string name="deletion_confirmation">Tem a certeza de que pretende apagar %s?</string>
     <string name="deletion_confirmation_short">Apagar %s?</string>
-    <string name="move_to_recycle_bin_confirmation">Tem a certeza de que pretende mover %s para a reciclagem\?</string>
-    <string name="are_you_sure_delete">Tem a certeza de que pretende apagar este item\?</string>
-    <string name="are_you_sure_recycle_bin">Tem a certeza de que pretende mover este item para a reciclagem\?</string>
+    <string name="move_to_recycle_bin_confirmation">Tem a certeza de que pretende mover %s para a reciclagem?</string>
+    <string name="are_you_sure_delete">Tem a certeza de que pretende apagar este item?</string>
+    <string name="are_you_sure_recycle_bin">Tem a certeza de que pretende mover este item para a reciclagem?</string>
     <string name="do_not_ask_again">Não perguntar mais para esta sessão</string>
     <string name="do_not_show_again">Não mostrar novamente</string>
     <string name="yes">Sim</string>
@@ -651,7 +648,7 @@
     <string name="excluded">(excluída)</string>
     <string name="manage_excluded_folders">Gerir pastas excluídas</string>
     <string name="remove_all">Remover todas</string>
-    <string name="remove_all_description">Remover todas as pastas da lista de exclusões\? Esta ação não apaga as pastas.</string>
+    <string name="remove_all_description">Remover todas as pastas da lista de exclusões? Esta ação não apaga as pastas.</string>
     <string name="temporarily_show_excluded">Mostrar temporariamente itens excluídos</string>
     <string name="stop_showing_excluded">Parar de mostrar itens excluídos</string>
     <string name="manage_shown_tabs">Separadores a mostrar</string>
@@ -668,7 +665,7 @@
     <string name="restore_all_files">Restaurar todos os ficheiros</string>
     <string name="recycle_bin_emptied">A reciclagem foi limpa</string>
     <string name="files_restored_successfully">Os ficheiros foram restaurados</string>
-    <string name="empty_recycle_bin_confirmation">Tem a certeza de que pretende esvaziar a reciclagem\? Todos os itens serão apagados permanentemente.</string>
+    <string name="empty_recycle_bin_confirmation">Tem a certeza de que pretende esvaziar a reciclagem? Todos os itens serão apagados permanentemente.</string>
     <string name="recycle_bin_empty">A reciclagem está vazia</string>
     <string name="moving_recycle_bin_items_disabled">Não é possível mover itens para fora da Reciclagem, utilize a opção Restaurar</string>
     <string name="show_the_recycle_bin">Mostrar reciclagem</string>
@@ -693,14 +690,7 @@
     <string name="no_entries_for_exporting">Não existem itens para exportação</string>
     <string name="enable_automatic_backups">Ativar backups automáticos</string>
     <string name="manage_automatic_backups">Gerir backups automáticos</string>
-    <string name="date_time_pattern_info">Pode utilizar os seguintes padrões para nomear automaticamente os seus ficheiros:
-\n
-\n%Y - ano
-\n%M - mês
-\n%D - dia
-\n%h - hora
-\n%m - minutos
-\n%s - segundos</string>
+    <string name="date_time_pattern_info">Pode utilizar os seguintes padrões para nomear automaticamente os seus ficheiros: \n \n%Y - ano \n%M - mês \n%D - dia \n%h - hora \n%m - minutos \n%s - segundos</string>
     <string name="usb_detected">Não parece existir qualquer unidade USB conectada ao dispositivo. Para se certificar de que os ficheiro aparecem, deve conceder algumas permissões.</string>
     <string name="confirm_usb_storage_access_text">Escolha a pasta raíz da unidade USB no ecrã seguinte para conceder o acesso</string>
     <string name="wrong_root_selected_usb">Escolheu uma pasta inválida, deve selecionar a pasta raíz da unidade USB</string>
@@ -762,42 +752,12 @@
     <string name="more_info">Mais informação</string>
     <string name="upgrade">Atualizar versão</string>
     <string name="upgrade_calendar">Pode migrar os eventos locais exportando-os para um ficheiro .ics para posterior importação. Encontra os botões para importar/exportar no menu do ecrã principal.</string>
-    <string name="upgraded_from_free_gallery">Olá,
-\n
-\nParece que fez a atualização a partir da versão gratuita. Se a aplicação for do seu agrado, caso já tenha migrado os dados, pode desinstalar a versão antiga para evitar que a utilize sem querer.
-\n
-\nObrigado!</string>
-    <string name="upgraded_from_free">Olá,
-\n
-\nParece que fez a atualização a partir da versão gratuita. Se a aplicação for do seu agrado, caso já tenha migrado os dados, pode desinstalar a versão antiga para evitar que a utilize sem querer.
-\n
-\nObrigado!</string>
-    <string name="upgraded_to_pro">Olá,
-\n
-\nParece que você já tem a versão Pro. Se a aplicação for do seu agrado, caso já tenha migrado os dados, pode desinstalar a versão antiga para evitar que a utilize sem querer.
-\n
-\nObrigado!</string>
-    <string name="upgraded_from_free_calendar">Olá,
-\n
-\nParece que fez a atualização a partir da versão gratuita. Se quiser migrar os eventos guardados localmente, tem que os exportar para um ficheiro .ics através da aplicação gratuita e importá-los através do menu.
-\n
-\nSe a versão Pro for do seu agrado, caso já tenha migrado os dados, pode desinstalar a versão antiga para evitar que a utilize sem querer.
-\n
-\nObrigado!</string>
-    <string name="upgraded_from_free_contacts">Olá,
-\n
-\nParece que fez a atualização a partir da versão gratuita. Se tiver contactos guardados em \"%s\" e os quiser migrar para a versão Pro, tem que os exportar para um ficheiro .vcf através da aplicação gratuita e importá-los através do menu.
-\n
-\nSe a versão Pro for do seu agrado, caso já tenha migrado os dados, pode desinstalar a versão antiga para evitar que a utilize sem querer.
-\n
-\nObrigado!</string>
-    <string name="upgraded_from_free_notes">Olá,
-\n
-\nParece que fez a atualização a partir da versão gratuita. Se tiver notas guardadas e as quiser migrar para a versão Pro, tem que as exportar para um ficheiro através da aplicação gratuita e importá-los através do menu.
-\n
-\nSe a versão Pro for do seu agrado, caso já tenha migrado os dados, pode desinstalar a versão antiga para evitar que a utilize sem querer.
-\n
-\nObrigado!</string>
+    <string name="upgraded_from_free_gallery">Olá, \n \nParece que fez a atualização a partir da versão gratuita. Se a aplicação for do seu agrado, caso já tenha migrado os dados, pode desinstalar a versão antiga para evitar que a utilize sem querer. \n \nObrigado!</string>
+    <string name="upgraded_from_free">Olá, \n \nParece que fez a atualização a partir da versão gratuita. Se a aplicação for do seu agrado, caso já tenha migrado os dados, pode desinstalar a versão antiga para evitar que a utilize sem querer. \n \nObrigado!</string>
+    <string name="upgraded_to_pro">Olá, \n \nParece que você já tem a versão Pro. Se a aplicação for do seu agrado, caso já tenha migrado os dados, pode desinstalar a versão antiga para evitar que a utilize sem querer. \n \nObrigado!</string>
+    <string name="upgraded_from_free_calendar">Olá, \n \nParece que fez a atualização a partir da versão gratuita. Se quiser migrar os eventos guardados localmente, tem que os exportar para um ficheiro .ics através da aplicação gratuita e importá-los através do menu. \n \nSe a versão Pro for do seu agrado, caso já tenha migrado os dados, pode desinstalar a versão antiga para evitar que a utilize sem querer. \n \nObrigado!</string>
+    <string name="upgraded_from_free_contacts">Olá, \n \nParece que fez a atualização a partir da versão gratuita. Se tiver contactos guardados em s e os quiser migrar para a versão Pro, tem que os exportar para um ficheiro .vcf através da aplicação gratuita e importá-los através do menu. \n \nSe a versão Pro for do seu agrado, caso já tenha migrado os dados, pode desinstalar a versão antiga para evitar que a utilize sem querer. \n \nObrigado!</string>
+    <string name="upgraded_from_free_notes">Olá, \n \nParece que fez a atualização a partir da versão gratuita. Se tiver notas guardadas e as quiser migrar para a versão Pro, tem que as exportar para um ficheiro através da aplicação gratuita e importá-los através do menu. \n \nSe a versão Pro for do seu agrado, caso já tenha migrado os dados, pode desinstalar a versão antiga para evitar que a utilize sem querer. \n \nObrigado!</string>
     <string name="about">Acerca</string>
     <string name="website">Site</string>
     <string name="website_label">Mais aplicações Simple e código-fonte em</string>
@@ -832,8 +792,7 @@
     <string name="rate_us_prompt">Olá,\n\nparece que está a utilizar esta aplicação há algum tempo, o que nos deixa satisfeitos.\n\nGostaríamos de lhe pedir o favor de nos avaliar na Google Play. Isso iria ajudar-nos bastante.\n\nIndependentemente da sua escolha, esta mensagem não será mostrada novamente.\n\nObrigado!</string>
     <string name="rate_our_app">Avalie a nossa aplicação :)</string>
     <string name="thank_you">Obrigado</string>
-    <string name="widget_locked_pro">O widget está bloqueando. 
-\nAdquira a versão Pro para desbloquear.</string>
+    <string name="widget_locked_pro">O widget está bloqueando. \nAdquira a versão Pro para desbloquear.</string>
     <string name="new_app">Olá.&lt;br&gt;&lt;br&gt; Temos novidades! Uma nova aplicação ficou disponível recentemente:&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; Pode descarregar a nova aplicação carregando no seu título ou ícone.&lt;br&gt;&lt;br&gt; Obrigado</string>
     <string name="calculator_short">Calculadora</string>
     <string name="calendar_short">Calendário</string>
@@ -852,28 +811,26 @@
     <string name="sms_messenger_short">Mensagens</string>
     <string name="thank_you_short">Obrigado</string>
     <string name="voice_recorder_short">Gravador de sons</string>
-    <string name="sideloaded_app">
-        <![CDATA[
+    <string name="sideloaded_app"><![CDATA[
             Parece que a sua aplicação está danificada. Descarregue a versão original <a href="%s">aqui</a>.
-        ]]>
-    </string>
+        ]]></string>
     <string name="frequently_asked_questions">Perguntas frequentes (FAQ)</string>
     <string name="before_asking_question">Antes de colocar uma questão, leia as</string>
-    <string name="faq_1_title_commons">Por que não vejo o widget desta aplicação na lista de widgets\?</string>
+    <string name="faq_1_title_commons">Por que não vejo o widget desta aplicação na lista de widgets?</string>
     <string name="faq_1_text_commons">O mais provável é que a aplicação tenha sido movida para o cartão SD. Existe uma limitação do sistema Android que oculta os widgets de aplicações quando assim é. A única solução é mover a aplicação de volta para o armazenamento interno através das definições do seu dispositivo.</string>
-    <string name="faq_2_title_commons">Gostaria de vos apoiar mas não posso fazer um donativo em dinheiro. Há algo mais que eu possa fazer\?</string>
-    <string name="faq_3_title_commons">Apaguei alguns ficheiros por engano, como posso recuperá-los\?</string>
+    <string name="faq_2_title_commons">Gostaria de vos apoiar mas não posso fazer um donativo em dinheiro. Há algo mais que eu possa fazer?</string>
+    <string name="faq_3_title_commons">Apaguei alguns ficheiros por engano, como posso recuperá-los?</string>
     <string name="faq_3_text_commons">Infelizmente, não pode. Os ficheiros são apagados instantaneamente após o diálogo de confirmação, não existe reciclagem disponível.</string>
-    <string name="faq_4_title_commons">Não gosto das cores do widget, posso mudá-las\?</string>
+    <string name="faq_4_title_commons">Não gosto das cores do widget, posso mudá-las?</string>
     <string name="faq_4_text_commons">Sim, ao arrastar um widget no ecrã inicial, aparece a sua configuração. Basta premir os quadrados coloridos no canto inferior esquerdo para escolher uma nova cor. E pode usar a barra deslizante para ajustar a transparência também.</string>
-    <string name="faq_5_title_commons">Existe alguma forma de restaurar os ficheiros apagados\?</string>
+    <string name="faq_5_title_commons">Existe alguma forma de restaurar os ficheiros apagados?</string>
     <string name="faq_5_text_commons">Se tiverem sido de facto apagados, não. Por definição, os ficheiros são movidos para a reciclagem e não apagados. Se, no entanto, a reciclagem tiver sido desativada, os ficheiros serão apagados permanentemente.</string>
-    <string name="faq_6_title_commons">O ícone da aplicação desapareceu. O que posso fazer\?</string>
-    <string name="faq_7_title_commons">O dinheiro foi retirado da minha conta bancária, mas não consigo descarregar a aplicação. O que posso fazer\?</string>
+    <string name="faq_6_title_commons">O ícone da aplicação desapareceu. O que posso fazer?</string>
+    <string name="faq_7_title_commons">O dinheiro foi retirado da minha conta bancária, mas não consigo descarregar a aplicação. O que posso fazer?</string>
     <string name="faq_7_text_commons">Os pagamentos são totalmente geridos pela Google, o sistema deles falha de vez em quanto. Limpe a cache da aplicação Google Play, reinicie o dispositivo e tente descarregá-la novamente.</string>
-    <string name="faq_8_title_commons">Porque devo atualizar para a versão Pro\?</string>
+    <string name="faq_8_title_commons">Porque devo atualizar para a versão Pro?</string>
     <string name="faq_8_text_commons">Como a versão da sua aplicação já não será atualizada, os erros detetados nunca serão corrigidos. Tão pouco serão novas funções adicionadas. Pode comprar a versão Pro na Google Play por uma pequena quantia. É um pagamento único, o que significa que, uma vez comprada, nunca precisará de pagar novamente. Nem mesmo se trocar de dispositivo. Se não estiver satisfeito com a versão Pro, basta desinstalá-la em algumas horas e será reembolsado automaticamente. Se pretender um reembolso posteriormente, contacte-nos pelo e-mail hello@fossify.org para o receber.</string>
-    <string name="faq_9_title_commons">Como posso selecionar vários itens de uma só vez\?</string>
+    <string name="faq_9_title_commons">Como posso selecionar vários itens de uma só vez?</string>
     <string name="faq_9_text_commons">Existem diversas formas de o fazer. A primeira forma de aceder à seleção é premir longamente um item e ir tocando nos outros para os selecionar. A segunda forma é similar à seleção de itens com um rato no computador: basta manter um item premido e arrastar o dedo para selecionar os restantes. A terceira forma, esta para seleção múltipla, é premir longamente um item e, em seguida, premir longamente também outro item para que todos os itens no intervalo entre eles fiquem selecionados. Caso pretenda selecionar todos os itens, basta manter um deles premido e clicar na contagem de itens selecionados no canto superior esquerdo, ação essa que selecionará ou removerá a seleção de todos os itens.</string>
     <string name="faq_10_title_commons">Comprei a aplicação mas não a consigo descarregar para outro dispositivo.</string>
     <string name="faq_10_text_commons">Experimente limpar a cache da Google Play e reiniciar seu dispositivo. Trata-se de uma falha da Google Play e não está relacionada com a aplicação em si.</string>
@@ -995,7 +952,7 @@
     <string name="start_free_trial">Iniciar versão de teste</string>
     <string name="trial_expires_soon">A versão de teste está quase a caducar.</string>
     <string name="welcome_to_app_name">Bem-vindo a %s!</string>
-    <string name="deprecated_app">AVISO: Esta versão da aplicação já não está em desenvolvimento. Pode obter a versão Pro em https://play.google.com/store/apps/details\?id=org.fossify..xxx.pro</string>
+    <string name="deprecated_app">AVISO: Esta versão da aplicação já não está em desenvolvimento. Pode obter a versão Pro em https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">Não se esqueça de desinstalar qualquer aplicação paga no prazo de 2 horas para ser reembolsado automaticamente. Para ser reembolsado posteriormente, contacte-nos para hello@fossify.org. Assim é mais fácil testar :)</string>
     <string name="developer_description">Uma gama de aplicações para Android, open source, com widgets personalizados, sem anúncios nem permissões desnecessárias.</string>
     <string name="too_many_incorrect_attempts">Introduziu o código errado várias vezes. \nTente novamente dentro de %d segundos.</string>
@@ -1083,4 +1040,26 @@
     <string name="theme_and_colors">Tema e cores</string>
     <string name="known_issues">Erros conhecidos</string>
     <string name="translation_central_kurdish">Curdo central</string>
+    <string name="upgraded_to_pro_gallery"></string>
+    <string name="allow_full_screen_notifications_reminders"></string>
+    <string name="allow_notifications_music_player"></string>
+    <string name="shared_theme_note"></string>
+    <string name="faq_2_text_commons"></string>
+    <string name="allow_full_screen_notifications_incoming_calls"></string>
+    <string name="contributors_label"></string>
+    <string name="allow_notifications_incoming_calls"></string>
+    <string name="trial_end_description"></string>
+    <string name="allow_notifications_voice_recorder"></string>
+    <string name="trial_start_description"></string>
+    <string name="allow_alarm_sleep_timer"></string>
+    <string name="translation_kabyle"></string>
+    <string name="allow_alarm_scheduled_messages"></string>
+    <string name="donate_new"></string>
+    <string name="allow_location_permission"></string>
+    <string name="allow_notifications_files"></string>
+    <string name="translation_chuvash"></string>
+    <string name="donate_short"></string>
+    <string name="allow_notifications_incoming_messages"></string>
+    <string name="donate_please"></string>
+    <string name="features_locked"></string>
 </resources>
