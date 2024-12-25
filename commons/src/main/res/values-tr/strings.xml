@@ -118,7 +118,7 @@
     <string name="import_blocked_numbers">Engellenen numaraları içe aktar</string>
     <string name="must_make_default_dialer">Engellenen numaraları kullanmak için bu uygulamayı öntanımlı çevirici uygulaması yapmalısınız.</string>
     <string name="set_as_default">Öntanımlı olarak ayarla</string>
-    <string name="block_confirmation">\"%s\" gerçekten engellensin mi?</string>
+    <string name="block_confirmation">s gerçekten engellensin mi?</string>
     <string name="block_unknown_calls">Kayıtlı olmayan kişilerden gelen aramaları engelle</string>
     <string name="block_hidden_calls">Gizli numaralardan gelen aramaları engelle</string>
     <string name="block_unknown_messages">Kayıtlı olmayan kişilerden gelen mesajları engelle</string>
@@ -239,9 +239,9 @@
     <string name="invalid_name">Ad, geçersiz karakterler içeriyor</string>
     <string name="empty_name">Lütfen yeni bir ad girin</string>
     <string name="unknown_error_occurred">Bilinmeyen bir hata oluştu</string>
-    <string name="file_already_exists">\"%s\" dosyası zaten var</string>
-    <string name="file_already_exists_overwrite">\"%s\" dosyası zaten var. Üzerine yazılsın mı?</string>
-    <string name="folder_already_exists">\"%s\" klasörü zaten var</string>
+    <string name="file_already_exists">s dosyası zaten var</string>
+    <string name="file_already_exists_overwrite">s dosyası zaten var. Üzerine yazılsın mı?</string>
+    <string name="folder_already_exists">s klasörü zaten var</string>
     <string name="merge">Birleştir</string>
     <string name="keep_both">İkisini de sakla</string>
     <string name="overwrite">Üzerine yaz</string>
@@ -260,8 +260,8 @@
     <string name="confirm_storage_access_text">Yazma erişimi vermek için lütfen bir sonraki ekranda SD kartın kök klasörünü seçin</string>
     <string name="confirm_storage_access_text_sd">SD kartı görmüyorsanız, bunu deneyin</string>
     <string name="confirm_storage_access_android_text">Lütfen alttaki \'Bu klasörü kullan\' seçeneğine basarak uygulamanın seçilen depolama alanına erişmesine izin verin.</string>
-    <string name="confirm_storage_access_android_text_specific">Lütfen alttaki \'&lt;b&gt;Bu klasörü kullan&lt;/b&gt;\' seçeneğine basarak bir sonraki ekranda \'&lt;b&gt;%s&lt;/b&gt;\' erişimine izin verin.</string>
-    <string name="confirm_create_doc_for_new_folder_text">Yeni klasörü oluşturmak için lütfen sonraki ekranın altındaki \'&lt;b&gt;Kaydet&lt;/b&gt;\' düğmesine basın.</string>
+    <string name="confirm_storage_access_android_text_specific">Lütfen alttaki \'<b>Bu klasörü kullan</b>\' seçeneğine basarak bir sonraki ekranda \'<b>%s</b>\' erişimine izin verin.</string>
+    <string name="confirm_create_doc_for_new_folder_text">Yeni klasörü oluşturmak için lütfen sonraki ekranın altındaki \'<b>Kaydet</b>\' düğmesine basın.</string>
     <string name="confirm_selection">Seçimi onayla</string>
     <string name="loading">Yükleniyor…</string>
     <string name="access_storage_prompt">Lütfen uygulamamızın tüm dosyalarınıza erismesine izin verin, bu olmadan iyi çalışmayabilir.</string>
@@ -309,7 +309,7 @@
     <string name="gps_coordinates">GPS koordinatları</string>
     <string name="altitude">Rakım</string>
     <string name="remove_exif">EXIF\'i kaldır</string>
-    <string name="remove_exif_confirmation">GPS koordinatları, kamera modeli vb. EXIF değerlerini kaldırmak istediğinizden emin misiniz\?</string>
+    <string name="remove_exif_confirmation">GPS koordinatları, kamera modeli vb. EXIF değerlerini kaldırmak istediğinizden emin misiniz?</string>
     <string name="exif_removed">EXIF değerleri başarıyla kaldırıldı</string>
     <string name="background_color">Arka plan rengi</string>
     <string name="text_color">Metin rengi</string>
@@ -333,7 +333,7 @@
     <string name="save_before_closing">Kaydedilmemiş değişiklikleriniz var. Çıkmadan önce kaydedilsin mi?</string>
     <string name="apply_to_all_apps">Renkleri tüm Fossify uygulamalarına uygula</string>
     <string name="app_icon_color_warning">Dikkat: Bazı başlatıcılar uygulama simgesi özelleştirmesini doğru şekilde yapamayabilir. Simge kaybolursa, uygulamayı Google Play veya erişilebiliyorsa bir widget aracılığıyla başlatmayı deneyin. Başlattıktan sonra, öntanımlı #106D1F yeşil simge rengini geri yükleyin. Aşırı durumlarda, uygulamanın yeniden kurulması gerekebilir.</string>
-    <string name="global_theme_success">"Renkler başarıyla güncellendi. 'Paylaşılan' adlı yeni bir Tema eklendi, lütfen gelecekte tüm uygulama renklerini güncellemek için onu kullanın."</string>
+    <string name="global_theme_success">Renkler başarıyla güncellendi. \'Paylaşılan\' adlı yeni bir Tema eklendi, lütfen gelecekte tüm uygulama renklerini güncellemek için onu kullanın.</string>
     <string name="shared_theme_note">Pro uygulama sürümünü kullanıyor olsanız bile, teknik nedenlerden dolayı hala Fossify Teşekkürler\'e ihtiyacınız olduğunu unutmayın. Renk eşitlemesini o yapar.</string>
     <string name="purchase_thank_you">Bu işlevin kilidini açmak ve geliştirmeyi desteklemek için lütfen &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Teşekkürler&lt;/a&gt;\'i satın alın. Teşekkürler!</string>
     <string name="light_theme">Aydınlık</string>
@@ -433,8 +433,7 @@
     <string name="please_enter_pin">Lütfen PIN\'i girin</string>
     <string name="wrong_pin">Yanlış PIN</string>
     <string name="pin_must_be_4_digits_long">PIN en az 4 basamaklı olmalıdır</string>
-    <string name="too_many_incorrect_attempts">Çok fazla hatalı kilit açma denemesi.
-\n%d saniye içinde tekrar deneyin.</string>
+    <string name="too_many_incorrect_attempts">Çok fazla hatalı kilit açma denemesi. \n%d saniye içinde tekrar deneyin.</string>
     <string name="repeat_pin">PIN\'i tekrar gir</string>
     <string name="pattern">Desen</string>
     <string name="insert_pattern">Deseni çiz</string>
@@ -667,7 +666,7 @@
     <string name="excluded">(hariç)</string>
     <string name="manage_excluded_folders">Hariç tutulan klasörleri yönet</string>
     <string name="remove_all">Tümünü kaldır</string>
-    <string name="remove_all_description">Tüm klasörler hariç tutulanlar listesinden kaldırılsın mı\? Bu klasörleri silmez.</string>
+    <string name="remove_all_description">Tüm klasörler hariç tutulanlar listesinden kaldırılsın mı? Bu klasörleri silmez.</string>
     <string name="temporarily_show_excluded">Hariç tutulanları geçici olarak göster</string>
     <string name="stop_showing_excluded">Hariç tutulanları göstermeyi durdur</string>
     <string name="manage_shown_tabs">Gösterilen sekmeleri yönet</string>
@@ -709,14 +708,7 @@
     <string name="backups">Yedeklemeler</string>
     <string name="enable_automatic_backups">Otomatik yedeklemeleri etkinleştir</string>
     <string name="manage_automatic_backups">Otomatik yedeklemeleri yönet</string>
-    <string name="date_time_pattern_info">Dosyanızı otomatik olarak adlandırmak için aşağıdaki desenleri kullanabilirsiniz:
-\n
-\n%Y - yıl
-\n%M - ay
-\n%D - gün
-\n%h - saat
-\n%m - dakika
-\n%s - saniye</string>
+    <string name="date_time_pattern_info">Dosyanızı otomatik olarak adlandırmak için aşağıdaki desenleri kullanabilirsiniz: \n \n%Y - yıl \n%M - ay \n%D - gün \n%h - saat \n%m - dakika \n%s - saniye</string>
     <string name="usb_detected">Aygıtınıza takılı bir USB aygıtınız var gibi görünüyor. Dosyalarının düzgün görünmesini sağlamak için ek izinler vermeniz gerekiyor.</string>
     <string name="confirm_usb_storage_access_text">Erişim vermek için lütfen bir sonraki ekranda USB aygıtının kök klasörünü seçin</string>
     <string name="wrong_root_selected_usb">Yanlış klasör seçildi, lütfen USB aygıtınızın kök klasörünü seçin</string>
@@ -781,47 +773,13 @@
     <string name="more_info">Daha fazla bilgi</string>
     <string name="upgrade">Yükselt</string>
     <string name="upgrade_calendar">Yerel olarak depolanan etkinlikleri bir .ics dosyasına dışa aktarıp ardından içe aktarma yoluyla el ile geçirmeniz gerekir. Her iki dışa aktarma/içe aktarma düğmelerini ana ekran menüsünde bulabilirsiniz.</string>
-    <string name="upgraded_from_free_gallery">Merhaba,
-\n
-\nGörünüşe göre ücretsiz sürümden yeni yükseltme yaptınız. Bu sürümden memnun kaldığınızda ve belki de ayarlarınızı ve favorilerinizi taşıdığınızda, artık ihtiyacınız olmayacağı için yanlışlıkla başlatmaktan kaçınmak için eski ücretsiz sürümü kaldırabilirsiniz, ayrıca bu iletişim kutusunun görünmesini de önleyecektir.
-\n
-\nTeşekkürler!</string>
-    <string name="upgraded_to_pro_gallery">Merhaba,
-\n
-\nGörünüşe göre zaten Pro uygulama sürümüne de sahipsiniz. Bundan memnun kaldığınızda ve belki ayarlarınızı ve favorilerinizi taşıdığınızda, artık ihtiyacınız olmayacağı için yanlışlıkla başlatmaktan kaçınmak için bunu kaldırabilirsiniz.
-\n
-\nTeşekkürler!</string>
-    <string name="upgraded_from_free">Merhaba,
-\n
-\nGörünüşe göre ücretsiz sürümden yeni yükseltme yaptınız. Bundan memnun olduğunuzda ve belki de verilerinizi aktardığınızda, artık ihtiyacınız olmayacağı için yanlışlıkla başlatılmasını önlemek için eski ücretsiz olanı kaldırabilirsiniz, ayrıca bu iletişim kutusunun görünmesini de önleyecektir.
-\n
-\nTeşekkürler!</string>
-    <string name="upgraded_to_pro">Merhaba,
-\n
-\nGörünüşe göre zaten Pro uygulama sürümüne de sahipsiniz. Bundan memnun olduğunuzda ve belki de verilerinizi taşıdığınızda, artık ihtiyacınız olmayacağı için yanlışlıkla başlatmaktan kaçınmak için bunu kaldırabilirsiniz.
-\n
-\nTeşekkürler!</string>
-    <string name="upgraded_from_free_calendar">Merhaba,
-\n
-\nGörünüşe göre ücretsiz sürümden yeni yükseltme yaptınız. Yerel olarak depolanan etkinliklerinizi taşımak istiyorsanız, ücretsiz uygulama sürümünde bunları bir .ics dosyasına aktararak ve üst menüden buraya aktararak bunu elle yapmanız gerekir.
-\n
-\nPro sürümdeki kurulumunuzdan memnun olduğunuzda, artık ihtiyacınız olmayacağı için eski ücretsiz sürümü kaldırabilirsiniz, ayrıca bu iletişim kutusunun görünmesini de önleyecektir.
-\n
-\nTeşekkürler!</string>
-    <string name="upgraded_from_free_contacts">Merhaba,
-\n
-\nGörünüşe göre ücretsiz sürümden yeni yükseltme yaptınız. \"%s\" altında kayıtlı kişileriniz varsa, ücretsiz uygulama sürümünde bunları bir .vcf dosyasına aktararak ve üst menüden buraya aktararak bunu elle yapmanız gerekir.
-\n
-\nPro sürümdeki kurulumunuzdan memnun olduğunuzda, artık ihtiyacınız olmayacağı için eski ücretsiz sürümü kaldırabilirsiniz, ayrıca bu iletişim kutusunun görünmesini de önleyecektir.
-\n
-\nTeşekkürler!</string>
-    <string name="upgraded_from_free_notes">Merhaba,
-\n
-\nGörünüşe göre ücretsiz sürümden yeni yükseltme yaptınız. Notlarınızı taşımak istiyorsanız, ücretsiz uygulama sürümünde bunları bir dosyaya aktararak ve üst menüden buraya aktararak bunu elle yapmanız gerekir.
-\n
-\nPro sürümdeki kurulumunuzdan memnun olduğunuzda, artık ihtiyacınız olmayacağı için eski ücretsiz sürümü kaldırabilirsiniz, ayrıca bu iletişim kutusunun görünmesini de önleyecektir.
-\n
-\nTeşekkürler!</string>
+    <string name="upgraded_from_free_gallery">Merhaba, \n \nGörünüşe göre ücretsiz sürümden yeni yükseltme yaptınız. Bu sürümden memnun kaldığınızda ve belki de ayarlarınızı ve favorilerinizi taşıdığınızda, artık ihtiyacınız olmayacağı için yanlışlıkla başlatmaktan kaçınmak için eski ücretsiz sürümü kaldırabilirsiniz, ayrıca bu iletişim kutusunun görünmesini de önleyecektir. \n \nTeşekkürler!</string>
+    <string name="upgraded_to_pro_gallery">Merhaba, \n \nGörünüşe göre zaten Pro uygulama sürümüne de sahipsiniz. Bundan memnun kaldığınızda ve belki ayarlarınızı ve favorilerinizi taşıdığınızda, artık ihtiyacınız olmayacağı için yanlışlıkla başlatmaktan kaçınmak için bunu kaldırabilirsiniz. \n \nTeşekkürler!</string>
+    <string name="upgraded_from_free">Merhaba, \n \nGörünüşe göre ücretsiz sürümden yeni yükseltme yaptınız. Bundan memnun olduğunuzda ve belki de verilerinizi aktardığınızda, artık ihtiyacınız olmayacağı için yanlışlıkla başlatılmasını önlemek için eski ücretsiz olanı kaldırabilirsiniz, ayrıca bu iletişim kutusunun görünmesini de önleyecektir. \n \nTeşekkürler!</string>
+    <string name="upgraded_to_pro">Merhaba, \n \nGörünüşe göre zaten Pro uygulama sürümüne de sahipsiniz. Bundan memnun olduğunuzda ve belki de verilerinizi taşıdığınızda, artık ihtiyacınız olmayacağı için yanlışlıkla başlatmaktan kaçınmak için bunu kaldırabilirsiniz. \n \nTeşekkürler!</string>
+    <string name="upgraded_from_free_calendar">Merhaba, \n \nGörünüşe göre ücretsiz sürümden yeni yükseltme yaptınız. Yerel olarak depolanan etkinliklerinizi taşımak istiyorsanız, ücretsiz uygulama sürümünde bunları bir .ics dosyasına aktararak ve üst menüden buraya aktararak bunu elle yapmanız gerekir. \n \nPro sürümdeki kurulumunuzdan memnun olduğunuzda, artık ihtiyacınız olmayacağı için eski ücretsiz sürümü kaldırabilirsiniz, ayrıca bu iletişim kutusunun görünmesini de önleyecektir. \n \nTeşekkürler!</string>
+    <string name="upgraded_from_free_contacts">Merhaba, \n \nGörünüşe göre ücretsiz sürümden yeni yükseltme yaptınız. s altında kayıtlı kişileriniz varsa, ücretsiz uygulama sürümünde bunları bir .vcf dosyasına aktararak ve üst menüden buraya aktararak bunu elle yapmanız gerekir. \n \nPro sürümdeki kurulumunuzdan memnun olduğunuzda, artık ihtiyacınız olmayacağı için eski ücretsiz sürümü kaldırabilirsiniz, ayrıca bu iletişim kutusunun görünmesini de önleyecektir. \n \nTeşekkürler!</string>
+    <string name="upgraded_from_free_notes">Merhaba, \n \nGörünüşe göre ücretsiz sürümden yeni yükseltme yaptınız. Notlarınızı taşımak istiyorsanız, ücretsiz uygulama sürümünde bunları bir dosyaya aktararak ve üst menüden buraya aktararak bunu elle yapmanız gerekir. \n \nPro sürümdeki kurulumunuzdan memnun olduğunuzda, artık ihtiyacınız olmayacağı için eski ücretsiz sürümü kaldırabilirsiniz, ayrıca bu iletişim kutusunun görünmesini de önleyecektir. \n \nTeşekkürler!</string>
     <string name="about">Hakkında</string>
     <string name="website">Web sitesi</string>
     <string name="website_label">Kaynak kodları için ziyaret edin</string>
@@ -863,8 +821,7 @@
     <string name="thank_you">Teşekkürler</string>
     <string name="widget_locked_pro">Widget kilitli.\nKilidi açmak için lütfen Pro sürümüne yükseltin.</string>
     <string name="features_locked">Bu özellik kilitlidir, lütfen tam uygulamanın kilidini açmak için &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Teşekkürler&lt;/a&gt; uygulamasını satın alın.&lt;br&gt;&lt;br&gt;Bu yalnızca tek seferlik bir ödemedir ve memnun kalmazsanız geri ödeme yapabiliriz.</string>
-    <string name="new_app">
-        <![CDATA[
+    <string name="new_app"><![CDATA[
             Selam,<br><br>
             kısa bir süre önce yeni uygulamamın yayınlandığını bilmenizi istiyorum:<br><br>
             <a href="%1$s">%2$s</a><br><br>
@@ -872,8 +829,7 @@
             <a href="%5$s">%6$s</a><br><br>
             Başlığa basarak indirebilirsiniz.<br><br>
             Teşekkürler
-        ]]>
-    </string>
+        ]]></string>
     <string name="app_launcher_short">Uygulama Başlatıcı</string>
     <string name="calculator_short">Hesap Makinesi</string>
     <string name="calendar_short">Takvim</string>
@@ -892,22 +848,18 @@
     <string name="sms_messenger_short">SMS İletiler</string>
     <string name="thank_you_short">Teşekkürler</string>
     <string name="voice_recorder_short">Ses Kaydedici</string>
-    <string name="sideloaded_app">
-        <![CDATA[
+    <string name="sideloaded_app"><![CDATA[
             Uygulama sürümünüz bozuk görünüyor. Lütfen <a href="%s">buradan</a> orijinal sürümünü indirin.
-        ]]>
-    </string>
+        ]]></string>
     <string name="frequently_asked_questions">Sık sorulan sorular</string>
     <string name="before_asking_question">Bir soru sormadan önce, lütfen şurayı okuyun:</string>
     <string name="faq_1_title_commons">Uygulamanın widget\'ını widget\'lar listesinde neden göremiyorum?</string>
     <string name="faq_1_text_commons">Büyük olasılıkla uygulamayı SD karta taşıdığınız içindir. Bu durumda verilen uygulama widget\'larını gizleyen bir Android sistem sınırlaması var. Tek çözüm, aygıt ayarlarınızı kullanarak uygulamayı Dahili Depolama birimine geri taşımaktır.</string>
     <string name="faq_2_title_commons">Seni desteklemek istiyorum ama para bağışlayamıyorum. Yapabileceğim başka bir şey var mı?</string>
-    <string name="faq_2_text_commons">
-        <![CDATA[
+    <string name="faq_2_text_commons"><![CDATA[
             Evet tabi ki. Uygulamalar hakkında farkındalığı artırabilir veya iyi geri bildirim ve puanlar verebilirsiniz. Ayrıca, uygulamaları yeni bir dile çevirerek veya sadece mevcut çevirileri güncelleyerek de yardımcı olabilirsiniz.
             Çeviri rehberi <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">bu sayfadadır</a> veya herhangi bir sorunuz varsa <a href="mailto:hello@fossify.org">hello@fossify.org</a> adresinden bize ulaşın.
-        ]]>
-    </string>
+        ]]></string>
     <string name="faq_3_title_commons">Bazı dosyaları yanlışlıkla sildim, onları nasıl kurtarabilirim?</string>
     <string name="faq_3_text_commons">Ne yazık ki, yapamazsınız. Onay penceresinden sonra dosyalar anında silinir, kullanılabilir çöp kutusu yoktur.</string>
     <string name="faq_4_title_commons">Widget renklerini beğenmedim, değiştirebilir miyim?</string>
@@ -928,13 +880,11 @@
     <string name="translation">Çeviri</string>
     <string name="development">Geliştirme</string>
     <string name="other_help">Diğer yardımlar</string>
-    <string name="contributors_label">
-        <![CDATA[
+    <string name="contributors_label"><![CDATA[
             Bu liste, yalnızca buna değil, Fossify paketindeki herhangi bir uygulamaya belirgin şekilde yardımcı olan herkesi içerir. Çeviriler gönüllüler tarafından yapılır,
             siz de yardım etmek isterseniz bize bildirin. Çeviri rehberi <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">bu sayfadadır</a> veya herhangi bir sorunuz varsa <a href="mailto:hello@fossify.org">hello@fossify.org</a> adresinden bize ulaşın.
             Tüm katkıda bulunanlara ve diğer destekçilere teşekkürler!
-        ]]>
-    </string>
+        ]]></string>
     <string name="translation_arabic">Arapça</string>
     <string name="translation_azerbaijani">Azerice</string>
     <string name="translation_bengali">Bengalce</string>
@@ -1021,7 +971,7 @@
     <string name="glide_title">Glide (görüntü yükleme ve önbellekleme)</string>
     <string name="picasso_title">Picasso (görüntü yükleme ve önbellekleme)</string>
     <string name="cropper_title">Android Image Cropper (görüntü kırpma ve döndürme)</string>
-    <string name="rtl_viewpager_title">RtlViewPager (sağdan sola  kaydırma)</string>
+    <string name="rtl_viewpager_title">RtlViewPager (sağdan sola kaydırma)</string>
     <string name="joda_title">Joda-Time (Java tarih değiştirme)</string>
     <string name="stetho_title">Stetho (hata ayıklama veritabanları)</string>
     <string name="otto_title">Otto (etkinlik veri yolu)</string>
@@ -1055,11 +1005,7 @@
     <string name="unlock_for_one_final_day">Son bir gün için uygulamanın kilidini aç</string>
     <string name="welcome_to_app_name">%s uygulamasına hoş geldiniz!</string>
     <string name="trial_start_description">Uygulamamızı kullandığınız için teşekkür ederiz. Bu kilitsiz sürümü <font color="#FFFFFF">%d gün</font> kullanabilirsiniz. Deneme sürümü sona erdiğinde, lütfen Pro sürümüne yükseltmeyi düşünün. Çok sayıda yeni özelliğe, modern tasarıma, reklamsız kullanıma ve diğer birçok iyileştirmeye sahiptir. \n \nBunun için yalnızca bir kez ödeme yapmanız yeterlidir, memnun kalmazsanız kaldırabilir ve geri ödeme alabilirsiniz. \n \nUmarım beğenirsiniz :)</string>
-    <string name="trial_end_description">Uygulamanın keyfini sonuna kadar çıkarmak için lütfen Pro sürümüne yükseltin.
-\n
-\nYalnızca bir kez ödeme yapmanız yeterlidir, memnun kalmazsanız kaldırabilir ve geri ödeme alabilirsiniz.
-\n
-\nOrada görüşürüz :)</string>
+    <string name="trial_end_description">Uygulamanın keyfini sonuna kadar çıkarmak için lütfen Pro sürümüne yükseltin. \n \nYalnızca bir kez ödeme yapmanız yeterlidir, memnun kalmazsanız kaldırabilir ve geri ödeme alabilirsiniz. \n \nOrada görüşürüz :)</string>
     <plurals name="trial_expires_days">
         <item quantity="one">Deneme süreniz %d gün içinde sona erecektir.</item>
         <item quantity="other">Deneme süreniz %d gün içinde sona erecek.</item>
@@ -1094,4 +1040,5 @@
     <string name="all_fossify_apps">Tüm Fossify uygulamaları</string>
     <string name="theme_and_colors">Tema ve renkler</string>
     <string name="known_issues">Bilinen sorunlar</string>
+    <string name="translation_kabyle"></string>
 </resources>
