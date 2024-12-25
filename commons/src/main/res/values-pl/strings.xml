@@ -119,7 +119,7 @@
     <string name="import_blocked_numbers">Importuj zablokowane numery</string>
     <string name="must_make_default_dialer">Musisz ustawić tę aplikację jako domyślną aplikację telefonu, aby blokować numery.</string>
     <string name="set_as_default">Ustaw jako domyślną</string>
-    <string name="block_confirmation">Czy zablokować „%s”\?</string>
+    <string name="block_confirmation">Czy zablokować „%s”?</string>
     <string name="block_unknown_calls">Blokuj połączenia od niezapisanych kontaktów</string>
     <string name="block_hidden_calls">Blokuj połączenia od ukrytych numerów</string>
     <string name="block_unknown_messages">Blokuj wiadomości od niezapisanych kontaktów</string>
@@ -1121,11 +1121,7 @@
     <string name="trial_expires_soon">Twój okres próbny wkrótce wygaśnie.</string>
     <string name="unlock_for_one_final_day">Odblokuj aplikację na jeszcze jeden dzień</string>
     <string name="welcome_to_app_name">Witaj w %s!</string>
-    <string name="trial_start_description">Dziękujemy za korzystanie z naszej aplikacji. Możesz używać tej odblokowanej wersji przez <font color="#FFFFFF">%d dni</font>. Po zakończeniu okresu próbnego rozważ uaktualnienie do wersji Pro. Ma ona ogromną liczbę nowych funkcji, nowoczesny wygląd, brak reklam i wiele innych ulepszeń.
-\n
-\nWystarczy, że zapłacisz za nią tylko raz w życiu, a jeśli nie będziesz zadowolony(-a), możesz ją odinstalować i otrzymać zwrot pieniędzy.
-\n
-\nMamy nadzieję, że Ci się spodoba :)</string>
+    <string name="trial_start_description">Dziękujemy za korzystanie z naszej aplikacji. Możesz używać tej odblokowanej wersji przez <font color="#FFFFFF">%d dni</font>. Po zakończeniu okresu próbnego rozważ uaktualnienie do wersji Pro. Ma ona ogromną liczbę nowych funkcji, nowoczesny wygląd, brak reklam i wiele innych ulepszeń. \n \nWystarczy, że zapłacisz za nią tylko raz w życiu, a jeśli nie będziesz zadowolony(-a), możesz ją odinstalować i otrzymać zwrot pieniędzy. \n \nMamy nadzieję, że Ci się spodoba :)</string>
     <string name="trial_end_description">Uaktualnij do wersji Pro, aby w pełni korzystać z aplikacji.
 \n
 \nWystarczy, że zapłacisz za nią tylko raz w życiu, a jeśli nie będziesz zadowolony(-a), możesz ją odinstalować i otrzymać zwrot pieniędzy.
