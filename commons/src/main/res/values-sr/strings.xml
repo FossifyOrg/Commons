@@ -112,7 +112,7 @@
     <string name="export_blocked_numbers">Извезите блокиране бројеве</string>
     <string name="import_blocked_numbers">Увезите блокиране бројеве</string>
     <string name="must_make_default_dialer">Морате да подесите ову апликацију као подразумевану апликацију за бирање бројева да бисте користили блокиране бројеве.</string>
-    <string name="block_confirmation">Да ли сте сигурни да желите да блокирате \"%s\"\?</string>
+    <string name="block_confirmation">Да ли сте сигурни да желите да блокирате s?</string>
     <string name="block_unknown_calls">Блокирајте позиве из несачуваних контаката</string>
     <string name="block_hidden_calls">Блокирај позиве са скривених бројева</string>
     <string name="block_unknown_messages">Блокирајте поруке од несачуваних контаката</string>
@@ -154,13 +154,7 @@
     <string name="simple_renaming">Једноставно преименовање</string>
     <string name="pattern_renaming">Шаблон</string>
     <string name="string_to_add">Низ за додавање</string>
-    <string name="rename_date_time_pattern">%Y - година 
-\n%M - месец 
-\n%D - дан 
-\n%h - сат 
-\n%m - минут
-\n%s - секунда 
-\n%i - број се повећава са 1</string>
+    <string name="rename_date_time_pattern">%Y - година \n%M - месец \n%D - дан \n%h - сат \n%m - минут \n%s - секунда \n%i - број се повећава са 1</string>
     <string name="filename_without_txt">Име датотеке (без .ткт)</string>
     <string name="filename_without_json">Име датотеке (без .јсон)</string>
     <string name="filename_without_zip">Име датотеке (без .зип-а)</string>
@@ -192,8 +186,7 @@
     <string name="could_not_create_folder">Не могу да направим фасциклу %s</string>
     <string name="could_not_create_file">Не могу да направим датотеку %s</string>
     <string name="no_new_items">Нису пронађене нове ставке</string>
-    <string name="no_space">Одредиште нема довољно слободног простора.
-\nПотребан %1$s, доступан %2$s</string>
+    <string name="no_space">Одредиште нема довољно слободног простора. \nПотребан %1$s, доступан %2$s</string>
     <string name="system_service_disabled">Системска услуга за избор датотека и фасцикли је недоступна</string>
     <string name="create_new">Направи ново</string>
     <string name="folder">Фасцикла</string>
@@ -203,9 +196,9 @@
     <string name="invalid_name">Име садржи недозвољене карактере</string>
     <string name="empty_name">Унесите име</string>
     <string name="unknown_error_occurred">Дошло је до грешке</string>
-    <string name="file_already_exists">Датотека \"%s\" већ постоји</string>
-    <string name="file_already_exists_overwrite">Датотека \"%s\" већ постоји. Препиши је?</string>
-    <string name="folder_already_exists">Фасцикла \"%s\" већ постоји</string>
+    <string name="file_already_exists">Датотека s већ постоји</string>
+    <string name="file_already_exists_overwrite">Датотека s већ постоји. Препиши је?</string>
+    <string name="folder_already_exists">Фасцикла s већ постоји</string>
     <string name="merge">Споји</string>
     <string name="keep_both">Задржи оба</string>
     <string name="overwrite">Препиши</string>
@@ -275,7 +268,7 @@
     <string name="song_title">Име песме</string>
     <string name="gps_coordinates">ГПС координате</string>
     <string name="remove_exif">Уклоните ЕКСИФ</string>
-    <string name="remove_exif_confirmation">Да ли сте сигурни да желите уклонити ЕКСИФ вредности као што су ГПС координате, модел камере итд\?</string>
+    <string name="remove_exif_confirmation">Да ли сте сигурни да желите уклонити ЕКСИФ вредности као што су ГПС координате, модел камере итд?</string>
     <string name="exif_removed">ЕКСИФ вредности су успешно уклоњене</string>
     <string name="background_color">Боја позадине</string>
     <string name="text_color">Боја текста</string>
@@ -298,11 +291,9 @@
     <string name="cannot_be_undone">Ова радња се не може опозвати.</string>
     <string name="save_before_closing">Имате несачуване измене. Сачувај пре изласка?</string>
     <string name="global_theme_success">Боје су ажуриране успешно. Нова тема под именом \'Shared\' је додата, молимо вас да је користите за ажурирање свих боја у будућности.</string>
-    <string name="purchase_thank_you">
-        <![CDATA[
+    <string name="purchase_thank_you"><![CDATA[
             Молимо вас пазарите <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> да откључате ову функцију и подржите наш развој. Хвала вам!
-        ]]>
-    </string>
+        ]]></string>
     <string name="light_theme">Светла</string>
     <string name="dark_theme">Тамна</string>
     <string name="auto_light_dark_theme">Ауто светло / тамно</string>
@@ -563,8 +554,7 @@
     </plurals>
     <string name="alarm_goes_off_in">Преостало време до активације аларма:\n%s</string>
     <string name="reminder_triggers_in">Преостало време до активације подсетника:\n%s</string>
-    <string name="time_remaining">Преостало време:
-\n%s</string>
+    <string name="time_remaining">Преостало време: \n%s</string>
     <string name="alarm_warning">Проверите да ли аларм ради како треба пре него што кренете да се ослањате на њега. Дешава се да не ради како треба због ограничења у систему која се односе на уштеду батерије.</string>
     <string name="reminder_warning">Уверите се да подсетник ради како треба пре него што кренете да се ослањате на њега. Дешава се да не ради како треба због ограничења у систему која се односе на уштеду батерије.</string>
     <string name="notifications_disabled">Обавештења ове апликације су онемогућена. У подешавањима уређаја их можете укључити.</string>
@@ -638,7 +628,7 @@
     <string name="excluded">(изузето)</string>
     <string name="manage_excluded_folders">Управљај изузетим фасциклама</string>
     <string name="remove_all">Уклони све</string>
-    <string name="remove_all_description">Уклони све фасцикле са листе изузетих\? Ово неће обрисати фасцикле.</string>
+    <string name="remove_all_description">Уклони све фасцикле са листе изузетих? Ово неће обрисати фасцикле.</string>
     <string name="temporarily_show_excluded">Привремено је искључена емисија</string>
     <string name="stop_showing_excluded">Престани да се приказује искључено</string>
     <string name="manage_shown_tabs">Управљајте приказаним картицама</string>
@@ -728,37 +718,11 @@
     <string name="more_info">Више информација</string>
     <string name="upgrade">Унапређивање</string>
     <string name="upgrade_calendar">Морате да преселите локално складиштене догађаје ручно преко извожења у .ics датотеку, а затим да увезете. Можете наћи дугмад за увоз и извоз у главном екрану.</string>
-    <string name="upgraded_from_free_gallery">Здраво,
-\n
-\nизгледа да сте управо надоградили са бесплатне верзије. Када будете задовољни са овим и можда преместите своја подешавања и омиљено, можете да деинсталирате стари бесплатни да бисте избегли да га случајно покренете јер вам више неће требати, а такође ће спречити да се овај дијалог прикаже.
-\n
-\nХвала!</string>
-    <string name="upgraded_from_free">Здраво,
-\n
-\nизгледа да сте управо надоградили са бесплатне верзије. Када будете задовољни са овим и можда преместите своје податке, можете деинсталирати стари бесплатни да бисте избегли његово случајно покретање јер вам више неће требати, а такође ће спречити да се овај дијалог прикаже.
-\n
-\nХвала!</string>
-    <string name="upgraded_from_free_calendar">Здраво,
-\n
-\nизгледа да сте управо надоградили са бесплатне верзије. Ако желите да мигрирате своје локално ускладиштене догађаје, морате то да урадите ручно тако што ћете их извести у .ics фајл у бесплатној верзији апликације и увести овде кроз горњи мени.
-\n
-\nКада будете задовољни својим подешавањем у Про верзији, можете деинсталирати стари бесплатни јер вам више неће требати, а такође ће спречити да се овај дијалог прикаже.
-\n
-\nХвала!</string>
-    <string name="upgraded_from_free_contacts">Здраво,
-\n
-\nизгледа да сте управо надоградили са бесплатне верзије. Ако сте имали било какве контакте сачуване под „%s“, морате да их мигрирате ручно тако што ћете извести у .vcf фајл из бесплатне верзије апликације и увести овде кроз горњи мени.
-\n
-\nКада будете задовољни својим подешавањем у Про верзији, можете деинсталирати стари бесплатни јер вам више неће требати, а такође ће спречити да се овај дијалог прикаже.
-\n
-\nХвала!</string>
-    <string name="upgraded_from_free_notes">Здраво,
-\n
-\nизгледа да сте управо надоградили са бесплатне верзије. Ако желите да мигрирате своје белешке, морате то да урадите ручно тако што ћете их извести у фајл у бесплатној верзији апликације и увести овде кроз горњи мени.
-\n
-\nКада будете задовољни својим подешавањем у Про верзији, можете деинсталирати стари бесплатни јер вам више неће требати, а такође ће спречити да се овај дијалог прикаже.
-\n
-\nХвала!</string>
+    <string name="upgraded_from_free_gallery">Здраво, \n \nизгледа да сте управо надоградили са бесплатне верзије. Када будете задовољни са овим и можда преместите своја подешавања и омиљено, можете да деинсталирате стари бесплатни да бисте избегли да га случајно покренете јер вам више неће требати, а такође ће спречити да се овај дијалог прикаже. \n \nХвала!</string>
+    <string name="upgraded_from_free">Здраво, \n \nизгледа да сте управо надоградили са бесплатне верзије. Када будете задовољни са овим и можда преместите своје податке, можете деинсталирати стари бесплатни да бисте избегли његово случајно покретање јер вам више неће требати, а такође ће спречити да се овај дијалог прикаже. \n \nХвала!</string>
+    <string name="upgraded_from_free_calendar">Здраво, \n \nизгледа да сте управо надоградили са бесплатне верзије. Ако желите да мигрирате своје локално ускладиштене догађаје, морате то да урадите ручно тако што ћете их извести у .ics фајл у бесплатној верзији апликације и увести овде кроз горњи мени. \n \nКада будете задовољни својим подешавањем у Про верзији, можете деинсталирати стари бесплатни јер вам више неће требати, а такође ће спречити да се овај дијалог прикаже. \n \nХвала!</string>
+    <string name="upgraded_from_free_contacts">Здраво, \n \nизгледа да сте управо надоградили са бесплатне верзије. Ако сте имали било какве контакте сачуване под „%s“, морате да их мигрирате ручно тако што ћете извести у .vcf фајл из бесплатне верзије апликације и увести овде кроз горњи мени. \n \nКада будете задовољни својим подешавањем у Про верзији, можете деинсталирати стари бесплатни јер вам више неће требати, а такође ће спречити да се овај дијалог прикаже. \n \nХвала!</string>
+    <string name="upgraded_from_free_notes">Здраво, \n \nизгледа да сте управо надоградили са бесплатне верзије. Ако желите да мигрирате своје белешке, морате то да урадите ручно тако што ћете их извести у фајл у бесплатној верзији апликације и увести овде кроз горњи мени. \n \nКада будете задовољни својим подешавањем у Про верзији, можете деинсталирати стари бесплатни јер вам више неће требати, а такође ће спречити да се овај дијалог прикаже. \n \nХвала!</string>
     <string name="about">О апликацији</string>
     <string name="website_label">За изворни код посаетите</string>
     <string name="email_label">Пошаљите ваше повратне информације или сугестије на</string>
@@ -777,13 +741,11 @@
     <string name="additional_info">Додатне информације</string>
     <string name="app_version">Верзија апликације: %s</string>
     <string name="device_os">Оперативни систем уређаја: %s</string>
-    <string name="donate_please">
-        <![CDATA[
+    <string name="donate_please"><![CDATA[
             Поздрав,<br><br>
             надамо се да уживате у апликацији. Она не садржи огласе, молимо вас да подржите њен развој куповином <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> апликације, то ће такође спречити овај дијалог од поновног појављивања.<br><br>
             Хвала вам!
-        ]]>
-    </string>
+        ]]></string>
     <string name="purchase">Купите</string>
     <string name="before_asking_question_read_faq">Пре постављања питања проверите подешавања апликације и прочитајте најчешће постављана питања. Можда су решења већ ту.</string>
     <string name="before_rate_read_faq">Пре него што нас оцените, проверите подешавања апликације и прво прочитајте Често постављана питања. Ако имате било каквих проблема, можда је решење ту.</string>
@@ -791,21 +753,11 @@
     <string name="make_sure_upgrade">Такође имајте на уму да се ова верзија апликације више не развија, набавите Про за многа побољшања.</string>
     <string name="read_it">Прочитајте</string>
     <string name="read_faq">Прочитајте ФАК</string>
-    <string name="rate_us_prompt">Здраво,
-\n
-\nизгледа да ову апликацију користите већ дуже време, и ми то заиста ценимо.
-\n
-\nАко можемо да вас замолимо за услугу, оцените нас на Гоогле Плаи-у. То би нам заиста много помогло.
-\n
-\nКако год да одлучите, ову поруку више нећете видети.
-\n
-\nХвала!</string>
+    <string name="rate_us_prompt">Здраво, \n \nизгледа да ову апликацију користите већ дуже време, и ми то заиста ценимо. \n \nАко можемо да вас замолимо за услугу, оцените нас на Гоогле Плаи-у. То би нам заиста много помогло. \n \nКако год да одлучите, ову поруку више нећете видети. \n \nХвала!</string>
     <string name="rate_our_app">Молимо оцените нашу апликацију :)</string>
     <string name="thank_you">Хвала вам</string>
-    <string name="widget_locked_pro">Виџет је закључан.
-\nНадоградите на Про верзију да бисте је откључали.</string>
-    <string name="new_app">
-        <![CDATA[
+    <string name="widget_locked_pro">Виџет је закључан. \nНадоградите на Про верзију да бисте је откључали.</string>
+    <string name="new_app"><![CDATA[
             Поздрав,<br><br>
             само вас обавештавамо да је нова апликација објављена:<br><br>
             <a href="%1$s">%2$s</a><br><br>
@@ -813,8 +765,7 @@
             <a href="%5$s">%6$s</a><br><br>
             Можете је преузети притиском на наслов.<br><br>
             Хвала
-        ]]>
-    </string>
+        ]]></string>
     <string name="app_launcher_short">Покретач апликација</string>
     <string name="calculator_short">Калкулатор</string>
     <string name="calendar_short">Календар</string>
@@ -832,11 +783,9 @@
     <string name="sms_messenger_short">СМС Мессенгер</string>
     <string name="thank_you_short">Хвала вам</string>
     <string name="voice_recorder_short">Диктафон</string>
-    <string name="sideloaded_app">
-        <![CDATA[
+    <string name="sideloaded_app"><![CDATA[
             Изгледа да је верзија ваше апликације у квару. Молимо вас преузмите оригиналну верзију <a href="%s">овде</a>.
-        ]]>
-    </string>
+        ]]></string>
     <string name="frequently_asked_questions">Најчешће постављена питања</string>
     <string name="before_asking_question">Пре него поставите питање, прво прочитајте</string>
     <string name="faq_1_title_commons">Зашто не видим виџете ове апликације у листи виџета?</string>
@@ -849,11 +798,11 @@
     <string name="faq_5_title_commons">Да ли могу да повратим обрисане фајлове?</string>
     <string name="faq_5_text_commons">Ако су заиста избрисани, не можете. Међутим, постоји подразумевано омогућена корпа за отпатке, то ће проузроковати да се датотеке једноставно преместе у корпу уместо да их се бришу.</string>
     <string name="faq_6_title_commons">Икона покретача апликација је нестала. Шта да урадим?</string>
-    <string name="faq_7_title_commons">Новац је скинут са мог банковног рачуна, али не могу да преузмем апликацију. Шта могу да урадим\?</string>
+    <string name="faq_7_title_commons">Новац је скинут са мог банковног рачуна, али не могу да преузмем апликацију. Шта могу да урадим?</string>
     <string name="faq_7_text_commons">Плаћања у потпуности обавља Гоогле, њихов систем повремено квари. Само обришите кеш апликације Гоогле Плаи и поново покрените уређај, а затим покушајте поново да га преузмете.</string>
-    <string name="faq_8_title_commons">Зашто да надоградим на Про верзију\?</string>
+    <string name="faq_8_title_commons">Зашто да надоградим на Про верзију?</string>
     <string name="faq_8_text_commons">Пошто се верзија ваше апликације више не ажурира, грешке које сте можда приметили никада неће бити исправљене. Такође неће бити додане нове функције. Про верзију можете купити на Гоогле Плаи-у за малу суму новца. То је једнократно плаћање, што значи да када га једном купите, више никада нећете морати да плаћате. Чак ни након набавке новог уређаја. Ако вам се не свиђа Про верзија, можете је само деинсталирати у року од неколико сати и аутоматски ћете добити свој новац назад. Ако желите повраћај новца било када касније, само нас контактирајте на хелло@симплемобилетоолс.цом и добићете га.</string>
-    <string name="faq_9_title_commons">Како могу да изаберем више ставки одједном\?</string>
+    <string name="faq_9_title_commons">Како могу да изаберем више ставки одједном?</string>
     <string name="faq_9_text_commons">Постоји више начина да се то уради. Први је покретање режима селекције дугим притиском на једну ставку, а затим кратким кликом на друге да бисте их изабрали. Други начин је сличан одабиру ставки на рачунарима помоћу миша, само покрените режим селекције дугим притиском на једну ставку, а затим је прстом и даље доле превуците преко других ставки да бисте изабрали. Трећи начин одабира више ставки је дуго притискање једне ставке, затим дуго притискање друге и све између се бира. Ако желите да изаберете све ставке, само дуго притисните једну ставку, а затим кликните на бројач изабраних ставки у горњем левом углу. То ће све изабрати или поништити избор.</string>
     <string name="faq_10_title_commons">Купио сам апликацију, али не могу да је преузмем на другом уређају.</string>
     <string name="faq_10_text_commons">Покушајте да обришете кеш апликације Гоогле Плаи и поново покренете уређај. То је нека грешка у Гоогле Плаи-у, која није баш повезана са самом апликацијом.</string>
@@ -929,7 +878,200 @@
     <string name="m3u_parser_title">М3У Парсер (руковање датотекама листе песама м3у)</string>
     <string name="android_lame_title">АндроидЛаме (мп3 кодер)</string>
     <string name="zip4j_title">Zip4j (ЗИП компресија и декомпресија)</string>
-    <string name="deprecated_app">ЗАСТАРЕЛО: Ова верзија апликације се више не одржава, набавите Про верзију на хттпс://плаи.гоогле.цом/сторе/аппс/детаилс\?ид=цом.симплемобилетоолс.ккк.про</string>
+    <string name="deprecated_app">ЗАСТАРЕЛО: Ова верзија апликације се више не одржава, набавите Про верзију на хттпс://плаи.гоогле.цом/сторе/аппс/детаилс?ид=цом.симплемобилетоолс.ккк.про</string>
     <string name="pro_app_refund">Не заборавите да ако деинсталирате било коју плаћену апликацију у року од 2 сата, новац ће вам аутоматски бити враћен. Ако желите повраћај новца било када касније, само нас контактирајте на hello@fossify.org и добићете га. То олакшава испробавање :)</string>
     <string name="developer_description">Група једноставних Андроид апликација отвореног кода са прилагодљивим виџетима, без огласа и непотребних дозвола.</string>
+    <string name="translation_central_kurdish"></string>
+    <string name="translation_romanian"></string>
+    <string name="translation_swedish"></string>
+    <string name="translation_tamil"></string>
+    <plurals name="trial_expires_days">
+        <item quantity="one"></item>
+        <item quantity="few"></item>
+        <item quantity="other"></item>
+    </plurals>
+    <string name="notification_sound"></string>
+    <string name="april_short"></string>
+    <string name="march_short"></string>
+    <string name="translation_arabic"></string>
+    <string name="translation_indonesian"></string>
+    <string name="translation_dutch"></string>
+    <string name="translation_polish"></string>
+    <string name="translation_hebrew"></string>
+    <string name="translation_italian"></string>
+    <string name="why_upgrade_many_other_improvements"></string>
+    <string name="unblock_contact_success"></string>
+    <string name="search_history"></string>
+    <string name="search_text"></string>
+    <string name="allow_notifications_reminders"></string>
+    <string name="altitude"></string>
+    <string name="june_short"></string>
+    <string name="translation_catalan"></string>
+    <string name="translation_bulgarian"></string>
+    <string name="translation_basque"></string>
+    <string name="translation_nepali"></string>
+    <string name="translation_lithuanian"></string>
+    <string name="translation_korean"></string>
+    <string name="start_free_trial"></string>
+    <string name="set_as_default"></string>
+    <string name="internal_storage"></string>
+    <string name="genre"></string>
+    <string name="pin_must_be_4_digits_long"></string>
+    <string name="seconds_letter"></string>
+    <string name="improved_color_customization"></string>
+    <string name="general_settings"></string>
+    <string name="backups"></string>
+    <string name="september_short"></string>
+    <string name="november_short"></string>
+    <string name="upgraded_to_pro"></string>
+    <string name="website"></string>
+    <string name="rate"></string>
+    <string name="copyright"></string>
+    <string name="help_us"></string>
+    <string name="support"></string>
+    <string name="other"></string>
+    <string name="version_placeholder"></string>
+    <string name="social"></string>
+    <string name="notes_short"></string>
+    <string name="translation_ukrainian"></string>
+    <string name="translation_vietnamese"></string>
+    <string name="translation_turkish"></string>
+    <string name="translation_chinese_hk"></string>
+    <string name="unlock_for_one_final_day"></string>
+    <string name="august_short"></string>
+    <string name="date_time_pattern_info"></string>
+    <string name="error"></string>
+    <string name="search_files"></string>
+    <string name="audio"></string>
+    <string name="files_tab"></string>
+    <string name="unblock"></string>
+    <string name="search_favorites"></string>
+    <string name="search_artists"></string>
+    <string name="upgraded_to_pro_gallery"></string>
+    <string name="permission_required"></string>
+    <string name="allow_notifications_files"></string>
+    <string name="grant_permission"></string>
+    <string name="allow_alarm_scheduled_messages"></string>
+    <string name="search_calls"></string>
+    <string name="send_email"></string>
+    <string name="close"></string>
+    <string name="contact_details"></string>
+    <string name="translation_norwegian"></string>
+    <string name="january_short"></string>
+    <string name="december_short"></string>
+    <string name="translation_russian"></string>
+    <string name="more_options"></string>
+    <string name="list_view"></string>
+    <string name="exif"></string>
+    <string name="middle_name"></string>
+    <string name="translation_hungarian"></string>
+    <string name="translation_kabyle"></string>
+    <string name="number"></string>
+    <string name="allow_notifications_incoming_calls"></string>
+    <string name="show_search"></string>
+    <string name="scanning"></string>
+    <string name="search_playlists"></string>
+    <string name="search_files_and_folders"></string>
+    <string name="allow_notifications_music_player"></string>
+    <string name="deletion_confirmation_short"></string>
+    <string name="unblock_contact"></string>
+    <string name="allow_alarm_sleep_timer"></string>
+    <string name="shared_theme_note"></string>
+    <string name="minutes_letter"></string>
+    <string name="unblock_contact_fail"></string>
+    <string name="confirm_calling_person"></string>
+    <string name="may_short"></string>
+    <string name="start_week_on"></string>
+    <string name="allow_location_permission"></string>
+    <string name="search_contacts"></string>
+    <string name="search_in_placeholder"></string>
+    <string name="search_apps"></string>
+    <string name="search_folders"></string>
+    <string name="theme_and_colors"></string>
+    <string name="search_albums"></string>
+    <string name="october_short"></string>
+    <string name="allow_notifications_incoming_messages"></string>
+    <string name="apply_to_all_apps"></string>
+    <string name="faq_2_text_commons"></string>
+    <string name="february_short"></string>
+    <string name="block_contact"></string>
+    <string name="block_contact_fail"></string>
+    <string name="add_contact"></string>
+    <string name="purchase_simple_thank_you"></string>
+    <string name="skip_the_recycle_bin"></string>
+    <string name="recent_files_tab"></string>
+    <string name="allow_notifications_voice_recorder"></string>
+    <string name="donate_new"></string>
+    <string name="why_upgrade_pro_version"></string>
+    <string name="allow_access_more_media"></string>
+    <string name="contacts_tab"></string>
+    <string name="allow_full_screen_notifications_reminders"></string>
+    <string name="features_locked"></string>
+    <string name="too_many_incorrect_attempts"></string>
+    <string name="hours_letter"></string>
+    <string name="translation_danish"></string>
+    <string name="contributors_label"></string>
+    <string name="auto_theme"></string>
+    <string name="pin_item"></string>
+    <string name="search_tracks"></string>
+    <string name="search_events"></string>
+    <string name="notifications"></string>
+    <string name="allow_full_screen_notifications_incoming_calls"></string>
+    <string name="search_groups"></string>
+    <string name="view_contact_details"></string>
+    <string name="trial_expires_soon"></string>
+    <string name="translation_welsh"></string>
+    <string name="send_sms"></string>
+    <string name="enable_automatic_backups"></string>
+    <string name="manage_automatic_backups"></string>
+    <string name="show_line_numbers"></string>
+    <string name="translation_breton"></string>
+    <string name="july_short"></string>
+    <string name="search_conversations"></string>
+    <string name="search_recordings"></string>
+    <string name="translation_czech"></string>
+    <string name="translation_slovak"></string>
+    <string name="white"></string>
+    <string name="week_number_short"></string>
+    <string name="date_added"></string>
+    <string name="row_count"></string>
+    <string name="hide_line_numbers"></string>
+    <string name="system_default"></string>
+    <string name="platforms"></string>
+    <string name="little_to_no_fee"></string>
+    <string name="donate_to_fossify"></string>
+    <string name="fee_up_to_pct"></string>
+    <string name="cryptocurrency"></string>
+    <string name="trial_expired"></string>
+    <string name="format_phone_numbers"></string>
+    <string name="open_the_recycle_bin"></string>
+    <string name="translation_english"></string>
+    <string name="translation_gujarati"></string>
+    <string name="translation_chinese_cn"></string>
+    <string name="translation_german"></string>
+    <string name="translation_japanese"></string>
+    <string name="translation_spanish"></string>
+    <string name="translation_slovenian"></string>
+    <string name="translation_portuguese"></string>
+    <string name="translation_greek"></string>
+    <string name="translation_serbian"></string>
+    <string name="translation_chinese_tw"></string>
+    <string name="update_thank_you"></string>
+    <string name="known_issues"></string>
+    <string name="donate_short"></string>
+    <string name="all_fossify_apps"></string>
+    <string name="translation_finnish"></string>
+    <string name="translation_croatian"></string>
+    <string name="translation_azerbaijani"></string>
+    <string name="translation_persian"></string>
+    <string name="translation_belarusian"></string>
+    <string name="translation_esperanto"></string>
+    <string name="translation_french"></string>
+    <string name="translation_chuvash"></string>
+    <string name="translation_bengali"></string>
+    <string name="translation_galician"></string>
+    <string name="translation_hindi"></string>
+    <string name="welcome_to_app_name"></string>
+    <string name="trial_start_description"></string>
+    <string name="trial_end_description"></string>
 </resources>
