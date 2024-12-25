@@ -116,7 +116,7 @@
     <string name="import_blocked_numbers">Importa els números bloquejats</string>
     <string name="must_make_default_dialer">Cal fer que aquesta aplicació sigui l\'aplicació predeterminada de marcatge per a utilitzar els números bloquejats.</string>
     <string name="set_as_default">Estableix com a predeterminada</string>
-    <string name="block_confirmation">Segur que voleu bloquejar «%s»\?</string>
+    <string name="block_confirmation">Segur que voleu bloquejar «%s»?</string>
     <string name="block_unknown_calls">Bloqueja les trucades de contactes no emmagatzemats</string>
     <string name="block_hidden_calls">Bloqueja les trucades des de números ocults</string>
     <string name="block_unknown_messages">Bloqueja els missatges dels contactes no emmagatzemats</string>
@@ -243,7 +243,7 @@
     <string name="empty_name">Introduïu un nom</string>
     <string name="unknown_error_occurred">S\'ha produït un error desconegut</string>
     <string name="file_already_exists">El fitxer «%s» ja existeix</string>
-    <string name="file_already_exists_overwrite">El fitxer «%s» ja existeix. Cal sobreescriure\'l\?</string>
+    <string name="file_already_exists_overwrite">El fitxer «%s» ja existeix. Cal sobreescriure\'l?</string>
     <string name="folder_already_exists">La carpeta «%s» ja existeix</string>
     <string name="merge">Fusiona</string>
     <string name="keep_both">Mantén els dos</string>
@@ -1052,11 +1052,7 @@
     <string name="trial_expires_soon">Aquesta versió de prova caduca aviat.</string>
     <string name="unlock_for_one_final_day">Desbloqueja l\'aplicació durant un últim dia</string>
     <string name="welcome_to_app_name">Us donem la benvinguda a %s!</string>
-    <string name="trial_start_description">Gràcies per utilitzar la nostra aplicació. Podeu utilitzar aquesta versió desbloquejada durant <font color="#FFFFFF">%d dies</font>. Un cop finalitzi la prova, considereu l\'actualització a la versió Pro. Té una gran quantitat de funcions noves, un disseny modern, sense anuncis i moltes altres millores.
-\n
-\nNomés l\'heu de pagar una vegada a la vida i si no esteu satisfet, podeu desinstal·lar-la i obtenir un reemborsament.
-\n
-\nEspero que us agradi :)</string>
+    <string name="trial_start_description">Gràcies per utilitzar la nostra aplicació. Podeu utilitzar aquesta versió desbloquejada durant <font color="#FFFFFF">%d dies</font>. Un cop finalitzi la prova, considereu l\'actualització a la versió Pro. Té una gran quantitat de funcions noves, un disseny modern, sense anuncis i moltes altres millores. \n \nNomés l\'heu de pagar una vegada a la vida i si no esteu satisfet, podeu desinstal·lar-la i obtenir un reemborsament. \n \nEspero que us agradi :)</string>
     <string name="trial_end_description">Si us plau, actualitzeu a la versió Pro per a gaudir de l\'aplicació al màxim.
 \n
 \nNomés l\'heu de pagar una vegada a la vida i si no esteu satisfet, podeu desinstal·lar-la i obtenir un reemborsament.
