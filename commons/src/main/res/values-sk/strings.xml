@@ -117,7 +117,7 @@
     <string name="import_blocked_numbers">Importovať blokované čísla</string>
     <string name="must_make_default_dialer">Pre použitie blokovania čísel musíte nastaviť aplikáciu ako predvolenú pre správu hovorov.</string>
     <string name="set_as_default">Nastaviť ako predvolenú</string>
-    <string name="block_confirmation">Ste si istý, že chcete zablokovať \"%s\"?</string>
+    <string name="block_confirmation">Ste si istý, že chcete zablokovať s?</string>
     <string name="block_unknown_calls">Blokovať volania od neuložených kontaktov</string>
     <string name="block_hidden_calls">Blokovať volania od skrytých čísel</string>
     <string name="block_unknown_messages">Blokovať správy od neuložených kontaktov</string>
@@ -238,9 +238,9 @@
     <string name="invalid_name">Názov obsahuje neplatné znaky</string>
     <string name="empty_name">Prosím zadajte názov</string>
     <string name="unknown_error_occurred">Došlo k neznámej chybe</string>
-    <string name="file_already_exists">Súbor \"%s\" už existuje</string>
-    <string name="file_already_exists_overwrite">Súbor \"%s\" už existuje. Prepísať?</string>
-    <string name="folder_already_exists">Priečinok \"%s\" už existuje</string>
+    <string name="file_already_exists">Súbor s už existuje</string>
+    <string name="file_already_exists_overwrite">Súbor s už existuje. Prepísať?</string>
+    <string name="folder_already_exists">Priečinok s už existuje</string>
     <string name="merge">Zlúčiť</string>
     <string name="keep_both">Ponechať oba súbory</string>
     <string name="overwrite">Prepísať</string>
@@ -258,9 +258,9 @@
     <string name="confirm_folder_access_title">Potvrďte prístup k priečinku</string>
     <string name="confirm_storage_access_text">Pre poskytnutie práva na zápis prosím zvoľte na nasledujúcej obrazovke základný priečǐnok SD karty</string>
     <string name="confirm_storage_access_text_sd">Ak nevidíte SD kartu, skúste toto</string>
-    <string name="confirm_storage_access_android_text">Prosím povoľte prístup ku zvolenému úložisku na nasledujúcej obrazovke stlačením spodného tlačidla \"Použiť tento priečinok\".</string>
-    <string name="confirm_storage_access_android_text_specific">Prosím povoľte prístup ku \'&lt;b&gt;%s&lt;/b&gt;\' na nasledujúcej obrazovke stlačením spodného tlačidla \"&lt;b&gt;Použiť tento priečinok&lt;/b&gt;\".</string>
-    <string name="confirm_create_doc_for_new_folder_text">Pre vytvorenie nového priečinka prosím stlačte \'&lt;b&gt;Uložiť&lt;/b&gt;\' na spodku nasledujúcej obrazovky.</string>
+    <string name="confirm_storage_access_android_text">Prosím povoľte prístup ku zvolenému úložisku na nasledujúcej obrazovke stlačením spodného tlačidla oužiť tento priečinok</string>
+    <string name="confirm_storage_access_android_text_specific">Prosím povoľte prístup ku \'&lt;b&gt;%s&lt;/b&gt;\' na nasledujúcej obrazovke stlačením spodného tlačidla b&gt;Použiť tento priečinok&lt;/b&gt;</string>
+    <string name="confirm_create_doc_for_new_folder_text">Pre vytvorenie nového priečinka prosím stlačte \'<b>Uložiť</b>\' na spodku nasledujúcej obrazovky.</string>
     <string name="confirm_selection">Potvrdiť výber</string>
     <string name="loading">Načítavanie…</string>
     <string name="access_storage_prompt">Prosím povoľte našej apke prístup ku všetkým vašim súborom. Bez neho nebude fungovať správne.</string>
@@ -292,8 +292,7 @@
     <string name="root">Koreňový priečinok</string>
     <string name="wrong_root_selected">Bol zvolený nesprávny priečinok, prosím zvoľte hlavný priečinok SD karty</string>
     <string name="sd_card_usb_same">Cesta k SD karte a USB zariadeniu nesmie byť rovnaká</string>
-    <string name="app_on_sd_card">Vyzerá to tak, že máte aplikáciu nainštalovanú na SD karte, čo spôsobí nedostupnosť widgetov. Ani ich neuvidíte na zozname dostupných widgetov.
-        Ide o systémové obmedzenie, čiže ak chcete widgety používať, musíte presunúť aplikáciu späť na internú pamäť.</string>
+    <string name="app_on_sd_card">Vyzerá to tak, že máte aplikáciu nainštalovanú na SD karte, čo spôsobí nedostupnosť widgetov. Ani ich neuvidíte na zozname dostupných widgetov. Ide o systémové obmedzenie, čiže ak chcete widgety používať, musíte presunúť aplikáciu späť na internú pamäť.</string>
     <string name="wrong_folder_selected">Zvolili ste zlý priečinok, prosím zvoľte \'%s\'</string>
     <string name="properties">Vlastnosti</string>
     <string name="path">Cesta</string>
@@ -336,11 +335,9 @@
     <string name="cannot_be_undone">Táto akcia sa nedá vrátiť späť.</string>
     <string name="save_before_closing">Máte neuložené zmeny. Chcete ich uložiť pred ukončením?</string>
     <string name="global_theme_success">Farby boli úspešne aktualizované. Bola pridaná nová \'Zdieľaná\' téma, prosím použite ju pri ďalšej úprave farieb.</string>
-    <string name="purchase_thank_you">
-        <![CDATA[
+    <string name="purchase_thank_you"><![CDATA[
             Prosím zakúpte si <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Jednoduché ďakujem</a> na odomknutie tejto funkcie a podporu vývoja. Vďaka!
-        ]]>
-    </string>
+        ]]></string>
     <string name="light_theme">Svetlá</string>
     <string name="dark_theme">Tmavá</string>
     <string name="auto_theme">Automatická</string>
@@ -440,8 +437,7 @@
     <string name="please_enter_pin">Prosím zadajte PIN</string>
     <string name="wrong_pin">Nesprávny PIN</string>
     <string name="pin_must_be_4_digits_long">PIN musí byť dlhý aspoň 4 číslice</string>
-    <string name="too_many_incorrect_attempts">Príliš veľa nesprávnych pokusov o odomknutie.
-\nSkúste znova o %d sekúnd.</string>
+    <string name="too_many_incorrect_attempts">Príliš veľa nesprávnych pokusov o odomknutie. \nSkúste znova o %d sekúnd.</string>
     <string name="repeat_pin">Zopakujte PIN</string>
     <string name="pattern">Vzor</string>
     <string name="insert_pattern">Zadajte vzor</string>
@@ -698,7 +694,7 @@
     <string name="excluded">(vylúčené)</string>
     <string name="manage_excluded_folders">Spravovať vylúčené priečinky</string>
     <string name="remove_all">Odstrániť všetky</string>
-    <string name="remove_all_description">Odstrániť všetky priečinky zo zoznamu vylúčených\? Táto operácia neodstráni samotný obsah priečinkov.</string>
+    <string name="remove_all_description">Odstrániť všetky priečinky zo zoznamu vylúčených? Táto operácia neodstráni samotný obsah priečinkov.</string>
     <string name="temporarily_show_excluded">Dočasne zobraziť vylúčené</string>
     <string name="stop_showing_excluded">Ukončiť zobrazovanie vylúčených</string>
     <string name="manage_shown_tabs">Spravovať zobrazené karty</string>
@@ -800,7 +796,7 @@
     <string name="upgraded_from_free">Zdravím,\n\nvyzerá to tak, že ste sem práve prešli z bezplatnej verzie apky. Ak ste s touto apkou spokojný a možno aj premigrovali nejaké dáta, môžete bezplatnú apku odinštalovať, aby ste ju nespúšťali náhodou. Nebudete ju už potrebovať. Zastaví to aj vyskakovanie tohto okna.\n\nVďaka!</string>
     <string name="upgraded_to_pro">Zdravím,\n\nvyzerá to tak, že už máte nainštalovanú aj Pro verziu apky. Ak ste s ňou spokojný a možno aj premigrovali nejaké dáta, túto verziu už nebudete potrebovať a môžete ju odinštalovať, aby ste ju nespúšťali náhodou.\n\nVďaka!</string>
     <string name="upgraded_from_free_calendar">Zdravím,\n\nvyzerá to tak, že ste prišiel zo starej, bezplatnej apky. Ak si chcete premigrovať lokálne uložené udalosti, musíte to spraviť ručne exportovaním do .ics súboru v starej apke a následným importovaním do tejto cez horné menu.\n\nAk ste spokojný so všetkým v Pro verzii, môžete odinštalovať starú, keďže ju už potrebovať nebudete. Zastaví to aj vyskakovanie tohto okna.\n\nVďaka!</string>
-    <string name="upgraded_from_free_contacts">Zdravím,\n\nvyzerá to tak, že ste prišiel zo starej, bezplatnej apky. Ak ste mali niektoré kontakty uložené v \"%s\", musíte ich premigrovať ručne exportovaním do .vcf súboru v starej apke a následným importovaním do tejto cez horné menu.\n\nAk ste spokojný so všetkým v Pro verzii, môžete odinštalovať starú, keďže ju už potrebovať nebudete. Zastaví to aj vyskakovanie tohto okna.\n\nVďaka!</string>
+    <string name="upgraded_from_free_contacts">Zdravím,\n\nvyzerá to tak, že ste prišiel zo starej, bezplatnej apky. Ak ste mali niektoré kontakty uložené v s musíte ich premigrovať ručne exportovaním do .vcf súboru v starej apke a následným importovaním do tejto cez horné menu.\n\nAk ste spokojný so všetkým v Pro verzii, môžete odinštalovať starú, keďže ju už potrebovať nebudete. Zastaví to aj vyskakovanie tohto okna.\n\nVďaka!</string>
     <string name="upgraded_from_free_notes">Zdravím,\n\nvyzerá to tak, že ste prišiel zo starej, bezplatnej apky. Ak chcete premigrovať vaše poznámky, musíte to spraviť ručne exportovaním do súboru v starej apke a následným importovaním do tejto cez horné menu.\n\nAk ste spokojný so všetkým v Pro verzii, môžete odinštalovať starú, keďže ju už potrebovať nebudete. Zastaví to aj vyskakovanie tohto okna.\n\nVďaka!</string>
     <string name="about">O aplikácií</string>
     <string name="website">Webstránka</string>
@@ -827,13 +823,11 @@
     <string name="additional_info">Dodatočné informácie</string>
     <string name="app_version">Verzia aplikácie: %s</string>
     <string name="device_os">Operačný systém zariadenia: %s</string>
-    <string name="donate_please">
-        <![CDATA[
+    <string name="donate_please"><![CDATA[
             Zdravím,<br><br>
             dúfam, že sa vám moja apka páči. Neobsahuje žiadne reklamy, podporte prosím jej vývoj zakúpením aplikácie <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Jednoduché ďakujem</a>. Zaručí to aj to, že tento dialóg už neuvidíte.<br><br>
             Ďakujem!
-        ]]>
-    </string>
+        ]]></string>
     <string name="purchase">Zakúpiť</string>
     <string name="before_asking_question_read_faq">Predtým, ako sa niečo opýtate, si prosím prejdite nastavenia aplikácie a prečítajte Často Kladené Otázky. Možno v nich nájdete svoju odpoveď.</string>
     <string name="before_rate_read_faq">Predtým, ako nás ohodnotíte, si prosím prejdite nastavenia aplikácie a prečítajte Často Kladené Otázky. Ak máte nejaké problémy, možno v nich nájdete riešenia.</string>
@@ -845,8 +839,7 @@
     <string name="rate_our_app">Ohodnoťte našu aplikáciu, prosím :)</string>
     <string name="thank_you">Ďakujeme</string>
     <string name="widget_locked_pro">Widget je uzamknutý.\nNa odomknutie prosím prejdite na Pro verziu.</string>
-    <string name="new_app">
-        <![CDATA[
+    <string name="new_app"><![CDATA[
             Zdravím,<br><br>
             iba vám oznamujeme, že boli nedávno vydané nové aplikácie:<br><br>
             <a href="%1$s">%2$s</a><br><br>
@@ -854,8 +847,7 @@
             <a href="%5$s">%6$s</a><br><br>
             Viete ich stiahnuť kliknutím na ich názov, alebo ikonku.<br><br>
             Vďaka
-        ]]>
-    </string>
+        ]]></string>
     <string name="app_launcher_short">Spúšťač aplikácií</string>
     <string name="calculator_short">Kalkulačka</string>
     <string name="calendar_short">Kalendár</string>
@@ -874,23 +866,18 @@
     <string name="sms_messenger_short">SMS správy</string>
     <string name="thank_you_short">Ďakujem</string>
     <string name="voice_recorder_short">Nahrávač zvuku</string>
-    <string name="sideloaded_app">
-        <![CDATA[
+    <string name="sideloaded_app"><![CDATA[
             Zdá sa, že vaša verzia apky je poškodená. Prosím stiahnite originálnu verziu <a href="%s">odtiaľ</a>.
-        ]]>
-    </string>
+        ]]></string>
     <string name="frequently_asked_questions">Často kladené otázky</string>
     <string name="before_asking_question">Predtým, ako sa niečo opýtate si prosíme preštudujte</string>
     <string name="faq_1_title_commons">Prečo nevidím widget tejto apky na zozname widgetov?</string>
-    <string name="faq_1_text_commons">Je to pravdepodobne spôsobené tým, že ste apku presunuli na SD kartu. Ide o systémové obmedzenie, ktoré v tomto prípade skryje widget apky.
-        Jediným riešením je presunutie apky späť na internú pamäť cez nastavnenia zariadenia.</string>
+    <string name="faq_1_text_commons">Je to pravdepodobne spôsobené tým, že ste apku presunuli na SD kartu. Ide o systémové obmedzenie, ktoré v tomto prípade skryje widget apky. Jediným riešením je presunutie apky späť na internú pamäť cez nastavnenia zariadenia.</string>
     <string name="faq_2_title_commons">Chcem vás podporiť, ale neviem poslať peniaze. Viem pre vás urobiť aj niečo iné?</string>
-    <string name="faq_2_text_commons">
-        <![CDATA[
+    <string name="faq_2_text_commons"><![CDATA[
             Áno, samozrejme. Môžete napr. šíriť apky medzi známymi, alebo nám poslať užitočnú odozvu a hodnotenia. Viete pomôcť aj preložením apiek do nových jazykov, alebo upraviť existujúce preklady.
             Návod na prekladanie je na <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">tejto webstránke</a>, alebo nám v prípade potreby napíšte na <a href="mailto:hello@fossify.org">hello@fossify.org</a>.
-        ]]>
-    </string>
+        ]]></string>
     <string name="faq_3_title_commons">Náhodou som vymazal niektoré súbory, viem ich obnoviť?</string>
     <string name="faq_3_text_commons">Žiaľ, nie. Súbory sú mazané okamžite po potvrdení, nie je dostupný žiadny smetný kôš.</string>
     <string name="faq_4_title_commons">Nepáčia sa mi farby widgetu, viem ich zmeniť?</string>
@@ -901,26 +888,20 @@
     <string name="faq_7_title_commons">Peniaze som mal stiahnuté z účtu, ale neviem stiahnuť aplikáciu. Čo s tým?</string>
     <string name="faq_7_text_commons">Platby sú plne spravované Googlom, ich systém z času na čas nefunguje. Skúste vymazať cache apky Google Play, reštartujte zariadenie a skúste apku opäť stiahnuť.</string>
     <string name="faq_8_title_commons">Prečo by som si mal stiahnuť Pro verziu?</string>
-    <string name="faq_8_text_commons">Keďže táto verzia aplikácie už nebude aktualizovaná, chyby, ktoré ste možno našli, nebudú nikdy opravené. Taktiež už nepribudnú žiadne nové funkcie. Pro verziu si viete kúpiť lacno na Google Play.
-        Ide o jednorázovú platbu, čo znamená, že ak ju raz zaplatíte, už nikdy nebudete musieť platiť nič. Ani vtedy, ak si kúpite nové zariadenie. Ak sa vám Pro verzia nebude páčiť, môžete ju do pár hodín odinštalovať a peniaze vám budú automaticky vrátené.
-        Ak budete chcieť vrátiť apku kedykoľvek neskôr, stačí, ak nám napíšete na hello@fossify.org a peniaze vám vrátime.</string>
+    <string name="faq_8_text_commons">Keďže táto verzia aplikácie už nebude aktualizovaná, chyby, ktoré ste možno našli, nebudú nikdy opravené. Taktiež už nepribudnú žiadne nové funkcie. Pro verziu si viete kúpiť lacno na Google Play. Ide o jednorázovú platbu, čo znamená, že ak ju raz zaplatíte, už nikdy nebudete musieť platiť nič. Ani vtedy, ak si kúpite nové zariadenie. Ak sa vám Pro verzia nebude páčiť, môžete ju do pár hodín odinštalovať a peniaze vám budú automaticky vrátené. Ak budete chcieť vrátiť apku kedykoľvek neskôr, stačí, ak nám napíšete na hello@fossify.org a peniaze vám vrátime.</string>
     <string name="faq_9_title_commons">Akým spôsobom viem naraz označiť viacero položiek?</string>
-    <string name="faq_9_text_commons">Existuje viacero spôsobov. Prvým je aktivovanie označovacieho módu dlhým podržaním jednej položky, následne viete označiť ďalšie krátkymi ťuknutiami. Druhý spôsob je podobný označovaniu položiek myšou na PC. Dlhým podržaním označte jednu položku a bez dvihnutia prsta
-        ho potiahnite cez ďalšie položky, to ich označí. Tretím spôsobom je dlhé podržanie jednej položky, následne dlhé podržanie inej položky. Označí to všetko medzi týmito 2 položkami. Ak chcete označiť všetko, aktivujte označovací mód dlhým podržaním jednej položky,
-        potom kliknite na počítadlo označených položiek v ľavom hornom rohu. To označí, resp. odznačí všetko.</string>
+    <string name="faq_9_text_commons">Existuje viacero spôsobov. Prvým je aktivovanie označovacieho módu dlhým podržaním jednej položky, následne viete označiť ďalšie krátkymi ťuknutiami. Druhý spôsob je podobný označovaniu položiek myšou na PC. Dlhým podržaním označte jednu položku a bez dvihnutia prsta ho potiahnite cez ďalšie položky, to ich označí. Tretím spôsobom je dlhé podržanie jednej položky, následne dlhé podržanie inej položky. Označí to všetko medzi týmito 2 položkami. Ak chcete označiť všetko, aktivujte označovací mód dlhým podržaním jednej položky, potom kliknite na počítadlo označených položiek v ľavom hornom rohu. To označí, resp. odznačí všetko.</string>
     <string name="faq_10_title_commons">Kúpil som si apku, neviem ju ale stiahnuť na inom zariadení.</string>
     <string name="faq_10_text_commons">Skúste vymazať cache apky Google Play a reštartovať vaše zariadenie. Ide o nejakú chybu v Google Play, nie v samotnej apke.</string>
     <string name="contributors">Prispievatelia</string>
     <string name="translation">Preklad</string>
     <string name="development">Vývoj</string>
     <string name="other_help">Iná pomoc</string>
-    <string name="contributors_label">
-        <![CDATA[
+    <string name="contributors_label"><![CDATA[
             Tento zoznam obsahuje každého, kto citeľne pomohol ktorejkoľvek apke z celej sady Fossify, nie iba tejto apke. Preklady sú spracovávané dobrovoľníkmi,
             dajte nám vedieť, ak chcete pomôcť tiež. Návod na prekladanie je na <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">tejto webstránke</a>, alebo ak máte nejaké otázky, tak nám jednoducho napíšte na <a href="mailto:hello@fossify.org">hello@fossify.org</a>.
             Ďakujeme všetkým prispievateľom a iným podporovateľom!
-        ]]>
-    </string>
+        ]]></string>
     <string name="translation_arabic">Arabčina</string>
     <string name="translation_azerbaijani">Azerbajdžančina</string>
     <string name="translation_bengali">Bengálčina</string>
@@ -1039,8 +1020,7 @@
     <string name="trial_expires_soon">Vaša skúšobná doba čoskoro vyprší.</string>
     <string name="unlock_for_one_final_day">Odomknúť apku na 1 posledný deň</string>
     <string name="welcome_to_app_name">Vitajte v %s!</string>
-    <string name="trial_start_description">Ďakujeme za používanie našej apky. Túto odomknutú verziu môžete používať po dobu &lt;font color=\'#FFFFFF\'&gt;%d dní&lt;/font&gt;. Keď skúšobná doba skončí, zvážte prosím prechod na Pro verziu. Má veľké množstvo nových funkcií, moderný dizajn, žiadne reklamy a mnoho ďalších vylepšení.
-        \n\nPlatiť za ňu treba iba raz za život a ak nebudete spokojný, môžete ju odinštalovať a peniaze vám budú vrátené.\n\nDúfame, že sa vám bude páčiť :)</string>
+    <string name="trial_start_description">Ďakujeme za používanie našej apky. Túto odomknutú verziu môžete používať po dobu <font color="#FFFFFF">%d dní</font>. Keď skúšobná doba skončí, zvážte prosím prechod na Pro verziu. Má veľké množstvo nových funkcií, moderný dizajn, žiadne reklamy a mnoho ďalších vylepšení. \n\nPlatiť za ňu treba iba raz za život a ak nebudete spokojný, môžete ju odinštalovať a peniaze vám budú vrátené.\n\nDúfame, že sa vám bude páčiť :)</string>
     <string name="trial_end_description">Prosím prejdite na Pro verziu, aby ste si apku mohli užívať naplno.\n\nPlatiť za ňu treba iba raz za život a ak nebudete spokojný, môžete ju odinštalovať a peniaze vám budú vrátené.\n\nStretneme sa tam :)</string>
     <plurals name="trial_expires_days">
         <item quantity="one">Vaša skúšobná doba uplynie o %d deň.</item>
@@ -1050,4 +1030,55 @@
     <string name="deprecated_app">ZASTARALÁ: Táto verzia aplikácie už nie je podporovaná. Stiahnite si Pro verziu na https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">Nezabudnite, že ak odinštalujete platenú verziu do 2 hodín, peniaze vám budú automaticky vrátené. Ak ich budete chcieť späť hocikedy neskôr, len nám dajte vedieť na hello@fossify.org. To vám zabezpečí jednoduchý spôsob na ich vyskúšanie :)</string>
     <string name="developer_description">Skupina jednoduchých, open source Android apiek s nastaviteľnými widgetmi, bez reklám a nepotrebných oprávnení.</string>
+    <string name="otto_title"></string>
+    <string name="usb"></string>
+    <string name="november"></string>
+    <string name="september"></string>
+    <string name="august_short"></string>
+    <string name="saturday_letter"></string>
+    <string name="all_fossify_apps"></string>
+    <string name="translation_central_kurdish"></string>
+    <string name="translation_belarusian"></string>
+    <string name="ok"></string>
+    <string name="shared_theme_note"></string>
+    <string name="apply_to_all_apps"></string>
+    <string name="march_short"></string>
+    <string name="copyright"></string>
+    <string name="donate_short"></string>
+    <string name="why_upgrade_pro_version"></string>
+    <string name="hours_letter"></string>
+    <string name="translation_kabyle"></string>
+    <string name="purchase_simple_thank_you"></string>
+    <string name="pin"></string>
+    <string name="minutes_letter"></string>
+    <string name="seconds_letter"></string>
+    <string name="pager"></string>
+    <string name="november_short"></string>
+    <string name="september_short"></string>
+    <string name="email"></string>
+    <string name="december_short"></string>
+    <string name="january_short"></string>
+    <string name="translation_chuvash"></string>
+    <string name="august"></string>
+    <string name="week_number_short"></string>
+    <string name="april_short"></string>
+    <string name="december"></string>
+    <string name="february_short"></string>
+    <string name="exif"></string>
+    <string name="text"></string>
+    <string name="theme_and_colors"></string>
+    <string name="audio"></string>
+    <string name="album"></string>
+    <string name="platforms"></string>
+    <string name="little_to_no_fee"></string>
+    <string name="donate_to_fossify"></string>
+    <string name="fee_up_to_pct"></string>
+    <string name="cryptocurrency"></string>
+    <string name="format_phone_numbers"></string>
+    <string name="features_locked"></string>
+    <string name="update_thank_you"></string>
+    <string name="known_issues"></string>
+    <string name="donate_new"></string>
+    <string name="translation_esperanto"></string>
+    <string name="translation_gujarati"></string>
 </resources>
