@@ -96,7 +96,7 @@
     <string name="import_blocked_numbers">Importă numerele blocate</string>
     <string name="must_make_default_dialer">Trebuie să setaţi aceasta aplicaţie ca aplicaţie implicită de apelare pentru a putea beneficia de funcţia de blocare de numere.</string>
     <string name="set_as_default">Setează ca implicit</string>
-    <string name="block_confirmation">Eşti sigur că vrei să îl/o blochezi pe \"%s\"\?</string>
+    <string name="block_confirmation">Eşti sigur că vrei să îl/o blochezi pe s?</string>
     <string name="block_unknown_calls">Blocați apelurile de la contacte care nu sunt stocate</string>
     <string name="block_unknown_messages">Blocați mesajele de la contactele care nu sunt stocate</string>
     <string name="add_blocked_number_helper_text">Introduceți un număr sau un model (de exemplu, *12345*, +1*8888) pentru a bloca toate apelurile și mesajele de la numere care corespund modelului.</string>
@@ -175,9 +175,9 @@
     <string name="invalid_name">Numele conţine caractere invalide</string>
     <string name="empty_name">Introduceţi un nume</string>
     <string name="unknown_error_occurred">A apărut o eroare necunoscută</string>
-    <string name="file_already_exists">Fişierul \"%s\" există deja</string>
-    <string name="file_already_exists_overwrite">Fişierul\"%s\" există deja. Suprascrieți?</string>
-    <string name="folder_already_exists">Dosarul \"%s\" există deja</string>
+    <string name="file_already_exists">Fişierul s există deja</string>
+    <string name="file_already_exists_overwrite">Fişieruls există deja. Suprascrieți?</string>
+    <string name="folder_already_exists">Dosarul s există deja</string>
     <string name="merge">Combină</string>
     <string name="keep_both">Păstrează ambele</string>
     <string name="overwrite">Suprascrieți</string>
@@ -228,8 +228,7 @@
     <string name="root">Rădăcină</string>
     <string name="wrong_root_selected">Dosarul selectat este greșit, vă rugăm să selectați dosarul principal al cardului SD</string>
     <string name="sd_card_usb_same">Căile cardului SD și ale dispozitivului USB nu pot fi aceleași</string>
-    <string name="app_on_sd_card">Se pare că aplicația este instalată pe un card SD, ceea ce face ca widgeturile aplicației să nu fie disponibile. Nu le veți vedea nici măcar în lista de widgeturi disponibile.
-        Este o limitare a sistemului, așa că, dacă doriți să folosiți widgeturile, trebuie să mutați aplicația înapoi în memoria internă.</string>
+    <string name="app_on_sd_card">Se pare că aplicația este instalată pe un card SD, ceea ce face ca widgeturile aplicației să nu fie disponibile. Nu le veți vedea nici măcar în lista de widgeturi disponibile. Este o limitare a sistemului, așa că, dacă doriți să folosiți widgeturile, trebuie să mutați aplicația înapoi în memoria internă.</string>
     <string name="wrong_folder_selected">A fost selectat un dosar greșit, vă rugăm să selectați calea \'%s\'</string>
     <string name="properties">Proprietăţi</string>
     <string name="path">Calea de acces</string>
@@ -247,7 +246,7 @@
     <string name="gps_coordinates">coordonate GPS</string>
     <string name="altitude">Altitudine</string>
     <string name="remove_exif">Eliminați EXIF</string>
-    <string name="remove_exif_confirmation">Sunteți sigur că doriți să eliminați valorile EXIF, cum ar fi coordonatele GPS, modelul camerei etc.\?</string>
+    <string name="remove_exif_confirmation">Sunteți sigur că doriți să eliminați valorile EXIF, cum ar fi coordonatele GPS, modelul camerei etc.?</string>
     <string name="exif_removed">Valorile EXIF au fost eliminate cu succes</string>
     <string name="background_color">Culoare de fundal</string>
     <string name="text_color">Culoarea textului</string>
@@ -269,11 +268,9 @@
     <string name="undo_changes_confirmation">Sunteți sigur că vreţi să anulați modificările?</string>
     <string name="save_before_closing">Aveți modificări nesalvate. Salvați înainte de a ieși?</string>
     <string name="global_theme_success">Culorile au fost actualizate cu succes. A fost adăugată o nouă temă numită \'Partajată\', vă rugăm să o folosiți pentru actualizarea tuturor culorilor aplicației în viitor.</string>
-    <string name="purchase_thank_you">
-        <![CDATA[
+    <string name="purchase_thank_you"><![CDATA[
             Vă rugăm cumpăraţi <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> pentru a debloca această funcţie şi pentru a sprijini dezvoltatorii. Vă mulţumim!
-        ]]>
-    </string>
+        ]]></string>
     <string name="light_theme">Luminoasă</string>
     <string name="dark_theme">Întunecată</string>
     <string name="auto_theme">Automatic</string>
@@ -347,7 +344,7 @@
     <string name="use_custom_sorting">Utilizați o sortare personalizată</string>
     <string name="change_order">Ordin de modificare</string>
     <string name="proceed_with_deletion">Sunteți sigur că doriți să continuaţi cu ștergerea?</string>
-    <string name="deletion_confirmation">Ești sigur că vrei să ștergi %s\?</string>
+    <string name="deletion_confirmation">Ești sigur că vrei să ștergi %s?</string>
     <string name="move_to_recycle_bin_confirmation">Eşti sigur că vrei să muţi %s în coșul de reciclare?</string>
     <string name="are_you_sure_delete">Sunteți sigur că doriți să ștergeți acest element?</string>
     <string name="are_you_sure_recycle_bin">Sunteți sigur că doriți să mutați acest element în coșul de reciclare?</string>
@@ -536,8 +533,7 @@
     </plurals>
     <string name="alarm_goes_off_in">Timpul rămas până la declanșarea alarmei:\n%s</string>
     <string name="reminder_triggers_in">Timpul rămas până la declanșarea atenționării:\n%s</string>
-    <string name="time_remaining">Timp rămas:
-\n%s</string>
+    <string name="time_remaining">Timp rămas: \n%s</string>
     <string name="alarm_warning">Vă rugăm să vă asigurați că alarma funcționează corespunzător înainte de a vă baza pe ea. S-ar putea să se comporte necorespunzător din cauza restricțiilor de sistem legate de economisirea bateriei.</string>
     <string name="reminder_warning">Vă rugăm să vă asigurați că memento-urile funcționează corect înainte de a vă baza pe ele. Verificați setările bateriei dispozitivului, precum și setările de notificare. Unele telefoane au funcţii care pot bloca memento-urile sau pot să elimine procesul de fundal al aplicaţiei.</string>
     <string name="notifications_disabled">Notificările privind această aplicație sunt dezactivate. Vă rugăm să accesați setările dispozitivului pentru a le activa.</string>
@@ -609,7 +605,7 @@
     <string name="excluded">(exclus)</string>
     <string name="manage_excluded_folders">Gestionează dosarele excluse</string>
     <string name="remove_all">Elimină tot</string>
-    <string name="remove_all_description">Elimini toate dosarele din lista de dosare excluse\? Acest lucru nu va șterge dosarele.</string>
+    <string name="remove_all_description">Elimini toate dosarele din lista de dosare excluse? Acest lucru nu va șterge dosarele.</string>
     <string name="manage_shown_tabs">Gestionați filele afișate</string>
     <string name="default_tab_to_open">Fila implicită cu care se deschide aplicația</string>
     <string name="contacts_tab">Contacte</string>
@@ -718,13 +714,11 @@
     <string name="additional_info">Informații suplimentare</string>
     <string name="app_version">Versiunea aplicației: %s</string>
     <string name="device_os">Dispozitivul OS: %s</string>
-    <string name="donate_please">
-        <![CDATA[
+    <string name="donate_please"><![CDATA[
             Salut,<br><br>
             Sper că vă bucurați de aplicație. Nu conține reclame, vă rugăm să sprijiniți dezvoltarea sa prin achiziționarea aplicației <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>, de asemenea, va împiedica ca acest dialog să mais apară din nou.<br><br>
             Thank you!
-        ]]>
-    </string>
+        ]]></string>
     <string name="purchase">Cumpără</string>
     <string name="before_asking_question_read_faq">Înainte de a pune o întrebare, vă rugăm să verificați setările aplicației și să citiți mai întâi Întrebările frecvente. Este posibil ca soluția să se afle acolo.</string>
     <string name="before_rate_read_faq">Înainte de a ne evalua, vă rugăm să verificați setările aplicației și să citiți mai întâi Întrebările frecvente. Dacă aveți probleme, este posibil ca soluția să se afle acolo.</string>
@@ -736,8 +730,7 @@
     <string name="rate_our_app">Vă rugăm să ne evaluaţi aplicaţia :)</string>
     <string name="thank_you">Îţi mulţumesc</string>
     <string name="widget_locked_pro">Widgetul este blocat.\nVă rugăm să faceți upgrade la versiunea Pro pentru a debloca această funcţie.</string>
-    <string name="new_app">
-        <![CDATA[
+    <string name="new_app"><![CDATA[
             Hey,<br><br>
             vă anunțam doar că au fost lansate recent câteva aplicații noi:<br><br>
             <a href="%1$s">%2$s</a><br><br>
@@ -745,8 +738,7 @@
             <a href="%5$s">%6$s</a><br><br>
             Le puteți descărca apăsând pe titlurile sau pictogramele acestora.<br><br>
             Îţi mulţumesc
-        ]]>
-    </string>
+        ]]></string>
     <string name="app_launcher_short">Lansator aplicaţii</string>
     <string name="camera_short">Cameră</string>
     <string name="clock_short">Ceas</string>
@@ -762,23 +754,18 @@
     <string name="sms_messenger_short">Mesaje</string>
     <string name="thank_you_short">Îţi mulţumesc</string>
     <string name="voice_recorder_short">Înregistrare vocală</string>
-    <string name="sideloaded_app">
-        <![CDATA[
+    <string name="sideloaded_app"><![CDATA[
             Se pare că versiunea aplicației dvs. este coruptă. Vă rugăm să descărcați versiunea originală <a href="%s">aici</a>.
-        ]]>
-    </string>
+        ]]></string>
     <string name="frequently_asked_questions">Întrebări frecvente</string>
     <string name="before_asking_question">Înainte de a pune o întrebare, vă rugăm să citiți mai întâi</string>
     <string name="faq_1_title_commons">Cum se face că nu văd widgetul corespunzător aplicaţiei în lista de widgeturi?</string>
-    <string name="faq_1_text_commons">Cel mai probabil se datorează faptului că ați mutat aplicația pe un card SD. Este o limitare a sistemului Android care ascunde widget-urile aplicației.
-        Singura soluție este să mutați aplicația înapoi în memoria internă prin intermediul setărilor dispozitivului.</string>
+    <string name="faq_1_text_commons">Cel mai probabil se datorează faptului că ați mutat aplicația pe un card SD. Este o limitare a sistemului Android care ascunde widget-urile aplicației. Singura soluție este să mutați aplicația înapoi în memoria internă prin intermediul setărilor dispozitivului.</string>
     <string name="faq_2_title_commons">Vreau să te sprijin, dar nu pot dona bani. Pot să fac altceva?</string>
-    <string name="faq_2_text_commons">
-        <![CDATA[
+    <string name="faq_2_text_commons"><![CDATA[
             Da, bineînțeles. Puteți să răspândiți vestea despre aplicațiile Simple sau să oferiți feedback și evaluări bune pe magaziul Google Play. De asemenea, puteți ajuta prin traducerea aplicațiilor într-o limbă nouă sau doar prin actualizarea unor traduceri existente.
             Ghidul de traducere se găsește la <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">acest site</a>, sau pur și simplu contactați-ne la <a href="mailto:hello@fossify.org">hello@fossify.org</a> dacă aveți întrebări.
-        ]]>
-    </string>
+        ]]></string>
     <string name="faq_3_title_commons">Am șters niște fișiere din greșeală, cum pot să le recuperez?</string>
     <string name="faq_3_text_commons">Din păcate, nu se poate. Fișierele sunt șterse instantaneu după dialogul de confirmare, nu există nici un coș de gunoi disponibil.</string>
     <string name="faq_4_title_commons">Nu-mi plac culorile widget-urilor, pot să le schimb?</string>
@@ -789,13 +776,9 @@
     <string name="faq_7_title_commons">Banii au fost decontați din contul meu bancar, dar nu pot descărca aplicația. Ce pot face?</string>
     <string name="faq_7_text_commons">Plățile sunt gestionate în totalitate de Google, dar sistemul lor are probleme din când în când. Pur și simplu ștergeți memoria cache a aplicației Google Play și reporniți dispozitivul, apoi încercați din nou să o descărcați.</string>
     <string name="faq_8_title_commons">De ce ar trebui să trec la versiunea Pro?</string>
-    <string name="faq_8_text_commons">Deoarece versiunea aplicației dvs. nu mai este actualizată, erorile pe care poate le-ați detectat nu vor fi rezolvate niciodată. De asemenea, nu vor fi adăugate funcții noi. Puteți achiziționa versiunea Pro de pe Google Play pentru o sumă modestă de bani.
-        Este o plată unică, ceea ce înseamnă că, odată ce ați cumpărat-o, nu va trebui să mai plătiți niciodată. Nici măcar după ce vă achiziționați un nou dispozitiv. Dacă nu vă place versiunea Pro, puteți să o dezinstalați în câteva ore și vă veți primi automat banii înapoi.
-        Dacă doriți o rambursare în orice moment ulterior, contactați-ne la hello@fossify.org și o veți obține.</string>
+    <string name="faq_8_text_commons">Deoarece versiunea aplicației dvs. nu mai este actualizată, erorile pe care poate le-ați detectat nu vor fi rezolvate niciodată. De asemenea, nu vor fi adăugate funcții noi. Puteți achiziționa versiunea Pro de pe Google Play pentru o sumă modestă de bani. Este o plată unică, ceea ce înseamnă că, odată ce ați cumpărat-o, nu va trebui să mai plătiți niciodată. Nici măcar după ce vă achiziționați un nou dispozitiv. Dacă nu vă place versiunea Pro, puteți să o dezinstalați în câteva ore și vă veți primi automat banii înapoi. Dacă doriți o rambursare în orice moment ulterior, contactați-ne la hello@fossify.org și o veți obține.</string>
     <string name="faq_9_title_commons">Cum pot selecta mai multe elemente simultan?</string>
-    <string name="faq_9_text_commons">Există mai multe modalități de a face acest lucru. Prima este pornirea modului de selectare prin apăsarea lungă a unui element, apoi prin apăsarea scurtă pe celelalte pentru a le selecta. Al doilea mod este similar cu selectarea elementelor de pe PC-uri cu ajutorul mouse-ului,
-        porniți modul de selecție prin apăsarea lungă a unui element, apoi, cu degetul încă apăsat, trageți-l peste alte elemente pentru a le selecta. Al treilea mod de a selecta mai multe elemente este apăsarea lungă a unui element, apoi apăsarea lungă a altui element și tot ce se află între ele este selectat. Dacă
-        doriți să selectați toate elementele, trebuie doar să apăsați lung pe un element, apoi faceți clic pe contorul de elemente selectate din colțul din stânga sus. Astfel, veți selecta sau deselecta totul.</string>
+    <string name="faq_9_text_commons">Există mai multe modalități de a face acest lucru. Prima este pornirea modului de selectare prin apăsarea lungă a unui element, apoi prin apăsarea scurtă pe celelalte pentru a le selecta. Al doilea mod este similar cu selectarea elementelor de pe PC-uri cu ajutorul mouse-ului, porniți modul de selecție prin apăsarea lungă a unui element, apoi, cu degetul încă apăsat, trageți-l peste alte elemente pentru a le selecta. Al treilea mod de a selecta mai multe elemente este apăsarea lungă a unui element, apoi apăsarea lungă a altui element și tot ce se află între ele este selectat. Dacă doriți să selectați toate elementele, trebuie doar să apăsați lung pe un element, apoi faceți clic pe contorul de elemente selectate din colțul din stânga sus. Astfel, veți selecta sau deselecta totul.</string>
     <string name="faq_10_title_commons">Am achiziționat aplicația, dar nu o pot descărca pe un alt dispozitiv.</string>
     <string name="faq_10_text_commons">Încercați să ștergeți memoria cache a aplicației Google Play și să reporniți dispozitivul. Este vorba de o eroare Google Play, care nu are legătură cu aplicația în sine.</string>
     <string name="contributors">Contribuitori</string>
@@ -876,7 +859,7 @@
     <string name="why_upgrade_background_color_customization">Personalizarea culorii de fundal</string>
     <string name="why_upgrade_file_importing">Suport pentru importul de fișiere</string>
     <string name="why_upgrade_zooming">Mărire</string>
-    <string name="notice">Această aplicație utilizează următoarele biblioteci terțe pentru a îmi face viața mai ușoară. Îţi  mulțumesc.</string>
+    <string name="notice">Această aplicație utilizează următoarele biblioteci terțe pentru a îmi face viața mai ușoară. Îţi mulțumesc.</string>
     <string name="third_party_licences">Licențe ale părţilor terți</string>
     <string name="kotlin_title">Kotlin (Limbaj de programare)</string>
     <string name="subsampling_title">Subsampling Scale Image View (Vizualizări de imagini cu zoom)</string>
@@ -985,4 +968,112 @@
     <string name="purchase_simple_thank_you">Achiziționați Mulțumesc Fossify (Thank You)</string>
     <string name="general_settings">General</string>
     <string name="text">Text</string>
+    <string name="pdf_view_pager_title"></string>
+    <string name="translation_chuvash"></string>
+    <string name="translation_esperanto"></string>
+    <string name="theme_and_colors"></string>
+    <string name="start_week_on"></string>
+    <string name="skip_the_recycle_bin"></string>
+    <string name="manage_automatic_backups"></string>
+    <string name="backups"></string>
+    <string name="enable_automatic_backups"></string>
+    <string name="usb"></string>
+    <string name="february_short"></string>
+    <string name="march_short"></string>
+    <string name="may_short"></string>
+    <string name="august_short"></string>
+    <string name="september_short"></string>
+    <string name="july_short"></string>
+    <string name="june_short"></string>
+    <string name="october_short"></string>
+    <string name="december_short"></string>
+    <string name="november_short"></string>
+    <string name="upgraded_from_free_calendar"></string>
+    <string name="upgraded_from_free_notes"></string>
+    <string name="version_placeholder"></string>
+    <string name="all_fossify_apps"></string>
+    <string name="launcher_short"></string>
+    <string name="little_to_no_fee"></string>
+    <string name="translation_bulgarian"></string>
+    <plurals name="trial_expires_days">
+        <item quantity="one"></item>
+        <item quantity="few"></item>
+        <item quantity="other"></item>
+    </plurals>
+    <string name="allow_alarm_sleep_timer"></string>
+    <string name="calendar_short"></string>
+    <string name="unlock_for_one_final_day"></string>
+    <string name="welcome_to_app_name"></string>
+    <string name="trial_expires_soon"></string>
+    <string name="trial_end_description"></string>
+    <string name="allow_location_permission"></string>
+    <string name="week_number_short"></string>
+    <string name="january_short"></string>
+    <string name="support"></string>
+    <string name="update_thank_you"></string>
+    <string name="gson_title"></string>
+    <string name="apply_to_all_apps"></string>
+    <string name="upgraded_to_pro_gallery"></string>
+    <string name="upgraded_to_pro"></string>
+    <string name="allow_access_more_media"></string>
+    <string name="allow_notifications_incoming_calls"></string>
+    <string name="donate_new"></string>
+    <string name="saturday_letter"></string>
+    <string name="hours_letter"></string>
+    <string name="improved_color_customization"></string>
+    <string name="stop_showing_excluded"></string>
+    <string name="trial_expired"></string>
+    <string name="allow_notifications_voice_recorder"></string>
+    <string name="allow_full_screen_notifications_incoming_calls"></string>
+    <string name="grant_permission"></string>
+    <string name="zip4j_title"></string>
+    <string name="upgraded_from_free_gallery"></string>
+    <string name="allow_notifications_files"></string>
+    <string name="trial_start_description"></string>
+    <string name="notification_sound"></string>
+    <string name="translation_kabyle"></string>
+    <string name="why_upgrade_advanced_photo_video_editor"></string>
+    <string name="allow_notifications_incoming_messages"></string>
+    <string name="translation_english"></string>
+    <string name="allow_notifications_reminders"></string>
+    <string name="shared_theme_note"></string>
+    <string name="website"></string>
+    <string name="too_many_incorrect_attempts"></string>
+    <string name="m3u_parser_title"></string>
+    <string name="fee_up_to_pct"></string>
+    <string name="pdf_viewer_title"></string>
+    <string name="translation_belarusian"></string>
+    <string name="upgraded_from_free_contacts"></string>
+    <string name="cannot_be_undone"></string>
+    <string name="platforms"></string>
+    <string name="minutes_letter"></string>
+    <string name="why_upgrade_pro_version"></string>
+    <string name="allow_alarm_scheduled_messages"></string>
+    <string name="calculator_short"></string>
+    <string name="allow_notifications_music_player"></string>
+    <string name="upgraded_from_free"></string>
+    <string name="date_time_pattern_info"></string>
+    <string name="seconds_letter"></string>
+    <string name="cryptocurrency"></string>
+    <string name="pin_must_be_4_digits_long"></string>
+    <string name="august"></string>
+    <string name="start_free_trial"></string>
+    <string name="donate_to_fossify"></string>
+    <string name="allow_full_screen_notifications_reminders"></string>
+    <string name="april_short"></string>
+    <string name="contributors_label"></string>
+    <string name="translation_hindi"></string>
+    <string name="why_upgrade_many_other_improvements"></string>
+    <string name="android_lame_title"></string>
+    <string name="list_view"></string>
+    <string name="format_phone_numbers"></string>
+    <string name="temporarily_show_excluded"></string>
+    <string name="exclude_folder"></string>
+    <string name="social"></string>
+    <string name="copyright"></string>
+    <string name="features_locked"></string>
+    <string name="known_issues"></string>
+    <string name="donate_short"></string>
+    <string name="translation_gujarati"></string>
+    <string name="translation_central_kurdish"></string>
 </resources>
