@@ -235,9 +235,9 @@
     <string name="invalid_name">Il nome contiene caratteri non validi</string>
     <string name="empty_name">Inserisci un nome</string>
     <string name="unknown_error_occurred">Si è verificato un errore sconosciuto</string>
-    <string name="file_already_exists">Il file \"%s\" esiste già</string>
-    <string name="file_already_exists_overwrite">Il file \"%s\" esiste già. Sovrascrivere?</string>
-    <string name="folder_already_exists">La cartella \"%s\" esiste già</string>
+    <string name="file_already_exists">Il file s esiste già</string>
+    <string name="file_already_exists_overwrite">Il file s esiste già. Sovrascrivere?</string>
+    <string name="folder_already_exists">La cartella s esiste già</string>
     <string name="merge">Unisci</string>
     <string name="keep_both">Mantieni entrambi</string>
     <string name="overwrite">Sovrascrivi</string>
@@ -256,8 +256,8 @@
     <string name="confirm_storage_access_text">Scegliere il percorso della scheda SD nella prossima schermata, per consentire i permessi di scrittura</string>
     <string name="confirm_storage_access_text_sd">Se non si ha una scheda SD, provare questo</string>
     <string name="confirm_storage_access_android_text">Consenti all\'app di accedere allo storage selezionato nella schermata successiva premendo «Usa questa cartella» in basso.</string>
-    <string name="confirm_storage_access_android_text_specific">Permetti l\'accesso a «&lt;b&gt;%s&lt;/b&gt;» nella prossima schermata premendo «&lt;b&gt;Usa questa cartella&lt;/b&gt;» in basso.</string>
-    <string name="confirm_create_doc_for_new_folder_text">Premi «&lt;b&gt;Salva&lt;/b&gt;» in fondo alla prossima schermata per creare la nuova cartella.</string>
+    <string name="confirm_storage_access_android_text_specific">Permetti l\'accesso a «<b>%s</b>» nella prossima schermata premendo «<b>Usa questa cartella</b>» in basso.</string>
+    <string name="confirm_create_doc_for_new_folder_text">Premi «<b>Salva</b>» in fondo alla prossima schermata per creare la nuova cartella.</string>
     <string name="confirm_selection">Conferma selezione</string>
     <string name="loading">Caricamento…</string>
     <string name="access_storage_prompt">Per favore, concedi alla nostra app l\'accesso a tutti i tuoi file, potrebbe non funzionare bene senza.</string>
@@ -288,8 +288,7 @@
     <string name="sd_card">Scheda SD</string>
     <string name="wrong_root_selected">È stata selezionata una cartella errata, selezionare la cartella di root della scheda SD</string>
     <string name="sd_card_usb_same">I percorsi della scheda SD e del dispositivo USB non possono essere uguali</string>
-    <string name="app_on_sd_card">Sembra che l\'app sia installata nella scheda SD, ciò impedisce l\'uso dei widget dell\'app. Non li vedrai neppure nell\'elenco dei widget disponibili.
-        È una limitazione di sistema, quindi se si vuole utilizzare i widget, si deve spostare l\'app nella memoria interna.</string>
+    <string name="app_on_sd_card">Sembra che l\'app sia installata nella scheda SD, ciò impedisce l\'uso dei widget dell\'app. Non li vedrai neppure nell\'elenco dei widget disponibili. È una limitazione di sistema, quindi se si vuole utilizzare i widget, si deve spostare l\'app nella memoria interna.</string>
     <string name="wrong_folder_selected">Cartella errata selezionata, selezionare il percorso «%s»</string>
     <string name="properties">Proprietà</string>
     <string name="path">Percorso</string>
@@ -308,7 +307,7 @@
     <string name="gps_coordinates">Coordinate GPS</string>
     <string name="altitude">Altitudine</string>
     <string name="remove_exif">Rimuovi EXIF</string>
-    <string name="remove_exif_confirmation">Sei sicuro/a di voler rimuovere i valori EXIF come le coordinate GPS, il modello della fotocamera, ecc.\?</string>
+    <string name="remove_exif_confirmation">Sei sicuro/a di voler rimuovere i valori EXIF come le coordinate GPS, il modello della fotocamera, ecc.?</string>
     <string name="exif_removed">Valori EXIF rimossi con successo</string>
     <string name="background_color">Colore di sfondo</string>
     <string name="text_color">Colore del testo</string>
@@ -428,8 +427,7 @@
     <string name="please_enter_pin">Per favore inserisci un PIN</string>
     <string name="wrong_pin">PIN errato</string>
     <string name="pin_must_be_4_digits_long">Il codice deve avere almeno 4 cifre</string>
-    <string name="too_many_incorrect_attempts">Troppi tentativi di sblocco errati.
-\nRiprova in %d secondi.</string>
+    <string name="too_many_incorrect_attempts">Troppi tentativi di sblocco errati. \nRiprova in %d secondi.</string>
     <string name="repeat_pin">Ripeti il PIN</string>
     <string name="pattern">Sequenza</string>
     <string name="insert_pattern">Inserisci una sequenza</string>
@@ -607,8 +605,7 @@
     </plurals>
     <string name="alarm_goes_off_in">Tempo rimanente prima che suoni la sveglia:\n%s</string>
     <string name="reminder_triggers_in">Tempo rimanente prima della notifica promemoria:\n%s</string>
-    <string name="time_remaining">Tempo rimanente:
-\n%s</string>
+    <string name="time_remaining">Tempo rimanente: \n%s</string>
     <string name="alarm_warning">Assicurarsi che la sveglia funzioni correttamente prima di fare affidamento su di essa. Potrebbe comportarsi in modo anomalo a causa di restrizioni di sistema relative al risparmio della batteria.</string>
     <string name="reminder_warning">Assicurarsi che i promemoria funzionino correttamente prima di fare affidamento su di essi. Potrebbero comportarsi in modo anomalo a causa di restrizioni di sistema relative al risparmio della batteria.</string>
     <string name="notifications_disabled">Le notifiche di questa applicazione sono disattivate. Andare nelle impostazioni del dispositivo per attivarle.</string>
@@ -687,7 +684,7 @@
     <string name="excluded">(esclusa)</string>
     <string name="manage_excluded_folders">Gestisci le cartelle escluse</string>
     <string name="remove_all">Rimuovi tutte</string>
-    <string name="remove_all_description">Rimuovere tutte le cartelle dalla lista delle esclusioni\? Ciò non eliminerà le cartelle.</string>
+    <string name="remove_all_description">Rimuovere tutte le cartelle dalla lista delle esclusioni? Ciò non eliminerà le cartelle.</string>
     <string name="temporarily_show_excluded">Mostra temporaneamente esclusi</string>
     <string name="stop_showing_excluded">Smetti di mostrare esclusi</string>
     <string name="manage_shown_tabs">Gestisci le schede mostrate</string>
@@ -706,7 +703,7 @@
     <string name="files_restored_successfully">I file sono stati ripristinati correttamente</string>
     <string name="empty_recycle_bin_confirmation">Svuotare davvero il cestino? I file verranno persi definitivamente.</string>
     <string name="recycle_bin_empty">Il cestino è vuoto</string>
-    <string name="moving_recycle_bin_items_disabled">Lo spostamento degli elementi dal cestino è disabilitato, utilizzare "Ripristina"</string>
+    <string name="moving_recycle_bin_items_disabled">Lo spostamento degli elementi dal cestino è disabilitato, utilizzare Ripristina</string>
     <string name="show_the_recycle_bin">Mostra il cestino</string>
     <string name="hide_the_recycle_bin">Nascondi il cestino</string>
     <string name="open_the_recycle_bin">Apri il cestino</string>
@@ -730,14 +727,7 @@
     <string name="backups">Backup</string>
     <string name="enable_automatic_backups">Abilita i backup automatici</string>
     <string name="manage_automatic_backups">Gestisci i backup automatici</string>
-    <string name="date_time_pattern_info">È possibile utilizzare i seguenti schemi per assegnare automaticamente un nome al file:
-\n
-\n%Y - anno
-\n%M - mese
-\n%D - giorno
-\n%h - ora
-\n%m - minuto
-\n%s - secondo</string>
+    <string name="date_time_pattern_info">È possibile utilizzare i seguenti schemi per assegnare automaticamente un nome al file: \n \n%Y - anno \n%M - mese \n%D - giorno \n%h - ora \n%m - minuto \n%s - secondo</string>
     <string name="usb_detected">È collegato un dispositivo USB al dispositivo. Per assicurarsi che i file appaiano correttamente, è necessario accettare permessi aggiuntivi.</string>
     <string name="confirm_usb_storage_access_text">Scegliere la cartella di root del dispositivo USB nella prossima schermata per consentire l\'accesso</string>
     <string name="wrong_root_selected_usb">Cartella selezionata errata, selezionare la cartella di root del dispositivo USB</string>
@@ -792,47 +782,13 @@
     <string name="more_info">Maggiori informazioni</string>
     <string name="upgrade">Aggiorna</string>
     <string name="upgrade_calendar">Devi migrare a mano gli eventi salvati localmente esportandoli in un file .ics, poi importandoli. Si possono trovare i pulsanti esporta/importa nel menu della schermata principale.</string>
-    <string name="upgraded_from_free_gallery">Ciao,
-\n
-\nsembra che tu abbia appena effettuato l\'aggiornamento dalla versione gratuita. Una volta che sei soddisfatto di questa versione e magari hai migrato le tue impostazioni e i tuoi preferiti, puoi disinstallare la vecchia versione gratuita per evitare di avviarla accidentalmente, dato che non ti servirà più; ciò eviterà anche la comparsa di questa finestra di dialogo.
-\n
-\nGrazie!</string>
-    <string name="upgraded_to_pro_gallery">Ciao,
-\n
-\nsembra che tu abbia già la versione Pro dell\'app. Una volta che sarai soddisfatto e magari avrai migrato le tue impostazioni e i tuoi preferiti, potrai disinstallare questa versione per evitare di avviarla accidentalmente, dato che non ti servirà più.
-\n
-\nGrazie!</string>
-    <string name="upgraded_from_free">Ciao,
-\n
-\nsembra che tu abbia appena effettuato l\'aggiornamento dalla versione gratuita. Una volta che sei soddisfatto di questa e magari hai migrato i tuoi dati, puoi disinstallare la vecchia versione gratuita per evitare di avviarla accidentalmente, dato che non ti servirà più; ciò eviterà anche la comparsa di questa finestra di dialogo.
-\n
-\nGrazie!</string>
-    <string name="upgraded_to_pro">Salve,
-\n
-\nsembra che tu abbia già anche la versione Pro dell\'app. Una volta che sarai soddisfatto e avrai migrato i tuoi dati, potrai disinstallare questa versione per evitare di lanciarla accidentalmente, dato che non ti servirà più.
-\n
-\nGrazie!</string>
-    <string name="upgraded_from_free_calendar">Salve,
-\n
-\nsembra che tu abbia appena effettuato l\'aggiornamento dalla versione gratuita. Se vuoi migrare gli eventi memorizzati localmente, devi farlo manualmente esportandoli in un file .ics nella versione gratuita dell\'app e importandoli qui attraverso il menu superiore.
-\n
-\nUna volta soddisfatti della propria configurazione nella versione Pro, è possibile disinstallare la vecchia versione gratuita, poiché non è più necessaria; ciò eviterà anche la comparsa di questa finestra di dialogo.
-\n
-\nGrazie!</string>
-    <string name="upgraded_from_free_contacts">Salve,
-\n
-\nsembra che lei abbia appena effettuato l\'aggiornamento dalla versione gratuita. Se aveva dei contatti memorizzati sotto «%s», deve migrarli manualmente esportandoli in un file .vcf dalla versione gratuita dell\'app e importandoli qui attraverso il menu superiore.
-\n
-\nUna volta soddisfatti della configurazione della versione Pro, è possibile disinstallare la vecchia versione gratuita, poiché non è più necessaria; ciò eviterà anche la comparsa di questa finestra di dialogo.
-\n
-\nGrazie!</string>
-    <string name="upgraded_from_free_notes">Salve,
-\n
-\nsembra che tu abbia appena effettuato l\'aggiornamento dalla versione gratuita. Se vuoi migrare le tue note, devi farlo manualmente esportandole in un file nella versione gratuita dell\'app e importandole qui attraverso il menu in alto.
-\n
-\nUna volta soddisfatta della sua configurazione nella versione Pro, può disinstallare la vecchia versione gratuita perché non ne avrà più bisogno; ciò eviterà anche la comparsa di questa finestra di dialogo.
-\n
-\nGrazie!</string>
+    <string name="upgraded_from_free_gallery">Ciao, \n \nsembra che tu abbia appena effettuato l\'aggiornamento dalla versione gratuita. Una volta che sei soddisfatto di questa versione e magari hai migrato le tue impostazioni e i tuoi preferiti, puoi disinstallare la vecchia versione gratuita per evitare di avviarla accidentalmente, dato che non ti servirà più; ciò eviterà anche la comparsa di questa finestra di dialogo. \n \nGrazie!</string>
+    <string name="upgraded_to_pro_gallery">Ciao, \n \nsembra che tu abbia già la versione Pro dell\'app. Una volta che sarai soddisfatto e magari avrai migrato le tue impostazioni e i tuoi preferiti, potrai disinstallare questa versione per evitare di avviarla accidentalmente, dato che non ti servirà più. \n \nGrazie!</string>
+    <string name="upgraded_from_free">Ciao, \n \nsembra che tu abbia appena effettuato l\'aggiornamento dalla versione gratuita. Una volta che sei soddisfatto di questa e magari hai migrato i tuoi dati, puoi disinstallare la vecchia versione gratuita per evitare di avviarla accidentalmente, dato che non ti servirà più; ciò eviterà anche la comparsa di questa finestra di dialogo. \n \nGrazie!</string>
+    <string name="upgraded_to_pro">Salve, \n \nsembra che tu abbia già anche la versione Pro dell\'app. Una volta che sarai soddisfatto e avrai migrato i tuoi dati, potrai disinstallare questa versione per evitare di lanciarla accidentalmente, dato che non ti servirà più. \n \nGrazie!</string>
+    <string name="upgraded_from_free_calendar">Salve, \n \nsembra che tu abbia appena effettuato l\'aggiornamento dalla versione gratuita. Se vuoi migrare gli eventi memorizzati localmente, devi farlo manualmente esportandoli in un file .ics nella versione gratuita dell\'app e importandoli qui attraverso il menu superiore. \n \nUna volta soddisfatti della propria configurazione nella versione Pro, è possibile disinstallare la vecchia versione gratuita, poiché non è più necessaria; ciò eviterà anche la comparsa di questa finestra di dialogo. \n \nGrazie!</string>
+    <string name="upgraded_from_free_contacts">Salve, \n \nsembra che lei abbia appena effettuato l\'aggiornamento dalla versione gratuita. Se aveva dei contatti memorizzati sotto «%s», deve migrarli manualmente esportandoli in un file .vcf dalla versione gratuita dell\'app e importandoli qui attraverso il menu superiore. \n \nUna volta soddisfatti della configurazione della versione Pro, è possibile disinstallare la vecchia versione gratuita, poiché non è più necessaria; ciò eviterà anche la comparsa di questa finestra di dialogo. \n \nGrazie!</string>
+    <string name="upgraded_from_free_notes">Salve, \n \nsembra che tu abbia appena effettuato l\'aggiornamento dalla versione gratuita. Se vuoi migrare le tue note, devi farlo manualmente esportandole in un file nella versione gratuita dell\'app e importandole qui attraverso il menu in alto. \n \nUna volta soddisfatta della sua configurazione nella versione Pro, può disinstallare la vecchia versione gratuita perché non ne avrà più bisogno; ciò eviterà anche la comparsa di questa finestra di dialogo. \n \nGrazie!</string>
     <string name="about">Informazioni</string>
     <string name="website">Sito web</string>
     <string name="website_label">Per i codici sorgenti visitare</string>
@@ -872,11 +828,9 @@
     <string name="rate_us_prompt">Ciao,\n\nstai utilizzando questa app da un po\' di tempo e ne siamo veramente grati..\n\nValutaci su Google Play se vuoi farci un favore, ci aiuterà tantissimo.\n\nNon è importante cosa sceglierai, non vedrai più questo messaggio una volta ancora.\n\nGrazie!</string>
     <string name="rate_our_app">Valuta la nostra app per favore :)</string>
     <string name="thank_you">Grazie</string>
-    <string name="widget_locked_pro">Il widget è bloccato.
-\nSi prega di aggiornare alla versione Pro per sbloccarlo.</string>
+    <string name="widget_locked_pro">Il widget è bloccato. \nSi prega di aggiornare alla versione Pro per sbloccarlo.</string>
     <string name="features_locked">Questa funzione è bloccata, acquista &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Grazie Fossify&lt;/a&gt; per sbloccare l\'app completa.&lt;br&gt;&lt;br&gt;Si tratta di un pagamento unico e se non sarai soddisfatto, potremo rimborsarti.</string>
-    <string name="new_app">
-        <![CDATA[
+    <string name="new_app"><![CDATA[
             Ehi,<br><br>
             è uscita una nuova app di recente:<br><br>
             <a href="%1$s">%2$s</a><br><br>
@@ -884,8 +838,7 @@
             <a href="%5$s">%6$s</a><br><br>
             Puoi scaricarla toccando il titolo.
             Grazie
-        ]]>
-    </string>
+        ]]></string>
     <string name="app_launcher_short">Lanciatore di app</string>
     <string name="calculator_short">Calcolatrice</string>
     <string name="calendar_short">Calendario</string>
@@ -903,16 +856,13 @@
     <string name="sms_messenger_short">Messaggi SMS</string>
     <string name="thank_you_short">Ringraziamento</string>
     <string name="voice_recorder_short">Registratore vocale</string>
-    <string name="sideloaded_app">
-        <![CDATA[
+    <string name="sideloaded_app"><![CDATA[
         Sembra che la propria versione sia corrotta. Scaricare la versione originale <a href="%s">qui</a>.
-        ]]>
-    </string>
+        ]]></string>
     <string name="frequently_asked_questions">Domande frequenti</string>
     <string name="before_asking_question">Prima di porre una domanda, per favore leggi le</string>
     <string name="faq_1_title_commons">Come mai non vedo il widget di questa app nell\'elenco dei widget?</string>
-    <string name="faq_1_text_commons">Probabilmente perchè si ha spostato l\'app nella scheda SD. C\'è una limitazione di sistema di Android che nasconde i widget in questione.
-        L\'unica soluzione è spostare l\'app nell\'archiviazione interna usando le impostazioni di sistema.</string>
+    <string name="faq_1_text_commons">Probabilmente perchè si ha spostato l\'app nella scheda SD. C\'è una limitazione di sistema di Android che nasconde i widget in questione. L\'unica soluzione è spostare l\'app nell\'archiviazione interna usando le impostazioni di sistema.</string>
     <string name="faq_2_title_commons">Vorrei darti supporto, ma non posso donare del denaro. Posso fare dell\'altro?</string>
     <string name="faq_2_text_commons">Sì, certo. Puoi spargere la voce sulle app o fornire feedback e valutazioni positive. Puoi anche contribuire a tradurre le app in una nuova lingua o ad aggiornare alcune traduzioni esistenti. La guida alla traduzione è disponibile su &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;questo sito&lt;/a&gt;, oppure contattaci all\'indirizzo &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; per qualsiasi domanda.</string>
     <string name="faq_3_title_commons">Ho eliminato dei file per errore, come posso recuperarli?</string>
@@ -926,13 +876,9 @@
     <string name="faq_7_title_commons">I soldi sono stati detratti dal mio conto corrente, ma non posso scaricare l\'app. Cosa posso fare?</string>
     <string name="faq_7_text_commons">I pagamenti sono gestiti totalmente da Google, il loro sistema si guasta di tanto in tanto. Svuota la cache dell\'app Google Play e riavvia il tuo dispositivo, poi riprova a scaricare.</string>
     <string name="faq_8_title_commons">Perchè dovrei aggiornare alla versione Pro?</string>
-    <string name="faq_8_text_commons">Dato che la tua versione non verrà più aggiornata, gli errori che potresti trovare non verranno mai corretti. Non ci saranno inoltre nuove funzioni aggiuntive. Puoi acquistare la versione Pro su Google Play per una piccola cifra.
-        Si paga una sola volta, ciò significa che quando la acquisti non dovrai mai più pagare. Neanche quando userai un nuovo dispositivo. Se non ti piacerà la versione Pro, ti basta disinstallarla entro alcune ore e otterrai automaticamente un rimborso.
-        Se vuoi chiedere un rimborso in un momento successivo, contattaci su hello@fossify.org e lo otterrai.</string>
+    <string name="faq_8_text_commons">Dato che la tua versione non verrà più aggiornata, gli errori che potresti trovare non verranno mai corretti. Non ci saranno inoltre nuove funzioni aggiuntive. Puoi acquistare la versione Pro su Google Play per una piccola cifra. Si paga una sola volta, ciò significa che quando la acquisti non dovrai mai più pagare. Neanche quando userai un nuovo dispositivo. Se non ti piacerà la versione Pro, ti basta disinstallarla entro alcune ore e otterrai automaticamente un rimborso. Se vuoi chiedere un rimborso in un momento successivo, contattaci su hello@fossify.org e lo otterrai.</string>
     <string name="faq_9_title_commons">Come posso selezionare più elementi alla volta?</string>
-    <string name="faq_9_text_commons">Ci sono diversi modi per farlo. Il primo è aprire la modalità di selezione premendo a lungo un elemento, poi toccare gli altri elementi da selezionare. Il secondo è simile alla selezione di elementi sul PC con il mouse,
-        apri la modalità di selezione premendo a lungo un elemento, poi con il dito ancora premuto trascinalo sugli altri elementi da selezionare. Il terzo modo di selezionare più elementi è premendone a lungo uno, poi premere a lungo un altro e tutti quelli in mezzo vegono selezionati. Se
-        vuoi selezionare tutti gli elementi, premine uno a lungo, poi tocca il contatore di elementi selezionati nell\'angolo in alto a sinistra. Ciò selezionerà o deselezionerà tutto in un colpo solo.</string>
+    <string name="faq_9_text_commons">Ci sono diversi modi per farlo. Il primo è aprire la modalità di selezione premendo a lungo un elemento, poi toccare gli altri elementi da selezionare. Il secondo è simile alla selezione di elementi sul PC con il mouse, apri la modalità di selezione premendo a lungo un elemento, poi con il dito ancora premuto trascinalo sugli altri elementi da selezionare. Il terzo modo di selezionare più elementi è premendone a lungo uno, poi premere a lungo un altro e tutti quelli in mezzo vegono selezionati. Se vuoi selezionare tutti gli elementi, premine uno a lungo, poi tocca il contatore di elementi selezionati nell\'angolo in alto a sinistra. Ciò selezionerà o deselezionerà tutto in un colpo solo.</string>
     <string name="faq_10_title_commons">Ho acquistato l\'app, ma non posso scaricarla su un altro dispositivo.</string>
     <string name="faq_10_text_commons">Prova a svuotare la cache dell\'app Google Play e a riavviare il dispositivo. È un errore di Google Play, non correlato all\'app in questione.</string>
     <string name="contributors">Contributori</string>
@@ -1022,7 +968,7 @@
     <string name="picasso_title">Picasso (caricamento e caching immagini)</string>
     <string name="cropper_title">Android Image Cropper (ritaglio e rotazione immagini)</string>
     <string name="rtl_viewpager_title">RtlViewPager (swipe da destra a sinistra)</string>
-    <string name="joda_title">Joda-Time (sostituto di \"Java date\")</string>
+    <string name="joda_title">Joda-Time (sostituto di ava date</string>
     <string name="stetho_title">Stetho (debug database)</string>
     <string name="otto_title">Otto (bus eventi)</string>
     <string name="photoview_title">PhotoView (GIF ingrandibili)</string>
@@ -1055,11 +1001,7 @@
     <string name="unlock_for_one_final_day">Sbloccare l\'app per un ultimo giorno</string>
     <string name="welcome_to_app_name">Benvenuti su %s!</string>
     <string name="trial_start_description">Grazie per aver utilizzato la nostra applicazione. È possibile utilizzare questa versione sbloccata per <font color="#FFFFFF">%d giorni</font>. Una volta terminata la prova, vi invitiamo a considerare l\'aggiornamento alla versione Pro. Questa versione offre un\'enorme quantità di nuove funzioni, un design moderno, l\'assenza di pubblicità e molti altri miglioramenti. \n \nDovrete pagare solo una volta nella vita e se non sarete soddisfatti, potrete disinstallarla e ottenere un rimborso. \n \nSpero che ti piaccia :)</string>
-    <string name="trial_end_description">Si prega di aggiornare alla versione Pro per godere appieno dell\'applicazione.
-\n
-\nDevi pagare solo una volta nella vita e se non sarai soddisfatto, potrai disinstallarla e ottenere un rimborso.
-\n
-\nCi vediamo :)</string>
+    <string name="trial_end_description">Si prega di aggiornare alla versione Pro per godere appieno dell\'applicazione. \n \nDevi pagare solo una volta nella vita e se non sarai soddisfatto, potrai disinstallarla e ottenere un rimborso. \n \nCi vediamo :)</string>
     <plurals name="trial_expires_days">
         <item quantity="one">La prova scade tra %d giorno.</item>
         <item quantity="many">La prova scade tra %d giorno.</item>
@@ -1127,4 +1069,5 @@
     <string name="theme_and_colors">Tema e colori</string>
     <string name="all_fossify_apps">Tutte le app Fossify</string>
     <string name="known_issues">Problemi noti</string>
+    <string name="translation_kabyle"></string>
 </resources>
