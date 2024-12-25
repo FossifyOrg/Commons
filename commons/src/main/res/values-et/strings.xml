@@ -195,13 +195,7 @@
     <string name="simple_renaming">Lihtne ümbernimetamine</string>
     <string name="pattern_renaming">Muster</string>
     <string name="string_to_add">Lisa sõne</string>
-    <string name="rename_date_time_pattern">%Y - aasta
-\n%M - kuu
-\n%D - päev
-\n%h - tund
-\n%m - minut
-\n%s - sekund
-\n%i - loendur alates 1\'st</string>
+    <string name="rename_date_time_pattern">%Y - aasta \n%M - kuu \n%D - päev \n%h - tund \n%m - minut \n%s - sekund \n%i - loendur alates 1\'st</string>
     <string name="filename_without_txt">Faili nimi (ilma .txt laiendita)</string>
     <string name="filename_without_json">Faili nimi (ilma .json laiendita)</string>
     <string name="filename_without_zip">Faili nimi (ilma .zip laiendita)</string>
@@ -311,7 +305,7 @@
     <string name="gps_coordinates">GPS-koordinaadid</string>
     <string name="altitude">Kõrgus</string>
     <string name="remove_exif">Kustuta EXIF-väljad</string>
-    <string name="remove_exif_confirmation">Kas sa oled kindel, et soovid kustutada EXIF väljade väärtused nagu näiteks asukoha koordinaadid, kaamera mudel, jmt\?</string>
+    <string name="remove_exif_confirmation">Kas sa oled kindel, et soovid kustutada EXIF väljade väärtused nagu näiteks asukoha koordinaadid, kaamera mudel, jmt?</string>
     <string name="exif_removed">EXIF-väljade kustutamine õnnestus</string>
     <string name="background_color">Taustavärv</string>
     <string name="text_color">Teksti värv</string>
@@ -330,9 +324,9 @@
     <string name="save">Salvesta</string>
     <string name="discard">Loobu</string>
     <string name="undo_changes">Tühista muudatused</string>
-    <string name="undo_changes_confirmation">Kas oled kindel, et soovid oma muudatusi tühistada\?</string>
+    <string name="undo_changes_confirmation">Kas oled kindel, et soovid oma muudatusi tühistada?</string>
     <string name="cannot_be_undone">Seda tegevust ei saa tagasi pöörata.</string>
-    <string name="save_before_closing">Sul on salvestamata muudatusi. Kas salvestame enne väljumist\?</string>
+    <string name="save_before_closing">Sul on salvestamata muudatusi. Kas salvestame enne väljumist?</string>
     <string name="global_theme_success">Värvide uuendamine õnnestus. Lisasime uue „Jagatud“ teema - edaspidisel värvide muutmisel palun kasuta seda.</string>
     <string name="light_theme">Hele</string>
     <string name="dark_theme">Tume</string>
@@ -413,11 +407,11 @@
     <string name="use_custom_sorting">Kasuta kohandatud sortimist</string>
     <string name="change_order">Muuda järjekorda</string>
     <string name="more_options">Lisavalikud</string>
-    <string name="proceed_with_deletion">Kas oled kindel, et soovid kustutamist jätkata\?</string>
-    <string name="deletion_confirmation">Kas sa oled kindel, et soovid %s kustutada\?</string>
-    <string name="move_to_recycle_bin_confirmation">Kas sa oled kindel, et soovid %s visata prügikasti\?</string>
-    <string name="are_you_sure_delete">Kas sa oled kindel, et soovid selle faili kustutada\?</string>
-    <string name="are_you_sure_recycle_bin">Kas sa oled kindel, et soovid selle faili prügikasti visata\?</string>
+    <string name="proceed_with_deletion">Kas oled kindel, et soovid kustutamist jätkata?</string>
+    <string name="deletion_confirmation">Kas sa oled kindel, et soovid %s kustutada?</string>
+    <string name="move_to_recycle_bin_confirmation">Kas sa oled kindel, et soovid %s visata prügikasti?</string>
+    <string name="are_you_sure_delete">Kas sa oled kindel, et soovid selle faili kustutada?</string>
+    <string name="are_you_sure_recycle_bin">Kas sa oled kindel, et soovid selle faili prügikasti visata?</string>
     <string name="do_not_ask_again">Selles sessioonis ära rohkem seda küsi</string>
     <string name="do_not_show_again">Ära näita uuesti</string>
     <string name="yes">Jah</string>
@@ -431,8 +425,7 @@
     <string name="please_enter_pin">Palun sisesta PIN-kood</string>
     <string name="wrong_pin">Vale PIN-kood</string>
     <string name="pin_must_be_4_digits_long">PIN-kood peab olema vähemalt 4 numbri pikkune</string>
-    <string name="too_many_incorrect_attempts">Liiga palju ebaõnnestunud lukust lahtivõtmise katseid.
-\nPalun proovi uuesti %d sekundi pärast.</string>
+    <string name="too_many_incorrect_attempts">Liiga palju ebaõnnestunud lukust lahtivõtmise katseid. \nPalun proovi uuesti %d sekundi pärast.</string>
     <string name="repeat_pin">Korda PIN-koodi</string>
     <string name="pattern">Muster</string>
     <string name="insert_pattern">Joonista muster</string>
@@ -580,8 +573,7 @@
     </plurals>
     <string name="alarm_goes_off_in">Äratuseni jäänud aeg:\n%s</string>
     <string name="reminder_triggers_in">Meeldetuletuseni jäänud aeg:\n%s</string>
-    <string name="time_remaining">Järelejäänud aeg:
-\n%s</string>
+    <string name="time_remaining">Järelejäänud aeg: \n%s</string>
     <string name="alarm_warning">Palun veendu, et alarm töötab korralikult, enne kui sa sellega arvestad. Alarm võib aku säästmisega seotud süsteemipiirangute tõttu valesti käituda.</string>
     <string name="reminder_warning">Palun veendu, et meeldetuletused töötavad korralikult, enne kui sa sellega arvestad. Kontrolli oma nutiseadme aku ja teavituse seadistusi, kas midagi ei blokeeri meeldetuletusi ega sulge taustal töötavat rakendust.</string>
     <string name="notifications_disabled">Selle rakenduse teavitused on välja lülitatud. Nende lubamiseks ava oma nutiseadme seadistused.</string>
@@ -659,7 +651,7 @@
     <string name="excluded">(välistatud)</string>
     <string name="manage_excluded_folders">Halda välistatud kaustu</string>
     <string name="remove_all">Eemalda kõik</string>
-    <string name="remove_all_description">Kas eemaldame kõik kaustad välistatud kaustade loendist\? See tegevus ei kustuta kaustu.</string>
+    <string name="remove_all_description">Kas eemaldame kõik kaustad välistatud kaustade loendist? See tegevus ei kustuta kaustu.</string>
     <string name="temporarily_show_excluded">Näita ajutiselt välja jäetud</string>
     <string name="stop_showing_excluded">Lõpeta näitamine välistatud</string>
     <string name="manage_shown_tabs">Halda näidatavaid vahekaarte</string>
@@ -676,7 +668,7 @@
     <string name="restore_all_files">Taasta kõik failid</string>
     <string name="recycle_bin_emptied">Prügikasti tühjendamine õnnestus</string>
     <string name="files_restored_successfully">Failide taastamine õnnestus</string>
-    <string name="empty_recycle_bin_confirmation">Kas oled kindel, et soovid prügikasti tühjendada\? Failid lähevad lõplikult kaduma.</string>
+    <string name="empty_recycle_bin_confirmation">Kas oled kindel, et soovid prügikasti tühjendada? Failid lähevad lõplikult kaduma.</string>
     <string name="recycle_bin_empty">Prügikast on tühi</string>
     <string name="moving_recycle_bin_items_disabled">Prügikastis olevaid faile ei saa mujale tõsta, palun kasuta taastamist</string>
     <string name="show_the_recycle_bin">Näita prügikasti</string>
@@ -701,14 +693,7 @@
     <string name="backups">Varundus</string>
     <string name="enable_automatic_backups">Kasuta automaatset varundust</string>
     <string name="manage_automatic_backups">Halda automaatset varundust</string>
-    <string name="date_time_pattern_info">Failide nimede automaatsel loomisel saad kasutada järgnevaid asendusi:
-\n
-\n%Y - aasta
-\n%M - kuu
-\n%D - päev
-\n%h - tund
-\n%m - minut
-\n%s - sekund</string>
+    <string name="date_time_pattern_info">Failide nimede automaatsel loomisel saad kasutada järgnevaid asendusi: \n \n%Y - aasta \n%M - kuu \n%D - päev \n%h - tund \n%m - minut \n%s - sekund</string>
     <string name="usb_detected">Tundub, et sinu nutiseadme küljes on USB-seade. Selleks, et seal asuvad failid oleks korrektselt loetavad, pead lubama täiendavad õigusi.</string>
     <string name="confirm_usb_storage_access_text">Ligipääsu andmiseks palun vali järgmises vaates USB-seadme juurkaust (ülemine kaust)</string>
     <string name="wrong_root_selected_usb">Valisid vale kausta, palun vali USB-seadme juurkaust</string>
@@ -748,47 +733,13 @@
     <string name="more_info">Lisateave</string>
     <string name="upgrade">Uuenda</string>
     <string name="upgrade_calendar">Palun tõsta kohalikku andmekogusse salvestatud sündmused uude rakendusse kasutades eksportimist .ics faili ning seejärel importimist saast failist. Vastavad eksportimise/importimise nupud leiad põhivaates asuvast rakenduse menüüst.</string>
-    <string name="upgraded_from_free_gallery">Tere,
-\n
-\nTundub, et sa oled hiljuti teinud uuenduse tasuta versioonist. Kui sa oled rakenduse uue versiooniga rahul ning oled eelistused ja järjehoidjad üle tõstnud, siis vältimaks vana rakenduse juhuslikku käivitamist palun eemalda ta oma nutiseadmest. Samaga väldid ka selle teate uuesti kuvamist.
-\n
-\nTänud!</string>
-    <string name="upgraded_to_pro_gallery">Tere,
-\n
-\nTundub, et sul on nutiseadmes ka selle rakenduse Pro-versioon. Kui sa oled rakenduse Pro-versiooniga rahul ning oled eelistused ja järjehoidjad üle tõstnud, siis vältimaks selle vana rakenduse juhuslikku käivitamist palun eemalda ta oma nutiseadmest.
-\n
-\nTänud!</string>
-    <string name="upgraded_from_free">Tere,
-\n
-\nTundub, et sa just uuendasid tasuta versioonist. Kui oled selle versiooniga rahul ja võib-olla oled ka vanad andmed üle viinud, siis võid eelmise tasuta versiooni eemaldada ja seeläbi vältida selle mittevajaliku versiooni juhuslikku käivitamist. Samaga väldid ka selle teate uuesti kuvamist.
-\n
-\nAitäh!</string>
-    <string name="upgraded_to_pro">Hei,
-\n
-\ntundub, et sul on juba olemas ka rakenduse Pro-versioon. Kui sa oled selle versiooniga rahul ning oled andmed üle tõstnud, siis vältimaks rakenduste risti-rästi kasutamist võid selle teise eemaldada.
-\n
-\nTänud!</string>
-    <string name="upgraded_from_free_calendar">Hello,
-\n
-\nTundub, et sa oled just teinud uuenduse tasuta versioonist. Kui sa soovid vanas rakenduses salvestatud sündmused uude kolida, siis ekspordi nad vanast tasuta rakendusest .ics failina ning siin uues rakenduses impordi nad ülamenüüs leiduvast valikust.
-\n
-\nKui sa oled Pro-versiooni ja tema seadistustega rahul ja kuna vana versiooni enam vaja pole, siis võid selle eelmise versiooni eemaldada. Samaga väldid ka selle teate uuesti kuvamist.
-\n
-\nTänud!</string>
-    <string name="upgraded_from_free_contacts">Hello,
-\n
-\nTundub, et sa oled just teinud uuenduse tasuta versioonist. Kui sul oli vanas rakenduses „%s“ kontakte, siis ekspordi nad vanast tasuta rakendusest .vcf failina ning siin uues rakenduses impordi nad ülamenüüs leiduvast valikust.
-\n
-\nKui sa oled Pro-versiooni ja tema seadistustega rahul ja kuna vana versiooni enam vaja pole, siis võid selle eelmise versiooni eemaldada. Samaga väldid ka selle teate uuesti kuvamist.
-\n
-\nTänud!</string>
-    <string name="upgraded_from_free_notes">Hello,
-\n
-\nTundub, et sa oled just teinud uuenduse tasuta versioonist. Kui sa soovid vanast rakendusest märkmed üle kolida, siis ekspordi nad vanast tasuta rakendusest .failina ning siin uues rakenduses impordi nad ülamenüüs leiduvast valikust.
-\n
-\nKui sa oled Pro-versiooni ja tema seadistustega rahul ja kuna vana versiooni enam vaja pole, siis võid selle eelmise versiooni eemaldada. Samaga väldid ka selle teate uuesti kuvamist.
-\n
-\nTänud!</string>
+    <string name="upgraded_from_free_gallery">Tere, \n \nTundub, et sa oled hiljuti teinud uuenduse tasuta versioonist. Kui sa oled rakenduse uue versiooniga rahul ning oled eelistused ja järjehoidjad üle tõstnud, siis vältimaks vana rakenduse juhuslikku käivitamist palun eemalda ta oma nutiseadmest. Samaga väldid ka selle teate uuesti kuvamist. \n \nTänud!</string>
+    <string name="upgraded_to_pro_gallery">Tere, \n \nTundub, et sul on nutiseadmes ka selle rakenduse Pro-versioon. Kui sa oled rakenduse Pro-versiooniga rahul ning oled eelistused ja järjehoidjad üle tõstnud, siis vältimaks selle vana rakenduse juhuslikku käivitamist palun eemalda ta oma nutiseadmest. \n \nTänud!</string>
+    <string name="upgraded_from_free">Tere, \n \nTundub, et sa just uuendasid tasuta versioonist. Kui oled selle versiooniga rahul ja võib-olla oled ka vanad andmed üle viinud, siis võid eelmise tasuta versiooni eemaldada ja seeläbi vältida selle mittevajaliku versiooni juhuslikku käivitamist. Samaga väldid ka selle teate uuesti kuvamist. \n \nAitäh!</string>
+    <string name="upgraded_to_pro">Hei, \n \ntundub, et sul on juba olemas ka rakenduse Pro-versioon. Kui sa oled selle versiooniga rahul ning oled andmed üle tõstnud, siis vältimaks rakenduste risti-rästi kasutamist võid selle teise eemaldada. \n \nTänud!</string>
+    <string name="upgraded_from_free_calendar">Hello, \n \nTundub, et sa oled just teinud uuenduse tasuta versioonist. Kui sa soovid vanas rakenduses salvestatud sündmused uude kolida, siis ekspordi nad vanast tasuta rakendusest .ics failina ning siin uues rakenduses impordi nad ülamenüüs leiduvast valikust. \n \nKui sa oled Pro-versiooni ja tema seadistustega rahul ja kuna vana versiooni enam vaja pole, siis võid selle eelmise versiooni eemaldada. Samaga väldid ka selle teate uuesti kuvamist. \n \nTänud!</string>
+    <string name="upgraded_from_free_contacts">Hello, \n \nTundub, et sa oled just teinud uuenduse tasuta versioonist. Kui sul oli vanas rakenduses „%s“ kontakte, siis ekspordi nad vanast tasuta rakendusest .vcf failina ning siin uues rakenduses impordi nad ülamenüüs leiduvast valikust. \n \nKui sa oled Pro-versiooni ja tema seadistustega rahul ja kuna vana versiooni enam vaja pole, siis võid selle eelmise versiooni eemaldada. Samaga väldid ka selle teate uuesti kuvamist. \n \nTänud!</string>
+    <string name="upgraded_from_free_notes">Hello, \n \nTundub, et sa oled just teinud uuenduse tasuta versioonist. Kui sa soovid vanast rakendusest märkmed üle kolida, siis ekspordi nad vanast tasuta rakendusest .failina ning siin uues rakenduses impordi nad ülamenüüs leiduvast valikust. \n \nKui sa oled Pro-versiooni ja tema seadistustega rahul ja kuna vana versiooni enam vaja pole, siis võid selle eelmise versiooni eemaldada. Samaga väldid ka selle teate uuesti kuvamist. \n \nTänud!</string>
     <string name="about">Rakenduse teave</string>
     <string name="website">Veebileht</string>
     <string name="website_label">Lähtekoodi leiad siit</string>
@@ -803,8 +754,7 @@
     <string name="rate">Hinda</string>
     <string name="donate">Toeta meid</string>
     <string name="follow_us">Jälgi meid</string>
-    <string name="copyright">v %1$s
-\nAutoriõigused © Fossify (Lihtsad mobiiitarvikud) %2$d</string>
+    <string name="copyright">v %1$s \nAutoriõigused © Fossify (Lihtsad mobiiitarvikud) %2$d</string>
     <string name="support">Kasutajatugi</string>
     <string name="help_us">Osale arenduses</string>
     <string name="social">Sotsiaalmeedia</string>
@@ -823,19 +773,10 @@
     <string name="make_sure_upgrade">Palun arvesta, et seda rakenduse versiooni enam ei arendata, laadi alla Pro versioon, mis sisaldab palju täiustusi.</string>
     <string name="read_it">Loe järgnevat</string>
     <string name="read_faq">Loe korduma kippuvaid küsimusi</string>
-    <string name="rate_us_prompt">Tere,
-\n
-\ntundub, et kasutad seda rakendust juba mõnda aega ja me hindame seda väga kõrgelt.
-\n
-\nKui me võime seda paluda, siis palun hinda meid Google Play\'s. See aitaks meid tõesti palju.
-\n
-\nÜkskõik, kuidas sa otsustad toimida, siis seda sõnumit rohkem ei kuvata.
-\n
-\nAitäh!</string>
+    <string name="rate_us_prompt">Tere, \n \ntundub, et kasutad seda rakendust juba mõnda aega ja me hindame seda väga kõrgelt. \n \nKui me võime seda paluda, siis palun hinda meid Google Play\'s. See aitaks meid tõesti palju. \n \nÜkskõik, kuidas sa otsustad toimida, siis seda sõnumit rohkem ei kuvata. \n \nAitäh!</string>
     <string name="rate_our_app">Palun hinda meie rakendust :)</string>
     <string name="thank_you">Suur tänu</string>
-    <string name="widget_locked_pro">Rakendus on lukustatud.
-\nLukustuse eemaldamiseks palun uuenda ta Pro-versioonini.</string>
+    <string name="widget_locked_pro">Rakendus on lukustatud. \nLukustuse eemaldamiseks palun uuenda ta Pro-versioonini.</string>
     <string name="new_app">Hei,&lt;br&gt;&lt;br&gt; tahtsime lihtsalt teada anda, et oleme teinud mõned uued rakendused :&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; Klõpsides ikooni või nimel saad sa neid alla laadida.&lt;br&gt;&lt;br&gt; Tänud</string>
     <string name="app_launcher_short">Rakenduste käivitaja</string>
     <string name="calculator_short">Kalkulaator</string>
@@ -858,21 +799,21 @@
     <string name="sideloaded_app">Tundub sinu hetkel kasutatav rakenduse variant on vigane. Palun laadi algupärane versioon &lt;a href=%s&gt;siit&lt;/a&gt;.</string>
     <string name="frequently_asked_questions">Korduma kippuvad küsimused</string>
     <string name="before_asking_question">Enne küsimuse kirjutamist palun loe esmalt järgnevat lehte</string>
-    <string name="faq_1_title_commons">Kuidas ma ei näe seda rakenduste vidinat kõikide vidinate loendis\?</string>
+    <string name="faq_1_title_commons">Kuidas ma ei näe seda rakenduste vidinat kõikide vidinate loendis?</string>
     <string name="faq_1_text_commons">Tõenäoliselt juhtus nii, et teisaldasid rakenduse SD-kaardile. On olemas Android-süsteemi piirang, mis sellisel juhul peidab antud rakenduse vidinad. Ainus lahendus on teisaldada rakendus tagasi sisemälusse kasutades nutiseadme seadistusi.</string>
-    <string name="faq_2_title_commons">Ma tahan teid toetada, kuid ma ei saa raha annetada. Kas ma saan veel midagi teha\?</string>
-    <string name="faq_3_title_commons">Ma kustutasin kogemata mõned failid, kuidas saan neid taastada\?</string>
+    <string name="faq_2_title_commons">Ma tahan teid toetada, kuid ma ei saa raha annetada. Kas ma saan veel midagi teha?</string>
+    <string name="faq_3_title_commons">Ma kustutasin kogemata mõned failid, kuidas saan neid taastada?</string>
     <string name="faq_3_text_commons">Kahjuks ei saa. Failid kustutatakse koheselt pärast topeltkinnitust ning prügikasti ei ole kasutusel.</string>
-    <string name="faq_4_title_commons">Mulle ei meeldi vidinate värvid, kas ma saan neid muuta\?</string>
+    <string name="faq_4_title_commons">Mulle ei meeldi vidinate värvid, kas ma saan neid muuta?</string>
     <string name="faq_4_text_commons">Jah, kui lohistad vidinat oma koduekraanile, ilmub vidina seadistusvaade. Sa näed vasakus alumises nurgas värvilisi ruute, ning uue värvi valimiseks vajuta neid. Lisaks saade läbipaistvuse kohendamiseks kasutada liugurit.</string>
-    <string name="faq_5_title_commons">Kas ma mingil viisil saan kustutatud faile taastada\?</string>
+    <string name="faq_5_title_commons">Kas ma mingil viisil saan kustutatud faile taastada?</string>
     <string name="faq_5_text_commons">Kui need on tõesti kustutatud, ei saa sa seda teha. Siiski on vaikimisi kasutusel prügikast ning kustutatud failid esialgu teisaldatakse sinna.</string>
-    <string name="faq_6_title_commons">Rakenduse käivitaja ikoon kadus. Mida ma saan teha\?</string>
-    <string name="faq_7_title_commons">Raha on minu pangakontolt maha kantud, kuid ma ei saa rakendust alla laadida. Mida ma saan teha\?</string>
+    <string name="faq_6_title_commons">Rakenduse käivitaja ikoon kadus. Mida ma saan teha?</string>
+    <string name="faq_7_title_commons">Raha on minu pangakontolt maha kantud, kuid ma ei saa rakendust alla laadida. Mida ma saan teha?</string>
     <string name="faq_7_text_commons">Makseid teostab täielikult Google, nende süsteemis esineb aeg-ajalt tõrkeid. Lihtsalt tühjenda oma Google Play rakenduse vahemälu ja taaskäivita seade, seejärel proovi rakendust uuesti alla laadida.</string>
-    <string name="faq_8_title_commons">Miks peaksin kasutusele võtma Pro-versiooni\?</string>
+    <string name="faq_8_title_commons">Miks peaksin kasutusele võtma Pro-versiooni?</string>
     <string name="faq_8_text_commons">Kuna seda rakenduse versiooni enam ei uuendata, siis ei parandata kunagi sinu ja teiste kasutajate poolt avastatud vigu. Samuti ei lisata uusi funktsioone. Pro-versiooni saad osta Google Play\'st väikese summa eest. See on ühekordne makse, mis tähendab, et kui oled selle ostnud, ei pea sa selle rakenduse eest enam kunagi maksma. Isegi mitte pärast uue seadme soetamist. Kui Pro-versioon ei meeldi sulle, saad selle mõne tunni pärast lihtsalt eemaldada ja saad automaatselt oma raha tagasi. Kui soovid tagasimakset mingil ajal hiljem, võta meiega ühendust aadressil hello@fossify.org ja me korraldame makse vastavat sinu soovidele.</string>
-    <string name="faq_9_title_commons">Kuidas ma saan valida mitu objekti korraga\?</string>
+    <string name="faq_9_title_commons">Kuidas ma saan valida mitu objekti korraga?</string>
     <string name="faq_9_text_commons">Selleks on mitu võimalust. Esimene neist on valikurežiimi käivitamine, vajutades pikalt ühe objektile ja seejärel teiste valimine lühikese vajutusega. Teine viis on sarnane arvutites kasutatavale sisu valimisele hiirega, lihtsalt alusta valimist vajutades pikalt ühele kirjel, seejärel lohista teiste kirjete valimiseks sõrmega üle nende. Kolmas viis mitme kirje valimiseks on ühe kirje pikalt vajutamine, seejärel teise kirje pikalt vajutamine ja kõik vahepealsed kirjed saavad ka valituks. Kui soovid valida kõik kirjed, vajuta pikalt ühte kirjet, seejärel klõpsa vasakus ülanurgas asuval valitud kirjete loenduril. See valib või tühistab kõikide kirjete valiku.</string>
     <string name="faq_10_title_commons">Ma olen rakenduse ostnud, kuid ma ei saa seda teise seadmesse alla laadida.</string>
     <string name="faq_10_text_commons">Proovi tühjendada Google Play rakenduse vahemälu ja taaskäivita nutiseade. See on ilmselt mingi Google Play tõrge, mis ei ole tegelikult seotud rakenduse endaga.</string>
@@ -994,16 +935,12 @@
     <string name="unlock_for_one_final_day">Luba lukustatud rakendust kasutada veel ühe viimase päeva</string>
     <string name="welcome_to_app_name">Tere tulemast %s kasutajaks!</string>
     <string name="trial_start_description">Täname, et võtsid kasutusele meie rakenduse. Praeguses olekus on ta pruugitav <font color="#FFFFFF">%d päeva</font>. Kui testperiood lõppeb, siis palun kaalu uuendust Pro-versiooniks. Sellel palju lisavõimalusi, moodne kujundus, reklaamivaba lahendus ning paljugi veel. \n \nSa maksad Pro-versiooni eest vaid ühe korra ning kasutad seda nii kaua kui soovid. Kui sa pole rakendusega rahul, siis eemalda ta oma nutiseadmest ja küsi makstud summa tagasi. \n \nLoodetavasti see rakendus meeldub sulle :)</string>
-    <string name="trial_end_description">Palun uuenda Pro-versiooniks ja kasuta rakendust täisfunktsionaalsuses.
-\n
-\nSa maksad Pro-versiooni eest vaid ühe korra ning kasuta seda nii kaua kui soovid. Kui sa pole rakendusega rahul, siis eemalda ta oma nutiseadmest ja küsi makstud summa tagasi.
-\n
-\nKohtume õige varsti :)</string>
+    <string name="trial_end_description">Palun uuenda Pro-versiooniks ja kasuta rakendust täisfunktsionaalsuses. \n \nSa maksad Pro-versiooni eest vaid ühe korra ning kasuta seda nii kaua kui soovid. Kui sa pole rakendusega rahul, siis eemalda ta oma nutiseadmest ja küsi makstud summa tagasi. \n \nKohtume õige varsti :)</string>
     <plurals name="trial_expires_days">
         <item quantity="one">Selle rakenduse prooviperiood lõppeb %d päeva pärast.</item>
         <item quantity="other">Selle rakenduse prooviperiood lõppeb %d päeva pärast.</item>
     </plurals>
-    <string name="deprecated_app">AEGUNUD: Selle rakenduse versiooni arendus on lõppenud, laadi PRO-versioon aadressilt https://play.google.com/store/apps/details\?id=org.fossify..xxx.pro</string>
+    <string name="deprecated_app">AEGUNUD: Selle rakenduse versiooni arendus on lõppenud, laadi PRO-versioon aadressilt https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">Palun arvesta, et kui eemaldad tasulise rakenduse nutiseadmest 2 tunni jooksul, siis ostusumma tagastatakse automaatselt. Kui soovit tagastust hiljem, siis saada e-kiri hello@fossify.org aadressile ning korraldame tagastuse. Mõlemal juhul on sul võimalik meie tasulisi rakendusi testida :)</string>
     <string name="developer_description">Arendame Androidi jaoks avatud lähtekoodil põhinevaid lihtsaid tarvikuid ja milles pole reklaame ega vajadust asjatute õiguste jaoks.</string>
     <string name="exif">EXIF</string>
@@ -1085,4 +1022,5 @@
     <string name="theme_and_colors">Välimus ja värvid</string>
     <string name="all_fossify_apps">Kõik Fossify rakendused</string>
     <string name="known_issues">Teadaolevad vead</string>
+    <string name="translation_kabyle"></string>
 </resources>
