@@ -107,7 +107,7 @@
     <string name="import_blocked_numbers">ブロックした番号をインポート</string>
     <string name="must_make_default_dialer">番号ブロックを活用するには、このアプリをデフォルトの電話アプリにする必要があります。</string>
     <string name="set_as_default">デフォルトとして設定</string>
-    <string name="block_confirmation">本当に\"%s\"をブロックしますか？</string>
+    <string name="block_confirmation">本当にsブロックしますか？</string>
     <string name="block_unknown_calls">連絡先に登録されていない相手からの着信をブロックする</string>
     <string name="block_unknown_messages">連絡先に登録されていない相手からのメッセージをブロックする</string>
     <string name="add_blocked_number_helper_text">番号やパターンを入力すると、番号やパターンに一致する番号からの着信やメッセージをすべてブロックできます (パターンの例：*12345*, +1*8888) 。</string>
@@ -196,8 +196,7 @@
     <string name="could_not_create_folder">フォルダ %s を作成できません</string>
     <string name="could_not_create_file">ファイル %s を作成できません</string>
     <string name="no_new_items">新しいアイテムは見つかりませんでした</string>
-    <string name="no_space">保存先に十分な空き容量がありません。
-\n必要容量 %1$s, 空き容量 %2$s</string>
+    <string name="no_space">保存先に十分な空き容量がありません。 \n必要容量 %1$s, 空き容量 %2$s</string>
     <string name="system_service_disabled">ファイルとフォルダを選択するためのシステムサービスが利用できません</string>
     <string name="create_new">新規作成</string>
     <string name="folder">フォルダ</string>
@@ -207,8 +206,8 @@
     <string name="invalid_name">名前に無効な文字が含まれています</string>
     <string name="empty_name">名前を入力してください</string>
     <string name="unknown_error_occurred">不明なエラーが発生しました</string>
-    <string name="file_already_exists">ファイル \"%s\" は既に存在しています</string>
-    <string name="file_already_exists_overwrite">ファイル \"%s\" は既に存在しています。上書きしますか？</string>
+    <string name="file_already_exists">ファイル s は既に存在しています</string>
+    <string name="file_already_exists_overwrite">ファイル s は既に存在しています。上書きしますか？</string>
     <string name="folder_already_exists">フォルダ s は既に存在しています</string>
     <string name="merge">統合</string>
     <string name="keep_both">両方保持する</string>
@@ -503,8 +502,7 @@
     </plurals>
     <string name="alarm_goes_off_in">アラームが鳴るまでの時間:\n%s</string>
     <string name="reminder_triggers_in">リマインダー発動までの時間:\n%s</string>
-    <string name="time_remaining">残り時間: 
-\n%s</string>
+    <string name="time_remaining">残り時間: \n%s</string>
     <string name="alarm_warning">アラームの動作を確認して使用してください。バッテリー節約に関連したシステムの制限によって、誤動作が発生する場合があります。</string>
     <string name="reminder_warning">リマインダーの動作を確認して使用してください。リマインダーを妨げるものはないか、アプリがバックグラウンドで閉じられないか、デバイスの通知設定と電池設定を確認してください。</string>
     <string name="notifications_disabled">アプリの通知が無効となっています。設定から有効に変更してください。</string>
@@ -679,7 +677,7 @@
     <string name="sunday_short">日</string>
     <string name="upgrade_to_pro_long">アプリのバージョンはこれ以上更新されません。新しい修正や改善を受けるには、Pro版へアップグレードしてください。</string>
     <string name="upgrade_to_pro_long_click">このアプリのバージョンはこれ以上更新されません。新たな修正と改善を受けるには、ここをタップしてPro版にアップグレードしてください。</string>
-    <string name="it_is_free">%sまで無料です。それまでにダウンロードすれば、永久に無料でご利用いただけます。 </string>
+    <string name="it_is_free">%sまで無料です。それまでにダウンロードすれば、永久に無料でご利用いただけます。</string>
     <string name="more_info">詳細を確認</string>
     <string name="upgrade">アップグレード</string>
     <string name="upgrade_calendar">ローカルに保存されたイベントは、手動で.icsファイルにエクスポートしてインポートする必要があります。インポート/エクスポートボタンはメイン画面のメニューにあります。</string>
@@ -721,8 +719,7 @@
     <string name="rate_us_prompt">こんにちは。 \n \nこのアプリをしばらくご利用いただいているようで、感謝いたします。 \n \nひとつお願いがあるのですが、Google Playで評価してもらえるでしょうか。ご協力をお願いします。 \n \n評価をしてもしなくても、このメッセージは二度と表示されません。 \n \nよろしくお願いします！</string>
     <string name="rate_our_app">是非、アプリを評価してください :)</string>
     <string name="thank_you">ありがとうございます</string>
-    <string name="widget_locked_pro">ウィジェットはロックされています。
-\nロックを解除するには、Pro版にアップグレードしてください。</string>
+    <string name="widget_locked_pro">ウィジェットはロックされています。 \nロックを解除するには、Pro版にアップグレードしてください。</string>
     <string name="new_app">こんにちは、&lt;br&gt;&lt;br&gt; 最近、新しいアプリをいくつかリリースしたのでお知らせします:&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; アイコンかタイトルをタップするだけでダウンロードできます。&lt;br&gt;&lt;br&gt; ありがとうございます</string>
     <string name="app_launcher_short">アプリランチャー</string>
     <string name="calculator_short">電卓</string>
@@ -741,11 +738,9 @@
     <string name="notes_short">メモ</string>
     <string name="sms_messenger_short">ショートメール</string>
     <string name="voice_recorder_short">ボイスレコーダー</string>
-    <string name="sideloaded_app">
-        <![CDATA[
+    <string name="sideloaded_app"><![CDATA[
             アプリのバージョンが破損しているようです。オリジナル版を<a href="%s">ここから</a>ダウンロードしてください。
-        ]]>
-    </string>
+        ]]></string>
     <string name="frequently_asked_questions">よくある質問</string>
     <string name="before_asking_question">質問する前に、こちらをお読みください</string>
     <string name="faq_1_title_commons">ウィジェットのリストにこのアプリが表示されないのはなぜですか？</string>
@@ -843,17 +838,12 @@
     <string name="unlock_for_one_final_day">最終日にアプリのロックを解除する</string>
     <string name="welcome_to_app_name">ようこそ %s へ！</string>
     <string name="trial_start_description">私たちのアプリをご利用いただきありがとうございます。このアプリのロック解除版を <font color="#FFFFFF">%d 日間</font> 試用することができます。試用が終了したら、Pro版へのアップグレードをご検討ください。多くの新しい機能、モダンなデザイン、広告なし、その他多くの改善点があります。 \n \n一度きりの購入で永続的に使用することができます。ご満足いただけない場合は、アプリをアンインストールして払い戻しを受けることもできます。 \n \n気に入っていただければ幸いです :)</string>
-    <string name="trial_end_description">多くの機能をともなったPro版へのアップグレードをご検討ください。
-\n
-\n一度きりの購入で永続的に使用することができます。ご満足いただけない場合は、アプリをアンインストールして払い戻しを受けることもできます。
-\n
-\nそれでは、また :)</string>
+    <string name="trial_end_description">多くの機能をともなったPro版へのアップグレードをご検討ください。 \n \n一度きりの購入で永続的に使用することができます。ご満足いただけない場合は、アプリをアンインストールして払い戻しを受けることもできます。 \n \nそれでは、また :)</string>
     <plurals name="trial_expires_days">
         <item quantity="other">試用期間の残りは %d 日です。</item>
     </plurals>
     <string name="deprecated_app">非推奨: このバージョンのアプリはメンテナンスが行われなくなります。こちらのURLからPro版を入手してください。https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
-    <string name="pro_app_refund">どのアプリでも、購入後２時間以内にアンインストールすると自動的に払い戻しされることを覚えていてください。それ以降に払い戻しが必要な場合は、こちらにお問い合わせください。hello@fossify.org
-お試ししやすいかと思います :)</string>
+    <string name="pro_app_refund">どのアプリでも、購入後２時間以内にアンインストールすると自動的に払い戻しされることを覚えていてください。それ以降に払い戻しが必要な場合は、こちらにお問い合わせください。hello@fossify.org お試ししやすいかと思います :)</string>
     <string name="developer_description">広告や不要な権限がなく、カスタマイズ可能なウィジェットを備えたシンプルな複数のオープンソースAndroidアプリ。</string>
     <string name="ok">OK</string>
     <string name="notification_sound">通知音</string>
@@ -990,4 +980,12 @@
     <string name="update_thank_you">Fossify Thank Youを最新バージョンに更新してください</string>
     <string name="little_to_no_fee">ゼロまたはわずか</string>
     <string name="fee_up_to_pct">最大%1$d%%</string>
+    <string name="translation_breton"></string>
+    <string name="translation_chuvash"></string>
+    <string name="translation_gujarati"></string>
+    <string name="translation_kabyle"></string>
+    <string name="other_help"></string>
+    <string name="zip4j_title"></string>
+    <string name="known_issues"></string>
+    <string name="contributors_label"></string>
 </resources>
