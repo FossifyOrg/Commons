@@ -113,7 +113,7 @@
     <string name="import_blocked_numbers">Імпартаваць заблакаваныя нумары</string>
     <string name="must_make_default_dialer">Вы павінны зрабіць гэта дадатак стандартным дадаткам дазвону, каб выкарыстоўваць заблакіраваныя нумары.</string>
     <string name="set_as_default">Ўсталяваць па змаўчанні</string>
-    <string name="block_confirmation">Заблакаваць \"%s\"\?</string>
+    <string name="block_confirmation">Заблакаваць s?</string>
     <string name="block_unknown_calls">Блакаваць выклікі ад невядомых кантактаў</string>
     <string name="block_unknown_messages">Блакаваць паведамленні ад невядомых кантактаў</string>
     <string name="add_blocked_number_helper_text">Увядзіце нумар або шаблон (напрыклад, *12345*, +1*8888), каб заблакіраваць усе выклікі і паведамленні з нумароў, якія адпавядаюць шаблону.</string>
@@ -178,13 +178,7 @@
     <string name="simple_renaming">Простае перайменаванне</string>
     <string name="pattern_renaming">Шаблон</string>
     <string name="string_to_add">Радок для дадання</string>
-    <string name="rename_date_time_pattern">%Y - год
-\n%M - месяц
-\n%D - дзень
-\n%h - гадзіна
-\n%m - хвіліна
-\n%s - секунда
-\n%i - парадкавы нумар з 1</string>
+    <string name="rename_date_time_pattern">%Y - год \n%M - месяц \n%D - дзень \n%h - гадзіна \n%m - хвіліна \n%s - секунда \n%i - парадкавы нумар з 1</string>
     <string name="filename_without_txt">Назва файла (без .txt)</string>
     <string name="filename_without_json">Назва файла (без .json)</string>
     <string name="filename_without_zip">Назва файла (без .zip)</string>
@@ -226,9 +220,9 @@
     <string name="invalid_name">Імя змяшчае недапушчальныя сімвалы</string>
     <string name="empty_name">Увядзіце назву</string>
     <string name="unknown_error_occurred">Адбылася невядомая памылка</string>
-    <string name="file_already_exists">Файл \"%s\" ужо існуе</string>
-    <string name="file_already_exists_overwrite">Файл \"%s\" ужо існуе. Перазапісаць\?</string>
-    <string name="folder_already_exists">Папка \"%s\" ужо існуе</string>
+    <string name="file_already_exists">Файл s ужо існуе</string>
+    <string name="file_already_exists_overwrite">Файл s ужо існуе. Перазапісаць?</string>
+    <string name="folder_already_exists">Папка s ужо існуе</string>
     <string name="merge">Аб\'яднаць</string>
     <string name="keep_both">Захаваць абодва</string>
     <string name="overwrite">Перазапісаць</string>
@@ -246,7 +240,7 @@
     <string name="confirm_folder_access_title">Пацвердзіце доступ да папкі</string>
     <string name="confirm_storage_access_text">Выберыце верхнюю папку SD-карты на наступным экране, каб даць доступ для запісу</string>
     <string name="confirm_storage_access_text_sd">Калі вы не бачыце SD-карту, паспрабуйце гэта</string>
-    <string name="confirm_storage_access_android_text">Калі ласка, дазвольце праграме доступ да выбранага сховішча на наступным экране, націснуўшы \"Выкарыстоўваць гэту тэчку\" ўнізе.</string>
+    <string name="confirm_storage_access_android_text">Калі ласка, дазвольце праграме доступ да выбранага сховішча на наступным экране, націснуўшы ыкарыстоўваць гэту тэчку ўнізе.</string>
     <string name="confirm_storage_access_android_text_specific">Калі ласка, дазвольце доступ \'<b>%s</b>\' на наступным экране, націснуўшы \'<b>Выкарыстоўвайце гэтую тэчку</b>\' на дне.</string>
     <string name="confirm_create_doc_for_new_folder_text">Калі ласка, націсніце \'<b>Захаваць</b>\' унізе наступнага экрана, каб стварыць новую тэчку.</string>
     <string name="confirm_selection">Пацвердзіце выбар</string>
@@ -303,7 +297,7 @@
     <string name="gps_coordinates">Каардынаты GPS</string>
     <string name="altitude">Вышыня над узроўнем мора</string>
     <string name="remove_exif">Выдаліць EXIF</string>
-    <string name="remove_exif_confirmation">Вы ўпэўнены, што жадаеце выдаліць значэнні EXIF, такія як каардынаты GPS, мадэль камеры і г.д.\?</string>
+    <string name="remove_exif_confirmation">Вы ўпэўнены, што жадаеце выдаліць значэнні EXIF, такія як каардынаты GPS, мадэль камеры і г.д.?</string>
     <string name="exif_removed">Даныя EXIF паспяхова выдалены</string>
     <string name="background_color">Колер фону</string>
     <string name="text_color">Колер тэксту</string>
@@ -322,10 +316,10 @@
     <string name="save">Захаваць</string>
     <string name="discard">Адкідаць</string>
     <string name="undo_changes">Адмяніць змены</string>
-    <string name="undo_changes_confirmation">Вы ўпэўнены, што хочаце адмяніць зробленыя змены\?</string>
+    <string name="undo_changes_confirmation">Вы ўпэўнены, што хочаце адмяніць зробленыя змены?</string>
     <string name="cannot_be_undone">Гэта дзеянне нельга адмяніць.</string>
-    <string name="save_before_closing">У вас ёсць незахаваныя змены. Захаваць перад выхадам\?</string>
-    <string name="global_theme_success">Колеры паспяхова абноўлены. Была дададзена новая тэма пад назвай \"Агульны доступ\", выкарыстоўвайце яе для абнаўлення ўсіх колераў праграм у будучыні.</string>
+    <string name="save_before_closing">У вас ёсць незахаваныя змены. Захаваць перад выхадам?</string>
+    <string name="global_theme_success">Колеры паспяхова абноўлены. Была дададзена новая тэма пад назвай гульны доступ выкарыстоўвайце яе для абнаўлення ўсіх колераў праграм у будучыні.</string>
     <string name="light_theme">Светлая</string>
     <string name="dark_theme">Цёмная</string>
     <string name="auto_theme">Аўто</string>
@@ -397,11 +391,11 @@
     <string name="full_name">Поўнае імя</string>
     <string name="use_custom_sorting">Выкарыстоўвайце карыстацкую сартаванне</string>
     <string name="change_order">Змяніць парадак</string>
-    <string name="proceed_with_deletion">Вы ўпэўнены, што хочаце працягнуць выдаленне\?</string>
-    <string name="deletion_confirmation">Выдаліць %s\?</string>
-    <string name="move_to_recycle_bin_confirmation">Перамясціць %s у сметніцу\?</string>
-    <string name="are_you_sure_delete">Выдаліць гэты элемент\?</string>
-    <string name="are_you_sure_recycle_bin">Перамясціць гэты элемент у сметніцу\?</string>
+    <string name="proceed_with_deletion">Вы ўпэўнены, што хочаце працягнуць выдаленне?</string>
+    <string name="deletion_confirmation">Выдаліць %s?</string>
+    <string name="move_to_recycle_bin_confirmation">Перамясціць %s у сметніцу?</string>
+    <string name="are_you_sure_delete">Выдаліць гэты элемент?</string>
+    <string name="are_you_sure_recycle_bin">Перамясціць гэты элемент у сметніцу?</string>
     <string name="do_not_ask_again">Больш не пытацца ў гэтым сеансе</string>
     <string name="do_not_show_again">Больш не паказваць</string>
     <string name="yes">Так</string>
@@ -697,7 +691,7 @@
     <string name="excluded">(выключана)</string>
     <string name="manage_excluded_folders">Кіраванне выключанымі папкамі</string>
     <string name="remove_all">Выдаліць усе</string>
-    <string name="remove_all_description">Выдаліць усе тэчкі з спісу выключаных\? Гэта не прывядзе да выдалення тэчак.</string>
+    <string name="remove_all_description">Выдаліць усе тэчкі з спісу выключаных? Гэта не прывядзе да выдалення тэчак.</string>
     <string name="temporarily_show_excluded">Паказ часова выключаны</string>
     <string name="stop_showing_excluded">Спыніць паказ выключаны</string>
     <string name="manage_shown_tabs">Кіраванне ўкладкамі, якія адлюстроўваюцца</string>
@@ -714,7 +708,7 @@
     <string name="restore_all_files">Аднавіць усе файлы</string>
     <string name="recycle_bin_emptied">Сметніца паспяхова ачышчана</string>
     <string name="files_restored_successfully">Файлы паспяхова адноўлены</string>
-    <string name="empty_recycle_bin_confirmation">Вы ўпэўненыя, што жадаеце ачысціць сметнік\? Файлы будуць незваротна страчаныя.</string>
+    <string name="empty_recycle_bin_confirmation">Вы ўпэўненыя, што жадаеце ачысціць сметнік? Файлы будуць незваротна страчаныя.</string>
     <string name="recycle_bin_empty">Сметніца пустая</string>
     <string name="moving_recycle_bin_items_disabled">Перамяшчэнне элементаў кошыка адключана, скарыстайцеся аднаўленнем</string>
     <string name="show_the_recycle_bin">Паказаць сметніцу</string>
@@ -741,14 +735,7 @@
     <string name="backups">Рэзервовыя копіі</string>
     <string name="enable_automatic_backups">Уключыць аўтаматычнае рэзервовае капіраванне</string>
     <string name="manage_automatic_backups">Кіраванне аўтаматычным рэзервовым капіраваннем</string>
-    <string name="date_time_pattern_info">Вы можаце выкарыстоўваць наступныя шаблоны, каб аўтаматычна назваць файл:
-\n
-\n%Y - год
-\n%M - месяц
-\n%D - дзень
-\n%h - гадзіна
-\n%m - хвіліна
-\n%s - другі</string>
+    <string name="date_time_pattern_info">Вы можаце выкарыстоўваць наступныя шаблоны, каб аўтаматычна назваць файл: \n \n%Y - год \n%M - месяц \n%D - дзень \n%h - гадзіна \n%m - хвіліна \n%s - другі</string>
     <string name="usb_detected">Падобна на тое, да вашага прылады падлучанае USB-прылада. Каб пераканацца, што яго файлы адлюстроўваюцца правільна, вам неабходна прадаставіць дадатковыя дазволу.</string>
     <string name="confirm_usb_storage_access_text">Калі ласка, абярыце верхнюю тэчку USB-прылады на наступным экране, каб даць доступ</string>
     <string name="wrong_root_selected_usb">Выбрана няправільная папка, выберыце асноўную папку вашай USB-прылады</string>
@@ -803,40 +790,12 @@
     <string name="more_info">Дадатковая інфармацыя</string>
     <string name="upgrade">Абнаўленне</string>
     <string name="upgrade_calendar">Вы павінны перанесці лакальна захаваныя падзеі ўручную шляхам экспарту ў файл .ics, а затым імпарту. Вы можаце знайсці абедзве кнопкі экспарту/імпарту ў галоўным меню экрана.</string>
-    <string name="upgraded_from_free_gallery">Добры дзень,
-\n
-\nздаецца, вы толькі што перайшлі з бясплатнай версіі. Калі вы задаволены гэтым і, магчыма, перанясеце свае налады і абранае, вы можаце выдаліць старую бясплатную праграму, каб пазбегнуць яе выпадковага запуску, бо яна вам больш не спатрэбіцца, гэта таксама прадухіліць з\'яўленне гэтага дыялогу.
-\n
-\nДзякуй!</string>
-    <string name="upgraded_to_pro_gallery">Добры дзень,
-\n
-\nздаецца, у вас ужо ёсць версія праграмы Pro. Калі вы задаволены ім і, магчыма, перанясеце свае налады і абранае, вы можаце выдаліць яго, каб пазбегнуць яго выпадковага запуску, бо ён вам больш не спатрэбіцца.
-\n
-\nДзякуй!</string>
-    <string name="upgraded_from_free">Добры дзень,
-\n
-\nздаецца, вы толькі што перайшлі з бясплатнай версіі. Калі вы будзеце задаволены гэтым і, магчыма, перанясеце свае даныя, вы можаце выдаліць старую бясплатную праграму, каб пазбегнуць яе выпадковага запуску, бо яна вам больш не спатрэбіцца, гэта таксама прадухіліць з\'яўленне гэтага дыялогу.
-\n
-\nДзякуй!</string>
-    <string name="upgraded_to_pro">Добры дзень,
-\n
-\nздаецца, у вас ужо ёсць версія праграмы Pro. Калі вы задаволеныя ім і, магчыма, перанеслі свае даныя, вы можаце выдаліць яго, каб пазбегнуць выпадковага запуску, бо ён вам больш не спатрэбіцца.
-\n
-\nДзякуй!</string>
-    <string name="upgraded_from_free_calendar">Добры дзень,
-\n
-\nздаецца, вы толькі што перайшлі з бясплатнай версіі. Калі вы хочаце перанесці свае лакальна захаваныя падзеі, вам трэба зрабіць гэта ўручную, экспартаваўшы іх у файл .ics у бясплатнай версіі праграмы і імпартаваўшы сюды праз верхняе меню.
-\n
-\nКалі вы будзеце задаволены сваімі наладамі ў версіі Pro, вы можаце выдаліць старую бясплатную версію, бо яна вам больш не спатрэбіцца, гэта таксама прадухіліць з\'яўленне гэтага дыялогу.
-\n
-\nДзякуй!</string>
-    <string name="upgraded_from_free_contacts">Добры дзень,
-\n
-\nздаецца, вы толькі што перайшлі з бясплатнай версіі. Калі ў вас былі якія-небудзь кантакты, захаваныя ў \"%s\", вы павінны перанесці іх уручную, экспартаваўшы ў файл .vcf з бясплатнай версіі праграмы і імпартаваўшы сюды праз верхняе меню.
-\n
-\nКалі вы будзеце задаволены сваімі наладамі ў версіі Pro, вы можаце выдаліць старую бясплатную версію, бо яна вам больш не спатрэбіцца.
-\n
-\nДзякуй!</string>
+    <string name="upgraded_from_free_gallery">Добры дзень, \n \nздаецца, вы толькі што перайшлі з бясплатнай версіі. Калі вы задаволены гэтым і, магчыма, перанясеце свае налады і абранае, вы можаце выдаліць старую бясплатную праграму, каб пазбегнуць яе выпадковага запуску, бо яна вам больш не спатрэбіцца, гэта таксама прадухіліць з\'яўленне гэтага дыялогу. \n \nДзякуй!</string>
+    <string name="upgraded_to_pro_gallery">Добры дзень, \n \nздаецца, у вас ужо ёсць версія праграмы Pro. Калі вы задаволены ім і, магчыма, перанясеце свае налады і абранае, вы можаце выдаліць яго, каб пазбегнуць яго выпадковага запуску, бо ён вам больш не спатрэбіцца. \n \nДзякуй!</string>
+    <string name="upgraded_from_free">Добры дзень, \n \nздаецца, вы толькі што перайшлі з бясплатнай версіі. Калі вы будзеце задаволены гэтым і, магчыма, перанясеце свае даныя, вы можаце выдаліць старую бясплатную праграму, каб пазбегнуць яе выпадковага запуску, бо яна вам больш не спатрэбіцца, гэта таксама прадухіліць з\'яўленне гэтага дыялогу. \n \nДзякуй!</string>
+    <string name="upgraded_to_pro">Добры дзень, \n \nздаецца, у вас ужо ёсць версія праграмы Pro. Калі вы задаволеныя ім і, магчыма, перанеслі свае даныя, вы можаце выдаліць яго, каб пазбегнуць выпадковага запуску, бо ён вам больш не спатрэбіцца. \n \nДзякуй!</string>
+    <string name="upgraded_from_free_calendar">Добры дзень, \n \nздаецца, вы толькі што перайшлі з бясплатнай версіі. Калі вы хочаце перанесці свае лакальна захаваныя падзеі, вам трэба зрабіць гэта ўручную, экспартаваўшы іх у файл .ics у бясплатнай версіі праграмы і імпартаваўшы сюды праз верхняе меню. \n \nКалі вы будзеце задаволены сваімі наладамі ў версіі Pro, вы можаце выдаліць старую бясплатную версію, бо яна вам больш не спатрэбіцца, гэта таксама прадухіліць з\'яўленне гэтага дыялогу. \n \nДзякуй!</string>
+    <string name="upgraded_from_free_contacts">Добры дзень, \n \nздаецца, вы толькі што перайшлі з бясплатнай версіі. Калі ў вас былі якія-небудзь кантакты, захаваныя ў s вы павінны перанесці іх уручную, экспартаваўшы ў файл .vcf з бясплатнай версіі праграмы і імпартаваўшы сюды праз верхняе меню. \n \nКалі вы будзеце задаволены сваімі наладамі ў версіі Pro, вы можаце выдаліць старую бясплатную версію, бо яна вам больш не спатрэбіцца. \n \nДзякуй!</string>
     <string name="about">Аб</string>
     <string name="website">Сайт</string>
     <string name="website_label">Для атрымання зыходных кодаў наведайце</string>
@@ -851,8 +810,7 @@
     <string name="rate">Стаўка</string>
     <string name="donate">Ахвяраваць</string>
     <string name="follow_us">Сачыце за намі</string>
-    <string name="copyright">Версія %1$s
-\nАўтарскае права © Fossify %2$d</string>
+    <string name="copyright">Версія %1$s \nАўтарскае права © Fossify %2$d</string>
     <string name="support">Падтрымка</string>
     <string name="help_us">Дапамажы нам</string>
     <string name="social">Сацыяльны</string>
@@ -865,21 +823,13 @@
     <string name="app_version">Версія праграмы: %s</string>
     <string name="device_os">АС прылады: %s</string>
     <string name="purchase">Купіць</string>
-    <string name="before_asking_question_read_faq">Перш чым задаць пытанне, праверце налады праграмы і спачатку прачытайце раздзел \"Часта задаюць пытанні\". Магчыма, рашэнне ёсць.</string>
-    <string name="before_rate_read_faq">Перш чым ацэньваць нас, праверце налады праграмы і спачатку прачытайце раздзел \"Часта задаюць пытанні\". Калі ў вас ёсць якія-небудзь праблемы, магчыма, рашэнне ёсць.</string>
+    <string name="before_asking_question_read_faq">Перш чым задаць пытанне, праверце налады праграмы і спачатку прачытайце раздзел аста задаюць пытанні Магчыма, рашэнне ёсць.</string>
+    <string name="before_rate_read_faq">Перш чым ацэньваць нас, праверце налады праграмы і спачатку прачытайце раздзел аста задаюць пытанні Калі ў вас ёсць якія-небудзь праблемы, магчыма, рашэнне ёсць.</string>
     <string name="make_sure_latest">Таксама пераканайцеся, што вы выкарыстоўваеце апошнюю версію праграмы.</string>
     <string name="make_sure_upgrade">Таксама звярніце ўвагу, што гэтая версія праграмы больш не распрацоўваецца, купіце версію Pro для многіх паляпшэнняў.</string>
     <string name="read_it">Прачытаць</string>
     <string name="read_faq">Прачытаць FAQ</string>
-    <string name="rate_us_prompt">Квітнець,
-\n
-\nпадобна на тое, вы карыстаецеся гэтым дадаткам ўжо даволі даўно, і мы вельмі цэнім гэта.
-\n
-\nКалі мы можам папрасіць вас аб ласцы, калі ласка, ацаніце нас у Google Play. Гэта сапраўды вельмі дапамагло б нам.
-\n
-\nНезалежна ад таго, як вы вырашыце, вы больш не ўбачыце гэта паведамленне.
-\n
-\nДзякуй!</string>
+    <string name="rate_us_prompt">Квітнець, \n \nпадобна на тое, вы карыстаецеся гэтым дадаткам ўжо даволі даўно, і мы вельмі цэнім гэта. \n \nКалі мы можам папрасіць вас аб ласцы, калі ласка, ацаніце нас у Google Play. Гэта сапраўды вельмі дапамагло б нам. \n \nНезалежна ад таго, як вы вырашыце, вы больш не ўбачыце гэта паведамленне. \n \nДзякуй!</string>
     <string name="rate_our_app">Калі ласка, ацаніце наша дадатак :)</string>
     <string name="thank_you">Дзякуй</string>
     <string name="widget_locked_pro">Віджэт заблакіраваны.\nАбнавіце яго да версіі Pro, каб разблакіраваць яго.</string>
@@ -904,21 +854,21 @@
     <string name="sideloaded_app">Падобна на тое, што версія вашага прыкладання пашкоджана. Калі ласка, запампуйце арыгінальную версію &lt;a href=%s&gt;тут&lt;/a&gt;.</string>
     <string name="frequently_asked_questions">Часта задаюць пытанні</string>
     <string name="before_asking_question">Перш чым задаць пытанне, прачытайце</string>
-    <string name="faq_1_title_commons">Чаму я не бачу гэты віджэт праграм у спісе віджэтаў\?</string>
+    <string name="faq_1_title_commons">Чаму я не бачу гэты віджэт праграм у спісе віджэтаў?</string>
     <string name="faq_1_text_commons">Хутчэй за ўсё, гэта звязана з тым, што вы перамясцілі прыкладанне на SD-карту. У гэтым выпадку існуе сістэмнае абмежаванне Android, якое хавае дадзеныя фішкі прыкладання. Адзінае рашэнне-перамясціць прыкладанне назад ва ўнутранае сховішча праз налады вашага прылады.</string>
-    <string name="faq_2_title_commons">Я хачу падтрымаць вас, але я не магу ахвяраваць грошы. Ці магу я яшчэ што-небудзь зрабіць\?</string>
-    <string name="faq_3_title_commons">Я памылкова выдаліў некаторыя файлы, як я магу іх аднавіць\?</string>
+    <string name="faq_2_title_commons">Я хачу падтрымаць вас, але я не магу ахвяраваць грошы. Ці магу я яшчэ што-небудзь зрабіць?</string>
+    <string name="faq_3_title_commons">Я памылкова выдаліў некаторыя файлы, як я магу іх аднавіць?</string>
     <string name="faq_3_text_commons">На жаль, вы не можаце гэтага зрабіць. Файлы выдаляюцца імгненна пасля дыялогавага акна пацверджання, кошык для смецця недаступная.</string>
-    <string name="faq_4_title_commons">Мне не падабаюцца колеры віджэтаў, ці магу я іх змяніць\?</string>
+    <string name="faq_4_title_commons">Мне не падабаюцца колеры віджэтаў, ці магу я іх змяніць?</string>
     <string name="faq_4_text_commons">Так, калі вы перацягнуць віджэт на галоўны экран, з\'яўляецца экран налады фішкі. Вы ўбачыце каляровыя квадраты ў левым ніжнім куце, проста націсніце на іх, каб выбраць новы колер. Вы таксама можаце выкарыстоўваць паўзунок для налады альфа-сігналу.</string>
-    <string name="faq_5_title_commons">Ці магу я неяк аднавіць выдаленыя файлы\?</string>
+    <string name="faq_5_title_commons">Ці магу я неяк аднавіць выдаленыя файлы?</string>
     <string name="faq_5_text_commons">Калі яны сапраўды былі выдалены, вы не можаце. Тым не менш, кошык уключаны па змаўчанні, гэта прывядзе да таго, што файлы проста перамяшчаюцца ў кошык, а не выдаляюцца.</string>
-    <string name="faq_6_title_commons">Значок запуску прыкладання знік. Што я магу зрабіць\?</string>
-    <string name="faq_7_title_commons">Грошы былі зняты з майго банкаўскага рахунку, але я не магу спампаваць праграму. Што я магу зрабіць\?</string>
+    <string name="faq_6_title_commons">Значок запуску прыкладання знік. Што я магу зрабіць?</string>
+    <string name="faq_7_title_commons">Грошы былі зняты з майго банкаўскага рахунку, але я не магу спампаваць праграму. Што я магу зрабіць?</string>
     <string name="faq_7_text_commons">Плацяжы цалкам апрацоўваюцца Google, у іх сістэме час ад часу даюцца збоі. Проста ачысціце кэш праграмы Google Play і перазапусціце прыладу, а затым паўтарыце спробу загрузкі.</string>
-    <string name="faq_8_title_commons">Чаму я павінен перайсці на версію Pro\?</string>
+    <string name="faq_8_title_commons">Чаму я павінен перайсці на версію Pro?</string>
     <string name="faq_8_text_commons">Паколькі версія вашага прыкладання больш не абнаўляецца, памылкі, якія вы, магчыма, заўважылі, ніколі не будуць выпраўленыя. Таксама не будзе дададзена ніякіх новых функцый. Вы можаце набыць Pro-версію ў Google Play за невялікую суму грошай. Гэта аднаразовы плацёж, а гэта значыць, што як толькі вы яго купіце, вам больш ніколі не прыйдзецца плаціць. Нават пасля атрымання новага прылады. Калі вам не падабаецца Pro-версія, вы можаце проста выдаліць яе на працягу некалькіх гадзін, і вы аўтаматычна атрымаеце свае грошы назад. Калі вы хочаце вярнуць грошы ў любы час пазней, проста звяжыцеся з намі па адрасе hello@fossify.org і вы гэта атрымаеце.</string>
-    <string name="faq_9_title_commons">Як я магу выбраць некалькі элементаў адначасова\?</string>
+    <string name="faq_9_title_commons">Як я магу выбраць некалькі элементаў адначасова?</string>
     <string name="faq_9_text_commons">Ёсць некалькі спосабаў зрабіць гэта. Першы з іх заключаецца ў запуску рэжыму выбару шляхам працяглага націску на адзін элемент, а затым кароткага націску на іншыя, каб выбраць іх. Другі спосаб аналагічны выбару элементаў на ПК з дапамогай мышы, проста запусціце рэжым выбару, доўга націскаючы на адзін элемент, затым, усё яшчэ утрымліваючы палец націснутым, правядзіце ім па іншых элементах для выбару. Трэці спосаб выбару некалькіх элементаў-доўгі націск на адзін элемент, затым доўгі націск на іншы, і выбіраецца ўсё, што знаходзіцца паміж імі. Калі вы хочаце выбраць усе тавары, проста доўга націсніце на адзін тавар, а затым пстрыкніце на лічыльніку выбраных тавараў у левым верхнім куце. Гэта дазволіць выбраць або адмяніць выбар усяго.</string>
     <string name="faq_10_title_commons">Я набыў праграму, але не магу загрузіць яе на іншую прыладу.</string>
     <string name="faq_10_text_commons">Паспрабуйце ачысціць кэш праграмы Google Play і перазагрузіць прыладу. Гэта нейкі збой Google Play, які насамрэч не звязаны з самім дадаткам.</string>
@@ -990,7 +940,159 @@
     <string name="pdf_viewer_title">Android PdfViewer (Прагляд PDF)</string>
     <string name="m3u_parser_title">M3U Parser (апрацоўка файла спісу прайгравання m3u)</string>
     <string name="android_lame_title">AndroidLame (кадавальнік mp3)</string>
-    <string name="deprecated_app">САСТАРЕЛА: гэтая версія праграмы больш не падтрымліваецца, атрымайце версію Pro па адрасе https://play.google.com/store/apps/details\?id=org.fossify..xxx.pro</string>
+    <string name="deprecated_app">САСТАРЕЛА: гэтая версія праграмы больш не падтрымліваецца, атрымайце версію Pro па адрасе https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">Не забывайце, што калі вы выдаліце любую платную праграму на працягу 2 гадзін, вам аўтаматычна вернуць грошы. Калі вы хочаце вярнуць грошы ў любы час пазней, проста звяжыцеся з намі па адрасе hello@fossify.org, і вы атрымаеце іх. Гэта дазваляе лёгка паспрабаваць :)</string>
     <string name="developer_description">Група простых праграм для Android з адкрытым зыходным кодам і віджэтамі, якія можна наладзіць, без рэкламы і непатрэбных дазволаў.</string>
+    <string name="translation_japanese"></string>
+    <string name="translation_central_kurdish"></string>
+    <string name="translation_chuvash"></string>
+    <string name="translation_esperanto"></string>
+    <string name="translation_french"></string>
+    <string name="translation_vietnamese"></string>
+    <string name="welcome_to_app_name"></string>
+    <plurals name="trial_expires_days">
+        <item quantity="one"></item>
+        <item quantity="few"></item>
+        <item quantity="many"></item>
+        <item quantity="other"></item>
+    </plurals>
+    <string name="translation_korean"></string>
+    <string name="translation_ukrainian"></string>
+    <string name="why_upgrade_zooming"></string>
+    <string name="block_hidden_messages"></string>
+    <string name="internal_storage"></string>
+    <string name="purchase_thank_you"></string>
+    <string name="add_contact"></string>
+    <string name="notification_sound"></string>
+    <string name="usb"></string>
+    <string name="february_short"></string>
+    <string name="january_short"></string>
+    <string name="november_short"></string>
+    <string name="september_short"></string>
+    <string name="october_short"></string>
+    <string name="may_short"></string>
+    <string name="june_short"></string>
+    <string name="august_short"></string>
+    <string name="april_short"></string>
+    <string name="july_short"></string>
+    <string name="donate_new"></string>
+    <string name="donate_short"></string>
+    <string name="update_thank_you"></string>
+    <string name="translation_arabic"></string>
+    <string name="translation_azerbaijani"></string>
+    <string name="translation_english"></string>
+    <string name="translation_german"></string>
+    <string name="translation_galician"></string>
+    <string name="translation_hungarian"></string>
+    <string name="translation_indonesian"></string>
+    <string name="translation_croatian"></string>
+    <string name="translation_hindi"></string>
+    <string name="translation_chinese_hk"></string>
+    <string name="trial_expired"></string>
+    <string name="start_free_trial"></string>
+    <string name="translation_swedish"></string>
+    <string name="contributors_label"></string>
+    <string name="translation_lithuanian"></string>
+    <string name="translation_portuguese"></string>
+    <string name="translation_kabyle"></string>
+    <string name="translation_chinese_tw"></string>
+    <string name="start_week_on"></string>
+    <string name="purchase_simple_thank_you"></string>
+    <string name="enter_password"></string>
+    <string name="genre"></string>
+    <string name="show_line_numbers"></string>
+    <string name="launcher_short"></string>
+    <string name="password"></string>
+    <string name="more_options"></string>
+    <string name="allow_full_screen_notifications_reminders"></string>
+    <string name="apply_to_all_apps"></string>
+    <string name="shared_theme_note"></string>
+    <string name="translation_bulgarian"></string>
+    <string name="audio"></string>
+    <string name="zip4j_title"></string>
+    <string name="add_password"></string>
+    <string name="donate_please"></string>
+    <string name="week_number_short"></string>
+    <string name="allow_alarm_sleep_timer"></string>
+    <string name="exif"></string>
+    <string name="upgraded_from_free_notes"></string>
+    <string name="deletion_confirmation_short"></string>
+    <string name="contact_details"></string>
+    <string name="why_upgrade_file_compression"></string>
+    <string name="march_short"></string>
+    <string name="translation_tamil"></string>
+    <string name="trial_expires_soon"></string>
+    <string name="trial_end_description"></string>
+    <string name="allow_full_screen_notifications_incoming_calls"></string>
+    <string name="pin_must_be_4_digits_long"></string>
+    <string name="close"></string>
+    <string name="too_many_incorrect_attempts"></string>
+    <string name="translation_turkish"></string>
+    <string name="known_issues"></string>
+    <string name="unblock_contact"></string>
+    <string name="block_contact_success"></string>
+    <string name="translation_chinese_cn"></string>
+    <plurals name="row_counts">
+        <item quantity="one"></item>
+        <item quantity="few"></item>
+        <item quantity="many"></item>
+        <item quantity="other"></item>
+    </plurals>
+    <string name="hide_line_numbers"></string>
+    <string name="translation_italian"></string>
+    <string name="date_added"></string>
+    <string name="unblock_contact_success"></string>
+    <string name="invalid_password"></string>
+    <string name="row_count"></string>
+    <string name="translation_breton"></string>
+    <string name="theme_and_colors"></string>
+    <string name="december_short"></string>
+    <string name="all_fossify_apps"></string>
+    <string name="why_upgrade_advanced_photo_video_editor"></string>
+    <string name="unblock_contact_fail"></string>
+    <string name="allow_location_permission"></string>
+    <string name="block_hidden_calls"></string>
+    <string name="empty_password"></string>
+    <string name="unblock"></string>
+    <string name="allow_access_more_media"></string>
+    <string name="translation_belarusian"></string>
+    <string name="translation_romanian"></string>
+    <string name="trial_start_description"></string>
+    <string name="block_contact_fail"></string>
+    <string name="allow_alarm_scheduled_messages"></string>
+    <string name="empty_password_new"></string>
+    <string name="translation_polish"></string>
+    <string name="translation_bengali"></string>
+    <string name="faq_2_text_commons"></string>
+    <string name="block_contact"></string>
+    <string name="features_locked"></string>
+    <string name="scanning"></string>
+    <string name="show_search"></string>
+    <string name="platforms"></string>
+    <string name="donate_to_fossify"></string>
+    <string name="little_to_no_fee"></string>
+    <string name="fee_up_to_pct"></string>
+    <string name="cryptocurrency"></string>
+    <string name="format_phone_numbers"></string>
+    <string name="translation_spanish"></string>
+    <string name="translation_greek"></string>
+    <string name="translation_persian"></string>
+    <string name="translation_basque"></string>
+    <string name="why_upgrade_pro_version"></string>
+    <string name="unlock_for_one_final_day"></string>
+    <string name="why_upgrade_many_other_improvements"></string>
+    <string name="translation_slovenian"></string>
+    <string name="translation_norwegian"></string>
+    <string name="translation_dutch"></string>
+    <string name="translation_hebrew"></string>
+    <string name="translation_gujarati"></string>
+    <string name="translation_finnish"></string>
+    <string name="translation_slovak"></string>
+    <string name="translation_welsh"></string>
+    <string name="translation_danish"></string>
+    <string name="translation_nepali"></string>
+    <string name="translation_catalan"></string>
+    <string name="translation_russian"></string>
+    <string name="translation_serbian"></string>
+    <string name="translation_czech"></string>
 </resources>
