@@ -2,7 +2,7 @@
 <resources>
     <string name="cancel">Annuller</string>
     <string name="close">Luk</string>
-    <string name="back">Tilbage </string>
+    <string name="back">Tilbage</string>
     <string name="nothing">Intet</string>
     <string name="later">Senere</string>
     <string name="save_as">Gem som</string>
@@ -115,7 +115,7 @@
     <string name="import_blocked_numbers">Importer blokerede numre</string>
     <string name="must_make_default_dialer">Du skal gøre denne app til standardopkaldsappen for at gøre brug af blokerede numre.</string>
     <string name="set_as_default">Gør til standard</string>
-    <string name="block_confirmation">Er du sikker på at du vil blokere \"%s\"?</string>
+    <string name="block_confirmation">Er du sikker på at du vil blokere s?</string>
     <string name="block_unknown_calls">Bloker opkald fra ukendte</string>
     <string name="block_hidden_calls">Bloker opkald fra skjulte numre</string>
     <string name="block_unknown_messages">Bloker beskeder fra ukendte</string>
@@ -183,7 +183,7 @@
     <string name="renaming_folder">Omdøber mappe</string>
     <string name="filename_cannot_be_empty">Filen skal have et navn</string>
     <string name="filename_invalid_characters">Filnavnet indeholder ugyldige tegn</string>
-    <string name="filename_invalid_characters_placeholder">Filnavnet \"%s\" indeholder ugyldige tegn</string>
+    <string name="filename_invalid_characters_placeholder">Filnavnet s indeholder ugyldige tegn</string>
     <string name="extension_cannot_be_empty">Filtypen kan ikke stå tom</string>
     <string name="source_file_doesnt_exist">Kildefilen %s eksisterer ikke</string>
     <string name="prepend_filenames">Tilføj forrest til filnavne</string>
@@ -232,14 +232,14 @@
     <string name="invalid_name">Navnet indeholder ugyldige tegn</string>
     <string name="empty_name">Skriv et navn</string>
     <string name="unknown_error_occurred">Der opstod en ukendt fejl</string>
-    <string name="file_already_exists">Filen \"%s\" findes allerede</string>
-    <string name="file_already_exists_overwrite">Filen \"%s\" findes allerede. Overskriv?</string>
-    <string name="folder_already_exists">Mappen \"%s\" findes allerede</string>
+    <string name="file_already_exists">Filen s findes allerede</string>
+    <string name="file_already_exists_overwrite">Filen s findes allerede. Overskriv?</string>
+    <string name="folder_already_exists">Mappen s findes allerede</string>
     <string name="merge">Sammenflet</string>
     <string name="keep_both">Behold begge</string>
     <string name="overwrite">Overskriv</string>
     <string name="skip">Spring over</string>
-    <string name="append">Tilføj \"_1\"</string>
+    <string name="append">Tilføj 1\\</string>
     <string name="apply_to_all">Anvend på alle konflikter</string>
     <string name="system_folder_restriction">Systemet tillader ikke operationen i denne mappe, vælg en anden</string>
     <string name="system_folder_copy_restriction">Systemet tillader ikke kopiering til denne mappe, vælg en anden</string>
@@ -252,8 +252,8 @@
     <string name="confirm_storage_access_text">Vælg SD-kortets rodmappe på næste side for at give skriveadgang til den</string>
     <string name="confirm_storage_access_text_sd">Hvis ikke du kan se SD-kortet kan du prøve dette</string>
     <string name="confirm_storage_access_android_text">Tillad appen at få adgang til det valgte lager på det næste skærmbillede ved at trykke på \'Brug denne mappe\' nederst.</string>
-    <string name="confirm_storage_access_android_text_specific">Tillad adgang til \"&lt;b&gt;%s&lt;/b&gt;\" på det næste skærmbillede ved at trykke på \"&lt;b&gt;Brug denne mappe&lt;/b&gt;\" nederst på skærmen.</string>
-    <string name="confirm_create_doc_for_new_folder_text">Tryk på \'&lt;b&gt;Save&lt;/b&gt;\' nederst på det næste skærmbillede for at oprette den nye mappe.</string>
+    <string name="confirm_storage_access_android_text_specific">Tillad adgang til b&gt;%s&lt;/b&gt; på det næste skærmbillede ved at trykke på b&gt;Brug denne mappe&lt;/b&gt; nederst på skærmen.</string>
+    <string name="confirm_create_doc_for_new_folder_text">Tryk på \'<b>Save</b>\' nederst på det næste skærmbillede for at oprette den nye mappe.</string>
     <string name="confirm_selection">Bekræft valg</string>
     <string name="loading">Indlæser…</string>
     <string name="access_storage_prompt">Giv venligst vores app adgang til alle dine filer, den fungerer muligvis ikke godt uden.</string>
@@ -280,8 +280,7 @@
     <string name="root">Rod</string>
     <string name="wrong_root_selected">Forkert mappe valgt, vælg rodmappen på SD-kortet</string>
     <string name="sd_card_usb_same">Stierne til SD-kortet og USB-enheden kan ikke være ens</string>
-    <string name="app_on_sd_card">Det ser ud til at du har appen installeret på et SD-kort. Det gør at appens widget ikke er tilgængelig og ikke kan ses på listen med widgets.
-        Dette skyldes en begrænsning i systemet, så hvis du vil bruge appens widgets må du flytte appen tilbage til det interne lager.</string>
+    <string name="app_on_sd_card">Det ser ud til at du har appen installeret på et SD-kort. Det gør at appens widget ikke er tilgængelig og ikke kan ses på listen med widgets. Dette skyldes en begrænsning i systemet, så hvis du vil bruge appens widgets må du flytte appen tilbage til det interne lager.</string>
     <string name="wrong_folder_selected">Forkert mappe valgt. Vælg stien \'%s\'</string>
     <string name="properties">Egenskaber</string>
     <string name="path">Sti</string>
@@ -322,12 +321,10 @@
     <string name="undo_changes_confirmation">Er du sikker på at du vil fortryde ændringerne?</string>
     <string name="cannot_be_undone">Handlingen kan ikke fortrydes.</string>
     <string name="save_before_closing">Du har ændringer der ikke er gemt. Vil du gemme dem?</string>
-    <string name="global_theme_success">Farverne er ændret. Et nyt udseende kaldet \"Tilpasset\" er tilføjet, brug det ved opdatering af alle app-farver fremover.</string>
-    <string name="purchase_thank_you">
-        <![CDATA[
+    <string name="global_theme_success">Farverne er ændret. Et nyt udseende kaldet \tilpasset er tilføjet, brug det ved opdatering af alle app-farver fremover.</string>
+    <string name="purchase_thank_you"><![CDATA[
             Køb <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> for at låse denne funktion op og understøtte appens udvikling. Tak!
-        ]]>
-    </string>
+        ]]></string>
     <string name="light_theme">Lys</string>
     <string name="dark_theme">Mørk</string>
     <string name="auto_light_dark_theme">Auto lyst / mørkt</string>
@@ -640,7 +637,7 @@
     <string name="excluded">(ekskluderet)</string>
     <string name="manage_excluded_folders">Administrer ekskluderede mapper</string>
     <string name="remove_all">Fjern alle</string>
-    <string name="remove_all_description">Fjern alle fra listen med ekskluderede mapper\? Det vil ikke slette mapperne.</string>
+    <string name="remove_all_description">Fjern alle fra listen med ekskluderede mapper? Det vil ikke slette mapperne.</string>
     <string name="temporarily_show_excluded">Vis midlertidigt ekskluderede</string>
     <string name="stop_showing_excluded">Stop visning af ekskluderede</string>
     <string name="manage_shown_tabs">Administrer viste faner</string>
@@ -736,7 +733,7 @@
     <string name="upgraded_from_free">Hej\n\nDet ser ud til at du lige har opgraderet fra den gratis version. Så snart du er tilfreds med denne og måske har flyttet dine data over, kan du afinstallere den gamle og dermed undgå at åbne den ved et uheld, du vil ikke have brug for den mere.\n\nTak!</string>
     <string name="upgraded_to_pro">Hej\n\nDet ser ud til, at du også allerede har Pro app-versionen. Når du er tilfreds med den og måske har overført dine data, kan du afinstallere denne for at undgå at starte den ved et uheld, da du ikke har brug for den længere.\n\nTak!</string>
     <string name="upgraded_from_free_calendar">Hej\n\nDet ser ud til, at du lige har opgraderet fra den gratis version. Hvis du ønsker at overføre dine lokalt gemte begivenheder, skal du gøre det manuelt ved at eksportere dem til en .ics-fil i den gratis app-version og importere dem her via topmenuen. \n\nNår du er tilfreds med din opsætning i Pro-versionen, kan du afinstallere den gamle gratis version, da du ikke længere har brug for den. \n\n\nTak!</string>
-    <string name="upgraded_from_free_contacts">Hej\n\nDet ser ud til, at du lige har opgraderet fra den gratis version. Hvis du havde nogen kontakter gemt under \"%s\", skal du overføre dem manuelt ved at eksportere dem i en .vcf-fil fra den gratis app-version og importere dem her via topmenuen.\n\nNår du er tilfreds med din opsætning i Pro-versionen, kan du afinstallere den gamle gratis version, da du ikke længere har brug for den.\n\n\nTak!</string>
+    <string name="upgraded_from_free_contacts">Hej\n\nDet ser ud til, at du lige har opgraderet fra den gratis version. Hvis du havde nogen kontakter gemt under s skal du overføre dem manuelt ved at eksportere dem i en .vcf-fil fra den gratis app-version og importere dem her via topmenuen.\n\nNår du er tilfreds med din opsætning i Pro-versionen, kan du afinstallere den gamle gratis version, da du ikke længere har brug for den.\n\n\nTak!</string>
     <string name="upgraded_from_free_notes">Hej\n\nDet ser ud til, at du lige har opgraderet fra den gratis version. Hvis du vil overføre dine noter, skal du gøre det manuelt ved at eksportere dem til en fil i den gratis app-version og importere dem her via topmenuen. \n\nNår du er tilfreds med din opsætning i Pro-versionen, kan du afinstallere den gamle gratis version, da du ikke længere har brug for den. \n\n\nTak!</string>
     <string name="about">Om</string>
     <string name="website_label">For at se kildekoden besøg</string>
@@ -759,15 +756,13 @@
     <string name="additional_info">Yderligere info</string>
     <string name="app_version">Appversion: %s</string>
     <string name="device_os">Enheds-OS: %s</string>
-    <string name="donate_please">
-        <![CDATA[
+    <string name="donate_please"><![CDATA[
             Hej<br><br>
             Håber du kan lide denne app. Den indeholder ingen reklamer, så vær sød at købe appen <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>, som også vil forhindre at denne besked vises igen.<br><br>
             På forhånd tak!
-        ]]>
-    </string>
+        ]]></string>
     <string name="purchase">Køb</string>
-    <string name="before_asking_question_read_faq">Inden du stiller et spørgsmål bedes du først tjekke appens indstillinger og læse de \"Ofte stillede spørgsmål\", måske finder du svaret der.</string>
+    <string name="before_asking_question_read_faq">Inden du stiller et spørgsmål bedes du først tjekke appens indstillinger og læse de fte stillede spørgsmål måske finder du svaret der.</string>
     <string name="before_rate_read_faq">Tjek appens indstillinger og læs vores ofte stillede spørgsmål inden du vurderer os. Har du nogen problemer, kan du måske finde en løsning der.</string>
     <string name="make_sure_latest">Sørg også for at du bruger den seneste version af appen.</string>
     <string name="read_it">Læs det</string>
@@ -775,10 +770,8 @@
     <string name="rate_us_prompt">Hej\n\nDet ser ud til at du har brugt denne app et godt stykke tid, og det er vi virkelig glade for.\n\nHvis vi til gengæld må bede om en tjeneste, vil vi sætte stor pris på din vurdering på Google Play. Det ville være en kæmpe hjælp.\n\nUanset hvad du beslutter dig for, vil du ikke se denne besked igen.\n\nPå forhånd tak!</string>
     <string name="rate_our_app">Vurder vores app :)</string>
     <string name="thank_you">Tak skal du have</string>
-    <string name="widget_locked_pro">Widget\'en er låst.
-\nOpgrader til Pro-versionen for at låse den op.</string>
-    <string name="new_app">
-        <![CDATA[
+    <string name="widget_locked_pro">Widget\'en er låst. \nOpgrader til Pro-versionen for at låse den op.</string>
+    <string name="new_app"><![CDATA[
             Hej<br><br>
             - synes lige du skulle vide at der er kommet en ny app:<br><br>
             <a href="%1$s">%2$s</a><br><br>
@@ -786,8 +779,7 @@
             <a href="%5$s">%6$s</a><br><br>
             Du kan downloade den med et klik på titlen.<br><br>
             Tak
-        ]]>
-    </string>
+        ]]></string>
     <string name="app_launcher_short">Appstarter</string>
     <string name="calculator_short">Lommeregner</string>
     <string name="calendar_short">Kalender</string>
@@ -805,52 +797,42 @@
     <string name="sms_messenger_short">Beskeder</string>
     <string name="thank_you_short">Tak skal du have</string>
     <string name="voice_recorder_short">Lydoptager</string>
-    <string name="sideloaded_app">
-        <![CDATA[
+    <string name="sideloaded_app"><![CDATA[
             Det ser ud til at din app-version er beskadiget. <a href="%s">Download den originale version her</a>.
-        ]]>
-    </string>
+        ]]></string>
     <string name="frequently_asked_questions">Ofte stillede spørgsmål</string>
     <string name="before_asking_question">Inden du stiller et spørgsmål bedes du først læse</string>
     <string name="faq_1_title_commons">Hvorfor kan jeg ikke se denne app\'s widget på listen med widgets?</string>
     <string name="faq_1_text_commons">Det er sikkert fordi du har flyttet appen til et SD-kort. Der er en begrænsning i Androidsystemet der i så fald skjuler appens widget. Eneste løsning er at flytte appen tilbage til det interne lager via indstillingerne på din enhed.</string>
     <string name="faq_2_title_commons">Jeg vil gerne støtte dig, men jeg kan ikke donere penge. Er der andet jeg kan gøre?</string>
-    <string name="faq_2_text_commons">
-        <![CDATA[
+    <string name="faq_2_text_commons"><![CDATA[
             Ja, selvfølgelig. Du kan sprede budskabet om vores apps eller give god feedback og gode vurderinger. Du kan også hjælpe ved at oversætte apps til et nyt sprog eller blot opdatere nogle af de eksisterende oversættelser.
             Vejledningen til oversættelse findes på <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">dette websted</a>, eller mail til os på adressen <a href="mailto:hello@fossify.org">hello@fossify.org</a>, hvis du har spørgsmål.
-        ]]>
-    </string>
+        ]]></string>
     <string name="faq_3_title_commons">Jeg fik slettet nogle filer ved en fejl, hvordan kan jeg gendanne dem?</string>
     <string name="faq_3_text_commons">Det kan du desværre ikke. Filer er væk så snart sletningen er bekræftet, og der er ingen papirkurv.</string>
     <string name="faq_4_title_commons">Jeg bryder mig ikke om farverne på widget\'en, kan jeg ændre dem?</string>
     <string name="faq_4_text_commons">Jep. Når du føjer en widget til din skærm kommer muligheden for at konfigurere den frem. I nederste venstre hjørne finder du farvede kvadrater, klik på dem og vælg en ny farve. Du kan justere alfa med skyderen.</string>
     <string name="faq_5_title_commons">Kan jeg gendanne slettede filer?</string>
-    <string name="faq_5_text_commons">Nej, ikke hvis de virkelig er slettet. Men som standard er papirkurven aktiveret, i den opbevares \"slettede\" filer, så der vil du kunne finde dem igen.</string>
-    <string name="faq_6_title_commons">App-launcher\'ens ikon forsvandt. Hvad gør jeg\?</string>
+    <string name="faq_5_text_commons">Nej, ikke hvis de virkelig er slettet. Men som standard er papirkurven aktiveret, i den opbevares lettede filer, så der vil du kunne finde dem igen.</string>
+    <string name="faq_6_title_commons">App-launcher\'ens ikon forsvandt. Hvad gør jeg?</string>
     <string name="faq_7_title_commons">Pengene er trukket fra min bankkoto, men jeg kan ikke downloade appen. Hvad gør jeg nu?</string>
     <string name="faq_7_text_commons">Betalinger håndteres af Google, men deres system fejler af og til. Ryd cachen til din Google Play-app og genstart din enhed. Prøv så at downloade appen igen.</string>
     <string name="faq_8_title_commons">Hvorfor skulle jeg opgradere til Pro-versionen?</string>
-    <string name="faq_8_text_commons">Da din version af appen ikke opdateres længere, kan den indeholde fejl der aldrig bliver rettet. Der vil heller ikke komme nye funktioner til den. Du kan købe Pro-versionen på Google Play for et lille beløb.
-        Det er en engangsinvestering, har du betalt een gang skal du aldrig gøre det igen, heller ikke hvis du skifter mobil eller tablet. Kan du ikke lide Pro-versionen, kan du afinstallere den indenfor nogle få timer og du vil automatisk få dine penge tilbage.
-        Vil du på et senere tidspunkt have pengene refunderet, skal du blot sende en mail til hello@fossify.org, så klarer vi det.</string>
+    <string name="faq_8_text_commons">Da din version af appen ikke opdateres længere, kan den indeholde fejl der aldrig bliver rettet. Der vil heller ikke komme nye funktioner til den. Du kan købe Pro-versionen på Google Play for et lille beløb. Det er en engangsinvestering, har du betalt een gang skal du aldrig gøre det igen, heller ikke hvis du skifter mobil eller tablet. Kan du ikke lide Pro-versionen, kan du afinstallere den indenfor nogle få timer og du vil automatisk få dine penge tilbage. Vil du på et senere tidspunkt have pengene refunderet, skal du blot sende en mail til hello@fossify.org, så klarer vi det.</string>
     <string name="faq_9_title_commons">Hvordan kan jeg vælge flere elementer på én gang?</string>
-    <string name="faq_9_text_commons">Der er flere måder at gøre det på. Den første er at starte valgtilstanden ved at trykke længe på et element og derefter klikke kort på andre elementer for at vælge dem. Den anden måde svarer til at vælge elementer på en pc med en mus.
-        Du skal bare starte valgtilstanden ved at trykke længe på et element og derefter mens fingeren stadig er nede, trække den hen over andre elementer for at vælge dem. Den tredje måde at vælge flere elementer på er ved at trykke længe på et element og derefter trykke længe på et andet element, og alt derimellem bliver valgt. Hvis du
-        vil vælge alle elementer, skal du blot trykke længe på et element og derefter klikke på tælleren for det valgte element øverst til venstre i hjørnet. Det vil vælge eller fravælge alting.</string>
+    <string name="faq_9_text_commons">Der er flere måder at gøre det på. Den første er at starte valgtilstanden ved at trykke længe på et element og derefter klikke kort på andre elementer for at vælge dem. Den anden måde svarer til at vælge elementer på en pc med en mus. Du skal bare starte valgtilstanden ved at trykke længe på et element og derefter mens fingeren stadig er nede, trække den hen over andre elementer for at vælge dem. Den tredje måde at vælge flere elementer på er ved at trykke længe på et element og derefter trykke længe på et andet element, og alt derimellem bliver valgt. Hvis du vil vælge alle elementer, skal du blot trykke længe på et element og derefter klikke på tælleren for det valgte element øverst til venstre i hjørnet. Det vil vælge eller fravælge alting.</string>
     <string name="faq_10_title_commons">Jeg har købt appen, men jeg kan ikke downloade den på en anden enhed.</string>
     <string name="faq_10_text_commons">Prøv at rydde din Google Play-appcache og genstarte din enhed. Det er en fejl i Google Play, som ikke har noget med selve appen at gøre.</string>
     <string name="contributors">Bidragydere</string>
     <string name="translation">Oversættelse</string>
     <string name="development">Udvikling</string>
     <string name="other_help">Anden hjælp</string>
-    <string name="contributors_label">
-        <![CDATA[
+    <string name="contributors_label"><![CDATA[
             Denne liste indeholder alle, der har hjulpet med en app i Fossify-pakken, ikke kun denne. Oversættelser håndteres af frivillige,
             så lad os vide, hvis du også vil hjælpe. Vejledningen til oversættelse findes på <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">denne hjemmeside</a>, eller send en mail til <a href="mailto:hello@fossify.org">hello@fossify.org</a>, hvis du har spørgsmål.
             Tak til alle bidragydere og andre støtter!
-        ]]>
-    </string>
+        ]]></string>
     <string name="translation_arabic">Arabisk</string>
     <string name="translation_azerbaijani">Aserbajdsjansk</string>
     <string name="translation_bengali">Bengalsk</string>
@@ -963,8 +945,7 @@
     <string name="start_free_trial">Start en gratis prøveperiode</string>
     <string name="trial_expires_soon">Din prøveperiode udløber snart.</string>
     <string name="welcome_to_app_name">Velkommen til %s!</string>
-    <string name="trial_start_description">Tak, fordi du bruger vores app. Du kan bruge denne ulåste version i &lt;font color=\'#FFFFFFFF\'&gt;%d dage&lt;/font&gt;. Når prøveversionen udløber, skal du overveje at opgradere til Pro-versionen. Den har en enorm mængde nye funktioner, et moderne design, ingen reklamer og mange andre forbedringer.
-        \n\nDu skal bare betale for det en gang for alle, og hvis du ikke er tilfreds, kan du afinstallere det og få pengene tilbage.\n\nHåber du vil kunne lide den :)</string>
+    <string name="trial_start_description">Tak, fordi du bruger vores app. Du kan bruge denne ulåste version i <font color="#FFFFFFFF">%d dage</font>. Når prøveversionen udløber, skal du overveje at opgradere til Pro-versionen. Den har en enorm mængde nye funktioner, et moderne design, ingen reklamer og mange andre forbedringer. \n\nDu skal bare betale for det en gang for alle, og hvis du ikke er tilfreds, kan du afinstallere det og få pengene tilbage.\n\nHåber du vil kunne lide den :)</string>
     <string name="trial_end_description">Opgrader venligst til Pro-versionen for at nyde appen fuldt ud.\n\nDu skal kun betale for den én gang i livet, og hvis du ikke er tilfreds, kan du afinstallere den og få pengene tilbage.\n\n\nVi ses :)</string>
     <plurals name="trial_expires_days">
         <item quantity="one">Din prøveperiode udløber om %d dag.</item>
@@ -975,4 +956,92 @@
     <string name="developer_description">En gruppe simple, open source apps til Android med widgets, der kan tilpasses, uden reklamer og unødvendige tilladelser.</string>
     <string name="ok">OK</string>
     <string name="format_phone_numbers">Formatér telefonnumre</string>
+    <string name="translation_belarusian"></string>
+    <string name="translation_central_kurdish"></string>
+    <string name="android_lame_title"></string>
+    <string name="theme_and_colors"></string>
+    <string name="monday_letter"></string>
+    <string name="cryptocurrency"></string>
+    <string name="little_to_no_fee"></string>
+    <string name="fee_up_to_pct"></string>
+    <string name="translation_chuvash"></string>
+    <string name="destination"></string>
+    <string name="rename_internal_system_restriction"></string>
+    <string name="pin"></string>
+    <string name="friday_letter"></string>
+    <string name="sunday_letter"></string>
+    <string name="update_thank_you"></string>
+    <string name="genre"></string>
+    <string name="backups"></string>
+    <string name="donate_new"></string>
+    <string name="november_short"></string>
+    <string name="too_many_incorrect_attempts"></string>
+    <string name="alarm"></string>
+    <string name="minutes_letter"></string>
+    <string name="filter"></string>
+    <string name="december_short"></string>
+    <string name="filter_pro"></string>
+    <string name="send_sms"></string>
+    <string name="allow_access_more_media"></string>
+    <string name="gson_title"></string>
+    <string name="pin_must_be_4_digits_long"></string>
+    <string name="seconds_letter"></string>
+    <string name="empty_password"></string>
+    <string name="purchase_simple_thank_you"></string>
+    <string name="date_added"></string>
+    <string name="medium"></string>
+    <string name="download"></string>
+    <string name="invalid_password"></string>
+    <string name="widgets"></string>
+    <string name="august_short"></string>
+    <string name="label"></string>
+    <string name="empty_password_new"></string>
+    <string name="donate_short"></string>
+    <string name="september"></string>
+    <string name="add_password"></string>
+    <string name="more_options"></string>
+    <string name="auto_theme"></string>
+    <string name="usb"></string>
+    <string name="thursday_letter"></string>
+    <string name="exif"></string>
+    <string name="apply_to_all_apps"></string>
+    <string name="translation_esperanto"></string>
+    <string name="launcher_short"></string>
+    <string name="translation_kabyle"></string>
+    <string name="tuesday_letter"></string>
+    <string name="password"></string>
+    <string name="start_week_on"></string>
+    <string name="show_search"></string>
+    <string name="social"></string>
+    <string name="april_short"></string>
+    <string name="enter_password"></string>
+    <string name="shared_theme_note"></string>
+    <string name="internal_storage"></string>
+    <string name="version_placeholder"></string>
+    <string name="all_fossify_apps"></string>
+    <string name="deletion_confirmation_short"></string>
+    <string name="album"></string>
+    <string name="audio"></string>
+    <string name="make_sure_upgrade"></string>
+    <string name="otto_title"></string>
+    <string name="february_short"></string>
+    <string name="march_short"></string>
+    <string name="january_short"></string>
+    <string name="april"></string>
+    <string name="december"></string>
+    <string name="november"></string>
+    <string name="august"></string>
+    <string name="website"></string>
+    <string name="translation_hindi"></string>
+    <string name="translation_gujarati"></string>
+    <string name="why_upgrade_many_other_improvements"></string>
+    <string name="m3u_parser_title"></string>
+    <string name="known_issues"></string>
+    <string name="copyright"></string>
+    <string name="support"></string>
+    <string name="features_locked"></string>
+    <string name="donate_to_fossify"></string>
+    <string name="platforms"></string>
+    <string name="why_upgrade_pro_version"></string>
+    <string name="unlock_for_one_final_day"></string>
 </resources>
