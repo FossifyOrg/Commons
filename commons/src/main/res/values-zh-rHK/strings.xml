@@ -109,7 +109,7 @@
     <string name="import_blocked_numbers">导入屏蔽号码</string>
     <string name="must_make_default_dialer">您必须将这应用程序设为默认的拨号程序来使用黑名单。</string>
     <string name="set_as_default">设为默认</string>
-    <string name="block_confirmation">您确定要将 \"%s\" 添加到黑名单吗？</string>
+    <string name="block_confirmation">您确定要将 s 添加到黑名单吗？</string>
     <string name="block_unknown_calls">拦截来自未存储联系人的通话</string>
     <string name="block_unknown_messages">拦截来自未存储联系人的消息</string>
     <string name="add_blocked_number_helper_text">输入号码或模式（例如 *12345*、+1*8888）以阻止来自匹配模式的号码的所有来电和消息。</string>
@@ -190,9 +190,9 @@
     <string name="invalid_name">名称包含非法字符</string>
     <string name="empty_name">请输入名称</string>
     <string name="unknown_error_occurred">未知错误</string>
-    <string name="file_already_exists">文件 \"%s\" 已存在</string>
-    <string name="file_already_exists_overwrite">文件 \"%s\" 已存在。是否覆盖？</string>
-    <string name="folder_already_exists">文件夹 \"%s\" 已存在</string>
+    <string name="file_already_exists">文件 s 已存在</string>
+    <string name="file_already_exists_overwrite">文件 s 已存在。是否覆盖？</string>
+    <string name="folder_already_exists">文件夹 s 已存在</string>
     <string name="merge">合并</string>
     <string name="keep_both">保留两者</string>
     <string name="overwrite">覆盖</string>
@@ -211,8 +211,8 @@
     <string name="confirm_storage_access_text">请选择 SD 卡根目录并授予写权限</string>
     <string name="confirm_storage_access_text_sd">如果您未找到 SD 卡目录，请尝试</string>
     <string name="confirm_storage_access_android_text">请在下一个屏幕上按下底部的“使用此文件夹”，允许应用程序访问所选的存储空间。</string>
-    <string name="confirm_storage_access_android_text_specific">请在下个屏幕上允许访问 \'&lt;b&gt;%s&lt;/b&gt;\'，方法是按下底部的“&lt;b&gt;使用此文件夹&lt;/b&gt;”。</string>
-    <string name="confirm_create_doc_for_new_folder_text">请按下下个屏幕底部的“&lt;b&gt;保存&lt;/b&gt;”按钮来创建新文件夹。</string>
+    <string name="confirm_storage_access_android_text_specific">请在下个屏幕上允许访问 \'<b>%s</b>\'，方法是按下底部的“<b>使用此文件夹</b>”。</string>
+    <string name="confirm_create_doc_for_new_folder_text">请按下下个屏幕底部的“<b>保存</b>”按钮来创建新文件夹。</string>
     <string name="confirm_selection">确认选择</string>
     <string name="loading">加载中…</string>
     <string name="access_storage_prompt">请允许我们的应用程序访问您的所有文件，没有此权限它可能不能正常工作。</string>
@@ -226,7 +226,6 @@
         <item quantity="other">正在删除 %d 个项目</item>
     </plurals>
     <plurals name="delete_contacts">
-        <item quantity="one">%d 联系人</item>
         <item quantity="other">%d 联系人</item>
     </plurals>
     <string name="select_storage">选择存储器</string>
@@ -236,8 +235,7 @@
     <string name="root">根目录</string>
     <string name="wrong_root_selected">目录选择错误，请选择 SD 卡</string>
     <string name="sd_card_usb_same">SD 卡和 USB 设备路径不能相同</string>
-    <string name="app_on_sd_card">您似乎已将应用程序安装在 SD 卡上，这使得应用的小部件不可用。您将无法在小部件列表里看到它们。
-        这是一个系统限制，所以如果您想要使用这些小部件，您必须将应用移回内部存储器。</string>
+    <string name="app_on_sd_card">您似乎已将应用程序安装在 SD 卡上，这使得应用的小部件不可用。您将无法在小部件列表里看到它们。 这是一个系统限制，所以如果您想要使用这些小部件，您必须将应用移回内部存储器。</string>
     <string name="wrong_folder_selected">选中了错误的文件夹，请选择路径 \'%s\'</string>
     <string name="properties">属性</string>
     <string name="path">路径</string>
@@ -257,7 +255,7 @@
     <string name="gps_coordinates">GPS 坐标</string>
     <string name="altitude">海拔高度</string>
     <string name="remove_exif">删除 EXIF</string>
-    <string name="remove_exif_confirmation">你确定你想删除 EXIF 值，如 GPS 坐标，相机型号等\?</string>
+    <string name="remove_exif_confirmation">你确定你想删除 EXIF 值，如 GPS 坐标，相机型号等?</string>
     <string name="exif_removed">成功删除了 EXIF 值</string>
     <string name="background_color">背景色</string>
     <string name="text_color">文本颜色</string>
@@ -665,8 +663,7 @@
     <string name="rate">评分</string>
     <string name="donate">捐赠</string>
     <string name="follow_us">关注我们</string>
-    <string name="copyright">v %1$s
-\n版权所有 © Fossify %2$d</string>
+    <string name="copyright">v %1$s \n版权所有 © Fossify %2$d</string>
     <string name="support">支持</string>
     <string name="help_us">帮助我们</string>
     <string name="social">社交网络</string>
@@ -678,13 +675,11 @@
     <string name="additional_info">額外資訊</string>
     <string name="app_version">應用程式版本：%s</string>
     <string name="device_os">裝置系統：%s</string>
-    <string name="donate_please">
-        <![CDATA[
+    <string name="donate_please"><![CDATA[
             哈囉，<br><br>
             希望您喜歡這個應用程式。它不包含廣告，所以請購買<a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> 以支持應用程式開發，這個對話框也不會再出現。<br><br>
             多謝！
-        ]]>
-    </string>
+        ]]></string>
     <string name="purchase">购买</string>
     <string name="before_asking_question_read_faq">提问之前，请先打开应用设置并阅读常见问题。也许您可以在那里找到答案。</string>
     <string name="before_rate_read_faq">评分之前，请先打开应用设置并阅读常见问题。也许您可以在那里找到答案。</string>
@@ -695,8 +690,7 @@
     <string name="rate_us_prompt">您好，\n\n看来您使用这个应用已经有一段时间了，我们真的很感激。\n\n如果您喜欢，请在Google Play上为我们评分。这对我们很有帮助。\n\n无论您做何决定，您都不会再看到这个消息了。\n\n感谢！</string>
     <string name="rate_our_app">请为我们的应用评分 :)</string>
     <string name="thank_you">非常感谢</string>
-    <string name="widget_locked_pro">小部件被锁定。
-\n请升级到专业版解锁。</string>
+    <string name="widget_locked_pro">小部件被锁定。 \n请升级到专业版解锁。</string>
     <string name="new_app">嘿，&lt;br&gt;&lt;br&gt;我们最近发布了一些新的应用：&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; 您可以点击标题或图标来下载。&lt;br&gt;&lt;br&gt; 谢谢</string>
     <string name="app_launcher_short">应用启动器</string>
     <string name="calculator_short">计算器</string>
@@ -716,11 +710,9 @@
     <string name="sms_messenger_short">短信</string>
     <string name="thank_you_short">感谢</string>
     <string name="voice_recorder_short">录音机</string>
-    <string name="sideloaded_app">
-        <![CDATA[
+    <string name="sideloaded_app"><![CDATA[
             您的应用版本已损坏。 请<a href="%s">在此</a>下载原版应用。
-        ]]>
-    </string>
+        ]]></string>
     <string name="frequently_asked_questions">常见问题</string>
     <string name="before_asking_question">在提问之前，请先阅读</string>
     <string name="faq_1_title_commons">为什么我在应用小部件列表里没有找到这个应用的小部件？</string>
@@ -736,13 +728,9 @@
     <string name="faq_7_title_commons">我已付费，但我无法下载这个应用，我该怎么办？</string>
     <string name="faq_7_text_commons">支付完全是由Google处理的，他们的系统有时会发生故障。您可以在清除Google Play的应用数据之后，重启设备并再次尝试下载。</string>
     <string name="faq_8_title_commons">为什么我需要升级到专业版？</string>
-    <string name="faq_8_text_commons">由于您的应用程序版本不再更新，bug可能将永远得不到修复，也不会再添加任何新功能。 您可以在Google Play上花少量的钱来购买专业版。
-         这是一次性付款，意味着您在购买之后就不再收费，即使您更换了新的设备。 如果您不喜欢Pro版本，可以在几个小时内将其卸载，之后您将自动收到退款。
-         如果您想要在此之后退款，请通过hello@fossify.org与我们联系。</string>
+    <string name="faq_8_text_commons">由于您的应用程序版本不再更新，bug可能将永远得不到修复，也不会再添加任何新功能。 您可以在Google Play上花少量的钱来购买专业版。 这是一次性付款，意味着您在购买之后就不再收费，即使您更换了新的设备。 如果您不喜欢Pro版本，可以在几个小时内将其卸载，之后您将自动收到退款。 如果您想要在此之后退款，请通过hello@fossify.org与我们联系。</string>
     <string name="faq_9_title_commons">我如何一次性选择多个项目?</string>
-    <string name="faq_9_text_commons">有多种方式可以做到。第一种是长按一个项目进入选择模式，然后轻轻点击其余项目来选择它们。第二种方式类似于在电脑上使用鼠标选择项目，
-        长按一个项目进入选择模式，然后用您的手指向下滑过其它项目来实现选择。第三种选择多个项目的方式是长按一个项目，然后长按另一个从而选择它们之间全部的项目。如果您
-        想要选择所有的项目，只需长安一个项目，然后点击在左上角的项目计数器。这样将会选择或者取消选择全部项目。</string>
+    <string name="faq_9_text_commons">有多种方式可以做到。第一种是长按一个项目进入选择模式，然后轻轻点击其余项目来选择它们。第二种方式类似于在电脑上使用鼠标选择项目， 长按一个项目进入选择模式，然后用您的手指向下滑过其它项目来实现选择。第三种选择多个项目的方式是长按一个项目，然后长按另一个从而选择它们之间全部的项目。如果您 想要选择所有的项目，只需长安一个项目，然后点击在左上角的项目计数器。这样将会选择或者取消选择全部项目。</string>
     <string name="faq_10_title_commons">我已经购买了这个应用，但我无法在另外的设备下载它。</string>
     <string name="faq_10_text_commons">尝试清除您 Google Play 应用缓存并重启您的设备。这是某些 Google Play 的小问题，并非应用程序本身的问题。</string>
     <string name="contributors">贡献者</string>
@@ -820,4 +808,186 @@
     <string name="deprecated_app">已弃用：该应用版本已不再维护，请在以下链接获取专业版 https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">别忘了如果您在2小时内卸载任何付费应用将会自动退款。如果您想在之后退款，只需通过 hello@fossify.org 联系我们即可。这样您就可以放心试用了 :)</string>
     <string name="developer_description">一组简单且开源的 Android 应用程序，可自定义小部件，并且没有广告和不必要的权限。</string>
+    <string name="translation_belarusian"></string>
+    <string name="translation_italian"></string>
+    <string name="translation_polish"></string>
+    <string name="translation_chinese_tw"></string>
+    <string name="translation_dutch"></string>
+    <string name="translation_norwegian"></string>
+    <string name="translation_chinese_cn"></string>
+    <string name="theme_and_colors"></string>
+    <string name="notification_sound"></string>
+    <string name="start_week_on"></string>
+    <string name="june_short"></string>
+    <string name="may_short"></string>
+    <string name="upgraded_from_free_contacts"></string>
+    <string name="update_thank_you"></string>
+    <string name="all_fossify_apps"></string>
+    <string name="cryptocurrency"></string>
+    <string name="translation_bengali"></string>
+    <string name="translation_azerbaijani"></string>
+    <string name="translation_arabic"></string>
+    <string name="translation_chuvash"></string>
+    <string name="translation_central_kurdish"></string>
+    <string name="translation_croatian"></string>
+    <string name="translation_hindi"></string>
+    <string name="translation_hungarian"></string>
+    <string name="translation_hebrew"></string>
+    <string name="translation_nepali"></string>
+    <string name="translation_chinese_hk"></string>
+    <string name="why_upgrade_many_other_improvements"></string>
+    <string name="zip4j_title"></string>
+    <string name="search_apps"></string>
+    <string name="search_groups"></string>
+    <string name="unblock_contact_success"></string>
+    <string name="scanning"></string>
+    <string name="unblock_contact_fail"></string>
+    <string name="allow_notifications_files"></string>
+    <string name="search_conversations"></string>
+    <string name="allow_notifications_music_player"></string>
+    <string name="search_history"></string>
+    <string name="allow_full_screen_notifications_incoming_calls"></string>
+    <string name="allow_notifications_incoming_calls"></string>
+    <string name="upgraded_to_pro"></string>
+    <string name="upgraded_from_free_calendar"></string>
+    <string name="translation_basque"></string>
+    <string name="translation_french"></string>
+    <string name="translation_persian"></string>
+    <string name="welcome_to_app_name"></string>
+    <string name="unlock_for_one_final_day"></string>
+    <plurals name="row_counts">
+        <item quantity="other"></item>
+    </plurals>
+    <string name="block_hidden_calls"></string>
+    <string name="search_contacts"></string>
+    <string name="search_in_placeholder"></string>
+    <string name="show_search"></string>
+    <string name="search_favorites"></string>
+    <string name="search_artists"></string>
+    <string name="search_calls"></string>
+    <string name="search_tracks"></string>
+    <string name="search_folders"></string>
+    <string name="search_files"></string>
+    <string name="allow_full_screen_notifications_reminders"></string>
+    <string name="grant_permission"></string>
+    <string name="exif"></string>
+    <string name="shared_theme_note"></string>
+    <string name="sleep_timer"></string>
+    <string name="date_added"></string>
+    <string name="more_options"></string>
+    <string name="july_short"></string>
+    <string name="august_short"></string>
+    <string name="translation_slovak"></string>
+    <string name="translation_slovenian"></string>
+    <string name="translation_swedish"></string>
+    <string name="translation_serbian"></string>
+    <plurals name="column_counts">
+        <item quantity="other"></item>
+    </plurals>
+    <string name="trial_end_description"></string>
+    <string name="block_contact"></string>
+    <string name="genre"></string>
+    <string name="add_password"></string>
+    <string name="improved_color_customization"></string>
+    <string name="hours_letter"></string>
+    <string name="allow_notifications_incoming_messages"></string>
+    <string name="empty_password_new"></string>
+    <string name="upgraded_from_free_gallery"></string>
+    <string name="empty_password"></string>
+    <string name="enter_password"></string>
+    <string name="upgraded_from_free"></string>
+    <string name="allow_access_more_media"></string>
+    <string name="translation_kabyle"></string>
+    <string name="minutes_letter"></string>
+    <string name="allow_notifications_reminders"></string>
+    <string name="january_short"></string>
+    <string name="february_short"></string>
+    <string name="block_contact_fail"></string>
+    <string name="backups"></string>
+    <string name="upgraded_from_free_notes"></string>
+    <string name="translation_esperanto"></string>
+    <string name="april_short"></string>
+    <string name="unblock"></string>
+    <string name="allow_notifications_voice_recorder"></string>
+    <string name="trial_start_description"></string>
+    <string name="translation_finnish"></string>
+    <string name="purchase_thank_you"></string>
+    <string name="allow_alarm_sleep_timer"></string>
+    <string name="deletion_confirmation_short"></string>
+    <string name="invalid_password"></string>
+    <string name="november_short"></string>
+    <string name="permission_required"></string>
+    <string name="search_albums"></string>
+    <plurals name="trial_expires_days">
+        <item quantity="other"></item>
+    </plurals>
+    <string name="unblock_contact"></string>
+    <string name="search_events"></string>
+    <string name="donate_to_fossify"></string>
+    <string name="block_contact_success"></string>
+    <string name="block_hidden_messages"></string>
+    <string name="allow_alarm_scheduled_messages"></string>
+    <string name="search_playlists"></string>
+    <string name="upgraded_to_pro_gallery"></string>
+    <string name="translation_german"></string>
+    <string name="contributors_label"></string>
+    <string name="week_number_short"></string>
+    <string name="password"></string>
+    <string name="internal_storage"></string>
+    <string name="march_short"></string>
+    <string name="apply_to_all_apps"></string>
+    <string name="fee_up_to_pct"></string>
+    <string name="hide_line_numbers"></string>
+    <string name="row_count"></string>
+    <string name="purchase_simple_thank_you"></string>
+    <string name="seconds_letter"></string>
+    <string name="search_recordings"></string>
+    <string name="translation_spanish"></string>
+    <string name="search_files_and_folders"></string>
+    <string name="too_many_incorrect_attempts"></string>
+    <string name="search_text"></string>
+    <string name="show_line_numbers"></string>
+    <string name="december_short"></string>
+    <string name="pin_must_be_4_digits_long"></string>
+    <string name="allow_location_permission"></string>
+    <string name="platforms"></string>
+    <string name="translation_breton"></string>
+    <string name="translation_bulgarian"></string>
+    <string name="start_free_trial"></string>
+    <string name="trial_expires_soon"></string>
+    <string name="trial_expired"></string>
+    <string name="format_phone_numbers"></string>
+    <string name="open_the_recycle_bin"></string>
+    <string name="skip_the_recycle_bin"></string>
+    <string name="date_time_pattern_info"></string>
+    <string name="enable_automatic_backups"></string>
+    <string name="manage_automatic_backups"></string>
+    <string name="usb"></string>
+    <string name="september_short"></string>
+    <string name="october_short"></string>
+    <string name="donate_short"></string>
+    <string name="features_locked"></string>
+    <string name="little_to_no_fee"></string>
+    <string name="faq_2_text_commons"></string>
+    <string name="translation_czech"></string>
+    <string name="translation_catalan"></string>
+    <string name="translation_russian"></string>
+    <string name="translation_romanian"></string>
+    <string name="translation_turkish"></string>
+    <string name="translation_vietnamese"></string>
+    <string name="translation_ukrainian"></string>
+    <string name="translation_tamil"></string>
+    <string name="translation_portuguese"></string>
+    <string name="donate_new"></string>
+    <string name="known_issues"></string>
+    <string name="translation_indonesian"></string>
+    <string name="translation_danish"></string>
+    <string name="translation_greek"></string>
+    <string name="translation_welsh"></string>
+    <string name="translation_galician"></string>
+    <string name="translation_gujarati"></string>
+    <string name="translation_english"></string>
+    <string name="translation_lithuanian"></string>
+    <string name="translation_japanese"></string>
+    <string name="translation_korean"></string>
 </resources>
