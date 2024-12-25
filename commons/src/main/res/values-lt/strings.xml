@@ -166,13 +166,7 @@
     <string name="append_filenames">Po failo pavadinimo</string>
     <string name="simple_renaming">Paprastas pervadinimas</string>
     <string name="pattern_renaming">Šablonas</string>
-    <string name="rename_date_time_pattern">%Y - metai
-\n%M - mėnesis
-\n%D - diena
-\n%h - valanda
-\n%m - minutė
-\n%s - sekundė
-\n%i - nuo 1 didėjantis skaičius</string>
+    <string name="rename_date_time_pattern">%Y - metai \n%M - mėnesis \n%D - diena \n%h - valanda \n%m - minutė \n%s - sekundė \n%i - nuo 1 didėjantis skaičius</string>
     <string name="filename_without_txt">Failo pavadinimas (be .txt)</string>
     <string name="filename_without_json">Failo pavadinimas (be .json)</string>
     <string name="filename_without_zip">Failo pavadinimas (be .zip)</string>
@@ -289,9 +283,9 @@
     <string name="save">Įrašyti</string>
     <string name="discard">Atmesti</string>
     <string name="undo_changes">Atšaukti pakeitimus</string>
-    <string name="undo_changes_confirmation">Ar tikrai norite atšaukti pakeitimus\?</string>
+    <string name="undo_changes_confirmation">Ar tikrai norite atšaukti pakeitimus?</string>
     <string name="cannot_be_undone">Šio veiksmo neįmanoma atšaukti.</string>
-    <string name="save_before_closing">Yra neįrašytų pakeitimų. Įrašyti prieš išeinant\?</string>
+    <string name="save_before_closing">Yra neįrašytų pakeitimų. Įrašyti prieš išeinant?</string>
     <string name="global_theme_success">Spalvos sėkmingai atnaujintos. Buvo pridėtas naujas apipavidalinimas, pavadinimu, „Bendrinamas“, naudokite jį, visų programėlių spalvų atnaujinimui ateityje.</string>
     <string name="light_theme">Šviesus</string>
     <string name="dark_theme">Tamsus</string>
@@ -356,10 +350,10 @@
     <string name="use_custom_sorting">Naudoti tinkintą rikiavimą</string>
     <string name="change_order">Keisti tvarką</string>
     <string name="proceed_with_deletion">Ar tikrai norite ištrinti?</string>
-    <string name="deletion_confirmation">Ar tikrai norite ištrinti %s\?</string>
-    <string name="move_to_recycle_bin_confirmation">Ar tikrai norite perkelti %s į šiukšlinę\?</string>
-    <string name="are_you_sure_delete">Ar tikrai norite ištrinti šį elementą\?</string>
-    <string name="are_you_sure_recycle_bin">Ar tikrai norite perkelti šį elementą į šiukšlinę\?</string>
+    <string name="deletion_confirmation">Ar tikrai norite ištrinti %s?</string>
+    <string name="move_to_recycle_bin_confirmation">Ar tikrai norite perkelti %s į šiukšlinę?</string>
+    <string name="are_you_sure_delete">Ar tikrai norite ištrinti šį elementą?</string>
+    <string name="are_you_sure_recycle_bin">Ar tikrai norite perkelti šį elementą į šiukšlinę?</string>
     <string name="do_not_ask_again">Šiame seanse daugiau nebeklausti</string>
     <string name="do_not_show_again">Daugiau neberodyti</string>
     <string name="yes">Taip</string>
@@ -620,7 +614,7 @@
     <string name="excluded">(neįtraukta)</string>
     <string name="manage_excluded_folders">Tvarkyti išskirtus aplankus</string>
     <string name="remove_all">Pašalinti visus</string>
-    <string name="remove_all_description">Pašalinti visus aplankus iš išskirtųjų sąrašo\? Tai neištrins aplankų.</string>
+    <string name="remove_all_description">Pašalinti visus aplankus iš išskirtųjų sąrašo? Tai neištrins aplankų.</string>
     <string name="manage_shown_tabs">Tvarkyti rodomas korteles</string>
     <string name="default_tab_to_open">Kortelė, kuri bus rodoma atvėrus šią programėlę</string>
     <string name="contacts_tab">Adresatai</string>
@@ -635,7 +629,7 @@
     <string name="restore_all_files">Atkurti visus failus</string>
     <string name="recycle_bin_emptied">Šiukšlinė sėkmingai išvalyta</string>
     <string name="files_restored_successfully">Failai sėkmingai atkurti</string>
-    <string name="empty_recycle_bin_confirmation">Ar tikrai norite išvalyti šiukšlinę\? Failai bus prarasti visam laikui.</string>
+    <string name="empty_recycle_bin_confirmation">Ar tikrai norite išvalyti šiukšlinę? Failai bus prarasti visam laikui.</string>
     <string name="recycle_bin_empty">Šiukšlinė yra tuščia</string>
     <string name="moving_recycle_bin_items_disabled">Šiušklinės elementų perkėlimas yra išjungtas, naudokite „Atkurti“</string>
     <string name="show_the_recycle_bin">Rodyti šiukšlinę</string>
@@ -721,8 +715,7 @@
     <string name="rate">Įvertinti</string>
     <string name="donate">Paaukoti</string>
     <string name="follow_us">Sekite mus</string>
-    <string name="copyright">v %1$s
-\nAutorių teisės © Fossify %2$d</string>
+    <string name="copyright">v %1$s \nAutorių teisės © Fossify %2$d</string>
     <string name="support">Palaikymas</string>
     <string name="help_us">Padėkite mums</string>
     <string name="social">Socialiniai tinklai</string>
@@ -739,19 +732,10 @@
     <string name="make_sure_latest">Be to, įsitikinkite, kad naudojate naujausią programėlės versiją.</string>
     <string name="read_it">Skaityti</string>
     <string name="read_faq">Skaityti DUK</string>
-    <string name="rate_us_prompt">Sveiki,
-\n
-\natrodo, kad jau kurį laiką naudojatės šia programėle ir mes labai tai vertiname.
-\n
-\nJeigu jūs nieko prieš, norėtume jūsų paprašyti įvertinti mus „Google Play“ parduotuvėje. Tai labai mums padėtų.
-\n
-\nNepaisant to, ką benuspręstumėte, šis pranešimas daugiau nebebus jums rodomas.
-\n
-\nDėkojame!</string>
+    <string name="rate_us_prompt">Sveiki, \n \natrodo, kad jau kurį laiką naudojatės šia programėle ir mes labai tai vertiname. \n \nJeigu jūs nieko prieš, norėtume jūsų paprašyti įvertinti mus „Google Play“ parduotuvėje. Tai labai mums padėtų. \n \nNepaisant to, ką benuspręstumėte, šis pranešimas daugiau nebebus jums rodomas. \n \nDėkojame!</string>
     <string name="rate_our_app">Įvertinkite, prašome, mūsų programėlę :)</string>
     <string name="thank_you">Ačiū</string>
-    <string name="widget_locked_pro">Valdiklis yra užrakintas.
-\nAtsinaujinkite į „Pro“ versiją, norėdami jį atrakinti.</string>
+    <string name="widget_locked_pro">Valdiklis yra užrakintas. \nAtsinaujinkite į „Pro“ versiją, norėdami jį atrakinti.</string>
     <string name="new_app">Sveiki,&lt;br&gt;&lt;br&gt; tiesiog, norime jums pranešti, kad neseniai buvo išleistos naujos programėlės:&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; Galite jas atsisiųsti, spusteldami ant jų pavadinimų ar piktogramų.&lt;br&gt;&lt;br&gt;Ačiū</string>
     <string name="app_launcher_short">Programėlių paleidyklė</string>
     <string name="calculator_short">Skaičiuotuvas</string>
@@ -773,21 +757,21 @@
     <string name="sideloaded_app">Atrodo, kad jūsų programėlės versija yra pažeista. Atsisiųskite originalią versiją iš &lt;a href=%s&gt;čia&lt;/a&gt;.</string>
     <string name="frequently_asked_questions">Dažniausiai užduodami klausimai</string>
     <string name="before_asking_question">Prieš užduodami klausimą, iš pradžių, perskaitykite</string>
-    <string name="faq_1_title_commons">Kodėl valdiklių sąraše nematau šios programėlės valdiklio\?</string>
+    <string name="faq_1_title_commons">Kodėl valdiklių sąraše nematau šios programėlės valdiklio?</string>
     <string name="faq_1_text_commons">Greičiausiai, taip yra dėl to, kad perkėlėte programėlę į SD kortelę. Yra „Android“ sistemos apribojimas, kuris tokiu atveju paslepia nurodytos programėlės valdiklius. Vienintelis sprendimas yra per įrenginio nustatymus perkelti programėlę atgal į vidinę atmintį.</string>
-    <string name="faq_2_title_commons">Aš noriu jus paremti, bet neturiu galimybės paaukoti pinigų. Ar yra kas nors, ką galiu padaryti\?</string>
-    <string name="faq_3_title_commons">Aš per klaidą ištryniau keletą failų, kaip galiu juos atkurti\?</string>
+    <string name="faq_2_title_commons">Aš noriu jus paremti, bet neturiu galimybės paaukoti pinigų. Ar yra kas nors, ką galiu padaryti?</string>
+    <string name="faq_3_title_commons">Aš per klaidą ištryniau keletą failų, kaip galiu juos atkurti?</string>
     <string name="faq_3_text_commons">Deja, to padaryti negalite. Failai yra ištrinami iš karto po patvirtinimo dialogo, o šiukšlinė yra neprieinama.</string>
-    <string name="faq_4_title_commons">Man nepatinka valdiklio spalvos, kaip galiu jas pakeisti\?</string>
+    <string name="faq_4_title_commons">Man nepatinka valdiklio spalvos, kaip galiu jas pakeisti?</string>
     <string name="faq_4_text_commons">Kai velkate valdiklį į pagrindinį ekraną, atsiranda valdiklio konfigūracijos ekranas. Apatiniame kairiajame kampe pamatysite spalvotus kvadratus. Tiesiog, paspauskite ant jų, kad pasirinktumėte naują spalvą. Be to, galite naudoti slankiklį, norėdami reguliuoti permatomumą.</string>
-    <string name="faq_5_title_commons">Ar galiu kaip nors atkurti ištrintus failus\?</string>
+    <string name="faq_5_title_commons">Ar galiu kaip nors atkurti ištrintus failus?</string>
     <string name="faq_5_text_commons">Jeigu tikrai juos ištrynėte, jų atkurti nebegalite. Vis dėlto, pagal numatymą yra įjungta šiukšlinė ir failai yra neištrinami, o vietoj to, perkeliami į ją.</string>
-    <string name="faq_6_title_commons">Programėlės paleidyklės piktograma dingo. Ką daryti\?</string>
-    <string name="faq_7_title_commons">Pinigai buvo nuskaičiuoti nuo mano banko sąskaitos, o aš vis tiek negaliu atsisiųsti programėlės. Ką daryti\?</string>
+    <string name="faq_6_title_commons">Programėlės paleidyklės piktograma dingo. Ką daryti?</string>
+    <string name="faq_7_title_commons">Pinigai buvo nuskaičiuoti nuo mano banko sąskaitos, o aš vis tiek negaliu atsisiųsti programėlės. Ką daryti?</string>
     <string name="faq_7_text_commons">Mokėjimus pilnai apdoroja „Google“, jų sistema laikas nuo laiko stringa. Tiesiog, išvalykite „Google Play“ programėlės podėlį ir paleiskite įrenginį iš naujo, o tuomet, bandykite atsisiųsti programėlę.</string>
-    <string name="faq_8_title_commons">Kodėl turėčiau atsinaujinti į „Pro“ versiją\?</string>
+    <string name="faq_8_title_commons">Kodėl turėčiau atsinaujinti į „Pro“ versiją?</string>
     <string name="faq_8_text_commons">Kadangi jūsų programėlės versija daugiau nebeatnaujinama, klaidos, kurias galbūt pastebėjote, nebebus ištaisomos. Be to, nebebus pridedamos jokios naujos funkcijos. Už nedidelę pinigų sumą, per „Google Play“ galite įsigyti „Pro“ versiją. Tai yra vienkartinis mokestis, kas reiškia, jog vieną kartą įsigiję, daugiau nebeturėsite mokėti dar kartą. Netgi, jei įsigysite naują įrenginį. Jeigu „Pro“ versija jums nepatiks, per kelias valandas galėsite ją pašalinti ir pinigai bus jums grąžinti automatiškai. Jei pinigus norėsite susigrąžinti vėliau, tiesiog, susisiekite su mumis el. paštu hello@fossify.org ir mes juos grąžinsime.</string>
-    <string name="faq_9_title_commons">Kaip vienu metu galiu pažymėti kelis elementus\?</string>
+    <string name="faq_9_title_commons">Kaip vienu metu galiu pažymėti kelis elementus?</string>
     <string name="faq_9_text_commons">Yra keli būdai, kaip galima tą padaryti. Pirmas būdas, tai įjungti žymėjimo veikseną, paspaudus ir ilgai palaikius ant vieno elemento, o tuomet trumpai paspaudžiant ant kitų, norimų pažymėti, elementų. Antras būdas yra panašus į tą, kuris naudojamas kompiuteriuose žymint elementus pele. Tiesiog, įjunkite žymėjimo veikseną paspaudę ir ilgai palaikę ant vieno elemento, o tuomet neatleisdami piršto, tempkite jį žemyn per kitus elementus, kad juos pažymėtumėte. Trečias būdas, kaip pažymėti kelis elementus, yra paspausti ir ilgai palaikyti ant vieno elemento, tuomet paspausti ir ilgai palaikyti ant kito elemento, ir viskas, kas yra tarp šių dviejų elementų, bus pažymėta. Jei norite pažymėti visus elementus, paspauskite ir ilgai palaikykite ant vieno elemento, o tuomet viršutiniame kairiajame kampe spustelėkite ant pažymėtų elementų skaitiklio. Tai viską pažymės arba nuims žymėjimą nuo visų elementų.</string>
     <string name="faq_10_title_commons">Aš įsigijau programėlę, bet negaliu jos atsisiųsti kitame įrenginyje.</string>
     <string name="faq_10_text_commons">Pabandykite išvalyti „Google Play“ programėlės podėlį ir paleiskite savo įrenginį iš naujo. Tai yra „Google Play“ triktis, kuri nėra susijusi su įsigyta programėle.</string>
@@ -898,7 +882,180 @@
     <string name="audio_record_view_title">Audio Record View (garso vizualizavimas)</string>
     <string name="sms_mms_title">SMS MMS (SMS ir MMS apdorojimas)</string>
     <string name="apng_title">APNG Android (animuotų WebP palaikymas)</string>
-    <string name="deprecated_app">PASENUSI: Ši programėlės versija daugiau nebeprižiūrima, gaukite „Pro“ versiją, adresu https://play.google.com/store/apps/details\?id=org.fossify..xxx.pro</string>
+    <string name="deprecated_app">PASENUSI: Ši programėlės versija daugiau nebeprižiūrima, gaukite „Pro“ versiją, adresu https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">Nepamirškite, jog jeigu per 2 valandas pašalinsite bet kurią mokamą programėlę, jums automatiškai bus grąžinti pinigai. Jei norėsite susigrąžinti pinigus vėliau, susisiekite su mumis el. paštu hello@fossify.org ir juos atgausite. Tokiu būdu galite lengvai išbandyti programėlę :)</string>
     <string name="developer_description">Paprastų, atvirojo kodo „Android“ progamėlių rinkinys su tinkinamais valdikliais, be reklamų ir nereikalingų leidimų.</string>
+    <string name="translation_belarusian"></string>
+    <string name="pdf_viewer_title"></string>
+    <string name="translation_central_kurdish"></string>
+    <string name="why_upgrade_footer_one_time_payment"></string>
+    <string name="start_free_trial"></string>
+    <string name="trial_expires_soon"></string>
+    <string name="trial_end_description"></string>
+    <plurals name="trial_expires_days">
+        <item quantity="one"></item>
+        <item quantity="few"></item>
+        <item quantity="other"></item>
+    </plurals>
+    <string name="language"></string>
+    <string name="start_week_on"></string>
+    <string name="format_phone_numbers"></string>
+    <string name="april_short"></string>
+    <string name="may_short"></string>
+    <string name="sunday_letter"></string>
+    <string name="upgraded_from_free_calendar"></string>
+    <string name="all_fossify_apps"></string>
+    <string name="translation_chuvash"></string>
+    <string name="translation_esperanto"></string>
+    <string name="translation_gujarati"></string>
+    <string name="zip4j_title"></string>
+    <string name="android_lame_title"></string>
+    <string name="allow_notifications_music_player"></string>
+    <string name="allow_full_screen_notifications_reminders"></string>
+    <string name="date_time_pattern_info"></string>
+    <string name="usb"></string>
+    <string name="website"></string>
+    <string name="trial_expired"></string>
+    <string name="scanning"></string>
+    <string name="allow_alarm_scheduled_messages"></string>
+    <string name="apply_to_all_apps"></string>
+    <string name="donate_short"></string>
+    <string name="donate_please"></string>
+    <string name="translation_kabyle"></string>
+    <string name="system_default"></string>
+    <string name="notification_sound"></string>
+    <string name="privacy_policy"></string>
+    <string name="f_number"></string>
+    <string name="rename_internal_system_restriction"></string>
+    <string name="confirm_storage_access_android_text_specific"></string>
+    <string name="week_number_short"></string>
+    <plurals name="row_counts">
+        <item quantity="one"></item>
+        <item quantity="few"></item>
+        <item quantity="other"></item>
+    </plurals>
+    <string name="time_remaining"></string>
+    <string name="remove_exif"></string>
+    <string name="allow_alarm_sleep_timer"></string>
+    <string name="no_new_entries_for_importing"></string>
+    <string name="unblock_contact_success"></string>
+    <string name="block_contact"></string>
+    <string name="confirm_create_doc_for_new_folder_text"></string>
+    <string name="block_hidden_calls"></string>
+    <string name="wrong_folder_selected"></string>
+    <string name="internal_storage"></string>
+    <string name="add_contact"></string>
+    <string name="pin_must_be_4_digits_long"></string>
+    <string name="features_locked"></string>
+    <string name="m3u_parser_title"></string>
+    <string name="system_service_disabled"></string>
+    <string name="too_many_incorrect_attempts"></string>
+    <string name="pin_item"></string>
+    <string name="manage_automatic_backups"></string>
+    <string name="more_options"></string>
+    <string name="welcome_to_app_name"></string>
+    <string name="root"></string>
+    <string name="audio"></string>
+    <string name="exif_removed"></string>
+    <string name="empty_password"></string>
+    <string name="invalid_password"></string>
+    <string name="donate_new"></string>
+    <string name="remove_exif_confirmation"></string>
+    <string name="purchase_thank_you"></string>
+    <string name="call"></string>
+    <string name="wallpapers"></string>
+    <string name="deletion_confirmation_short"></string>
+    <string name="grant_permission"></string>
+    <string name="allow_access_more_media"></string>
+    <string name="january_short"></string>
+    <string name="hide_line_numbers"></string>
+    <string name="make_sure_upgrade"></string>
+    <string name="loading"></string>
+    <string name="enable_automatic_backups"></string>
+    <string name="translation_bulgarian"></string>
+    <string name="cannot_rename_folder"></string>
+    <string name="every_day"></string>
+    <string name="close"></string>
+    <string name="open_the_recycle_bin"></string>
+    <string name="send_sms"></string>
+    <string name="allow_notifications_incoming_calls"></string>
+    <string name="enter_password"></string>
+    <string name="date_added"></string>
+    <string name="send_email"></string>
+    <string name="unblock_contact"></string>
+    <string name="system_folder_copy_restriction"></string>
+    <string name="allow_location_permission"></string>
+    <string name="rename_in_sd_card_system_restriction"></string>
+    <string name="allow_notifications_incoming_messages"></string>
+    <string name="july_short"></string>
+    <string name="improved_color_customization"></string>
+    <string name="unblock"></string>
+    <string name="row_count"></string>
+    <string name="december_short"></string>
+    <string name="allow_full_screen_notifications_incoming_calls"></string>
+    <string name="feature_locked"></string>
+    <string name="purchase_simple_thank_you"></string>
+    <string name="stop_showing_excluded"></string>
+    <string name="fee_up_to_pct"></string>
+    <string name="permission_required"></string>
+    <string name="shortcut"></string>
+    <string name="system_folder_restriction"></string>
+    <string name="storage"></string>
+    <string name="backups"></string>
+    <string name="unblock_contact_fail"></string>
+    <string name="pdf_view_pager_title"></string>
+    <string name="allow_notifications_files"></string>
+    <string name="add_password"></string>
+    <string name="contact_details"></string>
+    <string name="february_short"></string>
+    <string name="march_short"></string>
+    <string name="temporarily_show_excluded"></string>
+    <string name="notes"></string>
+    <string name="allow_notifications_voice_recorder"></string>
+    <string name="empty_password_new"></string>
+    <string name="confirm_folder_access_title"></string>
+    <string name="genre"></string>
+    <string name="auto_light_dark_theme"></string>
+    <string name="block_contact_success"></string>
+    <string name="view_contact_details"></string>
+    <string name="string_to_add"></string>
+    <string name="show_line_numbers"></string>
+    <string name="allow_notifications_reminders"></string>
+    <string name="error"></string>
+    <string name="password"></string>
+    <string name="show_search"></string>
+    <string name="block_contact_fail"></string>
+    <string name="shared_theme_note"></string>
+    <string name="block_hidden_messages"></string>
+    <string name="november_short"></string>
+    <string name="unlock_for_one_final_day"></string>
+    <string name="exif"></string>
+    <string name="update_thank_you"></string>
+    <string name="june_short"></string>
+    <string name="upgraded_to_pro_gallery"></string>
+    <string name="theme_and_colors"></string>
+    <string name="little_to_no_fee"></string>
+    <string name="platforms"></string>
+    <string name="donate_to_fossify"></string>
+    <string name="exclude_folder"></string>
+    <string name="skip_the_recycle_bin"></string>
+    <string name="october_short"></string>
+    <string name="august_short"></string>
+    <string name="september_short"></string>
+    <string name="upgraded_from_free_gallery"></string>
+    <string name="upgraded_to_pro"></string>
+    <string name="upgraded_from_free"></string>
+    <string name="upgraded_from_free_notes"></string>
+    <string name="upgraded_from_free_contacts"></string>
+    <string name="launcher_short"></string>
+    <string name="cryptocurrency"></string>
+    <string name="contributors_label"></string>
+    <string name="translation_english"></string>
+    <string name="translation_hindi"></string>
+    <string name="why_upgrade_many_other_improvements"></string>
+    <string name="trial_start_description"></string>
+    <string name="faq_2_text_commons"></string>
+    <string name="known_issues"></string>
+    <string name="why_upgrade_advanced_photo_video_editor"></string>
+    <string name="why_upgrade_contact_private_contacts"></string>
 </resources>
