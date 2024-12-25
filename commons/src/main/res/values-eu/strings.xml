@@ -113,7 +113,7 @@
     <string name="import_blocked_numbers">Inportatu blokeatutako zenbakiak</string>
     <string name="must_make_default_dialer">Blokeatutako zenbakiak erabiltzeko aplikazio honek markatzaile-aplikazio lehenetsia izan behar du.</string>
     <string name="set_as_default">Ezarri lehenetsi gisa</string>
-    <string name="block_confirmation">Ziur zaude \"%s\" blokeatu nahi duzula?</string>
+    <string name="block_confirmation">Ziur zaude s blokeatu nahi duzula?</string>
     <string name="block_unknown_calls">Blokeatu gorde gabeko kontaktuen deiak</string>
     <string name="block_hidden_calls">Blokeatu ezkutuko zenbakietako deiak</string>
     <string name="block_unknown_messages">Blokeatu gorde gabeko kontaktuen mezuak</string>
@@ -233,9 +233,9 @@
     <string name="invalid_name">Izenak baliogabeko karaktereak ditu</string>
     <string name="empty_name">Sartu izena</string>
     <string name="unknown_error_occurred">Errore ezezaguna gertatu da</string>
-    <string name="file_already_exists">\"%s\" fitxategia jada badago</string>
-    <string name="file_already_exists_overwrite">\"%s\" fitxategia jada badago. Gainidatzi?</string>
-    <string name="folder_already_exists">\"%s\" karpeta jada badago</string>
+    <string name="file_already_exists">s fitxategia jada badago</string>
+    <string name="file_already_exists_overwrite">s fitxategia jada badago. Gainidatzi?</string>
+    <string name="folder_already_exists">s karpeta jada badago</string>
     <string name="merge">Konbinatu</string>
     <string name="keep_both">Biak gorde</string>
     <string name="overwrite">Gainidatzi</string>
@@ -283,8 +283,7 @@
     <string name="root">Erroa</string>
     <string name="wrong_root_selected">Okerreko karpeta hautatu da, hautatu SD txartelaren erro-karpeta</string>
     <string name="sd_card_usb_same">SD txartelaren eta USB gailuaren bideak ezin dira berdinak izan</string>
-    <string name="app_on_sd_card">Badirudi aplikazioa SD txartel batean instalatu duzula, horrek aplikazioen widgetak erabilgarri egotea ekiditen du. Ezingo dituzu erabilgarri dauden widgeten zerrendan ikusi.
-        Sistemaren muga da, beraz, widgetak erabili nahi badituzu, aplikazioa barneko biltegiratzera mugitu behar duzu.</string>
+    <string name="app_on_sd_card">Badirudi aplikazioa SD txartel batean instalatu duzula, horrek aplikazioen widgetak erabilgarri egotea ekiditen du. Ezingo dituzu erabilgarri dauden widgeten zerrendan ikusi. Sistemaren muga da, beraz, widgetak erabili nahi badituzu, aplikazioa barneko biltegiratzera mugitu behar duzu.</string>
     <string name="wrong_folder_selected">Karpeta okerra hautatu da, mesedez hautatu \'%s\' bidea</string>
     <string name="properties">Propietateak</string>
     <string name="path">Bide-izena</string>
@@ -304,7 +303,7 @@
     <string name="gps_coordinates">GPS koordinatuak</string>
     <string name="altitude">Altitudea</string>
     <string name="remove_exif">Kendu EXIF</string>
-    <string name="remove_exif_confirmation">Ziur EXIF balioak kendu nahi dituzula GPS koordenatuak, kamera-modeloa, etab.\?</string>
+    <string name="remove_exif_confirmation">Ziur EXIF balioak kendu nahi dituzula GPS koordenatuak, kamera-modeloa, etab.?</string>
     <string name="exif_removed">EXIF balioak behar bezala kendu dira</string>
     <string name="background_color">Hondoaren kolorea</string>
     <string name="text_color">Testuaren kolorea</string>
@@ -327,11 +326,9 @@
     <string name="cannot_be_undone">Ekintza hau ezin da desegin.</string>
     <string name="save_before_closing">Gorde gabeko aldaketak dituzu. Gorde atera baino lehen?</string>
     <string name="global_theme_success">Koloreak ondo eguneratu dira. \'Shared\' deituriko gai berria gehitu da, erabili hori aplikazio guztien koloreak eguneratzeko etorkizunean.</string>
-    <string name="purchase_thank_you">
-        <![CDATA[
+    <string name="purchase_thank_you"><![CDATA[
             Erosi <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> funtzio hau desblokeatzeko eta garatzaileari laguntzeko. Eskerrik asko!
-        ]]>
-    </string>
+        ]]></string>
     <string name="light_theme">Argia</string>
     <string name="dark_theme">Iluna</string>
     <string name="auto_light_dark_theme">Argia / Iluna automatikoa</string>
@@ -423,8 +420,7 @@
     <string name="please_enter_pin">Sartu PINa</string>
     <string name="wrong_pin">Okerreko PIN</string>
     <string name="pin_must_be_4_digits_long">PINak gutxienez 4 digitu izan behar ditu</string>
-    <string name="too_many_incorrect_attempts">Desblokeatzeko saiakera oker gehiegi.
-\nSaiatu berriro %d segundo barru.</string>
+    <string name="too_many_incorrect_attempts">Desblokeatzeko saiakera oker gehiegi. \nSaiatu berriro %d segundo barru.</string>
     <string name="repeat_pin">Errpeikatu PIN</string>
     <string name="pattern">Eredua</string>
     <string name="insert_pattern">Sartu eredua</string>
@@ -572,8 +568,7 @@
     </plurals>
     <string name="alarm_goes_off_in">Alarma itzaltzeko geratzen den denbora:\n%s</string>
     <string name="reminder_triggers_in">Oroigarria azaltzeko geratzen den denbora:\n%s</string>
-    <string name="time_remaining">Falta den denbora:
-\n%s</string>
+    <string name="time_remaining">Falta den denbora: \n%s</string>
     <string name="alarm_warning">Ziurtatu alarma ondo dabilela. Arazoak egon daitezke bateria aurreztearekin zerikusia duten sistemaren murrizketak direla-eta.</string>
     <string name="reminder_warning">Ziurtatu oroigarria ondo dabilela. Arazoak egon daitezke bateria aurreztearekin zerikusia duten sistemaren murrizketak direla-eta.</string>
     <string name="notifications_disabled">Aplikazio honen jakinarazpenak desgaituta daude. Gailuko ezarpenetan gaitu ditzakezu.</string>
@@ -611,7 +606,7 @@
     <string name="show_info_bubble">Erakutsi informazio-burbuila elementu higigarrietan korritze-barra arrastatuz</string>
     <string name="prevent_phone_from_sleeping">Eragotzi mugikorra lo geratzea aplikazio hau atzeko planoan dagoen bitartean</string>
     <string name="skip_delete_confirmation">Saltatu ezabatzeko konfirmazio elkarrizketa-koadroa beti</string>
-    <string name="enable_pull_to_refresh">Gaitu "behera egin freskatzeko" goiko aldetik</string>
+    <string name="enable_pull_to_refresh">Gaitu behera egin freskatzeko goiko aldetik</string>
     <string name="use_24_hour_time_format">Erabili 24 orduko ordu-formatua</string>
     <string name="change_date_and_time_format">Aldatu data- eta ordu-formatua</string>
     <string name="sunday_first">Hasi astea igandean</string>
@@ -649,7 +644,7 @@
     <string name="excluded">(baztertuta)</string>
     <string name="manage_excluded_folders">Kudeatu baztertutako karpetak</string>
     <string name="remove_all">Kendu guztiak</string>
-    <string name="remove_all_description">Kendu karpeta guztiak baztertutako zerrendatik\? Honek ez ditu karpetak ezabatuko.</string>
+    <string name="remove_all_description">Kendu karpeta guztiak baztertutako zerrendatik? Honek ez ditu karpetak ezabatuko.</string>
     <string name="temporarily_show_excluded">Erakutsi aldi baterako baztertuta</string>
     <string name="stop_showing_excluded">Utzi baztertutakoak erakusten</string>
     <string name="manage_shown_tabs">Kudeatu erakutsitako fitxak</string>
@@ -691,14 +686,7 @@
     <string name="backups">Babeskopiak</string>
     <string name="enable_automatic_backups">Gaitu babeskopia automatikoak</string>
     <string name="manage_automatic_backups">Kudeatu babeskopia automatikoak</string>
-    <string name="date_time_pattern_info">Eredu hauek erabil ditzakezu fitxategia automatikoki izendatzeko:
-\n
-\n%Y - urtea
-\n%M - hilabetea
-\n%D - eguna
-\n%h - ordu
-\n%m - minutu
-\n%s - segundo</string>
+    <string name="date_time_pattern_info">Eredu hauek erabil ditzakezu fitxategia automatikoki izendatzeko: \n \n%Y - urtea \n%M - hilabetea \n%D - eguna \n%h - ordu \n%m - minutu \n%s - segundo</string>
     <string name="usb_detected">Badirudi USB gailuren bat konektatuta duzula zure gailura. Fitxategiak ondo agertzen direla ziurtatzeko, baimen gehigarriak eman behar dituzu.</string>
     <string name="confirm_usb_storage_access_text">Hautatu USB gailuaren karpeta nagusia hurrengo pantailan, baimena emateko</string>
     <string name="wrong_root_selected_usb">Karpeta okerra hautatu da, hautatu USB gailuaren erro-karpeta</string>
@@ -754,47 +742,13 @@
     <string name="more_info">Informazio gehiago</string>
     <string name="upgrade">Bertsio-berritu</string>
     <string name="upgrade_calendar">Eskuz biltegiratutako gertaerak migratu behar dituzu .ics fitxategi batean esportatuz, eta gero inportatuz. Esportazio- eta inportazio-botoiak pantaila nagusiaren menuan aurki ditzakezu.</string>
-    <string name="upgraded_from_free_gallery">Kaixo,
-\n
-\nbadirudi doako bertsiotik berritu duzula. Honekin pozik ba zaude eta agian zure ezarpenak eta gogokoak migratu ondoren, doako zaharra desinstalatu dezakezu ez duzulako gehiago beharko, elkarrizketa-koadro hau agertzea eragotziko du.
-\n
-\nEskerrik asko!</string>
-    <string name="upgraded_to_pro_gallery">Kaixo,
-\n
-\nbadirudi dagoeneko baduzula Pro aplikazioaren bertsioa ere. Pozik bazaude eta agian zure ezarpenak eta gogokoak migratu ondoren, hau desinstalatu dezakezu ez duzulako gehiago beharko.
-\n
-\nEskerrik asko!</string>
-    <string name="upgraded_from_free">Kaixo,
-\n
-\nbadirudi doako bertsiotik berritu duzula. Honekin pozik bazaude eta agian zure ezarpenak eta gogokoak migratu ondoren, doako zaharra desinstalatu dezakezu ez duzulako gehiago beharko, elkarrizketa-koadro hau agertzea eragotziko du.
-\n
-\nEskerrik asko!</string>
-    <string name="upgraded_to_pro">Kaixo,
-\n
-\nbadirudi dagoeneko baduzula Pro aplikazioaren bertsioa ere. Pozik bazaude eta agian zure datuak migratu ondoren, hau desinstalatu dezakezu ez duzulako gehiago beharko.
-\n
-\nEskerrik asko!</string>
-    <string name="upgraded_from_free_calendar">Kaixo,
-\n
-\nbadirudi doako bertsiotik berritu duzula. Lokalean gordetako gertaerak migratu nahi badituzu, eskuz egin behar dituzu .ics fitxategi batera esportatu doako aplikazioaren bertsioan eta hemen inportatu goiko menutik.
-\n
-\nPro bertsioan zure konfigurazioarekin pozik zaudenean, doako zaharra desinstalatu dezakezu, ez baituzu gehiago beharko.
-\n
-\nEskerrik asko!</string>
-    <string name="upgraded_from_free_contacts">Kaixo,
-\n
-\nbadirudi doako bertsiotik berritu duzula. Kontakturen bat \"%s\"-n gordeta bazenuen, eskuz migratu behar dituzu doako aplikazioaren bertsiotik .vcf fitxategi batean esportatuz eta hemen inportatuz goiko menutik.
-\n
-\nPro bertsioan zure konfigurazioarekin pozik zaudenean, doako zaharra desinstalatu dezakezu, ez baituzu gehiago beharko.
-\n
-\nEskerrik asko!</string>
-    <string name="upgraded_from_free_notes">Kaixo,
-\n
-\nbadirudi doako bertsiotik berritu duzula. Zure oharrak migratu nahi badituzu, eskuz egin behar dituzu doako aplikazioaren bertsioko fitxategi batera esportatu eta goiko menutik hemen inportatuz.
-\n
-\nPro bertsioan zure konfigurazioarekin pozik zaudenean, doako zaharra desinstalatu dezakezu, ez baituzu gehiago beharko.
-\n
-\nEskerrik asko!</string>
+    <string name="upgraded_from_free_gallery">Kaixo, \n \nbadirudi doako bertsiotik berritu duzula. Honekin pozik ba zaude eta agian zure ezarpenak eta gogokoak migratu ondoren, doako zaharra desinstalatu dezakezu ez duzulako gehiago beharko, elkarrizketa-koadro hau agertzea eragotziko du. \n \nEskerrik asko!</string>
+    <string name="upgraded_to_pro_gallery">Kaixo, \n \nbadirudi dagoeneko baduzula Pro aplikazioaren bertsioa ere. Pozik bazaude eta agian zure ezarpenak eta gogokoak migratu ondoren, hau desinstalatu dezakezu ez duzulako gehiago beharko. \n \nEskerrik asko!</string>
+    <string name="upgraded_from_free">Kaixo, \n \nbadirudi doako bertsiotik berritu duzula. Honekin pozik bazaude eta agian zure ezarpenak eta gogokoak migratu ondoren, doako zaharra desinstalatu dezakezu ez duzulako gehiago beharko, elkarrizketa-koadro hau agertzea eragotziko du. \n \nEskerrik asko!</string>
+    <string name="upgraded_to_pro">Kaixo, \n \nbadirudi dagoeneko baduzula Pro aplikazioaren bertsioa ere. Pozik bazaude eta agian zure datuak migratu ondoren, hau desinstalatu dezakezu ez duzulako gehiago beharko. \n \nEskerrik asko!</string>
+    <string name="upgraded_from_free_calendar">Kaixo, \n \nbadirudi doako bertsiotik berritu duzula. Lokalean gordetako gertaerak migratu nahi badituzu, eskuz egin behar dituzu .ics fitxategi batera esportatu doako aplikazioaren bertsioan eta hemen inportatu goiko menutik. \n \nPro bertsioan zure konfigurazioarekin pozik zaudenean, doako zaharra desinstalatu dezakezu, ez baituzu gehiago beharko. \n \nEskerrik asko!</string>
+    <string name="upgraded_from_free_contacts">Kaixo, \n \nbadirudi doako bertsiotik berritu duzula. Kontakturen bat sn gordeta bazenuen, eskuz migratu behar dituzu doako aplikazioaren bertsiotik .vcf fitxategi batean esportatuz eta hemen inportatuz goiko menutik. \n \nPro bertsioan zure konfigurazioarekin pozik zaudenean, doako zaharra desinstalatu dezakezu, ez baituzu gehiago beharko. \n \nEskerrik asko!</string>
+    <string name="upgraded_from_free_notes">Kaixo, \n \nbadirudi doako bertsiotik berritu duzula. Zure oharrak migratu nahi badituzu, eskuz egin behar dituzu doako aplikazioaren bertsioko fitxategi batera esportatu eta goiko menutik hemen inportatuz. \n \nPro bertsioan zure konfigurazioarekin pozik zaudenean, doako zaharra desinstalatu dezakezu, ez baituzu gehiago beharko. \n \nEskerrik asko!</string>
     <string name="about">Honi buruz</string>
     <string name="website">Webgunea</string>
     <string name="website_label">Iturburu-kodeak ikusteko joan hona</string>
@@ -826,8 +780,7 @@
     <string name="rate_our_app">Baloratu gure aplikazioa, mesedez :)</string>
     <string name="thank_you">Eskerrik asko</string>
     <string name="widget_locked_pro">Trepeta blokeatuta dago.\nEguneratu Pro bertsiora desblokeatzeko.</string>
-    <string name="new_app">
-        <![CDATA[
+    <string name="new_app"><![CDATA[
             Aupa,<br><br>
             hainbat aplikazio berri argitaratu berri dira:<br><br>
             <a href="%1$s">%2$s</a><br><br>
@@ -835,8 +788,7 @@
             <a href="%5$s">%6$s</a><br><br>
             Izenburuetan edota ikonoetan klik eginez deskargatu ditzakezu.<br><br>
             Eskerrik asko
-        ]]>
-    </string>
+        ]]></string>
     <string name="app_launcher_short">Aplikazio abiarazlea</string>
     <string name="calculator_short">Kalkulagailua</string>
     <string name="calendar_short">Egutegia</string>
@@ -855,16 +807,14 @@
     <string name="sms_messenger_short">SMS mezularia</string>
     <string name="thank_you_short">Eskerrik asko</string>
     <string name="voice_recorder_short">Grabagailua</string>
-    <string name="sideloaded_app">
-        <![CDATA[
+    <string name="sideloaded_app"><![CDATA[
             Badirudi zure aplikazioaren bertsioa hondatuta dagoela. Deskargatu bertsio originala <a href="%s">hemen</a>.
-        ]]>
-    </string>
+        ]]></string>
     <string name="frequently_asked_questions">Maiz egindako galderak</string>
     <string name="before_asking_question">Galdera bat egin aurretik, irakurri</string>
-    <string name="faq_1_title_commons">Zer dela eta ez dut aplikazioen trepeta hau trepeten zerrendan ikusten\?</string>
+    <string name="faq_1_title_commons">Zer dela eta ez dut aplikazioen trepeta hau trepeten zerrendan ikusten?</string>
     <string name="faq_1_text_commons">Litekeena da aplikazioa SD txartelera eraman duzulako. Kasu horretan, emandako aplikazioen trepetak ezkutatzen dituen Android sistemaren muga bat dago. Irtenbide bakarra zure gailuaren ezarpenen bidez aplikazioa Barne Biltegira eramatea da.</string>
-    <string name="faq_2_title_commons">Lagundu nahi zaitut, baina ezin dut dirurik eman. Ba al dago beste ezer egin dezaket\?</string>
+    <string name="faq_2_title_commons">Lagundu nahi zaitut, baina ezin dut dirurik eman. Ba al dago beste ezer egin dezaket?</string>
     <string name="notice">Aplikazio honk hurrengo hirugarrenen liburutegi hauek erabiltzen ditu, nire bizitza errazago egiteko. Eskerrik asko.</string>
     <string name="third_party_licences">Hirugarrenen lizentziak</string>
     <string name="kotlin_title">Kotlin (programazio-hizkuntza)</string>
@@ -960,4 +910,128 @@
     <string name="theme_and_colors">Itxura eta koloreak</string>
     <string name="all_fossify_apps">Fossifyren aplikazio guztiak</string>
     <string name="known_issues">Errore ezagunak</string>
+    <string name="translation_belarusian"></string>
+    <string name="why_upgrade_printing_support"></string>
+    <string name="translation_central_kurdish"></string>
+    <string name="number_picker_title"></string>
+    <string name="translation_japanese"></string>
+    <string name="translation_hebrew"></string>
+    <string name="translation_vietnamese"></string>
+    <string name="translation_ukrainian"></string>
+    <string name="faq_8_title_commons"></string>
+    <string name="faq_9_title_commons"></string>
+    <string name="other_help"></string>
+    <string name="translation_bengali"></string>
+    <string name="translation_esperanto"></string>
+    <string name="translation_breton"></string>
+    <string name="translation_galician"></string>
+    <string name="translation_hindi"></string>
+    <string name="translation_gujarati"></string>
+    <string name="translation_croatian"></string>
+    <string name="translation_portuguese"></string>
+    <string name="translation_romanian"></string>
+    <string name="translation_slovenian"></string>
+    <string name="translation_russian"></string>
+    <string name="translation_slovak"></string>
+    <string name="translation_tamil"></string>
+    <string name="why_upgrade_advanced_photo_video_editor"></string>
+    <string name="translation_turkish"></string>
+    <string name="deprecated_app"></string>
+    <string name="why_upgrade_pro_version"></string>
+    <string name="why_upgrade_no_internet_access"></string>
+    <string name="why_upgrade_no_ads"></string>
+    <string name="pdf_view_pager_title"></string>
+    <string name="faq_7_title_commons"></string>
+    <string name="faq_7_text_commons"></string>
+    <string name="contributors"></string>
+    <string name="translation_arabic"></string>
+    <string name="translation_azerbaijani"></string>
+    <string name="translation_welsh"></string>
+    <string name="translation_basque"></string>
+    <string name="translation_english"></string>
+    <string name="translation_greek"></string>
+    <string name="translation_german"></string>
+    <string name="translation_danish"></string>
+    <string name="translation_polish"></string>
+    <string name="why_upgrade_basic_version"></string>
+    <string name="why_upgrade"></string>
+    <string name="why_upgrade_advanced_photo_editor"></string>
+    <string name="why_upgrade_many_other_improvements"></string>
+    <string name="why_upgrade_new_widgets"></string>
+    <string name="why_upgrade_checklists"></string>
+    <string name="why_upgrade_contact_private_contacts"></string>
+    <string name="why_upgrade_contact_filtering"></string>
+    <string name="subsampling_title"></string>
+    <string name="leak_canary_title"></string>
+    <string name="robolectric_title"></string>
+    <string name="espresso_title"></string>
+    <string name="trial_expired"></string>
+    <string name="trial_expires_soon"></string>
+    <string name="trial_end_description"></string>
+    <string name="unlock_for_one_final_day"></string>
+    <string name="welcome_to_app_name"></string>
+    <string name="pro_app_refund"></string>
+    <string name="translation_nepali"></string>
+    <string name="translation_kabyle"></string>
+    <string name="translation_swedish"></string>
+    <string name="translation_dutch"></string>
+    <string name="translation_norwegian"></string>
+    <string name="why_upgrade_different_note_per_widget"></string>
+    <string name="android_lame_title"></string>
+    <plurals name="trial_expires_days">
+        <item quantity="one"></item>
+        <item quantity="other"></item>
+    </plurals>
+    <string name="why_upgrade_file_compression"></string>
+    <string name="development"></string>
+    <string name="why_upgrade_customizable_contact_ringtones"></string>
+    <string name="why_upgrade_font_size_customization"></string>
+    <string name="why_upgrade_footer"></string>
+    <string name="translation_bulgarian"></string>
+    <string name="why_upgrade_footer_one_time_payment"></string>
+    <string name="start_free_trial"></string>
+    <string name="trial_start_description"></string>
+    <string name="why_upgrade_note_locking"></string>
+    <string name="m3u_parser_title"></string>
+    <string name="pdf_viewer_title"></string>
+    <string name="faq_10_text_commons"></string>
+    <string name="faq_9_text_commons"></string>
+    <string name="apng_title"></string>
+    <string name="developer_description"></string>
+    <string name="why_upgrade_duplicate_contact_merging"></string>
+    <string name="translation_chuvash"></string>
+    <string name="why_upgrade_improved_design"></string>
+    <string name="why_upgrade_attendees_emails"></string>
+    <string name="contributors_label"></string>
+    <string name="why_upgrade_date_and_time_format"></string>
+    <string name="faq_10_title_commons"></string>
+    <string name="why_upgrade_shortcuts"></string>
+    <string name="zip4j_title"></string>
+    <string name="why_upgrade_recents_tab"></string>
+    <string name="translation_chinese_tw"></string>
+    <string name="why_upgrade_heic_support"></string>
+    <string name="why_upgrade_file_importing"></string>
+    <string name="translation"></string>
+    <string name="why_upgrade_background_color_customization"></string>
+    <string name="translation_spanish"></string>
+    <string name="why_upgrade_private_contact_sharing"></string>
+    <string name="why_upgrade_zooming"></string>
+    <string name="translation_czech"></string>
+    <string name="translation_catalan"></string>
+    <string name="faq_8_text_commons"></string>
+    <string name="translation_serbian"></string>
+    <string name="translation_indonesian"></string>
+    <string name="translation_korean"></string>
+    <string name="translation_italian"></string>
+    <string name="translation_chinese_hk"></string>
+    <string name="translation_finnish"></string>
+    <string name="translation_chinese_cn"></string>
+    <string name="translation_hungarian"></string>
+    <string name="translation_lithuanian"></string>
+    <string name="translation_french"></string>
+    <string name="translation_persian"></string>
+    <string name="why_upgrade_time_zone_support"></string>
+    <string name="why_upgrade_easy_event_importing"></string>
+    <string name="why_upgrade_batch_renaming"></string>
+    <string name="why_upgrade_folder_locking"></string>
 </resources>
