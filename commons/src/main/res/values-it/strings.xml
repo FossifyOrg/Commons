@@ -116,7 +116,7 @@
     <string name="import_blocked_numbers">Importa i numeri bloccati</string>
     <string name="must_make_default_dialer">È necessario impostare quest\'app come predefinita per utilizzare i numeri bloccati.</string>
     <string name="set_as_default">Imposta come predefinita</string>
-    <string name="block_confirmation">Sei sicuro/a di volere bloccare «%s»\?</string>
+    <string name="block_confirmation">Sei sicuro/a di volere bloccare «%s»?</string>
     <string name="block_unknown_calls">Blocca le chiamate dai contatti non memorizzati</string>
     <string name="block_hidden_calls">Blocca le chiamate da numeri nascosti</string>
     <string name="block_unknown_messages">Blocca i messaggi dei contatti non memorizzati</string>
@@ -1054,11 +1054,7 @@
     <string name="trial_expires_soon">Il periodo di prova sta per scadere.</string>
     <string name="unlock_for_one_final_day">Sbloccare l\'app per un ultimo giorno</string>
     <string name="welcome_to_app_name">Benvenuti su %s!</string>
-    <string name="trial_start_description">Grazie per aver utilizzato la nostra applicazione. È possibile utilizzare questa versione sbloccata per <font color="#FFFFFF">%d giorni</font>. Una volta terminata la prova, vi invitiamo a considerare l\'aggiornamento alla versione Pro. Questa versione offre un\'enorme quantità di nuove funzioni, un design moderno, l\'assenza di pubblicità e molti altri miglioramenti.
-\n
-\nDovrete pagare solo una volta nella vita e se non sarete soddisfatti, potrete disinstallarla e ottenere un rimborso.
-\n
-\nSpero che ti piaccia :)</string>
+    <string name="trial_start_description">Grazie per aver utilizzato la nostra applicazione. È possibile utilizzare questa versione sbloccata per <font color="#FFFFFF">%d giorni</font>. Una volta terminata la prova, vi invitiamo a considerare l\'aggiornamento alla versione Pro. Questa versione offre un\'enorme quantità di nuove funzioni, un design moderno, l\'assenza di pubblicità e molti altri miglioramenti. \n \nDovrete pagare solo una volta nella vita e se non sarete soddisfatti, potrete disinstallarla e ottenere un rimborso. \n \nSpero che ti piaccia :)</string>
     <string name="trial_end_description">Si prega di aggiornare alla versione Pro per godere appieno dell\'applicazione.
 \n
 \nDevi pagare solo una volta nella vita e se non sarai soddisfatto, potrai disinstallarla e ottenere un rimborso.

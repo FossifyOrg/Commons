@@ -117,7 +117,7 @@
     <string name="import_blocked_numbers">Impordi blokeeritud telefoninumbrid</string>
     <string name="must_make_default_dialer">Kui soovid kasutada blokeeritud telefoninumbrite funktsionaalsust, siis peab see rakendus olema vaikimisi telefonirakendus.</string>
     <string name="set_as_default">Määra vaikimisi väärtuseks</string>
-    <string name="block_confirmation">Kas sa oled kindel, et soovid blokeerida „%s“ telefoninumbrit\?</string>
+    <string name="block_confirmation">Kas sa oled kindel, et soovid blokeerida „%s“ telefoninumbrit?</string>
     <string name="block_unknown_calls">Blokeeri kõned, kui helistaja pole aadressiraamatus</string>
     <string name="block_hidden_calls">Blokeeri kõned varjatud numbritelt</string>
     <string name="block_unknown_messages">Blokeeri sõnumid, kui saatja pole aadressiraamatus</string>
@@ -244,7 +244,7 @@
     <string name="empty_name">Palun sisesta nimi</string>
     <string name="unknown_error_occurred">Tekkis tundmatu viga</string>
     <string name="file_already_exists">„%s“ fail on juba olemas</string>
-    <string name="file_already_exists_overwrite">„%s“ fail on juba olemas, kas kirjutame üle\?</string>
+    <string name="file_already_exists_overwrite">„%s“ fail on juba olemas, kas kirjutame üle?</string>
     <string name="folder_already_exists">„%s“ kaust on juba olemas</string>
     <string name="merge">Liida</string>
     <string name="keep_both">Jäta mõlemad alles</string>
@@ -993,11 +993,7 @@
     <string name="trial_expires_soon">Selle rakenduse prooviperiood lõppeb peagi.</string>
     <string name="unlock_for_one_final_day">Luba lukustatud rakendust kasutada veel ühe viimase päeva</string>
     <string name="welcome_to_app_name">Tere tulemast %s kasutajaks!</string>
-    <string name="trial_start_description">Täname, et võtsid kasutusele meie rakenduse. Praeguses olekus on ta pruugitav <font color="#FFFFFF">%d päeva</font>. Kui testperiood lõppeb, siis palun kaalu uuendust Pro-versiooniks. Sellel palju lisavõimalusi, moodne kujundus, reklaamivaba lahendus ning paljugi veel.
-\n
-\nSa maksad Pro-versiooni eest vaid ühe korra ning kasutad seda nii kaua kui soovid. Kui sa pole rakendusega rahul, siis eemalda ta oma nutiseadmest ja küsi makstud summa tagasi.
-\n
-\nLoodetavasti see rakendus meeldub sulle :)</string>
+    <string name="trial_start_description">Täname, et võtsid kasutusele meie rakenduse. Praeguses olekus on ta pruugitav <font color="#FFFFFF">%d päeva</font>. Kui testperiood lõppeb, siis palun kaalu uuendust Pro-versiooniks. Sellel palju lisavõimalusi, moodne kujundus, reklaamivaba lahendus ning paljugi veel. \n \nSa maksad Pro-versiooni eest vaid ühe korra ning kasutad seda nii kaua kui soovid. Kui sa pole rakendusega rahul, siis eemalda ta oma nutiseadmest ja küsi makstud summa tagasi. \n \nLoodetavasti see rakendus meeldub sulle :)</string>
     <string name="trial_end_description">Palun uuenda Pro-versiooniks ja kasuta rakendust täisfunktsionaalsuses.
 \n
 \nSa maksad Pro-versiooni eest vaid ühe korra ning kasuta seda nii kaua kui soovid. Kui sa pole rakendusega rahul, siis eemalda ta oma nutiseadmest ja küsi makstud summa tagasi.

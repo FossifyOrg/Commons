@@ -944,11 +944,7 @@
     <string name="start_free_trial">Comezala proba gratuíta</string>
     <string name="trial_expires_soon">A túa proba caduca pronto.</string>
     <string name="welcome_to_app_name">Benvido a %s!</string>
-    <string name="trial_start_description">Grazas por usala nosa aplicación. Podes usar esta versión desbloqueada durante <font color="#FFFFFF">%d días</font>. Unha vez que remate a proba, considere actualizalá versión Pro. Ten unha gran cantidade de novas funcións, deseño moderno, sen anuncios e moitas outras melloras.
-\n
-\nSó tes que pagalo unha vez na vida e se non estás satisfeito, podes desinstalalo e obter un reembolso.
-\n
-\nAgardo que vos guste :)</string>
+    <string name="trial_start_description">Grazas por usala nosa aplicación. Podes usar esta versión desbloqueada durante <font color="#FFFFFF">%d días</font>. Unha vez que remate a proba, considere actualizalá versión Pro. Ten unha gran cantidade de novas funcións, deseño moderno, sen anuncios e moitas outras melloras. \n \nSó tes que pagalo unha vez na vida e se non estás satisfeito, podes desinstalalo e obter un reembolso. \n \nAgardo que vos guste :)</string>
     <string name="trial_end_description">Por favor actualizalá versión Pro para gozar da aplicación ao máximo.
 \n
 \nSó tes que pagala unha vez na vida e se non estás satisfeito, podes desinstalala e obter un reembolso.
