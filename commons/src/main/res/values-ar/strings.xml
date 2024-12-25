@@ -124,7 +124,7 @@
     <string name="import_blocked_numbers">استيراد الأرقام المحظورة</string>
     <string name="must_make_default_dialer">عليك أن تجعل هذا التطبيق المتصل الافتراضي للاستفادة من الأرقام المحظورة.</string>
     <string name="set_as_default">ضبط الى الافتراضي</string>
-    <string name="block_confirmation">هل تريد بالتأكيد حظر \"%s\"؟</string>
+    <string name="block_confirmation">هل تريد بالتأكيد حظر s</string>
     <string name="block_unknown_calls">حظر المكالمات من جهات الاتصال غير المخزنة</string>
     <string name="block_hidden_calls">حظر المكالمات من الأرقام المخفية</string>
     <string name="block_unknown_messages">حظر الرسائل من جهات الاتصال غير المخزنة</string>
@@ -244,9 +244,9 @@
     <string name="invalid_name">يحتوي الإسم علي أحرف غير صالحة</string>
     <string name="empty_name">يرجى إدخال إسم</string>
     <string name="unknown_error_occurred">حدث خطأ غير معروف</string>
-    <string name="file_already_exists">الملف \"%s\" موجود بالفعل</string>
-    <string name="file_already_exists_overwrite">الملف \"%s\" موجود بالفعل. هل تريد إستبداله ؟</string>
-    <string name="folder_already_exists">المجلد \"%s\" موجود بالفعل</string>
+    <string name="file_already_exists">الملف s موجود بالفعل</string>
+    <string name="file_already_exists_overwrite">الملف s موجود بالفعل. هل تريد إستبداله ؟</string>
+    <string name="folder_already_exists">المجلد s موجود بالفعل</string>
     <string name="merge">دمج</string>
     <string name="keep_both">الإحتفاظ بكليهما</string>
     <string name="overwrite">إستبدال</string>
@@ -264,8 +264,8 @@
     <string name="confirm_folder_access_title">تأكيد الوصول إلى المجلد</string>
     <string name="confirm_storage_access_text">يرجى إختيار المجلد العلوي من بطاقة الذاكرة (SD) على الشاشة التالية ، لمنح صلاحيات الوصول للكتابة</string>
     <string name="confirm_storage_access_text_sd">إذا كنت لا ترى بطاقة الذاكرة (SD) ، فجرب هذا</string>
-    <string name="confirm_storage_access_android_text">يرجى السماح للتطبيق بالوصول إلى التخزين المحدد على الشاشة التالية بالضغط على \"استخدام هذا المجلد\" في الأسفل.</string>
-    <string name="confirm_storage_access_android_text_specific">يرجى السماح بالوصول إلى \"<b> %s </b>\" على الشاشة التالية بالضغط على \"<b> استخدم هذا المجلد </b>\" في الأسفل.</string>
+    <string name="confirm_storage_access_android_text">يرجى السماح للتطبيق بالوصول إلى التخزين المحدد على الشاشة التالية بالضغط على ستخدام هذا المجلد في الأسفل.</string>
+    <string name="confirm_storage_access_android_text_specific">يرجى السماح بالوصول إلى \"<b> %s </b> على الشاشة التالية بالضغط على \\<b> استخدم هذا المجلد </b>\" في الأسفل.</string>
     <string name="confirm_create_doc_for_new_folder_text">يرجى الضغط على \"<b> حفظ </b>\" في الجزء السفلي من الشاشة التالية لإنشاء المجلد الجديد.</string>
     <string name="confirm_selection">تأكيد التحديد</string>
     <string name="loading">تحميل…</string>
@@ -310,8 +310,8 @@
     <string name="root">الروت</string>
     <string name="wrong_root_selected">تم تحديد مجلد خاطئ ، يرجى تحديد المجلد الأصلي لبطاقة الذاكرة (SD)</string>
     <string name="sd_card_usb_same">لا يمكن أن تكون مسارات بطاقة الذاكرة (SD) و جهاز الـ (USB) متماثلة</string>
-    <string name="app_on_sd_card">يبدو أن التطبيق مثبت على بطاقة الذاكرة (SD) ، مما يجعل تطبيقات (الويدجت) غير متاحة. ولن تراها حتى على قائمة (الويدجت) المتاحة. إنها أحد قيود النظام ، لذلك إذا كنت تريد استخدام (تطبيقات الويدجت) ، فيجب عليك نقل التطبيق مرة أخرى إلى وحدة التخزين الداخلية.</string>
-    <string name="wrong_folder_selected">تم تحديد مجلد خاطئ ، يرجى تحديد المسار \"%s\"</string>
+    <string name="app_on_sd_card">يبدو أن التطبيق مثبت على بطاقة الذاكرة (SD) ، مما يجعل تطبيقات (الويدجت) غير متاحة. ولن تراها حتى على قائمة (الويدجت) المتاحة. إنها أحد قيود النظام ، لذلك إذا كنت تريد استخدام (تطبيقات الويدجت) ، فيجب عليك نقل التطبيق مرة أخرى إلى وحدة التخزين الداخلية.</string>
+    <string name="wrong_folder_selected">تم تحديد مجلد خاطئ ، يرجى تحديد المسار s\\</string>
     <string name="properties">الخصائص</string>
     <string name="path">المسار</string>
     <string name="items_selected">العناصر المحددة</string>
@@ -354,11 +354,9 @@
     <string name="cannot_be_undone">لا يمكن التراجع عن هذا الإجراء.</string>
     <string name="save_before_closing">لديك تغييرات غير محفوظة. هل تريد الحفظ قبل الخروج ؟</string>
     <string name="global_theme_success">تم تحديث الألوان بنجاح. تمت إضافة سمة جديدة تسمى \'المشتركة\'، يرجى إستخدام ذلك لتحديث جميع ألوان التطبيق في المستقبل.</string>
-    <string name="purchase_thank_you">
-        <![CDATA[
+    <string name="purchase_thank_you"><![CDATA[
              يرجى شراء<a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Thank You</a> لفتح هذه الوظيفة ودعم التطوير. شكراً!
-        ]]>
-    </string>
+        ]]></string>
     <string name="light_theme">فاتح</string>
     <string name="dark_theme">داكن</string>
     <string name="auto_light_dark_theme">ضوء تلقائي / داكن</string>
@@ -385,7 +383,7 @@
     <string name="stop_showing_hidden">إيقاف عرض الوسائط المخفية</string>
     <string name="allow_access_more_media">السماح بالوصول إلى المزيد من الوسائط</string>
     <string name="maximum_share_reached">لا يمكنك مشاركة هذا المحتوى الكبير مرة واحدة</string>
-    <string name="empty_and_disable_recycle_bin">إفراغ "سلة المحذوفات" وتعطيلها</string>
+    <string name="empty_and_disable_recycle_bin">إفراغ سلة المحذوفات وتعطيلها</string>
     <string name="undo">تراجع</string>
     <string name="redo">إعادة</string>
     <string name="print">طباعة</string>
@@ -429,9 +427,9 @@
     <string name="more_options">المزيد من الخيارات</string>
     <string name="proceed_with_deletion">هل تريد بالتأكيد متابعة عملية الحذف ؟</string>
     <string name="deletion_confirmation">هل تريد بالتأكيد حذف%s ؟</string>
-    <string name="move_to_recycle_bin_confirmation">هل تريد بالتأكيد نقل %s إلى "سلة المحذوفات" ؟</string>
+    <string name="move_to_recycle_bin_confirmation">هل تريد بالتأكيد نقل %s إلى سلة المحذوفات ؟</string>
     <string name="are_you_sure_delete">هل تريد بالتأكيد حذف هذا العنصر ؟</string>
-    <string name="are_you_sure_recycle_bin">هل تريد بالتأكيد نقل هذا العنصر إلى "سلة المحذوفات" ؟</string>
+    <string name="are_you_sure_recycle_bin">هل تريد بالتأكيد نقل هذا العنصر إلى سلة المحذوفات ؟</string>
     <string name="do_not_ask_again">لا تسأل مره أخرى في هذه الدورة</string>
     <string name="do_not_show_again">عدم الإظهار مجددًا</string>
     <string name="yes">نعم</string>
@@ -450,8 +448,7 @@
     <string name="please_enter_pin">يرجى إدخال رمز الـ PIN</string>
     <string name="wrong_pin">رمز الـ PIN غير صحيح</string>
     <string name="pin_must_be_4_digits_long">PIN يجب أن يكون على الأقل 4 أرقام طويلة</string>
-    <string name="too_many_incorrect_attempts">عدد كبير جدًا من محاولات إلغاء القفل غير الصحيحة.
-\nحاول مرة أخرى خلال %d ثانية.</string>
+    <string name="too_many_incorrect_attempts">عدد كبير جدًا من محاولات إلغاء القفل غير الصحيحة. \nحاول مرة أخرى خلال %d ثانية.</string>
     <string name="repeat_pin">تكرار رمز الـ PIN</string>
     <string name="pattern">النمط</string>
     <string name="insert_pattern">إدراج النمط</string>
@@ -711,8 +708,7 @@
     </plurals>
     <string name="alarm_goes_off_in">الوقت المتبقي حتي ينطفئ المنبه:\n%s</string>
     <string name="reminder_triggers_in">الوقت المتبقي حتي يتم تشغيل التذكير:\n%s</string>
-    <string name="time_remaining">الوقت المتبقي:
-\n%s</string>
+    <string name="time_remaining">الوقت المتبقي: \n%s</string>
     <string name="alarm_warning">يرجى التأكد من أن المنبه يعمل بشكل صحيح قبل الإعتماد عليه. قد يسيء التصرف بسبب قيود النظام المتعلقة بتوفير البطارية.</string>
     <string name="reminder_warning">يرجى التأكد من أن التذكيرات تعمل بشكل صحيح قبل الإعتماد عليها قد يسيء التصرف بسبب قيود النظام المتعلقة بتوفير البطارية.</string>
     <string name="notifications_disabled">تم تعطيل إشعارات هذا التطبيق. يرجى الإنتقال إلى إعدادات جهازك لتمكينها.</string>
@@ -760,9 +756,9 @@
     <string name="use_same_snooze">استخدام نفس مدة الغفوة دائماً</string>
     <string name="snooze_time">مدة الغفوة</string>
     <string name="vibrate_on_button_press">الإهتزاز عند الضغط على الأزرار</string>
-    <string name="move_items_into_recycle_bin">نقل العناصر إلى "سلة المحذوفات" بدلاً من حذفها</string>
-    <string name="recycle_bin_cleaning_interval">الفاصل الزمني لتنظيف "سلة المحذوفات"</string>
-    <string name="empty_recycle_bin">إفراغ "سلة المحذوفات"</string>
+    <string name="move_items_into_recycle_bin">نقل العناصر إلى سلة المحذوفات بدلاً من حذفها</string>
+    <string name="recycle_bin_cleaning_interval">الفاصل الزمني لتنظيف سلة المحذوفات</string>
+    <string name="empty_recycle_bin">إفراغ سلة المحذوفات</string>
     <string name="force_portrait_mode">فرض الوضع العمودي</string>
     <string name="export_settings">إعدادات التصدير</string>
     <string name="import_settings">إعدادات الإستيراد</string>
@@ -779,7 +775,7 @@
     <string name="saving_label">جارٍ الحفظ</string>
     <string name="startup">بدء التشغيل</string>
     <string name="text">النص</string>
-    <string name="migrating"> إعدادات التصدير / الإستيراد</string>
+    <string name="migrating">إعدادات التصدير / الإستيراد</string>
     <string name="quality">الجودة</string>
     <string name="main_screen">الصفحة الرئيسيّة</string>
     <string name="thumbnails">الصور المصغّرة</string>
@@ -802,9 +798,9 @@
     <string name="restore_this_file">إستعادة هذا الملف</string>
     <string name="restore_selected_files">إستعادة الملفات المحددة</string>
     <string name="restore_all_files">إستعادة كل الملفات</string>
-    <string name="recycle_bin_emptied">تم إفراغ "سلة المحذوفات" بنجاح</string>
+    <string name="recycle_bin_emptied">تم إفراغ سلة المحذوفات بنجاح</string>
     <string name="files_restored_successfully">تم إستعادة الملفات بنجاح</string>
-    <string name="empty_recycle_bin_confirmation">هل تريد بالتأكيد إفراغ "سلة المحذوفات" ؟ سيتم فقدان الملفات نهائياً.</string>
+    <string name="empty_recycle_bin_confirmation">هل تريد بالتأكيد إفراغ سلة المحذوفات ؟ سيتم فقدان الملفات نهائياً.</string>
     <string name="recycle_bin_empty">سلة المحذوفات فارغة</string>
     <string name="moving_recycle_bin_items_disabled">تم تعطيل نقل عناصر سلة المحذوفات، يرجى استخدام استعادة</string>
     <string name="show_the_recycle_bin">إظهار سلة المحذوفات</string>
@@ -833,14 +829,7 @@
     <string name="backups">النسخ الاحتياطية</string>
     <string name="enable_automatic_backups">تمكين النسخ الاحتياطي التلقائي</string>
     <string name="manage_automatic_backups">إدارة النسخ الاحتياطية التلقائية</string>
-    <string name="date_time_pattern_info">يمكنك استخدام الأنماط التالية لتسمية الملف تلقائيا:
-\n
-\n%Y - السنة
-\n%M - الشهر
-\n%D - اليوم
-\n%h - ساعة
-\n%m - دقيقة
-\n%s - الثانية</string>
+    <string name="date_time_pattern_info">يمكنك استخدام الأنماط التالية لتسمية الملف تلقائيا: \n \n%Y - السنة \n%M - الشهر \n%D - اليوم \n%h - ساعة \n%m - دقيقة \n%s - الثانية</string>
     <string name="usb">الـ USB</string>
     <string name="usb_detected">يبدو أن لديك جهاز USB متصل بجهازك. للتأكد من ظهور ملفاته بشكل صحيح ، تحتاج إلى منح أذونات إضافية.</string>
     <string name="confirm_usb_storage_access_text">يرجى إختيار المجلد العلوي لجهاز الـ USB على الشاشة التالية ، لمنح صلاحيات الوصول</string>
@@ -897,47 +886,13 @@
     <string name="more_info">المزيد من المعلومات</string>
     <string name="upgrade">ترقية</string>
     <string name="upgrade_calendar">يجب عليك ترحيل الأحداث المخزنة محلياً يدوياً عن طريق التصدير في ملف .ics ، ثم الإستيراد. يمكنك العثور على أزرار التصدير / الإستيراد في قائمة الشاشة الرئيسية.</string>
-    <string name="upgraded_from_free_gallery">مرحبًا،
-\n
-\nيبدو أنك قمت بالترقية للتو من الإصدار المجاني. بمجرد أن تكون سعيدًا بهذا الإعداد وربما تقوم بترحيل الإعدادات والمفضلات الخاصة بك ، يمكنك إلغاء تثبيت الإصدار المجاني القديم لتجنب تشغيله عن طريق الخطأ لأنك لن تحتاج إليه بعد الآن ، كما سيمنع ظهور مربع الحوار هذا.
-\n
-\nشكرًا!</string>
-    <string name="upgraded_to_pro_gallery">مرحبًا،
-\n
-\nيبدو أن لديك بالفعل إصدار تطبيق Pro أيضًا. بمجرد أن تكون سعيدًا به وربما تقوم بترحيل الإعدادات والمفضلات الخاصة بك ، يمكنك إلغاء تثبيت هذا لتجنب تشغيله عن طريق الخطأ لأنك لن تحتاج إليه بعد الآن.
-\n
-\nشكرًا!</string>
-    <string name="upgraded_from_free">مرحبا
-\n
-\nيبدو أنك قمت بالترقية للتو من الإصدار المجاني. بمجرد أن تكون راضيا عن هذا وربما ترحيل بياناتك ، يمكنك إلغاء تثبيت القديم المجاني لتجنب تشغيله عن طريق الخطأ لأنك لن تحتاج إليه بعد الآن ، كما أنه سيمنع مربع الحوار هذا من الظهور.
-\n
-\nشكرا!</string>
-    <string name="upgraded_to_pro">مرحبًا
-\n
-\nيبدو أن لديك بالفعل إصدار تطبيق Pro أيضا. بمجرد أن تكون راضيا عنها وربما تقوم بترحيل بياناتك ، يمكنك إلغاء تثبيت هذا الجهاز لتجنب تشغيله عن طريق الخطأ لأنك لن تحتاج إليه بعد الآن.
-\n
-\nشكرا!</string>
-    <string name="upgraded_from_free_calendar">مرحبًا،
-\n
-\nيبدو أنك قمت بالترقية للتو من الإصدار المجاني. إذا كنت ترغب في ترحيل الأحداث المخزنة محليًا ، فيجب عليك القيام بذلك يدويًا عن طريق تصديرها إلى ملف ics في إصدار التطبيق المجاني والاستيراد هنا من خلال القائمة العلوية.
-\n
-\nبمجرد أن تشعر بالرضا عن الإعداد الخاص بك في إصدار Pro ، يمكنك إلغاء تثبيت الإصدار المجاني القديم لأنك لن تحتاج إليه بعد الآن ، كما سيمنع ظهور مربع الحوار هذا.
-\n
-\nشكرًا!</string>
-    <string name="upgraded_from_free_contacts">مرحبا
-\n
-\nيبدو أنك قمت بالترقية للتو من الإصدار المجاني. إذا كان لديك أي جهات اتصال مخزنة ضمن \"%s\" ، فيجب عليك ترحيلها يدويا عن طريق التصدير في ملف .vcf من إصدار التطبيق المجاني والاستيراد هنا من خلال القائمة العلوية.
-\n
-\nبمجرد أن تشعر بالرضا عن الإعداد الخاص بك في الإصدار Pro ، يمكنك إلغاء تثبيت الإصدار المجاني القديم لأنك لن تحتاج إليه بعد الآن ، كما أنه سيمنع ظهور مربع الحوار هذا.
-\n
-\nشكرا!</string>
-    <string name="upgraded_from_free_notes">مرحبا
-\n
-\nيبدو أنك قمت بالترقية للتو من الإصدار المجاني. إذا كنت ترغب في ترحيل ملاحظاتك ، فعليك القيام بذلك يدويا عن طريق تصديرها إلى ملف في إصدار التطبيق المجاني والاستيراد هنا من خلال القائمة العلوية.
-\n
-\nبمجرد أن تشعر بالرضا عن الإعداد الخاص بك في الإصدار Pro ، يمكنك إلغاء تثبيت الإصدار المجاني القديم لأنك لن تحتاج إليه بعد الآن ، كما أنه سيمنع ظهور مربع الحوار هذا.
-\n
-\nشكرا!</string>
+    <string name="upgraded_from_free_gallery">مرحبًا، \n \nيبدو أنك قمت بالترقية للتو من الإصدار المجاني. بمجرد أن تكون سعيدًا بهذا الإعداد وربما تقوم بترحيل الإعدادات والمفضلات الخاصة بك ، يمكنك إلغاء تثبيت الإصدار المجاني القديم لتجنب تشغيله عن طريق الخطأ لأنك لن تحتاج إليه بعد الآن ، كما سيمنع ظهور مربع الحوار هذا. \n \nشكرًا!</string>
+    <string name="upgraded_to_pro_gallery">مرحبًا، \n \nيبدو أن لديك بالفعل إصدار تطبيق Pro أيضًا. بمجرد أن تكون سعيدًا به وربما تقوم بترحيل الإعدادات والمفضلات الخاصة بك ، يمكنك إلغاء تثبيت هذا لتجنب تشغيله عن طريق الخطأ لأنك لن تحتاج إليه بعد الآن. \n \nشكرًا!</string>
+    <string name="upgraded_from_free">مرحبا \n \nيبدو أنك قمت بالترقية للتو من الإصدار المجاني. بمجرد أن تكون راضيا عن هذا وربما ترحيل بياناتك ، يمكنك إلغاء تثبيت القديم المجاني لتجنب تشغيله عن طريق الخطأ لأنك لن تحتاج إليه بعد الآن ، كما أنه سيمنع مربع الحوار هذا من الظهور. \n \nشكرا!</string>
+    <string name="upgraded_to_pro">مرحبًا \n \nيبدو أن لديك بالفعل إصدار تطبيق Pro أيضا. بمجرد أن تكون راضيا عنها وربما تقوم بترحيل بياناتك ، يمكنك إلغاء تثبيت هذا الجهاز لتجنب تشغيله عن طريق الخطأ لأنك لن تحتاج إليه بعد الآن. \n \nشكرا!</string>
+    <string name="upgraded_from_free_calendar">مرحبًا، \n \nيبدو أنك قمت بالترقية للتو من الإصدار المجاني. إذا كنت ترغب في ترحيل الأحداث المخزنة محليًا ، فيجب عليك القيام بذلك يدويًا عن طريق تصديرها إلى ملف ics في إصدار التطبيق المجاني والاستيراد هنا من خلال القائمة العلوية. \n \nبمجرد أن تشعر بالرضا عن الإعداد الخاص بك في إصدار Pro ، يمكنك إلغاء تثبيت الإصدار المجاني القديم لأنك لن تحتاج إليه بعد الآن ، كما سيمنع ظهور مربع الحوار هذا. \n \nشكرًا!</string>
+    <string name="upgraded_from_free_contacts">مرحبا \n \nيبدو أنك قمت بالترقية للتو من الإصدار المجاني. إذا كان لديك أي جهات اتصال مخزنة ضمن s ، فيجب عليك ترحيلها يدويا عن طريق التصدير في ملف .vcf من إصدار التطبيق المجاني والاستيراد هنا من خلال القائمة العلوية. \n \nبمجرد أن تشعر بالرضا عن الإعداد الخاص بك في الإصدار Pro ، يمكنك إلغاء تثبيت الإصدار المجاني القديم لأنك لن تحتاج إليه بعد الآن ، كما أنه سيمنع ظهور مربع الحوار هذا. \n \nشكرا!</string>
+    <string name="upgraded_from_free_notes">مرحبا \n \nيبدو أنك قمت بالترقية للتو من الإصدار المجاني. إذا كنت ترغب في ترحيل ملاحظاتك ، فعليك القيام بذلك يدويا عن طريق تصديرها إلى ملف في إصدار التطبيق المجاني والاستيراد هنا من خلال القائمة العلوية. \n \nبمجرد أن تشعر بالرضا عن الإعداد الخاص بك في الإصدار Pro ، يمكنك إلغاء تثبيت الإصدار المجاني القديم لأنك لن تحتاج إليه بعد الآن ، كما أنه سيمنع ظهور مربع الحوار هذا. \n \nشكرا!</string>
     <string name="about">حول</string>
     <string name="website_label">للحصول علي أكواد المصدر، تفضل بزيارة</string>
     <string name="email_label">أرسل ملاحظاتك أو اقتراحاتك إلى</string>
@@ -957,13 +912,11 @@
     <string name="additional_info">معلومات إضافية</string>
     <string name="app_version">إصدار التطبيق: %s</string>
     <string name="device_os">نظام تشغيل الجهاز: %s</string>
-    <string name="donate_please">
-        <![CDATA[
+    <string name="donate_please"><![CDATA[
  مرحباً,<br><br>
             أتمني أن مستمتعاً بالتطبيق. الذي لا يحتوي على إعلانات ، يرجى دعم تطويره من خلال شراء تطبيق <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>سيمنع هذا  مربع الحوار من الظهور مرة أخرى. <br><br>
             شكرا!
-        ]]>
-    </string>
+        ]]></string>
     <string name="purchase">شراء</string>
     <string name="before_asking_question_read_faq">قبل ان تسأل سؤالاً ، يرجى التحقق من إعدادات التطبيق وقراءة الأسئلة المتداولة أولاً. ربما يكون الحل موجوداً.</string>
     <string name="before_rate_read_faq">قبل أن تقيمنا ، يرجى التحقق من إعدادات التطبيق وقراءة الأسئلة الشائعة أولاً. إذا كان لديك أي مشاكل ، فربما يكون الحل موجوداً.</string>
@@ -974,10 +927,8 @@
     <string name="rate_us_prompt">مرحباً,\n\nيبدو أنك تستخدم هذا التطبيق لفترة طويلة بالفعل, ونحن نقدر ذلك حقاً.\n\nإذا استطعنا أن نطلب منك خدمة, فيرجى تقييمنا على Google Play. هذا سيساعدنا كثيراً \n\nوبغض النظر عن قرارك, لن تري هذه الرسالة مره أخري.\n\nشكراً!</string>
     <string name="rate_our_app">قيم تطبيقنا من فضلك :)</string>
     <string name="thank_you">شكراً جزيلاً</string>
-    <string name="widget_locked_pro">الأداة مقفلة.
-\nيرجى الترقية إلى إصدار Pro لإلغاء قفله.</string>
-    <string name="new_app">
-        <![CDATA[
+    <string name="widget_locked_pro">الأداة مقفلة. \nيرجى الترقية إلى إصدار Pro لإلغاء قفله.</string>
+    <string name="new_app"><![CDATA[
             مهلاً,<br><br>
             فقط لإخبارك أنه تم إصدار تطبيق جديد مؤخراً:<br><br>
             <a href="%1$s">%2$s</a><br><br>
@@ -985,8 +936,7 @@
             <a href="%5$s">%6$s</a><br><br>
             يمكنك تنزيله بالضغط على العنوان.<br><br>
             شكراً
-        ]]>
-    </string>
+        ]]></string>
     <string name="app_launcher_short">مشغل التطبيق</string>
     <string name="calculator_short">الحاسبة</string>
     <string name="calendar_short">التقويم</string>
@@ -1005,22 +955,20 @@
     <string name="sms_messenger_short">الرسائل القصيرة</string>
     <string name="thank_you_short">شكرًا لك</string>
     <string name="voice_recorder_short">مسجل الصوت</string>
-    <string name="sideloaded_app">
-        <![CDATA[
+    <string name="sideloaded_app"><![CDATA[
 يبدو أن إصدار التطبيق تالف. يرجى تنزيل الإصدار الأصلي<a href="%s">من هنا</a>.
-        ]]>
-    </string>
+        ]]></string>
     <string name="frequently_asked_questions">الأسئلة المتداولة</string>
     <string name="before_asking_question">قبل أن تسأل سؤالاً ، يرجى قراءة أولاً</string>
     <string name="faq_1_title_commons">كيف لا أرى هذه التطبيقات في قائمة التطبيقات المصغّرة (الويدجت)؟</string>
-    <string name="faq_1_text_commons">وهو على الأرجح لأنك قمت بنقل التطبيق على بطاقة الذاكرة (SD) هناك حد لنظام أندرويد يقوم باخفاء (الويدجت) للتطبيق المحدد           في هذه الحالة يتمثل الحل الوحيد في نقل التطبيق مرة أخرى إلى وحدة التخزين الداخلية من خلال إعدادات جهازك.</string>
+    <string name="faq_1_text_commons">وهو على الأرجح لأنك قمت بنقل التطبيق على بطاقة الذاكرة (SD) هناك حد لنظام أندرويد يقوم باخفاء (الويدجت) للتطبيق المحدد في هذه الحالة يتمثل الحل الوحيد في نقل التطبيق مرة أخرى إلى وحدة التخزين الداخلية من خلال إعدادات جهازك.</string>
     <string name="faq_2_title_commons">أريد ان أدعمكم لكن لا يمكنني التبرع بالمال هل هناك أي شيء آخر يمكنني فعله ؟</string>
     <string name="faq_3_title_commons">قمت بحذف بعض الملفات عن طريق الخطأ، كيف يمكنني إسترجاعها؟</string>
     <string name="faq_3_text_commons">للأسف، لا يمكنك. يتم حذف الملفات فوراً بعد مربع حوار التأكيد، لا توجد سلة محذوفات متاحة.</string>
     <string name="faq_4_title_commons">أنا لا أحب ألوان (الويدجت)، هل يمكنني تغييرها؟</string>
     <string name="faq_4_text_commons">نعم، عند سحب الويدجت على شاشتك الرئيسية ستظهر شاشة إعدادات الويدجت. سترى المربعات الملونة في الزاوية اليسرى السفلى، فقط اضغط عليها لاختيار لون جديد. يمكنك استخدام شريط التمرير لضبط الشفافية أيضاً.</string>
     <string name="faq_5_title_commons">هل يمكنني بطريقة ما إسترجاع الملفات المحذوفة؟</string>
-    <string name="faq_5_text_commons">إذا تم حذفها بالفعل ، لا يمكنك ذلك. ومع ذلك ، يتم تمكين "سلة المحذوفات" إفتراضياً ، مما يؤدي إلى نقل الملفات في "سلة المحذوفات" بدلاً من حذفها.</string>
+    <string name="faq_5_text_commons">إذا تم حذفها بالفعل ، لا يمكنك ذلك. ومع ذلك ، يتم تمكين سلة المحذوفات إفتراضياً ، مما يؤدي إلى نقل الملفات في سلة المحذوفات بدلاً من حذفها.</string>
     <string name="faq_6_title_commons">أختفت أيقونة مشغل التطبيق. ماذا يمكنني أن أفعل؟</string>
     <string name="faq_7_title_commons">تم خصم المال من حسابي البنكي ، لكن لا يمكنني تنزيل التطبيق. ماذا يمكنني أن أفعل؟</string>
     <string name="faq_7_text_commons">تتم معالجة المدفوعات بالكامل بواسطة Google ، حيث يتسبب نظامها في خلل من وقت لآخر. فقط قم بمسح ذاكرة التخزين المؤقت للتطبيق في Google Play وإعد تشغيل جهازك ، ثم أعد محاولة تنزيله.</string>
@@ -1076,7 +1024,7 @@
     <string name="joda_title">جودا تايم (إستبدال تاريخ الجافا)</string>
     <string name="stetho_title">ستيثو (تصحيح قواعد البيانات)</string>
     <string name="otto_title">أوتو (ناقل الأحداث)</string>
-    <string name="photoview_title">عرض الصورة (الصور المتحركة "GIF" القابلة للتكبير)</string>
+    <string name="photoview_title">عرض الصورة (الصور المتحركة GIF القابلة للتكبير)</string>
     <string name="pattern_title">نمط الحماية</string>
     <string name="reprint_title">بصمة الحماية</string>
     <string name="gif_drawable_title">تحميل الصور المتحركة (GIF)</string>
@@ -1106,11 +1054,7 @@
     <string name="unlock_for_one_final_day">افتح التطبيق ليوم أخير</string>
     <string name="welcome_to_app_name">مرحبا بكم في %s!</string>
     <string name="trial_start_description">شكراً لك على استخدام تطبيقنا يمكنك استخدام هذه النسخة غير المقفلة لأيام <font color="#FFFFFF">%d </font>. وحالما تنتهي التجربة، يرجى النظر في الترقية إلى النسخة الكاملة. ولها كمية كبيرة من الملامح الجديدة، والتصميم الحديث، ولا يحتوي اعلانات، وغير ذلك من التحسينات. \n \nعليك فقط أن تدفع ثمنها مرة واحدة في العمر وإذا لم تكن راضياً، يمكنك أن تلغي التثبيت وتحصل على أموالك \n \nأتمنى أن تعجبك</string>
-    <string name="trial_end_description">يرجى الترقية إلى الإصدار الاحترافي للاستمتاع بالتطبيق على أكمل وجه.
-\n
-\nعليك فقط أن تدفع ثمنها مرة واحدة في العمر وإذا لم تكن راضيًا ، يمكنك إلغاء تثبيتها واسترداد أموالك.
-\n
-\nاراك هناك :)</string>
+    <string name="trial_end_description">يرجى الترقية إلى الإصدار الاحترافي للاستمتاع بالتطبيق على أكمل وجه. \n \nعليك فقط أن تدفع ثمنها مرة واحدة في العمر وإذا لم تكن راضيًا ، يمكنك إلغاء تثبيتها واسترداد أموالك. \n \nاراك هناك :)</string>
     <plurals name="trial_expires_days">
         <item quantity="zero">تنتهي صلاحية الإصدار التجريبي في اليوم %d.</item>
         <item quantity="one">تنتهي صلاحية الإصدار التجريبي في اليوم %d.</item>
@@ -1122,4 +1066,123 @@
     <string name="deprecated_app">لم يعد يجري العمل عليه: لم يعد هذا الإصدار من التطبيق يجري العمل عليه، قم بالحصول على الإصدار الـ Pro على https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">لا تنسى أنه إذا قمت بإلغاء تثبيت أي تطبيق مدفوع في غضون ساعتين ، فسيتم إسترداد أموالك تلقائياً. إذا كنت تريد إسترداد الأموال في أي وقت لاحق ، فأتصل بنا على hello@fossify.org وستحصل عليه. هذا يجعل من السهل تجربته :)</string>
     <string name="developer_description">مجموعة بسيطة، من تطبيقات أندرويد المفتوحة المصدر ذات الودجات القابلة للتخصيص، بدون إعلانات أو أذونات غير ضرورية.</string>
+    <string name="translation_central_kurdish"></string>
+    <string name="translation_chuvash"></string>
+    <string name="translation_greek"></string>
+    <string name="translation_esperanto"></string>
+    <string name="february_short"></string>
+    <string name="october_short"></string>
+    <string name="translation_indonesian"></string>
+    <string name="add_password"></string>
+    <string name="send_sms"></string>
+    <string name="contact_details"></string>
+    <string name="june_short"></string>
+    <string name="translation_persian"></string>
+    <string name="auto_theme"></string>
+    <string name="white"></string>
+    <string name="view_contact_details"></string>
+    <string name="add_contact"></string>
+    <string name="full_name"></string>
+    <string name="password"></string>
+    <string name="enter_password"></string>
+    <string name="week_number_short"></string>
+    <string name="december_short"></string>
+    <string name="website"></string>
+    <string name="translation_croatian"></string>
+    <string name="translation_hindi"></string>
+    <string name="translation_galician"></string>
+    <string name="translation_slovak"></string>
+    <string name="translation_russian"></string>
+    <string name="translation_romanian"></string>
+    <string name="translation_slovenian"></string>
+    <string name="translation_chinese_hk"></string>
+    <string name="translation_chinese_cn"></string>
+    <string name="translation_chinese_tw"></string>
+    <string name="why_upgrade_pro_version"></string>
+    <string name="files_tab"></string>
+    <string name="apply_to_all_apps"></string>
+    <string name="all_fossify_apps"></string>
+    <string name="recent_files_tab"></string>
+    <string name="deletion_confirmation_short"></string>
+    <string name="block_contact"></string>
+    <string name="november_short"></string>
+    <string name="july_short"></string>
+    <string name="notification_sound"></string>
+    <string name="translation_spanish"></string>
+    <string name="may_short"></string>
+    <string name="send_email"></string>
+    <string name="hours_letter"></string>
+    <string name="add_number_to_contact"></string>
+    <string name="translation_belarusian"></string>
+    <string name="translation_welsh"></string>
+    <string name="translation_czech"></string>
+    <string name="genre"></string>
+    <string name="seconds_letter"></string>
+    <string name="purchase_simple_thank_you"></string>
+    <string name="one"></string>
+    <string name="translation_italian"></string>
+    <string name="translation_basque"></string>
+    <string name="august_short"></string>
+    <string name="donate_short"></string>
+    <string name="translation_vietnamese"></string>
+    <string name="other_help"></string>
+    <string name="donate_new"></string>
+    <string name="translation_serbian"></string>
+    <string name="theme_and_colors"></string>
+    <string name="translation_kabyle"></string>
+    <string name="minutes_letter"></string>
+    <string name="shared_theme_note"></string>
+    <string name="pin_item"></string>
+    <string name="audio"></string>
+    <string name="zero"></string>
+    <string name="translation_hebrew"></string>
+    <string name="features_locked"></string>
+    <string name="system_default"></string>
+    <string name="translation_danish"></string>
+    <string name="translation_english"></string>
+    <string name="translation_german"></string>
+    <string name="format_phone_numbers"></string>
+    <string name="list_view"></string>
+    <string name="january_short"></string>
+    <string name="april_short"></string>
+    <string name="march_short"></string>
+    <string name="other"></string>
+    <string name="help_us"></string>
+    <string name="support"></string>
+    <string name="version_placeholder"></string>
+    <string name="social"></string>
+    <string name="translation_polish"></string>
+    <string name="translation_portuguese"></string>
+    <string name="translation_nepali"></string>
+    <string name="translation_norwegian"></string>
+    <string name="translation_dutch"></string>
+    <string name="translation_catalan"></string>
+    <string name="translation_bulgarian"></string>
+    <string name="translation_breton"></string>
+    <string name="known_issues"></string>
+    <string name="copyright"></string>
+    <string name="update_thank_you"></string>
+    <string name="donate_to_fossify"></string>
+    <string name="little_to_no_fee"></string>
+    <string name="platforms"></string>
+    <string name="faq_2_text_commons"></string>
+    <string name="cryptocurrency"></string>
+    <string name="fee_up_to_pct"></string>
+    <string name="contributors_label"></string>
+    <string name="translation_bengali"></string>
+    <string name="translation_azerbaijani"></string>
+    <string name="translation_arabic"></string>
+    <string name="translation_finnish"></string>
+    <string name="translation_french"></string>
+    <string name="translation_hungarian"></string>
+    <string name="translation_swedish"></string>
+    <string name="translation_lithuanian"></string>
+    <string name="translation_gujarati"></string>
+    <string name="translation_turkish"></string>
+    <string name="translation_tamil"></string>
+    <string name="translation_japanese"></string>
+    <string name="translation_ukrainian"></string>
+    <string name="translation_korean"></string>
+    <string name="why_upgrade_recents_tab"></string>
+    <string name="why_upgrade_file_compression"></string>
 </resources>
