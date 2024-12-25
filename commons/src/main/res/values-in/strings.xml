@@ -207,9 +207,9 @@
     <string name="invalid_name">Nama berisi karakter tidak valid</string>
     <string name="empty_name">Silakan masukkan nama</string>
     <string name="unknown_error_occurred">Telah terjadi kesalahan yang tidak diketahui</string>
-    <string name="file_already_exists">Berkas \"%s\" sudah ada</string>
-    <string name="file_already_exists_overwrite">Berkas \"%s\" sudah ada. Ganti?</string>
-    <string name="folder_already_exists">Folder \"%s\" sudah ada</string>
+    <string name="file_already_exists">Berkas s sudah ada</string>
+    <string name="file_already_exists_overwrite">Berkas s sudah ada. Ganti?</string>
+    <string name="folder_already_exists">Folder s sudah ada</string>
     <string name="merge">Gabung</string>
     <string name="keep_both">Simpan keduanya</string>
     <string name="overwrite">Timpa</string>
@@ -243,7 +243,6 @@
         <item quantity="other">Menghapus %d item</item>
     </plurals>
     <plurals name="delete_contacts">
-        <item quantity="one">%d kontak</item>
         <item quantity="other">%d kontak</item>
     </plurals>
     <string name="select_storage">Pilih penyimpanan</string>
@@ -251,8 +250,7 @@
     <string name="sd_card">Kartu SD</string>
     <string name="wrong_root_selected">Folder salah, silakan pilih folder root kartu SD anda</string>
     <string name="sd_card_usb_same">Jalur kartu SD dan perangkat USB tidak boleh sama</string>
-    <string name="app_on_sd_card">Kelihatannya anda memasang aplikasi ini di kartu SD, sehingga widget tidak tersedia. Anda tidak akan melihatnya di daftar widget yang tersedia.
-        Ini adalah keterbatasan sistem, jika anda ingin menggunakan widget, anda harus memindahkan aplikasi ke penyimpanan internal.</string>
+    <string name="app_on_sd_card">Kelihatannya anda memasang aplikasi ini di kartu SD, sehingga widget tidak tersedia. Anda tidak akan melihatnya di daftar widget yang tersedia. Ini adalah keterbatasan sistem, jika anda ingin menggunakan widget, anda harus memindahkan aplikasi ke penyimpanan internal.</string>
     <string name="wrong_folder_selected">Folder yang dipilih salah, mohon pilih jalur \'%s\'</string>
     <string name="properties">Properti</string>
     <string name="path">Jalur</string>
@@ -271,7 +269,7 @@
     <string name="gps_coordinates">Koordinat GPS</string>
     <string name="altitude">Ketinggian</string>
     <string name="remove_exif">Hapus EXIF</string>
-    <string name="remove_exif_confirmation">Apakah Anda ingin menghapus nilai EXIF seperti koordinat GPS, model kamera dll\?</string>
+    <string name="remove_exif_confirmation">Apakah Anda ingin menghapus nilai EXIF seperti koordinat GPS, model kamera dll?</string>
     <string name="exif_removed">Nilai EXIF berhasil dihapus</string>
     <string name="background_color">Warna latar belakang</string>
     <string name="text_color">Warna teks</string>
@@ -488,8 +486,7 @@
     </plurals>
     <string name="alarm_goes_off_in">Sisa waktu hingga alarm berbunyi:\n%s</string>
     <string name="reminder_triggers_in">Sisa waktu hingga pengingat muncul:\n%s</string>
-    <string name="time_remaining">Waktu tersisa: 
-\n%s</string>
+    <string name="time_remaining">Waktu tersisa: \n%s</string>
     <string name="alarm_warning">Silakan pastikan alarm berfungsi dengan baik sebelum menggunakannya. Bisa saja terjadi salah tindakan karena keterbatasan sistem terkait penghematan baterai.</string>
     <string name="reminder_warning">Silakan pastikan pengingat berfungsi dengan baik sebelum menggunakannya. Bisa saja terjadi salah tindakan karena keterbatasan sistem terkait penghematan baterai.</string>
     <string name="notifications_disabled">Notifikasi aplikasi ini dinonaktifkan. Silakan buka pengaturan perangkat untuk mengaktifkannya.</string>
@@ -562,7 +559,7 @@
     <string name="excluded">(tidak disertakan)</string>
     <string name="manage_excluded_folders">Kelola folder yang dikecualikan</string>
     <string name="remove_all">Buang semua</string>
-    <string name="remove_all_description">Buang semua folder dari daftar pengecualian\? Ini tidak akan menghapus folder tersebut.</string>
+    <string name="remove_all_description">Buang semua folder dari daftar pengecualian? Ini tidak akan menghapus folder tersebut.</string>
     <string name="temporarily_show_excluded">Tampilkan sementara yang tidak termasuk</string>
     <string name="stop_showing_excluded">Berhenti menampilkan yang tidak termasuk</string>
     <string name="manage_shown_tabs">Kelola tab yang ditampilkan</string>
@@ -601,14 +598,7 @@
     <string name="backups">Cadangan</string>
     <string name="enable_automatic_backups">Aktifkan cadangan otomatis</string>
     <string name="manage_automatic_backups">Kelola cadangan otomatis</string>
-    <string name="date_time_pattern_info">Anda dapat menggunakan pola berikut untuk menamai berkas Anda secara otomatis:
-\n
-\n%Y - tahun
-\n%M - bulan
-\n%D - hari
-\n%h - jam
-\n%m - menit
-\n%s - detik</string>
+    <string name="date_time_pattern_info">Anda dapat menggunakan pola berikut untuk menamai berkas Anda secara otomatis: \n \n%Y - tahun \n%M - bulan \n%D - hari \n%h - jam \n%m - menit \n%s - detik</string>
     <string name="usb_detected">Sepertinya anda memiliki perangkat USB di perangkat anda. Untuk memastikan berkas ditampilkan dengan benar, anda perlu memberi izin akses tambahan.</string>
     <string name="confirm_usb_storage_access_text">Silakan pilih folder root perangkat USB di layar berikutnya untuk memberi izin akses</string>
     <string name="wrong_root_selected_usb">Folder yang dipilih salah, silakan pilih folder root perangkat USB</string>
@@ -659,47 +649,13 @@
     <string name="more_info">Info selengkapnya</string>
     <string name="upgrade">Tingkatkan</string>
     <string name="upgrade_calendar">Anda perlu memindahkan acara yang disimpan lokal secara manual dengan cara mengekspornya ke berkas .ics, lalu mengimpornya kembali. Anda bisa menemukan tombol ekspor/impor di layar menu utama.</string>
-    <string name="upgraded_from_free_gallery">Halo,
-\n
-\nsepertinya Anda baru saja meng-upgrade dari versi gratis. Setelah Anda puas dengan yang ini dan mungkin memindahkan pengaturan dan favorit Anda, Anda dapat menghapus instalasi yang lama yang gratis untuk menghindari meluncurkannya secara tidak sengaja karena Anda tidak akan membutuhkannya lagi, ini juga akan mencegah dialog ini muncul.
-\n
-\nTerima kasih!</string>
-    <string name="upgraded_to_pro_gallery">Halo,
-\n
-\nSepertinya Anda sudah memiliki versi aplikasi Pro juga. Setelah Anda puas dengan aplikasi ini dan mungkin memindahkan pengaturan dan favorit Anda, Anda bisa menghapus instalan aplikasi ini untuk menghindari peluncurannya secara tidak sengaja karena Anda tidak memerlukannya lagi.
-\n
-\nTerima kasih!</string>
-    <string name="upgraded_from_free">Halo,
-\n
-\nsepertinya Anda baru saja meng-upgrade dari versi gratis. Setelah Anda puas dengan yang ini dan mungkin memindahkan data Anda, Anda dapat menghapus instalasi yang lama untuk menghindari peluncurannya secara tidak sengaja karena Anda tidak akan membutuhkannya lagi, ini juga akan mencegah dialog ini muncul.
-\n
-\nTerima kasih!</string>
-    <string name="upgraded_to_pro">Halo,
-\n
-\nsepertinya Anda sudah memiliki versi aplikasi Pro juga. Setelah Anda puas dengan aplikasi ini dan mungkin memigrasikan data Anda, Anda dapat menghapus instalasi aplikasi ini untuk menghindari peluncuran aplikasi ini secara tidak sengaja karena Anda tidak akan membutuhkannya lagi.
-\n
-\nTerima kasih!</string>
-    <string name="upgraded_from_free_calendar">Halo,
-\n
-\nsepertinya Anda baru saja melakukan upgrade dari versi gratis. Jika Anda ingin memindahkan acara yang tersimpan secara lokal, Anda harus melakukannya secara manual dengan mengekspornya ke file .ics di versi aplikasi gratis dan mengimpornya di sini melalui menu atas.
-\n
-\nSetelah Anda puas dengan pengaturan Anda di versi Pro, Anda dapat menghapus instalasi versi gratis yang lama karena Anda tidak memerlukannya lagi, ini juga akan mencegah dialog ini muncul.
-\n
-\nTerima kasih!</string>
-    <string name="upgraded_from_free_contacts">Halo,
-\n
-\nsepertinya Anda baru saja melakukan upgrade dari versi gratis. Jika Anda memiliki kontak yang tersimpan di bawah \"%s\", Anda harus memigrasikannya secara manual dengan mengekspor file .vcf dari versi aplikasi gratis dan mengimpornya di sini melalui menu atas.
-\n
-\nSetelah Anda puas dengan pengaturan Anda di versi Pro, Anda dapat menghapus versi gratis yang lama karena Anda tidak memerlukannya lagi, ini juga akan mencegah dialog ini muncul.
-\n
-\nTerima kasih!</string>
-    <string name="upgraded_from_free_notes">Halo,
-\n
-\nsepertinya Anda baru saja meng-upgrade dari versi gratis. Jika Anda ingin memindahkan catatan Anda, Anda harus melakukannya secara manual dengan mengekspornya ke dalam file di versi aplikasi gratis dan mengimpornya di sini melalui menu atas.
-\n
-\nSetelah Anda puas dengan pengaturan Anda di versi Pro, Anda dapat menghapus instalasi versi gratis yang lama karena Anda tidak akan membutuhkannya lagi, ini juga akan mencegah dialog ini muncul.
-\n
-\nTerima kasih!</string>
+    <string name="upgraded_from_free_gallery">Halo, \n \nsepertinya Anda baru saja meng-upgrade dari versi gratis. Setelah Anda puas dengan yang ini dan mungkin memindahkan pengaturan dan favorit Anda, Anda dapat menghapus instalasi yang lama yang gratis untuk menghindari meluncurkannya secara tidak sengaja karena Anda tidak akan membutuhkannya lagi, ini juga akan mencegah dialog ini muncul. \n \nTerima kasih!</string>
+    <string name="upgraded_to_pro_gallery">Halo, \n \nSepertinya Anda sudah memiliki versi aplikasi Pro juga. Setelah Anda puas dengan aplikasi ini dan mungkin memindahkan pengaturan dan favorit Anda, Anda bisa menghapus instalan aplikasi ini untuk menghindari peluncurannya secara tidak sengaja karena Anda tidak memerlukannya lagi. \n \nTerima kasih!</string>
+    <string name="upgraded_from_free">Halo, \n \nsepertinya Anda baru saja meng-upgrade dari versi gratis. Setelah Anda puas dengan yang ini dan mungkin memindahkan data Anda, Anda dapat menghapus instalasi yang lama untuk menghindari peluncurannya secara tidak sengaja karena Anda tidak akan membutuhkannya lagi, ini juga akan mencegah dialog ini muncul. \n \nTerima kasih!</string>
+    <string name="upgraded_to_pro">Halo, \n \nsepertinya Anda sudah memiliki versi aplikasi Pro juga. Setelah Anda puas dengan aplikasi ini dan mungkin memigrasikan data Anda, Anda dapat menghapus instalasi aplikasi ini untuk menghindari peluncuran aplikasi ini secara tidak sengaja karena Anda tidak akan membutuhkannya lagi. \n \nTerima kasih!</string>
+    <string name="upgraded_from_free_calendar">Halo, \n \nsepertinya Anda baru saja melakukan upgrade dari versi gratis. Jika Anda ingin memindahkan acara yang tersimpan secara lokal, Anda harus melakukannya secara manual dengan mengekspornya ke file .ics di versi aplikasi gratis dan mengimpornya di sini melalui menu atas. \n \nSetelah Anda puas dengan pengaturan Anda di versi Pro, Anda dapat menghapus instalasi versi gratis yang lama karena Anda tidak memerlukannya lagi, ini juga akan mencegah dialog ini muncul. \n \nTerima kasih!</string>
+    <string name="upgraded_from_free_contacts">Halo, \n \nsepertinya Anda baru saja melakukan upgrade dari versi gratis. Jika Anda memiliki kontak yang tersimpan di bawah s Anda harus memigrasikannya secara manual dengan mengekspor file .vcf dari versi aplikasi gratis dan mengimpornya di sini melalui menu atas. \n \nSetelah Anda puas dengan pengaturan Anda di versi Pro, Anda dapat menghapus versi gratis yang lama karena Anda tidak memerlukannya lagi, ini juga akan mencegah dialog ini muncul. \n \nTerima kasih!</string>
+    <string name="upgraded_from_free_notes">Halo, \n \nsepertinya Anda baru saja meng-upgrade dari versi gratis. Jika Anda ingin memindahkan catatan Anda, Anda harus melakukannya secara manual dengan mengekspornya ke dalam file di versi aplikasi gratis dan mengimpornya di sini melalui menu atas. \n \nSetelah Anda puas dengan pengaturan Anda di versi Pro, Anda dapat menghapus instalasi versi gratis yang lama karena Anda tidak akan membutuhkannya lagi, ini juga akan mencegah dialog ini muncul. \n \nTerima kasih!</string>
     <string name="about">Tentang</string>
     <string name="website_label">Untuk kode sumber kunjungi</string>
     <string name="email_label">Kirim umpanbalik atau saran ke</string>
@@ -726,21 +682,11 @@
     <string name="make_sure_upgrade">Perhatikan juga bahwa versi aplikasi ini tidak lagi dikembangkan, dapatkan versi Pro untuk banyak peningkatan.</string>
     <string name="read_it">Baca</string>
     <string name="read_faq">Baca FAQ</string>
-    <string name="rate_us_prompt">Halo,
-\n
-\nsepertinya Anda sudah cukup lama menggunakan aplikasi ini, dan kami sangat menghargainya.
-\n
-\nJika kami bisa meminta bantuan Anda, tolong beri nilai kami di Google Play. Itu akan sangat membantu kami.
-\n
-\nBagaimanapun Anda memutuskan, Anda tidak akan melihat pesan ini lagi.
-\n
-\nTerima kasih!</string>
+    <string name="rate_us_prompt">Halo, \n \nsepertinya Anda sudah cukup lama menggunakan aplikasi ini, dan kami sangat menghargainya. \n \nJika kami bisa meminta bantuan Anda, tolong beri nilai kami di Google Play. Itu akan sangat membantu kami. \n \nBagaimanapun Anda memutuskan, Anda tidak akan melihat pesan ini lagi. \n \nTerima kasih!</string>
     <string name="rate_our_app">Tolong beri nilai aplikasi kami :)</string>
     <string name="thank_you">Terima kasih</string>
-    <string name="widget_locked_pro">Widget terkunci.
-\nHarap tingkatkan ke versi Pro untuk membukanya.</string>
-    <string name="new_app">
-        <![CDATA[
+    <string name="widget_locked_pro">Widget terkunci. \nHarap tingkatkan ke versi Pro untuk membukanya.</string>
+    <string name="new_app"><![CDATA[
             Hai,<br><br>
             hanya memberitahu ada aplikasi baru dirilis:<br><br>
             <a href="%1$s">%2$s</a><br><br>
@@ -748,8 +694,7 @@
             <a href="%5$s">%6$s</a><br><br>
             Anda bisa mengunduhnya dengan menekan judulnya.<br><br>
             Terima kasih
-        ]]>
-    </string>
+        ]]></string>
     <string name="app_launcher_short">Peluncur Aplikasi</string>
     <string name="calculator_short">Kalkulator</string>
     <string name="calendar_short">Kalender</string>
@@ -765,16 +710,13 @@
     <string name="sms_messenger_short">Perpesanan SMS</string>
     <string name="thank_you_short">Terima Kasih</string>
     <string name="voice_recorder_short">Perekam Suara</string>
-    <string name="sideloaded_app">
-        <![CDATA[
+    <string name="sideloaded_app"><![CDATA[
             Sepertinya versi aplikasi anda rusak. Silakan unduh versi original <a href="%s">di sini</a>.
-        ]]>
-    </string>
+        ]]></string>
     <string name="frequently_asked_questions">FAQ</string>
     <string name="before_asking_question">Sebelum anda bertanya, silakan baca</string>
     <string name="faq_1_title_commons">Kenapa saya tidak melihat widget aplikasi ini di daftar widget?</string>
-    <string name="faq_1_text_commons">Kemungkinan besar karena anda memindahkan aplikasi ke kartu SD. Ada keterbatasan sistem Android yang akan menyembunyikan widget aplikasi
-        karena hal tersebut. Satu-satunya solusi adalah memindahkannya kembali ke Penyimpanan Internal melalui pengaturan perangkat anda.</string>
+    <string name="faq_1_text_commons">Kemungkinan besar karena anda memindahkan aplikasi ke kartu SD. Ada keterbatasan sistem Android yang akan menyembunyikan widget aplikasi karena hal tersebut. Satu-satunya solusi adalah memindahkannya kembali ke Penyimpanan Internal melalui pengaturan perangkat anda.</string>
     <string name="faq_2_title_commons">Saya ingin mendukung Anda, tetapi saya tidak bisa berdonasi. Adakah cara lain yang bisa saya lakukan?</string>
     <string name="faq_3_title_commons">Saya tidak sengaja menghapus berkas, bagaimana saya memulihkannya?</string>
     <string name="faq_3_text_commons">Sayangnya, Anda tidak bisa. File dihapus secara instan setelah dialog konfirmasi, tidak ada tempat sampah yang tersedia.</string>
@@ -785,9 +727,9 @@
     <string name="faq_6_title_commons">Ikon launcher aplikasi menghilang. Apa yang bisa saya lakukan?</string>
     <string name="faq_7_title_commons">Rekening bank saya telah berkurang, tetapi saya tidak bisa mengunduh aplikasi. Apa yang bisa saya lakukan?</string>
     <string name="faq_7_text_commons">Pembayaran sepenuhnya dikelola oleh Google, sistem mereka terkadang tidak bekerja sebagaimana mestinya. Cukup hapus cache apl Google Play dan mulai ulang perangkat anda, lalu ulangi mengunduh.</string>
-    <string name="faq_8_title_commons">Mengapa saya harus meningkatkan ke versi Pro\?</string>
+    <string name="faq_8_title_commons">Mengapa saya harus meningkatkan ke versi Pro?</string>
     <string name="faq_8_text_commons">Karena versi aplikasi Anda tidak lagi diperbarui, kutu yang mungkin Anda temukan tidak akan pernah diperbaiki. Tidak akan ada fungsi baru yang ditambahkan. Anda dapat membeli versi Pro di Google Play dengan sejumlah uang yang sedikit. Ini adalah pembayaran satu kali, yang berarti bahwa setelah Anda membelinya, Anda tidak perlu membayar lagi, bahkan setelah mendapatkan perangkat baru. Jika Anda tidak menyukai versi Pro, Anda dapat menghapus instalannya dalam beberapa jam dan Anda akan secara otomatis mendapatkan uang Anda kembali. Jika Anda menginginkan pengembalian dana kapan saja nanti, cukup hubungi kami di hello@fossify.org dan Anda akan mendapatkannya.</string>
-    <string name="faq_9_title_commons">Bagaimana saya bisa memilih beberapa item sekaligus\?</string>
+    <string name="faq_9_title_commons">Bagaimana saya bisa memilih beberapa item sekaligus?</string>
     <string name="faq_9_text_commons">Ada beberapa cara untuk melakukan itu. Cara pertama adalah memulai mode pemilihan dengan menekan lama satu item, kemudian klik pendek pada item lain untuk memilihnya. Cara kedua mirip dengan memilih item pada PC dengan mouse, cukup mulai mode pemilihan dengan menekan lama satu item, kemudian dengan jari Anda masih di bawah seret ke item lain untuk memilih. Cara ketiga untuk memilih beberapa item adalah dengan menekan lama satu item, kemudian menekan lama item lainnya dan semua yang ada di antaranya akan dipilih. Jika Anda ingin memilih semua item, cukup tekan lama satu item, kemudian klik pada penghitung item yang dipilih di sudut kiri atas. Itu akan memilih atau membatalkan pemilihan semua item.</string>
     <string name="faq_10_title_commons">Saya telah membeli aplikasinya, tetapi saya tidak bisa mengunduhnya di perangkat lain.</string>
     <string name="faq_10_text_commons">Coba bersihkan cache aplikasi Google Play Anda dan mulai ulang perangkat Anda. Ini adalah kesalahan Google Play, tidak benar-benar terkait dengan aplikasi itu sendiri.</string>
@@ -867,11 +809,7 @@
     <string name="unlock_for_one_final_day">Buka kunci aplikasi untuk satu hari terakhir</string>
     <string name="welcome_to_app_name">Selamat datang di %s!</string>
     <string name="trial_start_description">Terima kasih telah menggunakan aplikasi kami. Anda dapat menggunakan versi yang tidak terkunci ini selama <font color="#FFFFFF">%d hari</font>. Setelah uji coba berakhir, harap pertimbangkan untuk meningkatkan ke versi Pro. Ini memiliki sejumlah besar fitur baru, desain modern, tidak ada iklan dan banyak peningkatan lainnya. \n \nAnda hanya perlu membayarnya sekali seumur hidup dan jika Anda tidak puas, Anda dapat menghapus instalannya dan mendapatkan pengembalian dana. \n \nSemoga Anda akan menyukainya :)</string>
-    <string name="trial_end_description">Silakan tingkatkan ke versi Pro untuk menikmati aplikasi ini sepenuhnya.
-\n
-\nAnda hanya perlu membayarnya sekali seumur hidup dan jika Anda tidak puas, Anda dapat menghapus instalannya dan mendapatkan pengembalian dana.
-\n
-\nSampai jumpa di sana :)</string>
+    <string name="trial_end_description">Silakan tingkatkan ke versi Pro untuk menikmati aplikasi ini sepenuhnya. \n \nAnda hanya perlu membayarnya sekali seumur hidup dan jika Anda tidak puas, Anda dapat menghapus instalannya dan mendapatkan pengembalian dana. \n \nSampai jumpa di sana :)</string>
     <string name="deprecated_app">TIDAK DIDUKUNG: Versi aplikasi ini tidak lagi dikembangkan, dapatkan versi Pro di https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">Jangan lupa, jika Anda mencopot aplikasi berbayar apa pun dalam waktu 2 jam, uang Anda akan otomatis dikembalikan. Jika Anda ingin pengembalian dilakukan lain waktu, cukup hubungi hello@fossify.org dan Anda akan mendapatkannya. Itu mempermudah Anda untuk mencobanya terlebih dahulu. :)</string>
     <string name="developer_description">Sekelompok aplikasi Android sumber terbuka sederhana dengan widget yang dapat disesuaikan, tanpa iklan dan perizinan yang tidak diperlukan.</string>
@@ -1057,4 +995,5 @@
     <string name="theme_and_colors">Tema dan warna</string>
     <string name="all_fossify_apps">Semua aplikasi Fossify</string>
     <string name="known_issues">Masalah yang diketahui</string>
+    <string name="translation_kabyle"></string>
 </resources>
