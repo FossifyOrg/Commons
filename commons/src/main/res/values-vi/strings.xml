@@ -97,7 +97,7 @@
     <string name="export_blocked_numbers">Xuất số bị chặn</string>
     <string name="import_blocked_numbers">Nhập số bị chặn</string>
     <string name="must_make_default_dialer">Bạn cần phải đặt ứng dụng này thành ứng dụng quay số mặc định để có thể chặn số điện thoại.</string>
-    <string name="block_confirmation">Bạn có chắc là muốn chặn \"%s\"\?</string>
+    <string name="block_confirmation">Bạn có chắc là muốn chặn s?</string>
     <string name="block_unknown_calls">Chặn cuộc gọi từ liên hệ không có trong danh bạ lưu trữ</string>
     <string name="block_hidden_calls">Chặn cuộc gọi từ số ẩn</string>
     <string name="block_unknown_messages">Chặn tin nhắn từ số không có trong danh bạ lưu trữ</string>
@@ -193,7 +193,7 @@
     <string name="please_select_destination">Hãy chọn một nơi lưu</string>
     <string name="source_and_destination_same">Nguồn và đích không thể trùng nhau</string>
     <string name="copy_failed">Không thể sao chép file</string>
-    <string name="copying">Đang sao chép... </string>
+    <string name="copying">Đang sao chép...</string>
     <string name="copying_success">Sao chép file thành công</string>
     <string name="copying_success_one">Sao chép file thành công</string>
     <string name="copy_move_failed">Đã xảy ra lỗi</string>
@@ -219,7 +219,7 @@
     <string name="unknown_error_occurred">Xảy ra lỗi không xác định</string>
     <string name="file_already_exists">File \"%s\" đã tồn tại</string>
     <string name="file_already_exists_overwrite">File \"%s\" đã tồn tại. Ghi đè?</string>
-    <string name="folder_already_exists">Thư mục \"%s\" đã tồn tại</string>
+    <string name="folder_already_exists">Thư mục s đã tồn tại</string>
     <string name="merge">Kết hợp</string>
     <string name="keep_both">Giữ cả hai</string>
     <string name="overwrite">Ghi đè</string>
@@ -250,8 +250,7 @@
     <string name="sd_card">Thẻ SD</string>
     <string name="wrong_root_selected">Đã chọn sai thư mục, vui lòng chọn thư mục gốc của thẻ SD của bạn</string>
     <string name="sd_card_usb_same">Đường dẫn thẻ SD và thiết bị USB không thể giống nhau</string>
-    <string name="app_on_sd_card">Bạn dường như đã cài đặt ứng dụng trên thẻ SD, điều đó làm cho các widget ứng dụng không khả dụng. Bạn thậm chí sẽ không nhìn thấy chúng trong danh sách các widget có sẵn.
-         Đây là một giới hạn hệ thống, vì vậy nếu bạn muốn sử dụng các widget, bạn phải di chuyển ứng dụng vào bộ nhớ trong.</string>
+    <string name="app_on_sd_card">Bạn dường như đã cài đặt ứng dụng trên thẻ SD, điều đó làm cho các widget ứng dụng không khả dụng. Bạn thậm chí sẽ không nhìn thấy chúng trong danh sách các widget có sẵn. Đây là một giới hạn hệ thống, vì vậy nếu bạn muốn sử dụng các widget, bạn phải di chuyển ứng dụng vào bộ nhớ trong.</string>
     <string name="wrong_folder_selected">Chọn sai thư mục, vui lòng chọn đường dẫn \'%s\'</string>
     <string name="properties">Chi tiết</string>
     <string name="path">Đường dẫn</string>
@@ -374,8 +373,7 @@
     <string name="please_enter_pin">Vui lòng nhập mã PIN</string>
     <string name="wrong_pin">PIN sai</string>
     <string name="pin_must_be_4_digits_long">Mã PIN phải dài ít nhất 4 chữ số</string>
-    <string name="too_many_incorrect_attempts">Quá nhiều lần thử sai.
-\nThử lại sau %d giây.</string>
+    <string name="too_many_incorrect_attempts">Quá nhiều lần thử sai. \nThử lại sau %d giây.</string>
     <string name="repeat_pin">Lặp lại mã PIN</string>
     <string name="pattern">Mẫu hình</string>
     <string name="insert_pattern">Chèn mẫu hình</string>
@@ -411,8 +409,7 @@
     <string name="days_raw">ngày</string>
     <string name="alarm_goes_off_in">Thời gian còn lại cho đến khi báo thức kêu: \n%s</string>
     <string name="reminder_triggers_in">Thời gian còn lại cho đến khi nhắc nhở kích hoạt: \n%s</string>
-    <string name="time_remaining">Thời gian còn lại:
-\n%s</string>
+    <string name="time_remaining">Thời gian còn lại: \n%s</string>
     <string name="alarm_warning">Hãy chắc chắn rằng báo thức hoạt động đúng trước khi dựa vào nó. Nó có thể hoạt động sai do hạn chế hệ thống liên quan đến tiết kiệm pin.</string>
     <string name="reminder_warning">Hãy chắc chắn rằng các lời nhắc hoạt động đúng trước khi dựa vào chúng. Chúng có thể hoạt động sai do hạn chế hệ thống liên quan đến tiết kiệm pin.</string>
     <string name="notifications_disabled">Ứng dụng này đã bị vô hiệu hóa thông báo. Vui lòng vào cài đặt thiết bị của bạn để mở lại.</string>
@@ -448,7 +445,7 @@
     <string name="password_protect_file_deletion">Mật khẩu bảo vệ xóa tập tin và di chuyển</string>
     <string name="keep_last_modified">Giữ giá trị sửa đổi cuối cùng cũ tại các thao tác tập tin</string>
     <string name="show_info_bubble">Hiển thị bong bóng thông tin tại các mục cuộn bằng cách kéo thanh cuộn</string>
-    <string name="prevent_phone_from_sleeping">Ngăn điện thoại ngủ trong khi ứng dụng  đang hoạt động trước nền</string>
+    <string name="prevent_phone_from_sleeping">Ngăn điện thoại ngủ trong khi ứng dụng đang hoạt động trước nền</string>
     <string name="skip_delete_confirmation">Bỏ qua bước xác nhận xóa</string>
     <string name="enable_pull_to_refresh">Vuốt từ trên xuống để làm mới</string>
     <string name="use_24_hour_time_format">Dùng định dạng 24 giờ</string>
@@ -508,8 +505,8 @@
     <string name="hide_the_recycle_bin">Ẩn Thùng rác</string>
     <string name="open_the_recycle_bin">Mở Thùng rác</string>
     <string name="skip_the_recycle_bin">Xóa file luôn, không cần cho vào Thùng rác</string>
-    <string name="importing">Đang nhập… </string>
-    <string name="exporting">Đang xuất… </string>
+    <string name="importing">Đang nhập…</string>
+    <string name="exporting">Đang xuất…</string>
     <string name="importing_successful">Nhập thành công</string>
     <string name="exporting_successful">Xuất thành công</string>
     <string name="importing_failed">Nhập thất bại</string>
@@ -576,37 +573,11 @@
     <string name="more_info">Thêm thông tin</string>
     <string name="upgrade">Nâng cấp</string>
     <string name="upgrade_calendar">Bạn phải di chuyển thủ công các sự kiện được lưu trữ cục bộ thông qua xuất trong tệp .ics, sau đó nhập. Bạn có thể tìm thấy cả hai nút xuất / nhập ở menu màn hình chính.</string>
-    <string name="upgraded_from_free_gallery">Xin chào
-\n
-\ncó vẻ như bạn mới nâng cấp từ phiên bản miễn phí. Một khi bạn cảm thấy hài lòng với ứng dụng này và có lẽ đã di chuyển thông tin cài đặt và yêu thích qua, bạn có thể gỡ cài đặt phiên bản miễn phí để tránh mở nó lên, vì bạn không còn cần nó nữa. Việc đó cũng sẽ ngăn hộp thoại này xuất hiện.
-\n
-\nCám ơn!</string>
-    <string name="upgraded_from_free">Xin chào
-\n
-\ncó vẻ như bạn mới nâng cấp từ phiên bản miễn phí. Một khi bạn đã hài lòng với ứng dụng này và có lẽ cũng đã di chuyển dữ liệu qua, bạn có thể gỡ cài đặt phiên bản miễn phí để tránh việc mở nó lên, vì bạn không còn cần nó nữa. Việc đó cũng sẽ ngăn hộp thoại này xuất hiện.
-\n
-\nCám ơn!</string>
-    <string name="upgraded_from_free_calendar">Xin chào,
-\n
-\ncó vẻ như bạn vừa mới nâng cấp lên từ phiên bản miễn phí. Nếu như bạn muốn di chuyển các sự kiện được lưu trữ nội bộ của bạn qua, bạn phải làm việc đó một cách thủ công bằng cách xuất chúng sang một tập tin .ics trong phiên bản miễn phí và nhập chúng tại đây thông qua menu ở trên cùng.
-\n
-\nMột khi bạn hài lòng với các thiết lập của mình ở bản Pro, bạn có thể gỡ cài đặt phiên bản miễn phí bởi bạn không còn cần nó nữa, việc đó cũng sẽ ngăn hộp thoại này xuất hiện.
-\n
-\nCám ơn!</string>
-    <string name="upgraded_from_free_contacts">Xin chào,
-\n
-\ncó vẻ như bạn vừa mới nâng cấp từ phiên bản miễn phí. Nếu như bạn có bất kỳ liên hệ vào được lưu trữ dưới \"%s\", bạn cần phải di chuyển chúng thủ công bằng cách xuất sang tập tin .vcf từ phiên bản miễn phí và nhập chúng tại đây thông qua menu ở trên cùng.
-\n
-\nSau khi bạn hài lòng với thiết lập của mình tại phiên bản Pro, bạn có thể gỡ cài đặt phiên bản miễn phí bởi bạn không còn cần nó nữa, việc này cũng sẽ ngăn cho hộp thoại này xuất hiện.
-\n
-\nCám ơn!</string>
-    <string name="upgraded_from_free_notes">Xin chào,
-\n
-\ncó vẻ như bạn vừa mới nâng cấp từ phiên bản miễn phí. Nếu như bạn muốn di chuyển ghi chú qua, bạn cần phải làm thủ công bằng cách xuất chúng thành một tập tin trong phiên bản miễn phí và nhập chúng tại đây thông qua menu trên cùng.
-\n
-\nSau khi bạn hài lòng với thiết lập của mình, bạn có thể gỡ cài đặt phiên bản miễn phí bởi bạn không còn cần đến nó nữa, việc đó cũng sẽ ngăn cho hộp thoại này xuất hiện.
-\n
-\nCám ơn!</string>
+    <string name="upgraded_from_free_gallery">Xin chào \n \ncó vẻ như bạn mới nâng cấp từ phiên bản miễn phí. Một khi bạn cảm thấy hài lòng với ứng dụng này và có lẽ đã di chuyển thông tin cài đặt và yêu thích qua, bạn có thể gỡ cài đặt phiên bản miễn phí để tránh mở nó lên, vì bạn không còn cần nó nữa. Việc đó cũng sẽ ngăn hộp thoại này xuất hiện. \n \nCám ơn!</string>
+    <string name="upgraded_from_free">Xin chào \n \ncó vẻ như bạn mới nâng cấp từ phiên bản miễn phí. Một khi bạn đã hài lòng với ứng dụng này và có lẽ cũng đã di chuyển dữ liệu qua, bạn có thể gỡ cài đặt phiên bản miễn phí để tránh việc mở nó lên, vì bạn không còn cần nó nữa. Việc đó cũng sẽ ngăn hộp thoại này xuất hiện. \n \nCám ơn!</string>
+    <string name="upgraded_from_free_calendar">Xin chào, \n \ncó vẻ như bạn vừa mới nâng cấp lên từ phiên bản miễn phí. Nếu như bạn muốn di chuyển các sự kiện được lưu trữ nội bộ của bạn qua, bạn phải làm việc đó một cách thủ công bằng cách xuất chúng sang một tập tin .ics trong phiên bản miễn phí và nhập chúng tại đây thông qua menu ở trên cùng. \n \nMột khi bạn hài lòng với các thiết lập của mình ở bản Pro, bạn có thể gỡ cài đặt phiên bản miễn phí bởi bạn không còn cần nó nữa, việc đó cũng sẽ ngăn hộp thoại này xuất hiện. \n \nCám ơn!</string>
+    <string name="upgraded_from_free_contacts">Xin chào, \n \ncó vẻ như bạn vừa mới nâng cấp từ phiên bản miễn phí. Nếu như bạn có bất kỳ liên hệ vào được lưu trữ dưới s bạn cần phải di chuyển chúng thủ công bằng cách xuất sang tập tin .vcf từ phiên bản miễn phí và nhập chúng tại đây thông qua menu ở trên cùng. \n \nSau khi bạn hài lòng với thiết lập của mình tại phiên bản Pro, bạn có thể gỡ cài đặt phiên bản miễn phí bởi bạn không còn cần nó nữa, việc này cũng sẽ ngăn cho hộp thoại này xuất hiện. \n \nCám ơn!</string>
+    <string name="upgraded_from_free_notes">Xin chào, \n \ncó vẻ như bạn vừa mới nâng cấp từ phiên bản miễn phí. Nếu như bạn muốn di chuyển ghi chú qua, bạn cần phải làm thủ công bằng cách xuất chúng thành một tập tin trong phiên bản miễn phí và nhập chúng tại đây thông qua menu trên cùng. \n \nSau khi bạn hài lòng với thiết lập của mình, bạn có thể gỡ cài đặt phiên bản miễn phí bởi bạn không còn cần đến nó nữa, việc đó cũng sẽ ngăn cho hộp thoại này xuất hiện. \n \nCám ơn!</string>
     <string name="about">Thông tin</string>
     <string name="website_label">Mã nguồn</string>
     <string name="email_label">Góp ý hoặc đề xuất</string>
@@ -621,13 +592,11 @@
     <string name="additional_info">Thông tin bổ sung</string>
     <string name="app_version">Phiên bản ứng dụng: %s</string>
     <string name="device_os">Phiên bản Android %s</string>
-    <string name="donate_please">
-        <![CDATA[
+    <string name="donate_please"><![CDATA[
             Xin chào,<br><br>
             hy vọng bạn đang thưởng thức ứng dụng. Nó không chứa quảng cáo, vui lòng hỗ trợ sự nhà phát triển bằng cách mua ứng dụng<a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>  nó cũng sẽ ngăn hộp thoại này hiển thị lại.<br><br>
             Thank you!
-        ]]>
-    </string>
+        ]]></string>
     <string name="purchase">Mua hàng</string>
     <string name="before_asking_question_read_faq">Trước khi đặt câu hỏi, vui lòng kiểm tra cài đặt ứng dụng và đọc Câu hỏi thường gặp trước. Có thể giải pháp ở đó.</string>
     <string name="before_rate_read_faq">Trước khi đánh giá, vui lòng kiểm tra cài đặt ứng dụng và đọc Câu hỏi thường gặp trước. Nếu bạn gặp vấn đề, có thể giải pháp ở đó.</string>
@@ -635,8 +604,7 @@
     <string name="read_it">Hãy đọc</string>
     <string name="read_faq">Đọc Câu hỏi thường gặp(FAQ)</string>
     <string name="rate_us_prompt">Xin chào,\n\ncó vẻ như bạn đang sử dụng ứng dụng này khá lâu và chúng tôi thực sự đánh giá cao nó.\n\nNếu có thể, vui lòng đánh giá chúng tôi trên Google Play. Điều đó thực sự sẽ giúp chúng tôi rất nhiều.\n\n Bất kể bạn quyết định như thế nào, bạn sẽ không thấy thông báo này nữa.\n\nCảm ơn!</string>
-    <string name="new_app">
-        <![CDATA[
+    <string name="new_app"><![CDATA[
             Này,<br><br>
             chỉ cho bạn biết rằng một ứng dụng mới đã được phát hành gần đây:<br><br>
             <a href="%1$s">%2$s</a><br><br>
@@ -644,13 +612,10 @@
             <a href="%5$s">%6$s</a><br><br>
             Bạn có thể tải xuống bằng cách nhấn vào tiêu đề.<br><br>
             Thanks
-        ]]>
-    </string>
-    <string name="sideloaded_app">
-        <![CDATA[
+        ]]></string>
+    <string name="sideloaded_app"><![CDATA[
             Có vẻ như phiên bản ứng dụng của bạn bị hỏng. Vui lòng tải phiên bản gốc <a href="%s">tại đây</a>.
-        ]]>
-    </string>
+        ]]></string>
     <string name="frequently_asked_questions">Câu hỏi thường gặp</string>
     <string name="before_asking_question">Trước khi bạn đặt câu hỏi, trước tiên hãy đọc</string>
     <string name="faq_1_title_commons">Tại sao tôi không thấy widget ứng dụng này trong danh sách widget?</string>
@@ -666,9 +631,7 @@
     <string name="faq_7_title_commons">Tôi đã bị trừ tiền trong tài khoản ngân hàng nhưng không thể tải xuống ứng dụng. Tôi có thể làm gì?</string>
     <string name="faq_7_text_commons">Thanh toán được xử lý hoàn toàn bởi Google, hệ thống của họ thỉnh thoảng bị trục trặc. Chỉ cần xóa bộ nhớ cache ứng dụng Google Play của bạn và khởi động lại thiết bị của bạn, sau đó thử tải xuống lại.</string>
     <string name="faq_8_title_commons">Tại sao tôi nên nâng cấp lên phiên bản Pro?</string>
-    <string name="faq_8_text_commons">Vì phiên bản ứng dụng của bạn không còn được cập nhật, các lỗi bạn có thể phát hiện sẽ không bao giờ được sửa. Cũng sẽ không có chức năng mới được thêm vào. Bạn có thể mua phiên bản Pro trên Google Play với một khoản tiền nhỏ.
-        Đó là thanh toán một lần, có nghĩa là một khi bạn mua nó, bạn sẽ không bao giờ phải mua lại. Ngay cả sau khi nhận được một thiết bị mới. Nếu bạn không thích phiên bản Pro, bạn có thể gỡ cài đặt trong vòng vài giờ và bạn sẽ tự động lấy lại tiền.
-        Nếu bạn muốn hoàn lại tiền bất cứ lúc nào sau đó, chỉ cần liên hệ với chúng tôi tại hello@fossify.org và bạn sẽ nhận được nó.</string>
+    <string name="faq_8_text_commons">Vì phiên bản ứng dụng của bạn không còn được cập nhật, các lỗi bạn có thể phát hiện sẽ không bao giờ được sửa. Cũng sẽ không có chức năng mới được thêm vào. Bạn có thể mua phiên bản Pro trên Google Play với một khoản tiền nhỏ. Đó là thanh toán một lần, có nghĩa là một khi bạn mua nó, bạn sẽ không bao giờ phải mua lại. Ngay cả sau khi nhận được một thiết bị mới. Nếu bạn không thích phiên bản Pro, bạn có thể gỡ cài đặt trong vòng vài giờ và bạn sẽ tự động lấy lại tiền. Nếu bạn muốn hoàn lại tiền bất cứ lúc nào sau đó, chỉ cần liên hệ với chúng tôi tại hello@fossify.org và bạn sẽ nhận được nó.</string>
     <string name="notice">Ứng dụng này sử dụng các thư viện bên thứ ba sau đây. Cảm ơn.</string>
     <string name="third_party_licences">Giấy phép bên thứ ba</string>
     <string name="kotlin_title">Kotlin (ngôn ngữ lập trình)</string>
@@ -823,4 +786,216 @@
     <string name="about_footer">Tạo bằng ❤️ từ Slovakia</string>
     <string name="all_fossify_apps">Tất cả ứng dụng Fossify</string>
     <string name="translation_vietnamese">Tiếng Việt</string>
+    <string name="translation_belarusian"></string>
+    <string name="why_upgrade_date_and_time_format"></string>
+    <string name="indicator_fast_scroll_title"></string>
+    <plurals name="trial_expires_days">
+        <item quantity="other"></item>
+    </plurals>
+    <string name="why_upgrade_basic_version"></string>
+    <string name="why_upgrade_shortcuts"></string>
+    <string name="translation_esperanto"></string>
+    <string name="translation_spanish"></string>
+    <string name="translation_dutch"></string>
+    <string name="why_upgrade_file_importing"></string>
+    <string name="why_upgrade_zooming"></string>
+    <string name="september_short"></string>
+    <string name="november_short"></string>
+    <string name="upgraded_to_pro"></string>
+    <string name="translation_catalan"></string>
+    <string name="translation_bulgarian"></string>
+    <string name="translation_central_kurdish"></string>
+    <string name="translation_danish"></string>
+    <string name="translation_chuvash"></string>
+    <string name="translation_welsh"></string>
+    <string name="translation_english"></string>
+    <string name="translation_greek"></string>
+    <string name="translation_indonesian"></string>
+    <string name="translation_croatian"></string>
+    <string name="why_upgrade_easy_event_importing"></string>
+    <string name="why_upgrade_attendees_emails"></string>
+    <plurals name="delete_contacts">
+        <item quantity="other"></item>
+    </plurals>
+    <string name="genre"></string>
+    <plurals name="days_before">
+        <item quantity="other"></item>
+    </plurals>
+    <plurals name="by_weeks">
+        <item quantity="other"></item>
+    </plurals>
+    <string name="features_locked"></string>
+    <string name="translation_romanian"></string>
+    <string name="translation_russian"></string>
+    <string name="translation_slovenian"></string>
+    <string name="translation_slovak"></string>
+    <string name="why_upgrade_no_ads"></string>
+    <string name="why_upgrade_file_compression"></string>
+    <string name="trial_expires_soon"></string>
+    <string name="calendar_short"></string>
+    <string name="camera_short"></string>
+    <string name="calculator_short"></string>
+    <string name="app_launcher_short"></string>
+    <string name="thank_you_short"></string>
+    <string name="sms_messenger_short"></string>
+    <string name="voice_recorder_short"></string>
+    <string name="translation_french"></string>
+    <string name="translation_galician"></string>
+    <string name="why_upgrade_advanced_photo_editor"></string>
+    <string name="why_upgrade_improved_design"></string>
+    <string name="why_upgrade_many_other_improvements"></string>
+    <string name="event_bus_title"></string>
+    <string name="contact_details"></string>
+    <string name="m3u_parser_title"></string>
+    <string name="zip4j_title"></string>
+    <string name="start_free_trial"></string>
+    <string name="sms_mms_title"></string>
+    <string name="translation_serbian"></string>
+    <string name="contacts_tab"></string>
+    <string name="translation_chinese_cn"></string>
+    <string name="shared_theme_note"></string>
+    <string name="why_upgrade_heic_support"></string>
+    <string name="full_name"></string>
+    <string name="audio_record_view_title"></string>
+    <plurals name="seconds_before">
+        <item quantity="other"></item>
+    </plurals>
+    <plurals name="months_before">
+        <item quantity="other"></item>
+    </plurals>
+    <string name="translation_kabyle"></string>
+    <string name="why_upgrade_note_locking"></string>
+    <string name="july_short"></string>
+    <string name="date_time_pattern_info"></string>
+    <string name="translation_chinese_hk"></string>
+    <string name="translation_tamil"></string>
+    <string name="apng_title"></string>
+    <string name="why_upgrade_contact_private_contacts"></string>
+    <string name="may_short"></string>
+    <string name="translation_swedish"></string>
+    <string name="why_upgrade_contact_filtering"></string>
+    <plurals name="by_months">
+        <item quantity="other"></item>
+    </plurals>
+    <string name="send_sms"></string>
+    <plurals name="minutes_before">
+        <item quantity="other"></item>
+    </plurals>
+    <plurals name="years_before">
+        <item quantity="other"></item>
+    </plurals>
+    <string name="why_upgrade_advanced_photo_video_editor"></string>
+    <string name="translation_arabic"></string>
+    <string name="music_player_short"></string>
+    <string name="translation_bengali"></string>
+    <string name="why_upgrade_checklists"></string>
+    <string name="add_contact"></string>
+    <string name="notes_short"></string>
+    <string name="trial_end_description"></string>
+    <string name="send_email"></string>
+    <string name="translation_italian"></string>
+    <string name="trial_expired"></string>
+    <string name="week_number_short"></string>
+    <string name="december_short"></string>
+    <string name="pdf_view_pager_title"></string>
+    <plurals name="weeks_before">
+        <item quantity="other"></item>
+    </plurals>
+    <string name="translation_polish"></string>
+    <string name="translation_hungarian"></string>
+    <plurals name="by_hours">
+        <item quantity="other"></item>
+    </plurals>
+    <plurals name="hours_before">
+        <item quantity="other"></item>
+    </plurals>
+    <string name="translation_basque"></string>
+    <plurals name="by_seconds">
+        <item quantity="other"></item>
+    </plurals>
+    <string name="android_lame_title"></string>
+    <string name="apply_to_all_apps"></string>
+    <string name="january_short"></string>
+    <string name="unlock_for_one_final_day"></string>
+    <plurals name="by_years">
+        <item quantity="other"></item>
+    </plurals>
+    <string name="october_short"></string>
+    <string name="translation_german"></string>
+    <string name="translation_hindi"></string>
+    <string name="middle_name"></string>
+    <plurals name="by_minutes">
+        <item quantity="other"></item>
+    </plurals>
+    <string name="view_contact_details"></string>
+    <string name="august_short"></string>
+    <string name="faq_2_text_commons"></string>
+    <string name="pdf_viewer_title"></string>
+    <string name="april_short"></string>
+    <plurals name="by_days">
+        <item quantity="other"></item>
+    </plurals>
+    <string name="translation_persian"></string>
+    <string name="f_number"></string>
+    <string name="june_short"></string>
+    <string name="translation_hebrew"></string>
+    <string name="launcher_short"></string>
+    <string name="translation_chinese_tw"></string>
+    <string name="translation_korean"></string>
+    <string name="solarized"></string>
+    <string name="translation_azerbaijani"></string>
+    <string name="translation_breton"></string>
+    <string name="fee_up_to_pct"></string>
+    <string name="cryptocurrency"></string>
+    <string name="little_to_no_fee"></string>
+    <string name="translation_czech"></string>
+    <string name="format_phone_numbers"></string>
+    <string name="march_short"></string>
+    <string name="february_short"></string>
+    <string name="upgraded_to_pro_gallery"></string>
+    <string name="donate_new"></string>
+    <string name="update_thank_you"></string>
+    <string name="donate_short"></string>
+    <string name="make_sure_upgrade"></string>
+    <string name="rate_our_app"></string>
+    <string name="keyboard_short"></string>
+    <string name="flashlight_short"></string>
+    <string name="gallery_short"></string>
+    <string name="contributors_label"></string>
+    <string name="faq_10_text_commons"></string>
+    <string name="faq_10_title_commons"></string>
+    <string name="translation_lithuanian"></string>
+    <string name="translation_norwegian"></string>
+    <string name="translation_portuguese"></string>
+    <string name="translation_nepali"></string>
+    <string name="why_upgrade_footer_one_time_payment"></string>
+    <string name="why_upgrade_private_contact_sharing"></string>
+    <string name="why_upgrade_duplicate_contact_merging"></string>
+    <string name="why_upgrade_new_widgets"></string>
+    <string name="why_upgrade_font_size_customization"></string>
+    <string name="translation_turkish"></string>
+    <string name="translation_ukrainian"></string>
+    <string name="thank_you"></string>
+    <string name="contacts_short"></string>
+    <string name="widget_locked_pro"></string>
+    <string name="clock_short"></string>
+    <string name="dialer_short"></string>
+    <string name="draw_short"></string>
+    <string name="translation_finnish"></string>
+    <string name="translation_japanese"></string>
+    <string name="translation_gujarati"></string>
+    <string name="why_upgrade_batch_renaming"></string>
+    <string name="why_upgrade_pro_version"></string>
+    <string name="why_upgrade_printing_support"></string>
+    <string name="why_upgrade"></string>
+    <string name="why_upgrade_no_internet_access"></string>
+    <string name="why_upgrade_folder_locking"></string>
+    <string name="why_upgrade_footer"></string>
+    <string name="why_upgrade_time_zone_support"></string>
+    <string name="why_upgrade_background_color_customization"></string>
+    <string name="why_upgrade_different_note_per_widget"></string>
+    <string name="why_upgrade_customizable_contact_ringtones"></string>
+    <string name="why_upgrade_recents_tab"></string>
+    <string name="otto_title"></string>
+    <string name="trial_start_description"></string>
 </resources>
