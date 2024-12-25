@@ -108,7 +108,7 @@
     <string name="import_blocked_numbers">Importar números bloqueados</string>
     <string name="must_make_default_dialer">Você precisa tornar este aplicativo padrão para poder bloquear números.</string>
     <string name="set_as_default">Definir como padrão</string>
-    <string name="block_confirmation">Tem certeza que deseja bloquear \"%s\"?</string>
+    <string name="block_confirmation">Tem certeza que deseja bloquear s?</string>
     <string name="block_unknown_calls">Bloquear chamadas de contatos não salvos</string>
     <string name="block_unknown_messages">Bloquear mensagens de contatos não salvos</string>
     <string name="add_blocked_number_helper_text">Digite um número ou um padrão (ex. *12345*, +1*8888) para bloquear todas as chamadas de números correspondentes.</string>
@@ -207,9 +207,9 @@
     <string name="invalid_name">O nome contém caracteres inválidos</string>
     <string name="empty_name">Digite um nome</string>
     <string name="unknown_error_occurred">Ocorreu um erro desconhecido</string>
-    <string name="file_already_exists">Já existe um arquivo com o nome \"%s\"</string>
-    <string name="file_already_exists_overwrite">Já existe um arquivo com o nome \"%s\". Sobrescrever?</string>
-    <string name="folder_already_exists">A pasta \"%s\" já existe</string>
+    <string name="file_already_exists">Já existe um arquivo com o nome s\\</string>
+    <string name="file_already_exists_overwrite">Já existe um arquivo com o nome s Sobrescrever?</string>
+    <string name="folder_already_exists">A pasta s já existe</string>
     <string name="merge">Mesclar</string>
     <string name="keep_both">Manter ambas as versões</string>
     <string name="overwrite">Sobrescrever</string>
@@ -227,9 +227,9 @@
     <string name="confirm_folder_access_title">Confirmar acesso à pasta</string>
     <string name="confirm_storage_access_text">Por favor escolha a pasta raiz do cartão SD no próximo passo para conceder acesso de escrita</string>
     <string name="confirm_storage_access_text_sd">Se você não encontrar o cartão SD, tente isto</string>
-    <string name="confirm_storage_access_android_text">Por favor, permita que o aplicativo acesse o armazenamento utilizando o botão \"Use esta pasta\" no canto inferior da próxima tela.</string>
-    <string name="confirm_storage_access_android_text_specific">Por favor, permita o acesso de \'&lt;b&gt;%s&lt;/b&gt;\' na próxima tela ao pressionar \'&lt;b&gt;Use this folder&lt;/b&gt;\' no canto inferior da tela.</string>
-    <string name="confirm_create_doc_for_new_folder_text">Por favor, pressione \'&lt;b&gt;Save&lt;/b&gt;\' no canto inferior da próxima nela para criar uma nova pasta.</string>
+    <string name="confirm_storage_access_android_text">Por favor, permita que o aplicativo acesse o armazenamento utilizando o botão se esta pasta no canto inferior da próxima tela.</string>
+    <string name="confirm_storage_access_android_text_specific">Por favor, permita o acesso de \'<b>%s</b>\' na próxima tela ao pressionar \'<b>Use this folder</b>\' no canto inferior da tela.</string>
+    <string name="confirm_create_doc_for_new_folder_text">Por favor, pressione \'<b>Save</b>\' no canto inferior da próxima nela para criar uma nova pasta.</string>
     <string name="confirm_selection">Confirmar seleção</string>
     <string name="loading">Carregando…</string>
     <string name="access_storage_prompt">Conceda ao nosso aplicativo acesso a todos os seus arquivos, ele pode não funcionar bem sem ele.</string>
@@ -260,8 +260,7 @@
     <string name="root">Raiz</string>
     <string name="wrong_root_selected">Pasta inválida, por favor selecione a raiz do cartão SD</string>
     <string name="sd_card_usb_same">As pastas do cartão SD e do dispositivo USB não podem ser a mesma</string>
-    <string name="app_on_sd_card">Parece que você instalou o aplicativo em um cartão SD, o que torna os widgets indisponíveis. Você não os verá na lista de widgets.
-        Isto é uma limitação do sistema operacional, caso você queira ter acesso aos widgets será preciso mover o aplicativo para o armazenamento interno.</string>
+    <string name="app_on_sd_card">Parece que você instalou o aplicativo em um cartão SD, o que torna os widgets indisponíveis. Você não os verá na lista de widgets. Isto é uma limitação do sistema operacional, caso você queira ter acesso aos widgets será preciso mover o aplicativo para o armazenamento interno.</string>
     <string name="wrong_folder_selected">A pasta esrrada foi selecionada, por favor, selecione \'%s\'</string>
     <string name="properties">Propriedades</string>
     <string name="path">Caminho</string>
@@ -564,8 +563,7 @@
     </plurals>
     <string name="alarm_goes_off_in">Tempo restante até o alarme disparar:\n%s</string>
     <string name="reminder_triggers_in">Tempo restante até o lembrete:\n%s</string>
-    <string name="time_remaining">Tempo restante:
-\n%s</string>
+    <string name="time_remaining">Tempo restante: \n%s</string>
     <string name="alarm_warning">Por favor, verifique se o alarme funciona corretamente antes de confiar nele. Ele pode não funcionar direito devido a restrições de sistema relacionadas à economia de bateria.</string>
     <string name="reminder_warning">Certifique-se de que os lembretes funcionam corretamente antes de confiar neles. Eles podem não funcionar direito devido a restrições de sistema relacionadas à economia de bateria.</string>
     <string name="notifications_disabled">As notificações deste aplicativo foram desativadas pelo sistema. Por favor, reative-as através nas configurações do seu aparelho.</string>
@@ -640,7 +638,7 @@
     <string name="excluded">(excluído)</string>
     <string name="manage_excluded_folders">Gerenciar pastas ignoradas</string>
     <string name="remove_all">Remover todas</string>
-    <string name="remove_all_description">Remover todas as pastas da lista de pastas ignoradas\? Esta ação não exclui as pastas.</string>
+    <string name="remove_all_description">Remover todas as pastas da lista de pastas ignoradas? Esta ação não exclui as pastas.</string>
     <string name="temporarily_show_excluded">Exibir excluído temporariamente</string>
     <string name="stop_showing_excluded">Parar de exibir excluído</string>
     <string name="manage_shown_tabs">Gerenciar abas visíveis</string>
@@ -732,23 +730,9 @@
     <string name="more_info">Mais informação</string>
     <string name="upgrade">Atualizar</string>
     <string name="upgrade_calendar">Você precisará migrar de forma manual os eventos armazenados localmente. Você pode fazer isso exportando-os para um arquivo .ics, e depois importando este arquivo. Você pode encontrar os botões de importar/exportar no menu da tela inicial.</string>
-    <string name="upgraded_from_free">Olá,
-\n
-\nparece que você acabou de atualizar a partir da versão gratuita. Assim que você estiver feliz com esta versão e já tenha migrado seus dados, você pode desinstalar a antiga versão gratuita para evitar abri-la acidentalmente, pois você não precisará mais dela.
-\n
-\nObrigado!</string>
-    <string name="upgraded_to_pro">Olá
-\n
-\nparece que você já tem a versão Pro também. Uma vez que você esteja feliz com e já tenha migrado seus dados, você pode desinstalar esta versão para evitar lançá-la acidentalmente, pois você não precisará mais dela.
-\n
-\nObrigado!</string>
-    <string name="upgraded_from_free_calendar">Olá
-\n
-\nparece que você acabou de atualizar a partir da versão gratuita. Se você quiser migrar seus eventos armazenados localmente, você tem que fazê-lo manualmente, exportando-os para um arquivo .ics na versão gratuita do aplicativo e importando aqui através do menu superior.
-\n
-\nUma vez que você esteja satisfeito com sua configuração na versão Pro, você pode desinstalar o antigo gratuito, pois você não precisará mais dele.
-\n
-\nObrigado!</string>
+    <string name="upgraded_from_free">Olá, \n \nparece que você acabou de atualizar a partir da versão gratuita. Assim que você estiver feliz com esta versão e já tenha migrado seus dados, você pode desinstalar a antiga versão gratuita para evitar abri-la acidentalmente, pois você não precisará mais dela. \n \nObrigado!</string>
+    <string name="upgraded_to_pro">Olá \n \nparece que você já tem a versão Pro também. Uma vez que você esteja feliz com e já tenha migrado seus dados, você pode desinstalar esta versão para evitar lançá-la acidentalmente, pois você não precisará mais dela. \n \nObrigado!</string>
+    <string name="upgraded_from_free_calendar">Olá \n \nparece que você acabou de atualizar a partir da versão gratuita. Se você quiser migrar seus eventos armazenados localmente, você tem que fazê-lo manualmente, exportando-os para um arquivo .ics na versão gratuita do aplicativo e importando aqui através do menu superior. \n \nUma vez que você esteja satisfeito com sua configuração na versão Pro, você pode desinstalar o antigo gratuito, pois você não precisará mais dele. \n \nObrigado!</string>
     <string name="about">Sobre</string>
     <string name="website_label">Para os código-fonte visite</string>
     <string name="email_label">Envie os seus comentários ou sugestões para</string>
@@ -772,13 +756,11 @@
     <string name="additional_info">Informações adicionais</string>
     <string name="app_version">Versão do app: %s</string>
     <string name="device_os">Sistema operacional: %s</string>
-    <string name="donate_please">
-        <![CDATA[
+    <string name="donate_please"><![CDATA[
             Olá,<br><br>
             Esperamos que esteja gostando do app. Ele não contém anúncios, então apoie o desenvolvimento adquirindo o <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>, ele também impede este diálogo de aparecer novamente.<br><br>
             Obrigado!
-        ]]>
-    </string>
+        ]]></string>
     <string name="purchase">Comprar</string>
     <string name="before_asking_question_read_faq">Antes de fazer uma pergunta, por favor verifique as configurações do aplicativo e leia a lista de Perguntas Frequentes.</string>
     <string name="before_rate_read_faq">Antes de nos avaliar, por favor verifique as configurações do aplicativo e leia a lista de Perguntas Frequentes. Se você tiver algum problema, talvez a solução esteja lá.</string>
@@ -790,8 +772,7 @@
     <string name="rate_our_app">Avalie nosso aplicativo :)</string>
     <string name="thank_you">Obrigado</string>
     <string name="widget_locked_pro">O widget está bloqueado.\nAtualize para a versão Pro para desbloqueá-lo.</string>
-    <string name="new_app">
-        <![CDATA[
+    <string name="new_app"><![CDATA[
             Olá,<br><br>
             Gostariamos de avisar que lançamos um novo app recentemente:<br><br>
             <a href="%1$s">%2$s</a><br><br>
@@ -799,8 +780,7 @@
             <a href="%5$s">%6$s</a><br><br>
             Você pode baixá-lo pressionando o título.<br><br>
             Obrigado
-        ]]>
-    </string>
+        ]]></string>
     <string name="app_launcher_short">Lançador de Aplicativos</string>
     <string name="calculator_short">Calculadora</string>
     <string name="calendar_short">Calendário</string>
@@ -818,16 +798,13 @@
     <string name="sms_messenger_short">Mensagens SMS</string>
     <string name="thank_you_short">Obrigado</string>
     <string name="voice_recorder_short">Gravador de Voz</string>
-    <string name="sideloaded_app">
-        <![CDATA[
+    <string name="sideloaded_app"><![CDATA[
             Parece que a sua versão do app está corrompida. Por favor, baixe a versão original <a href="%s">aqui</a>.
-        ]]>
-    </string>
+        ]]></string>
     <string name="frequently_asked_questions">Perguntas Frequentes</string>
     <string name="before_asking_question">Antes de fazer uma pergunta, leia primeiro as</string>
     <string name="faq_1_title_commons">Por que não vejo o widget deste aplicativo na lista de widgets?</string>
-    <string name="faq_1_text_commons">O mais provável é que você tenha movido o aplicativo para um cartão SD. Existe uma limitação do sistema Android que oculta os widgets de aplicativos fornecidos neste caso.
-        A única solução é mover o aplicativo de volta para o Armazenamento Interno por meio das configurações do seu dispositivo.</string>
+    <string name="faq_1_text_commons">O mais provável é que você tenha movido o aplicativo para um cartão SD. Existe uma limitação do sistema Android que oculta os widgets de aplicativos fornecidos neste caso. A única solução é mover o aplicativo de volta para o Armazenamento Interno por meio das configurações do seu dispositivo.</string>
     <string name="faq_2_title_commons">Eu gostaria de apoiá-los, mas não posso doar dinheiro. Há algo mais que eu possa fazer?</string>
     <string name="faq_3_title_commons">Eu exclui alguns arquivos por engano, como posso recuperá-los?</string>
     <string name="faq_3_text_commons">Infelizmente, você não pode. Os arquivos são apagados instantaneamente após a caixa de diálogo de confirmação, não há lixeira disponível.</string>
@@ -839,9 +816,7 @@
     <string name="faq_7_title_commons">O dinheiro foi deduzido da minha conta bancária, mas não consigo fazer o download do aplicativo. O que eu posso fazer?</string>
     <string name="faq_7_text_commons">Os pagamentos são totalmente gerenciados pelo Google, o sistema deles falha de vez em quanto. Apenas limpe o cache do aplicativo Google Play, reinicie o dispositivo e tente baixá-lo novamente.</string>
     <string name="faq_8_title_commons">Por que eu deveria atualizar para a versão Pro?</string>
-    <string name="faq_8_text_commons">Como a versão do seu aplicativo não é mais atualizada, os erros que você talvez tenha encontrado nunca serão corrigidos. Também não haverá novas funções adicionadas. Você pode comprar a versão Pro no Google Play por uma pequena quantia em dinheiro.
-        É um pagamento único, o que significa que, uma vez que você o compre, nunca precisará pagar novamente. Nem mesmo depois de adquirir um novo dispositivo. Se você não gostar da versão Pro, basta desinstalá-la em algumas horas e você receberá seu dinheiro automaticamente.
-        Se você quiser um reembolso a qualquer momento depois, basta entrar em contato conosco pelo e-mail hello@fossify.org e você o receberá.</string>
+    <string name="faq_8_text_commons">Como a versão do seu aplicativo não é mais atualizada, os erros que você talvez tenha encontrado nunca serão corrigidos. Também não haverá novas funções adicionadas. Você pode comprar a versão Pro no Google Play por uma pequena quantia em dinheiro. É um pagamento único, o que significa que, uma vez que você o compre, nunca precisará pagar novamente. Nem mesmo depois de adquirir um novo dispositivo. Se você não gostar da versão Pro, basta desinstalá-la em algumas horas e você receberá seu dinheiro automaticamente. Se você quiser um reembolso a qualquer momento depois, basta entrar em contato conosco pelo e-mail hello@fossify.org e você o receberá.</string>
     <string name="faq_9_title_commons">Como posso selecionar múltiplos itens de uma só vez?</string>
     <string name="faq_9_text_commons">Existem muitas formas de fazer isso. A primeira delas é acessar o modo de seleção, mantendo um item pressionado e clicando nos demais para selecioná-los. A segunda maneira é similar à seleção de itens com um mouse em um computador: basta acessar o modo de seleção, mantendo um item pressionado e arrastar seu dedo para selecionar os demais itens. A terceira forma de seleção múltipla é manter um item pressionado e, em seguida, pressionar outro para que todos os itens entre eles sejam selecionados. Caso deseje selecionar todos os itens, basta manter um deles pressionado e clicar na contagem de itens selecionados no canto superior esquerdo da tela. Essa ação selecionará ou removerá a seleção de todos os itens.</string>
     <string name="faq_10_title_commons">Comprei o aplicativo, mas não consigo realizar seu download em outro dispositivo.</string>
@@ -989,4 +964,112 @@
     <string name="october_short">Out</string>
     <string name="november_short">Nov</string>
     <string name="december_short">Dez</string>
+    <string name="translation_belarusian"></string>
+    <string name="translation_romanian"></string>
+    <string name="translation_portuguese"></string>
+    <string name="translation_chuvash"></string>
+    <string name="translation_polish"></string>
+    <string name="translation_italian"></string>
+    <string name="translation_gujarati"></string>
+    <string name="translation_hebrew"></string>
+    <string name="translation_indonesian"></string>
+    <string name="trial_end_description"></string>
+    <string name="donate_new"></string>
+    <string name="donate_short"></string>
+    <string name="all_fossify_apps"></string>
+    <string name="translation_german"></string>
+    <string name="translation_central_kurdish"></string>
+    <string name="translation_english"></string>
+    <string name="translation_japanese"></string>
+    <string name="translation_tamil"></string>
+    <string name="translation_hindi"></string>
+    <string name="translation_ukrainian"></string>
+    <string name="translation_turkish"></string>
+    <string name="shared_theme_note"></string>
+    <string name="date_added"></string>
+    <string name="copyright"></string>
+    <string name="translation_czech"></string>
+    <string name="translation_slovak"></string>
+    <string name="allow_notifications_music_player"></string>
+    <string name="allow_notifications_incoming_calls"></string>
+    <string name="grant_permission"></string>
+    <string name="purchase_simple_thank_you"></string>
+    <string name="upgraded_to_pro_gallery"></string>
+    <string name="launcher_short"></string>
+    <string name="translation_slovenian"></string>
+    <string name="week_number_short"></string>
+    <string name="pin_must_be_4_digits_long"></string>
+    <string name="unlock_for_one_final_day"></string>
+    <string name="allow_notifications_incoming_messages"></string>
+    <string name="translation_finnish"></string>
+    <string name="pdf_viewer_title"></string>
+    <string name="faq_2_text_commons"></string>
+    <string name="why_upgrade_many_other_improvements"></string>
+    <string name="allow_alarm_sleep_timer"></string>
+    <string name="zip4j_title"></string>
+    <string name="update_thank_you"></string>
+    <string name="fee_up_to_pct"></string>
+    <string name="translation_vietnamese"></string>
+    <string name="show_line_numbers"></string>
+    <string name="auto_theme"></string>
+    <string name="translation_kabyle"></string>
+    <string name="translation_russian"></string>
+    <string name="translation_hungarian"></string>
+    <string name="deletion_confirmation_short"></string>
+    <string name="translation_serbian"></string>
+    <string name="cryptocurrency"></string>
+    <string name="translation_korean"></string>
+    <string name="permission_required"></string>
+    <string name="translation_spanish"></string>
+    <string name="exif"></string>
+    <string name="hide_line_numbers"></string>
+    <string name="genre"></string>
+    <string name="translation_danish"></string>
+    <string name="translation_greek"></string>
+    <string name="date_time_pattern_info"></string>
+    <string name="upgraded_from_free_notes"></string>
+    <string name="altitude"></string>
+    <string name="other_help"></string>
+    <string name="translation_chinese_hk"></string>
+    <string name="trial_start_description"></string>
+    <string name="upgraded_from_free_gallery"></string>
+    <string name="upgraded_from_free_contacts"></string>
+    <string name="allow_access_more_media"></string>
+    <string name="little_to_no_fee"></string>
+    <string name="translation_persian"></string>
+    <string name="allow_notifications_voice_recorder"></string>
+    <string name="translation_swedish"></string>
+    <string name="allow_alarm_scheduled_messages"></string>
+    <string name="translation_chinese_tw"></string>
+    <string name="translation_galician"></string>
+    <string name="translation_chinese_cn"></string>
+    <string name="pin"></string>
+    <string name="social"></string>
+    <string name="allow_location_permission"></string>
+    <string name="allow_notifications_files"></string>
+    <string name="why_upgrade_pro_version"></string>
+    <string name="allow_full_screen_notifications_incoming_calls"></string>
+    <string name="translation_croatian"></string>
+    <string name="translation_french"></string>
+    <string name="platforms"></string>
+    <string name="translation_breton"></string>
+    <string name="translation_esperanto"></string>
+    <string name="translation_bengali"></string>
+    <string name="translation_azerbaijani"></string>
+    <string name="translation_norwegian"></string>
+    <string name="translation_lithuanian"></string>
+    <string name="translation_dutch"></string>
+    <string name="translation_nepali"></string>
+    <string name="format_phone_numbers"></string>
+    <string name="july_short"></string>
+    <string name="website"></string>
+    <string name="translation_catalan"></string>
+    <string name="translation_arabic"></string>
+    <string name="translation_bulgarian"></string>
+    <string name="known_issues"></string>
+    <string name="features_locked"></string>
+    <string name="donate_to_fossify"></string>
+    <string name="contributors_label"></string>
+    <string name="translation_basque"></string>
+    <string name="translation_welsh"></string>
 </resources>
