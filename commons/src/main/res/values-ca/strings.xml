@@ -194,13 +194,7 @@
     <string name="simple_renaming">Canvi de nom senzill</string>
     <string name="pattern_renaming">Patró</string>
     <string name="string_to_add">Cadena a afegir</string>
-    <string name="rename_date_time_pattern">%Y - any
-\n%M - mes
-\n%D - dia
-\n%h - hora
-\n%m - minut
-\n%s - segon
-\n%i - nombre augmentant des d\'1</string>
+    <string name="rename_date_time_pattern">%Y - any \n%M - mes \n%D - dia \n%h - hora \n%m - minut \n%s - segon \n%i - nombre augmentant des d\'1</string>
     <string name="filename_without_txt">Nom del fitxer (sense .txt)</string>
     <string name="filename_without_json">Nom del fitxer (sense .json)</string>
     <string name="filename_without_zip">Nom del fitxer (sense .zip)</string>
@@ -263,7 +257,7 @@
     <string name="confirm_storage_access_text">Trieu la carpeta superior de la targeta SD a la pantalla següent, per a atorgar accés d\'escriptura</string>
     <string name="confirm_storage_access_text_sd">Si no veieu la targeta SD, proveu això</string>
     <string name="confirm_storage_access_android_text">Permeteu que l\'aplicació accedeixi a l\'emmagatzematge seleccionat prement «Utilitza aquesta carpeta» a la part inferior de la pantalla següent.</string>
-    <string name="confirm_storage_access_android_text_specific">Permeteu l\'accés a «&lt;b&gt;%s&lt;/b&gt;» prement «&lt;b&gt;Utilitza aquesta carpeta&lt;/b&gt;» a la part inferior de la pantalla següent.</string>
+    <string name="confirm_storage_access_android_text_specific">Permeteu l\'accés a «<b>%s</b>» prement «<b>Utilitza aquesta carpeta</b>» a la part inferior de la pantalla següent.</string>
     <string name="confirm_create_doc_for_new_folder_text">Premeu «<b>Desa</b>» a la part inferior de la pantalla següent per a crear la carpeta nova.</string>
     <string name="confirm_selection">Confirmeu la selecció</string>
     <string name="loading">S\'està carregant…</string>
@@ -316,7 +310,7 @@
     <string name="gps_coordinates">Coordenades GPS</string>
     <string name="altitude">Altitud</string>
     <string name="remove_exif">Elimina l\'EXIF</string>
-    <string name="remove_exif_confirmation">Segur que voleu eliminar els valors de l\'EXIF com les coordenades GPS, el model de càmera, etc.\?</string>
+    <string name="remove_exif_confirmation">Segur que voleu eliminar els valors de l\'EXIF com les coordenades GPS, el model de càmera, etc.?</string>
     <string name="exif_removed">Els valors de l\'EXIF s\'han eliminat correctament</string>
     <string name="background_color">Color de fons</string>
     <string name="text_color">Color del text</string>
@@ -335,9 +329,9 @@
     <string name="save">Desa</string>
     <string name="discard">Descarta</string>
     <string name="undo_changes">Desfés els canvis</string>
-    <string name="undo_changes_confirmation">Segur que voleu desfer els canvis\?</string>
+    <string name="undo_changes_confirmation">Segur que voleu desfer els canvis?</string>
     <string name="cannot_be_undone">Aquesta acció no es pot desfer.</string>
-    <string name="save_before_closing">Hi ha canvis no desats. Els voleu desar abans de sortir\?</string>
+    <string name="save_before_closing">Hi ha canvis no desats. Els voleu desar abans de sortir?</string>
     <string name="global_theme_success">Colors actualitzats correctament. S\'ha afegit un tema nou anomenat «Compartit». Feu-lo servir per a actualitzar tots els colors de l\'aplicació en el futur.</string>
     <string name="light_theme">Clar</string>
     <string name="dark_theme">Fosc</string>
@@ -418,11 +412,11 @@
     <string name="use_custom_sorting">Utilitza l\'ordenació personalitzada</string>
     <string name="change_order">Canvia l\'ordre</string>
     <string name="more_options">Més opcions</string>
-    <string name="proceed_with_deletion">Segur que voleu continuar amb la supressió\?</string>
-    <string name="deletion_confirmation">Segur que voleu suprimir %s\?</string>
-    <string name="move_to_recycle_bin_confirmation">Segur que voleu moure %s a la paperera\?</string>
-    <string name="are_you_sure_delete">Segur que voleu suprimir aquest element\?</string>
-    <string name="are_you_sure_recycle_bin">Segur que voleu moure aquest element a la paperera\?</string>
+    <string name="proceed_with_deletion">Segur que voleu continuar amb la supressió?</string>
+    <string name="deletion_confirmation">Segur que voleu suprimir %s?</string>
+    <string name="move_to_recycle_bin_confirmation">Segur que voleu moure %s a la paperera?</string>
+    <string name="are_you_sure_delete">Segur que voleu suprimir aquest element?</string>
+    <string name="are_you_sure_recycle_bin">Segur que voleu moure aquest element a la paperera?</string>
     <string name="do_not_ask_again">No tornis a preguntar-ho en aquesta sessió</string>
     <string name="do_not_show_again">No ho tornis a mostrar</string>
     <string name="yes">Sí</string>
@@ -436,8 +430,7 @@
     <string name="please_enter_pin">Introduïu un PIN</string>
     <string name="wrong_pin">PIN incorrecte</string>
     <string name="pin_must_be_4_digits_long">El PIN ha de tenir almenys 4 dígits</string>
-    <string name="too_many_incorrect_attempts">Massa intents incorrectes de desbloqueig.
-\nProveu de nou dintre de %d segons.</string>
+    <string name="too_many_incorrect_attempts">Massa intents incorrectes de desbloqueig. \nProveu de nou dintre de %d segons.</string>
     <string name="repeat_pin">Repetiu el PIN</string>
     <string name="pattern">Patró</string>
     <string name="insert_pattern">Introduïu el patró</string>
@@ -689,7 +682,7 @@
     <string name="excluded">(exclòs)</string>
     <string name="manage_excluded_folders">Gestiona les carpetes excloses</string>
     <string name="remove_all">Elimina-ho tot</string>
-    <string name="remove_all_description">Elimino totes les carpetes de la llista d\'excloses\? Això no eliminarà les carpetes.</string>
+    <string name="remove_all_description">Elimino totes les carpetes de la llista d\'excloses? Això no eliminarà les carpetes.</string>
     <string name="temporarily_show_excluded">Mostra temporalment les excloses</string>
     <string name="stop_showing_excluded">Deixa de mostrar les excloses</string>
     <string name="manage_shown_tabs">Gestiona les pestanyes mostrades</string>
@@ -706,7 +699,7 @@
     <string name="restore_all_files">Restaura tots els fitxers</string>
     <string name="recycle_bin_emptied">La paperera de reciclatge s\'ha buidat correctament</string>
     <string name="files_restored_successfully">Els fitxers s\'han restaurat correctament</string>
-    <string name="empty_recycle_bin_confirmation">Segur que voleu buidar la paperera de reciclatge\? Els fitxers es perdran per sempre.</string>
+    <string name="empty_recycle_bin_confirmation">Segur que voleu buidar la paperera de reciclatge? Els fitxers es perdran per sempre.</string>
     <string name="recycle_bin_empty">La paperera de reciclatge és buida</string>
     <string name="moving_recycle_bin_items_disabled">Moure els elements de la paperera està de reciclatge desactivat, utilitzeu la restauració</string>
     <string name="show_the_recycle_bin">Mostra la paperera de reciclatge</string>
@@ -732,14 +725,7 @@
     <string name="backups">Còpies de seguretat</string>
     <string name="enable_automatic_backups">Activa les còpies de seguretat automàtiques</string>
     <string name="manage_automatic_backups">Gestió de les còpies de seguretat automàtiques</string>
-    <string name="date_time_pattern_info">Podeu emprar els patrons següents per a donar nom automàticament als fitxers:
-\n
-\n%Y - any
-\n%M - mes
-\n%D - dia
-\n%h - hora
-\n%m - minut
-\n%s - segon</string>
+    <string name="date_time_pattern_info">Podeu emprar els patrons següents per a donar nom automàticament als fitxers: \n \n%Y - any \n%M - mes \n%D - dia \n%h - hora \n%m - minut \n%s - segon</string>
     <string name="usb_detected">Sembla que hi ha un dispositiu USB connectat al vostre dispositiu. Per a assegurar que els fitxers apareguin adequadament, cal atorgar permisos addicionals.</string>
     <string name="confirm_usb_storage_access_text">Seleccioneu la carpeta arrel del dispositiu USB a la pantalla següent per a atorgar l\'accés</string>
     <string name="wrong_root_selected_usb">S\'ha seleccionat una carpeta incorrecta, seleccioneu la carpeta principal del dispositiu USB</string>
@@ -810,27 +796,9 @@
     <string name="upgraded_to_pro_gallery">Hola, \n \nsembla que ja teniu la versió Pro de l\'aplicació. Un cop estigueu satisfet amb ella i potser haureu migrat la vostra configuració i els favorits, podeu desinstal·lar-la per a evitar que la inicieu accidentalment, ja que no la necessitareu. \n \nGràcies!</string>
     <string name="upgraded_from_free">Hola \n \nsembla que acabeu d\'actualitzar a partir de la versió gratuïta. Un cop estigueu satisfet amb aquesta i potser haureu migrat les vostres dades, podeu desinstal·lar l\'antiga gratuïta per a evitar llançar-la accidentalment, ja que ja no la necessitareu més. També evitarà que es mostri aquest diàleg. \n \nGràcies!</string>
     <string name="upgraded_to_pro">Hola, \n \nsembla que ja teniu també la versió Pro de l\'aplicació. Un cop estigueu satisfet amb ella i potser haureu migrat les dades, podeu desinstal·lar-la per a evitar que l\'inicieu accidentalment, ja que ja no la necessitareu. \n \nGràcies!</string>
-    <string name="upgraded_from_free_calendar">Hola,
-\n
-\nsembla que acabeu d\'actualitzar a partir de la versió gratuïta. Si voleu migrar els esdeveniments emmagatzemats localment, heu de fer-ho manualment exportant-los a un fitxer .ics en la versió gratuïta de l\'aplicació i important-los aquí a través del menú superior.
-\n
-\nQuan estigueu satisfet amb la vostra configuració de la versió Pro, podeu desinstal·lar l\'antiga gratuïta perquè ja no la necessitareu. També evitarà que es mostri aquest diàleg.
-\n
-\nGràcies!</string>
-    <string name="upgraded_from_free_contacts">Hola,
-\n
-\nsembla que acabeu d\'actualitzar a partir de la versió gratuïta. Si teníeu contactes emmagatzemats a «%s», cal migrar-los manualment exportant-los en un fitxer .vcf des de la versió gratuïta de l\'aplicació i important-los aquí a través del menú superior.
-\n
-\nQuan estigueu satisfet amb la vostra configuració de la versió Pro, podeu desinstal·lar l\'antiga gratuïta perquè ja no la necessitareu. També evitarà que es mostri aquest diàleg.
-\n
-\nGràcies!</string>
-    <string name="upgraded_from_free_notes">Hola,
-\n
-\nsembla que acabeu d\'actualitzar a partir de la versió gratuïta. Si voleu migrar les notes, cal fer-ho manualment exportant-les a un fitxer en la versió gratuïta de l\'aplicació i important-les aquí a través del menú superior.
-\n
-\nQuan estigueu satisfet amb la vostra configuració de la versió Pro, podeu desinstal·lar l\'antiga gratuïta perquè ja no la necessitareu. També evitarà que es mostri aquest diàleg.
-\n
-\nGràcies!</string>
+    <string name="upgraded_from_free_calendar">Hola, \n \nsembla que acabeu d\'actualitzar a partir de la versió gratuïta. Si voleu migrar els esdeveniments emmagatzemats localment, heu de fer-ho manualment exportant-los a un fitxer .ics en la versió gratuïta de l\'aplicació i important-los aquí a través del menú superior. \n \nQuan estigueu satisfet amb la vostra configuració de la versió Pro, podeu desinstal·lar l\'antiga gratuïta perquè ja no la necessitareu. També evitarà que es mostri aquest diàleg. \n \nGràcies!</string>
+    <string name="upgraded_from_free_contacts">Hola, \n \nsembla que acabeu d\'actualitzar a partir de la versió gratuïta. Si teníeu contactes emmagatzemats a «%s», cal migrar-los manualment exportant-los en un fitxer .vcf des de la versió gratuïta de l\'aplicació i important-los aquí a través del menú superior. \n \nQuan estigueu satisfet amb la vostra configuració de la versió Pro, podeu desinstal·lar l\'antiga gratuïta perquè ja no la necessitareu. També evitarà que es mostri aquest diàleg. \n \nGràcies!</string>
+    <string name="upgraded_from_free_notes">Hola, \n \nsembla que acabeu d\'actualitzar a partir de la versió gratuïta. Si voleu migrar les notes, cal fer-ho manualment exportant-les a un fitxer en la versió gratuïta de l\'aplicació i important-les aquí a través del menú superior. \n \nQuan estigueu satisfet amb la vostra configuració de la versió Pro, podeu desinstal·lar l\'antiga gratuïta perquè ja no la necessitareu. També evitarà que es mostri aquest diàleg. \n \nGràcies!</string>
     <string name="about">Quant a</string>
     <string name="website">Lloc web</string>
     <string name="website_label">Per al codi font visiteu</string>
@@ -862,15 +830,7 @@
     <string name="make_sure_upgrade">Tingueu en compte que aquesta versió de l\'aplicació ja no s\'està desenvolupant, aconseguiu la versió Pro amb moltes millores.</string>
     <string name="read_it">Llegiu-ho</string>
     <string name="read_faq">Llegiu les preguntes més freqüents</string>
-    <string name="rate_us_prompt">Hola,
-\n
-\nsembla que esteu utilitzant aquesta aplicació des de fa força temps, i ho agraïm sincerament.
-\n
-\nSi us podem demanar un favor, valoreu-nos a Google Play, si us plau. Això ens ajudarà molt.
-\n
-\nNo importa què decidiu, no tornareu a veure aquest missatge.
-\n
-\nGràcies!</string>
+    <string name="rate_us_prompt">Hola, \n \nsembla que esteu utilitzant aquesta aplicació des de fa força temps, i ho agraïm sincerament. \n \nSi us podem demanar un favor, valoreu-nos a Google Play, si us plau. Això ens ajudarà molt. \n \nNo importa què decidiu, no tornareu a veure aquest missatge. \n \nGràcies!</string>
     <string name="rate_our_app">Valoreu la nostra aplicació, si us plau :)</string>
     <string name="thank_you">Gràcies</string>
     <string name="widget_locked_pro">El giny està bloquejat. \nActualitzeu a la versió Pro per a desbloquejar-lo.</string>
@@ -895,17 +855,17 @@
     <string name="sideloaded_app">Sembla que aquesta versió de l\'aplicació està malmesa. Baixeu la versió original &lt;a href=%s&gt;aquí&lt;/a&gt;.</string>
     <string name="frequently_asked_questions">Preguntes més freqüents</string>
     <string name="before_asking_question">Abans de fer una pregunta, primer llegiu les</string>
-    <string name="faq_1_title_commons">Com és que no veig aquest giny a la llista de ginys\?</string>
+    <string name="faq_1_title_commons">Com és que no veig aquest giny a la llista de ginys?</string>
     <string name="faq_1_text_commons">Probablement, perquè heu mogut l\'aplicació a una targeta SD. Hi ha una limitació del sistema d\'Android que oculta els ginys de l\'aplicació en aquest cas. L\'única solució és moure l\'aplicació a l\'emmagatzematge intern a través de la configuració del dispositiu.</string>
-    <string name="faq_2_title_commons">Vull ajudar-vos, però no puc donar diners. Hi ha res més que pugui fer\?</string>
-    <string name="faq_3_title_commons">He suprimit alguns fitxers per error, com els puc recuperar\?</string>
+    <string name="faq_2_title_commons">Vull ajudar-vos, però no puc donar diners. Hi ha res més que pugui fer?</string>
+    <string name="faq_3_title_commons">He suprimit alguns fitxers per error, com els puc recuperar?</string>
     <string name="faq_3_text_commons">Malauradament, no podeu fer-ho. Els fitxers se suprimeixen a l\'instant després del diàleg de confirmació, no hi ha cap paperera disponible.</string>
-    <string name="faq_4_title_commons">No m\'agraden els colors del giny, puc canviar-los\?</string>
+    <string name="faq_4_title_commons">No m\'agraden els colors del giny, puc canviar-los?</string>
     <string name="faq_4_text_commons">Sí, mentre arrossegueu un giny a la pantalla d\'inici apareixerà una pantalla de configuració de ginys. Veureu quadrats de color a l\'extrem inferior esquerre, només cal prémer-los per a seleccionar un color nou. També podeu utilitzar el control lliscant per a ajustar l\'alfa.</string>
-    <string name="faq_5_title_commons">Puc restaurar d\'alguna manera els fitxers suprimits\?</string>
+    <string name="faq_5_title_commons">Puc restaurar d\'alguna manera els fitxers suprimits?</string>
     <string name="faq_5_text_commons">Si es van suprimir totalment, no ho podeu fer. Tanmateix, hi ha una paperera de reciclatge activada de manera predeterminada que farà que els fitxers es moguin allà en lloc de suprimir-los.</string>
     <string name="faq_6_title_commons">Ha desaparegut la icona del menú d\'aplicacions. Què puc fer?</string>
-    <string name="faq_7_title_commons">Els diners s\'han descomptat del meu compte bancari, però no puc baixar l\'aplicació. Què puc fer\?</string>
+    <string name="faq_7_title_commons">Els diners s\'han descomptat del meu compte bancari, però no puc baixar l\'aplicació. Què puc fer?</string>
     <string name="faq_7_text_commons">Google gestiona completament els pagaments, i alguns cops això genera problemes en el seu sistema. Només cal que netegeu la memòria cau de l\'aplicació Google Play i reinicieu el dispositiu, després torneu a intentar baixar-la.</string>
     <string name="faq_8_title_commons">Per què he d\'actualitzar a la versió Pro?</string>
     <string name="faq_8_text_commons">Com que la versió de l\'aplicació ja no s\'actualitza, els errors que potser heu vist no es corregiran. Tampoc s\'afegiran funcions noves. Podeu comprar la versió Pro a Google Play per una petita quantitat de diners. Es tracta d\'un pagament únic, cosa que significa que un cop que l\'adquiriu, no caldrà tornar a pagar mai més. Ni tan sols després de canviar de dispositiu. Si no us agrada la versió Pro, podeu desinstal·lar-la en poques hores i automàticament es retornaran els diners. Si voleu un reemborsament més endavant, poseu-vos en contacte amb nosaltres a l\'adreça hello@fossify.org i ho aconseguireu.</string>
@@ -1042,7 +1002,7 @@
         <item quantity="many">Aquesta versió de prova caduca d\'aquí a %d dies.</item>
         <item quantity="other">Aquesta versió de prova caduca d\'aquí a %d dies.</item>
     </plurals>
-    <string name="deprecated_app">OBSOLETA: Aquesta versió de l\'aplicació ja no es manté, obteniu la versió Pro a https://play.google.com/store/apps/details\?id=org.fossify..xxx.pro</string>
+    <string name="deprecated_app">OBSOLETA: Aquesta versió de l\'aplicació ja no es manté, obteniu la versió Pro a https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">No oblideu que si desinstal·leu qualsevol aplicació de pagament en un termini de 2 hores, el càrrec es retornarà automàticament. Si voleu un reemborsament més tard, poseu-vos en contacte amb nosaltres a hello@fossify.org i el rebreu. Això fa que sigui fàcil provar-ho :)</string>
     <string name="developer_description">Un grup d\'aplicacions Android simples i de codi obert amb ginys personalitzables, sense anuncis ni permisos innecessaris.</string>
     <string name="deletion_confirmation_short">Suprimeixo %s?</string>
@@ -1099,4 +1059,5 @@
     <string name="theme_and_colors">Tema i colors</string>
     <string name="all_fossify_apps">Totes les aplicacions Fossify</string>
     <string name="known_issues">Problemes coneguts</string>
+    <string name="translation_kabyle"></string>
 </resources>
