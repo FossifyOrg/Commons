@@ -111,7 +111,7 @@
     <string name="import_blocked_numbers">Importalos números bloqueados</string>
     <string name="must_make_default_dialer">Para facer uso dos números bloqueados, tes que poñer este aplicativo como o marcador telefónico por defecto.</string>
     <string name="set_as_default">Poñer por defecto</string>
-    <string name="block_confirmation">Seguro que queres bloquear a \"%s\"?</string>
+    <string name="block_confirmation">Seguro que queres bloquear a s?</string>
     <string name="block_unknown_calls">Bloquealas chamadas dos contactos non gardados</string>
     <string name="block_unknown_messages">Bloquealas mensaxes do contactos non gardados</string>
     <string name="add_blocked_number_helper_text">Introduce un número ou un patrón (por exemplo, *12345*, +1*8888) para bloquear todalas chamadas e mensaxes dos números que coincidan co patrón.</string>
@@ -168,13 +168,7 @@
     <string name="simple_renaming">Renomeado simple</string>
     <string name="pattern_renaming">Patrón</string>
     <string name="string_to_add">Cadea a engadir</string>
-    <string name="rename_date_time_pattern">%Y - ano 
-\n%M - mes 
-\n%D - día 
-\n%h - hora
-\n%m - minuto 
-\n%s - segundo 
-\n%i - o número aumenta dende 1</string>
+    <string name="rename_date_time_pattern">%Y - ano \n%M - mes \n%D - día \n%h - hora \n%m - minuto \n%s - segundo \n%i - o número aumenta dende 1</string>
     <string name="filename_without_txt">Nome do ficheiro (sen .txt)</string>
     <string name="filename_without_json">Nome do ficheiro (sen .json)</string>
     <string name="filename_without_zip">Nome do ficheiro (sen .zip)</string>
@@ -216,9 +210,9 @@
     <string name="invalid_name">O nome contén caracteres non válidos</string>
     <string name="empty_name">Introduce un nome</string>
     <string name="unknown_error_occurred">Ocurreu un erro descoñecido</string>
-    <string name="file_already_exists">O ficheiro \"%s\" xa existe</string>
-    <string name="file_already_exists_overwrite">O ficheiro \"%s\" xa existe. Sobreescribir?</string>
-    <string name="folder_already_exists">O cartafol \"%s\" xa existe</string>
+    <string name="file_already_exists">O ficheiro s xa existe</string>
+    <string name="file_already_exists_overwrite">O ficheiro s xa existe. Sobreescribir?</string>
+    <string name="folder_already_exists">O cartafol s xa existe</string>
     <string name="merge">Fusionar</string>
     <string name="keep_both">Manter ambos</string>
     <string name="overwrite">Sobreescribir</string>
@@ -236,8 +230,8 @@
     <string name="confirm_folder_access_title">Confirme o acceso ao cartafol</string>
     <string name="confirm_storage_access_text">Por favor, escolle a carpeta raíz da tarxeta SD na próxima pantalla para conceder o acceso de escritura</string>
     <string name="confirm_storage_access_text_sd">Se non ves a tarxeta SD, proba isto</string>
-    <string name="confirm_storage_access_android_text">Permite que a aplicación acceda ao almacenamento seleccionado na seguinte pantalla premendo \"Usar este cartafol\" na parte inferior.</string>
-    <string name="confirm_storage_access_android_text_specific">Permite acceder a \"<b>%s</b>\" na seguinte pantalla premendo \"<b>Usar este cartafol</b>\" na parte inferior.</string>
+    <string name="confirm_storage_access_android_text">Permite que a aplicación acceda ao almacenamento seleccionado na seguinte pantalla premendo sar este cartafol na parte inferior.</string>
+    <string name="confirm_storage_access_android_text_specific">Permite acceder a \"<b>%s</b> na seguinte pantalla premendo \\<b>Usar este cartafol</b>\" na parte inferior.</string>
     <string name="confirm_create_doc_for_new_folder_text">Preme \"<b>Gardar</b>\" na parte inferior da seguinte pantalla para crear o novo cartafol.</string>
     <string name="confirm_selection">Confirmar a selección</string>
     <string name="loading">Cargando…</string>
@@ -265,8 +259,7 @@
     <string name="root">Raíz (Root)</string>
     <string name="wrong_root_selected">Seleccionouse o cartafol incorrecto; por favor, escolle o cartafol raíz da túa tarxeta SD</string>
     <string name="sd_card_usb_same">Os directorios da tarxeta SD e do dispositivo USB non poden coincidir</string>
-    <string name="app_on_sd_card">Parece que tes o aplicativo instalado na tarxeta SD, o que ocasiona que os widgets do aplicativo non estean dispoñibles. Non os verás na lista de widgets dispoñibles.
-        Isto é unha limitación do sistema, así que se queres usar os widgets, tes que mover o aplicativo ao almacenamento interno.</string>
+    <string name="app_on_sd_card">Parece que tes o aplicativo instalado na tarxeta SD, o que ocasiona que os widgets do aplicativo non estean dispoñibles. Non os verás na lista de widgets dispoñibles. Isto é unha limitación do sistema, así que se queres usar os widgets, tes que mover o aplicativo ao almacenamento interno.</string>
     <string name="wrong_folder_selected">Seleccionouse un cartafol errado, selecciona o camiño \'%s\'</string>
     <string name="properties">Propiedades</string>
     <string name="path">Camiño</string>
@@ -285,7 +278,7 @@
     <string name="song_title">Título da canción</string>
     <string name="gps_coordinates">Coordenadas GPS</string>
     <string name="remove_exif">Eliminar EXIF</string>
-    <string name="remove_exif_confirmation">Estás seguro de que queres eliminar valores EXIF como as coordenadas GPS, o modelo de cámara, etc.\?</string>
+    <string name="remove_exif_confirmation">Estás seguro de que queres eliminar valores EXIF como as coordenadas GPS, o modelo de cámara, etc.?</string>
     <string name="exif_removed">Os valores EXIF elimináronse correctamente</string>
     <string name="background_color">A cor do fondo</string>
     <string name="text_color">Cor do texto</string>
@@ -534,8 +527,7 @@
     </plurals>
     <string name="alarm_goes_off_in">Tempo que falta para que soe a alarma:\n%s</string>
     <string name="reminder_triggers_in">Tempo que falta para o recordatorio:\n%s</string>
-    <string name="time_remaining">Tempo restante: 
-\n%s</string>
+    <string name="time_remaining">Tempo restante: \n%s</string>
     <string name="alarm_warning">Por favor, asegúrate de que a alarma funciona correctamente antes de confiares nela. Pode non funcionar ben debido a restricións do sistema relacionadas co aforro de batería.</string>
     <string name="reminder_warning">Por favor, asegúrate de que os recordatorios funcionan correctamente antes de confiares neles. Poden non funcionar ben debido a restricións do sistema relacionadas co aforro de batería.</string>
     <string name="notifications_disabled">As notificacións desta aplicación están desactivadas. Accede á configuración do teu dispositivo para activalos.</string>
@@ -610,7 +602,7 @@
     <string name="excluded">(excluído)</string>
     <string name="manage_excluded_folders">Xestionar cartafoles excluídos</string>
     <string name="remove_all">Eliminar todos</string>
-    <string name="remove_all_description">Eliminar todos os cartafoles da lista de excluídos\? Isto non borrará os cartafoles.</string>
+    <string name="remove_all_description">Eliminar todos os cartafoles da lista de excluídos? Isto non borrará os cartafoles.</string>
     <string name="temporarily_show_excluded">Exclúese temporalmente</string>
     <string name="stop_showing_excluded">Deixar de mostralos excluídos</string>
     <string name="manage_shown_tabs">Xestionalas pestanas mostradas</string>
@@ -702,47 +694,13 @@
     <string name="more_info">Máis información</string>
     <string name="upgrade">Actualizar</string>
     <string name="upgrade_calendar">Tes que migrar os eventos almacenados localmente exportándoos a un ficheiro .ics, e despois importalo. Podes atopar estes dous botóns, exportar e importar, no menú da pantalla principal.</string>
-    <string name="upgraded_from_free_gallery">Ola,
-\n
-\nsemella que actualizaches desde a versión gratuíta. Xa que desfrutas con esta versión e quizás migraches os axustes e favoritos desde a anterior, agora podes desinstalar a versión gratuíta para evitar iniciala sen querer xa que non a vas necesitar máis, tamén evitarás ver este aviso outra vez.
-\n
-\nGrazas!</string>
-    <string name="upgraded_to_pro_gallery">Ola,
-\n
-\nsemella que xa tes tamén a versión Pro. Xa que desfrutas con ela e pode que migrases os teus axustes e favoritos a ela, agora podes desinstalar esta para evitar iniciala sen querer xa que non a precisas mais.
-\n
-\nGrazas!</string>
-    <string name="upgraded_from_free">Ola,
-\n
-\nSemella que acabas de actualizar dende a versión gratuíta. Cando migres os teus datos e esteas conforme, podes desinstalar a antiga gratuíta para evitar que a inicies accidentalmente xa que xa non a vas necesitar, tamén evitarás ver esta mensaxe de novo.
-\n
-\nGrazas!</string>
-    <string name="upgraded_to_pro">Ola,
-\n
-\nParece que xa tela versión pro da aplicación. Unha vez que esteas satisfeito con el e migraches os teus datos, podes desinstalar esta aplicación. Para evitar iniciala accidentalmente porque xa non a necesitas.
-\n
-\nMoitas grazas!</string>
-    <string name="upgraded_from_free_calendar">Ola,
-\n
-\nParece que actualizaches a versión gratuíta á versión profesional. Se queres migralos teus eventos almacenados localmente dende a versión gratuíta, debes exportalos manualmente como ficheiros .ics na versión gratuíta e importalos á versión profesional a través do menú superior.
-\n
-\nSe estás satisfeito coa configuración profesional, podes desinstalala versión gratuíta anterior xa que xa non a necesitas, tamén evitarás volver a ver esta mensaxe.
-\n
-\nGrazas!</string>
-    <string name="upgraded_from_free_contacts">Ola,
-\n
-\nParece que acabas de actualizar dende a versión gratuíta. Se tes contactos gardados en \"%s\", terás que migralos manualmente exportándoos a un ficheiro .vcf na versión gratuíta da aplicación e importándoos aquí desde o menú superior.
-\n
-\nUnha vez que estea satisfeito coa súa configuración na versión Pro, pode desinstalala versión gratuíta anterior porque xa non a necesita, tamén evitarás ver esta mensaxe.
-\n
-\nMoitas grazas!</string>
-    <string name="upgraded_from_free_notes">Ola,
-\n
-\nParece que acabas de actualizar desde a versión gratuíta. Se queres migralas notas, debes facelo manualmente exportándoas a un ficheiro na versión gratuíta da aplicación e importándoas aquí a través do menú superior.
-\n
-\nCando esteas satisfeito coa configuración da túa versión Pro, podes desinstalala antiga gratuíta porque xa non a necesitarás, tamén evitarás ver esta mensaxe.
-\n
-\nGrazas!</string>
+    <string name="upgraded_from_free_gallery">Ola, \n \nsemella que actualizaches desde a versión gratuíta. Xa que desfrutas con esta versión e quizás migraches os axustes e favoritos desde a anterior, agora podes desinstalar a versión gratuíta para evitar iniciala sen querer xa que non a vas necesitar máis, tamén evitarás ver este aviso outra vez. \n \nGrazas!</string>
+    <string name="upgraded_to_pro_gallery">Ola, \n \nsemella que xa tes tamén a versión Pro. Xa que desfrutas con ela e pode que migrases os teus axustes e favoritos a ela, agora podes desinstalar esta para evitar iniciala sen querer xa que non a precisas mais. \n \nGrazas!</string>
+    <string name="upgraded_from_free">Ola, \n \nSemella que acabas de actualizar dende a versión gratuíta. Cando migres os teus datos e esteas conforme, podes desinstalar a antiga gratuíta para evitar que a inicies accidentalmente xa que xa non a vas necesitar, tamén evitarás ver esta mensaxe de novo. \n \nGrazas!</string>
+    <string name="upgraded_to_pro">Ola, \n \nParece que xa tela versión pro da aplicación. Unha vez que esteas satisfeito con el e migraches os teus datos, podes desinstalar esta aplicación. Para evitar iniciala accidentalmente porque xa non a necesitas. \n \nMoitas grazas!</string>
+    <string name="upgraded_from_free_calendar">Ola, \n \nParece que actualizaches a versión gratuíta á versión profesional. Se queres migralos teus eventos almacenados localmente dende a versión gratuíta, debes exportalos manualmente como ficheiros .ics na versión gratuíta e importalos á versión profesional a través do menú superior. \n \nSe estás satisfeito coa configuración profesional, podes desinstalala versión gratuíta anterior xa que xa non a necesitas, tamén evitarás volver a ver esta mensaxe. \n \nGrazas!</string>
+    <string name="upgraded_from_free_contacts">Ola, \n \nParece que acabas de actualizar dende a versión gratuíta. Se tes contactos gardados en s terás que migralos manualmente exportándoos a un ficheiro .vcf na versión gratuíta da aplicación e importándoos aquí desde o menú superior. \n \nUnha vez que estea satisfeito coa súa configuración na versión Pro, pode desinstalala versión gratuíta anterior porque xa non a necesita, tamén evitarás ver esta mensaxe. \n \nMoitas grazas!</string>
+    <string name="upgraded_from_free_notes">Ola, \n \nParece que acabas de actualizar desde a versión gratuíta. Se queres migralas notas, debes facelo manualmente exportándoas a un ficheiro na versión gratuíta da aplicación e importándoas aquí a través do menú superior. \n \nCando esteas satisfeito coa configuración da túa versión Pro, podes desinstalala antiga gratuíta porque xa non a necesitarás, tamén evitarás ver esta mensaxe. \n \nGrazas!</string>
     <string name="about">Acerca de</string>
     <string name="website_label">Máis aplicativos sinxelos e código fonte en</string>
     <string name="email_label">Envía os teus comentarios ou suxerencias a</string>
@@ -775,10 +733,8 @@
     <string name="rate_us_prompt">Ola,\n\nparece que xa levas un tempo usando este app, e nós apreciámoscho.\n\nSe non che importa, por favor, valóranos no Google Play. Iso axudaríanos moito.\n\nDecidas o que decidas, non volverás ver esta mensaxe de novo.\n\nGrazas!</string>
     <string name="rate_our_app">Valora o noso app, por favor :)</string>
     <string name="thank_you">Grazas</string>
-    <string name="widget_locked_pro">O widget estopaze bloqueado. 
-\nActualiza á versión Pro para desbloquealo.</string>
-    <string name="new_app">
-        <![CDATA[
+    <string name="widget_locked_pro">O widget estopaze bloqueado. \nActualiza á versión Pro para desbloquealo.</string>
+    <string name="new_app"><![CDATA[
             Ola,<br><br>
             simplemente informámosche de que se lanzaron recentemente novos aplicativos:<br><br>
             <a href="%1$s">%2$s</a><br><br>
@@ -786,8 +742,7 @@
             <a href="%5$s">%6$s</a><br><br>
             Podes descargalas premendo no seu título ou icona.<br><br>
             Grazas
-        ]]>
-    </string>
+        ]]></string>
     <string name="app_launcher_short">Lanzador de aplicacións</string>
     <string name="calculator_short">Calculadora</string>
     <string name="calendar_short">Almanaque</string>
@@ -807,21 +762,21 @@
     <string name="sideloaded_app">Parece que a versión da túa aplicación está corrupta. Descarga a versión orixinal &lt;a href=%s&gt;aquí&lt;/a&gt;.</string>
     <string name="frequently_asked_questions">Preguntas máis frecuentes</string>
     <string name="before_asking_question">Antes de facer unha pregunta, lea primeiro</string>
-    <string name="faq_1_title_commons">Como é que non vexo este widget de aplicacións na lista de widgets\?</string>
+    <string name="faq_1_title_commons">Como é que non vexo este widget de aplicacións na lista de widgets?</string>
     <string name="faq_1_text_commons">O máis probable é porque moveches a aplicación nunha tarxeta SD. Hai unha limitación do sistema Android que oculta os widgets da aplicación nese caso. A única solución é mover a aplicación de novo ao Almacenamento interno mediante a configuración do dispositivo.</string>
-    <string name="faq_2_title_commons">Quero apoialo, pero non podo doar cartos. Hai algo máis que podo facer\?</string>
-    <string name="faq_3_title_commons">Borrei algúns ficheiros por erro, como podo recuperalos\?</string>
+    <string name="faq_2_title_commons">Quero apoialo, pero non podo doar cartos. Hai algo máis que podo facer?</string>
+    <string name="faq_3_title_commons">Borrei algúns ficheiros por erro, como podo recuperalos?</string>
     <string name="faq_3_text_commons">Por desgraza, non podes. Os ficheiros elimínanse ao instante despois do diálogo de confirmación, non atoparas ningún lixo dispoñible.</string>
-    <string name="faq_4_title_commons">Non me gustan as cores do widget, podo cambialas\?</string>
+    <string name="faq_4_title_commons">Non me gustan as cores do widget, podo cambialas?</string>
     <string name="faq_4_text_commons">Si, mentres arrastras un widget na túa pantalla de inicio aparecerá unha pantalla de configuración do widgets. Verás cadrados de cores na esquina inferior esquerda, só tes que premelos para escoller unha nova cor. Tamén podes usalo control deslizante para axustarlo alfa.</string>
-    <string name="faq_5_title_commons">Podo restaurar dalgún xeito os ficheiros eliminados\?</string>
+    <string name="faq_5_title_commons">Podo restaurar dalgún xeito os ficheiros eliminados?</string>
     <string name="faq_5_text_commons">Se realmente foron eliminados, non podes. Non obstante, hai unha papeleira de reciclaxe activada por defecto, o que fará que os ficheiros só se movan na papeleira en lugar de eliminalos.</string>
-    <string name="faq_6_title_commons">A icona do iniciador de aplicacións desapareceu. Que podo facer\?</string>
-    <string name="faq_7_title_commons">O diñeiro foi deducido da miña conta bancaria, pero non podo descargala aplicación. Que podo facer\?</string>
+    <string name="faq_6_title_commons">A icona do iniciador de aplicacións desapareceu. Que podo facer?</string>
+    <string name="faq_7_title_commons">O diñeiro foi deducido da miña conta bancaria, pero non podo descargala aplicación. Que podo facer?</string>
     <string name="faq_7_text_commons">Os pagos son xestionados por enteiro por Google, o seu sistema falla de cando en vez. Só tes que borrala caché da aplicación Google Play e reinicialo dispositivo e, a despois, tentar descargalo de novo.</string>
     <string name="faq_8_title_commons">Por que debo actualizar á versión Pro?</string>
     <string name="faq_8_text_commons">Como a versión da túa aplicación xa non se actualiza, os erros que quizais detectaches nunca se solucionarán. Tampouco se engadirán novas funcións. Podes mercala versión Pro en Google Play por unha pequena cantidade de diñeiro. É nun pago so, o que compres unha vez, nunca terás que pagalo de novo. Nin sequera despois de conseguir un novo dispositivo. Se non che gusta a versión Pro, podes desinstalala nunhas poucas horas e recuperarás o teu diñeiro automaticamente. Se queres un reembolso máis tarde, póñase en contacto connosco en hello@fossify.org e conseguirao.</string>
-    <string name="faq_9_title_commons">Como podo seleccionar varios elementos dunha soa vez\?</string>
+    <string name="faq_9_title_commons">Como podo seleccionar varios elementos dunha soa vez?</string>
     <string name="faq_9_text_commons">Atoparas diferentes formas de facelo. O primeiro é iniciar o modo de selección mantendo presionado un elemento e, a continuación, premendo brevemente sobre outros para seleccionalos. A segunda forma é semellante a seleccionar elementos nos ordenadores cun rato, só tes que iniciar o modo de selección mantendo presionado un elemento e, a continuación, co dedo aínda para abaixo arrástralo por outros elementos para seleccionalo. A terceira forma de seleccionar varios elementos é premendo un elemento durante moito tempo, despois premendo outro e seleccionando todo o que hai entre eles. Se queres seleccionar todos os elementos, só tes que premer un elemento e, a continuación, fai clic no contador de elementos seleccionados na esquina superior esquerda. Isto seleccionará ou deseleccionará todo.</string>
     <string name="faq_10_title_commons">Merquei a aplicación, pero non podo descargala noutro dispositivo.</string>
     <string name="faq_10_text_commons">Proba a borrar a caché da aplicación Google Play e reinicia o dispositivo. É un fallo de Google Play, que non está realmente relacionado coa propia aplicación.</string>
@@ -880,7 +835,7 @@
     <string name="why_upgrade_footer">100% garantía da devolución do diñeiro</string>
     <string name="why_upgrade_footer_one_time_payment">Pago unha soa vez</string>
     <string name="why_upgrade_improved_design">Deseño mellorado</string>
-    <string name="why_upgrade_advanced_photo_editor"> Editor de fotos avanzado</string>
+    <string name="why_upgrade_advanced_photo_editor">Editor de fotos avanzado</string>
     <string name="why_upgrade_advanced_photo_video_editor">Editor avanzado de fotos e vídeos</string>
     <string name="why_upgrade_heic_support">Soporte a ficheiros HEIC/HEIF</string>
     <string name="why_upgrade_batch_renaming">Renomear lote de ficheiros avanzado</string>
@@ -945,11 +900,7 @@
     <string name="trial_expires_soon">A túa proba caduca pronto.</string>
     <string name="welcome_to_app_name">Benvido a %s!</string>
     <string name="trial_start_description">Grazas por usala nosa aplicación. Podes usar esta versión desbloqueada durante <font color="#FFFFFF">%d días</font>. Unha vez que remate a proba, considere actualizalá versión Pro. Ten unha gran cantidade de novas funcións, deseño moderno, sen anuncios e moitas outras melloras. \n \nSó tes que pagalo unha vez na vida e se non estás satisfeito, podes desinstalalo e obter un reembolso. \n \nAgardo que vos guste :)</string>
-    <string name="trial_end_description">Por favor actualizalá versión Pro para gozar da aplicación ao máximo.
-\n
-\nSó tes que pagala unha vez na vida e se non estás satisfeito, podes desinstalala e obter un reembolso.
-\n
-\nVéxote alí :)</string>
+    <string name="trial_end_description">Por favor actualizalá versión Pro para gozar da aplicación ao máximo. \n \nSó tes que pagala unha vez na vida e se non estás satisfeito, podes desinstalala e obter un reembolso. \n \nVéxote alí :)</string>
     <plurals name="trial_expires_days">
         <item quantity="one">A túa proba caduca en %d día.</item>
         <item quantity="other">A túa proba caduca en %d días.</item>
@@ -958,4 +909,124 @@
     <string name="pro_app_refund">Non esquezas que se desinstalas calquera app de pago antes de 2 horas, devolveránseche os cartos automáticamente. Se queres unha devolución máis tarde, contáctanos en hello@fossify.org e terala. Isto fai que sexa fácil probala :)</string>
     <string name="developer_description">Un grupo de aplicacións Android sinxelas e de código aberto con widgets persoalizables, sen anuncios e permisos innecesarios.</string>
     <string name="audio">Audio</string>
+    <string name="translation_belarusian"></string>
+    <string name="translation_central_kurdish"></string>
+    <string name="translation_chuvash"></string>
+    <string name="translation_tamil"></string>
+    <string name="theme_and_colors"></string>
+    <string name="backups"></string>
+    <string name="april_short"></string>
+    <string name="december_short"></string>
+    <string name="may_short"></string>
+    <string name="june_short"></string>
+    <string name="copyright"></string>
+    <string name="social"></string>
+    <string name="translation_esperanto"></string>
+    <string name="block_hidden_calls"></string>
+    <string name="block_contact_success"></string>
+    <string name="block_contact_fail"></string>
+    <string name="show_search"></string>
+    <string name="allow_notifications_reminders"></string>
+    <string name="allow_notifications_files"></string>
+    <string name="allow_notifications_voice_recorder"></string>
+    <string name="allow_notifications_music_player"></string>
+    <string name="allow_notifications_incoming_calls"></string>
+    <string name="allow_full_screen_notifications_incoming_calls"></string>
+    <string name="allow_alarm_sleep_timer"></string>
+    <string name="allow_notifications_incoming_messages"></string>
+    <string name="allow_location_permission"></string>
+    <string name="apply_to_all_apps"></string>
+    <string name="shared_theme_note"></string>
+    <string name="purchase_thank_you"></string>
+    <string name="white"></string>
+    <string name="auto_theme"></string>
+    <string name="send_email"></string>
+    <string name="more_options"></string>
+    <string name="enter_password"></string>
+    <string name="add_password"></string>
+    <string name="password"></string>
+    <string name="invalid_password"></string>
+    <string name="empty_password"></string>
+    <string name="empty_password_new"></string>
+    <string name="hours_letter"></string>
+    <string name="purchase_simple_thank_you"></string>
+    <string name="general_settings"></string>
+    <string name="notification_sound"></string>
+    <string name="widgets"></string>
+    <string name="enable_automatic_backups"></string>
+    <string name="usb"></string>
+    <string name="manage_automatic_backups"></string>
+    <string name="july_short"></string>
+    <string name="donate_please"></string>
+    <string name="donate_new"></string>
+    <string name="update_thank_you"></string>
+    <string name="features_locked"></string>
+    <string name="minutes_letter"></string>
+    <string name="add_contact"></string>
+    <string name="contact_details"></string>
+    <string name="block_hidden_messages"></string>
+    <string name="file_manager_short"></string>
+    <string name="february_short"></string>
+    <string name="hide_line_numbers"></string>
+    <string name="zip4j_title"></string>
+    <string name="notes_short"></string>
+    <string name="view_contact_details"></string>
+    <string name="skip_the_recycle_bin"></string>
+    <string name="altitude"></string>
+    <string name="january_short"></string>
+    <string name="start_week_on"></string>
+    <string name="why_upgrade_many_other_improvements"></string>
+    <string name="genre"></string>
+    <string name="date_time_pattern_info"></string>
+    <string name="grant_permission"></string>
+    <string name="date_added"></string>
+    <string name="translation_kabyle"></string>
+    <string name="seconds_letter"></string>
+    <string name="notifications"></string>
+    <string name="unblock_contact_success"></string>
+    <string name="internal_storage"></string>
+    <string name="unblock_contact"></string>
+    <string name="show_line_numbers"></string>
+    <string name="august_short"></string>
+    <string name="exif"></string>
+    <string name="october_short"></string>
+    <plurals name="row_counts">
+        <item quantity="one"></item>
+        <item quantity="other"></item>
+    </plurals>
+    <string name="saturday_letter"></string>
+    <string name="march_short"></string>
+    <string name="send_sms"></string>
+    <string name="unlock_for_one_final_day"></string>
+    <string name="allow_access_more_media"></string>
+    <string name="pin_must_be_4_digits_long"></string>
+    <string name="week_number_short"></string>
+    <string name="too_many_incorrect_attempts"></string>
+    <string name="november_short"></string>
+    <string name="unblock"></string>
+    <string name="unblock_contact_fail"></string>
+    <string name="pin"></string>
+    <string name="website"></string>
+    <string name="pin_item"></string>
+    <string name="error"></string>
+    <string name="block_contact"></string>
+    <string name="permission_required"></string>
+    <string name="allow_alarm_scheduled_messages"></string>
+    <string name="deletion_confirmation_short"></string>
+    <string name="row_count"></string>
+    <string name="allow_full_screen_notifications_reminders"></string>
+    <string name="format_phone_numbers"></string>
+    <string name="cryptocurrency"></string>
+    <string name="little_to_no_fee"></string>
+    <string name="fee_up_to_pct"></string>
+    <string name="donate_to_fossify"></string>
+    <string name="platforms"></string>
+    <string name="faq_2_text_commons"></string>
+    <string name="translation_gujarati"></string>
+    <string name="why_upgrade_pro_version"></string>
+    <string name="known_issues"></string>
+    <string name="version_placeholder"></string>
+    <string name="donate_short"></string>
+    <string name="all_fossify_apps"></string>
+    <string name="contributors_label"></string>
 </resources>
