@@ -117,7 +117,7 @@
     <string name="import_blocked_numbers">Tuo estetyt numerot</string>
     <string name="must_make_default_dialer">Jotta voit käyttää numeroiden estoja, täytyy tämän sovelluksen olla oletuksena puheluille.</string>
     <string name="set_as_default">Aseta oletukseksi</string>
-    <string name="block_confirmation">Haluatko varmasti estää numeron \"%s\"?</string>
+    <string name="block_confirmation">Haluatko varmasti estää numeron s?</string>
     <string name="block_unknown_calls">Estä puhelut tallentamattomista yhteystiedoista</string>
     <string name="block_hidden_calls">Estä puhelut piilotetuista numeroista</string>
     <string name="block_unknown_messages">Estä viestit tallentamattomista yhteystiedoista</string>
@@ -236,9 +236,9 @@
     <string name="invalid_name">Nimessä on kiellettyjä merkkejä</string>
     <string name="empty_name">Syötä nimi</string>
     <string name="unknown_error_occurred">Tapahtui tuntematon virhe</string>
-    <string name="file_already_exists">Tiedosto \"%s\" on jo olemassa</string>
-    <string name="file_already_exists_overwrite">Tiedosto \"%s\" on jo olemassa. Korvataanko?</string>
-    <string name="folder_already_exists">Kansio \"%s\" on jo olemassa</string>
+    <string name="file_already_exists">Tiedosto s on jo olemassa</string>
+    <string name="file_already_exists_overwrite">Tiedosto s on jo olemassa. Korvataanko?</string>
+    <string name="folder_already_exists">Kansio s on jo olemassa</string>
     <string name="merge">Yhdistä</string>
     <string name="keep_both">Pidä molemmat</string>
     <string name="overwrite">Korvaa</string>
@@ -256,9 +256,9 @@
     <string name="confirm_folder_access_title">Varmista kansion käyttöoikeus</string>
     <string name="confirm_storage_access_text">Valitse muistikortin juurihakemisto seuraavaksi antaaksesi kirjoitusoikeuden</string>
     <string name="confirm_storage_access_text_sd">Jos et näe muistikorttia, kokeile tätä</string>
-    <string name="confirm_storage_access_android_text">Anna sovellukselle käyttöoikeus tallennustilan käyttöön painamalla seuraavassa näkymässä \"Käytä tätä hakemistoa\"-painiketta.</string>
-    <string name="confirm_storage_access_android_text_specific">Anna käyttöoikeus kohteeseen \'&lt;b&gt;%s&lt;/b&gt;\' seuraavalla ruudulla painamalla \'&lt;b&gt;Käytä tätä kansiota&lt;/b&gt;\' alalaidasta.</string>
-    <string name="confirm_create_doc_for_new_folder_text">Paina \'&lt;b&gt;Tallenna&lt;/b&gt;\' seuraavan ruudun alalaidasta luodaksesi uuden kansion.</string>
+    <string name="confirm_storage_access_android_text">Anna sovellukselle käyttöoikeus tallennustilan käyttöön painamalla seuraavassa näkymässä äytä tätä hakemistoapainiketta.</string>
+    <string name="confirm_storage_access_android_text_specific">Anna käyttöoikeus kohteeseen \'<b>%s</b>\' seuraavalla ruudulla painamalla \'<b>Käytä tätä kansiota</b>\' alalaidasta.</string>
+    <string name="confirm_create_doc_for_new_folder_text">Paina \'<b>Tallenna</b>\' seuraavan ruudun alalaidasta luodaksesi uuden kansion.</string>
     <string name="confirm_selection">Vahvista valinta</string>
     <string name="loading">Ladataan…</string>
     <string name="access_storage_prompt">Anna sovellukselle käyttöoikeus kaikkiin tiedoistoihin, muutoin se ei välttämättä toimi.</string>
@@ -286,8 +286,7 @@
     <string name="root">Juurihakemisto</string>
     <string name="wrong_root_selected">Väärä kansio valittu, valitse muistikortin juurihakemisto</string>
     <string name="sd_card_usb_same">Muistikortin ja USB-laitteen polut eivät voi olla samat</string>
-    <string name="app_on_sd_card">Sovellus on asennettu muistikortille, jonka vuoksi pienoissovellukset eivät ole käytettävissä. Niitä ei näytetä pienoissovellusten listalla.
-        Kyseessä on järjestelmän rajoitus, joten jos haluat käyttää pienoissovelluksia, siirrä sovellus takaisin sisäiseen tallennustilaan.</string>
+    <string name="app_on_sd_card">Sovellus on asennettu muistikortille, jonka vuoksi pienoissovellukset eivät ole käytettävissä. Niitä ei näytetä pienoissovellusten listalla. Kyseessä on järjestelmän rajoitus, joten jos haluat käyttää pienoissovelluksia, siirrä sovellus takaisin sisäiseen tallennustilaan.</string>
     <string name="wrong_folder_selected">Väärä kansio valittu, valitse \'%s\'</string>
     <string name="properties">Ominaisuudet</string>
     <string name="path">Polku</string>
@@ -307,7 +306,7 @@
     <string name="gps_coordinates">GPS-koordinaatit</string>
     <string name="altitude">Korkeus</string>
     <string name="remove_exif">Poista EXIF</string>
-    <string name="remove_exif_confirmation">Haluatko varmasti poistaa EXIF-arvot kuten GPS-koordinaatit, kameran mallin yms.\?</string>
+    <string name="remove_exif_confirmation">Haluatko varmasti poistaa EXIF-arvot kuten GPS-koordinaatit, kameran mallin yms.?</string>
     <string name="exif_removed">EXIF-arvot poistettu onnistuneesti</string>
     <string name="background_color">Taustaväri</string>
     <string name="text_color">Tekstin väri</string>
@@ -322,7 +321,7 @@
     <string name="default_color">Oletus</string>
     <string name="change_color">Vaihda väriä</string>
     <string name="theme">Teema</string>
-    <string name="changing_color_description">Värin vaihtaminen vaihtaa teemaksi "Oma teema"</string>
+    <string name="changing_color_description">Värin vaihtaminen vaihtaa teemaksi Oma teema</string>
     <string name="save">Tallenna</string>
     <string name="discard">Hylkää</string>
     <string name="undo_changes">Peru muutokset</string>
@@ -330,11 +329,9 @@
     <string name="cannot_be_undone">Toimintoa ei ole mahdollista kumota.</string>
     <string name="save_before_closing">Sinulla on tallentamattomia muutoksia. Tallennetaanko ennen sulkemista?</string>
     <string name="global_theme_success">Värit päivitetty. Uusi teema nimeltä \'Jaettu\' käytä sitä jatkossa muokataksesi värejä kaikissa sovelluksissa.</string>
-    <string name="purchase_thank_you">
-        <![CDATA[
+    <string name="purchase_thank_you"><![CDATA[
             Osta <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> avataksesi ominaisuuden ja tukeaksesi kehitystä. Kiitos!
-        ]]>
-    </string>
+        ]]></string>
     <string name="light_theme">Vaalea</string>
     <string name="dark_theme">Tumma</string>
     <string name="auto_theme">Automaattinen</string>
@@ -432,8 +429,7 @@
     <string name="please_enter_pin">Syötä PIN</string>
     <string name="wrong_pin">Väärä PIN</string>
     <string name="pin_must_be_4_digits_long">PIN-koodissa tulee olla vähintään 4 numeroa</string>
-    <string name="too_many_incorrect_attempts">Liian monta virheellistä lukituksen avausyritystä.
-\nYritä uudelleen %d sekunnin kuluttua.</string>
+    <string name="too_many_incorrect_attempts">Liian monta virheellistä lukituksen avausyritystä. \nYritä uudelleen %d sekunnin kuluttua.</string>
     <string name="repeat_pin">Toista PIN</string>
     <string name="pattern">Kuvio</string>
     <string name="insert_pattern">Syötä kuvio</string>
@@ -581,8 +577,7 @@
     </plurals>
     <string name="alarm_goes_off_in">Aikaa hälytykseen:\n%s</string>
     <string name="reminder_triggers_in">Aikaa jäljellä ennen muistutusta:\n%s</string>
-    <string name="time_remaining">Aikaa jäljellä:
-\n%s</string>
+    <string name="time_remaining">Aikaa jäljellä: \n%s</string>
     <string name="alarm_warning">Varmista että hälytys toimii ennenkuin turvaudut siihen. Se voi toimia virheellisesti laitteesi virransäästötoiminnoista riippuen.</string>
     <string name="reminder_warning">Varmista että muistutus toimii ennenkuin turvaudut siihen. Se voi toimia virheellisesti laitteesi virransäästötoiminnoista riippuen.</string>
     <string name="notifications_disabled">Tämän sovelluksen ilmoitukset ovat poissa käytöstä. Kytke ilmoitukset päälle laitteesi asetuksista.</string>
@@ -660,7 +655,7 @@
     <string name="excluded">(ohitettu)</string>
     <string name="manage_excluded_folders">Hallitse poissuljettuja kansioita</string>
     <string name="remove_all">Poista kaikki</string>
-    <string name="remove_all_description">Poista kaikki kansiot poissuljettujen listasta\? Tämä ei poista kansioita.</string>
+    <string name="remove_all_description">Poista kaikki kansiot poissuljettujen listasta? Tämä ei poista kansioita.</string>
     <string name="temporarily_show_excluded">Näytä tilapäisesti poissuljetut</string>
     <string name="stop_showing_excluded">Lopeta poissuljettujen näyttäminen</string>
     <string name="manage_shown_tabs">Valitse sovelluksen välilehdet</string>
@@ -696,20 +691,13 @@
     <string name="exporting_failed">Vienti epäonnistui</string>
     <string name="importing_some_entries_failed">Joidenkin kohteiden tuonti epäonnistui</string>
     <string name="exporting_some_entries_failed">Joidenkin kohteiden vienti epäonnistui</string>
-    <string name="no_entries_for_importing">Tuotavia kohteita ei löytynyt </string>
+    <string name="no_entries_for_importing">Tuotavia kohteita ei löytynyt</string>
     <string name="no_new_entries_for_importing">Ei uusia tuotavia kohteita</string>
     <string name="no_entries_for_exporting">Vientikohteita ei löydetty</string>
     <string name="backups">Varmuuskopiot</string>
     <string name="enable_automatic_backups">Ota käyttöön automaattiset varmuuskopiot</string>
     <string name="manage_automatic_backups">Hallitse automaattisia varmuuskopioita</string>
-    <string name="date_time_pattern_info">Voit käyttää seuraavia merkintöjä tiedostojen automaattiseen nimeämiseen:
-\n
-\n%Y - vuosi
-\n%M - kuukausi
-\n%D - päivä
-\n%h - tunti
-\n%m - minuutti
-\n%s - sekunti</string>
+    <string name="date_time_pattern_info">Voit käyttää seuraavia merkintöjä tiedostojen automaattiseen nimeämiseen: \n \n%Y - vuosi \n%M - kuukausi \n%D - päivä \n%h - tunti \n%m - minuutti \n%s - sekunti</string>
     <string name="usb_detected">Laitteeseesi on kytketty USB-lisälaite. Jotta tiedostot lisälaitteelta näkyvät oikein, vaaditaan lisäkäyttöoikeus.</string>
     <string name="confirm_usb_storage_access_text">Valitse USB-laitteen root-kansio salliaksesi pääsyn</string>
     <string name="wrong_root_selected_usb">Väärä kansio valittu, valitse USB-laitteen root-kansio</string>
@@ -761,47 +749,13 @@
     <string name="more_info">Lisää tietoa</string>
     <string name="upgrade">Päivitä</string>
     <string name="upgrade_calendar">Sinun tulee yhdistää paikallisesti tallennetut tapahtumat manuaalisesti viemällä ne .ics-tiedostoon ja sen jälkeen tuomalla tiedostosta. Löydät vienti- ja tuontipainikkeet päävalikosta.</string>
-    <string name="upgraded_from_free_gallery">Hei,
-\n
-\nnäyttää siltä, että päivitit juuri ilmaisversiosta. Kun olet tähän versioon tyytyväinen ja kenties tuonut asetuksesi ja merkannut suosikkisi, voit poistaa ilmaisversion sekaannusten välttämiseksi.
-\n
-\nKiitos!</string>
-    <string name="upgraded_to_pro_gallery">Hei,
-\n
-\nnäyttää siltä että sinulla on myös sovelluksen Pro-versio asennettuna. Kun olet siihen tyytyväinen ja kenties vienyt asetuksesi ja merkannut suosikkisi, voit poistaa tämän ilmaisversion sekaannusten välttämiseksi.
-\n
-\nKiitos!</string>
-    <string name="upgraded_from_free">Hei,
-\n
-\nnäytät juuri päivittäneen ilmaisversiosta. Kun olet tyytyväinen tähän ja mahdollisesti siirtänyt tietosi, voit poistaa vanhan ilmaisversion asennuksen, ettet vahingossa turhaan avaa sitä, koska et tarvitse sitä enää.
-\n
-\nKiitos!</string>
-    <string name="upgraded_to_pro">Hei,
-\n
-\nsinulla näyttää jo olevan myös sovelluksen Pro-versio. Kun olet tyytyväinen siihen ja mahdollisesti siirtänyt tietosi, voit poistaa tämän sovelluksen asennuksen, ettet vahingossa turhaan avaa sitä, koska et tarvitse sitä enää.
-\n
-\nKiitos!</string>
-    <string name="upgraded_from_free_calendar">Hei,
-\n
-\nnäytät juuri päivittäneen ilmaisversiosta. Jos haluat siirtää paikallisesti säilytetyt tapahtumatiedot tähän sovellukseen, on se tehtävä manuaalisesti viemällä ne ensin ilmaisversiosta .ics-tiedostoon, joka voidaan sen jälkeen tuoda tähän sovellukseen ylävalikon kautta.
-\n
-\nKun olet tyytyväinen Pro-versioon, voit poistaa vanhan ilmaisversion asennuksen, ettet vahingossa turhaan avaa sitä, koska et tarvitse sitä enää.
-\n
-\nKiitos!</string>
-    <string name="upgraded_from_free_contacts">Hei,
-\n
-\nnäytät juuri päivittäneen ilmaisversiosta. Jos haluat siirtää kohteessa \"%s\" säilytetyt yhteystiedot tähän sovellukseen, on se tehtävä manuaalisesti viemällä ne ensin ilmaisversiosta .vcf-tiedostoon, joka voidaan sen jälkeen tuoda tähän sovellukseen ylävalikon kautta.
-\n
-\nKun olet tyytyväinen Pro-versioon, voit poistaa vanhan ilmaisversion asennuksen, ettet vahingossa turhaan avaa sitä, koska et tarvitse sitä enää.
-\n
-\nKiitos!</string>
-    <string name="upgraded_from_free_notes">Hei,
-\n
-\nnäytät juuri päivittäneen ilmaisversiosta. Jos haluat siirtää muistiinpanosi tähän sovellukseen, on se tehtävä manuaalisesti viemällä ne ensin ilmaisversiosta tiedostoon, joka voidaan sen jälkeen tuoda tähän sovellukseen ylävalikon kautta.
-\n
-\nKun olet tyytyväinen Pro-versioon, voit poistaa vanhan ilmaisversion asennuksen, ettet vahingossa turhaan avaa sitä, koska et tarvitse sitä enää.
-\n
-\nKiitos!</string>
+    <string name="upgraded_from_free_gallery">Hei, \n \nnäyttää siltä, että päivitit juuri ilmaisversiosta. Kun olet tähän versioon tyytyväinen ja kenties tuonut asetuksesi ja merkannut suosikkisi, voit poistaa ilmaisversion sekaannusten välttämiseksi. \n \nKiitos!</string>
+    <string name="upgraded_to_pro_gallery">Hei, \n \nnäyttää siltä että sinulla on myös sovelluksen Pro-versio asennettuna. Kun olet siihen tyytyväinen ja kenties vienyt asetuksesi ja merkannut suosikkisi, voit poistaa tämän ilmaisversion sekaannusten välttämiseksi. \n \nKiitos!</string>
+    <string name="upgraded_from_free">Hei, \n \nnäytät juuri päivittäneen ilmaisversiosta. Kun olet tyytyväinen tähän ja mahdollisesti siirtänyt tietosi, voit poistaa vanhan ilmaisversion asennuksen, ettet vahingossa turhaan avaa sitä, koska et tarvitse sitä enää. \n \nKiitos!</string>
+    <string name="upgraded_to_pro">Hei, \n \nsinulla näyttää jo olevan myös sovelluksen Pro-versio. Kun olet tyytyväinen siihen ja mahdollisesti siirtänyt tietosi, voit poistaa tämän sovelluksen asennuksen, ettet vahingossa turhaan avaa sitä, koska et tarvitse sitä enää. \n \nKiitos!</string>
+    <string name="upgraded_from_free_calendar">Hei, \n \nnäytät juuri päivittäneen ilmaisversiosta. Jos haluat siirtää paikallisesti säilytetyt tapahtumatiedot tähän sovellukseen, on se tehtävä manuaalisesti viemällä ne ensin ilmaisversiosta .ics-tiedostoon, joka voidaan sen jälkeen tuoda tähän sovellukseen ylävalikon kautta. \n \nKun olet tyytyväinen Pro-versioon, voit poistaa vanhan ilmaisversion asennuksen, ettet vahingossa turhaan avaa sitä, koska et tarvitse sitä enää. \n \nKiitos!</string>
+    <string name="upgraded_from_free_contacts">Hei, \n \nnäytät juuri päivittäneen ilmaisversiosta. Jos haluat siirtää kohteessa s säilytetyt yhteystiedot tähän sovellukseen, on se tehtävä manuaalisesti viemällä ne ensin ilmaisversiosta .vcf-tiedostoon, joka voidaan sen jälkeen tuoda tähän sovellukseen ylävalikon kautta. \n \nKun olet tyytyväinen Pro-versioon, voit poistaa vanhan ilmaisversion asennuksen, ettet vahingossa turhaan avaa sitä, koska et tarvitse sitä enää. \n \nKiitos!</string>
+    <string name="upgraded_from_free_notes">Hei, \n \nnäytät juuri päivittäneen ilmaisversiosta. Jos haluat siirtää muistiinpanosi tähän sovellukseen, on se tehtävä manuaalisesti viemällä ne ensin ilmaisversiosta tiedostoon, joka voidaan sen jälkeen tuoda tähän sovellukseen ylävalikon kautta. \n \nKun olet tyytyväinen Pro-versioon, voit poistaa vanhan ilmaisversion asennuksen, ettet vahingossa turhaan avaa sitä, koska et tarvitse sitä enää. \n \nKiitos!</string>
     <string name="about">Tietoa</string>
     <string name="website">Verkkosivusto</string>
     <string name="website_label">Lähdekoodin löydät täältä</string>
@@ -827,13 +781,11 @@
     <string name="additional_info">Lisätietoa</string>
     <string name="app_version">Sovelluksen versio: %s</string>
     <string name="device_os">Laitteen käyttöjärjestelmä: %s</string>
-    <string name="donate_please">
-        <![CDATA[
+    <string name="donate_please"><![CDATA[
             Hei,<br><br>
             toivottavasti pidät sovelluksesta. Se ei sisällä mainoksia, tue sen kehitystä ostamalla <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> sovellus, tämä myös estää tämän ilmoituksen jatkossa.<br><br>
             Kiitos!
-        ]]>
-    </string>
+        ]]></string>
     <string name="purchase">Osta</string>
     <string name="before_asking_question_read_faq">Ennen kysymyksen esittämistä varmista, löytyykö vastaus asetuksista tai usein kysytyistä kysymyksistä (Frequently Asked Questions).</string>
     <string name="before_rate_read_faq">Ennen kuin arvostelet sovelluksen ja sinulla on ongelmia sovelluksen kanssa, varmista, löytyykö ratkaisu asetuksista tai usein kysytyistä kysymyksistä (Frequently Asked Questions).</string>
@@ -841,19 +793,10 @@
     <string name="make_sure_upgrade">Huomioi, että tätä sovellusversiota ei enää kehitetä, hanki Pro-versio parannuksia varten.</string>
     <string name="read_it">Lue</string>
     <string name="read_faq">Lue FAQ</string>
-    <string name="rate_us_prompt">Hei,
-\n
-\nnäyttää siltä, että olet käyttänyt tätä sovellusta jo jonkin aikaa, arvostamme sitä.
-\n
-\nPyytäisimme sinua lisäämään arvostelun Google Playhyn, se auttaisi meitä paljon.
-\n
-\nHuolimatta siitä miten toimit, et nää tätä viestiä enää.
-\n
-\nKiitos!</string>
+    <string name="rate_us_prompt">Hei, \n \nnäyttää siltä, että olet käyttänyt tätä sovellusta jo jonkin aikaa, arvostamme sitä. \n \nPyytäisimme sinua lisäämään arvostelun Google Playhyn, se auttaisi meitä paljon. \n \nHuolimatta siitä miten toimit, et nää tätä viestiä enää. \n \nKiitos!</string>
     <string name="rate_our_app">Arvostele sovelluksemme, kiitos :)</string>
     <string name="thank_you">Kiitos</string>
-    <string name="widget_locked_pro">Pienoissovellus on lukittu.
-\nOle hyvä ja päivitä Pro-versioon ottaaksesi sen käyttöön.</string>
+    <string name="widget_locked_pro">Pienoissovellus on lukittu. \nOle hyvä ja päivitä Pro-versioon ottaaksesi sen käyttöön.</string>
     <string name="new_app">Hei,&lt;br&gt;&lt;br&gt; halusin vain kertoa että uusi sovellus on julkaistu:&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; Voit ladata sen koskettamalla otsikkoa.&lt;br&gt;&lt;br&gt; Kiitos</string>
     <string name="app_launcher_short">Sovelluskäynnistin</string>
     <string name="calculator_short">Laskin</string>
@@ -873,11 +816,9 @@
     <string name="sms_messenger_short">Tekstiviesti Messenger</string>
     <string name="thank_you_short">Kiitos</string>
     <string name="voice_recorder_short">Ääninauhuri</string>
-    <string name="sideloaded_app">
-        <![CDATA[
+    <string name="sideloaded_app"><![CDATA[
             Sovellusversiosi vaikuttaa korruptoituneelta. Lataa alkuperäinen versio <a href="%s">täältä</a>.
-        ]]>
-    </string>
+        ]]></string>
     <string name="frequently_asked_questions">Usein kysytyt kysymykset</string>
     <string name="before_asking_question">Ennen kuin esität kysymyksen, luethan ensin</string>
     <string name="faq_1_title_commons">Miksi en näe tämän sovelluksen pienoissovellusta pienoissovellusvalikossa?</string>
@@ -890,12 +831,10 @@
     <string name="faq_5_title_commons">Voinko jotenkin palauttaa poistetut tiedostot?</string>
     <string name="faq_5_text_commons">Jos ne todella on poistettu, et voi palauttaa niitä. Oletuksena poistetut tiedostot siirretään roskakoriin, joten varmista, onko tiedostot roskakorissa.</string>
     <string name="faq_6_title_commons">Sovelluksen kuvake hävisi. Mitä voin tehdä?</string>
-    <string name="faq_7_title_commons">Tiliäni on veloitettu, mutta en voi ladata sovellusta. Mitä voin tehdä\?</string>
+    <string name="faq_7_title_commons">Tiliäni on veloitettu, mutta en voi ladata sovellusta. Mitä voin tehdä?</string>
     <string name="faq_7_text_commons">Google hoitaa maksut täysin, ajoittain heidän järjestelmässä on häiriöitä. Tyhjennä Google Play-sovelluksen välimuisti, käynnistä laitteesi uudelleen ja yritä latausta uudelleen.</string>
     <string name="faq_8_title_commons">Miksi päivittäisin Pro-versioon?</string>
-    <string name="faq_8_text_commons">Koska sovellusversiotasi ei enää päivitetä, et saa korjauksia mahdollisiin bugeihin etkä uusia ominaisuuksia. Voit ostaa Pro-version Google Playsta edullisesti.
-        Kyseessä on kertamaksu, joka tarkoittaa sitä, että oston jälkeen sinun ei koskaan enää tarvitse maksaa siitä. Ei edes uuden laitteen hankinnan jälkeen. Jos et pidä Pro-versiosta, voit poistaa sen muutaman tunnin kuluessa ja saat automaattisesti rahasi takaisin.
-        Jos haluat palauttaa myöhemmin. ota yhteyttä hello@fossify.org ja maksusi palautetaan.</string>
+    <string name="faq_8_text_commons">Koska sovellusversiotasi ei enää päivitetä, et saa korjauksia mahdollisiin bugeihin etkä uusia ominaisuuksia. Voit ostaa Pro-version Google Playsta edullisesti. Kyseessä on kertamaksu, joka tarkoittaa sitä, että oston jälkeen sinun ei koskaan enää tarvitse maksaa siitä. Ei edes uuden laitteen hankinnan jälkeen. Jos et pidä Pro-versiosta, voit poistaa sen muutaman tunnin kuluessa ja saat automaattisesti rahasi takaisin. Jos haluat palauttaa myöhemmin. ota yhteyttä hello@fossify.org ja maksusi palautetaan.</string>
     <string name="faq_9_title_commons">Kuinka valitsen useamman kohteen kerralla?</string>
     <string name="faq_9_text_commons">Siihen on useampi tapa. Ensimmäinen on aloittaa valitsemistila painamalla pitkään yhtä kohdetta ja sen jälkeen napauttamalla muita valittavia kohteita. Toinen tapa on vastaava kuin kohteiden valinta tietokoneella: paina pitkään yhtä kohdetta ja vie sormi muiden valittavien kohteen yli. Kolmas tapa on painaa ensimmäistä kohdetta pitkään ja sen jälkeen viimeistä kohdetta painamalla pitkään valitaan kaikki kohteet niiden väliltä. Jos haluat valita kaikki kohteet, paina vain yhtä kohdetta pitkään ja sen jälkeen valittujen kohteiden lukumäärää yläpalkista napauttamalla valitset kaikki kohteet tai poistat kaikista valinnan.</string>
     <string name="faq_10_title_commons">Olen ostanut sovelluksen, mutta en voi ladata sitä toiselle laitteelle.</string>
@@ -954,7 +893,7 @@
     <string name="why_upgrade_advanced_photo_editor">Kehittyt valokuvaeditori</string>
     <string name="why_upgrade_advanced_photo_video_editor">Edistynyt valokuva- ja videoeditori</string>
     <string name="why_upgrade_heic_support">Tuki HEIC/HEIF-tiedostoille</string>
-    <string name="why_upgrade_batch_renaming">Kehittynyt monen tiedoston uudelleennimeäminen kerralla </string>
+    <string name="why_upgrade_batch_renaming">Kehittynyt monen tiedoston uudelleennimeäminen kerralla</string>
     <string name="why_upgrade_folder_locking">Yksittäisten hakemistojen lukitseminen</string>
     <string name="why_upgrade_printing_support">Tuki tulostamiselle</string>
     <string name="why_upgrade_time_zone_support">Tuki aikavyöhykkeille</string>
@@ -1018,11 +957,7 @@
     <string name="unlock_for_one_final_day">Avaa sovelluksen lukitus yhdelle viimeiselle päivälle</string>
     <string name="welcome_to_app_name">Tervetuloa sovellukseen %s!</string>
     <string name="trial_start_description">Kiitos sovelluksemme käytöstä. Voit käyttää tätä avattua versiota <font color="#FFFFFF">%d päivän ajan</font>. Harkitse kokeilujakson päättyessä päivitystä Pro-versioon. Se tarjoaa merkittävästi enemmän ominaisuuksoa, modernin ulkoasun ja monia muita parannuksia, eikä siinä ole mainoksia. \n \nSe on elinikäinen kertaostos ja jos et ole tyytyväinen, voit poistaa sen ja saada hyvityksen. \n \nToivottavasti pidät siitä :)</string>
-    <string name="trial_end_description">Päivitä Pro-versioon nauttiaksesi sovelluksesta täysin.
-\n
-\nSe on elinikäinen kertaostos ja jos et ole tyytyväinen, voit poistaa sen ja saada hyvityksen.
-\n
-\nNähdään siellä :)</string>
+    <string name="trial_end_description">Päivitä Pro-versioon nauttiaksesi sovelluksesta täysin. \n \nSe on elinikäinen kertaostos ja jos et ole tyytyväinen, voit poistaa sen ja saada hyvityksen. \n \nNähdään siellä :)</string>
     <plurals name="trial_expires_days">
         <item quantity="one">Kokeilujaksosi päättyy %d päivän kuluttua.</item>
         <item quantity="other">Kokeilujaksosi päättyy %d päivän kuluttua.</item>
@@ -1071,4 +1006,28 @@
     <string name="translation_romanian">Romania</string>
     <string name="translation_english">Englanti</string>
     <string name="translation_nepali">Nepali</string>
+    <string name="translation_central_kurdish"></string>
+    <string name="translation_chuvash"></string>
+    <string name="translation_esperanto"></string>
+    <string name="theme_and_colors"></string>
+    <string name="donate_new"></string>
+    <string name="all_fossify_apps"></string>
+    <string name="features_locked"></string>
+    <string name="allow_alarm_sleep_timer"></string>
+    <string name="faq_2_text_commons"></string>
+    <string name="contributors_label"></string>
+    <string name="shared_theme_note"></string>
+    <string name="donate_short"></string>
+    <string name="translation_belarusian"></string>
+    <string name="purchase_simple_thank_you"></string>
+    <string name="known_issues"></string>
+    <string name="translation_kabyle"></string>
+    <string name="little_to_no_fee"></string>
+    <string name="fee_up_to_pct"></string>
+    <string name="cryptocurrency"></string>
+    <string name="platforms"></string>
+    <string name="donate_to_fossify"></string>
+    <string name="translation_gujarati"></string>
+    <string name="format_phone_numbers"></string>
+    <string name="update_thank_you"></string>
 </resources>
