@@ -186,7 +186,7 @@
     <string name="filename_invalid_characters">Dateiname enthält ungültige Zeichen</string>
     <string name="filename_invalid_characters_placeholder">Dateiname ‚%s‘ enthält ungültige Zeichen</string>
     <string name="extension_cannot_be_empty">Dateiendung darf nicht leer sein</string>
-    <string name="source_file_doesnt_exist">Quelldatei ‚%s‘ existiert nicht</string>
+    <string name="source_file_doesnt_exist">Quelldatei „%s“ existiert nicht</string>
     <string name="prepend_filenames">Text dem Dateinamen voranstellen</string>
     <string name="append_filenames">Text dem Dateinamen anhängen</string>
     <string name="simple_renaming">Einfaches Umbenennen</string>
@@ -236,18 +236,18 @@
     <string name="folder">Ordner</string>
     <string name="file">Datei</string>
     <string name="create_new_folder">Neuen Ordner erstellen</string>
-    <string name="name_taken">Ordner oder Datei mit diesem Namen existiert bereits</string>
+    <string name="name_taken">Ein Ordner oder eine Datei mit diesem Namen existiert bereits</string>
     <string name="invalid_name">Der Name enthält unerlaubte Zeichen</string>
     <string name="empty_name">Bitte einen Namen angeben</string>
     <string name="unknown_error_occurred">Ein unbekannter Fehler ist aufgetreten</string>
     <string name="file_already_exists">Datei \"%s\" existiert bereits</string>
-    <string name="file_already_exists_overwrite">Datei \"%s\" existiert bereits. Überschreiben?</string>
-    <string name="folder_already_exists">Ordner \"%s\" existiert bereits</string>
+    <string name="file_already_exists_overwrite">Datei „%s“ existiert bereits. Überschreiben?</string>
+    <string name="folder_already_exists">Ordner „%s“ existiert bereits</string>
     <string name="merge">Zusammenführen</string>
     <string name="keep_both">Beide behalten</string>
     <string name="overwrite">Überschreiben</string>
     <string name="skip">Überspringen</string>
-    <string name="append">\"_1\" anhängen</string>
+    <string name="append">„_1“ anhängen</string>
     <string name="apply_to_all">Bei allen Konflikten anwenden</string>
     <string name="system_folder_restriction">Das System lässt den Vorgang in diesem Ordner nicht zu, bitte einen anderen Ordner wählen</string>
     <string name="system_folder_copy_restriction">Das System lässt das Kopieren in diesen Ordner nicht zu, bitte einen anderen Ordner wählen</string>
@@ -800,13 +800,7 @@
 \nSobald du mit deiner Einrichtung in der Pro-Version zufrieden bist, kannst du die alte kostenlose Version deinstallieren, da du sie nicht mehr benötigst. Das verhindert auch, dass dieser Dialog angezeigt wird.
 \n
 \nVielen Dank!</string>
-    <string name="upgraded_from_free_contacts">Hallo,
-\n
-\nes sieht so aus, als ob du gerade ein Upgrade von der kostenlosen Version durchgeführt hast. Wenn du Kontakte unter \"%s\" gespeichert hast, musst du diese manuell migrieren, indem du sie in der kostenlosen App-Version in eine .vcf-Datei exportierst und hier über das obere Menü importierst.
-\n
-\nSobald du mit deiner Einrichtung in der Pro-Version zufrieden bist, kannst du die alte kostenlose Version deinstallieren, da du sie nicht mehr benötigst. Das verhindert auch, dass dieser Dialog angezeigt wird.
-\n
-\nVielen Dank!</string>
+    <string name="upgraded_from_free_contacts">Hallo, \n \nes sieht so aus, als ob du gerade ein Upgrade von der kostenlosen Version durchgeführt hast. Wenn du Kontakte unter „%s“ gespeichert hast, musst du diese manuell migrieren, indem du sie in der kostenlosen App-Version in eine .vcf-Datei exportierst und hier über das obere Menü importierst. \n \nSobald du mit deiner Einrichtung in der Pro-Version zufrieden bist, kannst du die alte kostenlose Version deinstallieren, da du sie nicht mehr benötigst. Das verhindert auch, dass dieser Dialog angezeigt wird. \n \nVielen Dank!</string>
     <string name="upgraded_from_free_notes">Hallo,
 \n
 \nes sieht so aus, als ob du gerade ein Upgrade von der kostenlosen Version durchgeführt hast. Wenn du deine Notizen migrieren möchtest, musst du dies manuell durchführen, indem du sie in der kostenlosen App-Version in eine Datei exportierst und hier über das obere Menü importierst.
