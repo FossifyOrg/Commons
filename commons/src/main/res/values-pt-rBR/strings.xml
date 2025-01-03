@@ -303,7 +303,9 @@
     <string name="cannot_be_undone">Esta ação não pode ser revertida.</string>
     <string name="save_before_closing">Existem alterações não salvas. Salvar antes de sair?</string>
     <string name="global_theme_success">Cores atualizadas com sucesso. Um novo tema chamado \'Compartilhado\' foi adicionado, use-o para atualizar as cores de todos os apps no futuro.</string>
-    <string name="purchase_thank_you">Por favor, compre &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; para desbloquear essa função e apoiar o desenvolvimento. Obrigado!</string>
+    <string name="purchase_thank_you"><![CDATA[
+            Por favor, compre <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Thank You</a> para desbloquear essa função e apoiar o desenvolvimento. Obrigado!
+        ]]></string>
     <string name="light_theme">Claro</string>
     <string name="dark_theme">Escuro</string>
     <string name="auto_light_dark_theme">Auto claro / escuro</string>
@@ -989,4 +991,13 @@
     <string name="october_short">Out</string>
     <string name="november_short">Nov</string>
     <string name="december_short">Dez</string>
+    <string name="allow_location_permission">Você deve permitir que o aplicativo acesse sua localização, caso contrário ele não saberá.</string>
+    <string name="allow_notifications_music_player">Você deve permitir que o aplicativo exiba notificações, caso contrário ele não poderá reproduzir músicas.</string>
+    <string name="allow_notifications_files">Você deve permitir que o aplicativo exiba notificações, caso contrário, ele não poderá mostrar a barra de progresso.</string>
+    <string name="allow_alarm_sleep_timer">Você deve permitir que o aplicativo acesse os alarmes internos, caso contrário, ele não poderá desligar o aplicativo após o temporizador de suspensão.</string>
+    <string name="allow_notifications_voice_recorder">Você deve permitir que o aplicativo exiba notificações, caso contrário ele não poderá gravar áudio.</string>
+    <string name="allow_alarm_scheduled_messages">Você deve permitir que o aplicativo acesse alarmes internos, caso contrário ele não poderá enviar mensagens programadas.</string>
+    <string name="allow_full_screen_notifications_incoming_calls">Você deve permitir que o aplicativo exiba notificações em tela cheia, caso contrário você poderá perder algumas chamadas recebidas.</string>
+    <string name="allow_notifications_incoming_calls">Você deve permitir que o aplicativo exiba notificações, caso contrário ele não poderá mostrar chamadas recebidas.</string>
+    <string name="allow_notifications_incoming_messages">Você deve permitir que o aplicativo exiba notificações, caso contrário ele não poderá mostrar mensagens recebidas.</string>
 </resources>

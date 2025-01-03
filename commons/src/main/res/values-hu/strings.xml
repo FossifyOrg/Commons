@@ -1085,4 +1085,5 @@
     <string name="little_to_no_fee">Keveset vagy díjmentes</string>
     <string name="fee_up_to_pct">Legfeljebb %1$d%% díj</string>
     <string name="known_issues">Ismert problémák</string>
+    <string name="translation_kabyle">Kabyle</string>
 </resources>

@@ -334,7 +334,9 @@
     <string name="app_icon_color_warning">Attenzione: alcuni launcher potrebbero non gestire correttamente la personalizzazione dell\'icona dell\'app. Se l\'icona scompare, prova ad avviare l\'applicazione tramite Google Play o un widget, se accessibile. Dopo l\'avvio, ripristina il colore predefinito dell\'icona verde #106D1F. In casi estremi, potrebbe essere necessario reinstallare l\'applicazione.</string>
     <string name="global_theme_success">Colori aggiornati correttamente. È stato aggiunto un nuovo tema chiamato \'Condiviso\', usare questo per aggiornare tutti i colori dell\'app in futuro.</string>
     <string name="shared_theme_note">Nota che anche se usi la versione Pro dell\'app, per motivi tecnici è necessario Grazie Fossify. Si occupa della sincronizzazione dei colori.</string>
-    <string name="purchase_thank_you">Acquista &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Grazie Fossify&lt;/a&gt; per sbloccare questa funzione e supportare lo sviluppo. Grazie!</string>
+    <string name="purchase_thank_you"><![CDATA[
+            Acquista <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Grazie Fossify</a> per sbloccare questa funzione e supportare lo sviluppo. Grazie!
+        ]]></string>
     <string name="light_theme">Chiaro</string>
     <string name="dark_theme">Scuro</string>
     <string name="auto_light_dark_theme">Auto chiaro / scuro</string>
@@ -819,13 +821,7 @@
 \nUna volta soddisfatti della propria configurazione nella versione Pro, è possibile disinstallare la vecchia versione gratuita, poiché non è più necessaria; ciò eviterà anche la comparsa di questa finestra di dialogo.
 \n
 \nGrazie!</string>
-    <string name="upgraded_from_free_contacts">Salve,
-\n
-\nsembra che lei abbia appena effettuato l\'aggiornamento dalla versione gratuita. Se aveva dei contatti memorizzati sotto «%s», deve migrarli manualmente esportandoli in un file .vcf dalla versione gratuita dell\'app e importandoli qui attraverso il menu superiore.
-\n
-\nUna volta soddisfatti della configurazione della versione Pro, è possibile disinstallare la vecchia versione gratuita, poiché non è più necessaria; ciò eviterà anche la comparsa di questa finestra di dialogo.
-\n
-\nGrazie!</string>
+    <string name="upgraded_from_free_contacts">Salve, \n \nsembra che lei abbia appena effettuato l\'aggiornamento dalla versione gratuita. Se aveva dei contatti memorizzati sotto \"%s\", deve migrarli manualmente esportandoli in un file .vcf dalla versione gratuita dell\'app e importandoli qui attraverso il menu superiore. \n \nUna volta soddisfatti della configurazione della versione Pro, è possibile disinstallare la vecchia versione gratuita, poiché non è più necessaria; ciò eviterà anche la comparsa di questa finestra di dialogo. \n \nGrazie!</string>
     <string name="upgraded_from_free_notes">Salve,
 \n
 \nsembra che tu abbia appena effettuato l\'aggiornamento dalla versione gratuita. Se vuoi migrare le tue note, devi farlo manualmente esportandole in un file nella versione gratuita dell\'app e importandole qui attraverso il menu in alto.
@@ -858,7 +854,12 @@
     <string name="additional_info">Informazioni aggiuntive</string>
     <string name="app_version">Versione app: %s</string>
     <string name="device_os">SO dispositivo: %s</string>
-    <string name="donate_please">Ciao,&lt;br&gt;&lt;br&gt; spero che tu sia contento dell\'app. Non contiene pubblicità, supporta lo sviluppo acquistando l\'app &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Grazie Fossify&lt;/a&gt;. Inoltre questa finestra non verrà più mostrata.&lt;br&gt;&lt;br&gt; Grazie!</string>
+    <string name="donate_please"><![CDATA[
+
+            Ciao,<br><br>
+            speriamo che tu sia contento dell'app. Non contiene pubblicità, supporta lo sviluppo acquistando l'app <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Grazie Fossify</a>. Inoltre questa finestra non verrà più mostrata.<br><br>
+            Grazie!
+        ]]></string>
     <string name="donate_new">Ciao,&lt;br&gt;&lt;br&gt;spero che l\'app ti piaccia. Non contiene pubblicità e non raccogliamo nemmeno i tuoi dati, sostieni il suo sviluppo acquistando &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Grazie Fossify&lt;/a&gt;. Avrai anche tutte le funzionalità dell\'app sbloccate, inclusa la personalizzazione del colore.&lt;br&gt;&lt;br&gt;Grazie!</string>
     <string name="donate_short">Per favore, sostienici acquistando &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Grazie Fossify&lt;/a&gt;, sbloccherà anche tutte le funzionalità dell\'app, inclusa la personalizzazione del colore.</string>
     <string name="purchase">Acquista</string>
@@ -914,7 +915,11 @@
     <string name="faq_1_text_commons">Probabilmente perchè si ha spostato l\'app nella scheda SD. C\'è una limitazione di sistema di Android che nasconde i widget in questione.
         L\'unica soluzione è spostare l\'app nell\'archiviazione interna usando le impostazioni di sistema.</string>
     <string name="faq_2_title_commons">Vorrei darti supporto, ma non posso donare del denaro. Posso fare dell\'altro?</string>
-    <string name="faq_2_text_commons">Sì, certo. Puoi spargere la voce sulle app o fornire feedback e valutazioni positive. Puoi anche contribuire a tradurre le app in una nuova lingua o ad aggiornare alcune traduzioni esistenti. La guida alla traduzione è disponibile su &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;questo sito&lt;/a&gt;, oppure contattaci all\'indirizzo &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; per qualsiasi domanda.</string>
+    <string name="faq_2_text_commons"><![CDATA[
+
+            Sì, certo. Puoi spargere la voce sulle app o fornire feedback e valutazioni positive. Puoi anche contribuire a tradurre le app in una nuova lingua o ad aggiornare alcune traduzioni esistenti.
+            La guida alla traduzione è disponibile su <a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file>questo sito</a>, oppure contattaci all'indirizzo <a href=mailto:hello@fossify.org>hello@fossify.org</a> per qualsiasi domanda.
+        ]]></string>
     <string name="faq_3_title_commons">Ho eliminato dei file per errore, come posso recuperarli?</string>
     <string name="faq_3_text_commons">Purtroppo non si può. I file vengono eliminati subito dopo la richiesta di conferma, non c\'è nessun cestino disponibile.</string>
     <string name="faq_4_title_commons">Non mi piacciono i colori del widget, posso cambiarli?</string>
@@ -938,7 +943,12 @@
     <string name="contributors">Contributori</string>
     <string name="translation">Traduzione</string>
     <string name="development">Sviluppo</string>
-    <string name="contributors_label">Questo elenco contiene tutti coloro che hanno aiutato in modo significativo qualsiasi applicazione della suite Fossify, non solo questa. Le traduzioni sono gestite da volontari, fateci sapere se volete aiutare anche voi. La guida alla traduzione si trova su &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;questo sito&lt;/a&gt;, oppure contattaci all\'indirizzo &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; per qualsiasi domanda. Grazie a tutti i collaboratori e agli altri sostenitori!</string>
+    <string name="contributors_label"><![CDATA[
+
+            Questo elenco contiene tutti coloro che hanno aiutato in modo significativo qualsiasi applicazione della suite Fossify, non solo questa. Le traduzioni sono gestite da volontari,
+            fateci sapere se volete aiutare anche voi. La guida alla traduzione si trova su <a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file>questo sito</a>, oppure contattaci all'indirizzo <a href=mailto:hello@fossify.org>hello@fossify.org</a> per qualsiasi domanda.
+            Grazie a tutti i collaboratori e agli altri sostenitori!
+        ]]></string>
     <string name="translation_arabic">arabo</string>
     <string name="translation_azerbaijani">azerbaigiano</string>
     <string name="translation_bengali">bengalese</string>
@@ -1054,7 +1064,7 @@
     <string name="trial_expires_soon">Il periodo di prova sta per scadere.</string>
     <string name="unlock_for_one_final_day">Sbloccare l\'app per un ultimo giorno</string>
     <string name="welcome_to_app_name">Benvenuti su %s!</string>
-    <string name="trial_start_description">Grazie per aver utilizzato la nostra applicazione. È possibile utilizzare questa versione sbloccata per <font color="#FFFFFF">%d giorni</font>. Una volta terminata la prova, vi invitiamo a considerare l\'aggiornamento alla versione Pro. Questa versione offre un\'enorme quantità di nuove funzioni, un design moderno, l\'assenza di pubblicità e molti altri miglioramenti. \n \nDovrete pagare solo una volta nella vita e se non sarete soddisfatti, potrete disinstallarla e ottenere un rimborso. \n \nSpero che ti piaccia :)</string>
+    <string name="trial_start_description">Grazie per aver utilizzato la nostra applicazione. È possibile utilizzare questa versione sbloccata per <font color="#FFFFFF">%d giorni</font>. Una volta terminata la prova, vi invitiamo a considerare l\'aggiornamento alla versione Pro. Questa versione offre un\'enorme quantità di nuove funzioni, un design moderno, l\'assenza di pubblicità e molti altri miglioramenti.\n\nDovrete pagare solo una volta nella vita e se non sarete soddisfatti, potrete disinstallarla e ottenere un rimborso.\n\nSperiamo che ti piaccia :)</string>
     <string name="trial_end_description">Si prega di aggiornare alla versione Pro per godere appieno dell\'applicazione.
 \n
 \nDevi pagare solo una volta nella vita e se non sarai soddisfatto, potrai disinstallarla e ottenere un rimborso.
@@ -1128,4 +1138,5 @@
     <string name="theme_and_colors">Tema e colori</string>
     <string name="all_fossify_apps">Tutte le app Fossify</string>
     <string name="known_issues">Problemi noti</string>
+    <string name="translation_kabyle">Cabilo</string>
 </resources>
