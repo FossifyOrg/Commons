@@ -885,15 +885,17 @@
     <string name="thank_you">Gràcies</string>
     <string name="widget_locked_pro">El giny està bloquejat.
 \nActualitzeu a la versió Pro per a desbloquejar-lo.</string>
-    <string name="new_app"><![CDATA[
+    <string name="new_app">
+        <![CDATA[
             Hola,<br><br>
-            només informar-vos que recentment s'ha publicat una aplicació nova:<br><br>
+            només informar-vos que recentment s\'ha publicat una aplicació nova:<br><br>
             <a href="%1$s">%2$s</a><br><br>
             <a href="%3$s">%4$s</a><br><br>
             <a href="%5$s">%6$s</a><br><br>
             Podeu baixar-la prement els títols o les icones.<br><br>
             Gràcies
-        ]]></string>
+        ]]>
+    </string>
     <string name="app_launcher_short">Llançador d\'aplicacions</string>
     <string name="calculator_short">Calculadora</string>
     <string name="calendar_short">Calendari</string>
@@ -911,9 +913,11 @@
     <string name="sms_messenger_short">Missatges SMS</string>
     <string name="thank_you_short">Gràcies</string>
     <string name="voice_recorder_short">Enregistrador de veu</string>
-    <string name="sideloaded_app"><![CDATA[
-            Sembla que aquesta versió de l'aplicació està malmesa. Baixeu la versió original <a href="%s">aquí</a>.
-        ]]></string>
+    <string name="sideloaded_app">
+        <![CDATA[
+            Sembla que aquesta versió de l\'aplicació està malmesa. Baixeu la versió original <a href="%s">aquí</a>.
+        ]]>
+    </string>
     <string name="frequently_asked_questions">Preguntes més freqüents</string>
     <string name="before_asking_question">Abans de fer una pregunta, primer llegiu les</string>
     <string name="faq_1_title_commons">Com és que no veig aquest giny a la llista de ginys\?</string>
@@ -1110,11 +1114,13 @@
     <string name="block_contact">Bloqueja el contacte</string>
     <string name="exif">EXIF</string>
     <string name="shared_theme_note">Tingueu en compte que tot i que utilitzeu la versió Pro de l\'aplicació, encara necessiteu Fossify Thank You per motius tècnics. S\'encarrega de la sincronització del color.</string>
-    <string name="donate_please"><![CDATA[
+    <string name="donate_please">
+        <![CDATA[
             Hello,<br><br>
-            esperem que gaudiu de l'aplicació. No conté cap anunci, així que si us plau, ajudeu el seu desenvolupament comprant l'aplicació <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>, també evitarà que aquest diàleg es torni a mostrar.<br><br>
+            esperem que gaudiu de l\'aplicació. No conté cap anunci, així que si us plau, ajudeu el seu desenvolupament comprant l\'aplicació <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>, també evitarà que aquest diàleg es torni a mostrar.<br><br>
             Gràcies!
-        ]]></string>
+        ]]>
+    </string>
     <string name="contributors_label"><![CDATA[
             Aquesta llista conté tots els que van ajudar notablement a qualsevol aplicació de la suite Fossify, no només aquesta. Les traduccions són gestionades per voluntaris,
             feu-nos saber si vós també voleu ajudar. La guia per a traduir es troba en <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">aquest lloc web</a>, o simplement poseu-vos en contacte amb nosaltres a <a href="mailto:hello@fossify.org">hello@fossify.org</a> si teniu qualsevol pregunta.

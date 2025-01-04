@@ -577,7 +577,6 @@
     <string name="add_new_sound">Nieuw geluid toevoegen</string>
     <string name="no_sound">Geen geluid</string>
     <string name="during_day_at_hh_mm">Overdag om uu:mm</string>
-    <string name="during_day_at">Overdag om %02d.%02du</string>
     <string name="settings">Instellingen</string>
     <string name="general_settings">Algemeen</string>
     <string name="color_customization">Kleuren aanpassen</string>

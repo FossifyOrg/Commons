@@ -1116,7 +1116,7 @@
     <string name="translation_gujarati">Gudžaratski</string>
     <string name="little_to_no_fee">Malo do bez naknade</string>
     <string name="donate_to_fossify">Doniraj projektu Fossify</string>
-    <string name="fee_up_to_pct">Do %1$d% % naknade</string>
+    <string name="fee_up_to_pct">Do %1$d%% naknade</string>
     <string name="platforms">Platforme</string>
     <string name="format_phone_numbers">Formatiraj telefonske brojeve</string>
     <string name="cryptocurrency">Kriptovaluta</string>

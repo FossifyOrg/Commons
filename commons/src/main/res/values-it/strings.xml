@@ -854,12 +854,13 @@
     <string name="additional_info">Informazioni aggiuntive</string>
     <string name="app_version">Versione app: %s</string>
     <string name="device_os">SO dispositivo: %s</string>
-    <string name="donate_please"><![CDATA[
-
+    <string name="donate_please">
+        <![CDATA[
             Ciao,<br><br>
-            speriamo che tu sia contento dell'app. Non contiene pubblicità, supporta lo sviluppo acquistando l'app <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Grazie Fossify</a>. Inoltre questa finestra non verrà più mostrata.<br><br>
+            speriamo che tu sia contento dell\'app. Non contiene pubblicità, supporta lo sviluppo acquistando l\'app <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Grazie Fossify</a>. Inoltre questa finestra non verrà più mostrata.<br><br>
             Grazie!
-        ]]></string>
+        ]]>
+    </string>
     <string name="donate_new">Ciao,&lt;br&gt;&lt;br&gt;spero che l\'app ti piaccia. Non contiene pubblicità e non raccogliamo nemmeno i tuoi dati, sostieni il suo sviluppo acquistando &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Grazie Fossify&lt;/a&gt;. Avrai anche tutte le funzionalità dell\'app sbloccate, inclusa la personalizzazione del colore.&lt;br&gt;&lt;br&gt;Grazie!</string>
     <string name="donate_short">Per favore, sostienici acquistando &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Grazie Fossify&lt;/a&gt;, sbloccherà anche tutte le funzionalità dell\'app, inclusa la personalizzazione del colore.</string>
     <string name="purchase">Acquista</string>
@@ -915,11 +916,12 @@
     <string name="faq_1_text_commons">Probabilmente perchè si ha spostato l\'app nella scheda SD. C\'è una limitazione di sistema di Android che nasconde i widget in questione.
         L\'unica soluzione è spostare l\'app nell\'archiviazione interna usando le impostazioni di sistema.</string>
     <string name="faq_2_title_commons">Vorrei darti supporto, ma non posso donare del denaro. Posso fare dell\'altro?</string>
-    <string name="faq_2_text_commons"><![CDATA[
-
+    <string name="faq_2_text_commons">
+        <![CDATA[
             Sì, certo. Puoi spargere la voce sulle app o fornire feedback e valutazioni positive. Puoi anche contribuire a tradurre le app in una nuova lingua o ad aggiornare alcune traduzioni esistenti.
-            La guida alla traduzione è disponibile su <a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file>questo sito</a>, oppure contattaci all'indirizzo <a href=mailto:hello@fossify.org>hello@fossify.org</a> per qualsiasi domanda.
-        ]]></string>
+            La guida alla traduzione è disponibile su <a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file>questo sito</a>, oppure contattaci all\'indirizzo <a href=mailto:hello@fossify.org>hello@fossify.org</a> per qualsiasi domanda.
+        ]]>
+    </string>
     <string name="faq_3_title_commons">Ho eliminato dei file per errore, come posso recuperarli?</string>
     <string name="faq_3_text_commons">Purtroppo non si può. I file vengono eliminati subito dopo la richiesta di conferma, non c\'è nessun cestino disponibile.</string>
     <string name="faq_4_title_commons">Non mi piacciono i colori del widget, posso cambiarli?</string>
@@ -943,12 +945,13 @@
     <string name="contributors">Contributori</string>
     <string name="translation">Traduzione</string>
     <string name="development">Sviluppo</string>
-    <string name="contributors_label"><![CDATA[
-
+    <string name="contributors_label">
+        <![CDATA[
             Questo elenco contiene tutti coloro che hanno aiutato in modo significativo qualsiasi applicazione della suite Fossify, non solo questa. Le traduzioni sono gestite da volontari,
-            fateci sapere se volete aiutare anche voi. La guida alla traduzione si trova su <a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file>questo sito</a>, oppure contattaci all'indirizzo <a href=mailto:hello@fossify.org>hello@fossify.org</a> per qualsiasi domanda.
+            fateci sapere se volete aiutare anche voi. La guida alla traduzione si trova su <a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file>questo sito</a>, oppure contattaci all\'indirizzo <a href=mailto:hello@fossify.org>hello@fossify.org</a> per qualsiasi domanda.
             Grazie a tutti i collaboratori e agli altri sostenitori!
-        ]]></string>
+        ]]>
+    </string>
     <string name="translation_arabic">arabo</string>
     <string name="translation_azerbaijani">azerbaigiano</string>
     <string name="translation_bengali">bengalese</string>
