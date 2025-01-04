@@ -619,7 +619,7 @@
     <string name="add_new_sound">Přidat nový zvuk</string>
     <string name="no_sound">Žádný zvuk</string>
     <string name="during_day_at_hh_mm">Během dne ve hh:mm</string>
-    <string name="during_day_at">Během dne ve %02d:%02d</string>
+    <string name="during_day_at">Během dne ve %1$02d:%2$02d</string>
     <string name="settings">Nastavení</string>
     <string name="general_settings">Obecné</string>
     <string name="color_customization">Přizpůsobení barev</string>

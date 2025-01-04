@@ -671,7 +671,7 @@
     <string name="add_new_sound">Додати новий звук</string>
     <string name="no_sound">Без звуку</string>
     <string name="during_day_at_hh_mm">Протягом дня о гг:хх</string>
-    <string name="during_day_at">Протягом дня о %02d:%02d</string>
+    <string name="during_day_at">Протягом дня о %1$02d:%2$02d</string>
     <string name="settings">Налаштування</string>
     <string name="general_settings">Загальні</string>
     <string name="color_customization">Налаштування кольору</string>

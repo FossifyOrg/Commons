@@ -561,7 +561,7 @@
     <string name="add_new_sound">Pridėti naują garsą</string>
     <string name="no_sound">Be garso</string>
     <string name="during_day_at_hh_mm">Dienos metu vv:mm</string>
-    <string name="during_day_at">Dienos metu ties %02d:%02d</string>
+    <string name="during_day_at">Dienos metu ties %1$02d:%2$02d</string>
     <string name="settings">Nustatymai</string>
     <string name="general_settings">Bendri</string>
     <string name="color_customization">Spalvos tinkinimas</string>

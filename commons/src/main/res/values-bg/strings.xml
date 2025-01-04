@@ -579,7 +579,7 @@
     <string name="add_new_sound">Добавяне на звук</string>
     <string name="no_sound">Без звук</string>
     <string name="during_day_at_hh_mm">През деня в чч:мм</string>
-    <string name="during_day_at">През деня в %02d:%02d</string>
+    <string name="during_day_at">През деня в %1$02d:%2$02d</string>
     <string name="settings">Настройки</string>
     <string name="general_settings">Общи</string>
     <string name="color_customization">Настройка на цветовете</string>

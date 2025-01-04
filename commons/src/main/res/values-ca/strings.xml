@@ -627,7 +627,7 @@
     <string name="add_new_sound">Afegeix un so nou</string>
     <string name="no_sound">Sense so</string>
     <string name="during_day_at_hh_mm">Durant el dia a les hh:mm</string>
-    <string name="during_day_at">Durant el dia a les %02d:%02d</string>
+    <string name="during_day_at">Durant el dia a les %1$02d:%2$02d</string>
     <string name="settings">Configuració</string>
     <string name="color_customization">Personalització del color</string>
     <string name="improved_color_customization">Personalització del color millorada</string>

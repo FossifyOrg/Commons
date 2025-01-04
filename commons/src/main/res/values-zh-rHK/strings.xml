@@ -499,7 +499,7 @@
     <string name="add_new_sound">添加新的铃声</string>
     <string name="no_sound">无铃声</string>
     <string name="during_day_at_hh_mm">在日间的 小时:分钟 内</string>
-    <string name="during_day_at">在日间的 %02d:%02d 内</string>
+    <string name="during_day_at">在日间的 %1$02d:%2$02d 内</string>
     <string name="settings">设置</string>
     <string name="general_settings">通用</string>
     <string name="color_customization">颜色定制</string>

@@ -645,7 +645,7 @@
     <string name="add_new_sound">Добавить новый звук</string>
     <string name="no_sound">Без звука</string>
     <string name="during_day_at_hh_mm">В течение дня в чч:мм</string>
-    <string name="during_day_at">В течение дня в %02d:%02d</string>
+    <string name="during_day_at">В течение дня в %1$02d:%2$02d</string>
     <string name="settings">Настройки</string>
     <string name="general_settings">Общие</string>
     <string name="color_customization">Настройка цвета</string>

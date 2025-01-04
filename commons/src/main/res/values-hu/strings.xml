@@ -600,7 +600,7 @@
     <string name="add_new_sound">Új hang hozzáadása</string>
     <string name="no_sound">Nincs hang</string>
     <string name="during_day_at_hh_mm">Napközben, ekkor: hh:mm</string>
-    <string name="during_day_at">Napközben ekkor: %02d:%02d</string>
+    <string name="during_day_at">Napközben ekkor: %1$02d:%2$02d</string>
     <string name="settings">Beállítások</string>
     <string name="general_settings">Általános</string>
     <string name="color_customization">Színek testreszabása</string>

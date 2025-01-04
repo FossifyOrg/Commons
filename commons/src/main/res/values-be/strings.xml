@@ -634,7 +634,7 @@
     <string name="add_new_sound">Дадаць новы гук</string>
     <string name="no_sound">Без гуку</string>
     <string name="during_day_at_hh_mm">На працягу дня ў гг:хх</string>
-    <string name="during_day_at">На працягу дня ў %02d:%02d</string>
+    <string name="during_day_at">На працягу дня ў %1$02d:%2$02d</string>
     <string name="settings">Налады</string>
     <string name="general_settings">Генерал</string>
     <string name="color_customization">Налады колераў</string>

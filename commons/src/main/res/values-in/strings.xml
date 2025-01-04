@@ -502,7 +502,7 @@
     <string name="add_new_sound">Tambah suara baru</string>
     <string name="no_sound">Tidak ada suara</string>
     <string name="during_day_at_hh_mm">Saat pagi hari pada jj:mm</string>
-    <string name="during_day_at">Saat pagi hari pada %02d:%02d</string>
+    <string name="during_day_at">Saat pagi hari pada %1$02d:%2$02d</string>
     <string name="settings">Pengaturan</string>
     <string name="color_customization">Kustomisasi warna</string>
     <string name="improved_color_customization">Kustomisasi warna ditingkatkan</string>

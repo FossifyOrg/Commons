@@ -595,7 +595,7 @@
     <string name="add_new_sound">Lisa uus heli</string>
     <string name="no_sound">Heli pole</string>
     <string name="during_day_at_hh_mm">Päeval kell hh:mm</string>
-    <string name="during_day_at">Päeval kell %02d:%02d</string>
+    <string name="during_day_at">Päeval kell %1$02d:%2$02d</string>
     <string name="settings">Seadistused</string>
     <string name="general_settings">Üldine</string>
     <string name="color_customization">Värvide kohendamine</string>

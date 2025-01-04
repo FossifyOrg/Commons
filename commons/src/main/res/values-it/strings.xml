@@ -624,7 +624,7 @@
     <string name="add_new_sound">Aggiungi un nuovo suono</string>
     <string name="no_sound">Nessun suono</string>
     <string name="during_day_at_hh_mm">Durante il giorno alle oo:mm</string>
-    <string name="during_day_at">Durante il giorno alle %02d:%02d</string>
+    <string name="during_day_at">Durante il giorno alle %1$02d:%2$02d</string>
     <string name="settings">Impostazioni</string>
     <string name="purchase_simple_thank_you">Acquista Grazie Fossify</string>
     <string name="general_settings">Generale</string>

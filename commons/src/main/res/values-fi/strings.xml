@@ -596,7 +596,7 @@
     <string name="add_new_sound">Lisää uusi ääni</string>
     <string name="no_sound">Ei ääntä</string>
     <string name="during_day_at_hh_mm">Päivällä kello hh:mm</string>
-    <string name="during_day_at">Päivällä kello %02d:%02d</string>
+    <string name="during_day_at">Päivällä kello %1$02d:%2$02d</string>
     <string name="settings">Asetukset</string>
     <string name="general_settings">Yleistä</string>
     <string name="color_customization">Värien mukautus</string>

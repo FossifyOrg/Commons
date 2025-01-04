@@ -669,7 +669,7 @@
     <string name="add_new_sound">Dodaj nowy dźwięk</string>
     <string name="no_sound">Brak dźwięku</string>
     <string name="during_day_at_hh_mm">W ciągu dnia o hh:mm</string>
-    <string name="during_day_at">W ciągu dnia o %02d:%02d</string>
+    <string name="during_day_at">W ciągu dnia o %1$02d:%2$02d</string>
     <string name="settings">Ustawienia</string>
     <string name="purchase_simple_thank_you">Kup aplikację „Fossify Thank You”</string>
     <string name="general_settings">Ogólne</string>

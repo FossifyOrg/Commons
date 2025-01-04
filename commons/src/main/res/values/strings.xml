@@ -679,7 +679,7 @@
     <string name="add_new_sound">Add a new sound</string>
     <string name="no_sound">No sound</string>
     <string name="during_day_at_hh_mm">During the day at hh:mm</string>
-    <string name="during_day_at">During the day at %02d:%02d</string>
+    <string name="during_day_at">During the day at %1$02d:%2$02d</string>
 
     <!-- Settings -->
     <string name="settings">Settings</string>

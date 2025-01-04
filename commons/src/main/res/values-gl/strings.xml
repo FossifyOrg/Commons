@@ -549,7 +549,7 @@
     <string name="add_new_sound">Engadir un novo son</string>
     <string name="no_sound">Silencio</string>
     <string name="during_day_at_hh_mm">Durante o día hh:mm</string>
-    <string name="during_day_at">Durante o día en %02d:%02d</string>
+    <string name="during_day_at">Durante o día en %1$02d:%2$02d</string>
     <string name="settings">Axustes</string>
     <string name="color_customization">Persoaliza a cor</string>
     <string name="improved_color_customization">Persoalización mellorada das cores</string>

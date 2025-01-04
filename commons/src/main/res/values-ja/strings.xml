@@ -518,7 +518,7 @@
     <string name="add_new_sound">新しいサウンドを追加</string>
     <string name="no_sound">サウンドなし</string>
     <string name="during_day_at_hh_mm">日中 hh:mm</string>
-    <string name="during_day_at">日中 %02d:%02d</string>
+    <string name="during_day_at">日中 %1$02d:%2$02d</string>
     <string name="settings">設定</string>
     <string name="general_settings">全般</string>
     <string name="color_customization">カラーカスタマイズ</string>

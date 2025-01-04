@@ -1029,7 +1029,7 @@
  Buíochas le gach rannpháirtí agus lucht tacaíochta eile!
  ]]></string>
     <string name="august_short">Lún</string>
-    <string name="during_day_at">Le linn an lae ag %02d:%02d</string>
+    <string name="during_day_at">Le linn an lae ag %1$02d:%2$02d</string>
     <plurals name="trial_expires_days">
         <item quantity="one">Rachaidh do thriail in éag i gceann %d lá.</item>
         <item quantity="two">Rachaidh do thriail in éag i gceann %d laethanta.</item>

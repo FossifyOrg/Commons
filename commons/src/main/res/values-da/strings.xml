@@ -578,7 +578,7 @@
     <string name="add_new_sound">Tilføj en ny lyd</string>
     <string name="no_sound">Ingen lyd</string>
     <string name="during_day_at_hh_mm">I løbet af dagen kl. hh:mm</string>
-    <string name="during_day_at">I løbet af dagen kl. %02d:%02d</string>
+    <string name="during_day_at">I løbet af dagen kl. %1$02d:%2$02d</string>
     <string name="settings">Indstillinger</string>
     <string name="general_settings">Generelt</string>
     <string name="color_customization">Farvetilpasning</string>

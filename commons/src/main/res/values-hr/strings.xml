@@ -606,7 +606,7 @@
     <string name="add_new_sound">Dodaj novi zvuk</string>
     <string name="no_sound">Nema zvuka</string>
     <string name="during_day_at_hh_mm">Tijekom dana u hh:mm</string>
-    <string name="during_day_at">Tijekom dana u %02d:%02d</string>
+    <string name="during_day_at">Tijekom dana u %1$02d:%2$02d</string>
     <string name="settings">Postavke</string>
     <string name="general_settings">Opće</string>
     <string name="color_customization">Prilagođavanje boja</string>

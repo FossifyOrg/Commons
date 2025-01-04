@@ -587,7 +587,7 @@
     <string name="add_new_sound">Gehitu soinu berria</string>
     <string name="no_sound">Soinurik ez</string>
     <string name="during_day_at_hh_mm">Egunean zehar ordu honetan: hh:mm</string>
-    <string name="during_day_at">Egunean zehar ordun honetan: %02d:%02d</string>
+    <string name="during_day_at">Egunean zehar ordun honetan: %1$02d:%2$02d</string>
     <string name="settings">Ezarpenak</string>
     <string name="color_customization">Koloreen pertsonalizazioa</string>
     <string name="improved_color_customization">Koloreen pertsonalizazio hobetua</string>

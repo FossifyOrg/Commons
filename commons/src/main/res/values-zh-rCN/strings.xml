@@ -578,7 +578,7 @@
     <string name="add_new_sound">添加新的声音</string>
     <string name="no_sound">无声音</string>
     <string name="during_day_at_hh_mm">日间 hh:mm</string>
-    <string name="during_day_at">日间 %02d:%02d</string>
+    <string name="during_day_at">日间 %1$02d:%2$02d</string>
     <string name="settings">设置</string>
     <string name="purchase_simple_thank_you">购买 Fossify Thank You</string>
     <string name="general_settings">常规</string>

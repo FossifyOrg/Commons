@@ -779,7 +779,7 @@
     <string name="add_new_sound">नई ध्वनि जोड़ें</string>
     <string name="no_sound">कोई ध्वनि नहीं</string>
     <string name="during_day_at_hh_mm">दिन के दौरान hh:mm पर</string>
-    <string name="during_day_at">दिन के दौरान %02d:%02d पर</string>
+    <string name="during_day_at">दिन के दौरान %1$02d:%2$02d पर</string>
     <string name="purchase_simple_thank_you">Fossify Thank You ख़रीदें</string>
     <string name="general_settings">सामान्य</string>
     <string name="improved_color_customization">बेहतर रंग अनुकूलन</string>

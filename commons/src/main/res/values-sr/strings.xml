@@ -578,7 +578,7 @@
     <string name="add_new_sound">Додај нови звук</string>
     <string name="no_sound">Без звука</string>
     <string name="during_day_at_hh_mm">Током дана у cc:мм</string>
-    <string name="during_day_at">Током дана у %02d:%02d</string>
+    <string name="during_day_at">Током дана у %1$02d:%2$02d</string>
     <string name="settings">Подешавања</string>
     <string name="color_customization">Прилагођавање боја</string>
     <string name="customize_colors">Прилагодите боје</string>

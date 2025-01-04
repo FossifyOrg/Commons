@@ -600,7 +600,7 @@
     <string name="add_new_sound">Lägg till ett nytt ljud</string>
     <string name="no_sound">Inget ljud</string>
     <string name="during_day_at_hh_mm">Under dagen klockan hh:mm</string>
-    <string name="during_day_at">Under dagen klockan %02d:%02d</string>
+    <string name="during_day_at">Under dagen klockan %1$02d:%2$02d</string>
     <string name="settings">Inställningar</string>
     <string name="general_settings">Allmänt</string>
     <string name="color_customization">Färganpassning</string>

@@ -606,7 +606,7 @@
     <string name="add_new_sound">Neuen Ton hinzufügen</string>
     <string name="no_sound">Stumm</string>
     <string name="during_day_at_hh_mm">Tagsüber um hh:mm</string>
-    <string name="during_day_at">Tagsüber am %02d:%02d</string>
+    <string name="during_day_at">Tagsüber am %1$02d:%2$02d</string>
     <string name="settings">Einstellungen</string>
     <string name="purchase_simple_thank_you">Fossify Thank You kaufen</string>
     <string name="general_settings">Allgemein</string>

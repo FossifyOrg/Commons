@@ -602,7 +602,7 @@
     <string name="add_new_sound">Yeni bir ses ekle</string>
     <string name="no_sound">Ses yok</string>
     <string name="during_day_at_hh_mm">Gün boyunca ss:dd</string>
-    <string name="during_day_at">Gün boyunca %02d:%02d</string>
+    <string name="during_day_at">Gün boyunca %1$02d:%2$02d</string>
     <string name="settings">Ayarlar</string>
     <string name="purchase_simple_thank_you">Fossify Teşekkürler\'i Satın Al</string>
     <string name="general_settings">Genel</string>

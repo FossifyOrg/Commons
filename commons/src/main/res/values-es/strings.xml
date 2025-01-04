@@ -631,7 +631,7 @@
     <string name="add_new_sound">Agrega un nuevo sonido</string>
     <string name="no_sound">Sin sonido</string>
     <string name="during_day_at_hh_mm">Durante el día a las hh:mm</string>
-    <string name="during_day_at">Durante el día a las %02d:%02d</string>
+    <string name="during_day_at">Durante el día a las %1$02d:%2$02d</string>
     <string name="settings">Ajustes</string>
     <string name="color_customization">Personalización del color</string>
     <string name="improved_color_customization">Personalización mejorada de los colores</string>

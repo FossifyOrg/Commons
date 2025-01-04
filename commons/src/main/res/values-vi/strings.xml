@@ -426,7 +426,7 @@
     <string name="add_new_sound">Thêm một âm báo mới</string>
     <string name="no_sound">Không có âm báo</string>
     <string name="during_day_at_hh_mm">Trong ngày lúc hh:mm</string>
-    <string name="during_day_at">Trong ngày lúc %02d:%02d</string>
+    <string name="during_day_at">Trong ngày lúc %1$02d:%2$02d</string>
     <string name="settings">Cài đặt</string>
     <string name="color_customization">Màu ứng dụng</string>
     <string name="improved_color_customization">Cải thiện tùy chỉnh màu sắc</string>

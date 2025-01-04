@@ -589,7 +589,7 @@
     <string name="add_new_sound">Adicionar um novo som</string>
     <string name="no_sound">Sem som</string>
     <string name="during_day_at_hh_mm">Durante o dia às hh:mm</string>
-    <string name="during_day_at">Durante o dia às %02d:%02d</string>
+    <string name="during_day_at">Durante o dia às %1$02d:%2$02d</string>
     <string name="settings">Definições</string>
     <string name="general_settings">Geral</string>
     <string name="color_customization">Personalização de cores</string>
