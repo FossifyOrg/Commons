@@ -941,7 +941,11 @@
     <string name="other">Beste bat</string>
     <string name="version_placeholder">%s bertsioa</string>
     <string name="donate_new">Kaixo,&lt;br&gt;&lt;br&gt;aplikazioaz gozatzea espero duzu. Ez dauka iragarkirik eta ez ditugu zure datuak biltzen ari. Mesedez, lagundu haren garapena &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Eskerrik asko erosiz. Zuk&lt;/a&gt;. Gainera, aplikazioaren eginbide guztiak desblokeatuta izango dituzu koloreen pertsonalizazioa barne.&lt;br&gt;&lt;br&gt;Eskerrik asko!</string>
-    <string name="donate_please">Kaixo,&lt;br&gt;&lt;br&gt; aplikazioaz gozatzea espero dugu. Ez dauka iragarkirik. Mesedez, lagundu bere garapena &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Eskerrik Asko&lt;/a&gt; aplikazioa erosiz. elkarrizketa-koadro hau berriro agertzea ere eragotziko du.&lt;br&gt;&lt;br&gt; Eskerrik asko!</string>
+    <string name="donate_please"><![CDATA[
+                      Kaixo,<br><br>
+                     aplikazioaz gozatzea espero dugu. Ez dauka iragarkirik. Mesedez, lagundu bere garapena <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Eskerrik Asko</a> aplikazioa erosiz. elkarrizketa-koadro hau berriro agertzea ere eragotziko du.<br><br> 
+                    Eskerrik asko!
+                   ]]></string>
     <string name="donate_short">Lagundu iezaguzu &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Eskerrik asko&lt;/a&gt; erosiz, aplikazioen eginbide guztiak ere desblokeatuko ditu kolorea barne. pertsonalizazioa.</string>
     <string name="format_phone_numbers">Eman formatu telefono-zenbakiei</string>
     <string name="features_locked">Eginbide hau blokeatuta dago. Erosi &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Eskerrik asko&lt;/a&gt; aplikazio osoa desblokeatzeko.&lt;br &gt;&lt;br&gt;Ordainketa bakarra da eta asetzen ez bazara, itzuliko dizugu.</string>
@@ -951,7 +955,10 @@
     <string name="faq_3_title_commons">Fitxategi batzuk errorez ezabatu ditut, nola berreskura ditzaket?</string>
     <string name="fee_up_to_pct">Gehienez %%1$d kuota</string>
     <string name="cryptocurrency">Criptomoneta</string>
-    <string name="faq_2_text_commons">Bai, noski. Aplikazioen berri zabal dezakezu edo iritzi eta balorazio onak eman. Aplikazioak hizkuntza berri batera itzultzen ere lagundu dezakezu edo lehendik dauden itzulpen batzuk eguneratu besterik ez duzu egin. Itzultzeko gida &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;webgune honetan&lt;/a&gt; helbidean dago, edo Galderarik baduzu, jarri gurekin harremanetan &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; helbidera.</string>
+    <string name="faq_2_text_commons"><![CDATA[
+                            Bai, noski. Aplikazioen berri zabal dezakezu edo iritzi eta balorazio onak eman. Aplikazioak hizkuntza berri batera itzultzen ere lagundu dezakezu edo lehendik dauden itzulpen batzuk eguneratu besterik ez duzu egin. 
+                             Itzultzeko gida <a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file>webgune honetan</a> helbidean dago, edo Galderarik baduzu, jarri gurekin harremanetan <a href=mailto:hello@fossify.org>hello@fossify.org</a> helbidera.
+                          ]]></string>
     <string name="faq_4_title_commons">Ez zaizkit widgetaren koloreak gustatzen, aldatu ditzaket?</string>
     <string name="faq_3_text_commons">Ezin duzu. Fitxategiak baieztapen leihoaren ostean ezabatzen dira, ez dago zakarrontzirik.</string>
     <string name="faq_6_title_commons">Aplikazioa abiarazteko ikonoa desagertu egin da. Zer egin dezaket?</string>
