@@ -338,7 +338,9 @@
     <string name="app_icon_color_warning">注意：某些启动器无法正确处理自定义的应用图标。如图标消失，请尝试通过 Google Play 商店或者微件启动对应的应用。启动后请还原为默认的绿色图标色 #106D1F。在某些情形下你可能要重新安装应用。</string>
     <string name="global_theme_success">颜色已成功更新。已添加名为“共享”的新主题，以后您可以使用它来更改所有应用的颜色。</string>
     <string name="shared_theme_note">请注意：即便你使用的是专业版的应用，你仍要需要通过 Fossify Thank You 应用来同步颜色。</string>
-    <string name="purchase_thank_you">请购买 &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; 解锁此功能，支持我们的开发工作。非常感谢！</string>
+    <string name="purchase_thank_you"><![CDATA[
+            请购买 <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> 解锁此功能并支持开发。谢谢！
+        ]]></string>
     <string name="light_theme">浅色主题</string>
     <string name="dark_theme">深色主题</string>
     <string name="auto_theme">自动</string>
@@ -576,7 +578,7 @@
     <string name="add_new_sound">添加新的声音</string>
     <string name="no_sound">无声音</string>
     <string name="during_day_at_hh_mm">日间 hh:mm</string>
-    <string name="during_day_at">日间 %02d:%02d</string>
+    <string name="during_day_at">日间 %1$02d:%2$02d</string>
     <string name="settings">设置</string>
     <string name="purchase_simple_thank_you">购买 Fossify Thank You</string>
     <string name="general_settings">常规</string>
@@ -772,13 +774,7 @@
 \n如果你对专业版感到满意，你将无需再次使用免费版。为了避免不慎启动免费版应用，或者造成本对话框反复出现，您可以卸载之前安装的免费版应用。
 \n
 \n感谢您的支持！</string>
-    <string name="upgraded_from_free_contacts">您好，
-\n
-\n本应用已从免费版升级为专业版。如果您在“%s”中存储了联系人，请在免费版中将联系人手动导出为 .vcf 文件，然后在专业版的顶部菜单中导入它们。
-\n
-\n如果你对专业版感到满意，你将无需再次使用免费版。为了避免不慎启动免费版应用，或者造成本对话框反复出现，您可以卸载之前安装的免费版应用。
-\n
-\n感谢您的支持！</string>
+    <string name="upgraded_from_free_contacts">您好， \n \n本应用已从免费版升级为专业版。如果您在“%s”中存储了联系人，请在免费版中将联系人手动导出为 .vcf 文件，然后在专业版的顶部菜单中导入它们。 \n \n如果你对专业版感到满意，你将无需再次使用免费版。为了避免不慎启动免费版应用，或者造成本对话框反复出现，您可以卸载之前安装的免费版应用。 \n \n感谢您的支持！</string>
     <string name="upgraded_from_free_notes">您好，
 \n
 \n本应用已从免费版升级为专业版。如果您想要将免费版的笔记迁移到专业版，请在免费版中将笔记手动导出为文件，然后在专业版的顶部菜单中导入它们。
@@ -813,7 +809,11 @@
     <string name="additional_info">额外信息</string>
     <string name="app_version">应用版本：%s</string>
     <string name="device_os">设备系统：%s</string>
-    <string name="donate_please">您好，&lt;br&gt;&lt;br&gt; 希望您喜欢本应用。本应用不包含广告。如果条件允许，请考虑购买&lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; 应用支持我们的开发工作。购买后此对话框将不再显示。&lt;br&gt;&lt;br&gt; 非常感谢！</string>
+    <string name="donate_please"><![CDATA[
+            你好，<br><br>
+            希望您喜欢本应用。它不包含广告，请购买 <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> 应用支持开发，安装该应用后不会再显示此对话框。<br><br>
+            谢谢！
+        ]]></string>
     <string name="donate_new">你好，&lt;br&gt;&lt;br&gt;希望您喜欢本应用。本应用不包含广告，也不会收集您的数据。如果条件允许，请考虑购买 &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; 应用支持我们的开发工作。购买后将解锁包括颜色自定义在内的所有功能。&lt;br&gt;&lt;br&gt;非常感谢！</string>
     <string name="donate_short">如果条件允许，请考虑购买 &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; 应用支持我们的开发工作。购买后将解锁包括颜色自定义在内的所有功能。</string>
     <string name="purchase">购买</string>
@@ -837,7 +837,15 @@
     <string name="thank_you">非常感谢</string>
     <string name="widget_locked_pro">微件已被锁定。\n请升级到专业版解锁。</string>
     <string name="features_locked">此功能已被锁定，请购买 &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; 应用以获取全部功能。&lt;br&gt;&lt;br&gt;购买是一次性的。如果您不满意，我们可以为您退款。</string>
-    <string name="new_app">您好，&lt;br&gt;&lt;br&gt;我们最近发布了一些新的应用：&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; 您可以点击它们的标题或者图标来下载。&lt;br&gt;&lt;br&gt; 非常感谢</string>
+    <string name="new_app"><![CDATA[
+            嘿，<br><br>
+            最近发布了一些新应用：<br><br>
+            <a href="%1$s">%2$s</a><br><br>
+            <a href="%3$s">%4$s</a><br><br>
+            <a href="%5$s">%6$s</a><br><br>
+            您可按这些应用的名称或图标下载它们。<br><br>
+            谢谢
+        ]]></string>
     <string name="app_launcher_short">应用启动器</string>
     <string name="calculator_short">计算器</string>
     <string name="calendar_short">日历</string>
@@ -856,13 +864,18 @@
     <string name="sms_messenger_short">短信</string>
     <string name="thank_you_short">非常感谢</string>
     <string name="voice_recorder_short">录音机</string>
-    <string name="sideloaded_app">您的应用版本不正常。请到&lt;a href=%s&gt;这里&lt;/a&gt;下载原版应用。</string>
+    <string name="sideloaded_app"><![CDATA[
+            似乎您的应用版本损坏了。 请在 <a href="%s">此处</a>下载原始版本。
+        ]]></string>
     <string name="frequently_asked_questions">常见问题</string>
     <string name="before_asking_question">在提问之前，请先阅读</string>
     <string name="faq_1_title_commons">为什么我在应用微件列表中没有找到此应用的微件？</string>
     <string name="faq_1_text_commons">这很可能是因为您将应用移动到了 SD 卡。由于安卓系统的限制，安装在 SD 卡中的应用将不能显示微件。唯一的解决方法是在系统设置中将本应用移动回内部存储中。</string>
     <string name="faq_2_title_commons">我想支持你们的工作，但我无法捐款。还有什么是我能够做的吗？</string>
-    <string name="faq_2_text_commons">当然有。您可以向其他人介绍我们的应用，也可以为我们提供有用的反馈，还可以在应用商店中为我们的应用评分。您也可以将应用翻译为新的语言或者更新已有的翻译。请到&lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;此网站&lt;/a&gt;阅读翻译指南。如果您有其他问题，请发送电子邮件到 &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt;。</string>
+    <string name="faq_2_text_commons"><![CDATA[
+            是的，当然了。您可以向其他人介绍这些应用或者给予良好反馈和评价。您也可以帮忙将应用翻译成新的语言，或是更新一些现有的翻译。
+            翻译指南位于 <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">此网站</a>，或者如果您有任何问题可以通过 <a href="mailto:hello@fossify.org">hello@fossify.org</a>联系我们。
+        ]]></string>
     <string name="faq_3_title_commons">我误删了文件。我应该如何恢复它们？</string>
     <string name="faq_3_text_commons">非常不幸，您已经无法恢复它们了。如果您在删除确认对话框中确认了删除操作，那么文件就会立即被彻底删除。因为它们没有经过回收站删除，因此也就无法通过回收站还原。</string>
     <string name="faq_4_title_commons">我不喜欢微件的颜色，我可以修改吗？</string>
@@ -883,7 +896,11 @@
     <string name="translation">翻译</string>
     <string name="development">开发</string>
     <string name="other_help">其他帮助</string>
-    <string name="contributors_label">此列表包含对 Fossify 套件中的任意一款应用提供了显著帮助的所有人，而仅限于本应用。翻译是由志愿者提供的，如果您也想提供帮助翻译，请联系我们。翻译指南请到&lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;此网站&lt;/a&gt;查看。如果您有其他问题，欢迎发送电子邮件到 &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt;。感谢所有贡献者和其他支持者！</string>
+    <string name="contributors_label"><![CDATA[
+            此列表包含了每一个显著帮助了 Fossify 套件内任何应用的人，而不仅是这个应用。翻译由志愿者处理，
+            如果您也想帮忙，也请让我们知晓。 翻译指南位于 <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">此网站</a>，或者如果您有任何问题可以通过 <a href="mailto:hello@fossify.org">hello@fossify.org</a>联系我们。
+            感谢所有贡献者和其他支持者！
+        ]]></string>
     <string name="why_upgrade">立即获取专业版！</string>
     <string name="why_upgrade_basic_version">基础版</string>
     <string name="why_upgrade_pro_version">专业版</string>
@@ -959,11 +976,7 @@
     <string name="trial_expires_soon">您的试用期即将结束。</string>
     <string name="unlock_for_one_final_day">继续最后一天的试用</string>
     <string name="welcome_to_app_name">欢迎使用 %s！</string>
-    <string name="trial_start_description">感谢您使用我们开发的应用。您可以免费试用此解锁版应用 <font color="#FFFFFF">%d 天</font>。试用期结束后请考虑升级到专业版。专业版有大量新功能，更现代化的设计，无广告，以及大量其他改进。
-\n
-\n您只需为专业版付款一次即可终生使用。如果您不满意，可以随时卸载并得到退款。
-\n
-\n祝您使用愉快 :)</string>
+    <string name="trial_start_description">感谢您使用我们开发的应用。您可以免费试用此解锁版应用 <font color="#FFFFFF">%d 天</font>。试用期结束后请考虑升级到专业版。专业版有大量新功能，更现代化的设计，无广告，以及大量其他改进。\n \n您只需为专业版付款一次即可终生使用。如果您不满意，可以随时卸载并得到退款。 \n \n祝您使用愉快 :)</string>
     <string name="trial_end_description">请升级到专业版以享受本应用的全部功能。
 \n
 \n您只需为专业版付款一次即可终生使用。如果您不满意，可以随时卸载并获得退款。
@@ -1054,4 +1067,5 @@
     <string name="all_fossify_apps">全部 Fossify 应用</string>
     <string name="theme_and_colors">主题和颜色</string>
     <string name="known_issues">已知问题</string>
+    <string name="translation_kabyle">卡比尔语</string>
 </resources>

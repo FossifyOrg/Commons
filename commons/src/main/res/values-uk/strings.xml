@@ -671,7 +671,7 @@
     <string name="add_new_sound">Додати новий звук</string>
     <string name="no_sound">Без звуку</string>
     <string name="during_day_at_hh_mm">Протягом дня о гг:хх</string>
-    <string name="during_day_at">Протягом дня о %02d:%02d</string>
+    <string name="during_day_at">Протягом дня о %1$02d:%2$02d</string>
     <string name="settings">Налаштування</string>
     <string name="general_settings">Загальні</string>
     <string name="color_customization">Налаштування кольору</string>
@@ -881,13 +881,7 @@
 \nЯкщо ви задоволені налаштуваннями Pro-версії, ви можете видалити стару безплатну версію, оскільки вона вам більше не знадобиться, а також запобігти появі цього діалогового вікна.
 \n
 \nДякуємо!</string>
-    <string name="upgraded_from_free_contacts">Привіт,
-\n
-\nсхоже, ви щойно оновили безплатну версію. Якщо у вас були контакти, збережені за адресою «%s», вам потрібно перенести їх вручну, експортувавши у .vcf-файл з безплатної версії застосунку та імпортувавши сюди через верхнє меню.
-\n
-\nПісля того, як ви будете задоволені налаштуваннями Pro-версії, ви можете видалити стару безплатну версію, оскільки вона вам більше не знадобиться, а також запобігти появі цього діалогового вікна.
-\n
-\nДякуємо!</string>
+    <string name="upgraded_from_free_contacts">Привіт,\n\nсхоже, ви щойно оновили безплатну версію. Якщо у вас були контакти, збережені за адресою «%s», вам потрібно перенести їх вручну, експортувавши у .vcf-файл з безплатної версії застосунку та імпортувавши сюди через верхнє меню.\n\nПісля того, як ви будете задоволені налаштуваннями Pro-версії, ви можете видалити стару безплатну версію, оскільки вона вам більше не знадобиться, а також запобігти появі цього діалогового вікна.\n\nДякуємо!</string>
     <string name="upgraded_from_free_notes">Привіт,
 \n
 \nсхоже, що ви щойно оновили безплатну версію. Якщо ви хочете перенести свої нотатки, вам доведеться зробити це вручну, експортувавши їх у файл у безплатній версії застосунку та імпортувавши сюди через верхнє меню.
@@ -940,7 +934,13 @@
     <string name="thank_you">Подяка</string>
     <string name="widget_locked_pro">Віджет заблоковано.
 \nБудь ласка, оновіть застосунок до версії Pro, щоб розблокувати віджет.</string>
-    <string name="new_app">Привіт,&lt;br&gt;&lt;br&gt; просто повідомляємо, що нещодавно випущено новий застосунок:&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; Ви можете його завантажити, натиснувши на заголовок.&lt;br&gt;&lt;br&gt; Спасибі</string>
+    <string name="new_app"><![CDATA[
+             Привіт,<br><br> просто повідомляємо, що нещодавно випущено нові застосунки:<br><br> 
+            <a href="%1$s">%2$s</a><br><br> 
+            <a href="%3$s">%4$s</a><br><br> 
+            <a href="%5$s">%6$s</a><br><br> Ви можете завантажити їх, натиснувши на заголовок.<br><br>
+            Дякуємо
+        ]]></string>
     <string name="app_launcher_short">Лаунчер</string>
     <string name="calculator_short">Калькулятор</string>
     <string name="calendar_short">Календар</string>
@@ -959,7 +959,9 @@
     <string name="sms_messenger_short">SMS Повідомлення</string>
     <string name="thank_you_short">Подяка</string>
     <string name="voice_recorder_short">Диктофон</string>
-    <string name="sideloaded_app">Схоже, що ваша версія застосунку пошкоджена. Будь ласка, завантажте оригінальну версію &lt;a href=%s&gt;тут&lt;/a&gt;.</string>
+    <string name="sideloaded_app"><![CDATA[
+             Схоже, що ваша версія застосунку пошкоджена. Завантажте оригінальну версію <a href="%s">тут</a>.
+        ]]></string>
     <string name="frequently_asked_questions">Часті питання - ЧаПи</string>
     <string name="before_asking_question">Перш ніж запитувати, будь ласка, прочитайте</string>
     <string name="faq_1_title_commons">Чому я не бачу віджета цього застосунку в списку віджетів?</string>
@@ -1105,12 +1107,7 @@
     <string name="trial_expires_soon">Термін дії вашої пробної версії скоро закінчиться.</string>
     <string name="unlock_for_one_final_day">Розблокуйте застосунок на один останній день</string>
     <string name="welcome_to_app_name">Ласкаво просимо до %s!</string>
-    <string name="trial_start_description">Дякуємо за використання нашого застосунку. Ви можете використовувати цю розблоковану версію протягом <font color="#FFFFFF">%d днів</font>. Після завершення пробного періоду подумайте про оновлення до версії Pro. Він має величезну кількість нових функцій, сучасний дизайн, відсутність реклами та багато інших покращень.
-\n
-\nВи просто повинні заплатити за це один раз у житті, і якщо ви не будете задоволені, ви можете видалити його та отримати відшкодування.
-\n
-\n
-\nСподіваюся, вам сподобається :)</string>
+    <string name="trial_start_description">Дякуємо за використання нашого застосунку. Ви можете використовувати цю розблоковану версію протягом <font color="#FFFFFF">%d днів</font>. Після завершення пробного періоду подумайте про оновлення до версії Pro. Він має величезну кількість нових функцій, сучасний дизайн, відсутність реклами та багато інших покращень. \n\nВи просто повинні заплатити за це один раз у житті, і якщо ви не будете задоволені, ви можете видалити його та отримати відшкодування. \n\n\nСподіваємося, вам сподобається :)</string>
     <string name="trial_end_description">Перейдіть на версію Pro, щоб насолоджуватися застосунком у повному обсязі.
 \n
 \nВи просто повинні платити за це один раз в житті, і якщо ви не будете задоволені, ви можете видалити його і отримати відшкодування.
@@ -1126,10 +1123,24 @@
     <string name="pro_app_refund">Пам\'ятайте: якщо ви видалите будь-який платний застосунок протягом 2 годин, вам буде автоматично повернена сума покупки. Якщо ви захочете повернути гроші пізніше, сконтактуйте з нами за адресою hello@fossify.org, і ви їх отримаєте. Таким чином ви можете легко спробувати застосунок :)</string>
     <string name="developer_description">Група простих Android-застосунків з відкритим вихідним кодом, персоналізованими віджетами, без реклами та непотрібних дозволів.</string>
     <string name="purchase_simple_thank_you">Придбайте Fossify Thank You</string>
-    <string name="donate_please">Вітаємо,&lt;br&gt;&lt;br&gt;сподіваємось, вам подобається цей застосунок. Він не містить реклами, будь ласка, підтримайте його розробку, придбавши застосунок &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;, також це прибере це повідомлення.&lt;br&gt;&lt;br&gt;Дякуємо!</string>
-    <string name="contributors_label">В цьому списку перелічені ті, хто помітно допоміг будь-якому застосунку з набору Fossify, не тільки цього. Переклади робляться волонтерами, будь ласка, скажіть нам, якщо ви теж хочете допомогти. Посібник з перекладу знаходиться &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;тут&lt;/a&gt;, або напишіть нам на &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt;, якщо у вас є будь-які питання. Дякуємо всім, хто долучився та підтримав!</string>
-    <string name="faq_2_text_commons">Так, звісно. Ви можете розповідати про наші застосунки або лишити відгук та рейтинг. Також ви можете допомогти з їхнім перекладом новою мовою або оновленням перекладів, що вже існують. Посібник з перекладів доступний &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;тут&lt;/a&gt;, або просто напишіть нам на &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt;, якщо у вас є будь-які питання.</string>
-    <string name="purchase_thank_you">Будь ласка придбайте &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;, щоб розблокувати цю функціональність та підтримати розробку. Дякуємо!</string>
+    <string name="donate_please"><![CDATA[
+            Вітаємо,<br><br>
+            сподіваємось, вам подобається цей застосунок. Він не містить реклами, підтримайте його розробку, придбавши застосунок <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Thank You</a>, також це прибере це повідомлення.<br><br>
+            Дякуємо!
+        ]]></string>
+    <string name="contributors_label"><![CDATA[
+            У цьому списку перелічені ті, хто помітно допоміг будь-якому застосунку з набору Fossify, не тільки цьому. Переклади робляться волонтерами,
+            скажіть нам, якщо ви теж хочете допомогти. Посібник з перекладу знаходиться <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">тут</a>, або напишіть нам на <a href="mailto:hello@fossify.org">hello@fossify.org</a>, якщо у вас є будь-які питання.
+            Дякуємо всім, хто долучився та підтримав!
+        ]]></string>
+    <string name="faq_2_text_commons"><![CDATA[
+  <![CDATA[
+            Так, звісно. Ви можете розповідати про наші застосунки або лишити відгук та рейтинг. Також ви можете допомогти з їхнім перекладом новою мовою або оновленням перекладів, що вже існують.
+            Посібник з перекладів доступний <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">тут</a>, або просто напишіть нам на <a href="mailto:hello@fossify.org">hello@fossify.org</a>, якщо у вас є будь-які питання.
+        ]]></string>
+    <string name="purchase_thank_you"><![CDATA[
+            Будь ласка, придбайте <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>, щоб розблокувати цю функцію та підтримати розробку. Дякуємо!
+        ]]></string>
     <string name="donate_short">Будь ласка, підтримайте нас, придбавши &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;, також це розблокує всі функції застосунку, включно з налаштуванням кольорів.</string>
     <string name="pin">PIN</string>
     <string name="why_upgrade_pro_version">Pro</string>
@@ -1160,4 +1171,5 @@
     <string name="theme_and_colors">Тема та кольори</string>
     <string name="all_fossify_apps">Всі застосунки Fossify</string>
     <string name="known_issues">Відомі проблеми</string>
+    <string name="translation_kabyle">Кабільська</string>
 </resources>

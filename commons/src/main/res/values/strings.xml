@@ -679,7 +679,7 @@
     <string name="add_new_sound">Add a new sound</string>
     <string name="no_sound">No sound</string>
     <string name="during_day_at_hh_mm">During the day at hh:mm</string>
-    <string name="during_day_at">During the day at %02d:%02d</string>
+    <string name="during_day_at">During the day at %1$02d:%2$02d</string>
 
     <!-- Settings -->
     <string name="settings">Settings</string>
@@ -1064,6 +1064,7 @@
     <string name="translation_italian">Italian</string>
     <string name="translation_hebrew">Hebrew</string>
     <string name="translation_japanese">Japanese</string>
+    <string name="translation_kabyle">Kabyle</string>
     <string name="translation_korean">Korean</string>
     <string name="translation_lithuanian">Lithuanian</string>
     <string name="translation_nepali">Nepali</string>

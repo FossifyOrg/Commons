@@ -117,7 +117,7 @@
     <string name="import_blocked_numbers">Letiltott számok importálása</string>
     <string name="must_make_default_dialer">A letiltott telefonszámok használatához be kell állítani, hogy ez az alkalmazás legyen az alapértelmezett tárcsázó.</string>
     <string name="set_as_default">Beállítás alapértelmezettként</string>
-    <string name="block_confirmation">Biztos, hogy letiltja a következőt: „%s”\?</string>
+    <string name="block_confirmation">Biztos, hogy letiltja a következőt: „%s”?</string>
     <string name="block_unknown_calls">Nem tárolt névjegyektől érkező hívások tiltása</string>
     <string name="block_hidden_calls">Rejtett számokról érkező hívások tiltása</string>
     <string name="block_unknown_messages">Nem tárolt névjegyektől érkező üzenetek tiltása</string>
@@ -245,7 +245,7 @@
     <string name="empty_name">Írjon be egy nevet</string>
     <string name="unknown_error_occurred">Ismeretlen hiba történt</string>
     <string name="file_already_exists">A(z) „%s” fájl már létezik</string>
-    <string name="file_already_exists_overwrite">A(z) „%s” fájl már létezik. Felülírja\?</string>
+    <string name="file_already_exists_overwrite">A(z) „%s” fájl már létezik. Felülírja?</string>
     <string name="folder_already_exists">A(z) „%s” mappa már létezik</string>
     <string name="merge">Összevonás</string>
     <string name="keep_both">Mindkettő megtartása</string>
@@ -600,7 +600,7 @@
     <string name="add_new_sound">Új hang hozzáadása</string>
     <string name="no_sound">Nincs hang</string>
     <string name="during_day_at_hh_mm">Napközben, ekkor: hh:mm</string>
-    <string name="during_day_at">Napközben ekkor: %02d:%02d</string>
+    <string name="during_day_at">Napközben ekkor: %1$02d:%2$02d</string>
     <string name="settings">Beállítások</string>
     <string name="general_settings">Általános</string>
     <string name="color_customization">Színek testreszabása</string>
@@ -1022,11 +1022,7 @@
     <string name="trial_expires_soon">A próbaverziója hamarosan lejár.</string>
     <string name="unlock_for_one_final_day">Az alkalmazás feloldása egy utolsó napra</string>
     <string name="welcome_to_app_name">Üdvözli a(z) %s!</string>
-    <string name="trial_start_description">Köszönjük, hogy az alkalmazásunkat használja. Ezt a feloldott verziót <font color="#FFFFFF">%d napig</font> használhatja. Amint a próbaverzió véget ér, fontolja meg a Pro verzióra történő frissítést. Számos új funkcióval és modern dizájnnal rendelkezik, nincsenek benne reklámok, és sok más fejlesztést tartalmaz.
-\n
-\nCsak egyetlen egyszer kell érte fizetnie, és ha nem elégedett vele, akkor eltávolíthatja és visszakérheti az árát.
-\n
-\nReméljük, hogy tetszeni fog :)</string>
+    <string name="trial_start_description">Köszönjük, hogy az alkalmazásunkat használja. Ezt a feloldott verziót <font color="#FFFFFF">%d napig</font> használhatja. Amint a próbaverzió véget ér, fontolja meg a Pro verzióra történő frissítést. Számos új funkcióval és modern dizájnnal rendelkezik, nincsenek benne reklámok, és sok más fejlesztést tartalmaz. \n \nCsak egyetlen egyszer kell érte fizetnie, és ha nem elégedett vele, akkor eltávolíthatja és visszakérheti az árát. \n \nReméljük, hogy tetszeni fog :)</string>
     <string name="trial_end_description">Frissítsen a Pro verzióra, hogy a teljes mértékig kiélvezhesse az alkalmazást.
 \n
 \nCsak egyetlen egyszer kell érte fizetnie, és ha nem elégedett vele, akkor eltávolíthatja és visszakérheti az árát.
@@ -1089,4 +1085,5 @@
     <string name="little_to_no_fee">Keveset vagy díjmentes</string>
     <string name="fee_up_to_pct">Legfeljebb %1$d%% díj</string>
     <string name="known_issues">Ismert problémák</string>
+    <string name="translation_kabyle">Kabyle</string>
 </resources>

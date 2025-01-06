@@ -303,11 +303,9 @@
     <string name="cannot_be_undone">Esta ação não pode ser revertida.</string>
     <string name="save_before_closing">Existem alterações não salvas. Salvar antes de sair?</string>
     <string name="global_theme_success">Cores atualizadas com sucesso. Um novo tema chamado \'Compartilhado\' foi adicionado, use-o para atualizar as cores de todos os apps no futuro.</string>
-    <string name="purchase_thank_you">
-        <![CDATA[
-            Por favor compre o <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Agradecimento Simple</a> para desbloquear esta função e apoiar o desenvolvimento. Obrigado!
-        ]]>
-    </string>
+    <string name="purchase_thank_you"><![CDATA[
+            Por favor, compre <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Thank You</a> para desbloquear essa função e apoiar o desenvolvimento. Obrigado!
+        ]]></string>
     <string name="light_theme">Claro</string>
     <string name="dark_theme">Escuro</string>
     <string name="auto_light_dark_theme">Auto claro / escuro</string>
@@ -412,7 +410,7 @@
     <string name="no_fingerprints_registered">Você não tem digitais cadastradas. Favor adiconar alguma nas Configurações do seu dispositivo</string>
     <string name="go_to_settings">Ir para Configurações</string>
     <string name="protection_setup_successfully">Senha criada com sucesso. Reinstale o app caso você a esqueça.</string>
-    <string name="fingerprint_setup_successfully">Proteção criada com sucesso. Reinstale o app caso tenha problemas ao redefini-la.</string>
+    <string name="fingerprint_setup_successfully">Proteção criada com sucesso. Por favor, reinstale o app caso tenha problemas ao redefini-la.</string>
     <string name="lock_folder">Bloquear pasta</string>
     <string name="lock_folder_pro">Bloquear pasta (Pro)</string>
     <string name="unlock_folder">Desbloquear pasta</string>
@@ -583,7 +581,7 @@
     <string name="add_new_sound">Adicionar um novo som</string>
     <string name="no_sound">Sem som</string>
     <string name="during_day_at_hh_mm">Durante o dia às hh:mm</string>
-    <string name="during_day_at">Durante o dia às %02d:%02d</string>
+    <string name="during_day_at">Durante o dia às %1$02d:%2$02d</string>
     <string name="settings">Configurações</string>
     <string name="color_customization">Personalização de cores</string>
     <string name="improved_color_customization">Personalização de cores aprimorada</string>
@@ -954,6 +952,52 @@
     <string name="unblock_contact_success">Contato desbloqueado</string>
     <string name="unblock_contact_fail">Contato não pôde ser desbloqueado</string>
     <string name="show_search">Mostrar como barra de pesquisa</string>
-    <string name="allow_notifications_reminders">Você deve permitir o aplicativo de mostrar notificações, caso contrário, não poderá mostrar lembretes</string>
+    <string name="allow_notifications_reminders">Você deve permitir que o app exiba notificações, caso contrário, os lembretes não serão exibidos.</string>
     <string name="allow_full_screen_notifications_reminders">Você deve permitir o aplicativo de mostrar notificações de tela cheia, caso contrário, você pode perder alguns lembretes.</string>
+    <string name="theme_and_colors">Tema e cores</string>
+    <string name="enable_automatic_backups">Ativar backups automáticos</string>
+    <string name="backups">Backups</string>
+    <string name="manage_automatic_backups">Gerenciar backups automáticos</string>
+    <string name="usb">USB</string>
+    <string name="january_short">Jan</string>
+    <string name="may_short">Mai</string>
+    <string name="february_short">Fev</string>
+    <string name="march_short">Mar</string>
+    <string name="april_short">Abr</string>
+    <string name="tuesday_letter">T</string>
+    <string name="saturday_letter">S</string>
+    <string name="apply_to_all_apps">Aplica cores para todos os Apps Fossify</string>
+    <string name="unblock">Desbloquear</string>
+    <string name="too_many_incorrect_attempts">Muitas tentativas de desbloqueio incorretas.\nTente novamente em %d segundos.</string>
+    <string name="more_options">Mais opções</string>
+    <string name="empty_password">Por favor, digite a senha</string>
+    <string name="invalid_password">Senha incorreta</string>
+    <string name="general_settings">Geral</string>
+    <string name="widgets">Widgets</string>
+    <string name="august_short">Ago</string>
+    <string name="internal_storage">Armazenamento Interno</string>
+    <string name="add_contact">Adicionar contato</string>
+    <string name="contact_details">Detalhes do contato</string>
+    <string name="enter_password">Digite a senha</string>
+    <string name="password">Senha</string>
+    <string name="add_password">Adicionar senha</string>
+    <string name="empty_password_new">Por favor, digite uma senha</string>
+    <string name="seconds_letter">s</string>
+    <string name="minutes_letter">m</string>
+    <string name="hours_letter">h</string>
+    <string name="notification_sound">Som de notificação</string>
+    <string name="skip_the_recycle_bin">Excluir imediatamente e ignorar a lixeira</string>
+    <string name="june_short">Jun</string>
+    <string name="october_short">Out</string>
+    <string name="november_short">Nov</string>
+    <string name="december_short">Dez</string>
+    <string name="allow_location_permission">Você deve permitir que o aplicativo acesse sua localização, caso contrário ele não saberá.</string>
+    <string name="allow_notifications_music_player">Você deve permitir que o aplicativo exiba notificações, caso contrário ele não poderá reproduzir músicas.</string>
+    <string name="allow_notifications_files">Você deve permitir que o aplicativo exiba notificações, caso contrário, ele não poderá mostrar a barra de progresso.</string>
+    <string name="allow_alarm_sleep_timer">Você deve permitir que o aplicativo acesse os alarmes internos, caso contrário, ele não poderá desligar o aplicativo após o temporizador de suspensão.</string>
+    <string name="allow_notifications_voice_recorder">Você deve permitir que o aplicativo exiba notificações, caso contrário ele não poderá gravar áudio.</string>
+    <string name="allow_alarm_scheduled_messages">Você deve permitir que o aplicativo acesse alarmes internos, caso contrário ele não poderá enviar mensagens programadas.</string>
+    <string name="allow_full_screen_notifications_incoming_calls">Você deve permitir que o aplicativo exiba notificações em tela cheia, caso contrário você poderá perder algumas chamadas recebidas.</string>
+    <string name="allow_notifications_incoming_calls">Você deve permitir que o aplicativo exiba notificações, caso contrário ele não poderá mostrar chamadas recebidas.</string>
+    <string name="allow_notifications_incoming_messages">Você deve permitir que o aplicativo exiba notificações, caso contrário ele não poderá mostrar mensagens recebidas.</string>
 </resources>

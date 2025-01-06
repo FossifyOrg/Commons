@@ -116,7 +116,7 @@
     <string name="import_blocked_numbers">Importa els números bloquejats</string>
     <string name="must_make_default_dialer">Cal fer que aquesta aplicació sigui l\'aplicació predeterminada de marcatge per a utilitzar els números bloquejats.</string>
     <string name="set_as_default">Estableix com a predeterminada</string>
-    <string name="block_confirmation">Segur que voleu bloquejar «%s»\?</string>
+    <string name="block_confirmation">Segur que voleu bloquejar «%s»?</string>
     <string name="block_unknown_calls">Bloqueja les trucades de contactes no emmagatzemats</string>
     <string name="block_hidden_calls">Bloqueja les trucades des de números ocults</string>
     <string name="block_unknown_messages">Bloqueja els missatges dels contactes no emmagatzemats</string>
@@ -243,7 +243,7 @@
     <string name="empty_name">Introduïu un nom</string>
     <string name="unknown_error_occurred">S\'ha produït un error desconegut</string>
     <string name="file_already_exists">El fitxer «%s» ja existeix</string>
-    <string name="file_already_exists_overwrite">El fitxer «%s» ja existeix. Cal sobreescriure\'l\?</string>
+    <string name="file_already_exists_overwrite">El fitxer «%s» ja existeix. Cal sobreescriure\'l?</string>
     <string name="folder_already_exists">La carpeta «%s» ja existeix</string>
     <string name="merge">Fusiona</string>
     <string name="keep_both">Mantén els dos</string>
@@ -627,7 +627,7 @@
     <string name="add_new_sound">Afegeix un so nou</string>
     <string name="no_sound">Sense so</string>
     <string name="during_day_at_hh_mm">Durant el dia a les hh:mm</string>
-    <string name="during_day_at">Durant el dia a les %02d:%02d</string>
+    <string name="during_day_at">Durant el dia a les %1$02d:%2$02d</string>
     <string name="settings">Configuració</string>
     <string name="color_customization">Personalització del color</string>
     <string name="improved_color_customization">Personalització del color millorada</string>
@@ -833,13 +833,7 @@
 \nQuan estigueu satisfet amb la vostra configuració de la versió Pro, podeu desinstal·lar l\'antiga gratuïta perquè ja no la necessitareu. També evitarà que es mostri aquest diàleg.
 \n
 \nGràcies!</string>
-    <string name="upgraded_from_free_contacts">Hola,
-\n
-\nsembla que acabeu d\'actualitzar a partir de la versió gratuïta. Si teníeu contactes emmagatzemats a «%s», cal migrar-los manualment exportant-los en un fitxer .vcf des de la versió gratuïta de l\'aplicació i important-los aquí a través del menú superior.
-\n
-\nQuan estigueu satisfet amb la vostra configuració de la versió Pro, podeu desinstal·lar l\'antiga gratuïta perquè ja no la necessitareu. També evitarà que es mostri aquest diàleg.
-\n
-\nGràcies!</string>
+    <string name="upgraded_from_free_contacts">Hola, \n \nsembla que acabeu d\'actualitzar a partir de la versió gratuïta. Si teníeu contactes emmagatzemats a «%s», cal migrar-los manualment exportant-los en un fitxer .vcf des de la versió gratuïta de l\'aplicació i important-los aquí a través del menú superior. \n \nQuan estigueu satisfet amb la vostra configuració de la versió Pro, podeu desinstal·lar l\'antiga gratuïta perquè ja no la necessitareu. També evitarà que es mostri aquest diàleg. \n \nGràcies!</string>
     <string name="upgraded_from_free_notes">Hola,
 \n
 \nsembla que acabeu d\'actualitzar a partir de la versió gratuïta. Si voleu migrar les notes, cal fer-ho manualment exportant-les a un fitxer en la versió gratuïta de l\'aplicació i important-les aquí a través del menú superior.
@@ -891,7 +885,17 @@
     <string name="thank_you">Gràcies</string>
     <string name="widget_locked_pro">El giny està bloquejat.
 \nActualitzeu a la versió Pro per a desbloquejar-lo.</string>
-    <string name="new_app">Hola,&lt;br&gt;&lt;br&gt; només informar-vos que recentment s\'ha publicat una aplicació nova:&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; Podeu baixar-la prement el títol.&lt;br&gt;&lt;br&gt; Gràcies</string>
+    <string name="new_app">
+        <![CDATA[
+            Hola,<br><br>
+            només informar-vos que recentment s\'ha publicat una aplicació nova:<br><br>
+            <a href="%1$s">%2$s</a><br><br>
+            <a href="%3$s">%4$s</a><br><br>
+            <a href="%5$s">%6$s</a><br><br>
+            Podeu baixar-la prement els títols o les icones.<br><br>
+            Gràcies
+        ]]>
+    </string>
     <string name="app_launcher_short">Llançador d\'aplicacions</string>
     <string name="calculator_short">Calculadora</string>
     <string name="calendar_short">Calendari</string>
@@ -909,7 +913,11 @@
     <string name="sms_messenger_short">Missatges SMS</string>
     <string name="thank_you_short">Gràcies</string>
     <string name="voice_recorder_short">Enregistrador de veu</string>
-    <string name="sideloaded_app">Sembla que aquesta versió de l\'aplicació està malmesa. Baixeu la versió original &lt;a href=%s&gt;aquí&lt;/a&gt;.</string>
+    <string name="sideloaded_app">
+        <![CDATA[
+            Sembla que aquesta versió de l\'aplicació està malmesa. Baixeu la versió original <a href="%s">aquí</a>.
+        ]]>
+    </string>
     <string name="frequently_asked_questions">Preguntes més freqüents</string>
     <string name="before_asking_question">Abans de fer una pregunta, primer llegiu les</string>
     <string name="faq_1_title_commons">Com és que no veig aquest giny a la llista de ginys\?</string>
@@ -1052,11 +1060,7 @@
     <string name="trial_expires_soon">Aquesta versió de prova caduca aviat.</string>
     <string name="unlock_for_one_final_day">Desbloqueja l\'aplicació durant un últim dia</string>
     <string name="welcome_to_app_name">Us donem la benvinguda a %s!</string>
-    <string name="trial_start_description">Gràcies per utilitzar la nostra aplicació. Podeu utilitzar aquesta versió desbloquejada durant <font color="#FFFFFF">%d dies</font>. Un cop finalitzi la prova, considereu l\'actualització a la versió Pro. Té una gran quantitat de funcions noves, un disseny modern, sense anuncis i moltes altres millores.
-\n
-\nNomés l\'heu de pagar una vegada a la vida i si no esteu satisfet, podeu desinstal·lar-la i obtenir un reemborsament.
-\n
-\nEspero que us agradi :)</string>
+    <string name="trial_start_description">Gràcies per utilitzar la nostra aplicació. Podeu utilitzar aquesta versió desbloquejada durant <font color="#FFFFFF">%d dies</font>. Un cop finalitzi la prova, considereu l\'actualització a la versió Pro. Té una gran quantitat de funcions noves, un disseny modern, sense anuncis i moltes altres millores.\n \nNomés l\'heu de pagar una vegada a la vida i si no esteu satisfet, podeu desinstal·lar-la i obtenir un reemborsament. \n \nEspero que us agradi :)</string>
     <string name="trial_end_description">Si us plau, actualitzeu a la versió Pro per a gaudir de l\'aplicació al màxim.
 \n
 \nNomés l\'heu de pagar una vegada a la vida i si no esteu satisfet, podeu desinstal·lar-la i obtenir un reemborsament.
@@ -1076,7 +1080,10 @@
     <string name="usb">USB</string>
     <string name="donate_new">Hola,&lt;br&gt;&lt;br&gt;esperem que gaudiu de l\'aplicació. No conté anuncis i tampoc es recopilen les vostres dades. Si us plau, doneu suport al seu desenvolupament comprant &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank Tou&lt;/a&gt;. També disposareu de totes les funcions desbloquejades de l\'aplicació, incloent-hi la personalització del color.&lt;br&gt;&lt;br&gt;Gràcies!</string>
     <string name="features_locked">Aquesta característica està bloquejada, compreu &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; per a desbloquejar l\'aplicació completa.&lt;br&gt;&lt;br&gt;És un pagament únic i si no us satisfà, podem reembossar-ho.</string>
-    <string name="faq_2_text_commons">Sí, és clar. Podeu difondre les aplicacions o fer comentaris i valoracions bones. També podeu ajudar traduint les aplicacions a un idioma nou, o simplement actualitzant algunes traduccions existents. La guia per a traduir es troba en &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;aquest lloc web&lt;/a&gt;, o senzillament poseu-vos en contacte amb nosaltres a &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; si teniu cap pregunta.</string>
+    <string name="faq_2_text_commons"><![CDATA[
+            Sí, és clar. Podeu difondre les aplicacions o fer comentaris i valoracions bones. També podeu ajudar traduint les aplicacions a un idioma nou, o simplement actualitzant algunes traduccions existents.
+            La guia per a traduir es troba en <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">aquest lloc web</a>, o senzillament poseu-vos en contacte amb nosaltres a <a href="mailto:hello@fossify.org">hello@fossify.org</a> si teniu cap pregunta.
+        ]]></string>
     <string name="error">Error: %s</string>
     <string name="notes">Notes</string>
     <string name="transparent">Transparent</string>
@@ -1084,7 +1091,9 @@
     <string name="audio">Àudio</string>
     <string name="genre">Gènere</string>
     <string name="apply_to_all_apps">Aplicar els colors a totes les aplicacions de Fossify</string>
-    <string name="purchase_thank_you">Compreu la &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; per a desbloquejar aquesta funció i col·laborar amb el desenvolupament. Gràcies!</string>
+    <string name="purchase_thank_you"><![CDATA[
+            Compreu la <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Thank You</a> per a desbloquejar aquesta funció i col·laborar amb el desenvolupament. Gràcies!!
+        ]]></string>
     <string name="enter_password">Introduïu la contrasenya</string>
     <string name="password">Contrasenya</string>
     <string name="add_password">Afegeix una contrasenya</string>
@@ -1105,8 +1114,18 @@
     <string name="block_contact">Bloqueja el contacte</string>
     <string name="exif">EXIF</string>
     <string name="shared_theme_note">Tingueu en compte que tot i que utilitzeu la versió Pro de l\'aplicació, encara necessiteu Fossify Thank You per motius tècnics. S\'encarrega de la sincronització del color.</string>
-    <string name="donate_please">Hola,&lt;br&gt;&lt;br&gt; esperem que gaudiu de l\'aplicació. No conté cap anunci, així que si us plau, ajudeu el seu desenvolupament comprant l\'aplicació &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;, també evitarà que aquest diàleg es torni a mostrar.&lt;br&gt;&lt;br&gt; Gràcies!</string>
-    <string name="contributors_label">Aquesta llista conté tots els que van ajudar notablement a qualsevol aplicació de la suite Fossify, no només aquesta. Les traduccions són gestionades per voluntaris, feu-nos saber si vós també voleu ajudar. La guia per a traduir es troba a &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;aquest lloc web&lt;/a&gt;, o simplement poseu-vos en contacte amb nosaltres a &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; si teniu qualsevol pregunta. Gràcies a tots els col·laboradors i altres patrocinadors!</string>
+    <string name="donate_please">
+        <![CDATA[
+            Hello,<br><br>
+            esperem que gaudiu de l\'aplicació. No conté cap anunci, així que si us plau, ajudeu el seu desenvolupament comprant l\'aplicació <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>, també evitarà que aquest diàleg es torni a mostrar.<br><br>
+            Gràcies!
+        ]]>
+    </string>
+    <string name="contributors_label"><![CDATA[
+            Aquesta llista conté tots els que van ajudar notablement a qualsevol aplicació de la suite Fossify, no només aquesta. Les traduccions són gestionades per voluntaris,
+            feu-nos saber si vós també voleu ajudar. La guia per a traduir es troba en <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">aquest lloc web</a>, o simplement poseu-vos en contacte amb nosaltres a <a href="mailto:hello@fossify.org">hello@fossify.org</a> si teniu qualsevol pregunta.
+            Gràcies a tots els col·laboradors i altres patrocinadors!
+        ]]></string>
     <string name="update_thank_you">Actualitzeu Fossify Thank You a l\'última versió</string>
     <string name="notes_short">Notes</string>
     <string name="translation_hindi">Hindi</string>
@@ -1125,4 +1144,5 @@
     <string name="theme_and_colors">Tema i colors</string>
     <string name="all_fossify_apps">Totes les aplicacions Fossify</string>
     <string name="known_issues">Problemes coneguts</string>
+    <string name="translation_kabyle">Cabilenc</string>
 </resources>

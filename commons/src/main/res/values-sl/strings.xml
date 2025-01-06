@@ -624,7 +624,7 @@
     <string name="add_new_sound">Dodaj nov zvok</string>
     <string name="no_sound">Brez zvoka</string>
     <string name="during_day_at_hh_mm">Čez dan ob hh:mm</string>
-    <string name="during_day_at">Čez dan ob %02d:%02d</string>
+    <string name="during_day_at">Čez dan ob %1$02d:%2$02d</string>
     <string name="settings">Nastavitve</string>
     <string name="color_customization">Prilagajanje barv</string>
     <string name="improved_color_customization">Izboljšana prilagoditev barv</string>
@@ -1002,11 +1002,7 @@
     <string name="trial_expires_soon">Vaše poskusno obdobje bo kmalu poteklo.</string>
     <string name="unlock_for_one_final_day">Odkleni aplikacijo še za en zadnji dan</string>
     <string name="welcome_to_app_name">Dobrodošli v %s!</string>
-    <string name="trial_start_description">Zahvaljujemo se vam za uporabo naše aplikacije. To odklenjeno različico lahko uporabljate <font color="#FFFFFF">%d dni</font>. Ko se preizkusno obdobje konča, razmislite o nadgradnji na Pro verzijo. Ima ogromno novih funkcij, sodobno obliko, brez oglasov in številne druge izboljšave.
-\n
-\nPlačati jo morate le enkrat v življenju in če ne boste zadovoljni, jo lahko odstranite in zahtevate vračilo denarja.
-\n
-\nUpamo, da vam bo všeč :)</string>
+    <string name="trial_start_description">Zahvaljujemo se vam za uporabo naše aplikacije. To odklenjeno različico lahko uporabljate <font color="#FFFFFF">%d dni</font>. Ko se preizkusno obdobje konča, razmislite o nadgradnji na Pro verzijo. Ima ogromno novih funkcij, sodobno obliko, brez oglasov in številne druge izboljšave. \n \nPlačati jo morate le enkrat v življenju in če ne boste zadovoljni, jo lahko odstranite in zahtevate vračilo denarja. \n \nUpamo, da vam bo všeč :)</string>
     <string name="trial_end_description">Če želite v celoti uživati v aplikaciji, jo nadgradite na Pro verzijo.
 \n
 \nPlačati jo morate le enkrat v življenju in če ne boste zadovoljni, jo lahko odstranite in dobite povračilo.

@@ -726,7 +726,6 @@
     <string name="add_new_sound">إضافة صوت جديد</string>
     <string name="no_sound">لا يوجد صوت</string>
     <string name="during_day_at_hh_mm">خلال النهار في hh: mm</string>
-    <string name="during_day_at">خلال النهار في %02d: %02d</string>
     <string name="settings">الإعدادات</string>
     <string name="general_settings">عام</string>
     <string name="color_customization">تخصيص الألوان</string>
@@ -1105,11 +1104,7 @@
     <string name="trial_expires_soon">تنتهي صلاحية الإصدار التجريبي قريبا.</string>
     <string name="unlock_for_one_final_day">افتح التطبيق ليوم أخير</string>
     <string name="welcome_to_app_name">مرحبا بكم في %s!</string>
-    <string name="trial_start_description">شكراً لك على استخدام تطبيقنا يمكنك استخدام هذه النسخة غير المقفلة لأيام <font color="#FFFFFF">%d </font>. وحالما تنتهي التجربة، يرجى النظر في الترقية إلى النسخة الكاملة. ولها كمية كبيرة من الملامح الجديدة، والتصميم الحديث، ولا يحتوي اعلانات، وغير ذلك من التحسينات.
-\n
-\nعليك فقط أن تدفع ثمنها مرة واحدة في العمر وإذا لم تكن راضياً، يمكنك أن تلغي التثبيت وتحصل على أموالك
-\n
-\nأتمنى أن تعجبك</string>
+    <string name="trial_start_description">شكراً لك على استخدام تطبيقنا يمكنك استخدام هذه النسخة غير المقفلة لأيام <font color="#FFFFFF">%d </font>. وحالما تنتهي التجربة، يرجى النظر في الترقية إلى النسخة الكاملة. ولها كمية كبيرة من الملامح الجديدة، والتصميم الحديث، ولا يحتوي اعلانات، وغير ذلك من التحسينات. \n \nعليك فقط أن تدفع ثمنها مرة واحدة في العمر وإذا لم تكن راضياً، يمكنك أن تلغي التثبيت وتحصل على أموالك \n \nأتمنى أن تعجبك</string>
     <string name="trial_end_description">يرجى الترقية إلى الإصدار الاحترافي للاستمتاع بالتطبيق على أكمل وجه.
 \n
 \nعليك فقط أن تدفع ثمنها مرة واحدة في العمر وإذا لم تكن راضيًا ، يمكنك إلغاء تثبيتها واسترداد أموالك.

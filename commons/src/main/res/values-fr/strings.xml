@@ -635,7 +635,7 @@
     <string name="add_new_sound">Ajouter une nouvelle sonnerie</string>
     <string name="no_sound">Aucune sonnerie</string>
     <string name="during_day_at_hh_mm">Au cours de la journée à hh:mm</string>
-    <string name="during_day_at">Au cours de la journée à %02d:%02d</string>
+    <string name="during_day_at">Au cours de la journée à %1$02d:%2$02d</string>
     <string name="settings">Paramètres</string>
     <string name="general_settings">Général</string>
     <string name="color_customization">Personnalisation des couleurs</string>

@@ -518,7 +518,7 @@
     <string name="add_new_sound">新しいサウンドを追加</string>
     <string name="no_sound">サウンドなし</string>
     <string name="during_day_at_hh_mm">日中 hh:mm</string>
-    <string name="during_day_at">日中 %02d:%02d</string>
+    <string name="during_day_at">日中 %1$02d:%2$02d</string>
     <string name="settings">設定</string>
     <string name="general_settings">全般</string>
     <string name="color_customization">カラーカスタマイズ</string>
@@ -876,11 +876,7 @@
     <string name="trial_expires_soon">試用期間はまもなく終了します。</string>
     <string name="unlock_for_one_final_day">最終日にアプリのロックを解除する</string>
     <string name="welcome_to_app_name">ようこそ %s へ！</string>
-    <string name="trial_start_description">私たちのアプリをご利用いただきありがとうございます。このアプリのロック解除版を <font color="#FFFFFF">%d 日間</font> 試用することができます。試用が終了したら、Pro版へのアップグレードをご検討ください。多くの新しい機能、モダンなデザイン、広告なし、その他多くの改善点があります。
-\n
-\n一度きりの購入で永続的に使用することができます。ご満足いただけない場合は、アプリをアンインストールして払い戻しを受けることもできます。
-\n
-\n気に入っていただければ幸いです :)</string>
+    <string name="trial_start_description">私たちのアプリをご利用いただきありがとうございます。このアプリのロック解除版を <font color="#FFFFFF">%d 日間</font> 試用することができます。試用が終了したら、Pro版へのアップグレードをご検討ください。多くの新しい機能、モダンなデザイン、広告なし、その他多くの改善点があります。 \n \n一度きりの購入で永続的に使用することができます。ご満足いただけない場合は、アプリをアンインストールして払い戻しを受けることもできます。 \n \n気に入っていただければ幸いです :)</string>
     <string name="trial_end_description">多くの機能をともなったPro版へのアップグレードをご検討ください。
 \n
 \n一度きりの購入で永続的に使用することができます。ご満足いただけない場合は、アプリをアンインストールして払い戻しを受けることもできます。

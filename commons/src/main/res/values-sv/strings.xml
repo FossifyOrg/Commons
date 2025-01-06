@@ -600,7 +600,7 @@
     <string name="add_new_sound">Lägg till ett nytt ljud</string>
     <string name="no_sound">Inget ljud</string>
     <string name="during_day_at_hh_mm">Under dagen klockan hh:mm</string>
-    <string name="during_day_at">Under dagen klockan %02d:%02d</string>
+    <string name="during_day_at">Under dagen klockan %1$02d:%2$02d</string>
     <string name="settings">Inställningar</string>
     <string name="general_settings">Allmänt</string>
     <string name="color_customization">Färganpassning</string>
@@ -1016,11 +1016,7 @@
     <string name="trial_expires_soon">Din prövotid tar snart slut.</string>
     <string name="unlock_for_one_final_day">Lås upp appen för en sista dag</string>
     <string name="welcome_to_app_name">Välkommen till %s!</string>
-    <string name="trial_start_description">Tack för att du använder vår app. Du kan använda den här olåsta versionen i <font color="#FFFFFF">%d dagar</font>. När testperioden är slut, överväg att uppgradera till Pro-versionen. Den har en enorm mängd nya funktioner, modern design, inga annonser och många andra förbättringar.
-\n
-\nDu behöver bara betala för det en gång i livet och om du inte blir nöjd kan du avinstallera det och få en återbetalning.
-\n
-\nHoppas du kommer att gilla det :)</string>
+    <string name="trial_start_description">Tack för att du använder vår app. Du kan använda den här olåsta versionen i <font color="#FFFFFF">%d dagar</font>. När testperioden är slut, överväg att uppgradera till Pro-versionen. Den har en enorm mängd nya funktioner, modern design, inga annonser och många andra förbättringar. \n \nDu behöver bara betala för det en gång i livet och om du inte blir nöjd kan du avinstallera det och få en återbetalning. \n \nHoppas du kommer att gilla det :)</string>
     <string name="trial_end_description">Uppgradera till Pro-versionen för att njuta av appen till fullo.
 \n
 \nDu behöver bara betala för det en gång i livet och om du inte blir nöjd kan du avinstallera det och få en återbetalning.

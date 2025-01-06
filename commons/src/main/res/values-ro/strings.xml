@@ -551,7 +551,7 @@
     <string name="add_new_sound">Adaugă un sunet nou</string>
     <string name="no_sound">Nici un sunet</string>
     <string name="during_day_at_hh_mm">În timpul zilei la hh:mm</string>
-    <string name="during_day_at">În timpul zilei la %02d:%02d</string>
+    <string name="during_day_at">În timpul zilei la %1$02d:%2$02d</string>
     <string name="settings">Setări</string>
     <string name="color_customization">Personalizarea culorilor</string>
     <string name="customize_colors">Personalizați culorile</string>

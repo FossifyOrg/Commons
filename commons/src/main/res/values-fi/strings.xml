@@ -596,7 +596,7 @@
     <string name="add_new_sound">Lisää uusi ääni</string>
     <string name="no_sound">Ei ääntä</string>
     <string name="during_day_at_hh_mm">Päivällä kello hh:mm</string>
-    <string name="during_day_at">Päivällä kello %02d:%02d</string>
+    <string name="during_day_at">Päivällä kello %1$02d:%2$02d</string>
     <string name="settings">Asetukset</string>
     <string name="general_settings">Yleistä</string>
     <string name="color_customization">Värien mukautus</string>
@@ -1017,11 +1017,7 @@
     <string name="trial_expires_soon">Ilmainen kokeilusi päättyy pian.</string>
     <string name="unlock_for_one_final_day">Avaa sovelluksen lukitus yhdelle viimeiselle päivälle</string>
     <string name="welcome_to_app_name">Tervetuloa sovellukseen %s!</string>
-    <string name="trial_start_description">Kiitos sovelluksemme käytöstä. Voit käyttää tätä avattua versiota <font color="#FFFFFF">%d päivän ajan</font>. Harkitse kokeilujakson päättyessä päivitystä Pro-versioon. Se tarjoaa merkittävästi enemmän ominaisuuksoa, modernin ulkoasun ja monia muita parannuksia, eikä siinä ole mainoksia.
-\n
-\nSe on elinikäinen kertaostos ja jos et ole tyytyväinen, voit poistaa sen ja saada hyvityksen.
-\n
-\nToivottavasti pidät siitä :)</string>
+    <string name="trial_start_description">Kiitos sovelluksemme käytöstä. Voit käyttää tätä avattua versiota <font color="#FFFFFF">%d päivän ajan</font>. Harkitse kokeilujakson päättyessä päivitystä Pro-versioon. Se tarjoaa merkittävästi enemmän ominaisuuksoa, modernin ulkoasun ja monia muita parannuksia, eikä siinä ole mainoksia. \n \nSe on elinikäinen kertaostos ja jos et ole tyytyväinen, voit poistaa sen ja saada hyvityksen. \n \nToivottavasti pidät siitä :)</string>
     <string name="trial_end_description">Päivitä Pro-versioon nauttiaksesi sovelluksesta täysin.
 \n
 \nSe on elinikäinen kertaostos ja jos et ole tyytyväinen, voit poistaa sen ja saada hyvityksen.

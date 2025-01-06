@@ -121,7 +121,7 @@
     <string name="import_blocked_numbers">Uvoz blokiranih brojeva</string>
     <string name="must_make_default_dialer">Za korištenje blokiranih brojeva, ovu aplikaciju moraš postaviti kao zadanu za biranje brojeva.</string>
     <string name="set_as_default">Postavi na zadano</string>
-    <string name="block_confirmation">Stvarno želiš blokirati „%s”\?</string>
+    <string name="block_confirmation">Stvarno želiš blokirati „%s”?</string>
     <string name="block_unknown_calls">Blokiraj pozive nepohranjenih kontakata</string>
     <string name="block_hidden_calls">Blokiraj pozive od sakrivenih brojeva</string>
     <string name="block_unknown_messages">Blokiraj poruke nepohranjenih kontakata</string>
@@ -640,7 +640,7 @@
     <string name="add_new_sound">Dodaj novi zvuk</string>
     <string name="no_sound">Nema zvuka</string>
     <string name="during_day_at_hh_mm">U toku dana u hh:mm</string>
-    <string name="during_day_at">U toku dana u %02d:%02d</string>
+    <string name="during_day_at">U toku dana u %1$02d:%2$02d</string>
     <string name="settings">Postavke</string>
     <string name="general_settings">Opće</string>
     <string name="color_customization">Prilagođavanje boja</string>

@@ -110,7 +110,7 @@
     <string name="import_blocked_numbers">Importuoti užblokuotus numerius</string>
     <string name="must_make_default_dialer">Norėdami blokuoti numerius, turite nustatyti šią programėlę kaip numatytąją numerių rinkimo programėlę.</string>
     <string name="set_as_default">Nustatyti kaip numatytąją</string>
-    <string name="block_confirmation">Ar tikrai norite užblokuoti „%s“\?</string>
+    <string name="block_confirmation">Ar tikrai norite užblokuoti „%s“?</string>
     <string name="block_unknown_calls">Blokuoti skambučius iš neįvestų numerių</string>
     <string name="block_unknown_messages">Blokuoti žinutes iš neįvestų numerių</string>
     <string name="add_blocked_number_helper_text">Įvesti skaičių ar šabloną (pvz. *12345*, +370*8888) kad blokuoti skambučius ir žinutes iš numerių atitinkančių šabloną.</string>
@@ -214,7 +214,7 @@
     <string name="empty_name">Įveskite pavadinimą</string>
     <string name="unknown_error_occurred">Įvyko nežinoma klaida</string>
     <string name="file_already_exists">Failas „%s“ jau yra</string>
-    <string name="file_already_exists_overwrite">Failas „%s“ jau yra. Perrašyti\?</string>
+    <string name="file_already_exists_overwrite">Failas „%s“ jau yra. Perrašyti?</string>
     <string name="folder_already_exists">Aplankas „%s“ jau yra</string>
     <string name="merge">Sulieti</string>
     <string name="keep_both">Palikti abu</string>
@@ -561,7 +561,7 @@
     <string name="add_new_sound">Pridėti naują garsą</string>
     <string name="no_sound">Be garso</string>
     <string name="during_day_at_hh_mm">Dienos metu vv:mm</string>
-    <string name="during_day_at">Dienos metu ties %02d:%02d</string>
+    <string name="during_day_at">Dienos metu ties %1$02d:%2$02d</string>
     <string name="settings">Nustatymai</string>
     <string name="general_settings">Bendri</string>
     <string name="color_customization">Spalvos tinkinimas</string>

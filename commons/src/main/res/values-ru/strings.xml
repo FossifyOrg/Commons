@@ -645,7 +645,7 @@
     <string name="add_new_sound">Добавить новый звук</string>
     <string name="no_sound">Без звука</string>
     <string name="during_day_at_hh_mm">В течение дня в чч:мм</string>
-    <string name="during_day_at">В течение дня в %02d:%02d</string>
+    <string name="during_day_at">В течение дня в %1$02d:%2$02d</string>
     <string name="settings">Настройки</string>
     <string name="general_settings">Общие</string>
     <string name="color_customization">Настройка цвета</string>
@@ -915,7 +915,15 @@
     <string name="thank_you">Спасибо</string>
     <string name="widget_locked_pro">Виджет заблокирован.
 \nПерейдите на Pro-версию, чтобы разблокировать его.</string>
-    <string name="new_app">Привет,&lt;br&gt;&lt;br&gt; просто сообщаем, что недавно были выпущены новые приложения:&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; Их можно загрузить, нажав на заголовок или значок.&lt;br&gt;&lt;br&gt; Спасибо</string>
+    <string name="new_app"><![CDATA[
+            Привет,<br><br>
+            просто сообщаем, что недавно были выпущены новые приложения:<br><br>
+            <a href="%1$s">%2$s</a><br><br>
+            <a href="%3$s">%4$s</a><br><br>
+            <a href="%5$s">%6$s</a><br><br>
+            Их можно загрузить, нажав на заголовок или значок.<br><br>
+            Спасибо
+        ]]></string>
     <string name="app_launcher_short">Рабочий стол</string>
     <string name="calculator_short">Калькулятор</string>
     <string name="calendar_short">Календарь</string>
@@ -934,13 +942,18 @@
     <string name="sms_messenger_short">Сообщения</string>
     <string name="thank_you_short">Спасибо</string>
     <string name="voice_recorder_short">Диктофон</string>
-    <string name="sideloaded_app">Похоже, ваша версия приложения повреждена. Загрузите оригинальную версию &lt;a href=%s&gt;отсюда&lt;/a&gt;.</string>
+    <string name="sideloaded_app"><![CDATA[
+            Похоже, ваша версия приложения повреждена. Загрузите оригинальную версию <a href="%s">отсюда</a>.
+        ]]></string>
     <string name="frequently_asked_questions">Часто задаваемые вопросы</string>
     <string name="before_asking_question">Прежде чем задать вопрос, прочитайте</string>
     <string name="faq_1_title_commons">Почему я не вижу виджет этого приложения в списке виджетов?</string>
     <string name="faq_1_text_commons">Это, скорее всего, потому, что вы перенесли приложение на SD-карту. Существует ограничение системы Android, которое скрывает виджеты приложения в этом случае. Единственное решение — переместить приложение обратно во внутреннее хранилище через настройки вашего устройства.</string>
     <string name="faq_2_title_commons">Я хочу поддержать вас, но не могу пожертвовать деньги. Есть ли что-нибудь ещё, что я могу сделать?</string>
-    <string name="faq_2_text_commons">Да, конечно. Вы можете рассказывать о наших приложениях или оставлять хорошие отзывы и оценки. Также вы можете помочь, переведя приложения на новый язык или обновив существующий перевод. Руководство по переводу находится &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;здесь&lt;/a&gt;. Можно просто связаться с нами по электронной почте &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt;, если у вас есть какие-либо вопросы.</string>
+    <string name="faq_2_text_commons"><![CDATA[
+            Да, конечно. Вы можете рассказывать о наших приложениях или оставлять хорошие отзывы и оценки. Также вы можете помочь, переведя приложения на новый язык или обновив существующий перевод.
+            Руководство по переводу находится <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">здесь</a>. Можно просто связаться с нами по электронной почте <a href="mailto:hello@fossify.org">hello@fossify.org</a>, если у вас есть какие-либо вопросы.
+        ]]></string>
     <string name="faq_3_title_commons">Я по ошибке удалил некоторые файлы. Как их восстановить?</string>
     <string name="faq_3_text_commons">К сожалению, вы не можете этого сделать. Файлы удаляются сразу после диалога подтверждения, корзина недоступна.</string>
     <string name="faq_4_title_commons">Мне не нравятся цвета виджета. Я могу их изменить?</string>
@@ -1087,11 +1100,7 @@
     <string name="trial_expires_soon">Пробный период скоро истечёт.</string>
     <string name="unlock_for_one_final_day">Разблокировать приложение на один последний день</string>
     <string name="welcome_to_app_name">Добро пожаловать в %s!</string>
-    <string name="trial_start_description">Благодарим вас за использование нашего приложения. Вы можете использовать эту разблокированную версию <font color="#FFFFFF">%d дней</font>. После окончания пробного периода рассмотрите возможность обновления до Pro-версии. Она имеет огромное количество новых функций, современный дизайн, отсутствие рекламы и множество других улучшений.
-\n
-\nОплата потребуется один раз в жизни, и если вы останетесь недовольны работой приложения, то можете удалить его и получить возврат средств.
-\n
-\nНадеемся, вам понравится :)</string>
+    <string name="trial_start_description">Благодарим вас за использование нашего приложения. Вы можете использовать эту разблокированную версию <font color="#FFFFFF">%d дней</font>. После окончания пробного периода рассмотрите возможность обновления до pro-версии. Она имеет огромное количество новых функций, современный дизайн, отсутствие рекламы и множество других улучшений.\n \nОплата потребуется один раз в жизни, и если вы останетесь недовольны работой приложения, то можете удалить его и получить возврат средств. \n \nНадеемся, вам понравится :)</string>
     <string name="trial_end_description">Пожалуйста, обновитесь до Pro-версии, чтобы пользоваться приложением в полном объёме.
 \n
 \nОплата потребуется один раз в жизни, и если вы останетесь недовольны работой приложения, то можете удалить его и получить возврат средств.
@@ -1108,7 +1117,9 @@
     <string name="developer_description">Группа простых приложений для Android с открытым исходным кодом, настраиваемыми виджетами, без рекламы и ненужных разрешений.</string>
     <string name="donate_new">Привет,&lt;br&gt;&lt;br&gt; надеюсь, вам нравится приложение. Оно не содержит рекламы, и мы не собираем ваши данные, пожалуйста, поддержите его развитие, купив &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. Вы также получите все функции приложения, включая настройку цвета.&lt;br&gt;&lt;br&gt; Спасибо!</string>
     <string name="update_thank_you">Пожалуйста, обновите до последней версии Fossify Thank You</string>
-    <string name="purchase_thank_you">Пожалуйста, купите &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;, чтобы разблокировать эту функцию и поддержать развитие. Спасибо!</string>
+    <string name="purchase_thank_you"><![CDATA[
+            Пожалуйста, купите <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>, чтобы разблокировать эту функцию и поддержать развитие. Спасибо!
+        ]]></string>
     <string name="shared_theme_note">Обратите внимание, что даже если вы используете Pro-версию приложения, по техническим причинам вам всё ещё необходимо приложение Fossify Thank You. Оно обеспечивает синхронизацию цветов.</string>
     <string name="features_locked">Это платная функция, пожалуйста, купите &lt;href=https:/play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;, чтобы разблокировать все функции приложения.&lt;bг&gt;&lt;br&gt; Это разовая оплата, и, если вы останетесь недовольны, мы можем вернуть вам деньги.</string>
     <string name="ok">OK</string>
@@ -1117,7 +1128,11 @@
     <string name="apply_to_all_apps">Применить цвета ко всем приложениям Fossify</string>
     <string name="purchase_simple_thank_you">Купить Fossify Thank You</string>
     <string name="usb">USB</string>
-    <string name="donate_please">Привет,&lt;br&gt;&lt;br&gt; надеюсь, вам нравится приложение. Оно не содержит рекламы, пожалуйста, поддержите его развитие, купив &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. После покупки это сообщение больше не будет показываться.&lt;br&gt;&lt;br&gt; Спасибо!</string>
+    <string name="donate_please"><![CDATA[
+            Привет,<br><br> 
+            надеемся, вам нравится приложение. Оно не содержит рекламы, пожалуйста, поддержите его развитие, купив <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>. После покупки это сообщение больше не будет показываться.<br><br>
+            Спасибо!
+        ]]></string>
     <string name="donate_short">Пожалуйста, поддержите нас покупкой &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. Это также разблокирует все функции приложения, включая настройку цвета.</string>
     <string name="why_upgrade_pro_version">Pro</string>
     <string name="faq_6_text_commons">Эта проблема возникает, когда лаунчер не полностью поддерживает пользовательские значки. Попробуйте запустить приложение через Google Play или через виджет, если он доступен. После запуска восстановите стандартный зеленый цвет значка #106D1F. В крайних случаях может потребоваться переустановка приложения.</string>
@@ -1135,4 +1150,5 @@
     <string name="all_fossify_apps">Все приложения Fossify</string>
     <string name="theme_and_colors">Тема и цвета</string>
     <string name="known_issues">Известные проблемы</string>
+    <string name="translation_kabyle">Кабильский</string>
 </resources>

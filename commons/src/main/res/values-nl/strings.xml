@@ -577,7 +577,6 @@
     <string name="add_new_sound">Nieuw geluid toevoegen</string>
     <string name="no_sound">Geen geluid</string>
     <string name="during_day_at_hh_mm">Overdag om uu:mm</string>
-    <string name="during_day_at">Overdag om %02d.%02du</string>
     <string name="settings">Instellingen</string>
     <string name="general_settings">Algemeen</string>
     <string name="color_customization">Kleuren aanpassen</string>
@@ -939,11 +938,7 @@
     <string name="trial_expires_soon">De proefperiode verloopt binnenkort.</string>
     <string name="unlock_for_one_final_day">Voor nog 1 dag deze app volledig ontgrendelen</string>
     <string name="welcome_to_app_name">Welkom bij %s!</string>
-    <string name="trial_start_description">Bedankt voor de interesse in onze app! Deze proefversie is te gebruiken voor <font color="#FFFFFF">%d dagen</font>. Als de proefperiode is afgelopen, overweeg dan een upgrade naar de Pro-versie. Het bevat geen advertenties en heeft een enorme hoeveelheid nieuwe functies, een modern ontwerp en vele andere verbeteringen.
-\n
-\nWij vragen om een kleine eenmalige betaling, die eenvoudig is terug te draaien indien de Pro-versie niet bevalt.
-\n
-\nVeel plezier! :)</string>
+    <string name="trial_start_description">Bedankt voor de interesse in onze app! Deze proefversie is te gebruiken voor <font color="#FFFFFF">%d dagen</font>. Als de proefperiode is afgelopen, overweeg dan een upgrade naar de Pro-versie. Het bevat geen advertenties en heeft een enorme hoeveelheid nieuwe functies, een modern ontwerp en vele andere verbeteringen. \n \nWij vragen om een kleine eenmalige betaling, die eenvoudig is terug te draaien indien de Pro-versie niet bevalt. \n \nVeel plezier! :)</string>
     <string name="trial_end_description">Om van alle mogelijkheden die deze app biedt gebruik te kunnen maken, is een upgrade naar de Pro-versie aanbevolen.
 \n
 \nWij vragen om een kleine eenmalige betaling, die eenvoudig is terug te draaien indien de Pro-versie niet bevalt.
@@ -955,7 +950,7 @@
     </plurals>
     <string name="deprecated_app">VEROUDERD: Deze versie van de app wordt niet meer onderhouden. De Pro-versie is te vinden op https://play.google.com/store/apps/details\?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">Bij het verwijderen van de app binnen 2 uur na aanschaf wordt het aankoopbedrag automatisch teruggestort. Wilt u op een later tijdstip een terugbetaling, neem dan contact op via hello@fossify.org en het wordt geregeld. Zodoende blijft het gemakkelijk om de app uit te proberen :)</string>
-    <string name="developer_description">Een verzameling eenvoudige open-source Android-apps met widgets, zonder advertenties of onnodige rechten.</string>
+    <string name="developer_description">Een verzameling eenvoudige opensource Android-apps met widgets, zonder advertenties of onnodige rechten.</string>
     <string name="ok">OK</string>
     <string name="later">Later</string>
     <string name="details">Details</string>

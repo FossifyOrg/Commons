@@ -111,7 +111,7 @@
     <string name="import_blocked_numbers">Uvoz blokiranih brojeva</string>
     <string name="must_make_default_dialer">Za korištenje blokiranih brojeva, ovu aplikaciju moraš postaviti kao standardnu aplikaciju za biranje brojeva.</string>
     <string name="set_as_default">Postavi kao standard</string>
-    <string name="block_confirmation">Stvarno želiš blokirati „%s”\?</string>
+    <string name="block_confirmation">Stvarno želiš blokirati „%s”?</string>
     <string name="block_unknown_calls">Blokiraj pozive od nespremljenih kontakata</string>
     <string name="block_unknown_messages">Blokiraj poruke od nespremljenih kontakata</string>
     <string name="add_blocked_number_helper_text">Upiši broj ili uzorak (npr. *12345*, +1*8888) za blokiranje svih poziva i poruka od brojeva koji odgovaraju uzorku.</string>
@@ -606,7 +606,7 @@
     <string name="add_new_sound">Dodaj novi zvuk</string>
     <string name="no_sound">Nema zvuka</string>
     <string name="during_day_at_hh_mm">Tijekom dana u hh:mm</string>
-    <string name="during_day_at">Tijekom dana u %02d:%02d</string>
+    <string name="during_day_at">Tijekom dana u %1$02d:%2$02d</string>
     <string name="settings">Postavke</string>
     <string name="general_settings">Opće</string>
     <string name="color_customization">Prilagođavanje boja</string>
@@ -1105,11 +1105,7 @@
     <string name="app_icon_color_warning">Oprez: Određeni pokretači možda neće ispravno rukovati prilagodbom ikone aplikacije. Ako ikona nestane, pokušaj pokrenuti aplikaciju putem Google Playa ili widgeta. Nakon pokretanja obnovi standardnu zelenu boju ikone #106D1F. U ekstremnim slučajevima može biti potrebno ponovo instalirati aplikaciju.</string>
     <string name="shared_theme_note">Imaj na umu da iako koristiš Pro verziju aplikacije, još uvijek trebaš Fossify hvala iz tehničkih razloga. Potrebna je za sinkronizaciju boja.</string>
     <string name="faq_10_text_commons">Pokušaj izbrisati predmemoriju aplikacije Google Play i ponovo pokrenuti uređaj. To je neka greška Google Playa, koja nije povezana sa samom aplikacijom.</string>
-    <string name="trial_start_description">Hvala što koristiš našu aplikaciju. Ovu otključanu verziju možeš koristiti <font color="#FFFFFF">%d dana</font>. Nakon što probno razdoblje završi, razmisli o nadogradnji na Pro verziju. Ona sadrži velik broj funkcija, moderan dizajn, bez oglasa i mnoga druga poboljšanja.
-\n
-\nMoraš je platiti samo jednom. Ako nisi zadovoljan/na, možeš je deinstalirati i dobiti povrat novca.
-\n
-\nNadamo se da će ti se svidjeti :)</string>
+    <string name="trial_start_description">Hvala što koristiš našu aplikaciju. Ovu otključanu verziju možeš koristiti <font color="#FFFFFF">%d dana</font>. Nakon što probno razdoblje završi, razmisli o nadogradnji na Pro verziju. Ona sadrži velik broj funkcija, moderan dizajn, bez oglasa i mnoga druga poboljšanja. \n \nMoraš je platiti samo jednom. Ako nisi zadovoljan/na, možeš je deinstalirati i dobiti povrat novca. \n \nNadamo se da će ti se svidjeti :)</string>
     <string name="donate_short">Podrži nas kupnjom aplikacije &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify hvala&lt;/a&gt;. Time će se otključati sve funkcije aplikacije uključujući prilagođavanje boja.</string>
     <string name="donate_new">Zdravo,&lt;br&gt;&lt;br&gt; nadamo se da uživate u aplikaciji. Ne sadrži oglase i ne prikupljamo vaše podatke. Podržite njen razvoj kupnjom &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify hvala&lt;/a&gt;. Time dobivate pristup svim funkcijama aplikacije uključujući prilagođavanje boja.&lt;br&gt;&lt;br&gt;Hvala!</string>
     <string name="faq_2_text_commons">Da naravno. Možete širiti vijest o aplikacijama ili slati povratne informacije i ocjene. Također možete pomoći prevođenjem aplikacija na novi jezik ili aktualizirati postojeće prijevode. Vodič za prevođenje nalazi se na &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;ovoj web stranici&lt;/a&gt; ili nas kontaktirajte na &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; ako imate pitanja.</string>
@@ -1120,7 +1116,7 @@
     <string name="translation_gujarati">Gudžaratski</string>
     <string name="little_to_no_fee">Malo do bez naknade</string>
     <string name="donate_to_fossify">Doniraj projektu Fossify</string>
-    <string name="fee_up_to_pct">Do %1$d% % naknade</string>
+    <string name="fee_up_to_pct">Do %1$d%% naknade</string>
     <string name="platforms">Platforme</string>
     <string name="format_phone_numbers">Formatiraj telefonske brojeve</string>
     <string name="cryptocurrency">Kriptovaluta</string>

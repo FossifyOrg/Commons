@@ -634,7 +634,7 @@
     <string name="add_new_sound">Pridať nový zvuk</string>
     <string name="no_sound">Žiadny zvuk</string>
     <string name="during_day_at_hh_mm">Počas dňa o hh:mm</string>
-    <string name="during_day_at">Počas dňa o %02d:%02d</string>
+    <string name="during_day_at">Počas dňa o %1$02d:%2$02d</string>
     <string name="settings">Nastavenia</string>
     <string name="general_settings">Všeobecné</string>
     <string name="color_customization">Úprava farieb</string>

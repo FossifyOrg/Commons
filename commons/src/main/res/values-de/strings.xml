@@ -115,7 +115,7 @@
     <string name="import_blocked_numbers">Blockierte Nummern importieren</string>
     <string name="must_make_default_dialer">Du musst diese App als Standardtelefonie-App einstellen, um Nummern blockieren zu können.</string>
     <string name="set_as_default">Als Standard auswählen</string>
-    <string name="block_confirmation">„%s“ wirklich blockieren\?</string>
+    <string name="block_confirmation">„%s“ wirklich blockieren?</string>
     <string name="block_unknown_calls">Anrufe von nicht gespeicherten Kontakten blockieren</string>
     <string name="block_hidden_calls">Anrufe von unterdrückten Nummern blockieren</string>
     <string name="block_unknown_messages">Nachrichten von nicht gespeicherten Kontakten blockieren</string>
@@ -186,7 +186,7 @@
     <string name="filename_invalid_characters">Dateiname enthält ungültige Zeichen</string>
     <string name="filename_invalid_characters_placeholder">Dateiname ‚%s‘ enthält ungültige Zeichen</string>
     <string name="extension_cannot_be_empty">Dateiendung darf nicht leer sein</string>
-    <string name="source_file_doesnt_exist">Quelldatei ‚%s‘ existiert nicht</string>
+    <string name="source_file_doesnt_exist">Quelldatei „%s“ existiert nicht</string>
     <string name="prepend_filenames">Text dem Dateinamen voranstellen</string>
     <string name="append_filenames">Text dem Dateinamen anhängen</string>
     <string name="simple_renaming">Einfaches Umbenennen</string>
@@ -236,18 +236,18 @@
     <string name="folder">Ordner</string>
     <string name="file">Datei</string>
     <string name="create_new_folder">Neuen Ordner erstellen</string>
-    <string name="name_taken">Ordner oder Datei mit diesem Namen existiert bereits</string>
+    <string name="name_taken">Ein Ordner oder eine Datei mit diesem Namen existiert bereits</string>
     <string name="invalid_name">Der Name enthält unerlaubte Zeichen</string>
     <string name="empty_name">Bitte einen Namen angeben</string>
     <string name="unknown_error_occurred">Ein unbekannter Fehler ist aufgetreten</string>
     <string name="file_already_exists">Datei \"%s\" existiert bereits</string>
-    <string name="file_already_exists_overwrite">Datei \"%s\" existiert bereits. Überschreiben?</string>
-    <string name="folder_already_exists">Ordner \"%s\" existiert bereits</string>
+    <string name="file_already_exists_overwrite">Datei „%s“ existiert bereits. Überschreiben?</string>
+    <string name="folder_already_exists">Ordner „%s“ existiert bereits</string>
     <string name="merge">Zusammenführen</string>
     <string name="keep_both">Beide behalten</string>
     <string name="overwrite">Überschreiben</string>
     <string name="skip">Überspringen</string>
-    <string name="append">\"_1\" anhängen</string>
+    <string name="append">„_1“ anhängen</string>
     <string name="apply_to_all">Bei allen Konflikten anwenden</string>
     <string name="system_folder_restriction">Das System lässt den Vorgang in diesem Ordner nicht zu, bitte einen anderen Ordner wählen</string>
     <string name="system_folder_copy_restriction">Das System lässt das Kopieren in diesen Ordner nicht zu, bitte einen anderen Ordner wählen</string>
@@ -336,7 +336,9 @@
     <string name="app_icon_color_warning">Achtung! Bestimmte Launcher können das Anpassen von App-Symbolen nicht richtig verarbeiten. Wenn das Symbol verschwindet, versuche, falls möglich, die App über Google Play oder ein Widget zu starten. Stelle nach dem Start die grüne Standard-Symbolfarbe #106D1F wieder her. In extremen Fällen kann es notwendig sein, die App neu zu installieren.</string>
     <string name="global_theme_success">Das aktuelle Farbschema wurde erfolgreich auf alle Fossify-Apps angewendet. Alle zukünftigen Änderungen an diesem Farbschema werden automatisch synchronisiert.</string>
     <string name="shared_theme_note">Beachte, dass du aus technischen Gründen immer noch Fossify Thank You benötigst, auch wenn du die Pro-App-Version verwendest. Es kümmert sich um die Farbsynchronisation.</string>
-    <string name="purchase_thank_you">Bitte kaufe &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Dankeschön&lt;/a&gt; um diese Funktion freizuschalten und die Entwicklung zu unterstützen. Danke!</string>
+    <string name="purchase_thank_you"><![CDATA[
+            Bitte kaufe <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> um diese Funktion freizuschalten und die Entwicklung zu unterstützen. Danke!
+        ]]></string>
     <string name="light_theme">Hell</string>
     <string name="dark_theme">Dunkel</string>
     <string name="auto_light_dark_theme">Auto hell / dunkel</string>
@@ -604,7 +606,7 @@
     <string name="add_new_sound">Neuen Ton hinzufügen</string>
     <string name="no_sound">Stumm</string>
     <string name="during_day_at_hh_mm">Tagsüber um hh:mm</string>
-    <string name="during_day_at">Tagsüber am %02d:%02d</string>
+    <string name="during_day_at">Tagsüber am %1$02d:%2$02d</string>
     <string name="settings">Einstellungen</string>
     <string name="purchase_simple_thank_you">Fossify Thank You kaufen</string>
     <string name="general_settings">Allgemein</string>
@@ -798,13 +800,7 @@
 \nSobald du mit deiner Einrichtung in der Pro-Version zufrieden bist, kannst du die alte kostenlose Version deinstallieren, da du sie nicht mehr benötigst. Das verhindert auch, dass dieser Dialog angezeigt wird.
 \n
 \nVielen Dank!</string>
-    <string name="upgraded_from_free_contacts">Hallo,
-\n
-\nes sieht so aus, als ob du gerade ein Upgrade von der kostenlosen Version durchgeführt hast. Wenn du Kontakte unter \"%s\" gespeichert hast, musst du diese manuell migrieren, indem du sie in der kostenlosen App-Version in eine .vcf-Datei exportierst und hier über das obere Menü importierst.
-\n
-\nSobald du mit deiner Einrichtung in der Pro-Version zufrieden bist, kannst du die alte kostenlose Version deinstallieren, da du sie nicht mehr benötigst. Das verhindert auch, dass dieser Dialog angezeigt wird.
-\n
-\nVielen Dank!</string>
+    <string name="upgraded_from_free_contacts">Hallo, \n \nes sieht so aus, als ob du gerade ein Upgrade von der kostenlosen Version durchgeführt hast. Wenn du Kontakte unter „%s“ gespeichert hast, musst du diese manuell migrieren, indem du sie in der kostenlosen App-Version in eine .vcf-Datei exportierst und hier über das obere Menü importierst. \n \nSobald du mit deiner Einrichtung in der Pro-Version zufrieden bist, kannst du die alte kostenlose Version deinstallieren, da du sie nicht mehr benötigst. Das verhindert auch, dass dieser Dialog angezeigt wird. \n \nVielen Dank!</string>
     <string name="upgraded_from_free_notes">Hallo,
 \n
 \nes sieht so aus, als ob du gerade ein Upgrade von der kostenlosen Version durchgeführt hast. Wenn du deine Notizen migrieren möchtest, musst du dies manuell durchführen, indem du sie in der kostenlosen App-Version in eine Datei exportierst und hier über das obere Menü importierst.
@@ -852,10 +848,18 @@
 \n
 \nDanke!</string>
     <string name="rate_our_app">Bewerte bitte unsere App :)</string>
-    <string name="thank_you">Danke</string>
+    <string name="thank_you">Dankeschön</string>
     <string name="widget_locked_pro">Das Widget ist gesperrt.
 \nBitte zur Pro-Version wechseln, um es freizuschalten.</string>
-    <string name="new_app">Hey,&lt;br&gt;&lt;br&gt; nur eine kleine Info zu einigen neu veröffentlichten Apps:&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; Du kannst sie durch Drücken auf den Namen herunterladen.&lt;br&gt;&lt;br&gt; Danke</string>
+    <string name="new_app"><![CDATA[
+            Hey,<br><br>
+            ich wollte dich nur darauf hinweisen, dass kürzlich einige neue Apps veröffentlicht wurden:<br><br>
+            <a href="%1$s">%2$s</a><br><br>
+            <a href="%3$s">%4$s</a><br><br>
+            <a href="%5$s">%6$s</a><br><br>
+            Du kannst sie herunterladen, indem du auf den Titel oder das Icon drückst.<br><br>
+            Danke
+        ]]></string>
     <string name="app_launcher_short">App-Startprogramm</string>
     <string name="calculator_short">Rechner</string>
     <string name="calendar_short">Kalender</string>
@@ -874,7 +878,9 @@
     <string name="sms_messenger_short">SMS-Messenger</string>
     <string name="thank_you_short">Dankeschön</string>
     <string name="voice_recorder_short">Diktiergerät</string>
-    <string name="sideloaded_app">Deine App-Version scheint beschädigt zu sein. Bitte lade dir &lt;a href=%s&gt;hier&lt;/a&gt; die Originalversion herunter.</string>
+    <string name="sideloaded_app"><![CDATA[
+            Deine App-Version scheint beschädigt zu sein. Bitte lade dir die Originalversion <a href="%s">hier</a> herunter.
+        ]]></string>
     <string name="frequently_asked_questions">Häufig gestellte Fragen</string>
     <string name="before_asking_question">Bevor du eine Frage stellst, lies bitte zuerst die</string>
     <string name="faq_1_title_commons">Weshalb sehe ich das Widget dieser App nicht in der Liste der Widgets?</string>
@@ -1013,11 +1019,7 @@
     <string name="trial_expires_soon">Deine Testversion läuft bald ab.</string>
     <string name="unlock_for_one_final_day">Die App für einen letzten Tag freischalten</string>
     <string name="welcome_to_app_name">Willkommen bei %s!</string>
-    <string name="trial_start_description">Vielen Dank, dass du unsere App benutzt. Du kannst diese freigeschaltete Version für <font color="#FFFFFF">%d Tage nutzen</font>. Nach Ablauf der Testphase solltest du ein Upgrade auf die Pro-Version in Betracht ziehen. Diese hat eine große Anzahl neuer Funktionen, ein modernes Design, keine Werbung und viele andere Verbesserungen.
-\n
-\nDu musst nur einmal im Leben dafür bezahlen und wenn du nicht zufrieden bist, kannst du die App deinstallieren und eine Rückerstattung erhalten.
-\n
-\nIch hoffe, es gefällt dir :)</string>
+    <string name="trial_start_description">Vielen Dank, dass du unsere App benutzt. Du kannst diese freigeschaltete Version für <font color="#FFFFFF">%d Tage nutzen</font>. Nach Ablauf der Testphase solltest du ein Upgrade auf die Pro-Version in Betracht ziehen. Diese hat eine große Anzahl neuer Funktionen, ein modernes Design, keine Werbung und viele andere Verbesserungen. \n\nDu musst nur einmal im Leben dafür bezahlen und wenn du nicht zufrieden bist, kannst du die App deinstallieren und eine Rückerstattung erhalten.\n\nIch hoffe, es gefällt dir :)</string>
     <string name="trial_end_description">Bitte führe ein Upgrade auf die Pro-Version durch, um die App in vollem Umfang genießen zu können.
 \n
 \nDu musst nur einmal im Leben dafür bezahlen und wenn du nicht zufrieden bist, kannst du die App deinstallieren und eine Rückerstattung erhalten.
@@ -1072,11 +1074,22 @@
     <string name="otto_title">Otto (Eventbus)</string>
     <string name="donate_short">Unterstütze uns bitte durch den Kauf von &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;, dies wird auch alle App-Funktionen einschließlich der Farbanpassung freischalten.</string>
     <string name="donate_new">Hallo,&lt;br&gt;&lt;br&gt; ich hoffe, die App gefällt dir. Sie enthält keine Werbung und wir sammeln auch nicht deine Daten, bitte unterstütze die Entwicklung durch den Kauf von &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. Außerdem werden alle Funktionen der App, einschließlich der Farbanpassung, freigeschaltet. &lt;br&gt;&lt;br&gt; Vielen Dank!</string>
-    <string name="faq_2_text_commons">Ja, natürlich. Du kannst die Apps bekannt machen oder gutes Feedback und Bewertungen abgeben. Du kannst auch helfen, indem du die Apps in eine neue Sprache übersetzt oder einfach einige bestehende Übersetzungen aktualisierst. Die Anleitung zum Übersetzen findest du auf &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;dieser Website&lt;/a&gt;, oder kontaktiere uns einfach unter &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt;, wenn du Fragen hast.</string>
-    <string name="donate_please">Hallo,&lt;br&gt;&lt;br&gt; ich hoffe, die App gefällt dir. Sie enthält keine Werbung, daher unterstütze bitte die Entwicklung durch den Kauf der App &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Simple Thank You&lt;/a&gt;. Dadurch wird auch dieser Dialog künftig nicht mehr angezeigt.&lt;br&gt;&lt;br&gt; Vielen Dank!</string>
+    <string name="faq_2_text_commons"><![CDATA[
+            Ja, natürlich. Du kannst die Apps weiterempfehlen oder gute Bewertungen abgeben. Du kannst auch helfen, indem du die Apps in eine neue Sprache übersetzt oder einfach einige bestehende Übersetzungen aktualisierst.
+            Die Anleitung zum Übersetzen findest du auf <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">dieser Website</a>, oder kontaktiere uns einfach unter <a href="mailto:hello@fossify.org">hello@fossify.org</a>, wenn du Fragen hast.
+        ]]></string>
+    <string name="donate_please"><![CDATA[
+            Hallo,<br><br>
+            ich hoffe, die App gefällt dir. Sie enthält keine Werbung, daher unterstütze bitte die Entwicklung durch den Kauf der App <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>, dadurch wird auch dieser Dialog zukünftig nicht mehr angezeigt.<br><br>
+            Dankeschön!
+        ]]></string>
     <string name="features_locked">Diese Funktion ist gesperrt, bitte kaufe &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; um die App komplett freizuschalten. Dies ist eine einmalige Zahlung und wenn du nicht zufrieden bist, wird dir dein Geld zurückerstattet.</string>
     <string name="faq_6_text_commons">Dieses Problem tritt auf, wenn dein Launcher das Anpassen der Symbole nicht vollständig unterstützt. Versuche, die App über Google Play oder ein Widget zu starten, falls dies möglich ist. Stelle nach dem Start die standardmäßige grüne Symbolfarbe #106D1F wieder her. In extremen Fällen kann eine Neuinstallation der App erforderlich sein.</string>
-    <string name="contributors_label">Diese Liste enthält alle, die bei einer App innerhalb der Fossify-Suite merklich mitgeholfen haben, nicht nur bei dieser. Die Übersetzungen werden von Freiwilligen erledigt. Sag uns Bescheid, wenn auch du helfen willst. Die Anleitung zum Übersetzen findest du auf &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;dieser Website&lt;/a&gt;, oder kontaktiere uns einfach unter &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt;, wenn du Fragen hast. Vielen Dank an alle Mitwirkenden und sonstigen Unterstützer!</string>
+    <string name="contributors_label"><![CDATA[
+            Diese Liste enthält alle Personen, die bei irgendeiner App innerhalb der Fossify-Suite merklich geholfen haben, nicht nur bei dieser. Die Übersetzungen werden von Freiwilligen erledigt,
+            sag uns Bescheid, wenn auch du helfen willst. Die Anleitung zum Übersetzen findest du auf <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">dieser Website</a>, oder kontaktiere uns einfach unter <a href="mailto:hello@fossify.org">hello@fossify.org</a>, wenn du Fragen hast.
+            Vielen Dank an alle Mitwirkenden und sonstigen Unterstützer!
+        ]]></string>
     <string name="translation_esperanto">Esperanto</string>
     <string name="translation_chuvash">Tschuwaschisch</string>
     <string name="translation_gujarati">Gujarati</string>
@@ -1091,4 +1104,5 @@
     <string name="theme_and_colors">Farbschema und Farben</string>
     <string name="all_fossify_apps">Alle Fossify-Apps</string>
     <string name="known_issues">Bekannte Probleme</string>
+    <string name="translation_kabyle">Kabylisch</string>
 </resources>

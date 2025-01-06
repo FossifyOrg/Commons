@@ -600,7 +600,7 @@ fun Context.getFormattedSeconds(seconds: Int, showBefore: Boolean = true) = when
         when {
             seconds < 0 && seconds > -60 * 60 * 24 -> {
                 val minutes = -seconds / 60
-                getString(R.string.during_day_at).format(minutes / 60, minutes % 60)
+                getString(R.string.during_day_at, minutes / 60, minutes % 60)
             }
 
             seconds % YEAR_SECONDS == 0 -> {
