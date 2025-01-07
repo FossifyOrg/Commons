@@ -696,12 +696,12 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
         }
     }
 
-    fun handleSAFDialogSdk30(path: String, callback: (success: Boolean) -> Unit): Boolean {
+    fun handleSAFDialogSdk30(path: String, showRationale: Boolean = true, callback: (success: Boolean) -> Unit): Boolean {
         hideKeyboard()
         return if (!packageName.startsWith("org.fossify")) {
             callback(true)
             false
-        } else if (isShowingSAFDialogSdk30(path)) {
+        } else if (isShowingSAFDialogSdk30(path, showRationale)) {
             funAfterSdk30Action = callback
             true
         } else {
@@ -716,7 +716,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
             callback(true)
             false
         } else {
-            handleSAFDialogSdk30(path, callback)
+            handleSAFDialogSdk30(path = path, callback = callback)
         }
     }
 
