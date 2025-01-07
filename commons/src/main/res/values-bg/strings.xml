@@ -253,7 +253,7 @@
     <string name="confirm_storage_access_text">За да предоставите достъп за запис, на следващия екран изберете кореновата папка на SD картата</string>
     <string name="confirm_storage_access_text_sd">Ако не виждате SD картата, опитайте това</string>
     <string name="confirm_storage_access_android_text">Моля, позволете на приложението да има достъп до избраното хранилище на следващия екран, като натиснете \'Използвайте тази папка\' в долната част.</string>
-    <string name="confirm_storage_access_android_text_specific">Моля, разрешете достъп до \'<b>%s</b>\' на следващия екран, като натиснете \'<b>Използвайте тази папка</b>\' в долната част на екрана.</string>
+    <string name="confirm_storage_access_android_text_specific">Разрешете достъп до „<b>%s</b>“ на следващия екран, като докоснете „<b>Използвайте тази папка</b>“ в долната част на екрана.</string>
     <string name="confirm_create_doc_for_new_folder_text">Моля, натиснете \'<b>Запазване</b>\' в долната част на следващия екран, за да създадете новата папка.</string>
     <string name="confirm_selection">Потвърждаване на избора</string>
     <string name="loading">Зареждане…</string>
