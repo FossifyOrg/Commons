@@ -30,16 +30,17 @@ import java.io.File
  * @param callback the callback used for returning the selected file/folder
  */
 class FilePickerDialog(
-    val activity: BaseSimpleActivity,
-    var currPath: String = Environment.getExternalStorageDirectory().toString(),
-    val pickFile: Boolean = true,
-    var showHidden: Boolean = false,
-    val showFAB: Boolean = false,
-    val canAddShowHiddenButton: Boolean = false,
-    val forceShowRoot: Boolean = false,
-    val showFavoritesButton: Boolean = false,
+    private val activity: BaseSimpleActivity,
+    private var currPath: String = Environment.getExternalStorageDirectory().toString(),
+    private val pickFile: Boolean = true,
+    private var showHidden: Boolean = false,
+    private val showFAB: Boolean = false,
+    private val canAddShowHiddenButton: Boolean = false,
+    private val forceShowRoot: Boolean = false,
+    private val showFavoritesButton: Boolean = false,
+    private val showRationale: Boolean = true,
     private val enforceStorageRestrictions: Boolean = true,
-    val callback: (pickedPath: String) -> Unit
+    private val callback: (pickedPath: String) -> Unit
 ) : Breadcrumbs.BreadcrumbsListener {
 
     private var mFirstUpdate = true
@@ -215,7 +216,7 @@ class FilePickerDialog(
 
             activity.isAccessibleWithSAFSdk30(currPath) -> {
                 if (enforceStorageRestrictions) {
-                    activity.handleSAFDialogSdk30(currPath) {
+                    activity.handleSAFDialogSdk30(path = currPath, showRationale = showRationale) {
                         if (it) {
                             val document = activity.getSomeDocumentSdk30(currPath)
                             sendSuccessForDocumentFile(document ?: return@handleSAFDialogSdk30)

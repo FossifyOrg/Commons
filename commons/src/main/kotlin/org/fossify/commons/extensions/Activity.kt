@@ -10,10 +10,7 @@ import android.content.pm.ApplicationInfo
 import android.content.pm.PackageManager
 import android.media.RingtoneManager
 import android.net.Uri
-import android.os.Environment
-import android.os.Handler
-import android.os.Looper
-import android.os.TransactionTooLargeException
+import android.os.*
 import android.provider.ContactsContract
 import android.provider.DocumentsContract
 import android.provider.MediaStore
@@ -26,6 +23,7 @@ import android.view.WindowManager
 import android.view.inputmethod.InputMethodManager
 import android.widget.EditText
 import android.widget.Toast
+import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AlertDialog
 import androidx.biometric.BiometricPrompt
 import androidx.biometric.auth.AuthPromptCallback
@@ -145,38 +143,48 @@ fun BaseSimpleActivity.isShowingSAFDialog(path: String): Boolean {
 }
 
 @SuppressLint("InlinedApi")
-fun BaseSimpleActivity.isShowingSAFDialogSdk30(path: String): Boolean {
+fun BaseSimpleActivity.isShowingSAFDialogSdk30(path: String, showRationale: Boolean = true): Boolean {
     return if (isAccessibleWithSAFSdk30(path) && !hasProperStoredFirstParentUri(path)) {
         runOnUiThread {
             if (!isDestroyed && !isFinishing) {
-                val level = getFirstParentLevel(path)
-                WritePermissionDialog(this, WritePermissionDialogMode.OpenDocumentTreeSDK30(path.getFirstParentPath(this, level))) {
-                    Intent(Intent.ACTION_OPEN_DOCUMENT_TREE).apply {
-                        putExtra(EXTRA_SHOW_ADVANCED, true)
-                        putExtra(DocumentsContract.EXTRA_INITIAL_URI, createFirstParentTreeUriUsingRootTree(path))
-                        try {
-                            startActivityForResult(this, OPEN_DOCUMENT_TREE_FOR_SDK_30)
-                            checkedDocumentPath = path
-                            return@apply
-                        } catch (e: Exception) {
-                            type = "*/*"
-                        }
+                if (showRationale) {
+                    val level = getFirstParentLevel(path)
+                    WritePermissionDialog(this, WritePermissionDialogMode.OpenDocumentTreeSDK30(path.getFirstParentPath(this, level))) {
+                        openDocumentTreeSdk30(path)
 
-                        try {
-                            startActivityForResult(this, OPEN_DOCUMENT_TREE_FOR_SDK_30)
-                            checkedDocumentPath = path
-                        } catch (e: ActivityNotFoundException) {
-                            toast(R.string.system_service_disabled, Toast.LENGTH_LONG)
-                        } catch (e: Exception) {
-                            toast(R.string.unknown_error_occurred)
-                        }
                     }
+                } else {
+                    openDocumentTreeSdk30(path)
                 }
             }
         }
         true
     } else {
         false
+    }
+}
+
+@RequiresApi(Build.VERSION_CODES.R)
+private fun BaseSimpleActivity.openDocumentTreeSdk30(path: String) {
+    Intent(Intent.ACTION_OPEN_DOCUMENT_TREE).apply {
+        putExtra(EXTRA_SHOW_ADVANCED, true)
+        putExtra(DocumentsContract.EXTRA_INITIAL_URI, createFirstParentTreeUriUsingRootTree(path))
+        try {
+            startActivityForResult(this, OPEN_DOCUMENT_TREE_FOR_SDK_30)
+            checkedDocumentPath = path
+            return@apply
+        } catch (e: Exception) {
+            type = "*/*"
+        }
+
+        try {
+            startActivityForResult(this, OPEN_DOCUMENT_TREE_FOR_SDK_30)
+            checkedDocumentPath = path
+        } catch (e: ActivityNotFoundException) {
+            toast(R.string.system_service_disabled, Toast.LENGTH_LONG)
+        } catch (e: Exception) {
+            toast(R.string.unknown_error_occurred)
+        }
     }
 }
 
