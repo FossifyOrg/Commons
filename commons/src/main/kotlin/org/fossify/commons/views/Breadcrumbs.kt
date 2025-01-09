@@ -39,6 +39,7 @@ class Breadcrumbs(context: Context, attrs: AttributeSet) : HorizontalScrollView(
     private var isScrollToSelectedItemPending = false
     private var isFirstScroll = true
     private var stickyRootInitialLeft = 0
+    private var rootStartPadding = 0
 
     private val textColorStateList: ColorStateList
         get() = ColorStateList(
@@ -56,7 +57,8 @@ class Breadcrumbs(context: Context, attrs: AttributeSet) : HorizontalScrollView(
         isHorizontalScrollBarEnabled = false
         itemsLayout = LinearLayout(context)
         itemsLayout.orientation = LinearLayout.HORIZONTAL
-        itemsLayout.setPaddingRelative(paddingStart, paddingTop, paddingEnd, paddingBottom)
+        rootStartPadding = paddingStart
+        itemsLayout.setPaddingRelative(0, paddingTop, paddingEnd, paddingBottom)
         setPaddingRelative(0, 0, 0, 0)
         addView(itemsLayout, LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.MATCH_PARENT))
         onGlobalLayout {
@@ -199,6 +201,7 @@ class Breadcrumbs(context: Context, attrs: AttributeSet) : HorizontalScrollView(
                 val horizontalPadding =
                     context.resources.getDimensionPixelSize(R.dimen.normal_margin)
                 breadcrumbText.updatePadding(left = horizontalPadding, right = horizontalPadding)
+                setPadding(rootStartPadding, 0, 0, 0)
             }
 
             breadcrumbText.setOnClickListener { v ->
