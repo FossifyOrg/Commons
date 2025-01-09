@@ -7,8 +7,8 @@ import android.content.pm.PackageManager
 import android.content.res.Configuration
 import android.graphics.Color
 import android.view.ViewGroup
-import androidx.core.content.res.ResourcesCompat
 import androidx.loader.content.CursorLoader
+import com.google.android.material.color.MaterialColors
 import org.fossify.commons.R
 import org.fossify.commons.helpers.*
 import org.fossify.commons.helpers.MyContentProvider.GLOBAL_THEME_SYSTEM
@@ -220,8 +220,8 @@ fun Context.getBottomNavigationBackgroundColor(): Int {
 
 fun Context.getDialogBackgroundColor(): Int {
     return when {
-        isDynamicTheme() -> ResourcesCompat.getColor(
-            resources, R.color.you_dialog_background_color, theme
+        isDynamicTheme() -> MaterialColors.getColor(
+            this, com.google.android.material.R.attr.colorSurfaceContainerHigh, Color.TRANSPARENT
         )
 
         else -> baseConfig.backgroundColor
