@@ -180,7 +180,7 @@ class Breadcrumbs(context: Context, attrs: AttributeSet) : HorizontalScrollView(
 
     private fun addBreadcrumb(item: FileDirItem, index: Int, isLast: Boolean) {
         ItemBreadcrumbBinding.inflate(inflater, itemsLayout, false).apply {
-            breadcrumbText.isActivated = isLast
+            breadcrumbText.isActivated = isLast && index != 0
 
             breadcrumbText.text = item.name
             breadcrumbText.setTextColor(textColorStateList)
