@@ -61,7 +61,7 @@
     <string name="value">Wert</string>
     <string name="value_cannot_be_empty">Wert darf nicht leer sein</string>
     <string name="create_new_contact">Neuen Kontakt erstellen</string>
-    <string name="add_to_existing_contact">Zu einem existierenden Kontakt hinzufügen</string>
+    <string name="add_to_existing_contact">Zu einem bestehenden Kontakt hinzufügen</string>
     <string name="app_corrupt">App beschädigt</string>
     <string name="disclaimer">Haftungsausschluss</string>
     <string name="take_photo">Foto aufnehmen</string>
