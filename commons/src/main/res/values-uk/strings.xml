@@ -264,7 +264,7 @@
     <string name="confirm_storage_access_text">Щоб надати доступ на запис, оберіть кореневу теку SD-карти на наступному екрані</string>
     <string name="confirm_storage_access_text_sd">Якщо ви не бачите SD-карту, спробуйте це</string>
     <string name="confirm_storage_access_android_text">Будь ласка, дозвольте застосунку отримати доступ до вибраного сховища на наступному екрані, натиснувши «Використовувати цю теку» внизу.</string>
-    <string name="confirm_storage_access_android_text_specific">Будь ласка, дозвольте доступ до \'<b>%s</b>\' на наступному екрані, натиснувши \'<b>Використовувати цю теку</b>\' внизу.</string>
+    <string name="confirm_storage_access_android_text_specific">Будь ласка, надайте доступ до «<b>%s</b>» на наступному екрані, натиснувши «<b>Використовувати цю теку</b>» внизу.</string>
     <string name="confirm_create_doc_for_new_folder_text">Будь ласка, натисніть \'<b>Зберегти</b>\' внизу наступного екрана, щоб створити нову теку.</string>
     <string name="confirm_selection">Підтвердіть вибір</string>
     <string name="loading">Завантаження…</string>

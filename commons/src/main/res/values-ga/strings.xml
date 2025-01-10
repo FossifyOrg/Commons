@@ -272,7 +272,7 @@
     <string name="source_and_destination_same">Ní féidir leis an bhfoinse agus an ceann scríbe a bheith mar an gcéanna</string>
     <string name="please_select_destination">Roghnaigh ceann scríbe le do thoil</string>
     <string name="keep_both">Coinnigh an dá</string>
-    <string name="confirm_storage_access_android_text_specific">Ceadaigh rochtain a fháil ar \'<b>%s</b>\' ar an gcéad scáileán eile trí \'<b>Úsáid an fillteán seo</b>\' a bhrú ag bun an leathanaigh.</string>
+    <string name="confirm_storage_access_android_text_specific">Ceadaigh rochtain ar \'<b>%s</b>\' ar an gcéad scáileán eile trí \'<b>Úsáid an fillteán seo</b>\' a bhrú ag bun an leathanaigh.</string>
     <string name="confirm_create_doc_for_new_folder_text">Brúigh \'<b>Sábháil</b>\' ag bun an chéad scáileáin eile chun an fillteán nua a chruthú.</string>
     <plurals name="items">
         <item quantity="one">%d mír</item>

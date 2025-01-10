@@ -253,7 +253,7 @@
     <string name="confirm_storage_access_text">Op het volgende scherm schrijfrecht verlenen op de hoofdmap van de SD-kaart</string>
     <string name="confirm_storage_access_text_sd">Probeer het volgende als de SD-kaart niet wordt getoond</string>
     <string name="confirm_storage_access_android_text">Geef de app toegang tot de gekozen map door in het volgende scherm op \'Deze map gebruiken\' te klikken.</string>
-    <string name="confirm_storage_access_android_text_specific">Geef toegang tot \'&lt;b&gt;%s&lt;/b&gt;\' door onderaan in het volgende scherm op \'&lt;b&gt;Deze map gebruiken&lt;/b&gt;\' te drukken.</string>
+    <string name="confirm_storage_access_android_text_specific">Geef toegang tot \'<b>%s</b>\' door onderaan in het volgende scherm op \'<b>Deze map gebruiken</b>\' te drukken.</string>
     <string name="confirm_create_doc_for_new_folder_text">Druk in het volgende scherm onderaan op \'&lt;b&gt;Opslaan&lt;/b&gt;\' om de nieuwe map aan te maken.</string>
     <string name="confirm_selection">Keuze bevestigen</string>
     <string name="loading">Laden…</string>
@@ -565,7 +565,7 @@
     <string name="alarm_goes_off_in">Het alarm zal afgaan over\n%s</string>
     <string name="reminder_triggers_in">De herinnering zal worden getoond over\n%s</string>
     <string name="time_remaining">Resterende tijd:\n%s</string>
-    <string name="alarm_warning">Eerst controleren of het alarm goed werkt. Er kunnen zich problemen voordoen door de batterijbesparing van Android.</string>
+    <string name="alarm_warning">Controleer eerst of het alarm goed werkt. Er kunnen zich problemen voordoen door de batterijbesparing van Android.</string>
     <string name="reminder_warning">Kijk eerst of de herinneringen betrouwbaar werken. Controleer de systeeminstellingen voor batterijoptimalisatie en meldingen om zeker van te zijn dat de app op de achtergrond niet wordt afgesloten of dat de meldingen worden geblokkeerd.</string>
     <string name="notifications_disabled">Meldingen van deze app zijn uitgeschakeld. Ga naar de systeeminstellingen voor deze app om ze in te schakelen.</string>
     <string name="snooze">Sluimeren</string>
@@ -1034,4 +1034,5 @@
     <string name="all_fossify_apps">Alle Fossify apps</string>
     <string name="theme_and_colors">Thema en kleuren</string>
     <string name="known_issues">Bekende problemen</string>
+    <string name="during_day_at">Overdag om %1$02d.%2$02du</string>
 </resources>

@@ -61,7 +61,7 @@
     <string name="value">Wert</string>
     <string name="value_cannot_be_empty">Wert darf nicht leer sein</string>
     <string name="create_new_contact">Neuen Kontakt erstellen</string>
-    <string name="add_to_existing_contact">Zu einem existierenden Kontakt hinzufügen</string>
+    <string name="add_to_existing_contact">Zu einem bestehenden Kontakt hinzufügen</string>
     <string name="app_corrupt">App beschädigt</string>
     <string name="disclaimer">Haftungsausschluss</string>
     <string name="take_photo">Foto aufnehmen</string>
@@ -261,7 +261,7 @@
     <string name="confirm_storage_access_text">Bitte am nächsten Bildschirm das Hauptverzeichnis der SD-Karte auswählen, um Schreibzugriff zu gewähren</string>
     <string name="confirm_storage_access_text_sd">Wenn die SD-Karte nicht angezeigt wird, Folgendes versuchen</string>
     <string name="confirm_storage_access_android_text">Bitte am unteren Rand des nächsten Bildschirms der App durch Drücken auf „Diesen Ordner verwenden“ den Zugriff auf den ausgewählten Speicher gewähren.</string>
-    <string name="confirm_storage_access_android_text_specific">Bitte auf dem nächsten Bildschirm durch Drücken auf „<b>Diesen Ordner verwenden</b>“ am unteren Bildschirmrand den Zugriff auf „<b>%s</b>“ gewähren.</string>
+    <string name="confirm_storage_access_android_text_specific">Bitte den Zugriff auf „<b>%s</b>“ gewähren, indem im nächsten Bildschirm unten auf „<b>Diesen Ordner verwenden</b>“ gedrückt wird.</string>
     <string name="confirm_create_doc_for_new_folder_text">Bitte am unteren Rand des nächsten Bildschirms auf „<b>Speichern</b>“ drücken, um den neuen Ordner zu erstellen.</string>
     <string name="confirm_selection">Auswahl bestätigen</string>
     <string name="loading">Wird geladen …</string>
@@ -365,7 +365,7 @@
     <string name="unhide_folder">Ordner nicht verstecken</string>
     <string name="temporarily_show_hidden">Verstecktes temporär anzeigen</string>
     <string name="stop_showing_hidden">Verstecktes wieder verbergen</string>
-    <string name="allow_access_more_media">Zugriff auf mehr Medien erlauben</string>
+    <string name="allow_access_more_media">Zugriff auf weitere Medien erlauben</string>
     <string name="maximum_share_reached">So viel Inhalt kann nicht auf einmal geteilt werden</string>
     <string name="empty_and_disable_recycle_bin">Papierkorb leeren und deaktivieren</string>
     <string name="undo">Rückgängig</string>

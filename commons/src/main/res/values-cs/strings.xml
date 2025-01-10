@@ -261,7 +261,7 @@
     <string name="confirm_storage_access_text">Pro poskytnutí oprávnění k zápisu na následující obrazovce zvolte kořenový adresář SD karty</string>
     <string name="confirm_storage_access_text_sd">Pokud SD kartu nevidíte, vyzkoušejte následující</string>
     <string name="confirm_storage_access_android_text">Povolte aplikaci přístup k vybranému úložišti stisknutím „Použít tuto složku“ na další obrazovce dole.</string>
-    <string name="confirm_storage_access_android_text_specific">Povolte prosím přístup k \'<b>%s</b>\' stisknutím \'<b>Použít tuto složku</b>\' na další obrazovce dole.</string>
+    <string name="confirm_storage_access_android_text_specific">Povolte prosím přístup k „<b>%s</b>“ stisknutím „<b>Použít tuto složku</b>“ ve spodní části další obrazovky.</string>
     <string name="confirm_create_doc_for_new_folder_text">Pro vytvoření nové složky stiskněte \'<b>Uložit</b>\' na další obrazovce dole.</string>
     <string name="confirm_selection">Potvrdit výběr</string>
     <string name="loading">Načítání…</string>
