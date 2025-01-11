@@ -660,6 +660,7 @@ const val SHOW_WEBSITES_FIELD = 8192
 const val SHOW_NICKNAME_FIELD = 16384
 const val SHOW_IMS_FIELD = 32768
 const val SHOW_RINGTONE_FIELD = 65536
+const val SHOW_STRUCTURED_ADDRESSES_FIELD = 131072
 
 const val DEFAULT_EMAIL_TYPE = ContactsContract.CommonDataKinds.Email.TYPE_HOME
 const val DEFAULT_PHONE_NUMBER_TYPE = ContactsContract.CommonDataKinds.Phone.TYPE_MOBILE
