@@ -1124,4 +1124,7 @@
     <string name="known_issues">Problèmes connus</string>
     <string name="theme_and_colors">Thème et couleurs</string>
     <string name="all_fossify_apps">Toutes les applications Fossify</string>
+    <string name="translation_belarusian">Biélorusse</string>
+    <string name="fee_up_to_pct">Jusqu\'à %1$d%% de frais</string>
+    <string name="translation_central_kurdish">Kurdes du centre</string>
 </resources>
