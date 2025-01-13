@@ -319,7 +319,9 @@
     <string name="cannot_be_undone">Ovo je nepovratna radnja.</string>
     <string name="save_before_closing">Imaš nespremljene promjene. Želiš li ih spremiti prije izlaska?</string>
     <string name="global_theme_success">Uspješno ažurirane boje. Nova tema pod nazivom \'Shared\' je dodana, molimo koristite ju za ažuriranje svih boja u aplikaciji u budućnosti.</string>
-    <string name="purchase_thank_you">Za otključavanje ove funkcije te za podršku razvoja kupi aplikaciju &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify hvala&lt;/a&gt;. Hvala!</string>
+    <string name="purchase_thank_you"><![CDATA[
+            Kupi <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Hvala</a> za otključavanje ove funkcije te za podržavanje razvoja. Hvala!
+        ]]></string>
     <string name="light_theme">Svijetla</string>
     <string name="dark_theme">Tamna</string>
     <string name="auto_theme">Automatski</string>
@@ -1120,4 +1122,5 @@
     <string name="platforms">Platforme</string>
     <string name="format_phone_numbers">Formatiraj telefonske brojeve</string>
     <string name="cryptocurrency">Kriptovaluta</string>
+    <string name="theme_and_colors">Teme i boje</string>
 </resources>
