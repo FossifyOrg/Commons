@@ -1127,4 +1127,8 @@
     <string name="translation_belarusian">Biélorusse</string>
     <string name="fee_up_to_pct">Jusqu\'à %1$d%% de frais</string>
     <string name="translation_central_kurdish">Kurdes du centre</string>
+    <string name="translation_chuvash">Tchouvache</string>
+    <string name="translation_kabyle">Kabyle</string>
+    <string name="translation_esperanto">Espéranto</string>
+    <string name="translation_gujarati">Gujarati</string>
 </resources>
