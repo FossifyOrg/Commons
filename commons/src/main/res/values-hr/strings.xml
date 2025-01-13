@@ -846,7 +846,11 @@
     <string name="additional_info">Dodatne informacije</string>
     <string name="app_version">Verzija aplikacije: %s</string>
     <string name="device_os">OS uređaja: %s</string>
-    <string name="donate_please">Zdravo,&lt;br&gt;&lt;br&gt; nadamo se da uživate u aplikaciji. Ne sadrži oglase. Podržite njen razvoj kupnjom aplikacije &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify hvala&lt;/a&gt;, što će spriječiti da se ovaj prozor ponovno pojavljuje.&lt;br&gt;&lt;br&gt; Hvala!</string>
+    <string name="donate_please"><![CDATA[
+            Zdravo,<br><br>
+            nadamo se da uživaš u aplikaciji. Ne sadrži oglase. Podrži njen razvoj kupnjom aplikacije <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Hvala</a>, što će spriječiti da se ovaj prozor ponovno pojavljuje.<br><br>
+            Hvala!
+        ]]></string>
     <string name="purchase">Kupi</string>
     <string name="before_asking_question_read_faq">Prije nego što postaviš pitanje, provjeri postavke aplikacije i najprije pročitaj stranicu „Često postavljena pitanja”. Rješenje možda već postoji.</string>
     <string name="before_rate_read_faq">Prije nego što nas ocijeniš, provjeri postavke aplikacije i najprije pročitaj stranicu „Često postavljena pitanja”. Ako imaš bilo koji problem, rješenje možda već postoji.</string>
