@@ -583,13 +583,13 @@
         <item quantity="one">%d év</item>
         <item quantity="other">%d év</item>
     </plurals>
-    <string name="alarm_goes_off_in">A riasztásig hátralévő idő eltűnik:\n%s</string>
+    <string name="alarm_goes_off_in">A riasztásig hátralévő idő:\n%s</string>
     <string name="reminder_triggers_in">Az emlékeztető aktiválásáig hátralévő idő:\n%s</string>
     <string name="time_remaining">Hátralévő idő:
 \n%s</string>
-    <string name="alarm_warning">Győződjön meg róla, hogy a riasztás megfelelően működik, mielőtt napi szinten használná. Az akkumulátor takarékossággal kapcsolatos rendszerkorlátozások miatt helytelenül is működhetnek.</string>
-    <string name="reminder_warning">Győződjön meg róla, hogy az emlékeztetők megfelelően működnek, mielőtt napi szinten használná. Az akkumulátor takarékossággal kapcsolatos rendszerkorlátozások miatt helytelenül is működhetnek.</string>
-    <string name="notifications_disabled">Az alkalmazás értesítései le vannak tiltva. Kérjük, lépjen be a készülék beállításaiba és engedélyezze ezeket.</string>
+    <string name="alarm_warning">Győződjön meg róla, hogy a riasztás megfelelően működik, mielőtt napi szinten használná. Az akkumulátoroptimalizálással kapcsolatos rendszerkorlátozások miatt helytelenül is működhetnek.</string>
+    <string name="reminder_warning">Győződjön meg róla, hogy az emlékeztetők megfelelően működnek, mielőtt napi szinten használná. Az akkumulátoroptimalizálással kapcsolatos rendszerkorlátozások miatt helytelenül is működhetnek.</string>
+    <string name="notifications_disabled">Az alkalmazás értesítései le vannak tiltva. Lépjen be az eszköz beállításaiba, és engedélyezze ezeket.</string>
     <string name="alarm">Riasztás</string>
     <string name="snooze">Szundi</string>
     <string name="dismiss">Elutasítás</string>
@@ -777,7 +777,7 @@
     <string name="it_is_free">Eddig ingyenes: %s. Ha eddig letölti, akkor örökre ingyen használhatja.</string>
     <string name="more_info">További információk</string>
     <string name="upgrade">Frissítés</string>
-    <string name="upgrade_calendar">A helyben tárolt eseményeket kézzel kell átköltöztetni egy .ics fájl exportálásával, majd importálással. Az exportálás/importálás gomb a főképernyő menüjében található.</string>
+    <string name="upgrade_calendar">A helyben tárolt eseményeket kézzel kell átköltöztetni egy .ics fájl exportálásával, majd importálásával. Az exportálás/importálás gomb a főképernyő menüjében található.</string>
     <string name="upgraded_from_free_gallery">Helló,
 \n
 \núgy tűnik, hogy most frissítettél az ingyenes verzióról. Ha elégedett vagy ezzel, és esetleg átvitted a beállításaidat és a kedvenceidet, akkor a régi ingyenes verziót eltávolíthatod, hogy elkerüld a véletlen elindítását, mivel már nem lesz rá szükséged, ez megakadályozza azt is, hogy ez a párbeszédpanel megjelenjen.
@@ -864,7 +864,7 @@
     <string name="thank_you">Köszönjük</string>
     <string name="widget_locked_pro">A modul zárolva van.
 \nFrissítsen a Pro verzióra a feloldásához.</string>
-    <string name="new_app">Üdv!&lt;br&gt;&lt;br&gt;Csak tájékoztatni szeretnénk, hogy megjelent néhány új alkalmazás:&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; A címeikre vagy ikonjaikra kattintva töltheti le őket.&lt;br&gt;&lt;br&gt; Köszönjük!</string>
+    <string name="new_app">Üdv!&lt;br&gt;&lt;br&gt;Csak tájékoztatni szeretnénk, hogy megjelent néhány új alkalmazás:&lt;br&gt;&lt;br&gt; &lt;a href=\"%1$s\"&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=\"%3$s\"&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=\"%5$s\"&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; A címeikre vagy ikonjaikra kattintva töltheti le őket.&lt;br&gt;&lt;br&gt; Köszönjük!</string>
     <string name="app_launcher_short">Alkalmazásindító</string>
     <string name="calculator_short">Számológép</string>
     <string name="calendar_short">Naptár</string>
@@ -883,7 +883,7 @@
     <string name="sms_messenger_short">SMS üzenetküldő</string>
     <string name="thank_you_short">Köszönöm</string>
     <string name="voice_recorder_short">Hangrögzítő</string>
-    <string name="sideloaded_app">Úgy tűnik, hogy az alkalmazásverziója megsérült. Töltse le az eredeti verziót &lt;a href=%s&gt;innen&lt;/a&gt;.</string>
+    <string name="sideloaded_app">Úgy tűnik, hogy az alkalmazásverziója megsérült. Töltse le az eredeti verziót <a href="%s">innen</a>.</string>
     <string name="frequently_asked_questions">Gyakran Ismételt Kérdések</string>
     <string name="before_asking_question">Mielőtt feltenne egy kérdést, először olvassa el ezt:</string>
     <string name="faq_1_title_commons">Miért nem látom az alkalmazás modulját a modulok között\?</string>
@@ -1045,8 +1045,8 @@
     <string name="purchase_simple_thank_you">Fossify Köszönet megvásárlása</string>
     <string name="notification_sound">Értesítési hang</string>
     <string name="donate_new">Üdv!&lt;br&gt;&lt;br&gt; Remélem élvezi az alkalmazást. Nem tartalmaz reklámokat és adatokat sem gyűjtünk, így arra kérjük, támogassa a fejlesztést a &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Köszönet&lt;/a&gt; alkalmazás megvásárlásával. Ez feloldja az összes alkalmazásfunkciót is, köztük a színek testreszabását.&lt;br&gt;&lt;br&gt; Köszönjük!</string>
-    <string name="contributors_label">A lista mindenkit tartalmaz, aki észrevehető mértékben segített a Fossify csomag bármelyik alkalmazásában, nem csak ebben. A fordításokat önkéntesek kezelik, tudassa velünk, ha Ön is segítene. A fordítási útmutató &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;ezen a webhelyen&lt;/a&gt; található, de ha kérdése van, akkor a &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; címen is felteheti. Köszönjük az összes közreműködőnknek és támogatónknak!</string>
-    <string name="faq_2_text_commons">Igen, természetesen. Népszerűsítheti az alkalmazásokat, adhat visszajelzést róluk és értékelheti őket. Le is fordíthatja az alkalmazásokat a saját nyelvére, vagy frissítheti a meglévő fordításokat. A fordítási útmutató megtalálható &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;ezen a webhelyen&lt;/a&gt;, vagy ha kérdése van, akkor írjon nekünk a &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; címre.</string>
+    <string name="contributors_label">A lista mindenkit tartalmaz, aki észrevehető mértékben segített a Fossify csomag bármelyik alkalmazásában, nem csak ebben. A fordításokat önkéntesek kezelik, tudassa velünk, ha Ön is segítene. A fordítási útmutató <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">ezen a webhelyen</a> található, de ha kérdése van, akkor a <a href="mailto:hello@fossify.org">hello@fossify.org</a> címen is felteheti. Köszönjük az összes közreműködőnknek és támogatónknak!</string>
+    <string name="faq_2_text_commons">Igen, természetesen. Népszerűsítheti az alkalmazásokat, adhat visszajelzést róluk és értékelheti őket. Le is fordíthatja az alkalmazásokat a saját nyelvére, vagy frissítheti a meglévő fordításokat. A fordítási útmutató megtalálható <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">ezen a webhelyen</a>, vagy ha kérdése van, akkor írjon nekünk a <a href="mailto:hello@fossify.org">hello@fossify.org</a> címre.</string>
     <string name="app_icon_color_warning">Figyelem: egyes indítók lehet, hogy nem helyesen kezelik az ikonok testreszábását. Ha az ikon eltűnik, próbálja a Google Playen vagy egy modulon keresztül elindítani, ha elérhető. Indítás után állítsa vissza az alapértelmezett zöld (#106D1F) ikonszínt. Extrém esetekben az alkalmazás újratelepítése is szükséges lehet.</string>
     <string name="shared_theme_note">Vegye figyelembe, hogy bár a Pro alkalmazásverziót használja, műszaki okokból továbbra is szükséges lesz a Fossify Köszönet alkalmazásra. Az végzi a színek szinkronizálását.</string>
     <string name="purchase_thank_you">Vásárolja meg a &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Köszönet&lt;/a&gt; alkalmazást a funkció feloldásához, és a fejlesztés támogatásához. Köszönjük!</string>
