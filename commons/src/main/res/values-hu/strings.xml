@@ -805,13 +805,7 @@
 \nHa elégedett a Pro verzió beállításaival, akkor eltávolíthatja a régi, ingyenes verziót, mert már nem lesz rá szüksége.
 \n
 \nKöszönöm!</string>
-    <string name="upgraded_from_free_contacts">Helló,
-\n
-\núgy tűnik, hogy most frissítettél az ingyenes verzióról. Ha voltak névjegyeid a(z) „%s” alatt, akkor azokat manuálisan kell átköltöztetned az ingyenes verzióból .vcf fájlba történő exportálással és a felső menüben történő importálással.
-\n
-\nHa elégedett vagy a Pro verzió beállításaival, eltávolíthatod a régi ingyenes verziót, mivel arra már nem lesz szükséged, ez megakadályozza ezt a párbeszédpanel megjelenését is.
-\n
-\nKöszönöm!</string>
+    <string name="upgraded_from_free_contacts">Helló, \n \núgy tűnik, hogy most frissítettél az ingyenes verzióról. Ha voltak névjegyeid a(z) „%s” alatt, akkor azokat manuálisan kell átköltöztetned az ingyenes verzióból .vcf fájlba történő exportálással és a felső menüben történő importálással. \n \nHa elégedett vagy a Pro verzió beállításaival, eltávolíthatod a régi ingyenes verziót, mivel arra már nem lesz szükséged, ez megakadályozza ezt a párbeszédpanel megjelenését is. \n \nKöszönöm!</string>
     <string name="upgraded_from_free_notes">Helló,
 \n
 \núgy tűnik, hogy most frissítettél az ingyenes verzióról. Ha át akarod vinni a jegyzeteidet, akkor azt manuálisan kell megtenned, úgy, hogy az ingyenes verzióban egy fájlba exportálod őket, és a felső menüben importálod ide.
