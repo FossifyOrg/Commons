@@ -319,7 +319,9 @@
     <string name="cannot_be_undone">Ovo je nepovratna radnja.</string>
     <string name="save_before_closing">Imaš nespremljene promjene. Želiš li ih spremiti prije izlaska?</string>
     <string name="global_theme_success">Uspješno ažurirane boje. Nova tema pod nazivom \'Shared\' je dodana, molimo koristite ju za ažuriranje svih boja u aplikaciji u budućnosti.</string>
-    <string name="purchase_thank_you">Za otključavanje ove funkcije te za podršku razvoja kupi aplikaciju &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify hvala&lt;/a&gt;. Hvala!</string>
+    <string name="purchase_thank_you"><![CDATA[
+            Kupi <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Hvala</a> za otključavanje ove funkcije te za podržavanje razvoja. Hvala!
+        ]]></string>
     <string name="light_theme">Svijetla</string>
     <string name="dark_theme">Tamna</string>
     <string name="auto_theme">Automatski</string>
@@ -811,13 +813,7 @@
 \nAko ti postava Pro verzije odgovara, staru besplatnu verziju možeš deinstalirati kako bi se izbjeglo slučajno pokretanje stare besplatne verzije jer ti više neće trebati. Time će se spriječiti prikazivanje ovog dijaloga.
 \n
 \nHvala!</string>
-    <string name="upgraded_from_free_contacts">Zdravo,
-\n
-\nčini se da si upravo nadogradio/la besplatnu verziju aplikacije. Tvoje spremljene kontakte u „%s” moraš preuzeti ručno izvozom u .vcf datoteku u besplatnoj verziji aplikacije i uvozom ovdje putem gornjeg izbornika.
-\n
-\nAko ti postava Pro verzije odgovara, staru besplatnu verziju možeš deinstalirati jer ti više neće trebati. Time će se spriječiti prikazivanje ovog dijaloga.
-\n
-\nHvala!</string>
+    <string name="upgraded_from_free_contacts">Zdravo, \n \nčini se da si upravo nadogradio/la besplatnu verziju aplikacije. Tvoje spremljene kontakte u „%s” moraš preuzeti ručno izvozom u .vcf datoteku iz besplatne verzije aplikacije i uvozom ovdje putem gornjeg izbornika. \n \nAko ti postava Pro verzije odgovara, staru besplatnu verziju možeš deinstalirati jer ti više neće trebati. Time će se spriječiti prikazivanje ovog dijaloga. \n \nHvala!</string>
     <string name="upgraded_from_free_notes">Zdravo,
 \n
 \nčini se da si upravo nadogradio/la besplatnu verziju aplikacije. Ako želiš preuzeti tvoje lokalno spremljene bilješke, to moraš učiniti ručno izvozom u datoteku u besplatnoj verziji aplikacije i uvozom ovdje putem gornjeg izbornika.
@@ -850,7 +846,11 @@
     <string name="additional_info">Dodatne informacije</string>
     <string name="app_version">Verzija aplikacije: %s</string>
     <string name="device_os">OS uređaja: %s</string>
-    <string name="donate_please">Zdravo,&lt;br&gt;&lt;br&gt; nadamo se da uživate u aplikaciji. Ne sadrži oglase. Podržite njen razvoj kupnjom aplikacije &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify hvala&lt;/a&gt;, što će spriječiti da se ovaj prozor ponovno pojavljuje.&lt;br&gt;&lt;br&gt; Hvala!</string>
+    <string name="donate_please"><![CDATA[
+            Zdravo,<br><br>
+            nadamo se da uživaš u aplikaciji. Ne sadrži oglase. Podrži njen razvoj kupnjom aplikacije <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Hvala</a>, što će spriječiti da se ovaj prozor ponovno pojavljuje.<br><br>
+            Hvala!
+        ]]></string>
     <string name="purchase">Kupi</string>
     <string name="before_asking_question_read_faq">Prije nego što postaviš pitanje, provjeri postavke aplikacije i najprije pročitaj stranicu „Često postavljena pitanja”. Rješenje možda već postoji.</string>
     <string name="before_rate_read_faq">Prije nego što nas ocijeniš, provjeri postavke aplikacije i najprije pročitaj stranicu „Često postavljena pitanja”. Ako imaš bilo koji problem, rješenje možda već postoji.</string>
@@ -871,7 +871,15 @@
     <string name="thank_you">Hvala</string>
     <string name="widget_locked_pro">Widget je zaključan.
 \nZa otključavanje widgeta nadogradi na Pro verziju.</string>
-    <string name="new_app">Hej,&lt;br&gt;&lt;br&gt; nedavno su objavljene nove aplikacije:&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; Možeš ih preuzeti pritiskom na njihove naslove ili ikone.&lt;br&gt;&lt;br&gt; Hvala</string>
+    <string name="new_app"><![CDATA[
+            Hej,<br><br>
+            nedavno su objavljene nove aplikacije:<br><br>
+            <a href="%1$s">%2$s</a><br><br>
+            <a href="%3$s">%4$s</a><br><br>
+            <a href="%5$s">%6$s</a><br><br>
+            Možeš ih preuzeti pritiskom na njihove naslove ili ikone.<br><br>
+            Hvala
+        ]]></string>
     <string name="app_launcher_short">Pokretač aplikacija</string>
     <string name="calculator_short">Kalkulator</string>
     <string name="calendar_short">Kalendar</string>
@@ -889,7 +897,9 @@
     <string name="notes_short">Bilješke</string>
     <string name="thank_you_short">Hvala</string>
     <string name="voice_recorder_short">Diktafon</string>
-    <string name="sideloaded_app">Čini se da je verzija aplikacije oštećena. Preuzmi izvornu verziju &lt;a href=%s&gt;ovdje&lt;/a&gt;.</string>
+    <string name="sideloaded_app"><![CDATA[
+            Čini se da je tvoja verzija aplikacije oštećena. Preuzmi izvornu verziju <a href=%s>ovdje</a>.
+        ]]></string>
     <string name="frequently_asked_questions">Često postavljenja pitanja</string>
     <string name="before_asking_question">Prije postavljanja pitanja, najprije pročitaj</string>
     <string name="faq_1_title_commons">Zašto ne vidim widgete ove aplikacije u popisu widgeta\?</string>
@@ -1105,11 +1115,18 @@
     <string name="app_icon_color_warning">Oprez: Određeni pokretači možda neće ispravno rukovati prilagodbom ikone aplikacije. Ako ikona nestane, pokušaj pokrenuti aplikaciju putem Google Playa ili widgeta. Nakon pokretanja obnovi standardnu zelenu boju ikone #106D1F. U ekstremnim slučajevima može biti potrebno ponovo instalirati aplikaciju.</string>
     <string name="shared_theme_note">Imaj na umu da iako koristiš Pro verziju aplikacije, još uvijek trebaš Fossify hvala iz tehničkih razloga. Potrebna je za sinkronizaciju boja.</string>
     <string name="faq_10_text_commons">Pokušaj izbrisati predmemoriju aplikacije Google Play i ponovo pokrenuti uređaj. To je neka greška Google Playa, koja nije povezana sa samom aplikacijom.</string>
-    <string name="trial_start_description">Hvala što koristiš našu aplikaciju. Ovu otključanu verziju možeš koristiti <font color="#FFFFFF">%d dana</font>. Nakon što probno razdoblje završi, razmisli o nadogradnji na Pro verziju. Ona sadrži velik broj funkcija, moderan dizajn, bez oglasa i mnoga druga poboljšanja. \n \nMoraš je platiti samo jednom. Ako nisi zadovoljan/na, možeš je deinstalirati i dobiti povrat novca. \n \nNadamo se da će ti se svidjeti :)</string>
+    <string name="trial_start_description">Hvala što koristiš našu aplikaciju. Ovu otključanu verziju možeš koristiti <font color="#FFFFFF">%d dana</font>. Nakon što probno razdoblje završi, razmisli o nadogradnji na Pro verziju. Ona sadrži velik broj funkcija, moderan dizajn, bez oglasa i mnoga druga poboljšanja. \n\nMoraš je platiti samo jednom. Ako nisi zadovoljan/na, možeš je deinstalirati i dobiti povrat novca. \n \nNadamo se da će ti se svidjeti :)</string>
     <string name="donate_short">Podrži nas kupnjom aplikacije &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify hvala&lt;/a&gt;. Time će se otključati sve funkcije aplikacije uključujući prilagođavanje boja.</string>
     <string name="donate_new">Zdravo,&lt;br&gt;&lt;br&gt; nadamo se da uživate u aplikaciji. Ne sadrži oglase i ne prikupljamo vaše podatke. Podržite njen razvoj kupnjom &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify hvala&lt;/a&gt;. Time dobivate pristup svim funkcijama aplikacije uključujući prilagođavanje boja.&lt;br&gt;&lt;br&gt;Hvala!</string>
-    <string name="faq_2_text_commons">Da naravno. Možete širiti vijest o aplikacijama ili slati povratne informacije i ocjene. Također možete pomoći prevođenjem aplikacija na novi jezik ili aktualizirati postojeće prijevode. Vodič za prevođenje nalazi se na &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;ovoj web stranici&lt;/a&gt; ili nas kontaktirajte na &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; ako imate pitanja.</string>
-    <string name="contributors_label">Ovaj popis sadrži sve osobe koje su značajno pomogli bilo kojoj aplikaciji unutar paketa Fossify, ne samo ovoj. Prijevode obavljaju volonteri, javite nam ako i vi želite pomoći. Vodič za prevođenje nalazi se na &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;ovoj web stranici&lt;/a&gt; ili nas kontaktirajte na &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; ako imate pitanja. Hvala svim suradnicima i ostalim podržavateljima!</string>
+    <string name="faq_2_text_commons"><![CDATA[
+            Da naravno. Možete širiti vijest o aplikacijama ili slati povratne informacije i ocjene. Također možete pomoći prevođenjem aplikacija na novi jezik ili aktualizirati postojeće prijevode.
+            Vodič za prevođenje nalazi se na <a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file>ovoj web stranici</a> ili nas kontaktiraj na <a href=mailto:hello@fossify.org>hello@fossify.org</a> ako imaš pitanja.
+        ]]></string>
+    <string name="contributors_label"><![CDATA[
+            Ovaj popis sadrži sve osobe koje su značajno pomogli bilo kojoj aplikaciji unutar paketa Fossify, ne samo ovoj. Prijevode obavljaju volonteri,
+            javi nam ako želiš pomoći. Vodič za prevođenje nalazi se na <a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file>ovoj web stranici</a> ili nas kontaktiraj na <a href=mailto:hello@fossify.org>hello@fossify.org</a> ako imaš pitanja.
+            Hvala svim suradnicima i ostalim podržavateljima!
+        ]]></string>
     <string name="features_locked">Ova je funkcija zaključana. Kupite &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify hvala&lt;/a&gt; za otključavanje cijele aplikacije.&lt;br&gt;&lt;br&gt;Radi se o jednokratnom plaćanju. Ako niste zadovoljni, možemo vam vratiti novac.</string>
     <string name="translation_chuvash">Čuvaški</string>
     <string name="translation_esperanto">Esperanto</string>
@@ -1120,4 +1137,10 @@
     <string name="platforms">Platforme</string>
     <string name="format_phone_numbers">Formatiraj telefonske brojeve</string>
     <string name="cryptocurrency">Kriptovaluta</string>
+    <string name="theme_and_colors">Teme i boje</string>
+    <string name="translation_belarusian">Bjeloruski</string>
+    <string name="translation_kabyle">Kabilski</string>
+    <string name="all_fossify_apps">Sve Fossify aplikacije</string>
+    <string name="translation_central_kurdish">Centralnokurdski</string>
+    <string name="known_issues">Poznati problemi</string>
 </resources>
