@@ -1075,7 +1075,7 @@
     <string name="trial_expires_soon">Su período de prueba está a punto de expirar.</string>
     <string name="unlock_for_one_final_day">Desbloquea la aplicación un último día</string>
     <string name="welcome_to_app_name">¡Bienvenido a %s!</string>
-    <string name="trial_start_description">Gracias por usar nuestra aplicación. Puedes usar esta versión desbloqueada durante <font color="#FFFFFF">%d días</font>. Considere actualizar a la versión Pro cuando finalice la prueba. La versión Pro tiene muchas funciones nuevas, un diseño moderno, sin anuncios y muchas otras mejoras. \n \nSolo paga una vez, y si no está satisfecho, puede desinstalarlo y recuperar su dinero. \n \nEspero que te guste :)</string>
+    <string name="trial_start_description">Gracias por usar nuestra aplicación. Puedes usar esta versión desbloqueada durante <font color="#FFFFFF">%d días</font>. Considere actualizar a la versión Pro cuando finalice la prueba. La versión Pro tiene muchas funciones nuevas, un diseño moderno, sin anuncios y muchas otras mejoras. \n\nSolo paga una vez, y si no está satisfecho, puede desinstalarlo y recuperar su dinero.\n\nEspero que te guste :)</string>
     <string name="trial_end_description">Por favor, actualice a la versión Pro para disfrutar de la aplicación al máximo.
 \n
 \nSólo tienes que pagar por ella una vez en la vida y si no quedas satisfecho, puedes desinstalarla y obtener un reembolso.
@@ -1148,4 +1148,5 @@
     <string name="theme_and_colors">Tema y colores</string>
     <string name="all_fossify_apps">Todas las aplicaciones de Fossify</string>
     <string name="known_issues">Problemas conocidos</string>
+    <string name="translation_kabyle">Cabilia</string>
 </resources>
