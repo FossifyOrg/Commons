@@ -115,7 +115,7 @@
     <string name="import_blocked_numbers">Importer des numéros bloqués</string>
     <string name="must_make_default_dialer">Vous devez définir cette application comme application de numérotation par défaut afin de pouvoir utiliser les numéros bloqués.</string>
     <string name="set_as_default">Définir par défaut</string>
-    <string name="block_confirmation">Voulez-vous vraiment bloquer "%s" \?</string>
+    <string name="block_confirmation">Voulez-vous vraiment bloquer \"%s\" ?</string>
     <string name="block_unknown_calls">Bloquer les appels des contacts non enregistrés</string>
     <string name="block_hidden_calls">Bloquer les appels des numéros masqués</string>
     <string name="block_unknown_messages">Bloquer les messages des contacts non enregistrés</string>
@@ -262,7 +262,7 @@
     <string name="confirm_storage_access_text">Veuillez sélectionner le dossier racine de la carte SD sur le prochain écran, pour accorder les droits en écriture</string>
     <string name="confirm_storage_access_text_sd">Si vous n\'apercevez pas la carte SD, essayez ceci</string>
     <string name="confirm_storage_access_android_text">Veuillez autoriser l\'application à accéder au stockage sélectionné sur l\'écran suivant en appuyant sur \"Utiliser ce dossier\" en bas de l\'écran.</string>
-    <string name="confirm_storage_access_android_text_specific">Veuillez autoriser l\'accès à \"<b>%s</b>\" sur l\'écran suivant en appuyant sur \"<b>Utiliser ce dossier</b>\" en bas de l\'écran.</string>
+    <string name="confirm_storage_access_android_text_specific">Veuillez autoriser l\'accès à \'<b>%s</b>\' sur l\'écran suivant en appuyant sur \'<b>Utiliser ce dossier</b>\' en bas de l\'écran.</string>
     <string name="confirm_create_doc_for_new_folder_text">Veuillez appuyer sur \"<b>Enregistrer</b>\" en bas de l\'écran suivant pour créer le nouveau dossier.</string>
     <string name="confirm_selection">Confirmer la sélection</string>
     <string name="loading">Chargement…</string>
@@ -920,7 +920,9 @@
     <string name="sms_messenger_short">Messagerie SMS</string>
     <string name="thank_you_short">Merci</string>
     <string name="voice_recorder_short">Enregistreur vocal</string>
-    <string name="sideloaded_app">La version de votre application semble corrompue. Merci de télécharger la version originale en suivant &lt;a href=%s&gt;ce lien&lt;/a&gt;.</string>
+    <string name="sideloaded_app"><![CDATA[
+            La version de votre application semble corrompue. Merci de télécharger la version originale en suivant <a href=%s>ce lien</a>
+        ]]></string>
     <string name="frequently_asked_questions">Foire aux questions</string>
     <string name="before_asking_question">Avant de poser une question, veuillez tout d\'abord consulter la</string>
     <string name="faq_1_title_commons">Comment se fait-il que je ne vois pas ce widget d\'applications dans la liste des widgets \?</string>
@@ -1112,7 +1114,10 @@
     <string name="translation_bengali">Bengali</string>
     <string name="translation_breton">Breton</string>
     <string name="translation_hindi">Hindi</string>
-    <string name="faq_2_text_commons">Oui bien sûr. Vous pouvez faire connaître les applications ou donner de bons commentaires et notes. Vous pouvez également nous aider en traduisant les applications dans une nouvelle langue ou simplement en mettant à jour certaines traductions existantes. Le guide de traduction se trouve sur &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;ce site Web&lt;/a&gt;, ou contactez-nous simplement à &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; si vous avez des questions.</string>
+    <string name="faq_2_text_commons"><![CDATA[
+            Oui bien sûr. Vous pouvez faire connaître les applications ou donner de bons commentaires et notes. Vous pouvez également nous aider en traduisant les applications dans une nouvelle langue ou simplement en mettant à jour certaines traductions existantes.
+            Le guide de traduction se trouve sur <a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file>ce site Web</a>, ou contactez-nous simplement à <a href=mailto:hello@fossify.org>hello@fossify.org</a> si vous avez des questions.
+        ]]></string>
     <string name="translation_catalan">Catalan</string>
     <string name="translation_basque">Basque</string>
     <string name="translation_tamil">Tamil</string>
@@ -1122,4 +1127,13 @@
     <string name="cryptocurrency">Crypto-monnaie</string>
     <string name="little_to_no_fee">Peu ou pas de frais</string>
     <string name="known_issues">Problèmes connus</string>
+    <string name="theme_and_colors">Thème et couleurs</string>
+    <string name="all_fossify_apps">Toutes les applications Fossify</string>
+    <string name="translation_belarusian">Biélorusse</string>
+    <string name="fee_up_to_pct">Jusqu\'à %1$d%% de frais</string>
+    <string name="translation_central_kurdish">Kurdes du centre</string>
+    <string name="translation_chuvash">Tchouvache</string>
+    <string name="translation_kabyle">Kabyle</string>
+    <string name="translation_esperanto">Espéranto</string>
+    <string name="translation_gujarati">Gujarati</string>
 </resources>

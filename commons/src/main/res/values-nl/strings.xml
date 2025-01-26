@@ -774,7 +774,11 @@
     <string name="additional_info">Extra informatie</string>
     <string name="app_version">Versie: %s</string>
     <string name="device_os">Besturingssysteem: %s</string>
-    <string name="donate_please">Hallo,&lt;br&gt;&lt;br&gt;Hopelijk vind je dit een fijne app. Het bevat geen advertenties, maar je kunt de verdere ontwikkeling wel ondersteunen door de app &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Bedankje&lt;/a&gt; aan te schaffen. Het voorkomt ook dat dit venster nog eens verschijnt.&lt;br&gt;&lt;br&gt; Dankjewel!</string>
+    <string name="donate_please"><![CDATA[
+            Hallo,<br><br>
+            Hopelijk vind je dit een fijne app. Het bevat geen advertenties, maar je kunt de verdere ontwikkeling wel ondersteunen door de app <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Bedankje</a> aan te schaffen. Het voorkomt ook dat dit venster nog eens verschijnt.<br><br>
+             Dankjewel!
+        ]]></string>
     <string name="purchase">Kopen</string>
     <string name="before_asking_question_read_faq">Controleer bij problemen eerst de instellingen van de app en neem de Veelgestelde vragen door. Misschien staat de oplossing daar.</string>
     <string name="before_rate_read_faq">Controleer eerst de app-instellingen en lees de veelgestelde vragen voordat u ons beoordeelt. Als er problemen zijn, staat de oplossing misschien daar.</string>
@@ -973,7 +977,9 @@
     <string name="exif">EXIF</string>
     <string name="apply_to_all_apps">Kleuren toepassen op alle Fossify apps</string>
     <string name="shared_theme_note">Ook bij gebruik van de Pro-versie van deze app komt Fossify Bedankje nog van pas, omdat het de synchronisatie van het gemeenschappelijke thema verzorgt.</string>
-    <string name="purchase_thank_you">Overweeg om &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Bedankje&lt;/a&gt; aan te schaffen om deze functie te kunnen gebruiken en om verdere ontwikkeling te ondersteunen. Alvast bedankt!</string>
+    <string name="purchase_thank_you"><![CDATA[
+            Overweeg om <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Bedankje</a> aan te schaffen om deze functie te kunnen gebruiken en om verdere ontwikkeling te ondersteunen. Alvast bedankt!
+        ]]></string>
     <string name="system_default">Systeeminstelling</string>
     <string name="show_line_numbers">Regelnummers tonen</string>
     <string name="hide_line_numbers">Regelnummers verbergen</string>
@@ -1011,7 +1017,10 @@
     <string name="website">Website</string>
     <string name="camera_short">Camera</string>
     <string name="why_upgrade_pro_version">Pro</string>
-    <string name="contributors_label">Deze lijst bevat de namen van iedereen die aan een app binnen de Fossify suite heeft bijgedragen. Vertalingen worden gedaan door vrijwilligers, dus laat het ons weten als je ook wilt helpen. Lees de instructies &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;op deze website&lt;/a&gt;, of stuur bij vragen een bericht naar &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt;. Bedankt voor alle bijdragen en andere ondersteuning!</string>
+    <string name="contributors_label"><![CDATA[
+            Deze lijst bevat de namen van iedereen die aan een app binnen de Fossify suite heeft bijgedragen. Vertalingen worden gedaan door vrijwilligers,
+            dus laat het ons weten als je ook wilt helpen. Lees de instructies <a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file>op deze website</a>, of stuur bij vragen een bericht naar <a href=mailto:hello@fossify.org>hello@fossify.org</a>. Bedankt voor alle bijdragen en andere ondersteuning!
+        ]]></string>
     <string name="features_locked">Deze functie is vergrendeld. Overweeg het aanschaffen van &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Bedankje&lt;/a&gt; om alle functies in deze app te kunnen gebruiken.&lt;br&gt;&lt;br&gt;Dit is een eenmalige aanschaf met een niet-goed-geld-teruggarantie.</string>
     <string name="launcher_short">Launcher</string>
     <string name="faq_6_text_commons">Dit probleem doet zich voor wanneer je launcher het aanpassen van pictogrammen niet volledig ondersteunt. Probeer de app te starten via Google Play of een widget, indien mogelijk. Herstel na het starten de standaard groene icoonkleur #106D1F. In extreme gevallen kan het nodig zijn om de app opnieuw te installeren.</string>
@@ -1035,4 +1044,5 @@
     <string name="theme_and_colors">Thema en kleuren</string>
     <string name="known_issues">Bekende problemen</string>
     <string name="during_day_at">Overdag om %1$02d.%2$02du</string>
+    <string name="translation_kabyle">Kabylisch</string>
 </resources>
