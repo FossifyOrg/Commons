@@ -342,4 +342,23 @@
     <string name="file_already_exists">La dosiero \"%s\" jam ekzistas</string>
     <string name="file_already_exists_overwrite">La dosiero \"%s\" jam ekzistas. Ĉu anstataŭigi ĝin?</string>
     <string name="overwrite">Anstataŭigi</string>
+    <string name="confirm_storage_access_android_text_specific">Bonvolu permesi atingon al \"<b>%s</b>\" je la sekva ekrano per premi \"<b>Uzi tiun ĉi dosierujon</b>\" sube.</string>
+    <string name="skip">Salti</string>
+    <string name="confirm_storage_access_android_text">Bonvolu permesi al la aplikaĵo atingon al la elektita memoro je la sekva ekrano per premi \"Uzi tiun ĉi dosierujon\" sube.</string>
+    <string name="append">Aldoni la sufikson \"_1\"</string>
+    <string name="confirm_storage_access_title">Konfirmi atingon de ekstera memoro</string>
+    <string name="apply_to_all">Apliki al ĉiuj</string>
+    <string name="system_folder_restriction">La sistemo ne permesas la operacion en tiu ĉi dosierujo. Bonvolu elekti alian</string>
+    <string name="rename_in_sd_card_system_restriction">La sistemo la permesas la renomadon en tiu ĉi dosierujo</string>
+    <string name="system_folder_copy_restriction">La sistemo ne permesas la kopiadon al tiu ĉi dosierujo. Bonvolu elekti alian</string>
+    <string name="rename_internal_system_restriction">Ne eblas renomi dosierujojn rekte en interna memoro, nur subdosierujojn</string>
+    <string name="cannot_rename_folder">Ne eblas renomi tiun ĉi dosierujon</string>
+    <string name="select_folder">Elektu dosierujon</string>
+    <string name="select_file">Elektu dosieron</string>
+    <string name="confirm_folder_access_title">Konfirmi atingon de dosierujo</string>
+    <string name="confirm_storage_access_text">Bonvolu elekti la radikan dosierujon de la SD-karto je la sekva ekrano por koncedi skribaliron</string>
+    <string name="confirm_storage_access_text_sd">Se vi ne vidas la SD-karton, provu tion ĉi</string>
+    <string name="confirm_create_doc_for_new_folder_text">Bonvolu premi \"<b>Konservi</b>\" je la malsupro de la sekva ekrano por krei la novan dosierujon.</string>
+    <string name="confirm_selection">Konfirmi elekton</string>
+    <string name="loading">Ŝargado…</string>
 </resources>
