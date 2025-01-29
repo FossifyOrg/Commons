@@ -361,4 +361,42 @@
     <string name="confirm_create_doc_for_new_folder_text">Bonvolu premi \"<b>Konservi</b>\" je la malsupro de la sekva ekrano por krei la novan dosierujon.</string>
     <string name="confirm_selection">Konfirmi elekton</string>
     <string name="loading">Ŝargado…</string>
+    <string name="resolution">Distingivo</string>
+    <string name="direct_children_count">Kvanto de rektaj idoj</string>
+    <string name="items_selected">Elementoj elektitaj</string>
+    <string name="duration">Daŭro</string>
+    <string name="artist">Verkisto</string>
+    <string name="properties">Atributoj</string>
+    <string name="path">Vojo</string>
+    <plurals name="deleting_items">
+        <item quantity="one">Forigo de %d elemento</item>
+        <item quantity="other">Forigo de %d elementoj</item>
+    </plurals>
+    <string name="genre">Ĝenro</string>
+    <string name="wrong_root_selected">Malĝusta dosierujo elektita. Bonvolu elekti la ĉefan dosierujon de via SD-karto</string>
+    <string name="wrong_folder_selected">Malĝusta dosierujo elektita. Bonvolu elekti la vojon \"%s\"</string>
+    <string name="internal_storage">Interna memoro</string>
+    <plurals name="items">
+        <item quantity="one">%d elemento</item>
+        <item quantity="other">%d elementoj</item>
+    </plurals>
+    <string name="select_storage">Elekti memorilon</string>
+    <string name="sd_card_usb_same">SD-karta kaj USB-aparata vojoj ne devas esti samaj</string>
+    <string name="files_count">Tuta kvanto de dosieroj</string>
+    <string name="access_storage_prompt">Bonvolu koncedi al nia aplikaĵo atingon al ĉiuj viaj dosieroj. Alie, ĝi eble ne ĝuste funkcios.</string>
+    <string name="storage">Memoro</string>
+    <string name="internal">Interna</string>
+    <string name="sd_card">SD-karto</string>
+    <string name="root">Radiko</string>
+    <string name="app_on_sd_card">Vi ŝajne instalis la aplikaĵon sur SD-karto, kiu maldisponebligas aplikaĵajn fenestraĵojn. Vi nek vidos ilin en la listo de disponeblaj fenestraĵoj. Tiu ĉi estas limigo de la sistemo, tial se vi volas uzi la fenestraĵojn, vi devas movi la aplikaĵon al la interna memoro.</string>
+    <string name="album">Albumo</string>
+    <string name="focal_length">Interfokusa distanco</string>
+    <plurals name="delete_items">
+        <item quantity="one">%d elementon</item>
+        <item quantity="other">%d elementojn</item>
+    </plurals>
+    <plurals name="delete_contacts">
+        <item quantity="one">%d kontakton</item>
+        <item quantity="other">%d kontaktojn</item>
+    </plurals>
 </resources>
