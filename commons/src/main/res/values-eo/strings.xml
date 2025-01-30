@@ -399,4 +399,20 @@
         <item quantity="one">%d kontakton</item>
         <item quantity="other">%d kontaktojn</item>
     </plurals>
+    <string name="text_color">Tekstkoloro</string>
+    <string name="background_color">Fonkoloro</string>
+    <string name="primary_color">Ĉefa koloro</string>
+    <string name="accent_color_white">Duaranga koloro de la blanka etoso</string>
+    <string name="song_title">Kantotitolo</string>
+    <string name="remove_exif">Forigi EXIF-datumojn</string>
+    <string name="camera">Kamerao</string>
+    <string name="accent_color_black_and_white">Duaranga koloro de la nigra kaj blanka etoso</string>
+    <string name="exposure_time">Eksponotempo</string>
+    <string name="iso_speed">ISO-a rapido</string>
+    <string name="f_number">F-nombro</string>
+    <string name="exif">EXIF</string>
+    <string name="gps_coordinates">GPS-koordinatoj</string>
+    <string name="altitude">Alto</string>
+    <string name="remove_exif_confirmation">Ĉu vi vere volas forigi la EXIF-datumojn kiel la GPS-koordinatoj, kameramodelo ktp.?</string>
+    <string name="exif_removed">EXIF-datumoj sukcese forigitaj</string>
 </resources>
