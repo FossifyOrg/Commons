@@ -8,16 +8,16 @@
     <string name="file_saved">קובץ נשמר</string>
     <string name="invalid_file_format">פורמט קובץ שגוי</string>
     <string name="out_of_memory_error">שגיאת זיכרון</string>
-    <string name="an_error_occurred">שגיאה: %s</string>
+    <string name="an_error_occurred">שגיאה התרחשה: %s</string>
     <string name="open_with">פתיחה באמצעות</string>
     <string name="edit_with">עריכה באמצעות</string>
     <string name="edit">לערוך</string>
     <string name="no_app_found">לא נמצאה אפליקציה מתאימה</string>
     <string name="set_as">קבע כ</string>
-    <string name="copy_to_clipboard">העתקה לקליפבורד</string>
+    <string name="copy_to_clipboard">העתקה ללוח</string>
     <string name="copy_number_to_clipboard">העתק את המספר ללוח</string>
-    <string name="value_copied_to_clipboard">הועתק לקליפבורד</string>
-    <string name="value_copied_to_clipboard_show">הועתק לקליפבורד:\n%s</string>
+    <string name="value_copied_to_clipboard">הערך הועתק ללוח</string>
+    <string name="value_copied_to_clipboard_show">הערך הועתק ללוח:\n%s</string>
     <string name="dial_number">חייג מספר</string>
     <string name="unknown">לא ידוע</string>
     <string name="always">תמיד</string>
@@ -375,4 +375,15 @@
     <string name="notes_short">פתקים</string>
     <string name="sms_messenger_short">הודעות SMS</string>
     <string name="voice_recorder_short">רשמקול</string>
+    <string name="select_a_different_color">בחר צבע אחר</string>
+    <string name="back">חזור</string>
+    <string name="error">שגיאה: %s</string>
+    <string name="no_browser_found">לא נמצא דפדפן</string>
+    <string name="no_phone_call_permission">האפליקציה אינה רשאית לבצע שיחות, בבקשה הענק לה גישה דרך הגדרות המכשיר</string>
+    <string name="notifications">התראות</string>
+    <string name="notification">התראה</string>
+    <string name="transparent_color">צבע שקוף</string>
+    <string name="no_new_entries_for_importing">לא נמצאו רשומות חדשות לייבוא</string>
+    <string name="no_email_client_found">לא נמצאה תוכנת מייל</string>
+    <string name="transparent">שקוף</string>
 </resources>
