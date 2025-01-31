@@ -406,4 +406,5 @@
     <string name="system_default">ברירת המחדל של המערכת</string>
     <string name="select_text">בחר טקסט</string>
     <string name="pin_must_be_4_digits_long">קוד סודי (PIN) חייב להיות באורך של 4 ספרות לפחות</string>
+    <string name="do_not_show_again">אל תציג שוב</string>
 </resources>
