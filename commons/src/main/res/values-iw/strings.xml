@@ -258,8 +258,8 @@
     <string name="change_date_and_time_format">שנה פורמט תאריך ושעה</string>
     <string name="sunday_first">השבוע מתחיל ביום ראשון</string>
     <string name="widgets">יישומונים</string>
-    <string name="vibrate_on_button_press">רטט בעת לחיצה</string>
-    <string name="move_items_into_recycle_bin">העבר לסל המחזור במקום מחיקה</string>
+    <string name="vibrate_on_button_press">רטט בעת לחיצה על כפתורים</string>
+    <string name="move_items_into_recycle_bin">העבר פריטים לסל המחזור במקום מחיקתם</string>
     <string name="recycle_bin_cleaning_interval">זמן ריקון של סל המחזור</string>
     <string name="empty_recycle_bin">רוקן את סל המחזור</string>
     <string name="force_portrait_mode">אלץ מצב אנכי</string>
@@ -467,4 +467,7 @@
     </plurals>
     <string name="hours_letter">שע\'</string>
     <string name="start_week_on">השבוע מתחיל ביום</string>
+    <string name="snooze">נודניק</string>
+    <string name="snooze_time">מרווח זמן הנודניק</string>
+    <string name="use_same_snooze">השתמש תמיד באותו מרווח זמן לנודניק</string>
 </resources>
