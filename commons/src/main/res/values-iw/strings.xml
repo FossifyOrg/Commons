@@ -470,4 +470,23 @@
     <string name="snooze">נודניק</string>
     <string name="snooze_time">מרווח זמן הנודניק</string>
     <string name="use_same_snooze">השתמש תמיד באותו מרווח זמן לנודניק</string>
+    <string name="rate_us">דרג אותנו</string>
+    <string name="manage_shown_tabs">נהל את הכרטיסיות המוצגות</string>
+    <string name="list_view">תצוגת רשימה</string>
+    <string name="password_protect_whole_app">הגן באמצעות סיסמה על כל האפליקציה</string>
+    <string name="password_protect_hidden_items">הגן באמצעות סיסמה על האפשרות לראות פריטים מוסתרים</string>
+    <string name="prevent_phone_from_sleeping">מנע מהטלפון לישון בזמן שהאפליקציה פעילה (בקדמת המסך)</string>
+    <string name="password_protect_file_deletion">הגן באמצעות סיסמה על מחיקת והעברת קבצים</string>
+    <string name="clear_cache">נקה מטמון</string>
+    <string name="exclude_folder">אל תכלול תיקיה</string>
+    <string name="files_tab">קבצים</string>
+    <string name="recent_files_tab">קבצים אחרונים</string>
+    <string name="open_the_recycle_bin">פתח את סל המחזור</string>
+    <string name="skip_the_recycle_bin">דלג על סל המחזור, ומחק קבצים ישירות (לצמיתות)</string>
+    <string name="backups">גיבויים</string>
+    <string name="enable_automatic_backups">אפשר גיבויים אוטומטיים</string>
+    <string name="manage_automatic_backups">נהל גיבויים אוטומטיים</string>
+    <string name="privacy_policy">מדיניות פרטיות</string>
+    <string name="email_label">שלח משוב או הצעות לשיפור אל</string>
+    <string name="website_label">לצפייה בקודי המקור</string>
 </resources>
