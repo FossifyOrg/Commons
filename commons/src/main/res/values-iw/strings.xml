@@ -220,7 +220,7 @@
     <string name="repeat_pattern">חזור על דפוס</string>
     <string name="fingerprint">טביעת אצבע</string>
     <string name="add_fingerprint">הוספת טביעת אצבע</string>
-    <string name="place_finger">נא להניח את טביעת האצבע על החיישן</string>
+    <string name="place_finger">אנא הנח את האצבע שלך על חיישן טביעות האצבע</string>
     <string name="authentication_failed">זיהוי נכשל</string>
     <string name="authentication_blocked">זיהוי חסוי. נא לנסות שוב מאוחר יותר</string>
     <string name="no_fingerprints_registered">אין טביעות אצבע רשומות. נא להוסיף בהגדרות המכשיר</string>
@@ -256,7 +256,7 @@
     <string name="enable_pull_to_refresh">הפעל סנכרון על ידי משיכה מלמעלה</string>
     <string name="use_24_hour_time_format">השתמש בפורמט של 24 שעות</string>
     <string name="change_date_and_time_format">שנה פורמט תאריך ושעה</string>
-    <string name="sunday_first">יום ראשון בשבוע</string>
+    <string name="sunday_first">השבוע מתחיל ביום ראשון</string>
     <string name="widgets">יישומונים</string>
     <string name="vibrate_on_button_press">רטט בעת לחיצה</string>
     <string name="move_items_into_recycle_bin">העבר לסל המחזור במקום מחיקה</string>
@@ -407,4 +407,63 @@
     <string name="select_text">בחר טקסט</string>
     <string name="pin_must_be_4_digits_long">קוד סודי (PIN) חייב להיות באורך של 4 ספרות לפחות</string>
     <string name="do_not_show_again">אל תציג שוב</string>
+    <string name="empty_password">נא להזין את הסיסמה</string>
+    <plurals name="months">
+        <item quantity="one">חודש</item>
+        <item quantity="two">%d חודשים</item>
+        <item quantity="other">%d חודשים</item>
+    </plurals>
+    <string name="enter_password">הזן סיסמה</string>
+    <string name="every_day">בכל יום</string>
+    <string name="add_password">הוסף סיסמה</string>
+    <string name="biometrics">ביומטריה</string>
+    <string name="too_many_incorrect_attempts">יותר מדי ניסיונות ביטול נעילה שגויים.\nנסה שוב בעוד %d שניות.</string>
+    <string name="password">סיסמה</string>
+    <string name="empty_password_new">נא להזין סיסמה</string>
+    <string name="invalid_password">הסיסמה שגויה</string>
+    <string name="seconds_letter">שנ\'</string>
+    <string name="minutes_letter">דק\'</string>
+    <string name="general_settings">כללי</string>
+    <string name="color_customization">התאמה אישית של הצבעים</string>
+    <string name="notification_sound">צליל התראה</string>
+    <string name="customize_notifications">התאם אישית התראות</string>
+    <string name="feature_locked">נעול</string>
+    <string name="language">שפה</string>
+    <string name="theme_and_colors">ערכות נושא וצבעים</string>
+    <plurals name="minutes">
+        <item quantity="one">דקה</item>
+        <item quantity="two">%d דקות</item>
+        <item quantity="other">%d דקות</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="one">שעה</item>
+        <item quantity="two">%d שעות</item>
+        <item quantity="other">%d שעות</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="one">יום</item>
+        <item quantity="two">%d ימים</item>
+        <item quantity="other">%d ימים</item>
+    </plurals>
+    <plurals name="years">
+        <item quantity="one">שנה</item>
+        <item quantity="two">%d שנים</item>
+        <item quantity="other">%d שנים</item>
+    </plurals>
+    <plurals name="delete_warning">
+        <item quantity="one">אזהרה: אתה מוחק את תיקיית%d</item>
+        <item quantity="two">אזהרה: אתה מוחק את תיקיות%d</item>
+        <item quantity="other">אזהרה: אתה מוחק את תיקיות%d</item>
+    </plurals>
+    <plurals name="seconds">
+        <item quantity="one">שנייה</item>
+        <item quantity="two">%d שניות</item>
+        <item quantity="other">%d שניות</item>
+    </plurals>
+    <plurals name="weeks">
+        <item quantity="one">שבוע</item>
+        <item quantity="two">%d שבועות</item>
+        <item quantity="other">%d שבועות</item>
+    </plurals>
+    <string name="hours_letter">שע\'</string>
 </resources>
