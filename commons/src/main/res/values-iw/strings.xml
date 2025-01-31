@@ -98,10 +98,10 @@
     <string name="source_and_destination_same">מקור ויעד לא יכולים להיות זהים</string>
     <string name="copy_failed">לא ניתן להעתיק את הקבצים</string>
     <string name="copying">מעתיק...</string>
-    <string name="copying_success">קבצים הועתקו בהצלחה</string>
+    <string name="copying_success">הקבצים הועתקו בהצלחה</string>
     <string name="copy_move_failed">אירעה שגיאה</string>
     <string name="moving">מעביר...</string>
-    <string name="moving_success">קובץ הועבר בהצלחה</string>
+    <string name="moving_success">הקבצים הועברו בהצלחה</string>
     <string name="moving_success_partial">חלק מהקבצים לא הועברו</string>
     <string name="copying_success_partial">חלק מהקבצים לא הועתקו</string>
     <string name="no_files_selected">לא נבחרו קבצים</string>
@@ -284,7 +284,7 @@
     <string name="remove_all_description">להסיר את כל התיקיות מרשימת החרגות\? פעולה זו לא תמחק את התיקיות.</string>
     <string name="temporarily_show_excluded">הצג לא נכלל באופן זמני</string>
     <string name="stop_showing_excluded">הפסק את הצגת החרגות</string>
-    <string name="default_tab_to_open">טאב בפתיחת האפליקצייה</string>
+    <string name="default_tab_to_open">לשונית פתיחה בהפעלת האפליקציה</string>
     <string name="contacts_tab">אנשי קשר</string>
     <string name="favorites_tab">מועדפים</string>
     <string name="call_history_tab">היסטוריית שיחות</string>
@@ -386,4 +386,23 @@
     <string name="no_new_entries_for_importing">לא נמצאו רשומות חדשות לייבוא</string>
     <string name="no_email_client_found">לא נמצאה תוכנת מייל</string>
     <string name="transparent">שקוף</string>
+    <string name="deletion_confirmation_short">מחק%s?</string>
+    <string name="ascending">בסדר עולה</string>
+    <string name="unblock">בטל חסימה</string>
+    <string name="auto_theme">אוטומטי</string>
+    <string name="copying_success_one">הקובץ הועתק בהצלחה</string>
+    <string name="moving_success_one">הקובץ הועבר בהצלחה</string>
+    <string name="storage">אחסון</string>
+    <string name="internal_storage">אחסון פנימי</string>
+    <string name="background_color">צבע הרקע</string>
+    <string name="date_added">תאריך הוספה</string>
+    <string name="date_created">תאריך יצירה</string>
+    <string name="descending">בסדר יורד</string>
+    <string name="more_options">אפשרויות נוספות</string>
+    <string name="change_order">שנה סדר</string>
+    <string name="use_custom_sorting">השתמש במיון מותאם אישית</string>
+    <string name="shortcut">קיצור</string>
+    <string name="white">לבן</string>
+    <string name="system_default">ברירת המחדל של המערכת</string>
+    <string name="select_text">בחר טקסט</string>
 </resources>
