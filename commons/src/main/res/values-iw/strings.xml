@@ -466,4 +466,5 @@
         <item quantity="other">%d שבועות</item>
     </plurals>
     <string name="hours_letter">שע\'</string>
+    <string name="start_week_on">השבוע מתחיל ביום</string>
 </resources>
