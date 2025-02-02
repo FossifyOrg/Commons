@@ -490,4 +490,20 @@
     <string name="call_from_sim_2">Alvoki el SIM 2</string>
     <string name="add_contact">Aldoni kontakton</string>
     <string name="wallpapers">Ekranfonoj</string>
+    <string name="title">Titolo</string>
+    <string name="date_added">Aldona dato</string>
+    <string name="random">Hazarda</string>
+    <string name="last_modified">Laste modifita</string>
+    <string name="date_created">Krea dato</string>
+    <string name="extension">Dosiersufikso</string>
+    <string name="date_taken">Kapta dato</string>
+    <string name="show_line_numbers">Montri linionombrojn</string>
+    <string name="hide_line_numbers">Kaŝi linionombrojn</string>
+    <string name="sleep_timer">Dorma tempomezurilo</string>
+    <string name="unblock">Malbloki</string>
+    <string name="sort_by">Ordigi laŭ</string>
+    <string name="name">Nomo</string>
+    <string name="size">Grandeco</string>
+    <string name="filename">Dosiernomo</string>
+    <string name="sort_randomly">Ordigi hazarde</string>
 </resources>
