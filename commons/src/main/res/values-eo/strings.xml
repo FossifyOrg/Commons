@@ -506,4 +506,28 @@
     <string name="size">Grandeco</string>
     <string name="filename">Dosiernomo</string>
     <string name="sort_randomly">Ordigi hazarde</string>
+    <string name="surname">Familia nomo</string>
+    <string name="deletion_confirmation">Ĉu vi vere volas forigi %s?</string>
+    <string name="first_name">Persona nomo</string>
+    <string name="descending">Malpligrandiĝanta</string>
+    <string name="use_custom_sorting">Uzi laŭmendan ordigon</string>
+    <string name="middle_name">Dua nomo</string>
+    <string name="change_order">Ŝanĝi ordon</string>
+    <string name="ascending">Pligrandiĝanta</string>
+    <string name="use_for_this_folder">Uzi nur por tiu ĉi dosierujo</string>
+    <string name="sort_numeric_parts">Ordigi nombrajn partojn laŭ vera valoro</string>
+    <string name="full_name">Plena nomo</string>
+    <string name="more_options">Pli da opcioj</string>
+    <string name="proceed_with_deletion">Ĉu vi vere volas plenumi la forigon?</string>
+    <string name="deletion_confirmation_short">Ĉu forigi %s?</string>
+    <string name="move_to_recycle_bin_confirmation">Ĉu ve vere volas movi %s al la rubujo?</string>
+    <string name="are_you_sure_delete">Ĉu vi vere volas forigi tiun ĉi elementon?</string>
+    <string name="are_you_sure_recycle_bin">Ĉu vi vere volas movi tiun ĉi elementon al la rubujo?</string>
+    <string name="do_not_ask_again">Ne montri denove ĉi tiun seancon</string>
+    <string name="do_not_show_again">Ne montri denove</string>
+    <string name="maybe">Eble</string>
+    <plurals name="delete_warning">
+        <item quantity="one">ATENTU: Vi forigas %d dosierujon</item>
+        <item quantity="other">ATENTU: Vi forigas %d dosierujojn</item>
+    </plurals>
 </resources>
