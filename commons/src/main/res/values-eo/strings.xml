@@ -530,4 +530,11 @@
         <item quantity="one">ATENTU: Vi forigas %d dosierujon</item>
         <item quantity="other">ATENTU: Vi forigas %d dosierujojn</item>
     </plurals>
+    <string name="repeat_pin">Ripeti PIN</string>
+    <string name="wrong_pin">PIN malpravas</string>
+    <string name="pin">PIN</string>
+    <string name="enter_pin">Enigi PIN</string>
+    <string name="please_enter_pin">Bonvolu enigi PIN</string>
+    <string name="pin_must_be_4_digits_long">La PIN devas esti almenaŭ kvar ciferoj</string>
+    <string name="too_many_incorrect_attempts">Tro da malsukcesi provoj de malŝloso.\nProvu denove post %d sekundoj.</string>
 </resources>
