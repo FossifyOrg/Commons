@@ -537,4 +537,158 @@
     <string name="please_enter_pin">Bonvolu enigi PIN</string>
     <string name="pin_must_be_4_digits_long">La PIN devas esti almenaŭ kvar ciferoj</string>
     <string name="too_many_incorrect_attempts">Tro da malsukcesi provoj de malŝloso.\nProvu denove post %d sekundoj.</string>
+    <plurals name="years">
+        <item quantity="one">%d jaro</item>
+        <item quantity="other">%d jaroj</item>
+    </plurals>
+    <plurals name="in_seconds">
+        <item quantity="one">%d sekundo</item>
+        <item quantity="other">%d sekundoj</item>
+    </plurals>
+    <plurals name="in_weeks">
+        <item quantity="one">%d semajno</item>
+        <item quantity="other">%d semajnoj</item>
+    </plurals>
+    <plurals name="in_minutes">
+        <item quantity="one">%d minuto</item>
+        <item quantity="other">%d minutoj</item>
+    </plurals>
+    <plurals name="minutes_before">
+        <item quantity="one">%d minuto antaŭe</item>
+        <item quantity="other">%d minutoj antaŭe</item>
+    </plurals>
+    <plurals name="by_seconds">
+        <item quantity="one">%d sekundo</item>
+        <item quantity="other">%d sekundoj</item>
+    </plurals>
+    <plurals name="by_days">
+        <item quantity="one">%d tago</item>
+        <item quantity="other">%d tagoj</item>
+    </plurals>
+    <plurals name="by_weeks">
+        <item quantity="one">%d semajno</item>
+        <item quantity="other">%d semajnoj</item>
+    </plurals>
+    <plurals name="days_before">
+        <item quantity="one">%d tago antaŭe</item>
+        <item quantity="other">%d tagoj antaŭe</item>
+    </plurals>
+    <plurals name="in_hours">
+        <item quantity="one">%d horo</item>
+        <item quantity="other">%d horoj</item>
+    </plurals>
+    <string name="every_day">Ĉiutage</string>
+    <string name="wrong_pattern">Erara ŝablono</string>
+    <plurals name="seconds_before">
+        <item quantity="one">%d sekundo antaŭe</item>
+        <item quantity="other">%d sekundoj antaŭe</item>
+    </plurals>
+    <string name="protection_setup_successfully">Pasvorto sukcese registrita. Bonvolu reinstali la aplikaĵon se vi forgesas ĝin.</string>
+    <string name="hours_raw">horoj</string>
+    <string name="fingerprint_setup_successfully">Protektado sukcese agordita. Bonvolu reinstali la aplikaĵon se estas problemoj de rekomencigi ĝin.</string>
+    <plurals name="minutes">
+        <item quantity="one">%d minuto</item>
+        <item quantity="other">%d minutoj</item>
+    </plurals>
+    <string name="seconds_raw">sekundoj</string>
+    <string name="today">Hodiaŭ</string>
+    <string name="hide_year">Kaŝi jaron</string>
+    <string name="authentication_failed">Aŭtentikiĝo malsukcesis</string>
+    <string name="no_fingerprints_registered">Vi havas neniun fingrospuron registritan. Bonvolu aldoni kelkajn en la agordoj de via aparato</string>
+    <string name="week_number_short">sem</string>
+    <string name="lock_folder">Ŝlosi dosierujon</string>
+    <string name="pattern">Ŝablono</string>
+    <string name="insert_pattern">Enmeti ŝablonon</string>
+    <string name="repeat_pattern">Ripeti ŝablonon</string>
+    <string name="biometrics">Biometrio</string>
+    <string name="fingerprint">Fingrospuro</string>
+    <string name="add_fingerprint">Aldoni fingrospuron</string>
+    <string name="place_finger">Bonvolu meti vian fingron sur la fingrospuran sentilon</string>
+    <string name="open_biometric_dialog">Malfermi dialogon de biometria aŭtentikiĝo</string>
+    <string name="authenticate">Aŭtentikiĝi</string>
+    <string name="authentication_blocked">Aŭtentikiĝo blokita. Bonvolu provi denove post kelkaj momentoj</string>
+    <string name="go_to_settings">Iri al agordoj</string>
+    <string name="lock_folder_pro">Ŝlosi dosierujon (Pro)</string>
+    <string name="unlock_folder">Malŝlosi dosierujon</string>
+    <string name="lock_folder_notice">Tiu ĉi protektado nur funkcias en tiu ĉi aplikaĵo. Ĝi ne anstataŭigas veran tutsisteman ĉifradon.</string>
+    <string name="password">Pasvorto</string>
+    <string name="enter_password">Enigi pasvorton</string>
+    <string name="add_password">Aldoni pasvorton</string>
+    <string name="empty_password_new">Bonvolu enigi pasvorton</string>
+    <string name="empty_password">Bonvolu enigi la pasvorton</string>
+    <string name="invalid_password">Malĝusta pasvorto</string>
+    <string name="yesterday">Hieraŭ</string>
+    <string name="tomorrow">Morgaŭ</string>
+    <plurals name="hours">
+        <item quantity="one">%d horo</item>
+        <item quantity="other">%d horoj</item>
+    </plurals>
+    <string name="minutes_raw">minutoj</string>
+    <string name="days_raw">tagoj</string>
+    <string name="seconds_letter">s</string>
+    <string name="minutes_letter">m</string>
+    <string name="hours_letter">h</string>
+    <plurals name="seconds">
+        <item quantity="one">%d sekundo</item>
+        <item quantity="other">%d sekundoj</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="one">%d tago</item>
+        <item quantity="other">%d tagoj</item>
+    </plurals>
+    <plurals name="weeks">
+        <item quantity="one">%d semajno</item>
+        <item quantity="other">%d semajnoj</item>
+    </plurals>
+    <plurals name="in_years">
+        <item quantity="one">%d jaro</item>
+        <item quantity="other">%d jaroj</item>
+    </plurals>
+    <plurals name="weeks_before">
+        <item quantity="one">%d semajno antaŭe</item>
+        <item quantity="other">%d semajnoj antaŭe</item>
+    </plurals>
+    <plurals name="years_before">
+        <item quantity="one">%d jaro antaŭe</item>
+        <item quantity="other">%d jaroj antaŭe</item>
+    </plurals>
+    <string name="alarm_goes_off_in">Tempo restanta ĝis la alarmo sonos:\n%s</string>
+    <string name="reminder_triggers_in">Tempo restanta ĝis la memorigilo aktiviĝos:\n%s</string>
+    <string name="time_remaining">Tempo restanta:\n%s</string>
+    <plurals name="months">
+        <item quantity="one">%d monato</item>
+        <item quantity="other">%d monatoj</item>
+    </plurals>
+    <plurals name="in_days">
+        <item quantity="one">%d tago</item>
+        <item quantity="other">%d tagoj</item>
+    </plurals>
+    <plurals name="in_months">
+        <item quantity="one">%d monato</item>
+        <item quantity="other">%d monatoj</item>
+    </plurals>
+    <plurals name="months_before">
+        <item quantity="one">%d monato antaŭe</item>
+        <item quantity="other">%d monatoj antaŭe</item>
+    </plurals>
+    <plurals name="by_months">
+        <item quantity="one">%d monato</item>
+        <item quantity="other">%d monatoj</item>
+    </plurals>
+    <plurals name="by_years">
+        <item quantity="one">%d jaro</item>
+        <item quantity="other">%d jaroj</item>
+    </plurals>
+    <plurals name="hours_before">
+        <item quantity="one">%d horo antaŭe</item>
+        <item quantity="other">%d horoj antaŭe</item>
+    </plurals>
+    <plurals name="by_minutes">
+        <item quantity="one">%d minuto</item>
+        <item quantity="other">%d minutoj</item>
+    </plurals>
+    <plurals name="by_hours">
+        <item quantity="one">%d horo</item>
+        <item quantity="other">%d horoj</item>
+    </plurals>
 </resources>
