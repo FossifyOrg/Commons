@@ -49,6 +49,7 @@ import org.fossify.commons.helpers.*
 import org.fossify.commons.helpers.MyContentProvider.PERMISSION_WRITE_GLOBAL_SETTINGS
 import org.fossify.commons.models.AlarmSound
 import org.fossify.commons.models.BlockedNumber
+import org.joda.time.DateTimeConstants
 import java.io.File
 import java.text.SimpleDateFormat
 import java.util.Date
@@ -1258,4 +1259,19 @@ fun Context.openFullScreenIntentSettings(appId: String) {
         intent.data = uri
         startActivity(intent)
     }
+}
+
+fun Context.getDayOfWeekString(dayOfWeek: Int): String {
+    val dayOfWeekResId = when (dayOfWeek) {
+        DateTimeConstants.MONDAY -> org.fossify.commons.R.string.monday
+        DateTimeConstants.TUESDAY -> org.fossify.commons.R.string.tuesday
+        DateTimeConstants.WEDNESDAY -> org.fossify.commons.R.string.wednesday
+        DateTimeConstants.THURSDAY -> org.fossify.commons.R.string.thursday
+        DateTimeConstants.FRIDAY -> org.fossify.commons.R.string.friday
+        DateTimeConstants.SATURDAY -> org.fossify.commons.R.string.saturday
+        DateTimeConstants.SUNDAY -> org.fossify.commons.R.string.sunday
+        else -> throw IllegalArgumentException("Invalid day: $dayOfWeek")
+    }
+
+    return getString(dayOfWeekResId)
 }
