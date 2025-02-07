@@ -197,6 +197,7 @@ const val PASSWORD_COUNTDOWN_START_MS = "password_count_down_start_ms"
 const val LAST_UNLOCK_TIMESTAMP_MS = "last_unlock_timestamp_ms"
 const val UNLOCK_TIMEOUT_DURATION_MS = "unlock_timeout_duration_ms"
 const val SHOW_CHECKMARKS_ON_SWITCHES = "show_checkmarks_on_switches"
+const val FIRST_DAY_OF_WEEK = "first_day_of_week"
 
 const val MAX_PASSWORD_RETRY_COUNT = 3
 const val DEFAULT_PASSWORD_COUNTDOWN = 5

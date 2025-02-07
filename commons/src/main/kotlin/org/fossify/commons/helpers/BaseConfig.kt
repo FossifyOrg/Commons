@@ -605,6 +605,14 @@ open class BaseConfig(val context: Context) {
         get() = prefs.getLong(PASSWORD_COUNTDOWN_START_MS, 0L)
         set(passwordCountdownStartMs) = prefs.edit().putLong(PASSWORD_COUNTDOWN_START_MS, passwordCountdownStartMs).apply()
 
+    // Returns the first day of week, indexing follows ISO 8601: Mon=1, ..., Sun=7
+    var firstDayOfWeek: Int
+        get() {
+            val defaultFirstDayOfWeek = Calendar.getInstance(Locale.getDefault()).firstDayOfWeek
+            return prefs.getInt(FIRST_DAY_OF_WEEK, getISODayOfWeekFromJava(defaultFirstDayOfWeek))
+        }
+        set(firstDayOfWeek) = prefs.edit().putInt(FIRST_DAY_OF_WEEK, firstDayOfWeek).apply()
+
     // Accessibility
     var showCheckmarksOnSwitches: Boolean
         get() = prefs.getBoolean(SHOW_CHECKMARKS_ON_SWITCHES, false)
