@@ -863,4 +863,32 @@
     <string name="upgrade_to_pro_long">La versio de via aplikaĵo ne plu estos ĝisdatigita. Bonvolu promociiĝi al la versio Pro por ricevi novajn korektojn kaj aliajn plibonigojn.</string>
     <string name="upgraded_from_free_gallery">Saluton,\n\nVi ŝajne ĵus promociiĝis el la senpaga versio. Kiam vi estas kontenta kun tiu ĉi kaj eble post migrigi viajn agordojn kaj plej ŝatatajn, vi povas malinstali la malnovan senpagan por eviti lanĉi ĝin senvole, ĉar vi ne plu bezonos ĝin. Tio ankaŭ evitos, ke tiu ĉi dialogo aperu denove.\n\nDankon!</string>
     <string name="upgraded_from_free_contacts">Saluton,\n\nVi ŝajne ĵus promociiĝis el la senpaga versio. Se vi havis kontaktojn deponitajn sub \"%s\", vi devas migrigi ilin mane per eksporti .vcf-dosieron el la senpaga versio kaj poste importi ilin ĉi tie per la supra menuo.\n\nKiam vi estas kontenta kun viaj agordoj en la versio Pro, vi povas malinstali la malnovan senpagan, ĉar vi ne plu bezonos ĝin. Tio ankaŭ evitos, ke tiu ĉi dialogo aperu denove.\n\nDankon!</string>
+    <string name="upgrade_to_pro">Promociiĝi al la versio Pro</string>
+    <string name="purchase">Aĉeti</string>
+    <string name="more_apps">Pli da aplikaĵoj</string>
+    <string name="invite_friends">Inviti amikojn</string>
+    <string name="share_text">He, venu vidi %1$s je %2$s</string>
+    <string name="read_faq">Legi oftajn demandojn</string>
+    <string name="make_sure_latest">Certigu ankaŭ, ke vi uzas la plej aktualan version de la aplikaĵo.</string>
+    <string name="email_label">Sendu viajn komentojn aŭ sugestojn al</string>
+    <string name="more_apps_from_us">Pli da aplikaĵoj niaj</string>
+    <string name="rate_us">Taksu nin</string>
+    <string name="rate">Taksi</string>
+    <string name="copyright">v %1$s\nKopirajto © Fossify %2$d</string>
+    <string name="social">Sociaj retejoj</string>
+    <string name="privacy_policy">Privateca politiko</string>
+    <string name="donate_short">Bonvolu subteni nin per aĉeti &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Dankon&lt;/a&gt;. Ĉiuj funkcioj de la aplikaĵoj, kiel tajlorado de koloroj, ankaŭ iĝos uzeblaj.</string>
+    <string name="update_thank_you">Bonvolu ĝisdatigi Fossify Dankon al la plej nova versio</string>
+    <string name="before_asking_question_read_faq">Antaŭ fari demandon, bonvolu kontroli la aplikaĵajn agordojn kaj legi la oftajn demandojn. La solvo eble estos tie.</string>
+    <string name="before_rate_read_faq">Antaŭ taksi nin, bonvolu kontroli la aplikaĵajn agordojn kaj legi la oftajn demandojn. Se vi havas iun problemon, la solvo eble estos tie.</string>
+    <string name="make_sure_upgrade">Rimarku ankaŭ, ke tiu ĉi versio de la aplikaĵo ne plu estas ĝisdatigita. Uzu la version Pro por multe da plibonigoj.</string>
+    <string name="read_it">Legi</string>
+    <string name="website_label">Por fontkodo, iru al</string>
+    <string name="donate_please"><![CDATA[
+            Saluton,<br><br>
+            Mi esperas, ke vi ĝuu la aplikaĵon. Ĝi enhavas neniun reklamon, do bonvolu subteni ĝian programadon per aĉeti la aplikaĵon <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Dankon</a>, kiu ankaŭ evitos, ke tiu ĉi dialogo aperu denove.<br><br>
+            Dankon!
+        ]]></string>
+    <string name="donate_new">Saluton,&lt;br&gt;&lt;br&gt;mi esperas, ke vi ĝuu la aplikaĵon. Ĝi enhavas neniun reklamon kaj ni nek kolektas viajn datumojn. Bonvolu subteni ĝian programadon per aĉeti la aplikaĵon &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Dankon&lt;/a&gt;. Ĉiuj funkcioj de la aplikaĵoj, kiel tajlorado de koloroj, ankaŭ iĝos uzeblaj.&lt;br&gt;&lt;br&gt;Dankon!</string>
+    <string name="known_issues">Konataj problemoj</string>
 </resources>
