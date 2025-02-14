@@ -87,9 +87,9 @@
     <string name="app_launcher_short">Programlanĉilo</string>
     <string name="calculator_short">Kalkulilo</string>
     <string name="calendar_short">Kalendaro</string>
-    <string name="camera_short">Fotilo</string>
+    <string name="camera_short">Kamerao</string>
     <string name="clock_short">Horloĝo</string>
-    <string name="contacts_short">Kontaktoj</string>
+    <string name="contacts_short">Kontaktadministrilo</string>
     <string name="gallery_short">Galerio</string>
     <string name="music_player_short">Muzikludilo</string>
     <string name="notes_short">Notoj</string>
@@ -891,4 +891,31 @@
         ]]></string>
     <string name="donate_new">Saluton,&lt;br&gt;&lt;br&gt;mi esperas, ke vi ĝuu la aplikaĵon. Ĝi enhavas neniun reklamon kaj ni nek kolektas viajn datumojn. Bonvolu subteni ĝian programadon per aĉeti la aplikaĵon &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Dankon&lt;/a&gt;. Ĉiuj funkcioj de la aplikaĵoj, kiel tajlorado de koloroj, ankaŭ iĝos uzeblaj.&lt;br&gt;&lt;br&gt;Dankon!</string>
     <string name="known_issues">Konataj problemoj</string>
+    <string name="keyboard_short">Klavaro</string>
+    <string name="rate_our_app">Bonvolu taksi nian aplikaĵon :)</string>
+    <string name="thank_you">Dankon</string>
+    <string name="widget_locked_pro">Tiu ĉi fenestraĵo estas ŝlosita.\nBonvolu promociiĝi al la versio Pro por malŝlosi ĝin.</string>
+    <string name="features_locked">Tiu ĉi funkcio estas ŝlosita. Bonvolu aĉeti &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Dankon&lt;/a&gt; por malŝlosi la tutan aplikaĵon.&lt;br&gt;&lt;br&gt;Estas nur unufoja pago, kaj se vi ne kontentas, ni povas repagi vin.</string>
+    <string name="new_app"><![CDATA[
+            He,<br><br>
+            Ni nur sciigas vin, ke ni lastatempe eldonis kelkajn novajn aplikaĵojn:<br><br>
+            <a href="%1$s">%2$s</a><br><br>
+            <a href="%3$s">%4$s</a><br><br>
+            <a href="%5$s">%6$s</a><br><br>
+            Vi povas elŝuti ilin per frapeti iliajn titolojn aŭ bildsimbolojn.<br><br>
+            Dankon
+        ]]></string>
+    <string name="launcher_short">Lanĉilo</string>
+    <string name="file_manager_short">Dosieradministrilo</string>
+    <string name="flashlight_short">Lanterno</string>
+    <string name="dialer_short">Ciferilo</string>
+    <string name="draw_short">Desegno</string>
+    <string name="sms_messenger_short">SMS-mesaĝilo</string>
+    <string name="sideloaded_app"><![CDATA[
+            Ŝajnas, ke la versio de via aplikaĵo estas difektita. Bonvolu elŝuti la originan version <a href="%s">ĉi tie</a>.
+        ]]></string>
+    <string name="donate_to_fossify">Donaci al Fossify</string>
+    <string name="all_fossify_apps">Ĉiuj aplikaĵoj de Fossify</string>
+    <string name="voice_recorder_short">Sonregistrilo</string>
+    <string name="rate_us_prompt">Saluton,\n\nŜajnas, ke vi jam sufiĉe longe uzas tiun ĉi aplikaĵon, kaj ni vere tion aprezas.\n\nSe ni rajtas peti ion de vi, bonvolu taksi nin je Google Play. Tio vere multe helpus nin.\n\nEĉ se vi ne tion faras, vi ne vidos tiun ĉi mesaĝon denove.\n\nDankon!</string>
 </resources>
