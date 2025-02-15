@@ -918,4 +918,16 @@
     <string name="all_fossify_apps">Ĉiuj aplikaĵoj de Fossify</string>
     <string name="voice_recorder_short">Sonregistrilo</string>
     <string name="rate_us_prompt">Saluton,\n\nŜajnas, ke vi jam sufiĉe longe uzas tiun ĉi aplikaĵon, kaj ni vere tion aprezas.\n\nSe ni rajtas peti ion de vi, bonvolu taksi nin je Google Play. Tio vere multe helpus nin.\n\nEĉ se vi ne tion faras, vi ne vidos tiun ĉi mesaĝon denove.\n\nDankon!</string>
+    <string name="before_asking_question">Antaŭ fari demandon, bonvolu legi la</string>
+    <string name="faq_1_title_commons">Kial mi ne vidas la fenestraĵon de tiu ĉi aplikaĵo en la listo de fenestraĵoj?</string>
+    <string name="faq_1_text_commons">Probablas, ke vi movis la aplikaĵon en SD-karton. Estas sistema limigo de Android kiu tiukaze kaŝas la fenestraĵojn de tiu aplikaĵo. La nura solvo estas removi la aplikaĵon en la internan memoron per la sistemaj agordoj.</string>
+    <string name="faq_2_title_commons">Mi volas subteni vin, se mi ne povas donaci monon. Ĉu mi povus helpi vin alimaniere?</string>
+    <string name="platforms">Platformoj</string>
+    <string name="little_to_no_fee">Malmultekosta aŭ senpaga</string>
+    <string name="fee_up_to_pct">Pago ĝis %1$d%%</string>
+    <string name="cryptocurrency">Ĉifrovaluto</string>
+    <string name="faq_2_text_commons"><![CDATA[
+            Jes, kompreneble. Vi povus mencii niajn aplikaĵojn al aliuloj, bone taksi ilin aŭ doni al ni utilajn komentojn. Vi ankaŭ povus helpi nin traduki la aplikaĵojn en novan lingvon aŭ simple ĝisdatigi tiujn kiuj jam ekzistas.
+            La tradukada gvido troviĝas <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">ĉi tie</a>, aŭ simple kontaktu nin je <a href="mailto:hello@fossify.org">hello@fossify.org</a> se vi havas demandojn.
+        ]]></string>
 </resources>
