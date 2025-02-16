@@ -930,4 +930,16 @@
             Jes, kompreneble. Vi povus mencii niajn aplikaĵojn al aliuloj, bone taksi ilin aŭ doni al ni utilajn komentojn. Vi ankaŭ povus helpi nin traduki la aplikaĵojn en novan lingvon aŭ simple ĝisdatigi tiujn kiuj jam ekzistas.
             La tradukada gvido troviĝas <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">ĉi tie</a>, aŭ simple kontaktu nin je <a href="mailto:hello@fossify.org">hello@fossify.org</a> se vi havas demandojn.
         ]]></string>
+    <string name="faq_3_title_commons">Mi senvole forigis kelkajn dosierojn. Kiel mi povas restaŭri ilin?</string>
+    <string name="faq_8_title_commons">Kial mi devus promociiĝi al la versio Pro?</string>
+    <string name="faq_9_title_commons">Kiel mi povas elekti multajn elementojn samtempe?</string>
+    <string name="faq_3_text_commons">Tio bedaŭrinde ne eblas. Dosieroj estas tuje forigitaj post la konfirma dialogo, kaj neniu rubujo ekzistas.</string>
+    <string name="faq_4_title_commons">Mi ne ŝatas la kolorojn de la fenestraĵoj. Ĉu mi povas ŝanĝi ilin?</string>
+    <string name="faq_4_text_commons">Jes. Kiam oni trenas fenestraĵon sur la hejmekrano, aperas ekrano de agordo de fenestraĵo, kie videblas koloraj kvadratoj dekstre-sube. Nur frapetu ilin por elekti novan koloron. Ankaŭ eblas uzi la ŝovilon por modifi la alfa-kanalon.</string>
+    <string name="faq_5_title_commons">Ĉu mi povus iumaniere restaŭri forigitajn dosierojn?</string>
+    <string name="faq_6_title_commons">La lanĉa bildsimbolo de la aplikaĵo malaperis. Kion povas mi fari?</string>
+    <string name="faq_7_title_commons">La mono estis prenita el mi bankokonto, sed mi ne povas elŝuti la aplikaĵon. Kion povas mi fari?</string>
+    <string name="faq_7_text_commons">Pagoj estas tute traktitaj pro Google, kies sistemo fojfoje misfunkcias. Simple viŝu la aplikaĵan kaŝon de Google Play, restartigu vian aparaton, kaj provu elŝuti ĝin denove.</string>
+    <string name="faq_5_text_commons">Se vi vere forigis ilin, tio ne eblas. Tamen, estas rubujo kiu defaŭlte esta ŝaltita kaj igas, ke dosieroj moviĝu al la rubujo anstataŭ esti forigitaj.</string>
+    <string name="faq_8_text_commons">Ĉar la versio de via aplikaĵo ne plu estos ĝisdatigita, la cimoj kiujn vi eble rimarkis neniam estos korektitaj, nek estos aldonita iu ajn nova funkcio. Vi povas aĉeti la version Pro je Google Play pro malgranda kvanto da mono. Estas unufoja pago, kiu volas diri, ke post aĉeti ĝin, vi neniam devos pagi denove, ne eĉ post aĉeti novan aparaton. Se vi ne ŝatas la version Pro, vi povas simple malinstali ĝin en kelkaj horoj, kaj via mono estos aŭtomate repagita. Se vi volas repagon post tio, nur kontaktu nin je hello@fossify.org kaj vi ricevos ĝin.</string>
 </resources>
