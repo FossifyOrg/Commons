@@ -942,4 +942,43 @@
     <string name="faq_7_text_commons">Pagoj estas tute traktitaj pro Google, kies sistemo fojfoje misfunkcias. Simple viŝu la aplikaĵan kaŝon de Google Play, restartigu vian aparaton, kaj provu elŝuti ĝin denove.</string>
     <string name="faq_5_text_commons">Se vi vere forigis ilin, tio ne eblas. Tamen, estas rubujo kiu defaŭlte esta ŝaltita kaj igas, ke dosieroj moviĝu al la rubujo anstataŭ esti forigitaj.</string>
     <string name="faq_8_text_commons">Ĉar la versio de via aplikaĵo ne plu estos ĝisdatigita, la cimoj kiujn vi eble rimarkis neniam estos korektitaj, nek estos aldonita iu ajn nova funkcio. Vi povas aĉeti la version Pro je Google Play pro malgranda kvanto da mono. Estas unufoja pago, kiu volas diri, ke post aĉeti ĝin, vi neniam devos pagi denove, ne eĉ post aĉeti novan aparaton. Se vi ne ŝatas la version Pro, vi povas simple malinstali ĝin en kelkaj horoj, kaj via mono estos aŭtomate repagita. Se vi volas repagon post tio, nur kontaktu nin je hello@fossify.org kaj vi ricevos ĝin.</string>
+    <string name="translation_bulgarian">Bulgara</string>
+    <string name="why_upgrade_batch_renaming">Altnivela renomado de multaj dosieroj</string>
+    <string name="why_upgrade_printing_support">Subteno de presado</string>
+    <string name="why_upgrade_basic_version">Baza</string>
+    <string name="why_upgrade_many_other_improvements">Multe da aliaj plibonigoj</string>
+    <string name="why_upgrade_advanced_photo_editor">Altnivela fotoredaktilo</string>
+    <string name="why_upgrade_time_zone_support">Subteno de horzonoj</string>
+    <string name="why_upgrade_pro_version">Pro</string>
+    <string name="why_upgrade_easy_event_importing">Facila importado de eventoj</string>
+    <string name="why_upgrade_footer">Garantio de 100% repago</string>
+    <string name="why_upgrade_improved_design">Plibonigita desegno</string>
+    <string name="faq_9_text_commons">Ekzistas kelkaj manieroj de tion fari. La unua estas longe premi elementon por aktivigi la elektan reĝimon, kaj poste frapeti aliajn por elekti ilin. La dua similas al elekti elementojn sur komputilo per muso. Simple aktivigu la elektan reĝimon per longe premi elementon, kaj kun via fingro ankoraŭ sur la ekrano, movu vian fingron trans aliaj elementoj. La tria maniero estas longe premi elementon kaj poste longe premi alian por elekti ĉion inter ili. Se vi volas elekti ĉiujn elementojn, simple longe premu unu kaj poste frapetu la nombrilon de elektitaj elementoj supre-maldekstre. Tio ĉion elektos aŭ malelektos.</string>
+    <string name="faq_10_title_commons">Mi aĉetis la aplikaĵon, sed mi ne povas elŝuti ĝin sur alia aparato.</string>
+    <string name="faq_10_text_commons">Provu forigi la aplikaĵan kaŝon de Google Play kaj restartigi vian aparaton. Estas iu cimo de Google Play, ne vere la aplikaĵo mem.</string>
+    <string name="contributors">Kontribuantoj</string>
+    <string name="development">Programado</string>
+    <string name="other_help">Alia helpo</string>
+    <string name="translation_english">Angla</string>
+    <string name="why_upgrade">Akiru la version Pro nun!</string>
+    <string name="why_upgrade_no_ads">Sen reklamoj</string>
+    <string name="why_upgrade_no_internet_access">Sen retkonekto</string>
+    <string name="why_upgrade_footer_one_time_payment">Unufoja pago</string>
+    <string name="why_upgrade_advanced_photo_video_editor">Altnivela redaktilo de fotoj kaj filmetoj</string>
+    <string name="why_upgrade_heic_support">Subteno de dosieroj HEIC/HEIF</string>
+    <string name="why_upgrade_folder_locking">Ŝlosado de unuopaj dosierujoj</string>
+    <string name="why_upgrade_attendees_emails">Ĉeestantoj kaj retpoŝtaj memorigiloj</string>
+    <string name="why_upgrade_new_widgets">Novaj fenestraĵoj</string>
+    <string name="translation_belarusian">Belorusa</string>
+    <string name="translation_chuvash">Ĉuvaŝa</string>
+    <string name="translation_esperanto">Esperanto</string>
+    <string name="translation_gujarati">Guĝarata</string>
+    <string name="translation_central_kurdish">Centra kurda</string>
+    <string name="translation_kabyle">Kabila</string>
+    <string name="translation">Tradukado</string>
+    <string name="contributors_label"><![CDATA[
+            Tiu ĉi listo enhavas ĉiujn kiuj rimarkeble helpis iun ajn aplikaĵon de Fossify, ne nur tiu ĉi. La tradukado estas traktita pro volontuloj.
+            Sciigu nin se vi ankaŭ ŝatus helpi nin. La traduka gvido troviĝas <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">ĉi tie</a>, aŭ vi povas kontakti nin je <a href="mailto:hello@fossify.org">hello@fossify.org</a> se via havas demandojn.
+            Dankon al ĉiuj kontribuantoj kaj aliaj subtenantoj!
+        ]]></string>
 </resources>
