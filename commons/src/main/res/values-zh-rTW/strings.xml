@@ -711,7 +711,7 @@
     <string name="nine">九</string>
     <string name="eight">八</string>
     <plurals name="row_counts">
-        <item quantity="other">%d 行</item>
+        <item quantity="other">%d 列</item>
     </plurals>
     <string name="export_blocked_numbers">匯出封鎖的電話號碼</string>
     <string name="import_blocked_numbers">匯入封鎖的電話號碼</string>
@@ -730,13 +730,13 @@
     <string name="record_video">錄製影片</string>
     <string name="audio">音訊</string>
     <string name="scanning">正在掃描…</string>
-    <string name="row_count">行數</string>
-    <string name="column_count">列數</string>
+    <string name="row_count">列數</string>
+    <string name="column_count">欄數</string>
     <string name="uneven_grid">無邊界網格</string>
-    <string name="portrait_column_count">直向列數</string>
-    <string name="landscape_column_count">橫向列數</string>
+    <string name="portrait_column_count">直向欄數</string>
+    <string name="landscape_column_count">橫向欄數</string>
     <plurals name="column_counts">
-        <item quantity="other">%d 列</item>
+        <item quantity="other">%d 欄</item>
     </plurals>
     <string name="translation_chinese_cn">簡體中文</string>
     <string name="translation_chinese_tw">正體中文（台灣）</string>
