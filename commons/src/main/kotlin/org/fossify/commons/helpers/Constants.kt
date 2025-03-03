@@ -296,7 +296,7 @@ const val SORT_USE_NUMERIC_VALUE = 32768
 const val SORT_BY_FULL_NAME = 65536
 const val SORT_BY_CUSTOM = 131072
 const val SORT_BY_DATE_CREATED = 262144
-const val SORT_BY_QUANTITY = 524288
+const val SORT_BY_COUNT = 524288
 
 // security
 const val PROTECTION_NONE = -1
