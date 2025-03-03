@@ -452,7 +452,7 @@
     <string name="sort_by">Sort by</string>
     <string name="name">Name</string>
     <string name="size">Size</string>
-    <string name="quantity">Quantity</string>
+    <string name="count">Count</string>
     <string name="last_modified">Last modified</string>
     <string name="date_created">Date created</string>
     <string name="date_taken">Date taken</string>
