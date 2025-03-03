@@ -260,7 +260,7 @@
     <string name="confirm_storage_access_text">Yazma erişimi vermek için lütfen bir sonraki ekranda SD kartın kök klasörünü seçin</string>
     <string name="confirm_storage_access_text_sd">SD kartı görmüyorsanız, bunu deneyin</string>
     <string name="confirm_storage_access_android_text">Lütfen alttaki \'Bu klasörü kullan\' seçeneğine basarak uygulamanın seçilen depolama alanına erişmesine izin verin.</string>
-    <string name="confirm_storage_access_android_text_specific">Lütfen alttaki \'<b>Bu klasörü kullan</b>\' seçeneğine basarak bir sonraki ekranda \'<b>%s</b>\' erişimine izin verin.</string>
+    <string name="confirm_storage_access_android_text_specific">Lütfen bir sonraki ekranda \'<b>Bu klasörü kullan</b>\' seçeneğine basarak \'<b>%s</b>\' erişimine izin verin.</string>
     <string name="confirm_create_doc_for_new_folder_text">Yeni klasörü oluşturmak için lütfen sonraki ekranın altındaki \'&lt;b&gt;Kaydet&lt;/b&gt;\' düğmesine basın.</string>
     <string name="confirm_selection">Seçimi onayla</string>
     <string name="loading">Yükleniyor…</string>
@@ -1054,7 +1054,7 @@
     <string name="trial_expires_soon">Deneme süreniz yakında sona eriyor.</string>
     <string name="unlock_for_one_final_day">Son bir gün için uygulamanın kilidini aç</string>
     <string name="welcome_to_app_name">%s uygulamasına hoş geldiniz!</string>
-    <string name="trial_start_description">Uygulamamızı kullandığınız için teşekkür ederiz. Bu kilitsiz sürümü <font color="#FFFFFF">%d gün</font> kullanabilirsiniz. Deneme sürümü sona erdiğinde, lütfen Pro sürümüne yükseltmeyi düşünün. Çok sayıda yeni özelliğe, modern tasarıma, reklamsız kullanıma ve diğer birçok iyileştirmeye sahiptir. \n \nBunun için yalnızca bir kez ödeme yapmanız yeterlidir, memnun kalmazsanız kaldırabilir ve geri ödeme alabilirsiniz. \n \nUmarım beğenirsiniz :)</string>
+    <string name="trial_start_description">Uygulamamızı kullandığınız için teşekkür ederiz. Bu kilidi açılmış sürümü <font color="#FFFFFF">%d gün</font> için kullanabilirsiniz. Deneme sürümü sona erdiğinde, lütfen Pro sürümüne yükseltmeyi düşünün. Çok sayıda yeni özellik, modern tasarım, reklamsız kullanıma ve diğer birçok iyileştirmeye sahiptir. \n\nBunun için yalnızca bir kez ödeme yapmanız yeterlidir, memnun kalmazsanız kaldırabilir ve geri ödeme alabilirsiniz.\n\nUmarım beğenirsiniz :)</string>
     <string name="trial_end_description">Uygulamanın keyfini sonuna kadar çıkarmak için lütfen Pro sürümüne yükseltin.
 \n
 \nYalnızca bir kez ödeme yapmanız yeterlidir, memnun kalmazsanız kaldırabilir ve geri ödeme alabilirsiniz.
@@ -1094,4 +1094,5 @@
     <string name="all_fossify_apps">Tüm Fossify uygulamaları</string>
     <string name="theme_and_colors">Tema ve renkler</string>
     <string name="known_issues">Bilinen sorunlar</string>
+    <string name="translation_kabyle">Zuvaya</string>
 </resources>

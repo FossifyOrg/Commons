@@ -185,7 +185,7 @@
     <string name="rename_folder_root">Andmekogu juurkausta nime ei saa muuta</string>
     <string name="rename_folder_ok">Kausta nime muutmine õnnestus</string>
     <string name="renaming_folder">Muudame kausta nime</string>
-    <string name="filename_cannot_be_empty">Faili peab olema nimi</string>
+    <string name="filename_cannot_be_empty">Failil peab olema nimi</string>
     <string name="filename_invalid_characters">Faili nimes on valesid tähemärke</string>
     <string name="filename_invalid_characters_placeholder">„%s“ faili nimes on valesid tähemärke</string>
     <string name="extension_cannot_be_empty">Faililaiend ei tohi olla puudu</string>
@@ -202,9 +202,9 @@
 \n%m - minut
 \n%s - sekund
 \n%i - loendur alates 1\'st</string>
-    <string name="filename_without_txt">Faili nimi (ilma .txt laiendita)</string>
-    <string name="filename_without_json">Faili nimi (ilma .json laiendita)</string>
-    <string name="filename_without_zip">Faili nimi (ilma .zip laiendita)</string>
+    <string name="filename_without_txt">Failinimi (ilma .txt laiendita)</string>
+    <string name="filename_without_json">Failinimi (ilma .json laiendita)</string>
+    <string name="filename_without_zip">Failinimi (ilma .zip laiendita)</string>
     <string name="cannot_hide_files">Alates Android 11-st ei saa enam selliseid faile ja kaustu peita</string>
     <string name="copy">Kopeeri</string>
     <string name="move">Teisalda</string>
@@ -286,9 +286,9 @@
         <item quantity="other">%d kontakti</item>
     </plurals>
     <string name="select_storage">Vali salvestusruum</string>
-    <string name="storage">Andmehoidla</string>
+    <string name="storage">Andmeruum</string>
     <string name="internal">Sisemine</string>
-    <string name="internal_storage">Sisemine andmehoidla</string>
+    <string name="internal_storage">Sisemine andmeruum</string>
     <string name="sd_card">SD-kaart</string>
     <string name="root">Juurkaust</string>
     <string name="wrong_root_selected">Valisid vale kausta, palun vali SD-kaardi juurkaust, mis on kõige esimene kaust</string>
@@ -390,27 +390,27 @@
     <string name="hide_line_numbers">Peida reanumbrid</string>
     <string name="sleep_timer">Unetaimer</string>
     <string name="unblock">Eemalda blokeering</string>
-    <string name="sort_by">Sordi</string>
-    <string name="name">Nimi</string>
+    <string name="sort_by">Järjesta</string>
+    <string name="name">Nime alusel</string>
     <string name="size">Suuruse alusel</string>
     <string name="last_modified">Viimati muutmise alusel</string>
     <string name="date_created">Loomise aja alusel</string>
     <string name="date_taken">Pildistamise aja alusel</string>
     <string name="date_added">Lisamise kuupäev</string>
     <string name="title">Pealkiri</string>
-    <string name="filename">Faili nimi</string>
+    <string name="filename">Failinimi</string>
     <string name="extension">Faililaiend</string>
     <string name="random">Juhuslik</string>
-    <string name="sort_randomly">Sorteeri juhuslikult</string>
+    <string name="sort_randomly">Järjesta juhuslikult</string>
     <string name="ascending">Kasvavalt</string>
     <string name="descending">Kahanevalt</string>
     <string name="use_for_this_folder">Kasuta vaid selles kaustas</string>
-    <string name="sort_numeric_parts">Sorteeri numbrilised osad tegeliku väärtuse alusel</string>
+    <string name="sort_numeric_parts">Järjesta numbrilised osad tegeliku väärtuse alusel</string>
     <string name="first_name">Eesnimi</string>
     <string name="middle_name">Keskmine nimi</string>
     <string name="surname">Perenimi</string>
     <string name="full_name">Täisnimi</string>
-    <string name="use_custom_sorting">Kasuta kohandatud sortimist</string>
+    <string name="use_custom_sorting">Kasuta sinu loodud järjestust</string>
     <string name="change_order">Muuda järjekorda</string>
     <string name="more_options">Lisavalikud</string>
     <string name="proceed_with_deletion">Kas oled kindel, et soovid kustutamist jätkata\?</string>

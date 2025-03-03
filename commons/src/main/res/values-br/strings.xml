@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="never">Norse</string>
     <string name="custom">Personelaet</string>
@@ -74,4 +75,5 @@
     <string name="friday_short">Gwe</string>
     <string name="saturday_short">Sad</string>
     <string name="sunday_short">Sul</string>
+    <string name="audio">Aodio</string>
 </resources>
