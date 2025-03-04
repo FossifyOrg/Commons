@@ -1172,4 +1172,5 @@
     <string name="all_fossify_apps">Всі застосунки Fossify</string>
     <string name="known_issues">Відомі проблеми</string>
     <string name="translation_kabyle">Кабільська</string>
+    <string name="number_of_items">Кількість предметів</string>
 </resources>
