@@ -232,7 +232,7 @@
     <string name="saving">Salvestame…</string>
     <string name="could_not_create_folder">%s kausta loomine ei õnnestunud</string>
     <string name="could_not_create_file">%s faili loomine ei õnnestunud</string>
-    <string name="no_new_items">Uusi objekte ei leidu</string>
+    <string name="no_new_items">Uusi kirjeid ei leidu</string>
     <string name="no_space">Sihtkausta andmekandjal pole piisavalt ruumi.\nVajalik on %1$s, aga leidub %2$s</string>
     <string name="system_service_disabled">Süsteemne teenus failide ja kaustade valimiseks pole saadaval</string>
     <string name="create_new">Loo uus</string>
@@ -378,8 +378,8 @@
     <string name="toggle_filename">Muuda failinime nähtavust</string>
     <string name="move_to_top">Tõsta kõige ülemiseks</string>
     <string name="move_to_bottom">Tõsta kõige alumiseks</string>
-    <string name="pin_item">Klammerda kirje</string>
-    <string name="unpin_item">Eemalda klammerdus</string>
+    <string name="pin_item">Tõsta objekt esile</string>
+    <string name="unpin_item">Eemalda objekti esiletõstmine</string>
     <string name="send_sms">Saada SMS sõnum</string>
     <string name="send_email">Saada e-kiri</string>
     <string name="call">Helista</string>
@@ -1103,4 +1103,5 @@
     <string name="all_fossify_apps">Kõik Fossify rakendused</string>
     <string name="known_issues">Teadaolevad vead</string>
     <string name="translation_kabyle">kabiili keel</string>
+    <string name="number_of_items">Objektide arv</string>
 </resources>
