@@ -1141,4 +1141,5 @@
     <string name="all_fossify_apps">Všechny aplikace Fossify</string>
     <string name="known_issues">Známé problémy</string>
     <string name="translation_kabyle">Kabylština</string>
+    <string name="number_of_items">Počet položek</string>
 </resources>
