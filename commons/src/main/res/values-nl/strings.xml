@@ -825,7 +825,9 @@
     <string name="sms_messenger_short">Berichten</string>
     <string name="thank_you_short">Bedankt!</string>
     <string name="voice_recorder_short">Geluidsrecorder</string>
-    <string name="sideloaded_app">Het lijkt erop dat deze versie van de app corrupt is. Download de originele versie &lt;a href=%s&gt;hier&lt;/a&gt;.</string>
+    <string name="sideloaded_app"><![CDATA[
+            Het lijkt erop dat deze versie van de app corrupt is. Download de originele versie <a href="%s">hier</a>
+        ]]></string>
     <string name="frequently_asked_questions">Veelgestelde vragen</string>
     <string name="before_asking_question">Lees vóór het insturen van een vraag eerst de</string>
     <string name="faq_1_title_commons">Waarom zie ik de widget van deze app niet in de lijst met widgets?</string>
@@ -1045,4 +1047,5 @@
     <string name="known_issues">Bekende problemen</string>
     <string name="during_day_at">Overdag om %1$02d.%2$02du</string>
     <string name="translation_kabyle">Kabylisch</string>
+    <string name="number_of_items">Aantal items</string>
 </resources>
