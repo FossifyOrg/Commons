@@ -473,6 +473,7 @@
     <string name="use_custom_sorting">Use custom sorting</string>
     <string name="change_order">Change order</string>
     <string name="more_options">More options</string>
+    <string name="reorder_items_by_dragging">Reorder items by dragging</string>
 
     <!-- Confirmation dialog -->
     <string name="proceed_with_deletion">Are you sure you want to proceed with the deletion?</string>
