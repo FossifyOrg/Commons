@@ -1037,4 +1037,5 @@
     <string name="translation_kabyle">Кабилски</string>
     <string name="format_phone_numbers">Форматиране на телефонните номера</string>
     <string name="number_of_items">Брой елементи</string>
+    <string name="reorder_items_by_dragging">Подреждане на елементите с влачене</string>
 </resources>
