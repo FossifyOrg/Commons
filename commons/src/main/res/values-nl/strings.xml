@@ -1048,4 +1048,5 @@
     <string name="during_day_at">Overdag om %1$02d.%2$02du</string>
     <string name="translation_kabyle">Kabylisch</string>
     <string name="number_of_items">Aantal items</string>
+    <string name="reorder_items_by_dragging">Items herschikken door te slepen</string>
 </resources>
