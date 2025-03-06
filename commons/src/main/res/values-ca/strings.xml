@@ -1146,4 +1146,5 @@
     <string name="known_issues">Problemes coneguts</string>
     <string name="translation_kabyle">Cabilenc</string>
     <string name="number_of_items">Nombre d\'elements</string>
+    <string name="reorder_items_by_dragging">Reordena els elements arrossegant-los</string>
 </resources>
