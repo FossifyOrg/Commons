@@ -244,7 +244,7 @@
     <string name="value">Luach</string>
     <string name="value_cannot_be_empty">Ní féidir luach a bheith folamh</string>
     <string name="phone_storage">Stóráil fón</string>
-    <string name="phone_storage_hidden">Stóráil fóin (nach bhfuil le feiceáil ag aipeanna eile)</string>
+    <string name="phone_storage_hidden">Stóras gutháin (níl aipeanna eile le feiceáil)</string>
     <string name="scanning">Á scanadh…</string>
     <string name="birthday">Breithlá</string>
     <string name="audio">Fuaime</string>
@@ -1157,4 +1157,6 @@
     <string name="sms_messenger_short">Teachtaireachtaí SMS</string>
     <string name="cryptocurrency">Criptea-airgeadra</string>
     <string name="translation_kabyle">Kabyle</string>
+    <string name="reorder_items_by_dragging">Déan míreanna a athordú trí tharraingt</string>
+    <string name="number_of_items">Líon míreanna</string>
 </resources>
