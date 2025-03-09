@@ -337,7 +337,9 @@
     <string name="save_before_closing">Certaines modifications ne sont pas enregistrées. Voulez-vous les enregistrer avant de quitter \?</string>
     <string name="app_icon_color_warning">Attention : Certains lanceurs peuvent ne pas manipuler correctement la personnalisation de l\'icône d\'application. Si l\'icône disparaît, essayez de lancer l\'application via Google Play ou un widget, si accessible. Après le lancement, restaurer la couleur d\'icône verte par défaut #106D1F. Dans les cas extrêmes, réinstaller l\'application peut être nécessaire.</string>
     <string name="global_theme_success">Actualisation des couleurs réussie. Un nouveau thème nommé \"Partagé\" a été ajouté. Veuillez utiliser dorénavant ce thème pour actualiser les couleurs de toutes les applications.</string>
-    <string name="purchase_thank_you">Veuillez acheter &lt;a href=https ://play.google.com/store/apps/details ?id=org.fossify.thankyou&gt;Fossify Merci&lt;/a&gt; pour déverrouiller cette fonction et soutenir le développement. Merci !</string>
+    <string name="purchase_thank_you"><![CDATA[
+            Veuillez acheter <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Merci Fossify</a> pour déverrouiller cette fonction et soutenir le développement. Merci !
+        ]]></string>
     <string name="light_theme">Clair</string>
     <string name="dark_theme">Sombre</string>
     <string name="auto_theme">Automatique</string>
@@ -881,7 +883,11 @@
     <string name="additional_info">Informations supplémentaires</string>
     <string name="app_version">Version de l\'application : %s</string>
     <string name="device_os">Système d\'exploitation de l\'appareil : %s</string>
-    <string name="donate_please">Bonjour, &lt;br&gt;&lt;br&gt;j\'espère que vous appréciez l\'application. Elle ne contient pas d\'annonces, alors veuillez soutenir son développement en achetant l\'appli &lt;a href=https ://play.google.com/store/apps/details ?id=org.fossify.thankyou&gt;Fossify Merci&lt;/a&gt;, elle empêchera également ce dialogue de se montrer à nouveau. Merci !</string>
+    <string name="donate_please"><![CDATA[
+            Bonjour, <br><br>
+j'espère que vous appréciez l'application. Elle ne contient pas d'annonces, vous pouvez soutenir son développement en achetant l'appli <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Merci Fossify</a>, cela empêchera également ce dialogue de se montrer à nouveau.<br><br>
+            Merci !
+        ]]></string>
     <string name="purchase">Acheter</string>
     <string name="update_thank_you">Veuillez mettre à jour Fossify Merci</string>
     <string name="before_asking_question_read_faq">Avant de poser une question, veuillez tout d\'abord vérifier les paramètres de l\'application et lire la foire aux questions. Il est possible que la solution s\'y trouve.</string>
@@ -903,7 +909,15 @@
     <string name="thank_you">Merci</string>
     <string name="widget_locked_pro">Le widget est verrouillé.
 \nVeuillez passer à la version \"Pro\" pour le déverrouiller.</string>
-    <string name="new_app">Bonjour,&lt;br&gt;&lt;br&gt; Nous vous informons que de nouvelles applications ont été publiées récemment :&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; Vous pouvez les télécharger en appuyant sur leurs titres ou icônes.&lt;br&gt;&lt;br&gt; Merci</string>
+    <string name="new_app"><![CDATA[
+            Bonjour,<br><br>
+            Nous vous informons que de nouvelles applications ont été publiées récemment :<br><br>
+            <a href="%1$s">%2$s</a><br><br>
+            <a href="%3$s">%4$s</a><br><br>
+            <a href="%5$s">%6$s</a><br><br>
+            Vous pouvez les télécharger en appuyant sur leurs titres ou icônes.<br><br>
+            Merci
+        ]]></string>
     <string name="app_launcher_short">Lanceur d\'applications</string>
     <string name="calculator_short">Calculatrice</string>
     <string name="calendar_short">Agenda</string>
@@ -921,7 +935,7 @@
     <string name="thank_you_short">Merci</string>
     <string name="voice_recorder_short">Enregistreur vocal</string>
     <string name="sideloaded_app"><![CDATA[
-            La version de votre application semble corrompue. Merci de télécharger la version originale en suivant <a href=%s>ce lien</a>
+            La version de votre application semble corrompue. Merci de télécharger la version originale <a href="%s"> en suivant ce lien</a>.
         ]]></string>
     <string name="frequently_asked_questions">Foire aux questions</string>
     <string name="before_asking_question">Avant de poser une question, veuillez tout d\'abord consulter la</string>
@@ -1079,7 +1093,11 @@
     <string name="deprecated_app">ATTENTION : cette version de l\'application n\'est plus maintenue à jour. Veuillez vous procurer la version \"Pro\" à l\'adresse web suivante : https://play.google.com/store/apps/details\?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">N\'oubliez pas que si vous désinstallez une application payante dans les deux heures qui suivent son achat, le remboursement sera automatique. À tout moment, si vous souhaitez un remboursement, contactez-nous à l\'adresse électronique suivante : hello@fossify.org et vous l\'obtiendrez dans les plus brefs délais. Cela facilite l\'essai de nos applications :)</string>
     <string name="developer_description">Une suite d\'applications Android simples, à code source ouvert, comprenant des widgets personnalisables, sans publicités ni permissions inutiles.</string>
-    <string name="contributors_label">Cette liste contient toutes les personnes qui ont sensiblement aidé n\'importe quelle application de la suite Fossify, pas seulement celle-ci. Les traductions sont assurées par des bénévoles, faites-nous savoir si vous souhaitez également aider. Le guide de traduction se trouve sur &lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;ce site Web&lt;/a&gt;, ou contactez-nous simplement à &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; si vous avez des questions. Merci à tous les contributeurs et autres supporters !</string>
+    <string name="contributors_label"><![CDATA[
+            TCette liste contient toutes les personnes qui ont sensiblement aidé n'importe quelle application de la suite Fossify, pas seulement celle-ci. Les traductions sont assurées par des bénévoles,
+            faites-nous savoir si vous souhaitez également aider. Le guide de traduction se trouve sur <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">ce site web</a>, ou contactez-nous simplement à <a href="mailto:hello@fossify.org">hello@fossify.org</a> si vous avez des questions..
+            Merci à tous les contributeurs et tous ceux qui nous soutiennent !
+        ]]></string>
     <string name="notes">Notes</string>
     <string name="transparent">Transparent</string>
     <string name="notification">Notification</string>
@@ -1115,7 +1133,7 @@
     <string name="translation_breton">Breton</string>
     <string name="translation_hindi">Hindi</string>
     <string name="faq_2_text_commons"><![CDATA[
-            Oui bien sûr. Vous pouvez faire connaître les applications ou donner de bons commentaires et notes. Vous pouvez également nous aider en traduisant les applications dans une nouvelle langue ou simplement en mettant à jour certaines traductions existantes.
+            Oui bien sûr. Vous pouvez nous aider en partageant les applications ou en laissant des notes et commentaires positifs. Vous pouvez également nous aider en traduisant les applications dans une nouvelle langue, ou simplement en mettant à jour certaines traductions existantes.
             Le guide de traduction se trouve sur <a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file>ce site Web</a>, ou contactez-nous simplement à <a href=mailto:hello@fossify.org>hello@fossify.org</a> si vous avez des questions.
         ]]></string>
     <string name="translation_catalan">Catalan</string>
@@ -1136,4 +1154,6 @@
     <string name="translation_kabyle">Kabyle</string>
     <string name="translation_esperanto">Espéranto</string>
     <string name="translation_gujarati">Gujarati</string>
+    <string name="number_of_items">Nombre d\'éléments</string>
+    <string name="reorder_items_by_dragging">Réorganiser les éléments en les faisant glisser</string>
 </resources>

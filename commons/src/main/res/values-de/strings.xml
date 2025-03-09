@@ -1105,4 +1105,6 @@
     <string name="all_fossify_apps">Alle Fossify-Apps</string>
     <string name="known_issues">Bekannte Probleme</string>
     <string name="translation_kabyle">Kabylisch</string>
+    <string name="number_of_items">Anzahl der Elemente</string>
+    <string name="reorder_items_by_dragging">Elemente durch Ziehen neu anordnen</string>
 </resources>
