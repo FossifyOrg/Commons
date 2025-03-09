@@ -885,7 +885,7 @@
     <string name="device_os">Système d\'exploitation de l\'appareil : %s</string>
     <string name="donate_please"><![CDATA[
             Bonjour, <br><br>
-j'espère que vous appréciez l'application. Elle ne contient pas d'annonces, vous pouvez soutenir son développement en achetant l'appli <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Merci Fossify</a>, cela empêchera également ce dialogue de se montrer à nouveau.<br><br>
+j\'espère que vous appréciez l\'application. Elle ne contient pas d\'annonces, vous pouvez soutenir son développement en achetant l\'appli <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Merci Fossify</a>, cela empêchera également ce dialogue de se montrer à nouveau.<br><br>
             Merci !
         ]]></string>
     <string name="purchase">Acheter</string>
@@ -1094,7 +1094,7 @@ j'espère que vous appréciez l'application. Elle ne contient pas d'annonces, vo
     <string name="pro_app_refund">N\'oubliez pas que si vous désinstallez une application payante dans les deux heures qui suivent son achat, le remboursement sera automatique. À tout moment, si vous souhaitez un remboursement, contactez-nous à l\'adresse électronique suivante : hello@fossify.org et vous l\'obtiendrez dans les plus brefs délais. Cela facilite l\'essai de nos applications :)</string>
     <string name="developer_description">Une suite d\'applications Android simples, à code source ouvert, comprenant des widgets personnalisables, sans publicités ni permissions inutiles.</string>
     <string name="contributors_label"><![CDATA[
-            TCette liste contient toutes les personnes qui ont sensiblement aidé n'importe quelle application de la suite Fossify, pas seulement celle-ci. Les traductions sont assurées par des bénévoles,
+            TCette liste contient toutes les personnes qui ont sensiblement aidé n\'importe quelle application de la suite Fossify, pas seulement celle-ci. Les traductions sont assurées par des bénévoles,
             faites-nous savoir si vous souhaitez également aider. Le guide de traduction se trouve sur <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">ce site web</a>, ou contactez-nous simplement à <a href="mailto:hello@fossify.org">hello@fossify.org</a> si vous avez des questions..
             Merci à tous les contributeurs et tous ceux qui nous soutiennent !
         ]]></string>
