@@ -1104,4 +1104,5 @@
     <string name="known_issues">Teadaolevad vead</string>
     <string name="translation_kabyle">kabiili keel</string>
     <string name="number_of_items">Objektide arv</string>
+    <string name="reorder_items_by_dragging">Muuda järjestust lohistades</string>
 </resources>
