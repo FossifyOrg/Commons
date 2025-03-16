@@ -489,4 +489,5 @@
     <string name="privacy_policy">מדיניות פרטיות</string>
     <string name="email_label">שלח משוב או הצעות לשיפור אל</string>
     <string name="website_label">לצפייה בקודי המקור</string>
+    <string name="format_phone_numbers">עיצוב מספרי טלפון</string>
 </resources>
