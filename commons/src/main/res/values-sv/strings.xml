@@ -1066,4 +1066,6 @@
     <string name="translation_chuvash">Tjuvasjiska</string>
     <string name="translation_esperanto">Esperanto</string>
     <string name="translation_gujarati">Gujarati</string>
+    <string name="reorder_items_by_dragging">Ordna om objekt genom att dra</string>
+    <string name="number_of_items">Antal objekt</string>
 </resources>
