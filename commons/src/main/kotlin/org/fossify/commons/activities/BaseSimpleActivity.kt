@@ -1127,32 +1127,19 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
     }
 
     fun exportSettings(configItems: LinkedHashMap<String, Any>) {
-        if (isQPlus()) {
-            configItemsToExport = configItems
-            ExportSettingsDialog(this, getExportSettingsFilename(), true) { path, filename ->
-                Intent(Intent.ACTION_CREATE_DOCUMENT).apply {
-                    type = "text/plain"
-                    putExtra(Intent.EXTRA_TITLE, filename)
-                    addCategory(Intent.CATEGORY_OPENABLE)
+        configItemsToExport = configItems
+        ExportSettingsDialog(this, getExportSettingsFilename(), true) { path, filename ->
+            Intent(Intent.ACTION_CREATE_DOCUMENT).apply {
+                type = "text/plain"
+                putExtra(Intent.EXTRA_TITLE, filename)
+                addCategory(Intent.CATEGORY_OPENABLE)
 
-                    try {
-                        startActivityForResult(this, SELECT_EXPORT_SETTINGS_FILE_INTENT)
-                    } catch (e: ActivityNotFoundException) {
-                        toast(R.string.system_service_disabled, Toast.LENGTH_LONG)
-                    } catch (e: Exception) {
-                        showErrorToast(e)
-                    }
-                }
-            }
-        } else {
-            handlePermission(PERMISSION_WRITE_STORAGE) {
-                if (it) {
-                    ExportSettingsDialog(this, getExportSettingsFilename(), false) { path, filename ->
-                        val file = File(path)
-                        getFileOutputStream(file.toFileDirItem(this), true) {
-                            exportSettingsTo(it, configItems)
-                        }
-                    }
+                try {
+                    startActivityForResult(this, SELECT_EXPORT_SETTINGS_FILE_INTENT)
+                } catch (e: ActivityNotFoundException) {
+                    toast(R.string.system_service_disabled, Toast.LENGTH_LONG)
+                } catch (e: Exception) {
+                    showErrorToast(e)
                 }
             }
         }
