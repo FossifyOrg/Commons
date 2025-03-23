@@ -753,8 +753,8 @@
     <string name="friday_short">Fre</string>
     <string name="saturday_short">Lör</string>
     <string name="sunday_short">Sön</string>
-    <string name="upgrade_to_pro_long">Din appversion kommer inte updateras mer. Vänligen upgradera till Pro-versionen för att ta del av förbättringar och bugfixar.</string>
-    <string name="upgrade_to_pro_long_click">Din appversion kommer inte updateras mer. Vänligen upgradera till Pro-versionen för att ta del av förbättringar och bugfixar genom att klicka här.</string>
+    <string name="upgrade_to_pro_long">Din appversion uppdateras inte längre. Uppgradera till Pro-versionen för att få nya korrigeringar och andra förbättringar.</string>
+    <string name="upgrade_to_pro_long_click">Din appversion uppdateras inte längre. Uppgradera till Pro-versionen för att få nya korrigeringar och andra förbättringar genom att klicka här.</string>
     <string name="it_is_free">Den är gratis fram till: %s. Om du hämtar den innan dess, kan du använda den kostnadsfritt för all framtid.</string>
     <string name="more_info">Mer information</string>
     <string name="upgrade">Uppgradera</string>
@@ -1066,4 +1066,7 @@
     <string name="translation_chuvash">Tjuvasjiska</string>
     <string name="translation_esperanto">Esperanto</string>
     <string name="translation_gujarati">Gujarati</string>
+    <string name="reorder_items_by_dragging">Ordna om objekt genom att dra</string>
+    <string name="number_of_items">Antal objekt</string>
+    <string name="translation_kabyle">Kabyliska</string>
 </resources>

@@ -89,7 +89,7 @@
     <string name="calendar_short">Kalendaro</string>
     <string name="camera_short">Kamerao</string>
     <string name="clock_short">Horloĝo</string>
-    <string name="contacts_short">Kontaktadministrilo</string>
+    <string name="contacts_short">Kontaktoj</string>
     <string name="gallery_short">Galerio</string>
     <string name="music_player_short">Muzikludilo</string>
     <string name="notes_short">Notoj</string>
@@ -730,7 +730,7 @@
     <string name="hide_the_recycle_bin">Kaŝi rubujon</string>
     <string name="snooze_time">Longo de daŭrigo</string>
     <string name="start_week_on">Komenco de la semajno</string>
-    <string name="thumbnails">Miniaturoj</string>
+    <string name="thumbnails">Bildetoj</string>
     <string name="export_settings">Eksporti agordojn</string>
     <string name="last_used_tab">Laste uzata</string>
     <string name="move_items_into_recycle_bin">Movi elementojn al la rubujo anstataŭ forigi</string>
