@@ -1000,7 +1000,7 @@
     <string name="why_upgrade_batch_renaming">Canvi de nom de fitxers per lots avançat</string>
     <string name="why_upgrade_folder_locking">Bloqueig de carpetes individuals</string>
     <string name="why_upgrade_printing_support">Implementació de la impressió</string>
-    <string name="why_upgrade_time_zone_support">Implementació de zones horàries</string>
+    <string name="why_upgrade_time_zone_support">Implementació de fusos horaris</string>
     <string name="why_upgrade_attendees_emails">Assistents i recordatoris per correu electrònic</string>
     <string name="why_upgrade_easy_event_importing">Importació fàcil d\'esdeveniments</string>
     <string name="why_upgrade_new_widgets">Ginys nous</string>
