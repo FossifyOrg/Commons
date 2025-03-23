@@ -1,6 +1,5 @@
 package org.fossify.commons.activities
 
-import android.app.Activity
 import android.app.Application
 import android.content.ActivityNotFoundException
 import android.content.Intent
@@ -30,7 +29,6 @@ import org.fossify.commons.compose.screens.ManageBlockedNumbersScreen
 import org.fossify.commons.compose.theme.AppThemeSurface
 import org.fossify.commons.dialogs.AddOrEditBlockedNumberAlertDialog
 import org.fossify.commons.dialogs.ExportBlockedNumbersDialog
-import org.fossify.commons.dialogs.FilePickerDialog
 import org.fossify.commons.extensions.*
 import org.fossify.commons.helpers.*
 import org.fossify.commons.models.BlockedNumber
@@ -147,31 +145,17 @@ class ManageBlockedNumbersActivity : BaseSimpleActivity() {
     }
 
     private fun tryImportBlockedNumbers() {
-        if (isQPlus()) {
-            Intent(Intent.ACTION_GET_CONTENT).apply {
-                addCategory(Intent.CATEGORY_OPENABLE)
-                type = "text/plain"
+        Intent(Intent.ACTION_GET_CONTENT).apply {
+            addCategory(Intent.CATEGORY_OPENABLE)
+            type = "text/plain"
 
-                try {
-                    startActivityForResult(this, PICK_IMPORT_SOURCE_INTENT)
-                } catch (e: ActivityNotFoundException) {
-                    toast(R.string.system_service_disabled, Toast.LENGTH_LONG)
-                } catch (e: Exception) {
-                    showErrorToast(e)
-                }
+            try {
+                startActivityForResult(this, PICK_IMPORT_SOURCE_INTENT)
+            } catch (e: ActivityNotFoundException) {
+                toast(R.string.system_service_disabled, Toast.LENGTH_LONG)
+            } catch (e: Exception) {
+                showErrorToast(e)
             }
-        } else {
-            handlePermission(PERMISSION_READ_STORAGE) { isAllowed ->
-                if (isAllowed) {
-                    pickFileToImportBlockedNumbers()
-                }
-            }
-        }
-    }
-
-    private fun pickFileToImportBlockedNumbers() {
-        FilePickerDialog(this) {
-            importBlockedNumbers(it)
         }
     }
 
@@ -235,20 +219,19 @@ class ManageBlockedNumbersActivity : BaseSimpleActivity() {
                 updateBlockedNumbers()
             }
 
-            requestCode == PICK_IMPORT_SOURCE_INTENT && resultCode == Activity.RESULT_OK && resultData != null && resultData.data != null -> {
+            requestCode == PICK_IMPORT_SOURCE_INTENT && resultCode == RESULT_OK && resultData != null && resultData.data != null -> {
                 tryImportBlockedNumbersFromFile(resultData.data!!)
             }
 
-            requestCode == PICK_EXPORT_FILE_INTENT && resultCode == Activity.RESULT_OK && resultData != null && resultData.data != null -> {
+            requestCode == PICK_EXPORT_FILE_INTENT && resultCode == RESULT_OK && resultData != null && resultData.data != null -> {
                 val outputStream = contentResolver.openOutputStream(resultData.data!!)
                 exportBlockedNumbersTo(outputStream)
             }
 
-            requestCode == REQUEST_CODE_SET_DEFAULT_CALLER_ID && resultCode != Activity.RESULT_OK -> {
+            requestCode == REQUEST_CODE_SET_DEFAULT_CALLER_ID && resultCode != RESULT_OK -> {
                 toast(R.string.must_make_default_caller_id_app, length = Toast.LENGTH_LONG)
                 baseConfig.blockUnknownNumbers = false
                 baseConfig.blockHiddenNumbers = false
-
             }
         }
     }
@@ -272,30 +255,18 @@ class ManageBlockedNumbersActivity : BaseSimpleActivity() {
     }
 
     private fun tryExportBlockedNumbers() {
-        if (isQPlus()) {
-            ExportBlockedNumbersDialog(this, baseConfig.lastBlockedNumbersExportPath, true) { file ->
-                Intent(Intent.ACTION_CREATE_DOCUMENT).apply {
-                    type = "text/plain"
-                    putExtra(Intent.EXTRA_TITLE, file.name)
-                    addCategory(Intent.CATEGORY_OPENABLE)
+        ExportBlockedNumbersDialog(this, baseConfig.lastBlockedNumbersExportPath, true) { file ->
+            Intent(Intent.ACTION_CREATE_DOCUMENT).apply {
+                type = "text/plain"
+                putExtra(Intent.EXTRA_TITLE, file.name)
+                addCategory(Intent.CATEGORY_OPENABLE)
 
-                    try {
-                        startActivityForResult(this, PICK_EXPORT_FILE_INTENT)
-                    } catch (e: ActivityNotFoundException) {
-                        toast(R.string.system_service_disabled, Toast.LENGTH_LONG)
-                    } catch (e: Exception) {
-                        showErrorToast(e)
-                    }
-                }
-            }
-        } else {
-            handlePermission(PERMISSION_WRITE_STORAGE) { isAllowed ->
-                if (isAllowed) {
-                    ExportBlockedNumbersDialog(this, baseConfig.lastBlockedNumbersExportPath, false) { file ->
-                        getFileOutputStream(file.toFileDirItem(this), true) { out ->
-                            exportBlockedNumbersTo(out)
-                        }
-                    }
+                try {
+                    startActivityForResult(this, PICK_EXPORT_FILE_INTENT)
+                } catch (e: ActivityNotFoundException) {
+                    toast(R.string.system_service_disabled, Toast.LENGTH_LONG)
+                } catch (e: Exception) {
+                    showErrorToast(e)
                 }
             }
         }
