@@ -36,9 +36,12 @@ import androidx.appcompat.widget.Toolbar
 import androidx.coordinatorlayout.widget.CoordinatorLayout
 import androidx.core.animation.doOnEnd
 import androidx.core.app.ActivityCompat
+import androidx.core.net.toUri
 import androidx.core.util.Pair
 import androidx.core.view.ScrollingView
 import androidx.core.view.WindowInsetsCompat
+import androidx.core.view.get
+import androidx.core.view.size
 import androidx.core.widget.NestedScrollView
 import androidx.recyclerview.widget.RecyclerView
 import org.fossify.commons.R
@@ -316,9 +319,9 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
         toolbar.overflowIcon = resources.getColoredDrawableWithColor(R.drawable.ic_three_dots_vector, contrastColor)
 
         val menu = toolbar.menu
-        for (i in 0 until menu.size()) {
+        for (i in 0 until menu.size) {
             try {
-                menu.getItem(i)?.icon?.setTint(contrastColor)
+                menu[i].icon?.setTint(contrastColor)
             } catch (ignored: Exception) {
             }
         }
@@ -411,9 +414,9 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
             color = Color.WHITE
         }
 
-        for (i in 0 until menu.size()) {
+        for (i in 0 until menu.size) {
             try {
-                menu.getItem(i)?.icon?.setTint(color)
+                menu[i].icon?.setTint(color)
             } catch (ignored: Exception) {
             }
         }
@@ -864,7 +867,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
     @RequiresApi(Build.VERSION_CODES.S)
     fun launchMediaManagementIntent(callback: () -> Unit) {
         Intent(Settings.ACTION_REQUEST_MANAGE_MEDIA).apply {
-            data = Uri.parse("package:$packageName")
+            data = "package:$packageName".toUri()
             try {
                 startActivityForResult(this, MANAGE_MEDIA_RC)
             } catch (e: Exception) {
@@ -986,6 +989,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
         }
     }
 
+    @SuppressLint("DefaultLocale")
     fun getAlternativeFile(file: File): File {
         var fileIndex = 1
         var newFile: File?
