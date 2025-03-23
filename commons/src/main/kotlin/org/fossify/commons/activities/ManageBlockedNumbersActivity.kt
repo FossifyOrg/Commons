@@ -259,7 +259,11 @@ class ManageBlockedNumbersActivity : BaseSimpleActivity() {
     }
 
     private fun tryExportBlockedNumbers() {
-        ExportBlockedNumbersDialog(this, baseConfig.lastBlockedNumbersExportPath, true) { file ->
+        ExportBlockedNumbersDialog(
+            activity = this,
+            path = baseConfig.lastBlockedNumbersExportPath,
+            hidePath = true
+        ) { file ->
             try {
                 createDocument.launch(file.name)
             } catch (_: ActivityNotFoundException) {
