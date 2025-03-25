@@ -587,7 +587,7 @@
     <string name="notifications_disabled">Selle rakenduse teavitused on välja lülitatud. Nende lubamiseks ava oma nutiseadme seadistused.</string>
     <string name="alarm">Äratus</string>
     <string name="snooze">Tukasta</string>
-    <string name="dismiss">Jäta vahele</string>
+    <string name="dismiss">Lõpeta</string>
     <string name="no_reminder">Meeldetuletus puudub</string>
     <string name="at_start">Käivitamisel</string>
     <string name="system_sounds">Süsteemi helid</string>
