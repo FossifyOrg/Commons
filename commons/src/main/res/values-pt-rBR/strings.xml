@@ -302,7 +302,7 @@
     <string name="undo_changes_confirmation">Tem certeza que deseja desfazer as alterações?</string>
     <string name="cannot_be_undone">Esta ação não pode ser revertida.</string>
     <string name="save_before_closing">Existem alterações não salvas. Salvar antes de sair?</string>
-    <string name="global_theme_success">Cores atualizadas com sucesso. Um novo tema chamado \'Compartilhado\' foi adicionado, use-o para atualizar as cores de todos os apps no futuro.</string>
+    <string name="global_theme_success">O tema atual foi aplicado com sucesso a todos os aplicativos Fossify. Quaisquer alterações futuras neste tema serão sincronizadas automaticamente.</string>
     <string name="purchase_thank_you"><![CDATA[
             Por favor, compre <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Thank You</a> para desbloquear essa função e apoiar o desenvolvimento. Obrigado!
         ]]></string>
@@ -601,7 +601,7 @@
     <string name="password_protect_hidden_items">Proteger com senha a visualização de itens ocultos</string>
     <string name="password_protect_whole_app">Proteger com senha todo o app</string>
     <string name="password_protect_file_deletion">Proteger com senha as operações de excluir e mover arquivos</string>
-    <string name="keep_last_modified">Não atualizar o valor Data de modificação nas operações com arquivo</string>
+    <string name="keep_last_modified">Manter o valor antigo da última modificação nas operações de arquivo</string>
     <string name="show_info_bubble">Exibir bolha de informação ao rolar usando a barra de rolagem</string>
     <string name="prevent_phone_from_sleeping">Impedir que o telefone entre em suspensão enquanto o aplicativo estiver em primeiro plano</string>
     <string name="skip_delete_confirmation">Sempre pular confirmação de exclusão</string>
@@ -734,27 +734,17 @@
     <string name="more_info">Mais informação</string>
     <string name="upgrade">Atualizar</string>
     <string name="upgrade_calendar">Você precisará migrar de forma manual os eventos armazenados localmente. Você pode fazer isso exportando-os para um arquivo .ics, e depois importando este arquivo. Você pode encontrar os botões de importar/exportar no menu da tela inicial.</string>
-    <string name="upgraded_from_free">Olá,
-\n
-\nparece que você acabou de atualizar a partir da versão gratuita. Assim que você estiver feliz com esta versão e já tenha migrado seus dados, você pode desinstalar a antiga versão gratuita para evitar abri-la acidentalmente, pois você não precisará mais dela.
-\n
-\nObrigado!</string>
+    <string name="upgraded_from_free">Olá, \n \nParece que você acabou de atualizar da versão gratuita. Assim que você estiver satisfeito com esta versão e já tenha migrado seus dados, você pode desinstalar a antiga versão gratuita para evitar abri-la acidentalmente, pois você não precisará mais dela. \n \nObrigado!</string>
     <string name="upgraded_to_pro">Olá
 \n
 \nparece que você já tem a versão Pro também. Uma vez que você esteja feliz com e já tenha migrado seus dados, você pode desinstalar esta versão para evitar lançá-la acidentalmente, pois você não precisará mais dela.
 \n
 \nObrigado!</string>
-    <string name="upgraded_from_free_calendar">Olá
-\n
-\nparece que você acabou de atualizar a partir da versão gratuita. Se você quiser migrar seus eventos armazenados localmente, você tem que fazê-lo manualmente, exportando-os para um arquivo .ics na versão gratuita do aplicativo e importando aqui através do menu superior.
-\n
-\nUma vez que você esteja satisfeito com sua configuração na versão Pro, você pode desinstalar o antigo gratuito, pois você não precisará mais dele.
-\n
-\nObrigado!</string>
+    <string name="upgraded_from_free_calendar">Olá \n \nParece que você acabou de atualizar da versão gratuita. Se você quiser migrar seus eventos armazenados localmente, você tem que fazê-lo manualmente, exportando-os para um arquivo .ics na versão gratuita do aplicativo e importando aqui através do menu superior. \n \nUma vez que você esteja satisfeito com sua configuração na versão Pro, você pode desinstalar o antigo gratuito, pois você não precisará mais dele. \n \nObrigado!</string>
     <string name="about">Sobre</string>
     <string name="website_label">Para os código-fonte visite</string>
     <string name="email_label">Envie os seus comentários ou sugestões para</string>
-    <string name="upgrade_to_pro">Atualizar para versão Pro</string>
+    <string name="upgrade_to_pro">Atualizar para versão Pró</string>
     <string name="more_apps">Mais aplicativos</string>
     <string name="more_apps_from_us">Mais aplicativos nossos</string>
     <string name="invite_friends">Convidar amigos</string>
@@ -840,7 +830,7 @@
     <string name="faq_6_title_commons">O ícone do app desapareceu. O que posso fazer?</string>
     <string name="faq_7_title_commons">O dinheiro foi deduzido da minha conta bancária, mas não consigo fazer o download do aplicativo. O que eu posso fazer?</string>
     <string name="faq_7_text_commons">Os pagamentos são totalmente gerenciados pelo Google, o sistema deles falha de vez em quanto. Apenas limpe o cache do aplicativo Google Play, reinicie o dispositivo e tente baixá-lo novamente.</string>
-    <string name="faq_8_title_commons">Por que eu deveria atualizar para a versão Pro?</string>
+    <string name="faq_8_title_commons">Por que eu deveria atualizar para a versão Pró?</string>
     <string name="faq_8_text_commons">Como a versão do seu aplicativo não é mais atualizada, os erros que você talvez tenha encontrado nunca serão corrigidos. Também não haverá novas funções adicionadas. Você pode comprar a versão Pro no Google Play por uma pequena quantia em dinheiro.
         É um pagamento único, o que significa que, uma vez que você o compre, nunca precisará pagar novamente. Nem mesmo depois de adquirir um novo dispositivo. Se você não gostar da versão Pro, basta desinstalá-la em algumas horas e você receberá seu dinheiro automaticamente.
         Se você quiser um reembolso a qualquer momento depois, basta entrar em contato conosco pelo e-mail hello@fossify.org e você o receberá.</string>
@@ -1064,7 +1054,7 @@ O guia para tradução está <a href="https://github.com/FossifyOrg/General-Disc
     <string name="show_line_numbers">Mostrar números de linha</string>
     <string name="week_number_short">wk.</string>
     <string name="date_time_pattern_info">Você pode usar os seguintes padrões para nomear seu arquivo automaticamente:\n\n%Y - ano\n%M - mês\n%D - dia\n%h - hora\n%m - minuto\n%s - segundo</string>
-    <string name="upgraded_from_free_gallery">Olá,\n\nParece que você acabou de atualizar a versão gratuita. Quando estiver satisfeito com esta e talvez tenha migrado suas configurações e favoritos, você pode desinstalar a versão gratuita antiga para evitar iniciá-la acidentalmente, pois você não precisará mais dela, e também evitará que esta caixa de diálogo apareça.\n\nObrigado!</string>
+    <string name="upgraded_from_free_gallery">Olá,\n\nParece que você acabou de atualizar da versão gratuita. Quando estiver satisfeito com esta e talvez tenha migrado suas configurações e favoritos, você pode desinstalar a versão gratuita antiga para evitar iniciá-la acidentalmente, pois você não precisará mais dela, e também evitará que esta caixa de diálogo apareça.\n\nObrigado!</string>
     <string name="launcher_short">Lançador</string>
     <string name="other_help">Outra ajuda</string>
     <string name="contributors_label"><![CDATA[
