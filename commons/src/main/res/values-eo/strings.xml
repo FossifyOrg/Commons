@@ -978,7 +978,7 @@
     <string name="translation">Tradukado</string>
     <string name="contributors_label"><![CDATA[
             Tiu ĉi listo enhavas ĉiujn kiuj rimarkeble helpis iun ajn aplikaĵon de Fossify, ne nur tiu ĉi. La tradukado estas traktita pro volontuloj.
-            Sciigu nin se vi ankaŭ ŝatus helpi nin. La traduka gvido troviĝas <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">ĉi tie</a>, aŭ vi povas kontakti nin je <a href="mailto:hello@fossify.org">hello@fossify.org</a> se via havas demandojn.
+            Sciigu nin se vi ankaŭ ŝatus helpi nin. La traduka gvido troviĝas <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">ĉi tie</a>, aŭ vi povas kontakti nin je <a href="mailto:hello@fossify.org">hello@fossify.org</a> se vi havas demandojn.
             Dankon al ĉiuj kontribuantoj kaj aliaj subtenantoj!
         ]]></string>
     <string name="m3u_parser_title">M3U Parser (traktado de dosieroj de m3u-ludlistoj)</string>
