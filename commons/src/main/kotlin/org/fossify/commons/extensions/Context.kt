@@ -619,7 +619,7 @@ fun Context.formatSecondsToShortTimeString(totalSeconds: Int): String {
         timesString.append(secondsString)
     }
 
-    var result = timesString.toString().trim().trimEnd(',')
+    var result = timesString.toString().trim()
     if (result.isEmpty()) {
         result = String.format(resources.getString(R.string.minutes_short), 0)
     }
