@@ -611,7 +611,7 @@ fun Context.formatSecondsToShortTimeString(totalSeconds: Int): String {
 
     if (minutes > 0) {
         val minutesString = String.format(resources.getString(R.string.minutes_short), minutes)
-        timesString.append("$minutesString, ")
+        timesString.append("$minutesString ")
     }
 
     if (seconds > 0) {
