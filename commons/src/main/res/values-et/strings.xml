@@ -1011,8 +1011,8 @@
     <string name="pro_app_refund">Palun arvesta, et kui eemaldad tasulise rakenduse nutiseadmest 2 tunni jooksul, siis ostusumma tagastatakse automaatselt. Kui soovit tagastust hiljem, siis saada e-kiri hello@fossify.org aadressile ning korraldame tagastuse. Mõlemal juhul on sul võimalik meie tasulisi rakendusi testida :)</string>
     <string name="developer_description">Arendame Androidi jaoks avatud lähtekoodil põhinevaid lihtsaid tarvikuid ja milles pole reklaame ega vajadust asjatute õiguste jaoks.</string>
     <string name="exif">EXIF</string>
-    <string name="minutes_letter">m</string>
-    <string name="hours_letter">t</string>
+    <string name="minutes_letter">%dm</string>
+    <string name="hours_letter">%dt</string>
     <string name="friday_letter">R</string>
     <string name="donate_new">Tere,&lt;br&gt;&lt;br&gt; loodame, et sulle meie rakendus meeldib. See ei sisalda reklaame, palun toeta selle arendamist, ostes rakenduse &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Suur Tänu&lt;/a&gt;. Seejärel muutuvad kasutatavaks ka rakenduse lisafunktsionaalsused ja värvide kohandamine.&lt;br&gt;&lt;br&gt;Aitäh!</string>
     <string name="update_thank_you">Palun uuenda rakendus Fossify Suur Tänu viimase versioonini</string>
@@ -1059,7 +1059,7 @@
     <string name="enter_password">Sisesta salasõna</string>
     <string name="password">Salasõna</string>
     <string name="add_password">Lisa salasõna</string>
-    <string name="seconds_letter">s</string>
+    <string name="seconds_letter">%ds</string>
     <string name="week_number_short">nd.</string>
     <string name="notification_sound">Teavituse heli</string>
     <string name="usb">USB</string>

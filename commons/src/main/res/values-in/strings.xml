@@ -972,9 +972,9 @@
     <string name="add_password">Tambahkan kata sandi</string>
     <string name="empty_password">Silakan masukkan kata sandi</string>
     <string name="invalid_password">Kata sandi alah</string>
-    <string name="seconds_letter">d</string>
-    <string name="minutes_letter">m</string>
-    <string name="hours_letter">j</string>
+    <string name="seconds_letter">%dd</string>
+    <string name="minutes_letter">%dm</string>
+    <string name="hours_letter">%dj</string>
     <string name="week_number_short">mg.</string>
     <string name="alarm">Alarm</string>
     <string name="purchase_simple_thank_you">Beli Terima Kasih Fossify</string>

@@ -1097,9 +1097,9 @@
     <string name="enter_password">Introduïu la contrasenya</string>
     <string name="password">Contrasenya</string>
     <string name="add_password">Afegeix una contrasenya</string>
-    <string name="seconds_letter">s</string>
-    <string name="minutes_letter">m</string>
-    <string name="hours_letter">h</string>
+    <string name="seconds_letter">%ds</string>
+    <string name="minutes_letter">%dm</string>
+    <string name="hours_letter">%dh</string>
     <string name="week_number_short">st.</string>
     <string name="purchase_simple_thank_you">Compra de Fossify Thank You</string>
     <string name="general_settings">General</string>

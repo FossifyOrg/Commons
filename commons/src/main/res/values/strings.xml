@@ -538,10 +538,10 @@
     <string name="minutes_raw">minutes</string>
     <string name="hours_raw">hours</string>
     <string name="days_raw">days</string>
-    <string name="seconds_letter">s</string>
-    <string name="minutes_letter">m</string>
-    <string name="hours_letter">h</string>
-    <string name="days_letter">d</string>
+    <string name="seconds_letter">%ds</string>
+    <string name="minutes_letter">%dm</string>
+    <string name="hours_letter">%dh</string>
+    <string name="days_letter">%dd</string>
     <string name="week_number_short">wk.</string>
 
     <plurals name="seconds">
@@ -572,11 +572,6 @@
         <item quantity="one">%d year</item>
         <item quantity="other">%d years</item>
     </plurals>
-
-    <string name="seconds_short">%ds</string>
-    <string name="minutes_short">%dm</string>
-    <string name="hours_short">%dh</string>
-    <string name="days_short">%dd</string>
 
     <!-- For example: I will be there in 5 minutes -->
     <plurals name="in_seconds">

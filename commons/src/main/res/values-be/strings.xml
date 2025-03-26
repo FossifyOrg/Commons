@@ -447,9 +447,9 @@
     <string name="minutes_raw">хвілін</string>
     <string name="hours_raw">гадзін</string>
     <string name="days_raw">дзён</string>
-    <string name="seconds_letter">с</string>
-    <string name="minutes_letter">х</string>
-    <string name="hours_letter">г</string>
+    <string name="seconds_letter">%dс</string>
+    <string name="minutes_letter">%dх</string>
+    <string name="hours_letter">%dг</string>
     <plurals name="seconds">
         <item quantity="one">%d секунда</item>
         <item quantity="few">%d секунды</item>

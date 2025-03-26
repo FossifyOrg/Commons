@@ -227,9 +227,9 @@
     <string name="minutes_raw">நிமிடங்கள்</string>
     <string name="hours_raw">மணிநேரங்கள்</string>
     <string name="days_raw">நாட்கள்</string>
-    <string name="seconds_letter">வி</string>
-    <string name="minutes_letter">நி</string>
-    <string name="hours_letter">ம</string>
+    <string name="seconds_letter">%dவி</string>
+    <string name="minutes_letter">%dநி</string>
+    <string name="hours_letter">%dம</string>
     <plurals name="seconds">
         <item quantity="one">%d விநாடி</item>
         <item quantity="other">%d விநாடிகள்</item>

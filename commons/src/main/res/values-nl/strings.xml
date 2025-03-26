@@ -449,7 +449,7 @@
     <string name="minutes_raw">minuten</string>
     <string name="hours_raw">uren</string>
     <string name="days_raw">dagen</string>
-    <string name="hours_letter">u</string>
+    <string name="hours_letter">%du</string>
     <plurals name="seconds">
         <item quantity="one">%d seconde</item>
         <item quantity="other">%d seconden</item>
@@ -992,8 +992,8 @@
     <string name="app_icon_color_warning">Let op: Sommige launchers verwerken het aanpassen van het icoon mogelijk niet goed. Als het icoon verdwijnt, probeer dan de app te starten via Google Play, F-Droid of een widget. Herstel na het starten de groene standaardkleur #106D1F. In extreme gevallen kan het zijn dat de app opnieuw geïnstalleerd moet worden.</string>
     <string name="copyright">v %1$s
 \nCopyright © Fossify %2$d</string>
-    <string name="seconds_letter">s</string>
-    <string name="minutes_letter">m</string>
+    <string name="seconds_letter">%ds</string>
+    <string name="minutes_letter">%dm</string>
     <string name="week_number_short">wk.</string>
     <string name="alarm">Alarm</string>
     <string name="widgets">Widgets</string>

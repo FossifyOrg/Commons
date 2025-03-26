@@ -675,13 +675,13 @@
     <string name="invalid_password">गलत पासवर्ड</string>
     <string name="yesterday">कल</string>
     <string name="today">आज</string>
-    <string name="seconds_letter">से</string>
+    <string name="seconds_letter">%dसे</string>
     <plurals name="days">
         <item quantity="one">%d दिन</item>
         <item quantity="other">%d दिन</item>
     </plurals>
-    <string name="minutes_letter">मि</string>
-    <string name="hours_letter">घं</string>
+    <string name="minutes_letter">%dमि</string>
+    <string name="hours_letter">%dघं</string>
     <string name="week_number_short">सप्त</string>
     <plurals name="seconds">
         <item quantity="one">%d सेकेंड</item>

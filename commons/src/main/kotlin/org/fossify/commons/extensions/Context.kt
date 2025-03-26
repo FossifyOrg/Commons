@@ -600,28 +600,28 @@ fun Context.formatSecondsToShortTimeString(totalSeconds: Int): String {
     val seconds = totalSeconds % MINUTE_SECONDS
     val timesString = StringBuilder()
     if (days > 0) {
-        val daysString = String.format(resources.getString(R.string.days_short), days)
+        val daysString = String.format(resources.getString(R.string.days_letter), days)
         timesString.append("$daysString ")
     }
 
     if (hours > 0) {
-        val hoursString = String.format(resources.getString(R.string.hours_short), hours)
+        val hoursString = String.format(resources.getString(R.string.hours_letter), hours)
         timesString.append("$hoursString ")
     }
 
     if (minutes > 0) {
-        val minutesString = String.format(resources.getString(R.string.minutes_short), minutes)
+        val minutesString = String.format(resources.getString(R.string.minutes_letter), minutes)
         timesString.append("$minutesString ")
     }
 
     if (seconds > 0) {
-        val secondsString = String.format(resources.getString(R.string.seconds_short), seconds)
+        val secondsString = String.format(resources.getString(R.string.seconds_letter), seconds)
         timesString.append(secondsString)
     }
 
     var result = timesString.toString().trim()
     if (result.isEmpty()) {
-        result = String.format(resources.getString(R.string.minutes_short), 0)
+        result = String.format(resources.getString(R.string.minutes_letter), 0)
     }
     return result
 }

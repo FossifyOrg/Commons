@@ -482,7 +482,7 @@
     <string name="minutes_raw">minute</string>
     <string name="hours_raw">sati</string>
     <string name="days_raw">dani</string>
-    <string name="minutes_letter">min</string>
+    <string name="minutes_letter">%dmin</string>
     <string name="week_number_short">sed.</string>
     <plurals name="seconds">
         <item quantity="one">%d sekunda</item>

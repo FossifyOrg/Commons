@@ -283,7 +283,7 @@
     <string name="minutes_raw">minutter</string>
     <string name="hours_raw">timer</string>
     <string name="days_raw">dager</string>
-    <string name="hours_letter">t</string>
+    <string name="hours_letter">%dt</string>
     <plurals name="seconds">
         <item quantity="one">%d sekund</item>
         <item quantity="other">%d sekunder</item>
@@ -546,12 +546,12 @@
     <string name="file_manager_short">Filbehandler</string>
     <string name="every_day">Hver dag</string>
     <string name="album">Album</string>
-    <string name="minutes_letter">m</string>
+    <string name="minutes_letter">%dm</string>
     <string name="notes_short">Notater</string>
     <string name="ok">OK</string>
     <string name="artist">Artist</string>
     <string name="genre">Genre</string>
-    <string name="seconds_letter">s</string>
+    <string name="seconds_letter">%ds</string>
     <string name="week_number_short">u.</string>
     <string name="alarm">Alarm</string>
     <string name="language">Språk</string>

@@ -1049,9 +1049,9 @@
     <string name="deletion_confirmation_short">Poistetaanko %s?</string>
     <string name="pin">PIN</string>
     <string name="add_password">Lisää salasana</string>
-    <string name="seconds_letter">s</string>
-    <string name="minutes_letter">m</string>
-    <string name="hours_letter">t</string>
+    <string name="seconds_letter">%ds</string>
+    <string name="minutes_letter">%dm</string>
+    <string name="hours_letter">%dt</string>
     <string name="week_number_short">vko</string>
     <string name="october_short">Lok</string>
     <string name="november_short">Mar</string>

@@ -259,9 +259,9 @@
     <string name="minutes_raw">دقیقه</string>
     <string name="hours_raw">ساعت</string>
     <string name="days_raw">روز</string>
-    <string name="seconds_letter">ث</string>
-    <string name="minutes_letter">د</string>
-    <string name="hours_letter">س</string>
+    <string name="seconds_letter">%dث</string>
+    <string name="minutes_letter">%dد</string>
+    <string name="hours_letter">%dس</string>
     <plurals name="seconds">
         <item quantity="one">%d ثانیه</item>
         <item quantity="other">%d ثانیه</item>

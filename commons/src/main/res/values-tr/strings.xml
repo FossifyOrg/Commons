@@ -471,9 +471,9 @@
     <string name="minutes_raw">dakika</string>
     <string name="hours_raw">saat</string>
     <string name="days_raw">gün</string>
-    <string name="seconds_letter">sn</string>
-    <string name="minutes_letter">dk</string>
-    <string name="hours_letter">sa</string>
+    <string name="seconds_letter">%dsn</string>
+    <string name="minutes_letter">%ddk</string>
+    <string name="hours_letter">%dsa</string>
     <string name="week_number_short">ha.</string>
     <plurals name="seconds">
         <item quantity="one">%d saniye</item>

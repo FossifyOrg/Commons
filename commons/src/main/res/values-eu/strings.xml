@@ -911,9 +911,9 @@
     <string name="enter_password">Sartu pasahitza</string>
     <string name="password">Pasahitza</string>
     <string name="add_password">Gehitu pasahitza</string>
-    <string name="seconds_letter">s</string>
-    <string name="minutes_letter">m</string>
-    <string name="hours_letter">ordu</string>
+    <string name="seconds_letter">%ds</string>
+    <string name="minutes_letter">%dm</string>
+    <string name="hours_letter">%dordu</string>
     <string name="week_number_short">aste</string>
     <string name="general_settings">Orokorra</string>
     <string name="list_view">Zerrenda ikuspegia</string>
