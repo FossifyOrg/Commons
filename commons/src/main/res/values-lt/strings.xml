@@ -403,9 +403,9 @@
     <string name="minutes_raw">minutės</string>
     <string name="hours_raw">valandos</string>
     <string name="days_raw">dienos</string>
-    <string name="seconds_letter">sek.</string>
-    <string name="minutes_letter">min.</string>
-    <string name="hours_letter">val.</string>
+    <string name="seconds_letter">%dsek.</string>
+    <string name="minutes_letter">%dmin.</string>
+    <string name="hours_letter">%dval.</string>
     <plurals name="seconds">
         <item quantity="one">%d sekundė</item>
         <item quantity="few">%d sekundės</item>

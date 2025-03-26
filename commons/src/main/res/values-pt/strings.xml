@@ -1000,7 +1000,7 @@
     <string name="developer_description">Uma gama de aplicações para Android, open source, com widgets personalizados, sem anúncios nem permissões desnecessárias.</string>
     <string name="too_many_incorrect_attempts">Introduziu o código errado várias vezes.
 \nTente novamente dentro de %d segundos.</string>
-    <string name="hours_letter">h</string>
+    <string name="hours_letter">%dh</string>
     <string name="why_upgrade_many_other_improvements">Muitas mais melhorias</string>
     <string name="purchase_simple_thank_you">Comprar Fossify Thank You</string>
     <string name="add_password">Adicionar palavra-passe</string>
@@ -1046,8 +1046,8 @@
     <string name="password">Palavra-passe</string>
     <string name="empty_password">Por favor introduza uma palavra-passe</string>
     <string name="invalid_password">Palavra-passe inválida</string>
-    <string name="seconds_letter">s</string>
-    <string name="minutes_letter">m</string>
+    <string name="seconds_letter">%ds</string>
+    <string name="minutes_letter">%dm</string>
     <string name="week_number_short">sem</string>
     <string name="snooze">Silenciar</string>
     <string name="notification_sound">Som da notificação</string>

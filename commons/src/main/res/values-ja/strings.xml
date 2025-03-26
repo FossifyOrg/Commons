@@ -920,7 +920,7 @@
     <string name="unblock_contact_fail">連絡先のブロックを解除できませんでした</string>
     <string name="block_contact_fail">連絡先をブロックできませんでした</string>
     <string name="show_line_numbers">行番号を表示</string>
-    <string name="hours_letter">時間</string>
+    <string name="hours_letter">%d時間</string>
     <string name="theme_and_colors">テーマと色</string>
     <string name="skip_the_recycle_bin">ごみ箱に入れずに直接ファイルを削除</string>
     <string name="copyright">v %1$s
@@ -984,8 +984,8 @@
     <string name="translation_chinese_tw">中国語（繁体字）</string>
     <string name="unblock_contact">連絡先のブロックを解除</string>
     <string name="block_hidden_messages">隠している番号からのメッセージをブロック</string>
-    <string name="seconds_letter">秒</string>
-    <string name="minutes_letter">分</string>
+    <string name="seconds_letter">%d秒</string>
+    <string name="minutes_letter">%d分</string>
     <string name="translation_ukrainian">ウクライナ語</string>
     <string name="translation_vietnamese">ベトナム語</string>
     <string name="close">閉じる</string>

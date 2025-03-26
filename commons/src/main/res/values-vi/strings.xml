@@ -772,9 +772,9 @@
     <string name="enter_password">Nhập mật khẩu</string>
     <string name="password">Mật khẩu</string>
     <string name="add_password">Thêm mật khẩu</string>
-    <string name="seconds_letter">s</string>
-    <string name="minutes_letter">p</string>
-    <string name="hours_letter">h</string>
+    <string name="seconds_letter">%ds</string>
+    <string name="minutes_letter">%dp</string>
+    <string name="hours_letter">%dh</string>
     <plurals name="seconds">
         <item quantity="other">%d giây</item>
     </plurals>

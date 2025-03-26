@@ -1107,9 +1107,9 @@
     <string name="enter_password">Introduzca la contraseña</string>
     <string name="password">Contraseña</string>
     <string name="add_password">Añadir una contraseña</string>
-    <string name="seconds_letter">s</string>
-    <string name="minutes_letter">min</string>
-    <string name="hours_letter">h</string>
+    <string name="seconds_letter">%ds</string>
+    <string name="minutes_letter">%dmin</string>
+    <string name="hours_letter">%dh</string>
     <string name="week_number_short">semana</string>
     <string name="general_settings">General</string>
     <string name="purchase_simple_thank_you">Comprar Fossify Thank You</string>

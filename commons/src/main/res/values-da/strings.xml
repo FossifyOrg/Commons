@@ -449,7 +449,7 @@
     <string name="minutes_raw">minutter</string>
     <string name="hours_raw">timer</string>
     <string name="days_raw">dage</string>
-    <string name="hours_letter">t</string>
+    <string name="hours_letter">%dt</string>
     <string name="week_number_short">u.</string>
     <plurals name="seconds">
         <item quantity="one">%d sekund</item>

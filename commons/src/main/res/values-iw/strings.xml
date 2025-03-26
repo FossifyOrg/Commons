@@ -421,8 +421,8 @@
     <string name="password">סיסמה</string>
     <string name="empty_password_new">נא להזין סיסמה</string>
     <string name="invalid_password">הסיסמה שגויה</string>
-    <string name="seconds_letter">שנ\'</string>
-    <string name="minutes_letter">דק\'</string>
+    <string name="seconds_letter">%dשנ\'</string>
+    <string name="minutes_letter">%dדק\'</string>
     <string name="general_settings">כללי</string>
     <string name="color_customization">התאמה אישית של הצבעים</string>
     <string name="notification_sound">צליל התראה</string>
@@ -465,7 +465,7 @@
         <item quantity="two">%d שבועות</item>
         <item quantity="other">%d שבועות</item>
     </plurals>
-    <string name="hours_letter">שע\'</string>
+    <string name="hours_letter">%dשע\'</string>
     <string name="start_week_on">השבוע מתחיל ביום</string>
     <string name="snooze">נודניק</string>
     <string name="snooze_time">מרווח זמן הנודניק</string>

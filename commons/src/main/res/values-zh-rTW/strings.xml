@@ -933,9 +933,9 @@
     <string name="enter_password">輸入密碼</string>
     <string name="every_day">每天</string>
     <string name="hide_year">隱藏年份</string>
-    <string name="seconds_letter">秒</string>
-    <string name="minutes_letter">分</string>
-    <string name="hours_letter">小時</string>
+    <string name="seconds_letter">%d秒</string>
+    <string name="minutes_letter">%d分</string>
+    <string name="hours_letter">%d小時</string>
     <string name="week_number_short">週</string>
     <string name="time_remaining">剩餘時間：\n%s</string>
     <string name="quality">品質</string>

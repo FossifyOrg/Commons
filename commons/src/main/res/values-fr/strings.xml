@@ -476,7 +476,7 @@
     <string name="seconds_raw">secondes</string>
     <string name="hours_raw">heures</string>
     <string name="days_raw">jours</string>
-    <string name="minutes_letter">min</string>
+    <string name="minutes_letter">%dmin</string>
     <string name="week_number_short">sem</string>
     <plurals name="seconds">
         <item quantity="one">%d seconde</item>
@@ -1115,8 +1115,8 @@ j\'espère que vous appréciez l\'application. Elle ne contient pas d\'annonces,
     <string name="shared_theme_note">Notez que même si vous utilisez la version Pro de l\'application, vous avez toujours besoin de Fossify Thank You pour des raisons techniques. Il s\'occupe de la synchronisation des couleurs.</string>
     <string name="extension">Extension</string>
     <string name="minutes_raw">minutes</string>
-    <string name="seconds_letter">s</string>
-    <string name="hours_letter">h</string>
+    <string name="seconds_letter">%ds</string>
+    <string name="hours_letter">%dh</string>
     <string name="purchase_simple_thank_you">Acheter Fossify Thank You</string>
     <string name="widgets">Widgets</string>
     <string name="contacts_tab">Contacts</string>

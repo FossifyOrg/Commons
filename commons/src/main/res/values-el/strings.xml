@@ -470,9 +470,9 @@
     <string name="minutes_raw">λεπτά</string>
     <string name="hours_raw">ώρες</string>
     <string name="days_raw">ημερ.</string>
-    <string name="seconds_letter">δ</string>
-    <string name="minutes_letter">λ</string>
-    <string name="hours_letter">ω</string>
+    <string name="seconds_letter">%dδ</string>
+    <string name="minutes_letter">%dλ</string>
+    <string name="hours_letter">%dω</string>
     <string name="week_number_short">εβδ.</string>
     <plurals name="seconds">
         <item quantity="one">%d δευτ.</item>

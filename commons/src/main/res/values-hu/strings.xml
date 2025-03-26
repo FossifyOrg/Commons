@@ -468,9 +468,9 @@
     <string name="minutes_raw">perc</string>
     <string name="hours_raw">óra</string>
     <string name="days_raw">nap</string>
-    <string name="seconds_letter">mp</string>
-    <string name="minutes_letter">p</string>
-    <string name="hours_letter">ó</string>
+    <string name="seconds_letter">%dmp</string>
+    <string name="minutes_letter">%dp</string>
+    <string name="hours_letter">%dó</string>
     <plurals name="seconds">
         <item quantity="one">%d másodperc</item>
         <item quantity="other">%d másodperc</item>

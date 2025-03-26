@@ -473,9 +473,9 @@
     <string name="minutes_raw">Minuten</string>
     <string name="hours_raw">Stunden</string>
     <string name="days_raw">Tage</string>
-    <string name="seconds_letter">Sek.</string>
-    <string name="minutes_letter">Min.</string>
-    <string name="hours_letter">Std.</string>
+    <string name="seconds_letter">%dSek.</string>
+    <string name="minutes_letter">%dMin.</string>
+    <string name="hours_letter">%dStd.</string>
     <string name="week_number_short">KW</string>
     <plurals name="seconds">
         <item quantity="one">%d Sekunde</item>

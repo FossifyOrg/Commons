@@ -366,9 +366,9 @@
     <string name="minutes_raw">منٹ</string>
     <string name="hours_raw">گھنٹے</string>
     <string name="days_raw">دن</string>
-    <string name="seconds_letter">سکنٹ</string>
-    <string name="minutes_letter">منٹ</string>
-    <string name="hours_letter">گھنٹے</string>
+    <string name="seconds_letter">%dسکنٹ</string>
+    <string name="minutes_letter">%dمنٹ</string>
+    <string name="hours_letter">%dگھنٹے</string>
     <plurals name="seconds">
         <item quantity="one">‫%d‬ ؜سکنٹ</item>
         <item quantity="other">‫%d‬ ؜سکنٹ</item>
