@@ -601,7 +601,7 @@ fun Context.formatSecondsToShortTimeString(totalSeconds: Int): String {
     val timesString = StringBuilder()
     if (days > 0) {
         val daysString = String.format(resources.getString(R.string.days_short), days)
-        timesString.append("$daysString, ")
+        timesString.append("$daysString ")
     }
 
     if (hours > 0) {
