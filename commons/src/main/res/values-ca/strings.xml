@@ -1147,4 +1147,5 @@
     <string name="translation_kabyle">Cabilenc</string>
     <string name="number_of_items">Nombre d\'elements</string>
     <string name="reorder_items_by_dragging">Reordena els elements arrossegant-los</string>
+    <string name="days_letter">%d d</string>
 </resources>
