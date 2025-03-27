@@ -689,7 +689,7 @@
     <string name="search_in_placeholder">Cuardaigh i %s</string>
     <string name="type_2_characters">Clóscríobh 2 charachtar ar a laghad chun an cuardach a thosú.</string>
     <string name="show_search">Taispeáin barra cuardaigh</string>
-    <string name="search_contacts">Cuardaigh teagmhálacha</string>
+    <string name="search_contacts">Cuardaigh teagmhálaithe</string>
     <string name="search_favorites">Cuardaigh ceanáin</string>
     <string name="search_apps">Cuardaigh feidhmchláir</string>
     <string name="search_events">Cuardaigh imeachtaí</string>
@@ -885,7 +885,7 @@
     <string name="shortcut">Aicearra</string>
     <string name="create_shortcut">Cruthaigh aicearra</string>
     <string name="create_shortcut_pro">Cruthaigh aicearra (Pro)</string>
-    <string name="add_number_to_contact">Cuir uimhir le teagmháil</string>
+    <string name="add_number_to_contact">Cuir uimhir leis an teagmhálaí</string>
     <string name="view_contact_details">Féach ar na sonraí teagmhála</string>
     <string name="call_from_sim_1">Glaoigh ó SIM 1</string>
     <string name="call_from_sim_2">Glao ó SIM 2</string>
@@ -1159,4 +1159,5 @@
     <string name="translation_kabyle">Kabyle</string>
     <string name="reorder_items_by_dragging">Déan míreanna a athordú trí tharraingt</string>
     <string name="number_of_items">Líon míreanna</string>
+    <string name="days_letter">%d lá</string>
 </resources>
