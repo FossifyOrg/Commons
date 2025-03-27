@@ -1071,4 +1071,5 @@
     <string name="translation_romanian">Romania</string>
     <string name="translation_english">Englanti</string>
     <string name="translation_nepali">Nepali</string>
+    <string name="format_phone_numbers">Muotoile puhelinnumerot</string>
 </resources>
