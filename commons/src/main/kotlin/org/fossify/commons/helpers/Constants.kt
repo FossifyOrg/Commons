@@ -12,6 +12,7 @@ import org.fossify.commons.R
 import org.fossify.commons.extensions.normalizeString
 import org.fossify.commons.models.contacts.LocalContact
 import org.fossify.commons.overloads.times
+import org.joda.time.DateTimeConstants
 
 const val EXTERNAL_STORAGE_PROVIDER_AUTHORITY = "com.android.externalstorage.documents"
 const val EXTRA_SHOW_ADVANCED = "android.content.extra.SHOW_ADVANCED"
@@ -197,6 +198,7 @@ const val PASSWORD_COUNTDOWN_START_MS = "password_count_down_start_ms"
 const val LAST_UNLOCK_TIMESTAMP_MS = "last_unlock_timestamp_ms"
 const val UNLOCK_TIMEOUT_DURATION_MS = "unlock_timeout_duration_ms"
 const val SHOW_CHECKMARKS_ON_SWITCHES = "show_checkmarks_on_switches"
+const val FIRST_DAY_OF_WEEK = "first_day_of_week"
 
 const val MAX_PASSWORD_RETRY_COUNT = 3
 const val DEFAULT_PASSWORD_COUNTDOWN = 5
@@ -721,3 +723,23 @@ fun getProperText(text: String, shouldNormalize: Boolean) =
         shouldNormalize -> text.normalizeString()
         else -> text
     }
+
+fun getISODayOfWeekFromJava(javaDayOfWeek: Int): Int {
+    if (javaDayOfWeek !in 1..7) {
+        throw IllegalArgumentException("Invalid Java day of week: $javaDayOfWeek")
+    }
+
+    // Java: Sun=1, ..., Sat=7
+    // ISO:  Mon=1, ..., Sun=7
+    return (javaDayOfWeek + 5) % 7 + 1
+}
+
+fun getJavaDayOfWeekFromISO(isoDayOfWeek: Int): Int {
+    if (isoDayOfWeek !in 1..7) {
+        throw IllegalArgumentException("Invalid ISO day of week: $isoDayOfWeek")
+    }
+
+    // ISO:  Mon=1, ..., Sun=7
+    // Java: Sun=1, ..., Sat=7
+    return (isoDayOfWeek % 7) + 1
+}
