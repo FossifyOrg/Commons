@@ -485,9 +485,9 @@
     <string name="minutes_raw">минут</string>
     <string name="hours_raw">часов</string>
     <string name="days_raw">дней</string>
-    <string name="seconds_letter">%dс</string>
-    <string name="minutes_letter">%dмин</string>
-    <string name="hours_letter">%dч</string>
+    <string name="seconds_letter">%d с</string>
+    <string name="minutes_letter">%d м</string>
+    <string name="hours_letter">%d ч</string>
     <string name="week_number_short">нед.</string>
     <plurals name="seconds">
         <item quantity="one">%d секунда</item>
@@ -1153,4 +1153,5 @@
     <string name="translation_kabyle">Кабильский</string>
     <string name="number_of_items">Количество элементов</string>
     <string name="reorder_items_by_dragging">Порядок элементов меняется перетаскиванием</string>
+    <string name="days_letter">%d д</string>
 </resources>

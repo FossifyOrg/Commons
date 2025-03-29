@@ -1146,9 +1146,9 @@
     <string name="album">Album</string>
     <string name="exif">EXIF</string>
     <string name="pin">PIN</string>
-    <string name="seconds_letter">%ds</string>
-    <string name="minutes_letter">%dm</string>
-    <string name="hours_letter">%dh</string>
+    <string name="seconds_letter">%d s</string>
+    <string name="minutes_letter">%d m</string>
+    <string name="hours_letter">%d h</string>
     <string name="usb">USB</string>
     <string name="march_short">mar</string>
     <string name="saturday_letter">S</string>
@@ -1171,4 +1171,5 @@
     <string name="translation_kabyle">kabylski</string>
     <string name="number_of_items">Liczba elementów</string>
     <string name="reorder_items_by_dragging">Przeorganizuj elementy przeciągając</string>
+    <string name="days_letter">%d d</string>
 </resources>
