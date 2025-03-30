@@ -48,6 +48,8 @@ const val SMT_PRIVATE =
     "smt_private" // used at the contact source of local contacts hidden from other apps
 const val FIRST_GROUP_ID = 10000L
 const val MD5 = "MD5"
+const val SHA1 = "SHA-1"
+const val SHA256 = "SHA-256"
 const val SHORT_ANIMATION_DURATION = 150L
 val DARK_GREY = 0xFF333333.toInt()
 
