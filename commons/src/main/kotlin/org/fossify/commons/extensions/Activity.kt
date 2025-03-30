@@ -228,36 +228,102 @@ fun BaseSimpleActivity.isShowingSAFCreateDocumentDialogSdk30(path: String): Bool
 
 fun BaseSimpleActivity.isShowingAndroidSAFDialog(path: String): Boolean {
     return if (isRestrictedSAFOnlyRoot(path) && (getAndroidTreeUri(path).isEmpty() || !hasProperStoredAndroidTreeUri(path))) {
-        runOnUiThread {
-            if (!isDestroyed && !isFinishing) {
-                ConfirmationAdvancedDialog(this, "", R.string.confirm_storage_access_android_text, R.string.ok, R.string.cancel) { success ->
-                    if (success) {
-                        Intent(Intent.ACTION_OPEN_DOCUMENT_TREE).apply {
-                            putExtra(EXTRA_SHOW_ADVANCED, true)
-                            putExtra(DocumentsContract.EXTRA_INITIAL_URI, createAndroidDataOrObbUri(path))
-                            try {
-                                startActivityForResult(this, OPEN_DOCUMENT_TREE_FOR_ANDROID_DATA_OR_OBB)
-                                checkedDocumentPath = path
-                                return@apply
-                            } catch (e: Exception) {
-                                type = "*/*"
-                            }
-
-                            try {
-                                startActivityForResult(this, OPEN_DOCUMENT_TREE_FOR_ANDROID_DATA_OR_OBB)
-                                checkedDocumentPath = path
-                            } catch (e: ActivityNotFoundException) {
-                                toast(R.string.system_service_disabled, Toast.LENGTH_LONG)
-                            } catch (e: Exception) {
-                                toast(R.string.unknown_error_occurred)
+        // On Android 14+, there is no longer any workaround to access the data/ and obb/ folders
+        // Open the system app instead
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.UPSIDE_DOWN_CAKE) {
+            runOnUiThread {
+                if (!isDestroyed && !isFinishing) {
+                    ConfirmationAdvancedDialog(this, "", R.string.confirm_storage_access_android_14_text, R.string.ok, R.string.cancel) { success ->
+                        if (success) {
+                            val uri = createAndroidDataOrObbUri(path)
+                            // Using a if with OR conditions allows to test them one by one, and stops at the first successful one
+                            if (
+                                startIntentForUriAction(
+                                    uri,
+                                    "android.intent.action.VIEW",
+                                    ComponentName("com.google.android.documentsui", "com.android.documentsui.files.FilesActivity")
+                                ) ||
+                                startIntentForUriAction(
+                                    uri,
+                                    "android.intent.action.VIEW",
+                                    ComponentName("com.android.documentsui", "com.android.documentsui.files.FilesActivity")
+                                ) ||
+                                startIntentForUriAction(
+                                    uri,
+                                    "android.intent.action.VIEW",
+                                    ComponentName("com.android.documentsui", "com.android.documentsui.FilesActivity")
+                                ) ||
+                                startIntentForUriAction(uri, "android.intent.action.VIEW", null) ||
+                                startIntentForUriAction(uri, "android.provider.action.BROWSE", null) ||
+                                startIntentForUriAction(uri, "android.provider.action.BROWSE_DOCUMENT_ROOT", null)
+                            ) {
+                                return@ConfirmationAdvancedDialog
+                            } else {
+                                toast(R.string.confirm_storage_access_android_14_text_not_found)
                             }
                         }
                     }
                 }
             }
+            false
+        } else {
+            runOnUiThread {
+                if (!isDestroyed && !isFinishing) {
+                    ConfirmationAdvancedDialog(this, "", R.string.confirm_storage_access_android_text, R.string.ok, R.string.cancel) { success ->
+                        if (success) {
+                            Intent(Intent.ACTION_OPEN_DOCUMENT_TREE).apply {
+                                putExtra(EXTRA_SHOW_ADVANCED, true)
+                                putExtra(DocumentsContract.EXTRA_INITIAL_URI, createAndroidDataOrObbUri(path))
+                                try {
+                                    startActivityForResult(this, OPEN_DOCUMENT_TREE_FOR_ANDROID_DATA_OR_OBB)
+                                    checkedDocumentPath = path
+                                    return@apply
+                                } catch (e: Exception) {
+                                    type = "*/*"
+                                }
+
+                                try {
+                                    startActivityForResult(this, OPEN_DOCUMENT_TREE_FOR_ANDROID_DATA_OR_OBB)
+                                    checkedDocumentPath = path
+                                } catch (e: ActivityNotFoundException) {
+                                    toast(R.string.system_service_disabled, Toast.LENGTH_LONG)
+                                } catch (e: Exception) {
+                                    toast(R.string.unknown_error_occurred)
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            true
         }
-        true
     } else {
+        false
+    }
+}
+
+/**
+ * Start the intent
+ * @param uri URI to pass to the intent
+ * @param action Action of the intent
+ * @param componentName Optional ComponentName
+ * @return true if the intent was successful
+ */
+fun BaseSimpleActivity.startIntentForUriAction(
+    uri: Uri,
+    action: String,
+    componentName: ComponentName?
+): Boolean {
+    val intent = Intent(action, uri)
+    if (componentName != null) {
+        intent.setComponent(componentName)
+    }
+    return try {
+        startActivity(intent)
+        finish()
+        true
+    } catch (e: java.lang.Exception) {
+        e.printStackTrace()
         false
     }
 }
