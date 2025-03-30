@@ -1,6 +1,8 @@
 package org.fossify.commons.extensions
 
 import org.fossify.commons.helpers.MD5
+import org.fossify.commons.helpers.SHA1
+import org.fossify.commons.helpers.SHA256
 import java.io.InputStream
 import java.security.MessageDigest
 
@@ -19,3 +21,5 @@ fun InputStream.getDigest(algorithm: String): String {
 }
 
 fun InputStream.md5(): String = this.getDigest(MD5)
+fun InputStream.sha1(): String = this.getDigest(SHA1)
+fun InputStream.sha256(): String = this.getDigest(SHA256)
