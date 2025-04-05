@@ -346,7 +346,7 @@
     <string name="dark_red">Dunkelrot</string>
     <string name="white">Weiß</string>
     <string name="black_white">Schwarz-Weiß</string>
-    <string name="custom">Benutzerdefiniert</string>
+    <string name="custom">Individuell</string>
     <string name="shared">Geteilt</string>
     <string name="system_default">Systemvorgabe</string>
     <string name="whats_new">Neue Funktionen</string>
@@ -633,7 +633,7 @@
     <string name="show_info_bubble">Beim Scrollen mit dem Scrollbalken Infofenster anzeigen</string>
     <string name="prevent_phone_from_sleeping">Verhindern, dass das Gerät in den Ruhemodus wechselt, solange die App im Vordergrund läuft</string>
     <string name="skip_delete_confirmation">Beim Löschen keinen Bestätigungsdialog anzeigen</string>
-    <string name="enable_pull_to_refresh">„Auffrischen“ durch Ziehen von der oberen Kante aktivieren</string>
+    <string name="enable_pull_to_refresh">Zum Aktualisieren von oben nach unten ziehen</string>
     <string name="use_24_hour_time_format">24-Stunden-Zählung verwenden</string>
     <string name="change_date_and_time_format">Datums- und Zeitformat ändern</string>
     <string name="sunday_first">Wochenanfang am Sonntag</string>
@@ -981,7 +981,7 @@
     <string name="why_upgrade_file_importing">Unterstützung für den Dateiimport</string>
     <string name="why_upgrade_zooming">Zoomen</string>
     <string name="notice">Diese App verwendet die folgenden Bibliotheken von Drittanbietern, um mir das Leben zu erleichtern. Vielen Dank dafür.</string>
-    <string name="third_party_licences">Drittanbieterlizenzen</string>
+    <string name="third_party_licences">Lizenzen von Dritten</string>
     <string name="kotlin_title">Kotlin (Programmiersprache)</string>
     <string name="subsampling_title">Subsampling Scale Image View (Zoombare Bilder)</string>
     <string name="glide_title">Glide (Bilder laden und zwischenspeichern)</string>
