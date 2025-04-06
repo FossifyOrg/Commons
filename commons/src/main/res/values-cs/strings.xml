@@ -1144,4 +1144,7 @@
     <string name="number_of_items">Počet položek</string>
     <string name="reorder_items_by_dragging">Pořadí položek změníte přetažením</string>
     <string name="days_letter">%dd</string>
+    <string name="confirm_storage_access_restricted_text_not_found">Nepodařilo se najít systémového správce souborů.</string>
+    <string name="confirm_storage_access_restricted_text">Z důvodu systémových omezení není tato složka dostupná.</string>
+    <string name="confirm_storage_access_restricted_text_open_system">Otevřít v systémové aplikaci</string>
 </resources>
