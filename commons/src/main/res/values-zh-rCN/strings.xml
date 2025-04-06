@@ -1071,4 +1071,7 @@
     <string name="number_of_items">项数</string>
     <string name="reorder_items_by_dragging">通过拖动重新排序项目</string>
     <string name="days_letter">%d天</string>
+    <string name="confirm_storage_access_restricted_text_not_found">未找到系统文件管理器应用。</string>
+    <string name="confirm_storage_access_restricted_text_open_system">在系统应用中打开</string>
+    <string name="confirm_storage_access_restricted_text">由于系统限制，此文件夹不可用。</string>
 </resources>
