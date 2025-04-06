@@ -230,7 +230,7 @@ fun BaseSimpleActivity.isShowingAndroidSAFDialog(path: String, openInSystemAppAl
     return if (isRestrictedSAFOnlyRoot(path) && (getAndroidTreeUri(path).isEmpty() || !hasProperStoredAndroidTreeUri(path))) {
         runOnUiThread {
             if (!isDestroyed && !isFinishing) {
-                if (isUpsideDownCakePlus() && !openInSystemAppAllowed) {
+                if (!openInSystemAppAllowed) {
                     ConfirmationDialog(
                         this,
                         "",
@@ -243,42 +243,12 @@ fun BaseSimpleActivity.isShowingAndroidSAFDialog(path: String, openInSystemAppAl
                         this,
                         "",
                         R.string.confirm_storage_access_restricted_text,
-                        if (isUpsideDownCakePlus()) {
-                            R.string.confirm_storage_access_restricted_text_open_system
-                        } else {
-                            R.string.confirm_storage_access_restricted_text_request_access
-                        },
+                        R.string.confirm_storage_access_restricted_text_open_system,
                         R.string.cancel
                     ) { success ->
                         if (success) {
                             val uri = createAndroidDataOrObbUri(path)
-
-                            // On Android 14+, there is no longer any workaround to access the data/ and obb/ folders
-                            // Open the system app instead
-                            if (isUpsideDownCakePlus()) {
-                                launchSystemFileManager(uri)
-                            } else {
-                                Intent(Intent.ACTION_OPEN_DOCUMENT_TREE).apply {
-                                    putExtra(EXTRA_SHOW_ADVANCED, true)
-                                    putExtra(DocumentsContract.EXTRA_INITIAL_URI, uri)
-                                    try {
-                                        startActivityForResult(this, OPEN_DOCUMENT_TREE_FOR_ANDROID_DATA_OR_OBB)
-                                        checkedDocumentPath = path
-                                        return@apply
-                                    } catch (e: Exception) {
-                                        type = "*/*"
-                                    }
-
-                                    try {
-                                        startActivityForResult(this, OPEN_DOCUMENT_TREE_FOR_ANDROID_DATA_OR_OBB)
-                                        checkedDocumentPath = path
-                                    } catch (e: ActivityNotFoundException) {
-                                        toast(R.string.system_service_disabled, Toast.LENGTH_LONG)
-                                    } catch (e: Exception) {
-                                        toast(R.string.unknown_error_occurred)
-                                    }
-                                }
-                            }
+                            launchSystemFileManager(uri)
                         }
                     }
                 }
