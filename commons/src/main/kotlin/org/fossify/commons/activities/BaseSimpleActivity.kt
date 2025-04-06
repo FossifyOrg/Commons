@@ -751,12 +751,12 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
         }
     }
 
-    fun handleAndroidSAFDialog(path: String, callback: (success: Boolean) -> Unit): Boolean {
+    fun handleAndroidSAFDialog(path: String, openInSystemAppAllowed: Boolean = false, callback: (success: Boolean) -> Unit): Boolean {
         hideKeyboard()
         return if (!packageName.startsWith("org.fossify")) {
             callback(true)
             false
-        } else if (isShowingAndroidSAFDialog(path)) {
+        } else if (isShowingAndroidSAFDialog(path, openInSystemAppAllowed)) {
             funAfterSAFPermission = callback
             true
         } else {
