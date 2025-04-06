@@ -1107,4 +1107,7 @@
     <string name="translation_kabyle">Kabylisch</string>
     <string name="number_of_items">Anzahl der Elemente</string>
     <string name="reorder_items_by_dragging">Elemente durch Ziehen neu anordnen</string>
+    <string name="confirm_storage_access_restricted_text">Aufgrund von Systemeinschränkungen ist dieser Ordner nicht verfügbar.</string>
+    <string name="confirm_storage_access_restricted_text_open_system">In System-App öffnen</string>
+    <string name="confirm_storage_access_restricted_text_not_found">Ein System-Dateimanager konnte nicht gefunden werden.</string>
 </resources>
