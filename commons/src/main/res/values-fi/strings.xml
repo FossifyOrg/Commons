@@ -257,7 +257,7 @@
     <string name="confirm_storage_access_text">Valitse muistikortin juurihakemisto seuraavaksi antaaksesi kirjoitusoikeuden</string>
     <string name="confirm_storage_access_text_sd">Jos et näe muistikorttia, kokeile tätä</string>
     <string name="confirm_storage_access_android_text">Anna sovellukselle käyttöoikeus tallennustilan käyttöön painamalla seuraavassa näkymässä \"Käytä tätä hakemistoa\"-painiketta.</string>
-    <string name="confirm_storage_access_android_text_specific">Anna käyttöoikeus kohteeseen \'<b>%s</b>\' seuraavalla ruudulla painamalla \'<b>Käytä tätä kansiota</b>\' alalaidasta.</string>
+    <string name="confirm_storage_access_android_text_specific">Anna käyttöoikeus kohteeseen \'<b>%s</b>\' seuraavalla ruudulla painamalla \'<b>Käytä tätä kansiota</b>\' .</string>
     <string name="confirm_create_doc_for_new_folder_text">Paina \'&lt;b&gt;Tallenna&lt;/b&gt;\' seuraavan ruudun alalaidasta luodaksesi uuden kansion.</string>
     <string name="confirm_selection">Vahvista valinta</string>
     <string name="loading">Ladataan…</string>
@@ -372,7 +372,7 @@
     <string name="shortcut">Pikakuvake</string>
     <string name="create_shortcut">Luo pikakuvake</string>
     <string name="create_shortcut_pro">Luo pikakuvake (Pro)</string>
-    <string name="add_number_to_contact">Lisää numero yhteystietoon</string>
+    <string name="add_number_to_contact">Lisää numero yhteystietoihin</string>
     <string name="view_contact_details">Näytä yhteystieto</string>
     <string name="call_from_sim_1">Soita SIM 1-kortilla</string>
     <string name="call_from_sim_2">Soita SIM 2-kortilla</string>
@@ -450,7 +450,7 @@
     <string name="no_fingerprints_registered">Sinulla ei ole tallennettuja sormenjälkiä, lisää niitä laitteesi asetuksista</string>
     <string name="go_to_settings">Mene asetuksiin</string>
     <string name="protection_setup_successfully">Salasana tallennettu. Asenna sovellus uudelleen jos unohdat sen.</string>
-    <string name="fingerprint_setup_successfully">Suojaus onnistui. Asenna sovellus uudelleen jos kohtaat ongelmia.</string>
+    <string name="fingerprint_setup_successfully">Suojauksen asetus onnistui. Asenna sovellus uudelleen jos kohtaat ongelmia.</string>
     <string name="lock_folder">Lukitse kansio</string>
     <string name="lock_folder_pro">Lukitse kansio (Pro)</string>
     <string name="unlock_folder">Avaa kansion lukitus</string>
@@ -1072,4 +1072,20 @@
     <string name="translation_english">Englanti</string>
     <string name="translation_nepali">Nepali</string>
     <string name="format_phone_numbers">Muotoile puhelinnumerot</string>
+    <string name="reorder_items_by_dragging">Uudelleenjärjestele kohteita vetämällä</string>
+    <string name="known_issues">Tunnettuja ongelmia</string>
+    <string name="number_of_items">Kohteiden lukumäärä</string>
+    <string name="donate_new">Hei, &lt;br&gt;&lt;br&gt; toivottavasti nautit sovelluksen käyttämisestä. Emme näytä mainoksia ja emmekä myöskään kerää tietojasi. Tue sovelluksen kehitystä ostamalla &lt;a href=https:/play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You &lt;/a&gt; Saat käyttöösi kaikki sovelluksenominaisuudet kuten sovelluksen värien mukautuksen.&lt;b&gt; Kiitos!</string>
+    <string name="all_fossify_apps">Kaikki Fossify sovellukset</string>
+    <string name="allow_alarm_sleep_timer">Sovellus tarvitsee pääsyn hälytyksiin. Muutoin hälytystä ei voi kytkeä pois päältä uniajastimen ajan loputtua.</string>
+    <string name="shared_theme_note">Huomaa, että vaikka käytät sovelluksen Pro-versiota, tarvitset silti Fossify Thank You:ta teknisten syiden vuoksi. Värisynkronointi toimii sen kautta.</string>
+    <string name="purchase_simple_thank_you">Osta Fossify Thank You</string>
+    <string name="theme_and_colors">Teema ja värit</string>
+    <string name="app_icon_color_warning">Varoitus: Tietyt käynnistimet eivät välttämättä käsittele mukautettuja sovelluskuvakkeita oikein. Mikäli kuvake katoaa, yritä käynnistää sovellus Google Play:n tai sovelman kautta. Käynnistyksen jälkeen, palauta kuvakkeen vihreä väri #106D1F. Joissain tapauksissa sovelluksen uudelleenasennus voi olla tarpeen.</string>
+    <string name="donate_to_fossify">Lahjoita Fossify:lle</string>
+    <string name="platforms">Alustat</string>
+    <string name="days_letter">%dp</string>
+    <string name="donate_short">Tue meitä ostamalla &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; saadaksesi käyttöön kaikki sovellusominaisuudet mukaan luettuna värien mukautusominaisuuden.</string>
+    <string name="update_thank_you">Päivitä Fossify Thank You viimeisimpään versioon</string>
+    <string name="features_locked">Tämä ominaisuus on lukittu, tue meitä ostamalla &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; avataksesi sovelluksen kaikki ominaisuudet.&lt;br&gt;&lt;br&gt;Osto on kertaluonteinen. Huomioi, että mikäli et ole tyytyväinen, emme voi hyvittää ostosta.</string>
 </resources>
