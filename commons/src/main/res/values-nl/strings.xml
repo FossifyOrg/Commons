@@ -1050,4 +1050,7 @@
     <string name="number_of_items">Aantal items</string>
     <string name="reorder_items_by_dragging">Items herschikken door te slepen</string>
     <string name="days_letter">%dd</string>
+    <string name="confirm_storage_access_restricted_text_not_found">Er kon geen systeemapp voor bestandsbeheer worden gevonden.</string>
+    <string name="confirm_storage_access_restricted_text_open_system">Openen in systeemapp</string>
+    <string name="confirm_storage_access_restricted_text">Deze map is door systeembeperkingen niet beschikbaar.</string>
 </resources>
