@@ -1160,4 +1160,7 @@
     <string name="reorder_items_by_dragging">Déan míreanna a athordú trí tharraingt</string>
     <string name="number_of_items">Líon míreanna</string>
     <string name="days_letter">%d lá</string>
+    <string name="confirm_storage_access_restricted_text_not_found">Níorbh fhéidir aip bainisteora comhad córais a aimsiú.</string>
+    <string name="confirm_storage_access_restricted_text">De bharr srianta córais, níl an fillteán seo ar fáil.</string>
+    <string name="confirm_storage_access_restricted_text_open_system">Oscail san aip córais</string>
 </resources>
