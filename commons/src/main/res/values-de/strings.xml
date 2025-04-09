@@ -1110,4 +1110,5 @@
     <string name="confirm_storage_access_restricted_text">Aufgrund von Systemeinschränkungen ist dieser Ordner nicht verfügbar.</string>
     <string name="confirm_storage_access_restricted_text_open_system">In System-App öffnen</string>
     <string name="confirm_storage_access_restricted_text_not_found">Ein System-Dateimanager konnte nicht gefunden werden.</string>
+    <string name="days_letter">%dd</string>
 </resources>
