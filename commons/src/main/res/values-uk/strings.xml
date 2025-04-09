@@ -1175,4 +1175,7 @@
     <string name="number_of_items">Кількість предметів</string>
     <string name="reorder_items_by_dragging">Змінюйте порядок елементів, перетягуючи</string>
     <string name="days_letter">%d дн</string>
+    <string name="confirm_storage_access_restricted_text">Через системні обмеження ця тека недоступна.</string>
+    <string name="confirm_storage_access_restricted_text_open_system">Відкрити в системному застосунку</string>
+    <string name="confirm_storage_access_restricted_text_not_found">Не вдалося знайти застосунок системний файловий менеджер.</string>
 </resources>
