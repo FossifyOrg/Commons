@@ -1106,4 +1106,7 @@
     <string name="number_of_items">Objektide arv</string>
     <string name="reorder_items_by_dragging">Muuda järjestust lohistades</string>
     <string name="days_letter">%dp</string>
+    <string name="confirm_storage_access_restricted_text">Süsteemi piirangute tõttu pole see kaust saadaval.</string>
+    <string name="confirm_storage_access_restricted_text_open_system">Ava süsteemi rakenduses</string>
+    <string name="confirm_storage_access_restricted_text_not_found">Süsteemi failihaldurit ei õnnestu leida.</string>
 </resources>

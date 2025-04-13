@@ -257,7 +257,7 @@
     <string name="confirm_storage_access_text">Valitse muistikortin juurihakemisto seuraavaksi antaaksesi kirjoitusoikeuden</string>
     <string name="confirm_storage_access_text_sd">Jos et näe muistikorttia, kokeile tätä</string>
     <string name="confirm_storage_access_android_text">Anna sovellukselle käyttöoikeus tallennustilan käyttöön painamalla seuraavassa näkymässä \"Käytä tätä hakemistoa\"-painiketta.</string>
-    <string name="confirm_storage_access_android_text_specific">Anna käyttöoikeus kohteeseen \'<b>%s</b>\' seuraavalla ruudulla painamalla \'<b>Käytä tätä kansiota</b>\' alalaidasta.</string>
+    <string name="confirm_storage_access_android_text_specific">Anna käyttöoikeus kohteeseen \'<b>%s</b>\' seuraavalla ruudulla painamalla \'<b>Käytä tätä kansiota</b>\' .</string>
     <string name="confirm_create_doc_for_new_folder_text">Paina \'&lt;b&gt;Tallenna&lt;/b&gt;\' seuraavan ruudun alalaidasta luodaksesi uuden kansion.</string>
     <string name="confirm_selection">Vahvista valinta</string>
     <string name="loading">Ladataan…</string>
@@ -372,7 +372,7 @@
     <string name="shortcut">Pikakuvake</string>
     <string name="create_shortcut">Luo pikakuvake</string>
     <string name="create_shortcut_pro">Luo pikakuvake (Pro)</string>
-    <string name="add_number_to_contact">Lisää numero yhteystietoon</string>
+    <string name="add_number_to_contact">Lisää numero yhteystietoihin</string>
     <string name="view_contact_details">Näytä yhteystieto</string>
     <string name="call_from_sim_1">Soita SIM 1-kortilla</string>
     <string name="call_from_sim_2">Soita SIM 2-kortilla</string>
@@ -450,7 +450,7 @@
     <string name="no_fingerprints_registered">Sinulla ei ole tallennettuja sormenjälkiä, lisää niitä laitteesi asetuksista</string>
     <string name="go_to_settings">Mene asetuksiin</string>
     <string name="protection_setup_successfully">Salasana tallennettu. Asenna sovellus uudelleen jos unohdat sen.</string>
-    <string name="fingerprint_setup_successfully">Suojaus onnistui. Asenna sovellus uudelleen jos kohtaat ongelmia.</string>
+    <string name="fingerprint_setup_successfully">Suojauksen asetus onnistui. Asenna sovellus uudelleen jos kohtaat ongelmia.</string>
     <string name="lock_folder">Lukitse kansio</string>
     <string name="lock_folder_pro">Lukitse kansio (Pro)</string>
     <string name="unlock_folder">Avaa kansion lukitus</string>
@@ -854,7 +854,15 @@
     <string name="thank_you">Kiitos</string>
     <string name="widget_locked_pro">Pienoissovellus on lukittu.
 \nOle hyvä ja päivitä Pro-versioon ottaaksesi sen käyttöön.</string>
-    <string name="new_app">Hei,&lt;br&gt;&lt;br&gt; halusin vain kertoa että uusi sovellus on julkaistu:&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; Voit ladata sen koskettamalla otsikkoa.&lt;br&gt;&lt;br&gt; Kiitos</string>
+    <string name="new_app"><![CDATA[
+            Hei,<br><br>
+           uusia sovelluksia on julkaistu äskettäin::<br><br>
+            <a href="%1$s">%2$s</a><br><br>
+            <a href="%3$s">%4$s</a><br><br>
+            <a href="%5$s">%6$s</a><br><br>
+            Voita ladata ne painamalla sovelluksen otsikko tai kuvaketta..<br><br>
+            Kiitos
+        ]]></string>
     <string name="app_launcher_short">Sovelluskäynnistin</string>
     <string name="calculator_short">Laskin</string>
     <string name="calendar_short">Kalenteri</string>
@@ -1072,4 +1080,42 @@
     <string name="translation_english">Englanti</string>
     <string name="translation_nepali">Nepali</string>
     <string name="format_phone_numbers">Muotoile puhelinnumerot</string>
+    <string name="reorder_items_by_dragging">Uudelleenjärjestele kohteita vetämällä</string>
+    <string name="known_issues">Tunnettuja ongelmia</string>
+    <string name="number_of_items">Kohteiden lukumäärä</string>
+    <string name="donate_new">Hei, &lt;br&gt;&lt;br&gt; toivottavasti nautit sovelluksen käyttämisestä. Emme näytä mainoksia ja emmekä myöskään kerää tietojasi. Tue sovelluksen kehitystä ostamalla &lt;a href=https:/play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You &lt;/a&gt; Saat käyttöösi kaikki sovelluksenominaisuudet kuten sovelluksen värien mukautuksen.&lt;b&gt; Kiitos!</string>
+    <string name="all_fossify_apps">Kaikki Fossify sovellukset</string>
+    <string name="allow_alarm_sleep_timer">Sovellus tarvitsee pääsyn hälytyksiin. Muutoin hälytystä ei voi kytkeä pois päältä uniajastimen ajan loputtua.</string>
+    <string name="shared_theme_note">Huomaa, että vaikka käytät sovelluksen Pro-versiota, tarvitset silti Fossify Thank You:ta teknisten syiden vuoksi. Värisynkronointi toimii sen kautta.</string>
+    <string name="purchase_simple_thank_you">Osta Fossify Thank You</string>
+    <string name="theme_and_colors">Teema ja värit</string>
+    <string name="app_icon_color_warning">Varoitus: Tietyt käynnistimet eivät välttämättä käsittele mukautettuja sovelluskuvakkeita oikein. Mikäli kuvake katoaa, yritä käynnistää sovellus Google Play:n tai sovelman kautta. Käynnistyksen jälkeen, palauta kuvakkeen vihreä väri #106D1F. Joissain tapauksissa sovelluksen uudelleenasennus voi olla tarpeen.</string>
+    <string name="donate_to_fossify">Lahjoita Fossify:lle</string>
+    <string name="platforms">Alustat</string>
+    <string name="days_letter">%dp</string>
+    <string name="donate_short">Tue meitä ostamalla &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; saadaksesi käyttöön kaikki sovellusominaisuudet mukaan luettuna värien mukautusominaisuuden.</string>
+    <string name="update_thank_you">Päivitä Fossify Thank You viimeisimpään versioon</string>
+    <string name="features_locked">Tämä ominaisuus on lukittu, tue meitä ostamalla &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; avataksesi sovelluksen kaikki ominaisuudet.&lt;br&gt;&lt;br&gt;Osto on kertaluonteinen. Huomioi, että mikäli et ole tyytyväinen, emme voi hyvittää ostosta.</string>
+    <string name="translation_kabyle">Kabyyli</string>
+    <string name="confirm_storage_access_restricted_text">Järjestelmärajoitusten vuoksi tämä kansio ei ole käytettävissä.</string>
+    <string name="confirm_storage_access_restricted_text_open_system">Avaa järjestelmäsovelluksessa</string>
+    <string name="confirm_storage_access_restricted_text_not_found">Sovellusta jolla voi muokata järjestelmätiedostoja, ei löytynyt.</string>
+    <string name="cryptocurrency">Kryptovaluutta</string>
+    <string name="faq_6_text_commons">Tämä ongelma esiintyy, mikäli sovelluskäynnistin ei kunnolla tue kuvakkeiden muokkausta. Yritä käynnistää sovellus Google Play:n kautta tai sovelmasta jos mahdollista. Käynnistyksen jälkeen palauta kuvakkeen vihreä oletusväri #106D1F. Joissain tapauksissa sovelluksen uudelleen asennus voi olla tarpeen.</string>
+    <string name="translation_central_kurdish">Soranî (Keskikurdi)</string>
+    <string name="translation_esperanto">Esperanto</string>
+    <string name="little_to_no_fee">Pienellä maksulla</string>
+    <string name="fee_up_to_pct">Maksu %1$d%%</string>
+    <string name="translation_gujarati">Gujarati</string>
+    <string name="translation_belarusian">Valko-Venäjä</string>
+    <string name="translation_chuvash">Tšuvassi</string>
+    <string name="faq_2_text_commons"><![CDATA[
+            Tottakai. Voit levittää sovelluksista sanaa tai antaa arvosteluita. Voit myös auttaa kääntämällä sovelluksia uusille kielille tai päivittämällä jo olemassaolevia kieliä.
+            Käännösohjeet seuraavasta <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">osoitteesta</a> tai ottamalla yhteyttä osoitteeseen <a href="mailto:hello@fossify.org">hello@fossify.org</a>
+        ]]></string>
+    <string name="contributors_label"><![CDATA[
+            Tämä lista sisältää Fossify-perheen sovellusten kehityksessä autteneet henkilöt. Käännökset on tehty vapaaehtoisten voimin. Ota yhteyttä mikäli haluat auttaa. Käännösohjeet seuraavasta: <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">osoitteesta</a>. Voit myös olla yhteydessä osoitteeseen <a href="mailto:hello@fossify.org">hello@fossify.org</a>
+
+            Kiitos kaikille kehitystyössä avustaneille ja tukijoille!
+        ]]></string>
 </resources>

@@ -1039,4 +1039,7 @@
     <string name="number_of_items">Брой елементи</string>
     <string name="reorder_items_by_dragging">Подреждане на елементите с влачене</string>
     <string name="days_letter">%dд</string>
+    <string name="confirm_storage_access_restricted_text_open_system">Отваряне в системното приложение</string>
+    <string name="confirm_storage_access_restricted_text_not_found">Не е намерено системно приложение за работа с файлове.</string>
+    <string name="confirm_storage_access_restricted_text">Поради системни ограничения папката е недостъпна.</string>
 </resources>

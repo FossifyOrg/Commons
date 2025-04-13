@@ -1172,4 +1172,7 @@
     <string name="number_of_items">Liczba elementów</string>
     <string name="reorder_items_by_dragging">Przeorganizuj elementy przeciągając</string>
     <string name="days_letter">%d d</string>
+    <string name="confirm_storage_access_restricted_text">Ze względu na ograniczenia systemowe ten folder jest niedostępny.</string>
+    <string name="confirm_storage_access_restricted_text_open_system">Otwórz w aplikacji systemowej</string>
+    <string name="confirm_storage_access_restricted_text_not_found">Nie znaleziono systemowej aplikacji menedżera plików</string>
 </resources>

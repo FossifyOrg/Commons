@@ -1154,4 +1154,7 @@
     <string name="number_of_items">Количество элементов</string>
     <string name="reorder_items_by_dragging">Порядок элементов меняется перетаскиванием</string>
     <string name="days_letter">%d д</string>
+    <string name="confirm_storage_access_restricted_text">Из-за системных ограничений эта папка недоступна.</string>
+    <string name="confirm_storage_access_restricted_text_not_found">Системный файловый менеджер не найден.</string>
+    <string name="confirm_storage_access_restricted_text_open_system">Открыть в системном приложении</string>
 </resources>

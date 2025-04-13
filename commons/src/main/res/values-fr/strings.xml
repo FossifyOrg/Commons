@@ -1156,4 +1156,8 @@ j\'espère que vous appréciez l\'application. Elle ne contient pas d\'annonces,
     <string name="translation_gujarati">Gujarati</string>
     <string name="number_of_items">Nombre d\'éléments</string>
     <string name="reorder_items_by_dragging">Réorganiser les éléments en les faisant glisser</string>
+    <string name="confirm_storage_access_restricted_text">Des restrictions du système font que ce dossier n\'est pas autorisé.</string>
+    <string name="confirm_storage_access_restricted_text_open_system">Ouvrir dans l\'application système</string>
+    <string name="confirm_storage_access_restricted_text_not_found">Aucune application système de gestionnaire de fichier trouvée.</string>
+    <string name="days_letter">%dj</string>
 </resources>
