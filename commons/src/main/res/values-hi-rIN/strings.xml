@@ -352,7 +352,9 @@
     <string name="save_before_closing">आपके पास सहेजे नहीं गए परिवर्तन हैं। बाहर निकलने से पहले सहेजें?</string>
     <string name="apply_to_all_apps">सभी Fossify ऐप्स पर रंग लागू करें</string>
     <string name="shared_theme_note">ध्यान दें कि भले ही आप Pro ऐप संस्करण का उपयोग कर रहे हैं, फिर भी आपको तकनीकी कारणों से Fossify Thank You की आवश्यकता है। यह रंग समन्वयन का ख्याल रखता है।</string>
-    <string name="purchase_thank_you">कृपया इस प्रकार्य को अनलॉक करने और विकास का समर्थन करने के लिए &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; खरीदें। धन्यवाद!</string>
+    <string name="purchase_thank_you"><![CDATA[
+                           कृपया इस प्रकार्य को अनलॉक करने और विकास का समर्थन करने के लिए <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Thank You</a> खरीदें। धन्यवाद!
+                     ]]></string>
     <string name="dark_red">गहरा लाल</string>
     <string name="stop_showing_hidden">छुपे हुए मीडिया को दिखाना बंद करें</string>
     <string name="remove">हटाएं</string>
@@ -1088,4 +1090,16 @@
     <string name="format_phone_numbers">फोन नंबर प्रारूपित करें</string>
     <string name="platforms">प्लेटफार्म</string>
     <string name="little_to_no_fee">बहुत कम या कोई शुल्क नहीं</string>
+    <string name="all_fossify_apps">सारे Fossify ऐप्स</string>
+    <string name="reorder_items_by_dragging">आइटम को खींचकर क्रमित करें</string>
+    <string name="known_issues">ज्ञात समस्याएं</string>
+    <string name="confirm_storage_access_restricted_text_open_system">सिस्टम ऐप में खोलें</string>
+    <string name="confirm_storage_access_restricted_text_not_found">कोई सिस्टम फ़ाइल मैनेजर नहीं मिल सका।</string>
+    <string name="translation_central_kurdish">सेंट्रल कुर्दिश</string>
+    <string name="translation_kabyle">कबाइल</string>
+    <string name="translation_belarusian">बेलारूसी</string>
+    <string name="days_letter">%dd</string>
+    <string name="theme_and_colors">उपस्थिति और रंग</string>
+    <string name="confirm_storage_access_restricted_text">सिस्टम प्रतिबंधों के कारण, यह फ़ोल्डर अनुपलब्ध है।</string>
+    <string name="number_of_items">आइटम की संख्या</string>
 </resources>
