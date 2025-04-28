@@ -908,8 +908,7 @@
     <string name="invite_friends">Invite friends</string>
     <string name="share_text">Hey, come check out %1$s at %2$s</string>
     <string name="invite_via">Invite via</string>
-    <string name="rate_us">Rate us</string>
-    <string name="rate">Rate</string>
+    <string name="rate_this_app">Rate this app</string>
     <string name="donate">Donate</string>
     <string name="follow_us">Follow us</string>
     <string name="copyright">v %1$s\nCopyright © Fossify %2$d</string>
@@ -936,13 +935,10 @@
     <string name="purchase">Purchase</string>
     <string name="update_thank_you">Please update Fossify Thank You to the latest version</string>
     <string name="before_asking_question_read_faq">Before you ask a question, please check the app settings and read the Frequently Asked Questions first. Maybe the solution is there.</string>
-    <string name="before_rate_read_faq">Before you rate us, please check the app settings and read the Frequently Asked Questions first. If you have any problems, maybe the solution is there.</string>
     <string name="make_sure_latest">Also make sure that you are using the latest app version.</string>
     <string name="make_sure_upgrade">Also note that this app version is no longer being developed, get the Pro one for many improvements.</string>
     <string name="read_it">Read it</string>
     <string name="read_faq">Read FAQ</string>
-    <string name="rate_us_prompt">Hello,\n\nit looks like you are using this app for quite a while already, and we really appreciate it.\n\nIf we can ask you a favor, please rate us on Google Play. That would really help us a lot.\n\nNo matter how you decide, you will not see this message again.\n\nThanks!</string>
-    <string name="rate_our_app">Rate our app please :)</string>
     <string name="thank_you">Thank you</string>
     <string name="widget_locked_pro">The widget is locked.\nPlease upgrade to the Pro version to unlock it.</string>
     <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>

@@ -5,7 +5,12 @@ import android.os.Environment
 import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Button
@@ -22,11 +27,42 @@ import org.fossify.commons.compose.alert_dialog.rememberAlertDialogState
 import org.fossify.commons.compose.bottom_sheet.BottomSheetDialogState
 import org.fossify.commons.compose.bottom_sheet.rememberBottomSheetDialogState
 import org.fossify.commons.compose.extensions.config
-import org.fossify.commons.compose.extensions.rateStarsRedirectAndThankYou
 import org.fossify.commons.compose.theme.AppThemeSurface
-import org.fossify.commons.dialogs.*
-import org.fossify.commons.extensions.*
-import org.fossify.commons.models.*
+import org.fossify.commons.dialogs.AddOrEditBlockedNumberAlertDialog
+import org.fossify.commons.dialogs.AppSideLoadedAlertDialog
+import org.fossify.commons.dialogs.CallConfirmationAlertDialog
+import org.fossify.commons.dialogs.ChangeDateTimeFormatAlertDialog
+import org.fossify.commons.dialogs.ChangeViewTypeAlertDialog
+import org.fossify.commons.dialogs.ChooserBottomSheetDialog
+import org.fossify.commons.dialogs.ColorPickerAlertDialog
+import org.fossify.commons.dialogs.ConfirmationAdvancedAlertDialog
+import org.fossify.commons.dialogs.ConfirmationAlertDialog
+import org.fossify.commons.dialogs.CreateNewFolderAlertDialog
+import org.fossify.commons.dialogs.CustomIntervalPickerAlertDialog
+import org.fossify.commons.dialogs.DonateAlertDialog
+import org.fossify.commons.dialogs.EnterPasswordAlertDialog
+import org.fossify.commons.dialogs.FeatureLockedAlertDialog
+import org.fossify.commons.dialogs.FileConflictAlertDialog
+import org.fossify.commons.dialogs.FolderLockingNoticeAlertDialog
+import org.fossify.commons.dialogs.LineColorPickerAlertDialog
+import org.fossify.commons.dialogs.OpenDeviceSettingsAlertDialog
+import org.fossify.commons.dialogs.PermissionRequiredAlertDialog
+import org.fossify.commons.dialogs.PurchaseThankYouAlertDialog
+import org.fossify.commons.dialogs.RadioGroupAlertDialog
+import org.fossify.commons.dialogs.UpgradeToProAlertDialog
+import org.fossify.commons.dialogs.WhatsNewAlertDialog
+import org.fossify.commons.dialogs.WritePermissionAlertDialog
+import org.fossify.commons.dialogs.WritePermissionDialog
+import org.fossify.commons.extensions.baseConfig
+import org.fossify.commons.extensions.launchUpgradeToProIntent
+import org.fossify.commons.extensions.launchViewIntent
+import org.fossify.commons.extensions.toHex
+import org.fossify.commons.extensions.toast
+import org.fossify.commons.models.FileDirItem
+import org.fossify.commons.models.RadioItem
+import org.fossify.commons.models.Release
+import org.fossify.commons.models.SimpleListItem
+import org.fossify.commons.models.asReadOnly
 
 class TestDialogActivity : ComponentActivity() {
 
@@ -55,7 +91,6 @@ class TestDialogActivity : ComponentActivity() {
                     ShowButton(getColorPickerAlertDialogState(), text = "Color picker")
                     ShowButton(getCallConfirmationAlertDialogState(), text = "Call confirmation")
                     ShowButton(getChangeDateTimeFormatAlertDialogState(), text = "Change date time")
-                    ShowButton(getRateStarsAlertDialogState(), text = "Rate us")
                     ShowButton(getRadioGroupDialogAlertDialogState(), text = "Radio group")
                     ShowButton(getUpgradeToProAlertDialogState(), text = "Upgrade to pro")
                     ShowButton(getWhatsNewAlertDialogState(), text = "What's new")
@@ -214,14 +249,6 @@ class TestDialogActivity : ComponentActivity() {
             }
         }
     }
-
-    @Composable
-    private fun getRateStarsAlertDialogState() = rememberAlertDialogState().apply {
-        DialogMember {
-            RateStarsAlertDialog(alertDialogState = this, onRating = ::rateStarsRedirectAndThankYou)
-        }
-    }
-
 
     @Composable
     private fun getChangeDateTimeFormatAlertDialogState() = rememberAlertDialogState().apply {

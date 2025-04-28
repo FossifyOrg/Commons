@@ -38,7 +38,7 @@ internal fun AboutScreen(
 
 @Composable
 internal fun HelpUsSection(
-    onRateUsClick: () -> Unit,
+    onRateThisAppClick: () -> Unit,
     onInviteClick: () -> Unit,
     onContributorsClick: () -> Unit,
     showRateUs: Boolean,
@@ -54,9 +54,9 @@ internal fun HelpUsSection(
     }) {
         if (showRateUs) {
             TwoLinerTextItem(
-                text = stringResource(id = R.string.rate_us),
+                text = stringResource(id = R.string.rate_this_app),
                 icon = R.drawable.ic_star_outline_vector,
-                click = onRateUsClick
+                click = onRateThisAppClick
             )
         }
 
@@ -243,7 +243,7 @@ private fun AboutScreenPreview() {
             goBack = {},
             helpUsSection = {
                 HelpUsSection(
-                    onRateUsClick = {},
+                    onRateThisAppClick = {},
                     onInviteClick = {},
                     onContributorsClick = {},
                     showRateUs = true,

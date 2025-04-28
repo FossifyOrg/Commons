@@ -2,7 +2,12 @@ package org.fossify.commons.activities
 
 import android.content.ActivityNotFoundException
 import android.content.Intent
-import android.content.Intent.*
+import android.content.Intent.ACTION_SEND
+import android.content.Intent.ACTION_SENDTO
+import android.content.Intent.EXTRA_EMAIL
+import android.content.Intent.EXTRA_SUBJECT
+import android.content.Intent.EXTRA_TEXT
+import android.content.Intent.createChooser
 import android.os.Build
 import android.os.Bundle
 import android.os.Handler
@@ -16,13 +21,29 @@ import androidx.core.net.toUri
 import org.fossify.commons.R
 import org.fossify.commons.compose.alert_dialog.rememberAlertDialogState
 import org.fossify.commons.compose.extensions.enableEdgeToEdgeSimple
-import org.fossify.commons.compose.extensions.rateStarsRedirectAndThankYou
-import org.fossify.commons.compose.screens.*
+import org.fossify.commons.compose.screens.AboutScreen
+import org.fossify.commons.compose.screens.AboutSection
+import org.fossify.commons.compose.screens.HelpUsSection
+import org.fossify.commons.compose.screens.OtherSection
+import org.fossify.commons.compose.screens.SocialSection
 import org.fossify.commons.compose.theme.AppThemeSurface
 import org.fossify.commons.dialogs.ConfirmationAdvancedAlertDialog
-import org.fossify.commons.dialogs.RateStarsAlertDialog
-import org.fossify.commons.extensions.*
-import org.fossify.commons.helpers.*
+import org.fossify.commons.extensions.baseConfig
+import org.fossify.commons.extensions.getStoreUrl
+import org.fossify.commons.extensions.launchAppRatingPage
+import org.fossify.commons.extensions.launchMoreAppsFromUsIntent
+import org.fossify.commons.extensions.launchViewIntent
+import org.fossify.commons.extensions.showErrorToast
+import org.fossify.commons.extensions.toast
+import org.fossify.commons.helpers.APP_FAQ
+import org.fossify.commons.helpers.APP_ICON_IDS
+import org.fossify.commons.helpers.APP_LAUNCHER_NAME
+import org.fossify.commons.helpers.APP_LICENSES
+import org.fossify.commons.helpers.APP_NAME
+import org.fossify.commons.helpers.APP_PACKAGE_NAME
+import org.fossify.commons.helpers.APP_REPOSITORY_NAME
+import org.fossify.commons.helpers.APP_VERSION_NAME
+import org.fossify.commons.helpers.SHOW_FAQ_BEFORE_MAIL
 import org.fossify.commons.models.FAQItem
 
 class AboutActivity : BaseComposeActivity() {
@@ -43,22 +64,17 @@ class AboutActivity : BaseComposeActivity() {
             val context = LocalContext.current
             val resources = context.resources
             AppThemeSurface {
-                val showGoogleRelations = remember { !resources.getBoolean(R.bool.hide_google_relations) }
+                val showGoogleRelations =
+                    remember { !resources.getBoolean(R.bool.hide_google_relations) }
                 val showGithubRelations = showGithubRelations()
-                val showDonationLinks = remember { resources.getBoolean(R.bool.show_donate_in_about) }
+                val showDonationLinks =
+                    remember { resources.getBoolean(R.bool.show_donate_in_about) }
                 val onEmailClickAlertDialogState = getOnEmailClickAlertDialogState()
-                val rateStarsAlertDialogState = getRateStarsAlertDialogState()
-                val onRateUsClickAlertDialogState = getOnRateUsClickAlertDialogState(rateStarsAlertDialogState::show)
                 AboutScreen(
                     goBack = ::finish,
                     helpUsSection = {
                         HelpUsSection(
-                            onRateUsClick = {
-                                onRateUsClick(
-                                    showConfirmationAdvancedDialog = onRateUsClickAlertDialogState::show,
-                                    showRateStarsDialog = rateStarsAlertDialogState::show
-                                )
-                            },
+                            onRateThisAppClick = ::onRateThisAppClick,
                             onInviteClick = ::onInviteClick,
                             onContributorsClick = ::onContributorsClick,
                             showDonate = showDonationLinks,
@@ -129,17 +145,6 @@ class AboutActivity : BaseComposeActivity() {
     }
 
     @Composable
-    private fun getRateStarsAlertDialogState() =
-        rememberAlertDialogState().apply {
-            DialogMember {
-                RateStarsAlertDialog(
-                    alertDialogState = this,
-                    onRating = ::rateStarsRedirectAndThankYou
-                )
-            }
-        }
-
-    @Composable
     private fun getOnEmailClickAlertDialogState() =
         rememberAlertDialogState().apply {
             DialogMember {
@@ -154,26 +159,6 @@ class AboutActivity : BaseComposeActivity() {
                         launchFAQActivity()
                     } else {
                         launchEmailIntent()
-                    }
-                }
-            }
-        }
-
-    @Composable
-    private fun getOnRateUsClickAlertDialogState(showRateStarsDialog: () -> Unit) =
-        rememberAlertDialogState().apply {
-            DialogMember {
-                ConfirmationAdvancedAlertDialog(
-                    alertDialogState = this,
-                    message = "${getString(R.string.before_asking_question_read_faq)}\n\n${getString(R.string.make_sure_latest)}",
-                    messageId = null,
-                    positive = R.string.read_faq,
-                    negative = R.string.skip
-                ) { success ->
-                    if (success) {
-                        launchFAQActivity()
-                    } else {
-                        launchRateUsPrompt(showRateStarsDialog)
                     }
                 }
             }
@@ -247,26 +232,8 @@ class AboutActivity : BaseComposeActivity() {
         }
     }
 
-    private fun onRateUsClick(
-        showConfirmationAdvancedDialog: () -> Unit,
-        showRateStarsDialog: () -> Unit,
-    ) {
-        if (baseConfig.wasBeforeRateShown) {
-            launchRateUsPrompt(showRateStarsDialog)
-        } else {
-            baseConfig.wasBeforeRateShown = true
-            showConfirmationAdvancedDialog()
-        }
-    }
-
-    private fun launchRateUsPrompt(
-        showRateStarsDialog: () -> Unit,
-    ) {
-        if (baseConfig.wasAppRated) {
-            redirectToRateUs()
-        } else {
-            showRateStarsDialog()
-        }
+    private fun onRateThisAppClick() {
+        launchAppRatingPage()
     }
 
     private fun onInviteClick() {

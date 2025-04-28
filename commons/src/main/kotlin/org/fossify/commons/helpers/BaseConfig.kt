@@ -367,10 +367,6 @@ open class BaseConfig(val context: Context) {
         get() = prefs.getBoolean(WAS_BEFORE_ASKING_SHOWN, false)
         set(wasBeforeAskingShown) = prefs.edit().putBoolean(WAS_BEFORE_ASKING_SHOWN, wasBeforeAskingShown).apply()
 
-    var wasBeforeRateShown: Boolean
-        get() = prefs.getBoolean(WAS_BEFORE_RATE_SHOWN, false)
-        set(wasBeforeRateShown) = prefs.edit().putBoolean(WAS_BEFORE_RATE_SHOWN, wasBeforeRateShown).apply()
-
     var wasInitialUpgradeToProShown: Boolean
         get() = prefs.getBoolean(WAS_INITIAL_UPGRADE_TO_PRO_SHOWN, false)
         set(wasInitialUpgradeToProShown) = prefs.edit().putBoolean(WAS_INITIAL_UPGRADE_TO_PRO_SHOWN, wasInitialUpgradeToProShown).apply()
@@ -411,14 +407,6 @@ open class BaseConfig(val context: Context) {
     var wasUpgradedFromFreeShown: Boolean
         get() = prefs.getBoolean(WAS_UPGRADED_FROM_FREE_SHOWN, false)
         set(wasUpgradedFromFreeShown) = prefs.edit().putBoolean(WAS_UPGRADED_FROM_FREE_SHOWN, wasUpgradedFromFreeShown).apply()
-
-    var wasRateUsPromptShown: Boolean
-        get() = prefs.getBoolean(WAS_RATE_US_PROMPT_SHOWN, false)
-        set(wasRateUsPromptShown) = prefs.edit().putBoolean(WAS_RATE_US_PROMPT_SHOWN, wasRateUsPromptShown).apply()
-
-    var wasAppRated: Boolean
-        get() = prefs.getBoolean(WAS_APP_RATED, false)
-        set(wasAppRated) = prefs.edit().putBoolean(WAS_APP_RATED, wasAppRated).apply()
 
     var wasSortingByNumericValueAdded: Boolean
         get() = prefs.getBoolean(WAS_SORTING_BY_NUMERIC_VALUE_ADDED, false)
