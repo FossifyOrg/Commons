@@ -903,8 +903,7 @@
     <string name="email_label">Send your feedback or suggestions to</string>
     <string name="known_issues">Known issues</string>
     <string name="upgrade_to_pro">Upgrade to Pro</string>
-    <string name="more_apps">More apps</string>
-    <string name="more_apps_from_us">More apps from us</string>
+    <string name="more_fossify_apps">More Fossify apps</string>
     <string name="invite_friends">Invite friends</string>
     <string name="share_text">Hey, come check out %1$s at %2$s</string>
     <string name="invite_via">Invite via</string>

@@ -105,7 +105,7 @@ internal fun OtherSection(
         if (showMoreApps) {
             TwoLinerTextItem(
                 click = onMoreAppsClick,
-                text = stringResource(id = R.string.more_apps_from_us),
+                text = stringResource(id = R.string.more_fossify_apps),
                 icon = R.drawable.ic_apps_vector
             )
         }
