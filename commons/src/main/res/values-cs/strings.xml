@@ -1140,4 +1140,6 @@
     <string name="confirm_storage_access_restricted_text_not_found">Nepodařilo se najít systémového správce souborů.</string>
     <string name="confirm_storage_access_restricted_text">Z důvodu systémových omezení není tato složka dostupná.</string>
     <string name="confirm_storage_access_restricted_text_open_system">Otevřít v systémové aplikaci</string>
+    <string name="rate_this_app">Ohodnoťte tuto aplikaci</string>
+    <string name="more_fossify_apps">Další aplikace Fossify</string>
 </resources>
