@@ -364,11 +364,7 @@
     <string name="more_info">மேலும் தகவல்</string>
     <string name="upgrade">தரமுயர்த்து</string>
     <string name="about">பற்றி</string>
-    <string name="more_apps">மேலும் செயலிகள்</string>
-    <string name="more_apps_from_us">எங்களிடமிருந்து மேலும் செயலிகள்</string>
     <string name="invite_friends">நன்பர்களை அழைப்பிடு</string>
-    <string name="rate_us">எம்மை மதிப்பிடு</string>
-    <string name="rate">மதிப்பிடு</string>
     <string name="donate">நன்கொடையளி</string>
     <string name="follow_us">எம்மை பின்தொடர்</string>
     <string name="app_version">செயலி பதிப்பு: %s</string>

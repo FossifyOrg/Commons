@@ -788,13 +788,9 @@
     <string name="website_label">Lähtekoodi leiad siit</string>
     <string name="email_label">Oma tagasiside ja ettepanekud palun saada e-posti aadressile</string>
     <string name="upgrade_to_pro">Võta kasutusele Pro versioon</string>
-    <string name="more_apps">Vaata kõiki meie rakendusi</string>
-    <string name="more_apps_from_us">Vaata kõiki meie rakendusi</string>
     <string name="invite_friends">Kutsu sõpru kasutama seda rakendust</string>
     <string name="share_text">Hei, palun vaata, kas sulle meeldiks selline rakendus - %1$s, mille leiad %2$s saidist</string>
     <string name="invite_via">Saada kutse rakendusega</string>
-    <string name="rate_us">Hinda meid</string>
-    <string name="rate">Hinda</string>
     <string name="donate">Toeta meid</string>
     <string name="follow_us">Jälgi meid</string>
     <string name="copyright">v %1$s
@@ -812,21 +808,10 @@
     <string name="device_os">Seadme operatsioonisüsteem: %s</string>
     <string name="purchase">Osta</string>
     <string name="before_asking_question_read_faq">Enne küsimuse esitamist palun kontrolli rakenduse seadeid ja loe esmalt lehte „Korduma kippuvad küsimused„“. Võib-olla on lahendus seal olemas.</string>
-    <string name="before_rate_read_faq">Enne kui hindad meid, palun kontrolli rakenduse seadeid ja loe esmalt lehte „Korduma kippuvad küsimused“. Kui sul on rakenduse kasutamisel mingeid probleeme, võib-olla on lahendus seal kirjas.</string>
     <string name="make_sure_latest">Lisaks palun kontrolli, et kasutad rakenduse viimast versiooni.</string>
     <string name="make_sure_upgrade">Palun arvesta, et seda rakenduse versiooni enam ei arendata, laadi alla Pro versioon, mis sisaldab palju täiustusi.</string>
     <string name="read_it">Loe järgnevat</string>
     <string name="read_faq">Loe korduma kippuvaid küsimusi</string>
-    <string name="rate_us_prompt">Tere,
-\n
-\ntundub, et kasutad seda rakendust juba mõnda aega ja me hindame seda väga kõrgelt.
-\n
-\nKui me võime seda paluda, siis palun hinda meid Google Play\'s. See aitaks meid tõesti palju.
-\n
-\nÜkskõik, kuidas sa otsustad toimida, siis seda sõnumit rohkem ei kuvata.
-\n
-\nAitäh!</string>
-    <string name="rate_our_app">Palun hinda meie rakendust :)</string>
     <string name="thank_you">Suur tänu</string>
     <string name="widget_locked_pro">Rakendus on lukustatud.
 \nLukustuse eemaldamiseks palun uuenda ta Pro-versioonini.</string>

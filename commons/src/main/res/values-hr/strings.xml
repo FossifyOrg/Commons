@@ -826,13 +826,9 @@
     <string name="website_label">Za izvorni kod posjeti</string>
     <string name="email_label">Pošalji nam povratne informacije ili prijedloge na</string>
     <string name="upgrade_to_pro">Nadogradi na Pro verziju</string>
-    <string name="more_apps">Daljnje aplikacije</string>
-    <string name="more_apps_from_us">Daljnje aplikacje od nas</string>
     <string name="invite_friends">Pozovi prijatelje</string>
     <string name="share_text">Hej, posjeti nas na %1$s u %2$s</string>
     <string name="invite_via">Pozovi putem</string>
-    <string name="rate_us">Ocijeni nas</string>
-    <string name="rate">Ocjena</string>
     <string name="donate">Doniraj</string>
     <string name="follow_us">Prati nas</string>
     <string name="support">Podrška</string>
@@ -853,21 +849,10 @@
         ]]></string>
     <string name="purchase">Kupi</string>
     <string name="before_asking_question_read_faq">Prije nego što postaviš pitanje, provjeri postavke aplikacije i najprije pročitaj stranicu „Često postavljena pitanja”. Rješenje možda već postoji.</string>
-    <string name="before_rate_read_faq">Prije nego što nas ocijeniš, provjeri postavke aplikacije i najprije pročitaj stranicu „Često postavljena pitanja”. Ako imaš bilo koji problem, rješenje možda već postoji.</string>
     <string name="make_sure_latest">Također osiguraj da koristiš najnoviju verziju aplikacije.</string>
     <string name="make_sure_upgrade">Također imaj na umu da se ova verzija aplikacije više ne razvija. Nabavi Pro verziju za mnoga poboljšanja.</string>
     <string name="read_it">Pročitajte</string>
     <string name="read_faq">Pročitaj ČPP</string>
-    <string name="rate_us_prompt">Zdravo,
-\n
-\nČini se da već duže vrijeme koristiš ovu aplikaciju i mi to jako cijenimo.
-\n
-\nMolimo te da nas ocijeniš nas na Google Playu. To bi nam stvarno puno pomoglo.
-\n
-\nKako god odlučiš, ovu poruku više nećeš vidjeti.
-\n
-\nHvala!</string>
-    <string name="rate_our_app">Ocijeni našu aplikaciju :)</string>
     <string name="thank_you">Hvala</string>
     <string name="widget_locked_pro">Widget je zaključan.
 \nZa otključavanje widgeta nadogradi na Pro verziju.</string>

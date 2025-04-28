@@ -611,12 +611,9 @@
     <string name="website_label">Mã nguồn</string>
     <string name="email_label">Góp ý hoặc đề xuất</string>
     <string name="upgrade_to_pro">Nâng cấp Pro</string>
-    <string name="more_apps">Các ứng dụng khác</string>
     <string name="invite_friends">Mời bạn bè</string>
     <string name="share_text">Xin chào, hãy kiểm tra %1$s tại %2$s</string>
     <string name="invite_via">Mời qua</string>
-    <string name="rate_us">Đánh giá</string>
-    <string name="rate">Đánh giá</string>
     <string name="follow_us">Theo dõi</string>
     <string name="additional_info">Thông tin bổ sung</string>
     <string name="app_version">Phiên bản ứng dụng: %s</string>
@@ -630,11 +627,9 @@
     </string>
     <string name="purchase">Mua hàng</string>
     <string name="before_asking_question_read_faq">Trước khi đặt câu hỏi, vui lòng kiểm tra cài đặt ứng dụng và đọc Câu hỏi thường gặp trước. Có thể giải pháp ở đó.</string>
-    <string name="before_rate_read_faq">Trước khi đánh giá, vui lòng kiểm tra cài đặt ứng dụng và đọc Câu hỏi thường gặp trước. Nếu bạn gặp vấn đề, có thể giải pháp ở đó.</string>
     <string name="make_sure_latest">Hãy đảm bảo rằng bạn đang sử dụng phiên bản ứng dụng mới nhất.</string>
     <string name="read_it">Hãy đọc</string>
     <string name="read_faq">Đọc Câu hỏi thường gặp(FAQ)</string>
-    <string name="rate_us_prompt">Xin chào,\n\ncó vẻ như bạn đang sử dụng ứng dụng này khá lâu và chúng tôi thực sự đánh giá cao nó.\n\nNếu có thể, vui lòng đánh giá chúng tôi trên Google Play. Điều đó thực sự sẽ giúp chúng tôi rất nhiều.\n\n Bất kể bạn quyết định như thế nào, bạn sẽ không thấy thông báo này nữa.\n\nCảm ơn!</string>
     <string name="new_app">
         <![CDATA[
             Này,<br><br>
@@ -733,7 +728,6 @@
     <string name="theme_and_colors">Chủ đề và màu</string>
     <string name="widgets">Widget</string>
     <string name="list_view">Danh sách</string>
-    <string name="more_apps_from_us">Các app khác</string>
     <string name="copyright">v %1$s\nBản quyền © Fossify %2$d</string>
     <string name="root">Root</string>
     <string name="exif">EXIF</string>

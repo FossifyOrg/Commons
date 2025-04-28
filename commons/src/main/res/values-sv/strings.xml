@@ -805,13 +805,9 @@
     <string name="website_label">Du hittar källkoden på</string>
     <string name="email_label">Skicka dina synpunkter och förslag till</string>
     <string name="upgrade_to_pro">Uppgradera till Pro</string>
-    <string name="more_apps">Fler appar</string>
-    <string name="more_apps_from_us">Fler appar från oss</string>
     <string name="invite_friends">Bjud in vänner</string>
     <string name="share_text">Hej, läs om %1$s på %2$s</string>
     <string name="invite_via">Bjud in via</string>
-    <string name="rate_us">Betygsätt oss</string>
-    <string name="rate">Betygsätt</string>
     <string name="donate">Donera</string>
     <string name="follow_us">Följ oss</string>
     <string name="help_us">Hjälp oss</string>
@@ -832,21 +828,10 @@
     </string>
     <string name="purchase">Köp</string>
     <string name="before_asking_question_read_faq">Innan du frågar, vänligen kolla appens inställningar och läs FAQ:en först. Kanske finns lösningen där.</string>
-    <string name="before_rate_read_faq">Innan du betygsätter oss, vänligen kolla appens inställningar och läs FAQ:en innan. Om du har några problem, kanske finns lösningen där.</string>
     <string name="make_sure_latest">Dubbelkolla så du har den senaste versionen av appen.</string>
     <string name="make_sure_upgrade">Notera att denna appversionen inte utvecklas längre, skaffa Pro-versionen för förbättringar istället.</string>
     <string name="read_it">Läs</string>
     <string name="read_faq">Läs FAQ</string>
-    <string name="rate_us_prompt">Hejsan,
-\n
-\ndet ser ut som att du har använt den här appen ett bra tag redan, och vi uppskattar det verkligen.
-\n
-\nOm vi kan be dig om en tjänst, vänligen betygsätt oss på Google Play. Det skulle verkligen hjälpa oss mycket.
-\n
-\nOavsett hur du bestämmer dig kommer du inte att se det här meddelandet igen.
-\n
-\nTack!</string>
-    <string name="rate_our_app">Betygsätt vår app :)</string>
     <string name="thank_you">Tack</string>
     <string name="widget_locked_pro">Widgeten är låst.\nUppgradera till Pro-versionen för att låsa upp den.</string>
     <string name="new_app">

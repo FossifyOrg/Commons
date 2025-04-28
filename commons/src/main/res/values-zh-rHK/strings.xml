@@ -656,13 +656,9 @@
     <string name="website_label">应用源码</string>
     <string name="email_label">发送反馈</string>
     <string name="upgrade_to_pro">升级到专业版</string>
-    <string name="more_apps">更多应用</string>
-    <string name="more_apps_from_us">我们的其他应用</string>
     <string name="invite_friends">分享给好友</string>
     <string name="share_text">嘿，请前往 %2$s 看看我们的 %1$s 吧</string>
     <string name="invite_via">分享到</string>
-    <string name="rate_us">为我们评分</string>
-    <string name="rate">评分</string>
     <string name="donate">捐赠</string>
     <string name="follow_us">关注我们</string>
     <string name="copyright">v %1$s
@@ -687,13 +683,10 @@
     </string>
     <string name="purchase">购买</string>
     <string name="before_asking_question_read_faq">提问之前，请先打开应用设置并阅读常见问题。也许您可以在那里找到答案。</string>
-    <string name="before_rate_read_faq">评分之前，请先打开应用设置并阅读常见问题。也许您可以在那里找到答案。</string>
     <string name="make_sure_latest">另外，请确保您正在使用的是最新版本的应用。</string>
     <string name="make_sure_upgrade">还请注意，作者不再开发这个应用版本，请获取有多处改进的专业版。</string>
     <string name="read_it">阅读</string>
     <string name="read_faq">阅读常见问题</string>
-    <string name="rate_us_prompt">您好，\n\n看来您使用这个应用已经有一段时间了，我们真的很感激。\n\n如果您喜欢，请在Google Play上为我们评分。这对我们很有帮助。\n\n无论您做何决定，您都不会再看到这个消息了。\n\n感谢！</string>
-    <string name="rate_our_app">请为我们的应用评分 :)</string>
     <string name="thank_you">非常感谢</string>
     <string name="widget_locked_pro">小部件被锁定。
 \n请升级到专业版解锁。</string>

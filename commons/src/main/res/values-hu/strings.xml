@@ -818,13 +818,9 @@
     <string name="website_label">A forráskódok megtekintéséhez</string>
     <string name="email_label">Ide küldje a visszajelzését vagy a javaslatait</string>
     <string name="upgrade_to_pro">Frissítés Pro verzióra</string>
-    <string name="more_apps">További alkalmazások</string>
-    <string name="more_apps_from_us">További alkalmazásaink</string>
     <string name="invite_friends">Barátok meghívása</string>
     <string name="share_text">Nézze meg ezt: %1$s – %2$s</string>
     <string name="invite_via">Meghívás</string>
-    <string name="rate_us">Értékeljen minket</string>
-    <string name="rate">Értékelés</string>
     <string name="donate">Támogatás</string>
     <string name="follow_us">Kövessen minket</string>
     <string name="support">Támogatás</string>
@@ -840,21 +836,10 @@
     <string name="device_os">Eszköz operációs rendszere: %s</string>
     <string name="purchase">Vásárlás</string>
     <string name="before_asking_question_read_faq">Mielőtt kérdezne, ellenőrizze az alkalmazás beállításait, és először olvassa el a Gyakran Ismételt Kérdéseket. Talán ott van a megoldás.</string>
-    <string name="before_rate_read_faq">Az értékelés előtt nézze meg az alkalmazás beállításait, és olvassa el a gyakran ismételt kérdéseket. Ha problémája van, lehet, hogy a megoldás már ott van.</string>
     <string name="make_sure_latest">Arról is győződjön meg, hogy a legfrissebb verziót használja.</string>
     <string name="make_sure_upgrade">Vegye figyelembe, hogy ez az alkalmazásverziót már nem fejlesztjük, szerezze be a Pro változatot a számos fejlesztésért.</string>
     <string name="read_it">Elolvasás</string>
     <string name="read_faq">GYIK elolvasása</string>
-    <string name="rate_us_prompt">Üdv,
-\n
-\nÚgy tűnik, elég régen használja ezt az alkalmazást, amit nagyra értékelünk.
-\n
-\nHa megkérhetjük egy szívességre, kérjük, értékeljen minket a Google Playen. Ez igazán segítene nekünk.
-\n
-\nFüggetlenül attól, hogy hogyan dönt, nem fogja látni ezt az üzenetet újra.
-\n
-\nKöszönjük!</string>
-    <string name="rate_our_app">Értékelje az alkalmazásunkat! :)</string>
     <string name="thank_you">Köszönjük</string>
     <string name="widget_locked_pro">A modul zárolva van.
 \nFrissítsen a Pro verzióra a feloldásához.</string>

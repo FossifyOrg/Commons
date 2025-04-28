@@ -701,13 +701,9 @@
     <string name="website_label">Pentru codurile sursă, vizitați</string>
     <string name="email_label">Puteţi trimite părerile sau sugestiile dumneavoastră la</string>
     <string name="upgrade_to_pro">Actualizează la Pro</string>
-    <string name="more_apps">Alte aplicaţii</string>
-    <string name="more_apps_from_us">Alte aplicații de la noi</string>
     <string name="invite_friends">Invitați prieteni</string>
     <string name="share_text">Hei, vino să vezi %1$s la %2$s</string>
     <string name="invite_via">Invită prin</string>
-    <string name="rate_us">Evaluați-ne</string>
-    <string name="rate">Evaluează</string>
     <string name="donate">Donează</string>
     <string name="follow_us">Urmăriți-ne</string>
     <string name="help_us">Ajutaţi-ne</string>
@@ -727,13 +723,10 @@
     </string>
     <string name="purchase">Cumpără</string>
     <string name="before_asking_question_read_faq">Înainte de a pune o întrebare, vă rugăm să verificați setările aplicației și să citiți mai întâi Întrebările frecvente. Este posibil ca soluția să se afle acolo.</string>
-    <string name="before_rate_read_faq">Înainte de a ne evalua, vă rugăm să verificați setările aplicației și să citiți mai întâi Întrebările frecvente. Dacă aveți probleme, este posibil ca soluția să se afle acolo.</string>
     <string name="make_sure_latest">De asemenea, asigurați-vă că utilizați cea mai recentă versiune a aplicației.</string>
     <string name="make_sure_upgrade">De asemenea, rețineți că această versiune a aplicației nu mai este în curs de dezvoltare, obțineți versiunea Pro pentru multe îmbunătățiri.</string>
     <string name="read_it">Citeşte</string>
     <string name="read_faq">Citeşte FAQ</string>
-    <string name="rate_us_prompt">Salut,\n\nse pare că folosiți această aplicație de ceva timp deja și apreciem acest lucru.\n\n Dacă vă putem cere o favoare, vă rugăm să ne evaluați pe Google Play. Asta ne-ar ajuta foarte mult.\n\nIndiferent de decizia pe care o veți lua, nu veți mai vedea acest mesaj.\n\nÎţi mulţumesc!</string>
-    <string name="rate_our_app">Vă rugăm să ne evaluaţi aplicaţia :)</string>
     <string name="thank_you">Îţi mulţumesc</string>
     <string name="widget_locked_pro">Widgetul este blocat.\nVă rugăm să faceți upgrade la versiunea Pro pentru a debloca această funcţie.</string>
     <string name="new_app">

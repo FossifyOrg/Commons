@@ -872,13 +872,9 @@
     <string name="website_label">Исходный код можно найти по адресу</string>
     <string name="email_label">Отправить отзывы или предложения</string>
     <string name="upgrade_to_pro">Обновить до Pro</string>
-    <string name="more_apps">Другие приложения</string>
-    <string name="more_apps_from_us">Другие наши приложения</string>
     <string name="invite_friends">Предложить другу</string>
     <string name="share_text">Попробуйте %1$s по ссылке %2$s</string>
     <string name="invite_via">Предложить с помощью</string>
-    <string name="rate_us">Оценить в Google Play</string>
-    <string name="rate">Оценить</string>
     <string name="donate">Пожертвовать</string>
     <string name="follow_us">Подписаться на нас</string>
     <string name="copyright">v%1$s
@@ -896,21 +892,10 @@
     <string name="device_os">ОС устройства: %s</string>
     <string name="purchase">Купить</string>
     <string name="before_asking_question_read_faq">Прежде чем задать вопрос, изучите настройки приложения и прочтите FAQ (часто задаваемые вопросы). Возможно, решение уже есть.</string>
-    <string name="before_rate_read_faq">Прежде чем поставить оценку, изучите настройки приложения и прочтите FAQ (часто задаваемые вопросы). Если у вас возникли какие-то проблемы, возможно, решение уже есть.</string>
     <string name="make_sure_latest">Также убедитесь, что используете последнюю версию приложения.</string>
     <string name="make_sure_upgrade">Также обратите внимание, что эта версия приложения больше не разрабатывается. Установите Pro-версию для получения множества улучшений.</string>
     <string name="read_it">Прочитать</string>
     <string name="read_faq">Прочитать FAQ</string>
-    <string name="rate_us_prompt">Привет,
-\n
-\nпохоже, вы уже давно используете данное приложение, и мы очень ценим это.
-\n
-\nНе могли бы вы оказать нам услугу и оценить его в Google Play? Это действительно очень нам поможет.
-\n
-\nНезависимо от вашего решения данное сообщение больше не появится.
-\n
-\nСпасибо!</string>
-    <string name="rate_our_app">Пожалуйста, оцените приложение :)</string>
     <string name="thank_you">Спасибо</string>
     <string name="widget_locked_pro">Виджет заблокирован.
 \nПерейдите на Pro-версию, чтобы разблокировать его.</string>

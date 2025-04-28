@@ -527,10 +527,8 @@
     <string name="about">Om</string>
     <string name="website_label">For kildekoden besøk</string>
     <string name="email_label">Send tilbakemelding eller forslag til</string>
-    <string name="more_apps">Flere apper</string>
     <string name="invite_friends">Inviter venner</string>
     <string name="invite_via">Inviter via</string>
-    <string name="rate_us">Bedøm oss</string>
     <string name="donate">Gi et bidrag</string>
     <string name="follow_us">Følg oss</string>
     <string name="other">Annet</string>

@@ -787,13 +787,9 @@
     <string name="website_label">源代码仓库</string>
     <string name="email_label">发送反馈</string>
     <string name="upgrade_to_pro">升级到专业版</string>
-    <string name="more_apps">更多应用</string>
-    <string name="more_apps_from_us">我们的其他应用</string>
     <string name="invite_friends">分享给好友</string>
     <string name="share_text">请前往 %2$s 了解 %1$s</string>
     <string name="invite_via">分享到</string>
-    <string name="rate_us">给本应用评分</string>
-    <string name="rate">评分</string>
     <string name="donate">捐款</string>
     <string name="follow_us">关注我们</string>
     <string name="copyright">v %1$s
@@ -819,21 +815,10 @@
     <string name="purchase">购买</string>
     <string name="update_thank_you">请更新 Fossify Thank You 到最新版本</string>
     <string name="before_asking_question_read_faq">在提问之前，请先打开应用的设置并阅读常见问题。也许您可以在那里找到答案。</string>
-    <string name="before_rate_read_faq">在评分之前，请先打开应用的设置并阅读常见问题。如果您在使用中遇到了问题，也许您可以在那里找到答案。</string>
     <string name="make_sure_latest">另外，请确保您正在使用的是最新版本的应用。</string>
     <string name="make_sure_upgrade">请注意：作者已经不再开发本应用的免费版。请购买专业版以获取新的改进。</string>
     <string name="read_it">阅读</string>
     <string name="read_faq">阅读常见问题</string>
-    <string name="rate_us_prompt">您好，
-\n
-\n您已经使用本应用一段时间了，非常感谢您的选择。
-\n
-\n如果您有时间并且乐意的话，请在Google Play上为我们评分。这对我们很有帮助。
-\n
-\n无论您是否评分，本消息将不再显示。
-\n
-\n非常感谢！</string>
-    <string name="rate_our_app">请为本应用评分 :)</string>
     <string name="thank_you">非常感谢</string>
     <string name="widget_locked_pro">微件已被锁定。\n请升级到专业版解锁。</string>
     <string name="features_locked">此功能已被锁定，请购买 &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; 应用以获取全部功能。&lt;br&gt;&lt;br&gt;购买是一次性的。如果您不满意，我们可以为您退款。</string>

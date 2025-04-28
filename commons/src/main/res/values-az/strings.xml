@@ -431,11 +431,9 @@
     <string name="about">Haqqında</string>
     <string name="website_label">Kök koda keçiş üçün</string>
     <string name="email_label">Geri dönüş və tövsiyələrinizi göndərin</string>
-    <string name="more_apps">Daha çox tətbiq</string>
     <string name="invite_friends">Dostları dəvət et</string>
     <string name="share_text">Ey! gəl sən də %2$s\'də %1$s\'ə nəzər yetir!</string>
     <string name="invite_via">Dəvət et</string>
-    <string name="rate_us">Dəyərləndir</string>
     <string name="donate">İanə et</string>
     <string name="follow_us">İzlə</string>
     <string name="additional_info">Əlavə məlumat</string>

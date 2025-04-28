@@ -719,13 +719,9 @@
     <string name="website_label">ソースコードはこちら</string>
     <string name="email_label">ご意見やご提案をお送りください</string>
     <string name="upgrade_to_pro">Pro版にアップグレード</string>
-    <string name="more_apps">他のアプリ</string>
-    <string name="more_apps_from_us">当社の他のアプリ</string>
     <string name="invite_friends">友達を招待</string>
     <string name="share_text">%2$s で %1$s を確認してください</string>
     <string name="invite_via">招待</string>
-    <string name="rate_us">Playストアで評価してください</string>
-    <string name="rate">評価する</string>
     <string name="donate">寄付</string>
     <string name="follow_us">フォロー</string>
     <string name="support">サポート</string>
@@ -739,21 +735,10 @@
     <string name="donate_please">こんにちは。&lt;br&gt;&lt;br&gt;アプリを楽しんでもらえているでしょうか。このアプリには広告は含まれていません。&lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;アプリを購入し、開発をサポートしてください。購入すれば、このダイアログが今後表示されることはありません。 &lt;br&gt;&lt;br&gt;よろしくお願いします！</string>
     <string name="purchase">購入</string>
     <string name="before_asking_question_read_faq">お問い合わせいただく前に、アプリの設定を確認し、よくある質問を見てください。答えが載っているかもしれません。</string>
-    <string name="before_rate_read_faq">当社を評価していただく前に、アプリの設定を確認し、よくある質問を見てください。問題が発生しているなら、答えが見つかるかもしれません。</string>
     <string name="make_sure_latest">最新バージョンのアプリを利用しているかご確認ください。</string>
     <string name="make_sure_upgrade">また、このアプリのバージョンは開発されていないことにご注意ください。Pro版を入手すると、多くの改善が得られます。</string>
     <string name="read_it">見る</string>
     <string name="read_faq">FAQ</string>
-    <string name="rate_us_prompt">こんにちは。
-\n
-\nこのアプリをしばらくご利用いただいているようで、感謝いたします。
-\n
-\nひとつお願いがあるのですが、Google Playで評価してもらえるでしょうか。ご協力をお願いします。
-\n
-\n評価をしてもしなくても、このメッセージは二度と表示されません。
-\n
-\nよろしくお願いします！</string>
-    <string name="rate_our_app">是非、アプリを評価してください :)</string>
     <string name="thank_you">ありがとうございます</string>
     <string name="widget_locked_pro">ウィジェットはロックされています。
 \nロックを解除するには、Pro版にアップグレードしてください。</string>

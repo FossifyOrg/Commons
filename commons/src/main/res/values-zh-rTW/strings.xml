@@ -562,13 +562,9 @@
     <string name="website_label">觀看原始碼</string>
     <string name="email_label">傳送您的反饋或建議</string>
     <string name="upgrade_to_pro">升級至專業版</string>
-    <string name="more_apps">更多應用程式</string>
-    <string name="more_apps_from_us">更多我們的應用程式</string>
     <string name="invite_friends">邀請朋友</string>
     <string name="share_text">嘿，來試試看「%1$s」吧！ %2$s</string>
     <string name="invite_via">邀請</string>
-    <string name="rate_us">為我們評分</string>
-    <string name="rate">評分</string>
     <string name="donate">捐贈</string>
     <string name="follow_us">追蹤我們</string>
     <string name="additional_info">進階資訊</string>
@@ -583,12 +579,9 @@
     </string>
     <string name="purchase">購買</string>
     <string name="before_asking_question_read_faq">在您發問前，請先檢查程式設定及閱讀[常見問題]。或許解決方法就在那裡。</string>
-    <string name="before_rate_read_faq">在您給我們評價前，請先檢查程式設定及閱讀[常見問題]。如果您遇到任何困難，或許解決方法就在那裡。</string>
     <string name="make_sure_latest">並且確保您正使用最新的應用程式版本。</string>
     <string name="read_it">讀它</string>
     <string name="read_faq">閱讀FAQ</string>
-    <string name="rate_us_prompt">哈囉\n\n您似乎已經使用這應用程式一段時間了，我們相當感激。\n\n如果我們能請您幫個忙，請在Google Play上為我們評分。這對我們很有幫助。\n\n無論您的決定如何，都不會再看到這則訊息。\n\n感謝!</string>
-    <string name="rate_our_app">請給我們的應用程式評分 :)</string>
     <string name="thank_you">感謝</string>
     <string name="new_app">
         <![CDATA[

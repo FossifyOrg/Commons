@@ -497,12 +497,9 @@
     <string name="website_label">소스코드 공개 링크</string>
     <string name="email_label">피드백 또는 제안 요청</string>
     <string name="upgrade_to_pro">Pro버전으로 업데이트</string>
-    <string name="more_apps">앱 더보기</string>
     <string name="invite_friends">친구에게 공유</string>
     <string name="share_text">%1$s 앱을 다운받으세요. %2$s</string>
     <string name="invite_via">공유 선택</string>
-    <string name="rate_us">앱 평가하기</string>
-    <string name="rate">평점 주기</string>
     <string name="donate">기부하기</string>
     <string name="follow_us">팔로우</string>
     <string name="additional_info">추가 정보</string>
@@ -512,7 +509,6 @@
     <string name="purchase">구매</string>
     <string name="before_asking_question_read_faq">질문하기 전에 FAQ를 먼저 읽어 주세요. 해답이 있을지도 모릅니다.</string>
     <string name="read_it">읽어보기</string>
-    <string name="rate_us_prompt">이 앱을 자주 사용하시는군요! 혹시 시간이 되신다면 구글 플레이스토어에서 평점을 부탁드립니다. 평점은 저희에게 많은 도움이 됩니다. 감사합니다! (이 메시지는 다시 표시되지 않습니다)</string>
     <string name="new_app">안녕하세요,&lt;br&gt;&lt;br&gt; 저희의 새로운 앱이 출시되었습니다:&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; 위 링크를 탭하여 받을 수 있습니다.&lt;br&gt;&lt;br&gt; 감사합니다</string>
     <string name="sideloaded_app">
         <![CDATA[
@@ -685,7 +681,6 @@
     <string name="files_tab">파일</string>
     <string name="recent_files_tab">최근 파일</string>
     <string name="backups">백업</string>
-    <string name="more_apps_from_us">더 많은 앱</string>
     <string name="welcome_to_app_name">%s에 어서오세요!</string>
     <string name="block_unknown_calls">모르는 번호의 전화 차단</string>
     <string name="block_unknown_messages">모르는 번호 메시지 차단</string>

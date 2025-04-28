@@ -807,13 +807,9 @@
     <string name="website_label">Lähdekoodin löydät täältä</string>
     <string name="email_label">Lähetä palautteesi ja ehdotuksia osoitteeseen</string>
     <string name="upgrade_to_pro">Päivitä Pro-versioon</string>
-    <string name="more_apps">Lisää sovelluksia</string>
-    <string name="more_apps_from_us">Lisää sovelluksia meiltä</string>
     <string name="invite_friends">Kutsu ystäviä</string>
     <string name="share_text">Hei, tutustu %1$s täällä %2$s</string>
     <string name="invite_via">Kutsu sovelluksella</string>
-    <string name="rate_us">Arvioi meidät</string>
-    <string name="rate">Arvostele</string>
     <string name="donate">Lahjoita</string>
     <string name="follow_us">Seuraa</string>
     <string name="support">Tuki</string>
@@ -836,21 +832,10 @@
     </string>
     <string name="purchase">Osta</string>
     <string name="before_asking_question_read_faq">Ennen kysymyksen esittämistä varmista, löytyykö vastaus asetuksista tai usein kysytyistä kysymyksistä (Frequently Asked Questions).</string>
-    <string name="before_rate_read_faq">Ennen kuin arvostelet sovelluksen ja sinulla on ongelmia sovelluksen kanssa, varmista, löytyykö ratkaisu asetuksista tai usein kysytyistä kysymyksistä (Frequently Asked Questions).</string>
     <string name="make_sure_latest">Varmista myös, että käytät viimeisintä versiota.</string>
     <string name="make_sure_upgrade">Huomioi, että tätä sovellusversiota ei enää kehitetä, hanki Pro-versio parannuksia varten.</string>
     <string name="read_it">Lue</string>
     <string name="read_faq">Lue FAQ</string>
-    <string name="rate_us_prompt">Hei,
-\n
-\nnäyttää siltä, että olet käyttänyt tätä sovellusta jo jonkin aikaa, arvostamme sitä.
-\n
-\nPyytäisimme sinua lisäämään arvostelun Google Playhyn, se auttaisi meitä paljon.
-\n
-\nHuolimatta siitä miten toimit, et nää tätä viestiä enää.
-\n
-\nKiitos!</string>
-    <string name="rate_our_app">Arvostele sovelluksemme, kiitos :)</string>
     <string name="thank_you">Kiitos</string>
     <string name="widget_locked_pro">Pienoissovellus on lukittu.
 \nOle hyvä ja päivitä Pro-versioon ottaaksesi sen käyttöön.</string>
