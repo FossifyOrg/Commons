@@ -9,11 +9,14 @@ import org.fossify.commons.activities.BaseSimpleActivity
 import org.fossify.commons.activities.ManageBlockedNumbersActivity
 import org.fossify.commons.compose.alert_dialog.AlertDialogState
 import org.fossify.commons.compose.alert_dialog.rememberAlertDialogState
-import org.fossify.commons.compose.extensions.*
+import org.fossify.commons.compose.extensions.DEVELOPER_PLAY_STORE_URL
+import org.fossify.commons.compose.extensions.FAKE_VERSION_APP_LABEL
+import org.fossify.commons.compose.extensions.appLaunchedCompose
+import org.fossify.commons.compose.extensions.enableEdgeToEdgeSimple
+import org.fossify.commons.compose.extensions.onEventValue
 import org.fossify.commons.compose.theme.AppThemeSurface
 import org.fossify.commons.dialogs.ConfirmationDialog
 import org.fossify.commons.dialogs.DonateAlertDialog
-import org.fossify.commons.dialogs.RateStarsAlertDialog
 import org.fossify.commons.extensions.appLaunched
 import org.fossify.commons.extensions.launchMoreAppsFromUsIntent
 import org.fossify.commons.extensions.launchViewIntent
@@ -63,13 +66,11 @@ class MainActivity : BaseSimpleActivity() {
     @Composable
     private fun AppLaunched(
         donateAlertDialogState: AlertDialogState = getDonateAlertDialogState(),
-        rateStarsAlertDialogState: AlertDialogState = getRateStarsAlertDialogState(),
     ) {
         LaunchedEffect(Unit) {
             appLaunchedCompose(
                 appId = BuildConfig.APPLICATION_ID,
                 showDonateDialog = donateAlertDialogState::show,
-                showRateUsDialog = rateStarsAlertDialogState::show,
                 showUpgradeDialog = {}
             )
         }
@@ -82,13 +83,6 @@ class MainActivity : BaseSimpleActivity() {
                 DonateAlertDialog(alertDialogState = this)
             }
         }
-
-    @Composable
-    private fun getRateStarsAlertDialogState() = rememberAlertDialogState().apply {
-        DialogMember {
-            RateStarsAlertDialog(alertDialogState = this, onRating = ::rateStarsRedirectAndThankYou)
-        }
-    }
 
     private fun launchAbout() {
         val licenses = LICENSE_AUTOFITTEXTVIEW

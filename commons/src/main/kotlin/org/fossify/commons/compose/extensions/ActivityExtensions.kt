@@ -10,7 +10,18 @@ import androidx.core.content.ContextCompat
 import androidx.core.view.WindowCompat
 import androidx.core.view.WindowInsetsCompat
 import org.fossify.commons.R
-import org.fossify.commons.extensions.*
+import org.fossify.commons.extensions.baseConfig
+import org.fossify.commons.extensions.checkAppIconColor
+import org.fossify.commons.extensions.getAppIconColors
+import org.fossify.commons.extensions.getCanAppBeUpgraded
+import org.fossify.commons.extensions.getInternalStoragePath
+import org.fossify.commons.extensions.isAProApp
+import org.fossify.commons.extensions.isAppInstalledOnSDCard
+import org.fossify.commons.extensions.isOrWasThankYouInstalled
+import org.fossify.commons.extensions.launchViewIntent
+import org.fossify.commons.extensions.random
+import org.fossify.commons.extensions.toggleAppIconColor
+import org.fossify.commons.extensions.updateSDCardPath
 import org.fossify.commons.helpers.isOreoMr1Plus
 import org.fossify.commons.models.Release
 
@@ -18,7 +29,6 @@ fun ComponentActivity.appLaunchedCompose(
     appId: String,
     showUpgradeDialog: () -> Unit,
     showDonateDialog: () -> Unit,
-    showRateUsDialog: () -> Unit
 ) {
     baseConfig.internalStoragePath = getInternalStoragePath()
     updateSDCardPath()
@@ -61,12 +71,6 @@ fun ComponentActivity.appLaunchedCompose(
             } else if (!isOrWasThankYouInstalled()) {
                 showDonateDialog()
             }
-        }
-    }
-
-    if (baseConfig.appRunCount % 40 == 0 && !baseConfig.wasAppRated) {
-        if (!resources.getBoolean(R.bool.hide_google_relations)) {
-            showRateUsDialog()
         }
     }
 }

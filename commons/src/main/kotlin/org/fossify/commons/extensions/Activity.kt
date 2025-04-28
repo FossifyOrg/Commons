@@ -4,13 +4,21 @@ import android.annotation.SuppressLint
 import android.app.Activity
 import android.app.Dialog
 import android.app.TimePickerDialog
-import android.content.*
+import android.content.ActivityNotFoundException
+import android.content.ComponentName
+import android.content.ContentValues
+import android.content.Context
+import android.content.Intent
 import android.content.Intent.EXTRA_STREAM
 import android.content.pm.ApplicationInfo
 import android.content.pm.PackageManager
 import android.media.RingtoneManager
 import android.net.Uri
-import android.os.*
+import android.os.Build
+import android.os.Environment
+import android.os.Handler
+import android.os.Looper
+import android.os.TransactionTooLargeException
 import android.provider.ContactsContract
 import android.provider.DocumentsContract
 import android.provider.MediaStore
@@ -36,14 +44,50 @@ import org.fossify.commons.R
 import org.fossify.commons.activities.BaseSimpleActivity
 import org.fossify.commons.compose.extensions.DEVELOPER_PLAY_STORE_URL
 import org.fossify.commons.databinding.DialogTitleBinding
-import org.fossify.commons.dialogs.*
+import org.fossify.commons.dialogs.AppSideloadedDialog
+import org.fossify.commons.dialogs.ConfirmationAdvancedDialog
+import org.fossify.commons.dialogs.ConfirmationDialog
+import org.fossify.commons.dialogs.CustomIntervalPickerDialog
+import org.fossify.commons.dialogs.DonateDialog
+import org.fossify.commons.dialogs.RadioGroupDialog
+import org.fossify.commons.dialogs.SecurityDialog
+import org.fossify.commons.dialogs.UpgradeToProDialog
+import org.fossify.commons.dialogs.WhatsNewDialog
+import org.fossify.commons.dialogs.WritePermissionDialog
 import org.fossify.commons.dialogs.WritePermissionDialog.WritePermissionDialogMode
-import org.fossify.commons.helpers.*
+import org.fossify.commons.helpers.CREATE_DOCUMENT_SDK_30
+import org.fossify.commons.helpers.EXTRA_SHOW_ADVANCED
+import org.fossify.commons.helpers.IS_FROM_GALLERY
+import org.fossify.commons.helpers.MINUTE_SECONDS
 import org.fossify.commons.helpers.MyContentProvider.COL_LAST_UPDATED_TS
 import org.fossify.commons.helpers.MyContentProvider.MY_CONTENT_URI
-import org.fossify.commons.models.*
+import org.fossify.commons.helpers.OPEN_DOCUMENT_TREE_FOR_SDK_30
+import org.fossify.commons.helpers.OPEN_DOCUMENT_TREE_OTG
+import org.fossify.commons.helpers.OPEN_DOCUMENT_TREE_SD
+import org.fossify.commons.helpers.PERMISSION_CALL_PHONE
+import org.fossify.commons.helpers.PERMISSION_READ_STORAGE
+import org.fossify.commons.helpers.PROTECTION_FINGERPRINT
+import org.fossify.commons.helpers.REAL_FILE_PATH
+import org.fossify.commons.helpers.REQUEST_EDIT_IMAGE
+import org.fossify.commons.helpers.REQUEST_SET_AS
+import org.fossify.commons.helpers.SIDELOADING_FALSE
+import org.fossify.commons.helpers.SIDELOADING_TRUE
+import org.fossify.commons.helpers.SILENT
+import org.fossify.commons.helpers.ensureBackgroundThread
+import org.fossify.commons.helpers.isOnMainThread
+import org.fossify.commons.helpers.isRPlus
+import org.fossify.commons.helpers.isUpsideDownCakePlus
+import org.fossify.commons.models.AlarmSound
+import org.fossify.commons.models.Android30RenameFormat
+import org.fossify.commons.models.FileDirItem
+import org.fossify.commons.models.RadioItem
+import org.fossify.commons.models.Release
 import org.fossify.commons.views.MyTextView
-import java.io.*
+import java.io.File
+import java.io.FileNotFoundException
+import java.io.FileOutputStream
+import java.io.IOException
+import java.io.OutputStream
 import java.util.TreeSet
 
 fun Activity.appLaunched(appId: String) {
@@ -84,12 +128,6 @@ fun Activity.appLaunched(appId: String) {
     if (baseConfig.appRunCount % 30 == 0 && !isAProApp()) {
         if (!resources.getBoolean(R.bool.hide_google_relations)) {
             showDonateOrUpgradeDialog()
-        }
-    }
-
-    if (baseConfig.appRunCount % 40 == 0 && !baseConfig.wasAppRated) {
-        if (!resources.getBoolean(R.bool.hide_google_relations)) {
-            RateStarsDialog(this)
         }
     }
 }
@@ -391,7 +429,7 @@ fun Activity.launchViewIntent(url: String) {
     }
 }
 
-fun Activity.redirectToRateUs() {
+fun Activity.launchAppRatingPage() {
     hideKeyboard()
     try {
         launchViewIntent("market://details?id=${packageName.removeSuffix(".debug")}")
