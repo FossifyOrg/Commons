@@ -1038,4 +1038,6 @@
     <string name="confirm_storage_access_restricted_text_not_found">Er kon geen systeemapp voor bestandsbeheer worden gevonden.</string>
     <string name="confirm_storage_access_restricted_text_open_system">Openen in systeemapp</string>
     <string name="confirm_storage_access_restricted_text">Deze map is door systeembeperkingen niet beschikbaar.</string>
+    <string name="rate_this_app">Beoordeel deze app</string>
+    <string name="more_fossify_apps">Meer Fossify-apps</string>
 </resources>
