@@ -712,13 +712,9 @@
     <string name="website_label">Pirminį kodą rasite apsilankę adresu</string>
     <string name="email_label">Siųskite atsiliepimus ir pasiūlymus adresu</string>
     <string name="upgrade_to_pro">Naujinti į „Pro“</string>
-    <string name="more_apps">Daugiau programėlių</string>
-    <string name="more_apps_from_us">Kitos mūsų programėlės</string>
     <string name="invite_friends">Pasiūlykite draugams</string>
     <string name="share_text">Labas, išbandyk programėlę, pavadinimu „%1$s“, kurią gali atsisiųsti adresu %2$s</string>
     <string name="invite_via">Pasiūlyti per</string>
-    <string name="rate_us">Įvertinkite mus</string>
-    <string name="rate">Įvertinti</string>
     <string name="donate">Paaukoti</string>
     <string name="follow_us">Sekite mus</string>
     <string name="copyright">v %1$s
@@ -735,20 +731,9 @@
     <string name="device_os">Įrenginio OS: %s</string>
     <string name="purchase">Įsigyti</string>
     <string name="before_asking_question_read_faq">Prieš užduodami klausimą, pasižiūrėkite programėlės nustatymuose ir, iš pradžių, perskaitykite dažniausiai užduodamus klausimus. Galbūt, sprendimas yra aprašytas ten.</string>
-    <string name="before_rate_read_faq">Prieš mus įvertindami, pasižiūrėkite programėlės nustatymuose ir, iš pradžių, perskaitykite dažniausiai užduodamus klausimus. Galbūt, sprendimas yra aprašytas ten.</string>
     <string name="make_sure_latest">Be to, įsitikinkite, kad naudojate naujausią programėlės versiją.</string>
     <string name="read_it">Skaityti</string>
     <string name="read_faq">Skaityti DUK</string>
-    <string name="rate_us_prompt">Sveiki,
-\n
-\natrodo, kad jau kurį laiką naudojatės šia programėle ir mes labai tai vertiname.
-\n
-\nJeigu jūs nieko prieš, norėtume jūsų paprašyti įvertinti mus „Google Play“ parduotuvėje. Tai labai mums padėtų.
-\n
-\nNepaisant to, ką benuspręstumėte, šis pranešimas daugiau nebebus jums rodomas.
-\n
-\nDėkojame!</string>
-    <string name="rate_our_app">Įvertinkite, prašome, mūsų programėlę :)</string>
     <string name="thank_you">Ačiū</string>
     <string name="widget_locked_pro">Valdiklis yra užrakintas.
 \nAtsinaujinkite į „Pro“ versiją, norėdami jį atrakinti.</string>

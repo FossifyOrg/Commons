@@ -834,13 +834,9 @@
     <string name="website_label">Per i codici sorgenti visitare</string>
     <string name="email_label">Invia opinioni e suggerimenti a</string>
     <string name="upgrade_to_pro">Aggiorna alla versione Pro</string>
-    <string name="more_apps">Altre app</string>
-    <string name="more_apps_from_us">Altre nostre app</string>
     <string name="invite_friends">Invita un amico</string>
     <string name="share_text">Ciao, controlla %1$s su %2$s</string>
     <string name="invite_via">Invita con</string>
-    <string name="rate_us">Dacci un voto sul Play Store</string>
-    <string name="rate">Valuta</string>
     <string name="donate">Dona</string>
     <string name="follow_us">Seguici</string>
     <string name="support">Supporto</string>
@@ -866,13 +862,10 @@
     <string name="purchase">Acquista</string>
     <string name="update_thank_you">Aggiorna Grazie Fossify alla versione più recente</string>
     <string name="before_asking_question_read_faq">Prima di fare una domanda, controlla le impostazioni dell\'app e le domande frequenti. Magari si trova la soluzione.</string>
-    <string name="before_rate_read_faq">Prima di valutarci, controlla le impostazioni dell\'app e leggi le domande frequenti. Se riscontri problemi, la soluzione potrebbe trovarsi là.</string>
     <string name="make_sure_latest">Assicurati anche che tu stia usando la versione più recente dell\'app.</string>
     <string name="make_sure_upgrade">Si noti inoltre che questa versione dell\'app non è più in fase di sviluppo; acquistate quella Pro per ottenere molti miglioramenti.</string>
     <string name="read_it">Leggi</string>
     <string name="read_faq">Domande frequenti</string>
-    <string name="rate_us_prompt">Ciao,\n\nstai utilizzando questa app da un po\' di tempo e ne siamo veramente grati..\n\nValutaci su Google Play se vuoi farci un favore, ci aiuterà tantissimo.\n\nNon è importante cosa sceglierai, non vedrai più questo messaggio una volta ancora.\n\nGrazie!</string>
-    <string name="rate_our_app">Valuta la nostra app per favore :)</string>
     <string name="thank_you">Grazie</string>
     <string name="widget_locked_pro">Il widget è bloccato.
 \nSi prega di aggiornare alla versione Pro per sbloccarlo.</string>

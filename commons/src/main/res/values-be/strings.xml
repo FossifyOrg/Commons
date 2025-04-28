@@ -842,13 +842,9 @@
     <string name="website_label">Для атрымання зыходных кодаў наведайце</string>
     <string name="email_label">Дасылайце свае водгукі або прапановы на</string>
     <string name="upgrade_to_pro">Абнаўленне да Pro</string>
-    <string name="more_apps">Больш прыкладанняў</string>
-    <string name="more_apps_from_us">Больш праграм ад нас</string>
     <string name="invite_friends">Запрашайце сяброў</string>
     <string name="share_text">Гэй, выпісвайся %1$s у%2$s</string>
     <string name="invite_via">Запрасіць праз</string>
-    <string name="rate_us">Ацаніце нас</string>
-    <string name="rate">Стаўка</string>
     <string name="donate">Ахвяраваць</string>
     <string name="follow_us">Сачыце за намі</string>
     <string name="copyright">Версія %1$s
@@ -866,21 +862,10 @@
     <string name="device_os">АС прылады: %s</string>
     <string name="purchase">Купіць</string>
     <string name="before_asking_question_read_faq">Перш чым задаць пытанне, праверце налады праграмы і спачатку прачытайце раздзел \"Часта задаюць пытанні\". Магчыма, рашэнне ёсць.</string>
-    <string name="before_rate_read_faq">Перш чым ацэньваць нас, праверце налады праграмы і спачатку прачытайце раздзел \"Часта задаюць пытанні\". Калі ў вас ёсць якія-небудзь праблемы, магчыма, рашэнне ёсць.</string>
     <string name="make_sure_latest">Таксама пераканайцеся, што вы выкарыстоўваеце апошнюю версію праграмы.</string>
     <string name="make_sure_upgrade">Таксама звярніце ўвагу, што гэтая версія праграмы больш не распрацоўваецца, купіце версію Pro для многіх паляпшэнняў.</string>
     <string name="read_it">Прачытаць</string>
     <string name="read_faq">Прачытаць FAQ</string>
-    <string name="rate_us_prompt">Квітнець,
-\n
-\nпадобна на тое, вы карыстаецеся гэтым дадаткам ўжо даволі даўно, і мы вельмі цэнім гэта.
-\n
-\nКалі мы можам папрасіць вас аб ласцы, калі ласка, ацаніце нас у Google Play. Гэта сапраўды вельмі дапамагло б нам.
-\n
-\nНезалежна ад таго, як вы вырашыце, вы больш не ўбачыце гэта паведамленне.
-\n
-\nДзякуй!</string>
-    <string name="rate_our_app">Калі ласка, ацаніце наша дадатак :)</string>
     <string name="thank_you">Дзякуй</string>
     <string name="widget_locked_pro">Віджэт заблакіраваны.\nАбнавіце яго да версіі Pro, каб разблакіраваць яго.</string>
     <string name="new_app">Гэй,&lt;br&gt;&lt;br&gt;проста паведамляю вам, што нядаўна былі выпушчаны некаторыя новыя праграмы:&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; Вы можаце загрузіць іх, націснуўшы іх загалоўкі або значкі.&lt;br&gt;&lt;br&gt; дзякуй</string>

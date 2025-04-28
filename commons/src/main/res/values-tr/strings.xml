@@ -827,13 +827,9 @@
     <string name="website_label">Kaynak kodları için ziyaret edin</string>
     <string name="email_label">Görüşlerinizi veya önerilerinizi şuraya gönderin:</string>
     <string name="upgrade_to_pro">Pro\'ya Yükselt</string>
-    <string name="more_apps">Daha fazla uygulama</string>
-    <string name="more_apps_from_us">Diğer uygulamalarımız</string>
     <string name="invite_friends">Arkadaşlarınızı davet edin</string>
     <string name="share_text">Selam, %1$s adlı harika bir uygulama buldum. %2$s adresinden indir</string>
     <string name="invite_via">Şununla davet et</string>
-    <string name="rate_us">Bizi değerlendirin</string>
-    <string name="rate">Oyla</string>
     <string name="donate">Bağış yap</string>
     <string name="follow_us">Bizi takip edin</string>
     <string name="support">Destek</string>
@@ -853,13 +849,10 @@
     <string name="purchase">Satın al</string>
     <string name="update_thank_you">Lütfen Fossify Teşekkürler\'i son sürüme güncelleyin</string>
     <string name="before_asking_question_read_faq">Bir soru sormadan önce, lütfen uygulama ayarlarını gözden geçirin ve önce Sık Sorulan Sorular bölümünü okuyun. Belki çözüm oradadır.</string>
-    <string name="before_rate_read_faq">Bize puan vermeden önce lütfen uygulama ayarlarını gözden geçirin ve önce Sık Sorulan Sorular bölümünü okuyun. Herhangi bir sorunuz varsa, belki çözüm oradadır.</string>
     <string name="make_sure_latest">Ayrıca uygulamanın en son sürümünü kullandığınızdan emin olun.</string>
     <string name="make_sure_upgrade">Ayrıca bu uygulama sürümünün artık geliştirilmediğini unutmayın, birçok iyileştirme için Pro sürümünü edinin.</string>
     <string name="read_it">Oku</string>
     <string name="read_faq">SSS\'yi oku</string>
-    <string name="rate_us_prompt">Merhaba,\n\nzaten bir süredir bu uygulamayı kullanıyor gibi görünüyorsunuz ve gerçekten takdir ediyoruz.\n\nSizden bir iyilik isteyebilirsek, lütfen bizi Google Play\'de oylayın. Bu bize gerçekten çok yardımcı olacak.\n\nNasıl karar verirseniz verin, bu mesajı bir daha görmeyeceksiniz.\n\nTeşekkürler!</string>
-    <string name="rate_our_app">Lütfen uygulamamızı oylayın :)</string>
     <string name="thank_you">Teşekkürler</string>
     <string name="widget_locked_pro">Widget kilitli.\nKilidi açmak için lütfen Pro sürümüne yükseltin.</string>
     <string name="features_locked">Bu özellik kilitlidir, lütfen tam uygulamanın kilidini açmak için &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Teşekkürler&lt;/a&gt; uygulamasını satın alın.&lt;br&gt;&lt;br&gt;Bu yalnızca tek seferlik bir ödemedir ve memnun kalmazsanız geri ödeme yapabiliriz.</string>

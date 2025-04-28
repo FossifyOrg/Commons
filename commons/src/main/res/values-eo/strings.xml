@@ -865,22 +865,17 @@
     <string name="upgraded_from_free_contacts">Saluton,\n\nVi ŝajne ĵus promociiĝis el la senpaga versio. Se vi havis kontaktojn deponitajn sub \"%s\", vi devas migrigi ilin mane per eksporti .vcf-dosieron el la senpaga versio kaj poste importi ilin ĉi tie per la supra menuo.\n\nKiam vi estas kontenta kun viaj agordoj en la versio Pro, vi povas malinstali la malnovan senpagan, ĉar vi ne plu bezonos ĝin. Tio ankaŭ evitos, ke tiu ĉi dialogo aperu denove.\n\nDankon!</string>
     <string name="upgrade_to_pro">Promociiĝi al la versio Pro</string>
     <string name="purchase">Aĉeti</string>
-    <string name="more_apps">Pli da aplikaĵoj</string>
     <string name="invite_friends">Inviti amikojn</string>
     <string name="share_text">He, venu vidi %1$s je %2$s</string>
     <string name="read_faq">Legi oftajn demandojn</string>
     <string name="make_sure_latest">Certigu ankaŭ, ke vi uzas la plej aktualan version de la aplikaĵo.</string>
     <string name="email_label">Sendu viajn komentojn aŭ sugestojn al</string>
-    <string name="more_apps_from_us">Pli da aplikaĵoj niaj</string>
-    <string name="rate_us">Taksu nin</string>
-    <string name="rate">Taksi</string>
     <string name="copyright">v %1$s\nKopirajto © Fossify %2$d</string>
     <string name="social">Sociaj retejoj</string>
     <string name="privacy_policy">Privateca politiko</string>
     <string name="donate_short">Bonvolu subteni nin per aĉeti &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Dankon&lt;/a&gt;. Ĉiuj funkcioj de la aplikaĵoj, kiel tajlorado de koloroj, ankaŭ iĝos uzeblaj.</string>
     <string name="update_thank_you">Bonvolu ĝisdatigi Fossify Dankon al la plej nova versio</string>
     <string name="before_asking_question_read_faq">Antaŭ fari demandon, bonvolu kontroli la aplikaĵajn agordojn kaj legi la oftajn demandojn. La solvo eble estos tie.</string>
-    <string name="before_rate_read_faq">Antaŭ taksi nin, bonvolu kontroli la aplikaĵajn agordojn kaj legi la oftajn demandojn. Se vi havas iun problemon, la solvo eble estos tie.</string>
     <string name="make_sure_upgrade">Rimarku ankaŭ, ke tiu ĉi versio de la aplikaĵo ne plu estas ĝisdatigita. Uzu la version Pro por multe da plibonigoj.</string>
     <string name="read_it">Legi</string>
     <string name="website_label">Por fontkodo, iru al</string>
@@ -892,7 +887,6 @@
     <string name="donate_new">Saluton,&lt;br&gt;&lt;br&gt;mi esperas, ke vi ĝuu la aplikaĵon. Ĝi enhavas neniun reklamon kaj ni nek kolektas viajn datumojn. Bonvolu subteni ĝian programadon per aĉeti la aplikaĵon &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Dankon&lt;/a&gt;. Ĉiuj funkcioj de la aplikaĵoj, kiel tajlorado de koloroj, ankaŭ iĝos uzeblaj.&lt;br&gt;&lt;br&gt;Dankon!</string>
     <string name="known_issues">Konataj problemoj</string>
     <string name="keyboard_short">Klavaro</string>
-    <string name="rate_our_app">Bonvolu taksi nian aplikaĵon :)</string>
     <string name="thank_you">Dankon</string>
     <string name="widget_locked_pro">Tiu ĉi fenestraĵo estas ŝlosita.\nBonvolu promociiĝi al la versio Pro por malŝlosi ĝin.</string>
     <string name="features_locked">Tiu ĉi funkcio estas ŝlosita. Bonvolu aĉeti &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Dankon&lt;/a&gt; por malŝlosi la tutan aplikaĵon.&lt;br&gt;&lt;br&gt;Estas nur unufoja pago, kaj se vi ne kontentas, ni povas repagi vin.</string>
@@ -917,7 +911,6 @@
     <string name="donate_to_fossify">Donaci al Fossify</string>
     <string name="all_fossify_apps">Ĉiuj aplikaĵoj de Fossify</string>
     <string name="voice_recorder_short">Sonregistrilo</string>
-    <string name="rate_us_prompt">Saluton,\n\nŜajnas, ke vi jam sufiĉe longe uzas tiun ĉi aplikaĵon, kaj ni vere tion aprezas.\n\nSe ni rajtas peti ion de vi, bonvolu taksi nin je Google Play. Tio vere multe helpus nin.\n\nEĉ se vi ne tion faras, vi ne vidos tiun ĉi mesaĝon denove.\n\nDankon!</string>
     <string name="before_asking_question">Antaŭ fari demandon, bonvolu legi la</string>
     <string name="faq_1_title_commons">Kial mi ne vidas la fenestraĵon de tiu ĉi aplikaĵo en la listo de fenestraĵoj?</string>
     <string name="faq_1_text_commons">Probablas, ke vi movis la aplikaĵon en SD-karton. Estas sistema limigo de Android kiu tiukaze kaŝas la fenestraĵojn de tiu aplikaĵo. La nura solvo estas removi la aplikaĵon en la internan memoron per la sistemaj agordoj.</string>

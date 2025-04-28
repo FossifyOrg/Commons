@@ -754,13 +754,9 @@
     <string name="website_label">Bezoek voor de broncodes</string>
     <string name="email_label">Stuur reacties of suggesties naar</string>
     <string name="upgrade_to_pro">Upgraden naar Pro-versie</string>
-    <string name="more_apps">Meer apps</string>
-    <string name="more_apps_from_us">Meer apps van ons</string>
     <string name="invite_friends">Vrienden uitnodigen</string>
     <string name="share_text">Hé, bekijk %1$s eens op %2$s</string>
     <string name="invite_via">Uitnodigen via</string>
-    <string name="rate_us">Beoordeel ons</string>
-    <string name="rate">Beoordelen</string>
     <string name="donate">Doneren</string>
     <string name="follow_us">Volg ons</string>
     <string name="support">Ondersteuning</string>
@@ -781,21 +777,10 @@
         ]]></string>
     <string name="purchase">Kopen</string>
     <string name="before_asking_question_read_faq">Controleer bij problemen eerst de instellingen van de app en neem de Veelgestelde vragen door. Misschien staat de oplossing daar.</string>
-    <string name="before_rate_read_faq">Controleer eerst de app-instellingen en lees de veelgestelde vragen voordat u ons beoordeelt. Als er problemen zijn, staat de oplossing misschien daar.</string>
     <string name="make_sure_latest">Zorg er ook voor dat de laatste versie van de app is geïnstalleerd.</string>
     <string name="make_sure_upgrade">Let erop dat deze app niet meer wordt doorontwikkeld. Installeer de Pro-versie voor nieuwe functies en verbeteringen.</string>
     <string name="read_it">Nu lezen</string>
     <string name="read_faq">Veelgestelde vragen</string>
-    <string name="rate_us_prompt">Hallo,
-\n
-\nhet lijkt erop dat u deze app al een tijdje gebruikt, dat waarderen wij enorm.
-\n
-\nMogen we zo vrij zijn om u te vragen ons een beoordeling te geven op Google Play\? Daarmee helpt u ons enorm.
-\n
-\nDit bericht wordt maar een keer getoond, ongeacht welke keuze u nu maakt.
-\n
-\nHartelijk dank!</string>
-    <string name="rate_our_app">Beoordeel onze app! :)</string>
     <string name="thank_you">Bedankt!</string>
     <string name="widget_locked_pro">De widget is vergrendeld.\nUpgrade naar de Pro-versie om te ontgrendelen.</string>
     <string name="new_app">

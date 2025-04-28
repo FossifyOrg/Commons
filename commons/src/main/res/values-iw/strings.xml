@@ -358,7 +358,6 @@
     <string name="more_info">מידע נוסף</string>
     <string name="upgrade">עדכון</string>
     <string name="about">אודות</string>
-    <string name="rate">דרג</string>
     <string name="donate">תרום</string>
     <string name="additional_info">מידע נוסף</string>
     <string name="calculator_short">מחשבון</string>
@@ -470,7 +469,6 @@
     <string name="snooze">נודניק</string>
     <string name="snooze_time">מרווח זמן הנודניק</string>
     <string name="use_same_snooze">השתמש תמיד באותו מרווח זמן לנודניק</string>
-    <string name="rate_us">דרג אותנו</string>
     <string name="manage_shown_tabs">נהל את הכרטיסיות המוצגות</string>
     <string name="list_view">תצוגת רשימה</string>
     <string name="password_protect_whole_app">הגן באמצעות סיסמה על כל האפליקציה</string>

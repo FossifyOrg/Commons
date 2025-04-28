@@ -862,13 +862,9 @@
     <string name="website_label">Pour le code source ouvert, visitez</string>
     <string name="email_label">Envoyez vos commentaires ou suggestions à</string>
     <string name="upgrade_to_pro">Passer à la version \"Pro\"</string>
-    <string name="more_apps">Plus d\'applications</string>
-    <string name="more_apps_from_us">Plus d\'applications simples</string>
     <string name="invite_friends">Inviter des amis</string>
     <string name="share_text">Salut, viens voir %1$s sur %2$s</string>
     <string name="invite_via">Inviter via</string>
-    <string name="rate_us">Évaluez-nous</string>
-    <string name="rate">Évaluer</string>
     <string name="donate">Faire un don</string>
     <string name="follow_us">Suivez-nous</string>
     <string name="copyright">v. %1$s
@@ -891,21 +887,10 @@ j\'espère que vous appréciez l\'application. Elle ne contient pas d\'annonces,
     <string name="purchase">Acheter</string>
     <string name="update_thank_you">Veuillez mettre à jour Fossify Merci</string>
     <string name="before_asking_question_read_faq">Avant de poser une question, veuillez tout d\'abord vérifier les paramètres de l\'application et lire la foire aux questions. Il est possible que la solution s\'y trouve.</string>
-    <string name="before_rate_read_faq">Avant de nous évaluer, veuillez tout d\'abord vérifier les paramètres de l\'application et lire la foire aux questions. Si vous rencontrez un problème, il est possible que la solution s\'y trouve.</string>
     <string name="make_sure_latest">Assurez-vous également d\'utiliser la version la plus récente de l\'application.</string>
     <string name="make_sure_upgrade">Notez également que cette version de l\'application n\'est plus développée. Procurez-vous la version \"Pro\" pour bénéficier de nombreuses améliorations.</string>
     <string name="read_it">Consultez-la</string>
     <string name="read_faq">Consulter la FAQ</string>
-    <string name="rate_us_prompt">Bonjour,
-\n
-\nIl semble que vous utilisez cette application depuis un certain temps déjà et nous vous en remercions.
-\n
-\nSi nous pouvons vous demander une faveur, veuillez nous évaluer sur \"Google Play\". Cela nous aiderait beaucoup.
-\n
-\nPeu importe le contenu de votre évaluation, vous ne verrez plus ce message.
-\n
-\nMerci d\'avance !</string>
-    <string name="rate_our_app">Merci d\'évaluer notre application :)</string>
     <string name="thank_you">Merci</string>
     <string name="widget_locked_pro">Le widget est verrouillé.
 \nVeuillez passer à la version \"Pro\" pour le déverrouiller.</string>

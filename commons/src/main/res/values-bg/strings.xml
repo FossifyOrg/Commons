@@ -761,13 +761,9 @@
     <string name="website_label">За изходния код посетете</string>
     <string name="email_label">Изпращайте отзиви или предложения на</string>
     <string name="upgrade_to_pro">Обновяване до Про</string>
-    <string name="more_apps">Други приложения</string>
-    <string name="more_apps_from_us">Други наши приложения</string>
     <string name="invite_friends">Препоръчайте на приятел</string>
     <string name="share_text">Пробвайте „%1$s“ от %2$s</string>
     <string name="invite_via">Препоръка с помощта на</string>
-    <string name="rate_us">Оценете ни</string>
-    <string name="rate">Оценяване</string>
     <string name="donate">Дарения</string>
     <string name="follow_us">Последвайте ни</string>
     <string name="copyright">v %1$s\nАвторски права © Fossify %2$d</string>
@@ -783,21 +779,10 @@
     <string name="device_os">ОС на устройството: %s</string>
     <string name="purchase">Поръчване</string>
     <string name="before_asking_question_read_faq">Преди да зададете въпрос, проверете настройките на приложението и прочетете често задаваните въпроси. Може да намерите решението там.</string>
-    <string name="before_rate_read_faq">Преди да ни дадете оценката си, проверете настройките на приложението и прочетете често задаваните въпроси. Ако имате някакви проблеми, може решението да е там.</string>
     <string name="make_sure_latest">Също така се уверете, че използвате последното издание на приложението.</string>
     <string name="make_sure_upgrade">Също имайте предвид, че това издание на приложението вече не се разработва. Инсталирайте Про за още много подобрения.</string>
     <string name="read_it">Прочитане</string>
     <string name="read_faq">Прочетете често задаваните въпроси</string>
-    <string name="rate_us_prompt">Здравейте,
-\n
-\nИзглежда, че вече използвате приложението доста време и наистина го оценяваме.
-\n
-\nАко можем да ви помолим услуга, моля, оценете ни в Google Play. Това наистина би ни помогнало много.
-\n
-\nКаквото и да решите, няма да видите това съобщение отново.
-\n
-\nБлагодаря!</string>
-    <string name="rate_our_app">Оценете приложението :)</string>
     <string name="thank_you">Благодарим ви</string>
     <string name="widget_locked_pro">Приспособлението е заключено.\nНадстройте до Про , за да го отключите.</string>
     <string name="app_launcher_short">Начален екран</string>

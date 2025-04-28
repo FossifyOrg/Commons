@@ -31,7 +31,6 @@
     <string name="invite_friends">मित्रों को आमंत्रित करें</string>
     <string name="share_text">अरे, %2$s पर %1$s देखने आएं</string>
     <string name="invite_via">इसके द्वारा आमंत्रित करें</string>
-    <string name="rate_us">हमें रेटिंग दें</string>
     <string name="follow_us">हमारा अनुसरण करें</string>
     <string name="why_upgrade">Pro वर्शन अभी प्राप्त करें!</string>
     <string name="why_upgrade_basic_version">मूल</string>
@@ -933,9 +932,6 @@
 \nऐसा लगता है जैसे आपके पास पहले से ही Pro ऐप वर्शन भी है। एक बार जब आप इससे खुश हो जाएं और अपना डेटा स्थानांतरित कर लें, तो आप इसे गलती से लॉन्च होने से बचाने के लिए इसे अनइंस्टॉल कर सकते हैं क्योंकि अब आपको इसकी आवश्यकता नहीं होगी।
 \n
 \nधन्यवाद!</string>
-    <string name="more_apps">अधिक ऐप्स</string>
-    <string name="more_apps_from_us">हमारी ओर से और भी ऐप्स</string>
-    <string name="rate">रेट</string>
     <string name="donate">दान करें</string>
     <string name="copyright">v %1$s
 \nकॉपीराइट © Fossify %2$d</string>
@@ -951,7 +947,6 @@
     <string name="purchase">खरीदें</string>
     <string name="update_thank_you">कृपया Fossify Thank You को नवीनतम संस्करण में अपडेट करें</string>
     <string name="before_asking_question_read_faq">कोई प्रश्न पूछने से पहले, कृपया ऐप सेटिंग जांचें और पहले अक्सर पूछे जाने वाले प्रश्न पढ़ें। शायद समाधान वहीं है।</string>
-    <string name="before_rate_read_faq">इससे पहले कि आप हमें रेटिंग दें, कृपया ऐप सेटिंग जांचें और पहले अक्सर पूछे जाने वाले प्रश्न पढ़ें। यदि आपको कोई समस्या है, तो शायद समाधान मौजूद है।</string>
     <string name="make_sure_latest">यह भी सुनिश्चित करें कि आप नवीनतम ऐप संस्करण का उपयोग कर रहे हैं।</string>
     <string name="widget_locked_pro">विजेट लॉक है।
 \nकृपया इसे अनलॉक करने के लिए प्रो संस्करण में अपग्रेड करें।</string>
@@ -1038,16 +1033,6 @@
     <string name="app_icon_color_warning">सावधानी: कुछ लॉन्चर ऐप आइकन अनुकूलन को सही ढंग से प्रबंधित नहीं कर सकते हैं। यदि आइकन गायब हो जाता है, तो Google Play या विजेट, यदि सुलभ हो, के माध्यम से ऐप लॉन्च करने का प्रयास करें। लॉन्च करने के बाद, तयशुदा हरा आइकन रंग #106D1F पुनर्स्थापित करें। चरम मामलों में, ऐप को पुनः इंस्टॉल करना आवश्यक हो सकता है।</string>
     <string name="read_it">इसे पढ़ें</string>
     <string name="read_faq">सामान्य प्रश्नोत्तर पढ़ें</string>
-    <string name="rate_us_prompt">नमस्ते,
-\n
-\nऐसा लगता है कि आप काफी समय से इस ऐप का उपयोग कर रहे हैं, और हम वास्तव में इसकी सराहना करते हैं।
-\n
-\nयदि हम आपसे कोई सहायता मांग सकते हैं, तो कृपया हमें Google Play पर रेटिंग दें। इससे वास्तव में हमें बहुत सहायता मिलेगी.
-\n
-\nइससे कोई फर्क नहीं पड़ता कि आप कैसे निर्णय लेते हैं, आपको यह संदेश दोबारा नहीं दिखेगा।
-\n
-\nधन्यवाद!</string>
-    <string name="rate_our_app">कृपया हमारे ऐप को रेट करें :)</string>
     <string name="thank_you">धन्यवाद</string>
     <string name="file_manager_short">फाइल मैनेजर</string>
     <string name="launcher_short">लांचर</string>

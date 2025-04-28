@@ -179,13 +179,9 @@
     <string name="website_label">Chun na cóid foinse tabhair cuairt ar</string>
     <string name="upgrade_to_pro">Uasghrádú go Pro</string>
     <string name="email_label">Seol d\'aiseolas nó do mholtaí chuig</string>
-    <string name="more_apps">Tuilleadh feidhmchlár</string>
     <string name="known_issues">Saincheisteanna aitheanta</string>
-    <string name="more_apps_from_us">Tuilleadh aipeanna uainn</string>
     <string name="invite_friends">Tabhair cuireadh do chairde</string>
     <string name="share_text">Hey, tar seiceáil amach %1$s ag%2$s</string>
-    <string name="rate_us">Ráta linn</string>
-    <string name="rate">Ráta</string>
     <string name="donate">Deonaigh</string>
     <string name="follow_us">Lean sinn</string>
     <string name="support">Tacaíocht</string>
@@ -197,7 +193,6 @@
     <string name="device_os">Gléas OS: %s</string>
     <string name="before_asking_question_read_faq">Sula gcuireann tú ceist, seiceáil socruithe na haipe agus léigh na Ceisteanna Coitianta ar dtús. B\'fhéidir go bhfuil an réiteach ann.</string>
     <string name="update_thank_you">Nuashonraigh Fossify Go raibh maith agat leis an leagan is déanaí</string>
-    <string name="before_rate_read_faq">Sula ndéanann tú rátáil orainn, seiceáil socruithe na haipe agus léigh na Ceisteanna Coitianta ar dtús. Má tá aon fhadhbanna agat, b\'fhéidir go bhfuil an réiteach ann.</string>
     <string name="make_sure_latest">Déan cinnte freisin go bhfuil an leagan is déanaí den aip á úsáid agat.</string>
     <string name="read_faq">Léigh Ceisteanna Coitianta</string>
     <string name="widget_locked_pro">Tá an ghiuirléid faoi ghlas.\nDéan uasghrádú ar an leagan Pro chun é a dhíghlasáil.</string>
@@ -528,8 +523,6 @@
     <string name="additional_info">Eolas breise</string>
     <string name="purchase">Ceannach</string>
     <string name="read_it">Léigh é</string>
-    <string name="rate_us_prompt">Dia duit\n\ntá an chuma air go bhfuil an aip seo á húsáid agat le tamall maith cheana féin, agus is mór againn é.\n\nMás féidir linn fabhar a iarraidh ort, déan rátáil orainn ar Google Play. Chabhródh sé sin go mór linn.\n\nIs cuma cén chaoi a shocraíonn tú, ní fheicfidh tú an teachtaireacht seo arís.\n\nGo raibh maith agat!</string>
-    <string name="rate_our_app">Ráta ár n-aip le do thoil :)</string>
     <string name="thank_you">Go raibh maith agat</string>
     <string name="faq_3_title_commons">Scrios mé roinnt comhad trí dhearmad, conas is féidir liom iad a ghnóthú?</string>
     <string name="contributors">Rannpháirtithe</string>

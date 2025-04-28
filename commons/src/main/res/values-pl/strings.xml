@@ -891,13 +891,9 @@
     <string name="website_label">Kod źródłowy można znaleźć na stronie</string>
     <string name="email_label">Wyślij swoje uwagi lub sugestie na:</string>
     <string name="upgrade_to_pro">Uaktualnij do Pro</string>
-    <string name="more_apps">Więcej aplikacji</string>
-    <string name="more_apps_from_us">Więcej naszych aplikacji</string>
     <string name="invite_friends">Zaproponuj aplikację znajomym</string>
     <string name="share_text">Hej! Sprawdź aplikację %1$s na %2$s</string>
     <string name="invite_via">Zaproś za pomocą:</string>
-    <string name="rate_us">Oceń aplikację</string>
-    <string name="rate">Oceń</string>
     <string name="donate">Przekaż datek</string>
     <string name="follow_us">Śledź nas</string>
     <string name="copyright">Wersja %1$s
@@ -921,21 +917,10 @@
     <string name="purchase">Kup</string>
     <string name="update_thank_you">Zaktualizuj aplikację Fossify Thank You do najnowszej wersji</string>
     <string name="before_asking_question_read_faq">Zanim zadasz pytanie, najpierw sprawdź ustawienia aplikacji i przeczytaj często zadawane pytania. Może znajduje się tam rozwiązanie.</string>
-    <string name="before_rate_read_faq">Zanim nas ocenisz, sprawdź ustawienia aplikacji i przeczytaj często zadawane pytania. Jeśli masz jakieś problemy, może jest tam rozwiązanie.</string>
     <string name="make_sure_latest">Upewnij się też, że używasz najnowszej wersji aplikacji.</string>
     <string name="make_sure_upgrade">Pamiętaj również, że ta wersja aplikacji nie jest już rozwijana. Pobierz wersję Pro, aby uzyskać wiele ulepszeń.</string>
     <string name="read_it">Przeczytaj to</string>
     <string name="read_faq">Przeczytaj FAQ</string>
-    <string name="rate_us_prompt">Witaj!
-\n
-\nWygląda na to, że używasz tej aplikacji już od dłuższego czasu, i naprawdę to doceniamy.
-\n
-\nJeśli możemy poprosić Cię o przysługę, oceń nas w Google Play. To by nam naprawdę bardzo pomogło.
-\n
-\nBez względu na to, jak zdecydujesz, nie zobaczysz tego komunikatu ponownie.
-\n
-\nDzięki!</string>
-    <string name="rate_our_app">Oceń naszą aplikację :)</string>
     <string name="thank_you">Dziękujemy</string>
     <string name="widget_locked_pro">Widżet jest zablokowany.\nUaktualnij do wersji Pro, aby go odblokować.</string>
     <string name="features_locked">Ta funkcja jest zablokowana. Kup &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;, aby odblokować pełną wersję aplikacji.&lt;br&gt;&lt;br&gt;Jest to płatność jednorazowa, a jeśli nie będziesz zadowolony(-a), możemy Ci zwrócić pieniądze.</string>

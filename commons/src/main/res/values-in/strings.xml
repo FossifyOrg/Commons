@@ -704,13 +704,9 @@
     <string name="website_label">Untuk kode sumber kunjungi</string>
     <string name="email_label">Kirim umpanbalik atau saran ke</string>
     <string name="upgrade_to_pro">Tingkatkan ke Pro</string>
-    <string name="more_apps">Aplikasi lainnya</string>
-    <string name="more_apps_from_us">Lebih banyak aplikasi dari kami</string>
     <string name="invite_friends">Undang teman</string>
     <string name="share_text">Hai, cobalah %1$s di %2$s</string>
     <string name="invite_via">Undang via</string>
-    <string name="rate_us">Nilai kami</string>
-    <string name="rate">Nilai</string>
     <string name="donate">Donasi</string>
     <string name="follow_us">Ikuti kami</string>
     <string name="privacy_policy">Kebijakan privasi</string>
@@ -721,21 +717,10 @@
     <string name="device_os">OS perangkat: %s</string>
     <string name="purchase">Beli</string>
     <string name="before_asking_question_read_faq">Sebelum anda bertanya, silakan periksa pengaturan aplikasi dan baca Pertanyaan yang Paling Sering Ditanyakan terlebih dahulu. Mungkin solusi yang anda cari ada di sana.</string>
-    <string name="before_rate_read_faq">Sebelum Anda menilai kami, silakan periksa pengaturan aplikasi dan baca Pertanyaan yang Sering Diajukan terlebih dahulu. Jika Anda memiliki masalah, mungkin solusinya ada di sana.</string>
     <string name="make_sure_latest">Pastikan juga anda menggunakan versi aplikasi terbaru.</string>
     <string name="make_sure_upgrade">Perhatikan juga bahwa versi aplikasi ini tidak lagi dikembangkan, dapatkan versi Pro untuk banyak peningkatan.</string>
     <string name="read_it">Baca</string>
     <string name="read_faq">Baca FAQ</string>
-    <string name="rate_us_prompt">Halo,
-\n
-\nsepertinya Anda sudah cukup lama menggunakan aplikasi ini, dan kami sangat menghargainya.
-\n
-\nJika kami bisa meminta bantuan Anda, tolong beri nilai kami di Google Play. Itu akan sangat membantu kami.
-\n
-\nBagaimanapun Anda memutuskan, Anda tidak akan melihat pesan ini lagi.
-\n
-\nTerima kasih!</string>
-    <string name="rate_our_app">Tolong beri nilai aplikasi kami :)</string>
     <string name="thank_you">Terima kasih</string>
     <string name="widget_locked_pro">Widget terkunci.
 \nHarap tingkatkan ke versi Pro untuk membukanya.</string>

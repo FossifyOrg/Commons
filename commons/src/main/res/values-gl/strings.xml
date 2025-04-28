@@ -747,13 +747,9 @@
     <string name="website_label">Máis aplicativos sinxelos e código fonte en</string>
     <string name="email_label">Envía os teus comentarios ou suxerencias a</string>
     <string name="upgrade_to_pro">Actualiza a Pro</string>
-    <string name="more_apps">Máis aplicativos</string>
-    <string name="more_apps_from_us">Máis aplicativos nosos</string>
     <string name="invite_friends">Convidar a amigos</string>
     <string name="share_text">Ola, bótalle un ollo a %1$s en %2$s</string>
     <string name="invite_via">Convidar con</string>
-    <string name="rate_us">Califícanos</string>
-    <string name="rate">Valora</string>
     <string name="donate">Doa</string>
     <string name="follow_us">Síguenos</string>
     <string name="support">Soporte</string>
@@ -767,13 +763,10 @@
     <string name="device_os">SO do dispositivo: %s</string>
     <string name="purchase">Comprar</string>
     <string name="before_asking_question_read_faq">Antes de que fagas unha pregunta, primeiro comproba os axustes do app e le as Preguntas Máis Frecuentes. Pode que a solución estea aí.</string>
-    <string name="before_rate_read_faq">Antes de que nos puntúes, primeiro comproba os axustes do app e le as Preguntas Máis Frecuentes. Se tes algún problema, pode que a solución estea aí.</string>
     <string name="make_sure_latest">Asegúrate tamén de que esteas usando a última versión do app.</string>
     <string name="make_sure_upgrade">Teña en conta que esta versión da aplicación xa non se está a desenvolver, obtén a Pro para moitas melloras.</string>
     <string name="read_it">Ler</string>
     <string name="read_faq">Ler Preguntas Máis Frecuentes</string>
-    <string name="rate_us_prompt">Ola,\n\nparece que xa levas un tempo usando este app, e nós apreciámoscho.\n\nSe non che importa, por favor, valóranos no Google Play. Iso axudaríanos moito.\n\nDecidas o que decidas, non volverás ver esta mensaxe de novo.\n\nGrazas!</string>
-    <string name="rate_our_app">Valora o noso app, por favor :)</string>
     <string name="thank_you">Grazas</string>
     <string name="widget_locked_pro">O widget estopaze bloqueado. 
 \nActualiza á versión Pro para desbloquealo.</string>

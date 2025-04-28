@@ -894,13 +894,9 @@
     <string name="website_label">Вихідний код знайдете за адресою</string>
     <string name="email_label">Надсилайте ваші відгуки і пропозиції до</string>
     <string name="upgrade_to_pro">Оновити до версії Pro</string>
-    <string name="more_apps">Більше застосунків</string>
-    <string name="more_apps_from_us">Більше застосунків від нас</string>
     <string name="invite_friends">Запропонувати друзям</string>
     <string name="share_text">Спробуй %1$s за посиланням %2$s</string>
     <string name="invite_via">Запропонувати з допомогою</string>
-    <string name="rate_us">Оцінити нас</string>
-    <string name="rate">Оцінити</string>
     <string name="donate">Підтримати розробника</string>
     <string name="follow_us">Підписатися на нас</string>
     <string name="support">Підтримка</string>
@@ -916,21 +912,10 @@
     <string name="device_os">ОС пристрою: %s</string>
     <string name="purchase">Придбати</string>
     <string name="before_asking_question_read_faq">Перш ніж запитувати, будь ласка, ознайомтесь із налаштуваннями застосунку та прочитайте Часті Питання. Можливо, відповідь там.</string>
-    <string name="before_rate_read_faq">Перш ніж ви оціните нас, будь ласка перегляньте налаштування застосунку та прочитайте Часті Питання. Якщо у вас виникнуть проблеми, можливо там буде вирішення.</string>
     <string name="make_sure_latest">Також переконайтеся, що ви користуєтеся найновішою версією застосунку.</string>
     <string name="make_sure_upgrade">Також зверніть увагу, що ця версія програми більше не розробляється, придбайте версію Pro, щоб отримати багато покращень.</string>
     <string name="read_it">Прочитати</string>
     <string name="read_faq">Читати ЧаПи</string>
-    <string name="rate_us_prompt">Привіт,
-\n
-\nздається, ви вже давно користуєтесь цим застосунком, і ми це високо цінуємо.
-\n
-\nЧи могли б ви зробити нам послугу і оцінити застосунок в Google Play? Це дійсно дуже нам допоможе.
-\n
-\nНезалежно від того, що ви вирішите, ви не побачите знову це повідомлення.
-\n
-\nСпасибі!</string>
-    <string name="rate_our_app">Оцініть наш застосунок :)</string>
     <string name="thank_you">Подяка</string>
     <string name="widget_locked_pro">Віджет заблоковано.
 \nБудь ласка, оновіть застосунок до версії Pro, щоб розблокувати віджет.</string>

@@ -742,13 +742,9 @@
     <string name="website_label">For at se kildekoden besøg</string>
     <string name="email_label">Send feedback og forslag til</string>
     <string name="upgrade_to_pro">Opgrader til Pro</string>
-    <string name="more_apps">Flere apps</string>
-    <string name="more_apps_from_us">Flere apps fra os</string>
     <string name="invite_friends">Inviter venner</string>
     <string name="share_text">Hej, se %1$s på %2$s</string>
     <string name="invite_via">Inviter via</string>
-    <string name="rate_us">Vurder os</string>
-    <string name="rate">Vurder</string>
     <string name="donate">Donér</string>
     <string name="follow_us">Følg os</string>
     <string name="help_us">Hjælp os</string>
@@ -768,12 +764,9 @@
     </string>
     <string name="purchase">Køb</string>
     <string name="before_asking_question_read_faq">Inden du stiller et spørgsmål bedes du først tjekke appens indstillinger og læse de \"Ofte stillede spørgsmål\", måske finder du svaret der.</string>
-    <string name="before_rate_read_faq">Tjek appens indstillinger og læs vores ofte stillede spørgsmål inden du vurderer os. Har du nogen problemer, kan du måske finde en løsning der.</string>
     <string name="make_sure_latest">Sørg også for at du bruger den seneste version af appen.</string>
     <string name="read_it">Læs det</string>
     <string name="read_faq">Read OSS</string>
-    <string name="rate_us_prompt">Hej\n\nDet ser ud til at du har brugt denne app et godt stykke tid, og det er vi virkelig glade for.\n\nHvis vi til gengæld må bede om en tjeneste, vil vi sætte stor pris på din vurdering på Google Play. Det ville være en kæmpe hjælp.\n\nUanset hvad du beslutter dig for, vil du ikke se denne besked igen.\n\nPå forhånd tak!</string>
-    <string name="rate_our_app">Vurder vores app :)</string>
     <string name="thank_you">Tak skal du have</string>
     <string name="widget_locked_pro">Widget\'en er låst.
 \nOpgrader til Pro-versionen for at låse den op.</string>

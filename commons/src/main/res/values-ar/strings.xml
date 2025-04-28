@@ -941,13 +941,9 @@
     <string name="website_label">للحصول علي أكواد المصدر، تفضل بزيارة</string>
     <string name="email_label">أرسل ملاحظاتك أو اقتراحاتك إلى</string>
     <string name="upgrade_to_pro">االترقية إلى الإصدار البرو (Pro)</string>
-    <string name="more_apps">المزيد من التطبيقات</string>
-    <string name="more_apps_from_us">المزيد من تطبيقاتنا</string>
     <string name="invite_friends">دعوة الأصدقاء</string>
     <string name="share_text">مهلاً, تعال تحقق من %1$s فى %2$s</string>
     <string name="invite_via">دعوة عبر</string>
-    <string name="rate_us">قيمنا</string>
-    <string name="rate">تقييم</string>
     <string name="donate">تبرع</string>
     <string name="follow_us">تابعنا</string>
     <string name="privacy_policy">سياسة الخصوصية</string>
@@ -965,13 +961,10 @@
     </string>
     <string name="purchase">شراء</string>
     <string name="before_asking_question_read_faq">قبل ان تسأل سؤالاً ، يرجى التحقق من إعدادات التطبيق وقراءة الأسئلة المتداولة أولاً. ربما يكون الحل موجوداً.</string>
-    <string name="before_rate_read_faq">قبل أن تقيمنا ، يرجى التحقق من إعدادات التطبيق وقراءة الأسئلة الشائعة أولاً. إذا كان لديك أي مشاكل ، فربما يكون الحل موجوداً.</string>
     <string name="make_sure_latest">تأكد أيضاً من أنك تستخدم أحدث إصدار من التطبيق.</string>
     <string name="make_sure_upgrade">لاحظ أيضًا أن إصدار التطبيق هذا لم يعد قيد التطوير ، احصل على الإصدار الاحترافي للعديد من التحسينات.</string>
     <string name="read_it">اقرأها</string>
     <string name="read_faq">إقرأ الأسئلة المتداولة</string>
-    <string name="rate_us_prompt">مرحباً,\n\nيبدو أنك تستخدم هذا التطبيق لفترة طويلة بالفعل, ونحن نقدر ذلك حقاً.\n\nإذا استطعنا أن نطلب منك خدمة, فيرجى تقييمنا على Google Play. هذا سيساعدنا كثيراً \n\nوبغض النظر عن قرارك, لن تري هذه الرسالة مره أخري.\n\nشكراً!</string>
-    <string name="rate_our_app">قيم تطبيقنا من فضلك :)</string>
     <string name="thank_you">شكراً جزيلاً</string>
     <string name="widget_locked_pro">الأداة مقفلة.
 \nيرجى الترقية إلى إصدار Pro لإلغاء قفله.</string>
