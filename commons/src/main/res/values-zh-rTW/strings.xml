@@ -1042,4 +1042,6 @@
     <string name="days_letter">%d天</string>
     <string name="translation_kabyle">卡拜爾語</string>
     <string name="confirm_storage_access_restricted_text">由於系統限制，無法使用此資料夾。</string>
+    <string name="more_fossify_apps">更多 Fossify 應用程式</string>
+    <string name="rate_this_app">為此應用程式評分</string>
 </resources>
