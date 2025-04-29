@@ -1141,4 +1141,6 @@
     <string name="confirm_storage_access_restricted_text">Из-за системных ограничений эта папка недоступна.</string>
     <string name="confirm_storage_access_restricted_text_not_found">Системный файловый менеджер не найден.</string>
     <string name="confirm_storage_access_restricted_text_open_system">Открыть в системном приложении</string>
+    <string name="more_fossify_apps">Другие приложения Fossify</string>
+    <string name="rate_this_app">Оценить приложение</string>
 </resources>
