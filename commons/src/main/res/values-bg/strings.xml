@@ -1027,4 +1027,6 @@
     <string name="confirm_storage_access_restricted_text_open_system">Отваряне в системното приложение</string>
     <string name="confirm_storage_access_restricted_text_not_found">Не е намерено системно приложение за работа с файлове.</string>
     <string name="confirm_storage_access_restricted_text">Поради системни ограничения папката е недостъпна.</string>
+    <string name="more_fossify_apps">Други приложения на Fossify</string>
+    <string name="rate_this_app">Оценете приложението</string>
 </resources>
