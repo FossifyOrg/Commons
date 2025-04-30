@@ -1156,4 +1156,6 @@
     <string name="confirm_storage_access_restricted_text_not_found">Níorbh fhéidir aip bainisteora comhad córais a aimsiú.</string>
     <string name="confirm_storage_access_restricted_text">De bharr srianta córais, níl an fillteán seo ar fáil.</string>
     <string name="confirm_storage_access_restricted_text_open_system">Oscail san aip córais</string>
+    <string name="more_fossify_apps">Tuilleadh aipeanna Fossify</string>
+    <string name="rate_this_app">Rátáil an aip seo</string>
 </resources>
