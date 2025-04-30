@@ -1136,4 +1136,6 @@
     <string name="confirm_storage_access_restricted_text">A causa de les restriccions del sistema, aquesta carpeta no està disponible.</string>
     <string name="confirm_storage_access_restricted_text_open_system">Obre amb l\'aplicació de sistema</string>
     <string name="confirm_storage_access_restricted_text_not_found">No s\'ha pogut trobar cap aplicació de gestió de fitxers del sistema.</string>
+    <string name="more_fossify_apps">Més aplicacions Fossify</string>
+    <string name="rate_this_app">Valoreu aquesta aplicació</string>
 </resources>
