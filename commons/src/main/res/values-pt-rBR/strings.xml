@@ -639,7 +639,7 @@
     <string name="exclude">Ignorar</string>
     <string name="exclude_folder">Excluir pasta</string>
     <string name="excluded_folders">Pastas ignoradas</string>
-    <string name="excluded">(excluído)</string>
+    <string name="excluded">(ignorado)</string>
     <string name="manage_excluded_folders">Gerenciar pastas ignoradas</string>
     <string name="remove_all">Remover todas</string>
     <string name="remove_all_description">Remover todas as pastas da lista de pastas ignoradas\? Esta ação não exclui as pastas.</string>
@@ -903,7 +903,7 @@
     <string name="trial_expired">Teste expirado</string>
     <string name="start_free_trial">Iniciar teste grátis</string>
     <string name="trial_expires_soon">Seu teste acaba em breve.</string>
-    <string name="welcome_to_app_name">Bem-vindo ao app %s!</string>
+    <string name="welcome_to_app_name">Boas-vindas ao %s!</string>
     <plurals name="trial_expires_days">
         <item quantity="one">Seu teste acaba em %d dia.</item>
         <item quantity="many">Seu teste acaba em %d dias.</item>
@@ -969,7 +969,7 @@
     <string name="minutes_letter">%dm</string>
     <string name="hours_letter">%dh</string>
     <string name="notification_sound">Som de notificação</string>
-    <string name="skip_the_recycle_bin">Excluir imediatamente e ignorar a lixeira</string>
+    <string name="skip_the_recycle_bin">Ignorar a Lixeira, apagar arquivos diretamente</string>
     <string name="june_short">Jun</string>
     <string name="october_short">Out</string>
     <string name="november_short">Nov</string>
@@ -1093,4 +1093,10 @@ Obrigado a todos os contribuidores e outros apoiadores!
     <string name="translation_bulgarian">Búlgaro</string>
     <string name="translation_catalan">Catalão</string>
     <string name="known_issues">Problemas conhecidos</string>
+    <string name="confirm_storage_access_restricted_text">Devido à restrições do sistema, essa pasta não está disponível.</string>
+    <string name="confirm_storage_access_restricted_text_open_system">Abrir no app do sistema</string>
+    <string name="confirm_storage_access_restricted_text_not_found">Um app do sistema de gerenciador de arquivos não pôde ser encontrado.</string>
+    <string name="days_letter">%dd</string>
+    <string name="more_fossify_apps">Mais apps do Fossify</string>
+    <string name="rate_this_app">Avalie esse app</string>
 </resources>
