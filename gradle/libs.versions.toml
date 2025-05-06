@@ -32,7 +32,7 @@ rtlViewpager = "940f12724f"
 composeActivity = "1.9.3"
 compose = "1.7.6"
 composeCompiler = "1.5.15"
-composeMaterial3 = "1.3.1"
+composeMaterial3 = "1.3.2"
 #Glide
 glide = "4.16.0"
 glideCompose = "1.0.0-beta01"
