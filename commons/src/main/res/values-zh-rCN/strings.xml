@@ -629,7 +629,7 @@
     <string name="scrolling">滚动</string>
     <string name="file_operations">文件操作</string>
     <string name="recycle_bin">回收站</string>
-    <string name="saving_label">正在保存</string>
+    <string name="saving_label">保存</string>
     <string name="startup">启动</string>
     <string name="text">文字</string>
     <string name="migrating">迁移</string>
