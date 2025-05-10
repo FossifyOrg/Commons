@@ -361,6 +361,13 @@ class ContactsHelper(val context: Context) {
         val projection = arrayOf(
             Data.RAW_CONTACT_ID,
             CommonDataKinds.StructuredPostal.FORMATTED_ADDRESS,
+            CommonDataKinds.StructuredPostal.COUNTRY,
+            CommonDataKinds.StructuredPostal.REGION,
+            CommonDataKinds.StructuredPostal.CITY,
+            CommonDataKinds.StructuredPostal.POSTCODE,
+            CommonDataKinds.StructuredPostal.POBOX,
+            CommonDataKinds.StructuredPostal.STREET,
+            CommonDataKinds.StructuredPostal.NEIGHBORHOOD,
             CommonDataKinds.StructuredPostal.TYPE,
             CommonDataKinds.StructuredPostal.LABEL
         )
@@ -371,6 +378,13 @@ class ContactsHelper(val context: Context) {
         context.queryCursor(uri, projection, selection, selectionArgs, showErrors = true) { cursor ->
             val id = cursor.getIntValue(Data.RAW_CONTACT_ID)
             val address = cursor.getStringValue(CommonDataKinds.StructuredPostal.FORMATTED_ADDRESS) ?: return@queryCursor
+            val country = cursor.getStringValue(CommonDataKinds.StructuredPostal.COUNTRY) ?: ""
+            val region = cursor.getStringValue(CommonDataKinds.StructuredPostal.REGION) ?: ""
+            val city = cursor.getStringValue(CommonDataKinds.StructuredPostal.CITY) ?: ""
+            val postcode = cursor.getStringValue(CommonDataKinds.StructuredPostal.POSTCODE) ?: ""
+            val pobox = cursor.getStringValue(CommonDataKinds.StructuredPostal.POBOX) ?: ""
+            val street = cursor.getStringValue(CommonDataKinds.StructuredPostal.STREET) ?: ""
+            val neighborhood = cursor.getStringValue(CommonDataKinds.StructuredPostal.NEIGHBORHOOD) ?: ""
             val type = cursor.getIntValue(CommonDataKinds.StructuredPostal.TYPE)
             val label = cursor.getStringValue(CommonDataKinds.StructuredPostal.LABEL) ?: ""
 
@@ -378,7 +392,8 @@ class ContactsHelper(val context: Context) {
                 addresses.put(id, ArrayList())
             }
 
-            addresses[id]!!.add(Address(address, type, label))
+            addresses[id]!!.add(Address(address, type, label, country, region, city, postcode, pobox, street,
+                neighborhood))
         }
 
         return addresses
@@ -1006,6 +1021,13 @@ class ContactsHelper(val context: Context) {
                     withValue(Data.RAW_CONTACT_ID, contact.id)
                     withValue(Data.MIMETYPE, CommonDataKinds.StructuredPostal.CONTENT_ITEM_TYPE)
                     withValue(CommonDataKinds.StructuredPostal.FORMATTED_ADDRESS, it.value)
+                    withValue(CommonDataKinds.StructuredPostal.COUNTRY, it.country)
+                    withValue(CommonDataKinds.StructuredPostal.REGION, it.region)
+                    withValue(CommonDataKinds.StructuredPostal.CITY, it.city)
+                    withValue(CommonDataKinds.StructuredPostal.POSTCODE, it.postcode)
+                    withValue(CommonDataKinds.StructuredPostal.POBOX, it.pobox)
+                    withValue(CommonDataKinds.StructuredPostal.STREET, it.street)
+                    withValue(CommonDataKinds.StructuredPostal.NEIGHBORHOOD, it.neighborhood)
                     withValue(CommonDataKinds.StructuredPostal.TYPE, it.type)
                     withValue(CommonDataKinds.StructuredPostal.LABEL, it.label)
                     operations.add(build())
@@ -1300,6 +1322,13 @@ class ContactsHelper(val context: Context) {
                     withValueBackReference(Data.RAW_CONTACT_ID, 0)
                     withValue(Data.MIMETYPE, CommonDataKinds.StructuredPostal.CONTENT_ITEM_TYPE)
                     withValue(CommonDataKinds.StructuredPostal.FORMATTED_ADDRESS, it.value)
+                    withValue(CommonDataKinds.StructuredPostal.COUNTRY, it.country)
+                    withValue(CommonDataKinds.StructuredPostal.REGION, it.region)
+                    withValue(CommonDataKinds.StructuredPostal.CITY, it.city)
+                    withValue(CommonDataKinds.StructuredPostal.POSTCODE, it.postcode)
+                    withValue(CommonDataKinds.StructuredPostal.POBOX, it.pobox)
+                    withValue(CommonDataKinds.StructuredPostal.STREET, it.street)
+                    withValue(CommonDataKinds.StructuredPostal.NEIGHBORHOOD, it.neighborhood)
                     withValue(CommonDataKinds.StructuredPostal.TYPE, it.type)
                     withValue(CommonDataKinds.StructuredPostal.LABEL, it.label)
                     operations.add(build())
