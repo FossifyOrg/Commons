@@ -9,5 +9,3 @@ jobs:
         uses: FossifyOrg/.github/.github/workflows/pr.yml@main
         with:
             test_task: ":commons:testDebugUnitTest"
-        secrets:
-            FOSSIFYBOT_TOKEN: ${{ secrets.FOSSIFYBOT_TOKEN }}
