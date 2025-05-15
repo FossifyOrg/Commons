@@ -1145,4 +1145,9 @@
     <string name="number_of_items">Número de elementos</string>
     <string name="reorder_items_by_dragging">Reordenar elementos por arrastrar</string>
     <string name="days_letter">%dd</string>
+    <string name="confirm_storage_access_restricted_text">Debido a las restricciones del sistema, esta carpeta no está disponible.</string>
+    <string name="confirm_storage_access_restricted_text_open_system">Abrir en la aplicación del sistema</string>
+    <string name="confirm_storage_access_restricted_text_not_found">No se pudo encontrar una aplicación de administrador de archivos del sistema.</string>
+    <string name="more_fossify_apps">Más aplicaciones Fossify</string>
+    <string name="rate_this_app">Valorar esta aplicación</string>
 </resources>
