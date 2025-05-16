@@ -1137,4 +1137,10 @@
     <string name="translation_kabyle">Cabilo</string>
     <string name="number_of_items">Numero di elementi</string>
     <string name="reorder_items_by_dragging">Riordina elementi trascinando</string>
+    <string name="confirm_storage_access_restricted_text_open_system">Apri l\'app di sistema</string>
+    <string name="confirm_storage_access_restricted_text_not_found">Non è stato possibile trovare un\'app di gestione dei file di sistema.</string>
+    <string name="confirm_storage_access_restricted_text">A causa di restrizioni del sistema, questa cartella non è disponibile.</string>
+    <string name="days_letter">%dg</string>
+    <string name="more_fossify_apps">Più app Fossify</string>
+    <string name="rate_this_app">Valuta quest\'app</string>
 </resources>
