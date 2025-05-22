@@ -719,8 +719,8 @@
     <string name="may">Mai</string>
     <string name="june">Juuni</string>
     <string name="july">Juuli</string>
-    <string name="august">Augusti</string>
-    <string name="september">Septembril</string>
+    <string name="august">August</string>
+    <string name="september">September</string>
     <string name="october">Oktoober</string>
     <string name="december">Detsember</string>
     <string name="in_january">jaanuaris</string>
@@ -787,7 +787,7 @@
     <string name="help_us">Osale arenduses</string>
     <string name="social">Sotsiaalmeedia</string>
     <string name="other">Muud</string>
-    <string name="privacy_policy">Privaatsuspoliitika</string>
+    <string name="privacy_policy">Andmekaitsepõhimõtted</string>
     <string name="version_placeholder">Versioon %s</string>
     <string name="hello">Hei :)</string>
     <string name="about_footer">Tehtud Slovakkias suure ❤️\'ga</string>
