@@ -297,7 +297,7 @@
     <string name="direct_children_count">Antal direkta döttrar</string>
     <string name="files_count">Antal filer</string>
     <string name="resolution">Upplösning</string>
-    <string name="duration">Varaktighet</string>
+    <string name="duration">Längd</string>
     <string name="focal_length">Brännvidd</string>
     <string name="exposure_time">Exponeringstid</string>
     <string name="iso_speed">ISO-grader</string>
@@ -1078,4 +1078,5 @@
     <string name="august_short">Aug</string>
     <string name="more_fossify_apps">Fler Fossifyappar</string>
     <string name="rate_this_app">Betygsätt denna app</string>
+    <string name="artist">Artist</string>
 </resources>
