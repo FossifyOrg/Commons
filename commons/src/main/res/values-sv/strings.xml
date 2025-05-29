@@ -1079,4 +1079,5 @@
     <string name="more_fossify_apps">Fler Fossifyappar</string>
     <string name="rate_this_app">Betygsätt denna app</string>
     <string name="artist">Artist</string>
+    <string name="hours_letter">%dh</string>
 </resources>
