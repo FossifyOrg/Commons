@@ -1,8 +1,12 @@
+import org.jetbrains.kotlin.gradle.dsl.JvmTarget
+import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
+
 plugins {
     alias(libs.plugins.library)
     alias(libs.plugins.kotlinAndroid)
     alias(libs.plugins.ksp)
     alias(libs.plugins.kotlinSerialization)
+    alias(libs.plugins.compose.compiler)
     alias(libs.plugins.parcelize)
     alias(libs.plugins.detekt)
     `maven-publish`
@@ -40,31 +44,31 @@ android {
         compose = true
     }
 
-    composeOptions {
-        kotlinCompilerExtensionVersion = libs.versions.composeCompiler.get()
-    }
-
     compileOptions {
-        val currentJavaVersionFromLibs = JavaVersion.valueOf(libs.versions.app.build.javaVersion.get())
+        val currentJavaVersionFromLibs =
+            JavaVersion.valueOf(libs.versions.app.build.javaVersion.get())
         sourceCompatibility = currentJavaVersionFromLibs
         targetCompatibility = currentJavaVersionFromLibs
     }
 
-    tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {
-        kotlinOptions.jvmTarget = project.libs.versions.app.build.kotlinJVMTarget.get()
-        kotlinOptions.freeCompilerArgs = listOf(
-            "-opt-in=kotlin.RequiresOptIn",
-            "-opt-in=androidx.compose.material3.ExperimentalMaterial3Api",
-            "-opt-in=androidx.compose.material.ExperimentalMaterialApi",
-            "-opt-in=androidx.compose.foundation.ExperimentalFoundationApi",
-            "-opt-in=com.bumptech.glide.integration.compose.ExperimentalGlideComposeApi",
-            "-Xcontext-receivers"
+    tasks.withType<KotlinCompile> {
+        compilerOptions.jvmTarget.set(
+            JvmTarget.fromTarget(project.libs.versions.app.build.kotlinJVMTarget.get())
+        )
+        compilerOptions.freeCompilerArgs.set(
+            listOf(
+                "-opt-in=kotlin.RequiresOptIn",
+                "-opt-in=androidx.compose.material3.ExperimentalMaterial3Api",
+                "-opt-in=androidx.compose.material.ExperimentalMaterialApi",
+                "-opt-in=androidx.compose.foundation.ExperimentalFoundationApi",
+                "-opt-in=com.bumptech.glide.integration.compose.ExperimentalGlideComposeApi",
+                "-Xcontext-receivers"
+            )
         )
     }
 
     lint {
         checkReleaseBuilds = false
-        abortOnError = false
         abortOnError = true
         warningsAsErrors = true
         baseline = file("lint-baseline.xml")

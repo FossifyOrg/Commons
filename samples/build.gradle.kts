@@ -1,3 +1,4 @@
+import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 import org.jetbrains.kotlin.konan.properties.Properties
 import java.io.FileInputStream
@@ -5,6 +6,7 @@ import java.io.FileInputStream
 plugins {
     alias(libs.plugins.android)
     alias(libs.plugins.kotlinAndroid)
+    alias(libs.plugins.compose.compiler)
     alias(libs.plugins.detekt)
 }
 
@@ -59,16 +61,24 @@ android {
     }
 
     compileOptions {
-        val currentJavaVersionFromLibs = JavaVersion.valueOf(libs.versions.app.build.javaVersion.get())
+        val currentJavaVersionFromLibs =
+            JavaVersion.valueOf(libs.versions.app.build.javaVersion.get())
         sourceCompatibility = currentJavaVersionFromLibs
         targetCompatibility = currentJavaVersionFromLibs
     }
 
     tasks.withType<KotlinCompile> {
-        kotlinOptions.jvmTarget = project.libs.versions.app.build.kotlinJVMTarget.get()
-        kotlinOptions.freeCompilerArgs = listOf(
-            "-opt-in=kotlin.RequiresOptIn",
-            "-Xcontext-receivers"
+        compilerOptions.jvmTarget.set(
+            JvmTarget.fromTarget(project.libs.versions.app.build.kotlinJVMTarget.get())
+        )
+        compilerOptions.freeCompilerArgs.set(
+            listOf(
+                "-opt-in=kotlin.RequiresOptIn",
+                "-opt-in=androidx.compose.material3.ExperimentalMaterial3Api",
+                "-opt-in=androidx.compose.material.ExperimentalMaterialApi",
+                "-opt-in=androidx.compose.foundation.ExperimentalFoundationApi",
+                "-Xcontext-receivers"
+            )
         )
     }
 
@@ -78,21 +88,6 @@ android {
         compose = true
     }
 
-    composeOptions {
-        kotlinCompilerExtensionVersion = libs.versions.composeCompiler.get()
-    }
-
-    tasks.withType<KotlinCompile> {
-        kotlinOptions.jvmTarget = project.libs.versions.app.build.kotlinJVMTarget.get()
-        kotlinOptions.freeCompilerArgs = listOf(
-            "-opt-in=kotlin.RequiresOptIn",
-            "-opt-in=androidx.compose.material3.ExperimentalMaterial3Api",
-            "-opt-in=androidx.compose.material.ExperimentalMaterialApi",
-            "-opt-in=androidx.compose.foundation.ExperimentalFoundationApi",
-            "-Xcontext-receivers"
-        )
-    }
-
     sourceSets {
         getByName("main").java.srcDirs("src/main/kotlin")
     }
@@ -100,7 +95,6 @@ android {
     lint {
         disable.add("Instantiatable")
         checkReleaseBuilds = false
-        abortOnError = false
         abortOnError = true
         warningsAsErrors = true
         baseline = file("lint-baseline.xml")
