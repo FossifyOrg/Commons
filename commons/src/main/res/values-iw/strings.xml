@@ -1079,4 +1079,5 @@
     <string name="reminder_warning">אנא ודא שהתזכורות פועלות כראוי לפני שאתה סומך עליהן. בדוק את הגדרות הסוללה וההתראות של המכשיר שלך, אם אין שום דבר שחוסם את התזכורות, או סוגר את האפליקציה ברקע.</string>
     <string name="alarm_goes_off_in">זמן שנותר עד שהשעון המעורר יצלצל:\n%s</string>
     <string name="trial_expired">תקופת הניסיון הסתיימה</string>
+    <string name="contributors_label">&lt;![CDATA[\nרשימה זו מכילה את כל מי שסייע באופן ניכר לכל אפליקציה בחבילת Fossify, לא רק לזו. התרגומים מטופלים על ידי מתנדבים, ספרו לנו אם גם אתם רוצים לעזור. המדריך לתרגום נמצא בכתובת &lt;a href=\"https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file\"&gt;</string>
 </resources>
