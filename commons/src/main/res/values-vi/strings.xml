@@ -83,10 +83,10 @@
     <string name="list">Danh sách</string>
     <string name="increase_column_count">Tăng số lượng cột</string>
     <string name="reduce_column_count">Giảm số lượng cột</string>
-    <string name="column_count">Số cột</string>
+    <string name="column_count">Số lượng cột</string>
     <string name="row_count">Số hàng</string>
-    <string name="portrait_column_count">Số cột màn hình dọc</string>
-    <string name="landscape_column_count">Số cột màn hình ngang</string>
+    <string name="portrait_column_count">Số lượng cột màn hình dọc</string>
+    <string name="landscape_column_count">Số lượng cột màn hình ngang</string>
     <string name="change_cover_image">Thay đổi ảnh bìa</string>
     <string name="select_photo">Chọn ảnh</string>
     <string name="manage_blocked_numbers">Quản lý số bị chặn</string>
@@ -136,7 +136,7 @@
     <string name="search_recordings">Tìm kiếm bản ghi</string>
     <string name="filter">Bộ lọc</string>
     <string name="filter_pro">Bộ lọc (Pro)</string>
-    <string name="no_items_found">Chưa có mục nào.</string>
+    <string name="no_items_found">Không có mục nào.</string>
     <string name="change_filter">Thay đổi bộ lọc</string>
     <string name="no_storage_permissions">Cần quyền lưu trữ</string>
     <string name="no_contacts_permission">Cần quyền truy cập danh bạ</string>
@@ -314,7 +314,7 @@
     <string name="unhide">Bỏ ẩn</string>
     <string name="hide_folder">Ẩn thư mục</string>
     <string name="unhide_folder">Bỏ ẩn thư mục</string>
-    <string name="temporarily_show_hidden">Hiển thị mục đã ẩn</string>
+    <string name="temporarily_show_hidden">Hiện những mục đã ẩn</string>
     <string name="stop_showing_hidden">Ẩn lại mục đã ẩn</string>
     <string name="allow_access_more_media">Cho phép truy cập nhiều hơn</string>
     <string name="maximum_share_reached">Bạn không thể chia sẻ nhiều nội dung cùng lúc</string>
@@ -324,12 +324,12 @@
     <string name="print">In</string>
     <string name="print_pro">In (Pro)</string>
     <string name="shortcut">Phím tắt</string>
-    <string name="create_shortcut">Tạo phím tắt</string>
-    <string name="create_shortcut_pro">Tạo phím tắt (Pro)</string>
+    <string name="create_shortcut">Tạo lối tắt</string>
+    <string name="create_shortcut_pro">Tạo lối tắt (Pro)</string>
     <string name="add_number_to_contact">Thêm số để liên hệ</string>
     <string name="call_from_sim_1">Gọi từ SIM 1</string>
     <string name="call_from_sim_2">Gọi từ SIM 2</string>
-    <string name="toggle_filename">Hiện tên file</string>
+    <string name="toggle_filename">Ẩn/hiện tên file</string>
     <string name="move_to_top">Di chuyển lên trên cùng</string>
     <string name="move_to_bottom">Di chuyển xuống dưới cùng</string>
     <string name="unpin_item">Bỏ ghim mục</string>
@@ -346,7 +346,7 @@
     <string name="date_created">Ngày tạo</string>
     <string name="date_taken">Ngày chụp</string>
     <string name="date_added">Ngày thêm</string>
-    <string name="title">Tựa đề</string>
+    <string name="title">Tên</string>
     <string name="filename">Tên file</string>
     <string name="extension">Định dạng</string>
     <string name="random">Ngẫu nhiên</string>
@@ -612,7 +612,7 @@
     <string name="email_label">Góp ý hoặc đề xuất</string>
     <string name="upgrade_to_pro">Nâng cấp Pro</string>
     <string name="invite_friends">Mời bạn bè</string>
-    <string name="share_text">Xin chào, hãy kiểm tra %1$s tại %2$s</string>
+    <string name="share_text">Êy, hãy dùng thử %1$s trên %2$s</string>
     <string name="invite_via">Mời qua</string>
     <string name="follow_us">Theo dõi</string>
     <string name="additional_info">Thông tin bổ sung</string>
@@ -687,7 +687,7 @@
     <string name="exoplayer_title">ExoPlayer (trình phát video)</string>
     <string name="sanselan_title">Apache Sanselan (đọc siêu dữ liệu hình ảnh)</string>
     <string name="filters_title">Bộ lọc ảnh Android (bộ lọc hình ảnh)</string>
-    <string name="gesture_views_title">Chế độ xem cử chỉ (hình ảnh có thể phóng to)</string>
+    <string name="gesture_views_title">Chế độ xem cử chỉ (thu phóng hình ảnh)</string>
     <string name="deprecated_app">THÔNG BÁO: Phiên bản của ứng dụng này không còn được duy trì, hãy tải phiên bản Pro tại https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">Đừng quên rằng nếu bạn gỡ cài đặt bất kỳ ứng dụng phải trả tiền nào trong vòng 2 giờ, bạn sẽ tự động được hoàn lại tiền. Nếu bạn muốn hoàn lại tiền bất cứ lúc nào sau đó, chỉ cần liên hệ với chúng tôi tại hello@fossify.org và bạn sẽ nhận được nó.Thật dễ dàng đúng không :)</string>
     <string name="developer_description">Một bộ sưu tập ứng dụng Android đơn giản, mã nguồn mở, với các tiện ích có thể tùy chỉnh, không quảng cáo và không yêu cầu quyền không cần thiết.</string>
@@ -724,7 +724,7 @@
     <plurals name="deleting_items">
         <item quantity="other">Đang xóa %d mục</item>
     </plurals>
-    <string name="faq_9_text_commons">Có nhiều cách để thực hiện. Cách đầu tiên là bắt đầu chế độ lựa chọn bằng cách nhấn giữ một mục, sau đó nhấn nhanh vào các mục khác để chọn chúng. Cách thứ hai tương tự như chọn các mục trên PC bằng chuột, chỉ cần bắt đầu chế độ lựa chọn bằng cách nhấn giữ một mục, sau đó vẫn giữ ngón tay của bạn vuốt qua các mục khác để chọn. Cách thứ ba là nhấn giữ một mục, sau đó nhấn giữ một mục khác và mọi thứ ở giữa sẽ được chọn. Nếu bạn muốn chọn tất cả các mục, chỉ cần nhấn giữ một mục, sau đó nhấn vào bộ đếm mục đã chọn ở góc trên cùng bên trái. Thao tác đó sẽ chọn hoặc bỏ chọn tất cả mọi thứ.</string>
+    <string name="faq_9_text_commons">Có nhiều cách thực hiện. Cách đầu tiên là nhấn giữ một mục, sau đó nhấn nhanh vào các mục khác để chọn chúng. Cách thứ hai tương tự như chọn các mục trên PC bằng chuột: nhấn giữ một mục, sau đó giữ ngón tay của bạn vuốt qua các mục khác để chọn. Cách thứ ba là nhấn giữ một mục, sau đó nhấn giữ một mục khác và mọi thứ ở giữa sẽ được chọn. Nếu bạn muốn chọn tất cả các mục, chỉ cần nhấn giữ một mục, sau đó nhấn vào bộ đếm mục đã chọn ở góc trên cùng bên trái. Thao tác đó sẽ chọn hoặc bỏ chọn tất cả mọi thứ.</string>
     <string name="theme_and_colors">Chủ đề và màu</string>
     <string name="widgets">Widget</string>
     <string name="list_view">Danh sách</string>
@@ -803,7 +803,7 @@
     <string name="platforms">Nền tảng</string>
     <string name="file_manager_short">File Manager</string>
     <string name="donate_to_fossify">Ủng hộ Fossify</string>
-    <string name="contributors">Đóng góp</string>
+    <string name="contributors">Người đóng góp</string>
     <string name="translation">Biên dịch</string>
     <string name="purchase_simple_thank_you">Mua Fossify Thank You</string>
     <string name="known_issues">Vấn đề</string>
@@ -817,4 +817,8 @@
     <string name="about_footer">Tạo bằng ❤️ từ Slovakia</string>
     <string name="all_fossify_apps">Tất cả ứng dụng Fossify</string>
     <string name="translation_vietnamese">Tiếng Việt</string>
+    <string name="little_to_no_fee">Ít hoặc không mất phí</string>
+    <string name="fee_up_to_pct">Phí tối đa %1$d%%</string>
+    <string name="cryptocurrency">Tiền điện tử</string>
+    <string name="zip4j_title">Zip4j (nén &amp; giải nén ZIP)</string>
 </resources>
