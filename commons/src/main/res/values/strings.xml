@@ -130,9 +130,9 @@
     <string name="must_make_default_dialer">You have to make this app the default dialer app to make use of blocked numbers.</string>
     <string name="set_as_default">Set as default</string>
     <string name="block_confirmation">Are you sure you want to block \"%s\"?</string>
-    <string name="block_not_stored_calls">Block calls from not stored contacts</string>
+    <string name="block_unknown_calls">Block calls from unknown numbers</string>
     <string name="block_hidden_calls">Block calls from hidden numbers</string>
-    <string name="block_not_stored_messages">Block messages from not stored contacts</string>
+    <string name="block_unknown_messages">Block messages from unknown numbers</string>
     <string name="block_hidden_messages">Block messages from hidden numbers</string>
     <string name="add_blocked_number_helper_text">Enter a number or a pattern (e.g. *12345*, +1*8888) to block all calls and messages from numbers matching the pattern.</string>
     <string name="must_make_default_caller_id_app">Can\'t block unknown numbers without caller ID permission.</string>
@@ -289,7 +289,10 @@
     <string name="confirm_storage_access_text">Please choose the top folder of the SD card on the next screen, to grant write access</string>
     <string name="confirm_storage_access_text_sd">If you don\'t see the SD card, try this</string>
     <string name="confirm_storage_access_android_text">Please allow the app accessing the selected storage on the next screen by pressing \'Use this folder\' at the bottom.</string>
-    <string name="confirm_storage_access_android_text_specific">Please allow accessing \'&lt;b&gt;%s&lt;/b&gt;\' on the next screen by pressing \'&lt;b&gt;Use this folder&lt;/b&gt;\' at the bottom.</string>
+    <string name="confirm_storage_access_android_text_specific">Please allow access to \'&lt;b&gt;%s&lt;/b&gt;\' on the next screen by pressing \'&lt;b&gt;Use this folder&lt;/b&gt;\' at the bottom.</string>
+    <string name="confirm_storage_access_restricted_text">Due to system restrictions, this folder is not available.</string>
+    <string name="confirm_storage_access_restricted_text_open_system">Open in system app</string>
+    <string name="confirm_storage_access_restricted_text_not_found">A system file manager app could not be found.</string>
     <string name="confirm_create_doc_for_new_folder_text">Please press \'&lt;b&gt;Save&lt;/b&gt;\' at the bottom of the next screen to create the new folder.</string>
     <string name="confirm_selection">Confirm selection</string>
     <string name="loading">Loading…</string>
@@ -378,7 +381,7 @@
     <string name="apply_to_all_apps">Apply colors to all Fossify Apps</string>
     <string name="app_icon_color_warning">Caution: Certain launchers may not handle app icon customization correctly. If the icon disappears, attempt launching the app through Google Play or a widget, if accessible.
         After launching, restore the default green icon color #106D1F. In extreme cases, reinstalling the app may be necessary.</string>
-    <string name="share_colors_success">Colors updated successfully. A new Theme called \'Shared\' has been added, please use that for updating all app colors in the future.</string>
+    <string name="global_theme_success">The current theme has been successfully applied to all Fossify apps. Any future changes to this theme will be synced automatically.</string>
     <string name="shared_theme_note">Note that even though you are using the Pro app version, you still need Fossify Thank You for technical reasons. It takes care of the color synchronization.</string>
     <string name="purchase_thank_you">
         <![CDATA[
@@ -452,6 +455,7 @@
     <string name="sort_by">Sort by</string>
     <string name="name">Name</string>
     <string name="size">Size</string>
+    <string name="number_of_items">Number of items</string>
     <string name="last_modified">Last modified</string>
     <string name="date_created">Date created</string>
     <string name="date_taken">Date taken</string>
@@ -472,6 +476,7 @@
     <string name="use_custom_sorting">Use custom sorting</string>
     <string name="change_order">Change order</string>
     <string name="more_options">More options</string>
+    <string name="reorder_items_by_dragging">Reorder items by dragging</string>
 
     <!-- Confirmation dialog -->
     <string name="proceed_with_deletion">Are you sure you want to proceed with the deletion?</string>
@@ -536,9 +541,10 @@
     <string name="minutes_raw">minutes</string>
     <string name="hours_raw">hours</string>
     <string name="days_raw">days</string>
-    <string name="seconds_letter">s</string>
-    <string name="minutes_letter">m</string>
-    <string name="hours_letter">h</string>
+    <string name="seconds_letter">%ds</string>
+    <string name="minutes_letter">%dm</string>
+    <string name="hours_letter">%dh</string>
+    <string name="days_letter">%dd</string>
     <string name="week_number_short">wk.</string>
 
     <plurals name="seconds">
@@ -679,7 +685,7 @@
     <string name="add_new_sound">Add a new sound</string>
     <string name="no_sound">No sound</string>
     <string name="during_day_at_hh_mm">During the day at hh:mm</string>
-    <string name="during_day_at">During the day at %02d:%02d</string>
+    <string name="during_day_at">During the day at %1$02d:%2$02d</string>
 
     <!-- Settings -->
     <string name="settings">Settings</string>
@@ -689,6 +695,7 @@
     <string name="improved_color_customization">Improved color customization</string>
     <string name="customize_colors">Customize colors</string>
     <string name="customize_colors_locked">Customize colors (Locked)</string>
+    <string name="theme_and_colors">Theme and colors</string>
     <string name="feature_locked">Locked</string>
     <string name="customize_widget_colors">Customize widget colors</string>
     <string name="customize_notifications">Customize notifications</string>
@@ -728,6 +735,7 @@
     <string name="start_name_with_surname">Start name with surname</string>
     <string name="clear_cache">Clear cache</string>
     <string name="show_call_confirmation_dialog">Show a call confirmation dialog before initiating a call</string>
+    <string name="format_phone_numbers">Format phone numbers</string>
 
     <!-- Setting sections -->
     <string name="visibility">Visibility</string>
@@ -893,14 +901,13 @@
     <string name="website">Website</string>
     <string name="website_label">For the source codes visit</string>
     <string name="email_label">Send your feedback or suggestions to</string>
+    <string name="known_issues">Known issues</string>
     <string name="upgrade_to_pro">Upgrade to Pro</string>
-    <string name="more_apps">More apps</string>
-    <string name="more_apps_from_us">More apps from us</string>
+    <string name="more_fossify_apps">More Fossify apps</string>
     <string name="invite_friends">Invite friends</string>
     <string name="share_text">Hey, come check out %1$s at %2$s</string>
     <string name="invite_via">Invite via</string>
-    <string name="rate_us">Rate us</string>
-    <string name="rate">Rate</string>
+    <string name="rate_this_app">Rate this app</string>
     <string name="donate">Donate</string>
     <string name="follow_us">Follow us</string>
     <string name="copyright">v %1$s\nCopyright © Fossify %2$d</string>
@@ -927,16 +934,14 @@
     <string name="purchase">Purchase</string>
     <string name="update_thank_you">Please update Fossify Thank You to the latest version</string>
     <string name="before_asking_question_read_faq">Before you ask a question, please check the app settings and read the Frequently Asked Questions first. Maybe the solution is there.</string>
-    <string name="before_rate_read_faq">Before you rate us, please check the app settings and read the Frequently Asked Questions first. If you have any problems, maybe the solution is there.</string>
     <string name="make_sure_latest">Also make sure that you are using the latest app version.</string>
     <string name="make_sure_upgrade">Also note that this app version is no longer being developed, get the Pro one for many improvements.</string>
     <string name="read_it">Read it</string>
     <string name="read_faq">Read FAQ</string>
-    <string name="rate_us_prompt">Hello,\n\nit looks like you are using this app for quite a while already, and we really appreciate it.\n\nIf we can ask you a favor, please rate us on Google Play. That would really help us a lot.\n\nNo matter how you decide, you will not see this message again.\n\nThanks!</string>
-    <string name="rate_our_app">Rate our app please :)</string>
     <string name="thank_you">Thank you</string>
     <string name="widget_locked_pro">The widget is locked.\nPlease upgrade to the Pro version to unlock it.</string>
     <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>
+    <string name="all_fossify_apps">All Fossify apps</string>
 
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">
@@ -974,6 +979,13 @@
             It looks like your app version is corrupt. Please download the original version <a href="%s">here</a>.
         ]]>
     </string>
+
+    <!-- Donations -->
+    <string name="donate_to_fossify">Donate to Fossify</string>
+    <string name="platforms">Platforms</string>
+    <string name="little_to_no_fee">Little to no fee</string>
+    <string name="fee_up_to_pct">Up to %1$d%% fee</string>
+    <string name="cryptocurrency">Cryptocurrency</string>
 
     <!-- FAQ -->
     <string name="frequently_asked_questions">Frequently asked questions</string>
@@ -1025,11 +1037,15 @@
 
     <string name="translation_arabic">Arabic</string>
     <string name="translation_azerbaijani">Azerbaijani</string>
+    <string name="translation_belarusian">Belarusan</string>
     <string name="translation_bengali">Bengali</string>
     <string name="translation_breton">Breton</string>
     <string name="translation_bulgarian">Bulgarian</string>
+    <string name="translation_central_kurdish">Central Kurdish</string>
     <string name="translation_catalan">Catalan</string>
+    <string name="translation_chuvash">Chuvash</string>
     <string name="translation_czech">Czech</string>
+    <string name="translation_esperanto">Esperanto</string>
     <string name="translation_welsh">Welsh</string>
     <string name="translation_danish">Danish</string>
     <string name="translation_english">English</string>
@@ -1041,6 +1057,7 @@
     <string name="translation_finnish">Finnish</string>
     <string name="translation_french">French</string>
     <string name="translation_galician">Galician</string>
+    <string name="translation_gujarati">Gujarati</string>
     <string name="translation_hindi">Hindi</string>
     <string name="translation_croatian">Croatian</string>
     <string name="translation_hungarian">Hungarian</string>
@@ -1048,6 +1065,7 @@
     <string name="translation_italian">Italian</string>
     <string name="translation_hebrew">Hebrew</string>
     <string name="translation_japanese">Japanese</string>
+    <string name="translation_kabyle">Kabyle</string>
     <string name="translation_korean">Korean</string>
     <string name="translation_lithuanian">Lithuanian</string>
     <string name="translation_nepali">Nepali</string>

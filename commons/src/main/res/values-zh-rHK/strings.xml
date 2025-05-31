@@ -75,7 +75,7 @@
     <string name="record_video">拍片</string>
     <string name="updating">正在更新…</string>
     <string name="phone_storage">手機容量</string>
-    <string name="phone_storage_hidden">手機容量 (其他程式不可見)</string>
+    <string name="phone_storage_hidden">手機儲存空間（其他應用程式無法檢視）</string>
     <string name="audio">音訊</string>
     <string name="birthday">生日</string>
     <string name="anniversary">紀念日</string>
@@ -110,8 +110,8 @@
     <string name="must_make_default_dialer">您必须将这应用程序设为默认的拨号程序来使用黑名单。</string>
     <string name="set_as_default">设为默认</string>
     <string name="block_confirmation">您确定要将 \"%s\" 添加到黑名单吗？</string>
-    <string name="block_not_stored_calls">拦截来自未存储联系人的通话</string>
-    <string name="block_not_stored_messages">拦截来自未存储联系人的消息</string>
+    <string name="block_unknown_calls">拦截来自未存储联系人的通话</string>
+    <string name="block_unknown_messages">拦截来自未存储联系人的消息</string>
     <string name="add_blocked_number_helper_text">输入号码或模式（例如 *12345*、+1*8888）以阻止来自匹配模式的号码的所有来电和消息。</string>
     <string name="must_make_default_caller_id_app">要拦截未知号码，你必须将应用设为默认的来电显示和骚扰电话屏蔽应用。</string>
     <string name="favorites">收藏</string>
@@ -211,7 +211,7 @@
     <string name="confirm_storage_access_text">请选择 SD 卡根目录并授予写权限</string>
     <string name="confirm_storage_access_text_sd">如果您未找到 SD 卡目录，请尝试</string>
     <string name="confirm_storage_access_android_text">请在下一个屏幕上按下底部的“使用此文件夹”，允许应用程序访问所选的存储空间。</string>
-    <string name="confirm_storage_access_android_text_specific">请在下个屏幕上允许访问 \'&lt;b&gt;%s&lt;/b&gt;\'，方法是按下底部的“&lt;b&gt;使用此文件夹&lt;/b&gt;”。</string>
+    <string name="confirm_storage_access_android_text_specific">请在下个屏幕上允许访问 \'<b>%s</b>\'，方法是按下底部的“<b>使用此文件夹</b>”。</string>
     <string name="confirm_create_doc_for_new_folder_text">请按下下个屏幕底部的“&lt;b&gt;保存&lt;/b&gt;”按钮来创建新文件夹。</string>
     <string name="confirm_selection">确认选择</string>
     <string name="loading">加载中…</string>
@@ -279,7 +279,7 @@
     <string name="undo_changes_confirmation">是否撤销您的更改？</string>
     <string name="cannot_be_undone">此操作無法撤消。</string>
     <string name="save_before_closing">您尚未保存更改，是否保存？</string>
-    <string name="share_colors_success">颜色更改成功。已添加名为“共享”的新主题，以后您可以使用它来更改所有应用的颜色。</string>
+    <string name="global_theme_success">颜色更改成功。已添加名为“共享”的新主题，以后您可以使用它来更改所有应用的颜色。</string>
     <string name="light_theme">浅色主题</string>
     <string name="dark_theme">深色主题</string>
     <string name="auto_theme">自动</string>
@@ -499,7 +499,7 @@
     <string name="add_new_sound">添加新的铃声</string>
     <string name="no_sound">无铃声</string>
     <string name="during_day_at_hh_mm">在日间的 小时:分钟 内</string>
-    <string name="during_day_at">在日间的 %02d:%02d 内</string>
+    <string name="during_day_at">在日间的 %1$02d:%2$02d 内</string>
     <string name="settings">设置</string>
     <string name="general_settings">通用</string>
     <string name="color_customization">颜色定制</string>
@@ -656,13 +656,9 @@
     <string name="website_label">应用源码</string>
     <string name="email_label">发送反馈</string>
     <string name="upgrade_to_pro">升级到专业版</string>
-    <string name="more_apps">更多应用</string>
-    <string name="more_apps_from_us">我们的其他应用</string>
     <string name="invite_friends">分享给好友</string>
     <string name="share_text">嘿，请前往 %2$s 看看我们的 %1$s 吧</string>
     <string name="invite_via">分享到</string>
-    <string name="rate_us">为我们评分</string>
-    <string name="rate">评分</string>
     <string name="donate">捐赠</string>
     <string name="follow_us">关注我们</string>
     <string name="copyright">v %1$s
@@ -687,13 +683,10 @@
     </string>
     <string name="purchase">购买</string>
     <string name="before_asking_question_read_faq">提问之前，请先打开应用设置并阅读常见问题。也许您可以在那里找到答案。</string>
-    <string name="before_rate_read_faq">评分之前，请先打开应用设置并阅读常见问题。也许您可以在那里找到答案。</string>
     <string name="make_sure_latest">另外，请确保您正在使用的是最新版本的应用。</string>
     <string name="make_sure_upgrade">还请注意，作者不再开发这个应用版本，请获取有多处改进的专业版。</string>
     <string name="read_it">阅读</string>
     <string name="read_faq">阅读常见问题</string>
-    <string name="rate_us_prompt">您好，\n\n看来您使用这个应用已经有一段时间了，我们真的很感激。\n\n如果您喜欢，请在Google Play上为我们评分。这对我们很有帮助。\n\n无论您做何决定，您都不会再看到这个消息了。\n\n感谢！</string>
-    <string name="rate_our_app">请为我们的应用评分 :)</string>
     <string name="thank_you">非常感谢</string>
     <string name="widget_locked_pro">小部件被锁定。
 \n请升级到专业版解锁。</string>

@@ -3,10 +3,12 @@ package org.fossify.commons.extensions
 import android.Manifest
 import android.annotation.TargetApi
 import android.app.Activity
+import android.app.Application
 import android.app.NotificationManager
 import android.app.role.RoleManager
 import android.content.*
 import android.content.pm.PackageManager
+import android.content.pm.PackageManager.PERMISSION_GRANTED
 import android.content.pm.ShortcutManager
 import android.content.res.Configuration
 import android.database.Cursor
@@ -44,8 +46,10 @@ import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import org.fossify.commons.R
 import org.fossify.commons.helpers.*
+import org.fossify.commons.helpers.MyContentProvider.PERMISSION_WRITE_GLOBAL_SETTINGS
 import org.fossify.commons.models.AlarmSound
 import org.fossify.commons.models.BlockedNumber
+import org.joda.time.DateTimeConstants
 import java.io.File
 import java.text.SimpleDateFormat
 import java.util.Date
@@ -56,6 +60,9 @@ fun Context.getSharedPrefs() = getSharedPreferences(PREFS_KEY, Context.MODE_PRIV
 val Context.isRTLLayout: Boolean get() = resources.configuration.layoutDirection == View.LAYOUT_DIRECTION_RTL
 
 val Context.areSystemAnimationsEnabled: Boolean get() = Settings.Global.getFloat(contentResolver, Settings.Global.ANIMATOR_DURATION_SCALE, 0f) > 0f
+
+val Context.appLockManager
+    get() = AppLockManager.getInstance(applicationContext as Application)
 
 fun Context.toast(id: Int, length: Int = Toast.LENGTH_SHORT) {
     toast(getString(id), length)
@@ -102,6 +109,14 @@ fun Context.isFingerPrintSensorAvailable() = Reprint.isHardwarePresent()
 fun Context.isBiometricIdAvailable(): Boolean = when (BiometricManager.from(this).canAuthenticate(BiometricManager.Authenticators.BIOMETRIC_WEAK)) {
     BiometricManager.BIOMETRIC_SUCCESS, BiometricManager.BIOMETRIC_STATUS_UNKNOWN -> true
     else -> false
+}
+
+fun Context.isBiometricAuthSupported(): Boolean {
+    return if (isRPlus()) {
+        isBiometricIdAvailable()
+    } else {
+        isFingerPrintSensorAvailable()
+    }
 }
 
 fun Context.getLatestMediaId(uri: Uri = Files.getContentUri("external")): Long {
@@ -453,7 +468,7 @@ fun Context.getMyContactsCursor(favoritesOnly: Boolean, withPhoneNumbersOnly: Bo
 }
 
 fun Context.getCurrentFormattedDateTime(): String {
-    val simpleDateFormat = SimpleDateFormat("yyyy_MM_dd_HH_mm_ss", Locale.getDefault())
+    val simpleDateFormat = SimpleDateFormat("yyyyMMdd_HHmmss", Locale.getDefault())
     return simpleDateFormat.format(Date(System.currentTimeMillis()))
 }
 
@@ -476,6 +491,10 @@ fun Context.getUriMimeType(path: String, newUri: Uri): String {
 }
 
 fun Context.isThankYouInstalled() = isPackageInstalled("org.fossify.thankyou")
+
+fun Context.canAccessGlobalConfig(): Boolean {
+    return isThankYouInstalled() && ContextCompat.checkSelfPermission(this, PERMISSION_WRITE_GLOBAL_SETTINGS) == PERMISSION_GRANTED
+}
 
 fun Context.isOrWasThankYouInstalled(): Boolean {
     return when {
@@ -573,6 +592,41 @@ fun Context.formatSecondsToTimeString(totalSeconds: Int): String {
     return result
 }
 
+fun Context.formatMinutesToShortTimeString(totalMinutes: Int) = formatSecondsToShortTimeString(totalMinutes * 60)
+
+fun Context.formatSecondsToShortTimeString(totalSeconds: Int): String {
+    val days = totalSeconds / DAY_SECONDS
+    val hours = (totalSeconds % DAY_SECONDS) / HOUR_SECONDS
+    val minutes = (totalSeconds % HOUR_SECONDS) / MINUTE_SECONDS
+    val seconds = totalSeconds % MINUTE_SECONDS
+    val timesString = StringBuilder()
+    if (days > 0) {
+        val daysString = String.format(resources.getString(R.string.days_letter), days)
+        timesString.append("$daysString ")
+    }
+
+    if (hours > 0) {
+        val hoursString = String.format(resources.getString(R.string.hours_letter), hours)
+        timesString.append("$hoursString ")
+    }
+
+    if (minutes > 0) {
+        val minutesString = String.format(resources.getString(R.string.minutes_letter), minutes)
+        timesString.append("$minutesString ")
+    }
+
+    if (seconds > 0) {
+        val secondsString = String.format(resources.getString(R.string.seconds_letter), seconds)
+        timesString.append(secondsString)
+    }
+
+    var result = timesString.toString().trim()
+    if (result.isEmpty()) {
+        result = String.format(resources.getString(R.string.minutes_letter), 0)
+    }
+    return result
+}
+
 fun Context.getFormattedMinutes(minutes: Int, showBefore: Boolean = true) = getFormattedSeconds(if (minutes == -1) minutes else minutes * 60, showBefore)
 
 fun Context.getFormattedSeconds(seconds: Int, showBefore: Boolean = true) = when (seconds) {
@@ -582,7 +636,7 @@ fun Context.getFormattedSeconds(seconds: Int, showBefore: Boolean = true) = when
         when {
             seconds < 0 && seconds > -60 * 60 * 24 -> {
                 val minutes = -seconds / 60
-                getString(R.string.during_day_at).format(minutes / 60, minutes % 60)
+                getString(R.string.during_day_at, minutes / 60, minutes % 60)
             }
 
             seconds % YEAR_SECONDS == 0 -> {
@@ -1240,4 +1294,19 @@ fun Context.openFullScreenIntentSettings(appId: String) {
         intent.data = uri
         startActivity(intent)
     }
+}
+
+fun Context.getDayOfWeekString(dayOfWeek: Int): String {
+    val dayOfWeekResId = when (dayOfWeek) {
+        DateTimeConstants.MONDAY -> org.fossify.commons.R.string.monday
+        DateTimeConstants.TUESDAY -> org.fossify.commons.R.string.tuesday
+        DateTimeConstants.WEDNESDAY -> org.fossify.commons.R.string.wednesday
+        DateTimeConstants.THURSDAY -> org.fossify.commons.R.string.thursday
+        DateTimeConstants.FRIDAY -> org.fossify.commons.R.string.friday
+        DateTimeConstants.SATURDAY -> org.fossify.commons.R.string.saturday
+        DateTimeConstants.SUNDAY -> org.fossify.commons.R.string.sunday
+        else -> throw IllegalArgumentException("Invalid day: $dayOfWeek")
+    }
+
+    return getString(dayOfWeekResId)
 }

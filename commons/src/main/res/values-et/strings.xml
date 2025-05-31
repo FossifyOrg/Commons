@@ -117,10 +117,10 @@
     <string name="import_blocked_numbers">Impordi blokeeritud telefoninumbrid</string>
     <string name="must_make_default_dialer">Kui soovid kasutada blokeeritud telefoninumbrite funktsionaalsust, siis peab see rakendus olema vaikimisi telefonirakendus.</string>
     <string name="set_as_default">Määra vaikimisi väärtuseks</string>
-    <string name="block_confirmation">Kas sa oled kindel, et soovid blokeerida „%s“ telefoninumbrit\?</string>
-    <string name="block_not_stored_calls">Blokeeri kõned, kui helistaja pole aadressiraamatus</string>
+    <string name="block_confirmation">Kas sa oled kindel, et soovid blokeerida „%s“ telefoninumbrit?</string>
+    <string name="block_unknown_calls">Blokeeri kõned, kui helistaja pole aadressiraamatus</string>
     <string name="block_hidden_calls">Blokeeri kõned varjatud numbritelt</string>
-    <string name="block_not_stored_messages">Blokeeri sõnumid, kui saatja pole aadressiraamatus</string>
+    <string name="block_unknown_messages">Blokeeri sõnumid, kui saatja pole aadressiraamatus</string>
     <string name="block_hidden_messages">Blokeeri sõnumid varjatud numbritelt</string>
     <string name="add_blocked_number_helper_text">Sisesta number või muster (nt *12345*, +1*8888), et blokeerida kõik kõned ja sõnumid mustrile vastavatelt numbritelt.</string>
     <string name="must_make_default_caller_id_app">Ilma helistajanäidu tuvastamise loata ei ole võimalik võõraid helistajaid blokeerida.</string>
@@ -185,7 +185,7 @@
     <string name="rename_folder_root">Andmekogu juurkausta nime ei saa muuta</string>
     <string name="rename_folder_ok">Kausta nime muutmine õnnestus</string>
     <string name="renaming_folder">Muudame kausta nime</string>
-    <string name="filename_cannot_be_empty">Faili peab olema nimi</string>
+    <string name="filename_cannot_be_empty">Failil peab olema nimi</string>
     <string name="filename_invalid_characters">Faili nimes on valesid tähemärke</string>
     <string name="filename_invalid_characters_placeholder">„%s“ faili nimes on valesid tähemärke</string>
     <string name="extension_cannot_be_empty">Faililaiend ei tohi olla puudu</string>
@@ -202,9 +202,9 @@
 \n%m - minut
 \n%s - sekund
 \n%i - loendur alates 1\'st</string>
-    <string name="filename_without_txt">Faili nimi (ilma .txt laiendita)</string>
-    <string name="filename_without_json">Faili nimi (ilma .json laiendita)</string>
-    <string name="filename_without_zip">Faili nimi (ilma .zip laiendita)</string>
+    <string name="filename_without_txt">Failinimi (ilma .txt laiendita)</string>
+    <string name="filename_without_json">Failinimi (ilma .json laiendita)</string>
+    <string name="filename_without_zip">Failinimi (ilma .zip laiendita)</string>
     <string name="cannot_hide_files">Alates Android 11-st ei saa enam selliseid faile ja kaustu peita</string>
     <string name="copy">Kopeeri</string>
     <string name="move">Teisalda</string>
@@ -232,7 +232,7 @@
     <string name="saving">Salvestame…</string>
     <string name="could_not_create_folder">%s kausta loomine ei õnnestunud</string>
     <string name="could_not_create_file">%s faili loomine ei õnnestunud</string>
-    <string name="no_new_items">Uusi objekte ei leidu</string>
+    <string name="no_new_items">Uusi kirjeid ei leidu</string>
     <string name="no_space">Sihtkausta andmekandjal pole piisavalt ruumi.\nVajalik on %1$s, aga leidub %2$s</string>
     <string name="system_service_disabled">Süsteemne teenus failide ja kaustade valimiseks pole saadaval</string>
     <string name="create_new">Loo uus</string>
@@ -244,7 +244,7 @@
     <string name="empty_name">Palun sisesta nimi</string>
     <string name="unknown_error_occurred">Tekkis tundmatu viga</string>
     <string name="file_already_exists">„%s“ fail on juba olemas</string>
-    <string name="file_already_exists_overwrite">„%s“ fail on juba olemas, kas kirjutame üle\?</string>
+    <string name="file_already_exists_overwrite">„%s“ fail on juba olemas, kas kirjutame üle?</string>
     <string name="folder_already_exists">„%s“ kaust on juba olemas</string>
     <string name="merge">Liida</string>
     <string name="keep_both">Jäta mõlemad alles</string>
@@ -286,9 +286,9 @@
         <item quantity="other">%d kontakti</item>
     </plurals>
     <string name="select_storage">Vali salvestusruum</string>
-    <string name="storage">Andmehoidla</string>
+    <string name="storage">Andmeruum</string>
     <string name="internal">Sisemine</string>
-    <string name="internal_storage">Sisemine andmehoidla</string>
+    <string name="internal_storage">Sisemine andmeruum</string>
     <string name="sd_card">SD-kaart</string>
     <string name="root">Juurkaust</string>
     <string name="wrong_root_selected">Valisid vale kausta, palun vali SD-kaardi juurkaust, mis on kõige esimene kaust</string>
@@ -333,7 +333,7 @@
     <string name="undo_changes_confirmation">Kas oled kindel, et soovid oma muudatusi tühistada\?</string>
     <string name="cannot_be_undone">Seda tegevust ei saa tagasi pöörata.</string>
     <string name="save_before_closing">Sul on salvestamata muudatusi. Kas salvestame enne väljumist\?</string>
-    <string name="share_colors_success">Värvide uuendamine õnnestus. Lisasime uue „Jagatud“ teema - edaspidisel värvide muutmisel palun kasuta seda.</string>
+    <string name="global_theme_success">Värvide uuendamine õnnestus. Lisasime uue „Jagatud“ teema - edaspidisel värvide muutmisel palun kasuta seda.</string>
     <string name="light_theme">Hele</string>
     <string name="dark_theme">Tume</string>
     <string name="auto_theme">Automaatne teema</string>
@@ -378,8 +378,8 @@
     <string name="toggle_filename">Muuda failinime nähtavust</string>
     <string name="move_to_top">Tõsta kõige ülemiseks</string>
     <string name="move_to_bottom">Tõsta kõige alumiseks</string>
-    <string name="pin_item">Klammerda kirje</string>
-    <string name="unpin_item">Eemalda klammerdus</string>
+    <string name="pin_item">Tõsta objekt esile</string>
+    <string name="unpin_item">Eemalda objekti esiletõstmine</string>
     <string name="send_sms">Saada SMS sõnum</string>
     <string name="send_email">Saada e-kiri</string>
     <string name="call">Helista</string>
@@ -390,27 +390,27 @@
     <string name="hide_line_numbers">Peida reanumbrid</string>
     <string name="sleep_timer">Unetaimer</string>
     <string name="unblock">Eemalda blokeering</string>
-    <string name="sort_by">Sordi</string>
-    <string name="name">Nimi</string>
+    <string name="sort_by">Järjesta</string>
+    <string name="name">Nime alusel</string>
     <string name="size">Suuruse alusel</string>
     <string name="last_modified">Viimati muutmise alusel</string>
     <string name="date_created">Loomise aja alusel</string>
     <string name="date_taken">Pildistamise aja alusel</string>
     <string name="date_added">Lisamise kuupäev</string>
     <string name="title">Pealkiri</string>
-    <string name="filename">Faili nimi</string>
+    <string name="filename">Failinimi</string>
     <string name="extension">Faililaiend</string>
     <string name="random">Juhuslik</string>
-    <string name="sort_randomly">Sorteeri juhuslikult</string>
+    <string name="sort_randomly">Järjesta juhuslikult</string>
     <string name="ascending">Kasvavalt</string>
     <string name="descending">Kahanevalt</string>
     <string name="use_for_this_folder">Kasuta vaid selles kaustas</string>
-    <string name="sort_numeric_parts">Sorteeri numbrilised osad tegeliku väärtuse alusel</string>
+    <string name="sort_numeric_parts">Järjesta numbrilised osad tegeliku väärtuse alusel</string>
     <string name="first_name">Eesnimi</string>
     <string name="middle_name">Keskmine nimi</string>
     <string name="surname">Perenimi</string>
     <string name="full_name">Täisnimi</string>
-    <string name="use_custom_sorting">Kasuta kohandatud sortimist</string>
+    <string name="use_custom_sorting">Kasuta sinu loodud järjestust</string>
     <string name="change_order">Muuda järjekorda</string>
     <string name="more_options">Lisavalikud</string>
     <string name="proceed_with_deletion">Kas oled kindel, et soovid kustutamist jätkata\?</string>
@@ -449,7 +449,7 @@
     <string name="no_fingerprints_registered">Sul ei ole ühtegi sõrmejälge salvestatud, palun lisa need nutiseadme seadistustes</string>
     <string name="go_to_settings">Ava seadistused</string>
     <string name="protection_setup_successfully">Salasõna seadistamine õnnestus. Juhul, kui unustad salasõna, siis paigalda rakendus uuesti.</string>
-    <string name="fingerprint_setup_successfully">Turvamise seadistamine õnnestus. Juhul, kui tema lähtestamisel tekib vigu, siis paigalda rakendus uuesti.</string>
+    <string name="fingerprint_setup_successfully">Turvamise seadistamine õnnestus. Juhul, kui selle lähtestamisel tekib vigu, siis palun paigalda rakendus uuesti.</string>
     <string name="lock_folder">Lukusta kaust</string>
     <string name="lock_folder_pro">Lukusta kaust (Pro)</string>
     <string name="unlock_folder">Eemalda kausta lukustus</string>
@@ -587,7 +587,7 @@
     <string name="notifications_disabled">Selle rakenduse teavitused on välja lülitatud. Nende lubamiseks ava oma nutiseadme seadistused.</string>
     <string name="alarm">Äratus</string>
     <string name="snooze">Tukasta</string>
-    <string name="dismiss">Jäta vahele</string>
+    <string name="dismiss">Lõpeta</string>
     <string name="no_reminder">Meeldetuletus puudub</string>
     <string name="at_start">Käivitamisel</string>
     <string name="system_sounds">Süsteemi helid</string>
@@ -595,7 +595,7 @@
     <string name="add_new_sound">Lisa uus heli</string>
     <string name="no_sound">Heli pole</string>
     <string name="during_day_at_hh_mm">Päeval kell hh:mm</string>
-    <string name="during_day_at">Päeval kell %02d:%02d</string>
+    <string name="during_day_at">Päeval kell %1$02d:%2$02d</string>
     <string name="settings">Seadistused</string>
     <string name="general_settings">Üldine</string>
     <string name="color_customization">Värvide kohendamine</string>
@@ -719,8 +719,8 @@
     <string name="may">Mai</string>
     <string name="june">Juuni</string>
     <string name="july">Juuli</string>
-    <string name="august">Augusti</string>
-    <string name="september">Septembril</string>
+    <string name="august">August</string>
+    <string name="september">September</string>
     <string name="october">Oktoober</string>
     <string name="december">Detsember</string>
     <string name="in_january">jaanuaris</string>
@@ -768,39 +768,17 @@
 \ntundub, et sul on juba olemas ka rakenduse Pro-versioon. Kui sa oled selle versiooniga rahul ning oled andmed üle tõstnud, siis vältimaks rakenduste risti-rästi kasutamist võid selle teise eemaldada.
 \n
 \nTänud!</string>
-    <string name="upgraded_from_free_calendar">Hello,
-\n
-\nTundub, et sa oled just teinud uuenduse tasuta versioonist. Kui sa soovid vanas rakenduses salvestatud sündmused uude kolida, siis ekspordi nad vanast tasuta rakendusest .ics failina ning siin uues rakenduses impordi nad ülamenüüs leiduvast valikust.
-\n
-\nKui sa oled Pro-versiooni ja tema seadistustega rahul ja kuna vana versiooni enam vaja pole, siis võid selle eelmise versiooni eemaldada. Samaga väldid ka selle teate uuesti kuvamist.
-\n
-\nTänud!</string>
-    <string name="upgraded_from_free_contacts">Hello,
-\n
-\nTundub, et sa oled just teinud uuenduse tasuta versioonist. Kui sul oli vanas rakenduses „%s“ kontakte, siis ekspordi nad vanast tasuta rakendusest .vcf failina ning siin uues rakenduses impordi nad ülamenüüs leiduvast valikust.
-\n
-\nKui sa oled Pro-versiooni ja tema seadistustega rahul ja kuna vana versiooni enam vaja pole, siis võid selle eelmise versiooni eemaldada. Samaga väldid ka selle teate uuesti kuvamist.
-\n
-\nTänud!</string>
-    <string name="upgraded_from_free_notes">Hello,
-\n
-\nTundub, et sa oled just teinud uuenduse tasuta versioonist. Kui sa soovid vanast rakendusest märkmed üle kolida, siis ekspordi nad vanast tasuta rakendusest .failina ning siin uues rakenduses impordi nad ülamenüüs leiduvast valikust.
-\n
-\nKui sa oled Pro-versiooni ja tema seadistustega rahul ja kuna vana versiooni enam vaja pole, siis võid selle eelmise versiooni eemaldada. Samaga väldid ka selle teate uuesti kuvamist.
-\n
-\nTänud!</string>
+    <string name="upgraded_from_free_calendar">Hei, \n \nTundub, et sa oled just teinud uuenduse tasuta versioonist. Kui sa soovid vanas rakenduses salvestatud sündmused uude kolida, siis ekspordi nad vanast tasuta rakendusest .ics failina ning siin uues rakenduses impordi nad ülamenüüs leiduvast valikust. \n \nKui sa oled Pro-versiooni ja tema seadistustega rahul ja kuna vana versiooni enam vaja pole, siis võid selle eelmise versiooni eemaldada. Samaga väldid ka selle teate uuesti kuvamist. \n \nTänud!</string>
+    <string name="upgraded_from_free_contacts">Hei, \n \nTundub, et sa oled just teinud uuenduse tasuta versioonist. Kui sul oli vanas rakenduses „%s“ kontakte, siis ekspordi nad vanast tasuta rakendusest .vcf failina ning siin uues rakenduses impordi nad ülamenüüs leiduvast valikust. \n \nKui sa oled Pro-versiooni ja tema seadistustega rahul ja kuna vana versiooni enam vaja pole, siis võid selle eelmise versiooni eemaldada. Samaga väldid ka selle teate uuesti kuvamist. \n \nTänud!</string>
+    <string name="upgraded_from_free_notes">Hei, \n \nTundub, et sa oled just teinud uuenduse tasuta versioonist. Kui sa soovid vanast rakendusest märkmed üle kolida, siis ekspordi nad vanast tasuta rakendusest .failina ning siin uues rakenduses impordi nad ülamenüüs leiduvast valikust. \n \nKui sa oled Pro-versiooni ja tema seadistustega rahul ja kuna vana versiooni enam vaja pole, siis võid selle eelmise versiooni eemaldada. Samaga väldid ka selle teate uuesti kuvamist. \n \nTänud!</string>
     <string name="about">Rakenduse teave</string>
     <string name="website">Veebileht</string>
     <string name="website_label">Lähtekoodi leiad siit</string>
     <string name="email_label">Oma tagasiside ja ettepanekud palun saada e-posti aadressile</string>
     <string name="upgrade_to_pro">Võta kasutusele Pro versioon</string>
-    <string name="more_apps">Vaata kõiki meie rakendusi</string>
-    <string name="more_apps_from_us">Vaata kõiki meie rakendusi</string>
     <string name="invite_friends">Kutsu sõpru kasutama seda rakendust</string>
     <string name="share_text">Hei, palun vaata, kas sulle meeldiks selline rakendus - %1$s, mille leiad %2$s saidist</string>
     <string name="invite_via">Saada kutse rakendusega</string>
-    <string name="rate_us">Hinda meid</string>
-    <string name="rate">Hinda</string>
     <string name="donate">Toeta meid</string>
     <string name="follow_us">Jälgi meid</string>
     <string name="copyright">v %1$s
@@ -809,7 +787,7 @@
     <string name="help_us">Osale arenduses</string>
     <string name="social">Sotsiaalmeedia</string>
     <string name="other">Muud</string>
-    <string name="privacy_policy">Privaatsuspoliitika</string>
+    <string name="privacy_policy">Andmekaitsepõhimõtted</string>
     <string name="version_placeholder">Versioon %s</string>
     <string name="hello">Hei :)</string>
     <string name="about_footer">Tehtud Slovakkias suure ❤️\'ga</string>
@@ -818,25 +796,22 @@
     <string name="device_os">Seadme operatsioonisüsteem: %s</string>
     <string name="purchase">Osta</string>
     <string name="before_asking_question_read_faq">Enne küsimuse esitamist palun kontrolli rakenduse seadeid ja loe esmalt lehte „Korduma kippuvad küsimused„“. Võib-olla on lahendus seal olemas.</string>
-    <string name="before_rate_read_faq">Enne kui hindad meid, palun kontrolli rakenduse seadeid ja loe esmalt lehte „Korduma kippuvad küsimused“. Kui sul on rakenduse kasutamisel mingeid probleeme, võib-olla on lahendus seal kirjas.</string>
     <string name="make_sure_latest">Lisaks palun kontrolli, et kasutad rakenduse viimast versiooni.</string>
     <string name="make_sure_upgrade">Palun arvesta, et seda rakenduse versiooni enam ei arendata, laadi alla Pro versioon, mis sisaldab palju täiustusi.</string>
     <string name="read_it">Loe järgnevat</string>
     <string name="read_faq">Loe korduma kippuvaid küsimusi</string>
-    <string name="rate_us_prompt">Tere,
-\n
-\ntundub, et kasutad seda rakendust juba mõnda aega ja me hindame seda väga kõrgelt.
-\n
-\nKui me võime seda paluda, siis palun hinda meid Google Play\'s. See aitaks meid tõesti palju.
-\n
-\nÜkskõik, kuidas sa otsustad toimida, siis seda sõnumit rohkem ei kuvata.
-\n
-\nAitäh!</string>
-    <string name="rate_our_app">Palun hinda meie rakendust :)</string>
     <string name="thank_you">Suur tänu</string>
     <string name="widget_locked_pro">Rakendus on lukustatud.
 \nLukustuse eemaldamiseks palun uuenda ta Pro-versioonini.</string>
-    <string name="new_app">Hei,&lt;br&gt;&lt;br&gt; tahtsime lihtsalt teada anda, et oleme teinud mõned uued rakendused :&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; Klõpsides ikooni või nimel saad sa neid alla laadida.&lt;br&gt;&lt;br&gt; Tänud</string>
+    <string name="new_app"><![CDATA[
+            Hei,<br><br>
+            tahtsime lihtsalt teada anda, et oleme hiljuti teinud mõned uued rakendused:<br><br>
+            <a href="%1$s">%2$s</a><br><br>
+            <a href="%3$s">%4$s</a><br><br>
+            <a href="%5$s">%6$s</a><br><br>
+            Klõpsides ikooni või nimel saad sa neid alla laadida.<br><br>
+            Tänud
+        ]]></string>
     <string name="app_launcher_short">Rakenduste käivitaja</string>
     <string name="calculator_short">Kalkulaator</string>
     <string name="calendar_short">Kalender</string>
@@ -855,7 +830,9 @@
     <string name="sms_messenger_short">SMS sõnumid</string>
     <string name="thank_you_short">Suur tänu</string>
     <string name="voice_recorder_short">Helisalvestaja</string>
-    <string name="sideloaded_app">Tundub sinu hetkel kasutatav rakenduse variant on vigane. Palun laadi algupärane versioon &lt;a href=%s&gt;siit&lt;/a&gt;.</string>
+    <string name="sideloaded_app"><![CDATA[
+            Tundub sinu hetkel kasutatav rakenduse variant on vigane. Palun laadi algupärane versioon <a href="%s">siit</a>.
+        ]]></string>
     <string name="frequently_asked_questions">Korduma kippuvad küsimused</string>
     <string name="before_asking_question">Enne küsimuse kirjutamist palun loe esmalt järgnevat lehte</string>
     <string name="faq_1_title_commons">Kuidas ma ei näe seda rakenduste vidinat kõikide vidinate loendis\?</string>
@@ -993,11 +970,7 @@
     <string name="trial_expires_soon">Selle rakenduse prooviperiood lõppeb peagi.</string>
     <string name="unlock_for_one_final_day">Luba lukustatud rakendust kasutada veel ühe viimase päeva</string>
     <string name="welcome_to_app_name">Tere tulemast %s kasutajaks!</string>
-    <string name="trial_start_description">Täname, et võtsid kasutusele meie rakenduse. Praeguses olekus on ta pruugitav <font color="#FFFFFF">%d päeva</font>. Kui testperiood lõppeb, siis palun kaalu uuendust Pro-versiooniks. Sellel palju lisavõimalusi, moodne kujundus, reklaamivaba lahendus ning paljugi veel.
-\n
-\nSa maksad Pro-versiooni eest vaid ühe korra ning kasutad seda nii kaua kui soovid. Kui sa pole rakendusega rahul, siis eemalda ta oma nutiseadmest ja küsi makstud summa tagasi.
-\n
-\nLoodetavasti see rakendus meeldub sulle :)</string>
+    <string name="trial_start_description">Täname, et võtsid kasutusele meie rakenduse. Praeguses olekus on ta pruugitav <font color="#FFFFFF">%d päeva</font>. Kui testperiood lõppeb, siis palun kaalu uuendust Pro-versiooniks. Sellel palju lisavõimalusi, moodne kujundus, reklaamivaba lahendus ning paljugi veel. \n \nSa maksad Pro-versiooni eest vaid ühe korra ning kasutad seda nii kaua kui soovid. Kui sa pole rakendusega rahul, siis eemalda ta oma nutiseadmest ja küsi makstud summa tagasi. \n \nLoodetavasti see rakendus meeldub sulle :)</string>
     <string name="trial_end_description">Palun uuenda Pro-versiooniks ja kasuta rakendust täisfunktsionaalsuses.
 \n
 \nSa maksad Pro-versiooni eest vaid ühe korra ning kasuta seda nii kaua kui soovid. Kui sa pole rakendusega rahul, siis eemalda ta oma nutiseadmest ja küsi makstud summa tagasi.
@@ -1010,4 +983,105 @@
     <string name="deprecated_app">AEGUNUD: Selle rakenduse versiooni arendus on lõppenud, laadi PRO-versioon aadressilt https://play.google.com/store/apps/details\?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">Palun arvesta, et kui eemaldad tasulise rakenduse nutiseadmest 2 tunni jooksul, siis ostusumma tagastatakse automaatselt. Kui soovit tagastust hiljem, siis saada e-kiri hello@fossify.org aadressile ning korraldame tagastuse. Mõlemal juhul on sul võimalik meie tasulisi rakendusi testida :)</string>
     <string name="developer_description">Arendame Androidi jaoks avatud lähtekoodil põhinevaid lihtsaid tarvikuid ja milles pole reklaame ega vajadust asjatute õiguste jaoks.</string>
+    <string name="exif">EXIF</string>
+    <string name="minutes_letter">%dm</string>
+    <string name="hours_letter">%dt</string>
+    <string name="friday_letter">R</string>
+    <string name="donate_new">Tere,&lt;br&gt;&lt;br&gt; loodame, et sulle meie rakendus meeldib. See ei sisalda reklaame, palun toeta selle arendamist, ostes rakenduse &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Suur Tänu&lt;/a&gt;. Seejärel muutuvad kasutatavaks ka rakenduse lisafunktsionaalsused ja värvide kohandamine.&lt;br&gt;&lt;br&gt;Aitäh!</string>
+    <string name="update_thank_you">Palun uuenda rakendus Fossify Suur Tänu viimase versioonini</string>
+    <string name="contributors_label"><![CDATA[
+            Selles loendis on kõik, kes aitasid märgatavalt arendada või tõlkida mis tahes rakendust komplektis „Fossify nutitarvikud“.Tõlkimisega tegelevad vabatahtlikud,
+            anna meile teada, kui soovid ka osaleda. Tõlkimise juhend asub <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">meie Githubi lehel</a> või kui sul on küsimusi, siis võta meiega ühendust aadressil <a href="mailto:hello@fossify.org">hello@fossify.org</a>.
+            Aitäh kõigile panustajatele ja teistele toetajatele!
+        ]]></string>
+    <string name="app_icon_color_warning">Hoiatus: Mõned käivitajad ei käsitse rakenduste ikoonide kohandamist korralikult. Kui ikoon kaob, proovi käivitada rakendus Google Play\'st või mõne muu olemasoleva vidina abil. Kui oled käivitanud rakenduse, seadista lihtsalt ikooni vaikimisi roheline toon #106D1F tagasi. Halvemal juhul pead rakenduse võib-olla uuesti paigaldama.</string>
+    <string name="faq_6_text_commons">Selle põhjuseks on asjaolu, et see käivitaja ei toeta ikoonide kohandamist korralikult. Proovi käivitada rakendus Google Play või mõne sarnase saadaoleva vidina abil. Peale käivitamist, seadista lihtsalt tagasi ikooni vaikimisi roheline toon #106D1F. Halvemal juhul pead rakenduse võib-olla uuesti paigaldama.</string>
+    <string name="audio">Audio</string>
+    <string name="purchase_simple_thank_you">Palun osta Fossify Suur Tänu</string>
+    <string name="march_short">Mär</string>
+    <string name="april_short">Apr</string>
+    <string name="july_short">Juuli</string>
+    <string name="august_short">Aug</string>
+    <string name="september_short">Sept</string>
+    <string name="october_short">Okt</string>
+    <string name="tuesday_short">Teisip</string>
+    <string name="wednesday_short">Kolmap</string>
+    <string name="thursday_short">Neljap</string>
+    <string name="friday_short">Reede</string>
+    <string name="saturday_short">Laup</string>
+    <string name="donate_short">Palun toeta meid ostes rakenduse &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Suur Tänu&lt;/a&gt;. Muu hulgas avab see antud rakenduse kõik funktsionaalsused ja sealhulgas võimaldab kohandada liidese värve.</string>
+    <string name="features_locked">See funktsionaalsus on lukus, palun osta rakendus &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Suur Tänu&lt;/a&gt; ning kogu see rakendus on siis kasutatav. See on ainult ühekordne makse ja kui sa ei jää rahule, saame raha tagasi maksta.</string>
+    <string name="translation_english">inglise keel</string>
+    <string name="translation_bengali">bengali keel</string>
+    <string name="translation_hindi">hindi keel</string>
+    <string name="translation_nepali">nepali keel</string>
+    <string name="translation_serbian">serbia keel</string>
+    <string name="translation_tamil">tamili keel</string>
+    <string name="number">Number</string>
+    <string name="block_contact">Blokeeri kontakt</string>
+    <string name="album">Album</string>
+    <string name="genre">Žanr</string>
+    <string name="f_number">F-number</string>
+    <string name="apply_to_all_apps">Kasuta neid värve kõikides Fossify rakendustes</string>
+    <string name="shared_theme_note">Palun arvesta, et kuigi kasutad selle rakenduse Pro-versiooni, siis tehnilistel põhjustel palun paigalda ka rakendus Fossify Suur tänu. See tagab, et värvid on sünkroonis üle kõikide Fossify rakenduste.</string>
+    <string name="purchase_thank_you"><![CDATA[
+            Selle funktsionaalsuse kasutamiseks ja meie arendustöö toetamiseks palun osta <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Suur Tänu</a>. Aitäh juba ette!
+        ]]></string>
+    <string name="deletion_confirmation_short">Kas kustutame %s?</string>
+    <string name="pin">PIN</string>
+    <string name="enter_password">Sisesta salasõna</string>
+    <string name="password">Salasõna</string>
+    <string name="add_password">Lisa salasõna</string>
+    <string name="seconds_letter">%ds</string>
+    <string name="week_number_short">nd.</string>
+    <string name="notification_sound">Teavituse heli</string>
+    <string name="usb">USB</string>
+    <string name="november">November</string>
+    <string name="january_short">Jan</string>
+    <string name="february_short">Veebr</string>
+    <string name="may_short">Mai</string>
+    <string name="june_short">Juuni</string>
+    <string name="november_short">Nov</string>
+    <string name="december_short">Dets</string>
+    <string name="monday_letter">E</string>
+    <string name="tuesday_letter">T</string>
+    <string name="wednesday_letter">K</string>
+    <string name="thursday_letter">N</string>
+    <string name="saturday_letter">L</string>
+    <string name="sunday_letter">P</string>
+    <string name="monday_short">Esmasp</string>
+    <string name="sunday_short">Pühap</string>
+    <string name="donate_please"><![CDATA[
+            Tere,<br><br>
+            loodame, et sulle meie rakendus meeldib. See ei sisalda reklaame, palun toeta selle arendamist, ostes rakenduse <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Suur Tänu</a> ja samaga väldid selle vaate uuesti kuvamist.<br><br>
+            Täname!
+        ]]></string>
+    <string name="faq_2_text_commons"><![CDATA[
+            Jah, muidugi. Sa saad rakendust teistele tutvustada või jagada head tagasisidet ja hinnanguid. Samuti saad aidata ka rakenduste tõlkimisega uude keelde või lihtsalt mõne olemasoleva tõlke ajakohastamisega.
+            Tõlkimise juhend asub <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">siin lehel</a> või küsimuste puhul lihtsalt võta meiega ühendust aadressil <a href="mailto:hello@fossify.org">hello@fossify.org</a>.
+        ]]></string>
+    <string name="why_upgrade_pro_version">Pro</string>
+    <string name="translation_esperanto">esperanto</string>
+    <string name="translation_chuvash">tšuvašši</string>
+    <string name="translation_gujarati">gudžarati</string>
+    <string name="donate_to_fossify">Toeta Fossify projektide arendust</string>
+    <string name="platforms">Platvormid</string>
+    <string name="format_phone_numbers">Vorminda telefoninumbreid</string>
+    <string name="little_to_no_fee">Praktiliselt tasuta</string>
+    <string name="fee_up_to_pct">Kuni %1$d-protsendise tasu eest</string>
+    <string name="cryptocurrency">Krüptovääringud</string>
+    <string name="translation_belarusian">valgevene keel</string>
+    <string name="translation_central_kurdish">sorani keel</string>
+    <string name="theme_and_colors">Välimus ja värvid</string>
+    <string name="all_fossify_apps">Kõik Fossify rakendused</string>
+    <string name="known_issues">Teadaolevad vead</string>
+    <string name="translation_kabyle">kabiili keel</string>
+    <string name="number_of_items">Objektide arv</string>
+    <string name="reorder_items_by_dragging">Muuda järjestust lohistades</string>
+    <string name="days_letter">%dp</string>
+    <string name="confirm_storage_access_restricted_text">Süsteemi piirangute tõttu pole see kaust saadaval.</string>
+    <string name="confirm_storage_access_restricted_text_open_system">Ava süsteemi rakenduses</string>
+    <string name="confirm_storage_access_restricted_text_not_found">Süsteemi failihaldurit ei õnnestu leida.</string>
+    <string name="rate_this_app">Hinda seda rakendust</string>
+    <string name="more_fossify_apps">Vaata teisi Fossify rakendusi</string>
 </resources>

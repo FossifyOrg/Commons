@@ -101,8 +101,8 @@
     <string name="must_make_default_dialer">نمبر روکݨ لئی ایس اَیپ مول ضروری اے۔</string>
     <string name="set_as_default">مول نال ٹیکو</string>
     <string name="block_confirmation">تسیں پکے، ‫”⁠%s‬“؜ روکو؟</string>
-    <string name="block_not_stored_calls">جے رابطے دے باہروں کالاں آؤندیاں اے، ایہہ روکو</string>
-    <string name="block_not_stored_messages">جے رابطے دے باہروں سنیہے آؤندے اے، ایہہ روکو</string>
+    <string name="block_unknown_calls">جے رابطے دے باہروں کالاں آؤندیاں اے، ایہہ روکو</string>
+    <string name="block_unknown_messages">جے رابطے دے باہروں سنیہے آؤندے اے، ایہہ روکو</string>
     <string name="favorites">پسندیدے</string>
     <string name="add_favorites">یاد وچ سامبھو</string>
     <string name="add_to_favorites">یاد وچ سامبھو</string>
@@ -366,9 +366,9 @@
     <string name="minutes_raw">منٹ</string>
     <string name="hours_raw">گھنٹے</string>
     <string name="days_raw">دن</string>
-    <string name="seconds_letter">سکنٹ</string>
-    <string name="minutes_letter">منٹ</string>
-    <string name="hours_letter">گھنٹے</string>
+    <string name="seconds_letter">%dسکنٹ</string>
+    <string name="minutes_letter">%dمنٹ</string>
+    <string name="hours_letter">%dگھنٹے</string>
     <plurals name="seconds">
         <item quantity="one">‫%d‬ ؜سکنٹ</item>
         <item quantity="other">‫%d‬ ؜سکنٹ</item>
@@ -617,12 +617,8 @@
     <string name="website">ویب‌سائیٹ</string>
     <string name="website_label">سروت دا کوڈ لئی اوس تے جایو</string>
     <string name="upgrade_to_pro">فیز ورژن لئی کڑی دا پتہ</string>
-    <string name="more_apps">ہور جاݨکاری</string>
-    <string name="more_apps_from_us">ساڈے ولوں ہور ایپلیکیشناں</string>
     <string name="invite_friends">دوستاں نوں مدا دیو</string>
     <string name="invite_via">ہور اَیپ نال مدا دیو:؜</string>
-    <string name="rate_us">آپݨے من دی گل کریو</string>
-    <string name="rate">آپݨے من دی گل کریو</string>
     <string name="donate">دان کرو</string>
     <string name="follow_us">سوشل میڈیا کڑیاں</string>
     <string name="support">سہیوگ</string>
@@ -639,16 +635,6 @@
     <string name="purchase">کھریدیو</string>
     <string name="read_it">پڑھاؤ</string>
     <string name="read_faq">سوال تے جواب</string>
-    <string name="rate_us_prompt">Hello,
-\n
-\nit looks like you are using this app for quite a while already, and we really appreciate it.
-\n
-\nIf we can ask you a favor, please rate us on Google Play. That would really help us a lot.
-\n
-\nNo matter how you decide, you will not see this message again.
-\n
-\nThanks!</string>
-    <string name="rate_our_app">جے پسند اے، آپݨے من دی گل کریو</string>
     <string name="thank_you">مہربانی</string>
     <string name="new_app">Hey,&lt;br&gt;&lt;br&gt; just letting you know that some new apps have been released recently:&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; You can download them by pressing their titles or icons.&lt;br&gt;&lt;br&gt; Thanks</string>
     <string name="app_launcher_short">ایپلیکیشن شروع کرتا</string>

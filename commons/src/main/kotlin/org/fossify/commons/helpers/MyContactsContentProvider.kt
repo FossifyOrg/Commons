@@ -29,7 +29,7 @@ class MyContactsContentProvider {
         fun getSimpleContacts(context: Context, cursor: Cursor?): ArrayList<SimpleContact> {
             val contacts = ArrayList<SimpleContact>()
             val packageName = context.packageName.removeSuffix(".debug")
-            if (packageName != "org.fossify.phone" && packageName != "org.fossify.smsmessenger" && packageName != "org.fossify.calendar") {
+            if (packageName != "org.fossify.phone" && packageName != "org.fossify.messages" && packageName != "org.fossify.calendar") {
                 return contacts
             }
 
@@ -65,7 +65,7 @@ class MyContactsContentProvider {
         fun getContacts(context: Context, cursor: Cursor?): ArrayList<Contact> {
             val contacts = ArrayList<Contact>()
             val packageName = context.packageName.removeSuffix(".debug")
-            if (packageName != "org.fossify.phone" && packageName != "org.fossify.smsmessenger" && packageName != "org.fossify.calendar") {
+            if (packageName != "org.fossify.phone" && packageName != "org.fossify.messages" && packageName != "org.fossify.calendar") {
                 return contacts
             }
 

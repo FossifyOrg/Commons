@@ -133,10 +133,31 @@ data class Contact(
         return firstId.compareTo(secondId)
     }
 
-    fun getBubbleText() = when {
-        sorting and SORT_BY_FIRST_NAME != 0 -> firstName
-        sorting and SORT_BY_MIDDLE_NAME != 0 -> middleName
-        else -> surname
+    fun getBubbleText(): String {
+        return try {
+            var name = when {
+                isABusinessContact() -> getFullCompany()
+                sorting and SORT_BY_SURNAME != 0 && surname.isNotEmpty() -> surname
+                sorting and SORT_BY_MIDDLE_NAME != 0 && middleName.isNotEmpty() -> middleName
+                sorting and SORT_BY_FIRST_NAME != 0 && firstName.isNotEmpty() -> firstName
+                startWithSurname -> surname
+                else -> firstName
+            }
+
+            if (name.isEmpty()) {
+                name = getNameToDisplay()
+            }
+
+            name
+        } catch (e: Exception) {
+            ""
+        }
+    }
+
+    fun getFirstLetter(): String {
+        val bubbleText = getBubbleText()
+        val character = if (bubbleText.isNotEmpty()) bubbleText.substring(0, 1) else ""
+        return character.uppercase(Locale.getDefault()).normalizeString()
     }
 
     fun getNameToDisplay(): String {

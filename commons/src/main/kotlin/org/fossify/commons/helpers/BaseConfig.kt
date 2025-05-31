@@ -170,6 +170,14 @@ open class BaseConfig(val context: Context) {
         get() = prefs.getInt(APP_PROTECTION_TYPE, PROTECTION_PATTERN)
         set(appProtectionType) = prefs.edit().putInt(APP_PROTECTION_TYPE, appProtectionType).apply()
 
+    var lastUnlockTimestampMs: Long
+        get() = prefs.getLong(LAST_UNLOCK_TIMESTAMP_MS, 0L)
+        set(value) = prefs.edit().putLong(LAST_UNLOCK_TIMESTAMP_MS, value).apply()
+
+    var unlockTimeoutDurationMs: Long
+        get() = prefs.getLong(UNLOCK_TIMEOUT_DURATION_MS, DEFAULT_UNLOCK_TIMEOUT_DURATION)
+        set(value) = prefs.edit().putLong(UNLOCK_TIMEOUT_DURATION_MS, value).apply()
+
     // file delete and move protection
     var isDeletePasswordProtectionOn: Boolean
         get() = prefs.getBoolean(DELETE_PASSWORD_PROTECTION, false)
@@ -227,35 +235,18 @@ open class BaseConfig(val context: Context) {
 
     val wasUseEnglishToggledFlow = ::wasUseEnglishToggled.asFlowNonNull()
 
-    var wasSharedThemeEverActivated: Boolean
-        get() = prefs.getBoolean(WAS_SHARED_THEME_EVER_ACTIVATED, false)
-        set(wasSharedThemeEverActivated) = prefs.edit().putBoolean(WAS_SHARED_THEME_EVER_ACTIVATED, wasSharedThemeEverActivated).apply()
+    var isGlobalThemeEnabled: Boolean
+        get() = prefs.getBoolean(IS_GLOBAL_THEME_ENABLED, false)
+        set(isGlobalThemeEnabled) = prefs.edit().putBoolean(IS_GLOBAL_THEME_ENABLED, isGlobalThemeEnabled).apply()
 
-    var isUsingSharedTheme: Boolean
-        get() = prefs.getBoolean(IS_USING_SHARED_THEME, false)
-        set(isUsingSharedTheme) = prefs.edit().putBoolean(IS_USING_SHARED_THEME, isUsingSharedTheme).apply()
-
-    // used by Fossify Thank You, stop using shared Shared Theme if it has been changed in it
-    var shouldUseSharedTheme: Boolean
-        get() = prefs.getBoolean(SHOULD_USE_SHARED_THEME, false)
-        set(shouldUseSharedTheme) = prefs.edit().putBoolean(SHOULD_USE_SHARED_THEME, shouldUseSharedTheme).apply()
-
-    var isUsingAutoTheme: Boolean
-        get() = prefs.getBoolean(IS_USING_AUTO_THEME, false)
-        set(isUsingAutoTheme) = prefs.edit().putBoolean(IS_USING_AUTO_THEME, isUsingAutoTheme).apply()
-
-    var isUsingSystemTheme: Boolean
-        get() = prefs.getBoolean(IS_USING_SYSTEM_THEME, isSPlus())
-        set(isUsingSystemTheme) = prefs.edit().putBoolean(IS_USING_SYSTEM_THEME, isUsingSystemTheme).apply()
+    var isSystemThemeEnabled: Boolean
+        get() = prefs.getBoolean(IS_SYSTEM_THEME_ENABLED, isSPlus())
+        set(isSystemThemeEnabled) = prefs.edit().putBoolean(IS_SYSTEM_THEME_ENABLED, isSystemThemeEnabled).apply()
 
     var wasCustomThemeSwitchDescriptionShown: Boolean
         get() = prefs.getBoolean(WAS_CUSTOM_THEME_SWITCH_DESCRIPTION_SHOWN, false)
         set(wasCustomThemeSwitchDescriptionShown) = prefs.edit().putBoolean(WAS_CUSTOM_THEME_SWITCH_DESCRIPTION_SHOWN, wasCustomThemeSwitchDescriptionShown)
             .apply()
-
-    var wasSharedThemeForced: Boolean
-        get() = prefs.getBoolean(WAS_SHARED_THEME_FORCED, false)
-        set(wasSharedThemeForced) = prefs.edit().putBoolean(WAS_SHARED_THEME_FORCED, wasSharedThemeForced).apply()
 
     var showInfoBubble: Boolean
         get() = prefs.getBoolean(SHOW_INFO_BUBBLE, true)
@@ -376,10 +367,6 @@ open class BaseConfig(val context: Context) {
         get() = prefs.getBoolean(WAS_BEFORE_ASKING_SHOWN, false)
         set(wasBeforeAskingShown) = prefs.edit().putBoolean(WAS_BEFORE_ASKING_SHOWN, wasBeforeAskingShown).apply()
 
-    var wasBeforeRateShown: Boolean
-        get() = prefs.getBoolean(WAS_BEFORE_RATE_SHOWN, false)
-        set(wasBeforeRateShown) = prefs.edit().putBoolean(WAS_BEFORE_RATE_SHOWN, wasBeforeRateShown).apply()
-
     var wasInitialUpgradeToProShown: Boolean
         get() = prefs.getBoolean(WAS_INITIAL_UPGRADE_TO_PRO_SHOWN, false)
         set(wasInitialUpgradeToProShown) = prefs.edit().putBoolean(WAS_INITIAL_UPGRADE_TO_PRO_SHOWN, wasInitialUpgradeToProShown).apply()
@@ -409,7 +396,7 @@ open class BaseConfig(val context: Context) {
             "mmmmdy" -> DATE_FORMAT_SIX
             "mm-dd-y" -> DATE_FORMAT_SEVEN
             "dd-mm-y" -> DATE_FORMAT_EIGHT
-            else -> DATE_FORMAT_ONE
+            else -> DATE_FORMAT_FIVE
         }
     }
 
@@ -420,14 +407,6 @@ open class BaseConfig(val context: Context) {
     var wasUpgradedFromFreeShown: Boolean
         get() = prefs.getBoolean(WAS_UPGRADED_FROM_FREE_SHOWN, false)
         set(wasUpgradedFromFreeShown) = prefs.edit().putBoolean(WAS_UPGRADED_FROM_FREE_SHOWN, wasUpgradedFromFreeShown).apply()
-
-    var wasRateUsPromptShown: Boolean
-        get() = prefs.getBoolean(WAS_RATE_US_PROMPT_SHOWN, false)
-        set(wasRateUsPromptShown) = prefs.edit().putBoolean(WAS_RATE_US_PROMPT_SHOWN, wasRateUsPromptShown).apply()
-
-    var wasAppRated: Boolean
-        get() = prefs.getBoolean(WAS_APP_RATED, false)
-        set(wasAppRated) = prefs.edit().putBoolean(WAS_APP_RATED, wasAppRated).apply()
 
     var wasSortingByNumericValueAdded: Boolean
         get() = prefs.getBoolean(WAS_SORTING_BY_NUMERIC_VALUE_ADDED, false)
@@ -517,6 +496,10 @@ open class BaseConfig(val context: Context) {
     var showPhoneNumbers: Boolean
         get() = prefs.getBoolean(SHOW_PHONE_NUMBERS, false)
         set(showPhoneNumbers) = prefs.edit().putBoolean(SHOW_PHONE_NUMBERS, showPhoneNumbers).apply()
+
+    var formatPhoneNumbers: Boolean
+        get() = prefs.getBoolean(FORMAT_PHONE_NUMBERS, true)
+        set(formatPhoneNumbers) = prefs.edit().putBoolean(FORMAT_PHONE_NUMBERS, formatPhoneNumbers).apply()
 
     var showOnlyContactsWithNumbers: Boolean
         get() = prefs.getBoolean(SHOW_ONLY_CONTACTS_WITH_NUMBERS, false)
@@ -610,6 +593,21 @@ open class BaseConfig(val context: Context) {
     var passwordCountdownStartMs: Long
         get() = prefs.getLong(PASSWORD_COUNTDOWN_START_MS, 0L)
         set(passwordCountdownStartMs) = prefs.edit().putLong(PASSWORD_COUNTDOWN_START_MS, passwordCountdownStartMs).apply()
+
+    // Returns the first day of week, indexing follows ISO 8601: Mon=1, ..., Sun=7
+    var firstDayOfWeek: Int
+        get() {
+            val defaultFirstDayOfWeek = Calendar.getInstance(Locale.getDefault()).firstDayOfWeek
+            return prefs.getInt(FIRST_DAY_OF_WEEK, getISODayOfWeekFromJava(defaultFirstDayOfWeek))
+        }
+        set(firstDayOfWeek) = prefs.edit().putInt(FIRST_DAY_OF_WEEK, firstDayOfWeek).apply()
+
+    // Accessibility
+    var showCheckmarksOnSwitches: Boolean
+        get() = prefs.getBoolean(SHOW_CHECKMARKS_ON_SWITCHES, false)
+        set(showCheckmarksOnSwitches) = prefs.edit().putBoolean(SHOW_CHECKMARKS_ON_SWITCHES, showCheckmarksOnSwitches).apply()
+
+    var showCheckmarksOnSwitchesFlow = ::showCheckmarksOnSwitches.asFlowNonNull()
 
     protected fun <T> KProperty0<T>.asFlow(emitOnCollect: Boolean = false): Flow<T?> =
         prefs.run { sharedPreferencesCallback(sendOnCollect = emitOnCollect) { this@asFlow.get() } }

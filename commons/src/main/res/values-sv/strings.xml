@@ -119,9 +119,9 @@
     <string name="must_make_default_dialer">Du måste ställa in den här appen som standardtelefonapp för att kunna använda blockerade nummer.</string>
     <string name="set_as_default">Ange som standard</string>
     <string name="block_confirmation">Är du säker på att du vill blockera \"%s\"?</string>
-    <string name="block_not_stored_calls">Blockera samtal från okända nummer</string>
+    <string name="block_unknown_calls">Blockera samtal från okända nummer</string>
     <string name="block_hidden_calls">Blockera samtal från dolda nummer</string>
-    <string name="block_not_stored_messages">Blockera meddelanden från okända nummer</string>
+    <string name="block_unknown_messages">Blockera meddelanden från okända nummer</string>
     <string name="block_hidden_messages">Blockera meddelanden från dolda nummer</string>
     <string name="add_blocked_number_helper_text">Ange ett nummer eller en nummerserie (exempel *12345*, +1*8888) för att blockera alla samtal och meddelanden som matchar nummret eller nummerserien.</string>
     <string name="must_make_default_caller_id_app">Det går inte att blockera okända nummer utan nummerpresentatörsbehörighet.</string>
@@ -176,8 +176,8 @@
     <string name="allow_alarm_scheduled_messages">Du måste ge appen åtkomst till interna larm, annars kan den inte skicka schemalagda meddelanden.</string>
     <string name="allow_alarm_sleep_timer">Du måste tillåta att appen kommer åt interna larm, annars kan den inte stänga av applikationen efter insomningstimern.</string>
     <string name="allow_location_permission">Du måste tillåta att appen kommer åt din plats, annars känner den inte till det.</string>
-    <string name="grant_permission">Tillåt Behörighet</string>
-    <string name="permission_required">Behörighet Krävs</string>
+    <string name="grant_permission">Bevilja behörighet</string>
+    <string name="permission_required">Behörighet krävs</string>
     <string name="rename_file">Byt namn på fil</string>
     <string name="rename_folder">Byt namn på mapp</string>
     <string name="rename_file_error">Det gick inte att byta namn på filen</string>
@@ -297,7 +297,7 @@
     <string name="direct_children_count">Antal direkta döttrar</string>
     <string name="files_count">Antal filer</string>
     <string name="resolution">Upplösning</string>
-    <string name="duration">Varaktighet</string>
+    <string name="duration">Längd</string>
     <string name="focal_length">Brännvidd</string>
     <string name="exposure_time">Exponeringstid</string>
     <string name="iso_speed">ISO-grader</string>
@@ -329,7 +329,7 @@
     <string name="undo_changes_confirmation">Är du säker på att du vill ångra dina ändringar?</string>
     <string name="cannot_be_undone">Denna åtgärd kan inte ångras.</string>
     <string name="save_before_closing">Du har ändringar som inte är sparade. Spara innan du lämnar?</string>
-    <string name="share_colors_success">Färgerna har uppdaterats. Ett nytt Tema som heter \'Delat\' har lagts till, använd det för att uppdatera alla apparnas färger i framtiden.</string>
+    <string name="global_theme_success">Färgerna har uppdaterats. Ett nytt Tema som heter \'Delat\' har lagts till, använd det för att uppdatera alla apparnas färger i framtiden.</string>
     <string name="purchase_thank_you">
         <![CDATA[
             Köp <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> för att låsa upp denna funktion och stödja utvecklingen. Tack!
@@ -600,7 +600,7 @@
     <string name="add_new_sound">Lägg till ett nytt ljud</string>
     <string name="no_sound">Inget ljud</string>
     <string name="during_day_at_hh_mm">Under dagen klockan hh:mm</string>
-    <string name="during_day_at">Under dagen klockan %02d:%02d</string>
+    <string name="during_day_at">Under dagen klockan %1$02d:%2$02d</string>
     <string name="settings">Inställningar</string>
     <string name="general_settings">Allmänt</string>
     <string name="color_customization">Färganpassning</string>
@@ -661,7 +661,7 @@
     <string name="exclude">Uteslut</string>
     <string name="exclude_folder">Uteslut mapp</string>
     <string name="excluded_folders">Uteslutna mappar</string>
-    <string name="excluded">(exkluderad)</string>
+    <string name="excluded">(utesluten)</string>
     <string name="manage_excluded_folders">Hantera uteslutna mappar</string>
     <string name="remove_all">Ta bort alla</string>
     <string name="remove_all_description">Vill du ta bort alla mappar från uteslutningslistan\? Detta raderar inte mapparna.</string>
@@ -753,8 +753,8 @@
     <string name="friday_short">Fre</string>
     <string name="saturday_short">Lör</string>
     <string name="sunday_short">Sön</string>
-    <string name="upgrade_to_pro_long">Din appversion kommer inte updateras mer. Vänligen upgradera till Pro-versionen för att ta del av förbättringar och bugfixar.</string>
-    <string name="upgrade_to_pro_long_click">Din appversion kommer inte updateras mer. Vänligen upgradera till Pro-versionen för att ta del av förbättringar och bugfixar genom att klicka här.</string>
+    <string name="upgrade_to_pro_long">Din appversion uppdateras inte längre. Uppgradera till Pro-versionen för att få nya korrigeringar och andra förbättringar.</string>
+    <string name="upgrade_to_pro_long_click">Din appversion uppdateras inte längre. Uppgradera till Pro-versionen för att få nya korrigeringar och andra förbättringar genom att klicka här.</string>
     <string name="it_is_free">Den är gratis fram till: %s. Om du hämtar den innan dess, kan du använda den kostnadsfritt för all framtid.</string>
     <string name="more_info">Mer information</string>
     <string name="upgrade">Uppgradera</string>
@@ -805,13 +805,9 @@
     <string name="website_label">Du hittar källkoden på</string>
     <string name="email_label">Skicka dina synpunkter och förslag till</string>
     <string name="upgrade_to_pro">Uppgradera till Pro</string>
-    <string name="more_apps">Fler appar</string>
-    <string name="more_apps_from_us">Fler appar från oss</string>
     <string name="invite_friends">Bjud in vänner</string>
     <string name="share_text">Hej, läs om %1$s på %2$s</string>
     <string name="invite_via">Bjud in via</string>
-    <string name="rate_us">Betygsätt oss</string>
-    <string name="rate">Betygsätt</string>
     <string name="donate">Donera</string>
     <string name="follow_us">Följ oss</string>
     <string name="help_us">Hjälp oss</string>
@@ -832,21 +828,10 @@
     </string>
     <string name="purchase">Köp</string>
     <string name="before_asking_question_read_faq">Innan du frågar, vänligen kolla appens inställningar och läs FAQ:en först. Kanske finns lösningen där.</string>
-    <string name="before_rate_read_faq">Innan du betygsätter oss, vänligen kolla appens inställningar och läs FAQ:en innan. Om du har några problem, kanske finns lösningen där.</string>
     <string name="make_sure_latest">Dubbelkolla så du har den senaste versionen av appen.</string>
     <string name="make_sure_upgrade">Notera att denna appversionen inte utvecklas längre, skaffa Pro-versionen för förbättringar istället.</string>
     <string name="read_it">Läs</string>
     <string name="read_faq">Läs FAQ</string>
-    <string name="rate_us_prompt">Hejsan,
-\n
-\ndet ser ut som att du har använt den här appen ett bra tag redan, och vi uppskattar det verkligen.
-\n
-\nOm vi kan be dig om en tjänst, vänligen betygsätt oss på Google Play. Det skulle verkligen hjälpa oss mycket.
-\n
-\nOavsett hur du bestämmer dig kommer du inte att se det här meddelandet igen.
-\n
-\nTack!</string>
-    <string name="rate_our_app">Betygsätt vår app :)</string>
     <string name="thank_you">Tack</string>
     <string name="widget_locked_pro">Widgeten är låst.\nUppgradera till Pro-versionen för att låsa upp den.</string>
     <string name="new_app">
@@ -997,11 +982,11 @@
     <string name="gson_title">Gson (JSON-parser)</string>
     <string name="leak_canary_title">Leak Canary (minnesläckagedetektor)</string>
     <string name="number_picker_title">Number Picker (anpassningsbar talväljare)</string>
-    <string name="exoplayer_title">ExoPlayer (video spelare)</string>
+    <string name="exoplayer_title">ExoPlayer (videospelare)</string>
     <string name="sanselan_title">Apache Sanselan (läser bildmetadata)</string>
-    <string name="filters_title">Android Photo Filter (bildfilter)</string>
-    <string name="gesture_views_title">Gestvyer (zoombara bilder)</string>
-    <string name="indicator_fast_scroll_title">Indikator Fast Scroll (bokstäver på rullningslisten)</string>
+    <string name="filters_title">Android Photo Filters (bildfilter)</string>
+    <string name="gesture_views_title">Gesture Views (zoombara bilder)</string>
+    <string name="indicator_fast_scroll_title">Indicator Fast Scroll (bokstäver på rullningslisten)</string>
     <string name="event_bus_title">Event Bus (kommunikation i appen)</string>
     <string name="audio_record_view_title">Audio Record View (ljudvisualisering)</string>
     <string name="sms_mms_title">SMS MMS (SMS och MMS hantering)</string>
@@ -1016,11 +1001,7 @@
     <string name="trial_expires_soon">Din prövotid tar snart slut.</string>
     <string name="unlock_for_one_final_day">Lås upp appen för en sista dag</string>
     <string name="welcome_to_app_name">Välkommen till %s!</string>
-    <string name="trial_start_description">Tack för att du använder vår app. Du kan använda den här olåsta versionen i <font color="#FFFFFF">%d dagar</font>. När testperioden är slut, överväg att uppgradera till Pro-versionen. Den har en enorm mängd nya funktioner, modern design, inga annonser och många andra förbättringar.
-\n
-\nDu behöver bara betala för det en gång i livet och om du inte blir nöjd kan du avinstallera det och få en återbetalning.
-\n
-\nHoppas du kommer att gilla det :)</string>
+    <string name="trial_start_description">Tack för att du använder vår app. Du kan använda den här olåsta versionen i <font color="#FFFFFF">%d dagar</font>. När testperioden är slut, överväg att uppgradera till Pro-versionen. Den har en enorm mängd nya funktioner, modern design, inga annonser och många andra förbättringar. \n \nDu behöver bara betala för det en gång i livet och om du inte blir nöjd kan du avinstallera det och få en återbetalning. \n \nHoppas du kommer att gilla det :)</string>
     <string name="trial_end_description">Uppgradera till Pro-versionen för att njuta av appen till fullo.
 \n
 \nDu behöver bara betala för det en gång i livet och om du inte blir nöjd kan du avinstallera det och få en återbetalning.
@@ -1033,4 +1014,69 @@
     <string name="deprecated_app">UTGÅNGEN: Denna version av appen underhålls inte längre, hämta Pro-versionen på https://play.google.com/store/apps/details\?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">Glöm inte att om du avinstallerar någon betalapp inom 2 timmar kommer du automatiskt att få en återbetalning. Om du vill ha en återbetalning när som helst senare, kontakta oss bara på hello@fossify.org så får du det. Det gör det enkelt att testa :)</string>
     <string name="developer_description">En mängd enkla, öppen källkod Android appar med anpassningsbara widgets, inga annonser eller onödiga behörigheter.</string>
+    <string name="purchase_simple_thank_you">Köp Fossify Thank You</string>
+    <string name="translation_bengali">Bengali</string>
+    <string name="translation_bulgarian">Bulgariska</string>
+    <string name="translation_tamil">Tamil</string>
+    <string name="update_thank_you">Uppdatera Fossify Thank You till den senaste versionen</string>
+    <string name="translation_hindi">Hindi</string>
+    <string name="translation_nepali">Nepali</string>
+    <string name="why_upgrade_pro_version">Pro</string>
+    <string name="format_phone_numbers">Formatera telefonnummer</string>
+    <string name="translation_belarusian">Belarusiska</string>
+    <string name="translation_central_kurdish">Centralkurdiska</string>
+    <string name="theme_and_colors">Tema och färger</string>
+    <string name="april">April</string>
+    <string name="friday_letter">F</string>
+    <string name="all_fossify_apps">Alla Fossify-appar</string>
+    <string name="platforms">Plattformar</string>
+    <string name="why_upgrade_recents_tab">Flik med de senaste filerna</string>
+    <string name="known_issues">Kända problem</string>
+    <string name="tuesday_letter">T</string>
+    <string name="thursday_letter">T</string>
+    <string name="ok">OK</string>
+    <string name="apply_to_all_apps">Använd färger på alla Fossify-appar</string>
+    <string name="alarm">Alarm</string>
+    <string name="text">Text</string>
+    <string name="usb">USB</string>
+    <string name="september">September</string>
+    <string name="november">November</string>
+    <string name="december">December</string>
+    <string name="sunday_letter">S</string>
+    <string name="monday_letter">M</string>
+    <string name="donate_to_fossify">Donera till Fossify</string>
+    <string name="little_to_no_fee">Liten eller ingen avgift</string>
+    <string name="fee_up_to_pct">Upp till %1$d%% avgift</string>
+    <string name="cryptocurrency">Kryptovaluta</string>
+    <string name="translation_chuvash">Tjuvasjiska</string>
+    <string name="translation_esperanto">Esperanto</string>
+    <string name="translation_gujarati">Gujarati</string>
+    <string name="reorder_items_by_dragging">Ordna om objekt genom att dra</string>
+    <string name="number_of_items">Antal objekt</string>
+    <string name="translation_kabyle">Kabyliska</string>
+    <string name="copyright">v %1$s\n\nUpphovsrätt © Fossify %2$d</string>
+    <string name="confirm_storage_access_restricted_text">På grund av systemrestriktioner så är inte denna mapp tillgänglig.</string>
+    <string name="confirm_storage_access_restricted_text_open_system">Öppna med systemapp</string>
+    <string name="seconds_letter">%ds</string>
+    <string name="minutes_letter">%dm</string>
+    <string name="december_short">Dec</string>
+    <string name="october_short">Okt</string>
+    <string name="genre">Genre</string>
+    <string name="exif">EXIF</string>
+    <string name="may_short">Maj</string>
+    <string name="june_short">Jun</string>
+    <string name="january_short">Jan</string>
+    <string name="february_short">Feb</string>
+    <string name="march_short">Mar</string>
+    <string name="september_short">Sep</string>
+    <string name="november_short">Nov</string>
+    <string name="version_placeholder">Version %s</string>
+    <string name="april_short">Apr</string>
+    <string name="album">Album</string>
+    <string name="days_letter">%dd</string>
+    <string name="july_short">Jul</string>
+    <string name="august_short">Aug</string>
+    <string name="more_fossify_apps">Fler Fossifyappar</string>
+    <string name="rate_this_app">Betygsätt denna app</string>
+    <string name="artist">Artist</string>
 </resources>

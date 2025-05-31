@@ -5,7 +5,6 @@ import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.material3.Icon
 import androidx.compose.material3.ListItem
@@ -23,11 +22,13 @@ import org.fossify.commons.compose.extensions.BooleanPreviewParameterProvider
 import org.fossify.commons.compose.extensions.MyDevices
 import org.fossify.commons.compose.theme.AppThemeSurface
 import org.fossify.commons.compose.theme.SimpleTheme
+import org.fossify.commons.compose.theme.textSubTitleColor
 
 @Composable
 fun SettingsListItem(
     modifier: Modifier = Modifier,
     text: String,
+    description: String? = null,
     fontSize: TextUnit = TextUnit.Unspecified,
     maxLines: Int = Int.MAX_VALUE,
     overflow: TextOverflow = TextOverflow.Clip,
@@ -50,8 +51,7 @@ fun SettingsListItem(
         },
         leadingContent = {
             val imageSize = Modifier
-                .size(SimpleTheme.dimens.icon.medium)
-                .padding(SimpleTheme.dimens.padding.small)
+                .size(SimpleTheme.dimens.icon.extraSmall)
             when {
                 icon != null && isImage && tint != null -> Image(
                     modifier = imageSize,
@@ -84,6 +84,9 @@ fun SettingsListItem(
                 )
             }
         },
+        supportingContent = description?.let {
+            { Text(text = description, color = textSubTitleColor) }
+        },
         modifier = Modifier
             .fillMaxWidth()
             .clickable(enabled = click != null) { click?.invoke() }
@@ -105,9 +108,7 @@ fun SettingsListItem(
             text()
         },
         leadingContent = {
-            val imageSize = Modifier
-                .size(SimpleTheme.dimens.icon.medium)
-                .padding(SimpleTheme.dimens.padding.medium)
+            val imageSize = Modifier.size(SimpleTheme.dimens.icon.extraSmall)
             when {
                 icon != null && isImage && tint != null -> Image(
                     modifier = imageSize,
@@ -149,7 +150,7 @@ fun SettingsListItem(
 
 @MyDevices
 @Composable
-private fun SettingsListItem(@PreviewParameter(BooleanPreviewParameterProvider::class) isImage: Boolean) {
+private fun PreviewSettingsListItem(@PreviewParameter(BooleanPreviewParameterProvider::class) isImage: Boolean) {
     AppThemeSurface {
         SettingsListItem(
             click = {},

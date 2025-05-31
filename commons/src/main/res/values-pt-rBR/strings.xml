@@ -61,7 +61,7 @@
     <string name="create_new_contact">Criar novo contato</string>
     <string name="add_to_existing_contact">Adicionar um contato existente</string>
     <string name="app_corrupt">App Corrompido</string>
-    <string name="disclaimer">Isenção</string>
+    <string name="disclaimer">Isenção de responsabilidade</string>
     <string name="take_photo">Tirar foto</string>
     <string name="choose_photo">Escolher foto</string>
     <string name="choose_video">Escolher vídeo</string>
@@ -80,7 +80,7 @@
     <string name="main_number">Principal</string>
     <string name="work_fax">Fax Comercial</string>
     <string name="home_fax">Fax Residencial</string>
-    <string name="no_phone_number_found">Nenhum número de telefone foi encontrado</string>
+    <string name="no_phone_number_found">Nenhum número de celular foi encontrado</string>
     <string name="change_view_type">Alterar modo de visualização</string>
     <string name="grid">Grade</string>
     <string name="grid_pro">Grade (Pro)</string>
@@ -109,8 +109,8 @@
     <string name="must_make_default_dialer">Você precisa tornar este aplicativo padrão para poder bloquear números.</string>
     <string name="set_as_default">Definir como padrão</string>
     <string name="block_confirmation">Tem certeza que deseja bloquear \"%s\"?</string>
-    <string name="block_not_stored_calls">Bloquear chamadas de contatos não salvos</string>
-    <string name="block_not_stored_messages">Bloquear mensagens de contatos não salvos</string>
+    <string name="block_unknown_calls">Bloquear chamadas de contatos não salvos</string>
+    <string name="block_unknown_messages">Bloquear mensagens de contatos não salvos</string>
     <string name="add_blocked_number_helper_text">Digite um número ou um padrão (ex. *12345*, +1*8888) para bloquear todas as chamadas de números correspondentes.</string>
     <string name="must_make_default_caller_id_app">Não é possível bloquear números desconhecidos sem a permissão de ID de chamadas.</string>
     <string name="favorites">Favoritos</string>
@@ -228,7 +228,7 @@
     <string name="confirm_storage_access_text">Por favor escolha a pasta raiz do cartão SD no próximo passo para conceder acesso de escrita</string>
     <string name="confirm_storage_access_text_sd">Se você não encontrar o cartão SD, tente isto</string>
     <string name="confirm_storage_access_android_text">Por favor, permita que o aplicativo acesse o armazenamento utilizando o botão \"Use esta pasta\" no canto inferior da próxima tela.</string>
-    <string name="confirm_storage_access_android_text_specific">Por favor, permita o acesso de \'&lt;b&gt;%s&lt;/b&gt;\' na próxima tela ao pressionar \'&lt;b&gt;Use this folder&lt;/b&gt;\' no canto inferior da tela.</string>
+    <string name="confirm_storage_access_android_text_specific">Por favor, permita o acesso a \'<b>%s</b>\' na próxima tela pressionando \'<b>Usar esta pasta</b>\' no canto inferior.</string>
     <string name="confirm_create_doc_for_new_folder_text">Por favor, pressione \'&lt;b&gt;Save&lt;/b&gt;\' no canto inferior da próxima nela para criar uma nova pasta.</string>
     <string name="confirm_selection">Confirmar seleção</string>
     <string name="loading">Carregando…</string>
@@ -302,12 +302,10 @@
     <string name="undo_changes_confirmation">Tem certeza que deseja desfazer as alterações?</string>
     <string name="cannot_be_undone">Esta ação não pode ser revertida.</string>
     <string name="save_before_closing">Existem alterações não salvas. Salvar antes de sair?</string>
-    <string name="share_colors_success">Cores atualizadas com sucesso. Um novo tema chamado \'Compartilhado\' foi adicionado, use-o para atualizar as cores de todos os apps no futuro.</string>
-    <string name="purchase_thank_you">
-        <![CDATA[
-            Por favor compre o <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Agradecimento Simple</a> para desbloquear esta função e apoiar o desenvolvimento. Obrigado!
-        ]]>
-    </string>
+    <string name="global_theme_success">O tema atual foi aplicado com sucesso a todos os aplicativos Fossify. Quaisquer alterações futuras neste tema serão sincronizadas automaticamente.</string>
+    <string name="purchase_thank_you"><![CDATA[
+            Por favor, compre <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Thank You</a> para desbloquear essa função e apoiar o desenvolvimento. Obrigado!
+        ]]></string>
     <string name="light_theme">Claro</string>
     <string name="dark_theme">Escuro</string>
     <string name="auto_light_dark_theme">Auto claro / escuro</string>
@@ -412,7 +410,7 @@
     <string name="no_fingerprints_registered">Você não tem digitais cadastradas. Favor adiconar alguma nas Configurações do seu dispositivo</string>
     <string name="go_to_settings">Ir para Configurações</string>
     <string name="protection_setup_successfully">Senha criada com sucesso. Reinstale o app caso você a esqueça.</string>
-    <string name="fingerprint_setup_successfully">Proteção criada com sucesso. Reinstale o app caso tenha problemas ao redefini-la.</string>
+    <string name="fingerprint_setup_successfully">Proteção criada com sucesso. Por favor, reinstale o app caso tenha problemas ao redefini-la.</string>
     <string name="lock_folder">Bloquear pasta</string>
     <string name="lock_folder_pro">Bloquear pasta (Pro)</string>
     <string name="unlock_folder">Desbloquear pasta</string>
@@ -571,7 +569,7 @@
     <string name="time_remaining">Tempo restante:
 \n%s</string>
     <string name="alarm_warning">Por favor, verifique se o alarme funciona corretamente antes de confiar nele. Ele pode não funcionar direito devido a restrições de sistema relacionadas à economia de bateria.</string>
-    <string name="reminder_warning">Certifique-se de que os lembretes funcionam corretamente antes de confiar neles. Eles podem se funcionar direito devido a restrições de sistema relacionadas à economia de bateria.</string>
+    <string name="reminder_warning">Certifique-se de que os lembretes funcionam corretamente antes de confiar neles. Eles podem não funcionar direito devido a restrições de sistema relacionadas à economia de bateria.</string>
     <string name="notifications_disabled">As notificações deste aplicativo foram desativadas pelo sistema. Por favor, reative-as através nas configurações do seu aparelho.</string>
     <string name="alarm">Alarme</string>
     <string name="snooze">Soneca</string>
@@ -583,7 +581,7 @@
     <string name="add_new_sound">Adicionar um novo som</string>
     <string name="no_sound">Sem som</string>
     <string name="during_day_at_hh_mm">Durante o dia às hh:mm</string>
-    <string name="during_day_at">Durante o dia às %02d:%02d</string>
+    <string name="during_day_at">Durante o dia às %1$02d:%2$02d</string>
     <string name="settings">Configurações</string>
     <string name="color_customization">Personalização de cores</string>
     <string name="improved_color_customization">Personalização de cores aprimorada</string>
@@ -603,7 +601,7 @@
     <string name="password_protect_hidden_items">Proteger com senha a visualização de itens ocultos</string>
     <string name="password_protect_whole_app">Proteger com senha todo o app</string>
     <string name="password_protect_file_deletion">Proteger com senha as operações de excluir e mover arquivos</string>
-    <string name="keep_last_modified">Não atualizar o valor Data de modificação nas operações com arquivo</string>
+    <string name="keep_last_modified">Manter o valor antigo da última modificação nas operações de arquivo</string>
     <string name="show_info_bubble">Exibir bolha de informação ao rolar usando a barra de rolagem</string>
     <string name="prevent_phone_from_sleeping">Impedir que o telefone entre em suspensão enquanto o aplicativo estiver em primeiro plano</string>
     <string name="skip_delete_confirmation">Sempre pular confirmação de exclusão</string>
@@ -633,7 +631,7 @@
     <string name="saving_label">Salvando</string>
     <string name="startup">Inicialização</string>
     <string name="text">Texto</string>
-    <string name="migrating">Migrando</string>
+    <string name="migrating">Migração</string>
     <string name="quality">Qualidade</string>
     <string name="main_screen">Tela principal</string>
     <string name="thumbnails">Miniaturas</string>
@@ -641,7 +639,7 @@
     <string name="exclude">Ignorar</string>
     <string name="exclude_folder">Excluir pasta</string>
     <string name="excluded_folders">Pastas ignoradas</string>
-    <string name="excluded">(excluído)</string>
+    <string name="excluded">(ignorado)</string>
     <string name="manage_excluded_folders">Gerenciar pastas ignoradas</string>
     <string name="remove_all">Remover todas</string>
     <string name="remove_all_description">Remover todas as pastas da lista de pastas ignoradas\? Esta ação não exclui as pastas.</string>
@@ -736,34 +734,20 @@
     <string name="more_info">Mais informação</string>
     <string name="upgrade">Atualizar</string>
     <string name="upgrade_calendar">Você precisará migrar de forma manual os eventos armazenados localmente. Você pode fazer isso exportando-os para um arquivo .ics, e depois importando este arquivo. Você pode encontrar os botões de importar/exportar no menu da tela inicial.</string>
-    <string name="upgraded_from_free">Olá,
-\n
-\nparece que você acabou de atualizar a partir da versão gratuita. Assim que você estiver feliz com esta versão e já tenha migrado seus dados, você pode desinstalar a antiga versão gratuita para evitar abri-la acidentalmente, pois você não precisará mais dela.
-\n
-\nObrigado!</string>
+    <string name="upgraded_from_free">Olá, \n \nParece que você acabou de atualizar da versão gratuita. Assim que você estiver satisfeito com esta versão e já tenha migrado seus dados, você pode desinstalar a antiga versão gratuita para evitar abri-la acidentalmente, pois você não precisará mais dela. \n \nObrigado!</string>
     <string name="upgraded_to_pro">Olá
 \n
 \nparece que você já tem a versão Pro também. Uma vez que você esteja feliz com e já tenha migrado seus dados, você pode desinstalar esta versão para evitar lançá-la acidentalmente, pois você não precisará mais dela.
 \n
 \nObrigado!</string>
-    <string name="upgraded_from_free_calendar">Olá
-\n
-\nparece que você acabou de atualizar a partir da versão gratuita. Se você quiser migrar seus eventos armazenados localmente, você tem que fazê-lo manualmente, exportando-os para um arquivo .ics na versão gratuita do aplicativo e importando aqui através do menu superior.
-\n
-\nUma vez que você esteja satisfeito com sua configuração na versão Pro, você pode desinstalar o antigo gratuito, pois você não precisará mais dele.
-\n
-\nObrigado!</string>
+    <string name="upgraded_from_free_calendar">Olá \n \nParece que você acabou de atualizar da versão gratuita. Se você quiser migrar seus eventos armazenados localmente, você tem que fazê-lo manualmente, exportando-os para um arquivo .ics na versão gratuita do aplicativo e importando aqui através do menu superior. \n \nUma vez que você esteja satisfeito com sua configuração na versão Pro, você pode desinstalar o antigo gratuito, pois você não precisará mais dele. \n \nObrigado!</string>
     <string name="about">Sobre</string>
     <string name="website_label">Para os código-fonte visite</string>
     <string name="email_label">Envie os seus comentários ou sugestões para</string>
-    <string name="upgrade_to_pro">Atualizar para versão Pro</string>
-    <string name="more_apps">Mais aplicativos</string>
-    <string name="more_apps_from_us">More aplicativos nossos</string>
+    <string name="upgrade_to_pro">Atualizar para versão Pró</string>
     <string name="invite_friends">Convidar amigos</string>
     <string name="share_text">Opa, dê uma olhada no %1$s em %2$s</string>
     <string name="invite_via">Convidar via</string>
-    <string name="rate_us">Nos avalie na Play Store</string>
-    <string name="rate">Avaliar</string>
     <string name="donate">Doar</string>
     <string name="follow_us">Siga-nos</string>
     <string name="support">Suporte</string>
@@ -785,13 +769,10 @@
     </string>
     <string name="purchase">Comprar</string>
     <string name="before_asking_question_read_faq">Antes de fazer uma pergunta, por favor verifique as configurações do aplicativo e leia a lista de Perguntas Frequentes.</string>
-    <string name="before_rate_read_faq">Antes de nos avaliar, por favor verifique as configurações do aplicativo e leia a lista de Perguntas Frequentes. Se você tiver algum problema, talvez a solução esteja lá.</string>
     <string name="make_sure_latest">Verifique também se você está usando a versão mais recente do aplicativo.</string>
     <string name="make_sure_upgrade">Por favor, note que esta versão não está mais sendo desenvolvida. Obtenha a versão Pro para desfrutar das atualizações.</string>
     <string name="read_it">Ler</string>
     <string name="read_faq">Leia as Perguntas Frequentes</string>
-    <string name="rate_us_prompt">Olá,\n\nParece que você já está utilizando este app a algum tempo, e nós agradecemos a você por isso.\n\nPor favor, considere nos avaliar na Google Play. Isso iria nos ajudar bastante.\n\nDe uma forma ou de outra, você não verá esta mensagem novamente.\n\nObrigado!</string>
-    <string name="rate_our_app">Avalie nosso aplicativo :)</string>
     <string name="thank_you">Obrigado</string>
     <string name="widget_locked_pro">O widget está bloqueado.\nAtualize para a versão Pro para desbloqueá-lo.</string>
     <string name="new_app">
@@ -842,7 +823,7 @@
     <string name="faq_6_title_commons">O ícone do app desapareceu. O que posso fazer?</string>
     <string name="faq_7_title_commons">O dinheiro foi deduzido da minha conta bancária, mas não consigo fazer o download do aplicativo. O que eu posso fazer?</string>
     <string name="faq_7_text_commons">Os pagamentos são totalmente gerenciados pelo Google, o sistema deles falha de vez em quanto. Apenas limpe o cache do aplicativo Google Play, reinicie o dispositivo e tente baixá-lo novamente.</string>
-    <string name="faq_8_title_commons">Por que eu deveria atualizar para a versão Pro?</string>
+    <string name="faq_8_title_commons">Por que eu deveria atualizar para a versão Pró?</string>
     <string name="faq_8_text_commons">Como a versão do seu aplicativo não é mais atualizada, os erros que você talvez tenha encontrado nunca serão corrigidos. Também não haverá novas funções adicionadas. Você pode comprar a versão Pro no Google Play por uma pequena quantia em dinheiro.
         É um pagamento único, o que significa que, uma vez que você o compre, nunca precisará pagar novamente. Nem mesmo depois de adquirir um novo dispositivo. Se você não gostar da versão Pro, basta desinstalá-la em algumas horas e você receberá seu dinheiro automaticamente.
         Se você quiser um reembolso a qualquer momento depois, basta entrar em contato conosco pelo e-mail hello@fossify.org e você o receberá.</string>
@@ -922,7 +903,7 @@
     <string name="trial_expired">Teste expirado</string>
     <string name="start_free_trial">Iniciar teste grátis</string>
     <string name="trial_expires_soon">Seu teste acaba em breve.</string>
-    <string name="welcome_to_app_name">Bem-vindo ao app %s!</string>
+    <string name="welcome_to_app_name">Boas-vindas ao %s!</string>
     <plurals name="trial_expires_days">
         <item quantity="one">Seu teste acaba em %d dia.</item>
         <item quantity="many">Seu teste acaba em %d dias.</item>
@@ -932,4 +913,190 @@
     <string name="pro_app_refund">Não se esqueça de que se você desinstalar um aplicativo pago em menos de duas horas você receberá reembolsado(a) automaticamente. Se você precisar de um reembolso após isso, entre em contato conosco através hello@fossify.org. Isso torna tudo mais fácil se você quiser testar :)</string>
     <string name="developer_description">Um grupo de aplicativos simples, open source, para Android com widgets personalizados, sem anúncios nem permissões desnecessárias.</string>
     <string name="audio">Áudio</string>
+    <string name="start_week_on">Início da semana</string>
+    <string name="ok">OK</string>
+    <string name="close">Fechar</string>
+    <string name="error">Erro: %s</string>
+    <string name="zero">Zero</string>
+    <string name="scanning">Escaneando…</string>
+    <string name="pager">Paginador</string>
+    <string name="row_count">Contador de fileira</string>
+    <plurals name="row_counts">
+        <item quantity="one">%d fileira</item>
+        <item quantity="many">%d fileiras</item>
+        <item quantity="other">%d fileiras</item>
+    </plurals>
+    <string name="block_hidden_calls">Bloquear chamadas de números desconhecidos/ocultos</string>
+    <string name="block_hidden_messages">Bloquear mensagens de números desconhecidos/ocultos</string>
+    <string name="block_contact">Bloquear contato</string>
+    <string name="block_contact_success">Contato bloqueado</string>
+    <string name="block_contact_fail">Contato não pôde ser bloqueado</string>
+    <string name="unblock_contact">Desbloquear contato</string>
+    <string name="unblock_contact_success">Contato desbloqueado</string>
+    <string name="unblock_contact_fail">Contato não pôde ser desbloqueado</string>
+    <string name="show_search">Mostrar como barra de pesquisa</string>
+    <string name="allow_notifications_reminders">Você deve permitir que o app exiba notificações, caso contrário, os lembretes não serão exibidos.</string>
+    <string name="allow_full_screen_notifications_reminders">Você deve permitir o aplicativo de mostrar notificações de tela cheia, caso contrário, você pode perder alguns lembretes.</string>
+    <string name="theme_and_colors">Tema e cores</string>
+    <string name="enable_automatic_backups">Ativar backups automáticos</string>
+    <string name="backups">Cópias de segurança</string>
+    <string name="manage_automatic_backups">Gerenciar backups automáticos</string>
+    <string name="usb">USB</string>
+    <string name="january_short">Jan</string>
+    <string name="may_short">Mai</string>
+    <string name="february_short">Fev</string>
+    <string name="march_short">Mar</string>
+    <string name="april_short">Abr</string>
+    <string name="tuesday_letter">T</string>
+    <string name="saturday_letter">S</string>
+    <string name="apply_to_all_apps">Aplica cores para todos os Apps Fossify</string>
+    <string name="unblock">Desbloquear</string>
+    <string name="too_many_incorrect_attempts">Muitas tentativas de desbloqueio incorretas.\nTente novamente em %d segundos.</string>
+    <string name="more_options">Mais opções</string>
+    <string name="empty_password">Por favor, digite a senha</string>
+    <string name="invalid_password">Senha incorreta</string>
+    <string name="general_settings">Geral</string>
+    <string name="widgets">Widgets</string>
+    <string name="august_short">Ago</string>
+    <string name="internal_storage">Armazenamento Interno</string>
+    <string name="add_contact">Adicionar contato</string>
+    <string name="contact_details">Detalhes do contato</string>
+    <string name="enter_password">Digite a senha</string>
+    <string name="password">Senha</string>
+    <string name="add_password">Adicionar senha</string>
+    <string name="empty_password_new">Por favor, digite uma senha</string>
+    <string name="seconds_letter">%ds</string>
+    <string name="minutes_letter">%dm</string>
+    <string name="hours_letter">%dh</string>
+    <string name="notification_sound">Som de notificação</string>
+    <string name="skip_the_recycle_bin">Ignorar a Lixeira, apagar arquivos diretamente</string>
+    <string name="june_short">Jun</string>
+    <string name="october_short">Out</string>
+    <string name="november_short">Nov</string>
+    <string name="december_short">Dez</string>
+    <string name="allow_location_permission">Você deve permitir que o aplicativo acesse sua localização, caso contrário ele não saberá.</string>
+    <string name="allow_notifications_music_player">Você deve permitir que o aplicativo exiba notificações, caso contrário ele não poderá reproduzir músicas.</string>
+    <string name="allow_notifications_files">Você deve permitir que o aplicativo exiba notificações, caso contrário, ele não poderá mostrar a barra de progresso.</string>
+    <string name="allow_alarm_sleep_timer">Você deve permitir que o aplicativo acesse os alarmes internos, caso contrário, ele não poderá desligar o aplicativo após o temporizador de suspensão.</string>
+    <string name="allow_notifications_voice_recorder">Você deve permitir que o aplicativo exiba notificações, caso contrário ele não poderá gravar áudio.</string>
+    <string name="allow_alarm_scheduled_messages">Você deve permitir que o aplicativo acesse alarmes internos, caso contrário ele não poderá enviar mensagens programadas.</string>
+    <string name="allow_full_screen_notifications_incoming_calls">Você deve permitir que o aplicativo exiba notificações em tela cheia, caso contrário você poderá perder algumas chamadas recebidas.</string>
+    <string name="allow_notifications_incoming_calls">Você deve permitir que o aplicativo exiba notificações, caso contrário ele não poderá mostrar chamadas recebidas.</string>
+    <string name="allow_notifications_incoming_messages">Você deve permitir que o aplicativo exiba notificações, caso contrário ele não poderá mostrar mensagens recebidas.</string>
+    <string name="translation_belarusian">Bielorrusso</string>
+    <string name="translation_portuguese">Português</string>
+    <string name="translation_polish">Polonês</string>
+    <string name="reorder_items_by_dragging">Reordenar itens arrastando</string>
+    <string name="deletion_confirmation_short">Excluir %s?</string>
+    <string name="website">Site</string>
+    <string name="social">Social</string>
+    <string name="update_thank_you">Por favor, atualize o Fossify Thank You para a versão mais recente</string>
+    <string name="all_fossify_apps">Todos os aplicativos Fossify</string>
+    <string name="faq_6_text_commons">Este problema surge quando seu lançador não suporta totalmente a personalização de ícones. Tente iniciar o aplicativo pelo Google Play ou um widget, se acessível. Após iniciar, restaure a cor verde padrão do ícone #106D1F. Em casos extremos, pode ser necessário reinstalar o aplicativo.</string>
+    <string name="translation_czech">Checo</string>
+    <string name="translation_hungarian">Húngaro</string>
+    <string name="translation_indonesian">Indonésio</string>
+    <string name="translation_hebrew">Hebraico</string>
+    <string name="translation_japanese">Japonês</string>
+    <string name="translation_welsh">Galês</string>
+    <string name="translation_danish">Dinamarquês</string>
+    <string name="translation_english">Inglês</string>
+    <string name="translation_korean">Coreano</string>
+    <string name="translation_kabyle">Cabila</string>
+    <string name="translation_romanian">Romeno</string>
+    <string name="translation_swedish">Sueco</string>
+    <string name="translation_tamil">Tâmil</string>
+    <string name="translation_turkish">Turco</string>
+    <string name="translation_ukrainian">Ucraniano</string>
+    <string name="trial_end_description">Por favor, atualize para a versão Pro para aproveitar o aplicativo ao máximo.\n\nVocê só precisa pagar por ele uma única vez e, se não ficar satisfeito, pode desinstalá-lo e obter um reembolso.\n\nVejo você lá :)</string>
+    <string name="number_of_items">Número de itens</string>
+    <string name="date_added">Data adicionada</string>
+    <string name="pin_must_be_4_digits_long">O PIN deve ter pelo menos 4 dígitos</string>
+    <string name="features_locked">Este recurso está bloqueado. Compre &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; para desbloquear o aplicativo completo.&lt;br&gt;&lt;br&gt;É um pagamento único e, se você não ficar satisfeito, podemos reembolsá-lo.</string>
+    <string name="translation_italian">Italiano</string>
+    <string name="translation_serbian">Sérvio</string>
+    <string name="translation_russian">Russo</string>
+    <string name="pin">PIN</string>
+    <string name="copyright">v %1$s\nDireitos autorais © Fossify %2$d</string>
+    <string name="app_icon_color_warning">Cuidado: Certos lançadores podem não lidar corretamente com a personalização do ícone do aplicativo. Se o ícone desaparecer, tente iniciar o aplicativo pelo Google Play ou por um widget, se acessível. Após iniciar, restaure a cor verde padrão do ícone #106D1F. Em casos extremos, pode ser necessário reinstalar o aplicativo.</string>
+    <string name="shared_theme_note">Note que, mesmo que você esteja usando a versão Pro do aplicativo, você ainda precisa do Fossify Thank You por razões técnicas. Ele cuida da sincronização de cores.</string>
+    <string name="translation_vietnamese">Vietnamita</string>
+    <string name="purchase_simple_thank_you">Compre Fossify Thank You</string>
+    <string name="upgraded_from_free_contacts">Olá,\n\nParece que você acabou de atualizar da versão gratuita. Se você tinha algum contato armazenado em \"%s\", você tem que migrá-lo manualmente exportando em um arquivo .vcf da versão gratuita do aplicativo e importando aqui pelo menu superior.\n\nQuando estiver satisfeito com sua configuração na versão Pro, você pode desinstalar a versão gratuita antiga, pois não precisará mais dela, isso também impedirá que esta caixa de diálogo apareça.\n\nObrigado!</string>
+    <string name="donate_new">Olá,&lt;br&gt;&lt;br&gt;Espero que esteja gostando do aplicativo. Ele não contém anúncios e também não estamos coletando seus dados, por favor, apoie seu desenvolvimento comprando &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. Você também terá todos os recursos do aplicativo, incluindo personalização de cores, desbloqueados.&lt;br&gt;&lt;br&gt;Obrigado!</string>
+    <string name="faq_2_text_commons"><![CDATA[
+Sim, claro. Você pode espalhar a informação sobre os aplicativos ou dar um bom feedback e avaliações. Você também pode ajudar traduzindo os aplicativos para um novo idioma ou apenas atualizando algumas traduções existentes.
+O guia para tradução está <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">neste site</a>, ou entre em contato conosco em <a href="mailto:hello@fossify.org">hello@fossify.org</a> se tiver alguma dúvida.
+]]></string>
+    <string name="donate_short">Apoie-nos comprando &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;, isso também desbloqueará todos os recursos do aplicativo, incluindo personalização de cores.</string>
+    <string name="upgraded_to_pro_gallery">Olá,\n\nParece que você já tem a versão Pro do aplicativo também. Quando estiver satisfeito com ele e talvez tiver migrado suas configurações e favoritos, você pode desinstalar este para evitar iniciá-lo acidentalmente, pois não precisará mais dele.\n\nObrigado!</string>
+    <string name="translation_slovenian">Esloveno</string>
+    <string name="upgraded_from_free_notes">Olá,\n\nParece que você acabou de atualizar da versão gratuita. Se quiser migrar suas notas, você tem que fazer isso manualmente exportando-as para um arquivo na versão gratuita do aplicativo e importando aqui pelo menu superior.\n\nQuando estiver satisfeito com sua configuração na versão Pro, você pode desinstalar a antiga versão gratuita, pois não precisará mais dela, isso também impedirá que esta caixa de diálogo apareça.\n\nObrigado!</string>
+    <string name="hide_line_numbers">Ocultar números de linha</string>
+    <string name="trial_start_description">Obrigado por usar nosso aplicativo. Você pode usar esta versão desbloqueada por <font color="#FFFFFF">%d dias</font>. Quando o teste terminar, considere atualizar para a versão Pro. Ela tem uma grande quantidade de novos recursos, design moderno, sem anúncios e muitas outras melhorias.\n\nVocê só precisa pagar por ela uma vez na vida e, se não ficar satisfeito, pode desinstalá-la e obter um reembolso.\n\nEspero que goste :)</string>
+    <string name="translation_slovak">Eslovaco</string>
+    <string name="translation_galician">Galego</string>
+    <string name="why_upgrade_pro_version">Pró</string>
+    <string name="grant_permission">Conceder Permissão</string>
+    <string name="permission_required">Permissão necessária</string>
+    <string name="genre">Gênero</string>
+    <string name="exif">metadados</string>
+    <string name="altitude">Altitude</string>
+    <string name="auto_theme">Auto</string>
+    <string name="allow_access_more_media">Permitir acesso a mais mídia</string>
+    <string name="show_line_numbers">Mostrar números de linha</string>
+    <string name="week_number_short">wk.</string>
+    <string name="date_time_pattern_info">Você pode usar os seguintes padrões para nomear seu arquivo automaticamente:\n\n%Y - ano\n%M - mês\n%D - dia\n%h - hora\n%m - minuto\n%s - segundo</string>
+    <string name="upgraded_from_free_gallery">Olá,\n\nParece que você acabou de atualizar da versão gratuita. Quando estiver satisfeito com esta e talvez tenha migrado suas configurações e favoritos, você pode desinstalar a versão gratuita antiga para evitar iniciá-la acidentalmente, pois você não precisará mais dela, e também evitará que esta caixa de diálogo apareça.\n\nObrigado!</string>
+    <string name="launcher_short">Lançador</string>
+    <string name="other_help">Outra ajuda</string>
+    <string name="contributors_label"><![CDATA[
+Esta lista contém todos que ajudaram visivelmente qualquer aplicativo dentro do pacote Fossify, não apenas este. As traduções são feitas por voluntários,
+nos avise se você quiser ajudar também. O guia para tradução está <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">neste site</a>, ou entre em contato conosco em <a href="mailto:hello@fossify.org">hello@fossify.org</a> se você tiver alguma dúvida.
+Obrigado a todos os contribuidores e outros apoiadores!
+]]></string>
+    <string name="translation_finnish">Finlandês</string>
+    <string name="translation_persian">Persa</string>
+    <string name="translation_french">Francês</string>
+    <string name="translation_hindi">Hindi</string>
+    <string name="translation_croatian">Croata</string>
+    <string name="translation_german">Alemão</string>
+    <string name="translation_greek">Grego</string>
+    <string name="translation_spanish">Espanhol</string>
+    <string name="translation_basque">Basco</string>
+    <string name="translation_chinese_cn">Chinês (Simplificado)</string>
+    <string name="translation_chinese_tw">Chinês (Tradicional)</string>
+    <string name="why_upgrade_many_other_improvements">Muitas outras melhorias</string>
+    <string name="translation_chinese_hk">Chinês (Hong Kong)</string>
+    <string name="pdf_viewer_title">Android PdfViewer (visualizador de PDF)</string>
+    <string name="zip4j_title">Zip4j (compressão e descompressão ZIP)</string>
+    <string name="unlock_for_one_final_day">Desbloqueie o aplicativo por um último dia</string>
+    <string name="cryptocurrency">Criptomoeda</string>
+    <string name="translation_central_kurdish">Curdo Central</string>
+    <string name="translation_chuvash">Chuvache</string>
+    <string name="translation_gujarati">Guzerate</string>
+    <string name="donate_to_fossify">Doe para Fossify</string>
+    <string name="little_to_no_fee">Pouca ou nenhuma taxa</string>
+    <string name="fee_up_to_pct">Taxa de até %1$d%%</string>
+    <string name="platforms">Plataformas</string>
+    <string name="translation_azerbaijani">Azerbaijano</string>
+    <string name="translation_bengali">Bengali</string>
+    <string name="translation_breton">Bretão</string>
+    <string name="translation_esperanto">Esperanto</string>
+    <string name="translation_lithuanian">Lituano</string>
+    <string name="translation_nepali">Nepalês</string>
+    <string name="translation_norwegian">Norueguês</string>
+    <string name="translation_dutch">Holandês</string>
+    <string name="format_phone_numbers">Formatar números de telefone</string>
+    <string name="july_short">Julho</string>
+    <string name="translation_arabic">Árabe</string>
+    <string name="translation_bulgarian">Búlgaro</string>
+    <string name="translation_catalan">Catalão</string>
+    <string name="known_issues">Problemas conhecidos</string>
+    <string name="confirm_storage_access_restricted_text">Devido à restrições do sistema, essa pasta não está disponível.</string>
+    <string name="confirm_storage_access_restricted_text_open_system">Abrir no app do sistema</string>
+    <string name="confirm_storage_access_restricted_text_not_found">Um app do sistema de gerenciador de arquivos não pôde ser encontrado.</string>
+    <string name="days_letter">%dd</string>
+    <string name="more_fossify_apps">Mais apps do Fossify</string>
+    <string name="rate_this_app">Avalie esse app</string>
 </resources>

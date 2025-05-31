@@ -3,6 +3,7 @@ package org.fossify.commons.compose.theme
 import androidx.compose.ui.graphics.Color
 
 val color_primary = Color(0xFF106D1F)
+val color_on_primary = Color.White
 val color_primary_dark = Color(0xFF89CA8D)
 val color_accent = color_primary
 
@@ -183,15 +184,15 @@ val md_deep_purple_700_dark = Color(0xFF412488)
 val md_deep_purple_800_dark = Color(0xFF371F7F)
 val md_deep_purple_900_dark = Color(0xFF251470)
 
-val md_green_100 = Color(0xFFC8E6C9)
-val md_green_200 = Color(0xFFA5D6A7)
-val md_green_300 = Color(0xFF81C784)
-val md_green_400 = Color(0xFF66BB6A)
-val md_green_500 = Color(0xFF4CAF50)
-val md_green_600 = Color(0xFF43A047)
-val md_green_700 = Color(0xFF388E3C)
-val md_green_800 = Color(0xFF2E7D32)
-val md_green_900 = Color(0xFF1B5E20)
+val md_green_100 = Color(0xFFD6EFCA)
+val md_green_200 = Color(0xFFBAE4A8)
+val md_green_300 = Color(0xFF9ED984)
+val md_green_400 = Color(0xFF88D168)
+val md_green_500 = Color(0xFF72C84E)
+val md_green_600 = Color(0xFF64B846)
+val md_green_700 = Color(0xFF50A43B)
+val md_green_800 = Color(0xFF3C8F32)
+val md_green_900 = Color(0xFF106D1F)
 
 val md_green_100_dark = Color(0xFFACDAAE)
 val md_green_200_dark = Color(0xFF89CA8D)

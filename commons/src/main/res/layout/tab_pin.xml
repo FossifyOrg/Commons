@@ -1,25 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <org.fossify.commons.views.PinTab xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/pin_lock_holder"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
-
-    <androidx.appcompat.widget.AppCompatImageView
-        android:id="@+id/pin_lock_icon"
-        android:layout_width="@dimen/medium_icon_size"
-        android:layout_height="@dimen/medium_icon_size"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="@dimen/activity_margin"
-        android:src="@drawable/ic_lock_outlined_vector" />
+    android:layout_height="match_parent">
 
     <org.fossify.commons.views.MyTextView
         android:id="@+id/pin_lock_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/pin_lock_icon"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/activity_margin"
+        android:drawableTop="@drawable/ic_lock_outlined_vector"
+        android:drawablePadding="@dimen/activity_margin"
         android:minLines="2"
         android:paddingLeft="@dimen/activity_margin"
         android:paddingTop="@dimen/activity_margin"
@@ -27,153 +20,141 @@
         android:paddingBottom="@dimen/small_margin"
         android:text="@string/enter_pin"
         android:textAlignment="center"
-        android:textSize="@dimen/bigger_text_size" />
+        android:textSize="@dimen/bigger_text_size"
+        app:layout_constraintBottom_toTopOf="@id/pin_lock_current_pin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <org.fossify.commons.views.MyTextView
         android:id="@+id/pin_lock_current_pin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/pin_lock_title"
-        android:gravity="center"
         android:letterSpacing="1.05"
         android:lines="1"
         android:maxLength="10"
         android:paddingTop="@dimen/small_margin"
         android:paddingBottom="@dimen/small_margin"
+        android:textAlignment="center"
         android:textSize="@dimen/big_text_size"
+        app:layout_constraintBottom_toTopOf="@id/pin_flow"
+        app:layout_constraintTop_toBottomOf="@id/pin_lock_title"
         tools:text="****" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@+id/pin_lock_current_pin"
+    <androidx.constraintlayout.helper.widget.Flow
+        android:id="@+id/pin_flow"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:layout_marginTop="@dimen/activity_margin"
-        android:orientation="vertical">
+        app:constraint_referenced_ids="pin_1,pin_2,pin_3,pin_4,pin_5,pin_6,pin_7,pin_8,pin_9,pin_c,pin_0,pin_ok"
+        app:flow_horizontalGap="@dimen/medium_margin"
+        app:flow_horizontalStyle="spread_inside"
+        app:flow_maxElementsWrap="3"
+        app:flow_verticalGap="@dimen/medium_margin"
+        app:flow_wrapMode="aligned"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="7:6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_min="@dimen/app_lock_view_min_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/pin_lock_current_pin"
+        app:layout_constraintWidth_max="@dimen/app_lock_view_max_size" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:orientation="horizontal">
+    <org.fossify.commons.views.MyTextView
+        android:id="@+id/pin_1"
+        style="@style/PinNumberStyle"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="1"
+        tools:ignore="HardcodedText" />
 
-            <org.fossify.commons.views.MyTextView
-                android:id="@+id/pin_1"
-                style="@style/PinNumberStyle"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="1" />
+    <org.fossify.commons.views.MyTextView
+        android:id="@+id/pin_2"
+        style="@style/PinNumberStyle"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="2"
+        tools:ignore="HardcodedText" />
 
-            <org.fossify.commons.views.MyTextView
-                android:id="@+id/pin_2"
-                style="@style/PinNumberStyle"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="2" />
+    <org.fossify.commons.views.MyTextView
+        android:id="@+id/pin_3"
+        style="@style/PinNumberStyle"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="3"
+        tools:ignore="HardcodedText" />
 
-            <org.fossify.commons.views.MyTextView
-                android:id="@+id/pin_3"
-                style="@style/PinNumberStyle"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="3" />
-        </LinearLayout>
+    <org.fossify.commons.views.MyTextView
+        android:id="@+id/pin_4"
+        style="@style/PinNumberStyle"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="4"
+        tools:ignore="HardcodedText" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:orientation="horizontal">
+    <org.fossify.commons.views.MyTextView
+        android:id="@+id/pin_5"
+        style="@style/PinNumberStyle"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="5"
+        tools:ignore="HardcodedText" />
 
-            <org.fossify.commons.views.MyTextView
-                android:id="@+id/pin_4"
-                style="@style/PinNumberStyle"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="4" />
+    <org.fossify.commons.views.MyTextView
+        android:id="@+id/pin_6"
+        style="@style/PinNumberStyle"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="6"
+        tools:ignore="HardcodedText" />
 
-            <org.fossify.commons.views.MyTextView
-                android:id="@+id/pin_5"
-                style="@style/PinNumberStyle"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="5" />
+    <org.fossify.commons.views.MyTextView
+        android:id="@+id/pin_7"
+        style="@style/PinNumberStyle"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="7"
+        tools:ignore="HardcodedText" />
 
-            <org.fossify.commons.views.MyTextView
-                android:id="@+id/pin_6"
-                style="@style/PinNumberStyle"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="6" />
-        </LinearLayout>
+    <org.fossify.commons.views.MyTextView
+        android:id="@+id/pin_8"
+        style="@style/PinNumberStyle"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="8"
+        tools:ignore="HardcodedText" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:orientation="horizontal">
+    <org.fossify.commons.views.MyTextView
+        android:id="@+id/pin_9"
+        style="@style/PinNumberStyle"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="9"
+        tools:ignore="HardcodedText" />
 
-            <org.fossify.commons.views.MyTextView
-                android:id="@+id/pin_7"
-                style="@style/PinNumberStyle"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="7" />
+    <org.fossify.commons.views.MyTextView
+        android:id="@+id/pin_c"
+        style="@style/PinNumberStyle"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="C"
+        tools:ignore="HardcodedText" />
 
-            <org.fossify.commons.views.MyTextView
-                android:id="@+id/pin_8"
-                style="@style/PinNumberStyle"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="8" />
+    <org.fossify.commons.views.MyTextView
+        android:id="@+id/pin_0"
+        style="@style/PinNumberStyle"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="0"
+        tools:ignore="HardcodedText" />
 
-            <org.fossify.commons.views.MyTextView
-                android:id="@+id/pin_9"
-                style="@style/PinNumberStyle"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="9" />
-        </LinearLayout>
+    <ImageView
+        android:id="@+id/pin_ok"
+        style="@style/PinNumberStyle"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:padding="@dimen/activity_margin"
+        android:scaleType="center"
+        android:src="@drawable/ic_check_vector" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:orientation="horizontal">
-
-            <org.fossify.commons.views.MyTextView
-                android:id="@+id/pin_c"
-                style="@style/PinNumberStyle"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="C" />
-
-            <org.fossify.commons.views.MyTextView
-                android:id="@+id/pin_0"
-                style="@style/PinNumberStyle"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="0" />
-
-            <ImageView
-                android:id="@+id/pin_ok"
-                style="@style/PinNumberStyle"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:padding="@dimen/activity_margin"
-                android:src="@drawable/ic_check_vector" />
-
-        </LinearLayout>
-    </LinearLayout>
 </org.fossify.commons.views.PinTab>

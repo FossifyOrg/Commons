@@ -118,9 +118,9 @@
     <string name="must_make_default_dialer">Pre použitie blokovania čísel musíte nastaviť aplikáciu ako predvolenú pre správu hovorov.</string>
     <string name="set_as_default">Nastaviť ako predvolenú</string>
     <string name="block_confirmation">Ste si istý, že chcete zablokovať \"%s\"?</string>
-    <string name="block_not_stored_calls">Blokovať volania od neuložených kontaktov</string>
+    <string name="block_unknown_calls">Blokovať volania od neuložených kontaktov</string>
     <string name="block_hidden_calls">Blokovať volania od skrytých čísel</string>
-    <string name="block_not_stored_messages">Blokovať správy od neuložených kontaktov</string>
+    <string name="block_unknown_messages">Blokovať správy od neuložených kontaktov</string>
     <string name="block_hidden_messages">Blokovať správy od skrytých čísel</string>
     <string name="add_blocked_number_helper_text">Zadajte číslo, alebo vzor (napr. *12345*, +421*8888) pre blokovanie hovorov a správ z čísel, ktoré spadajú pod daný vzor.</string>
     <string name="must_make_default_caller_id_app">Nedá sa blokovať neznáme čísla bez prístupu ku správe ID.</string>
@@ -259,7 +259,7 @@
     <string name="confirm_storage_access_text">Pre poskytnutie práva na zápis prosím zvoľte na nasledujúcej obrazovke základný priečǐnok SD karty</string>
     <string name="confirm_storage_access_text_sd">Ak nevidíte SD kartu, skúste toto</string>
     <string name="confirm_storage_access_android_text">Prosím povoľte prístup ku zvolenému úložisku na nasledujúcej obrazovke stlačením spodného tlačidla \"Použiť tento priečinok\".</string>
-    <string name="confirm_storage_access_android_text_specific">Prosím povoľte prístup ku \'&lt;b&gt;%s&lt;/b&gt;\' na nasledujúcej obrazovke stlačením spodného tlačidla \"&lt;b&gt;Použiť tento priečinok&lt;/b&gt;\".</string>
+    <string name="confirm_storage_access_android_text_specific">Prosím povoľte prístup ku \'<b>%s</b>\' na nasledujúcej obrazovke stlačením spodného tlačidla \"<b>Použiť tento priečinok</b>\".</string>
     <string name="confirm_create_doc_for_new_folder_text">Pre vytvorenie nového priečinka prosím stlačte \'&lt;b&gt;Uložiť&lt;/b&gt;\' na spodku nasledujúcej obrazovky.</string>
     <string name="confirm_selection">Potvrdiť výber</string>
     <string name="loading">Načítavanie…</string>
@@ -335,7 +335,7 @@
     <string name="undo_changes_confirmation">Ste si istý, že chcete vrátiť zmeny?</string>
     <string name="cannot_be_undone">Táto akcia sa nedá vrátiť späť.</string>
     <string name="save_before_closing">Máte neuložené zmeny. Chcete ich uložiť pred ukončením?</string>
-    <string name="share_colors_success">Farby boli úspešne aktualizované. Bola pridaná nová \'Zdieľaná\' téma, prosím použite ju pri ďalšej úprave farieb.</string>
+    <string name="global_theme_success">Farby boli úspešne aktualizované. Bola pridaná nová \'Zdieľaná\' téma, prosím použite ju pri ďalšej úprave farieb.</string>
     <string name="purchase_thank_you">
         <![CDATA[
             Prosím zakúpte si <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Jednoduché ďakujem</a> na odomknutie tejto funkcie a podporu vývoja. Vďaka!
@@ -634,7 +634,7 @@
     <string name="add_new_sound">Pridať nový zvuk</string>
     <string name="no_sound">Žiadny zvuk</string>
     <string name="during_day_at_hh_mm">Počas dňa o hh:mm</string>
-    <string name="during_day_at">Počas dňa o %02d:%02d</string>
+    <string name="during_day_at">Počas dňa o %1$02d:%2$02d</string>
     <string name="settings">Nastavenia</string>
     <string name="general_settings">Všeobecné</string>
     <string name="color_customization">Úprava farieb</string>
@@ -807,13 +807,9 @@
     <string name="website_label">Pre zdrojové kódy navštívte</string>
     <string name="email_label">Odozvu a návrhy posielajte na</string>
     <string name="upgrade_to_pro">Stiahnuť Pro verziu</string>
-    <string name="more_apps">Viac aplikácií</string>
-    <string name="more_apps_from_us">Viac aplikácií od nás</string>
     <string name="invite_friends">Pozvať priateľov</string>
     <string name="share_text">Ahoj, skús %1$s na %2$s</string>
     <string name="invite_via">Pozvať cez</string>
-    <string name="rate_us">Ohodnotiť aplikáciu</string>
-    <string name="rate">Ohodnotiť</string>
     <string name="donate">Podporiť</string>
     <string name="follow_us">Sledujte nás</string>
     <string name="support">Podpora</string>
@@ -836,13 +832,10 @@
     </string>
     <string name="purchase">Zakúpiť</string>
     <string name="before_asking_question_read_faq">Predtým, ako sa niečo opýtate, si prosím prejdite nastavenia aplikácie a prečítajte Často Kladené Otázky. Možno v nich nájdete svoju odpoveď.</string>
-    <string name="before_rate_read_faq">Predtým, ako nás ohodnotíte, si prosím prejdite nastavenia aplikácie a prečítajte Často Kladené Otázky. Ak máte nejaké problémy, možno v nich nájdete riešenia.</string>
     <string name="make_sure_latest">Taktiež sa uistite, že používate najnovšiu verziu apky.</string>
     <string name="make_sure_upgrade">Taktiež vám dávame na vedomie, že táto verzia apky už nie je vyvíjaná. Pre množstvo vylepšení prejdite na Pro verziu.</string>
     <string name="read_it">Prečítať</string>
     <string name="read_faq">Prečítať FAQ</string>
-    <string name="rate_us_prompt">Zdravím,\n\nzdá sa, že už nejaký čas používate túto aplikáciu a to si veľmi ceníme.\n\nAk Vás môžeme požiadať o láskavosť, prosím ohodnoťte nás na Google Play. Naozaj by nám to veľmi pomohlo.\n\nBez ohľadu na to, ako sa rozhodnete, túto správu už neuvidíte.\n\nVďaka!</string>
-    <string name="rate_our_app">Ohodnoťte našu aplikáciu, prosím :)</string>
     <string name="thank_you">Ďakujeme</string>
     <string name="widget_locked_pro">Widget je uzamknutý.\nNa odomknutie prosím prejdite na Pro verziu.</string>
     <string name="new_app">

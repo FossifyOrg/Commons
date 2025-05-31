@@ -119,10 +119,10 @@
     <string name="import_blocked_numbers">Importuj zablokowane numery</string>
     <string name="must_make_default_dialer">Musisz ustawić tę aplikację jako domyślną aplikację telefonu, aby blokować numery.</string>
     <string name="set_as_default">Ustaw jako domyślną</string>
-    <string name="block_confirmation">Czy zablokować „%s”\?</string>
-    <string name="block_not_stored_calls">Blokuj połączenia od niezapisanych kontaktów</string>
+    <string name="block_confirmation">Czy zablokować „%s”?</string>
+    <string name="block_unknown_calls">Blokuj połączenia od niezapisanych kontaktów</string>
     <string name="block_hidden_calls">Blokuj połączenia od ukrytych numerów</string>
-    <string name="block_not_stored_messages">Blokuj wiadomości od niezapisanych kontaktów</string>
+    <string name="block_unknown_messages">Blokuj wiadomości od niezapisanych kontaktów</string>
     <string name="block_hidden_messages">Blokuj wiadomości od ukrytych numerów</string>
     <string name="add_blocked_number_helper_text">Wprowadź numer lub wzorzec (np. *12345*, +48*8888), aby blokować wszystkie połączenia i wiadomości z numerów pasujących do wzorca</string>
     <string name="must_make_default_caller_id_app">Nie można blokować nieznanych numerów bez uprawnienia do identyfikacji rozmówcy</string>
@@ -190,7 +190,7 @@
     <string name="renaming_folder">Zmienianie nazwy folderu</string>
     <string name="filename_cannot_be_empty">Nazwa pliku nie może być pusta</string>
     <string name="filename_invalid_characters">Nazwa pliku zawiera niedozwolone znaki</string>
-    <string name="filename_invalid_characters_placeholder">Nazwa „%s” zawiera niedozwolone znaki</string>
+    <string name="filename_invalid_characters_placeholder">Nazwa pliku „%s” zawiera niedozwolone znaki</string>
     <string name="extension_cannot_be_empty">Rozszerzenie nie może być puste</string>
     <string name="source_file_doesnt_exist">Plik źródłowy %s nie istnieje</string>
     <string name="prepend_filenames">Poprzedź nazwy plików</string>
@@ -260,7 +260,7 @@
     <string name="confirm_storage_access_text">Wybierz folder główny karty pamięci na następnym ekranie, aby przyznać dostęp.</string>
     <string name="confirm_storage_access_text_sd">Jeśli nie widzisz karty pamięci, spróbuj tego:</string>
     <string name="confirm_storage_access_android_text">Zezwól na dostęp do wybranej pamięci na następnym ekranie, naciskając „Użyj tego folderu” na dole.</string>
-    <string name="confirm_storage_access_android_text_specific">Zezwól na dostęp do „&lt;b&gt;%s&lt;/b&gt;” na następnym ekranie, naciskając „&lt;b&gt;Użyj tego folderu&lt;/b&gt;” na dole.</string>
+    <string name="confirm_storage_access_android_text_specific">Zezwól na dostęp do „<b>%s</b>” na następnym ekranie, naciskając „<b>Użyj tego folderu</b>” na dole.</string>
     <string name="confirm_create_doc_for_new_folder_text">Naciśnij „&lt;b&gt;Zapisz&lt;/b&gt;” na dole następnego ekranu, aby utworzyć nowy folder.</string>
     <string name="confirm_selection">Potwierdź wybór</string>
     <string name="loading">Ładowanie…</string>
@@ -342,9 +342,11 @@
     <string name="apply_to_all_apps">Zastosuj kolory we wszystkich aplikacjach Fossify</string>
     <string name="app_icon_color_warning">Uwaga: Pewne launchery mogą nie obsługiwać prawidłowo zmiany ikon aplikacji. Jeśli ikona zniknie, spróbuj uruchomić aplikację przez Google Play lub przez widżet, jeśli jest dostępny.
         Po uruchomieniu przywróć domyślny zielony kolor ikony (#106D1F). W wyjątkowych przypadkach konieczne może okazać się przeinstalowanie aplikacji.</string>
-    <string name="share_colors_success">Kolory zostały zmienione. Dodano nowy motyw o nazwie „wspólny” — użyj go do aktualizacji kolorystyki we wszystkich Prostych aplikacjach w przyszłości.</string>
+    <string name="global_theme_success">Obecny motyw został zastosowany do wszystkich aplikacji Fossify. Wszelkie przyszłe zmiany tego motywu będą synchronizowane automatycznie.</string>
     <string name="shared_theme_note">Pamiętaj, że nawet jeśli używasz wersji Pro aplikacji, nadal potrzebujesz aplikacji „Fossify Thank You” z powodów technicznych. Zajmuje się ona synchronizacją kolorów.</string>
-    <string name="purchase_thank_you">Aby odblokować tę funkcję (i przy okazji wesprzeć rozwój niniejszej aplikacji), kup aplikację &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. Dzięki!</string>
+    <string name="purchase_thank_you"><![CDATA[
+            Aby odblokować tę funkcję (i przy okazji wesprzeć rozwój niniejszej aplikacji), kup aplikację <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Thank You</a>. Dzięki!
+        ]]></string>
     <string name="light_theme">Jasny</string>
     <string name="dark_theme">Ciemny</string>
     <string name="auto_theme">Automatyczny</string>
@@ -667,7 +669,7 @@
     <string name="add_new_sound">Dodaj nowy dźwięk</string>
     <string name="no_sound">Brak dźwięku</string>
     <string name="during_day_at_hh_mm">W ciągu dnia o hh:mm</string>
-    <string name="during_day_at">W ciągu dnia o %02d:%02d</string>
+    <string name="during_day_at">W ciągu dnia o %1$02d:%2$02d</string>
     <string name="settings">Ustawienia</string>
     <string name="purchase_simple_thank_you">Kup aplikację „Fossify Thank You”</string>
     <string name="general_settings">Ogólne</string>
@@ -876,13 +878,7 @@
 \nGdy będziesz zadowolony(-a) z konfiguracji w wersji Pro, możesz odinstalować starą darmową wersję, ponieważ nie będziesz jej już potrzebować i zapobiegnie to wyświetlaniu tego komunikatu.
 \n
 \nDzięki!</string>
-    <string name="upgraded_from_free_contacts">Witaj,
-\n
-\nWygląda na to, że właśnie uaktualniłeś(-aś) darmową aplikację do płatnej. Jeśli masz jakieś kontakty przechowywane w „%s”, musisz przenieść je ręcznie, eksportując do pliku .vcf w darmowej wersji aplikacji i importując tutaj przez górne menu.
-\n
-\nGdy będziesz zadowolony(-a) z konfiguracji w wersji Pro, możesz odinstalować starą darmową wersję, ponieważ nie będziesz jej już potrzebować i zapobiegnie to wyświetlaniu tego komunikatu.
-\n
-\nDzięki!</string>
+    <string name="upgraded_from_free_contacts">Witaj, \n \nWygląda na to, że właśnie uaktualniłeś(-aś) darmową aplikację do płatnej. Jeśli masz jakieś kontakty przechowywane w „%s”, musisz przenieść je ręcznie, eksportując do pliku .vcf w darmowej wersji aplikacji i importując tutaj przez górne menu. \n \nGdy będziesz zadowolony(-a) z konfiguracji w wersji Pro, możesz odinstalować starą darmową wersję, ponieważ nie będziesz jej już potrzebować i zapobiegnie to wyświetlaniu tego komunikatu. \n \nDzięki!</string>
     <string name="upgraded_from_free_notes">Witaj,
 \n
 \nWygląda na to, że właśnie uaktualniłeś(-aś) darmową aplikację do płatnej. Jeśli chcesz przenieść swoje notatki, musisz zrobić to ręcznie, eksportując je do pliku w darmowej wersji aplikacji i importując tutaj przez górne menu.
@@ -895,13 +891,9 @@
     <string name="website_label">Kod źródłowy można znaleźć na stronie</string>
     <string name="email_label">Wyślij swoje uwagi lub sugestie na:</string>
     <string name="upgrade_to_pro">Uaktualnij do Pro</string>
-    <string name="more_apps">Więcej aplikacji</string>
-    <string name="more_apps_from_us">Więcej naszych aplikacji</string>
     <string name="invite_friends">Zaproponuj aplikację znajomym</string>
     <string name="share_text">Hej! Sprawdź aplikację %1$s na %2$s</string>
     <string name="invite_via">Zaproś za pomocą:</string>
-    <string name="rate_us">Oceń aplikację</string>
-    <string name="rate">Oceń</string>
     <string name="donate">Przekaż datek</string>
     <string name="follow_us">Śledź nas</string>
     <string name="copyright">Wersja %1$s
@@ -917,31 +909,24 @@
     <string name="additional_info">Dodatkowe informacje</string>
     <string name="app_version">Wersja aplikacji: %s</string>
     <string name="device_os">System: %s</string>
-    <string name="donate_please">Witaj,&lt;br&gt;&lt;br&gt; Mamy nadzieję, że aplikacja przypadła Ci do gustu. Jak można zauważyć, nie zawiera reklam, prosimy więc o wsparcie jej rozwoju przez zakup specjalnej aplikacji &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;, co poskutkuje również wyłączeniem tego komunikatu.&lt;br&gt;&lt;br&gt; Dziękujemy!</string>
+    <string name="donate_please"><![CDATA[
+            Witaj,<br><br> Mamy nadzieję, że aplikacja przypadła Ci do gustu. Jak można zauważyć, nie zawiera reklam, prosimy więc o wsparcie jej rozwoju przez zakup specjalnej aplikacji <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Thank You</a>, co poskutkuje również wyłączeniem tego komunikatu.<br><br> Dziękujemy!
+        ]]></string>
     <string name="donate_new">Witaj,&lt;br&gt;&lt;br&gt;Mamy nadzieję, że aplikacja przypadła Ci do gustu. Nie zawiera reklam oraz nie zbieramy Twoich danych, dlatego wesprzyj jej rozwój, kupując &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. Będziesz także mieć odblokowane wszystkie funkcje aplikacji, w tym dostosowywanie kolorów.&lt;br&gt;&lt;br&gt;Dziękujemy!</string>
     <string name="donate_short">Wesprzyj nas, kupując &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;, co również odblokuje wszystkie funkcje aplikacji, w tym dostosowywanie kolorów.</string>
     <string name="purchase">Kup</string>
     <string name="update_thank_you">Zaktualizuj aplikację Fossify Thank You do najnowszej wersji</string>
     <string name="before_asking_question_read_faq">Zanim zadasz pytanie, najpierw sprawdź ustawienia aplikacji i przeczytaj często zadawane pytania. Może znajduje się tam rozwiązanie.</string>
-    <string name="before_rate_read_faq">Zanim nas ocenisz, sprawdź ustawienia aplikacji i przeczytaj często zadawane pytania. Jeśli masz jakieś problemy, może jest tam rozwiązanie.</string>
     <string name="make_sure_latest">Upewnij się też, że używasz najnowszej wersji aplikacji.</string>
     <string name="make_sure_upgrade">Pamiętaj również, że ta wersja aplikacji nie jest już rozwijana. Pobierz wersję Pro, aby uzyskać wiele ulepszeń.</string>
     <string name="read_it">Przeczytaj to</string>
     <string name="read_faq">Przeczytaj FAQ</string>
-    <string name="rate_us_prompt">Witaj!
-\n
-\nWygląda na to, że używasz tej aplikacji już od dłuższego czasu, i naprawdę to doceniamy.
-\n
-\nJeśli możemy poprosić Cię o przysługę, oceń nas w Google Play. To by nam naprawdę bardzo pomogło.
-\n
-\nBez względu na to, jak zdecydujesz, nie zobaczysz tego komunikatu ponownie.
-\n
-\nDzięki!</string>
-    <string name="rate_our_app">Oceń naszą aplikację :)</string>
     <string name="thank_you">Dziękujemy</string>
     <string name="widget_locked_pro">Widżet jest zablokowany.\nUaktualnij do wersji Pro, aby go odblokować.</string>
     <string name="features_locked">Ta funkcja jest zablokowana. Kup &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;, aby odblokować pełną wersję aplikacji.&lt;br&gt;&lt;br&gt;Jest to płatność jednorazowa, a jeśli nie będziesz zadowolony(-a), możemy Ci zwrócić pieniądze.</string>
-    <string name="new_app">Cześć!&lt;br&gt;&lt;br&gt; Dajemy Ci znać, że ostatnio zostało wydanych kilka nowych aplikacji:&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; Możesz je pobrać, naciskając ich nazwy lub ikony.&lt;br&gt;&lt;br&gt; Dzięki!</string>
+    <string name="new_app"><![CDATA[
+            Cześć!<br><br> Dajemy Ci znać, że ostatnio zostało wydanych kilka nowych aplikacji:<br><br> <a href=%1$s>%2$s</a><br><br> <a href=%3$s>%4$s</a><br><br> <a href=%5$s>%6$s</a><br><br> Możesz je pobrać, naciskając ich nazwy lub ikony.<br><br> Dzięki!
+        ]]></string>
     <string name="app_launcher_short">Launcher aplikacji</string>
     <string name="calculator_short">Kalkulator</string>
     <string name="calendar_short">Kalendarz</string>
@@ -1121,11 +1106,7 @@
     <string name="trial_expires_soon">Twój okres próbny wkrótce wygaśnie.</string>
     <string name="unlock_for_one_final_day">Odblokuj aplikację na jeszcze jeden dzień</string>
     <string name="welcome_to_app_name">Witaj w %s!</string>
-    <string name="trial_start_description">Dziękujemy za korzystanie z naszej aplikacji. Możesz używać tej odblokowanej wersji przez <font color="#FFFFFF">%d dni</font>. Po zakończeniu okresu próbnego rozważ uaktualnienie do wersji Pro. Ma ona ogromną liczbę nowych funkcji, nowoczesny wygląd, brak reklam i wiele innych ulepszeń.
-\n
-\nWystarczy, że zapłacisz za nią tylko raz w życiu, a jeśli nie będziesz zadowolony(-a), możesz ją odinstalować i otrzymać zwrot pieniędzy.
-\n
-\nMamy nadzieję, że Ci się spodoba :)</string>
+    <string name="trial_start_description">Dziękujemy za korzystanie z naszej aplikacji. Możesz używać tej odblokowanej wersji przez <font color="#FFFFFF">%d dni</font>. Po zakończeniu okresu próbnego rozważ uaktualnienie do wersji Pro. Ma ona ogromną liczbę nowych funkcji, nowoczesny wygląd, brak reklam i wiele innych ulepszeń. \n \nWystarczy, że zapłacisz za nią tylko raz w życiu, a jeśli nie będziesz zadowolony(-a), możesz ją odinstalować i otrzymać zwrot pieniędzy. \n \nMamy nadzieję, że Ci się spodoba :)</string>
     <string name="trial_end_description">Uaktualnij do wersji Pro, aby w pełni korzystać z aplikacji.
 \n
 \nWystarczy, że zapłacisz za nią tylko raz w życiu, a jeśli nie będziesz zadowolony(-a), możesz ją odinstalować i otrzymać zwrot pieniędzy.
@@ -1150,12 +1131,35 @@
     <string name="album">Album</string>
     <string name="exif">EXIF</string>
     <string name="pin">PIN</string>
-    <string name="seconds_letter">s</string>
-    <string name="minutes_letter">m</string>
-    <string name="hours_letter">h</string>
+    <string name="seconds_letter">%d s</string>
+    <string name="minutes_letter">%d m</string>
+    <string name="hours_letter">%d h</string>
     <string name="usb">USB</string>
     <string name="march_short">mar</string>
     <string name="saturday_letter">S</string>
     <string name="launcher_short">Launcher</string>
     <string name="why_upgrade_pro_version">Pro</string>
+    <string name="translation_esperanto">esperanto</string>
+    <string name="translation_chuvash">czuwaski</string>
+    <string name="translation_gujarati">gudźarati</string>
+    <string name="format_phone_numbers">Formatuj numery telefonów</string>
+    <string name="donate_to_fossify">Wesprzyj Fossify</string>
+    <string name="platforms">Platformy</string>
+    <string name="little_to_no_fee">Niewielka prowizja</string>
+    <string name="fee_up_to_pct">Do %1$d%% prowizji</string>
+    <string name="cryptocurrency">Kryptowaluta</string>
+    <string name="translation_belarusian">białoruski</string>
+    <string name="translation_central_kurdish">środkowokurdyjski</string>
+    <string name="all_fossify_apps">Wszystkie aplikacje Fossify</string>
+    <string name="theme_and_colors">Motyw i kolory</string>
+    <string name="known_issues">Znane problemy</string>
+    <string name="translation_kabyle">kabylski</string>
+    <string name="number_of_items">Liczba elementów</string>
+    <string name="reorder_items_by_dragging">Przeorganizuj elementy przeciągając</string>
+    <string name="days_letter">%d d</string>
+    <string name="confirm_storage_access_restricted_text">Ze względu na ograniczenia systemowe ten folder jest niedostępny.</string>
+    <string name="confirm_storage_access_restricted_text_open_system">Otwórz w aplikacji systemowej</string>
+    <string name="confirm_storage_access_restricted_text_not_found">Nie znaleziono systemowej aplikacji menedżera plików</string>
+    <string name="more_fossify_apps">Więcej aplikacji Fossify</string>
+    <string name="rate_this_app">Oceń tę aplikację</string>
 </resources>

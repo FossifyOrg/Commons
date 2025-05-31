@@ -4,12 +4,17 @@ import android.annotation.SuppressLint
 import android.app.Activity
 import android.app.Dialog
 import android.app.TimePickerDialog
-import android.content.*
+import android.content.ActivityNotFoundException
+import android.content.ComponentName
+import android.content.ContentValues
+import android.content.Context
+import android.content.Intent
 import android.content.Intent.EXTRA_STREAM
 import android.content.pm.ApplicationInfo
 import android.content.pm.PackageManager
 import android.media.RingtoneManager
 import android.net.Uri
+import android.os.Build
 import android.os.Environment
 import android.os.Handler
 import android.os.Looper
@@ -26,6 +31,7 @@ import android.view.WindowManager
 import android.view.inputmethod.InputMethodManager
 import android.widget.EditText
 import android.widget.Toast
+import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AlertDialog
 import androidx.biometric.BiometricPrompt
 import androidx.biometric.auth.AuthPromptCallback
@@ -38,12 +44,50 @@ import org.fossify.commons.R
 import org.fossify.commons.activities.BaseSimpleActivity
 import org.fossify.commons.compose.extensions.DEVELOPER_PLAY_STORE_URL
 import org.fossify.commons.databinding.DialogTitleBinding
-import org.fossify.commons.dialogs.*
+import org.fossify.commons.dialogs.AppSideloadedDialog
+import org.fossify.commons.dialogs.ConfirmationAdvancedDialog
+import org.fossify.commons.dialogs.ConfirmationDialog
+import org.fossify.commons.dialogs.CustomIntervalPickerDialog
+import org.fossify.commons.dialogs.DonateDialog
+import org.fossify.commons.dialogs.RadioGroupDialog
+import org.fossify.commons.dialogs.SecurityDialog
+import org.fossify.commons.dialogs.UpgradeToProDialog
+import org.fossify.commons.dialogs.WhatsNewDialog
+import org.fossify.commons.dialogs.WritePermissionDialog
 import org.fossify.commons.dialogs.WritePermissionDialog.WritePermissionDialogMode
-import org.fossify.commons.helpers.*
-import org.fossify.commons.models.*
+import org.fossify.commons.helpers.CREATE_DOCUMENT_SDK_30
+import org.fossify.commons.helpers.EXTRA_SHOW_ADVANCED
+import org.fossify.commons.helpers.IS_FROM_GALLERY
+import org.fossify.commons.helpers.MINUTE_SECONDS
+import org.fossify.commons.helpers.MyContentProvider.COL_LAST_UPDATED_TS
+import org.fossify.commons.helpers.MyContentProvider.MY_CONTENT_URI
+import org.fossify.commons.helpers.OPEN_DOCUMENT_TREE_FOR_SDK_30
+import org.fossify.commons.helpers.OPEN_DOCUMENT_TREE_OTG
+import org.fossify.commons.helpers.OPEN_DOCUMENT_TREE_SD
+import org.fossify.commons.helpers.PERMISSION_CALL_PHONE
+import org.fossify.commons.helpers.PERMISSION_READ_STORAGE
+import org.fossify.commons.helpers.PROTECTION_FINGERPRINT
+import org.fossify.commons.helpers.REAL_FILE_PATH
+import org.fossify.commons.helpers.REQUEST_EDIT_IMAGE
+import org.fossify.commons.helpers.REQUEST_SET_AS
+import org.fossify.commons.helpers.SIDELOADING_FALSE
+import org.fossify.commons.helpers.SIDELOADING_TRUE
+import org.fossify.commons.helpers.SILENT
+import org.fossify.commons.helpers.ensureBackgroundThread
+import org.fossify.commons.helpers.isOnMainThread
+import org.fossify.commons.helpers.isRPlus
+import org.fossify.commons.helpers.isUpsideDownCakePlus
+import org.fossify.commons.models.AlarmSound
+import org.fossify.commons.models.Android30RenameFormat
+import org.fossify.commons.models.FileDirItem
+import org.fossify.commons.models.RadioItem
+import org.fossify.commons.models.Release
 import org.fossify.commons.views.MyTextView
-import java.io.*
+import java.io.File
+import java.io.FileNotFoundException
+import java.io.FileOutputStream
+import java.io.IOException
+import java.io.OutputStream
 import java.util.TreeSet
 
 fun Activity.appLaunched(appId: String) {
@@ -84,12 +128,6 @@ fun Activity.appLaunched(appId: String) {
     if (baseConfig.appRunCount % 30 == 0 && !isAProApp()) {
         if (!resources.getBoolean(R.bool.hide_google_relations)) {
             showDonateOrUpgradeDialog()
-        }
-    }
-
-    if (baseConfig.appRunCount % 40 == 0 && !baseConfig.wasAppRated) {
-        if (!resources.getBoolean(R.bool.hide_google_relations)) {
-            RateStarsDialog(this)
         }
     }
 }
@@ -143,38 +181,48 @@ fun BaseSimpleActivity.isShowingSAFDialog(path: String): Boolean {
 }
 
 @SuppressLint("InlinedApi")
-fun BaseSimpleActivity.isShowingSAFDialogSdk30(path: String): Boolean {
+fun BaseSimpleActivity.isShowingSAFDialogSdk30(path: String, showRationale: Boolean = true): Boolean {
     return if (isAccessibleWithSAFSdk30(path) && !hasProperStoredFirstParentUri(path)) {
         runOnUiThread {
             if (!isDestroyed && !isFinishing) {
-                val level = getFirstParentLevel(path)
-                WritePermissionDialog(this, WritePermissionDialogMode.OpenDocumentTreeSDK30(path.getFirstParentPath(this, level))) {
-                    Intent(Intent.ACTION_OPEN_DOCUMENT_TREE).apply {
-                        putExtra(EXTRA_SHOW_ADVANCED, true)
-                        putExtra(DocumentsContract.EXTRA_INITIAL_URI, createFirstParentTreeUriUsingRootTree(path))
-                        try {
-                            startActivityForResult(this, OPEN_DOCUMENT_TREE_FOR_SDK_30)
-                            checkedDocumentPath = path
-                            return@apply
-                        } catch (e: Exception) {
-                            type = "*/*"
-                        }
+                if (showRationale) {
+                    val level = getFirstParentLevel(path)
+                    WritePermissionDialog(this, WritePermissionDialogMode.OpenDocumentTreeSDK30(path.getFirstParentPath(this, level))) {
+                        openDocumentTreeSdk30(path)
 
-                        try {
-                            startActivityForResult(this, OPEN_DOCUMENT_TREE_FOR_SDK_30)
-                            checkedDocumentPath = path
-                        } catch (e: ActivityNotFoundException) {
-                            toast(R.string.system_service_disabled, Toast.LENGTH_LONG)
-                        } catch (e: Exception) {
-                            toast(R.string.unknown_error_occurred)
-                        }
                     }
+                } else {
+                    openDocumentTreeSdk30(path)
                 }
             }
         }
         true
     } else {
         false
+    }
+}
+
+@RequiresApi(Build.VERSION_CODES.R)
+private fun BaseSimpleActivity.openDocumentTreeSdk30(path: String) {
+    Intent(Intent.ACTION_OPEN_DOCUMENT_TREE).apply {
+        putExtra(EXTRA_SHOW_ADVANCED, true)
+        putExtra(DocumentsContract.EXTRA_INITIAL_URI, createFirstParentTreeUriUsingRootTree(path))
+        try {
+            startActivityForResult(this, OPEN_DOCUMENT_TREE_FOR_SDK_30)
+            checkedDocumentPath = path
+            return@apply
+        } catch (e: Exception) {
+            type = "*/*"
+        }
+
+        try {
+            startActivityForResult(this, OPEN_DOCUMENT_TREE_FOR_SDK_30)
+            checkedDocumentPath = path
+        } catch (e: ActivityNotFoundException) {
+            toast(R.string.system_service_disabled, Toast.LENGTH_LONG)
+        } catch (e: Exception) {
+            toast(R.string.unknown_error_occurred)
+        }
     }
 }
 
@@ -216,31 +264,29 @@ fun BaseSimpleActivity.isShowingSAFCreateDocumentDialogSdk30(path: String): Bool
     }
 }
 
-fun BaseSimpleActivity.isShowingAndroidSAFDialog(path: String): Boolean {
+fun BaseSimpleActivity.isShowingAndroidSAFDialog(path: String, openInSystemAppAllowed: Boolean = false): Boolean {
     return if (isRestrictedSAFOnlyRoot(path) && (getAndroidTreeUri(path).isEmpty() || !hasProperStoredAndroidTreeUri(path))) {
         runOnUiThread {
             if (!isDestroyed && !isFinishing) {
-                ConfirmationAdvancedDialog(this, "", R.string.confirm_storage_access_android_text, R.string.ok, R.string.cancel) { success ->
-                    if (success) {
-                        Intent(Intent.ACTION_OPEN_DOCUMENT_TREE).apply {
-                            putExtra(EXTRA_SHOW_ADVANCED, true)
-                            putExtra(DocumentsContract.EXTRA_INITIAL_URI, createAndroidDataOrObbUri(path))
-                            try {
-                                startActivityForResult(this, OPEN_DOCUMENT_TREE_FOR_ANDROID_DATA_OR_OBB)
-                                checkedDocumentPath = path
-                                return@apply
-                            } catch (e: Exception) {
-                                type = "*/*"
-                            }
-
-                            try {
-                                startActivityForResult(this, OPEN_DOCUMENT_TREE_FOR_ANDROID_DATA_OR_OBB)
-                                checkedDocumentPath = path
-                            } catch (e: ActivityNotFoundException) {
-                                toast(R.string.system_service_disabled, Toast.LENGTH_LONG)
-                            } catch (e: Exception) {
-                                toast(R.string.unknown_error_occurred)
-                            }
+                if (!openInSystemAppAllowed) {
+                    ConfirmationDialog(
+                        this,
+                        "",
+                        R.string.confirm_storage_access_restricted_text,
+                        positive = android.R.string.ok,
+                        negative = 0
+                    ) {}
+                } else {
+                    ConfirmationAdvancedDialog(
+                        this,
+                        "",
+                        R.string.confirm_storage_access_restricted_text,
+                        R.string.confirm_storage_access_restricted_text_open_system,
+                        R.string.cancel
+                    ) { success ->
+                        if (success) {
+                            val uri = createAndroidDataOrObbUri(path)
+                            launchSystemFileManager(uri)
                         }
                     }
                 }
@@ -248,6 +294,62 @@ fun BaseSimpleActivity.isShowingAndroidSAFDialog(path: String): Boolean {
         }
         true
     } else {
+        false
+    }
+}
+
+/**
+ * Launch system file manager by testing different possible intents depending on the device
+ * Each intent is tested in a OR condition which allows to stop at the first successful one
+ */
+fun BaseSimpleActivity.launchSystemFileManager(uri: Uri) {
+    if (
+        startIntentForUriAction(
+            uri,
+            "android.intent.action.VIEW",
+            ComponentName("com.google.android.documentsui", "com.android.documentsui.files.FilesActivity")
+        ) ||
+        startIntentForUriAction(
+            uri,
+            "android.intent.action.VIEW",
+            ComponentName("com.android.documentsui", "com.android.documentsui.files.FilesActivity")
+        ) ||
+        startIntentForUriAction(
+            uri,
+            "android.intent.action.VIEW",
+            ComponentName("com.android.documentsui", "com.android.documentsui.FilesActivity")
+        ) ||
+        startIntentForUriAction(uri, "android.intent.action.VIEW", null) ||
+        startIntentForUriAction(uri, "android.provider.action.BROWSE", null) ||
+        startIntentForUriAction(uri, "android.provider.action.BROWSE_DOCUMENT_ROOT", null)
+    ) {
+        return
+    } else {
+        toast(R.string.confirm_storage_access_restricted_text_not_found)
+    }
+}
+
+/**
+ * Start the intent
+ * @param uri URI to pass to the intent
+ * @param action Action of the intent
+ * @param componentName Optional ComponentName
+ * @return true if the intent was successful
+ */
+fun BaseSimpleActivity.startIntentForUriAction(
+    uri: Uri,
+    action: String,
+    componentName: ComponentName?
+): Boolean {
+    val intent = Intent(action, uri)
+    if (componentName != null) {
+        intent.setComponent(componentName)
+    }
+    return try {
+        startActivity(intent)
+        true
+    } catch (e: java.lang.Exception) {
+        e.printStackTrace()
         false
     }
 }
@@ -327,7 +429,7 @@ fun Activity.launchViewIntent(url: String) {
     }
 }
 
-fun Activity.redirectToRateUs() {
+fun Activity.launchAppRatingPage() {
     hideKeyboard()
     try {
         launchViewIntent("market://details?id=${packageName.removeSuffix(".debug")}")
@@ -1399,12 +1501,14 @@ fun Activity.handleLockedFolderOpening(path: String, callback: (success: Boolean
     }
 }
 
-fun Activity.updateSharedTheme(sharedTheme: SharedTheme) {
-    try {
-        val contentValues = MyContentProvider.fillThemeContentValues(sharedTheme)
-        applicationContext.contentResolver.update(MyContentProvider.MY_CONTENT_URI, contentValues, null, null)
-    } catch (e: Exception) {
-        showErrorToast(e)
+fun Activity.updateGlobalConfig(contentValues: ContentValues) {
+    ensureBackgroundThread {
+        try {
+            contentValues.put(COL_LAST_UPDATED_TS, System.currentTimeMillis() / 1000)
+            applicationContext.contentResolver.update(MY_CONTENT_URI, contentValues, null, null)
+        } catch (e: Exception) {
+            showErrorToast(e)
+        }
     }
 }
 
@@ -1482,7 +1586,7 @@ fun Activity.setupDialogStuff(
 
             val bgDrawable = when {
                 isBlackAndWhiteTheme() -> resources.getDrawable(R.drawable.black_dialog_background, theme)
-                baseConfig.isUsingSystemTheme -> resources.getDrawable(R.drawable.dialog_you_background, theme)
+                isDynamicTheme() -> resources.getDrawable(R.drawable.dialog_you_background, theme)
                 else -> resources.getColoredDrawableWithColor(R.drawable.dialog_bg, baseConfig.backgroundColor)
             }
 
@@ -1492,7 +1596,7 @@ fun Activity.setupDialogStuff(
     }
 }
 
-fun Activity.getAlertDialogBuilder() = if (baseConfig.isUsingSystemTheme) {
+fun Activity.getAlertDialogBuilder() = if (isDynamicTheme()) {
     MaterialAlertDialogBuilder(this)
 } else {
     AlertDialog.Builder(this)
@@ -1641,5 +1745,15 @@ fun Activity.onApplyWindowInsets(callback: (WindowInsetsCompat) -> Unit) {
         callback(WindowInsetsCompat.toWindowInsetsCompat(insets))
         view.onApplyWindowInsets(insets)
         insets
+    }
+}
+
+fun Activity.overrideActivityTransition(enterAnim: Int, exitAnim: Int, exiting: Boolean = false) {
+    if (isUpsideDownCakePlus()) {
+        val overrideType = if (exiting) Activity.OVERRIDE_TRANSITION_CLOSE else Activity.OVERRIDE_TRANSITION_OPEN
+        overrideActivityTransition(overrideType, enterAnim, exitAnim)
+    } else {
+        @Suppress("DEPRECATION")
+        overridePendingTransition(enterAnim, exitAnim)
     }
 }

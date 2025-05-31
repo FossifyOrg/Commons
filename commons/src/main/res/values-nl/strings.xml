@@ -113,9 +113,9 @@
     <string name="must_make_default_dialer">Maak van deze app de standaard telefoon-app om nummers te kunnen blokkeren.</string>
     <string name="set_as_default">Als standaard instellen</string>
     <string name="block_confirmation">Nummer \"%s\" echt blokkeren\?</string>
-    <string name="block_not_stored_calls">Oproepen van niet-opgeslagen contacten blokkeren</string>
+    <string name="block_unknown_calls">Oproepen van niet-opgeslagen contacten blokkeren</string>
     <string name="block_hidden_calls">Oproepen van verborgen nummers blokkeren</string>
-    <string name="block_not_stored_messages">Berichten van niet-opgeslagen contacten blokkeren</string>
+    <string name="block_unknown_messages">Berichten van niet-opgeslagen contacten blokkeren</string>
     <string name="block_hidden_messages">Berichten van verborgen nummers blokkeren</string>
     <string name="add_blocked_number_helper_text">Voer een nummer of patroon in (bijv. *12345*, +31*8888) om alle oproepen en berichten te blokkeren van nummers die overeenkomen met het patroon.</string>
     <string name="must_make_default_caller_id_app">Kan onbekende nummers niet blokkeren zonder toegang tot beller-ID\'s.</string>
@@ -253,7 +253,7 @@
     <string name="confirm_storage_access_text">Op het volgende scherm schrijfrecht verlenen op de hoofdmap van de SD-kaart</string>
     <string name="confirm_storage_access_text_sd">Probeer het volgende als de SD-kaart niet wordt getoond</string>
     <string name="confirm_storage_access_android_text">Geef de app toegang tot de gekozen map door in het volgende scherm op \'Deze map gebruiken\' te klikken.</string>
-    <string name="confirm_storage_access_android_text_specific">Geef toegang tot \'&lt;b&gt;%s&lt;/b&gt;\' door onderaan in het volgende scherm op \'&lt;b&gt;Deze map gebruiken&lt;/b&gt;\' te drukken.</string>
+    <string name="confirm_storage_access_android_text_specific">Geef toegang tot \'<b>%s</b>\' door onderaan in het volgende scherm op \'<b>Deze map gebruiken</b>\' te drukken.</string>
     <string name="confirm_create_doc_for_new_folder_text">Druk in het volgende scherm onderaan op \'&lt;b&gt;Opslaan&lt;/b&gt;\' om de nieuwe map aan te maken.</string>
     <string name="confirm_selection">Keuze bevestigen</string>
     <string name="loading">Laden…</string>
@@ -307,14 +307,14 @@
     <string name="default_color">Standaard</string>
     <string name="change_color">Kleur wijzigen</string>
     <string name="theme">Thema</string>
-    <string name="changing_color_description">Als een kleur wordt gewijzigd, zal het Aangepaste thema worden gebruikt</string>
+    <string name="changing_color_description">Als een kleur wordt gewijzigd, zal het thema Aangepast worden gebruikt</string>
     <string name="save">Opslaan</string>
     <string name="discard">Negeren</string>
     <string name="undo_changes">Wijzigingen ongedaan maken</string>
     <string name="undo_changes_confirmation">Wijzigingen inderdaad ongedaan maken\?</string>
     <string name="cannot_be_undone">Deze bewerking kan niet ongedaan worden gemaakt.</string>
     <string name="save_before_closing">Er zijn niet opgeslagen wijzigingen. Opslaan voor het afsluiten\?</string>
-    <string name="share_colors_success">Kleuren gewijzigd. Gebruik het nieuwe thema \'Gedeeld\' om de kleuren voor al onze apps aan te passen.</string>
+    <string name="global_theme_success">Het huidige thema is toegepast op alle Fossify apps. Toekomstige aanpassingen zullen automatisch worden doorgevoerd in alle apps.</string>
     <string name="light_theme">Licht</string>
     <string name="dark_theme">Donker</string>
     <string name="auto_theme">Automatisch</string>
@@ -449,7 +449,7 @@
     <string name="minutes_raw">minuten</string>
     <string name="hours_raw">uren</string>
     <string name="days_raw">dagen</string>
-    <string name="hours_letter">u</string>
+    <string name="hours_letter">%du</string>
     <plurals name="seconds">
         <item quantity="one">%d seconde</item>
         <item quantity="other">%d seconden</item>
@@ -565,7 +565,7 @@
     <string name="alarm_goes_off_in">Het alarm zal afgaan over\n%s</string>
     <string name="reminder_triggers_in">De herinnering zal worden getoond over\n%s</string>
     <string name="time_remaining">Resterende tijd:\n%s</string>
-    <string name="alarm_warning">Eerst controleren of het alarm goed werkt. Er kunnen zich problemen voordoen door de batterijbesparing van Android.</string>
+    <string name="alarm_warning">Controleer eerst of het alarm goed werkt. Er kunnen zich problemen voordoen door de batterijbesparing van Android.</string>
     <string name="reminder_warning">Kijk eerst of de herinneringen betrouwbaar werken. Controleer de systeeminstellingen voor batterijoptimalisatie en meldingen om zeker van te zijn dat de app op de achtergrond niet wordt afgesloten of dat de meldingen worden geblokkeerd.</string>
     <string name="notifications_disabled">Meldingen van deze app zijn uitgeschakeld. Ga naar de systeeminstellingen voor deze app om ze in te schakelen.</string>
     <string name="snooze">Sluimeren</string>
@@ -577,7 +577,6 @@
     <string name="add_new_sound">Nieuw geluid toevoegen</string>
     <string name="no_sound">Geen geluid</string>
     <string name="during_day_at_hh_mm">Overdag om uu:mm</string>
-    <string name="during_day_at">Overdag om %02d.%02du</string>
     <string name="settings">Instellingen</string>
     <string name="general_settings">Algemeen</string>
     <string name="color_customization">Kleuren aanpassen</string>
@@ -626,7 +625,7 @@
     <string name="scrolling">Scrollen</string>
     <string name="file_operations">Bestandsbewerkingen</string>
     <string name="recycle_bin">Prullenbak</string>
-    <string name="saving_label">Slaat op</string>
+    <string name="saving_label">Opslaan</string>
     <string name="startup">Opstarten</string>
     <string name="text">Tekst</string>
     <string name="migrating">Migreren</string>
@@ -755,13 +754,9 @@
     <string name="website_label">Bezoek voor de broncodes</string>
     <string name="email_label">Stuur reacties of suggesties naar</string>
     <string name="upgrade_to_pro">Upgraden naar Pro-versie</string>
-    <string name="more_apps">Meer apps</string>
-    <string name="more_apps_from_us">Meer apps van ons</string>
     <string name="invite_friends">Vrienden uitnodigen</string>
     <string name="share_text">Hé, bekijk %1$s eens op %2$s</string>
     <string name="invite_via">Uitnodigen via</string>
-    <string name="rate_us">Beoordeel ons</string>
-    <string name="rate">Beoordelen</string>
     <string name="donate">Doneren</string>
     <string name="follow_us">Volg ons</string>
     <string name="support">Ondersteuning</string>
@@ -775,24 +770,17 @@
     <string name="additional_info">Extra informatie</string>
     <string name="app_version">Versie: %s</string>
     <string name="device_os">Besturingssysteem: %s</string>
-    <string name="donate_please">Hallo,&lt;br&gt;&lt;br&gt;Hopelijk vind je dit een fijne app. Het bevat geen advertenties, maar je kunt de verdere ontwikkeling wel ondersteunen door de app &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Bedankje&lt;/a&gt; aan te schaffen. Het voorkomt ook dat dit venster nog eens verschijnt.&lt;br&gt;&lt;br&gt; Dankjewel!</string>
+    <string name="donate_please"><![CDATA[
+            Hallo,<br><br>
+            Hopelijk vind je dit een fijne app. Het bevat geen advertenties, maar je kunt de verdere ontwikkeling wel ondersteunen door de app <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Bedankje</a> aan te schaffen. Het voorkomt ook dat dit venster nog eens verschijnt.<br><br>
+             Dankjewel!
+        ]]></string>
     <string name="purchase">Kopen</string>
     <string name="before_asking_question_read_faq">Controleer bij problemen eerst de instellingen van de app en neem de Veelgestelde vragen door. Misschien staat de oplossing daar.</string>
-    <string name="before_rate_read_faq">Controleer eerst de app-instellingen en lees de veelgestelde vragen voordat u ons beoordeelt. Als er problemen zijn, staat de oplossing misschien daar.</string>
     <string name="make_sure_latest">Zorg er ook voor dat de laatste versie van de app is geïnstalleerd.</string>
     <string name="make_sure_upgrade">Let erop dat deze app niet meer wordt doorontwikkeld. Installeer de Pro-versie voor nieuwe functies en verbeteringen.</string>
     <string name="read_it">Nu lezen</string>
     <string name="read_faq">Veelgestelde vragen</string>
-    <string name="rate_us_prompt">Hallo,
-\n
-\nhet lijkt erop dat u deze app al een tijdje gebruikt, dat waarderen wij enorm.
-\n
-\nMogen we zo vrij zijn om u te vragen ons een beoordeling te geven op Google Play\? Daarmee helpt u ons enorm.
-\n
-\nDit bericht wordt maar een keer getoond, ongeacht welke keuze u nu maakt.
-\n
-\nHartelijk dank!</string>
-    <string name="rate_our_app">Beoordeel onze app! :)</string>
     <string name="thank_you">Bedankt!</string>
     <string name="widget_locked_pro">De widget is vergrendeld.\nUpgrade naar de Pro-versie om te ontgrendelen.</string>
     <string name="new_app">
@@ -822,7 +810,9 @@
     <string name="sms_messenger_short">Berichten</string>
     <string name="thank_you_short">Bedankt!</string>
     <string name="voice_recorder_short">Geluidsrecorder</string>
-    <string name="sideloaded_app">Het lijkt erop dat deze versie van de app corrupt is. Download de originele versie &lt;a href=%s&gt;hier&lt;/a&gt;.</string>
+    <string name="sideloaded_app"><![CDATA[
+            Het lijkt erop dat deze versie van de app corrupt is. Download de originele versie <a href="%s">hier</a>
+        ]]></string>
     <string name="frequently_asked_questions">Veelgestelde vragen</string>
     <string name="before_asking_question">Lees vóór het insturen van een vraag eerst de</string>
     <string name="faq_1_title_commons">Waarom zie ik de widget van deze app niet in de lijst met widgets?</string>
@@ -939,11 +929,7 @@
     <string name="trial_expires_soon">De proefperiode verloopt binnenkort.</string>
     <string name="unlock_for_one_final_day">Voor nog 1 dag deze app volledig ontgrendelen</string>
     <string name="welcome_to_app_name">Welkom bij %s!</string>
-    <string name="trial_start_description">Bedankt voor de interesse in onze app! Deze proefversie is te gebruiken voor <font color="#FFFFFF">%d dagen</font>. Als de proefperiode is afgelopen, overweeg dan een upgrade naar de Pro-versie. Het bevat geen advertenties en heeft een enorme hoeveelheid nieuwe functies, een modern ontwerp en vele andere verbeteringen.
-\n
-\nWij vragen om een kleine eenmalige betaling, die eenvoudig is terug te draaien indien de Pro-versie niet bevalt.
-\n
-\nVeel plezier! :)</string>
+    <string name="trial_start_description">Bedankt voor de interesse in onze app! Deze proefversie is te gebruiken voor <font color="#FFFFFF">%d dagen</font>. Als de proefperiode is afgelopen, overweeg dan een upgrade naar de Pro-versie. Het bevat geen advertenties en heeft een enorme hoeveelheid nieuwe functies, een modern ontwerp en vele andere verbeteringen. \n \nWij vragen om een kleine eenmalige betaling, die eenvoudig is terug te draaien indien de Pro-versie niet bevalt. \n \nVeel plezier! :)</string>
     <string name="trial_end_description">Om van alle mogelijkheden die deze app biedt gebruik te kunnen maken, is een upgrade naar de Pro-versie aanbevolen.
 \n
 \nWij vragen om een kleine eenmalige betaling, die eenvoudig is terug te draaien indien de Pro-versie niet bevalt.
@@ -955,7 +941,7 @@
     </plurals>
     <string name="deprecated_app">VEROUDERD: Deze versie van de app wordt niet meer onderhouden. De Pro-versie is te vinden op https://play.google.com/store/apps/details\?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">Bij het verwijderen van de app binnen 2 uur na aanschaf wordt het aankoopbedrag automatisch teruggestort. Wilt u op een later tijdstip een terugbetaling, neem dan contact op via hello@fossify.org en het wordt geregeld. Zodoende blijft het gemakkelijk om de app uit te proberen :)</string>
-    <string name="developer_description">Een verzameling eenvoudige open-source Android-apps met widgets, zonder advertenties of onnodige rechten.</string>
+    <string name="developer_description">Een verzameling eenvoudige opensource Android-apps met widgets, zonder advertenties of onnodige rechten.</string>
     <string name="ok">OK</string>
     <string name="later">Later</string>
     <string name="details">Details</string>
@@ -978,7 +964,9 @@
     <string name="exif">EXIF</string>
     <string name="apply_to_all_apps">Kleuren toepassen op alle Fossify apps</string>
     <string name="shared_theme_note">Ook bij gebruik van de Pro-versie van deze app komt Fossify Bedankje nog van pas, omdat het de synchronisatie van het gemeenschappelijke thema verzorgt.</string>
-    <string name="purchase_thank_you">Overweeg om &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Bedankje&lt;/a&gt; aan te schaffen om deze functie te kunnen gebruiken en om verdere ontwikkeling te ondersteunen. Alvast bedankt!</string>
+    <string name="purchase_thank_you"><![CDATA[
+            Overweeg om <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Bedankje</a> aan te schaffen om deze functie te kunnen gebruiken en om verdere ontwikkeling te ondersteunen. Alvast bedankt!
+        ]]></string>
     <string name="system_default">Systeeminstelling</string>
     <string name="show_line_numbers">Regelnummers tonen</string>
     <string name="hide_line_numbers">Regelnummers verbergen</string>
@@ -987,4 +975,69 @@
     <string name="donate_short">Ondersteun ons door de app &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Bedankje&lt;/a&gt; aan te schaffen. Dit zal alle functionaliteit in de apps ontgrendelen.</string>
     <string name="update_thank_you">Update Fossify Bedankje naar de nieuwste versie</string>
     <string name="app_icon_color_warning">Let op: Sommige launchers verwerken het aanpassen van het icoon mogelijk niet goed. Als het icoon verdwijnt, probeer dan de app te starten via Google Play, F-Droid of een widget. Herstel na het starten de groene standaardkleur #106D1F. In extreme gevallen kan het zijn dat de app opnieuw geïnstalleerd moet worden.</string>
+    <string name="copyright">v %1$s
+\nCopyright © Fossify %2$d</string>
+    <string name="seconds_letter">%ds</string>
+    <string name="minutes_letter">%dm</string>
+    <string name="week_number_short">wk.</string>
+    <string name="alarm">Alarm</string>
+    <string name="widgets">Widgets</string>
+    <string name="usb">USB</string>
+    <string name="april">April</string>
+    <string name="september">September</string>
+    <string name="november">November</string>
+    <string name="december">December</string>
+    <string name="january_short">Jan</string>
+    <string name="february_short">Feb</string>
+    <string name="march_short">Maa</string>
+    <string name="april_short">Apr</string>
+    <string name="august_short">Aug</string>
+    <string name="november_short">Nov</string>
+    <string name="september_short">Sep</string>
+    <string name="december_short">Dec</string>
+    <string name="in_april">in April</string>
+    <string name="in_september">in September</string>
+    <string name="in_november">in November</string>
+    <string name="in_december">in December</string>
+    <string name="monday_letter">M</string>
+    <string name="wednesday_letter">W</string>
+    <string name="website">Website</string>
+    <string name="camera_short">Camera</string>
+    <string name="why_upgrade_pro_version">Pro</string>
+    <string name="contributors_label"><![CDATA[
+            Deze lijst bevat de namen van iedereen die aan een app binnen de Fossify suite heeft bijgedragen. Vertalingen worden gedaan door vrijwilligers,
+            dus laat het ons weten als je ook wilt helpen. Lees de instructies <a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file>op deze website</a>, of stuur bij vragen een bericht naar <a href=mailto:hello@fossify.org>hello@fossify.org</a>. Bedankt voor alle bijdragen en andere ondersteuning!
+        ]]></string>
+    <string name="features_locked">Deze functie is vergrendeld. Overweeg het aanschaffen van &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Bedankje&lt;/a&gt; om alle functies in deze app te kunnen gebruiken.&lt;br&gt;&lt;br&gt;Dit is een eenmalige aanschaf met een niet-goed-geld-teruggarantie.</string>
+    <string name="launcher_short">Launcher</string>
+    <string name="faq_6_text_commons">Dit probleem doet zich voor wanneer je launcher het aanpassen van pictogrammen niet volledig ondersteunt. Probeer de app te starten via Google Play of een widget, indien mogelijk. Herstel na het starten de standaard groene icoonkleur #106D1F. In extreme gevallen kan het nodig zijn om de app opnieuw te installeren.</string>
+    <string name="translation_tamil">Tamil</string>
+    <string name="format_phone_numbers">Telefoonnummers automatisch opmaken</string>
+    <string name="little_to_no_fee">Weinig tot geen kosten</string>
+    <string name="platforms">Platformen</string>
+    <string name="donate_to_fossify">Doneer aan Fossify</string>
+    <string name="cryptocurrency">Cryptocurrency</string>
+    <string name="fee_up_to_pct">Kosten tot %1$d%%</string>
+    <string name="translation_hindi">Hindi</string>
+    <string name="translation_welsh">Welsh</string>
+    <string name="translation_esperanto">Esperanto</string>
+    <string name="translation_chuvash">Tsjoevasjisch</string>
+    <string name="translation_gujarati">Gujarati</string>
+    <string name="use_english_language">Use English language</string>
+    <string name="gson_title">Gson (JSON-parser)</string>
+    <string name="translation_belarusian">Wit-Russisch</string>
+    <string name="translation_central_kurdish">Centraal Koerdisch</string>
+    <string name="all_fossify_apps">Alle Fossify apps</string>
+    <string name="theme_and_colors">Thema en kleuren</string>
+    <string name="known_issues">Bekende problemen</string>
+    <string name="during_day_at">Overdag om %1$02d.%2$02du</string>
+    <string name="translation_kabyle">Kabylisch</string>
+    <string name="number_of_items">Aantal items</string>
+    <string name="reorder_items_by_dragging">Items herschikken door te slepen</string>
+    <string name="days_letter">%dd</string>
+    <string name="confirm_storage_access_restricted_text_not_found">Er kon geen systeemapp voor bestandsbeheer worden gevonden.</string>
+    <string name="confirm_storage_access_restricted_text_open_system">Openen in systeemapp</string>
+    <string name="confirm_storage_access_restricted_text">Deze map is door systeembeperkingen niet beschikbaar.</string>
+    <string name="rate_this_app">Beoordeel deze app</string>
+    <string name="more_fossify_apps">Meer Fossify-apps</string>
 </resources>

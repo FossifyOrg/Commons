@@ -114,7 +114,7 @@ private fun buildActionMenuItems(
     )
     if (showMoreApps) {
         list += ActionItem(
-            R.string.more_apps_from_us,
+            R.string.more_fossify_apps,
             doAction = moreAppsFromUs,
             overflowMode = OverflowMode.ALWAYS_OVERFLOW
         )

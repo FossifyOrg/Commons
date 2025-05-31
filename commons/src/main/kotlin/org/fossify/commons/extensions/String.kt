@@ -71,11 +71,12 @@ fun String.getFirstParentPath(context: Context, level: Int): String {
 }
 
 fun String.isAValidFilename(): Boolean {
-    val ILLEGAL_CHARACTERS = charArrayOf('/', '\n', '\r', '\t', '\u0000', '`', '?', '*', '\\', '<', '>', '|', '\"', ':')
-    ILLEGAL_CHARACTERS.forEach {
-        if (contains(it))
-            return false
-    }
+    charArrayOf('/', '\n', '\r', '\t', '\u0000', '`', '?', '*', '\\', '<', '>', '|', '\"', ':')
+        .forEach {
+            if (contains(it))
+                return false
+        }
+
     return true
 }
 
@@ -210,6 +211,7 @@ fun String.highlightTextPart(textToHighlight: String, color: Int, highlightAll: 
     return spannableString
 }
 
+// TODO: Use KMP search algorithm
 fun String.searchMatches(textToHighlight: String): ArrayList<Int> {
     val indexes = arrayListOf<Int>()
     var indexOf = indexOf(textToHighlight, 0, true)
@@ -277,9 +279,18 @@ fun String.getNameLetter() = normalizeString().toCharArray().getOrNull(0)?.toStr
 
 fun String.normalizePhoneNumber() = PhoneNumberUtils.normalizeNumber(this)
 
+fun String.formatPhoneNumber(minimumLength: Int = 4): String {
+    val country = Locale.getDefault().country
+    return if (this.length >= minimumLength) {
+        PhoneNumberUtils.formatNumber(this, country)?.toString() ?: this
+    } else {
+        this
+    }
+}
+
 fun String.highlightTextFromNumbers(textToHighlight: String, primaryColor: Int): SpannableString {
     val spannableString = SpannableString(this)
-    val digits = PhoneNumberUtils.convertKeypadLettersToDigits(this)
+    val digits = KeypadHelper.convertKeypadLettersToDigits(this)
     if (digits.contains(textToHighlight)) {
         val startIndex = digits.indexOf(textToHighlight, 0, true)
         val endIndex = Math.min(startIndex + textToHighlight.length, length)

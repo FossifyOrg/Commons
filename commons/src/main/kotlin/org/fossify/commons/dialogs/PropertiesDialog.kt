@@ -15,6 +15,7 @@ import org.fossify.commons.helpers.*
 import org.fossify.commons.models.FileDirItem
 import org.fossify.commons.views.MyTextView
 import java.io.File
+import java.io.InputStream
 import java.util.*
 
 class PropertiesDialog : BasePropertiesDialog {
@@ -172,22 +173,62 @@ class PropertiesDialog : BasePropertiesDialog {
             }
 
             if (mActivity.baseConfig.appId.removeSuffix(".debug") == "org.fossify.filemanager") {
-                addProperty(R.string.md5, "…", R.id.properties_md5)
-                ensureBackgroundThread {
-                    val md5 = if (mActivity.isRestrictedSAFOnlyRoot(path)) {
-                        mActivity.contentResolver.openInputStream(mActivity.getAndroidSAFUri(path))?.md5()
-                    } else {
-                        File(path).md5()
-                    }
+                calculateAndDisplayHash(
+                    path = path,
+                    labelRes = R.string.md5,
+                    propertyId = R.id.properties_md5,
+                    hashInputStream = { inputStream -> inputStream.md5() },
+                    hashFile = { file -> file.md5() }
+                )
 
-                    mActivity.runOnUiThread {
-                        if (md5 != null) {
-                            (mDialogView.propertiesHolder.findViewById<LinearLayout>(R.id.properties_md5).findViewById<MyTextView>(R.id.property_value)).text =
-                                md5
-                        } else {
-                            mDialogView.propertiesHolder.findViewById<LinearLayout>(R.id.properties_md5).beGone()
-                        }
-                    }
+                calculateAndDisplayHash(
+                    path = path,
+                    labelRes = R.string.sha1,
+                    propertyId = R.id.properties_sha1,
+                    hashInputStream = { inputStream -> inputStream.sha1() },
+                    hashFile = { file -> file.sha1() }
+                )
+
+                calculateAndDisplayHash(
+                    path = path,
+                    labelRes = R.string.sha256,
+                    propertyId = R.id.properties_sha256,
+                    hashInputStream = { inputStream -> inputStream.sha256() },
+                    hashFile = { file -> file.sha256() }
+                )
+            }
+        }
+    }
+
+    /**
+     * Calculate and display hash as a property in the dialog box
+     * @param path Path of the file to check
+     * @param labelRes Label resource to display to the user, e.g. R.string.md5 or R.string.sha1
+     * @param propertyId Technical property, e.g. R.id.properties_md5 or R.id.properties_sha256
+     * @param hashInputStream Pass the result given an InputStream, e.g. { inputStream -> inputStream.md5() }
+     * @param hashFile Pass the result given a File, e.g. { file -> file.md5() }
+     */
+    private fun calculateAndDisplayHash(
+        path: String,
+        labelRes: Int,
+        propertyId: Int,
+        hashInputStream: (InputStream) -> String?,
+        hashFile: (File) -> String?
+    ) {
+        addProperty(labelRes, "…", propertyId)
+        ensureBackgroundThread {
+            val digest = if (mActivity.isRestrictedSAFOnlyRoot(path)) {
+                mActivity.contentResolver.openInputStream(mActivity.getAndroidSAFUri(path))?.let { hashInputStream(it) }
+            } else {
+                hashFile(File(path))
+            }
+
+            mActivity.runOnUiThread {
+                if (digest != null) {
+                    (mDialogView.propertiesHolder.findViewById<LinearLayout>(propertyId).findViewById<MyTextView>(R.id.property_value)).text =
+                        digest
+                } else {
+                    mDialogView.propertiesHolder.findViewById<LinearLayout>(propertyId).beGone()
                 }
             }
         }

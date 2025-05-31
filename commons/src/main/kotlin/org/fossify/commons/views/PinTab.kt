@@ -1,10 +1,12 @@
 package org.fossify.commons.views
 
 import android.content.Context
+import android.content.res.ColorStateList
 import android.util.AttributeSet
 import android.widget.TextView
 import android.widget.Toast
 import androidx.biometric.auth.AuthPromptHost
+import androidx.core.widget.TextViewCompat
 import org.fossify.commons.R
 import org.fossify.commons.databinding.TabPinBinding
 import org.fossify.commons.extensions.*
@@ -47,14 +49,15 @@ class PinTab(context: Context, attrs: AttributeSet) : BaseSecurityTab(context, a
         binding.pinC.setOnClickListener { clear() }
         binding.pinOk.setOnClickListener { confirmPIN() }
         binding.pinOk.applyColorFilter(textColor)
-        binding.pinLockIcon.applyColorFilter(textColor)
+
+        TextViewCompat.setCompoundDrawableTintList(binding.pinLockTitle, ColorStateList.valueOf(textColor))
         maybeShowCountdown()
     }
 
     override fun initTab(
         requiredHash: String,
         listener: HashListener,
-        scrollView: MyScrollView,
+        scrollView: MyScrollView?,
         biometricPromptHost: AuthPromptHost,
         showBiometricAuthentication: Boolean
     ) {

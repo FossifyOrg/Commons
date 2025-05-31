@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="ok">Oke</string>
-    <string name="cancel">Batal</string>
+    <string name="cancel">Batalkan</string>
     <string name="close">Tutup</string>
     <string name="back">Kembali</string>
     <string name="nothing">Tidak ada</string>
-    <string name="later">Kemudian</string>
+    <string name="later">Nanti</string>
     <string name="save_as">Simpan sebagai</string>
     <string name="file_saved">Berkas berhasil disimpan</string>
-    <string name="invalid_file_format">Format berkas tidak valid</string>
-    <string name="out_of_memory_error">Error kehabisan memori</string>
-    <string name="an_error_occurred">Kesalahan: %s</string>
+    <string name="invalid_file_format">Format berkas takvalid</string>
+    <string name="out_of_memory_error">Galat memori habis</string>
+    <string name="an_error_occurred">Terjadi galat: %s</string>
     <string name="open_with">Buka dengan</string>
     <string name="edit_with">Sunting dengan</string>
     <string name="edit">Sunting</string>
     <string name="no_app_found">Tidak ada aplikasi yang sesuai</string>
-    <string name="no_browser_found">Tidak ada peramban yang ditemukan</string>
-    <string name="no_email_client_found">Tidak ada klien email yang ditemukan</string>
-    <string name="set_as">Setel sebagai</string>
+    <string name="no_browser_found">Peramban tidak ditemukan</string>
+    <string name="no_email_client_found">Klien email tidak ditemukan</string>
+    <string name="set_as">Atur sebagai</string>
     <string name="copy_to_clipboard">Salin ke papan klip</string>
     <string name="copy_number_to_clipboard">Salin angka ke papan klip</string>
     <string name="value_copied_to_clipboard">Nilai disalin ke papan klip</string>
@@ -39,13 +39,13 @@
     <string name="playpause">Putar / Jeda</string>
     <string name="next">Berikutnya</string>
     <string name="number">Nomor</string>
-    <string name="no_contacts_found">Tidak ada kontak yang ditemukan</string>
-    <string name="request_the_required_permissions">Meminta izin yang diperlukan</string>
+    <string name="no_contacts_found">Kontak tidak ditemukan</string>
+    <string name="request_the_required_permissions">Memohon izin yang diperlukan</string>
     <string name="no_access_to_contacts">Aplikasi tidak dapat mengakses kontak Anda</string>
-    <string name="no_phone_call_permission">Aplikasi tidak diizinkan untuk memulai panggilan, mohon berikan izin di setelan perangkat</string>
+    <string name="no_phone_call_permission">Aplikasi tidak diizinkan untuk memulai panggilan, mohon berikan izin pada pengaturan perangkat</string>
     <string name="insert_text_here">Masukkan teks di sini</string>
     <string name="call_person">Panggil %s</string>
-    <string name="confirm_calling_person">Konfirmasi memanggil %s</string>
+    <string name="confirm_calling_person">Konfirmasikan untuk memanggil %s</string>
     <string name="zero">Nol</string>
     <string name="one">Satu</string>
     <string name="two">Dua</string>
@@ -59,9 +59,9 @@
     <string name="value">Nilai</string>
     <string name="value_cannot_be_empty">Nilai tidak boleh kosong</string>
     <string name="create_new_contact">Buat kontak baru</string>
-    <string name="add_to_existing_contact">Tambah ke kontak yang ada</string>
-    <string name="app_corrupt">Aplikasi Korup</string>
-    <string name="disclaimer">Peringatan</string>
+    <string name="add_to_existing_contact">Tambah ke kontak yang sudah ada</string>
+    <string name="app_corrupt">Aplikasi Rusak</string>
+    <string name="disclaimer">Penafian</string>
     <string name="take_photo">Ambil foto</string>
     <string name="choose_photo">Pilih foto</string>
     <string name="choose_video">Pilih video</string>
@@ -72,49 +72,49 @@
     <string name="updating">Memperbarui…</string>
     <string name="phone_storage">Penyimpanan telepon</string>
     <string name="phone_storage_hidden">Penyimpanan telepon (tidak terlihat oleh aplikasi lain)</string>
-    <string name="birthday">Ulang tahun</string>
+    <string name="birthday">Hari ulang tahun</string>
     <string name="anniversary">Hari jadi</string>
-    <string name="home">Rumah</string>
+    <string name="home">Beranda</string>
     <string name="work">Kerja</string>
     <string name="mobile">Ponsel</string>
     <string name="main_number">Utama</string>
-    <string name="work_fax">Faks Kerja</string>
-    <string name="home_fax">Faks Rumah</string>
-    <string name="no_phone_number_found">Tidak ada nomor telepon yang ditemukan</string>
+    <string name="work_fax">Faksimile Kerja</string>
+    <string name="home_fax">Faksimile Rumah</string>
+    <string name="no_phone_number_found">Nomor telepon tidak ditemukan</string>
     <string name="change_view_type">Ubah jenis tampilan</string>
-    <string name="grid">Kotak</string>
-    <string name="grid_pro">Kotak (Pro)</string>
-    <string name="uneven_grid">Grid Tidak Rata</string>
+    <string name="grid">Berkotak-kotak</string>
+    <string name="grid_pro">Berkotak-kotak (Pro)</string>
+    <string name="uneven_grid">Tampilan Berkotak-Kotak Tidak Rata</string>
     <string name="list">Daftar</string>
-    <string name="increase_column_count">Tambah jumlah kolom</string>
+    <string name="increase_column_count">Tambahkan jumlah kolom</string>
     <string name="reduce_column_count">Kurangi jumlah kolom</string>
     <string name="column_count">Jumlah kolom</string>
     <string name="portrait_column_count">Jumlah kolom potret</string>
     <string name="landscape_column_count">Jumlah kolom lanskap</string>
-    <string name="change_cover_image">Ubah gambar kover</string>
+    <string name="change_cover_image">Ubah gambar sampul</string>
     <string name="select_photo">Pilih foto</string>
     <string name="manage_blocked_numbers">Kelola nomor yang diblokir</string>
-    <string name="not_blocking_anyone">Anda tidak memblokir siapapun.</string>
+    <string name="not_blocking_anyone">Anda tidak memblokir siapa pun.</string>
     <string name="add_a_blocked_number">Tambahkan nomor yang diblokir</string>
     <string name="block_number">Blokir nomor</string>
     <string name="block_numbers">Blokir nomor</string>
     <string name="blocked_numbers">Nomor yang diblokir</string>
     <string name="export_blocked_numbers">Ekspor nomor terblokir</string>
     <string name="import_blocked_numbers">Impor nomor terblokir</string>
-    <string name="must_make_default_dialer">Anda harus mengatur aplikasi ini sebagai aplikasi dialer default untuk menggunakan fitur pemblokir nomor.</string>
-    <string name="set_as_default">Tetapkan sebagai default</string>
-    <string name="block_confirmation">Yakin untuk memblokir \"%s\"\?</string>
-    <string name="block_not_stored_calls">Blokir panggilan dari kontak yang tidak disimpan</string>
-    <string name="block_not_stored_messages">Blokir pesan dari kontak yang tidak disimpan</string>
-    <string name="add_blocked_number_helper_text">Masukkan nomor atau pola (mis. *12345*, +62*8888) untuk memblokir semua panggilan dan pesan dari nomor yang sesuai dengan pola.</string>
+    <string name="must_make_default_dialer">Untuk menggunakan fitur pemblokir nomor, setel aplikasi ini sebagai aplikasi telepon terpilih.</string>
+    <string name="set_as_default">Tetapkan sebagai aplikasi terpilih</string>
+    <string name="block_confirmation">Anda yakin ingin memblokir \"%s\"?</string>
+    <string name="block_unknown_calls">Blokir panggilan dari kontak yang tak disimpan</string>
+    <string name="block_unknown_messages">Blokir pesan dari nomor yang tidak disimpan</string>
+    <string name="add_blocked_number_helper_text">Masukkan nomor atau pola (mis. *12345*, +62*8888) untuk memblokir semua panggilan dan pesan dari nomor yang sesuai dengan pola ini.</string>
     <string name="must_make_default_caller_id_app">Tidak dapat memblokir nomor yang tidak diketahui tanpa izin ID pemanggil.</string>
     <string name="favorites">Favorit</string>
-    <string name="add_favorites">Tambah favorit</string>
-    <string name="add_to_favorites">Tambah ke favorit</string>
+    <string name="add_favorites">Tambahkan favorit</string>
+    <string name="add_to_favorites">Tambahkan ke favorit</string>
     <string name="remove_from_favorites">Hapus dari favorit</string>
     <string name="search">Cari</string>
-    <string name="search_in_placeholder">Cari dalam %s</string>
-    <string name="type_2_characters">Ketik paling tidak 2 karakter untuk mencari.</string>
+    <string name="search_in_placeholder">Cari di %s</string>
+    <string name="type_2_characters">Untuk memulai pencarian, ketik setidaknya 2 karakter.</string>
     <string name="search_contacts">Cari kontak</string>
     <string name="search_favorites">Cari favorit</string>
     <string name="search_apps">Cari aplikasi</string>
@@ -132,14 +132,14 @@
     <string name="search_text">Cari teks</string>
     <string name="search_conversations">Cari percakapan</string>
     <string name="search_recordings">Cari rekaman</string>
-    <string name="filter_pro">Saring (Pro)</string>
+    <string name="filter_pro">Tapis (Pro)</string>
     <string name="no_items_found">Item tidak ditemukan.</string>
-    <string name="change_filter">Ubah filter</string>
-    <string name="no_storage_permissions">Izin penyimpanan diperlukan</string>
-    <string name="no_contacts_permission">Izin kontak diperlukan</string>
-    <string name="no_camera_permissions">Izin kamera diperlukan</string>
-    <string name="no_audio_permissions">Izin audio diperlukan</string>
-    <string name="no_permission">Tidak ada izin</string>
+    <string name="change_filter">Ubah penapis</string>
+    <string name="no_storage_permissions">Izin penyimpanan dibutuhkan</string>
+    <string name="no_contacts_permission">Izin kontak dibutuhkan</string>
+    <string name="no_camera_permissions">Izin kamera dibutuhkan</string>
+    <string name="no_audio_permissions">Izin audio dibutuhkan</string>
+    <string name="no_permission">Tidak ada izin yang diberikan</string>
     <string name="allow_notifications_reminders">Anda harus memperbolehkan aplikasi untuk menampilkan notifikasi supaya bisa menampilkan pengingat.</string>
     <string name="allow_notifications_files">Anda harus memperbolehkan aplikasi untuk menampilkan notifikasi supaya dapat menampilkan bilah proses.</string>
     <string name="allow_notifications_music_player">Anda harus memperbolehkan aplikasi untuk menampilkan notifikasi supaya dapat memutar lagu.</string>
@@ -292,7 +292,7 @@
     <string name="undo_changes_confirmation">Apakah anda yakin ingin mengurungkan perubahan?</string>
     <string name="cannot_be_undone">Tindakan ini tidak dapat diurungkan.</string>
     <string name="save_before_closing">Perubahan anda belum disimpan. Simpan sebelum keluar?</string>
-    <string name="share_colors_success">Warna berhasil diperbarui. Tema baru dengan nama \'Saling Berbagi\' telah ditambahkan. Kedepannya, silakan gunakan untuk memperbarui semua warna aplikasi.</string>
+    <string name="global_theme_success">Warna berhasil diperbarui. Tema baru dengan nama \'Saling Berbagi\' telah ditambahkan. Kedepannya, silakan gunakan untuk memperbarui semua warna aplikasi.</string>
     <string name="light_theme">Terang</string>
     <string name="dark_theme">Gelap</string>
     <string name="auto_light_dark_theme">Terang / gelap otomatis</string>
@@ -319,7 +319,7 @@
     <string name="stop_showing_hidden">Berhenti tampilkan media tersembunyi</string>
     <string name="maximum_share_reached">Anda tidak bisa membagikan konten sebanyak ini sekaligus</string>
     <string name="empty_and_disable_recycle_bin">Kosongkan dan nonaktifkan Keranjang Sampah</string>
-    <string name="undo">Urungkan</string>
+    <string name="undo">Batalkan</string>
     <string name="redo">Ulangi</string>
     <string name="print">Cetak</string>
     <string name="print_pro">Cetak (Pro)</string>
@@ -460,10 +460,10 @@
         <item quantity="other">%d minggu sebelumnya</item>
     </plurals>
     <plurals name="months_before">
-        <item quantity="other">%d months before</item>
+        <item quantity="other">%d bulan sebelumnya</item>
     </plurals>
     <plurals name="years_before">
-        <item quantity="other">%d years before</item>
+        <item quantity="other">%d tahun sebelumnya</item>
     </plurals>
     <plurals name="by_seconds">
         <item quantity="other">%d detik</item>
@@ -502,7 +502,7 @@
     <string name="add_new_sound">Tambah suara baru</string>
     <string name="no_sound">Tidak ada suara</string>
     <string name="during_day_at_hh_mm">Saat pagi hari pada jj:mm</string>
-    <string name="during_day_at">Saat pagi hari pada %02d:%02d</string>
+    <string name="during_day_at">Saat pagi hari pada %1$02d:%2$02d</string>
     <string name="settings">Pengaturan</string>
     <string name="color_customization">Kustomisasi warna</string>
     <string name="improved_color_customization">Kustomisasi warna ditingkatkan</string>
@@ -704,13 +704,9 @@
     <string name="website_label">Untuk kode sumber kunjungi</string>
     <string name="email_label">Kirim umpanbalik atau saran ke</string>
     <string name="upgrade_to_pro">Tingkatkan ke Pro</string>
-    <string name="more_apps">Aplikasi lainnya</string>
-    <string name="more_apps_from_us">Lebih banyak aplikasi dari kami</string>
     <string name="invite_friends">Undang teman</string>
     <string name="share_text">Hai, cobalah %1$s di %2$s</string>
     <string name="invite_via">Undang via</string>
-    <string name="rate_us">Nilai kami</string>
-    <string name="rate">Nilai</string>
     <string name="donate">Donasi</string>
     <string name="follow_us">Ikuti kami</string>
     <string name="privacy_policy">Kebijakan privasi</string>
@@ -721,21 +717,10 @@
     <string name="device_os">OS perangkat: %s</string>
     <string name="purchase">Beli</string>
     <string name="before_asking_question_read_faq">Sebelum anda bertanya, silakan periksa pengaturan aplikasi dan baca Pertanyaan yang Paling Sering Ditanyakan terlebih dahulu. Mungkin solusi yang anda cari ada di sana.</string>
-    <string name="before_rate_read_faq">Sebelum Anda menilai kami, silakan periksa pengaturan aplikasi dan baca Pertanyaan yang Sering Diajukan terlebih dahulu. Jika Anda memiliki masalah, mungkin solusinya ada di sana.</string>
     <string name="make_sure_latest">Pastikan juga anda menggunakan versi aplikasi terbaru.</string>
     <string name="make_sure_upgrade">Perhatikan juga bahwa versi aplikasi ini tidak lagi dikembangkan, dapatkan versi Pro untuk banyak peningkatan.</string>
     <string name="read_it">Baca</string>
     <string name="read_faq">Baca FAQ</string>
-    <string name="rate_us_prompt">Halo,
-\n
-\nsepertinya Anda sudah cukup lama menggunakan aplikasi ini, dan kami sangat menghargainya.
-\n
-\nJika kami bisa meminta bantuan Anda, tolong beri nilai kami di Google Play. Itu akan sangat membantu kami.
-\n
-\nBagaimanapun Anda memutuskan, Anda tidak akan melihat pesan ini lagi.
-\n
-\nTerima kasih!</string>
-    <string name="rate_our_app">Tolong beri nilai aplikasi kami :)</string>
     <string name="thank_you">Terima kasih</string>
     <string name="widget_locked_pro">Widget terkunci.
 \nHarap tingkatkan ke versi Pro untuk membukanya.</string>
@@ -866,11 +851,7 @@
     <string name="trial_expires_soon">Masa percobaan Anda akan segera berakhir.</string>
     <string name="unlock_for_one_final_day">Buka kunci aplikasi untuk satu hari terakhir</string>
     <string name="welcome_to_app_name">Selamat datang di %s!</string>
-    <string name="trial_start_description">Terima kasih telah menggunakan aplikasi kami. Anda dapat menggunakan versi yang tidak terkunci ini selama <font color="#FFFFFF">%d hari</font>. Setelah uji coba berakhir, harap pertimbangkan untuk meningkatkan ke versi Pro. Ini memiliki sejumlah besar fitur baru, desain modern, tidak ada iklan dan banyak peningkatan lainnya.
-\n
-\nAnda hanya perlu membayarnya sekali seumur hidup dan jika Anda tidak puas, Anda dapat menghapus instalannya dan mendapatkan pengembalian dana.
-\n
-\nSemoga Anda akan menyukainya :)</string>
+    <string name="trial_start_description">Terima kasih telah menggunakan aplikasi kami. Anda dapat menggunakan versi yang tidak terkunci ini selama <font color="#FFFFFF">%d hari</font>. Setelah uji coba berakhir, harap pertimbangkan untuk meningkatkan ke versi Pro. Ini memiliki sejumlah besar fitur baru, desain modern, tidak ada iklan dan banyak peningkatan lainnya. \n \nAnda hanya perlu membayarnya sekali seumur hidup dan jika Anda tidak puas, Anda dapat menghapus instalannya dan mendapatkan pengembalian dana. \n \nSemoga Anda akan menyukainya :)</string>
     <string name="trial_end_description">Silakan tingkatkan ke versi Pro untuk menikmati aplikasi ini sepenuhnya.
 \n
 \nAnda hanya perlu membayarnya sekali seumur hidup dan jika Anda tidak puas, Anda dapat menghapus instalannya dan mendapatkan pengembalian dana.
@@ -879,4 +860,189 @@
     <string name="deprecated_app">TIDAK DIDUKUNG: Versi aplikasi ini tidak lagi dikembangkan, dapatkan versi Pro di https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">Jangan lupa, jika Anda mencopot aplikasi berbayar apa pun dalam waktu 2 jam, uang Anda akan otomatis dikembalikan. Jika Anda ingin pengembalian dilakukan lain waktu, cukup hubungi hello@fossify.org dan Anda akan mendapatkannya. Itu mempermudah Anda untuk mencobanya terlebih dahulu. :)</string>
     <string name="developer_description">Sekelompok aplikasi Android sumber terbuka sederhana dengan widget yang dapat disesuaikan, tanpa iklan dan perizinan yang tidak diperlukan.</string>
+    <string name="email">Surel</string>
+    <string name="error">Galat: %s</string>
+    <string name="label">Label</string>
+    <string name="notifications">Notifikasi</string>
+    <string name="scanning">Memindai…</string>
+    <string name="show_search">Tampilkan bilah pencarian</string>
+    <plurals name="column_counts">
+        <item quantity="other">%d kolom</item>
+    </plurals>
+    <plurals name="row_counts">
+        <item quantity="other">%d baris</item>
+    </plurals>
+    <string name="block_hidden_calls">Blokir panggilan dari nomor yang tersembunyi</string>
+    <string name="block_hidden_messages">Blokir pesan dari nomor yang tersembunyi</string>
+    <string name="block_contact">Blokir kontak</string>
+    <string name="block_contact_success">Kontak diblokir</string>
+    <string name="block_contact_fail">Kontak tidak dapat diblokir</string>
+    <string name="unblock_contact">Batalkan pemblokiran kontak</string>
+    <string name="unblock_contact_success">Kontak batal diblokir</string>
+    <string name="unblock_contact_fail">Tidak dapat membuka blokiran kontak</string>
+    <string name="audio">Audio</string>
+    <string name="otto_title">Otto (bus peristiwa)</string>
+    <string name="translation_chuvash">Chuvash</string>
+    <string name="translation_esperanto">Esperanto</string>
+    <string name="translation_galician">Galicia</string>
+    <string name="translation_basque">Basque</string>
+    <string name="translation_french">Prancis</string>
+    <string name="translation_vietnamese">Vietnam</string>
+    <string name="app_icon_color_warning">Peringatan: Beberapa peluncur tidak dapat menangani perubahan ikon aplikasi dengan benar. Jika ikon hilang, coba luncurkan aplikasi melalui Google Play atau widget jika tersedia. Setelah meluncurkan, pulihkan warna ikon hijau #106D1F bawaan. Dalam kasus tertentu, memasang ulang aplikasi dapat dilakukan.</string>
+    <string name="shared_theme_note">Diingat bahwa walaupun Anda menggunakan versi aplikasi Pro, Anda masih memerlukan Terima Kasih Fossify karena alasan teknis. Ini menangani sinkroniasi warna.</string>
+    <string name="add_number_to_contact">Tambahkan nomor ke kontak</string>
+    <string name="purchase_thank_you">Silakan beli &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Terima Kasih Fossify&lt;/a&gt; untuk membuka fungsi ini dan mendukung pengembangan. Terima kasih!</string>
+    <string name="exif">EXIF</string>
+    <string name="default_color">Bawaan</string>
+    <string name="august_short">Agu</string>
+    <string name="september_short">Sep</string>
+    <string name="october_short">Okt</string>
+    <string name="november_short">Nov</string>
+    <string name="donate_new">Halo,&lt;br&gt;&lt;br&gt;semoga Anda menikmati aplikasinya. Aplikasi ini tidak ada iklan dan kami tidak mengumpulkan data Anda, silakan mendukung pengembangannya dengan membeli aplikasi &lt;a href=\"https://play.google.com/store/apps/details?id=org.fossify.thankyou\"&gt;Terima Kasih Fossify&lt;/a&gt;. Anda juga akan mendapatkan semua fitur aplikasi termasuk kustomisasi warna.&lt;br&gt;&lt;br&gt;Terima kasih!</string>
+    <string name="faq_2_text_commons">Ya, tentu saja. Anda dapat membagikan tentang aplikasi ini atau memberikan masukan dan ulasan yang baik. Anda juga dapat membantu dengan menerjemahkan aplikasi dalam bahasa baru, atau hanya memperbarui beberapa terjemahan yang sudah ada. Panduan penerjemahannya ada di <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">situs web ini</a>, atau hubungi kami di <a href="mailto:hello@fossify.org">hello@fossify.org</a> jika Anda memiliki pertanyaan.</string>
+    <string name="december_short">Des</string>
+    <string name="platforms">Platform</string>
+    <string name="faq_6_text_commons">Isu ini muncul ketika peluncur Anda tidak mendukung kustomisasi ikon secara penuh. Coba luncurkan aplikasi melalui Google Play atau widget jika tersedia. Setelah meluncurkan, pulihkan warna ikon hijau #106D1F bawaan. Dalam beberapa kasus, memasang ulang aplikasi dapat dilakukan.</string>
+    <string name="contributors_label">Daftar ini berisi semua orang yang membantu aplikasi apa pun dalam suite Fossify, tidak hanya yang ini. Penerjemahan ditangani oleh sukarelawan, beri tahu kami jika Anda juga ingin membantu. Panduan penerjemahannya ada di <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">situs web ini</a>, atau hubungi kami di <a href="mailto:hello@fossify.org">hello@fossify.org</a> jika Anda memiliki pertanyaan. Terima kasih kepada semua kontributor dan pendukung lainnya!</string>
+    <string name="translation_indonesian">Indonesia</string>
+    <string name="translation_chinese_hk">Cina (Hong Kong)</string>
+    <string name="translation_italian">Italia</string>
+    <string name="translation_chinese_cn">Cina (Sederhana)</string>
+    <string name="translation_czech">Czech</string>
+    <string name="translation_hebrew">Ibrani</string>
+    <string name="translation_welsh">Welsh</string>
+    <string name="filter">Tapis</string>
+    <string name="allow_location_permission">Anda harus mengizinkan aplikasi mengakses lokasi Anda, jika tidak aplikasinya tidak akan tahu.</string>
+    <string name="update_thank_you">Silakan perbarui Terima Kasih Fossify ke versi terkini</string>
+    <string name="translation_nepali">Nepali</string>
+    <string name="translation_lithuanian">Lituania</string>
+    <string name="translation_norwegian">Norwegia</string>
+    <string name="pager">Pager</string>
+    <string name="row_count">Jumlah baris</string>
+    <string name="allow_full_screen_notifications_reminders">Anda harus mengizinkan aplikasi menampilkan notifikasi layar penuh, jika tidak Anda akan melewatkan pengingat.</string>
+    <string name="allow_full_screen_notifications_incoming_calls">Anda harus mengizinkan aplikasi menampilkan notifikasi layar penuh, jika tidak Anda akan melewatkan panggilan masuk.</string>
+    <string name="allow_alarm_scheduled_messages">Anda harus mengizinkan aplikasi mengakses alarm internal, jika tidak Anda tidak akan dapat mengirim pesan terjadwal.</string>
+    <string name="allow_alarm_sleep_timer">Anda harus mengizinkan aplikasi mengakses alarm internal, jika tidak aplikasinya tidak dapat mati sendiri setelah pewaktu tidur.</string>
+    <string name="folder">Folder</string>
+    <string name="file">Berkas</string>
+    <string name="internal">Internal</string>
+    <string name="internal_storage">Penyimpanan Internal</string>
+    <string name="root">Akar</string>
+    <string name="album">Album</string>
+    <string name="genre">Genre</string>
+    <string name="apply_to_all_apps">Terapkan warna ke semua Aplikasi Fossify</string>
+    <string name="auto_theme">Otomatis</string>
+    <string name="white">Putih</string>
+    <string name="system_default">Bawaan sistem</string>
+    <string name="allow_access_more_media">Perbolehkan akses ke lebih banyak media</string>
+    <string name="view_contact_details">Tampilkan detail kontak</string>
+    <string name="pin_item">Sematkan item</string>
+    <string name="send_email">Kirim surel</string>
+    <string name="contact_details">Detail kontak</string>
+    <string name="add_contact">Tambahkan kontak</string>
+    <string name="show_line_numbers">Tampilkan nomor baris</string>
+    <string name="hide_line_numbers">Sembunyikan nomor baris</string>
+    <string name="unblock">Buka blokir</string>
+    <string name="date_added">Tanggal ditambahkan</string>
+    <string name="full_name">Nama lengkap</string>
+    <string name="more_options">Lebih banyak opsi</string>
+    <string name="deletion_confirmation_short">Hapus %s?</string>
+    <string name="pin">PIN</string>
+    <string name="pin_must_be_4_digits_long">PIN setidaknya harus 4 digit</string>
+    <string name="too_many_incorrect_attempts">Terlalu banyak percobaan pembukaan salah.
+\nCoba lagi dalam %d detik.</string>
+    <string name="empty_password_new">Silakan masukkan kata sandi</string>
+    <string name="enter_password">Masukkan kata sandi</string>
+    <string name="password">Kata sandi</string>
+    <string name="add_password">Tambahkan kata sandi</string>
+    <string name="empty_password">Silakan masukkan kata sandi</string>
+    <string name="invalid_password">Kata sandi alah</string>
+    <string name="seconds_letter">%dd</string>
+    <string name="minutes_letter">%dm</string>
+    <string name="hours_letter">%dj</string>
+    <string name="week_number_short">mg.</string>
+    <string name="alarm">Alarm</string>
+    <string name="purchase_simple_thank_you">Beli Terima Kasih Fossify</string>
+    <string name="general_settings">Umum</string>
+    <string name="notification_sound">Suara notifikasi</string>
+    <string name="medium">Medium</string>
+    <string name="start_week_on">Mulai pekan pada</string>
+    <string name="usb">USB</string>
+    <string name="april">April</string>
+    <string name="september">September</string>
+    <string name="website">Situs web</string>
+    <string name="copyright">v %1$s
+\nHak cipta © Fossify %2$d</string>
+    <string name="support">Dukungan</string>
+    <string name="help_us">Bantu kami</string>
+    <string name="social">Sosial</string>
+    <string name="other">Lainnya</string>
+    <string name="version_placeholder">Versi %s</string>
+    <string name="contacts_short">Kontak</string>
+    <string name="file_manager_short">Pengelola Berkas</string>
+    <string name="other_help">Bantuan lain</string>
+    <string name="translation_arabic">Arabik</string>
+    <string name="translation_azerbaijani">Azerbaijani</string>
+    <string name="translation_bengali">Bengali</string>
+    <string name="translation_breton">Breton</string>
+    <string name="translation_bulgarian">Bulgaria</string>
+    <string name="translation_catalan">Katala</string>
+    <string name="translation_danish">Denmark</string>
+    <string name="translation_english">Inggris</string>
+    <string name="translation_german">Jerman</string>
+    <string name="translation_greek">Yunani</string>
+    <string name="translation_spanish">Spanyol</string>
+    <string name="translation_persian">Persia</string>
+    <string name="translation_finnish">Finlandia</string>
+    <string name="translation_slovenian">Slovenia</string>
+    <string name="translation_serbian">Serbia</string>
+    <string name="zip4j_title">Zip4j (kompresi dan dekompresi ZIP)</string>
+    <plurals name="trial_expires_days">
+        <item quantity="other">Masa uji coba Anda kedaluwarsa dalam %d hari.</item>
+    </plurals>
+    <string name="format_phone_numbers">Format nomor telepon</string>
+    <string name="list_view">Tampilan daftar</string>
+    <string name="contacts_tab">Kontak</string>
+    <string name="files_tab">Berkas</string>
+    <string name="november">November</string>
+    <string name="january_short">Jan</string>
+    <string name="february_short">Feb</string>
+    <string name="march_short">Mar</string>
+    <string name="april_short">Apr</string>
+    <string name="may_short">Mei</string>
+    <string name="june_short">Jun</string>
+    <string name="july_short">Jul</string>
+    <string name="saturday_letter">S</string>
+    <string name="donate_short">Silakan mendukung kami dengan membeli <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Terima Kasih Fossify</a>, ini juga akan membuka semua fitur aplikasi termasuk kustomisasi warna.</string>
+    <string name="features_locked">Fitur ini terkunci, silakan beli &lt;a href=\"https://play.google.com/store/apps/details?id=org.fossify.thankyou\"&gt;Terima Kasih Fossify&lt;/a&gt; untuk membuka aplikasi lengkap.&lt;br&gt;&lt;br&gt;Ini merupakan pembayaran satu kali dan jika Anda masih belum puas, kami dapat mengembalikan dana Anda.</string>
+    <string name="notes_short">Catatan</string>
+    <string name="donate_to_fossify">Berdonasi ke Fossify</string>
+    <string name="little_to_no_fee">Biaya kecil sampai tidak ada</string>
+    <string name="fee_up_to_pct">Biaya sampai %1$d%%</string>
+    <string name="cryptocurrency">Mata uang kripto</string>
+    <string name="translation_gujarati">Gujarati</string>
+    <string name="translation_hindi">Hindi</string>
+    <string name="translation_croatian">Kroasia</string>
+    <string name="translation_hungarian">Hungaria</string>
+    <string name="translation_japanese">Jepang</string>
+    <string name="translation_korean">Korea</string>
+    <string name="translation_dutch">Belanda</string>
+    <string name="translation_polish">Polandia</string>
+    <string name="translation_portuguese">Portugis</string>
+    <string name="translation_romanian">Rumania</string>
+    <string name="translation_russian">Rusia</string>
+    <string name="translation_slovak">Slovak</string>
+    <string name="translation_swedish">Swedia</string>
+    <string name="translation_tamil">Tamil</string>
+    <string name="translation_turkish">Turki</string>
+    <string name="translation_ukrainian">Ukraina</string>
+    <string name="translation_chinese_tw">Cina (Tradisional)</string>
+    <string name="why_upgrade_pro_version">Pro</string>
+    <string name="donate_please">Halo,&lt;br&gt;&lt;br&gt; semoga Anda menikmati aplikasinya. Aplikasi ini tidak ada iklan, silakan mendukung pengembangannya dengan membeli aplikasi &lt;a href=\"https://play.google.com/store/apps/details?id=org.fossify.thankyou\"&gt;Terima Kasih Fossify&lt;/a&gt;, ini juga akan mencegah dialog ini muncul lagi.&lt;br&gt;&lt;br&gt; Terima kasih!</string>
+    <string name="translation_belarusian">Belarusia</string>
+    <string name="translation_central_kurdish">Kurdi Tengah</string>
+    <string name="theme_and_colors">Tema dan warna</string>
+    <string name="all_fossify_apps">Semua aplikasi Fossify</string>
+    <string name="known_issues">Masalah yang diketahui</string>
+    <string name="translation_kabyle">Kabylia</string>
 </resources>

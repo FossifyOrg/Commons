@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="updating">تجدید کر رہا ہے…</string>
+    <string name="phone_storage">ہاتف ذخیرہ</string>
+    <string name="phone_storage_hidden">ہاتف ذخیرہ (دیگر اطلاقیات کیلئے مرئی نہیں)</string>
+</resources>

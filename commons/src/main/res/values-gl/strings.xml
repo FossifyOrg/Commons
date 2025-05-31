@@ -112,8 +112,8 @@
     <string name="must_make_default_dialer">Para facer uso dos números bloqueados, tes que poñer este aplicativo como o marcador telefónico por defecto.</string>
     <string name="set_as_default">Poñer por defecto</string>
     <string name="block_confirmation">Seguro que queres bloquear a \"%s\"?</string>
-    <string name="block_not_stored_calls">Bloquealas chamadas dos contactos non gardados</string>
-    <string name="block_not_stored_messages">Bloquealas mensaxes do contactos non gardados</string>
+    <string name="block_unknown_calls">Bloquealas chamadas dos contactos non gardados</string>
+    <string name="block_unknown_messages">Bloquealas mensaxes do contactos non gardados</string>
     <string name="add_blocked_number_helper_text">Introduce un número ou un patrón (por exemplo, *12345*, +1*8888) para bloquear todalas chamadas e mensaxes dos números que coincidan co patrón.</string>
     <string name="must_make_default_caller_id_app">Non se poden bloquealos números descoñecidos sen o permiso do identificador das chamadas.</string>
     <string name="favorites">Favoritos</string>
@@ -307,7 +307,7 @@
     <string name="undo_changes_confirmation">Seguro que queres desfacer os cambios?</string>
     <string name="cannot_be_undone">Esta acción non se pode desfacer.</string>
     <string name="save_before_closing">Tes cambios sen aplicar. Gardar antes de saír?</string>
-    <string name="share_colors_success">Cores actualizadas correctamente. Engadiuse un novo tema chamado \'Compartido\'. Utilízao para actualizar as cores de todos os aplicativos no futuro.</string>
+    <string name="global_theme_success">Cores actualizadas correctamente. Engadiuse un novo tema chamado \'Compartido\'. Utilízao para actualizar as cores de todos os aplicativos no futuro.</string>
     <string name="light_theme">Claro</string>
     <string name="dark_theme">Escuro</string>
     <string name="auto_light_dark_theme">Auto claro/escuro</string>
@@ -549,7 +549,7 @@
     <string name="add_new_sound">Engadir un novo son</string>
     <string name="no_sound">Silencio</string>
     <string name="during_day_at_hh_mm">Durante o día hh:mm</string>
-    <string name="during_day_at">Durante o día en %02d:%02d</string>
+    <string name="during_day_at">Durante o día en %1$02d:%2$02d</string>
     <string name="settings">Axustes</string>
     <string name="color_customization">Persoaliza a cor</string>
     <string name="improved_color_customization">Persoalización mellorada das cores</string>
@@ -747,13 +747,9 @@
     <string name="website_label">Máis aplicativos sinxelos e código fonte en</string>
     <string name="email_label">Envía os teus comentarios ou suxerencias a</string>
     <string name="upgrade_to_pro">Actualiza a Pro</string>
-    <string name="more_apps">Máis aplicativos</string>
-    <string name="more_apps_from_us">Máis aplicativos nosos</string>
     <string name="invite_friends">Convidar a amigos</string>
     <string name="share_text">Ola, bótalle un ollo a %1$s en %2$s</string>
     <string name="invite_via">Convidar con</string>
-    <string name="rate_us">Califícanos</string>
-    <string name="rate">Valora</string>
     <string name="donate">Doa</string>
     <string name="follow_us">Síguenos</string>
     <string name="support">Soporte</string>
@@ -767,13 +763,10 @@
     <string name="device_os">SO do dispositivo: %s</string>
     <string name="purchase">Comprar</string>
     <string name="before_asking_question_read_faq">Antes de que fagas unha pregunta, primeiro comproba os axustes do app e le as Preguntas Máis Frecuentes. Pode que a solución estea aí.</string>
-    <string name="before_rate_read_faq">Antes de que nos puntúes, primeiro comproba os axustes do app e le as Preguntas Máis Frecuentes. Se tes algún problema, pode que a solución estea aí.</string>
     <string name="make_sure_latest">Asegúrate tamén de que esteas usando a última versión do app.</string>
     <string name="make_sure_upgrade">Teña en conta que esta versión da aplicación xa non se está a desenvolver, obtén a Pro para moitas melloras.</string>
     <string name="read_it">Ler</string>
     <string name="read_faq">Ler Preguntas Máis Frecuentes</string>
-    <string name="rate_us_prompt">Ola,\n\nparece que xa levas un tempo usando este app, e nós apreciámoscho.\n\nSe non che importa, por favor, valóranos no Google Play. Iso axudaríanos moito.\n\nDecidas o que decidas, non volverás ver esta mensaxe de novo.\n\nGrazas!</string>
-    <string name="rate_our_app">Valora o noso app, por favor :)</string>
     <string name="thank_you">Grazas</string>
     <string name="widget_locked_pro">O widget estopaze bloqueado. 
 \nActualiza á versión Pro para desbloquealo.</string>
@@ -944,11 +937,7 @@
     <string name="start_free_trial">Comezala proba gratuíta</string>
     <string name="trial_expires_soon">A túa proba caduca pronto.</string>
     <string name="welcome_to_app_name">Benvido a %s!</string>
-    <string name="trial_start_description">Grazas por usala nosa aplicación. Podes usar esta versión desbloqueada durante <font color="#FFFFFF">%d días</font>. Unha vez que remate a proba, considere actualizalá versión Pro. Ten unha gran cantidade de novas funcións, deseño moderno, sen anuncios e moitas outras melloras.
-\n
-\nSó tes que pagalo unha vez na vida e se non estás satisfeito, podes desinstalalo e obter un reembolso.
-\n
-\nAgardo que vos guste :)</string>
+    <string name="trial_start_description">Grazas por usala nosa aplicación. Podes usar esta versión desbloqueada durante <font color="#FFFFFF">%d días</font>. Unha vez que remate a proba, considere actualizalá versión Pro. Ten unha gran cantidade de novas funcións, deseño moderno, sen anuncios e moitas outras melloras. \n \nSó tes que pagalo unha vez na vida e se non estás satisfeito, podes desinstalalo e obter un reembolso. \n \nAgardo que vos guste :)</string>
     <string name="trial_end_description">Por favor actualizalá versión Pro para gozar da aplicación ao máximo.
 \n
 \nSó tes que pagala unha vez na vida e se non estás satisfeito, podes desinstalala e obter un reembolso.
@@ -961,4 +950,5 @@
     <string name="deprecated_app">OBSOLETA: Esta versión do app xa non se está mantendo, obtén a versión Pro en https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">Non esquezas que se desinstalas calquera app de pago antes de 2 horas, devolveránseche os cartos automáticamente. Se queres unha devolución máis tarde, contáctanos en hello@fossify.org e terala. Isto fai que sexa fácil probala :)</string>
     <string name="developer_description">Un grupo de aplicacións Android sinxelas e de código aberto con widgets persoalizables, sen anuncios e permisos innecesarios.</string>
+    <string name="audio">Audio</string>
 </resources>

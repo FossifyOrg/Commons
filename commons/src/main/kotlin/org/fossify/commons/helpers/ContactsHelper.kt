@@ -834,19 +834,16 @@ class ContactsHelper(val context: Context) {
         }
 
         val accounts = AccountManager.get(context).accounts
-
-        if (context.hasPermission(PERMISSION_READ_SYNC_SETTINGS)) {
-            accounts.forEach {
-                if (ContentResolver.getIsSyncable(it, AUTHORITY) == 1) {
-                    var publicName = it.name
-                    if (it.type == TELEGRAM_PACKAGE) {
-                        publicName = context.getString(R.string.telegram)
-                    } else if (it.type == VIBER_PACKAGE) {
-                        publicName = context.getString(R.string.viber)
-                    }
-                    val contactSource = ContactSource(it.name, it.type, publicName)
-                    sources.add(contactSource)
+        accounts.forEach {
+            if (ContentResolver.getIsSyncable(it, AUTHORITY) > 0) {
+                var publicName = it.name
+                if (it.type == TELEGRAM_PACKAGE) {
+                    publicName = context.getString(R.string.telegram)
+                } else if (it.type == VIBER_PACKAGE) {
+                    publicName = context.getString(R.string.viber)
                 }
+                val contactSource = ContactSource(it.name, it.type, publicName)
+                sources.add(contactSource)
             }
         }
 

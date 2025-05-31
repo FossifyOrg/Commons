@@ -20,12 +20,12 @@ class SecurityDialog(
     private val callback: (hash: String, type: Int, success: Boolean) -> Unit
 ) : HashListener {
     private var dialog: AlertDialog? = null
-    private val view = DialogSecurityBinding.inflate(LayoutInflater.from(activity), null, false)
+    private val binding = DialogSecurityBinding.inflate(LayoutInflater.from(activity), null, false)
     private var tabsAdapter: PasswordTypesAdapter
     private var viewPager: MyDialogViewPager
 
     init {
-        view.apply {
+        binding.apply {
             viewPager = dialogTabViewPager
             viewPager.offscreenPageLimit = 2
             tabsAdapter = PasswordTypesAdapter(
@@ -34,7 +34,7 @@ class SecurityDialog(
                 hashListener = this@SecurityDialog,
                 scrollView = dialogScrollview,
                 biometricPromptHost = AuthPromptHost(activity as FragmentActivity),
-                showBiometricIdTab = shouldShowBiometricIdTab(),
+                showBiometricIdTab = activity.isBiometricAuthSupported(),
                 showBiometricAuthentication = showTabIndex == PROTECTION_FINGERPRINT && isRPlus()
             )
             viewPager.adapter = tabsAdapter
@@ -49,12 +49,12 @@ class SecurityDialog(
             if (showTabIndex == SHOW_ALL_TABS) {
                 val textColor = root.context.getProperTextColor()
 
-                if (shouldShowBiometricIdTab()) {
+                if (activity.isBiometricAuthSupported()) {
                     val tabTitle = if (isRPlus()) R.string.biometrics else R.string.fingerprint
                     dialogTabLayout.addTab(dialogTabLayout.newTab().setText(tabTitle), PROTECTION_FINGERPRINT)
                 }
 
-                if (activity.baseConfig.isUsingSystemTheme) {
+                if (activity.isDynamicTheme()) {
                     dialogTabLayout.setBackgroundColor(activity.resources.getColor(R.color.you_dialog_background_color))
                 } else {
                     dialogTabLayout.setBackgroundColor(root.context.getProperBackgroundColor())
@@ -81,7 +81,7 @@ class SecurityDialog(
             .setOnCancelListener { onCancelFail() }
             .setNegativeButton(R.string.cancel) { _, _ -> onCancelFail() }
             .apply {
-                activity.setupDialogStuff(view.root, this) { alertDialog ->
+                activity.setupDialogStuff(binding.root, this) { alertDialog ->
                     dialog = alertDialog
                 }
             }
@@ -105,14 +105,6 @@ class SecurityDialog(
     private fun updateTabVisibility() {
         for (i in 0..2) {
             tabsAdapter.isTabVisible(i, viewPager.currentItem == i)
-        }
-    }
-
-    private fun shouldShowBiometricIdTab(): Boolean {
-        return if (isRPlus()) {
-            activity.isBiometricIdAvailable()
-        } else {
-            activity.isFingerPrintSensorAvailable()
         }
     }
 }

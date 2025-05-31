@@ -44,7 +44,7 @@
     <string name="no_contacts_found">Keine Kontakte gefunden</string>
     <string name="request_the_required_permissions">Benötigte Berechtigungen anfordern</string>
     <string name="no_access_to_contacts">Die App konnte nicht auf deine Kontakte zugreifen</string>
-    <string name="no_phone_call_permission">Die App hat nicht die Berechtigung, Telefonanrufe zu tätigen, bitte gewähre sie in den Geräteeinstellungen</string>
+    <string name="no_phone_call_permission">Die App hat nicht die Berechtigung, Telefonanrufe zu tätigen, bitte erteile sie in den Geräteeinstellungen</string>
     <string name="insert_text_here">Text hier einfügen</string>
     <string name="call_person">%s anrufen</string>
     <string name="confirm_calling_person">Anruf bestätigen %s</string>
@@ -61,7 +61,7 @@
     <string name="value">Wert</string>
     <string name="value_cannot_be_empty">Wert darf nicht leer sein</string>
     <string name="create_new_contact">Neuen Kontakt erstellen</string>
-    <string name="add_to_existing_contact">Zu einem existierenden Kontakt hinzufügen</string>
+    <string name="add_to_existing_contact">Zu einem bestehenden Kontakt hinzufügen</string>
     <string name="app_corrupt">App beschädigt</string>
     <string name="disclaimer">Haftungsausschluss</string>
     <string name="take_photo">Foto aufnehmen</string>
@@ -115,10 +115,10 @@
     <string name="import_blocked_numbers">Blockierte Nummern importieren</string>
     <string name="must_make_default_dialer">Du musst diese App als Standardtelefonie-App einstellen, um Nummern blockieren zu können.</string>
     <string name="set_as_default">Als Standard auswählen</string>
-    <string name="block_confirmation">„%s“ wirklich blockieren\?</string>
-    <string name="block_not_stored_calls">Anrufe von nicht gespeicherten Kontakten blockieren</string>
+    <string name="block_confirmation">„%s“ wirklich blockieren?</string>
+    <string name="block_unknown_calls">Anrufe von nicht gespeicherten Kontakten blockieren</string>
     <string name="block_hidden_calls">Anrufe von unterdrückten Nummern blockieren</string>
-    <string name="block_not_stored_messages">Nachrichten von nicht gespeicherten Kontakten blockieren</string>
+    <string name="block_unknown_messages">Nachrichten von nicht gespeicherten Kontakten blockieren</string>
     <string name="block_hidden_messages">Nachrichten von unterdrückten Nummern blockieren</string>
     <string name="add_blocked_number_helper_text">Gib eine Nummer oder ein Muster (z. B. *12345*, +1*8888) ein, um alle Anrufe und Nachrichten von Nummern zu blockieren, die dem Muster entsprechen.</string>
     <string name="must_make_default_caller_id_app">Unbekannte Nummern können ohne Anrufer-ID-Berechtigung nicht blockiert werden.</string>
@@ -139,7 +139,7 @@
     <string name="search_contacts">Kontakte durchsuchen</string>
     <string name="search_favorites">Favoriten durchsuchen</string>
     <string name="search_apps">Apps durchsuchen</string>
-    <string name="search_events">Ereignisse durchsuchen</string>
+    <string name="search_events">Termine durchsuchen</string>
     <string name="search_groups">Gruppen durchsuchen</string>
     <string name="search_history">Verlauf durchsuchen</string>
     <string name="search_calls">Anrufe durchsuchen</string>
@@ -186,7 +186,7 @@
     <string name="filename_invalid_characters">Dateiname enthält ungültige Zeichen</string>
     <string name="filename_invalid_characters_placeholder">Dateiname ‚%s‘ enthält ungültige Zeichen</string>
     <string name="extension_cannot_be_empty">Dateiendung darf nicht leer sein</string>
-    <string name="source_file_doesnt_exist">Quelldatei ‚%s‘ existiert nicht</string>
+    <string name="source_file_doesnt_exist">Quelldatei „%s“ existiert nicht</string>
     <string name="prepend_filenames">Text dem Dateinamen voranstellen</string>
     <string name="append_filenames">Text dem Dateinamen anhängen</string>
     <string name="simple_renaming">Einfaches Umbenennen</string>
@@ -236,18 +236,18 @@
     <string name="folder">Ordner</string>
     <string name="file">Datei</string>
     <string name="create_new_folder">Neuen Ordner erstellen</string>
-    <string name="name_taken">Ordner oder Datei mit diesem Namen existiert bereits</string>
+    <string name="name_taken">Ein Ordner oder eine Datei mit diesem Namen existiert bereits</string>
     <string name="invalid_name">Der Name enthält unerlaubte Zeichen</string>
     <string name="empty_name">Bitte einen Namen angeben</string>
     <string name="unknown_error_occurred">Ein unbekannter Fehler ist aufgetreten</string>
     <string name="file_already_exists">Datei \"%s\" existiert bereits</string>
-    <string name="file_already_exists_overwrite">Datei \"%s\" existiert bereits. Überschreiben?</string>
-    <string name="folder_already_exists">Ordner \"%s\" existiert bereits</string>
+    <string name="file_already_exists_overwrite">Datei „%s“ existiert bereits. Überschreiben?</string>
+    <string name="folder_already_exists">Ordner „%s“ existiert bereits</string>
     <string name="merge">Zusammenführen</string>
     <string name="keep_both">Beide behalten</string>
     <string name="overwrite">Überschreiben</string>
     <string name="skip">Überspringen</string>
-    <string name="append">\"_1\" anhängen</string>
+    <string name="append">„_1“ anhängen</string>
     <string name="apply_to_all">Bei allen Konflikten anwenden</string>
     <string name="system_folder_restriction">Das System lässt den Vorgang in diesem Ordner nicht zu, bitte einen anderen Ordner wählen</string>
     <string name="system_folder_copy_restriction">Das System lässt das Kopieren in diesen Ordner nicht zu, bitte einen anderen Ordner wählen</string>
@@ -258,10 +258,10 @@
     <string name="select_file">Datei auswählen</string>
     <string name="confirm_storage_access_title">Bitte Zugriff auf externen Speicher bestätigen</string>
     <string name="confirm_folder_access_title">Ordnerzugriff bestätigen</string>
-    <string name="confirm_storage_access_text">Bitte am nächsten Bildschirm das Hauptverzeichnis der SD-Karte auswählen, um Schreibzugriff zu erlauben</string>
+    <string name="confirm_storage_access_text">Bitte am nächsten Bildschirm das Hauptverzeichnis der SD-Karte auswählen, um Schreibzugriff zu gewähren</string>
     <string name="confirm_storage_access_text_sd">Wenn die SD-Karte nicht angezeigt wird, Folgendes versuchen</string>
     <string name="confirm_storage_access_android_text">Bitte am unteren Rand des nächsten Bildschirms der App durch Drücken auf „Diesen Ordner verwenden“ den Zugriff auf den ausgewählten Speicher gewähren.</string>
-    <string name="confirm_storage_access_android_text_specific">Bitte auf dem nächsten Bildschirm durch Drücken auf „<b>Diesen Ordner verwenden</b>“ am unteren Bildschirmrand den Zugriff auf „<b>%s</b>“ gewähren.</string>
+    <string name="confirm_storage_access_android_text_specific">Bitte den Zugriff auf „<b>%s</b>“ gewähren, indem im nächsten Bildschirm unten auf „<b>Diesen Ordner verwenden</b>“ gedrückt wird.</string>
     <string name="confirm_create_doc_for_new_folder_text">Bitte am unteren Rand des nächsten Bildschirms auf „<b>Speichern</b>“ drücken, um den neuen Ordner zu erstellen.</string>
     <string name="confirm_selection">Auswahl bestätigen</string>
     <string name="loading">Wird geladen …</string>
@@ -307,14 +307,14 @@
     <string name="f_number">Blendenzahl</string>
     <string name="camera">Kamera</string>
     <string name="song_title">Liedtitel</string>
-    <string name="gps_coordinates">GPS Koordinaten</string>
+    <string name="gps_coordinates">GPS-Koordinaten</string>
     <string name="altitude">Höhe</string>
-    <string name="remove_exif">EXIF Daten entfernen</string>
-    <string name="remove_exif_confirmation">Sollen wirklich alle EXIF-Daten, wie z. B. GPS Koordinaten oder Kameramodell, entfernt werden\?</string>
-    <string name="exif_removed">EXIF Daten erfolgreich entfernt</string>
+    <string name="remove_exif">Exif-Daten entfernen</string>
+    <string name="remove_exif_confirmation">Sollen wirklich alle Exif-Daten, wie z. B. GPS-Koordinaten oder Kameramodell, entfernt werden?</string>
+    <string name="exif_removed">Exif-Daten erfolgreich entfernt</string>
     <string name="background_color">Hintergrundfarbe</string>
     <string name="text_color">Schriftfarbe</string>
-    <string name="primary_color">Primäre Farbe</string>
+    <string name="primary_color">Primärfarbe</string>
     <string name="accent_color_white">Akzentfarbe des weißen Farbschemas</string>
     <string name="accent_color_black_and_white">Akzentfarbe des Schwarz-Weiß-Farbschemas</string>
     <string name="foreground_color">Vordergrundfarbe</string>
@@ -334,9 +334,11 @@
     <string name="save_before_closing">Du hast ungespeicherte Änderungen. Speichern vor dem Beenden?</string>
     <string name="apply_to_all_apps">Farben auf alle Fossify-Apps anwenden</string>
     <string name="app_icon_color_warning">Achtung! Bestimmte Launcher können das Anpassen von App-Symbolen nicht richtig verarbeiten. Wenn das Symbol verschwindet, versuche, falls möglich, die App über Google Play oder ein Widget zu starten. Stelle nach dem Start die grüne Standard-Symbolfarbe #106D1F wieder her. In extremen Fällen kann es notwendig sein, die App neu zu installieren.</string>
-    <string name="share_colors_success">Farben erfolgreich aktualisiert. Ein neues Farbschema „Geteilt“ wurde hinzugefügt, bitte verwende dieses, um für alle Apps die Farben zu ändern.</string>
+    <string name="global_theme_success">Das aktuelle Farbschema wurde erfolgreich auf alle Fossify-Apps angewendet. Alle zukünftigen Änderungen an diesem Farbschema werden automatisch synchronisiert.</string>
     <string name="shared_theme_note">Beachte, dass du aus technischen Gründen immer noch Fossify Thank You benötigst, auch wenn du die Pro-App-Version verwendest. Es kümmert sich um die Farbsynchronisation.</string>
-    <string name="purchase_thank_you">Bitte kaufe &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Dankeschön&lt;/a&gt; um diese Funktion freizuschalten und die Entwicklung zu unterstützen. Danke!</string>
+    <string name="purchase_thank_you"><![CDATA[
+            Bitte kaufe <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> um diese Funktion freizuschalten und die Entwicklung zu unterstützen. Danke!
+        ]]></string>
     <string name="light_theme">Hell</string>
     <string name="dark_theme">Dunkel</string>
     <string name="auto_light_dark_theme">Auto hell / dunkel</string>
@@ -344,7 +346,7 @@
     <string name="dark_red">Dunkelrot</string>
     <string name="white">Weiß</string>
     <string name="black_white">Schwarz-Weiß</string>
-    <string name="custom">Benutzerdefiniert</string>
+    <string name="custom">Individuell</string>
     <string name="shared">Geteilt</string>
     <string name="system_default">Systemvorgabe</string>
     <string name="whats_new">Neue Funktionen</string>
@@ -363,7 +365,7 @@
     <string name="unhide_folder">Ordner nicht verstecken</string>
     <string name="temporarily_show_hidden">Verstecktes temporär anzeigen</string>
     <string name="stop_showing_hidden">Verstecktes wieder verbergen</string>
-    <string name="allow_access_more_media">Zugriff auf mehr Medien erlauben</string>
+    <string name="allow_access_more_media">Zugriff auf weitere Medien erlauben</string>
     <string name="maximum_share_reached">So viel Inhalt kann nicht auf einmal geteilt werden</string>
     <string name="empty_and_disable_recycle_bin">Papierkorb leeren und deaktivieren</string>
     <string name="undo">Rückgängig</string>
@@ -387,7 +389,7 @@
     <string name="call">Anrufen</string>
     <string name="contact_details">Kontaktdetails</string>
     <string name="add_contact">Kontakt hinzufügen</string>
-    <string name="wallpapers">Bildschirmhintergründe</string>
+    <string name="wallpapers">Hintergrundbilder</string>
     <string name="show_line_numbers">Zeilennummern anzeigen</string>
     <string name="hide_line_numbers">Zeilennummern ausblenden</string>
     <string name="sleep_timer">Sleeptimer</string>
@@ -471,9 +473,9 @@
     <string name="minutes_raw">Minuten</string>
     <string name="hours_raw">Stunden</string>
     <string name="days_raw">Tage</string>
-    <string name="seconds_letter">Sek.</string>
-    <string name="minutes_letter">Min.</string>
-    <string name="hours_letter">Std.</string>
+    <string name="seconds_letter">%dSek.</string>
+    <string name="minutes_letter">%dMin.</string>
+    <string name="hours_letter">%dStd.</string>
     <string name="week_number_short">KW</string>
     <plurals name="seconds">
         <item quantity="one">%d Sekunde</item>
@@ -604,14 +606,14 @@
     <string name="add_new_sound">Neuen Ton hinzufügen</string>
     <string name="no_sound">Stumm</string>
     <string name="during_day_at_hh_mm">Tagsüber um hh:mm</string>
-    <string name="during_day_at">Tagsüber am %02d:%02d</string>
+    <string name="during_day_at">Tagsüber am %1$02d:%2$02d</string>
     <string name="settings">Einstellungen</string>
     <string name="purchase_simple_thank_you">Fossify Thank You kaufen</string>
     <string name="general_settings">Allgemein</string>
     <string name="color_customization">Farbanpassung</string>
     <string name="improved_color_customization">Verbesserte Farbanpassung</string>
     <string name="customize_colors">Farben anpassen</string>
-    <string name="customize_colors_locked">Farben anpassen (Locked)</string>
+    <string name="customize_colors_locked">Farben anpassen (Gesperrt)</string>
     <string name="feature_locked">Gesperrt</string>
     <string name="customize_widget_colors">Widget-Farben anpassen</string>
     <string name="customize_notifications">Benachrichtigungen anpassen</string>
@@ -626,11 +628,11 @@
     <string name="extra_large">Sehr groß</string>
     <string name="password_protect_hidden_items">Versteckte Elemente mit Muster/PIN schützen</string>
     <string name="password_protect_whole_app">Gesamte App mit Passwort schützen</string>
-    <string name="password_protect_file_deletion">Mit Passwort vor Dateilöschung und -verschiebung schützen</string>
-    <string name="keep_last_modified">Altes Änderungsdatum bei Dateioperationen behalten</string>
+    <string name="password_protect_file_deletion">Mit Passwort vor Löschen und Verschieben schützen</string>
+    <string name="keep_last_modified">Altes Änderungsdatum bei Dateioperationen beibehalten</string>
     <string name="show_info_bubble">Beim Scrollen mit dem Scrollbalken Infofenster anzeigen</string>
     <string name="prevent_phone_from_sleeping">Verhindern, dass das Gerät in den Ruhemodus wechselt, solange die App im Vordergrund läuft</string>
-    <string name="skip_delete_confirmation">Keinen Löschen-bestätigen-Dialog anzeigen</string>
+    <string name="skip_delete_confirmation">Beim Löschen keinen Bestätigungsdialog anzeigen</string>
     <string name="enable_pull_to_refresh">„Auffrischen“ durch Ziehen von der oberen Kante aktivieren</string>
     <string name="use_24_hour_time_format">24-Stunden-Zählung verwenden</string>
     <string name="change_date_and_time_format">Datums- und Zeitformat ändern</string>
@@ -677,7 +679,7 @@
     <string name="favorites_tab">Favoriten</string>
     <string name="call_history_tab">Anrufliste</string>
     <string name="groups_tab">Gruppen</string>
-    <string name="last_used_tab">Zuletzt verwendeter Tab</string>
+    <string name="last_used_tab">Zuletzt verwendet</string>
     <string name="files_tab">Dateien</string>
     <string name="recent_files_tab">Letzte Dateien</string>
     <string name="restore_this_file">Diese Datei wiederherstellen</string>
@@ -718,7 +720,7 @@
 \n%h – Stunde
 \n%m – Minute
 \n%s – Sekunde</string>
-    <string name="usb_detected">Es sieht so aus, als hättest du ein USB-Gerät an dein Gerät angeschlossen. Du musst zusätzliche Berechtigungen gewähren, damit die Dateien korrekt angezeigt werden.</string>
+    <string name="usb_detected">Es sieht so aus, als hättest du ein USB-Gerät an dein Gerät angeschlossen. Du musst zusätzliche Berechtigungen erteilen, damit die Dateien korrekt angezeigt werden.</string>
     <string name="confirm_usb_storage_access_text">Bitte das Hauptverzeichnis des USB-Geräts auf der folgenden Seite wählen, um Zugriff zu gewähren</string>
     <string name="wrong_root_selected_usb">Falscher Ordner gewählt, bitte das Hauptverzeichnis des USB-Geräts wählen</string>
     <string name="january">Januar</string>
@@ -798,13 +800,7 @@
 \nSobald du mit deiner Einrichtung in der Pro-Version zufrieden bist, kannst du die alte kostenlose Version deinstallieren, da du sie nicht mehr benötigst. Das verhindert auch, dass dieser Dialog angezeigt wird.
 \n
 \nVielen Dank!</string>
-    <string name="upgraded_from_free_contacts">Hallo,
-\n
-\nes sieht so aus, als ob du gerade ein Upgrade von der kostenlosen Version durchgeführt hast. Wenn du Kontakte unter \"%s\" gespeichert hast, musst du diese manuell migrieren, indem du sie in der kostenlosen App-Version in eine .vcf-Datei exportierst und hier über das obere Menü importierst.
-\n
-\nSobald du mit deiner Einrichtung in der Pro-Version zufrieden bist, kannst du die alte kostenlose Version deinstallieren, da du sie nicht mehr benötigst. Das verhindert auch, dass dieser Dialog angezeigt wird.
-\n
-\nVielen Dank!</string>
+    <string name="upgraded_from_free_contacts">Hallo, \n \nes sieht so aus, als ob du gerade ein Upgrade von der kostenlosen Version durchgeführt hast. Wenn du Kontakte unter „%s“ gespeichert hast, musst du diese manuell migrieren, indem du sie in der kostenlosen App-Version in eine .vcf-Datei exportierst und hier über das obere Menü importierst. \n \nSobald du mit deiner Einrichtung in der Pro-Version zufrieden bist, kannst du die alte kostenlose Version deinstallieren, da du sie nicht mehr benötigst. Das verhindert auch, dass dieser Dialog angezeigt wird. \n \nVielen Dank!</string>
     <string name="upgraded_from_free_notes">Hallo,
 \n
 \nes sieht so aus, als ob du gerade ein Upgrade von der kostenlosen Version durchgeführt hast. Wenn du deine Notizen migrieren möchtest, musst du dies manuell durchführen, indem du sie in der kostenlosen App-Version in eine Datei exportierst und hier über das obere Menü importierst.
@@ -816,13 +812,9 @@
     <string name="website_label">Weitere schlichte Apps und Quellcode siehe</string>
     <string name="email_label">Vorschläge und Feedback bitte senden an</string>
     <string name="upgrade_to_pro">Upgrade auf Pro</string>
-    <string name="more_apps">Weitere Apps</string>
-    <string name="more_apps_from_us">Weitere Apps von uns</string>
     <string name="invite_friends">Freunde einladen</string>
     <string name="share_text">Hey, wirf mal einen Blick auf %1$s: %2$s</string>
     <string name="invite_via">Einladen via</string>
-    <string name="rate_us">Bewerte uns im Play Store</string>
-    <string name="rate">Bewertung</string>
     <string name="donate">Spenden</string>
     <string name="follow_us">Folge uns</string>
     <string name="support">Unterstützung</string>
@@ -837,32 +829,29 @@
     <string name="device_os">Betriebssystem: %s</string>
     <string name="purchase">Kaufen</string>
     <string name="before_asking_question_read_faq">Bevor du eine Frage stellst, überprüfe bitte die App-Einstellungen und lies dir die häufig gestellten Fragen (FAQ) durch. Vielleicht findest du dort eine Lösung.</string>
-    <string name="before_rate_read_faq">Bevor du eine Bewertung abgibst, schaue bitte in die Einstellungen der App und lies dir die häufig gestellten Fragen (FAQ) durch. Vielleicht findest du dort eine Lösung.</string>
     <string name="make_sure_latest">Stelle bitte auch sicher, dass du die neuste Version der App benutzt.</string>
     <string name="make_sure_upgrade">Beachte bitte, dass diese App-Version nicht mehr weiterentwickelt wird. Hole dir die Pro-Version mit vielen Verbesserungen.</string>
     <string name="read_it">Bitte lesen</string>
     <string name="read_faq">Häufige gestellte Fragen</string>
-    <string name="rate_us_prompt">Hallo,
-\n
-\nes sieht so aus, als würdest du diese App schon einige Zeit benutzen. Wir schätzen das sehr.
-\n
-\nWenn wir dich um einen Gefallen bitten können, bewerte uns bitte auf Google Play. Das würde uns wirklich sehr helfen.
-\n
-\nEgal wie du dich entscheidest, wirst du diese Nachricht nicht noch einmal bekommen.
-\n
-\nDanke!</string>
-    <string name="rate_our_app">Bewerte bitte unsere App :)</string>
-    <string name="thank_you">Danke</string>
+    <string name="thank_you">Dankeschön</string>
     <string name="widget_locked_pro">Das Widget ist gesperrt.
 \nBitte zur Pro-Version wechseln, um es freizuschalten.</string>
-    <string name="new_app">Hey,&lt;br&gt;&lt;br&gt; nur eine kleine Info zu einigen neu veröffentlichten Apps:&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; Du kannst sie durch Drücken auf den Namen herunterladen.&lt;br&gt;&lt;br&gt; Danke</string>
+    <string name="new_app"><![CDATA[
+            Hey,<br><br>
+            ich wollte dich nur darauf hinweisen, dass kürzlich einige neue Apps veröffentlicht wurden:<br><br>
+            <a href="%1$s">%2$s</a><br><br>
+            <a href="%3$s">%4$s</a><br><br>
+            <a href="%5$s">%6$s</a><br><br>
+            Du kannst sie herunterladen, indem du auf den Titel oder das Icon drückst.<br><br>
+            Danke
+        ]]></string>
     <string name="app_launcher_short">App-Startprogramm</string>
     <string name="calculator_short">Rechner</string>
     <string name="calendar_short">Kalender</string>
     <string name="camera_short">Kamera</string>
     <string name="clock_short">Uhr</string>
     <string name="contacts_short">Kontakte</string>
-    <string name="dialer_short">Wählscheibe</string>
+    <string name="dialer_short">Telefon</string>
     <string name="draw_short">Zeichenblock</string>
     <string name="file_manager_short">Dateimanager</string>
     <string name="flashlight_short">Taschenlampe</string>
@@ -874,7 +863,9 @@
     <string name="sms_messenger_short">SMS-Messenger</string>
     <string name="thank_you_short">Dankeschön</string>
     <string name="voice_recorder_short">Diktiergerät</string>
-    <string name="sideloaded_app">Deine App-Version scheint beschädigt zu sein. Bitte lade dir &lt;a href=%s&gt;hier&lt;/a&gt; die Originalversion herunter.</string>
+    <string name="sideloaded_app"><![CDATA[
+            Deine App-Version scheint beschädigt zu sein. Bitte lade dir die Originalversion <a href="%s">hier</a> herunter.
+        ]]></string>
     <string name="frequently_asked_questions">Häufig gestellte Fragen</string>
     <string name="before_asking_question">Bevor du eine Frage stellst, lies bitte zuerst die</string>
     <string name="faq_1_title_commons">Weshalb sehe ich das Widget dieser App nicht in der Liste der Widgets?</string>
@@ -956,7 +947,7 @@
     <string name="why_upgrade_printing_support">Druckunterstützung</string>
     <string name="why_upgrade_time_zone_support">Zeitzonen-Unterstützung</string>
     <string name="why_upgrade_attendees_emails">Teilnehmer und E-Mail-Erinnerungen</string>
-    <string name="why_upgrade_easy_event_importing">Einfaches Importieren von Ereignissen</string>
+    <string name="why_upgrade_easy_event_importing">Einfaches Importieren von Terminen</string>
     <string name="why_upgrade_new_widgets">Neue Widgets</string>
     <string name="why_upgrade_duplicate_contact_merging">Verbesserte Zusammenführung doppelter Kontakte</string>
     <string name="why_upgrade_font_size_customization">Anpassung der Schriftgröße</string>
@@ -999,7 +990,7 @@
     <string name="filters_title">Android Photo Filters (Bilder filtern)</string>
     <string name="gesture_views_title">Gesture Views (Zoombare Bilder)</string>
     <string name="indicator_fast_scroll_title">Indicator Fast Scroll (Buchstaben auf dem Scrollbalken)</string>
-    <string name="event_bus_title">Event Bus (Kommunikation innerhalb der App)</string>
+    <string name="event_bus_title">Eventbus (Kommunikation innerhalb der App)</string>
     <string name="audio_record_view_title">Audio Record View (Audiovisualisierung)</string>
     <string name="sms_mms_title">SMS MMS (SMS- und MMS-Handhabung)</string>
     <string name="apng_title">APNG Android (animierte WebP-Unterstützung)</string>
@@ -1013,11 +1004,7 @@
     <string name="trial_expires_soon">Deine Testversion läuft bald ab.</string>
     <string name="unlock_for_one_final_day">Die App für einen letzten Tag freischalten</string>
     <string name="welcome_to_app_name">Willkommen bei %s!</string>
-    <string name="trial_start_description">Vielen Dank, dass du unsere App benutzt. Du kannst diese freigeschaltete Version für <font color="#FFFFFF">%d Tage nutzen</font>. Nach Ablauf der Testphase solltest du ein Upgrade auf die Pro-Version in Betracht ziehen. Diese hat eine große Anzahl neuer Funktionen, ein modernes Design, keine Werbung und viele andere Verbesserungen.
-\n
-\nDu musst nur einmal im Leben dafür bezahlen und wenn du nicht zufrieden bist, kannst du die App deinstallieren und eine Rückerstattung erhalten.
-\n
-\nIch hoffe, es gefällt dir :)</string>
+    <string name="trial_start_description">Vielen Dank, dass du unsere App benutzt. Du kannst diese freigeschaltete Version für <font color="#FFFFFF">%d Tage nutzen</font>. Nach Ablauf der Testphase solltest du ein Upgrade auf die Pro-Version in Betracht ziehen. Diese hat eine große Anzahl neuer Funktionen, ein modernes Design, keine Werbung und viele andere Verbesserungen. \n\nDu musst nur einmal im Leben dafür bezahlen und wenn du nicht zufrieden bist, kannst du die App deinstallieren und eine Rückerstattung erhalten.\n\nIch hoffe, es gefällt dir :)</string>
     <string name="trial_end_description">Bitte führe ein Upgrade auf die Pro-Version durch, um die App in vollem Umfang genießen zu können.
 \n
 \nDu musst nur einmal im Leben dafür bezahlen und wenn du nicht zufrieden bist, kannst du die App deinstallieren und eine Rückerstattung erhalten.
@@ -1049,7 +1036,7 @@
     <string name="filter_pro">Filter (Pro)</string>
     <string name="album">Album</string>
     <string name="genre">Genre</string>
-    <string name="exif">EXIF</string>
+    <string name="exif">Exif</string>
     <string name="auto_theme">Auto</string>
     <string name="name">Name</string>
     <string name="widgets">Widgets</string>
@@ -1070,4 +1057,45 @@
     <string name="translation_hindi">Hindi</string>
     <string name="why_upgrade_pro_version">Pro</string>
     <string name="otto_title">Otto (Eventbus)</string>
+    <string name="donate_short">Unterstütze uns bitte durch den Kauf von &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;, dies wird auch alle App-Funktionen einschließlich der Farbanpassung freischalten.</string>
+    <string name="donate_new">Hallo,&lt;br&gt;&lt;br&gt; ich hoffe, die App gefällt dir. Sie enthält keine Werbung und wir sammeln auch nicht deine Daten, bitte unterstütze die Entwicklung durch den Kauf von &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. Außerdem werden alle Funktionen der App, einschließlich der Farbanpassung, freigeschaltet. &lt;br&gt;&lt;br&gt; Vielen Dank!</string>
+    <string name="faq_2_text_commons"><![CDATA[
+            Ja, natürlich. Du kannst die Apps weiterempfehlen oder gute Bewertungen abgeben. Du kannst auch helfen, indem du die Apps in eine neue Sprache übersetzt oder einfach einige bestehende Übersetzungen aktualisierst.
+            Die Anleitung zum Übersetzen findest du auf <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">dieser Website</a>, oder kontaktiere uns einfach unter <a href="mailto:hello@fossify.org">hello@fossify.org</a>, wenn du Fragen hast.
+        ]]></string>
+    <string name="donate_please"><![CDATA[
+            Hallo,<br><br>
+            ich hoffe, die App gefällt dir. Sie enthält keine Werbung, daher unterstütze bitte die Entwicklung durch den Kauf der App <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>, dadurch wird auch dieser Dialog zukünftig nicht mehr angezeigt.<br><br>
+            Dankeschön!
+        ]]></string>
+    <string name="features_locked">Diese Funktion ist gesperrt, bitte kaufe &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; um die App komplett freizuschalten. Dies ist eine einmalige Zahlung und wenn du nicht zufrieden bist, wird dir dein Geld zurückerstattet.</string>
+    <string name="faq_6_text_commons">Dieses Problem tritt auf, wenn dein Launcher das Anpassen der Symbole nicht vollständig unterstützt. Versuche, die App über Google Play oder ein Widget zu starten, falls dies möglich ist. Stelle nach dem Start die standardmäßige grüne Symbolfarbe #106D1F wieder her. In extremen Fällen kann eine Neuinstallation der App erforderlich sein.</string>
+    <string name="contributors_label"><![CDATA[
+            Diese Liste enthält alle Personen, die bei irgendeiner App innerhalb der Fossify-Suite merklich geholfen haben, nicht nur bei dieser. Die Übersetzungen werden von Freiwilligen erledigt,
+            sag uns Bescheid, wenn auch du helfen willst. Die Anleitung zum Übersetzen findest du auf <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">dieser Website</a>, oder kontaktiere uns einfach unter <a href="mailto:hello@fossify.org">hello@fossify.org</a>, wenn du Fragen hast.
+            Vielen Dank an alle Mitwirkenden und sonstigen Unterstützer!
+        ]]></string>
+    <string name="translation_esperanto">Esperanto</string>
+    <string name="translation_chuvash">Tschuwaschisch</string>
+    <string name="translation_gujarati">Gujarati</string>
+    <string name="format_phone_numbers">Telefonnummern formatieren</string>
+    <string name="platforms">Plattformen</string>
+    <string name="fee_up_to_pct">Bis zu %1$d%% Entgelt</string>
+    <string name="cryptocurrency">Kryptowährung</string>
+    <string name="donate_to_fossify">An Fossify spenden</string>
+    <string name="little_to_no_fee">Geringes bis kein Entgelt</string>
+    <string name="translation_belarusian">Belarusisch</string>
+    <string name="translation_central_kurdish">Zentralkurdisch</string>
+    <string name="theme_and_colors">Farbschema und Farben</string>
+    <string name="all_fossify_apps">Alle Fossify-Apps</string>
+    <string name="known_issues">Bekannte Probleme</string>
+    <string name="translation_kabyle">Kabylisch</string>
+    <string name="number_of_items">Anzahl der Elemente</string>
+    <string name="reorder_items_by_dragging">Elemente durch Ziehen neu anordnen</string>
+    <string name="confirm_storage_access_restricted_text">Aufgrund von Systemeinschränkungen ist dieser Ordner nicht verfügbar.</string>
+    <string name="confirm_storage_access_restricted_text_open_system">In System-App öffnen</string>
+    <string name="confirm_storage_access_restricted_text_not_found">Ein System-Dateimanager konnte nicht gefunden werden.</string>
+    <string name="days_letter">%dd</string>
+    <string name="rate_this_app">Bewerte diese App</string>
+    <string name="more_fossify_apps">Mehr Fossify-Apps</string>
 </resources>

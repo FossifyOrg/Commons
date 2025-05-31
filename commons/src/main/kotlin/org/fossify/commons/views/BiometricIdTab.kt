@@ -33,7 +33,7 @@ class BiometricIdTab(context: Context, attrs: AttributeSet) : ConstraintLayout(c
     override fun initTab(
         requiredHash: String,
         listener: HashListener,
-        scrollView: MyScrollView,
+        scrollView: MyScrollView?,
         biometricPromptHost: AuthPromptHost,
         showBiometricAuthentication: Boolean
     ) {

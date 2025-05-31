@@ -100,9 +100,9 @@
     <string name="change_cover_image">Cambiar la imagen de la portada</string>
     <string name="select_photo">Seleccione Foto</string>
     <plurals name="column_counts">
-        <item quantity="one">Columna %d</item>
-        <item quantity="many">Columnas %d</item>
-        <item quantity="other">Columnas %d</item>
+        <item quantity="one">%d columna</item>
+        <item quantity="many">%d columnas</item>
+        <item quantity="other">%d columnas</item>
     </plurals>
     <plurals name="row_counts">
         <item quantity="one">%d fila</item>
@@ -120,9 +120,9 @@
     <string name="must_make_default_dialer">Tienes que hacer esta aplicación la aplicación de marcación por defecto para hacer uso de los números bloqueados.</string>
     <string name="set_as_default">Establecer por defecto</string>
     <string name="block_confirmation">¿Estás seguro de que quieres bloquear a \"%s\"?</string>
-    <string name="block_not_stored_calls">Bloquear llamadas de contactos no guardados</string>
+    <string name="block_unknown_calls">Bloquear llamadas de contactos no guardados</string>
     <string name="block_hidden_calls">Bloquear las llamadas de números ocultos</string>
-    <string name="block_not_stored_messages">Bloquear los mensajes de los contactos no guardados</string>
+    <string name="block_unknown_messages">Bloquear los mensajes de los contactos no guardados</string>
     <string name="block_hidden_messages">Bloquear los mensajes de números ocultos</string>
     <string name="add_blocked_number_helper_text">Ingrese un número o un patrón (por ejemplo, *12345*, +1*8888) para bloquear todas las llamadas y mensajes de números que coincidan con el patrón.</string>
     <string name="must_make_default_caller_id_app">No se pueden bloquear los números desconocidos sin el permiso del identificador de llamadas.</string>
@@ -337,7 +337,7 @@
     <string name="cannot_be_undone">Esta acción no se puede deshacer.</string>
     <string name="save_before_closing">Tiene cambios sin aplicar. ¿Guardar antes de salir?</string>
     <string name="app_icon_color_warning">Precaución: Es posible que algunos lanzadores no gestionen correctamente la personalización de los iconos de las aplicaciones. Si el icono desaparece, intente iniciar la aplicación a través de Google Play o un widget, si es accesible. Una vez iniciada, restaura el icono verde #106D1F predeterminado. En casos extremos, puede ser necesario reinstalar la aplicación.</string>
-    <string name="share_colors_success">Colores actualizados correctamente. Se ha añadido un nuevo tema llamado \'Compartido\', por favor utilicelo para actualizar los colores de todas las aplicaciones en el futuro.</string>
+    <string name="global_theme_success">Colores actualizados correctamente. Se ha añadido un nuevo tema llamado \'Compartido\', por favor utilicelo para actualizar los colores de todas las aplicaciones en el futuro.</string>
     <string name="purchase_thank_you">
         <![CDATA[
             Por favor compra <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> para desbloquear esta función y ayudar al desarrollo. ¡Gracias!
@@ -379,7 +379,7 @@
     <string name="shortcut">Atajo</string>
     <string name="create_shortcut">Crear atajo</string>
     <string name="create_shortcut_pro">Crear atajo (Pro)</string>
-    <string name="add_number_to_contact">Anadir el número a contactos</string>
+    <string name="add_number_to_contact">Añadir número al contacto</string>
     <string name="view_contact_details">Ver detalles de contacto</string>
     <string name="call_from_sim_1">Llamar desde SIM 1</string>
     <string name="call_from_sim_2">Llamar desde SIM 2</string>
@@ -631,7 +631,7 @@
     <string name="add_new_sound">Agrega un nuevo sonido</string>
     <string name="no_sound">Sin sonido</string>
     <string name="during_day_at_hh_mm">Durante el día a las hh:mm</string>
-    <string name="during_day_at">Durante el día a las %02d:%02d</string>
+    <string name="during_day_at">Durante el día a las %1$02d:%2$02d</string>
     <string name="settings">Ajustes</string>
     <string name="color_customization">Personalización del color</string>
     <string name="improved_color_customization">Personalización mejorada de los colores</string>
@@ -843,13 +843,9 @@
     <string name="website_label">Más aplicaciones sencillas y código fuente en</string>
     <string name="email_label">Envía tus comentarios o sugerencias a</string>
     <string name="upgrade_to_pro">Actualizar a Pro</string>
-    <string name="more_apps">Más aplicaciones</string>
-    <string name="more_apps_from_us">Más aplicaciones nuestras</string>
     <string name="invite_friends">Invitar a amigos</string>
     <string name="share_text">Hola, ven y mira %1$s en %2$s</string>
     <string name="invite_via">Invitar con</string>
-    <string name="rate_us">Califícanos en Play Store</string>
-    <string name="rate">Puntuar</string>
     <string name="donate">Donar</string>
     <string name="follow_us">Síguenos</string>
     <string name="copyright">v %1$s
@@ -873,13 +869,10 @@
     </string>
     <string name="purchase">Comprar</string>
     <string name="before_asking_question_read_faq">Antes de hacer una pregunta, lea las preguntas más frecuentes. Quizás la solución esté ahí.</string>
-    <string name="before_rate_read_faq">Antes de calificarnos, verifique la configuración de la aplicación y lea primero las preguntas frecuentes. Si tiene algún problema, tal vez la solución esté ahí.</string>
     <string name="make_sure_latest">También asegúrese de estar utilizando la última versión de la aplicación.</string>
     <string name="make_sure_upgrade">También tenga en cuenta que esta versión de la aplicación ya no se está desarrollando, obtenga la versión Pro para obtener muchas mejoras.</string>
     <string name="read_it">Leer</string>
     <string name="read_faq">Leer Preguntas Frecuentes</string>
-    <string name="rate_us_prompt">Hola,\n\nparece que ya has usado esta aplicación, y realmente lo apreciamos.\n\nSi te podemos pedir un favor, por favor, puntúanos en Google Play. Eso realmente nos ayudaría mucho.\n\nNo importa lo que decidas, no verás este mensaje de nuevo.\n\n¡Gracias!</string>
-    <string name="rate_our_app">Califica nuestra aplicación por favor :)</string>
     <string name="thank_you">Gracias</string>
     <string name="widget_locked_pro">El widget está bloqueado.\nActualice a la versión Pro para desbloquearlo.</string>
     <string name="new_app">
@@ -1075,11 +1068,7 @@
     <string name="trial_expires_soon">Su período de prueba está a punto de expirar.</string>
     <string name="unlock_for_one_final_day">Desbloquea la aplicación un último día</string>
     <string name="welcome_to_app_name">¡Bienvenido a %s!</string>
-    <string name="trial_start_description">Gracias por usar nuestra aplicación. Puedes usar esta versión desbloqueada durante <font color="#FFFFFF">%d días</font>. Considere actualizar a la versión Pro cuando finalice la prueba. La versión Pro tiene muchas funciones nuevas, un diseño moderno, sin anuncios y muchas otras mejoras.
-\n
-\nSolo paga una vez, y si no está satisfecho, puede desinstalarlo y recuperar su dinero.
-\n
-\nEspero que te guste :)</string>
+    <string name="trial_start_description">Gracias por usar nuestra aplicación . Puedes usar esta versión desbloqueada durante <font color="#FFFFFF">%ddías</font> . Una vez que finalice la prueba, considera actualizar a la versión Pro . Tiene una gran cantidad de nuevas funciones, diseño moderno, sin anuncios y muchas otras mejoras. \n\nSolo tienes que pagarlo una vez en la vida y si no quedas satisfecho, puedes desinstalarlo y obtener un reembolso.\n\nEspero que te guste :)</string>
     <string name="trial_end_description">Por favor, actualice a la versión Pro para disfrutar de la aplicación al máximo.
 \n
 \nSólo tienes que pagar por ella una vez en la vida y si no quedas satisfecho, puedes desinstalarla y obtener un reembolso.
@@ -1111,9 +1100,9 @@
     <string name="enter_password">Introduzca la contraseña</string>
     <string name="password">Contraseña</string>
     <string name="add_password">Añadir una contraseña</string>
-    <string name="seconds_letter">s</string>
-    <string name="minutes_letter">min</string>
-    <string name="hours_letter">h</string>
+    <string name="seconds_letter">%ds</string>
+    <string name="minutes_letter">%dmin</string>
+    <string name="hours_letter">%dh</string>
     <string name="week_number_short">semana</string>
     <string name="general_settings">General</string>
     <string name="purchase_simple_thank_you">Comprar Fossify Thank You</string>
@@ -1130,7 +1119,7 @@
     <string name="october_short">Oct.</string>
     <string name="november_short">Nov.</string>
     <string name="december_short">Dic.</string>
-    <string name="saturday_letter">Dom.</string>
+    <string name="saturday_letter">S</string>
     <string name="website">Página web</string>
     <string name="social">Social</string>
     <string name="donate_new">Hola,&lt;br&gt;&lt;br&gt;espero que estés disfrutando de la aplicación. No contiene anuncios y tampoco estamos recopilando tus datos, por favor apoya su desarrollo comprando &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. También tendrás desbloqueadas todas las funciones de la aplicación, incluida la personalización del color.&lt;br&gt;&lt;br&gt;¡Gracias!</string>
@@ -1138,4 +1127,27 @@
     <string name="donate_short">Apóyanos comprando &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; por favor, también desbloqueará todas las características de la app incluyendo la personalización de colores.</string>
     <string name="features_locked">Esta función está bloqueada, por favor compre &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; para desbloquear la aplicación completa.&lt;br&gt;&lt;br&gt;Es un pago único y si usted no está satisfecho, podemos reembolsarle.</string>
     <string name="translation_bulgarian">Búlgaro</string>
+    <string name="translation_chuvash">Chuvasio</string>
+    <string name="translation_gujarati">Guyaratí</string>
+    <string name="translation_esperanto">Esperanto</string>
+    <string name="donate_to_fossify">Apoya a Fossify</string>
+    <string name="format_phone_numbers">Formatear números de teléfono</string>
+    <string name="platforms">Plataformas</string>
+    <string name="little_to_no_fee">Pequeña comisión</string>
+    <string name="fee_up_to_pct">Hasta %1$d%% de comisión</string>
+    <string name="cryptocurrency">Criptomoneda</string>
+    <string name="translation_belarusian">Bielorruso</string>
+    <string name="translation_central_kurdish">Kurdo sorani</string>
+    <string name="theme_and_colors">Tema y colores</string>
+    <string name="all_fossify_apps">Todas las aplicaciones de Fossify</string>
+    <string name="known_issues">Problemas conocidos</string>
+    <string name="translation_kabyle">Cabilio</string>
+    <string name="number_of_items">Número de elementos</string>
+    <string name="reorder_items_by_dragging">Reordenar elementos por arrastrar</string>
+    <string name="days_letter">%dd</string>
+    <string name="confirm_storage_access_restricted_text">Debido a las restricciones del sistema, esta carpeta no está disponible.</string>
+    <string name="confirm_storage_access_restricted_text_open_system">Abrir en la aplicación del sistema</string>
+    <string name="confirm_storage_access_restricted_text_not_found">No se pudo encontrar una aplicación de administrador de archivos del sistema.</string>
+    <string name="more_fossify_apps">Más aplicaciones Fossify</string>
+    <string name="rate_this_app">Valorar esta aplicación</string>
 </resources>

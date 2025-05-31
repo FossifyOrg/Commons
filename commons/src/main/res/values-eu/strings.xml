@@ -114,9 +114,9 @@
     <string name="must_make_default_dialer">Blokeatutako zenbakiak erabiltzeko aplikazio honek markatzaile-aplikazio lehenetsia izan behar du.</string>
     <string name="set_as_default">Ezarri lehenetsi gisa</string>
     <string name="block_confirmation">Ziur zaude \"%s\" blokeatu nahi duzula?</string>
-    <string name="block_not_stored_calls">Blokeatu gorde gabeko kontaktuen deiak</string>
+    <string name="block_unknown_calls">Blokeatu gorde gabeko kontaktuen deiak</string>
     <string name="block_hidden_calls">Blokeatu ezkutuko zenbakietako deiak</string>
-    <string name="block_not_stored_messages">Blokeatu gorde gabeko kontaktuen mezuak</string>
+    <string name="block_unknown_messages">Blokeatu gorde gabeko kontaktuen mezuak</string>
     <string name="block_hidden_messages">Blokeatu ezkutuko zenbakien mezuak</string>
     <string name="add_blocked_number_helper_text">Sartu zenbaki bat edo eredu bat (adibidez, *12345*, +1*8888) ereduarekin bat datozen zenbakietatik dei eta mezu guztiak blokeatzeko.</string>
     <string name="must_make_default_caller_id_app">Ezin dira blokeatu zenbaki ezezagunak deitzailearen identifikadorearen baimenik gabe.</string>
@@ -326,7 +326,7 @@
     <string name="undo_changes_confirmation">Ziur zaude aldaketak desegin nahi dituzula?</string>
     <string name="cannot_be_undone">Ekintza hau ezin da desegin.</string>
     <string name="save_before_closing">Gorde gabeko aldaketak dituzu. Gorde atera baino lehen?</string>
-    <string name="share_colors_success">Koloreak ondo eguneratu dira. \'Shared\' deituriko gai berria gehitu da, erabili hori aplikazio guztien koloreak eguneratzeko etorkizunean.</string>
+    <string name="global_theme_success">Koloreak ondo eguneratu dira. \'Shared\' deituriko gai berria gehitu da, erabili hori aplikazio guztien koloreak eguneratzeko etorkizunean.</string>
     <string name="purchase_thank_you">
         <![CDATA[
             Erosi <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> funtzio hau desblokeatzeko eta garatzaileari laguntzeko. Eskerrik asko!
@@ -367,7 +367,7 @@
     <string name="shortcut">Lasterbidea</string>
     <string name="create_shortcut">Sortu lasterbidea</string>
     <string name="create_shortcut_pro">Sortu lasterbidea (Pro)</string>
-    <string name="add_number_to_contact">Gehitu zenbakia kontaktura</string>
+    <string name="add_number_to_contact">Gehitu zenbakia kontaktuari</string>
     <string name="view_contact_details">Ikusi kontaktuaren xehetasunak</string>
     <string name="call_from_sim_1">Deitu 1. SIMetik</string>
     <string name="call_from_sim_2">Deitu 2. SIMetik</string>
@@ -441,7 +441,7 @@
     <string name="no_fingerprints_registered">Ez duzu hatz-markarik erregistratu, gehitu batzuk zeure gailuko ezarpenetan</string>
     <string name="go_to_settings">Joan ezarpenetara</string>
     <string name="protection_setup_successfully">Pasahitza ondo ezarri da. Berrinstalatu aplikazioa ahazten baduzu.</string>
-    <string name="fingerprint_setup_successfully">Protekzioa ondo ezarri da. Berrinstalatu aplikazioa berrezartzean arazorik baduzu.</string>
+    <string name="fingerprint_setup_successfully">Babesa ondo ezarri da. Berrinstalatu aplikazioa berrezartzean arazorik baduzu.</string>
     <string name="lock_folder">Blokeatu karpeta</string>
     <string name="lock_folder_pro">Blokeatu karpeta (Pro)</string>
     <string name="unlock_folder">Deblokeatu karpeta</string>
@@ -574,8 +574,8 @@
     <string name="reminder_triggers_in">Oroigarria azaltzeko geratzen den denbora:\n%s</string>
     <string name="time_remaining">Falta den denbora:
 \n%s</string>
-    <string name="alarm_warning">Mesedez, ziurtatu alarma ondo dabilela. Arazoak egon daitezke bateria aurreztearekin zerikusia duten sistemaren murrizketak direla-eta.</string>
-    <string name="reminder_warning">Mesedez, ziurtatu oroigarria ondo dabilela. Arazoak egon daitezke bateria aurreztearekin zerikusia duten sistemaren murrizketak direla-eta.</string>
+    <string name="alarm_warning">Ziurtatu alarma ondo dabilela. Arazoak egon daitezke bateria aurreztearekin zerikusia duten sistemaren murrizketak direla-eta.</string>
+    <string name="reminder_warning">Ziurtatu oroigarria ondo dabilela. Arazoak egon daitezke bateria aurreztearekin zerikusia duten sistemaren murrizketak direla-eta.</string>
     <string name="notifications_disabled">Aplikazio honen jakinarazpenak desgaituta daude. Gailuko ezarpenetan gaitu ditzakezu.</string>
     <string name="alarm">Alarma</string>
     <string name="snooze">Atzeratu</string>
@@ -587,7 +587,7 @@
     <string name="add_new_sound">Gehitu soinu berria</string>
     <string name="no_sound">Soinurik ez</string>
     <string name="during_day_at_hh_mm">Egunean zehar ordu honetan: hh:mm</string>
-    <string name="during_day_at">Egunean zehar ordun honetan: %02d:%02d</string>
+    <string name="during_day_at">Egunean zehar ordun honetan: %1$02d:%2$02d</string>
     <string name="settings">Ezarpenak</string>
     <string name="color_customization">Koloreen pertsonalizazioa</string>
     <string name="improved_color_customization">Koloreen pertsonalizazio hobetua</string>
@@ -800,13 +800,9 @@
     <string name="website_label">Iturburu-kodeak ikusteko joan hona</string>
     <string name="email_label">Bidali zure iritziak edo iradokizunak hona</string>
     <string name="upgrade_to_pro">Pro-ra aldatu</string>
-    <string name="more_apps">Aplikazio gehiago</string>
-    <string name="more_apps_from_us">Gure aplikazio gehiago</string>
     <string name="invite_friends">Gonbidatu lagunak</string>
     <string name="share_text">Aupa, zatoz %1$s ikustera %2$s-en</string>
     <string name="invite_via">Gonbidatu honen bidez</string>
-    <string name="rate_us">Baloratu gaituzu</string>
-    <string name="rate">Baloratu</string>
     <string name="donate">Dohaintza egin</string>
     <string name="follow_us">Jarrai gaitzazu</string>
     <string name="privacy_policy">Pribatutasun politika</string>
@@ -817,13 +813,10 @@
     <string name="device_os">Gailuaren SE: %s</string>
     <string name="purchase">Erosi</string>
     <string name="before_asking_question_read_faq">Galdera bat egin aurretik, begiratu aplikazioaren ezarpenetan eta FAQ atala irakur ezazu. Konponbidea hor egon liteke.</string>
-    <string name="before_rate_read_faq">Balorazioa egin baino lehen, Before you rate us, begiratu aplikazioaren ezarpenetan eta FAQ atala irakur ezazu. Arazorik baduzu, konponbidea hor egon liteke.</string>
     <string name="make_sure_latest">Horretaz gain, aplikazioaren azken bertsioa erabiltzen ari zarela egiaztatu.</string>
     <string name="make_sure_upgrade">Kontuan izan, gainera, aplikazioaren bertsio hau ez dela dagoeneko garatzen, lortu Pro-a hobekuntza asko lortzeko.</string>
     <string name="read_it">Irakurri</string>
     <string name="read_faq">Irakurri FAQ atala</string>
-    <string name="rate_us_prompt">Aupa,\n\nbadirudi aplikazio hau denbora batez erabiltzen daramazula, eskerrik asko.\n\nFabore bat eskatuko dizugu: balora gaitzazu Google Play-en. Asko lagunduko liguke horrek.\n\nErabakitzen duzuna erabakitzen duzula, mezu hau ez duzu berriro ikusiko.\n\nMila esker!</string>
-    <string name="rate_our_app">Baloratu gure aplikazioa, mesedez :)</string>
     <string name="thank_you">Eskerrik asko</string>
     <string name="widget_locked_pro">Trepeta blokeatuta dago.\nEguneratu Pro bertsiora desblokeatzeko.</string>
     <string name="new_app">
@@ -889,4 +882,83 @@
     <string name="event_bus_title">Event Bus (komunikazioa aplikazioaren barruan)</string>
     <string name="audio_record_view_title">Audio Record View (audio-bistaratzea)</string>
     <string name="sms_mms_title">SMS MMS (SMSen eta MMSen kudeaketa)</string>
+    <string name="audio">Audio</string>
+    <string name="send_email">Bidali posta elektronikoa</string>
+    <string name="add_contact">Gehitu kontaktua</string>
+    <string name="genre">Generoa</string>
+    <string name="app_icon_color_warning">Kontuz: baliteke abiarazle batzuek aplikazioaren ikonoen pertsonalizazioa behar bezala ez kudeatzea. Ikonoa desagertzen bada, saiatu aplikazioa abiarazten Google Play edo widget baten bidez, eskuragarri badago. Abiarazi ondoren, lehenetsi #106D1F ikono berdearen kolore lehenetsia. Muturreko kasuetan, baliteke aplikazioa berriro instalatzea beharrezkoa izatea.</string>
+    <string name="error">Errorea: %s</string>
+    <string name="notifications">Jakinarazpenak</string>
+    <string name="zero">Zero</string>
+    <string name="one">Bat</string>
+    <string name="block_contact">Blokeatu kontaktua</string>
+    <string name="exif">EXIF</string>
+    <string name="apply_to_all_apps">Aplikatu koloreak Fossify aplikazio guztietan</string>
+    <string name="shared_theme_note">Kontuan izan aplikazioaren Pro bertsioa erabiltzen ari zaren arren, Fossify-ri Eskerrak behar duzula arrazoi teknikoengatik. Koloreen sinkronizazioaz arduratzen da.</string>
+    <string name="auto_theme">Automatikoa</string>
+    <string name="system_default">Sistema lehenetsia</string>
+    <string name="pin_item">Ainguratu elementua</string>
+    <string name="send_sms">Bidali SMS</string>
+    <string name="contact_details">Kontaktuaren xehetasunak</string>
+    <string name="deletion_confirmation_short">%s ezabatu?</string>
+    <string name="enter_password">Sartu pasahitza</string>
+    <string name="password">Pasahitza</string>
+    <string name="add_password">Gehitu pasahitza</string>
+    <string name="seconds_letter">%ds</string>
+    <string name="minutes_letter">%dm</string>
+    <string name="hours_letter">%dordu</string>
+    <string name="week_number_short">aste</string>
+    <string name="general_settings">Orokorra</string>
+    <string name="list_view">Zerrenda ikuspegia</string>
+    <string name="usb">USB</string>
+    <string name="january_short">Urt.</string>
+    <string name="february_short">Ots.</string>
+    <string name="march_short">Mar.</string>
+    <string name="april_short">Api.</string>
+    <string name="may_short">Mai.</string>
+    <string name="june_short">Eka.</string>
+    <string name="july_short">Uzt.</string>
+    <string name="august_short">Abu,</string>
+    <string name="october_short">Urr.</string>
+    <string name="november_short">Aza.</string>
+    <string name="december_short">Abe.</string>
+    <string name="copyright">v %1$s
+\nCopyright © Fossify %2$d</string>
+    <string name="notification_sound">Jakinarazpen soinua</string>
+    <string name="pager">Bilagailua</string>
+    <string name="purchase_simple_thank_you">Erosi Fossify Thank You</string>
+    <string name="update_thank_you">Eguneratu Fossify Eskerrik Asko azken bertsiora</string>
+    <string name="support">Laguntza</string>
+    <string name="help_us">Lagundu iezaguzu</string>
+    <string name="social">Soziala</string>
+    <string name="other">Beste bat</string>
+    <string name="version_placeholder">%s bertsioa</string>
+    <string name="donate_new">Kaixo,&lt;br&gt;&lt;br&gt;aplikazioaz gozatzea espero duzu. Ez dauka iragarkirik eta ez ditugu zure datuak biltzen ari. Mesedez, lagundu haren garapena &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Eskerrik asko erosiz. Zuk&lt;/a&gt;. Gainera, aplikazioaren eginbide guztiak desblokeatuta izango dituzu koloreen pertsonalizazioa barne.&lt;br&gt;&lt;br&gt;Eskerrik asko!</string>
+    <string name="donate_please"><![CDATA[
+                      Kaixo,<br><br>
+                     aplikazioaz gozatzea espero dugu. Ez dauka iragarkirik. Mesedez, lagundu bere garapena <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Eskerrik Asko</a> aplikazioa erosiz. elkarrizketa-koadro hau berriro agertzea ere eragotziko du.<br><br> 
+                    Eskerrik asko!
+                   ]]></string>
+    <string name="donate_short">Lagundu iezaguzu &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Eskerrik asko&lt;/a&gt; erosiz, aplikazioen eginbide guztiak ere desblokeatuko ditu kolorea barne. pertsonalizazioa.</string>
+    <string name="format_phone_numbers">Eman formatu telefono-zenbakiei</string>
+    <string name="features_locked">Eginbide hau blokeatuta dago. Erosi &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Eskerrik asko&lt;/a&gt; aplikazio osoa desblokeatzeko.&lt;br &gt;&lt;br&gt;Ordainketa bakarra da eta asetzen ez bazara, itzuliko dizugu.</string>
+    <string name="platforms">Plataformak</string>
+    <string name="donate_to_fossify">Dohaintza egin Fossify-ri</string>
+    <string name="little_to_no_fee">Kuota txikia</string>
+    <string name="faq_3_title_commons">Fitxategi batzuk errorez ezabatu ditut, nola berreskura ditzaket?</string>
+    <string name="fee_up_to_pct">Gehienez %%1$d kuota</string>
+    <string name="cryptocurrency">Criptomoneta</string>
+    <string name="faq_2_text_commons"><![CDATA[
+                            Bai, noski. Aplikazioen berri zabal dezakezu edo iritzi eta balorazio onak eman. Aplikazioak hizkuntza berri batera itzultzen ere lagundu dezakezu edo lehendik dauden itzulpen batzuk eguneratu besterik ez duzu egin. 
+                             Itzultzeko gida <a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file>webgune honetan</a> helbidean dago, edo Galderarik baduzu, jarri gurekin harremanetan <a href=mailto:hello@fossify.org>hello@fossify.org</a> helbidera.
+                          ]]></string>
+    <string name="faq_4_title_commons">Ez zaizkit widgetaren koloreak gustatzen, aldatu ditzaket?</string>
+    <string name="faq_3_text_commons">Ezin duzu. Fitxategiak baieztapen leihoaren ostean ezabatzen dira, ez dago zakarrontzirik.</string>
+    <string name="faq_6_title_commons">Aplikazioa abiarazteko ikonoa desagertu egin da. Zer egin dezaket?</string>
+    <string name="faq_5_text_commons">Benetan ezabatu badira, ezin duzu. Hala ere, lehenespenez Birziklapen Zaborrontzia gaituta dago, fitxategiak zakarrontzira eramango ditu ezabatu beharrean.</string>
+    <string name="faq_4_text_commons">Bai, trepeta bat hasierako pantailan arrastatzean trepeten konfigurazio pantaila bat agertzen da. Koloretako karratuak ikusiko dituzu beheko ezkerreko izkinan, sakatu besterik ez duzu kolore berri bat hautatzeko. Gradua erabil dezakezu alfa doitzeko ere.</string>
+    <string name="faq_5_title_commons">Leheneratu al ditzaket nolabait ezabatutako fitxategiak?</string>
+    <string name="theme_and_colors">Itxura eta koloreak</string>
+    <string name="all_fossify_apps">Fossifyren aplikazio guztiak</string>
+    <string name="known_issues">Errore ezagunak</string>
 </resources>

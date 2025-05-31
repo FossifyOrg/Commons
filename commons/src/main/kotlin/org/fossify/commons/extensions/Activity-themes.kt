@@ -6,7 +6,7 @@ import org.fossify.commons.R
 import org.fossify.commons.helpers.DARK_GREY
 
 fun Activity.getThemeId(color: Int = baseConfig.primaryColor, showTransparentTop: Boolean = false) = when {
-    baseConfig.isUsingSystemTheme -> if (isUsingSystemDarkTheme()) R.style.AppTheme_Base_System else R.style.AppTheme_Base_System_Light
+    isDynamicTheme() -> if (isSystemInDarkMode()) R.style.AppTheme_Base_System else R.style.AppTheme_Base_System_Light
     isBlackAndWhiteTheme() -> when {
         showTransparentTop -> R.style.AppTheme_BlackAndWhite_NoActionBar
         baseConfig.primaryColor.getContrastColor() == DARK_GREY -> R.style.AppTheme_BlackAndWhite_DarkTextColor
@@ -211,7 +211,7 @@ fun Activity.getThemeId(color: Int = baseConfig.primaryColor, showTransparentTop
             -12434878 -> R.style.AppTheme_Grey_800_core
             -16777216 -> R.style.AppTheme_Grey_900_core
 
-            else -> R.style.AppTheme_Green_700_core
+            else -> R.style.AppTheme_Green_900_core
         }
     }
 
@@ -407,7 +407,7 @@ fun Activity.getThemeId(color: Int = baseConfig.primaryColor, showTransparentTop
             -12434878 -> R.style.AppTheme_Grey_800
             -16777216 -> R.style.AppTheme_Grey_900
 
-            else -> R.style.AppTheme_Green_700
+            else -> R.style.AppTheme_Green_900
         }
     }
 }

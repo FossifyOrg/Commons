@@ -117,9 +117,9 @@
     <string name="must_make_default_dialer">Θα πρέπει να οριστεί προεπιλεγμένη εφαρμογή για χρήση αποκλεισμένων αριθμών.</string>
     <string name="set_as_default">Ορισμός ως προεπιλογής</string>
     <string name="block_confirmation">Σίγουρα να αποκλειστεί ο \"%s\"?</string>
-    <string name="block_not_stored_calls">Αποκλεισμός κλήσεων από μη αποθηκευμένες επαφές</string>
+    <string name="block_unknown_calls">Αποκλεισμός κλήσεων από μη αποθηκευμένες επαφές</string>
     <string name="block_hidden_calls">Αποκλεισμός κλήσεων από κρυφούς αριθμούς</string>
-    <string name="block_not_stored_messages">Αποκλεισμός μηνυμάτων από μη αποθηκευμένες επαφές</string>
+    <string name="block_unknown_messages">Αποκλεισμός μηνυμάτων από μη αποθηκευμένες επαφές</string>
     <string name="block_hidden_messages">Αποκλεισμός μηνυμάτων από κρυφούς αριθμούς</string>
     <string name="add_blocked_number_helper_text">Εισάγετε έναν αριθμό ή ένα μοτίβο (π.χ. *12345*, +1*8888) για να μπλοκάρετε όλες τις κλήσεις και τα μηνύματα από αριθμούς που αντιστοιχούν στο μοτίβο.</string>
     <string name="must_make_default_caller_id_app">Αδύνατη η φραγή αγνώστων αριθμών χωρίς άδεια ID κλήσεων.</string>
@@ -258,7 +258,7 @@
     <string name="confirm_storage_access_text">Επιλέξτε τον ριζικό φάκελο της κάρτας SD στην επόμενη οθόνη, για να επιτρέψετε πρόσβαση εγγραφής</string>
     <string name="confirm_storage_access_text_sd">Εάν δεν βλέπετε την κάρτα SD, δοκιμάστε αυτό</string>
     <string name="confirm_storage_access_android_text">Επιτρέψτε στην εφαρμογή την πρόσβαση στον επιλεγμένο αποθηκευτικό χώρο στην επόμενη οθόνη πατώντας \'Χρήση αυτού του φακέλου\' στο κάτω μέρος.</string>
-    <string name="confirm_storage_access_android_text_specific">Επιτρέψτε την πρόσβαση σε \'&lt;b&gt;%s&lt;/b&gt;\' στην επόμενη οθόνη πατώντας \'&lt;b&gt;Χρήση αυτού του φακέλου&lt;/b&gt;\' στο κάτω μέρος.</string>
+    <string name="confirm_storage_access_android_text_specific">Επιτρέψτε την πρόσβαση σε \'<b>%s</b>\' στην επόμενη οθόνη πατώντας \'<b>Χρήση αυτού του φακέλου</b>\' στο κάτω μέρος.</string>
     <string name="confirm_create_doc_for_new_folder_text">Παρακαλώ πατήστε \'&lt;b&gt;Αποθήκευση&lt;/b&gt;\' στο κάτω μέρος της επόμενης οθόνης για να δημιουργήσετε το Νέο φάκελο.</string>
     <string name="confirm_selection">Επιβεβαίωση επιλογής</string>
     <string name="loading">Φόρτωση…</string>
@@ -330,7 +330,7 @@
     <string name="undo_changes_confirmation">Είστε βέβαιοι ότι θέλετε να αναιρέσετε τις αλλαγές σας?</string>
     <string name="cannot_be_undone">Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.</string>
     <string name="save_before_closing">Έχετε αλλαγές που δεν έχουν αποθηκευτεί. Αποθήκευση πριν από την έξοδο?</string>
-    <string name="share_colors_success">Τα χρώματα ενημερώθηκαν με επιτυχία. Ένα νέο θέμα που ονομάζεται  \"Κοινόχρηστο\" έχει προστεθεί, παρακαλούμε να χρησιμοποιήστε το για την ενημέρωση των χρωμάτων όλων των εφαρμ. στο μέλλον.</string>
+    <string name="global_theme_success">Τα χρώματα ενημερώθηκαν με επιτυχία. Ένα νέο θέμα που ονομάζεται  \"Κοινόχρηστο\" έχει προστεθεί, παρακαλούμε να χρησιμοποιήστε το για την ενημέρωση των χρωμάτων όλων των εφαρμ. στο μέλλον.</string>
     <string name="purchase_thank_you">
         <![CDATA[
             Παρακαλώ αγοράστε την <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Απλά Σας Ευχαριστώ</a> για να ξεκλειδώσετε αυτή τη λειτουργία για να υποστηρίξετε την ανάπτυξη. Ευχαριστώ!
@@ -470,9 +470,9 @@
     <string name="minutes_raw">λεπτά</string>
     <string name="hours_raw">ώρες</string>
     <string name="days_raw">ημερ.</string>
-    <string name="seconds_letter">δ</string>
-    <string name="minutes_letter">λ</string>
-    <string name="hours_letter">ω</string>
+    <string name="seconds_letter">%dδ</string>
+    <string name="minutes_letter">%dλ</string>
+    <string name="hours_letter">%dω</string>
     <string name="week_number_short">εβδ.</string>
     <plurals name="seconds">
         <item quantity="one">%d δευτ.</item>
@@ -602,7 +602,7 @@
     <string name="add_new_sound">Προσθέστε νέο ήχο</string>
     <string name="no_sound">Χωρίς ήχο</string>
     <string name="during_day_at_hh_mm">Κατά τη διάρκεια της ημέρας στις hh:mm</string>
-    <string name="during_day_at">Κατά τη διάρκεια της ημέρας στις %02d:%02d</string>
+    <string name="during_day_at">Κατά τη διάρκεια της ημέρας στις %1$02d:%2$02d</string>
     <string name="settings">Ρυθμίσεις</string>
     <string name="general_settings">Γενικά</string>
     <string name="color_customization">Προσαρμογή χρώματος</string>
@@ -788,13 +788,9 @@
     <string name="website_label">Για τον κώδικα επισκεφθείτε</string>
     <string name="email_label">Στείλτε τα σχόλιά σας ή τις προτάσεις σας</string>
     <string name="upgrade_to_pro">Αναβάθμιση στην Pro</string>
-    <string name="more_apps">Περισσότερες εφαρμογές</string>
-    <string name="more_apps_from_us">Περισσότερες εφαρμογές από εμάς</string>
     <string name="invite_friends">Πρόσκληση φίλων</string>
     <string name="share_text">Έι, έλα να δεις %1$s στο %2$s</string>
     <string name="invite_via">Πρόσκληση μέσω</string>
-    <string name="rate_us">Βαθμολογήστε μας</string>
-    <string name="rate">Βαθμολογία</string>
     <string name="donate">Δωρεά</string>
     <string name="follow_us">Ακολουθήστε μας</string>
     <string name="support">Υποστήριξη</string>
@@ -817,13 +813,10 @@
     </string>
     <string name="purchase">Αγορά</string>
     <string name="before_asking_question_read_faq">Πριν κάνετε μια ερώτηση, ελέγξτε τις ρυθμίσεις της εφαρμογής και διαβάστε πρώτα τις Συχνές Ερωτήσεις. Ίσως η λύση υπάρχει εκεί.</string>
-    <string name="before_rate_read_faq">Πριν μας αξιολογήσετε, ελέγξτε τις ρυθμίσεις εφαρμογής και διαβάστε πρώτα τις Συχνές Ερωτήσεις. Αν έχετε προβλήματα, ίσως η λύση υπάρχει εκεί.</string>
     <string name="make_sure_latest">Επίσης, βεβαιωθείτε ότι χρησιμοποιείτε την τελευταία έκδοση της εφαρμογής.</string>
     <string name="make_sure_upgrade">Σημειώστε επίσης ότι αυτή η έκδοση της εφαρμογής δεν αναπτύσσεται πλέον, αποκτήστε την έκδοση Pro για πολλές βελτιώσεις.</string>
     <string name="read_it">Διαβάστε τις</string>
     <string name="read_faq">Συχνές Ερωτήσεις</string>
-    <string name="rate_us_prompt">Γειά σας,\n\nφαίνεται ότι χρησιμοποιείτε αυτήν την εφαρμογή ήδη για αρκετό καιρό, και το εκτιμούμε πραγματικά.\n\nΑν μπορούμε να σας ζητήσουμε μια χάρη, παρακαλούμε αξιολογήστε μας στο Google Play. Αυτό θα μας βοηθούσε πολύ.\n\nΑνεξάρτητα τι αποφασίσατε, δεν θα εμφανιστεί ξανά αυτό το μήνυμα.\n\nΕυχαριστούμε!</string>
-    <string name="rate_our_app">Βαθμολογήστε την εφαρμογή μας παρακαλώ :)</string>
     <string name="thank_you">Σας Ευχαριστούμε</string>
     <string name="widget_locked_pro">Το widget είναι κλειδωμένο.\nΠαρακαλώ αναβαθμίστε σε Pro έκδοση, για να το ξεκλειδώσετε.</string>
     <string name="new_app">
@@ -944,7 +937,7 @@
     <string name="trial_expires_soon">Η Δοκιμή σας λήγει σύντομα.</string>
     <string name="unlock_for_one_final_day">Ξεκλειδώστε την εφαρμογή για μια τελευταία ημέρα</string>
     <string name="welcome_to_app_name">Καλώς ήρθατε σε %s!</string>
-    <string name="trial_start_description">Σας ευχαριστούμε που χρησιμοποιείτε την εφαρμογή μας. Μπορείτε να χρησιμοποιήσετε αυτή την ξεκλείδωτη έκδοση για &lt;font color=\'#FFFFFF\'>%d ημέρες&lt;/font>. Μετά το τέλος της δοκιμής, παρακαλούμε εξετάστε το ενδεχόμενο αναβάθμισης στην έκδοση Pro. Διαθέτει μεγάλο αριθμό νέων χαρακτηριστικών, μοντέρνο σχεδιασμό, χωρίς διαφημίσεις και πολλές άλλες βελτιώσεις.
+    <string name="trial_start_description">Σας ευχαριστούμε που χρησιμοποιείτε την εφαρμογή μας. Μπορείτε να χρησιμοποιήσετε αυτή την ξεκλείδωτη έκδοση για &lt;font color=\'#FFFFFF\'&gt;%d ημέρες&lt;/font&gt;. Μετά το τέλος της δοκιμής, παρακαλούμε εξετάστε το ενδεχόμενο αναβάθμισης στην έκδοση Pro. Διαθέτει μεγάλο αριθμό νέων χαρακτηριστικών, μοντέρνο σχεδιασμό, χωρίς διαφημίσεις και πολλές άλλες βελτιώσεις.
         \n\nΑπλά πρέπει να πληρώσετε για αυτό μια φορά στη ζωή σας και αν δεν είστε ικανοποιημένοι, μπορείτε να την απεγκαταστήσετε και να λάβετε επιστροφή χρημάτων.\n\nΕλπίζω να σας αρέσει. :)</string>
     <string name="trial_end_description">Παρακαλούμε αναβαθμίστε στην έκδοση Pro για να απολαύσετε την εφαρμογή στο έπακρο.\n\nΠρέπει να πληρώσετε μόνο μια φορά στη ζωή σας και αν δεν είστε ικανοποιημένοι, μπορείτε να την απεγκαταστήσετε και να λάβετε επιστροφή χρημάτων.\n\nΤα λέμε εκεί. :)</string>
     <plurals name="trial_expires_days">

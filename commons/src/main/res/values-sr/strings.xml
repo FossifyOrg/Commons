@@ -12,7 +12,7 @@
     <string name="an_error_occurred">Дошло је до грешке: %s</string>
     <string name="open_with">Отвори са</string>
     <string name="edit_with">Измени са</string>
-    <string name="edit">Уредити</string>
+    <string name="edit">Уреди</string>
     <string name="no_app_found">Није пронађена одговарајућа апликација</string>
     <string name="no_browser_found">Није пронађен ниједан претраживач</string>
     <string name="no_email_client_found">Није пронађен ниједан клијент е-поште</string>
@@ -113,9 +113,9 @@
     <string name="import_blocked_numbers">Увезите блокиране бројеве</string>
     <string name="must_make_default_dialer">Морате да подесите ову апликацију као подразумевану апликацију за бирање бројева да бисте користили блокиране бројеве.</string>
     <string name="block_confirmation">Да ли сте сигурни да желите да блокирате \"%s\"\?</string>
-    <string name="block_not_stored_calls">Блокирајте позиве из несачуваних контаката</string>
+    <string name="block_unknown_calls">Блокирајте позиве из несачуваних контаката</string>
     <string name="block_hidden_calls">Блокирај позиве са скривених бројева</string>
-    <string name="block_not_stored_messages">Блокирајте поруке од несачуваних контаката</string>
+    <string name="block_unknown_messages">Блокирајте поруке од несачуваних контаката</string>
     <string name="block_hidden_messages">Блокирај поруке са скривених бројева</string>
     <string name="add_blocked_number_helper_text">Унесите број или образац (нпр. *12345*, +1*8888) да бисте блокирали све позиве и поруке са бројева који одговарају шаблону.</string>
     <string name="must_make_default_caller_id_app">Не могу блокирати непознате бројеве без дозволе ИД позиваоца.</string>
@@ -297,7 +297,7 @@
     <string name="undo_changes_confirmation">Да ли желите да поништите измене?</string>
     <string name="cannot_be_undone">Ова радња се не може опозвати.</string>
     <string name="save_before_closing">Имате несачуване измене. Сачувај пре изласка?</string>
-    <string name="share_colors_success">Боје су ажуриране успешно. Нова тема под именом \'Shared\' је додата, молимо вас да је користите за ажурирање свих боја у будућности.</string>
+    <string name="global_theme_success">Боје су ажуриране успешно. Нова тема под именом \'Shared\' је додата, молимо вас да је користите за ажурирање свих боја у будућности.</string>
     <string name="purchase_thank_you">
         <![CDATA[
             Молимо вас пазарите <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> да откључате ову функцију и подржите наш развој. Хвала вам!
@@ -578,7 +578,7 @@
     <string name="add_new_sound">Додај нови звук</string>
     <string name="no_sound">Без звука</string>
     <string name="during_day_at_hh_mm">Током дана у cc:мм</string>
-    <string name="during_day_at">Током дана у %02d:%02d</string>
+    <string name="during_day_at">Током дана у %1$02d:%2$02d</string>
     <string name="settings">Подешавања</string>
     <string name="color_customization">Прилагођавање боја</string>
     <string name="customize_colors">Прилагодите боје</string>
@@ -763,12 +763,9 @@
     <string name="website_label">За изворни код посаетите</string>
     <string name="email_label">Пошаљите ваше повратне информације или сугестије на</string>
     <string name="upgrade_to_pro">Унапредите у професионалну верзију</string>
-    <string name="more_apps">Више апликација</string>
-    <string name="more_apps_from_us">Више апликација од нас</string>
     <string name="invite_friends">Позовите пријатеље</string>
     <string name="share_text">Посетите %1$s на %2$s</string>
     <string name="invite_via">Позовите преко</string>
-    <string name="rate_us">Оцените нас</string>
     <string name="donate">Донирај</string>
     <string name="follow_us">Запратите нас</string>
     <string name="privacy_policy">Правила о приватности</string>
@@ -786,21 +783,10 @@
     </string>
     <string name="purchase">Купите</string>
     <string name="before_asking_question_read_faq">Пре постављања питања проверите подешавања апликације и прочитајте најчешће постављана питања. Можда су решења већ ту.</string>
-    <string name="before_rate_read_faq">Пре него што нас оцените, проверите подешавања апликације и прво прочитајте Често постављана питања. Ако имате било каквих проблема, можда је решење ту.</string>
     <string name="make_sure_latest">Такође се уверите да користите најновију верзију апликације.</string>
     <string name="make_sure_upgrade">Такође имајте на уму да се ова верзија апликације више не развија, набавите Про за многа побољшања.</string>
     <string name="read_it">Прочитајте</string>
     <string name="read_faq">Прочитајте ФАК</string>
-    <string name="rate_us_prompt">Здраво,
-\n
-\nизгледа да ову апликацију користите већ дуже време, и ми то заиста ценимо.
-\n
-\nАко можемо да вас замолимо за услугу, оцените нас на Гоогле Плаи-у. То би нам заиста много помогло.
-\n
-\nКако год да одлучите, ову поруку више нећете видети.
-\n
-\nХвала!</string>
-    <string name="rate_our_app">Молимо оцените нашу апликацију :)</string>
     <string name="thank_you">Хвала вам</string>
     <string name="widget_locked_pro">Виџет је закључан.
 \nНадоградите на Про верзију да бисте је откључали.</string>

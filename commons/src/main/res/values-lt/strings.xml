@@ -92,7 +92,7 @@
     <string name="reduce_column_count">Sumažinti stulpelių skaičių</string>
     <string name="column_count">Stulpelių skaičius</string>
     <string name="portrait_column_count">Stulpelių skaičius portretiniame rėžime</string>
-    <string name="landscape_column_count">"Stulpelių skaičius  paverstame rėžime"</string>
+    <string name="landscape_column_count">Stulpelių skaičius paverstame rėžime</string>
     <string name="change_cover_image">Pakeisti viršelio paveikslą</string>
     <string name="select_photo">Pasirinkti nuotrauką</string>
     <plurals name="column_counts">
@@ -110,9 +110,9 @@
     <string name="import_blocked_numbers">Importuoti užblokuotus numerius</string>
     <string name="must_make_default_dialer">Norėdami blokuoti numerius, turite nustatyti šią programėlę kaip numatytąją numerių rinkimo programėlę.</string>
     <string name="set_as_default">Nustatyti kaip numatytąją</string>
-    <string name="block_confirmation">Ar tikrai norite užblokuoti „%s“\?</string>
-    <string name="block_not_stored_calls">Blokuoti skambučius iš neįvestų numerių</string>
-    <string name="block_not_stored_messages">Blokuoti žinutes iš neįvestų numerių</string>
+    <string name="block_confirmation">Ar tikrai norite užblokuoti „%s“?</string>
+    <string name="block_unknown_calls">Blokuoti skambučius iš neįvestų numerių</string>
+    <string name="block_unknown_messages">Blokuoti žinutes iš neįvestų numerių</string>
     <string name="add_blocked_number_helper_text">Įvesti skaičių ar šabloną (pvz. *12345*, +370*8888) kad blokuoti skambučius ir žinutes iš numerių atitinkančių šabloną.</string>
     <string name="must_make_default_caller_id_app">Negalima blokuoti nežinomų numerių be skambintojo ID leidimo.</string>
     <string name="favorites">Mėgstami</string>
@@ -176,7 +176,7 @@
     <string name="filename_without_txt">Failo pavadinimas (be .txt)</string>
     <string name="filename_without_json">Failo pavadinimas (be .json)</string>
     <string name="filename_without_zip">Failo pavadinimas (be .zip)</string>
-    <string name="cannot_hide_files">"Pradedant nuo  Android 11 versijos, šitaip nebegalima slėpti bylų ir aplankų"</string>
+    <string name="cannot_hide_files">Pradedant nuo Android 11 versijos, šitaip nebegalima slėpti bylų ir aplankų</string>
     <string name="copy">Kopijuoti</string>
     <string name="move">Perkelti</string>
     <string name="copy_move">Kopijuoti / Perkelti</string>
@@ -214,7 +214,7 @@
     <string name="empty_name">Įveskite pavadinimą</string>
     <string name="unknown_error_occurred">Įvyko nežinoma klaida</string>
     <string name="file_already_exists">Failas „%s“ jau yra</string>
-    <string name="file_already_exists_overwrite">Failas „%s“ jau yra. Perrašyti\?</string>
+    <string name="file_already_exists_overwrite">Failas „%s“ jau yra. Perrašyti?</string>
     <string name="folder_already_exists">Aplankas „%s“ jau yra</string>
     <string name="merge">Sulieti</string>
     <string name="keep_both">Palikti abu</string>
@@ -292,7 +292,7 @@
     <string name="undo_changes_confirmation">Ar tikrai norite atšaukti pakeitimus\?</string>
     <string name="cannot_be_undone">Šio veiksmo neįmanoma atšaukti.</string>
     <string name="save_before_closing">Yra neįrašytų pakeitimų. Įrašyti prieš išeinant\?</string>
-    <string name="share_colors_success">Spalvos sėkmingai atnaujintos. Buvo pridėtas naujas apipavidalinimas, pavadinimu, „Bendrinamas“, naudokite jį, visų programėlių spalvų atnaujinimui ateityje.</string>
+    <string name="global_theme_success">Spalvos sėkmingai atnaujintos. Buvo pridėtas naujas apipavidalinimas, pavadinimu, „Bendrinamas“, naudokite jį, visų programėlių spalvų atnaujinimui ateityje.</string>
     <string name="light_theme">Šviesus</string>
     <string name="dark_theme">Tamsus</string>
     <string name="auto_theme">Automatinis</string>
@@ -403,9 +403,9 @@
     <string name="minutes_raw">minutės</string>
     <string name="hours_raw">valandos</string>
     <string name="days_raw">dienos</string>
-    <string name="seconds_letter">sek.</string>
-    <string name="minutes_letter">min.</string>
-    <string name="hours_letter">val.</string>
+    <string name="seconds_letter">%dsek.</string>
+    <string name="minutes_letter">%dmin.</string>
+    <string name="hours_letter">%dval.</string>
     <plurals name="seconds">
         <item quantity="one">%d sekundė</item>
         <item quantity="few">%d sekundės</item>
@@ -561,7 +561,7 @@
     <string name="add_new_sound">Pridėti naują garsą</string>
     <string name="no_sound">Be garso</string>
     <string name="during_day_at_hh_mm">Dienos metu vv:mm</string>
-    <string name="during_day_at">Dienos metu ties %02d:%02d</string>
+    <string name="during_day_at">Dienos metu ties %1$02d:%2$02d</string>
     <string name="settings">Nustatymai</string>
     <string name="general_settings">Bendri</string>
     <string name="color_customization">Spalvos tinkinimas</string>
@@ -712,13 +712,9 @@
     <string name="website_label">Pirminį kodą rasite apsilankę adresu</string>
     <string name="email_label">Siųskite atsiliepimus ir pasiūlymus adresu</string>
     <string name="upgrade_to_pro">Naujinti į „Pro“</string>
-    <string name="more_apps">Daugiau programėlių</string>
-    <string name="more_apps_from_us">Kitos mūsų programėlės</string>
     <string name="invite_friends">Pasiūlykite draugams</string>
     <string name="share_text">Labas, išbandyk programėlę, pavadinimu „%1$s“, kurią gali atsisiųsti adresu %2$s</string>
     <string name="invite_via">Pasiūlyti per</string>
-    <string name="rate_us">Įvertinkite mus</string>
-    <string name="rate">Įvertinti</string>
     <string name="donate">Paaukoti</string>
     <string name="follow_us">Sekite mus</string>
     <string name="copyright">v %1$s
@@ -735,20 +731,9 @@
     <string name="device_os">Įrenginio OS: %s</string>
     <string name="purchase">Įsigyti</string>
     <string name="before_asking_question_read_faq">Prieš užduodami klausimą, pasižiūrėkite programėlės nustatymuose ir, iš pradžių, perskaitykite dažniausiai užduodamus klausimus. Galbūt, sprendimas yra aprašytas ten.</string>
-    <string name="before_rate_read_faq">Prieš mus įvertindami, pasižiūrėkite programėlės nustatymuose ir, iš pradžių, perskaitykite dažniausiai užduodamus klausimus. Galbūt, sprendimas yra aprašytas ten.</string>
     <string name="make_sure_latest">Be to, įsitikinkite, kad naudojate naujausią programėlės versiją.</string>
     <string name="read_it">Skaityti</string>
     <string name="read_faq">Skaityti DUK</string>
-    <string name="rate_us_prompt">Sveiki,
-\n
-\natrodo, kad jau kurį laiką naudojatės šia programėle ir mes labai tai vertiname.
-\n
-\nJeigu jūs nieko prieš, norėtume jūsų paprašyti įvertinti mus „Google Play“ parduotuvėje. Tai labai mums padėtų.
-\n
-\nNepaisant to, ką benuspręstumėte, šis pranešimas daugiau nebebus jums rodomas.
-\n
-\nDėkojame!</string>
-    <string name="rate_our_app">Įvertinkite, prašome, mūsų programėlę :)</string>
     <string name="thank_you">Ačiū</string>
     <string name="widget_locked_pro">Valdiklis yra užrakintas.
 \nAtsinaujinkite į „Pro“ versiją, norėdami jį atrakinti.</string>

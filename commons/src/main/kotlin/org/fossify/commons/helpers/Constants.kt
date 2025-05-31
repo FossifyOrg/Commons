@@ -20,6 +20,8 @@ const val APP_NAME = "app_name"
 const val APP_LICENSES = "app_licenses"
 const val APP_FAQ = "app_faq"
 const val APP_VERSION_NAME = "app_version_name"
+const val APP_PACKAGE_NAME = "app_package_name"
+const val APP_REPOSITORY_NAME = "app_repo_name"
 const val APP_ICON_IDS = "app_icon_ids"
 const val APP_ID = "app_id"
 const val APP_LAUNCHER_NAME = "app_launcher_name"
@@ -41,9 +43,12 @@ const val KEY_PHONE = "phone"
 const val KEY_MAILTO = "mailto"
 const val CONTACT_ID = "contact_id"
 const val IS_PRIVATE = "is_private"
-const val SMT_PRIVATE = "smt_private"   // used at the contact source of local contacts hidden from other apps
+const val SMT_PRIVATE =
+    "smt_private" // used at the contact source of local contacts hidden from other apps
 const val FIRST_GROUP_ID = 10000L
 const val MD5 = "MD5"
+const val SHA1 = "SHA-1"
+const val SHA256 = "SHA-256"
 const val SHORT_ANIMATION_DURATION = 150L
 val DARK_GREY = 0xFF333333.toInt()
 
@@ -112,12 +117,8 @@ const val PROTECTED_FOLDER_TYPE = "protected_folder_type_"
 const val KEEP_LAST_MODIFIED = "keep_last_modified"
 const val USE_ENGLISH = "use_english"
 const val WAS_USE_ENGLISH_TOGGLED = "was_use_english_toggled"
-const val WAS_SHARED_THEME_EVER_ACTIVATED = "was_shared_theme_ever_activated"
-const val IS_USING_SHARED_THEME = "is_using_shared_theme"
-const val IS_USING_AUTO_THEME = "is_using_auto_theme"
-const val IS_USING_SYSTEM_THEME = "is_using_system_theme"
-const val SHOULD_USE_SHARED_THEME = "should_use_shared_theme"
-const val WAS_SHARED_THEME_FORCED = "was_shared_theme_forced"
+const val IS_GLOBAL_THEME_ENABLED = "is_global_theme_enabled"
+const val IS_SYSTEM_THEME_ENABLED = "is_using_system_theme"
 const val WAS_CUSTOM_THEME_SWITCH_DESCRIPTION_SHOWN = "was_custom_theme_switch_description_shown"
 const val SHOW_INFO_BUBBLE = "show_info_bubble"
 const val LAST_CONFLICT_RESOLUTION = "last_conflict_resolution"
@@ -145,15 +146,12 @@ const val WIDGET_ID_TO_MEASURE = "widget_id_to_measure"
 const val WAS_ORANGE_ICON_CHECKED = "was_orange_icon_checked"
 const val WAS_APP_ON_SD_SHOWN = "was_app_on_sd_shown"
 const val WAS_BEFORE_ASKING_SHOWN = "was_before_asking_shown"
-const val WAS_BEFORE_RATE_SHOWN = "was_before_rate_shown"
 const val WAS_INITIAL_UPGRADE_TO_PRO_SHOWN = "was_initial_upgrade_to_pro_shown"
 const val WAS_APP_ICON_CUSTOMIZATION_WARNING_SHOWN = "was_app_icon_customization_warning_shown"
 const val APP_SIDELOADING_STATUS = "app_sideloading_status"
 const val DATE_FORMAT = "date_format"
 const val WAS_OTG_HANDLED = "was_otg_handled_2"
 const val WAS_UPGRADED_FROM_FREE_SHOWN = "was_upgraded_from_free_shown"
-const val WAS_RATE_US_PROMPT_SHOWN = "was_rate_us_prompt_shown"
-const val WAS_APP_RATED = "was_app_rated"
 const val WAS_SORTING_BY_NUMERIC_VALUE_ADDED = "was_sorting_by_numeric_value_added"
 const val WAS_FOLDER_LOCKING_NOTICE_SHOWN = "was_folder_locking_notice_shown"
 const val LAST_RENAME_USED = "last_rename_used"
@@ -172,6 +170,7 @@ const val SHOW_CALL_CONFIRMATION = "show_call_confirmation"
 const val COLOR_PICKER_RECENT_COLORS = "color_picker_recent_colors"
 const val SHOW_CONTACT_THUMBNAILS = "show_contact_thumbnails"
 const val SHOW_PHONE_NUMBERS = "show_phone_numbers"
+const val FORMAT_PHONE_NUMBERS = "format_phone_numbers"
 const val SHOW_ONLY_CONTACTS_WITH_NUMBERS = "show_only_contacts_with_numbers"
 const val IGNORED_CONTACT_SOURCES = "ignored_contact_sources_2"
 const val LAST_USED_CONTACT_SOURCE = "last_used_contact_source"
@@ -194,10 +193,15 @@ const val AUTO_BACKUP_FILENAME = "auto_backup_filename"
 const val LAST_AUTO_BACKUP_TIME = "last_auto_backup_time"
 const val PASSWORD_RETRY_COUNT = "password_retry_count"
 const val PASSWORD_COUNTDOWN_START_MS = "password_count_down_start_ms"
+const val LAST_UNLOCK_TIMESTAMP_MS = "last_unlock_timestamp_ms"
+const val UNLOCK_TIMEOUT_DURATION_MS = "unlock_timeout_duration_ms"
+const val SHOW_CHECKMARKS_ON_SWITCHES = "show_checkmarks_on_switches"
+const val FIRST_DAY_OF_WEEK = "first_day_of_week"
 
 const val MAX_PASSWORD_RETRY_COUNT = 3
 const val DEFAULT_PASSWORD_COUNTDOWN = 5
 const val MINIMUM_PIN_LENGTH = 4
+const val DEFAULT_UNLOCK_TIMEOUT_DURATION = 30000L
 
 // contact grid view constants
 const val CONTACTS_GRID_MAX_COLUMNS_COUNT = 10
@@ -267,10 +271,12 @@ const val SELECT_EXPORT_SETTINGS_FILE_INTENT = 1006
 const val REQUEST_CODE_SET_DEFAULT_DIALER = 1007
 const val CREATE_DOCUMENT_SDK_30 = 1008
 const val REQUEST_CODE_SET_DEFAULT_CALLER_ID = 1010
+const val REQUEST_APP_UNLOCK = 1012
 
 // sorting
 const val SORT_ORDER = "sort_order"
-const val SORT_FOLDER_PREFIX = "sort_folder_"       // storing folder specific values at using "Use for this folder only"
+const val SORT_FOLDER_PREFIX =
+    "sort_folder_"       // storing folder specific values at using "Use for this folder only"
 const val SORT_BY_NAME = 1
 const val SORT_BY_DATE_MODIFIED = 2
 const val SORT_BY_SIZE = 4
@@ -290,9 +296,9 @@ const val SORT_USE_NUMERIC_VALUE = 32768
 const val SORT_BY_FULL_NAME = 65536
 const val SORT_BY_CUSTOM = 131072
 const val SORT_BY_DATE_CREATED = 262144
+const val SORT_BY_COUNT = 524288
 
 // security
-const val WAS_PROTECTION_HANDLED = "was_protection_handled"
 const val PROTECTION_NONE = -1
 const val PROTECTION_PATTERN = 0
 const val PROTECTION_PIN = 1
@@ -352,7 +358,8 @@ const val THURSDAY_BIT = 8
 const val FRIDAY_BIT = 16
 const val SATURDAY_BIT = 32
 const val SUNDAY_BIT = 64
-const val EVERY_DAY_BIT = MONDAY_BIT or TUESDAY_BIT or WEDNESDAY_BIT or THURSDAY_BIT or FRIDAY_BIT or SATURDAY_BIT or SUNDAY_BIT
+const val EVERY_DAY_BIT =
+    MONDAY_BIT or TUESDAY_BIT or WEDNESDAY_BIT or THURSDAY_BIT or FRIDAY_BIT or SATURDAY_BIT or SUNDAY_BIT
 const val WEEK_DAYS_BIT = MONDAY_BIT or TUESDAY_BIT or WEDNESDAY_BIT or THURSDAY_BIT or FRIDAY_BIT
 const val WEEKENDS_BIT = SATURDAY_BIT or SUNDAY_BIT
 
@@ -370,12 +377,64 @@ const val TAB_FILES = 16
 const val TAB_RECENT_FILES = 32
 const val TAB_STORAGE_ANALYSIS = 64
 
-val photoExtensions: Array<String> get() = arrayOf(".jpg", ".png", ".jpeg", ".bmp", ".webp", ".heic", ".heif", ".apng", ".avif")
-val videoExtensions: Array<String> get() = arrayOf(".mp4", ".mkv", ".webm", ".avi", ".3gp", ".mov", ".m4v", ".3gpp")
-val audioExtensions: Array<String> get() = arrayOf(".mp3", ".wav", ".wma", ".ogg", ".m4a", ".opus", ".flac", ".aac", ".m4b")
-val rawExtensions: Array<String> get() = arrayOf(".dng", ".orf", ".nef", ".arw", ".rw2", ".cr2", ".cr3")
+val photoExtensions: Array<String>
+    get() = arrayOf(
+        ".jpg",
+        ".png",
+        ".jpeg",
+        ".bmp",
+        ".webp",
+        ".heic",
+        ".heif",
+        ".apng",
+        ".avif",
+        ".jxl"
+    )
 
-val extensionsSupportingEXIF: Array<String> get() = arrayOf(".jpg", ".jpeg", ".png", ".webp", ".dng")
+val videoExtensions: Array<String>
+    get() = arrayOf(
+        ".mp4",
+        ".mkv",
+        ".webm",
+        ".avi",
+        ".3gp",
+        ".mov",
+        ".m4v",
+        ".3gpp"
+    )
+
+val audioExtensions: Array<String>
+    get() = arrayOf(
+        ".mp3",
+        ".wav",
+        ".wma",
+        ".ogg",
+        ".m4a",
+        ".opus",
+        ".flac",
+        ".aac",
+        ".m4b"
+    )
+
+val rawExtensions: Array<String>
+    get() = arrayOf(
+        ".dng",
+        ".orf",
+        ".nef",
+        ".arw",
+        ".rw2",
+        ".cr2",
+        ".cr3"
+    )
+
+val extensionsSupportingEXIF: Array<String>
+    get() = arrayOf(
+        ".jpg",
+        ".jpeg",
+        ".png",
+        ".webp",
+        ".dng"
+    )
 
 const val DATE_FORMAT_ONE = "dd.MM.yyyy"
 const val DATE_FORMAT_TWO = "dd/MM/yyyy"
@@ -658,4 +717,28 @@ fun getEmptyLocalContact() = LocalContact(
     null
 )
 
-fun getProperText(text: String, shouldNormalize: Boolean) = if (shouldNormalize) text.normalizeString() else text
+fun getProperText(text: String, shouldNormalize: Boolean) =
+    when {
+        shouldNormalize -> text.normalizeString()
+        else -> text
+    }
+
+fun getISODayOfWeekFromJava(javaDayOfWeek: Int): Int {
+    if (javaDayOfWeek !in 1..7) {
+        throw IllegalArgumentException("Invalid Java day of week: $javaDayOfWeek")
+    }
+
+    // Java: Sun=1, ..., Sat=7
+    // ISO:  Mon=1, ..., Sun=7
+    return (javaDayOfWeek + 5) % 7 + 1
+}
+
+fun getJavaDayOfWeekFromISO(isoDayOfWeek: Int): Int {
+    if (isoDayOfWeek !in 1..7) {
+        throw IllegalArgumentException("Invalid ISO day of week: $isoDayOfWeek")
+    }
+
+    // ISO:  Mon=1, ..., Sun=7
+    // Java: Sun=1, ..., Sat=7
+    return (isoDayOfWeek % 7) + 1
+}

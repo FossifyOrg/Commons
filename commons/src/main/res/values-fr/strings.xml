@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="ok">Valider</string>
+    <string name="ok">OK</string>
     <string name="cancel">Annuler</string>
     <string name="close">Fermer</string>
     <string name="back">Retour</string>
@@ -115,10 +115,10 @@
     <string name="import_blocked_numbers">Importer des numéros bloqués</string>
     <string name="must_make_default_dialer">Vous devez définir cette application comme application de numérotation par défaut afin de pouvoir utiliser les numéros bloqués.</string>
     <string name="set_as_default">Définir par défaut</string>
-    <string name="block_confirmation">Voulez-vous vraiment bloquer "%s" \?</string>
-    <string name="block_not_stored_calls">Bloquer les appels des contacts non enregistrés</string>
+    <string name="block_confirmation">Voulez-vous vraiment bloquer \"%s\" ?</string>
+    <string name="block_unknown_calls">Bloquer les appels des contacts non enregistrés</string>
     <string name="block_hidden_calls">Bloquer les appels des numéros masqués</string>
-    <string name="block_not_stored_messages">Bloquer les messages des contacts non enregistrés</string>
+    <string name="block_unknown_messages">Bloquer les messages des contacts non enregistrés</string>
     <string name="block_hidden_messages">Bloquer les messages des numéros masqués</string>
     <string name="add_blocked_number_helper_text">Saisissez un numéro ou un modèle (par exemple, *12345*, +1*8888) pour bloquer tous les appels et messages provenant de numéros correspondant au modèle.</string>
     <string name="must_make_default_caller_id_app">Il est impossible de bloquer des numéros inconnus sans avoir autorisé préalablement l\'identification de l\'appelant.</string>
@@ -262,7 +262,7 @@
     <string name="confirm_storage_access_text">Veuillez sélectionner le dossier racine de la carte SD sur le prochain écran, pour accorder les droits en écriture</string>
     <string name="confirm_storage_access_text_sd">Si vous n\'apercevez pas la carte SD, essayez ceci</string>
     <string name="confirm_storage_access_android_text">Veuillez autoriser l\'application à accéder au stockage sélectionné sur l\'écran suivant en appuyant sur \"Utiliser ce dossier\" en bas de l\'écran.</string>
-    <string name="confirm_storage_access_android_text_specific">Veuillez autoriser l\'accès à \"<b>%s</b>\" sur l\'écran suivant en appuyant sur \"<b>Utiliser ce dossier</b>\" en bas de l\'écran.</string>
+    <string name="confirm_storage_access_android_text_specific">Veuillez autoriser l\'accès à \'<b>%s</b>\' sur l\'écran suivant en appuyant sur \'<b>Utiliser ce dossier</b>\' en bas de l\'écran.</string>
     <string name="confirm_create_doc_for_new_folder_text">Veuillez appuyer sur \"<b>Enregistrer</b>\" en bas de l\'écran suivant pour créer le nouveau dossier.</string>
     <string name="confirm_selection">Confirmer la sélection</string>
     <string name="loading">Chargement…</string>
@@ -278,9 +278,9 @@
         <item quantity="other">%d éléments</item>
     </plurals>
     <plurals name="deleting_items">
-        <item quantity="one">Suppression d\'un élément en cours</item>
-        <item quantity="many">Suppression de %d éléments en cours</item>
-        <item quantity="other">Suppression de %d éléments en cours</item>
+        <item quantity="one">Suppression %d élément</item>
+        <item quantity="many">Suppression de %d éléments</item>
+        <item quantity="other">Suppression de %d éléments</item>
     </plurals>
     <plurals name="delete_contacts">
         <item quantity="one">%d contact</item>
@@ -336,8 +336,10 @@
     <string name="cannot_be_undone">Cette action ne peut pas être annulée.</string>
     <string name="save_before_closing">Certaines modifications ne sont pas enregistrées. Voulez-vous les enregistrer avant de quitter \?</string>
     <string name="app_icon_color_warning">Attention : Certains lanceurs peuvent ne pas manipuler correctement la personnalisation de l\'icône d\'application. Si l\'icône disparaît, essayez de lancer l\'application via Google Play ou un widget, si accessible. Après le lancement, restaurer la couleur d\'icône verte par défaut #106D1F. Dans les cas extrêmes, réinstaller l\'application peut être nécessaire.</string>
-    <string name="share_colors_success">Actualisation des couleurs réussie. Un nouveau thème nommé \"Partagé\" a été ajouté. Veuillez utiliser dorénavant ce thème pour actualiser les couleurs de toutes les applications.</string>
-    <string name="purchase_thank_you">Veuillez acheter &lt;a href=https ://play.google.com/store/apps/details ?id=org.fossify.thankyou&gt;Fossify Merci&lt;/a&gt; pour déverrouiller cette fonction et soutenir le développement. Merci !</string>
+    <string name="global_theme_success">Actualisation des couleurs réussie. Un nouveau thème nommé \"Partagé\" a été ajouté. Veuillez utiliser dorénavant ce thème pour actualiser les couleurs de toutes les applications.</string>
+    <string name="purchase_thank_you"><![CDATA[
+            Veuillez acheter <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Merci Fossify</a> pour déverrouiller cette fonction et soutenir le développement. Merci !
+        ]]></string>
     <string name="light_theme">Clair</string>
     <string name="dark_theme">Sombre</string>
     <string name="auto_theme">Automatique</string>
@@ -474,7 +476,7 @@
     <string name="seconds_raw">secondes</string>
     <string name="hours_raw">heures</string>
     <string name="days_raw">jours</string>
-    <string name="minutes_letter">min</string>
+    <string name="minutes_letter">%dmin</string>
     <string name="week_number_short">sem</string>
     <plurals name="seconds">
         <item quantity="one">%d seconde</item>
@@ -635,7 +637,7 @@
     <string name="add_new_sound">Ajouter une nouvelle sonnerie</string>
     <string name="no_sound">Aucune sonnerie</string>
     <string name="during_day_at_hh_mm">Au cours de la journée à hh:mm</string>
-    <string name="during_day_at">Au cours de la journée à %02d:%02d</string>
+    <string name="during_day_at">Au cours de la journée à %1$02d:%2$02d</string>
     <string name="settings">Paramètres</string>
     <string name="general_settings">Général</string>
     <string name="color_customization">Personnalisation des couleurs</string>
@@ -677,7 +679,7 @@
     <string name="import_settings">Importer des paramètres</string>
     <string name="settings_exported_successfully">Exportation des paramètres réussie</string>
     <string name="settings_imported_successfully">Importation des paramètres réussie</string>
-    <string name="start_name_with_surname">Positionner le prénom avant le nom de famille</string>
+    <string name="start_name_with_surname">Afficher le nom de famille en premier</string>
     <string name="clear_cache">Vider le cache</string>
     <string name="show_call_confirmation_dialog">Afficher une fenêtre de confirmation d\'appel avant de lancer un appel</string>
     <string name="visibility">Visibilité</string>
@@ -860,13 +862,9 @@
     <string name="website_label">Pour le code source ouvert, visitez</string>
     <string name="email_label">Envoyez vos commentaires ou suggestions à</string>
     <string name="upgrade_to_pro">Passer à la version \"Pro\"</string>
-    <string name="more_apps">Plus d\'applications</string>
-    <string name="more_apps_from_us">Plus d\'applications simples</string>
     <string name="invite_friends">Inviter des amis</string>
     <string name="share_text">Salut, viens voir %1$s sur %2$s</string>
     <string name="invite_via">Inviter via</string>
-    <string name="rate_us">Évaluez-nous</string>
-    <string name="rate">Évaluer</string>
     <string name="donate">Faire un don</string>
     <string name="follow_us">Suivez-nous</string>
     <string name="copyright">v. %1$s
@@ -881,29 +879,30 @@
     <string name="additional_info">Informations supplémentaires</string>
     <string name="app_version">Version de l\'application : %s</string>
     <string name="device_os">Système d\'exploitation de l\'appareil : %s</string>
-    <string name="donate_please">Bonjour, &lt;br&gt;&lt;br&gt;j\'espère que vous appréciez l\'application. Elle ne contient pas d\'annonces, alors veuillez soutenir son développement en achetant l\'appli &lt;a href=https ://play.google.com/store/apps/details ?id=org.fossify.thankyou&gt;Fossify Merci&lt;/a&gt;, elle empêchera également ce dialogue de se montrer à nouveau. Merci !</string>
+    <string name="donate_please"><![CDATA[
+            Bonjour, <br><br>
+j\'espère que vous appréciez l\'application. Elle ne contient pas d\'annonces, vous pouvez soutenir son développement en achetant l\'appli <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Merci Fossify</a>, cela empêchera également ce dialogue de se montrer à nouveau.<br><br>
+            Merci !
+        ]]></string>
     <string name="purchase">Acheter</string>
     <string name="update_thank_you">Veuillez mettre à jour Fossify Merci</string>
     <string name="before_asking_question_read_faq">Avant de poser une question, veuillez tout d\'abord vérifier les paramètres de l\'application et lire la foire aux questions. Il est possible que la solution s\'y trouve.</string>
-    <string name="before_rate_read_faq">Avant de nous évaluer, veuillez tout d\'abord vérifier les paramètres de l\'application et lire la foire aux questions. Si vous rencontrez un problème, il est possible que la solution s\'y trouve.</string>
     <string name="make_sure_latest">Assurez-vous également d\'utiliser la version la plus récente de l\'application.</string>
     <string name="make_sure_upgrade">Notez également que cette version de l\'application n\'est plus développée. Procurez-vous la version \"Pro\" pour bénéficier de nombreuses améliorations.</string>
     <string name="read_it">Consultez-la</string>
     <string name="read_faq">Consulter la FAQ</string>
-    <string name="rate_us_prompt">Bonjour,
-\n
-\nIl semble que vous utilisez cette application depuis un certain temps déjà et nous vous en remercions.
-\n
-\nSi nous pouvons vous demander une faveur, veuillez nous évaluer sur \"Google Play\". Cela nous aiderait beaucoup.
-\n
-\nPeu importe le contenu de votre évaluation, vous ne verrez plus ce message.
-\n
-\nMerci d\'avance !</string>
-    <string name="rate_our_app">Merci d\'évaluer notre application :)</string>
     <string name="thank_you">Merci</string>
     <string name="widget_locked_pro">Le widget est verrouillé.
 \nVeuillez passer à la version \"Pro\" pour le déverrouiller.</string>
-    <string name="new_app">Bonjour,&lt;br&gt;&lt;br&gt; Nous vous informons que de nouvelles applications ont été publiées récemment :&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; Vous pouvez les télécharger en appuyant sur leurs titres ou icônes.&lt;br&gt;&lt;br&gt; Merci</string>
+    <string name="new_app"><![CDATA[
+            Bonjour,<br><br>
+            Nous vous informons que de nouvelles applications ont été publiées récemment :<br><br>
+            <a href="%1$s">%2$s</a><br><br>
+            <a href="%3$s">%4$s</a><br><br>
+            <a href="%5$s">%6$s</a><br><br>
+            Vous pouvez les télécharger en appuyant sur leurs titres ou icônes.<br><br>
+            Merci
+        ]]></string>
     <string name="app_launcher_short">Lanceur d\'applications</string>
     <string name="calculator_short">Calculatrice</string>
     <string name="calendar_short">Agenda</string>
@@ -920,7 +919,9 @@
     <string name="sms_messenger_short">Messagerie SMS</string>
     <string name="thank_you_short">Merci</string>
     <string name="voice_recorder_short">Enregistreur vocal</string>
-    <string name="sideloaded_app">La version de votre application semble corrompue. Merci de télécharger la version originale en suivant &lt;a href=%s&gt;ce lien&lt;/a&gt;.</string>
+    <string name="sideloaded_app"><![CDATA[
+            La version de votre application semble corrompue. Merci de télécharger la version originale <a href="%s"> en suivant ce lien</a>.
+        ]]></string>
     <string name="frequently_asked_questions">Foire aux questions</string>
     <string name="before_asking_question">Avant de poser une question, veuillez tout d\'abord consulter la</string>
     <string name="faq_1_title_commons">Comment se fait-il que je ne vois pas ce widget d\'applications dans la liste des widgets \?</string>
@@ -1077,4 +1078,73 @@
     <string name="deprecated_app">ATTENTION : cette version de l\'application n\'est plus maintenue à jour. Veuillez vous procurer la version \"Pro\" à l\'adresse web suivante : https://play.google.com/store/apps/details\?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">N\'oubliez pas que si vous désinstallez une application payante dans les deux heures qui suivent son achat, le remboursement sera automatique. À tout moment, si vous souhaitez un remboursement, contactez-nous à l\'adresse électronique suivante : hello@fossify.org et vous l\'obtiendrez dans les plus brefs délais. Cela facilite l\'essai de nos applications :)</string>
     <string name="developer_description">Une suite d\'applications Android simples, à code source ouvert, comprenant des widgets personnalisables, sans publicités ni permissions inutiles.</string>
+    <string name="contributors_label"><![CDATA[
+            TCette liste contient toutes les personnes qui ont sensiblement aidé n\'importe quelle application de la suite Fossify, pas seulement celle-ci. Les traductions sont assurées par des bénévoles,
+            faites-nous savoir si vous souhaitez également aider. Le guide de traduction se trouve sur <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">ce site web</a>, ou contactez-nous simplement à <a href="mailto:hello@fossify.org">hello@fossify.org</a> si vous avez des questions..
+            Merci à tous les contributeurs et tous ceux qui nous soutiennent !
+        ]]></string>
+    <string name="notes">Notes</string>
+    <string name="transparent">Transparent</string>
+    <string name="notification">Notification</string>
+    <string name="notifications">Notifications</string>
+    <string name="six">Six</string>
+    <string name="audio">Audio</string>
+    <string name="mobile">Mobile</string>
+    <string name="source">Source</string>
+    <string name="destination">Destination</string>
+    <string name="album">Album</string>
+    <string name="genre">Genre</string>
+    <string name="exif">EXIF</string>
+    <string name="altitude">Altitude</string>
+    <string name="apply_to_all_apps">Appliquer les couleurs à toutes les applications Fossify</string>
+    <string name="shared_theme_note">Notez que même si vous utilisez la version Pro de l\'application, vous avez toujours besoin de Fossify Thank You pour des raisons techniques. Il s\'occupe de la synchronisation des couleurs.</string>
+    <string name="extension">Extension</string>
+    <string name="minutes_raw">minutes</string>
+    <string name="seconds_letter">%ds</string>
+    <string name="hours_letter">%dh</string>
+    <string name="purchase_simple_thank_you">Acheter Fossify Thank You</string>
+    <string name="widgets">Widgets</string>
+    <string name="contacts_tab">Contacts</string>
+    <string name="usb">USB</string>
+    <string name="saturday_letter">S</string>
+    <string name="version_placeholder">Version %s</string>
+    <string name="donate_new">Bonjour,&lt;br&gt;&lt;br&gt;j\'espère que vous appréciez l\'application. Il ne contient aucune publicité et nous ne collectons pas non plus vos données. Veuillez soutenir son développement en achetant &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Merci Vous&lt;/a&gt;. Vous disposerez également de toutes les fonctionnalités de l\'application, y compris la personnalisation des couleurs, débloquées.&lt;br&gt;&lt;br&gt;Merci !</string>
+    <string name="donate_short">Soutenez-nous en achetant &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; s\'il vous plaît, il débloquera également toutes les fonctionnalités de l\'application, y compris la personnalisation des couleurs.</string>
+    <string name="features_locked">Cette fonctionnalité est verrouillée. Veuillez acheter &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Merci&lt;/a&gt; pour avoir déverrouillé l\'application complète.&lt;br &gt;&lt;br&gt;Il s\'agit d\'un paiement unique et si vous n\'êtes pas satisfait, nous pouvons vous rembourser.</string>
+    <string name="contacts_short">Contacts</string>
+    <string name="notes_short">Notes</string>
+    <string name="faq_6_text_commons">Ce problème survient lorsque votre lanceur ne prend pas totalement en charge la personnalisation des icônes. Essayez de lancer l\'application via Google Play ou un widget, s\'il est accessible. Après le lancement, rétablissez la couleur verte par défaut de l\'icône #106D1F. Dans les cas extrêmes, il peut être nécessaire de réinstaller l\'application.</string>
+    <string name="translation_bengali">Bengali</string>
+    <string name="translation_breton">Breton</string>
+    <string name="translation_hindi">Hindi</string>
+    <string name="faq_2_text_commons"><![CDATA[
+            Oui bien sûr. Vous pouvez nous aider en partageant les applications ou en laissant des notes et commentaires positifs. Vous pouvez également nous aider en traduisant les applications dans une nouvelle langue, ou simplement en mettant à jour certaines traductions existantes.
+            Le guide de traduction se trouve sur <a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file>ce site Web</a>, ou contactez-nous simplement à <a href=mailto:hello@fossify.org>hello@fossify.org</a> si vous avez des questions.
+        ]]></string>
+    <string name="translation_catalan">Catalan</string>
+    <string name="translation_basque">Basque</string>
+    <string name="translation_tamil">Tamil</string>
+    <string name="donate_to_fossify">Faire un don à Fossify</string>
+    <string name="format_phone_numbers">Format des numéros de téléphone</string>
+    <string name="platforms">Plates-formes</string>
+    <string name="cryptocurrency">Crypto-monnaie</string>
+    <string name="little_to_no_fee">Peu ou pas de frais</string>
+    <string name="known_issues">Problèmes connus</string>
+    <string name="theme_and_colors">Thème et couleurs</string>
+    <string name="all_fossify_apps">Toutes les applications Fossify</string>
+    <string name="translation_belarusian">Biélorusse</string>
+    <string name="fee_up_to_pct">Jusqu\'à %1$d%% de frais</string>
+    <string name="translation_central_kurdish">Kurdes du centre</string>
+    <string name="translation_chuvash">Tchouvache</string>
+    <string name="translation_kabyle">Kabyle</string>
+    <string name="translation_esperanto">Espéranto</string>
+    <string name="translation_gujarati">Gujarati</string>
+    <string name="number_of_items">Nombre d\'éléments</string>
+    <string name="reorder_items_by_dragging">Réorganiser les éléments en les faisant glisser</string>
+    <string name="confirm_storage_access_restricted_text">Des restrictions du système font que ce dossier n\'est pas autorisé.</string>
+    <string name="confirm_storage_access_restricted_text_open_system">Ouvrir dans l\'application système</string>
+    <string name="confirm_storage_access_restricted_text_not_found">Aucune application système de gestionnaire de fichier trouvée.</string>
+    <string name="days_letter">%dj</string>
+    <string name="more_fossify_apps">Plus d\'applications Fossify</string>
+    <string name="rate_this_app">Évaluer cette appli</string>
 </resources>

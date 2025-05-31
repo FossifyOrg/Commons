@@ -121,10 +121,10 @@
     <string name="import_blocked_numbers">Uvoz blokiranih brojeva</string>
     <string name="must_make_default_dialer">Za korištenje blokiranih brojeva, ovu aplikaciju moraš postaviti kao zadanu za biranje brojeva.</string>
     <string name="set_as_default">Postavi na zadano</string>
-    <string name="block_confirmation">Stvarno želiš blokirati „%s”\?</string>
-    <string name="block_not_stored_calls">Blokiraj pozive nepohranjenih kontakata</string>
+    <string name="block_confirmation">Stvarno želiš blokirati „%s”?</string>
+    <string name="block_unknown_calls">Blokiraj pozive nepohranjenih kontakata</string>
     <string name="block_hidden_calls">Blokiraj pozive od sakrivenih brojeva</string>
-    <string name="block_not_stored_messages">Blokiraj poruke nepohranjenih kontakata</string>
+    <string name="block_unknown_messages">Blokiraj poruke nepohranjenih kontakata</string>
     <string name="block_hidden_messages">Blokiraj poruke od sakrivenih brojeva</string>
     <string name="add_blocked_number_helper_text">Upiši broj ili uzorak (npr. *12345*, +1*8888) za blokiranje svih poziva i poruka od brojeva koji odgovaraju uzorku.</string>
     <string name="must_make_default_caller_id_app">Blokiranje nepoznatih brojeva nije moguće bez dozvole ID-a pozivatelja.</string>
@@ -340,7 +340,7 @@
     <string name="undo_changes_confirmation">Jeste li sigurni da želite poništiti Vaše promjene?</string>
     <string name="cannot_be_undone">Ovo je nepovratna radnja.</string>
     <string name="save_before_closing">Imate ne spremljene promjene. Želite li spremiti prije izlaska?</string>
-    <string name="share_colors_success">Uspješno ažurirane boje. Nova tema pod nazivom \'Shared\' je dodana, molimo koristite ju za ažuriranje svih boja u aplikaciji u budućnosti.</string>
+    <string name="global_theme_success">Uspješno ažurirane boje. Nova tema pod nazivom \'Shared\' je dodana, molimo koristite ju za ažuriranje svih boja u aplikaciji u budućnosti.</string>
     <string name="purchase_thank_you">
         <![CDATA[
             Molimo kupite <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> za otključavanje ove funkcije i podršku razvoju. Hvala!
@@ -482,7 +482,7 @@
     <string name="minutes_raw">minute</string>
     <string name="hours_raw">sati</string>
     <string name="days_raw">dani</string>
-    <string name="minutes_letter">min</string>
+    <string name="minutes_letter">%dmin</string>
     <string name="week_number_short">sed.</string>
     <plurals name="seconds">
         <item quantity="one">%d sekunda</item>
@@ -640,7 +640,7 @@
     <string name="add_new_sound">Dodaj novi zvuk</string>
     <string name="no_sound">Nema zvuka</string>
     <string name="during_day_at_hh_mm">U toku dana u hh:mm</string>
-    <string name="during_day_at">U toku dana u %02d:%02d</string>
+    <string name="during_day_at">U toku dana u %1$02d:%2$02d</string>
     <string name="settings">Postavke</string>
     <string name="general_settings">Opće</string>
     <string name="color_customization">Prilagođavanje boja</string>
@@ -858,13 +858,9 @@
     <string name="website_label">Za izvorni kod posjeti</string>
     <string name="email_label">Pošalji nam povratne informacije ili prijedloge na</string>
     <string name="upgrade_to_pro">Nadogradi na Pro verziju</string>
-    <string name="more_apps">Daljnje aplikacije</string>
-    <string name="more_apps_from_us">Daljnje aplikacje od nas</string>
     <string name="invite_friends">Pozovi prijatelje</string>
     <string name="share_text">Hej, posjeti nas na %1$s u %2$s</string>
     <string name="invite_via">Pozovi putem</string>
-    <string name="rate_us">Ocijeni nas</string>
-    <string name="rate">Ocjena</string>
     <string name="donate">Doniraj</string>
     <string name="follow_us">Prati nas</string>
     <string name="support">Podrška</string>
@@ -887,21 +883,10 @@
     </string>
     <string name="purchase">Kupi</string>
     <string name="before_asking_question_read_faq">Prije nego što postaviš pitanje, provjeri postavke aplikacije i najprije pročitaj stranicu „Često postavljena pitanja”. Rješenje možda već postoji.</string>
-    <string name="before_rate_read_faq">Prije nego što nas ocijeniš, provjeri postavke aplikacije i najprije pročitaj stranicu „Često postavljena pitanja”. Ako imaš bilo koji problem, rješenje možda već postoji.</string>
     <string name="make_sure_latest">Također osiguraj da koristiš najnoviju verziju aplikacije.</string>
     <string name="make_sure_upgrade">Također imaj na umu da se ova verzija aplikacije više ne razvija. Nabavi Pro verziju za mnoga poboljšanja.</string>
     <string name="read_it">Pročitajte</string>
     <string name="read_faq">Pročitaj ČPP</string>
-    <string name="rate_us_prompt">Zdravo,
-\n
-\nČini se da već duže vrijeme koristiš ovu aplikaciju i mi to jako cijenimo.
-\n
-\nMolimo te da nas ocijeniš nas na Google Playu. To bi nam stvarno puno pomoglo.
-\n
-\nKako god odlučiš, ovu poruku više nećeš vidjeti.
-\n
-\nHvala!</string>
-    <string name="rate_our_app">Ocijeni našu aplikaciju :)</string>
     <string name="thank_you">Hvala</string>
     <string name="widget_locked_pro">Widget je zaključan.
 \nZa otključavanje widgeta nadogradi na Pro verziju.</string>
@@ -1079,4 +1064,8 @@
     <string name="deprecated_app">ZASTARJELO: Ova verzija aplikacije se više ne održava. Nabavi Pro verziju na https://play.google.com/store/apps/details\?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">Ako deinstaliraš bilo koju plaćenu aplikaciju u roku od 2 sata automatski ćeš dobiti povrat novca. Ako kasnije želiš povrat novca, jednostavno nas kontaktiraj na hello@fossify.org. To olakšava isprobavanje :)</string>
     <string name="developer_description">Skup jednostavnih Android aplikacija otvorenog koda s prilagodljivim widgetima, bez oglasa i nepotrebnih dozvola.</string>
+    <string name="filter">Filter</string>
+    <string name="filter_pro">Filter (Pro)</string>
+    <string name="root">Početak</string>
+    <string name="internal_storage">Interno skladište</string>
 </resources>

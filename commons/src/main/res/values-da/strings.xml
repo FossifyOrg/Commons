@@ -13,7 +13,7 @@
     <string name="error">Fejl: %s</string>
     <string name="open_with">Åbn med</string>
     <string name="edit_with">Rediger med</string>
-    <string name="edit">Redigér</string>
+    <string name="edit">Rediger</string>
     <string name="no_app_found">Der blev ikke fundet en gyldig app</string>
     <string name="no_browser_found">Ingen browser fundet</string>
     <string name="no_email_client_found">Ingen email klient fundet</string>
@@ -71,8 +71,8 @@
     <string name="record_audio">Optag audio</string>
     <string name="record_video">Optag video</string>
     <string name="updating">Opdaterer…</string>
-    <string name="phone_storage">Telefon lager</string>
-    <string name="phone_storage_hidden">Telefon lager (ikke synlig for andre apps)</string>
+    <string name="phone_storage">Telefonlager</string>
+    <string name="phone_storage_hidden">Telefonlager (ikke synligt for andre apps)</string>
     <string name="scanning">Scanner…</string>
     <string name="birthday">Fødselsdag</string>
     <string name="anniversary">Årsdag</string>
@@ -116,9 +116,9 @@
     <string name="must_make_default_dialer">Du skal gøre denne app til standardopkaldsappen for at gøre brug af blokerede numre.</string>
     <string name="set_as_default">Gør til standard</string>
     <string name="block_confirmation">Er du sikker på at du vil blokere \"%s\"?</string>
-    <string name="block_not_stored_calls">Bloker opkald fra ukendte</string>
+    <string name="block_unknown_calls">Bloker opkald fra ukendte</string>
     <string name="block_hidden_calls">Bloker opkald fra skjulte numre</string>
-    <string name="block_not_stored_messages">Bloker beskeder fra ukendte</string>
+    <string name="block_unknown_messages">Bloker beskeder fra ukendte</string>
     <string name="block_hidden_messages">Bloker beskeder fra skjulte numre</string>
     <string name="add_blocked_number_helper_text">Angiv et nummer eller et mønster (fx *12345*, +1*8888) for at blokere alle opkald og beskeder fra numre, der matcher mønsteret.</string>
     <string name="must_make_default_caller_id_app">Kan ikke blokere ukendte numre uden tilladelse fra den, der ringer op.</string>
@@ -252,7 +252,7 @@
     <string name="confirm_storage_access_text">Vælg SD-kortets rodmappe på næste side for at give skriveadgang til den</string>
     <string name="confirm_storage_access_text_sd">Hvis ikke du kan se SD-kortet kan du prøve dette</string>
     <string name="confirm_storage_access_android_text">Tillad appen at få adgang til det valgte lager på det næste skærmbillede ved at trykke på \'Brug denne mappe\' nederst.</string>
-    <string name="confirm_storage_access_android_text_specific">Tillad adgang til \"&lt;b&gt;%s&lt;/b&gt;\" på det næste skærmbillede ved at trykke på \"&lt;b&gt;Brug denne mappe&lt;/b&gt;\" nederst på skærmen.</string>
+    <string name="confirm_storage_access_android_text_specific">Tillad adgang til \"<b>%s</b>\" på det næste skærmbillede ved at trykke på \"<b>Brug denne mappe</b>\" nederst på skærmen.</string>
     <string name="confirm_create_doc_for_new_folder_text">Tryk på \'&lt;b&gt;Save&lt;/b&gt;\' nederst på det næste skærmbillede for at oprette den nye mappe.</string>
     <string name="confirm_selection">Bekræft valg</string>
     <string name="loading">Indlæser…</string>
@@ -322,7 +322,7 @@
     <string name="undo_changes_confirmation">Er du sikker på at du vil fortryde ændringerne?</string>
     <string name="cannot_be_undone">Handlingen kan ikke fortrydes.</string>
     <string name="save_before_closing">Du har ændringer der ikke er gemt. Vil du gemme dem?</string>
-    <string name="share_colors_success">Farverne er ændret. Et nyt udseende kaldet \"Tilpasset\" er tilføjet, brug det ved opdatering af alle app-farver fremover.</string>
+    <string name="global_theme_success">Farverne er ændret. Et nyt udseende kaldet \"Tilpasset\" er tilføjet, brug det ved opdatering af alle app-farver fremover.</string>
     <string name="purchase_thank_you">
         <![CDATA[
             Køb <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> for at låse denne funktion op og understøtte appens udvikling. Tak!
@@ -386,7 +386,7 @@
     <string name="size">Størrelse</string>
     <string name="last_modified">Senest ændret</string>
     <string name="date_created">Oprettelsesdato</string>
-    <string name="date_taken">Eksponeringsdato</string>
+    <string name="date_taken">Optagelsesdato</string>
     <string name="title">Titel</string>
     <string name="filename">Filnavn</string>
     <string name="extension">Filtype</string>
@@ -449,7 +449,7 @@
     <string name="minutes_raw">minutter</string>
     <string name="hours_raw">timer</string>
     <string name="days_raw">dage</string>
-    <string name="hours_letter">t</string>
+    <string name="hours_letter">%dt</string>
     <string name="week_number_short">u.</string>
     <plurals name="seconds">
         <item quantity="one">%d sekund</item>
@@ -578,7 +578,7 @@
     <string name="add_new_sound">Tilføj en ny lyd</string>
     <string name="no_sound">Ingen lyd</string>
     <string name="during_day_at_hh_mm">I løbet af dagen kl. hh:mm</string>
-    <string name="during_day_at">I løbet af dagen kl. %02d:%02d</string>
+    <string name="during_day_at">I løbet af dagen kl. %1$02d:%2$02d</string>
     <string name="settings">Indstillinger</string>
     <string name="general_settings">Generelt</string>
     <string name="color_customization">Farvetilpasning</string>
@@ -742,13 +742,9 @@
     <string name="website_label">For at se kildekoden besøg</string>
     <string name="email_label">Send feedback og forslag til</string>
     <string name="upgrade_to_pro">Opgrader til Pro</string>
-    <string name="more_apps">Flere apps</string>
-    <string name="more_apps_from_us">Flere apps fra os</string>
     <string name="invite_friends">Inviter venner</string>
     <string name="share_text">Hej, se %1$s på %2$s</string>
     <string name="invite_via">Inviter via</string>
-    <string name="rate_us">Vurder os</string>
-    <string name="rate">Vurder</string>
     <string name="donate">Donér</string>
     <string name="follow_us">Følg os</string>
     <string name="help_us">Hjælp os</string>
@@ -768,12 +764,9 @@
     </string>
     <string name="purchase">Køb</string>
     <string name="before_asking_question_read_faq">Inden du stiller et spørgsmål bedes du først tjekke appens indstillinger og læse de \"Ofte stillede spørgsmål\", måske finder du svaret der.</string>
-    <string name="before_rate_read_faq">Tjek appens indstillinger og læs vores ofte stillede spørgsmål inden du vurderer os. Har du nogen problemer, kan du måske finde en løsning der.</string>
     <string name="make_sure_latest">Sørg også for at du bruger den seneste version af appen.</string>
     <string name="read_it">Læs det</string>
     <string name="read_faq">Read OSS</string>
-    <string name="rate_us_prompt">Hej\n\nDet ser ud til at du har brugt denne app et godt stykke tid, og det er vi virkelig glade for.\n\nHvis vi til gengæld må bede om en tjeneste, vil vi sætte stor pris på din vurdering på Google Play. Det ville være en kæmpe hjælp.\n\nUanset hvad du beslutter dig for, vil du ikke se denne besked igen.\n\nPå forhånd tak!</string>
-    <string name="rate_our_app">Vurder vores app :)</string>
     <string name="thank_you">Tak skal du have</string>
     <string name="widget_locked_pro">Widget\'en er låst.
 \nOpgrader til Pro-versionen for at låse den op.</string>
@@ -973,4 +966,6 @@
     <string name="deprecated_app">FORÆLDET: Denne version af appen vedligeholdes ikke længere, skift til Pro-versionen her https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">Husk at hvis du afinstallerer en betalt app indenfor 2 timer, får du automatisk pengene tilbage. Vil du have refunderet beløbet på et senere tidspunkt, så send en mail til hello@fossify.org. På den måde kan du prøvekøre appen uden omkostninger :)</string>
     <string name="developer_description">En gruppe simple, open source apps til Android med widgets, der kan tilpasses, uden reklamer og unødvendige tilladelser.</string>
+    <string name="ok">OK</string>
+    <string name="format_phone_numbers">Formatér telefonnumre</string>
 </resources>

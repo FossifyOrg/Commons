@@ -2,7 +2,6 @@ package org.fossify.commons.activities
 
 import android.os.Bundle
 import androidx.activity.compose.setContent
-import androidx.appcompat.app.AppCompatActivity
 import androidx.compose.runtime.remember
 import kotlinx.collections.immutable.toImmutableList
 import org.fossify.commons.R
@@ -11,7 +10,7 @@ import org.fossify.commons.compose.screens.ContributorsScreen
 import org.fossify.commons.compose.theme.AppThemeSurface
 import org.fossify.commons.models.LanguageContributor
 
-class ContributorsActivity : AppCompatActivity() {
+class ContributorsActivity : BaseComposeActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdgeSimple()
@@ -20,12 +19,8 @@ class ContributorsActivity : AppCompatActivity() {
                 val contributors = remember {
                     languageContributors()
                 }
-                val showContributorsLabel = remember {
-                    !resources.getBoolean(R.bool.hide_all_external_links)
-                }
                 ContributorsScreen(
                     goBack = ::finish,
-                    showContributorsLabel = showContributorsLabel,
                     contributors = contributors,
                 )
             }

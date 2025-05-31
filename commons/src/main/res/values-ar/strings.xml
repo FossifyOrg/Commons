@@ -125,9 +125,9 @@
     <string name="must_make_default_dialer">عليك أن تجعل هذا التطبيق المتصل الافتراضي للاستفادة من الأرقام المحظورة.</string>
     <string name="set_as_default">ضبط الى الافتراضي</string>
     <string name="block_confirmation">هل تريد بالتأكيد حظر \"%s\"؟</string>
-    <string name="block_not_stored_calls">حظر المكالمات من جهات الاتصال غير المخزنة</string>
+    <string name="block_unknown_calls">حظر المكالمات من جهات الاتصال غير المخزنة</string>
     <string name="block_hidden_calls">حظر المكالمات من الأرقام المخفية</string>
-    <string name="block_not_stored_messages">حظر الرسائل من جهات الاتصال غير المخزنة</string>
+    <string name="block_unknown_messages">حظر الرسائل من جهات الاتصال غير المخزنة</string>
     <string name="block_hidden_messages">حظر الرسائل من الأرقام المخفية</string>
     <string name="add_blocked_number_helper_text">أدخل رقما أو نمطا (على سبيل المثال، *12345*، +1*8888) لحظر جميع المكالمات والرسائل من الأرقام المطابقة للنمط.</string>
     <string name="must_make_default_caller_id_app">لا يمكن حظر الأرقام غير المعروفة دون إذن معرف المتصل.</string>
@@ -353,7 +353,7 @@
     <string name="undo_changes_confirmation">هل تريد بالتاكيد التراجع عن التغييرات التي أجريتها ؟</string>
     <string name="cannot_be_undone">لا يمكن التراجع عن هذا الإجراء.</string>
     <string name="save_before_closing">لديك تغييرات غير محفوظة. هل تريد الحفظ قبل الخروج ؟</string>
-    <string name="share_colors_success">تم تحديث الألوان بنجاح. تمت إضافة سمة جديدة تسمى \'المشتركة\'، يرجى إستخدام ذلك لتحديث جميع ألوان التطبيق في المستقبل.</string>
+    <string name="global_theme_success">تم تحديث الألوان بنجاح. تمت إضافة سمة جديدة تسمى \'المشتركة\'، يرجى إستخدام ذلك لتحديث جميع ألوان التطبيق في المستقبل.</string>
     <string name="purchase_thank_you">
         <![CDATA[
              يرجى شراء<a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Thank You</a> لفتح هذه الوظيفة ودعم التطوير. شكراً!
@@ -726,7 +726,6 @@
     <string name="add_new_sound">إضافة صوت جديد</string>
     <string name="no_sound">لا يوجد صوت</string>
     <string name="during_day_at_hh_mm">خلال النهار في hh: mm</string>
-    <string name="during_day_at">خلال النهار في %02d: %02d</string>
     <string name="settings">الإعدادات</string>
     <string name="general_settings">عام</string>
     <string name="color_customization">تخصيص الألوان</string>
@@ -942,13 +941,9 @@
     <string name="website_label">للحصول علي أكواد المصدر، تفضل بزيارة</string>
     <string name="email_label">أرسل ملاحظاتك أو اقتراحاتك إلى</string>
     <string name="upgrade_to_pro">االترقية إلى الإصدار البرو (Pro)</string>
-    <string name="more_apps">المزيد من التطبيقات</string>
-    <string name="more_apps_from_us">المزيد من تطبيقاتنا</string>
     <string name="invite_friends">دعوة الأصدقاء</string>
     <string name="share_text">مهلاً, تعال تحقق من %1$s فى %2$s</string>
     <string name="invite_via">دعوة عبر</string>
-    <string name="rate_us">قيمنا</string>
-    <string name="rate">تقييم</string>
     <string name="donate">تبرع</string>
     <string name="follow_us">تابعنا</string>
     <string name="privacy_policy">سياسة الخصوصية</string>
@@ -966,13 +961,10 @@
     </string>
     <string name="purchase">شراء</string>
     <string name="before_asking_question_read_faq">قبل ان تسأل سؤالاً ، يرجى التحقق من إعدادات التطبيق وقراءة الأسئلة المتداولة أولاً. ربما يكون الحل موجوداً.</string>
-    <string name="before_rate_read_faq">قبل أن تقيمنا ، يرجى التحقق من إعدادات التطبيق وقراءة الأسئلة الشائعة أولاً. إذا كان لديك أي مشاكل ، فربما يكون الحل موجوداً.</string>
     <string name="make_sure_latest">تأكد أيضاً من أنك تستخدم أحدث إصدار من التطبيق.</string>
     <string name="make_sure_upgrade">لاحظ أيضًا أن إصدار التطبيق هذا لم يعد قيد التطوير ، احصل على الإصدار الاحترافي للعديد من التحسينات.</string>
     <string name="read_it">اقرأها</string>
     <string name="read_faq">إقرأ الأسئلة المتداولة</string>
-    <string name="rate_us_prompt">مرحباً,\n\nيبدو أنك تستخدم هذا التطبيق لفترة طويلة بالفعل, ونحن نقدر ذلك حقاً.\n\nإذا استطعنا أن نطلب منك خدمة, فيرجى تقييمنا على Google Play. هذا سيساعدنا كثيراً \n\nوبغض النظر عن قرارك, لن تري هذه الرسالة مره أخري.\n\nشكراً!</string>
-    <string name="rate_our_app">قيم تطبيقنا من فضلك :)</string>
     <string name="thank_you">شكراً جزيلاً</string>
     <string name="widget_locked_pro">الأداة مقفلة.
 \nيرجى الترقية إلى إصدار Pro لإلغاء قفله.</string>
@@ -1105,11 +1097,7 @@
     <string name="trial_expires_soon">تنتهي صلاحية الإصدار التجريبي قريبا.</string>
     <string name="unlock_for_one_final_day">افتح التطبيق ليوم أخير</string>
     <string name="welcome_to_app_name">مرحبا بكم في %s!</string>
-    <string name="trial_start_description">شكراً لك على استخدام تطبيقنا يمكنك استخدام هذه النسخة غير المقفلة لأيام <font color="#FFFFFF">%d </font>. وحالما تنتهي التجربة، يرجى النظر في الترقية إلى النسخة الكاملة. ولها كمية كبيرة من الملامح الجديدة، والتصميم الحديث، ولا يحتوي اعلانات، وغير ذلك من التحسينات.
-\n
-\nعليك فقط أن تدفع ثمنها مرة واحدة في العمر وإذا لم تكن راضياً، يمكنك أن تلغي التثبيت وتحصل على أموالك
-\n
-\nأتمنى أن تعجبك</string>
+    <string name="trial_start_description">شكراً لك على استخدام تطبيقنا يمكنك استخدام هذه النسخة غير المقفلة لأيام <font color="#FFFFFF">%d </font>. وحالما تنتهي التجربة، يرجى النظر في الترقية إلى النسخة الكاملة. ولها كمية كبيرة من الملامح الجديدة، والتصميم الحديث، ولا يحتوي اعلانات، وغير ذلك من التحسينات. \n \nعليك فقط أن تدفع ثمنها مرة واحدة في العمر وإذا لم تكن راضياً، يمكنك أن تلغي التثبيت وتحصل على أموالك \n \nأتمنى أن تعجبك</string>
     <string name="trial_end_description">يرجى الترقية إلى الإصدار الاحترافي للاستمتاع بالتطبيق على أكمل وجه.
 \n
 \nعليك فقط أن تدفع ثمنها مرة واحدة في العمر وإذا لم تكن راضيًا ، يمكنك إلغاء تثبيتها واسترداد أموالك.
@@ -1126,4 +1114,141 @@
     <string name="deprecated_app">لم يعد يجري العمل عليه: لم يعد هذا الإصدار من التطبيق يجري العمل عليه، قم بالحصول على الإصدار الـ Pro على https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">لا تنسى أنه إذا قمت بإلغاء تثبيت أي تطبيق مدفوع في غضون ساعتين ، فسيتم إسترداد أموالك تلقائياً. إذا كنت تريد إسترداد الأموال في أي وقت لاحق ، فأتصل بنا على hello@fossify.org وستحصل عليه. هذا يجعل من السهل تجربته :)</string>
     <string name="developer_description">مجموعة بسيطة، من تطبيقات أندرويد المفتوحة المصدر ذات الودجات القابلة للتخصيص، بدون إعلانات أو أذونات غير ضرورية.</string>
+    <string name="translation_esperanto">الإسبرانتو</string>
+    <string name="app_icon_color_warning">تحذير: بعض المشغلات قد لا تدير تخصيص أيقونة التطبيق بشكل صحيح. إذا اختفت الأيقونة، حاول تشغيل التطبيق عبر Google Play أو أداة، إن أمكن. بعد التشغيل، استعادة لون الأيقونة الافتراضي الأخضر #106D1F. في الحالات القصوى، قد يكون إعادة تثبيت التطبيق ضروريًا.</string>
+    <string name="system_default">افتراضي النظام</string>
+    <string name="pin_item">تثبيت العنصر</string>
+    <string name="send_sms">إرسال رسالة نصية</string>
+    <string name="full_name">الاسم الكامل</string>
+    <string name="minutes_letter">%dد</string>
+    <string name="hours_letter">%dس</string>
+    <string name="week_number_short">أسب.</string>
+    <string name="recent_files_tab">الملفات الحديثة</string>
+    <string name="april_short">أبريل</string>
+    <string name="may_short">مايو</string>
+    <string name="june_short">يونيو</string>
+    <string name="july_short">يوليو</string>
+    <string name="august_short">أغسطس</string>
+    <string name="october_short">أكتوبر</string>
+    <string name="known_issues">المشكلات المعروفة</string>
+    <string name="other">أخرى</string>
+    <string name="version_placeholder">الإصدار %s</string>
+    <string name="little_to_no_fee">رسوم قليلة أو معدومة</string>
+    <string name="translation_central_kurdish">الكردية الوسطى</string>
+    <string name="translation_greek">اليونانية</string>
+    <string name="translation_norwegian">النرويجية</string>
+    <string name="translation_dutch">الهولندية</string>
+    <string name="translation_polish">البولندية</string>
+    <string name="translation_tamil">التاميلية</string>
+    <string name="translation_turkish">التركية</string>
+    <string name="translation_ukrainian">الأوكرانية</string>
+    <string name="translation_chinese_tw">الصينية (التقليدية)</string>
+    <string name="reorder_items_by_dragging">إعادة ترتيب العناصر بالسحب</string>
+    <string name="during_day_at">خلال اليوم في الساعة %1$02d:%2$02d</string>
+    <string name="copyright">الإصدار %1$s\nحقوق الطبع والنشر © Fossify %2$d</string>
+    <string name="donate_short">ادعمنا بشراء <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> من فضلك، سيفتح ذلك أيضًا جميع ميزات التطبيق بما في ذلك تخصيص الألوان.</string>
+    <string name="platforms">المنصات</string>
+    <string name="confirm_storage_access_restricted_text">بسبب قيود النظام، هذا المجلد غير متوفر.</string>
+    <string name="confirm_storage_access_restricted_text_open_system">فتح في تطبيق النظام</string>
+    <string name="confirm_storage_access_restricted_text_not_found">تعذر العثور على تطبيق إدارة ملفات النظام.</string>
+    <string name="shared_theme_note">لاحظ أنه على الرغم من أنك تستخدم الإصدار الاحترافي من التطبيق، لا تزال بحاجة إلى Fossify Thank You لأسباب تقنية. فهو يعتني بمزامنة الألوان.</string>
+    <string name="auto_theme">سمة تلقائية</string>
+    <string name="white">أبيض</string>
+    <string name="send_email">إرسال بريد إلكتروني</string>
+    <string name="contact_details">تفاصيل جهة الاتصال</string>
+    <string name="add_contact">إضافة جهة اتصال</string>
+    <string name="number_of_items">عدد العناصر</string>
+    <string name="deletion_confirmation_short">حذف %s؟</string>
+    <string name="enter_password">أدخل كلمة المرور</string>
+    <string name="password">كلمة المرور</string>
+    <string name="add_password">إضافة كلمة مرور</string>
+    <string name="theme_and_colors">السمة والألوان</string>
+    <string name="website">الموقع الإلكتروني</string>
+    <string name="other_help">مساعدة أخرى</string>
+    <string name="translation_persian">الفارسية</string>
+    <string name="december_short">ديسمبر</string>
+    <string name="translation_galician">الغاليسية</string>
+    <string name="translation_hindi">الهندية</string>
+    <string name="translation_romanian">الرومانية</string>
+    <string name="translation_russian">الروسية</string>
+    <string name="files_tab">الملفات</string>
+    <string name="apply_to_all_apps">تطبيق الألوان على جميع تطبيقات Fossify</string>
+    <string name="block_contact">حظر جهة اتصال</string>
+    <string name="november_short">نوفمبر</string>
+    <string name="translation_belarusian">البيلاروسية</string>
+    <string name="translation_czech">التشيكية</string>
+    <string name="genre">النوع</string>
+    <string name="seconds_letter">%dث</string>
+    <string name="purchase_simple_thank_you">شراء Fossify Thank You</string>
+    <string name="one">واحد</string>
+    <string name="translation_italian">الإيطالية</string>
+    <string name="translation_vietnamese">الفيتنامية</string>
+    <string name="translation_kabyle">القبائلية</string>
+    <string name="audio">صوت</string>
+    <string name="zero">صفر</string>
+    <string name="faq_6_text_commons">تحدث هذه المشكلة عندما لا يدعم المطلق الخاص بك تخصيص الأيقونات بشكل كامل. حاول تشغيل التطبيق عبر Google Play أو أداة، إذا كانت متاحة. بعد التشغيل، استعِد لون الأيقونة الخضراء الافتراضي #106D1F. في الحالات القصوى، قد يكون إعادة تثبيت التطبيق ضروريًا.</string>
+    <string name="add_number_to_contact">أضف رقماً للاتصال</string>
+    <string name="view_contact_details">عرض تفاصيل جهة الاتصال</string>
+    <string name="notification_sound">صوت الإشعار</string>
+    <string name="features_locked">هذه الميزة مقفلة، يرجى شراء <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> لفتح التطبيق بالكامل.<br/><br/>إنها دفعة لمرة واحدة فقط، وإذا لم تكن راضيًا، يمكننا استرداد أموالك.</string>
+    <string name="translation_arabic">العربية</string>
+    <string name="translation_basque">الباسكية</string>
+    <string name="translation_croatian">الكرواتية</string>
+    <string name="translation_indonesian">الإندونيسية</string>
+    <string name="translation_slovak">السلوفاكية</string>
+    <string name="translation_danish">الدانماركية</string>
+    <string name="translation_english">الإنجليزية</string>
+    <string name="translation_german">الألمانية</string>
+    <string name="support">الدعم</string>
+    <string name="help_us">ساعدنا</string>
+    <string name="social">الاجتماعي</string>
+    <string name="translation_nepali">النيبالية</string>
+    <string name="days_letter">%dي</string>
+    <string name="list_view">عرض القائمة</string>
+    <string name="january_short">يناير</string>
+    <string name="february_short">فبراير</string>
+    <string name="march_short">مارس</string>
+    <string name="donate_new">مرحبًا،<br/><br/>نأمل أن تستمتع بالتطبيق. لا يحتوي على إعلانات ولا نجمع بياناتك أيضًا، يرجى دعم تطويره بشراء <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>. ستحصل أيضًا على جميع ميزات التطبيق بما في ذلك تخصيص الألوان مفتوحة.<br/><br/>شكرًا!</string>
+    <string name="all_fossify_apps">جميع تطبيقات Fossify</string>
+    <string name="donate_to_fossify">تبرع لـ Fossify</string>
+    <string name="translation_azerbaijani">الأذربيجانية</string>
+    <string name="translation_bengali">البنغالية</string>
+    <string name="translation_chuvash">الشوفاش</string>
+    <string name="translation_welsh">الويلزية</string>
+    <string name="translation_hebrew">العبرية</string>
+    <string name="translation_portuguese">البرتغالية</string>
+    <string name="why_upgrade_pro_version">الاحترافي</string>
+    <string name="why_upgrade_recents_tab">علامة تبويب مع الملفات الحديثة</string>
+    <string name="translation_breton">البريتونية</string>
+    <string name="translation_bulgarian">البلغارية</string>
+    <string name="translation_catalan">الكتالونية</string>
+    <string name="update_thank_you">يرجى تحديث Fossify Thank You إلى الإصدار الأحدث</string>
+    <string name="fee_up_to_pct">رسوم تصل إلى %1$d%%</string>
+    <string name="cryptocurrency">العملة الرقمية</string>
+    <string name="translation_finnish">الفنلندية</string>
+    <string name="translation_french">الفرنسية</string>
+    <string name="translation_gujarati">الغوجاراتية</string>
+    <string name="translation_hungarian">المجرية</string>
+    <string name="translation_japanese">اليابانية</string>
+    <string name="translation_korean">الكورية</string>
+    <string name="translation_lithuanian">الليتوانية</string>
+    <string name="why_upgrade_file_compression">دعم ضغط الملفات</string>
+    <string name="more_fossify_apps">المزيد من تطبيقات Fossify</string>
+    <string name="rate_this_app">قيّم هذا التطبيق</string>
+    <string name="faq_2_text_commons"><![CDATA[
+            نعم، بالطبع. يمكنك نشر الكلمة عن التطبيقات أو تقديم ملاحظات وتقييمات جيدة. يمكنك أيضًا المساعدة بترجمة التطبيقات إلى لغة جديدة، أو تحديث بعض الترجمات الحالية.
+            دليل الترجمة موجود على <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">هذا الموقع</a>، أو تواصل معنا على <a href="mailto:hello@fossify.org">hello@fossify.org</a> إذا كانت لديك أي أسئلة.
+        ]]></string>
+    <string name="contributors_label"><![CDATA[
+            تحتوي هذه القائمة على كل من ساعد بشكل ملحوظ في أي تطبيق ضمن مجموعة Fossify، وليس هذا التطبيق فقط. تتم الترجمات بواسطة متطوعين،
+            أخبرنا إذا كنت تريد المساعدة أيضًا. دليل الترجمة موجود على <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">هذا الموقع</a>، أو تواصل معنا على <a href="mailto:hello@fossify.org">hello@fossify.org</a> إذا كانت لديك أي أسئلة.
+            شكرًا لجميع المساهمين والداعمين الآخرين!
+        ]]></string>
+    <string name="translation_spanish">الإسبانية</string>
+    <string name="translation_slovenian">السلوفينية</string>
+    <string name="translation_serbian">الصربية</string>
+    <string name="translation_swedish">السويدية</string>
+    <string name="translation_chinese_hk">الصينية (هونغ كونغ)</string>
+    <string name="translation_chinese_cn">الصينية (المبسطة)</string>
+    <string name="format_phone_numbers">تنسيق أرقام الهواتف</string>
 </resources>
