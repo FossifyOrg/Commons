@@ -256,8 +256,8 @@
     <string name="properties">Chi tiết</string>
     <string name="path">Đường dẫn</string>
     <string name="items_selected">Các mục đã chọn</string>
-    <string name="direct_children_count">Đếm thư mục con trực tiếp</string>
-    <string name="files_count">Tổng số file</string>
+    <string name="direct_children_count">Số lượng thư mục con</string>
+    <string name="files_count">Số lượng file</string>
     <string name="resolution">Độ phân giải</string>
     <string name="duration">Thời lượng</string>
     <string name="artist">Nghệ sĩ</string>
@@ -296,7 +296,7 @@
     <string name="light_theme">Sáng</string>
     <string name="dark_theme">Tối</string>
     <string name="auto_light_dark_theme">Tự động</string>
-    <string name="dark_red">Đỏ sẫm</string>
+    <string name="dark_red">Tối Đỏ</string>
     <string name="black_white">Đen &amp; Trắng</string>
     <string name="custom">Tùy chỉnh</string>
     <string name="shared">Đã chia sẻ</string>
@@ -378,14 +378,14 @@
 \nThử lại sau %d giây.</string>
     <string name="repeat_pin">Lặp lại mã PIN</string>
     <string name="pattern">Mẫu hình</string>
-    <string name="insert_pattern">Chèn mẫu hình</string>
+    <string name="insert_pattern">Vẽ mẫu hình</string>
     <string name="wrong_pattern">Mẫu hình sai</string>
     <string name="repeat_pattern">Lặp lại mẫu hình</string>
-    <string name="biometrics">Sinh trắc học</string>
+    <string name="biometrics">Vân tay</string>
     <string name="fingerprint">Vân tay</string>
     <string name="add_fingerprint">Thêm dấu vân tay</string>
     <string name="place_finger">Vui lòng đặt ngón tay của bạn trên cảm biến vân tay</string>
-    <string name="open_biometric_dialog">Mở hộp thoại xác thực ID sinh trắc học</string>
+    <string name="open_biometric_dialog">Mở hộp thoại xác minh vân tay</string>
     <string name="authenticate">Xác thực</string>
     <string name="authentication_failed">Quá trình xác thực đã thất bại</string>
     <string name="authentication_blocked">Xác thực bị chặn, vui lòng thử lại sau giây lát</string>
@@ -428,7 +428,7 @@
     <string name="during_day_at_hh_mm">Trong ngày lúc hh:mm</string>
     <string name="during_day_at">Trong ngày lúc %1$02d:%2$02d</string>
     <string name="settings">Cài đặt</string>
-    <string name="color_customization">Màu ứng dụng</string>
+    <string name="color_customization">Cá nhân hóa</string>
     <string name="improved_color_customization">Cải thiện tùy chỉnh màu sắc</string>
     <string name="customize_colors">Màu ứng dụng</string>
     <string name="customize_colors_locked">Tùy chỉnh màu sắc (Locked)</string>
@@ -443,16 +443,16 @@
     <string name="medium">Trung bình</string>
     <string name="large">Lớn</string>
     <string name="extra_large">Khổng lồ</string>
-    <string name="password_protect_hidden_items">Mật khẩu bảo vệ mục ẩn</string>
-    <string name="password_protect_whole_app">Mật khẩu bảo vệ toàn bộ ứng dụng</string>
-    <string name="password_protect_file_deletion">Mật khẩu bảo vệ xóa tập tin và di chuyển</string>
-    <string name="keep_last_modified">Giữ giá trị sửa đổi cuối cùng cũ tại các thao tác tập tin</string>
+    <string name="password_protect_hidden_items">Những mục ẩn</string>
+    <string name="password_protect_whole_app">Toàn bộ ứng dụng</string>
+    <string name="password_protect_file_deletion">Xóa tập tin và di chuyển</string>
+    <string name="keep_last_modified">Giữ giá trị sửa đổi lần cuối tại các thao tác tập tin</string>
     <string name="show_info_bubble">Hiển thị bong bóng thông tin tại các mục cuộn bằng cách kéo thanh cuộn</string>
     <string name="prevent_phone_from_sleeping">Ngăn điện thoại ngủ trong khi ứng dụng  đang hoạt động trước nền</string>
     <string name="skip_delete_confirmation">Bỏ qua bước xác nhận xóa</string>
-    <string name="enable_pull_to_refresh">Vuốt từ trên xuống để làm mới</string>
+    <string name="enable_pull_to_refresh">Cuộn từ trên xuống để làm mới</string>
     <string name="use_24_hour_time_format">Dùng định dạng 24 giờ</string>
-    <string name="change_date_and_time_format">Định dạng ngày giờ</string>
+    <string name="change_date_and_time_format">Định dạng thời gian</string>
     <string name="sunday_first">Bắt đầu tuần vào Chủ Nhật</string>
     <string name="start_week_on">Bắt đầu tuần vào</string>
     <string name="use_same_snooze">Luôn luôn sử dụng cùng thời gian báo lại</string>
@@ -490,7 +490,7 @@
     <string name="remove_all_description">Xóa tất cả thư mục khỏi danh sách ngoại trừ? Điều này sẽ không xóa các thư mục.</string>
     <string name="temporarily_show_excluded">Hiển thị mục ngoại trừ</string>
     <string name="stop_showing_excluded">Ẩn lại mục bị ngoại trừ</string>
-    <string name="manage_shown_tabs">Quản lý tab</string>
+    <string name="manage_shown_tabs">Tab</string>
     <string name="default_tab_to_open">Tab mặc định</string>
     <string name="favorites_tab">Yêu thích</string>
     <string name="call_history_tab">Lịch sử gọi</string>
@@ -821,4 +821,5 @@
     <string name="fee_up_to_pct">Phí tối đa %1$d%%</string>
     <string name="cryptocurrency">Tiền điện tử</string>
     <string name="zip4j_title">Zip4j (nén &amp; giải nén ZIP)</string>
+    <string name="app_icon_color_warning">Cẩn thận: Một số trình launcher có thể không xử lý đúng tùy chỉnh biểu tượng ứng dụng. Nếu biểu tượng biến mất, hãy thử khởi chạy ứng dụng thông qua Google Play hoặc tiện ích. Sau khi khởi chạy, hãy khôi phục màu biểu tượng màu xanh lá cây mặc định #106D1F. Trong trường hợp crash, có thể cần phải cài đặt lại ứng dụng.</string>
 </resources>
