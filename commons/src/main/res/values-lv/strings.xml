@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="updating">Atjaunina…</string>
+    <string name="phone_storage">Tālruņa krātuve</string>
+    <string name="phone_storage_hidden">Tālruņa krātuve (nav redzama citām lietotnēm)</string>
+</resources>
