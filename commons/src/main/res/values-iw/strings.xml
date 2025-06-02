@@ -145,7 +145,7 @@
     <string name="text_color">צבע טקסט</string>
     <string name="primary_color">צבע עיקרי</string>
     <string name="foreground_color">צבע חזית</string>
-    <string name="app_icon_color">צבע אייקון תוכנה</string>
+    <string name="app_icon_color">צבע אייקון יישום</string>
     <string name="bottom_navigation_bar_color">צבע סרגל ניווט</string>
     <string name="restore_defaults">שיחזור ברירת מחדל</string>
     <string name="use_default">שימוש בברירת מחדל</string>
@@ -168,8 +168,8 @@
     <string name="delete">מחק</string>
     <string name="remove">הסר</string>
     <string name="rename">שנה שם</string>
-    <string name="share">שתף</string>
-    <string name="share_via">שתף דרך</string>
+    <string name="share">שיתוף</string>
+    <string name="share_via">שיתוף באמצעות</string>
     <string name="resize">שנה גודל</string>
     <string name="select_all">בחר הכל</string>
     <string name="hide">הסתר</string>
@@ -178,7 +178,7 @@
     <string name="unhide_folder">בטל הסתרת תיקייה</string>
     <string name="temporarily_show_hidden">הצג הכל באופן זמני</string>
     <string name="stop_showing_hidden">הפסק הצגה של מדיה</string>
-    <string name="maximum_share_reached">לא ניתן לשתף כמות זו בבת אחת</string>
+    <string name="maximum_share_reached">אינך יכול לשתף כל כך הרבה תוכן בבת אחת</string>
     <string name="empty_and_disable_recycle_bin">רוקן והשבת את סל המחזור</string>
     <string name="undo">שחזר</string>
     <string name="redo">בצע מחדש</string>
@@ -191,7 +191,7 @@
     <string name="sort_by">מיין לפי</string>
     <string name="name">שם</string>
     <string name="size">גודל</string>
-    <string name="last_modified">עודן לאחרונה</string>
+    <string name="last_modified">עודכן לאחרונה</string>
     <string name="title">כותרת</string>
     <string name="filename">שם קובץ</string>
     <string name="extension">תוסף</string>
@@ -252,14 +252,14 @@
     <string name="medium">בינוני</string>
     <string name="large">גדול</string>
     <string name="extra_large">ענק</string>
-    <string name="skip_delete_confirmation">תמיד לדלג על אישור מחיקה</string>
-    <string name="enable_pull_to_refresh">הפעל סנכרון על ידי משיכה מלמעלה</string>
+    <string name="skip_delete_confirmation">דלג תמיד על אישורי מחיקה</string>
+    <string name="enable_pull_to_refresh">אפשר רענון על ידי משיכה מלמעלה</string>
     <string name="use_24_hour_time_format">השתמש בפורמט של 24 שעות</string>
     <string name="change_date_and_time_format">שנה פורמט תאריך ושעה</string>
     <string name="sunday_first">השבוע מתחיל ביום ראשון</string>
     <string name="widgets">יישומונים</string>
     <string name="vibrate_on_button_press">רטט בעת לחיצה על כפתורים</string>
-    <string name="move_items_into_recycle_bin">העבר פריטים לסל המחזור במקום מחיקתם</string>
+    <string name="move_items_into_recycle_bin">העבר פריטים לסל המיחזור במקום למחוק לצמיתות</string>
     <string name="recycle_bin_cleaning_interval">זמן ריקון של סל המחזור</string>
     <string name="empty_recycle_bin">רוקן את סל המחזור</string>
     <string name="force_portrait_mode">אלץ מצב אנכי</string>
@@ -402,7 +402,7 @@
     <string name="use_custom_sorting">השתמש במיון מותאם אישית</string>
     <string name="shortcut">קיצור</string>
     <string name="white">לבן</string>
-    <string name="system_default">ברירת המחדל של המערכת</string>
+    <string name="system_default">מערכת</string>
     <string name="select_text">בחר טקסט</string>
     <string name="pin_must_be_4_digits_long">קוד סודי (PIN) חייב להיות באורך של 4 ספרות לפחות</string>
     <string name="do_not_show_again">אל תציג שוב</string>
@@ -469,7 +469,7 @@
     <string name="snooze">נודניק</string>
     <string name="snooze_time">מרווח זמן הנודניק</string>
     <string name="use_same_snooze">השתמש תמיד באותו מרווח זמן לנודניק</string>
-    <string name="manage_shown_tabs">נהל את הכרטיסיות המוצגות</string>
+    <string name="manage_shown_tabs">נהל כרטיסיות מוצגות</string>
     <string name="list_view">תצוגת רשימה</string>
     <string name="password_protect_whole_app">הגן באמצעות סיסמה על כל האפליקציה</string>
     <string name="password_protect_hidden_items">הגן באמצעות סיסמה על האפשרות לראות פריטים מוסתרים</string>
