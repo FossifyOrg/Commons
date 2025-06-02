@@ -578,4 +578,8 @@
     <string name="may_short">Mai</string>
     <string name="clock_short">Klokke</string>
     <string name="gallery_short">Galleri</string>
+    <string name="search_contacts">Søk i kontakter</string>
+    <string name="search_favorites">Søk i favoritter</string>
+    <string name="search_groups">Søk i grupper</string>
+    <string name="format_phone_numbers">Formatere telefonnumre</string>
 </resources>
