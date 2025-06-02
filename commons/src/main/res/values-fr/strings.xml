@@ -161,7 +161,7 @@
     <string name="no_contacts_permission">L\'autorisation d\'accès aux contacts est nécessaire</string>
     <string name="no_camera_permissions">L\'autorisation d\'accès à la caméra est nécessaire</string>
     <string name="no_audio_permissions">L\'autorisation d\'accès aux paramètres audio est nécessaire</string>
-    <string name="no_permission">Aucune autorisation</string>
+    <string name="no_permission">Pas d\'autorisation</string>
     <string name="allow_notifications_reminders">Vous devez autoriser l\'application à afficher des notifications, sinon elle ne pourra pas afficher de rappels.</string>
     <string name="allow_full_screen_notifications_reminders">Vous devez autoriser l\'application à afficher des notifications en plein écran, sinon vous risquez de manquer certains rappels.</string>
     <string name="allow_notifications_files">Vous devez autoriser l\'application à afficher des notifications, sinon elle ne pourra pas afficher la barre de progression.</string>
