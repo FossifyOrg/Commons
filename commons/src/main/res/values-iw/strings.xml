@@ -53,7 +53,7 @@
     <string name="blocked_numbers">מספרים חסומים</string>
     <string name="must_make_default_dialer">עליך לבחור את האפליקציה כברירת מחדל בכדי לחסום מספרים.</string>
     <string name="set_as_default">קבע כברירת מחדל</string>
-    <string name="block_confirmation">האם לחסום את \"%s\"?</string>
+    <string name="block_confirmation">האם אתה בטוח שברצונך לחסום את \"%s\"?</string>
     <string name="favorites">מועדפים</string>
     <string name="add_favorites">הוספה למועדפים</string>
     <string name="add_to_favorites">הוסף למועדפים</string>
@@ -244,7 +244,7 @@
     <string name="settings">הגדרות</string>
     <string name="customize_colors">התאם צבעים</string>
     <string name="customize_colors_locked">התאם צבעים (Locked)</string>
-    <string name="customize_widget_colors">התאם צבעי יישומון</string>
+    <string name="customize_widget_colors">התאם את צבעי הווידג\'ט</string>
     <string name="use_english_language">השתמש בשפה האנגלית</string>
     <string name="show_hidden_items">הצג פריטים מוסתרים</string>
     <string name="font_size">גודל פונט</string>
@@ -267,7 +267,7 @@
     <string name="import_settings">יבא הגדרות</string>
     <string name="settings_exported_successfully">הגדרות הוצאו בהצלחה</string>
     <string name="settings_imported_successfully">הגדרות יובאו בהצלחה</string>
-    <string name="start_name_with_surname">התחל שם בשם משפחה</string>
+    <string name="start_name_with_surname">התחל שם עם שם משפחה</string>
     <string name="visibility">נראות</string>
     <string name="security">אבטחה</string>
     <string name="scrolling">גלילה</string>
@@ -904,7 +904,7 @@
     <string name="pdf_viewer_title">Android PdfViewer (מציג PDF)</string>
     <string name="m3u_parser_title">M3U Parser (טיפול בקובץ רשימת השמעה M3u)</string>
     <string name="cryptocurrency">מטבעות קריפטוגרפיים</string>
-    <string name="donate_to_fossify">תרום לFossify</string>
+    <string name="donate_to_fossify">תרום ל-Fossify</string>
     <string name="block_unknown_calls">חסימת שיחות ממספרים לא ידועים</string>
     <string name="platforms">פלטפורמות</string>
     <string name="little_to_no_fee">תשלום מועט עד ללא תשלום כלל</string>
