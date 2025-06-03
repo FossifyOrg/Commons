@@ -277,12 +277,12 @@
     <string name="text">טקסט</string>
     <string name="thumbnails">תמונות ממוזערות</string>
     <string name="exclude">אל תכלול</string>
-    <string name="excluded_folders">תיקיות שלא נכללו</string>
+    <string name="excluded_folders">תיקיות מוחרגות</string>
     <string name="excluded">(לא כלולים)</string>
-    <string name="manage_excluded_folders">נהל תיקיות שלא נכללו</string>
+    <string name="manage_excluded_folders">נהל תיקיות מוחרגות</string>
     <string name="remove_all">להסיר הכל</string>
     <string name="remove_all_description">להסיר את כל התיקיות מרשימת החרגות\? פעולה זו לא תמחק את התיקיות.</string>
-    <string name="temporarily_show_excluded">הצג לא נכלל באופן זמני</string>
+    <string name="temporarily_show_excluded">הצג זמנית פריטים מוחרגים</string>
     <string name="stop_showing_excluded">הפסק את הצגת החרגות</string>
     <string name="default_tab_to_open">לשונית פתיחה בהפעלת האפליקציה</string>
     <string name="contacts_tab">אנשי קשר</string>
@@ -295,13 +295,13 @@
     <string name="restore_all_files">שחזר את כל הקבצים</string>
     <string name="recycle_bin_emptied">סל המחזור רוקן בהצלחה</string>
     <string name="files_restored_successfully">קבצים שוחזרו בהצלחה</string>
-    <string name="empty_recycle_bin_confirmation">האם לרוקן את סל המחזור? הקבצים יימחקו לצמיתות.</string>
+    <string name="empty_recycle_bin_confirmation">האם אתה בטוח שברצונך לרוקן את סל המיחזור? הקבצים יאבדו לצמיתות.</string>
     <string name="recycle_bin_empty">סל המחזור ריק</string>
     <string name="moving_recycle_bin_items_disabled">העברה של פריטי סל המחזור מבוטלת. נא להשתמש בשחזור</string>
     <string name="show_the_recycle_bin">הצג את סל המחזור</string>
     <string name="hide_the_recycle_bin">הסתר את סל המחזור</string>
-    <string name="importing">מייבא...</string>
-    <string name="exporting">מייצא...</string>
+    <string name="importing">מייבא…</string>
+    <string name="exporting">מייצא…</string>
     <string name="importing_successful">ייבוא הצליח</string>
     <string name="exporting_successful">ייצוא הצליח</string>
     <string name="importing_failed">ייבוא נכשל</string>
@@ -402,7 +402,7 @@
     <string name="use_custom_sorting">השתמש במיון מותאם אישית</string>
     <string name="shortcut">קיצור</string>
     <string name="white">לבן</string>
-    <string name="system_default">מערכת</string>
+    <string name="system_default">ברירת מחדל של המערכת</string>
     <string name="select_text">בחר טקסט</string>
     <string name="pin_must_be_4_digits_long">קוד סודי (PIN) חייב להיות באורך של 4 ספרות לפחות</string>
     <string name="do_not_show_again">אל תציג שוב</string>
@@ -582,9 +582,9 @@
     </plurals>
     <string name="add_blocked_number_helper_text">הזן מספר או תבנית (למשל *12345*, +1*8888) כדי לחסום את כל השיחות וההודעות ממספרים התואמים לתבנית.</string>
     <string name="cannot_hide_files">החל מאנדרואיד 11 אי אפשר יותר להסתיר קבצים ותיקיות ככה</string>
-    <string name="upgraded_from_free_gallery">שלום,\nנראה שזה עתה שדרגתם מהגרסה החינמית. לאחר שתהיו מרוצים מהגרסה הזו ואולי העברתם את ההגדרות והמועדפים שלכם, תוכלו להסיר את הגרסה החינמית הישנה כדי למנוע הפעלה מקרית שלה, מכיוון שלא תצטרכו אותה יותר. זה גם ימנע מהודעה זו להופיע.\nתודה!</string>
-    <string name="upgraded_from_free">שלום,\nנראה שזה עתה שדרגתם מהגרסה החינמית. ברגע שתהיו מרוצים מהגרסה הזו ואולי העברתם את הנתונים שלכם, תוכלו להסיר את הגרסה החינמית הישנה כדי למנוע הפעלה מקרית שלה, מכיוון שלא תזדקקו לה יותר. זה גם ימנע את הופעת הדו-שיח הזה.\nתודה!</string>
-    <string name="upgraded_from_free_calendar">שלום,\nנראה שזה עתה שדרגתם מהגרסה החינמית. אם תרצו להעביר את האירועים השמורים מקומית, עליכם לעשות זאת באופן ידני על ידי ייצואם לקובץ .ics בגרסה החינמית של האפליקציה וייבואם לכאן דרך התפריט העליון.\nלאחר שתהיו מרוצים מההגדרות שלכם בגרסת ה-Pro, תוכלו להסיר את הגרסה החינמית הישנה מכיוון שלא תזדקקו לה יותר, וזה גם ימנע את הופעת הדו-שיח הזה.\nתודה!</string>
+    <string name="upgraded_from_free_gallery">שלום,\n\nנראה שזה עתה שדרגתם מהגרסה החינמית. לאחר שתהיו מרוצים מהגרסה הזו ואולי תעבירו את ההגדרות והמועדפים שלכם, תוכלו להסיר את הגרסה החינמית הישנה כדי למנוע הפעלה מקרית שלה, מכיוון שלא תצטרכו אותה יותר. זה גם ימנע מהודעה זו להופיע.\n\nתודה!</string>
+    <string name="upgraded_from_free">שלום,\n\nנראה שזה עתה שדרגתם מהגרסה החינמית. ברגע שתהיו מרוצים מהגרסה הזו ואולי תעבירו את הנתונים שלכם, תוכלו להסיר את הגרסה החינמית הישנה כדי למנוע הפעלה מקרית שלה, מכיוון שלא תזדקקו לה יותר. זה גם ימנע את הופעת הדו-שיח הזה.\n\nתודה!</string>
+    <string name="upgraded_from_free_calendar">שלום,\n\nנראה שזה עתה שדרגתם מהגרסה החינמית. אם תרצו להעביר את האירועים השמורים מקומית, עליכם לעשות זאת באופן ידני על ידי ייצואם לקובץ .ics בגרסה החינמית של האפליקציה וייבואם לכאן דרך התפריט העליון.\nלאחר שתהיו מרוצים מההגדרות שלכם בגרסה המקצועית, תוכלו להסיר את הגרסה החינמית הישנה מכיוון שלא תזדקקו לה יותר, וזה גם ימנע את הופעת הדו-שיח הזה.\n\nתודה!</string>
     <string name="faq_8_text_commons">מכיוון שגרסת האפליקציה שלך אינה מעודכנת עוד, ייתכן שהבאגים שזיהית לעולם לא יתוקנו. כמו כן, לא יתווספו פונקציות חדשות. ניתן לרכוש את גרסת ה-Pro ב-Google Play תמורת סכום כסף קטן. זהו תשלום חד פעמי, מה שאומר שברגע שתרכוש אותה, לעולם לא תצטרך לשלם שוב. אפילו לא לאחר קבלת מכשיר חדש. אם לא תאהב את גרסת ה-Pro, תוכל פשוט להסיר אותה תוך מספר שעות ותקבל את כספך בחזרה באופן אוטומטי. אם תרצה החזר כספי בכל עת מאוחר יותר, פשוט צור איתנו קשר בכתובת hello@fossify.org ותקבל אותו.</string>
     <string name="why_upgrade_footer_one_time_payment">תשלום חד פעמי</string>
     <string name="zip4j_title">Zip4j (דחיסה וחילוץ ZIP)</string>
@@ -676,7 +676,7 @@
     <string name="startup">הפעלה</string>
     <string name="migrating">ממזג</string>
     <string name="usb">USB</string>
-    <string name="confirm_usb_storage_access_text">אנא בחר את התיקייה הראשית של התקן ה-USB במסך הבא, כדי להעניק הרשאה.</string>
+    <string name="confirm_usb_storage_access_text">אנא בחר את התיקייה הראשית של התקן ה-USB במסך הבא, כדי להעניק הרשאה</string>
     <string name="september_short">ספטמבר</string>
     <string name="invite_via">הזמן באמצעות</string>
     <string name="share_text">היי, בוא לבדוק את %1$s ב-%2$s</string>
@@ -855,13 +855,13 @@
     <string name="show_info_bubble">הצגת בועת מידע בעת גלילה של פריטים על ידי גרירת פס הגלילה</string>
     <string name="keep_last_modified">שמור את הערך הישן של שינוי אחרון בפעולות קובץ</string>
     <string name="show_call_confirmation_dialog">הצגת תיבת דו-שיח לאישור שיחה לפני תחילת שיחה</string>
-    <string name="date_time_pattern_info">באפשרותך להשתמש בתבניות הבאות כדי לתת שם לקובץ באופן אוטומטי:\n%Y - שנה\n%M - חודש\n%D - יום\n%h - שעה\n%m - דקה\n%s - שניה</string>
+    <string name="date_time_pattern_info">באפשרותך להשתמש בתבניות הבאות כדי לתת שם לקובץ באופן אוטומטי:\n\n%Y - שנה\n%M - חודש\n%D - יום\n%h - שעה\n%m - דקה\n%s - שניה</string>
     <string name="usb_detected">נראה שהתקן USB מחובר למכשיר שלך. כדי לוודא שהקבצים שבו מוצגים כראוי, עליך להעניק לו הרשאות נוספות.</string>
     <string name="december_short">דצמבר</string>
     <string name="october_short">אוקטובר</string>
     <string name="upgrade_to_pro_long">גרסת האפליקציה שלך לא תעודכן יותר. אנא שדרג לגרסת Pro כדי לקבל תיקונים חדשים ושיפורים נוספים.</string>
-    <string name="upgraded_to_pro_gallery">שלום,\nנראה שכבר יש לכם גם את גרסת ה-Pro של האפליקציה. לאחר שתהיו מרוצים ממנה ואולי העברתם את ההגדרות והמועדפים שלכם, תוכלו להסיר את הגרסה הזו כדי למנוע הפעלה מקרית שלה, מכיוון שלא תצטרכו אותה יותר.\nתודה!</string>
-    <string name="upgraded_from_free_contacts">שלום,\nנראה שזה עתה שדרגתם מהגרסה החינמית. אם היו לכם אנשי קשר שמורים תחת \"%s\", עליכם להעביר אותם ידנית על ידי ייצואם לקובץ .vcf מגרסת האפליקציה החינמית וייבואם לכאן דרך התפריט העליון.\nלאחר שתהיו מרוצים מההגדרות שלכם בגרסת ה-Pro, תוכלו להסיר את הגרסה החינמית הישנה מכיוון שלא תזדקקו לה יותר. זה גם ימנע את הופעת הדו-שיח הזה.\nתודה!</string>
+    <string name="upgraded_to_pro_gallery">שלום,\n\nנראה שכבר יש לכם גם את הגרסה המקצועית של האפליקציה. לאחר שתהיו מרוצים ממנה ואולי תעבירו את ההגדרות והמועדפים שלכם, תוכלו להסיר את הגרסה הזו כדי למנוע הפעלה מקרית שלה, מכיוון שלא תצטרכו אותה יותר.\n\nתודה!</string>
+    <string name="upgraded_from_free_contacts">שלום,\n\nנראה שזה עתה שדרגתם מהגרסה החינמית. אם היו לכם אנשי קשר שמורים תחת \"%s\", עליכם להעביר אותם ידנית על ידי ייצואם לקובץ .vcf מגרסת האפליקציה החינמית וייבואם לכאן דרך התפריט העליון.\nלאחר שתהיו מרוצים מההגדרות שלכם בגרסה המקצועית, תוכלו להסיר את הגרסה החינמית הישנה מכיוון שלא תזדקקו לה יותר. זה גם ימנע את הופעת הדו-שיח הזה.\n\nתודה!</string>
     <string name="donate_new">שלום,&lt;br&gt;&lt;br&gt;מקווים שאתה נהנה מהאפליקציה. היא אינה מכילה פרסומות ואיננו אוספים את הנתונים שלך, אנא תמוך בפיתוח על ידי רכישת &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. כמו כן, כל תכונות האפליקציה, כולל התאמה אישית של צבעים, ייפתחו עבורכם.&lt;br&gt;&lt;br&gt;תודה רבה!</string>
     <string name="hello">שלום :)</string>
     <string name="donate_please"><![CDATA[
@@ -882,7 +882,7 @@
     <string name="translation_polish">הולנדית</string>
     <string name="translation_portuguese">פורטוגזית</string>
     <string name="translation_lithuanian">ליטאית</string>
-    <string name="why_upgrade_pro_version">Pro</string>
+    <string name="why_upgrade_pro_version">מקצועי</string>
     <string name="why_upgrade_no_ads">ללא פרסומות</string>
     <string name="why_upgrade_no_internet_access">ללא גישה לאינטרנט</string>
     <string name="why_upgrade_private_contact_sharing">שיתוף אופציונלי של אנשי קשר פרטיים בתוך האפליקציות שלנו</string>
@@ -963,7 +963,7 @@
     <string name="it_is_free">זה בחינם עד: %s. אם תורידו את זה עד אז, תוכלו להשתמש בזה בחינם לנצח.</string>
     <string name="upgrade_to_pro_long_click">גרסת האפליקציה שלך לא תעודכן יותר. אנא שדרג לגרסת Pro כדי לקבל תיקונים חדשים ושיפורים נוספים על ידי לחיצה כאן.</string>
     <string name="upgrade_calendar">עליך להעביר אירועים המאוחסנים באופן מקומי באופן ידני באמצעות ייצוא לקובץ .ics, ולאחר מכן ייבוא. ניתן למצוא את שני כפתורי הייצוא/ייבוא בתפריט המסך הראשי.</string>
-    <string name="upgraded_to_pro">שלום,\nנראה שכבר יש לכם גם את גרסת ה-Pro של האפליקציה. ברגע שתהיו מרוצים ממנה ואולי העברתם את הנתונים שלכם, תוכלו להסיר את הגרסה הזו כדי למנוע הפעלה מקרית שלה, מכיוון שלא תזדקקו לה יותר.\nתודה!</string>
+    <string name="upgraded_to_pro">שלום,\n\nנראה שכבר יש לכם גם את הגרסה ה-מקצועית של האפליקציה. ברגע שתהיו מרוצים ממנה ואולי תעבירו את הנתונים שלכם, תוכלו להסיר את הגרסה הזו כדי למנוע הפעלה מקרית שלה, מכיוון שלא תזדקקו לה יותר.\n\nתודה!</string>
     <string name="website">אתר אינטרנט</string>
     <string name="about_footer">נוצר עם -❤️ בסלובקיה</string>
     <string name="keyboard_short">מקלדת</string>
@@ -983,7 +983,7 @@
     <string name="why_upgrade_font_size_customization">התאמה אישית של גודל הגופן</string>
     <string name="why_upgrade_duplicate_contact_merging">מיזוג משופר של אנשי קשר כפולים</string>
     <string name="days_letter">%dי</string>
-    <string name="upgraded_from_free_notes">שלום,\nנראה שזה עתה שדרגתם מהגרסה החינמית. אם תרצו להעביר את ההערות שלכם, עליכם לעשות זאת ידנית על ידי ייצואן לקובץ מגרסת האפליקציה החינמית וייבואן לכאן דרך התפריט העליון.\nלאחר שתהיו מרוצים מההגדרות שלכם בגרסת ה-Pro, תוכלו להסיר את הגרסה החינמית הישנה מכיוון שלא תזדקקו לה יותר, וזה גם ימנע את הופעת הדו-שיח הזה.\nתודה!</string>
+    <string name="upgraded_from_free_notes">שלום,\n\nנראה שזה עתה שדרגתם מהגרסה החינמית. אם תרצו להעביר את ההערות שלכם, עליכם לעשות זאת ידנית על ידי ייצואן לקובץ מגרסת האפליקציה החינמית וייבואן לכאן דרך התפריט העליון. \nלאחר שתהיו מרוצים מההגדרות שלכם בגרסה המקצועית, תוכלו להסיר את הגרסה החינמית הישנה מכיוון שלא תזדקקו לה יותר, וזה גם ימנע את הופעת הדו-שיח הזה.\n\nתודה!</string>
     <string name="help_us">עזרו לנו</string>
     <string name="version_placeholder">גירסא %s</string>
     <string name="faq_6_title_commons">סמל משגר האפליקציות נעלם. מה אני יכול לעשות?</string>
@@ -1056,7 +1056,7 @@
     <string name="welcome_to_app_name">ברוכים הבאים ל-%s!</string>
     <string name="indicator_fast_scroll_title">Indicator Fast Scroll (אותיות על פס הגלילה)</string>
     <string name="audio_record_view_title">Audio Record View (ויזואליזציה של אודיו)</string>
-    <string name="pdf_view_pager_title">PDFViewPager (PDF viewer)</string>
+    <string name="pdf_view_pager_title">PDFViewPager (מציג PDF)</string>
     <plurals name="hours_before">
         <item quantity="one">לפני שעה %d</item>
         <item quantity="two">לפני %d שעות</item>
@@ -1079,5 +1079,9 @@
     <string name="reminder_warning">אנא ודא שהתזכורות פועלות כראוי לפני שאתה סומך עליהן. בדוק את הגדרות הסוללה וההתראות של המכשיר שלך, אם אין שום דבר שחוסם את התזכורות, או סוגר את האפליקציה ברקע.</string>
     <string name="alarm_goes_off_in">זמן שנותר עד שהשעון המעורר יצלצל:\n%s</string>
     <string name="trial_expired">תקופת הניסיון הסתיימה</string>
-    <string name="contributors_label">&lt;![CDATA[\nרשימה זו מכילה את כל מי שסייע באופן ניכר לכל אפליקציה בחבילת Fossify, לא רק לזו. התרגומים מטופלים על ידי מתנדבים, ספרו לנו אם גם אתם רוצים לעזור. המדריך לתרגום נמצא בכתובת &lt;a href=\"https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file\"&gt;</string>
+    <string name="contributors_label"><![CDATA[
+            רשימה זו כוללת את כל מי שעזר באופן בולט לכל אפליקציה בחבילת Fossify, לא רק זו. תרגומים מטופלים על ידי מתנדבים,
+            ספרו לנו אם גם אתם רוצים לעזור. המדריך לתרגום נמצא בכתובת <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">באתר זה</a>, או פשוט צרו איתנו קשר בכתובת <a href="mailto:hello@fossify.org">hello@fossify.org</a> אם יש לכם שאלות.
+            תודה לכל התורמים ולתומכים אחרים!
+        ]]></string>
 </resources>
