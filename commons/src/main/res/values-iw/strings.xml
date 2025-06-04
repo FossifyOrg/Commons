@@ -13,7 +13,7 @@
     <string name="edit_with">עריכה באמצעות</string>
     <string name="edit">עריכה</string>
     <string name="no_app_found">לא נמצאה אפליקציה מתאימה</string>
-    <string name="set_as">קבע כ</string>
+    <string name="set_as">שימוש בתור</string>
     <string name="copy_to_clipboard">העתקה ללוח</string>
     <string name="copy_number_to_clipboard">העתק את המספר ללוח</string>
     <string name="value_copied_to_clipboard">הערך הועתק</string>
@@ -67,7 +67,7 @@
     <string name="no_storage_permissions">נדרש הרשאות אחסון</string>
     <string name="no_contacts_permission">נדרש הרשאות אנשי קשר</string>
     <string name="no_camera_permissions">נדרש הרשאות מצלמה</string>
-    <string name="no_audio_permissions">נדרש הרשאות אודיו</string>
+    <string name="no_audio_permissions">נדרש הרשאות שמע</string>
     <string name="rename_file">שנה שם קובץ</string>
     <string name="rename_folder">שנה שם תיקייה</string>
     <string name="rename_file_error">לא ניתן לשנות את שם הקובץ</string>
@@ -138,7 +138,7 @@
     <string name="path">נתיב</string>
     <string name="items_selected">פריטים נבחרים</string>
     <string name="resolution">רזולוצייה</string>
-    <string name="artist">אומן</string>
+    <string name="artist">אמן</string>
     <string name="album">אלבום</string>
     <string name="camera">מצלמה</string>
     <string name="song_title">כותר שיר</string>
@@ -179,7 +179,7 @@
     <string name="temporarily_show_hidden">הצג הכל באופן זמני</string>
     <string name="stop_showing_hidden">הפסק הצגה של מדיה</string>
     <string name="maximum_share_reached">אינך יכול לשתף כל כך הרבה תוכן בבת אחת</string>
-    <string name="empty_and_disable_recycle_bin">רוקן והשבת את סל המחזור</string>
+    <string name="empty_and_disable_recycle_bin">רוקן והשבת את האשפה</string>
     <string name="undo">שחזר</string>
     <string name="redo">בצע מחדש</string>
     <string name="print">הדפס</string>
@@ -204,9 +204,9 @@
     <string name="full_name">שם מלא</string>
     <string name="proceed_with_deletion">להמשיך במחיקה?</string>
     <string name="deletion_confirmation">האם למחוק את %s?</string>
-    <string name="move_to_recycle_bin_confirmation">האם להעביר את %s לסל המחזור?</string>
+    <string name="move_to_recycle_bin_confirmation">האם להעביר את %s לאשפה?</string>
     <string name="are_you_sure_delete">האם למחוק פריט זה?</string>
-    <string name="are_you_sure_recycle_bin">האם להעביר פריט זה לסל המחזור?</string>
+    <string name="are_you_sure_recycle_bin">האם אתה בטוח שברצונך להעביר פריט זה לאשפה?</string>
     <string name="yes">כן</string>
     <string name="no">לא</string>
     <string name="maybe">אולי</string>
@@ -259,9 +259,9 @@
     <string name="sunday_first">השבוע מתחיל ביום ראשון</string>
     <string name="widgets">יישומונים</string>
     <string name="vibrate_on_button_press">רטט בעת לחיצה על כפתורים</string>
-    <string name="move_items_into_recycle_bin">העבר פריטים לסל המיחזור במקום למחוק לצמיתות</string>
-    <string name="recycle_bin_cleaning_interval">זמן ריקון של סל המחזור</string>
-    <string name="empty_recycle_bin">רוקן את סל המחזור</string>
+    <string name="move_items_into_recycle_bin">העבר פריטים לאשפה במקום למחוק לצמיתות</string>
+    <string name="recycle_bin_cleaning_interval">זמן ריקון אשפה</string>
+    <string name="empty_recycle_bin">רוקן את האשפה</string>
     <string name="force_portrait_mode">אלץ מצב אנכי</string>
     <string name="export_settings">ייצא הגדרות</string>
     <string name="import_settings">יבא הגדרות</string>
@@ -272,11 +272,11 @@
     <string name="security">אבטחה</string>
     <string name="scrolling">גלילה</string>
     <string name="file_operations">פעולות קובץ</string>
-    <string name="recycle_bin">סל מחזור</string>
+    <string name="recycle_bin">אשפה</string>
     <string name="saving_label">שומר</string>
     <string name="text">טקסט</string>
     <string name="thumbnails">תמונות ממוזערות</string>
-    <string name="exclude">אל תכלול</string>
+    <string name="exclude">החרג</string>
     <string name="excluded_folders">תיקיות מוחרגות</string>
     <string name="excluded">(מוחרגים)</string>
     <string name="manage_excluded_folders">נהל תיקיות מוחרגות</string>
@@ -293,13 +293,13 @@
     <string name="restore_this_file">שחזר קובץ זה</string>
     <string name="restore_selected_files">שחזר קבצים נבחרים</string>
     <string name="restore_all_files">שחזר את כל הקבצים</string>
-    <string name="recycle_bin_emptied">סל המחזור רוקן בהצלחה</string>
+    <string name="recycle_bin_emptied">האשפה רוקנה</string>
     <string name="files_restored_successfully">קבצים שוחזרו בהצלחה</string>
-    <string name="empty_recycle_bin_confirmation">האם אתה בטוח שברצונך לרוקן את סל המיחזור? הקבצים יאבדו לצמיתות.</string>
-    <string name="recycle_bin_empty">סל המחזור ריק</string>
-    <string name="moving_recycle_bin_items_disabled">העברה של פריטי סל המחזור מבוטלת. נא להשתמש בשחזור</string>
-    <string name="show_the_recycle_bin">הצג את סל המחזור</string>
-    <string name="hide_the_recycle_bin">הסתר את סל המחזור</string>
+    <string name="empty_recycle_bin_confirmation">האם אתה בטוח שברצונך לרוקן את האשפה? הקבצים יאבדו לצמיתות.</string>
+    <string name="recycle_bin_empty">אין כלום באשפה</string>
+    <string name="moving_recycle_bin_items_disabled">לא ניתן להעביר פריטים באשפה. נא להשתמש בשחזור</string>
+    <string name="show_the_recycle_bin">הצג את האשפה</string>
+    <string name="hide_the_recycle_bin">הסתר את האשפה</string>
     <string name="importing">מייבא…</string>
     <string name="exporting">מייצא…</string>
     <string name="importing_successful">ייבוא הצליח</string>
@@ -476,11 +476,11 @@
     <string name="prevent_phone_from_sleeping">מנע מהטלפון לישון בזמן שהאפליקציה פעילה (בקדמת המסך)</string>
     <string name="password_protect_file_deletion">הגן באמצעות סיסמה על מחיקת והעברת קבצים</string>
     <string name="clear_cache">נקה מטמון</string>
-    <string name="exclude_folder">אל תכלול תיקיה</string>
+    <string name="exclude_folder">החרג תיקיה</string>
     <string name="files_tab">קבצים</string>
     <string name="recent_files_tab">קבצים אחרונים</string>
-    <string name="open_the_recycle_bin">פתח את סל המחזור</string>
-    <string name="skip_the_recycle_bin">דלג על סל המחזור, ומחק קבצים ישירות (לצמיתות)</string>
+    <string name="open_the_recycle_bin">פתח את האשפה</string>
+    <string name="skip_the_recycle_bin">דלג על האשפה, ומחק קבצים ישירות (לצמיתות)</string>
     <string name="backups">גיבויים</string>
     <string name="enable_automatic_backups">אפשר גיבויים אוטומטיים</string>
     <string name="manage_automatic_backups">נהל גיבויים אוטומטיים</string>
@@ -507,7 +507,7 @@
     <string name="two">שתיים</string>
     <string name="one">אחת</string>
     <string name="choose_file">בחר קובץ</string>
-    <string name="audio">אודיו</string>
+    <string name="audio">שמע</string>
     <string name="home">בית</string>
     <string name="mobile">נייד</string>
     <string name="main_number">ראשי</string>
@@ -521,10 +521,10 @@
     <string name="wallpapers">טפטים</string>
     <string name="disclaimer">הצהרת אחריות</string>
     <string name="app_corrupt">אפליקציה פגומה</string>
-    <string name="choose_video">בחר וידיאו</string>
+    <string name="choose_video">בחר סרטון</string>
     <string name="choose_contact">בחר איש קשר</string>
-    <string name="record_audio">הקלט אודיו</string>
-    <string name="record_video">הקלט וידיאו</string>
+    <string name="record_audio">הקלט שמע</string>
+    <string name="record_video">הקלט סרטון</string>
     <string name="home_fax">פקס בית</string>
     <string name="grid">רשת</string>
     <string name="uneven_grid">רשת לא אחידה</string>
@@ -692,7 +692,7 @@
     <string name="faq_8_title_commons">למה כדאי לי לשדרג לגרסת ה-Pro?</string>
     <string name="translation_central_kurdish">כורדית מרכזית</string>
     <string name="translation_bengali">בנגלית</string>
-    <string name="faq_5_text_commons">אם הם באמת נמחקו, לא ניתן לעשות זאת. עם זאת, כברירת מחדל, סל מיחזור מופעל, והוא יגרום לקבצים פשוט להיות מועברים לסל במקום למחוק אותם.</string>
+    <string name="faq_5_text_commons">אם הם באמת נמחקו, לא ניתן לעשות זאת. עם זאת, כברירת מחדל, האשפה מופעלת, וזה יגרום לקבצים פשוט להיות מועברים לאשפה במקום למחוק אותם.</string>
     <string name="translation_korean">קוראנית</string>
     <string name="translation_hindi">הינדי</string>
     <string name="translation_galician">גליציאנית</string>
@@ -807,7 +807,7 @@
     <string name="search_in_placeholder">חיפוש ב-%s</string>
     <string name="allow_notifications_reminders">עליך לאפשר לאפליקציה לשלוח התראות, אחרת היא לא תוכל לשלוח לך תזכורות.</string>
     <string name="allow_notifications_music_player">עליך לאפשר לאפליקציה לשלוח התראות, אחרת היא לא תוכל להשמיע שירים.</string>
-    <string name="allow_notifications_voice_recorder">עליך לאפשר לאפליקציה לשלוח התראות, אחרת היא לא תוכל להקליט אודיו.</string>
+    <string name="allow_notifications_voice_recorder">עליך לאפשר לאפליקציה לשלוח התראות, אחרת היא לא תוכל להקליט שמע.</string>
     <string name="allow_location_permission">עליך לאפשר לאפליקציה גישה למיקומך, אחרת היא לא תדע זאת.</string>
     <string name="prepend_filenames">הוסף שמות קבצים לפני</string>
     <string name="append_filenames">הוספת שמות קבצים</string>
@@ -941,9 +941,9 @@
         <item quantity="other">%d שנים</item>
     </plurals>
     <plurals name="moving_items_into_bin">
-        <item quantity="one">מעביר פריט %d לסל המיחזור</item>
-        <item quantity="two">מעביר %d פריטים לסל המחזור</item>
-        <item quantity="other">מעביר %d פריטים לסל המחזור</item>
+        <item quantity="one">מעביר פריט %d לאשפה</item>
+        <item quantity="two">מעביר %d פריטים לאשפה</item>
+        <item quantity="other">מעביר %d פריטים לאשפה</item>
     </plurals>
     <string name="faq_3_title_commons">מחקתי כמה קבצים בטעות, איך אני יכול לשחזר אותם?</string>
     <string name="faq_3_text_commons">למרבה הצער, לא ניתן. קבצים נמחקים באופן מיידי לאחר תיבת הדו-שיח לאישור, אין פח אשפה זמין.</string>
