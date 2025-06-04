@@ -157,7 +157,7 @@
     <string name="discard">השלך</string>
     <string name="undo_changes">בטל שינויים</string>
     <string name="undo_changes_confirmation">האם לבטל שינויים?</string>
-    <string name="save_before_closing">ישנם שינויים לא שומרים. לשמור לפני יציאה?</string>
+    <string name="save_before_closing">ישנם שינויים לא שמורים. לשמור לפני יציאה?</string>
     <string name="light_theme">בהיר</string>
     <string name="dark_theme">כהה</string>
     <string name="dark_red">אדום כהה</string>
@@ -210,7 +210,7 @@
     <string name="yes">כן</string>
     <string name="no">לא</string>
     <string name="maybe">אולי</string>
-    <string name="enter_pin">הכנס PIN</string>
+    <string name="enter_pin">הכנס קוד PIN</string>
     <string name="please_enter_pin">נא להכניס PIN</string>
     <string name="wrong_pin">שגיאה ב PIN</string>
     <string name="repeat_pin">חזור על PIN</string>
@@ -278,7 +278,7 @@
     <string name="thumbnails">תמונות ממוזערות</string>
     <string name="exclude">אל תכלול</string>
     <string name="excluded_folders">תיקיות מוחרגות</string>
-    <string name="excluded">(לא כלולים)</string>
+    <string name="excluded">(מוחרגים)</string>
     <string name="manage_excluded_folders">נהל תיקיות מוחרגות</string>
     <string name="remove_all">להסיר הכל</string>
     <string name="remove_all_description">להסיר את כל התיקיות מרשימת החרגות\? פעולה זו לא תמחק את התיקיות.</string>
@@ -471,7 +471,7 @@
     <string name="use_same_snooze">השתמש תמיד באותו מרווח זמן לנודניק</string>
     <string name="manage_shown_tabs">נהל כרטיסיות מוצגות</string>
     <string name="list_view">תצוגת רשימה</string>
-    <string name="password_protect_whole_app">הגן באמצעות סיסמה על כל האפליקציה</string>
+    <string name="password_protect_whole_app">הגן על היישום באמצעות סיסמה</string>
     <string name="password_protect_hidden_items">הגן באמצעות סיסמה על האפשרות לראות פריטים מוסתרים</string>
     <string name="prevent_phone_from_sleeping">מנע מהטלפון לישון בזמן שהאפליקציה פעילה (בקדמת המסך)</string>
     <string name="password_protect_file_deletion">הגן באמצעות סיסמה על מחיקת והעברת קבצים</string>
