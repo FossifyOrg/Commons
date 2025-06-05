@@ -71,9 +71,9 @@
     <string name="choose_file">Escolher ficheiro</string>
     <string name="record_audio">Gravar áudio</string>
     <string name="record_video">Gravar vídeo</string>
-    <string name="updating">Atualizando…</string>
+    <string name="updating">A atualizar…</string>
     <string name="phone_storage">Armazenamento do telefone</string>
-    <string name="phone_storage_hidden">Armazenamento do telefone (não visível por outros aplicativos)</string>
+    <string name="phone_storage_hidden">Armazenamento do telefone (não visível por outras aplicações)</string>
     <string name="birthday">Data de Nascimento</string>
     <string name="anniversary">Data Especial</string>
     <string name="home">Residencial</string>
