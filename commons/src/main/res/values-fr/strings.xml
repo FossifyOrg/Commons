@@ -22,8 +22,7 @@
     <string name="copy_to_clipboard">Copier dans le presse-papiers</string>
     <string name="copy_number_to_clipboard">Copier le numéro dans le presse-papiers</string>
     <string name="value_copied_to_clipboard">Valeur copiée dans le presse-papiers</string>
-    <string name="value_copied_to_clipboard_show">Valeur copiée dans le presse-papiers :
-\n%s</string>
+    <string name="value_copied_to_clipboard_show">Valeur copiée dans le presse-papiers :\n%s</string>
     <string name="dial_number">Composer le numéro</string>
     <string name="unknown">Inconnu</string>
     <string name="always">Toujours</string>
@@ -924,7 +923,7 @@ j\'espère que vous appréciez l\'application. Elle ne contient pas d\'annonces,
         ]]></string>
     <string name="frequently_asked_questions">Foire aux questions</string>
     <string name="before_asking_question">Avant de poser une question, veuillez tout d\'abord consulter la</string>
-    <string name="faq_1_title_commons">Comment se fait-il que je ne vois pas ce widget d\'applications dans la liste des widgets \?</string>
+    <string name="faq_1_title_commons">Comment se fait-il que je ne voie pas ce widget d\'application dans la liste des widgets ?</string>
     <string name="faq_1_text_commons">C\'est probablement parce que vous avez déplacé l\'application sur une carte SD. Dans ce cas, il existe une limitation du système Android qui masque les widgets des applications concernées. La seule solution consiste à déplacer l\'application vers le stockage interne via les paramètres de votre appareil.</string>
     <string name="faq_2_title_commons">Je souhaiterais vous apporter mon soutien, mais je ne peux pas vous donner d\'argent. Y a-t-il autre chose que je puisse faire \?</string>
     <string name="faq_3_title_commons">J\'ai supprimé certains fichiers par erreur. Comment puis-je les récupérer \?</string>
