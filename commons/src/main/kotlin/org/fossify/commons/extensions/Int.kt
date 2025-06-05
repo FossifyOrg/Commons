@@ -6,15 +6,17 @@ import android.graphics.Color
 import android.media.ExifInterface
 import android.os.Handler
 import android.os.Looper
+import androidx.core.graphics.ColorUtils
 import androidx.core.os.postDelayed
 import org.fossify.commons.helpers.DARK_GREY
+import org.fossify.commons.helpers.WCAG_AA_NORMAL
 import java.text.DecimalFormat
 import java.util.Locale
 import java.util.Random
 
 fun Int.getContrastColor(): Int {
-    val y = (299 * Color.red(this) + 587 * Color.green(this) + 114 * Color.blue(this)) / 1000
-    return if (y >= 149 && this != Color.BLACK) DARK_GREY else Color.WHITE
+    val luminance = ColorUtils.calculateLuminance(this)
+    return if (luminance > 0.5) DARK_GREY else Color.WHITE
 }
 
 fun Int.toHex() = String.format("#%06X", 0xFFFFFF and this).uppercase(Locale.getDefault())
@@ -192,11 +194,22 @@ fun Int.countdown(intervalMillis: Long, callback: (count: Int) -> Unit) {
     }
 }
 
-fun Int.adjustSimColorForBackground(bg: Int): Int {
-    val hsv = FloatArray(3)
-    Color.colorToHSV(bg, hsv)
-    if (hsv[2] < 0.5) {
-        return this.lightenColor(24)
+fun Int.adjustForContrast(
+    background: Int,
+    minContrast: Double = WCAG_AA_NORMAL,
+): Int {
+    var color = this
+    var alpha = 0f
+    val target = if (ColorUtils.calculateLuminance(background) < 0.5) {
+        Color.WHITE
+    } else {
+        Color.BLACK
     }
-    return this
+
+    while (ColorUtils.calculateContrast(color, background) < minContrast && alpha < 1f) {
+        alpha += 0.05f
+        color = ColorUtils.blendARGB(this, target, alpha)
+    }
+
+    return color
 }
