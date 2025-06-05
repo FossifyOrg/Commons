@@ -473,7 +473,7 @@
     <string name="list_view">תצוגת רשימה</string>
     <string name="password_protect_whole_app">הגן על היישום באמצעות סיסמה</string>
     <string name="password_protect_hidden_items">הגן באמצעות סיסמה על האפשרות לראות פריטים מוסתרים</string>
-    <string name="prevent_phone_from_sleeping">מנע מהטלפון לישון בזמן שהאפליקציה פעילה (בקדמת המסך)</string>
+    <string name="prevent_phone_from_sleeping">מנע מהטלפון לישון בזמן שהאפליקציה פתוחה בחזית</string>
     <string name="password_protect_file_deletion">הגן באמצעות סיסמה על מחיקת והעברת קבצים</string>
     <string name="clear_cache">נקה מטמון</string>
     <string name="exclude_folder">החרג תיקיה</string>
