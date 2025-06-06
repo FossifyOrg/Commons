@@ -125,8 +125,8 @@
     <string name="overwrite">דרוס</string>
     <string name="skip">דלג</string>
     <string name="apply_to_all">החל על הכל</string>
-    <string name="select_folder">בחר/י תיקייה</string>
-    <string name="select_file">בחר/י קובץ</string>
+    <string name="select_folder">בחר תיקייה</string>
+    <string name="select_file">בחר קובץ</string>
     <string name="confirm_storage_access_title">אישור גישה לאחסון חיצוני</string>
     <string name="confirm_storage_access_text">נא לבחור את תיקיית האב של כרטיס ה SD במסך הבא, כדי להעניק הרשאות גישה</string>
     <string name="confirm_storage_access_text_sd">אם לא מופיע כרטיס ה SD, ניתן לנסות</string>
