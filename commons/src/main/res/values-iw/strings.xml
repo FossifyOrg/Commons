@@ -572,7 +572,7 @@
     <string name="change_view_type">שינוי סוג תצוגה</string>
     <string name="select_photo">בחר תמונה</string>
     <string name="loading">טוען…</string>
-    <string name="show_line_numbers">הצג מספר שורה</string>
+    <string name="show_line_numbers">הצג מספרי שורה</string>
     <string name="column_count">מספר העמודות</string>
     <string name="list">רשימה</string>
     <plurals name="items">
@@ -635,7 +635,7 @@
     <string name="view_contact_details">הצג פרטי קשר</string>
     <string name="contact_details">פרטי איש קשר</string>
     <string name="add_contact">הוספת איש קשר</string>
-    <string name="hide_line_numbers">הסתר שורת מספרים</string>
+    <string name="hide_line_numbers">הסתר מספרי שורה</string>
     <string name="reorder_items_by_dragging">סידור מחדש של פריטים על ידי גרירה</string>
     <string name="sort_numeric_parts">מיין חלקים מספריים לפי ערך ממשי</string>
     <string name="do_not_ask_again">אל תשאל שוב בסשיין זה</string>
