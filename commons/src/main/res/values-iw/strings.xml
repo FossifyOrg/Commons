@@ -674,7 +674,7 @@
     </plurals>
     <string name="during_day_at">במהלך היום בשעה %1$02d:%2$02d</string>
     <string name="startup">הפעלה</string>
-    <string name="migrating">ממזג</string>
+    <string name="migrating">מיזוג</string>
     <string name="usb">USB</string>
     <string name="confirm_usb_storage_access_text">אנא בחר את התיקייה הראשית של התקן ה-USB במסך הבא, כדי להעניק הרשאה</string>
     <string name="september_short">ספטמבר</string>
