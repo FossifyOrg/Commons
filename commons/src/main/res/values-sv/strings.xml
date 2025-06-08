@@ -389,7 +389,7 @@
     <string name="wallpapers">Bakgrunder</string>
     <string name="show_line_numbers">Visa radnummer</string>
     <string name="hide_line_numbers">Dölj radnummer</string>
-    <string name="sleep_timer">Insomningstimer</string>
+    <string name="sleep_timer">Sovtimer</string>
     <string name="unblock">Avblockera</string>
     <string name="sort_by">Sortera efter</string>
     <string name="name">Namn</string>
@@ -1080,4 +1080,5 @@
     <string name="rate_this_app">Betygsätt denna app</string>
     <string name="artist">Artist</string>
     <string name="hours_letter">%dh</string>
+    <string name="support">Support</string>
 </resources>
