@@ -978,4 +978,6 @@
     <string name="purchase_simple_thank_you">Achiziționați Mulțumesc Fossify (Thank You)</string>
     <string name="general_settings">General</string>
     <string name="text">Text</string>
+    <string name="allow_notifications_reminders">Trebuie să permiți aplicației să afișeze notificări, altfel nu va putea afișa memento-uri.</string>
+    <string name="transparent">Transparent</string>
 </resources>
