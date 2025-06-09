@@ -26,8 +26,6 @@ updates:
       prefix: "chore"
       prefix-development: "chore"
       include: "scope"
-    assignees:
-      - "naveensingh"
 
   - package-ecosystem: "github-actions"
     directory: "/"
@@ -37,5 +35,3 @@ updates:
       prefix: "chore"
       prefix-development: "chore"
       include: "scope"
-    assignees:
-      - "naveensingh"
