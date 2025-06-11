@@ -335,7 +335,9 @@
     <string name="app_icon_color_warning">Dikkat: Bazı başlatıcılar uygulama simgesi özelleştirmesini doğru şekilde yapamayabilir. Simge kaybolursa, uygulamayı Google Play veya erişilebiliyorsa bir widget aracılığıyla başlatmayı deneyin. Başlattıktan sonra, öntanımlı #106D1F yeşil simge rengini geri yükleyin. Aşırı durumlarda, uygulamanın yeniden kurulması gerekebilir.</string>
     <string name="global_theme_success">"Renkler başarıyla güncellendi. 'Paylaşılan' adlı yeni bir Tema eklendi, lütfen gelecekte tüm uygulama renklerini güncellemek için onu kullanın."</string>
     <string name="shared_theme_note">Pro uygulama sürümünü kullanıyor olsanız bile, teknik nedenlerden dolayı hala Fossify Teşekkürler\'e ihtiyacınız olduğunu unutmayın. Renk eşitlemesini o yapar.</string>
-    <string name="purchase_thank_you">Bu işlevin kilidini açmak ve geliştirmeyi desteklemek için lütfen &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Teşekkürler&lt;/a&gt;\'i satın alın. Teşekkürler!</string>
+    <string name="purchase_thank_you"><![CDATA[
+            Lütfen bu işlevin kilidini açmak ve gelişimi desteklemek için <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Teşekkürler</a>'i satın alın. Teşekkürler!
+        ]]></string>
     <string name="light_theme">Aydınlık</string>
     <string name="dark_theme">Karanlık</string>
     <string name="auto_theme">Otomatik</string>
@@ -1088,4 +1090,12 @@
     <string name="theme_and_colors">Tema ve renkler</string>
     <string name="known_issues">Bilinen sorunlar</string>
     <string name="translation_kabyle">Zuvaya</string>
+    <string name="number_of_items">Öge sayısı</string>
+    <string name="confirm_storage_access_restricted_text">Sistem kısıtlamaları nedeniyle, bu klasör müsait değil.</string>
+    <string name="confirm_storage_access_restricted_text_open_system">Sistem uygulamasında aç</string>
+    <string name="reorder_items_by_dragging">Ögeleri sürükleyerek yeniden sıralayın</string>
+    <string name="confirm_storage_access_restricted_text_not_found">Sistem dosya yöneticisi uygulaması bulunamadı.</string>
+    <string name="days_letter">%dd</string>
+    <string name="more_fossify_apps">Daha fazla Fossify uygulaması</string>
+    <string name="rate_this_app">Uygulamayı değerlendirin</string>
 </resources>
