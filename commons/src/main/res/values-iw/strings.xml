@@ -80,7 +80,7 @@
     <string name="filename_cannot_be_empty">שם קובץ לא יכול להיות ריק</string>
     <string name="filename_invalid_characters">שם קובץ כולל תווים לא חוקיים</string>
     <string name="filename_invalid_characters_placeholder">שם קובץ \'%s\' מכיל תווים לא חוקיים</string>
-    <string name="extension_cannot_be_empty">תוסף לא יכול להיות ריק</string>
+    <string name="extension_cannot_be_empty">סיומת לא יכולה להיות ריקה.</string>
     <string name="source_file_doesnt_exist">קובץ מקור %s לא קיים</string>
     <string name="pattern_renaming">דפוס</string>
     <string name="string_to_add">מחרוזת להוספה</string>
@@ -194,7 +194,7 @@
     <string name="last_modified">עודכן לאחרונה</string>
     <string name="title">כותרת</string>
     <string name="filename">שם קובץ</string>
-    <string name="extension">תוסף</string>
+    <string name="extension">סיומת</string>
     <string name="random">אקראי</string>
     <string name="sort_randomly">מיין בצורה אקראית</string>
     <string name="use_for_this_folder">השתמש בתיקייה זו בלבד</string>
