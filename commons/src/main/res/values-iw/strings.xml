@@ -80,7 +80,7 @@
     <string name="filename_cannot_be_empty">שם קובץ לא יכול להיות ריק</string>
     <string name="filename_invalid_characters">שם קובץ כולל תווים לא חוקיים</string>
     <string name="filename_invalid_characters_placeholder">שם קובץ \'%s\' מכיל תווים לא חוקיים</string>
-    <string name="extension_cannot_be_empty">תוסף לא יכול להיות ריק</string>
+    <string name="extension_cannot_be_empty">סיומת לא יכולה להיות ריקה.</string>
     <string name="source_file_doesnt_exist">קובץ מקור %s לא קיים</string>
     <string name="pattern_renaming">דפוס</string>
     <string name="string_to_add">מחרוזת להוספה</string>
@@ -125,8 +125,8 @@
     <string name="overwrite">דרוס</string>
     <string name="skip">דלג</string>
     <string name="apply_to_all">החל על הכל</string>
-    <string name="select_folder">בחר/י תיקייה</string>
-    <string name="select_file">בחר/י קובץ</string>
+    <string name="select_folder">בחר תיקייה</string>
+    <string name="select_file">בחר קובץ</string>
     <string name="confirm_storage_access_title">אישור גישה לאחסון חיצוני</string>
     <string name="confirm_storage_access_text">נא לבחור את תיקיית האב של כרטיס ה SD במסך הבא, כדי להעניק הרשאות גישה</string>
     <string name="confirm_storage_access_text_sd">אם לא מופיע כרטיס ה SD, ניתן לנסות</string>
@@ -194,7 +194,7 @@
     <string name="last_modified">עודכן לאחרונה</string>
     <string name="title">כותרת</string>
     <string name="filename">שם קובץ</string>
-    <string name="extension">תוסף</string>
+    <string name="extension">סיומת</string>
     <string name="random">אקראי</string>
     <string name="sort_randomly">מיין בצורה אקראית</string>
     <string name="use_for_this_folder">השתמש בתיקייה זו בלבד</string>
@@ -674,7 +674,7 @@
     </plurals>
     <string name="during_day_at">במהלך היום בשעה %1$02d:%2$02d</string>
     <string name="startup">הפעלה</string>
-    <string name="migrating">ממזג</string>
+    <string name="migrating">מיזוג</string>
     <string name="usb">USB</string>
     <string name="confirm_usb_storage_access_text">אנא בחר את התיקייה הראשית של התקן ה-USB במסך הבא, כדי להעניק הרשאה</string>
     <string name="september_short">ספטמבר</string>
