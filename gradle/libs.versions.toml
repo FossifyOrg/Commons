@@ -27,7 +27,7 @@ reprint = "2cb206415d"
 #recyclerviewFastscroller
 recyclerviewFastscroller = "5a95285b1f"
 #rtlViewpager
-rtlViewpager = "940f12724f"
+rtlViewpager = "2.0.2"
 #Compose
 composeActivity = "1.9.3"
 compose = "1.7.6"
@@ -94,7 +94,7 @@ material = { module = "com.google.android.material:material", version.ref = "mat
 patternLockView = { module = "com.github.aritraroy:patternLockView", version.ref = "patternLockView" }
 reprint = { module = "com.github.tibbi:reprint", version.ref = "reprint" }
 recyclerView-fastScroller = { module = "com.github.tibbi:RecyclerView-FastScroller", version.ref = "recyclerviewFastscroller" }
-rtl-viewpager = { module = "com.github.duolingo:rtl-viewpager", version.ref = "rtlViewpager" }
+rtl-viewpager = { module = "com.github.naveensingh:rtl-viewpager", version.ref = "rtlViewpager" }
 ez-vcard = { module = "com.googlecode.ez-vcard:ez-vcard", version.ref = "ezVcard" }
 gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
 joda-time = { module = "joda-time:joda-time", version.ref = "jodaTime" }
